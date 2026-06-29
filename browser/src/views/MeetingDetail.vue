@@ -72,11 +72,11 @@
           <div class="std-results__name">
             <span v-if="res.is_acclamation" class="std-results__type type-acclamation">Acclamation</span>
             <template v-else>
-              <span>{{ res.id }}</span>
+              <span>{{ res.identifier || res.id }}</span>
               <span class="std-results__type">Plenary</span>
             </template>
           </div>
-          <div class="std-results__title meeting-card__title">{{ res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + res.id) }}</div>
+          <div class="std-results__title meeting-card__title">{{ res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + (res.identifier || res.id)) }}</div>
           <div v-if="res.snippet" class="std-results__snippet snippet-text">{{ res.snippet }}</div>
           
           <div class="card-footer">
