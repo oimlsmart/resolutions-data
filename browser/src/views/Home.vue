@@ -8,7 +8,7 @@
       
       <div class="hero-content">
         <h1 class="hero-title animate-up" style="--nth: 1">
-          Twenty Years of <br/> <span class="text-blue-accent">OIML Resolutions</span>
+          Resolutions &amp; Decisions <br/> <span class="text-blue-accent">of the CIML &amp; OIML Conference</span>
         </h1>
         
         <p class="hero-subtitle animate-up" style="--nth: 2">
@@ -34,11 +34,11 @@
             <span class="stat-label">Meetings</span>
           </div>
           <div class="stat-item">
-            <span class="stat-value">{{ formatNumber(animStandards) }}</span>
-            <span class="stat-label">Published Standards</span>
+            <span class="stat-value">{{ formatNumber(animMembers) }}</span>
+            <span class="stat-label">Member States</span>
           </div>
           <div class="stat-item">
-            <span class="stat-value">{{ formatNumber(animEstablished) }}</span>
+            <span class="stat-value">{{ formatYear(animEstablished) }}</span>
             <span class="stat-label">Established</span>
           </div>
         </div>
@@ -174,7 +174,7 @@
             <div class="std-results__name">
               <span v-if="res.is_acclamation" class="std-results__type type-acclamation">Acclamation</span>
               <template v-else>
-                <span>{{ res.id }}</span>
+                <span>{{ res.identifier || res.id }}</span>
                 <span class="std-results__type">Plenary</span>
               </template>
             </div>
@@ -182,7 +182,7 @@
           </div>
 
           <div class="std-results__title meeting-card__title">
-            <span v-html="highlightText(res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + res.id), searchQuery)"></span>
+            <span v-html="highlightText(res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + (res.identifier || res.id)), searchQuery)"></span>
           </div>
 
           <div v-if="res.snippet" class="std-results__snippet snippet-text">
@@ -283,12 +283,12 @@ const isLegendOpen = ref(false)
 
 const totalResolutions = computed(() => resolutions.value.length)
 const totalMeetings = computed(() => meetings.value.length)
-const committeeStandards = computed(() => committee.publishedStandards)
+const committeeMembers = computed(() => committee.participatingMembers)
 const committeeEst = computed(() => committee.established)
 
 const animResolutions = useCountUp(totalResolutions, isLoaded, 1500)
 const animMeetings = useCountUp(totalMeetings, isLoaded, 1500)
-const animStandards = useCountUp(committeeStandards, isLoaded, 1500)
+const animMembers = useCountUp(committeeMembers, isLoaded, 1500)
 const animEstablished = useCountUp(committeeEst, isLoaded, 1500)
 
 const yearRange = computed(() => {
@@ -300,6 +300,10 @@ const yearRange = computed(() => {
 
 function formatNumber(n: number): string {
   return n.toLocaleString('en-US')
+}
+
+function formatYear(n: number): string {
+  return String(n)
 }
 
 onMounted(() => {
