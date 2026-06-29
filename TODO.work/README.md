@@ -23,6 +23,7 @@ captures one phase: goal, inputs, what was done, outputs, issues, next step.
 - [15-narrative-parser.md](15-narrative-parser.md) — CIML 39–42 + Conf 12 narrative format
 - [16-deploy-pages.md](16-deploy-pages.md) — GH Pages deployment workflow
 - [17-final-summary.md](17-final-summary.md) — Final wrap-up (1,640 resolutions)
+- [18-favicons-and-polish.md](18-favicons-and-polish.md) — RealFaviconGenerator favicons, hero text, slug-safe URLs
 
 ## Scope decisions (2026-06-29 / 2026-06-30)
 
