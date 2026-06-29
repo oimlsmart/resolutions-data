@@ -39,20 +39,32 @@ resolutions:
     actions: []
   - identifier: CIML/2012/3
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director.
     dates:
     - start: '2012-10-01'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director.
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/4
     subject: CIML
-    title: (Untitled)
+    title: "Welcomes Gambia, Liberia, Malawi, Mauritania, Namibia, Nigeria and Sierra Leone as new Corresponding…"
     dates:
     - start: '2012-10-01'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Gambia, Liberia, Malawi, Mauritania, Namibia, Nigeria and Sierra Leone as new Corresponding Members.
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/5
     subject: CIML
     title: "Approves the 2011 accounts, and"
@@ -141,12 +153,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2012/9
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2012-10-01'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members,
+      dates:
+      - start: '2012-10-01'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -175,12 +194,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2012/11
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on developing countries given by the BIML.
     dates:
     - start: '2012-10-01'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on developing countries given by the BIML.
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/11a
     subject: CIML
     title: Thanks its President and the BIML Director for the establishment of regular working contacts

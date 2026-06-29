@@ -152,15 +152,21 @@ resolutions:
         kind: effective
   - identifier: CIML/2015/8
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the Bureau on its activities in liaison with
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the Bureau on its activities in liaison with other international organizations aimed at developing countries.
+      dates:
+      - start: '2015-10-20'
+        kind: effective
   - identifier: CIML/2015/9
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given on behalf the Chair of the advisory group.
     dates:
     - start: '2015-10-20'
       kind: decision
@@ -171,7 +177,13 @@ resolutions:
       dates:
       - start: '2015-10-20'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given on behalf the Chair of the advisory group.
+      dates:
+      - start: '2015-10-20'
+        kind: effective
   - identifier: CIML/2015/10
     subject: CIML
     title: Instructs the Bureau to continue its efforts to participate in capacity building activities through
@@ -239,6 +251,12 @@ resolutions:
       dates:
       - start: '2015-10-20'
         kind: effective
+    - type: notes
+      message: |
+        Notes the particular contribution that research can play in promoting and evaluating new approaches to legal metrology, and instructs the Director to take this into account when considering projects which can be supported by the special fund created by the 14th Conference,
+      dates:
+      - start: '2015-10-20'
+        kind: effective
     - type: requests
       message: |
         Requests its President, Vice Presidents and the Bureau to take particular account of the needs of CEEMS when involved in activities related to Objective 5 in the OIML Strategy (OIML B 15:2011).
@@ -247,12 +265,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2015/11
     subject: CIML
-    title: "Thanks Mr. Andy Henson (BIPM), Mr. Laurent Vinson (ILAC and the IAF), Mr. Pavel"
+    title: "Notes the written reports submitted by the BIPM, ILAC, the IAF, and EURAMET"
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the written reports submitted by the BIPM, ILAC, the IAF, and EURAMET,
+      dates:
+      - start: '2015-10-20'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mr. Andy Henson (BIPM), Mr. Laurent Vinson (ILAC and the IAF), Mr. Pavel Klenovsky (EURAMET) and Mr. Karlheinz Banholzer (CECIP) for their presentations.
@@ -261,12 +285,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2015/12
     subject: CIML
-    title: (Untitled)
+    title: "Notes the oral report by its Second Vice-President, Dr. Yukinobu Miki, on the RLMO"
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report by its Second Vice-President, Dr. Yukinobu Miki, on the RLMO Round Table held on Monday 19 October 2015.
+      dates:
+      - start: '2015-10-20'
+        kind: effective
   - identifier: CIML/2015/13
     subject: CIML
     title: "Approves as a new project, the revision of OIML B 6:2013 Directives for OIML"

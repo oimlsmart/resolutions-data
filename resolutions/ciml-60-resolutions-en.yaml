@@ -67,31 +67,49 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/04
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by its President.
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by its President.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/05
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director.
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '5'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/06
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Venezuela as a new Corresponding Member.
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '5'
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Venezuela as a new Corresponding Member.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/07
     subject: CIML
     title: "Approves the 2024 accounts, and"
@@ -149,13 +167,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/09
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the budget forecast for 2025 given by the BIML Director.
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '6.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2025 given by the BIML Director.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/10
     subject: CIML
     title: Requests the 17th Conference to take this Resolution into account when deciding about the
@@ -430,13 +454,39 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/22
     subject: CIML
-    title: "Thanks those individuals who have been Mentors of recent editions, those who have already"
+    title: Notes the importance of the OIML Bulletin in disseminating updates on legal metrology
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '7.4'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the importance of the OIML Bulletin in disseminating updates on legal metrology,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the online, open-access nature of the OIML Bulletin,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the introduction of individual article numbering,
+        Encourages the BIML to continue efforts to improve access to the contents,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the input of Guest Editors in identifying and attracting contributions on key topics of interest,
+        Encourages Members to propose key topics and to nominate appropriate Guest Editors for future editions,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors of recent editions, those who have already offered to be Guest Editors of future editions, and all the contributing authors, and
@@ -446,13 +496,35 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/23
     subject: OIML Conference
-    title: Thanks the BIML Coordinator for her work.
+    title: "Notes the growing importance of digital identifiers across all domains, Encourages the use by"
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '7.4'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the growing importance of digital identifiers across all domains,
+        Encourages the use by the legal metrology community of digital identifiers such as Digital Object Identifiers (DOIs), Research Organization Registry identifiers (RORs) and Open Researcher and Contributor IDs (ORCiDs),
+      dates:
+      - start: '2025-10-13'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the introduction into the OIML Bulletin of RORs and ORCiDs,
+        Encourages Members publishing in the OIML Bulletin to register for an ORCiD,
+        Encourages Members to maintain their institute's ROR record up to date,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the efforts of the BIML to register DOIs for OIML Recommendations and other OIML publications,
+        Encourages the BIML to register DOIs for articles in the OIML Bulletin, and
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks the BIML Coordinator for her work.
@@ -461,13 +533,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/24
     subject: CIML
-    title: "Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups"
+    title: "Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, a…"
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '8.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, and
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
@@ -546,22 +624,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/28
     subject: CIML
-    title: (Untitled)
+    title: "Notes that in the budget approved in Resolution CIML/2025/11, the registration fee for OIML-CS"
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '8.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes that in the budget approved in Resolution CIML/2025/11, the registration fee for OIML-CS certificates will increase from €350 to €400 per certificate for the entirety of the 2026-2029 budget period.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/29
     subject: CIML
-    title: Thanks the members of the CEEMS AG for their work.
+    title: "Notes the report of the CEEMS Advisory Group (AG) Chairperson, and"
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '9.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the CEEMS Advisory Group (AG) Chairperson, and
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the CEEMS AG for their work.
@@ -592,13 +682,19 @@ resolutions:
     actions: []
   - identifier: CIML/2025/31
     subject: CIML
-    title: "Thanks the members of the DTG and its Subcommittees for their work, and Encourages"
+    title: Notes the report of the OIML Digitalization Task Group (DTG) Chairperson
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '10.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Digitalization Task Group (DTG) Chairperson,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the DTG and its Subcommittees for their work, and
@@ -661,13 +757,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/35
     subject: CIML
-    title: Thanks Dr Pamela Dagg for taking over as the new Chairperson of the RLMO
+    title: Notes the report on the RLMO Round Table given by Dr Pamela Dagg (CIML
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '14.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the RLMO Round Table given by Dr Pamela Dagg (CIML Member for Ireland), Thanks Mr Pedro Pérez Vargas for serving as RLMO Round Table Chairperson, and
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks Dr Pamela Dagg for taking over as the new Chairperson of the RLMO Round Table.
@@ -676,21 +778,33 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/36
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on OIML activities with organizations in liaison.
     dates:
     - start: '2025-10-13'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on OIML activities with organizations in liaison.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/37
     subject: CIML
-    title: "Thanks their representatives for providing this information to the Committee, and"
+    title: Notes the written reports provided by organizations in liaison
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '14.3'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the written reports provided by organizations in liaison,
+      dates:
+      - start: '2025-10-13'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee, and
@@ -705,13 +819,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/38
     subject: CIML
-    title: (Untitled)
+    title: "Notes the report on progress towards becoming an \"accepted observer\" in the United Nations"
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '14.4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on progress towards becoming an "accepted observer" in the United Nations Framework Convention on Climate Change (UNFCCC),
+        Encourages the BIML to continue to engage with other stakeholders in the field of climate change, and Encourages its Members to promote the use of legal metrology as an important tool in achieving the UN Sustainable Development Goals (SDGs).
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/39
     subject: CIML
     title: (Untitled)
@@ -777,10 +898,16 @@ resolutions:
         kind: effective
   - identifier: CIML/2025/44
     subject: CIML
-    title: (Untitled)
+    title: Notes the information provided on the organization of the 62nd CIML Meeting in 2027.
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '16.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organization of the 62nd CIML Meeting in 2027.
+      dates:
+      - start: '2025-10-13'
+        kind: effective

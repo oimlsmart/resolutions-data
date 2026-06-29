@@ -30,12 +30,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2017/2
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by its President.
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by its President.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/3
     subject: CIML
     title: Resolves to advertise the position of BIML Director in 2017 with the aim of
@@ -76,20 +82,38 @@ resolutions:
         kind: effective
   - identifier: CIML/2017/4
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director on the activities of the Bureau.
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director on the activities of the Bureau.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/5
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Cambodia as a new Member State
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Cambodia as a new Member State,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Bolivia, Ecuador and Philippines as new Corresponding Members.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/6
     subject: CIML
     title: "Approves the 2016 accounts, and"
@@ -124,20 +148,33 @@ resolutions:
         kind: effective
   - identifier: CIML/2017/7
     subject: CIML
-    title: (Untitled)
-    dates:
-    - start: '2017-10-10'
-      kind: decision
-    considerations: []
-    actions: []
-  - identifier: CIML/2017/8
-    subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: Notes the report on the budget surplus for the 2013-2016 budget period given by
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the budget surplus for the 2013-2016 budget period given by the BIML Director.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+  - identifier: CIML/2017/8
+    subject: CIML
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
+    dates:
+    - start: '2017-10-10'
+      kind: decision
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible, and
@@ -147,20 +184,32 @@ resolutions:
         kind: effective
   - identifier: CIML/2017/9
     subject: CIML
-    title: (Untitled)
-    dates:
-    - start: '2017-10-10'
-      kind: decision
-    considerations: []
-    actions: []
-  - identifier: CIML/2017/10
-    subject: CIML
-    title: Thanks their representatives for providing this information to the Committee.
+    title: Notes the report on the budget forecast for 2017 given by the BIML Director.
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2017 given by the BIML Director.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+  - identifier: CIML/2017/10
+    subject: CIML
+    title: "Notes the reports made by liaison organizations, and"
+    dates:
+    - start: '2017-10-10'
+      kind: decision
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the reports made by liaison organizations, and
+      dates:
+      - start: '2017-10-10'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee.
@@ -169,7 +218,7 @@ resolutions:
         kind: effective
   - identifier: CIML/2017/11
     subject: CIML
-    title: (Untitled)
+    title: "Notes the oral report on the activities of the Advisory Group, and Confirmsthe outcome"
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -180,23 +229,42 @@ resolutions:
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report on the activities of the Advisory Group, and
+        Confirmsthe outcome of the Advisory Group meeting held on 9 October 2017 as presented by Mr. Peter Mason.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/12
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on activities in connection with CEEMS matters given by the BIML.
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on activities in connection with CEEMS matters given by the BIML.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/13
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the BIML on the special fund for CEEMS-related
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the BIML on the special fund for CEEMS-related activities.
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/14
     subject: CIML
     title: Approves the Final Draft Basic Publication B 19 Terms of Reference for the Advisory
@@ -780,12 +848,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2017/36
     subject: CIML
-    title: Instructs the Bureau to make the necessary arrangements to organize the 53rd CIML Meeting
+    title: Notes the additional information provided on the organization of the 53rd CIML Meeting in
     dates:
     - start: '2017-10-10'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the additional information provided on the organization of the 53rd CIML Meeting in Hamburg, Germany in 2018, and
+      dates:
+      - start: '2017-10-10'
+        kind: effective
     - type: instructs
       message: |
         Instructs the Bureau to make the necessary arrangements to organize the 53rd CIML Meeting in 2018.

@@ -31,22 +31,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2014/2
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by its President.
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by its President.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/3
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director on the activities of the Bureau.
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '3.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director on the activities of the Bureau.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/4
     subject: CIML
     title: "Resolves not to appoint a Selection Committee under section 3 of OIML B 13:2004."
@@ -88,12 +100,24 @@ resolutions:
         kind: effective
   - identifier: CIML/2014/5
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Cameroon as a re-instated Member State
     dates:
     - start: '2014-11-04'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Cameroon as a re-instated Member State,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Azerbaijan as a new Corresponding Member.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/6
     subject: CIML
     title: "Approves the 2013 accounts, and"
@@ -145,13 +169,20 @@ resolutions:
     actions: []
   - identifier: CIML/2014/8
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: Notes the report given by the BIML Director on the outstanding arrears of Member
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '5.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director on the outstanding arrears of Member States and Corresponding Members,
+        Encourages the BIML to continue its efforts to recover these outstanding arrears, and
+      dates:
+      - start: '2014-11-04'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -160,15 +191,21 @@ resolutions:
         kind: effective
   - identifier: CIML/2014/9
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the BIML on its activities in liaison with
     dates:
     - start: '2014-11-04'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the BIML on its activities in liaison with other international organizations aimed at developing countries, in particular regarding the organization of an AFRIMETS Legal Metrology School in Tunis in October 2014.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/10
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the Chair of the advisory group.
     dates:
     - start: '2014-11-04'
       kind: decision
@@ -179,16 +216,28 @@ resolutions:
       dates:
       - start: '2014-11-04'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the Chair of the advisory group.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/11
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the BIML on the special project aimed at
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '6.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the BIML on the special project aimed at developing countries.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/12
     subject: CIML
     title: "Thanks Dr. Philippe Richard, for his presentation on behalf of the BIPM"
@@ -204,6 +253,12 @@ resolutions:
       dates:
       - start: '2014-11-04'
         kind: effective
+    - type: notes
+      message: |
+        Notes the written reports submitted by ILAC, the IAF, ISO/CASCO and the IEC,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mr. Mark Amos (IEC), Mrs. Veronika Martens (CECIP) and Dr. Llewellyn Richards (ILAC-IAF) for their presentations.
@@ -212,16 +267,22 @@ resolutions:
         kind: effective
   - identifier: CIML/2014/13
     subject: CIML
-    title: (Untitled)
+    title: "Notes the oral report by its Second Vice-President, Dr. Yukinobu Miki on the RLMO"
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '7.4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report by its Second Vice-President, Dr. Yukinobu Miki on the RLMO Round Table held on Monday, 3 November 2014.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/14
     subject: CIML
-    title: "Resolves to disband the following Project Groups: - TC 3/SC 1/p 4: Revision of"
+    title: "Notes the report given by the BIML on the implementation of OIML B 6-1:2013"
     dates:
     - start: '2014-11-04'
       kind: decision
@@ -234,6 +295,12 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML on the implementation of OIML B 6-1:2013 Directives for OIML technical work,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
     - type: resolves
       message: |
         Resolves to disband the following Project Groups:
@@ -319,13 +386,21 @@ resolutions:
         kind: effective
   - identifier: CIML/2014/18
     subject: CIML
-    title: "Instructs the BIML to provide the necessary support for the AHWG, including its task"
+    title: Notes the report given by the ad-hoc working group (AHWG) chair and CIML First
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '8.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the ad-hoc working group (AHWG) chair and CIML First Vice President, Dr. Roman Schwartz,
+        Considers the review of the MAA as a high priority project, and therefore
+        Encourages the AHWG, including its task groups, to undertake every effort to present concrete proposals to the next CIML meeting,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
     - type: instructs
       message: |
         Instructs the BIML to provide the necessary support for the AHWG, including its task groups, in order to implement CIML Resolutions nos. 2013/15, 2013/16 and 2013/17,
@@ -355,13 +430,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2014/20
     subject: CIML
-    title: Instructs the Bureau to make the necessary arrangements to organize the 50th CIML Meeting
+    title: Notes the information provided by its President and the BIML Director on the organization
     dates:
     - start: '2014-11-04'
       kind: decision
     agenda_item: '12'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided by its President and the BIML Director on the organization of the 50th CIML Meeting in 2015 and on the 15th Conference and the 51st CIML Meeting in 2016,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
     - type: instructs
       message: |
         Instructs the Bureau to make the necessary arrangements to organize the 50th CIML Meeting in 2015 in France.

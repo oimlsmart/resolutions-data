@@ -30,12 +30,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/2
     subject: CIML
-    title: Thanks the members of Task Group 2023 and the Presidential Council for their work
+    title: Notes the report given by its President
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by its President,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of Task Group 2023 and the Presidential Council for their work, and
@@ -50,12 +56,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/3
     subject: CIML
-    title: Thanks the BIML Director for providing his report in English and in French.
+    title: "Notes the report given by the BIML Director, and"
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director, and
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks the BIML Director for providing his report in English and in French.
@@ -64,12 +76,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/4
     subject: CIML
-    title: "Thanks the BIML for organising the training, and thanks the participants for their efforts"
+    title: Notes the report given by the BIML on the training courses relating to OIML
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML on the training courses relating to OIML technical work delivered since the 53rd CIML Meeting,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks the BIML for organising the training, and thanks the participants for their efforts to harmonise the technical work of the Organisation,
@@ -85,12 +103,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/5
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Kyrgyzstan as a returning Corresponding Member.
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Kyrgyzstan as a returning Corresponding Member.
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/6
     subject: CIML
     title: "Approves the 2018 accounts, and"
@@ -157,20 +181,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/8
     subject: CIML
-    title: (Untitled)
-    dates:
-    - start: '2019-10-22'
-      kind: decision
-    considerations: []
-    actions: []
-  - identifier: CIML/2019/9
-    subject: CIML
-    title: Requests those Member States and Corresponding Members with arrears to bring their situation up
+    title: Notes the report on the budget forecast for 2019 given by the BIML Director
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2019 given by the BIML Director, and
+        Expresses its appreciation to the BIML Director for his efforts in bringing the budget under control within a short space of time.
+      dates:
+      - start: '2019-10-22'
+        kind: effective
+  - identifier: CIML/2019/9
+    subject: CIML
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
+    dates:
+    - start: '2019-10-22'
+      kind: decision
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears and to consider additional mechanisms for prompt payment by Member States and Corresponding Members,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: requests
       message: |
         Requests those Member States and Corresponding Members with arrears to bring their situation up to date as soon as possible, and
@@ -185,20 +223,32 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/10
     subject: CIML
-    title: (Untitled)
-    dates:
-    - start: '2019-10-22'
-      kind: decision
-    considerations: []
-    actions: []
-  - identifier: CIML/2019/11
-    subject: CIML
-    title: Thanks Dr Yukinobu Miki for his work as Chairperson of the RLMO Round Table
+    title: Notes the report on activities with organisations in liaison given by the BIML.
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on activities with organisations in liaison given by the BIML.
+      dates:
+      - start: '2019-10-22'
+        kind: effective
+  - identifier: CIML/2019/11
+    subject: CIML
+    title: Notes the report on the RLMO Round Table meeting given by its Chairperson
+    dates:
+    - start: '2019-10-22'
+      kind: decision
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the RLMO Round Table meeting given by its Chairperson,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks Dr Yukinobu Miki for his work as Chairperson of the RLMO Round Table, and
@@ -213,12 +263,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/12
     subject: CIML
-    title: "Thanks its Director, Dr Martin Milton, for providing this information to the Committee, and"
+    title: Notes the report made by the BIPM
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report made by the BIPM,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks its Director, Dr Martin Milton, for providing this information to the Committee, and
@@ -246,6 +302,12 @@ resolutions:
       dates:
       - start: '2019-10-22'
         kind: effective
+    - type: notes
+      message: |
+        Notes the oral report given by Ms Nataša Vukovič (Slovenia) on developments in the CCU, and
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: requests
       message: |
         Requests OIML TC 2 to closely observe the ongoing discussions in the CCU on the definition of the term "unit", on angles, on dimensionless quantities, and on the SI in the digital world, and to facilitate a common OIML position, if possible.
@@ -254,12 +316,23 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/14
     subject: CIML
-    title: Thanks their representatives for providing this information to the Committee.
+    title: "Notes the reports and presentations from the following organisations in liaison: - CECIP, -"
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the reports and presentations from the following organisations in liaison:
+        - CECIP,
+        - IAF,
+        - ILAC,
+        - OECD, and
+        - UNIDO.
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee.
@@ -268,12 +341,26 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/15
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the activities of the CEEMS Advisory Group
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the activities of the CEEMS Advisory Group,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the proposal to develop a scholarship scheme for leaders of tomorrow,
+        Encourages Member States to explore opportunities for taking part in pilot projects by acting as hosts and sponsors, and
+        Emphasises the importance of OIML D1 Considerations for a Law on Metrology and requests the appropriate Project Group to do all in its power to produce a Final Draft Document which can be adopted at the 55th CIML Meeting in 2020.
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/16
     subject: CIML
     title: Thanks Mr Pu Changcheng for his initiative in the establishment of the CEEMS Advisory
@@ -356,12 +443,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/19
     subject: CIML
-    title: (Untitled)
+    title: "Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, T…"
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, Thanks the members of the MC, the Review Committee and the Maintenance Group for their work, Thanks Mr Cock Oosterman for having served as MC Chairperson since the launch of the OIML-CS, Requests CIML Members to promote the benefits of the OIML-CS to stakeholders in their country, and Requests OIML Issuing Authorities to promote the benefits of the OIML-CS to manufacturers in their country.
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/20
     subject: CIML
     title: Decides to accept the proposal to vote on the Final Draft Recommendation revision of
@@ -660,12 +753,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/36
     subject: CIML
-    title: Thanks the People's Republic of China for its invitation to host the 55th CIML
+    title: Notes the information provided on the organisation of the 55th CIML Meeting and 16th
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organisation of the 55th CIML Meeting and 16th International Conference in 2020,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks the People's Republic of China for its invitation to host the 55th CIML Meeting and 16th International Conference in 2020, and
@@ -680,12 +779,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2019/37
     subject: CIML
-    title: Thanks the Russian Federation for its invitation to host the 56th CIML Meeting in
+    title: Notes the information provided on the organisation of the 56th CIML Meeting in 2021
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organisation of the 56th CIML Meeting in 2021,
+      dates:
+      - start: '2019-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks the Russian Federation for its invitation to host the 56th CIML Meeting in 2021, and

@@ -46,13 +46,26 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/03
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by its President
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '4.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by its President,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
+    - type: notes
+      message: |
+        Notes the information given on the election of a President to be held in 2022, and
+        Reminds CIML Members that candidacies must be sent to the Bureau by the end of May 2022 at the latest.
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/04
     subject: CIML
     title: Decides that in-person and online participation in all OIML meetings is considered to be
@@ -133,13 +146,25 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/07
     subject: OIML Conference
-    title: "Requests CIML Members, Corresponding Member Representatives and Organisations in Liaison to make nom…"
+    title: Notes the report on the proposal for a Digitalisation Task Group given by its
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '4.4'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the proposal for a Digitalisation Task Group given by its President,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the establishment of an OIML Digitalisation Task Group with the aim of examining and proposing options and solutions regarding opportunities for the OIML concerning the digital transformation of processes and services to its Members and stakeholders, in cooperation with other QI partners, and
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: requests
       message: |
         Requests CIML Members, Corresponding Member Representatives and Organisations in Liaison to make nominations for members of this Task Group by 30 November 2021.
@@ -148,13 +173,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/08
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director.
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '5'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director.
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/09
     subject: CIML
     title: Resolves not to appoint the Selection Committee specified in section 3 of OIML B
@@ -230,13 +261,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/11
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '7.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -245,16 +283,22 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/12
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the budget forecast for 2021 given by the BIML Director.
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '7.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2021 given by the BIML Director.
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/13
     subject: CIML
-    title: "Approves the principles and proposals concerning Member State and Corresponding Member classes and f…"
+    title: Notes the information provided by the BIML Director on Member State and Corresponding Member
     dates:
     - start: '2021-10-19'
       kind: decision
@@ -267,6 +311,12 @@ resolutions:
       - start: '2021-10-19'
         kind: effective
     actions:
+    - type: notes
+      message: |
+        Notes the information provided by the BIML Director on Member State and Corresponding Member classes and fees,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: approves
       message: |
         Approves the principles and proposals concerning Member State and Corresponding Member classes and fees put forward in Addendum 7.4 to the Working Document for this meeting, with effect from 1 January 2022, and
@@ -281,13 +331,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/14
     subject: CIML
-    title: "Approves this budget, and"
+    title: Notes the report on the budget for the 2022-2025 financial period given by the
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '7.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the budget for the 2022-2025 financial period given by the BIML Director,
+        Having examined the proposed budget for the 2022-2025 financial period,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: approves
       message: |
         Approves this budget, and
@@ -302,7 +359,7 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/15
     subject: CIML
-    title: "Approves this policy, and"
+    title: Notes the report on the OIML Operating Reserve Fund policy given by the BIML
     dates:
     - start: '2021-10-19'
       kind: decision
@@ -321,6 +378,12 @@ resolutions:
       - start: '2021-10-19'
         kind: effective
     actions:
+    - type: notes
+      message: |
+        Notes the report on the OIML Operating Reserve Fund policy given by the BIML Director,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: approves
       message: |
         Approves this policy, and
@@ -575,13 +638,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/30
     subject: CIML
-    title: "Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups"
+    title: "Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, a…"
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '10.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, and
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
@@ -623,40 +692,77 @@ resolutions:
         kind: effective
   - identifier: CIML/2021/32
     subject: OIML Conference
-    title: (Untitled)
+    title: Notes the report on the activities of the CEEMS Advisory Group
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '11'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the activities of the CEEMS Advisory Group,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the expansion of online training opportunities offered by the OIML,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
+    - type: notes
+      message: |
+        Notes the information given on the vacant position of CEEMS AG Vice-Chairperson, and the need for this position to be filled as soon as possible, and
+        Encourages CIML Members to send nominations for this position to the Bureau by the end of November 2021.
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/33
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the RLMO Round Table meetings given by its Chairperson.
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '15.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the RLMO Round Table meetings given by its Chairperson.
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/34
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on activities with organisations in liaison given by the BIML.
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '15.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on activities with organisations in liaison given by the BIML.
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/35
     subject: CIML
-    title: Thanks their representatives for providing this information to the Committee.
+    title: "Notes the written reports submitted by organisations in liaison, and"
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '15.3'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the written reports submitted by organisations in liaison, and
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee.

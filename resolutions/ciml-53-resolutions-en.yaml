@@ -32,20 +32,32 @@ resolutions:
     actions: []
   - identifier: CIML/2018/3
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director on the activities of the Bureau
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director on the activities of the Bureau, and Expresses its appreciation for the work undertaken by the BIML Director during his time in office.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/4
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Kiribati as a new Corresponding Member.
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Kiribati as a new Corresponding Member.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/5
     subject: CIML
     title: "Approves the 2017 accounts, and"
@@ -96,12 +108,19 @@ resolutions:
     actions: []
   - identifier: CIML/2018/7
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+      dates:
+      - start: '2018-10-09'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -110,28 +129,46 @@ resolutions:
         kind: effective
   - identifier: CIML/2018/8
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the budget forecast for 2018 given by the BIML Director.
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2018 given by the BIML Director.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/9
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the RLMO Round Table meeting given by its Chairperson.
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the RLMO Round Table meeting given by its Chairperson.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/10
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on activities with organizations in liaison given by the BIML.
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on activities with organizations in liaison given by the BIML.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/11
     subject: CIML
     title: Approves the nominations of Dr. Hideyuki Tanaka (Japan) for WG1 and Dr. Anna Chunovkina
@@ -160,12 +197,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2018/12
     subject: CIML
-    title: Thanks their representatives for providing this information to the Committee.
+    title: "Notes the reports made by organizations in liaison, and"
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the reports made by organizations in liaison, and
+      dates:
+      - start: '2018-10-09'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee.
@@ -200,12 +243,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2018/14
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report on the activities of the CEEMS Advisory Group.
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report on the activities of the CEEMS Advisory Group.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/15
     subject: CIML
     title: Instructs the Bureau to continue its efforts to promote and participate in capacity building
@@ -286,20 +335,32 @@ resolutions:
         kind: effective
   - identifier: CIML/2018/16
     subject: CIML
-    title: (Untitled)
-    dates:
-    - start: '2018-10-09'
-      kind: decision
-    considerations: []
-    actions: []
-  - identifier: CIML/2018/17
-    subject: CIML
-    title: "Thanks the members of the Management Committee, the Review Committee and the Maintenance Group"
+    title: Notes the report on activities in connection with CEEMS matters given by the BIML.
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on activities in connection with CEEMS matters given by the BIML.
+      dates:
+      - start: '2018-10-09'
+        kind: effective
+  - identifier: CIML/2018/17
+    subject: CIML
+    title: "Notes the report of the OIML Certification System Management Committee Chairperson, and"
+    dates:
+    - start: '2018-10-09'
+      kind: decision
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Certification System Management Committee Chairperson, and
+      dates:
+      - start: '2018-10-09'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the Management Committee, the Review Committee and the Maintenance Group for their work.
@@ -808,12 +869,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2018/40
     subject: CIML
-    title: Thanks the Slovak Republic for its invitation to host the 54th CIML Meeting in
+    title: Notes the information provided on the organization of the 54th CIML Meeting in 2019
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organization of the 54th CIML Meeting in 2019,
+      dates:
+      - start: '2018-10-09'
+        kind: effective
     - type: thanks
       message: |
         Thanks the Slovak Republic for its invitation to host the 54th CIML Meeting in 2019, and
@@ -828,12 +895,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2018/41
     subject: CIML
-    title: Thanks P.R. China for its invitation to host the 55th CIML Meeting and 16th
+    title: Notes the information provided on the organization of the 55th CIML Meeting and 16th
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organization of the 55th CIML Meeting and 16th International Conference in 2020,
+      dates:
+      - start: '2018-10-09'
+        kind: effective
     - type: thanks
       message: |
         Thanks P.R. China for its invitation to host the 55th CIML Meeting and 16th International Conference in 2020, and

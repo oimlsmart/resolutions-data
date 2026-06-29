@@ -30,20 +30,32 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/2
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by its President.
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by its President.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/3
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director on the activities of the Bureau.
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director on the activities of the Bureau.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/4
     subject: CIML
     title: Decides that the vacant position of a BIML Assistant Director be advertised after the
@@ -67,12 +79,24 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/5
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Thailand as a new Member State
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Thailand as a new Member State,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Angola as a new Corresponding Member.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/6
     subject: CIML
     title: "Approves the 2015 accounts, and"
@@ -145,12 +169,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/8
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -159,12 +190,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/9
     subject: CIML
-    title: Instructs its President to present it to the 15th OIML Conference.
+    title: Notes the report on the forecast budget realization for 2016 given by the BIML
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the forecast budget realization for 2016 given by the BIML Director,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
     - type: instructs
       message: |
         Instructs its President to present it to the 15th OIML Conference.
@@ -193,23 +230,35 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/11
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the BIML on its activities in liaison with
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the BIML on its activities in liaison with other international organizations aimed at CEEMS.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/12
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the CIML President on the follow-up to resolution
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the CIML President on the follow-up to resolution 2015/10.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/13
     subject: CIML
-    title: (Untitled)
+    title: Notes the report of the meeting of the Advisory Group held on 17 October
     dates:
     - start: '2016-10-17'
       kind: decision
@@ -220,7 +269,20 @@ resolutions:
       dates:
       - start: '2016-10-17'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report of the meeting of the Advisory Group held on 17 October 2016,
+        Confirms that it wishes the Advisory Group to continue as the main focus of activities relating to matters of interest to countries and economies with emerging metrology systems,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
+    - type: renews
+      message: |
+        Renews the appointment of Mr. Pu Changcheng to act as Chair of the Advisory Group.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/14
     subject: CIML
     title: Requests its President and the Chair of the Advisory Group to prepare a draft
@@ -239,7 +301,7 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/15
     subject: CIML
-    title: (Untitled)
+    title: Notes the oral report given by the CIML President on the revision of OIML
     dates:
     - start: '2016-10-17'
       kind: decision
@@ -250,7 +312,14 @@ resolutions:
       dates:
       - start: '2016-10-17'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the oral report given by the CIML President on the revision of OIML B 6 Directives for OIML technical work,
+        Urges the Project Group to complete its work on the revision as soon as possible.
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/16
     subject: CIML
     title: Approves the Final Draft Basic Publication OIML B xx Framework for the OIML Certification
@@ -544,12 +613,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/30
     subject: CIML
-    title: Thanks their representatives for providing this information to the Committee.
+    title: Notes the reports made by liaison organizations
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the reports made by liaison organizations,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee.
@@ -558,12 +633,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/31
     subject: CIML
-    title: Thanks the Second Vice-President for his leadership of this Round Table.
+    title: Notes the report made by its Second Vice-President on the RLMO Round Table held
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report made by its Second Vice-President on the RLMO Round Table held on Monday 17 October 2016,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks the Second Vice-President for his leadership of this Round Table.
@@ -610,12 +691,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/35
     subject: CIML
-    title: Instructs the Bureau to make the necessary arrangements to organize the 52nd CIML Meeting
+    title: Notes the information provided by its President and the BIML Director on the organization
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided by its President and the BIML Director on the organization of the 52nd CIML Meeting in 2017,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
     - type: instructs
       message: |
         Instructs the Bureau to make the necessary arrangements to organize the 52nd CIML Meeting in 2017.
@@ -624,12 +711,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2016/36
     subject: CIML
-    title: Instructs the Bureau to make the necessary arrangements to organize the 53rd CIML Meeting
+    title: Notes the information provided by the CIML First Vice-President on the organization of the
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided by the CIML First Vice-President on the organization of the 53rd CIML Meeting in Hamburg, Germany in 2018,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
     - type: instructs
       message: |
         Instructs the Bureau to make the necessary arrangements to organize the 53rd CIML Meeting in 2018.
