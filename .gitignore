@@ -1,0 +1,18 @@
+# OCR cache (reproducible from PDFs via scripts/ocr/run.rb)
+reference-docs/.ocr/
+
+# Browser build artifacts (reproducible via `npm run build`)
+browser/dist/
+browser/.vite/
+browser/tsconfig.tsbuildinfo
+browser/node_modules/
+
+# Ruby
+.bundle/
+vendor/
+
+# OS / editor
+.DS_Store
+*.tmp
+*.bak
+*.log

@@ -1,0 +1,188 @@
+= OIML Resolutions Data
+:toc: macro
+:toclevels: 3
+:icons: font
+:source-highlighter: coderay
+
+Resolution data of the *OIML International Committee of Legal Metrology
+(CIML)* and the *OIML Conference*, in the
+https://github.com/metanorma/edoxen[Edoxen format]. Served by a Vue 3 +
+Vite static site under `browser/`.
+
+Live site: `https://oimlsmart.github.io/resolutions-data/` (once deployed).
+
+== Coverage
+
+[cols="1,4", frame="topbot"]
+|===
+| Body | CIML meetings 39 → 60 (2004 Berlin → 2025 Paris)
+| Body | OIML Conference sessions 12 → 17 (2004 Berlin → 2025 Paris)
+| Source PDFs | 51 in `reference-docs/{ciml,conferences}/`
+| Resolutions | 1,241 parsed into 43 Edoxen YAML files in `resolutions/`
+| Languages | EN + FR (bilingual PDFs split per language at YAML time)
+|===
+
+Pre-2004 resolutions are not yet represented — they live inside OIML
+Bulletin scans that need separate handling.
+
+== Repository layout
+
+....
+resolutions-data/
+├── README.adoc                  this file
+├── CLAUDE.md                    project guidance for Claude Code
+├── .gitignore
+├── TODO.work/                   phase-by-phase build log (13 phases)
+├── scripts/
+│   ├── manifest.yaml            curated list of 51 source PDFs
+│   ├── fetch_pdfs.rb            PDF downloader
+│   ├── author_yaml.rb           OCR → Edoxen YAML parser
+│   ├── verify_ocr.rb            GLM-OCR vs pdftotext cross-check
+│   └── ocr/
+│       ├── glm_ocr.rb           GLM-OCR driver (100-page chunks)
+│       └── run.rb               batch driver
+├── reference-docs/
+│   ├── ciml/                    41 CIML resolution PDFs
+│   ├── conferences/             10 Conference resolution PDFs
+│   └── .ocr/                    (gitignored) raw JSON + markdown + text
+├── resolutions/                 Edoxen YAML files (1,241 resolutions)
+└── browser/                     Vue 3 + Vite static site
+....
+
+== Pipeline
+
+....
+PDFs (51)  →  OCR markdown (51)  →  Edoxen YAML (43)  →  browser JSON (1)
+   ↓                ↓                     ↓                   ↓
+fetch_pdfs.rb   ocr/run.rb          author_yaml.rb       build-data.mjs
+....
+
+== Quick start
+
+=== Prerequisites
+
+- Ruby 3.x (only stdlib: `net/http`, `yaml`, `json`, `fileutils`)
+- Node.js 22+
+- `pdfinfo` and `pdftotext` from Poppler
+- A `~/.zai-api-key` file containing a z.ai API key (raw or
+  `export Z_AI_API_KEY=...` form)
+
+=== Re-fetch and re-OCR (idempotent)
+
+[source,bash]
+----
+ruby scripts/fetch_pdfs.rb       # download all source PDFs
+ruby scripts/ocr/run.rb          # OCR every PDF (uses ~/.zai-api-key)
+ruby scripts/verify_ocr.rb       # verify OCR vs pdftotext text layer
+ruby scripts/author_yaml.rb      # parse OCR markdown → Edoxen YAML
+----
+
+Every stage caches its output and is safe to re-run.
+
+=== Run the browser locally
+
+[source,bash]
+----
+cd browser
+npm install
+npm run dev         # dev server at http://localhost:5173/resolutions-data/
+----
+
+=== Production build
+
+[source,bash]
+----
+cd browser
+npm run build       # builds data + pre-renders 714 HTML routes to dist/
+npm run preview     # serve dist/ at http://localhost:4173/resolutions-data/
+----
+
+== URN scheme
+
+[cols="1,3", frame="topbot"]
+|===
+| `urn:oiml:resolution:<identifier>` | e.g. `urn:oiml:resolution:Conference/2025/01`
+| `urn:oiml:meeting:<source_file>`   | e.g. `urn:oiml:meeting:conference-17-resolutions-en`
+|===
+
+== Data model
+
+Edoxen YAML. Schema:
+https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml[edoxen.yaml].
+
+Each file has a `metadata` block (title, dates, source, venue, language) and
+a `resolutions` list. Each resolution carries `identifier`, `subject`,
+`title`, `dates`, `agenda_item`, `considerations`, `actions`, `approvals`.
+
+.A minimal example
+[source,yaml]
+----
+metadata:
+  title: Resolutions of the 17th OIML Conference, Paris, France, 14 October 2025
+  dates:
+  - start: '2025-10-14'
+    kind: meeting
+  source: OIML Conference Secretariat (BIML)
+  venue: Paris, France
+  language: en
+resolutions:
+- identifier: Conference/2025/01
+  subject: OIML Conference
+  title: Approves the agenda for the 17th International Conference on Legal Metrology
+  dates:
+  - start: '2025-10-14'
+    kind: decision
+  agenda_item: '2'
+  considerations: []
+  actions:
+  - type: approves
+    message: |
+      Approves the agenda for the 17th International Conference on Legal
+      Metrology (OIML Conference).
+    dates:
+    - start: '2025-10-14'
+      kind: effective
+----
+
+=== Multilingual handling
+
+A single logical resolution may exist in parallel English and French text.
+Edoxen has no native multilingual field, so we emit one YAML file per
+language (`<slug>-en.yaml`, `<slug>-fr.yaml`) and link them via the shared
+identifier + meeting URN. Cross-language tooling can join on identifier.
+
+== Deployment
+
+A GitHub Actions workflow at `.github/workflows/deploy-pages.yml` builds the
+browser on every push to `main` and deploys `browser/dist/` to GitHub Pages.
+Pull requests build but do not deploy.
+
+The workflow also runs a YAML validation step (`scripts/validate_yaml.rb`)
+that confirms every `resolutions/*.yaml` parses cleanly and has a
+`resolutions` array.
+
+== Sibling repositories
+
+[cols="1,3", frame="topbot"]
+|===
+| `~/src/isotc184sc4/resolutions/`     | template for the resolutions browser
+| `~/src/isotc154/www.isotc154.org/`   | Jekyll-style `_data/resolutions/` layout
+| `~/src/mn/edoxen`                    | Edoxen gem source
+| `~/src/mn/edoxen-model`              | Edoxen information models
+| `~/src/relaton/relaton-data-oiml/`   | backfill scripts we adapted for GLM-OCR
+| `~/src/mn/oiml-vocab/`               | source of the OIML logo assets
+|===
+
+== Status and gaps
+
+The full build log lives in `TODO.work/`. Notable deferred work:
+
+- **CIML 39–42 + Conference 12 (10 PDFs)** use a narrative "decisions"
+  format that needs a different parser mode. Design sketch in
+  `TODO.work/11-deferred-narrative.md`.
+- **Auto-generated titles** are verb-led first-clause snippets, useful for
+  browsing but not hand-curated.
+- **Cross-reference edges** ("Noting Resolution CIML/2024/08") are preserved
+  as text in considerations; not yet promoted to first-class relations.
+- **Pre-2004 resolutions** hidden in Bulletin scans — needs physical
+  scanning.
