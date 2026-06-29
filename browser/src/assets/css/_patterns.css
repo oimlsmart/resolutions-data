@@ -1,0 +1,40 @@
+/*
+ * Shared animation primitives and skeleton shimmer base.
+ *
+ * These rules are consumed by every view that renders loading skeletons
+ * or fade-up entrance animations. Defining them once here removes
+ * copy-paste drift and ensures every skeleton pulses in lockstep.
+ *
+ * Keyframes are global by nature in CSS — Vue scoped styles cannot
+ * contain them — so they must live in a global stylesheet.
+ */
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: .5; }
+}
+
+.skeleton-badge,
+.skeleton-title,
+.skeleton-text,
+.skeleton-link,
+.skeleton-title-large,
+.skeleton-subtitle {
+  background-color: var(--color-slate-200);
+  border-radius: 0.25rem;
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.dark .skeleton-badge,
+.dark .skeleton-title,
+.dark .skeleton-text,
+.dark .skeleton-link,
+.dark .skeleton-title-large,
+.dark .skeleton-subtitle {
+  background-color: var(--color-slate-800);
+}

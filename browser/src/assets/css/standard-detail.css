@@ -1,0 +1,264 @@
+/* ── Standard Detail Page (full-width) ─────────── */
+
+@layer components {
+  .std-page {
+    max-width: 72rem;
+    margin: 0 auto;
+    padding: 2rem 1.5rem 4rem;
+  }
+  @media (min-width: 1024px) {
+    .std-page { padding: 2.5rem 3rem 5rem; }
+  }
+
+  /* ── Header / Hero ──────────────────────────── */
+
+  .std-page__header {
+    margin-bottom: 2.5rem;
+  }
+
+  .std-page__label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #0061ad;
+  }
+  .dark .std-page__label { color: #3385d6; }
+
+  .std-page__title {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    color: #0f172a;
+    margin: 0.375rem 0 0;
+    max-width: 60rem;
+  }
+  .dark .std-page__title { color: #fff; }
+  @media (min-width: 1024px) {
+    .std-page__title { font-size: 2.25rem; }
+  }
+
+  .std-page__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1.25rem;
+  }
+
+  /* ── Buy / Preview Button ───────────────────── */
+
+  .std-page__buy {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #d40000;
+    color: #fff;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    border-radius: 0.375rem;
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .std-page__buy:hover { background: #b50000; }
+  .dark .std-page__buy { background: #e30613; }
+  .dark .std-page__buy:hover { background: #c50512; }
+  .std-page__buy img { height: 1rem; width: auto; }
+
+  /* ── Status / Meta Badges ───────────────────── */
+
+  .std-page__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .std-page__badge {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.25rem 0.625rem;
+    border-radius: 0.375rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.01em;
+    background: #f1f5f9;
+    color: #475569;
+  }
+  .dark .std-page__badge {
+    background: #1e293b;
+    color: #94a3b8;
+  }
+  .std-page__badge--link {
+    text-decoration: none;
+    transition: background 0.15s;
+  }
+  .std-page__badge--link:hover {
+    background: #e6f0fa;
+    color: #0061ad;
+  }
+  .dark .std-page__badge--link:hover {
+    background: rgb(0 97 173 / 0.15);
+    color: #66a3e0;
+  }
+
+  .std-page__badge--withdrawn {
+    background: #fef2f2;
+    color: #991b1b;
+  }
+  .dark .std-page__badge--withdrawn {
+    background: rgb(220 38 38 / 0.12);
+    color: #fca5a5;
+  }
+
+  .std-page__badge--draft {
+    background: #fffbeb;
+    color: #92400e;
+  }
+  .dark .std-page__badge--draft {
+    background: rgb(245 158 11 / 0.12);
+    color: #fde68a;
+  }
+
+  .std-page__badge--deleted {
+    background: #f3f4f6;
+    color: #6b7280;
+    text-decoration: line-through;
+    text-decoration-color: #9ca3af;
+  }
+  .dark .std-page__badge--deleted {
+    background: rgb(107 114 128 / 0.12);
+    color: #9ca3af;
+    text-decoration-color: #64748b;
+  }
+
+  /* ── Content Sections ───────────────────────── */
+
+  .std-page__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    max-width: 52rem;
+  }
+
+  .std-page__section {
+  }
+
+  .std-page__section-heading {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #0f172a;
+    margin: 0 0 0.75rem;
+    padding-bottom: 0.375rem;
+    border-bottom: 1px solid #e2e8f0;
+  }
+  .dark .std-page__section-heading {
+    color: #f8fafc;
+    border-bottom-color: #334155;
+  }
+
+  /* AsciiDoc body text within sections */
+  .std-page__body {
+    font-size: 0.9375rem;
+    line-height: 1.75;
+    color: #475569;
+  }
+  .dark .std-page__body { color: #cbd5e1; }
+
+  .std-page__body p { margin-bottom: 0.75rem; }
+  .std-page__body p:last-child { margin-bottom: 0; }
+
+  .std-page__body ul,
+  .std-page__body ol {
+    margin: 0.75rem 0;
+    padding-left: 1.5rem;
+  }
+  .std-page__body ul { list-style-type: disc; }
+  .std-page__body ol { list-style-type: decimal; }
+  .std-page__body li {
+    margin-bottom: 0.5rem;
+    line-height: 1.7;
+  }
+  .std-page__body li::marker { color: #0061ad; }
+  .dark .std-page__body li::marker { color: #3385d6; }
+
+  .std-page__body a {
+    color: #0061ad;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+  }
+  .std-page__body a:hover { color: #005090; }
+  .dark .std-page__body a { color: #3385d6; }
+  .dark .std-page__body a:hover { color: #66a3e0; }
+
+  .std-page__body code {
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 0.8125rem;
+    background: #f1f5f9;
+    padding: 0.125rem 0.375rem;
+    border-radius: 0.25rem;
+    color: #222;
+  }
+  .dark .std-page__body code {
+    background: #334155;
+    color: #e2e8f0;
+  }
+
+  .std-page__body pre {
+    background: #1e293b;
+    color: #e2e8f0;
+    padding: 1rem 1.25rem;
+    border-radius: 0.5rem;
+    overflow-x: auto;
+    margin: 1rem 0;
+  }
+  .std-page__body pre code {
+    background: none;
+    padding: 0;
+    color: inherit;
+  }
+
+  .std-page__body table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+  }
+  .std-page__body th,
+  .std-page__body td {
+    padding: 0.625rem 0.875rem;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    font-size: 0.875rem;
+  }
+  .dark .std-page__body th,
+  .dark .std-page__body td { border-bottom-color: #334155; }
+  .std-page__body th {
+    background: #f8fafc;
+    font-weight: 600;
+    color: #222;
+  }
+  .dark .std-page__body th {
+    background: #1e293b;
+    color: #f1f5f9;
+  }
+
+  /* ── Back Link ──────────────────────────────── */
+
+  .std-page__back {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.375rem;
+    font-size: 0.8125rem;
+    color: #64748b;
+    text-decoration: none;
+    margin-bottom: 1.5rem;
+    transition: color 0.15s;
+  }
+  .std-page__back:hover { color: #0061ad; }
+  .dark .std-page__back { color: #94a3b8; }
+  .dark .std-page__back:hover { color: #3385d6; }
+  .std-page__back svg { width: 1rem; height: 1rem; }
+}
