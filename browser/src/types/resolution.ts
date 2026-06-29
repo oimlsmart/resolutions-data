@@ -30,6 +30,7 @@ export interface Approval {
 
 export interface Resolution {
   id: string
+  identifier?: string
   title: string
   subject: string
   year: string

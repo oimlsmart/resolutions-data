@@ -40,8 +40,12 @@ export function buildResolutionRecord(res, sourceFile, metadata) {
   const meetingDate = datesInfo.length > 0 ? datesInfo[0].start : ''
   const year = meetingDate ? meetingDate.substring(0, 4) : ''
 
+  // id is the URL-safe slug (slashes -> dashes) used for routing.
+  // identifier preserves the canonical slash form (e.g. 'CIML/2025/44') for display.
+  const id = String(identifier).replace(/\//g, '-')
   return {
-    id: identifier,
+    id,
+    identifier: String(identifier),
     urn: `${URN_BASE}:resolution:${identifier}`,
     title: deriveDisplayTitle(res, acclamation),
     subject: res.subject || '',

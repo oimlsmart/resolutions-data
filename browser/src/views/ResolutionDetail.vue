@@ -15,7 +15,7 @@
     <header class="std-page__header res-detail-header animate-up" style="--nth: 2">
       <div class="std-page__meta res-detail-meta">
         <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">Acclamation</span>
-        <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.id }}</span>
+        <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.identifier || resolution.id }}</span>
         
         <router-link 
           v-if="resolution.source_file" 
@@ -140,10 +140,10 @@
             class="related-card"
           >
             <div class="related-meta">
-              <span class="related-id">{{ r.id }}</span>
+              <span class="related-id">{{ r.identifier || r.id }}</span>
               <span class="related-date">{{ formatDate(r.meeting_date) }}</span>
             </div>
-            <div class="related-title">{{ r.title || 'Resolution ' + r.id }}</div>
+            <div class="related-title">{{ r.title || 'Resolution ' + (r.identifier || r.id) }}</div>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
