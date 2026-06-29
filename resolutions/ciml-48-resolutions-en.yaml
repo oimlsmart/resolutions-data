@@ -31,22 +31,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2013/2
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by its President.
     dates:
     - start: '2013-10-08'
       kind: decision
     agenda_item: '2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by its President.
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/3
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director.
     dates:
     - start: '2013-10-08'
       kind: decision
     agenda_item: '4.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director.
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/4
     subject: CIML
     title: Approves the revision of OIML B 7 BIML Staff regulations.
@@ -78,12 +90,24 @@ resolutions:
         kind: effective
   - identifier: CIML/2013/6
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Colombia as a new Member State and Zambia as a re-instated Member State
     dates:
     - start: '2013-10-08'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Colombia as a new Member State and Zambia as a re-instated Member State;
+      dates:
+      - start: '2013-10-08'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Iraq, Uganda and Yemen as new Corresponding Members and Guinea, Korea (DPR) and Rwanda as re-instated Corresponding Members.
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/7
     subject: CIML
     title: "Approves the 2012 accounts; and"
@@ -139,7 +163,7 @@ resolutions:
         kind: effective
   - identifier: CIML/2013/9
     subject: CIML
-    title: "Decides to set up an advisory group for the time being, to carry out"
+    title: Welcomes the proposal from its Member from China to reinstate a leadership mechanism to
     dates:
     - start: '2013-10-08'
       kind: decision
@@ -155,11 +179,16 @@ resolutions:
         Recalling its Resolution no. 7 of its 47th meeting (2012);
         Recognizing the importance of coordinating the various projects and initiatives promoted by the OIML, individual Member States and Corresponding Members, and other bodies with an interest in promoting the economic development of countries and economies with emerging metrology systems;
         Emphasizing the necessity to respond to the needs of countries and economies with emerging metrology systems in the design of the projects and initiatives promoted by the OIML;
-        Welcomes the proposal from its Member from China to reinstate a leadership mechanism to provide guidance to the OIML on its activities in this area;
       dates:
       - start: '2013-10-08'
         kind: effective
     actions:
+    - type: welcomes
+      message: |
+        Welcomes the proposal from its Member from China to reinstate a leadership mechanism to provide guidance to the OIML on its activities in this area;
+      dates:
+      - start: '2013-10-08'
+        kind: effective
     - type: decides
       message: |
         Decides to set up an advisory group for the time being, to carry out wide consultation, to seek additional suggestions and to build up links with other bodies which have a contribution to make;

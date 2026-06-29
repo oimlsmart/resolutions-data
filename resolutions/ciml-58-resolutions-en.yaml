@@ -32,22 +32,40 @@ resolutions:
     actions: []
   - identifier: CIML/2023/06
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director.
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '7'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director.
+      dates:
+      - start: '2023-10-17'
+        kind: effective
   - identifier: CIML/2023/07
     subject: CIML
-    title: (Untitled)
+    title: "Welcomes Montenegro as a new Member State, and"
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '7'
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Montenegro as a new Member State, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Saint Lucia as a new Corresponding Member.
+      dates:
+      - start: '2023-10-17'
+        kind: effective
   - identifier: CIML/2023/08
     subject: CIML
     title: (Untitled)
@@ -133,13 +151,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/11
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '10.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -148,22 +173,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/12
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the budget forecast for 2023 given by the BIML Director.
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '10.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2023 given by the BIML Director.
+      dates:
+      - start: '2023-10-17'
+        kind: effective
   - identifier: CIML/2023/13
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the arrangements for future financial audits.
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '10.4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the arrangements for future financial audits.
+      dates:
+      - start: '2023-10-17'
+        kind: effective
   - identifier: CIML/2023/14
     subject: CIML
     title: "Approves the Final Draft revision of D 31:2019 (as amended in 2020) General requirements"
@@ -242,13 +279,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/17
     subject: CIML
-    title: "Supports the immediate amendment of OIML B 17:2012 Policies and rules for the reimbursement"
+    title: Notes the recommendation presented in Addendum 11.1.4 to the Working Document for this meeting
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '11.1.4'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the recommendation presented in Addendum 11.1.4 to the Working Document for this meeting, Noting comments from its Members,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: supports
       message: |
         Supports the immediate amendment of OIML B 17:2012 Policies and rules for the reimbursement of travel expenses incurred by CIML Members of Honor and invited guests in attending OIML events as proposed in Addendum 11.1.4 to the Working Document for this meeting, with this work to be conducted by the BIML.
@@ -380,13 +423,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/23
     subject: CIML
-    title: "Requests the BIML to draft an e-Learning concept, for presentation to the Presidential Council"
+    title: Notes the report on the current status of OIML activities on e-Learning and other
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '11.4'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the current status of OIML activities on e-Learning and other online training,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: requests
       message: |
         Requests the BIML to draft an e-Learning concept, for presentation to the Presidential Council at its meeting in March 2024, taking into account OIML G23 Guide to the use of online technology for conducting CEEMS activities in a post-COVID world, as well as the outcomes of the OIML seminars held in conjunction with the 54th CIML Meeting in 2019 and the 58th CIML Meeting in 2023, in consultation with the Digitalisation Task Group, the CEEMS Advisory Group, the OIML-CS Management Committee, and the RLMO Round Table, and
@@ -396,13 +445,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/24
     subject: CIML
-    title: "Thanks those individuals who have been Mentors for recent editions, those who have already"
+    title: "Notes the continued success of the concept of \"Mentor\" for key topics of the"
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '11.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the continued success of the concept of "Mentor" for key topics of the OIML Bulletin,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors for recent editions, those who have already offered to be Mentors for future editions, and all the contributing authors,
@@ -428,13 +483,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/25
     subject: CIML
-    title: "Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups"
+    title: "Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, a…"
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '12.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
@@ -537,22 +598,34 @@ resolutions:
     actions: []
   - identifier: CIML/2023/30
     subject: CIML
-    title: (Untitled)
+    title: Notes the report of the RLMO Round Table Chairperson.
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '15.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report of the RLMO Round Table Chairperson.
+      dates:
+      - start: '2023-10-17'
+        kind: effective
   - identifier: CIML/2023/31
     subject: CIML
-    title: (Untitled)
+    title: Notes the reports on OIML activities with organisations in liaison.
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '15.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the reports on OIML activities with organisations in liaison.
+      dates:
+      - start: '2023-10-17'
+        kind: effective
   - identifier: CIML/2023/32
     subject: CIML
     title: Supports the reactivation of the JWG
@@ -589,13 +662,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/33
     subject: CIML
-    title: "Thanks their representatives for providing this information to the Committee, and"
+    title: Notes the written reports provided by organisations in liaison
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '15.3'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the written reports provided by organisations in liaison,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee, and
@@ -610,13 +689,25 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/34
     subject: CIML
-    title: Approves the plan of the DTG to formulate a roadmap with concrete milestones and
+    title: Notes the report of the OIML Digitalisation Task Group (DTG) Chairperson
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '14'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Digitalisation Task Group (DTG) Chairperson,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the enthusiastic participation by its Members and others in the OIML Seminar The future of the OIML in the digital era held on 16 October 2023,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: approves
       message: |
         Approves the plan of the DTG to formulate a roadmap with concrete milestones and work items based on the outcomes of the OIML Seminar The future of the OIML in the digital era held on 16 October 2023,
@@ -638,13 +729,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/35
     subject: CIML
-    title: Thanks Mr Chakra Yodmani from the Kingdom of Thailand for making a presentation on
+    title: Notes the report of the CEEMS Advisory Group Chairperson
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '13.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the CEEMS Advisory Group Chairperson,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mr Chakra Yodmani from the Kingdom of Thailand for making a presentation on the proposed "Chiang Mai Declaration" concerning the NEXT initiative for directing the OIML's CEEMS activities, and
@@ -659,13 +756,25 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/36
     subject: CIML
-    title: Approves the CEEMS AG's proposal to form a working group to look into the
+    title: Notes the recommendation from the CEEMS AG presented in Addendum 13.2b to the Working
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '13.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the recommendation from the CEEMS AG presented in Addendum 13.2b to the Working Document for this meeting concerning the "Chiang Mai Declaration on NEXT legal metrology system (LMS)" relating to the OIML's CEEMS activities,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes this significant proposal for the organisation of the OIML's CEEMS work,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: approves
       message: |
         Approves the CEEMS AG's proposal to form a working group to look into the implementation of the "Chiang Mai Declaration on NEXT legal metrology system (LMS)”，with the necessary administrative support from the BIML,and
@@ -675,13 +784,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2023/37
     subject: CIML
-    title: "Approves the revision of OIML B 19:2022 Terms of Reference for the Advisory Group"
+    title: Notes the recommendation from the CEEMS AG presented in Addendum 13.2a to the Working
     dates:
     - start: '2023-10-17'
       kind: decision
     agenda_item: '13.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the recommendation from the CEEMS AG presented in Addendum 13.2a to the Working Document for this meeting, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: approves
       message: |
         Approves the revision of OIML B 19:2022 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS AG) as proposed in Addendum 13.2a to the Working Document for this meeting.

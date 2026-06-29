@@ -16,22 +16,46 @@ metadata:
 resolutions:
   - identifier: CIML/2024/06
     subject: CIML
-    title: (Untitled)
+    title: Welcomes Djibouti as a new Corresponding Member
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '6'
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes Djibouti as a new Corresponding Member,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Burkina Faso as a returning Corresponding Member, and
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes Zimbabwe as a returning Corresponding Member.
+      dates:
+      - start: '2024-10-22'
+        kind: effective
   - identifier: CIML/2024/07
     subject: CIML
-    title: (Untitled)
+    title: "Notes the corrected information regarding Corresponding Member budgeted income for 2023, 2024, and 2…"
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '7.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the corrected information regarding Corresponding Member budgeted income for 2023, 2024, and 2025 given in 59th CIML Meeting Document 7.1.
+      dates:
+      - start: '2024-10-22'
+        kind: effective
   - identifier: CIML/2024/08
     subject: CIML
     title: "Approves the 2023 accounts, and"
@@ -88,13 +112,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/10
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '7.3'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -103,22 +134,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/11
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the budget forecast for 2024 given by the BIML Director.
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '7.4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2024 given by the BIML Director.
+      dates:
+      - start: '2024-10-22'
+        kind: effective
   - identifier: CIML/2024/12
     subject: CIML
-    title: "Thanks Mrs Renée Hansson and Dr Charles Ehrlich for conducting the financial audit and"
+    title: Notes the report of the internal financial audit team
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '7.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the internal financial audit team,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mrs Renée Hansson and Dr Charles Ehrlich for conducting the financial audit and producing the report,
@@ -213,6 +256,11 @@ resolutions:
     - type: approves
       message: |
         Approves the revision of R 49:2013 Water meters for cold potable water and hot water,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    - type: welcomes
+      message: |
         Welcomes the close cooperation with ISO to ensure full harmonisation between OIML R 49 and the corresponding ISO standard, and
       dates:
       - start: '2024-10-22'
@@ -304,22 +352,35 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/22
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the current status of OIML activities on e-Learning and other
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '11.4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the current status of OIML activities on e-Learning and other online training,
+        Encourages Members to collaborate on this activity by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
+      dates:
+      - start: '2024-10-22'
+        kind: effective
   - identifier: CIML/2024/23
     subject: CIML
-    title: "Thanks those individuals who have been Mentors for recent editions, those who have already"
+    title: "Notes the continued success of the concept of \"Mentor\" for key topics of the"
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '11.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the continued success of the concept of "Mentor" for key topics of the OIML Bulletin,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors for recent editions, those who have already offered to be Mentors for future editions, and all the contributing authors,
@@ -335,13 +396,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/24
     subject: CIML
-    title: "Thanks Mr Marc Schmidt for serving as Acting OIML-CS MC Chairperson, and"
+    title: "Notes the report of the Acting OIML Certification System (OIML-CS) Management Committee (MC) Chairpe…"
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '12.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the Acting OIML Certification System (OIML-CS) Management Committee (MC) Chairperson,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mr Marc Schmidt for serving as Acting OIML-CS MC Chairperson, and
@@ -388,13 +455,19 @@ resolutions:
     actions: []
   - identifier: CIML/2024/27
     subject: CIML
-    title: "Thanks Mr Jaco Marneweck for serving as CEEMS AG Chairperson, and"
+    title: Notes the report of the CEEMS Advisory Group (AG) Chairperson
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '13.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the CEEMS Advisory Group (AG) Chairperson,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mr Jaco Marneweck for serving as CEEMS AG Chairperson, and
@@ -431,13 +504,19 @@ resolutions:
     actions: []
   - identifier: CIML/2024/29
     subject: CIML
-    title: "Thanks Dr Sascha Eichstadt for serving as DTG Chairperson, and Dr Yang Ping for"
+    title: Notes the report of the OIML Digitalisation Task Group (DTG) Chairperson
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '14.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Digitalisation Task Group (DTG) Chairperson,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks Dr Sascha Eichstadt for serving as DTG Chairperson, and Dr Yang Ping for serving as Deputy Chairperson,
@@ -474,13 +553,25 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/31
     subject: CIML
-    title: Approves the proposal to align the digitalisation of the OIML's technical work and publications
+    title: Notes the report of the DTG Chairperson on the work of the DTG Subcommittee
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '14.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the DTG Chairperson on the work of the DTG Subcommittee "Smart OIML documents",
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the strong collaboration of the DTG Subcommittee with ISO and the IEC on machine-readable standards and standardisation, and
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: approves
       message: |
         Approves the proposal to align the digitalisation of the OIML's technical work and publications with the corresponding developments in ISO and the IEC.
@@ -489,13 +580,25 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/32
     subject: CIML
-    title: Approves the general concept for an initial course on fundamental principles of digitalisation as
+    title: Notes the report of the DTG Chairperson on the work of the DTG Subcommittee
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '14.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the DTG Chairperson on the work of the DTG Subcommittee "e-Learning",
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the provision of e-Learning material on digitalisation and digital transformation in legal metrology on the OIML platform, and
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: approves
       message: |
         Approves the general concept for an initial course on fundamental principles of digitalisation as outlined in 59th CIML Meeting Document 14.2 and in the report by the DTG Chairperson.
@@ -504,13 +607,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/33
     subject: CIML
-    title: "Thanks Dr Charles Ehrlich for serving as RLMO Round Table Chairperson, and"
+    title: "Notes the report of the Regional Legal Metrology Organisations (RLMO) Round Table Chairperson, Recog…"
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '18.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the Regional Legal Metrology Organisations (RLMO) Round Table Chairperson, Recognising the key role Dr Charles Ehrlich has played in advancing the work of the RLMO Round Table, and in significantly increasing collaboration amongst the RLMOs,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks Dr Charles Ehrlich for serving as RLMO Round Table Chairperson, and
@@ -525,13 +634,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/34
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on OIML activities with organisations in liaison.
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '18.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on OIML activities with organisations in liaison.
+      dates:
+      - start: '2024-10-22'
+        kind: effective
   - identifier: CIML/2024/35
     subject: CIML
     title: Requests Dr Charles Ehrlich to represent the OIML on the Consultative Committee for Units
@@ -561,13 +676,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2024/36
     subject: CIML
-    title: "Thanks their representatives for providing this information to the Committee, and"
+    title: Notes the written reports provided by organisations in liaison
     dates:
     - start: '2024-10-22'
       kind: decision
     agenda_item: '18.3'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the written reports provided by organisations in liaison,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee, and
@@ -628,7 +749,7 @@ resolutions:
     actions: []
   - identifier: CIML/2024/40
     subject: CIML
-    title: Thanks India and Saudi Arabia for their invitations to host the 60th CIML Meeting
+    title: Notes the information provided on the organisation of the 60th CIML Meeting and 17th
     dates:
     - start: '2024-10-22'
       kind: decision
@@ -642,6 +763,12 @@ resolutions:
       - start: '2024-10-22'
         kind: effective
     actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organisation of the 60th CIML Meeting and 17th OIML Conference in 2025,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
     - type: thanks
       message: |
         Thanks India and Saudi Arabia for their invitations to host the 60th CIML Meeting and 17th OIML Conference in 2025,

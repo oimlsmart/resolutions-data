@@ -55,13 +55,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/06
     subject: CIML
-    title: (Untitled)
+    title: Notes the report given by the BIML Director.
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '6'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/07
     subject: CIML
     title: (Untitled)
@@ -187,13 +193,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/11
     subject: CIML
-    title: Requests those Members with arrears to bring their situation up to date as soon
+    title: "Notes the report given by the BIML Director, Encourages the BIML to continue its"
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '10.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible.
@@ -202,22 +215,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/12
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the budget forecast for 2022 given by the BIML Director.
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '10.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the budget forecast for 2022 given by the BIML Director.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/13
     subject: CIML
-    title: Thanks Mrs Mairead Buckley and Dr Bobjoseph Mathew for conducting the financial audit and
+    title: Notes the report of the internal financial audit team
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '10.4'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the internal financial audit team,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mrs Mairead Buckley and Dr Bobjoseph Mathew for conducting the financial audit and producing the report,
@@ -542,39 +567,69 @@ resolutions:
     actions: []
   - identifier: CIML/2022/30
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the current status of OIML activities on e-Learning and other
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '14.4'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the current status of OIML activities on e-Learning and other online training,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
+    - type: welcomes
+      message: |
+        Welcomes the collaboration with the BIPM on the development of an e-Learning course and other supporting materials relating to OIML D 1:2020 National metrology systems - Developing the institutional and legislative framework, and
+        Encourages Members to collaborate on e-Learning activities by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/31
     subject: CIML
-    title: "Thanks those individuals who have been Mentors for recent editions, and those who have"
+    title: "Notes the success of the concept of \"Mentor\" for key topics of the OIML"
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '14.5'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the success of the concept of "Mentor" for key topics of the OIML Bulletin,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors for recent editions, and those who have already offered to be Mentors for future editions,
         Encourages Members to come forward as Mentors for key topics of future editions, and
+      dates:
+      - start: '2022-10-18'
+        kind: effective
+    - type: renews
+      message: |
         Renews its support for the OIML Bulletin.
       dates:
       - start: '2022-10-18'
         kind: effective
   - identifier: CIML/2022/32
     subject: CIML
-    title: "Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups"
+    title: "Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, a…"
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '15.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, and
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: thanks
       message: |
         Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
@@ -678,13 +733,20 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/36
     subject: CIML
-    title: Thanks members of the CEEMS AG for their work.
+    title: "Notes the report on the activities of the CEEMS Advisory Group (AG), Encourages Members"
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '16.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report on the activities of the CEEMS Advisory Group (AG),
+        Encourages Members to join the CEEMS AG, and
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: thanks
       message: |
         Thanks members of the CEEMS AG for their work.
@@ -735,22 +797,37 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/39
     subject: CIML
-    title: (Untitled)
+    title: Welcomes the intention of the CIML President to approve the document Guide to the
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '16.3'
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes the intention of the CIML President to approve the document Guide to the use of online technology for conducting CEEMS activities in a post-COVID world as an OIML Guide, and
+        Encourages the BIML, the CEEMS Advisory Group, the OIML Digitalisation Task Group, CIML Members, and Corresponding Member Representatives to take note of its recommendations.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/40
     subject: CIML
-    title: (Untitled)
+    title: Welcomes the restarting of the work of the CEEMS/p 1 Project Group on the
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '16.3'
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        Welcomes the restarting of the work of the CEEMS/p 1 Project Group on the revision of OIML D 14:2004 Training and qualification of legal metrology personnel,
+        Encourages Members to participate in this Project Group, and
+        Encourages Members of the Project Group to respond to the survey being conducted as an initial phase of this work.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/41
     subject: CIML
     title: (Untitled)
@@ -818,22 +895,34 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/44
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on the RLMO Round Table meeting given by its Chairperson.
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '21.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on the RLMO Round Table meeting given by its Chairperson.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/45
     subject: CIML
-    title: (Untitled)
+    title: Notes the report on OIML activities with organisations in liaison.
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '21.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report on OIML activities with organisations in liaison.
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/46
     subject: CIML
     title: Approves the nomination of Dr Agnieszka Zon (Poland) to replace Dr Jerzy Borzyminski (Poland)
@@ -875,13 +964,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/47
     subject: CIML
-    title: Thanks their representatives for providing this information to the Committee.
+    title: "Notes the reports and presentations by organisations in liaison, and"
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '21.3'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the reports and presentations by organisations in liaison, and
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: thanks
       message: |
         Thanks their representatives for providing this information to the Committee.
@@ -917,13 +1012,19 @@ resolutions:
     actions: []
   - identifier: CIML/2022/51
     subject: CIML
-    title: Supports taking into account the responses to the survey summarised in Addendum 23.1 to
+    title: Notes the report provided by the CIML President
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '23.1'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the report provided by the CIML President,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: supports
       message: |
         Supports taking into account the responses to the survey summarised in Addendum 23.1 to the Working Document for the 57th CIML Meeting when considering invitations for future CIML meetings.
@@ -932,13 +1033,19 @@ resolutions:
         kind: effective
   - identifier: CIML/2022/52
     subject: CIML
-    title: Thanks the Kingdom of Thailand for its invitation to host the 58th CIML Meeting
+    title: Notes the information provided on the organisation of the 58th CIML Meeting in 2023
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '23.2'
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Notes the information provided on the organisation of the 58th CIML Meeting in 2023,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
     - type: thanks
       message: |
         Thanks the Kingdom of Thailand for its invitation to host the 58th CIML Meeting in 2023, and

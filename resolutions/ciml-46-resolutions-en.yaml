@@ -142,12 +142,19 @@ resolutions:
     actions: []
   - identifier: CIML/2011/9
     subject: CIML
-    title: (Untitled)
+    title: Notes the report of Eberhard Seiler as the Facilitator on Developing Country matters and
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report of Eberhard Seiler as the Facilitator on Developing Country matters and his recommendation that this role is fundamentally changed,
+        Expresses its appreciation for all the work he has done since his appointment in 2008, and Invites him, in the light of the new OIML Strategy, to continue his contribution to OIML activities related to developing countries.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/10
     subject: CIML
     title: Approves the Memorandum of Understanding with the IEC
@@ -170,12 +177,18 @@ resolutions:
         kind: effective
   - identifier: CIML/2011/11
     subject: CIML
-    title: "Instructs the Bureau to identify possible liaison activities, to encourage such activities at the"
+    title: Welcomes the prospective establishment of a liaison with the Consumer Policy Committee of ISO
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
     actions:
+    - type: welcomes
+      message: |
+        Welcomes the prospective establishment of a liaison with the Consumer Policy Committee of ISO (ISO/COPOLCO),
+      dates:
+      - start: '2011-10-11'
+        kind: effective
     - type: instructs
       message: |
         Instructs the Bureau to identify possible liaison activities, to encourage such activities at the TC and SC level and to report on the progress at the 47th CIML Meeting.
@@ -469,6 +482,11 @@ resolutions:
     - type: thanks
       message: |
         Thanks Dr. Arnold Leitner for representing the OIML in the CCU (Consultative Committee of Units of the BIPM) over many years, and,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    - type: welcomes
+      message: |
         Welcomes the nomination by TC 2 of Dr. Philippe Richard as the new OIML representative in the CCU.
       dates:
       - start: '2011-10-11'

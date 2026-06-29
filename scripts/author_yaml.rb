@@ -55,6 +55,10 @@ module ResolutionsData
       ["Supports",                       "supports"],
       ["Rescinds",                       "rescinds"],
       ["Acknowledges",                   "acknowledges"],
+      ["Notes",                        "notes"],
+      ["Takes note",                   "notes"],
+      ["Welcomes",                     "welcomes"],
+      ["Renews",                       "renews"],
     ].freeze
 
     # French equivalents
