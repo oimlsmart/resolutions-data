@@ -12,12 +12,28 @@
       </router-link>
 
       <nav class="site-header__nav">
-        <router-link :to="{ name: 'home' }" class="site-header__nav-link" active-class="active">Resolutions</router-link>
-        <router-link :to="{ name: 'meetings' }" class="site-header__nav-link" active-class="active">Meetings</router-link>
-        <router-link :to="{ name: 'about' }" class="site-header__nav-link" active-class="active">About</router-link>
+        <router-link :to="{ name: 'home' }" class="site-header__nav-link" active-class="active">{{ t('nav.resolutions') }}</router-link>
+        <router-link :to="{ name: 'meetings' }" class="site-header__nav-link" active-class="active">{{ t('nav.meetings') }}</router-link>
+        <router-link :to="{ name: 'about' }" class="site-header__nav-link" active-class="active">{{ t('nav.about') }}</router-link>
       </nav>
 
       <div class="site-header__actions">
+        <!-- Language toggle -->
+        <div class="lang-toggle" role="group" :aria-label="t('lang.toggle')">
+          <button
+            class="lang-toggle__btn"
+            :class="{ 'lang-toggle__btn--active': lang === 'en' }"
+            @click="setLang('en')"
+            :aria-pressed="lang === 'en'"
+          >EN</button>
+          <button
+            class="lang-toggle__btn"
+            :class="{ 'lang-toggle__btn--active': lang === 'fr' }"
+            @click="setLang('fr')"
+            :aria-pressed="lang === 'fr'"
+          >FR</button>
+        </div>
+
         <!-- External Icons (Desktop) -->
         <div class="site-header__external-links">
           <a :href="committee.links.linkedin" target="_blank" rel="noopener noreferrer" class="site-header__icon-btn" aria-label="LinkedIn">
@@ -51,9 +67,9 @@
 
     <!-- Mobile Menu -->
     <div v-show="isMobileMenuOpen" class="mobile-menu" :class="{ 'mobile-menu--open': isMobileMenuOpen }">
-      <router-link :to="{ name: 'home' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">Resolutions</router-link>
-      <router-link :to="{ name: 'meetings' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">Meetings</router-link>
-      <router-link :to="{ name: 'about' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">About</router-link>
+      <router-link :to="{ name: 'home' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.resolutions') }}</router-link>
+      <router-link :to="{ name: 'meetings' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.meetings') }}</router-link>
+      <router-link :to="{ name: 'about' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.about') }}</router-link>
       
       <span class="mobile-menu__section-title">External Links</span>
       <a :href="committee.links.committeeSite" target="_blank" rel="noopener noreferrer" class="mobile-menu__link">OIML Members</a>
@@ -139,8 +155,10 @@
 import { ref, onMounted, onUnmounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { committee } from './data/committee'
+import { useI18n } from './composables/useI18n'
 
 const router = useRouter()
+const { t, lang, setLang } = useI18n()
 const isDark = ref(false)
 const isMobileMenuOpen = ref(false)
 const showScrollTop = ref(false)
