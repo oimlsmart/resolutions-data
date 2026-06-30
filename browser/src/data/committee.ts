@@ -22,12 +22,12 @@ export const committee = {
     iso: 'https://www.iso.org',
     isoCommittee: 'https://www.iso.org/committee/54158.html',
     committeeSite: 'https://www.oiml.org/members',
-    linkedin: 'https://www.linkedin.com/company/oiml-biml/',
+    linkedin: 'https://www.linkedin.com/company/organisation-internationale-de-métrologie-légale',
     oiml: 'https://www.oiml.org',
     ciml: 'https://www.oiml.org/en/structure/ciml/sites',
     conference: 'https://www.oiml.org/en/structure/conference/sites',
     bulletin: 'https://www.oiml.org/en/publications/oiml-bulletin',
-    github: 'https://github.com/metanorma',
+    github: 'https://github.com/oimlsmart',
   },
 } as const
 
