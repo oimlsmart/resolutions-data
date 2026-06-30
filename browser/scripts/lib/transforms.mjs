@@ -23,6 +23,24 @@ export function normalizeSnippet(rawMessage) {
   return snippet
 }
 
+export function bodyTypeFromSourceFile(sourceFile) {
+  return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
+}
+
+// Per TODO.cleanups/06: each meeting gets a DOI under 10.63493/meetings/.
+// CIML: ciml<meeting-number> (e.g. ciml60)
+// Conference: conf<session-number> (e.g. conf17)
+// The meeting/session number is parsed from the source_file slug because
+// the YAML metadata block doesn't carry it.
+export function buildMeetingDoi(meta, sourceFile) {
+  const bodyType = bodyTypeFromSourceFile(sourceFile)
+  const m = sourceFile.match(/^(?:ciml|conference)-(\d+)/)
+  if (!m) return ''
+  const num = m[1]
+  const prefix = bodyType === 'conference' ? 'conf' : 'ciml'
+  return `10.63493/meetings/${prefix}${num}`
+}
+
 export function isAcclamation(identifier) {
   return String(identifier).includes('-acclaim-')
 }
@@ -43,9 +61,17 @@ export function buildResolutionRecord(res, sourceFile, metadata) {
   // id is the URL-safe slug (slashes -> dashes) used for routing.
   // identifier preserves the canonical slash form (e.g. 'CIML/2025/44') for display.
   const id = String(identifier).replace(/\//g, '-')
+
+  // Language is derived from the source_file slug suffix
+  // (ciml-44-resolutions-en -> 'en'; bilingual-PDF halves also end in -en/-fr).
+  let language = ''
+  if (/-en$/.test(sourceFile)) language = 'en'
+  else if (/-fr$/.test(sourceFile)) language = 'fr'
+
   return {
     id,
     identifier: String(identifier),
+    language,
     doi: res.doi || '',
     urn: res.urn || `${URN_BASE}:resolution:${identifier}`,
     title: deriveDisplayTitle(res, acclamation),

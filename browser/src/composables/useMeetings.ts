@@ -9,6 +9,21 @@ export function bodyTypeFromSourceFile(sourceFile: string): MeetingBodyType {
   return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
 }
 
+/** Derive the language tag from the source-file slug suffix. */
+export function languageFromSourceFile(sourceFile: string): '' | 'en' | 'fr' {
+  if (/-en$/.test(sourceFile)) return 'en'
+  if (/-fr$/.test(sourceFile)) return 'fr'
+  return ''
+}
+
+/** Compute the DOI for a meeting from its slug (mirrors transforms.mjs). */
+export function doiFromSourceFile(sourceFile: string): string {
+  const m = sourceFile.match(/^(?:ciml|conference)-(\d+)/)
+  if (!m) return ''
+  const prefix = sourceFile.startsWith('conference-') ? 'conf' : 'ciml'
+  return `10.63493/meetings/${prefix}${m[1]}`
+}
+
 export interface DecadeGroup {
   label: string
   resCount: number
@@ -59,6 +74,8 @@ export function useMeetings() {
           venue: res.venue,
           year: res.year,
           body_type: bodyTypeFromSourceFile(file),
+          language: languageFromSourceFile(file),
+          doi: doiFromSourceFile(file),
           resolution_count: 0,
           acclamation_count: 0
         })
