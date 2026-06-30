@@ -66,6 +66,13 @@
       <p v-if="resolution.source_title" class="res-detail-subtitle">
         {{ resolution.source_title }}
       </p>
+
+      <!-- Agenda item title (lookup against the per-meeting agenda). -->
+      <p v-if="agendaItemTitle" class="res-detail-agenda">
+        <strong>{{ t('resolution.agendaItemLabel') }} {{ resolution.agenda_item }}</strong>
+        <span class="res-detail-agenda-sep">—</span>
+        <span>{{ agendaItemTitle }}</span>
+      </p>
     </header>
 
     <!-- DOI -->
@@ -301,6 +308,7 @@ import { formatActionType } from '../utils/actionType'
 import { useDateFormat } from '../composables/useDateFormat'
 import { useClipboard } from '../composables/useClipboard'
 import { mtStyle, getMeetingTypeShort } from '../data/meetingTypes'
+import { findAgendaItem } from '../data/agendas'
 
 const router = useRouter()
 const route = useRoute()
@@ -467,6 +475,16 @@ const meetingLinkLabel = computed(() => {
     }
   }
   return venue || res.source_title || 'Meeting'
+})
+
+// Title of the agenda item this resolution references. Looked up
+// against the per-meeting agenda in browser/src/data/agendas.yaml
+// via findAgendaItem(source_file, agenda_item_number).
+const agendaItemTitle = computed(() => {
+  const res = resolution.value
+  if (!res || !res.agenda_item || !res.source_file) return ''
+  const item = findAgendaItem(res.source_file, res.agenda_item)
+  return item?.description || ''
 })
 
 const meetingResolutions = computed(() => {
@@ -721,9 +739,33 @@ function submitSearch() {
   padding-left: 1rem;
   border-left: 2px solid var(--color-slate-200);
 }
-.dark .res-detail-subtitle { 
+.dark .res-detail-subtitle {
   color: var(--color-slate-400);
   border-left-color: var(--color-slate-700);
+}
+
+.res-detail-agenda {
+  font-size: 1rem;
+  color: var(--color-slate-600);
+  font-style: italic;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-blue-accent);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.dark .res-detail-agenda {
+  color: var(--color-slate-400);
+  border-left-color: #66a3e0;
+}
+.res-detail-agenda strong {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-blue-accent);
+}
+.dark .res-detail-agenda strong { color: #66a3e0; }
+.res-detail-agenda-sep {
+  margin: 0 0.5rem;
+  color: var(--color-slate-300);
 }
 
 .res-detail-content {
