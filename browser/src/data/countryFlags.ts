@@ -13,6 +13,9 @@ const COUNTRY_CODE_MAP: Record<string, string> = {
   'united kingdom': 'GB',
   'uk': 'GB',
   'china': 'CN',
+  "p.r. china": 'CN',
+  "people's republic of china": 'CN',
+  "p.r.c.": 'CN',
   'france': 'FR',
   'korea': 'KR',
   'south korea': 'KR',
@@ -28,6 +31,19 @@ const COUNTRY_CODE_MAP: Record<string, string> = {
   'spain': 'ES',
   'netherlands': 'NL',
   'the netherlands': 'NL',
+  // New: 9 countries missing per TODO.cleanups/03
+  'kenya': 'KE',
+  'czech republic': 'CZ',
+  'czechia': 'CZ',
+  'czech': 'CZ',
+  'viet nam': 'VN',
+  'vietnam': 'VN',
+  'romania': 'RO',
+  'new zealand': 'NZ',
+  'colombia': 'CO',
+  'slovak republic': 'SK',
+  'slovakia': 'SK',
+  'thailand': 'TH',
 }
 
 function countryCodeToEmoji(code: string): string {
