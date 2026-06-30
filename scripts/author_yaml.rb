@@ -151,30 +151,37 @@ module ResolutionsData
       ["Endorses",      "endorses"],   # duplicate to be safe
     ].freeze
 
+    # Group manifest entries by meeting identity. A CIML meeting is keyed
+    # by "ciml-{N}"; a Conference by "conference-{S}". The English and
+    # French source PDFs of the same meeting collapse into a single emit
+    # pass, producing ONE per-meeting YAML file with embedded
+    # Localizable resolution rows.
+    def self.group_sources_by_meeting(sources)
+      groups = {}
+      sources.each do |src|
+        next unless src["slug"]
+        # Strip the trailing language tag (en / fr / bilingual) so
+        # the same meeting with EN and FR PDFs groups together.
+        base_slug = src["slug"].sub(/-(en|fr|bilingual)\z/, '')
+        groups[base_slug] ||= []
+        groups[base_slug] << src
+      end
+      groups
+    end
+
     def self.run
       FileUtils.mkdir_p(OUT_DIR)
       sources = YAML.load_file(MANIFEST)["sources"]
       stats = Hash.new(0)
       pending = []
 
-      sources.each do |src|
-        slug = src["slug"]
-        md_path = File.join(OCR_DIR, "#{slug}.md")
-        unless File.exist?(md_path)
-          warn "  SKIP #{slug}: no OCR markdown"
-          next
-        end
-        md = File.read(md_path)
-
-        # Bilingual: split at the French "Résolutions" header
-        if src["lang"] == "bilingual"
-          en, fr = split_bilingual(md)
-          emit_one(src, slug + "-en", en, :en, stats, pending)
-          emit_one(src, slug + "-fr", fr, :fr, stats, pending)
-        else
-          lang_sym = src["lang"] == "fr" ? :fr : :en
-          emit_one(src, slug, md, lang_sym, stats, pending)
-        end
+      # Group source PDFs by meeting identity (kind + number). Each
+      # meeting gets ONE YAML file containing every language version
+      # (each resolution row tagged with its `language:`). See
+      # TODO.complete/13-meeting-single-file-yaml.md.
+      by_meeting = group_sources_by_meeting(sources)
+      by_meeting.each do |meeting_slug, meeting_sources|
+        emit_meeting(meeting_slug, meeting_sources, stats, pending)
       end
 
       File.write(PENDING, pending.join("\n")) unless pending.empty?
@@ -186,6 +193,199 @@ module ResolutionsData
       puts "  Decisions deferred:    #{stats[:deferred]}  (CIML 39–42 narrative style)"
       puts "  Pending-review notes:  #{pending.size}  → #{PENDING}"
       exit 1 if stats[:error] > 0
+    end
+
+    def self.emit_meeting(meeting_slug, meeting_sources, stats, pending)
+      grouped = []
+      titles_by_lang = {}
+      meeting_sources.each do |src|
+        md_slug = src["slug"]
+        md_path = File.join(OCR_DIR, "#{md_slug}.md")
+        unless File.exist?(md_path)
+          pending << "#{meeting_slug}: missing OCR markdown for #{md_slug}"
+          next
+        end
+        md = File.read(md_path)
+
+        per_lang = case src["lang"]
+                   when "bilingual"
+                     en_md, fr_md = split_bilingual(md)
+                     parse_with_fallback(en_md, src, :en) +
+                       parse_with_fallback(fr_md, src, :fr)
+                   when "fr"
+                     parse_with_fallback(md, src, :fr)
+                   else
+                     parse_with_fallback(md, src, :en)
+                   end
+
+        # Stamp every row with its source PDF's language so duplicates can
+        # be detected correctly across the EN and FR halves.
+        lang_stamp = (src["lang"] == "fr" ? "fr" : "en")
+        per_lang.each { |r| r["language"] = lang_stamp }
+        grouped.concat(per_lang)
+        stats[:resolutions] += per_lang.size
+        titles_by_lang[lang_stamp.to_sym] ||= src["title"].to_s
+      end
+
+      # Drop repeated (language, identifier) duplicates within the meeting.
+      seen = {}
+      unique_resolutions = []
+      grouped.each do |r|
+        key = [r["language"], r["identifier"]]
+        if seen[key]
+          pending << "#{meeting_slug}: duplicate #{r['language']} #{r['identifier']}"
+          next
+        end
+        seen[key] = true
+        unique_resolutions << r
+      end
+
+      if unique_resolutions.empty?
+        pending << "#{meeting_slug}: parser found 0 resolutions (deferred)"
+        return
+      end
+
+      stats[:emitted] += 1
+      out_path = File.join(OUT_DIR, "#{meeting_slug}.yaml")
+      File.write(out_path, render_meeting_collection(meeting_slug, meeting_sources, unique_resolutions, titles_by_lang))
+      puts "  ok   #{meeting_slug}  (#{unique_resolutions.size} resolutions across #{meeting_sources.size} source PDF(s))"
+    rescue => e
+      stats[:error] += 1
+      pending << "#{meeting_slug}: ERROR #{e.class}: #{e.message}"
+    end
+
+    # Try the formal parser, then the narrative parser, then return [].
+    def self.parse_with_fallback(md, src, lang)
+      resolutions, _deferred = parse(md, src, lang)
+      if resolutions.empty? && md =~ /#*\s*D[ÉE]CISIONS\b/i
+        resolutions, _deferred = parse_narrative(md, src, lang)
+      end
+      resolutions
+    end
+
+    # Render a per-meeting YAML with multilingual Localizable text. Each
+    # per-resolution row carries `language:`; every text field that
+    # supports translation emits the Localizable `[{content, lang}, ...]`
+    # form keyed by the language recorded on the row.
+    def self.localized(text_per_lang)
+      Array(text_per_lang).map { |lang, content| { "content" => content.to_s, "lang" => lang.to_s } }
+    end
+
+    def self.localized_yaml(text_per_lang, indent = "    ")
+      localized(text_per_lang).map do |h|
+        "  #{indent}- { content: \"#{h["content"].to_s.gsub('"', '\\"')}\", lang: #{h["lang"]} }"
+      end.join("\n")
+    end
+
+    def self.render_meeting_collection(meeting_slug, meeting_sources, resolutions, titles_by_lang)
+      primary     = meeting_sources.first
+      kind        = primary["kind"]
+      number      = primary["kind"] == "ciml" ? primary["meeting"] : primary["session"]
+      body        = primary["kind"] == "ciml" ? "CIML Meeting" : "OIML Conference"
+      urn_kind    = primary["kind"] == "ciml" ? "ciml" : "conference"
+
+      en_default = "Resolutions of the #{number_to_ordinal(number, :en)} #{body} (#{primary['year']})"
+      fr_default = "Résolutions #{number_to_ordinal(number, :fr)} #{body} (#{primary['year']})"
+      en_title = titles_by_lang[:en] || en_default
+      fr_title = titles_by_lang[:fr] || titles_by_lang[:en] || fr_default
+
+      venue = primary["venue"]
+      date_start = primary["date_start"] || "#{primary['year']}-01-01"
+      date_end   = primary["date_end"]   || date_start
+      dates_yaml = if date_start == date_end
+        "  dates:\n  - start: '#{date_start}'\n    kind: meeting"
+      else
+        "  dates:\n  - start: '#{date_start}'\n    end: '#{date_end}'\n    kind: meeting"
+      end
+
+      pdf_paths = meeting_sources.map { |s| source_pdf_path(s) }.join(" | ")
+      url_lines = meeting_sources.map do |s|
+        lang = s["lang"] == "fr" ? "fr" : "en"
+        ref  = s["url"].to_s.gsub('"', '\"')
+        "    - { ref: \"#{ref}\", format: pdf, lang: #{lang} }"
+      end.join("\n")
+
+      available_langs = meeting_sources.map { |s| s["lang"].to_s }.uniq.reject(&:empty?).join(", ")
+
+      <<~YAML
+        # yaml-language-server: $schema=#{SCHEMA_URL}
+        # Auto-generated by scripts/author_yaml.rb from #{pdf_paths}.
+        # Meeting URN: urn:oiml:#{urn_kind}:meeting:#{meeting_slug}
+        # Languages: #{available_langs}
+        ---
+        metadata:
+          title:
+        #{localized_yaml({ en: en_title, fr: fr_title })}
+        #{dates_yaml}
+          venue: #{yaml_escape(venue)}
+          city: #{yaml_escape(primary['city'].to_s)}
+          country_code: #{yaml_escape(primary['country_code'].to_s)}
+          source_urls:
+        #{url_lines}
+        resolutions:
+      YAML
+        .concat(resolutions.map { |r| render_meeting_resolution(r) }.join("\n"))
+    end
+
+    def self.render_meeting_resolution(r)
+      indent = "  "
+      lines = []
+      lines << "#{indent}- identifier: #{yaml_escape(r['identifier'])}"
+      lines << "#{indent}  language: #{r['language']}" if r["language"]
+
+      # title as a per-row Localizable list. We only have the one
+      # language on the row, but emit as a single-entry list to keep
+      # the wire shape consistent with the schema.
+      if r["title"] && !r["title"].to_s.empty?
+        lines << "#{indent}  title:"
+        lines << "#{indent}    - { content: #{yaml_escape(r['title'])}, lang: #{r['language']} }"
+      end
+      if r["subject"]
+        subj_list = localized({ r['language'].to_s => r['subject'] })
+        lines << "#{indent}  subject:"
+        subj_list.each do |h|
+          lines << "#{indent}    - { content: #{yaml_escape(h['content'])}, lang: #{h['lang']} }"
+        end
+      end
+      if r["doi"]
+        lines << "#{indent}  doi: #{yaml_escape(r['doi'])}"
+      end
+      if r["urn"]
+        lines << "#{indent}  urn: #{yaml_escape(r['urn'])}"
+      end
+      lines << "#{indent}  dates:"
+      r["dates"].each do |d|
+        lines << "#{indent}  - start: '#{d['start']}'"
+        lines << "#{indent}    kind: #{d['kind']}"
+      end
+      lines << "#{indent}  agenda_item: '#{r['agenda_item']}'" if r["agenda_item"]
+      if r["considerations"] && r["considerations"].any?
+        lines << "#{indent}  considerations:"
+        r["considerations"].each { |c| lines << render_meeting_action_like(c, indent + "  ", r['language']) }
+      else
+        lines << "#{indent}  considerations: []"
+      end
+      if r["actions"] && r["actions"].any?
+        lines << "#{indent}  actions:"
+        r["actions"].each { |a| lines << render_meeting_action_like(a, indent + "  ", r['language']) }
+      else
+        lines << "#{indent}  actions: []"
+      end
+      lines.join("\n")
+    end
+
+    def self.render_meeting_action_like(entry, indent, lang)
+      out = []
+      out << "#{indent}- type: #{entry['type']}"
+      msg = entry['message'].to_s
+      out << "#{indent}  message:"
+      out << "#{indent}    - { content: #{yaml_escape(msg)}, lang: #{lang} }"
+      out << "#{indent}  dates:"
+      Array(entry['dates']).each do |d|
+        out << "#{indent}  - start: '#{d['start']}'"
+        out << "#{indent}    kind: #{d['kind']}"
+      end
+      out.join("\n")
     end
 
     def self.emit_one(src, out_slug, md, lang, stats, pending)
