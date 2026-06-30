@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { writeLegacyMeetingRedirects } from './lib/redirects.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -65,3 +66,8 @@ Sitemap: ${baseUrl}/sitemap.xml
 
 fs.writeFileSync(path.join(distDir, 'robots.txt'), robots);
 console.log('Generated robots.txt');
+
+// Generate static redirects for legacy meeting URLs (/ciml-39-decisions-en
+// → /ciml-39-decisions). See TODO.complete/21.
+const redirectCount = writeLegacyMeetingRedirects(distDir, meetingFiles, '/resolutions-data/');
+console.log(`Generated ${redirectCount} legacy URL redirects`);

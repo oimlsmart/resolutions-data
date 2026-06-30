@@ -113,7 +113,7 @@
                 @click="toggleActionType(action)"
               >
                 <span class="chip-color-dot" :style="{ '--dot-bg': getActionColor(action).bg }"></span>
-                {{ action }}
+                {{ getActionLabel(action, lang) }}
               </button>
             </div>
           </div>
@@ -154,12 +154,12 @@
           </button>
         </div>
 
-        <div v-show="isLegendOpen" class="action-legend">
-          <div v-for="action in allActionTypes" :key="action" class="legend-item">
-             <span class="legend-color" :style="{ '--legend-bg': getActionColor(action).bg }"></span>
-             <span class="legend-label">{{ action }}</span>
+          <div v-show="isLegendOpen" class="action-legend">
+            <div v-for="action in allActionTypes" :key="action" class="legend-item">
+               <span class="legend-color" :style="{ '--legend-bg': getActionColor(action).bg }"></span>
+               <span class="legend-label">{{ getActionLabel(action, lang) }}</span>
+            </div>
           </div>
-        </div>
       </div>
 
       <div class="std-results" v-if="isLoaded">
@@ -197,7 +197,7 @@
                 class="action-chip"
                 :style="{ '--chip-bg': getActionColor(actType).bg, '--chip-text': getActionColor(actType).text }"
               >
-                {{ actType }}
+                {{ getActionLabel(actType, lang) }}
               </span>
               <span v-if="getUniqueActions(res).length > 3" class="action-chip action-chip--more">
                 {{ interpolate(t('home.moreActions'), { count: getUniqueActions(res).length - 3 }) }}
@@ -267,7 +267,7 @@ import { committee } from '../data/committee'
 import { getMeetingTypeShort } from '../data/meetingTypes'
 import { useCountUp } from '../composables/useCountUp'
 import { bodyTypeFromSourceFile } from '../composables/useMeetings'
-import { getActionColor } from '../data/actionTypes'
+import { getActionColor, getActionLabel } from '../data/actionTypes'
 import { useDateFormat } from '../composables/useDateFormat'
 import { highlightText } from '../utils/highlight'
 
