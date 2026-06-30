@@ -752,6 +752,8 @@ module ResolutionsData
         #{dates_yaml}
           source: OIML #{kind == 'ciml' ? 'CIML' : 'Conference'} Secretariat (BIML)
           venue: #{yaml_escape(venue)}
+          city: #{yaml_escape(src['city'].to_s)}
+          country_code: #{yaml_escape(src['country_code'].to_s)}
           language: #{lang}
         resolutions:
       YAML
