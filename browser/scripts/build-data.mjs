@@ -53,6 +53,8 @@ function main() {
         source_title: metadata.title || '',
         meeting_date: meetingDate,
         venue: metadata.venue || '',
+        city: metadata.city || '',
+        country_code: metadata.country_code || '',
         year,
         body_type: bodyTypeFromSourceFile(source_file),
         language: metadata.language || '',

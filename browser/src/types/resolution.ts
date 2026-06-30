@@ -33,6 +33,8 @@ export interface Resolution {
   identifier?: string
   language?: '' | 'en' | 'fr'
   doi?: string
+  city?: string
+  country_code?: string
   title: string
   subject: string
   year: string
@@ -60,6 +62,8 @@ export interface Meeting {
   source_title: string
   meeting_date: string
   venue: string
+  city: string
+  country_code: string
   year: string
   body_type: MeetingBodyType
   language: '' | 'en' | 'fr'

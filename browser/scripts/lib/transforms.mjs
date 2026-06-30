@@ -78,6 +78,8 @@ export function buildResolutionRecord(res, sourceFile, metadata) {
     subject: res.subject || '',
     year,
     venue: metadata.venue || '',
+    city: metadata.city || '',
+    country_code: metadata.country_code || '',
     source_file: sourceFile,
     meeting_urn: `${URN_BASE}:meeting:${sourceFile}`,
     source_title: metadata.title || '',
