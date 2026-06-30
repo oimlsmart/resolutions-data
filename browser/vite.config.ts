@@ -1,4 +1,5 @@
 import { defineConfig } from 'vite'
+import yaml from '@modyfi/vite-plugin-yaml'
 import vue from '@vitejs/plugin-vue'
 import { fileURLToPath, URL } from 'node:url'
 import { readFileSync } from 'node:fs'
@@ -28,7 +29,7 @@ function getPageData(route: string) {
 }
 
 export default defineConfig({
-  plugins: [vue()],
+  plugins: [vue(), yaml()],
   base: '/resolutions-data/',
   resolve: {
     alias: {

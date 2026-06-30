@@ -1,50 +1,9 @@
-/**
- * Maps meeting venue strings to country flag emojis.
- *
- * Venue data is stored as "City, Country" (e.g. "Nagasaki, Japan").
- * The country is the last comma-separated segment. We resolve it to an
- * ISO 3166-1 alpha-2 code, then convert to a regional-indicator emoji.
- */
+// Thin TypeScript wrapper around country-flags.yaml.
+// Editing the country-name → code map: edit country-flags.yaml, not this file.
 
-const COUNTRY_CODE_MAP: Record<string, string> = {
-  'germany': 'DE',
-  'united states': 'US',
-  'usa': 'US',
-  'united kingdom': 'GB',
-  'uk': 'GB',
-  'china': 'CN',
-  "p.r. china": 'CN',
-  "people's republic of china": 'CN',
-  "p.r.c.": 'CN',
-  'france': 'FR',
-  'korea': 'KR',
-  'south korea': 'KR',
-  'japan': 'JP',
-  'italy': 'IT',
-  'switzerland': 'CH',
-  'australia': 'AU',
-  'sweden': 'SE',
-  'norway': 'NO',
-  'canada': 'CA',
-  'portugal': 'PT',
-  'south africa': 'ZA',
-  'spain': 'ES',
-  'netherlands': 'NL',
-  'the netherlands': 'NL',
-  // New: 9 countries missing per TODO.cleanups/03
-  'kenya': 'KE',
-  'czech republic': 'CZ',
-  'czechia': 'CZ',
-  'czech': 'CZ',
-  'viet nam': 'VN',
-  'vietnam': 'VN',
-  'romania': 'RO',
-  'new zealand': 'NZ',
-  'colombia': 'CO',
-  'slovak republic': 'SK',
-  'slovakia': 'SK',
-  'thailand': 'TH',
-}
+import data from './country-flags.yaml'
+
+const COUNTRY_CODE_MAP: Record<string, string> = data.countryCodeMap || {}
 
 function countryCodeToEmoji(code: string): string {
   return code
@@ -63,11 +22,15 @@ export function venueToCountryCode(venue: string | undefined | null): string {
   return COUNTRY_CODE_MAP[countryName] || ''
 }
 
-/** Returns the flag emoji for the venue's country, or '🌐' for virtual meetings. */
 export function venueToFlag(venue: string | undefined | null): string {
   if (!venue) return ''
   const lower = venue.toLowerCase().trim()
-  if (lower === 'virtual' || lower.includes('virtual')) return '\u{1F310}'
+  if (lower === 'virtual' || lower.includes('virtual')) return '🌐'
   const code = venueToCountryCode(venue)
   return code ? countryCodeToEmoji(code) : ''
+}
+
+export function countryCodeToFlag(code: string | undefined | null): string {
+  if (!code) return ''
+  return countryCodeToEmoji(code)
 }
