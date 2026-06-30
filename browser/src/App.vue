@@ -4,7 +4,7 @@
   <header id="nav-header" class="site-header">
     <div class="site-header__inner">
       <router-link :to="{ name: 'home' }" class="site-header__logo">
-        <img src="/assets/oiml-logo.svg" alt="OIML" class="site-header__logo-img">
+        <img src="/assets/oiml-logo.svg" alt="OIML" class="site-header__logo-img site-header__logo-img--theme">
         <span class="site-header__logo-text">
           {{ committee.name }}
           <span class="site-header__logo-subtitle">{{ committee.title }}</span>
@@ -75,7 +75,7 @@
       <div class="site-footer__grid">
         <div class="site-footer__brand">
           <router-link :to="{ name: 'home' }" class="site-footer__logo">
-            <img src="/assets/oiml-logo.svg" alt="OIML" class="site-footer__logo-img">
+            <img src="/assets/oiml-logo.svg" alt="OIML" class="site-footer__logo-img site-footer__logo-img--theme">
             <span class="site-footer__logo-text">{{ committee.name }}</span>
           </router-link>
           <p class="site-footer__tagline">{{ committee.title }}</p>
@@ -88,10 +88,9 @@
           <h4 class="site-footer__heading">Committee</h4>
           <ul class="site-footer__facts">
             <li><strong>Secretariat:</strong> {{ committee.secretariat }}</li>
-            <li><strong>Chair:</strong> {{ committee.chair }}</li>
             <li><strong>Established:</strong> {{ committee.established }}</li>
-            <li><strong>Standards:</strong> {{ committee.publishedStandards }} published</li>
-            <li><strong>Members:</strong> {{ committee.participatingMembers }} (P), {{ committee.observingMembers }} (O)</li>
+            <li><strong>Member States:</strong> {{ committee.memberStates }}</li>
+            <li><strong>Corresponding Members:</strong> {{ committee.correspondingMembers }}</li>
           </ul>
         </div>
 
@@ -238,7 +237,7 @@ function handleGlobalSearch(e: KeyboardEvent) {
   top: 0; left: 0;
   width: var(--progress);
   height: 3px;
-  background: linear-gradient(90deg, #0061ad, #e3000f);
+  background: linear-gradient(90deg, #0061ad, var(--color-teal));
   z-index: 100;
   transition: width 0.1s linear;
 }
