@@ -87,7 +87,12 @@ export function buildResolutionRecord(res, sourceFile, metadata) {
     considerations: res.considerations || [],
     approvals: res.approvals || [],
     dates: res.dates || [],
-    snippet: normalizeSnippet(res.actions && res.actions.length > 0 ? res.actions[0].message : '')
+    snippet: normalizeSnippet(
+      (res.actions && res.actions.length > 0 ? res.actions[0].message : '') ||
+      (res.considerations && res.considerations.length > 0 ? res.considerations[0].message : '') ||
+      res.title ||
+      ''
+    )
   }
 }
 
