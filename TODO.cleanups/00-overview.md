@@ -9,3 +9,4 @@ Tracking file for the second wave of work after PRs #6 and #7 landed.
 - [03-theme.md](03-theme.md) — OIML brand colors + smart fonts + theme-aware logo
 - [04-meetings-and-flags.md](04-meetings-and-flags.md) — CIML/Conference body_type + 9 missing country flags
 - [05-about-and-facts.md](05-about-and-facts.md) — About page restructure; correct OIML facts; DOI/URN technical info
+- [06-bilingual.md](06-bilingual.md) — Bilingual UI (EN/FR) + per-resolution language toggle
