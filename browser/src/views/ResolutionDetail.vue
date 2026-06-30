@@ -104,24 +104,24 @@
     <div class="std-page__content res-detail-content">
 
       <section v-if="resolution.subject" class="std-page__section animate-up" style="--nth: 4">
-        <h2 class="std-page__section-heading res-detail-section-title">Subject</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.subject') }}</h2>
         <div class="std-page__body res-detail-body">
           <p>{{ resolution.subject }}</p>
         </div>
       </section>
 
       <section v-if="resolution.considerations && resolution.considerations.length > 0" class="std-page__section animate-up" style="--nth: 5">
-        <h2 class="std-page__section-heading res-detail-section-title">Considerations</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.considerations') }}</h2>
         <div class="std-page__body res-detail-list">
           <div v-for="(cons, idx) in resolution.considerations" :key="idx" class="consideration-item res-detail-card">
-            <span v-if="cons.type" class="res-detail-card-type">{{ cons.type }}</span>
+            <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type) }}</span>
             <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
           </div>
         </div>
       </section>
 
       <section v-if="resolution.actions && resolution.actions.length > 0" class="std-page__section animate-up" style="--nth: 6">
-        <h2 class="std-page__section-heading res-detail-section-title">Actions</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.actions') }}</h2>
         <div class="std-page__body res-detail-list">
           <div v-for="(act, idx) in resolution.actions" :key="idx" class="action-item res-detail-card res-detail-card--action">
             <span 
@@ -129,7 +129,7 @@
               class="res-detail-card-type res-detail-card-type--action"
               :style="{ '--action-color': getActionColor(act.type).bg }"
             >
-              {{ act.type }}
+              {{ formatActionType(act.type) }}
             </span>
             <p v-if="act.subject" class="res-detail-card-subject">{{ act.subject }}</p>
             <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
@@ -168,19 +168,19 @@
       <section v-if="activeLang === 'both' && secondaryResolution" class="std-page__section res-secondary-lang animate-up">
         <h2 class="std-page__section-heading res-secondary-lang__heading">
           <span class="res-secondary-lang__badge">FR</span>
-          Version française
+          {{ t('resolution.frenchVersion') }}
         </h2>
         <div class="std-page__body">
           <p v-if="secondaryResolution.title" class="res-secondary-lang__title">{{ secondaryResolution.title }}</p>
           <div v-if="secondaryResolution.considerations && secondaryResolution.considerations.length" class="res-detail-list">
             <div v-for="(cons, idx) in secondaryResolution.considerations" :key="`fr-cons-${idx}`" class="consideration-item res-detail-card">
-              <span v-if="cons.type" class="res-detail-card-type">{{ cons.type }}</span>
+              <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type) }}</span>
               <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
             </div>
           </div>
           <div v-if="secondaryResolution.actions && secondaryResolution.actions.length" class="res-detail-list">
             <div v-for="(act, idx) in secondaryResolution.actions" :key="`fr-act-${idx}`" class="action-item res-detail-card res-detail-card--action">
-              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ act.type }}</span>
+              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ formatActionType(act.type) }}</span>
               <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
             </div>
           </div>
@@ -292,6 +292,7 @@ import type { Resolution } from '../types/resolution'
 import { useMeetings } from '../composables/useMeetings'
 import { asciidocify } from '../utils/asciidoc'
 import { getActionColor } from '../data/actionTypes'
+import { formatActionType } from '../utils/actionType'
 import { formatDate } from '../utils/format'
 import { useClipboard } from '../composables/useClipboard'
 
