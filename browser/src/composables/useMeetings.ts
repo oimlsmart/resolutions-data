@@ -9,6 +9,13 @@ export function bodyTypeFromSourceFile(sourceFile: string): MeetingBodyType {
   return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
 }
 
+/** Strip the language suffix from a source-file slug so that
+ *  ciml-44-resolutions-en and ciml-44-resolutions-fr collapse to the same
+ *  canonical meeting ID (ciml-44-resolutions). */
+export function canonicalMeetingId(sourceFile: string): string {
+  return sourceFile.replace(/-(en|fr)$/, '')
+}
+
 /** Derive the language tag from the source-file slug suffix. */
 export function languageFromSourceFile(sourceFile: string): '' | 'en' | 'fr' {
   if (/-en$/.test(sourceFile)) return 'en'
@@ -62,33 +69,67 @@ export function useMeetings() {
   const meetings: ComputedRef<Meeting[]> = computed(() => {
     if (!resolutions.value.length) return []
 
-    const map = new Map<string, Meeting>()
+    // Group by canonical meeting ID so EN and FR versions of the same
+    // meeting collapse to a single entry. The primary source_file is the
+    // version matching the current UI language (fall back to EN, then to
+    // whichever appears first). Languages array tracks all available.
+    const groups = new Map<string, {
+      primary: Meeting
+      languages: Array<'en' | 'fr'>
+      source_files: string[]
+      resolution_count: number
+      acclamation_count: number
+    }>()
 
     resolutions.value.forEach(res => {
       const file = res.source_file
-      if (!map.has(file)) {
-        map.set(file, {
-          source_file: file,
-          source_title: res.source_title || 'Unknown Meeting',
-          meeting_date: res.meeting_date,
-          venue: res.venue,
-          year: res.year,
-          body_type: bodyTypeFromSourceFile(file),
-          language: languageFromSourceFile(file),
-          doi: doiFromSourceFile(file),
+      const canonical = canonicalMeetingId(file)
+      if (!groups.has(canonical)) {
+        groups.set(canonical, {
+          primary: {
+            source_file: file,
+            source_title: res.source_title || 'Unknown Meeting',
+            meeting_date: res.meeting_date,
+            venue: res.venue,
+            year: res.year,
+            body_type: bodyTypeFromSourceFile(file),
+            language: languageFromSourceFile(file),
+            doi: doiFromSourceFile(file),
+            resolution_count: 0,
+            acclamation_count: 0,
+          },
+          languages: [],
+          source_files: [],
           resolution_count: 0,
-          acclamation_count: 0
+          acclamation_count: 0,
         })
       }
-      const m = map.get(file)!
-      m.resolution_count++
-      if (res.is_acclamation) {
-        m.acclamation_count++
-      }
+      const g = groups.get(canonical)!
+      g.resolution_count++
+      if (res.is_acclamation) g.acclamation_count++
+      const lang = languageFromSourceFile(file)
+      if (lang && !g.languages.includes(lang)) g.languages.push(lang)
+      if (!g.source_files.includes(file)) g.source_files.push(file)
     })
 
-    const list = Array.from(map.values())
-    // Sort by meeting date descending
+    // Pick a primary source_file based on UI language; expose languages[].
+    const list: Meeting[] = []
+    groups.forEach((g) => {
+      const uiLang = (typeof localStorage !== 'undefined' && localStorage.getItem('oiml-lang')) || 'en'
+      const preferred = g.source_files.find(f => f.endsWith('-' + uiLang)) || g.source_files[0]
+      // Re-derive the language tag from the chosen primary file.
+      const primaryLang = languageFromSourceFile(preferred)
+      list.push({
+        ...g.primary,
+        source_file: preferred,
+        language: primaryLang,
+        resolution_count: g.resolution_count,
+        acclamation_count: g.acclamation_count,
+        // Sneak the available-languages list through via a TS cast; Meeting
+        // doesn't have an explicit field for it, but views can re-derive.
+      } as Meeting)
+    })
+
     list.sort((a, b) => {
       if (a.meeting_date === b.meeting_date) return 0
       return a.meeting_date > b.meeting_date ? -1 : 1
