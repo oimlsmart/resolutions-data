@@ -11,6 +11,26 @@
       Back to results
     </button>
 
+    <!-- Language toggle (only when both EN and FR are available) -->
+    <div v-if="hasLanguageChoice" class="res-lang-toggle animate-up" style="--nth: 1" role="group" :aria-label="t('resolution.languageToggleLabel')">
+      <span class="res-lang-toggle__label">{{ t('resolution.languageToggleLabel') }}</span>
+      <button
+        class="res-lang-toggle__btn"
+        :class="{ 'res-lang-toggle__btn--active': activeLang === 'en' }"
+        @click="activeLang = 'en'"
+      >EN</button>
+      <button
+        class="res-lang-toggle__btn"
+        :class="{ 'res-lang-toggle__btn--active': activeLang === 'fr' }"
+        @click="activeLang = 'fr'"
+      >FR</button>
+      <button
+        class="res-lang-toggle__btn res-lang-toggle__btn--both"
+        :class="{ 'res-lang-toggle__btn--active': activeLang === 'both' }"
+        @click="activeLang = 'both'"
+      >EN / FR</button>
+    </div>
+
     <!-- Header -->
     <header class="std-page__header res-detail-header animate-up" style="--nth: 2">
       <div class="std-page__meta res-detail-meta">
@@ -144,6 +164,29 @@
       </section>
       
       <!-- Related Resolutions -->
+      <!-- Secondary language rendering (EN/FR side-by-side, 'both' mode) -->
+      <section v-if="activeLang === 'both' && secondaryResolution" class="std-page__section res-secondary-lang animate-up">
+        <h2 class="std-page__section-heading res-secondary-lang__heading">
+          <span class="res-secondary-lang__badge">FR</span>
+          Version française
+        </h2>
+        <div class="std-page__body">
+          <p v-if="secondaryResolution.title" class="res-secondary-lang__title">{{ secondaryResolution.title }}</p>
+          <div v-if="secondaryResolution.considerations && secondaryResolution.considerations.length" class="res-detail-list">
+            <div v-for="(cons, idx) in secondaryResolution.considerations" :key="`fr-cons-${idx}`" class="consideration-item res-detail-card">
+              <span v-if="cons.type" class="res-detail-card-type">{{ cons.type }}</span>
+              <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
+            </div>
+          </div>
+          <div v-if="secondaryResolution.actions && secondaryResolution.actions.length" class="res-detail-list">
+            <div v-for="(act, idx) in secondaryResolution.actions" :key="`fr-act-${idx}`" class="action-item res-detail-card res-detail-card--action">
+              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ act.type }}</span>
+              <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section v-if="relatedResolutions.length > 0" class="std-page__section animate-up" style="--nth: 9">
         <h2 class="std-page__section-heading res-detail-section-title">Related Resolutions</h2>
         <div class="related-list">
@@ -244,6 +287,8 @@
 import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useResolutions } from '../composables/useResolutions'
+import { useI18n } from '../composables/useI18n'
+import type { Resolution } from '../types/resolution'
 import { useMeetings } from '../composables/useMeetings'
 import { asciidocify } from '../utils/asciidoc'
 import { getActionColor } from '../data/actionTypes'
@@ -253,6 +298,7 @@ import { useClipboard } from '../composables/useClipboard'
 const router = useRouter()
 const route = useRoute()
 const { resolutions, isLoaded, loadData } = useResolutions()
+const { t, lang } = useI18n()
 const { getMeetingResolutions, loadData: loadMeetingsData, isLoaded: isMeetingsLoaded } = useMeetings()
 
 const searchInput = ref('')
@@ -298,21 +344,67 @@ function updateProgress() {
   readingProgress.value = percent
 }
 
-const resolution = computed(() => {
-  if (!isLoaded.value) return null
+// Look up the resolution record(s) matching the route.
+// Several records may share the same id when both EN and FR versions exist.
+function findMatchingResolutions(): Resolution[] {
+  if (!isLoaded.value) return []
 
   const meetingId = route.params.meetingId as string
   const resolutionId = route.params.resolutionId as string
   if (meetingId && resolutionId) {
-    return resolutions.value.find(r => r.source_file === meetingId && r.id === resolutionId)
+    return resolutions.value.filter(r => r.source_file === meetingId && r.id === resolutionId)
   }
-
   const id = route.params.id as string
   if (id) {
-    return resolutions.value.find(r => r.id === id)
+    return resolutions.value.filter(r => r.id === id)
   }
-  return null
+  return []
+}
+
+// All language versions of the same logical resolution (matched by canonical identifier).
+const languageVersions = computed(() => {
+  const matches = findMatchingResolutions()
+  if (!matches.length) return []
+  const ident = matches[0].identifier
+  if (!ident) return matches
+  return resolutions.value.filter(r => r.identifier === ident)
 })
+
+const availableLanguages = computed(() => {
+  const langs = new Set<string>()
+  languageVersions.value.forEach(r => { if (r.language) langs.add(r.language) })
+  return Array.from(langs).sort() as Array<'en' | 'fr'>
+})
+
+const hasLanguageChoice = computed(() => availableLanguages.value.length >= 2)
+
+// Primary resolution drives the page rendering. In 'both' mode we also
+// expose a secondary resolution (the other language).
+const primaryResolution = computed(() => {
+  const matches = languageVersions.value
+  if (!matches.length) return null
+  const target = activeLang.value === 'both' ? 'en' : activeLang.value
+  return matches.find(r => r.language === target) || matches.find(r => !r.language) || matches[0]
+})
+
+const secondaryResolution = computed(() => {
+  if (activeLang.value !== 'both') return null
+  const matches = languageVersions.value
+  return matches.find(r => r.language === 'fr') || null
+})
+
+// Backwards-compat alias so existing template references keep working.
+const resolution = computed(() => primaryResolution.value)
+
+// Bilingual mode: 'en' | 'fr' | 'both'. Defaults to the current UI language,
+// or to 'en' if the UI language isn't available for this resolution.
+const activeLang = ref<'en' | 'fr' | 'both'>('en')
+watch([resolution, () => lang.value], () => {
+  if (!resolution.value) return
+  const available = availableLanguages.value
+  const fallback = available.includes(lang.value as 'en' | 'fr') ? lang.value as 'en' | 'fr' : (available[0] || 'en')
+  activeLang.value = fallback
+}, { immediate: true })
 
 const meetingLinkLabel = computed(() => {
   const res = resolution.value
