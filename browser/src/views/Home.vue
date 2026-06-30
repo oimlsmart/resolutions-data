@@ -14,7 +14,7 @@
         <p class="hero-subtitle animate-up" style="--nth: 2">
           <template v-if="!isLoaded">{{ t('home.loading') }}</template>
           <template v-else>
-            {{ interpolate(t('home.subtitle'), { resolutions: formatNumber(animResolutions), meetings: formatNumber(animMeetings), earliest: yearRange.earliest, latest: yearRange.latest }) }} {{ lang === 'fr' ? "Résolutions du CIML et de la Conférence OIML" : "Resolutions of the CIML and the OIML Conference" }}.
+            {{ interpolate(t('home.subtitle'), { resolutions: formatNumber(animResolutions), meetings: formatNumber(animMeetings), earliest: yearRange.earliest, latest: yearRange.latest }) }} {{ t('home.tagline') }}.
           </template>
         </p>
 

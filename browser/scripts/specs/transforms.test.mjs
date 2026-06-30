@@ -9,6 +9,7 @@ import {
   toLang6391,
   normalizeSnippet,
   isAcclamation,
+  deriveAdoptionKind,
   sortResolutions,
   bodyTypeFromSourceFile,
   buildMeetingDoi,
@@ -50,6 +51,23 @@ test('buildMeetingDoi returns empty for unknown pattern', () => {
 test('isAcclamation matches -acclaim- in identifier', () => {
   assert.equal(isAcclamation('CIML/2025/44-acclaim-1'), true)
   assert.equal(isAcclamation('CIML/2025/44'), false)
+})
+
+// --- deriveAdoptionKind ----------------------------------------------
+
+test('deriveAdoptionKind returns acclamation for -acclaim- identifiers', () => {
+  assert.equal(deriveAdoptionKind('CIML/2025/44-acclaim-1'), 'acclamation')
+})
+
+test('deriveAdoptionKind returns plenary for normal identifiers', () => {
+  assert.equal(deriveAdoptionKind('CIML/2025/44'), 'plenary')
+  assert.equal(deriveAdoptionKind('Conference/2025/01'), 'plenary')
+})
+
+test('deriveAdoptionKind returns plenary for null/empty identifiers', () => {
+  assert.equal(deriveAdoptionKind(null), 'plenary')
+  assert.equal(deriveAdoptionKind(''), 'plenary')
+  assert.equal(deriveAdoptionKind(undefined), 'plenary')
 })
 
 // --- toLang6391 -------------------------------------------------------
@@ -140,6 +158,8 @@ test('buildResolutionRecord flattens (resolution, localization) into a row', () 
   assert.equal(r.subject, 'CIML')
   assert.equal(r.agenda_item, '16.2')
   assert.equal(r.source_url, 'https://oiml.org/en.pdf')
+  assert.equal(r.adoption_kind, 'plenary')
+  assert.equal(r.is_acclamation, false)
 })
 
 test('buildResolutionRecord picks matching source URL by language_code', () => {

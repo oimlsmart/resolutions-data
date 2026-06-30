@@ -51,6 +51,27 @@ export function isAcclamation(identifier) {
   return String(identifier).includes('-acclaim-')
 }
 
+// Derive the adoption_kind from the identifier by matching against
+// the YAML-declared identifier_pattern of each kind. Defaults to
+// 'plenary' when no pattern matches. See data/adoption-kinds.yaml.
+//
+// We hard-code the kinds here because the build script runs in Node
+// before vite-plugin-yaml has loaded the browser-side data file. The
+// canonical source of truth remains adoption-kinds.yaml; this map is
+// a build-time mirror that drift-checks against the YAML at test time.
+const ADOPTION_KIND_PATTERNS = [
+  ['acclamation', '-acclaim-'],
+]
+const DEFAULT_ADOPTION_KIND = 'plenary'
+
+export function deriveAdoptionKind(identifier) {
+  const id = String(identifier || '')
+  for (const [kind, pattern] of ADOPTION_KIND_PATTERNS) {
+    if (id.includes(pattern)) return kind
+  }
+  return DEFAULT_ADOPTION_KIND
+}
+
 // Map ISO 639-3 (eng, fra) to ISO 639-1 (en, fr) so the browser
 // Intl machinery keeps working without code changes.
 const LANG_639_3_TO_1 = {
@@ -118,6 +139,7 @@ export function buildResolutionRecord(res, sourceFile, metadata, localization) {
     meeting_date_end: dateEnd,
     agenda_item: res.agenda_item || '',
     source_url: sourceUrl,
+    adoption_kind: deriveAdoptionKind(identifier),
     is_acclamation: acclamation,
     actions,
     considerations,

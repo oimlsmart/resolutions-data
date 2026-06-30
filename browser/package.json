@@ -7,7 +7,7 @@
     "dev": "node scripts/build-data.mjs && vite",
     "build": "node scripts/build-data.mjs && vue-tsc -b && vite-ssg build && node scripts/post-build.mjs",
     "preview": "vite preview",
-    "test": "node --test scripts/specs/*.test.mjs src/domain/*.test.mjs",
+    "test": "node --test scripts/specs/*.test.mjs src/domain/*.test.mjs src/data/*.test.mjs",
     "test:transforms": "node --test scripts/specs/transforms.test.mjs",
     "test:domain": "node --test src/domain/branded.test.mjs",
     "validate:yaml": "cd ../scripts/specs && bundle exec rspec yaml_validation_spec.rb"

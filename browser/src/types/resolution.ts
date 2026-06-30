@@ -78,6 +78,14 @@ export interface Resolution {
   agenda_item?: string
   /** Canonical OIML URL for the source PDF containing this resolution. */
   source_url?: string
+  /** How the resolution was formally adopted. Replaces the legacy
+   *  `is_acclamation: boolean` field with a richer enum that also
+   *  covers ballot / MA resolution kinds. See AdoptionKind in
+   *  data/adoptionKinds.ts for the canonical list. */
+  adoption_kind?: string
+  /** @deprecated use adoption_kind === 'acclamation' instead.
+   *  Kept for backwards compatibility with call sites that haven't
+   *  migrated yet; always derivable from adoption_kind. */
   is_acclamation: boolean
   actions: Action[]
   considerations: Consideration[]
