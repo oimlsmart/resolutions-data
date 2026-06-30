@@ -72,6 +72,13 @@ export default defineConfig({
         html = html.replace('</head>', `<script>window.__PAGE_DATA__=${json}</script>\n</head>`)
       }
 
+      // Canonical URL + hreflang alternates for every route (see
+      // TODO.complete/19-seo.md). The base path matches the GitHub
+      // Pages deployment under /resolutions-data/.
+      const siteBase = 'https://oiml.org/resolutions'
+      const canonicalUrl = `${siteBase}${route === '/' ? '' : route}`
+      const canonicalBlock = `<link rel="canonical" href="${canonicalUrl}">\n  <meta property="og:url" content="${canonicalUrl}">\n  <meta property="og:image" content="${siteBase}/og-default.png">\n  <link rel="alternate" hreflang="en" href="${canonicalUrl}?lang=en">\n  <link rel="alternate" hreflang="fr" href="${canonicalUrl}?lang=fr">\n  <link rel="alternate" hreflang="x-default" href="${canonicalUrl}">`
+
       const titleMatch = html.match(/<h1[^>]*>(.*?)<\/h1>/s)
       let title = titleMatch ? titleMatch[1].replace(/<[^>]*>/g, '').trim() : null
       title = title ? title.replace(/[\u{1F1E0}-\u{1F1FF}\u{1F310}]\s*/gu, '').trim() : null
@@ -82,22 +89,22 @@ export default defineConfig({
 
         const descMatch = html.match(/<p[^>]*class="[^"]*res-detail-subtitle[^"]*"[^>]*>(.*?)<\/p>/s)
         const desc = descMatch ? descMatch[1].replace(/<[^>]*>/g, '').trim() : `${title} — OIML resolution.`
-        html = html.replace('</head>', `<meta name="description" content="${desc.replace(/"/g, '&quot;').substring(0, 160)}">\n  <meta property="og:title" content="${fullTitle.replace(/"/g, '&quot;')}">\n  <meta property="og:description" content="${desc.replace(/"/g, '&quot;').substring(0, 160)}">\n  <meta property="og:type" content="article">\n</head>`)
+        html = html.replace('</head>', `<meta name="description" content="${desc.replace(/"/g, '&quot;').substring(0, 160)}">\n  <meta property="og:title" content="${fullTitle.replace(/"/g, '&quot;')}">\n  <meta property="og:description" content="${desc.replace(/"/g, '&quot;').substring(0, 160)}">\n  <meta property="og:type" content="article">\n  ${canonicalBlock}\n</head>`)
       } else if (route.startsWith('/meetings/') && title) {
         const fullTitle = `Meeting: ${title} | OIML`
         html = html.replace(/<title>.*?<\/title>/, `<title>${fullTitle}</title>`)
-        html = html.replace('</head>', `<meta name="description" content="Resolutions from ${title} — OIML">\n  <meta property="og:title" content="${fullTitle.replace(/"/g, '&quot;')}">\n  <meta property="og:description" content="Resolutions adopted at ${title.replace(/"/g, '&quot;')}">\n  <meta property="og:type" content="website">\n</head>`)
+        html = html.replace('</head>', `<meta name="description" content="Resolutions from ${title} — OIML">\n  <meta property="og:title" content="${fullTitle.replace(/"/g, '&quot;')}">\n  <meta property="og:description" content="Resolutions adopted at ${title.replace(/"/g, '&quot;')}">\n  <meta property="og:type" content="website">\n  ${canonicalBlock}\n</head>`)
       } else if (route === '/meetings') {
         html = html.replace(/<title>.*?<\/title>/, '<title>Meetings | OIML</title>')
-        html = html.replace('</head>', `<meta name="description" content="Browse OIML plenary meetings by year, country, and venue.">\n  <meta property="og:title" content="Meetings | OIML">\n  <meta property="og:description" content="Browse OIML plenary meetings by year, country, and venue.">\n</head>`)
+        html = html.replace('</head>', `<meta name="description" content="Browse OIML plenary meetings by year, country, and venue.">\n  <meta property="og:title" content="Meetings | OIML">\n  <meta property="og:description" content="Browse OIML plenary meetings by year, country, and venue.">\n  ${canonicalBlock}\n</head>`)
       } else if (route === '/about') {
         html = html.replace(/<title>.*?<\/title>/, '<title>About | OIML</title>')
-        html = html.replace('</head>', `<meta name="description" content="About the OIML resolutions database.">\n</head>`)
+        html = html.replace('</head>', `<meta name="description" content="About the OIML resolutions database.">\n  ${canonicalBlock}\n</head>`)
       } else if (route === '/') {
         const countMatch = html.match(/\b(\d[\d,]{2,})\s+resolutions?/i)
         const count = countMatch ? countMatch[1] : ''
         const descSuffix = count ? `${count} resolutions of` : 'resolutions of'
-        html = html.replace('</head>', `<meta name="description" content="Search and browse ${descSuffix} OIML — Legal Metrology.">\n  <meta property="og:title" content="OIML Resolutions">\n  <meta property="og:description" content="Search and browse resolutions of OIML — Legal Metrology.">\n</head>`)
+        html = html.replace('</head>', `<meta name="description" content="Search and browse ${descSuffix} OIML — Legal Metrology.">\n  <meta property="og:title" content="OIML Resolutions">\n  <meta property="og:description" content="Search and browse resolutions of OIML — Legal Metrology.">\n  ${canonicalBlock}\n</head>`)
       }
 
       return html
