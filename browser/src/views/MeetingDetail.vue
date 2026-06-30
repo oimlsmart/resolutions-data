@@ -22,7 +22,7 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
       <h3>Meeting not found</h3>
       <p>The meeting you are looking for does not exist.</p>
-      <router-link :to="{ name: 'meetings' }" class="std-chip btn-mt link-no-ul">Back to Meetings</router-link>
+      <router-link :to="{ name: 'meetings' }" class="std-chip btn-mt link-no-ul">{{ t('meetings.back') }}</router-link>
     </div>
     <template v-else>
       <header class="res-page__header header-mt animate-up" style="--nth: 1">
@@ -32,7 +32,7 @@
         </router-link>
         
         <div class="header-badges">
-          <span class="std-results__badge" :class="`badge-body--${meeting.body_type}`">{{ meeting.body_type === 'conference' ? 'OIML Conference' : 'CIML Meeting' }}</span>
+          <span class="std-results__badge" :class="`badge-body--${meeting.body_type}`">{{ meeting.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
           <span class="std-results__badge badge-year">{{ meeting.year }}</span>
           <span v-if="meeting.meeting_date" class="std-results__badge">{{ formatDate(meeting.meeting_date) }}</span>
         </div>
@@ -45,7 +45,7 @@
 
         <!-- Meeting DOI -->
         <div v-if="meetingDoi" class="meeting-urn-bar meeting-doi-bar">
-          <span class="meeting-urn-label">Meeting DOI</span>
+          <span class="meeting-urn-label">{{ t('meeting.meetingDoi') }}</span>
           <a :href="`https://doi.org/${meetingDoi}`" class="meeting-urn-value meeting-urn-value--link" target="_blank" rel="noopener noreferrer">{{ meetingDoi }}</a>
           <button
             @click="copyUrn(meetingDoi)"
@@ -59,7 +59,7 @@
 
         <!-- Meeting URN -->
         <div v-if="meetingUrn" class="meeting-urn-bar">
-          <span class="meeting-urn-label">Meeting URN</span>
+          <span class="meeting-urn-label">{{ t('meeting.meetingUrn') }}</span>
           <code class="meeting-urn-value">{{ meetingUrn }}</code>
           <button 
             @click="copyUrn(meetingUrn)" 
@@ -111,12 +111,14 @@ import { computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useMeetings } from '../composables/useMeetings'
 import { venueToFlag } from '../data/countryFlags'
+import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
 import { buildMeetingUrn } from '../utils/urn'
 import { useClipboard } from '../composables/useClipboard'
 
 const route = useRoute()
 const { getMeeting, getMeetingResolutions, isLoaded, loadData } = useMeetings()
+const { t } = useI18n()
 const { copied: meetingCopied, copy: copyUrn } = useClipboard()
 
 const sourceFile = computed(() => route.params.sourceFile as string)

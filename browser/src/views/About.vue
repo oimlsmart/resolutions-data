@@ -8,10 +8,8 @@
 
     <!-- 1. Hero / Header -->
     <header class="about-header animate-up" style="--nth: 2">
-      <h1 class="about-title">About This Archive</h1>
-      <p class="about-subtitle">
-        A digital record of CIML Meeting and OIML Conference resolutions, 2004 to today.
-      </p>
+      <h1 class="about-title">{{ t('about.heroTitle') }}</h1>
+      <p class="about-subtitle">{{ t('about.heroSubtitle') }}</p>
     </header>
 
     <!-- Content Sections -->
@@ -39,11 +37,11 @@
 
       <!-- 6. About the Committee -->
       <section class="about-section animate-up" style="--nth: 7">
-        <h2 class="about-heading">About {{ committee.name }}</h2>
+        <h2 class="about-heading">{{ t('about.aboutCommittee') }}</h2>
         <div class="about-body">
           <div class="committee-card">
-            <h3 class="committee-title">{{ committee.title }}</h3>
-            <p class="committee-scope">{{ committee.scope }}</p>
+            <h3 class="committee-title">{{ t('committee.title') }}</h3>
+            <p class="committee-scope">{{ t('committee.scope') }}</p>
             
             <div class="committee-stats">
               <div class="stat-item">
@@ -80,10 +78,10 @@
       <!-- Technical Information (collapsed by default) -->
       <section class="about-section about-section--technical animate-up" style="--nth: 8">
         <details class="technical-details">
-          <summary class="about-heading technical-summary">Technical information</summary>
+          <summary class="about-heading technical-summary">{{ t('about.technical') }}</summary>
           <div class="technical-body">
 
-            <h3 class="technical-subheading">Edoxen Format</h3>
+            <h3 class="technical-subheading">{{ t('about.edoxen') }}</h3>
             <div class="technical-content">
         <div class="about-body">
           <p>
@@ -129,7 +127,7 @@
             </div>
 
 
-            <h3 class="technical-subheading">Resolution Lifecycle</h3>
+            <h3 class="technical-subheading">{{ t('about.lifecycle') }}</h3>
             <div class="technical-content">
               <p>
                 Each resolution in the Edoxen model follows a structured lifecycle, captured through three interconnected sections:
@@ -162,7 +160,7 @@
               </p>
             </div>
 
-            <h3 class="technical-subheading">URN Pattern</h3>
+            <h3 class="technical-subheading">{{ t('about.urnPattern') }}</h3>
             <div class="technical-content">
               <p>
                 Every resolution is assigned a Uniform Resource Name following
@@ -183,7 +181,7 @@
               </ul>
             </div>
 
-            <h3 class="technical-subheading">DOI Pattern</h3>
+            <h3 class="technical-subheading">{{ t('about.doiPattern') }}</h3>
             <div class="technical-content">
               <p>
                 Every resolution is registered with a DOI under the
@@ -224,7 +222,10 @@
 
 <script setup lang="ts">
 import { committee } from '../data/committee'
+import { useI18n } from '../composables/useI18n'
 import { getActionColor } from '../data/actionTypes'
+
+const { t } = useI18n()
 
 // Top action types by frequency (from data analysis)
 const actionTypes = [

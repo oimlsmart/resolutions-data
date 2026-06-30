@@ -6,8 +6,8 @@
       <router-link :to="{ name: 'home' }" class="site-header__logo">
         <img src="/assets/oiml-logo.svg" alt="OIML" class="site-header__logo-img site-header__logo-img--theme">
         <span class="site-header__logo-text">
-          {{ committee.name }}
-          <span class="site-header__logo-subtitle">{{ committee.title }}</span>
+          {{ t('committee.name') }}
+          <span class="site-header__logo-subtitle">{{ t('committee.title') }}</span>
         </span>
       </router-link>
 
@@ -92,26 +92,26 @@
         <div class="site-footer__brand">
           <router-link :to="{ name: 'home' }" class="site-footer__logo">
             <img src="/assets/oiml-logo.svg" alt="OIML" class="site-footer__logo-img site-footer__logo-img--theme">
-            <span class="site-footer__logo-text">{{ committee.name }}</span>
+            <span class="site-footer__logo-text">{{ t('committee.name') }}</span>
           </router-link>
-          <p class="site-footer__tagline">{{ committee.title }}</p>
+          <p class="site-footer__tagline">{{ t('committee.title') }}</p>
           <p class="site-footer__scope">
-            {{ committee.scope }}
+            {{ t('committee.scope') }}
           </p>
         </div>
         
         <div>
-          <h4 class="site-footer__heading">Committee</h4>
+          <h4 class="site-footer__heading">{{ t('footer.committee') }}</h4>
           <ul class="site-footer__facts">
-            <li><strong>Secretariat:</strong> {{ committee.secretariat }}</li>
-            <li><strong>Established:</strong> {{ committee.established }}</li>
-            <li><strong>Member States:</strong> {{ committee.memberStates }}</li>
-            <li><strong>Corresponding Members:</strong> {{ committee.correspondingMembers }}</li>
+            <li><strong>{{ t('footer.secretariat') }}</strong> {{ committee.secretariat }}</li>
+            <li><strong>{{ t('footer.established') }}</strong> {{ committee.established }}</li>
+            <li><strong>{{ t('footer.memberStates') }}</strong> {{ committee.memberStates }}</li>
+            <li><strong>{{ t('footer.correspondingMembers') }}</strong> {{ committee.correspondingMembers }}</li>
           </ul>
         </div>
 
         <div>
-          <h4 class="site-footer__heading">Explore</h4>
+          <h4 class="site-footer__heading">{{ t('footer.explore') }}</h4>
           <ul class="site-footer__links">
             <li><router-link :to="{ name: 'home' }" class="site-footer__link">Resolutions</router-link></li>
             <li><router-link :to="{ name: 'meetings' }" class="site-footer__link">Meetings</router-link></li>
@@ -120,9 +120,9 @@
         </div>
         
         <div>
-          <h4 class="site-footer__heading">Links</h4>
+          <h4 class="site-footer__heading">{{ t('footer.links') }}</h4>
           <ul class="site-footer__links">
-            <li><a :href="committee.links.oiml" class="site-footer__link" target="_blank" rel="noopener noreferrer">OIML.org</a></li>
+            <li><a :href="committee.links.oiml" class="site-footer__link" target="_blank" rel="noopener noreferrer">{{ t('footer.officialWebsite') }}</a></li>
             <li><a :href="committee.links.ciml" class="site-footer__link" target="_blank" rel="noopener noreferrer">CIML Meetings</a></li>
             <li><a :href="committee.links.conference" class="site-footer__link" target="_blank" rel="noopener noreferrer">Conferences</a></li>
             <li><a :href="committee.links.bulletin" class="site-footer__link" target="_blank" rel="noopener noreferrer">OIML Bulletin</a></li>
