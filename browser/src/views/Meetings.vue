@@ -269,7 +269,7 @@ const availableCountries = computed(() => {
     const venue = m.venue || ''
     if (venue.toLowerCase().includes('virtual')) {
       if (!countries.has('virtual')) {
-        countries.set('virtual', { code: 'virtual', name: t.value('meetings.virtual'), flag: '\u{1F310}' })
+        countries.set('virtual', { code: 'virtual', name: t('meetings.virtual'), flag: '\u{1F310}' })
       }
     } else {
       const code = venueToCountryCode(venue)
