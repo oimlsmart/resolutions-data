@@ -16,10 +16,75 @@
 
     <!-- Content Sections -->
     <div class="about-content">
+
+      <!-- 3. Action Types -->
+      <section class="about-section animate-up" style="--nth: 4">
+        <h2 class="about-heading">Action Types</h2>
+        <div class="about-body">
+          <p>
+            Every resolution is composed of typed <code>actions</code> that categorize what the committee decided to do (e.g., requesting an action, approving a document, or thanking a host). This semantic typing allows for advanced filtering and analysis of the committee's historical activities.
+          </p>
+          <div class="action-grid">
+            <span 
+              v-for="chip in actionChips" 
+              :key="chip.type"
+              class="action-chip"
+              :style="{ '--chip-bg': chip.bg, '--chip-text': chip.text }"
+            >
+              {{ chip.type }}
+            </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- 6. About the Committee -->
+      <section class="about-section animate-up" style="--nth: 7">
+        <h2 class="about-heading">About {{ committee.name }}</h2>
+        <div class="about-body">
+          <div class="committee-card">
+            <h3 class="committee-title">{{ committee.title }}</h3>
+            <p class="committee-scope">{{ committee.scope }}</p>
+            
+            <div class="committee-stats">
+              <div class="stat-item">
+                <span class="stat-value">{{ committee.established }}</span>
+                <span class="stat-label">Established</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">{{ committee.memberStates }}</span>
+                <span class="stat-label">Member States</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-value">{{ committee.correspondingMembers }}</span>
+                <span class="stat-label">Corresponding Members</span>
+              </div>
+            </div>
+
+            <div class="committee-links">
+              <a :href="committee.links.oiml" target="_blank" rel="noopener noreferrer" class="committee-link">
+                Official website
+              </a>
+              <a href="https://www.oiml.org/en/structure/members/memberslist_view?varMember=1" target="_blank" rel="noopener noreferrer" class="committee-link">
+                Member States
+              </a>
+              <a :href="committee.links.github" target="_blank" rel="noopener noreferrer" class="committee-link">
+                GitHub Organization
+              </a>
+              <a :href="committee.links.linkedin" target="_blank" rel="noopener noreferrer" class="committee-link">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
       
-      <!-- 2. The Edoxen Format -->
-      <section class="about-section animate-up" style="--nth: 3">
-        <h2 class="about-heading">The Edoxen Format</h2>
+      <!-- Technical Information (collapsed by default) -->
+      <section class="about-section about-section--technical animate-up" style="--nth: 8">
+        <details class="technical-details">
+          <summary class="about-heading technical-summary">Technical information</summary>
+          <div class="technical-body">
+
+            <h3 class="technical-subheading">Edoxen Format</h3>
+            <div class="technical-content">
         <div class="about-body">
           <p>
             Resolutions in this archive are stored in plain-text YAML files using the <strong>Edoxen format</strong>. This structured representation ensures resolutions remain human-readable while being entirely machine-parsable.
@@ -61,133 +126,97 @@
             <a href="https://github.com/metanorma/edoxen" target="_blank" rel="noopener noreferrer" class="text-link">View the Edoxen schema on GitHub &rarr;</a>
           </p>
         </div>
-      </section>
+            </div>
 
-      <!-- 3. Action Types -->
-      <section class="about-section animate-up" style="--nth: 4">
-        <h2 class="about-heading">Action Types</h2>
-        <div class="about-body">
-          <p>
-            Every resolution is composed of typed <code>actions</code> that categorize what the committee decided to do (e.g., requesting an action, approving a document, or thanking a host). This semantic typing allows for advanced filtering and analysis of the committee's historical activities.
-          </p>
-          <div class="action-grid">
-            <span 
-              v-for="chip in actionChips" 
-              :key="chip.type"
-              class="action-chip"
-              :style="{ '--chip-bg': chip.bg, '--chip-text': chip.text }"
-            >
-              {{ chip.type }}
-            </span>
+
+            <h3 class="technical-subheading">Resolution Lifecycle</h3>
+            <div class="technical-content">
+              <p>
+                Each resolution in the Edoxen model follows a structured lifecycle, captured through three interconnected sections:
+              </p>
+              <div class="lifecycle-list">
+                <div class="lifecycle-item">
+                  <div class="lifecycle-number">1</div>
+                  <div class="lifecycle-content">
+                    <h3 class="lifecycle-title">Considerations</h3>
+                    <p class="lifecycle-desc">The context and background that led to the resolution. Each consideration has a type (e.g., <code class="inline-code">noting</code>, <code class="inline-code">recalling</code>, <code class="inline-code">recognising</code>) and a message explaining what the committee observed or referenced.</p>
+                  </div>
+                </div>
+                <div class="lifecycle-item">
+                  <div class="lifecycle-number">2</div>
+                  <div class="lifecycle-content">
+                    <h3 class="lifecycle-title">Actions</h3>
+                    <p class="lifecycle-desc">The decisions themselves — what the committee resolved to do. Each action carries a semantic type (e.g., <code class="inline-code">requests</code>, <code class="inline-code">approves</code>, <code class="inline-code">appoints</code>) that categorizes the nature of the decision, along with the detailed message.</p>
+                  </div>
+                </div>
+                <div class="lifecycle-item">
+                  <div class="lifecycle-number">3</div>
+                  <div class="lifecycle-content">
+                    <h3 class="lifecycle-title">Approvals</h3>
+                    <p class="lifecycle-desc">How the resolution was formally adopted, including the degree of consensus (e.g., <code class="inline-code">unanimous</code>, <code class="inline-code">consensus</code>) and any relevant notes about the approval process.</p>
+                  </div>
+                </div>
+              </div>
+              <p>
+                A single resolution may contain multiple considerations, actions, and approvals — together forming a complete record of the committee's decision-making process.
+              </p>
+            </div>
+
+            <h3 class="technical-subheading">URN Pattern</h3>
+            <div class="technical-content">
+              <p>
+                Every resolution is assigned a Uniform Resource Name following
+                the OIML URN specification, format
+                <code>urn:oiml:doc:&lt;body&gt;:resolution:&lt;id&gt;</code>.
+              </p>
+              <ul class="urn-list">
+                <li>
+                  <strong>CIML resolutions:</strong>
+                  <code>urn:oiml:doc:ciml:resolution:&lt;year&gt;-&lt;seq&gt;</code>
+                  <br><span class="urn-example">Example: <code>urn:oiml:doc:ciml:resolution:2025-44</code></span>
+                </li>
+                <li>
+                  <strong>Conference resolutions:</strong>
+                  <code>urn:oiml:doc:conf:resolution:&lt;session&gt;.&lt;seq&gt;</code>
+                  <br><span class="urn-example">Example: <code>urn:oiml:doc:conf:resolution:17.01</code></span>
+                </li>
+              </ul>
+            </div>
+
+            <h3 class="technical-subheading">DOI Pattern</h3>
+            <div class="technical-content">
+              <p>
+                Every resolution is registered with a DOI under the
+                <code>10.63493/resolutions/</code> prefix, resolved via
+                <a href="https://doi.org" target="_blank" rel="noopener noreferrer">doi.org</a>.
+              </p>
+              <ul class="urn-list">
+                <li>
+                  <strong>CIML:</strong>
+                  <code>10.63493/resolutions/ciml&lt;YYYY&gt;&lt;NN&gt;</code>
+                  <br><span class="urn-example">Example: <code>10.63493/resolutions/ciml202544</code> &rarr;
+                    <a href="https://doi.org/10.63493/resolutions/ciml202544" target="_blank" rel="noopener noreferrer">doi.org/10.63493/resolutions/ciml202544</a>
+                  </span>
+                </li>
+                <li>
+                  <strong>Conference:</strong>
+                  <code>10.63493/resolutions/conf&lt;YYYY&gt;&lt;NN&gt;</code>
+                  <br><span class="urn-example">Example: <code>10.63493/resolutions/conf202501</code> &rarr;
+                    <a href="https://doi.org/10.63493/resolutions/conf202501" target="_blank" rel="noopener noreferrer">doi.org/10.63493/resolutions/conf202501</a>
+                  </span>
+                </li>
+              </ul>
+              <p>
+                <code>&lt;YYYY&gt;</code> is the four-digit meeting year;
+                <code>&lt;NN&gt;</code> is the zero-padded per-meeting sequence.
+              </p>
+            </div>
+
           </div>
-        </div>
+        </details>
       </section>
 
-      <!-- 4. URN Identifiers -->
-      <section class="about-section animate-up" style="--nth: 5">
-        <h2 class="about-heading">URN Identifiers</h2>
-        <div class="about-body">
-          <p>
-            Resources in this archive are assigned Uniform Resource Names (URNs) to provide persistent, location-independent identifiers.
-          </p>
-          <ul class="urn-list">
-            <li>
-              <strong>Resolution URNs:</strong>
-              <code class="inline-code">urn:oiml:resolution:{id}</code>
-              <br><span class="urn-example">Example: <code class="inline-code">urn:oiml:resolution:Conference/2025/01</code></span>
-            </li>
-            <li>
-              <strong>Meeting URNs:</strong>
-              <code class="inline-code">urn:oiml:meeting:{source_file}</code>
-              <br><span class="urn-example">Example: <code class="inline-code">urn:oiml:meeting:conference-17-resolutions-en</code></span>
-            </li>
-          </ul>
-          <p class="urn-note">
-            Note that per <a href="https://datatracker.ietf.org/doc/html/rfc5141" target="_blank" rel="noopener" class="text-link">RFC 5141</a>, "documents at or below the Technical Committee level" are not covered by the standard <code>urn:iso:std:</code> namespace. Section 2.6 delegates URN management for TC resources to the Technical Committees themselves.
-          </p>
-        </div>
-      </section>
-
-      <!-- 5. Resolution Lifecycle -->
-      <section class="about-section animate-up" style="--nth: 6">
-        <h2 class="about-heading">Resolution Lifecycle</h2>
-        <div class="about-body">
-          <p>
-            Each resolution in the Edoxen model follows a structured lifecycle, captured through three interconnected sections:
-          </p>
-          <div class="lifecycle-list">
-            <div class="lifecycle-item">
-              <div class="lifecycle-number">1</div>
-              <div class="lifecycle-content">
-                <h3 class="lifecycle-title">Considerations</h3>
-                <p class="lifecycle-desc">The context and background that led to the resolution. Each consideration has a type (e.g., <code class="inline-code">noting</code>, <code class="inline-code">recalling</code>, <code class="inline-code">recognising</code>) and a message explaining what the committee observed or referenced.</p>
-              </div>
-            </div>
-            <div class="lifecycle-item">
-              <div class="lifecycle-number">2</div>
-              <div class="lifecycle-content">
-                <h3 class="lifecycle-title">Actions</h3>
-                <p class="lifecycle-desc">The decisions themselves — what the committee resolved to do. Each action carries a semantic type (e.g., <code class="inline-code">requests</code>, <code class="inline-code">approves</code>, <code class="inline-code">appoints</code>) that categorizes the nature of the decision, along with the detailed message.</p>
-              </div>
-            </div>
-            <div class="lifecycle-item">
-              <div class="lifecycle-number">3</div>
-              <div class="lifecycle-content">
-                <h3 class="lifecycle-title">Approvals</h3>
-                <p class="lifecycle-desc">How the resolution was formally adopted, including the degree of consensus (e.g., <code class="inline-code">unanimous</code>, <code class="inline-code">consensus</code>) and any relevant notes about the approval process.</p>
-              </div>
-            </div>
-          </div>
-          <p>
-            A single resolution may contain multiple considerations, actions, and approvals — together forming a complete record of the committee's decision-making process.
-          </p>
-        </div>
-      </section>
-
-      <!-- 6. About the Committee -->
-      <section class="about-section animate-up" style="--nth: 7">
-        <h2 class="about-heading">About {{ committee.name }}</h2>
-        <div class="about-body">
-          <div class="committee-card">
-            <h3 class="committee-title">{{ committee.title }}</h3>
-            <p class="committee-scope">{{ committee.scope }}</p>
-            
-            <div class="committee-stats">
-              <div class="stat-item">
-                <span class="stat-value">{{ committee.established }}</span>
-                <span class="stat-label">Established</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">{{ committee.publishedStandards }}</span>
-                <span class="stat-label">Published Standards</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">{{ committee.participatingMembers }}</span>
-                <span class="stat-label">Participating Members</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">{{ committee.observingMembers }}</span>
-                <span class="stat-label">Observing Members</span>
-              </div>
-            </div>
-
-            <div class="committee-links">
-              <a :href="committee.links.isoCommittee" target="_blank" rel="noopener noreferrer" class="committee-link">
-                Committee Page
-              </a>
-              <a :href="committee.links.committeeSite" target="_blank" rel="noopener noreferrer" class="committee-link">
-                OIML Website
-              </a>
-              <a :href="committee.links.github" target="_blank" rel="noopener noreferrer" class="committee-link">
-                GitHub Organization
-              </a>
-              <a :href="committee.links.linkedin" target="_blank" rel="noopener noreferrer" class="committee-link">
-                LinkedIn
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
+</section>
 
     </div>
   </div>
