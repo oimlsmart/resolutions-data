@@ -1,0 +1,531 @@
+## 58ème Réunion du CIML
+
+Chiang Mai, Thailand
+
+17-19 octobre 2023
+
+RESOLUTIONS
+
+Publié le 2023-10-19
+
+![](page=0,bbox=[529, 1229, 1453, 1755])
+
+![](page=0,bbox=[883, 1960, 1109, 2154])
+
+BUREAU INTERNATIONAL DE METROLOGIE LEGALE (BIML)
+
+11, RUE TURGOT - F-75009 PARIS - FRANCE
+
+TEL:33(0)148781282
+
+FAX:33(0)142821727
+
+COURRIEL : biml@oiml.org
+
+INTERNET: www.oiml.org
+
+<div align="center">
+
+# CINQUANTE-HUITIÈME RÉUNION
+
+du
+
+COMITÉ INTERNATIONAL
+
+de METROLOGIE LEGALE
+
+</div>
+
+## Chiang Mai, Thailand
+
+17-19 octubre 2023
+
+## Résolutions
+
+Résolution no. CIML/2023/01
+
+Point 2 de l'ordre du jour
+
+Le Comité,
+
+Approuve l'ordre du jour de la 58ème Réunion du CIML.
+
+Résolution no. CIML/2023/02
+
+Point 3 de l'ordre du jour
+
+Le Comité,
+
+Approuve le compte rendu de la 57ème Réunion du CIML.
+
+Résolution no. CIML/2023/03
+
+Point 4 de l'ordre du jour
+
+Le Comité,
+
+Prend acte du rapport de son Président, et
+
+Remercie le Dr. Roman Schwartz pour son leadership présidentiel et son engagement fort au cours de la période 2017-2023.
+
+Résolution no. CIML/2023/04
+
+Point 5 de l'ordre du jour
+
+Le Comité,
+
+Prenant note de la procédure pour l'élection des Vice-Présidents du CIML dans OIML B 14:2013 Procédure pour l'élection du Président et des Vice-Présidents du CIML,
+
+Considérant que le mandat du Premier Vice-Président du CIML prend fin en octobre 2024,
+
+Charge le Bureau de diffuser un appel à candidatures pour le poste de Premier Vice-Président avec une date limite au 31 mai 2024, en vue de la nomination par le CIML d'un Premier Vice-Président lors de la 59ème Réunion du CIML prévue en octobre 2024, avec effet à partir d'octobre 2024.
+
+## Résolution no. CIML/2023/05
+
+Point 6 de l'ordre du jour
+
+Le Comité,
+
+Prenant note de la procédure pour l'élection des Vice-Présidents du CIML dans OIML B 14:2013 Procédure pour l'élection du Président et des Vice-Présidents du CIML,
+
+Choisit M. Bill Loizides comme Deuxième Vice-Président pour un mandat de six ans prenant effet immédiatement.
+
+## Résolution no. CIML/2023/06
+
+Point 7 de l'ordre du jour
+
+Le Comité,
+
+Prend acte du rapport présenté par le Directeur du BIML.
+
+## Résolution no. CIML/2023/07
+
+Le Comité,
+
+Point 7 de l'ordre du jour
+
+Souhaite la bienvenue au Monténégro en tant que nouvel État Membre, et
+
+Souhaite la bienvenue à Sainte-Lucie en tant que nouveau Membre Correspondant.
+
+## Résolution no. CIML/2023/08
+
+Point 8 de l'ordre du jour
+
+Le Comité,
+
+Vu la section 4, premier point, de l'OIML B 13:2004 Procédure pour la désignation du Directeur et des Adjoints au Directeur du BIML,
+
+Vu sa résolution CIML/2022/08,
+
+Prenant acte des commentaires formulés par ses Membres,
+
+Prolonge le contrat de M. Anthony Donnellan en tant que Directeur du BIML pour une durée de cinq ans avec effet au 1er janvier 2024.
+
+## Résolution no. CIML/2023/09
+
+Point 9 de l'ordre du jour
+
+Le Comité,
+
+Vu la section 4, premier point, de l'OIML B 13:2004 Procédure pour la désignation du Directeur et des Adjoints au Directeur du BIML,
+
+Vu sa résolution CIML/2022/09,
+
+Prenant acte des commentaires formulés par ses Membres,
+
+Prolonge le contrat de M. Ian Dunmill en tant qu'Adjoint au Directeur du BIML pour une durée de cinq ans avec effet au 15 mars 2024.
+
+## Résolution no. CIML/2023/10
+
+Point 10.1 de l'ordre du jour
+
+Le Comité,
+
+Prenant acte des comptes pour 2022, du résumé du budget de l'OIML et des commentaires du Directeur du BIML,
+
+Examinant le rapport de l'auditeur externe sur les comptes 2022,
+
+Approuve les comptes de 2022, et
+
+Charge son Président de les présenter à la 17ème Conférence de l'OIML.
+
+## Résolution no. CIML/2023/11
+
+Point 10.2 de l'ordre du jour
+
+Le Comité,
+
+Prend acte du rapport présenté par le Directeur du BIML,
+
+Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés de ses États Membres et Membres Correspondants, et
+
+Demande aux Membres ayant des arriérés de régulariser leur situation dans les plus brefs délais.
+
+## Résolution no. CIML/2023/12
+
+Point 10.3 de l'ordre du jour
+
+Le Comité,
+
+Prend note du rapport sur les prévisions budgétaires pour 2023 présenté par le Directeur du BIML.
+
+## Résolution no. CIML/2023/13
+
+Point 10.4 de l'ordre du jour
+
+Le Comité,
+
+Prend note du rapport sur les dispositions relatives aux futurs audits financiers.
+
+## Résolution no. CIML/2023/14
+
+Point 11.1.1 de l'ordre du jour
+
+Le Comité,
+
+Prenant note des commentaires de ses Membres,
+
+Approuve le projet final de révision du D 31:2019 (tel qu'amendé en 2020) Exigences générales pour les instruments de mesure contrôlés par logiciel, et
+
+Remercie le responsable et les membres du Groupe de Projet pour leur travail dans la réalisation de ce projet.
+
+## Résolution no. CIML/2023/15
+
+## Point 11.1.2 de l'ordre du jour
+
+Le Comité,
+
+Prenant note des commentaires de ses Membres,
+
+Approuve le Projet Final de révision du B 6-1:2019 Directives pour les travaux techniques de l'OIML. Partie 1: Structures et procédures pour le développement des publications de l'OIML et Partie 2: Guide pour la rédaction et la présentation des publications de l'OIML,
+
+Remercie le coordinateur et les membres du Groupe de Projet pour leur travail dans la réalisation de la première phase de ce projet, et
+
+Encourage le Groupe de Projet dans ses travaux futurs sur la deuxième phase de ce projet.
+
+## Résolution no. CIML/2023/16
+
+## Point 11.1.3 de l'ordre du jour
+
+Le Comité,
+
+Prenant note des commentaires de ses Membres,
+
+Approuve la nouvelle Publication de Base Politique et règles relatives au remboursement des frais de voyage encourus par le Président du CIML pour participer à des événements liés à la métrologie légale dans l'Addendum 11.1.3 version 3 (2023-10-18) au Document de Travail pour cette réunion, sous réserve d'une modification rédactionnelle mineure de la clause 3.2 de l'avant-projet final fournie dans l'Addendum 11.1.3.
+
+## Résolution no. CIML/2023/17
+
+Point 11.1.4 de l'ordre du jour
+
+Le Comité,
+
+Prend note de la recommandation présentée dans l'Addendum 11.1.4 au Document de Travail de la présente réunion,
+
+Prenant note des commentaires de ses Membres,
+
+Soutient l'amendement immédiat de l'OIML B 17:2012 Politiques et règles relatives au remboursement des frais de voyage encourus par les Membres d'Honneur du CIML et les invités lors de leur présence à des événements OIML, tel que proposé dans l'Addendum 11.1.4 au Document de Travail pour cette réunion, ce travail devant être mené par le BIML.
+
+## Résolution no. CIML/2023/18
+
+Point 11.2.1 de l'ordre du jour
+
+Le Comité,
+
+Approuve en tant que nouveau projet, sous la responsabilité du TC 5/SC 2, la révision de OIML D 31:2023 Exigences générales pour les instruments de mesure contrôlés par logiciel, à mener comme spécifié dans la proposition de projet fournie dans l'Addendum 11.2.1 au Document de Travail de cette réunion.
+
+## Résolution no. CIML/2023/19
+
+Point 11.2.2 de l'ordre du jour
+
+Le Comité,
+
+Approuve en tant que nouveau projet, sous la responsabilité du TC 12, une nouvelle Recommandation : Comptage de l'électricité en courant continu, à mener comme spécifié dans la proposition de projet fournie dans l'Addendum 11.2.2 au Document de Travail de cette réunion.
+
+## Résolution no. CIML/2023/20
+
+Point 11.3 de l'ordre du jour
+
+Le Comité,
+
+Prenant acte du rapport sur les travaux techniques de l'OIML,
+
+Prenant note des commentaires de ses Membres,
+
+Approuve la liste des projets hautement prioritaires figurant dans l'Addendum 11.3 au Document de Travail de la présente réunion, et
+
+Approuve la liste des publications hautement prioritaires figurant dans l'Addendum 11.3 au Document de Travail de la présente réunion.
+
+## Résolution no. CIML/2023/21
+
+Point 11.1.3 de l'ordre du jour
+
+Le Comité,
+
+Prenant acte de la recommandation figurant dans l'Addendum 11.3 au Document de Travail de la présente réunion,
+
+Approuve l'annulation du projet TC 3/SC 4/p 2 Nouveau Document : Surveillance des compteurs d'utilité publique en service sur la base d'inspections par échantillonnage.
+
+## Résolution no. CIML/2023/22
+
+Point 11.3 de l'ordre du jour
+
+Le Comité,
+
+Notant les discussions sur le projet de révision de l'OIML R 76 décrit dans l'Addendum 11.3 au Document de Travail de la présente réunion,
+
+Prenant note des commentaires de ses Membres,
+
+Remercie Mme Ségolène Phulpin (France) et la Dr. Dorothea Knopf (Allemagne), les précédents co-responsables du projet de révision de l'OIML R 76 sous TC 9/SC 1/p 1, pour leurs efforts sur ce projet,
+
+Notant que la France et l'Allemagne continueront à assurer le co-secrétariat du TC 9/SC 1,
+
+Approuve le transfert temporaire de la direction du projet TC 9/SC 1/p 1 Révision de la R 76:2006 Instruments de pesage à fonctionnement non automatique au BIML.
+
+## Résolution no. CIML/2023/23
+
+Point 11.4 de l'ordre du jour
+
+Le Comité,
+
+Prend note du rapport sur l'état actuel des activités de l'OIML en matière d'apprentissage en ligne et d'autres formations en ligne,
+
+Demande au BIML de rédiger un concept d'apprentissage en ligne, à présenter au Conseil de la Présidence lors de sa réunion de mars 2024, en tenant compte de l'OIML G 23 Guide pour l'utilisation des technologies en ligne pour la conduite des activités des CEEMS dans un monde post-COVID, ainsi que des résultats des séminaires OIML organisés en conjunction avec la 54ème Réunion du CIML en 2019 et la 58ème Réunion du CIML en 2023, en consultation avec le Groupe de Travail sur la numérisation, le Groupe consultatif des CEEMS, le Comité de Management de l'OIML-CS, et la Table Ronde des RLMO, et
+
+Encourage les Membres à collaborer à cette activité en fournissant des informations sur le matériel disponible en ligne, en faisant des suggestions sur les thèmes de l'apprentissage et de la formation en ligne futurs, et en mettant à disposition leurs ressources respective dans la mesure du possible.
+
+## Résolution no. CIML/2023/24
+
+## Point 11.5 de l'ordre du jour
+
+Le Comité,
+
+Note le succès continu du concept de « Mentor » pour les sujets clés du Bulletin de l'OIML,
+
+Remercie les personnes qui ont été des mentors pour les dernières éditions, celles qui ont déjà proposé d'être des mentors pour les prochaines éditions, ainsi que tous les auteurs qui ont contribué au Bulletin,
+
+Encourage les Membres à se proposer comme mentors pour les thèmes clés des prochaines éditions,
+
+Remercie le Rédacteur du BIML pour son soutien dans la promotion du Bulletin de l'OIML,
+
+Charge le Rédacteur du BIML d'introduire une nouvelle section « Lettres à l'éditeur »,
+
+Charge le Rédacteur du BIML d'explorer les possibilités de publier des articles scientifiques évalués par les pairs et pertinents pour la métrologie légale,
+
+Demande à des personnes dûment qualifiées de se proposer pour former un comité éditorial,
+
+Encourage les Membres à soumettre des articles à caractère scientifique pour examen par les pairs, et Confirme son soutien continu au Bulletin de l'OIML.
+
+## Résolution no. CIML/2023/25
+
+Le Comité,
+
+Point 12.1 de l'ordre du jour
+
+Prend note du rapport du Président du Comité de Management (MC) du Système de Certification de 1'OIML (OIML-CS), et
+
+Remercie les membres du Comité de Management de l'OIML-CS, du Comité de Révision, du Groupe de Maintenance et des Groupes de Travail pour leur travail.
+
+## Résolution no. CIML/2023/26
+
+Point 12.1 de l'ordre du jour
+
+Le Comité,
+
+Prenant note du rapport du Président du Comité de Management de l'OIML-CS,
+
+Nomme le Dr. Bobjoseph Mathew président de la Commission de Recours de l'OIML-CS pour un mandat de trois ans prenant effet immédiatement, et
+
+Remercie le Dr. Roman Schwartz d'avoir accepté le rôle de président de la Commission de Recours de l'OIML-CS pour la période 2018-2023.
+
+## Résolution no. CIML/2023/27
+
+Point 12.2 de l'ordre du jour
+
+Le Comité,
+
+Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
+
+Nomme M. Marc Schmidt Vice-Président du Comité de Management de l'OIML-CS pour un mandat de trois ans à compter du 1er janvier 2024, et
+
+Remercie M. Bill Loizides pour son travail en tant que Vice-Président du Comité de Management de l'OIML-CS pendant la période 2018-2023.
+
+## Résolution no. CIML/2023/28
+
+Point 12.2 de l'ordre du jour
+
+Le Comité,
+
+Notant que le gouvernement britannique a pris la décision que M. Mannie Panesar se retirera du rôle de Président du Comité de Management de l'OIML-CS le 31 décembre 2023, à la fin de son mandat,
+
+Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
+
+Confirmme que le Vice-Président du Comité de Management de l'OIML-CS, M. Marc Schmidt, assumera le rôle de Président par intérim du Comité de Management de l'OIML-CS pour une période de 12 mois à compter du 1er janvier 2024,
+
+Décide de nommer un Président du Comité de Management de l'OIML-CS lors de sa 59ème Réunion en octobre 2024, et
+
+Remercie M. Mannie Panesar pour son travail en tant que Président du Comité de Management de l'OIML-CS pour la période 2021-2023.
+
+## Résolution no. CIML/2023/29
+
+Point 12.2 de l'ordre du jour
+
+Le Comité,
+
+Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
+
+Accepte d'inclure l'OIML R 111:2004 Poids des classes $ E_{1}, E_{2}, F_{1}, F_{2}, M_{1}, M_{1-2}, M_{2}, M_{2-3} $ et $ M_{3} $ dans l'OIML-CS dans le Régime B, avec une transition vers le Régime A après une période de deux ans.
+
+## Résolution no. CIML/2023/30
+
+Point 15.1 de l'ordre du jour
+
+Le Comité,
+
+Prend note du rapport du Président de la Table Ronde des RLMO.
+
+## Résolution no. CIML/2023/31
+
+Point 15.2 de l'ordre du jour
+
+Le Comité,
+
+Prend note des rapports sur les activités de l'OIML avec les organisations en liaison.
+
+## Résolution no. CIML/2023/32
+
+Point 15.2 de l'ordre du jour
+
+Le Comité,
+
+Prenant note de sa résolution 2018/13 concernant la création d'un Groupe de Travail conjoint OIML- IECEx (JWG),
+
+Prenant acte du rapport figurant dans l'Addendum 15.2 au Document de Travail de la présente réunion,
+
+Soutient la réactivation du JWG,
+
+Demande au Dr. Bobjoseph Mathew de remplacer le Dr. Roman Schwartz comme l'un des représentants de l'OIML au sein du JWG, et
+
+Encourage les Membres du CIML à proposer des nominations pour représenter l'OIML au sein du JWG.
+
+## Résolution no. CIML/2023/33
+
+## Point 15.3 de l'ordre du jour
+
+Le Comité,
+
+Prend note des rapports écrits fournis par les organisations en liaison,
+
+Remercie leurs représentants d'avoir fourni ces informations au comité, et
+
+Remercie M. Luis Cachon (CECIP) pour sa presentation à la commission.
+
+## Résolution no. CIML/2023/34
+
+Le Comité,
+
+## Point 14 de l'ordre du jour
+
+Prend note du rapport du Président du Groupe de Travail sur la Digitalisation de l'OIML (DTG),
+
+Se félicite de la participation enthousiaste de ses Membres et d'autres personnes au Séminaire de l'OIML L'avenir de l'OIML à l'ère numérique qui s'est tenu le 16 octobre 2023,
+
+Approuve le projet du DTG de formuler une feuille de route avec des jalons concrets et des éléments de travail basés sur les résultats du séminaire de l'OIML L'avenir de l'OIML à l'ère numérique qui s'est tenu le 16 octobre 2023,
+
+Approuve la recommandation du DTG d'établir un Comité Directeur du DTG pour préparer cette feuille de route,
+
+Remercie le président du DTG, le Dr. Sascha Eichstadt, et les membres du DTG pour leur travail, et
+
+Encourage ses membres à soutenir le DTG en mettant à sa disposition des experts et d'autres ressources pour mettre en œuvre les futures recommandations formulées par le DTG.
+
+## Résolution no. CIML/2023/35
+
+Le Comité,
+
+Point 13.1 de l'ordre du jour
+
+Prend note du rapport du Président du Groupe Consultatif des CEEMS,
+
+Remercie M. Chakra Yodmani du Royaume de Thaïlande pour sa présentation de la proposition de « Déclaration de Chiang Mai » concernant l'initiative NEXT pour diriger les activités des CEEMS de l'OIML, et
+
+Remercie M. Han Jianping, de la République Populaire de Chine, pour sa contribution aux travaux du CEEMS AG pendant son mandat de Vice-Président du CEEMS AG.
+
+## Résolution no. CIML/2023/36
+
+Point 13.2 de l'ordre du jour
+
+Le Comité,
+
+Prend note de la recommandation du CEEMS AG présentée dans l'Addendum 13.2b au Document de Travail de cette réunion concernant la « Déclaration de Chiang Mai sur le système de métrologie légale NEXT (LMS) » relative aux activités du CEEMS de l'OIML,
+
+Se félicite de cette proposition importante pour l'organisation des travaux des CEEMS de l'OIML,
+
+Approuve la proposition du CEEMS AG de former un groupe de travail chargé d'examiner la mise en œuvre de la « Déclaration de Chiang Mai sur le système de métrologie légale NEXT (LMS) », avec le soutien administratif nécessaire du BIML, et
+
+Encourage les Membres à prendre part à ces travaux et à réfléchir à la manière dont ils pourraient participer aux activités qui en résulteront.
+
+## Résolution no. CIML/2023/37
+
+Point 13.2 de l'ordre du jour
+
+Le Comité,
+
+Prend note de la recommandation du CEEMS AG présentée dans l'Addendum 13.2a au Document de Travail de la présente réunion, et
+
+Approuve la révision de l'OIML B 19:2022 Termes de référence pour le Groupe Consultatif sur les questions concernant les pays et économies dont le système de métrologie est émergeant (CEEMS AG) telle que proposée dans l'Addendum 13.2a au Document de Travail de cette réunion.
+
+## Résolution no. CIML/2023/38
+
+Point 17.1 de l'ordre du jour
+
+Le Comité,
+
+Félicite les lauréats de la medaille de l'OIML de cette année,
+
+- Mme Mairead Buckley, et
+
+- Dr. Roman Schwartz,
+
+pour leurs contributions significatives aux travaux de l'OIML.
+
+## Résolution no. CIML/2023/39
+
+Le Comité,
+
+Point 17.1 de l'ordre du jour
+
+Décide d'attribuer au Dr. Roman Schwartz le titre de Membre d'Honneur en reconnaissance de son travail pour l'OIML en tant que Président du Comité, avec effet immédiat.
+
+## Résolution no. CIML/2023/40
+
+Point 17.2 de l'ordre du jour
+
+Le Comité,
+
+Félicite les récipients de la Lettre d'Appréciation de l'OIML de cette année,
+
+Dr. Marko Esche,
+
+- M. Han Jianping,
+
+- Dr. Rainer Kramer, et
+
+- M. Mannie Panesar,
+
+pour leurs contributions significatives aux travaux de l'OIML.
+
+## Résolution no. CIML/2023/41
+
+Point 18 de l'ordre du jour
+
+Le Comité,
+
+Prenant note des commentaires de ses Membres sur les préoccupations environnementales,
+
+Notant la possibilité de tenir ses réunions en personne, en ligne ou de manière hybride,
+
+Confirmme sa préférence pour les réunions en personne,
+
+Remercie la République Populaire de Chine et le Japon pour leur intérêt à accueillir la 59ème Réunion du CIML, et
+
+Décide que les propositions formelles pour accueillir la 59ème Réunion du CIML seront évaluées en fonction des critères approuvés contenus dans sa Résolution CIML/2022/51, et soumises au CIML pour approbation en ligne.
