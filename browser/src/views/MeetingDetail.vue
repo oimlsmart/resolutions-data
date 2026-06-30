@@ -32,6 +32,7 @@
         </router-link>
         
         <div class="header-badges">
+          <span class="std-results__badge" :class="`badge-body--${meeting.body_type}`">{{ meeting.body_type === 'conference' ? 'OIML Conference' : 'CIML Meeting' }}</span>
           <span class="std-results__badge badge-year">{{ meeting.year }}</span>
           <span v-if="meeting.meeting_date" class="std-results__badge">{{ formatDate(meeting.meeting_date) }}</span>
         </div>
@@ -41,6 +42,20 @@
           {{ meeting.venue || 'Virtual Meeting' }}
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
+
+        <!-- Meeting DOI -->
+        <div v-if="meetingDoi" class="meeting-urn-bar meeting-doi-bar">
+          <span class="meeting-urn-label">Meeting DOI</span>
+          <a :href="`https://doi.org/${meetingDoi}`" class="meeting-urn-value meeting-urn-value--link" target="_blank" rel="noopener noreferrer">{{ meetingDoi }}</a>
+          <button
+            @click="copyUrn(meetingDoi)"
+            class="meeting-urn-copy"
+            :aria-label="meetingCopied ? 'Copied' : 'Copy DOI'"
+          >
+            <svg v-if="!meetingCopied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+            <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+          </button>
+        </div>
 
         <!-- Meeting URN -->
         <div v-if="meetingUrn" class="meeting-urn-bar">
@@ -118,6 +133,8 @@ const meetingUrn = computed(() => {
   if (!meeting.value) return ''
   return buildMeetingUrn(sourceFile.value)
 })
+
+const meetingDoi = computed(() => meeting.value?.doi || '')
 
 const venueFlag = computed(() => venueToFlag(meeting.value?.venue))
 

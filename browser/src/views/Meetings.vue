@@ -142,6 +142,7 @@
               </span>
               
               <span class="timeline-meta">
+                <span class="meta-body-type" :class="`meta-body-type--${m.body_type}`">{{ m.body_type === 'conference' ? 'Conference' : 'CIML' }}</span>
                 <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
                 <span v-if="m.meeting_date" class="meta-sep">&middot;</span>
                 <span class="meta-count">{{ m.resolution_count }} resolution{{ m.resolution_count !== 1 ? 's' : '' }}</span>

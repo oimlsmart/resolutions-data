@@ -31,6 +31,7 @@ export interface Approval {
 export interface Resolution {
   id: string
   identifier?: string
+  language?: '' | 'en' | 'fr'
   doi?: string
   title: string
   subject: string
@@ -61,6 +62,8 @@ export interface Meeting {
   venue: string
   year: string
   body_type: MeetingBodyType
+  language: '' | 'en' | 'fr'
+  doi: string
   resolution_count: number
   acclamation_count: number
 }
