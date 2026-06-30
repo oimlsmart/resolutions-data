@@ -76,7 +76,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202207"
     urn: "urn:oiml:doc:ciml:resolution:2022-07"
     subject: CIML
-    title: (Untitled)
+    title: "Having regard to section 4, first bullet point, of OIML B 13:2004 Procedure for"
     dates:
     - start: '2022-10-18'
       kind: decision
@@ -95,7 +95,13 @@ resolutions:
       dates:
       - start: '2022-10-18'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Having regard to section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/08
     doi: "10.63493/resolutions/ciml202208"
     urn: "urn:oiml:doc:ciml:resolution:2022-08"
@@ -352,7 +358,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202217"
     urn: "urn:oiml:doc:ciml:resolution:2022-17"
     subject: CIML
-    title: (Untitled)
+    title: Noting the proposal from the OIML-CS Management Committee
     dates:
     - start: '2022-10-18'
       kind: decision
@@ -365,7 +371,13 @@ resolutions:
       dates:
       - start: '2022-10-18'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Noting the proposal from the OIML-CS Management Committee,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/18
     doi: "10.63493/resolutions/ciml202218"
     urn: "urn:oiml:doc:ciml:resolution:2022-18"
@@ -606,7 +618,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202229"
     urn: "urn:oiml:doc:ciml:resolution:2022-29"
     subject: CIML
-    title: (Untitled)
+    title: Noting the information provided in Addendum 14.3 to the Working Document for this meeting
     dates:
     - start: '2022-10-18'
       kind: decision
@@ -619,7 +631,13 @@ resolutions:
       dates:
       - start: '2022-10-18'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Noting the information provided in Addendum 14.3 to the Working Document for this meeting concerning the Project Groups established at the 56th CIML Meeting under TC 18/SC 1 and TC 18/SC 2,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/30
     doi: "10.63493/resolutions/ciml202230"
     urn: "urn:oiml:doc:ciml:resolution:2022-30"
@@ -1098,35 +1116,53 @@ resolutions:
     doi: "10.63493/resolutions/ciml202248"
     urn: "urn:oiml:doc:ciml:resolution:2022-48"
     subject: CIML
-    title: (Untitled)
+    title: Congratulates this year's recipient of an OIML Medal
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '22.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipient of an OIML Medal,
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/49
     doi: "10.63493/resolutions/ciml202249"
     urn: "urn:oiml:doc:ciml:resolution:2022-49"
     subject: CIML
-    title: (Untitled)
+    title: Congratulates this year's recipients of an OIML Letter of Appreciation
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '22.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipients of an OIML Letter of Appreciation:
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/50
     doi: "10.63493/resolutions/ciml202250"
     urn: "urn:oiml:doc:ciml:resolution:2022-50"
     subject: CIML
-    title: (Untitled)
+    title: "Congratulates this year's recipient of the OIML CEEMS Award, Guyana Bureau of Standards (GNBS)."
     dates:
     - start: '2022-10-18'
       kind: decision
     agenda_item: '22.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipient of the OIML CEEMS Award, Guyana Bureau of Standards (GNBS).
+      dates:
+      - start: '2022-10-18'
+        kind: effective
   - identifier: CIML/2022/51
     doi: "10.63493/resolutions/ciml202251"
     urn: "urn:oiml:doc:ciml:resolution:2022-51"

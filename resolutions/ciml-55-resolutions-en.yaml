@@ -560,7 +560,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202024"
     urn: "urn:oiml:doc:ciml:resolution:2020-24"
     subject: CIML
-    title: (Untitled)
+    title: Noting the selection by the OIML-CS Management Committee (MC) of Mr Bill Loizides as
     dates:
     - start: '2020-10-20'
       kind: decision
@@ -579,7 +579,13 @@ resolutions:
       dates:
       - start: '2020-10-20'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Noting the selection by the OIML-CS Management Committee (MC) of Mr Bill Loizides as the nominee for re-appointment to the position of OIML-CS MC Deputy Chairperson,
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/25
     doi: "10.63493/resolutions/ciml202025"
     urn: "urn:oiml:doc:ciml:resolution:2020-25"
@@ -713,35 +719,53 @@ resolutions:
     doi: "10.63493/resolutions/ciml202030"
     urn: "urn:oiml:doc:ciml:resolution:2020-30"
     subject: CIML
-    title: (Untitled)
+    title: "Congratulates this year's recipient of an OIML Medal, Dr Tsuyoshi Matsumoto, for his contribution"
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '12.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipient of an OIML Medal, Dr Tsuyoshi Matsumoto, for his contribution to the work of the OIML.
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/31
     doi: "10.63493/resolutions/ciml202031"
     urn: "urn:oiml:doc:ciml:resolution:2020-31"
     subject: CIML
-    title: (Untitled)
+    title: Congratulates this year's recipients of an OIML Letter of Appreciation
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '12.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipients of an OIML Letter of Appreciation:
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/32
     doi: "10.63493/resolutions/ciml202032"
     urn: "urn:oiml:doc:ciml:resolution:2020-32"
     subject: CIML
-    title: (Untitled)
+    title: Congratulates this year's recipient of the OIML CEEMS Award - The Directorate of Metrology
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '12.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipient of the OIML CEEMS Award - The Directorate of Metrology under the Ministry of Trade of the Republic of Indonesia, represented by:
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/33
     doi: "10.63493/resolutions/ciml202033"
     urn: "urn:oiml:doc:ciml:resolution:2020-33"

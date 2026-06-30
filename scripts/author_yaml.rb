@@ -112,6 +112,33 @@ module ResolutionsData
       ["Notes",        "notes"],
       ["Prend note",   "notes"],
       ["Accueille",    "welcomes"],
+      # French past-tense forms (used in CIML 44+ FR formal resolutions)
+      ["a approuvé",                  "approves"],
+      ["a adopté",                    "approves"],
+      ["a donné son accord",          "approves"],
+      ["a approuvé le principe",      "approves"],
+      ["a élu",                       "elects"],
+      ["a soutenu",                   "endorses"],
+      ["a décidé",                    "decides"],
+      ["a chargé",                    "instructs"],
+      ["a donné instruction",         "instructs"],
+      ["a instruit",                  "instructs"],
+      ["a demandé",                   "requests"],
+      ["a prié",                      "requests"],
+      ["a remercié",                  "thanks"],
+      ["a exprimé son appréciation",  "thanks"],
+      ["a exprimé",                   "notes"],
+      ["a noté",                      "notes"],
+      ["a pris note",                 "notes"],
+      ["a noté que",                  "notes"],
+      ["a accueilli",                 "welcomes"],
+      ["a renouvelé",                 "renews"],
+      ["a nommé",                     "appoints"],
+      ["a établi",                    "establishes"],
+      ["a confirmé",                  "confirms"],
+      ["a rescindé",                  "rescinds"],
+      ["a souhaité",                  "wishes"],
+      ["a fixé",                      "sets"],
     ].freeze
 
     # Extra EN verbs seen in CIML minutes-style resolutions
@@ -215,6 +242,21 @@ module ResolutionsData
         date_str    = meeting_date(src)
         cleaned     = strip_meta_lines(body)
         cons, acts  = classify_body(cleaned, lang, date_str)
+
+        # Fallback: if no action was recognized but the body has prose,
+        # preserve the first non-empty paragraph as a "notes" action so
+        # the resolution is not rendered empty. (Handles verbs not in
+        # the prefix list, e.g. "Le Comité a rejeté l'appel..." .)
+        if acts.empty? && cleaned.strip.length > 10
+          first_para = cleaned.strip.split(/\n\s*\n/).first || cleaned.strip
+          first_para = first_para.strip
+          acts << {
+            "type"    => "notes",
+            "message" => convert_tables(first_para),
+            "dates"   => [{ "start" => date_str, "kind" => "effective" }],
+          } unless first_para.empty?
+        end
+
         title       = synthesize_title(acts)
 
         res << {
@@ -280,10 +322,25 @@ module ResolutionsData
       paragraphs.each do |para|
         clean = para.gsub(/\A[-*]\s+/, "")
         verb_type = classify_narrative_verb(clean)
-        next unless verb_type
-        msg = convert_tables(clean)
+        if verb_type
+          msg = convert_tables(clean)
+          acts << {
+            "type"    => verb_type,
+            "message" => msg,
+            "dates"   => [{ "start" => date_str, "kind" => "effective" }],
+          }
+        end
+      end
+
+      # Fallback: if no verb was recognized but the section had body content,
+      # preserve it as a "notes" action so the body isn't lost. Handles
+      # passive voice ("The Minutes of the 40th CIML Meeting were approved")
+      # and other structures the verb list doesn't cover.
+      if acts.empty? && paragraphs.any?
+        first = paragraphs.first
+        msg = convert_tables(first)
         acts << {
-          "type"    => verb_type,
+          "type"    => "notes",
           "message" => msg,
           "dates"   => [{ "start" => date_str, "kind" => "effective" }],
         }
@@ -474,6 +531,9 @@ module ResolutionsData
         # there should be no real section breaks (those were used as resolution
         # delimiters earlier in the pipeline). "## Foo" → "Foo".
         line = line.sub(/\A(\s*)\#{1,6}\s+/, "\\1")
+        # Strip leading numbered sub-item markers like "1. 1 ", "1.2 ", "2.3 "
+        # used in joint decision docs (Conf 12) and some minutes-style bodies.
+        line = line.sub(/\A(\s*)\d+\.\s*\d+\s+/, "\\1")
         out << line
       end
       out.join

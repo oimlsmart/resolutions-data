@@ -18,7 +18,7 @@ resolutions:
     doi: "10.63493/resolutions/conf202105"
     urn: "urn:oiml:doc:conf:resolution:16.05"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: Ordre du jour point 9
     dates:
     - start: '2021-10-20'
       kind: decision
@@ -38,7 +38,13 @@ resolutions:
       dates:
       - start: '2021-10-20'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Ordre du jour point 9
+      dates:
+      - start: '2021-10-20'
+        kind: effective
   - identifier: Conference/2021/06
     doi: "10.63493/resolutions/conf202106"
     urn: "urn:oiml:doc:conf:resolution:16.06"
@@ -100,7 +106,7 @@ resolutions:
     doi: "10.63493/resolutions/conf202108"
     urn: "urn:oiml:doc:conf:resolution:16.08"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: Ordre du jour point 10.2
     dates:
     - start: '2021-10-20'
       kind: decision
@@ -160,7 +166,13 @@ resolutions:
       dates:
       - start: '2021-10-20'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Ordre du jour point 10.2
+      dates:
+      - start: '2021-10-20'
+        kind: effective
   - identifier: Conference/2021/09
     doi: "10.63493/resolutions/conf202109"
     urn: "urn:oiml:doc:conf:resolution:16.09"

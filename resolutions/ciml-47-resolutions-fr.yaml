@@ -286,7 +286,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201212"
     urn: "urn:oiml:doc:ciml:resolution:2012-12"
     subject: CIML
-    title: (Untitled)
+    title: "[Point 9.1a de l'ordre du jour]"
     dates:
     - start: '2012-10-01'
       kind: decision
@@ -299,12 +299,18 @@ resolutions:
       dates:
       - start: '2012-10-01'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 9.1a de l'ordre du jour]
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/13
     doi: "10.63493/resolutions/ciml201213"
     urn: "urn:oiml:doc:ciml:resolution:2012-13"
     subject: CIML
-    title: (Untitled)
+    title: "Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives à la"
     dates:
     - start: '2012-10-01'
       kind: decision
@@ -316,7 +322,13 @@ resolutions:
       dates:
       - start: '2012-10-01'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives à la participation des Membres Correspondants au travail technique de l'OIML,
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/14
     doi: "10.63493/resolutions/ciml201214"
     urn: "urn:oiml:doc:ciml:resolution:2012-14"
@@ -597,7 +609,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201224"
     urn: "urn:oiml:doc:ciml:resolution:2012-24"
     subject: CIML
-    title: (Untitled)
+    title: "Prenant note de la procédure de sélection de candidats à un poste vacant de"
     dates:
     - start: '2012-10-01'
       kind: decision
@@ -609,7 +621,13 @@ resolutions:
       dates:
       - start: '2012-10-01'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Prenant note de la procédure de sélection de candidats à un poste vacant de Vice-Président dans le B 14,
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/25
     doi: "10.63493/resolutions/ciml201225"
     urn: "urn:oiml:doc:ciml:resolution:2012-25"

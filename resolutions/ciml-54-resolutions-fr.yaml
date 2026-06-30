@@ -107,12 +107,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201905"
     urn: "urn:oiml:doc:ciml:resolution:2019-05"
     subject: CIML
-    title: (Untitled)
+    title: (Point 5 de l'ordre du jour)
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 5 de l'ordre du jour)
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/6
     doi: "10.63493/resolutions/ciml201906"
     urn: "urn:oiml:doc:ciml:resolution:2019-06"
@@ -738,22 +744,34 @@ resolutions:
     doi: "10.63493/resolutions/ciml201931"
     urn: "urn:oiml:doc:ciml:resolution:2019-31"
     subject: CIML
-    title: (Untitled)
+    title: (Point 11 de l'ordre du jour)
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 11 de l'ordre du jour)
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/32
     doi: "10.63493/resolutions/ciml201932"
     urn: "urn:oiml:doc:ciml:resolution:2019-32"
     subject: CIML
-    title: (Untitled)
+    title: (Point 12.1 de l'ordre du jour)
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 12.1 de l'ordre du jour)
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/33
     doi: "10.63493/resolutions/ciml201933"
     urn: "urn:oiml:doc:ciml:resolution:2019-33"
@@ -779,12 +797,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201934"
     urn: "urn:oiml:doc:ciml:resolution:2019-34"
     subject: CIML
-    title: (Untitled)
+    title: (Point 12.2 de l'ordre du jour)
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 12.2 de l'ordre du jour)
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/35
     doi: "10.63493/resolutions/ciml201935"
     urn: "urn:oiml:doc:ciml:resolution:2019-35"

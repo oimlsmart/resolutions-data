@@ -550,9 +550,15 @@ resolutions:
     doi: "10.63493/resolutions/ciml201520"
     urn: "urn:oiml:doc:ciml:resolution:2015-20"
     subject: CIML
-    title: (Untitled)
+    title: (Point 12 de l'ordre du jour)
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 12 de l'ordre du jour)
+      dates:
+      - start: '2015-10-20'
+        kind: effective

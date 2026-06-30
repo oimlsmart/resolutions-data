@@ -379,7 +379,13 @@ resolutions:
     - start: '2004-10-26'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Les décisions mentionnées ci-dessus ont été adoptées.
+      dates:
+      - start: '2004-10-26'
+        kind: effective
   - identifier: CIML/2004/1
     doi: "10.63493/resolutions/ciml200401"
     urn: "urn:oiml:doc:ciml:resolution:2004-01"
@@ -389,7 +395,13 @@ resolutions:
     - start: '2004-10-26'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        1. 1 Lorsqu'une Autorité de Délivrance signe une Déclaration de Confiance Mutuelle (DoMC) dans le cadre du MAA, tous les Certificats OIML et les rapports d'essai associés émis par cette Autorité de Délivrance pour la catégorie d'instruments considérée, seront dès lors délivrés dans les conditions particulières résultant de sa participation à la DoMC. Cette Autorité de Délivrance ne sera pas autorisée à continuer de délivrer des Certificats dans les seules conditions du Système de Certificats OIML.
+      dates:
+      - start: '2004-10-26'
+        kind: effective
   - identifier: CIML/2004/2
     doi: "10.63493/resolutions/ciml200402"
     urn: "urn:oiml:doc:ciml:resolution:2004-02"
@@ -399,4 +411,10 @@ resolutions:
     - start: '2004-10-26'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Ces décisions entreront en vigueur pour la mise en application du MAA et pour le fonctionnement du Système de Certificats OIML à partir du 1er janvier 2005.
+      dates:
+      - start: '2004-10-26'
+        kind: effective

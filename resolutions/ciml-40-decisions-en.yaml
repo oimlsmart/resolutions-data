@@ -23,7 +23,13 @@ resolutions:
     - start: '2005-06-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Minutes of the 39th CIML Meeting were approved without modification.
+      dates:
+      - start: '2005-06-18'
+        kind: effective
   - identifier: CIML/2005/3
     doi: "10.63493/resolutions/ciml200503"
     urn: "urn:oiml:doc:ciml:resolution:2005-03"
@@ -463,7 +469,13 @@ resolutions:
     - start: '2005-06-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        On the proposal of the CIML President, the Committee approved the renewal of the contract of Mr. Magaña as BIML Director from 1 January 2006 to 31 December 2010.
+      dates:
+      - start: '2005-06-18'
+        kind: effective
   - identifier: CIML/2005/9.3
     doi: "10.63493/resolutions/ciml20059.3"
     urn: "urn:oiml:doc:ciml:resolution:2005-9.3"

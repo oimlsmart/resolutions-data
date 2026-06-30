@@ -23,7 +23,13 @@ resolutions:
     - start: '2005-06-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Compte Rendu de la 39eme Réunion du CIML a été approuvé sans modification.
+      dates:
+      - start: '2005-06-18'
+        kind: effective
   - identifier: CIML/2005/2
     doi: "10.63493/resolutions/ciml200502"
     urn: "urn:oiml:doc:ciml:resolution:2005-02"
@@ -43,7 +49,13 @@ resolutions:
     - start: '2005-06-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le CIML a pris note de l'engagement de la République démocratique populaire de Corée et de la Zambie à payer leurs arriérés conformément à un calendrier convenu.
+      dates:
+      - start: '2005-06-18'
+        kind: effective
   - identifier: CIML/2005/3
     doi: "10.63493/resolutions/ciml200503"
     urn: "urn:oiml:doc:ciml:resolution:2005-03"
@@ -473,7 +485,13 @@ resolutions:
     - start: '2005-06-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Sur proposition du Président du CIML, le Comité a approuvé le renouvellement du contrat de M. Magaña comme Directeur du BIML du 1<sup>er</sup> janvier 2006 au 31 décembre 2010.
+      dates:
+      - start: '2005-06-18'
+        kind: effective
   - identifier: CIML/2005/9.3
     doi: "10.63493/resolutions/ciml20059.3"
     urn: "urn:oiml:doc:ciml:resolution:2005-9.3"

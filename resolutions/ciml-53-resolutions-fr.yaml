@@ -112,7 +112,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201806"
     urn: "urn:oiml:doc:ciml:resolution:2018-06"
     subject: CIML
-    title: (Untitled)
+    title: (point 8.2 de l'ordre du jour)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -125,7 +125,13 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (point 8.2 de l'ordre du jour)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/7
     doi: "10.63493/resolutions/ciml201807"
     urn: "urn:oiml:doc:ciml:resolution:2018-07"
@@ -870,7 +876,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201835"
     urn: "urn:oiml:doc:ciml:resolution:2018-35"
     subject: CIML
-    title: (Untitled)
+    title: (point 14 de l'ordre du jour)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -906,12 +912,18 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (point 14 de l'ordre du jour)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/36
     doi: "10.63493/resolutions/ciml201836"
     urn: "urn:oiml:doc:ciml:resolution:2018-36"
     subject: CIML
-    title: (Untitled)
+    title: (point 15 de l'ordre du jour)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -941,27 +953,45 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (point 15 de l'ordre du jour)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/37
     doi: "10.63493/resolutions/ciml201837"
     urn: "urn:oiml:doc:ciml:resolution:2018-37"
     subject: CIML
-    title: (Untitled)
+    title: (point 16.1 de l'ordre du jour)
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (point 16.1 de l'ordre du jour)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/38
     doi: "10.63493/resolutions/ciml201838"
     urn: "urn:oiml:doc:ciml:resolution:2018-38"
     subject: CIML
-    title: (Untitled)
+    title: (point 16.2 de l'ordre du jour)
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (point 16.2 de l'ordre du jour)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/39
     doi: "10.63493/resolutions/ciml201839"
     urn: "urn:oiml:doc:ciml:resolution:2018-39"

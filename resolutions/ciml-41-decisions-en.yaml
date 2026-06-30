@@ -23,7 +23,13 @@ resolutions:
     - start: '2006-10-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Minutes of the 40th CIML Meeting were approved without modification.
+      dates:
+      - start: '2006-10-18'
+        kind: effective
   - identifier: CIML/2006/2
     doi: "10.63493/resolutions/ciml200602"
     urn: "urn:oiml:doc:ciml:resolution:2006-02"
@@ -43,7 +49,13 @@ resolutions:
     - start: '2006-10-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The CIML noted the situation of the Democratic People's Republic of Korea and Zambia concerning the payment of their arrears. These two countries had changed their status to become Corresponding Members since the 40th CIML Meeting.
+      dates:
+      - start: '2006-10-18'
+        kind: effective
   - identifier: CIML/2006/3
     doi: "10.63493/resolutions/ciml200603"
     urn: "urn:oiml:doc:ciml:resolution:2006-03"
@@ -549,7 +561,13 @@ resolutions:
     - start: '2006-10-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        On the proposal of the CIML President, the Committee appointed Mr. Willem Kool as BIML Assistant Director. This position had become vacant due to the retirement of Mr. Szilvassy in 2007.
+      dates:
+      - start: '2006-10-18'
+        kind: effective
   - identifier: CIML/2006/9.4
     doi: "10.63493/resolutions/ciml20069.4"
     urn: "urn:oiml:doc:ciml:resolution:2006-9.4"
@@ -633,4 +651,10 @@ resolutions:
     - start: '2006-10-18'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The CIML took note of a presentation given by Dr. Sahin (Turkey) giving information on the organization of a Seminar on the implications of the MID to be held in Istanbul in 2007.
+      dates:
+      - start: '2006-10-18'
+        kind: effective

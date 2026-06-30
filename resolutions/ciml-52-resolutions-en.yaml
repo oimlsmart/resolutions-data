@@ -771,7 +771,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201729"
     urn: "urn:oiml:doc:ciml:resolution:2017-29"
     subject: CIML
-    title: (Untitled)
+    title: (Agenda Item 15.4)
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -783,12 +783,18 @@ resolutions:
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda Item 15.4)
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/30
     doi: "10.63493/resolutions/ciml201730"
     urn: "urn:oiml:doc:ciml:resolution:2017-30"
     subject: CIML
-    title: (Untitled)
+    title: (Agenda Item 16)
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -800,7 +806,13 @@ resolutions:
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda Item 16)
+      dates:
+      - start: '2017-10-10'
+        kind: effective
   - identifier: CIML/2017/31
     doi: "10.63493/resolutions/ciml201731"
     urn: "urn:oiml:doc:ciml:resolution:2017-31"
