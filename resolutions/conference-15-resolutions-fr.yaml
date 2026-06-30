@@ -115,7 +115,7 @@ resolutions:
     doi: "10.63493/resolutions/conf201605"
     urn: "urn:oiml:doc:conf:resolution:15.05"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Décide que : Les publications de l'OIML listées dans le rapport en Annexe D"
     dates:
     - start: '2016-10-19'
       kind: decision
@@ -129,12 +129,18 @@ resolutions:
     - type: noting
       message: |
         Prenant note du rapport sur les publications approuvées par le Comité depuis la 14ème Conférence en 2012 figurant en Annexe D,
+      dates:
+      - start: '2016-10-19'
+        kind: effective
+    actions:
+    - type: decides
+      message: |
+        Décide que :
         Les publications de l'OIML listées dans le rapport en Annexe D sont à présent sanctionnées.
         Il est rappelé aux États Membres qu'ils ont l'obligation de mettre en œuvre les Recommandations de l'OIML dans la mesure du possible.
       dates:
       - start: '2016-10-19'
         kind: effective
-    actions: []
   - identifier: Conference/2016/6
     doi: "10.63493/resolutions/conf201606"
     urn: "urn:oiml:doc:conf:resolution:15.06"
@@ -232,10 +238,14 @@ resolutions:
         Le Comité est à présent chargé d'organiser la 16eme Conférence en 2020, et d'en fixer le lieu et les dates.
         ***
         <div align="center">
+        15 $ ^{\mathrm{e}me}} $ Conférence Internationale de Métrologie Légale Point 6
         </div>
+        Sanction des publications OIML
         Une liste est donnée ci-dessous de tous les Documents, Recommandations et Vocabulaires qui ont été soit :
         - approuvés par le CIML lors de sa 48ème Réunion (2013), 49ème Réunion (2014) et 50ème Réunion (2015), soit
         - soumis à la 51ème Réunion du CIML (2016) pour approbation.
+        2013
+        Approuvés lors de la 48 $ ^{\mathrm{ème}} $ Réunion du CIML (Résolutions 2013/11 et 2013/19)
         - R 46-3 Compteurs actifs d'énergie électrique - Partie 3: Format du rapport d'essai
         - R 49-1 Compteurs d'eau potable froide et d'eau chaude - Partie 1: Exigences métrologiques et techniques
         - R 49-2 Compteurs d'eau potable froide et d'eau chaude - Partie 2: Méthodes d'essai
@@ -244,6 +254,8 @@ resolutions:
         - R 100 Systèmes de spectromètres d'absorption atomique pour la mesure des polluants métalliques
         - D 11 Exigences générales pour les instruments de mesure - Conditions environnementales
         - V1 Vocabulaire international des termes de métrologie légale (VIML)
+        2014
+        Approuvés lors de la 49<sup>eme</sup> Réunion du CIML (Résolution 2014/15)
         - Amd R 35-1 Mesures matérilisées de longueur pour usages généraux - Partie 1: Exigences métrologiques et techniques
         - R 50-1 Instruments de pesage totalisateurs continus à fonctionnement automatique
         - (peseuses sur bande) - Partie 1: Exigences métrologiques et techniques
@@ -258,13 +270,18 @@ resolutions:
         - Partie 1: Exigences métrologiques et techniques
         - R 139-2 Ensembles de mesurage de gaz compressé pour véhicules
         - Partie 2: Contrôles métrologiques et essais de performance
+        Approbation directe en ligne par le CIML en 2014
         - R 137-3 Compteurs de gaz - Partie 3: Format du rapport d'essai
         - Amd R 137-1 Compteurs de gaz - Partie 1: Exigences métrologiques et techniques
         - Amd R 137-2 Compteurs de gaz - Partie 2: Contrôles métrologiques et essais de performance
+        2015
+        Approuvés lors de la $ 50^{\mathrm{ème}} $ Réunion du CIML (Résolution 2015/14)
         - R 79 Exigences pour l'étiquetage des produits préemballés
         - R 139-3 Ensembles de mesurage de gaz compressé pour véhicules
         - Partie 3: Format du rapport d'essai
         - R 145 Instruments ophtalmiques - tonomètres d'empreinte et d'aplanation
+        2016
+        Soumis pour approbation à la 51<sup>ème</sup> Réunion du CIML (Voir le point 9.1 du CIML)
         - R 59 Humidimètres pour grains de céréales et graines oléagineuses
         - R 87 Quantité de produit dans les préemballages
         - Nouvelle R Instruments de mesure utilisés pour la détermination des protéines dans les grains

@@ -128,7 +128,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201107"
     urn: "urn:oiml:doc:ciml:resolution:2011-07"
     subject: CIML
-    title: (Untitled)
+    title: "Décide "
     dates:
     - start: '2011-10-11'
       kind: decision
@@ -147,6 +147,13 @@ resolutions:
         c) L'usage croissant de l'anglais comme langue de travail de l'Organisation et, par conséquent, la baisse du besoin de traductions vers l'anglais, ce qui a pour conséquence une accumulation continue des fonds dans le compte spécial du Centre de traduction du BIML,
         d) Qu'il apparaît nécessaire de rendre disponibles certaines publications de l'OIML dans les deux langues : français et anglais,
         e) Que, pour améliorer le fonctionnement et accroître l'efficacité du BIML, en particulier en ce qui concerne la diffusion de l'information à ses Membres, il est souhaitable de rendre les documents (historiques) (compte rendus et résolutions des Conférences et Comités, Bulletins de l'OIML, etc.) disponibles en format électronique,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    actions:
+    - type: decides
+      message: |
+        Décide :
         a) Que les fonds du compte spécial du Centre de traduction du BIML peuvent être utilisés, si nécessaire, pour des activités de traduction et d'interprétation qui n'entrent pas à ce jour dans les attributions du Bureau, notamment :
         - la traduction de documents (avec une priorité particulière pour les traductions de l'anglais vers le français afin de réduire le retard des publications en français) ;
         - l'interprétation sur une base expérimentale aux Conférences et Réunions du Comité ;
@@ -158,7 +165,6 @@ resolutions:
       dates:
       - start: '2011-10-11'
         kind: effective
-    actions: []
   - identifier: CIML/2011/8
     doi: "10.63493/resolutions/ciml201108"
     urn: "urn:oiml:doc:ciml:resolution:2011-08"
@@ -389,6 +395,12 @@ resolutions:
       message: |
         Approuve, en tant que nouveau projet de travail du TC 3/SC 5 de l'OIML,
         - L'amendement à, ou la révision de l'OIML B10 Cadre pour un Arrangement d'Acceptation Mutuelle sur les Évaluations de Type de l'OIML (MAA) en vue d'inclure les conditions appropriées pour l'inscription des laboratoires d'essai des fabricants (MTL) dans le cadre d'une DoMC,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    - type: decides
+      message: |
+        Décide
         - Que l'enregistrement des MTL dans le cadre d'une DoMC demeure exclue du champ du MAA jusqu'à ce que ledit amendement à, ou ladite révision de l'OIML B 10 soit approuvé(e).
       dates:
       - start: '2011-10-11'
@@ -582,6 +594,7 @@ resolutions:
         - que les recettes provenant des abonnements payants au Bulletin de l'OIML sont relativement faibles ;
         - que le Bulletin de l'OIML demeure un canal de communication indispensable à ses Membres ainsi qu'à d'autres parties intéressées ; et
         - que le Bulletin de l'OIML doit être diffusé auprès d'un public aussi large que possible,
+        Estimant que :
         - le Bulletin de l'OIML doit devenir gratuit ;
         - que les versions numériques du Bulletin de l'OIML doivent être disponibles en téléchargement à partir du site Internet, et ce sans aucune restriction ;
         - que les exemplaires imprimés du Bulletin de l'OIML ne doivent être fournis qu'aux États Membres de l'OIML et aux Membres Correspondants,

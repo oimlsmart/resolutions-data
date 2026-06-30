@@ -299,6 +299,11 @@ resolutions:
     - type: notes
       message: |
         Notes the report of the meeting of the Advisory Group held on 17 October 2016,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
+    - type: confirms
+      message: |
         Confirms that it wishes the Advisory Group to continue as the main focus of activities relating to matters of interest to countries and economies with emerging metrology systems,
       dates:
       - start: '2016-10-17'
@@ -429,6 +434,11 @@ resolutions:
     - type: instructs
       message: |
         Instructs the BIML to provide secretarial support to the prMC,
+      dates:
+      - start: '2016-10-17'
+        kind: effective
+    - type: confirms
+      message: |
         Confirmss that the prMC has the authority to act as the Management Committee for the purposes of approving OIML-CS Operational Documents, Procedural Documents, Guidance Documents, Template and Forms,
       dates:
       - start: '2016-10-17'

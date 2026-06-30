@@ -517,6 +517,11 @@ resolutions:
       message: |
         Requests appropriately qualified individuals to nominate themselves to form a peer-review editorial panel,
         Encourages Members to submit scientific-oriented articles for peer review, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
+    - type: confirms
+      message: |
         Confirms its continued support for the OIML Bulletin.
       dates:
       - start: '2023-10-17'
@@ -548,7 +553,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202326"
     urn: "urn:oiml:doc:ciml:resolution:2023-26"
     subject: CIML
-    title: Thanks Dr Roman Schwartz for undertaking the role of OIML-CS Board of Appeal Chairperson
+    title: Appoints Dr Bobjoseph Mathew as OIML-CS Board of Appeal Chairperson for a three-year term
     dates:
     - start: '2023-10-17'
       kind: decision
@@ -557,11 +562,16 @@ resolutions:
     - type: noting
       message: |
         Noting the report of the OIML-CS Management Committee Chairperson,
-        Appoints Dr Bobjoseph Mathew as OIML-CS Board of Appeal Chairperson for a three-year term starting with immediate effect, and
       dates:
       - start: '2023-10-17'
         kind: effective
     actions:
+    - type: appoints
+      message: |
+        Appoints Dr Bobjoseph Mathew as OIML-CS Board of Appeal Chairperson for a three-year term starting with immediate effect, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks Dr Roman Schwartz for undertaking the role of OIML-CS Board of Appeal Chairperson during the period 2018-2023.
@@ -572,7 +582,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202327"
     urn: "urn:oiml:doc:ciml:resolution:2023-27"
     subject: CIML
-    title: Thanks Mr Bill Loizides for his work as OIML-CS Management Committee Deputy Chairperson during
+    title: Appoints Mr Marc Schmidt as OIML-CS Management Committee Deputy Chairperson for a three-year term
     dates:
     - start: '2023-10-17'
       kind: decision
@@ -581,11 +591,16 @@ resolutions:
     - type: noting
       message: |
         Noting the recommendation from the OIML-CS Management Committee,
-        Appoints Mr Marc Schmidt as OIML-CS Management Committee Deputy Chairperson for a three-year term with effect from 1 January 2024, and
       dates:
       - start: '2023-10-17'
         kind: effective
     actions:
+    - type: appoints
+      message: |
+        Appoints Mr Marc Schmidt as OIML-CS Management Committee Deputy Chairperson for a three-year term with effect from 1 January 2024, and
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks Mr Bill Loizides for his work as OIML-CS Management Committee Deputy Chairperson during the period 2018-2023.
@@ -596,7 +611,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202328"
     urn: "urn:oiml:doc:ciml:resolution:2023-28"
     subject: CIML
-    title: Resolves to appoint an OIML-CS Management Committee Chairperson at its 59th meeting in October
+    title: "Confirms that the OIML-CS Management Committee Deputy Chairperson, Mr Marc Schmidt, will undertake t…"
     dates:
     - start: '2023-10-17'
       kind: decision
@@ -611,11 +626,16 @@ resolutions:
     - type: noting
       message: |
         Noting the recommendation from the OIML-CS Management Committee,
-        Confirms that the OIML-CS Management Committee Deputy Chairperson, Mr Marc Schmidt, will undertake the role of Acting OIML-CS Management Committee Chairperson for a 12-month period with effect from 1 January 2024,
       dates:
       - start: '2023-10-17'
         kind: effective
     actions:
+    - type: confirms
+      message: |
+        Confirms that the OIML-CS Management Committee Deputy Chairperson, Mr Marc Schmidt, will undertake the role of Acting OIML-CS Management Committee Chairperson for a 12-month period with effect from 1 January 2024,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: resolves
       message: |
         Resolves to appoint an OIML-CS Management Committee Chairperson at its 59th meeting in October 2024, and
@@ -912,7 +932,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202341"
     urn: "urn:oiml:doc:ciml:resolution:2023-41"
     subject: CIML
-    title: Thanks the People's Republic of China and Japan for their interest in hosting the
+    title: Confirmss its preference for in-person meetings
     dates:
     - start: '2023-10-17'
       kind: decision
@@ -927,11 +947,16 @@ resolutions:
     - type: noting
       message: |
         Noting the possibility of holding its meetings in-person, online, or in a hybrid manner,
-        Confirmss its preference for in-person meetings,
       dates:
       - start: '2023-10-17'
         kind: effective
     actions:
+    - type: confirms
+      message: |
+        Confirmss its preference for in-person meetings,
+      dates:
+      - start: '2023-10-17'
+        kind: effective
     - type: thanks
       message: |
         Thanks the People's Republic of China and Japan for their interest in hosting the 59th CIML Meeting and

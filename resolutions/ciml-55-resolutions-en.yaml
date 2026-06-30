@@ -173,6 +173,11 @@ resolutions:
     - type: approves
       message: |
         Approves the Terms of Reference of an OIML/BIPM Joint Task Group (JTG) as proposed in the Annex to Addendum 5c to the Working Document for this meeting,
+      dates:
+      - start: '2020-10-20'
+        kind: effective
+    - type: appoints
+      message: |
         Appoints Dr Roman Schwartz, Dr Charles Ehrlich and Mr Anthony Donnellan as the OIML representatives on that JTG, and
       dates:
       - start: '2020-10-20'
@@ -526,7 +531,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202023"
     urn: "urn:oiml:doc:ciml:resolution:2020-23"
     subject: OIML Conference
-    title: (Untitled)
+    title: Appoints Mr Mannie Panesar as OIML-CS MC Chairperson for a period of three years
     dates:
     - start: '2020-10-20'
       kind: decision
@@ -541,11 +546,16 @@ resolutions:
     - type: having_regard_to
       message: |
         Having regard to section 4.2.5 of OIML-CS Operational Document OD-01 Edition 2,
+      dates:
+      - start: '2020-10-20'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr Mannie Panesar as OIML-CS MC Chairperson for a period of three years from 1 January 2021.
       dates:
       - start: '2020-10-20'
         kind: effective
-    actions: []
   - identifier: CIML/2020/24
     doi: "10.63493/resolutions/ciml202024"
     urn: "urn:oiml:doc:ciml:resolution:2020-24"

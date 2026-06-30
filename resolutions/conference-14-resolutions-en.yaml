@@ -61,7 +61,7 @@ resolutions:
     doi: "10.63493/resolutions/conf201202"
     urn: "urn:oiml:doc:conf:resolution:14.02"
     subject: OIML Conference
-    title: (Untitled)
+    title: "Resolves: The position of \"Facilitator for developing country matters\" is dissolved."
     dates:
     - start: '2012-10-03'
       kind: decision
@@ -81,11 +81,17 @@ resolutions:
     - type: considering
       message: |
         Considering that assistance to developing countries is specifically addressed in the OIML Strategy (OIML B 15:2011) as being embedded in the regular activities of the Organization,
+      dates:
+      - start: '2012-10-03'
+        kind: effective
+    actions:
+    - type: resolves
+      message: |
+        Resolves:
         The position of "Facilitator for developing country matters" is dissolved.
       dates:
       - start: '2012-10-03'
         kind: effective
-    actions: []
   - identifier: Conference/2012/3
     doi: "10.63493/resolutions/conf201203"
     urn: "urn:oiml:doc:conf:resolution:14.03"
@@ -219,7 +225,7 @@ resolutions:
     doi: "10.63493/resolutions/conf201207"
     urn: "urn:oiml:doc:conf:resolution:14.07"
     subject: OIML Conference
-    title: (Untitled)
+    title: "Resolves: The OIML Strategy as laid down in OIML B 15:2011 is hereby sanctioned."
     dates:
     - start: '2012-10-03'
       kind: decision
@@ -233,11 +239,17 @@ resolutions:
     - type: noting
       message: |
         Noting the approval by the Committee at its 46th Meeting of the OIML Strategy in the form of a revision of OIML B 15, and the subsequent publication of OIML B 15:2011,
+      dates:
+      - start: '2012-10-03'
+        kind: effective
+    actions:
+    - type: resolves
+      message: |
+        Resolves:
         The OIML Strategy as laid down in OIML B 15:2011 is hereby sanctioned. The Committee is instructed to implement this strategy taking into account the budgetary resources.
       dates:
       - start: '2012-10-03'
         kind: effective
-    actions: []
   - identifier: Conference/2012/8
     doi: "10.63493/resolutions/conf201208"
     urn: "urn:oiml:doc:conf:resolution:14.08"

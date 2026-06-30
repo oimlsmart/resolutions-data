@@ -463,7 +463,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202425"
     urn: "urn:oiml:doc:ciml:resolution:2024-25"
     subject: CIML
-    title: (Untitled)
+    title: Appoints Mr Marc Schmidt as OIML-CS Management Committee Chairperson for a three-year term with
     dates:
     - start: '2024-10-22'
       kind: decision
@@ -472,16 +472,21 @@ resolutions:
     - type: noting
       message: |
         Noting the recommendation from the OIML-CS Management Committee,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr Marc Schmidt as OIML-CS Management Committee Chairperson for a three-year term with effect from 1 January 2025.
       dates:
       - start: '2024-10-22'
         kind: effective
-    actions: []
   - identifier: CIML/2024/26
     doi: "10.63493/resolutions/ciml202426"
     urn: "urn:oiml:doc:ciml:resolution:2024-26"
     subject: CIML
-    title: (Untitled)
+    title: "Appoints Ms Katharina Gierschke as OIML-CS Management Committee Deputy Chairperson for a three-year …"
     dates:
     - start: '2024-10-22'
       kind: decision
@@ -490,11 +495,16 @@ resolutions:
     - type: noting
       message: |
         Noting the recommendation from the OIML-CS Management Committee,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Ms Katharina Gierschke as OIML-CS Management Committee Deputy Chairperson for a three-year term with effect from 1 January 2025.
       dates:
       - start: '2024-10-22'
         kind: effective
-    actions: []
   - identifier: CIML/2024/27
     doi: "10.63493/resolutions/ciml202427"
     urn: "urn:oiml:doc:ciml:resolution:2024-27"
@@ -528,7 +538,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202428"
     urn: "urn:oiml:doc:ciml:resolution:2024-28"
     subject: CIML
-    title: (Untitled)
+    title: Appoints Mr Ashutosh Agarwal as CEEMS AG Vice-Chairperson for a three-year term with immediate
     dates:
     - start: '2024-10-22'
       kind: decision
@@ -543,11 +553,16 @@ resolutions:
     - type: noting
       message: |
         Noting the nomination of a candidate from the CEEMS Advisory Group (AG) for the position of CEEMS AG Vice-Chairperson,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr Ashutosh Agarwal as CEEMS AG Vice-Chairperson for a three-year term with immediate effect.
       dates:
       - start: '2024-10-22'
         kind: effective
-    actions: []
   - identifier: CIML/2024/29
     doi: "10.63493/resolutions/ciml202429"
     urn: "urn:oiml:doc:ciml:resolution:2024-29"
@@ -855,7 +870,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202441"
     urn: "urn:oiml:doc:ciml:resolution:2024-41"
     subject: CIML
-    title: (Untitled)
+    title: Confirms the decision expressed in its Resolution CIML/2023/41.
     dates:
     - start: '2024-10-22'
       kind: decision
@@ -864,8 +879,13 @@ resolutions:
     - type: noting
       message: |
         Noting the information provided on the organisation of the 61st CIML Meeting in 2026,
+      dates:
+      - start: '2024-10-22'
+        kind: effective
+    actions:
+    - type: confirms
+      message: |
         Confirms the decision expressed in its Resolution CIML/2023/41.
       dates:
       - start: '2024-10-22'
         kind: effective
-    actions: []

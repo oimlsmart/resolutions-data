@@ -27,6 +27,7 @@ module ResolutionsData
 
     # (verb-prefix, edoxen-type). Order matters — longer prefixes first.
     CONSIDERATION_PREFIXES = [
+      ["Following the recommendation", "following_recommendation"],
       ["Having regard to",   "having_regard_to"],
       ["Having regard",      "having_regard"],
       ["Noting that",        "noting"],
@@ -75,6 +76,15 @@ module ResolutionsData
       ["Noted",                        "notes"],
       ["Welcomed",                     "welcomes"],
       ["Renewed",                      "renews"],
+      # Imperative / additional verbs
+      ["Appoints",                     "appoints"],
+      ["Establishes",                  "establishes"],
+      ["Proclaims",                    "proclaims"],
+      ["Confirms",                     "confirms"],
+      ["Instructs the Bureau to",      "instructs"],
+      ["Instructs its President",      "instructs"],
+      ["Instructs the Bureau",         "instructs"],
+      ["Following the recommendation", "following_recommendation"],
     ].freeze
 
     # French equivalents
@@ -449,7 +459,9 @@ module ResolutionsData
       lang == :fr ? "Conférence OIML" : "OIML Conference"
     end
 
-    # Drop metadata lines (agenda item, subject marker) from body.
+    # Drop metadata lines (agenda item, subject marker) from body, and
+    # normalize GLM-OCR's tendency to render verbs as markdown headers
+    # inside a resolution body (e.g. "## Resolves", "## Instructs the Bureau to").
     def self.strip_meta_lines(body)
       out = []
       body.each_line do |line|
@@ -458,6 +470,10 @@ module ResolutionsData
         next if stripped =~ /\AThe (Conference|Committee),?\z/i
         next if stripped =~ /\ALa Conf[ée]rence,?\z/i
         next if stripped =~ /\ALe Comit[ée],?\z/i
+        # Strip leading markdown header marks. Within a single resolution body
+        # there should be no real section breaks (those were used as resolution
+        # delimiters earlier in the pipeline). "## Foo" → "Foo".
+        line = line.sub(/\A(\s*)\#{1,6}\s+/, "\\1")
         out << line
       end
       out.join
