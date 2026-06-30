@@ -93,13 +93,19 @@ resolutions:
     doi: "10.63493/resolutions/ciml202004"
     urn: "urn:oiml:doc:ciml:resolution:2020-04"
     subject: CIML
-    title: (Untitled)
+    title: Point 5 de l'ordre du jour
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '5'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Point 5 de l'ordre du jour
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/5
     doi: "10.63493/resolutions/ciml202005"
     urn: "urn:oiml:doc:ciml:resolution:2020-05"
@@ -523,7 +529,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202023"
     urn: "urn:oiml:doc:ciml:resolution:2020-23"
     subject: CIML
-    title: (Untitled)
+    title: Point 9.2 de l'ordre du jour
     dates:
     - start: '2020-10-20'
       kind: decision
@@ -542,12 +548,18 @@ resolutions:
       dates:
       - start: '2020-10-20'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Point 9.2 de l'ordre du jour
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/24
     doi: "10.63493/resolutions/ciml202024"
     urn: "urn:oiml:doc:ciml:resolution:2020-24"
     subject: CIML
-    title: (Untitled)
+    title: Point 9.3 de l'ordre du jour
     dates:
     - start: '2020-10-20'
       kind: decision
@@ -566,7 +578,13 @@ resolutions:
       dates:
       - start: '2020-10-20'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Point 9.3 de l'ordre du jour
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/25
     doi: "10.63493/resolutions/ciml202025"
     urn: "urn:oiml:doc:ciml:resolution:2020-25"
@@ -699,35 +717,53 @@ resolutions:
     doi: "10.63493/resolutions/ciml202030"
     urn: "urn:oiml:doc:ciml:resolution:2020-30"
     subject: CIML
-    title: (Untitled)
+    title: Point 12.1 de l'ordre du jour
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '12.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Point 12.1 de l'ordre du jour
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/31
     doi: "10.63493/resolutions/ciml202031"
     urn: "urn:oiml:doc:ciml:resolution:2020-31"
     subject: CIML
-    title: (Untitled)
+    title: Point 12.2 de l'ordre du jour
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '12.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Point 12.2 de l'ordre du jour
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/32
     doi: "10.63493/resolutions/ciml202032"
     urn: "urn:oiml:doc:ciml:resolution:2020-32"
     subject: CIML
-    title: (Untitled)
+    title: Point 12.3 de l'ordre du jour
     dates:
     - start: '2020-10-20'
       kind: decision
     agenda_item: '12.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Point 12.3 de l'ordre du jour
+      dates:
+      - start: '2020-10-20'
+        kind: effective
   - identifier: CIML/2020/33
     doi: "10.63493/resolutions/ciml202033"
     urn: "urn:oiml:doc:ciml:resolution:2020-33"

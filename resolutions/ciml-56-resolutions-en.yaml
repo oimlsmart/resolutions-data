@@ -853,35 +853,53 @@ resolutions:
     doi: "10.63493/resolutions/ciml202136"
     urn: "urn:oiml:doc:ciml:resolution:2021-36"
     subject: CIML
-    title: (Untitled)
+    title: Congratulates this year's recipient of an OIML Medal
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '16.1'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipient of an OIML Medal,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/37
     doi: "10.63493/resolutions/ciml202137"
     urn: "urn:oiml:doc:ciml:resolution:2021-37"
     subject: CIML
-    title: (Untitled)
+    title: Congratulates this year's recipients of an OIML Letter of Appreciation
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '16.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipients of an OIML Letter of Appreciation:
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/38
     doi: "10.63493/resolutions/ciml202138"
     urn: "urn:oiml:doc:ciml:resolution:2021-38"
     subject: CIML
-    title: (Untitled)
+    title: "Congratulates this year's recipient of the OIML CEEMS Award, Mr Sophors Em (Cambodia)."
     dates:
     - start: '2021-10-19'
       kind: decision
     agenda_item: '16.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Congratulates this year's recipient of the OIML CEEMS Award, Mr Sophors Em (Cambodia).
+      dates:
+      - start: '2021-10-19'
+        kind: effective
   - identifier: CIML/2021/39
     doi: "10.63493/resolutions/ciml202139"
     urn: "urn:oiml:doc:ciml:resolution:2021-39"
@@ -932,7 +950,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202141"
     urn: "urn:oiml:doc:ciml:resolution:2021-41"
     subject: CIML
-    title: (Untitled)
+    title: "Recalling Resolution Conference/2021/11 of the 16th International Conference on Legal Metrology, Not…"
     dates:
     - start: '2021-10-19'
       kind: decision
@@ -943,4 +961,10 @@ resolutions:
       dates:
       - start: '2021-10-19'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Recalling Resolution Conference/2021/11 of the 16th International Conference on Legal Metrology, Noting the information provided on the proposal to hold a joint BIPM-OIML event in 2025, Confirms its support for the OIML-BIPM Joint Task Group to start preparing such a joint event, and Requests its President to report back on any progress in due time.
+      dates:
+      - start: '2021-10-19'
+        kind: effective

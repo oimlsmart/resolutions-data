@@ -18,32 +18,50 @@ resolutions:
     doi: "10.63493/resolutions/ciml201501"
     urn: "urn:oiml:doc:ciml:resolution:2015-01"
     subject: OIML Conference
-    title: (Untitled)
+    title: (Agenda item 1)
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda item 1)
+      dates:
+      - start: '2015-10-20'
+        kind: effective
   - identifier: CIML/2015/2
     doi: "10.63493/resolutions/ciml201502"
     urn: "urn:oiml:doc:ciml:resolution:2015-02"
     subject: OIML Conference
-    title: (Untitled)
+    title: (Agenda item 2)
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda item 2)
+      dates:
+      - start: '2015-10-20'
+        kind: effective
   - identifier: CIML/2015/3
     doi: "10.63493/resolutions/ciml201503"
     urn: "urn:oiml:doc:ciml:resolution:2015-03"
     subject: OIML Conference
-    title: (Untitled)
+    title: (Agenda item 3.1)
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda item 3.1)
+      dates:
+      - start: '2015-10-20'
+        kind: effective
   - identifier: CIML/2015/4
     doi: "10.63493/resolutions/ciml201504"
     urn: "urn:oiml:doc:ciml:resolution:2015-04"
@@ -532,9 +550,15 @@ resolutions:
     doi: "10.63493/resolutions/ciml201520"
     urn: "urn:oiml:doc:ciml:resolution:2015-20"
     subject: CIML
-    title: (Untitled)
+    title: (Agenda item 12)
     dates:
     - start: '2015-10-20'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda item 12)
+      dates:
+      - start: '2015-10-20'
+        kind: effective

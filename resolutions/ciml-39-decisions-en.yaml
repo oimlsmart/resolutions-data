@@ -433,4 +433,10 @@ resolutions:
     - start: '2004-10-26'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The above-mentioned decisions were adopted.
+      dates:
+      - start: '2004-10-26'
+        kind: effective

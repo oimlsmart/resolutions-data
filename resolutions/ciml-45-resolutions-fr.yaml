@@ -229,12 +229,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201012"
     urn: "urn:oiml:doc:ciml:resolution:2010-12"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité, considérant la demande formulée par la Guinée, décide qu'à l'heure actuelle il"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité, considérant la demande formulée par la Guinée, décide qu'à l'heure actuelle il ne peut accepter la réintégration de la Guinée en qualité de Membre Correspondant, au vu de ses arriérés considérables comme Etat Membre.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/13
     doi: "10.63493/resolutions/ciml201013"
     urn: "urn:oiml:doc:ciml:resolution:2010-13"
@@ -398,32 +404,52 @@ resolutions:
     doi: "10.63493/resolutions/ciml201020"
     urn: "urn:oiml:doc:ciml:resolution:2010-20"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité a approuvé le projet suivant : - Révision du OIML D 29"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        Le Comité a approuvé le projet suivant :
+        - Révision du OIML D 29 Guide pour l'application du Guide ISO/CEI 65 à l'évaluation des organismes de certification des instruments de mesure en métrologie légale,
+        sous la responsabilité de l'OIML TC 3/SC 5 suite à la publication de la norme ISO 17065, remplaçant le Guide ISO/CEI 65.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/21
     doi: "10.63493/resolutions/ciml201021"
     urn: "urn:oiml:doc:ciml:resolution:2010-21"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "(Supprimée)"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Supprimée)
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/22
     doi: "10.63493/resolutions/ciml201022"
     urn: "urn:oiml:doc:ciml:resolution:2010-22"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "(Supprimée)"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Supprimée)
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/23
     doi: "10.63493/resolutions/ciml201023"
     urn: "urn:oiml:doc:ciml:resolution:2010-23"
@@ -608,12 +634,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201030"
     urn: "urn:oiml:doc:ciml:resolution:2010-30"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité nomme Mr. Stephen Patoray Directeur du BIML."
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité nomme Mr. Stephen Patoray Directeur du BIML.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/30a
     doi: "10.63493/resolutions/ciml201030a"
     urn: "urn:oiml:doc:ciml:resolution:2010-30a"
@@ -641,29 +673,47 @@ resolutions:
     doi: "10.63493/resolutions/ciml201031"
     urn: "urn:oiml:doc:ciml:resolution:2010-31"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité remet la Médaille de l'OIML au "
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité remet la Médaille de l'OIML au :
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/32
     doi: "10.63493/resolutions/ciml201032"
     urn: "urn:oiml:doc:ciml:resolution:2010-32"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité adresse ses remerciements à la délégation de la République Tchèque pour sa"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité adresse ses remerciements à la délégation de la République Tchèque pour sa présentation sur le déroulement de la 46ème Réunion du CIML en 2011.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/33
     doi: "10.63493/resolutions/ciml201033"
     urn: "urn:oiml:doc:ciml:resolution:2010-33"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité adresse ses remerciements à la Roumanie pour sa proposition d'accueillir la 14ème"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité adresse ses remerciements à la Roumanie pour sa proposition d'accueillir la 14ème Conférence OIML et la 47ème Réunion du CIML en 2012.
+      dates:
+      - start: '2010-09-21'
+        kind: effective

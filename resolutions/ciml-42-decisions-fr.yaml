@@ -367,7 +367,13 @@ resolutions:
     - start: '2007-10-24'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        ## Le Comité a approuvé les Publications suivantes :
+      dates:
+      - start: '2007-10-24'
+        kind: effective
   - identifier: CIML/2007/8.2
     doi: "10.63493/resolutions/ciml20078.2"
     urn: "urn:oiml:doc:ciml:resolution:2007-8.2"

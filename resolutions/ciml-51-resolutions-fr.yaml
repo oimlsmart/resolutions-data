@@ -705,7 +705,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201632"
     urn: "urn:oiml:doc:ciml:resolution:2016-32"
     subject: CIML
-    title: (Untitled)
+    title: (Point 15.1 de l'ordre du jour)
     dates:
     - start: '2016-10-17'
       kind: decision
@@ -717,17 +717,29 @@ resolutions:
       dates:
       - start: '2016-10-17'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 15.1 de l'ordre du jour)
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/33
     doi: "10.63493/resolutions/ciml201633"
     urn: "urn:oiml:doc:ciml:resolution:2016-33"
     subject: CIML
-    title: (Untitled)
+    title: (Point 16 de l'ordre du jour)
     dates:
     - start: '2016-10-17'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Point 16 de l'ordre du jour)
+      dates:
+      - start: '2016-10-17'
+        kind: effective
   - identifier: CIML/2016/34
     doi: "10.63493/resolutions/ciml201634"
     urn: "urn:oiml:doc:ciml:resolution:2016-34"

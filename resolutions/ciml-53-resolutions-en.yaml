@@ -18,22 +18,34 @@ resolutions:
     doi: "10.63493/resolutions/ciml201801"
     urn: "urn:oiml:doc:ciml:resolution:2018-01"
     subject: OIML Conference
-    title: (Untitled)
+    title: (agenda item 1)
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 1)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/2
     doi: "10.63493/resolutions/ciml201802"
     urn: "urn:oiml:doc:ciml:resolution:2018-02"
     subject: OIML Conference
-    title: (Untitled)
+    title: (agenda item 2)
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 2)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/3
     doi: "10.63493/resolutions/ciml201803"
     urn: "urn:oiml:doc:ciml:resolution:2018-03"
@@ -797,7 +809,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201832"
     urn: "urn:oiml:doc:ciml:resolution:2018-32"
     subject: CIML
-    title: (Untitled)
+    title: (agenda item 12.3)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -808,12 +820,18 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 12.3)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/33
     doi: "10.63493/resolutions/ciml201833"
     urn: "urn:oiml:doc:ciml:resolution:2018-33"
     subject: CIML
-    title: (Untitled)
+    title: (agenda item 12.4)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -824,12 +842,18 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 12.4)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/34
     doi: "10.63493/resolutions/ciml201834"
     urn: "urn:oiml:doc:ciml:resolution:2018-34"
     subject: CIML
-    title: (Untitled)
+    title: (agenda item 13)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -841,7 +865,13 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 13)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/35
     doi: "10.63493/resolutions/ciml201835"
     urn: "urn:oiml:doc:ciml:resolution:2018-35"
@@ -892,7 +922,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201836"
     urn: "urn:oiml:doc:ciml:resolution:2018-36"
     subject: CIML
-    title: (Untitled)
+    title: (agenda item 15)
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -922,27 +952,45 @@ resolutions:
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 15)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/37
     doi: "10.63493/resolutions/ciml201837"
     urn: "urn:oiml:doc:ciml:resolution:2018-37"
     subject: CIML
-    title: (Untitled)
+    title: (agenda item 16.1)
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 16.1)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/38
     doi: "10.63493/resolutions/ciml201838"
     urn: "urn:oiml:doc:ciml:resolution:2018-38"
     subject: CIML
-    title: (Untitled)
+    title: (agenda item 16.2)
     dates:
     - start: '2018-10-09'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (agenda item 16.2)
+      dates:
+      - start: '2018-10-09'
+        kind: effective
   - identifier: CIML/2018/39
     doi: "10.63493/resolutions/ciml201839"
     urn: "urn:oiml:doc:ciml:resolution:2018-39"

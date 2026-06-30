@@ -402,7 +402,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201316"
     urn: "urn:oiml:doc:ciml:resolution:2013-16"
     subject: CIML
-    title: (Untitled)
+    title: "[Agenda item 9.5]"
     dates:
     - start: '2013-10-08'
       kind: decision
@@ -426,7 +426,13 @@ resolutions:
       dates:
       - start: '2013-10-08'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Agenda item 9.5]
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/17
     doi: "10.63493/resolutions/ciml201317"
     urn: "urn:oiml:doc:ciml:resolution:2013-17"
@@ -511,10 +517,16 @@ resolutions:
     doi: "10.63493/resolutions/ciml201320"
     urn: "urn:oiml:doc:ciml:resolution:2013-20"
     subject: CIML
-    title: (Untitled)
+    title: "[Agenda item 12]"
     dates:
     - start: '2013-10-08'
       kind: decision
     agenda_item: '12'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Agenda item 12]
+      dates:
+      - start: '2013-10-08'
+        kind: effective

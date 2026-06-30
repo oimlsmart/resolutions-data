@@ -86,7 +86,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201105"
     urn: "urn:oiml:doc:ciml:resolution:2011-05"
     subject: CIML
-    title: (Untitled)
+    title: "Prenant note du rapport de son Président et du Directeur du BIML sur les"
     dates:
     - start: '2011-10-11'
       kind: decision
@@ -99,7 +99,13 @@ resolutions:
       dates:
       - start: '2011-10-11'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Prenant note du rapport de son Président et du Directeur du BIML sur les mesures prises à la suite de l'Audit de gestion réalisé en février 2010,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/6
     doi: "10.63493/resolutions/ciml201106"
     urn: "urn:oiml:doc:ciml:resolution:2011-06"
@@ -169,12 +175,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201108"
     urn: "urn:oiml:doc:ciml:resolution:2011-08"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité souhaite la bienvenue au Zimbabwe et à la Géorgie, nouveaux Membres Correspondants."
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité souhaite la bienvenue au Zimbabwe et à la Géorgie, nouveaux Membres Correspondants.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/9
     doi: "10.63493/resolutions/ciml201109"
     urn: "urn:oiml:doc:ciml:resolution:2011-09"
@@ -216,12 +228,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201111"
     urn: "urn:oiml:doc:ciml:resolution:2011-11"
     subject: CIML
-    title: (Untitled)
+    title: "Se félicite de la perspective de l'établissement de relations avec le Comité pour la"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Se félicite de la perspective de l'établissement de relations avec le Comité pour la politique en matière de consommation de l'Organisation internationale de normalisation (ISO/COPOLCO),
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/12
     doi: "10.63493/resolutions/ciml201112"
     urn: "urn:oiml:doc:ciml:resolution:2011-12"
@@ -242,7 +260,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201113"
     urn: "urn:oiml:doc:ciml:resolution:2011-13"
     subject: CIML
-    title: (Untitled)
+    title: "Prenant note du rapport verbal et de l'exposé effectué par le Docteur Pavel NEYEZHMAKOV"
     dates:
     - start: '2011-10-11'
       kind: decision
@@ -256,7 +274,13 @@ resolutions:
       dates:
       - start: '2011-10-11'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Prenant note du rapport verbal et de l'exposé effectué par le Docteur Pavel NEYEZHMAKOV, Chef du secrétariat de COOMET (Euro-Asian Cooperation of National Metrology Institutions), lors de la Table Ronde RLMO (Regional Legal Metrology Organizations) qui s'est tenue le 11 octobre 2011,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/14
     doi: "10.63493/resolutions/ciml201114"
     urn: "urn:oiml:doc:ciml:resolution:2011-14"
@@ -319,22 +343,34 @@ resolutions:
     doi: "10.63493/resolutions/ciml201117"
     urn: "urn:oiml:doc:ciml:resolution:2011-17"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité donne instruction au BIML de soumettre les projets de Recommandation suivants à"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité donne instruction au BIML de soumettre les projets de Recommandation suivants à l'approbation directe en ligne du CIML après qu'ils auront reçu un appui suffisant lors du scrutin préliminaire :
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/18
     doi: "10.63493/resolutions/ciml201118"
     urn: "urn:oiml:doc:ciml:resolution:2011-18"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité réattribue la responsabilité du Secrétariat du Comité technique TC 8 Measurement of"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité réattribue la responsabilité du Secrétariat du Comité technique TC 8 Measurement of quantities of fluids au Japon.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/19
     doi: "10.63493/resolutions/ciml201119"
     urn: "urn:oiml:doc:ciml:resolution:2011-19"
@@ -540,7 +576,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201126"
     urn: "urn:oiml:doc:ciml:resolution:2011-26"
     subject: CIML
-    title: (Untitled)
+    title: "Considérant "
     dates:
     - start: '2011-10-11'
       kind: decision
@@ -562,7 +598,13 @@ resolutions:
       dates:
       - start: '2011-10-11'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Considérant :
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/27
     doi: "10.63493/resolutions/ciml201127"
     urn: "urn:oiml:doc:ciml:resolution:2011-27"

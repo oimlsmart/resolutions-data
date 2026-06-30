@@ -35,12 +35,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201202"
     urn: "urn:oiml:doc:ciml:resolution:2012-02"
     subject: OIML Conference
-    title: (Untitled)
+    title: "The Committee, Notes the report given by its President."
     dates:
     - start: '2012-10-01'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee, Notes the report given by its President.
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/3
     doi: "10.63493/resolutions/ciml201203"
     urn: "urn:oiml:doc:ciml:resolution:2012-03"
@@ -585,7 +591,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201224"
     urn: "urn:oiml:doc:ciml:resolution:2012-24"
     subject: CIML
-    title: (Untitled)
+    title: Noting the procedure for the selection of candidates to a vacant Vice-President post in
     dates:
     - start: '2012-10-01'
       kind: decision
@@ -597,7 +603,13 @@ resolutions:
       dates:
       - start: '2012-10-01'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Noting the procedure for the selection of candidates to a vacant Vice-President post in B 14,
+      dates:
+      - start: '2012-10-01'
+        kind: effective
   - identifier: CIML/2012/25
     doi: "10.63493/resolutions/ciml201225"
     urn: "urn:oiml:doc:ciml:resolution:2012-25"

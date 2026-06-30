@@ -755,7 +755,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201931"
     urn: "urn:oiml:doc:ciml:resolution:2019-31"
     subject: CIML
-    title: (Untitled)
+    title: (Agenda item 11)
     dates:
     - start: '2019-10-22'
       kind: decision
@@ -767,17 +767,29 @@ resolutions:
       dates:
       - start: '2019-10-22'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda item 11)
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/32
     doi: "10.63493/resolutions/ciml201932"
     urn: "urn:oiml:doc:ciml:resolution:2019-32"
     subject: CIML
-    title: (Untitled)
+    title: (Agenda item 12.1)
     dates:
     - start: '2019-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        (Agenda item 12.1)
+      dates:
+      - start: '2019-10-22'
+        kind: effective
   - identifier: CIML/2019/33
     doi: "10.63493/resolutions/ciml201933"
     urn: "urn:oiml:doc:ciml:resolution:2019-33"

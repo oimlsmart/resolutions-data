@@ -100,7 +100,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202105"
     urn: "urn:oiml:doc:ciml:resolution:2021-05"
     subject: CIML
-    title: (Untitled)
+    title: Ordre du jour point 4.3
     dates:
     - start: '2021-10-22'
       kind: decision
@@ -113,7 +113,13 @@ resolutions:
       dates:
       - start: '2021-10-22'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Ordre du jour point 4.3
+      dates:
+      - start: '2021-10-22'
+        kind: effective
   - identifier: CIML/2021/06
     doi: "10.63493/resolutions/ciml202106"
     urn: "urn:oiml:doc:ciml:resolution:2021-06"
@@ -778,32 +784,50 @@ resolutions:
     doi: "10.63493/resolutions/ciml202136"
     urn: "urn:oiml:doc:ciml:resolution:2021-36"
     subject: CIML
-    title: (Untitled)
+    title: Ordre du jour point 16.1
     dates:
     - start: '2021-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Ordre du jour point 16.1
+      dates:
+      - start: '2021-10-22'
+        kind: effective
   - identifier: CIML/2021/37
     doi: "10.63493/resolutions/ciml202137"
     urn: "urn:oiml:doc:ciml:resolution:2021-37"
     subject: CIML
-    title: (Untitled)
+    title: pour sa contribution aux travaux de l'OIML.
     dates:
     - start: '2021-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        pour sa contribution aux travaux de l'OIML.
+      dates:
+      - start: '2021-10-22'
+        kind: effective
   - identifier: CIML/2021/38
     doi: "10.63493/resolutions/ciml202138"
     urn: "urn:oiml:doc:ciml:resolution:2021-38"
     subject: CIML
-    title: (Untitled)
+    title: Ordre du jour point 16.3
     dates:
     - start: '2021-10-22'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Ordre du jour point 16.3
+      dates:
+      - start: '2021-10-22'
+        kind: effective
   - identifier: CIML/2021/39
     doi: "10.63493/resolutions/ciml202139"
     urn: "urn:oiml:doc:ciml:resolution:2021-39"

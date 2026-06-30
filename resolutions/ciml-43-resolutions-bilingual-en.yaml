@@ -56,12 +56,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml200803"
     urn: "urn:oiml:doc:ciml:resolution:2008-03"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee rejected the appeal from Greece concerning its contributory class.
     dates:
     - start: '2008-10-28'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee rejected the appeal from Greece concerning its contributory class.
+      dates:
+      - start: '2008-10-28'
+        kind: effective
   - identifier: CIML/2008/4
     doi: "10.63493/resolutions/ciml200804"
     urn: "urn:oiml:doc:ciml:resolution:2008-04"
@@ -83,12 +89,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml200805"
     urn: "urn:oiml:doc:ciml:resolution:2008-05"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee took note of the decision by the 13th Conference to grant Cameroon
     dates:
     - start: '2008-10-28'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee took note of the decision by the 13th Conference to grant Cameroon a delay of six months to significantly reduce its arrears.
+      dates:
+      - start: '2008-10-28'
+        kind: effective
   - identifier: CIML/2008/6
     doi: "10.63493/resolutions/ciml200806"
     urn: "urn:oiml:doc:ciml:resolution:2008-06"

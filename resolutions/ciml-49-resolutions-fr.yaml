@@ -163,7 +163,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201407"
     urn: "urn:oiml:doc:ciml:resolution:2014-07"
     subject: CIML
-    title: (Untitled)
+    title: "[Point 5.1bis de l'ordre du jour]"
     dates:
     - start: '2014-11-04'
       kind: decision
@@ -177,7 +177,13 @@ resolutions:
       dates:
       - start: '2014-11-04'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 5.1bis de l'ordre du jour]
+      dates:
+      - start: '2014-11-04'
+        kind: effective
   - identifier: CIML/2014/8
     doi: "10.63493/resolutions/ciml201408"
     urn: "urn:oiml:doc:ciml:resolution:2014-08"

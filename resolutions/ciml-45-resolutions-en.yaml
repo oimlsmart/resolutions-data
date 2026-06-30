@@ -36,22 +36,34 @@ resolutions:
     doi: "10.63493/resolutions/ciml201002"
     urn: "urn:oiml:doc:ciml:resolution:2010-02"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee took note of the oral report given by its President.
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee took note of the oral report given by its President.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/3
     doi: "10.63493/resolutions/ciml201003"
     urn: "urn:oiml:doc:ciml:resolution:2010-03"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee took note of the oral report on the rapprochement with the BIPM
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee took note of the oral report on the rapprochement with the BIPM; it requested its President to implement Resolution No. 3 of the 44th CIML Meeting and to prepare an interim report, with the assistance of certain CIML Members, to be presented to the 46th CIML meeting with a view to taking final decisions at the 14th Conference in 2012.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/4
     doi: "10.63493/resolutions/ciml201004"
     urn: "urn:oiml:doc:ciml:resolution:2010-04"
@@ -167,12 +179,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201010"
     urn: "urn:oiml:doc:ciml:resolution:2010-10"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee took note of the conclusions of the Regional Bodies Round Table and
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee took note of the conclusions of the Regional Bodies Round Table and invited the Regional Bodies to post information on the various workgroups web sites that are at their disposal.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/11
     doi: "10.63493/resolutions/ciml201011"
     urn: "urn:oiml:doc:ciml:resolution:2010-11"
@@ -211,12 +229,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201012"
     urn: "urn:oiml:doc:ciml:resolution:2010-12"
     subject: OIML Conference
-    title: (Untitled)
+    title: "The Committee, considering the request made by Guinea, decided that it cannot accept the"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee, considering the request made by Guinea, decided that it cannot accept the request to reinstate Guinea as a Corresponding Member at this moment, given its outstanding arrears.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/13
     doi: "10.63493/resolutions/ciml201013"
     urn: "urn:oiml:doc:ciml:resolution:2010-13"
@@ -580,12 +604,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201030"
     urn: "urn:oiml:doc:ciml:resolution:2010-30"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee appointed Mr. Stephen Patoray BIML Director.
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee appointed Mr. Stephen Patoray BIML Director.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/30a
     doi: "10.63493/resolutions/ciml201030a"
     urn: "urn:oiml:doc:ciml:resolution:2010-30a"
@@ -613,29 +643,47 @@ resolutions:
     doi: "10.63493/resolutions/ciml201031"
     urn: "urn:oiml:doc:ciml:resolution:2010-31"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee awarded the OIML Medal to
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee awarded the OIML Medal to:
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/32
     doi: "10.63493/resolutions/ciml201032"
     urn: "urn:oiml:doc:ciml:resolution:2010-32"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee expressed its thanks to the Czech Republic delegation for its presentation on
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee expressed its thanks to the Czech Republic delegation for its presentation on the venue of the 46th CIML Meeting in 2011.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/33
     doi: "10.63493/resolutions/ciml201033"
     urn: "urn:oiml:doc:ciml:resolution:2010-33"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee expressed its thanks to Romania for its offer to host the 14th
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee expressed its thanks to Romania for its offer to host the 14th OIML Conference and 47th CIML Meeting in 2012.
+      dates:
+      - start: '2010-09-21'
+        kind: effective

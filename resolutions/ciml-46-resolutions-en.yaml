@@ -394,12 +394,18 @@ resolutions:
     doi: "10.63493/resolutions/ciml201118"
     urn: "urn:oiml:doc:ciml:resolution:2011-18"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee reassigns the responsibility for the secretariat of TC 8 Measurement of quantities
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee reassigns the responsibility for the secretariat of TC 8 Measurement of quantities of fluids to Japan.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/19
     doi: "10.63493/resolutions/ciml201119"
     urn: "urn:oiml:doc:ciml:resolution:2011-19"

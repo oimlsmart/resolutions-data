@@ -303,34 +303,52 @@ resolutions:
     doi: "10.63493/resolutions/ciml201312"
     urn: "urn:oiml:doc:ciml:resolution:2013-12"
     subject: CIML
-    title: (Untitled)
+    title: "[Point 9.3.2 de l'ordre du jour]"
     dates:
     - start: '2013-10-08'
       kind: decision
     agenda_item: '9.3.2'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 9.3.2 de l'ordre du jour]
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/13
     doi: "10.63493/resolutions/ciml201313"
     urn: "urn:oiml:doc:ciml:resolution:2013-13"
     subject: CIML
-    title: (Untitled)
+    title: "[Point 9.3.3 de l'ordre du jour]"
     dates:
     - start: '2013-10-08'
       kind: decision
     agenda_item: '9.3.3'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 9.3.3 de l'ordre du jour]
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/14
     doi: "10.63493/resolutions/ciml201314"
     urn: "urn:oiml:doc:ciml:resolution:2013-14"
     subject: CIML
-    title: (Untitled)
+    title: "[Point 9.3.4 de l'ordre du jour]"
     dates:
     - start: '2013-10-08'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 9.3.4 de l'ordre du jour]
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/15
     doi: "10.63493/resolutions/ciml201315"
     urn: "urn:oiml:doc:ciml:resolution:2013-15"
@@ -378,7 +396,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201316"
     urn: "urn:oiml:doc:ciml:resolution:2013-16"
     subject: CIML
-    title: (Untitled)
+    title: "[Point 9.5 de l'ordre du jour]"
     dates:
     - start: '2013-10-08'
       kind: decision
@@ -403,7 +421,13 @@ resolutions:
       dates:
       - start: '2013-10-08'
         kind: effective
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 9.5 de l'ordre du jour]
+      dates:
+      - start: '2013-10-08'
+        kind: effective
   - identifier: CIML/2013/17
     doi: "10.63493/resolutions/ciml201317"
     urn: "urn:oiml:doc:ciml:resolution:2013-17"
@@ -490,10 +514,16 @@ resolutions:
     doi: "10.63493/resolutions/ciml201320"
     urn: "urn:oiml:doc:ciml:resolution:2013-20"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "[Point 12 de l'ordre du jour]"
     dates:
     - start: '2013-10-08'
       kind: decision
     agenda_item: '12'
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        [Point 12 de l'ordre du jour]
+      dates:
+      - start: '2013-10-08'
+        kind: effective
