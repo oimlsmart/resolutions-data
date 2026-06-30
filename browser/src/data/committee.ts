@@ -8,13 +8,14 @@ export const committee = {
   tagline: 'Resolutions of the CIML and the OIML Conference',
   scope: 'Legal metrology — the practice and science of measurement that affects trade, health, safety, and the environment.',
 
-  // Organization facts (from oiml.org — not derivable from resolution YAML)
+  // Organization facts (from oiml.org as of 2025-06)
+  // Member States: https://www.oiml.org/en/structure/members/memberslist_view?varMember=1
+  // Corresponding Members: https://www.oiml.org/en/structure/members/memberslist_view?varCorresponding=1
   secretariat: 'BIML — Paris, France',
   chair: 'CIML President',
   established: 1955,
-  publishedStandards: 0,        // populated dynamically elsewhere if needed
-  participatingMembers: 64,     // Member States as of 2025
-  observingMembers: 0,          // Corresponding Members counted separately
+  memberStates: 63,
+  correspondingMembers: 66,
 
   // External links
   links: {
