@@ -39,7 +39,7 @@
         
         <h1 class="meeting-detail__title">
           <span v-if="venueFlag" class="meeting-detail__flag">{{ venueFlag }}</span>
-          {{ meeting.venue || 'Virtual Meeting' }}
+          {{ venueForLang(meeting.venue, lang) || t('meetings.virtual') }}
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
 
@@ -111,6 +111,7 @@ import { computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useMeetings } from '../composables/useMeetings'
 import { venueToFlag } from '../data/countryFlags'
+import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
 import { buildMeetingUrn } from '../utils/urn'
@@ -118,7 +119,7 @@ import { useClipboard } from '../composables/useClipboard'
 
 const route = useRoute()
 const { getMeeting, getMeetingResolutions, isLoaded, loadData } = useMeetings()
-const { t } = useI18n()
+const { t, lang } = useI18n()
 const { copied: meetingCopied, copy: copyUrn } = useClipboard()
 
 const sourceFile = computed(() => route.params.sourceFile as string)

@@ -99,3 +99,76 @@
 .dark .std-filter__field--body {
   border-bottom-color: var(--color-slate-700, #334155);
 }
+
+
+/* Body-type sections on the meetings index. CIML and Conference are
+   visually distinct: CIML uses brand blue, Conference uses teal. */
+.body-type-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1.5rem;
+}
+.body-section {
+  border-left: 4px solid var(--color-slate-200, #e2e8f0);
+  padding-left: 1.25rem;
+}
+.body-section--ciml {
+  border-left-color: var(--color-brand-600, #004996);
+}
+.body-section--conference {
+  border-left-color: var(--color-teal, #024873);
+}
+.body-section__header {
+  display: flex;
+  align-items: baseline;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+.body-section__title {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+  color: var(--color-slate-900, #0f172a);
+}
+.dark .body-section__title { color: var(--color-slate-100, #f1f5f9); }
+.body-section__badge {
+  display: inline-block;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  padding: 0.2rem 0.55rem;
+  border-radius: 9999px;
+  color: white;
+}
+.body-section__badge--ciml        { background: var(--color-brand-600, #004996); }
+.body-section__badge--conference  { background: var(--color-teal, #024873); }
+.body-section__count {
+  font-size: 0.85rem;
+  color: var(--color-slate-500, #64748b);
+  font-weight: 500;
+}
+
+/* Timeline node — distinct fill per body type */
+.timeline-node--ciml {
+  background: var(--color-brand-600, #004996);
+}
+.timeline-node--conference {
+  background: var(--color-teal, #024873);
+}
+.timeline-entry--ciml:hover .timeline-year,
+.timeline-entry--conference:hover .timeline-year {
+  color: var(--color-brand-700, #003a78);
+}
+
+/* The decade sub-title is smaller now (h3 under the body-type h2). */
+.body-section .decade-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--color-slate-700, #334155);
+}
+.dark .body-section .decade-title { color: var(--color-slate-300, #cbd5e1); }
