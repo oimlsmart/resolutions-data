@@ -83,26 +83,35 @@
       </div>
 
       <div class="std-results">
-        <router-link 
-          v-for="(res, index) in meetingResolutions" 
-          :key="res.id" 
-          :to="{ name: 'resolution-detail', params: { id: res.id } }"
+        <router-link
+          v-for="(group, index) in groupedResolutions"
+          :key="group.identifier"
+          :to="{ name: 'resolution-detail', params: { id: group.primary.id } }"
           class="std-results__card meeting-card animate-card"
           :style="`--nth: ${index}`"
         >
           <div class="std-results__name">
-            <span v-if="res.is_acclamation" class="std-results__type type-acclamation">{{ t('resolution.acclamation') }}</span>
+            <span v-if="group.primary.is_acclamation" class="std-results__type type-acclamation">{{ t('resolution.acclamation') }}</span>
             <template v-else>
-              <span>{{ res.identifier || res.id }}</span>
-              <span class="std-results__type body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(res.source_file))">{{ getMeetingTypeShort(bodyTypeFromSourceFile(res.source_file), lang) }}</span>
-              <span class="std-results__type language-chip">{{ t('resolution.language.' + (res.language || 'en')) }}</span>
+              <span>{{ group.identifier }}</span>
+              <span class="std-results__type body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(group.primary.source_file))">{{ getMeetingTypeShort(bodyTypeFromSourceFile(group.primary.source_file), lang) }}</span>
+              <span v-if="group.en && group.fr" class="std-results__type bilingual-badge">EN&nbsp;·&nbsp;FR</span>
+              <span v-else class="std-results__type language-chip">{{ t('resolution.language.' + (group.primary.language || 'en')) }}</span>
             </template>
           </div>
-          <div class="std-results__title meeting-card__title">{{ res.is_acclamation ? t('resolution.acclamation') : (res.title || interpolate(t('resolution.fallbackTitle'), { id: res.identifier || res.id })) }}</div>
-          <div v-if="res.snippet" class="std-results__snippet snippet-text">{{ res.snippet }}</div>
+
+          <!-- Primary language title (large) -->
+          <div class="std-results__title meeting-card__title">{{ group.primary.is_acclamation ? t('resolution.acclamation') : (group.primary.title || interpolate(t('resolution.fallbackTitle'), { id: group.identifier })) }}</div>
+
+          <!-- Secondary language title (smaller, italic) when both exist -->
+          <div v-if="group.en && group.fr && secondaryTitleFor(group)" class="meeting-card__alt-title">
+            {{ secondaryTitleFor(group) }}
+          </div>
+
+          <div v-if="group.primary.snippet" class="std-results__snippet snippet-text">{{ group.primary.snippet }}</div>
 
           <div class="card-footer">
-            <span v-if="res.subject" class="std-results__badge badge-subject truncate-text">{{ res.subject }}</span>
+            <span v-if="group.primary.subject" class="std-results__badge badge-subject truncate-text">{{ group.primary.subject }}</span>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
@@ -162,6 +171,36 @@ const venueFlag = computed(() => venueToFlag(meeting.value?.venue))
 const meetingResolutions = computed(() => {
   return isLoaded.value ? getMeetingResolutions(sourceFile.value) : []
 })
+
+// Group resolution rows by canonical identifier so EN+FR render as
+// ONE card per logical resolution (not two cards). Each group exposes
+// both language rows + the user's preferred language first.
+const groupedResolutions = computed(() => {
+  const byKey = new Map<string, { identifier: string; en?: any; fr?: any; primary: any }>()
+  for (const r of meetingResolutions.value) {
+    const key = r.identifier || r.id
+    if (!byKey.has(key)) {
+      byKey.set(key, { identifier: key, primary: r })
+    }
+    const group = byKey.get(key)!
+    if (r.language === 'fr') group.fr = r
+    else group.en = r
+  }
+  // Pick the primary row in the user's UI language, falling back to EN.
+  const groups = Array.from(byKey.values())
+  for (const g of groups) {
+    g.primary = (lang.value === 'fr' && g.fr) ? g.fr : (g.en || g.fr)
+  }
+  return groups
+})
+
+/** Returns the title in the language OPPOSITE the primary row, so the
+ *  card shows both: e.g. when UI lang is EN, returns the FR title. */
+function secondaryTitleFor(group: { en?: any; fr?: any; primary: any }): string {
+  if (!group.en || !group.fr) return ''
+  const secondary = group.primary.language === 'fr' ? group.en : group.fr
+  return secondary?.title || ''
+}
 </script>
 
 <style scoped>
@@ -274,6 +313,33 @@ const meetingResolutions = computed(() => {
   background: #6366f1 !important;
   color: #fff !important;
   font-size: 0.75rem !important;
+}
+
+.bilingual-badge {
+  background: var(--color-blue-accent) !important;
+  color: #fff !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+}
+
+.meeting-card__alt-title {
+  font-size: 0.875rem;
+  color: var(--color-slate-500);
+  font-style: italic;
+  margin-top: 0.25rem;
+  line-height: 1.4;
+}
+.dark .meeting-card__alt-title { color: var(--color-slate-400); }
+
+.language-chip {
+  background: var(--color-slate-200) !important;
+  color: var(--color-slate-700) !important;
+  font-size: 0.7rem !important;
+}
+.dark .language-chip {
+  background: var(--color-slate-700) !important;
+  color: var(--color-slate-200) !important;
 }
 
 .snippet-text {
