@@ -148,7 +148,7 @@
         </div>
 
         <div class="std-filter__meta">
-          <span>{{ interpolate(t('home.showing'), { count: filteredResolutions.length, total: totalResolutions }) }}</span>
+          <span>{{ interpolate(t('home.showing'), { count: groupedFilteredResolutions.length, total: totalResolutions }) }}</span>
           <button class="legend-toggle" @click="isLegendOpen = !isLegendOpen">
             {{ isLegendOpen ? t('home.hideLegend') : t('home.viewLegend') }}
           </button>
@@ -287,7 +287,15 @@ const limit = ref(50)
 const searchInputRef = ref<HTMLInputElement | null>(null)
 const isLegendOpen = ref(false)
 
-const totalResolutions = computed(() => resolutions.value.length)
+// Count UNIQUE resolution identifiers (not per-language rows) so
+// the hero stat reflects the actual number of logical resolutions.
+const totalResolutions = computed(() => {
+  const ids = new Set<string>()
+  for (const r of resolutions.value) {
+    ids.add(r.identifier || r.id)
+  }
+  return ids.size
+})
 const totalMeetings = computed(() => meetings.value.length)
 const committeeMembers = computed(() => committee.memberStates)
 const committeeEst = computed(() => committee.established)
@@ -459,12 +467,35 @@ const filteredResolutions = computed(() => {
   })
 })
 
+// Group EN+FR rows by canonical identifier so each logical resolution
+// appears as ONE card on the home page (was showing 2 cards per
+// bilingual resolution). The primary row follows the UI language;
+// the secondary row is available for hover/tooltip display.
+const groupedFilteredResolutions = computed(() => {
+  const byKey = new Map<string, any>()
+  for (const r of filteredResolutions.value) {
+    const key = r.identifier || r.id
+    if (!byKey.has(key)) {
+      byKey.set(key, { ...r, _languages: [r.language] })
+    } else {
+      const existing = byKey.get(key)!
+      existing._languages.push(r.language)
+      // Prefer the UI language as primary
+      if (r.language === lang.value && existing.language !== lang.value) {
+        const langs = existing._languages
+        Object.assign(existing, r, { _languages: langs })
+      }
+    }
+  }
+  return Array.from(byKey.values())
+})
+
 const paginatedResolutions = computed(() => {
-  return filteredResolutions.value.slice(0, limit.value)
+  return groupedFilteredResolutions.value.slice(0, limit.value)
 })
 
 const hasMore = computed(() => {
-  return limit.value < filteredResolutions.value.length
+  return limit.value < groupedFilteredResolutions.value.length
 })
 
 function loadMore() {
