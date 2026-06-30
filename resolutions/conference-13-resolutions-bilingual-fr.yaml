@@ -15,6 +15,8 @@ metadata:
   language: fr
 resolutions:
   - identifier: Conference/2008/1
+    doi: "10.63493/resolutions/conf200801"
+    urn: "urn:oiml:doc:conf:resolution:13.01"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -23,6 +25,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/2
+    doi: "10.63493/resolutions/conf200802"
+    urn: "urn:oiml:doc:conf:resolution:13.02"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -31,6 +35,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/3
+    doi: "10.63493/resolutions/conf200803"
+    urn: "urn:oiml:doc:conf:resolution:13.03"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -39,6 +45,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/4
+    doi: "10.63493/resolutions/conf200804"
+    urn: "urn:oiml:doc:conf:resolution:13.04"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -47,6 +55,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/4a
+    doi: "10.63493/resolutions/conf20084a"
+    urn: "urn:oiml:doc:conf:resolution:13.4a"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -55,6 +65,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/4b
+    doi: "10.63493/resolutions/conf20084b"
+    urn: "urn:oiml:doc:conf:resolution:13.4b"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -63,6 +75,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/5
+    doi: "10.63493/resolutions/conf200805"
+    urn: "urn:oiml:doc:conf:resolution:13.05"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -71,6 +85,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/6
+    doi: "10.63493/resolutions/conf200806"
+    urn: "urn:oiml:doc:conf:resolution:13.06"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -79,6 +95,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/5
+    doi: "10.63493/resolutions/conf200805"
+    urn: "urn:oiml:doc:conf:resolution:13.05"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -87,6 +105,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/6
+    doi: "10.63493/resolutions/conf200806"
+    urn: "urn:oiml:doc:conf:resolution:13.06"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -95,6 +115,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/6a
+    doi: "10.63493/resolutions/conf20086a"
+    urn: "urn:oiml:doc:conf:resolution:13.6a"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -103,6 +125,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/7
+    doi: "10.63493/resolutions/conf200807"
+    urn: "urn:oiml:doc:conf:resolution:13.07"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -111,6 +135,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/8
+    doi: "10.63493/resolutions/conf200808"
+    urn: "urn:oiml:doc:conf:resolution:13.08"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -119,6 +145,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/9
+    doi: "10.63493/resolutions/conf200809"
+    urn: "urn:oiml:doc:conf:resolution:13.09"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -127,6 +155,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/10
+    doi: "10.63493/resolutions/conf200810"
+    urn: "urn:oiml:doc:conf:resolution:13.10"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -135,14 +165,28 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/6a
+    doi: "10.63493/resolutions/conf20086a"
+    urn: "urn:oiml:doc:conf:resolution:13.6a"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "La Conférence prend note des commentaires émis par certains Etats Membres concernant la nécessité"
     dates:
     - start: '2008-10-29'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        La Conférence prend note des commentaires émis par certains Etats Membres concernant la nécessité de réviser aussi tôt que possible les Publications suivantes:
+        R 71:2008 Reservoirs de stockage fixes. Prescriptions générales
+        R 85:2008 Jaugeurs automatiques pour le mesurage des niveaux de liquide dans les réservoirs de stockage fixes
+        R 139:2007 Ensembles de mesurage de gaz compresse pour vehicules
+        La Conférence donne instruction au Comité de commencer la révision de ces Publications.
+      dates:
+      - start: '2008-10-29'
+        kind: effective
   - identifier: Conference/2008/7
+    doi: "10.63493/resolutions/conf200807"
+    urn: "urn:oiml:doc:conf:resolution:13.07"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -151,6 +195,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/8
+    doi: "10.63493/resolutions/conf200808"
+    urn: "urn:oiml:doc:conf:resolution:13.08"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -159,6 +205,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/9
+    doi: "10.63493/resolutions/conf200809"
+    urn: "urn:oiml:doc:conf:resolution:13.09"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -167,14 +215,24 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/10
+    doi: "10.63493/resolutions/conf200810"
+    urn: "urn:oiml:doc:conf:resolution:13.10"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "La Conférence approuve le Plan Stratégique et donne instruction au Comité de le mettre"
     dates:
     - start: '2008-10-29'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        La Conférence approuve le Plan Stratégique et donne instruction au Comité de le mettre en oeuvre et de rendre compte sur le progrès de sa mise en œuvre lors de la 14ème Conférence. Elle demande au Comité qu'il prenne en compte les remarques faites par la Conférence pour la mise à jour de ce plan.
+      dates:
+      - start: '2008-10-29'
+        kind: effective
   - identifier: Conference/2008/11
+    doi: "10.63493/resolutions/conf200811"
+    urn: "urn:oiml:doc:conf:resolution:13.11"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -183,6 +241,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/12
+    doi: "10.63493/resolutions/conf200812"
+    urn: "urn:oiml:doc:conf:resolution:13.12"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -191,6 +251,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/13
+    doi: "10.63493/resolutions/conf200813"
+    urn: "urn:oiml:doc:conf:resolution:13.13"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -199,6 +261,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/14
+    doi: "10.63493/resolutions/conf200814"
+    urn: "urn:oiml:doc:conf:resolution:13.14"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -207,6 +271,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/15
+    doi: "10.63493/resolutions/conf200815"
+    urn: "urn:oiml:doc:conf:resolution:13.15"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -215,6 +281,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/11
+    doi: "10.63493/resolutions/conf200811"
+    urn: "urn:oiml:doc:conf:resolution:13.11"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -223,6 +291,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/12
+    doi: "10.63493/resolutions/conf200812"
+    urn: "urn:oiml:doc:conf:resolution:13.12"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -231,14 +301,31 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/13
+    doi: "10.63493/resolutions/conf200813"
+    urn: "urn:oiml:doc:conf:resolution:13.13"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
     - start: '2008-10-29'
       kind: decision
-    considerations: []
+    considerations:
+    - type: noting
+      message: |
+        NOTANT que le budget a été géré conformément aux dépenses nécessaires pour mener à bien les tâches du Bureau, et que l'exactitude des rapports a été certifiée par des audits annuels;
+      dates:
+      - start: '2008-10-29'
+        kind: effective
+    - type: noting
+      message: |
+        NOTANT que les fonctions respectives assignées par la Convention au Président du Comité International de Métrologie Légale et au Directeur du Bureau International de Métrologie Légale ont été remplies;
+        DONNE SA DÉCHARGE DÉFINITIVE au Président du Comité et au Directeur du Bureau pour leur gestion du budget durant les exercices comptables mentionnés ci-dessus.
+      dates:
+      - start: '2008-10-29'
+        kind: effective
     actions: []
   - identifier: Conference/2008/14
+    doi: "10.63493/resolutions/conf200814"
+    urn: "urn:oiml:doc:conf:resolution:13.14"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -247,6 +334,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/15
+    doi: "10.63493/resolutions/conf200815"
+    urn: "urn:oiml:doc:conf:resolution:13.15"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -255,6 +344,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/16
+    doi: "10.63493/resolutions/conf200816"
+    urn: "urn:oiml:doc:conf:resolution:13.16"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -263,6 +354,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/17
+    doi: "10.63493/resolutions/conf200817"
+    urn: "urn:oiml:doc:conf:resolution:13.17"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -271,6 +364,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/18
+    doi: "10.63493/resolutions/conf200818"
+    urn: "urn:oiml:doc:conf:resolution:13.18"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -279,6 +374,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/19
+    doi: "10.63493/resolutions/conf200819"
+    urn: "urn:oiml:doc:conf:resolution:13.19"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -287,6 +384,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/16
+    doi: "10.63493/resolutions/conf200816"
+    urn: "urn:oiml:doc:conf:resolution:13.16"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -295,6 +394,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/17
+    doi: "10.63493/resolutions/conf200817"
+    urn: "urn:oiml:doc:conf:resolution:13.17"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -303,6 +404,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: Conference/2008/18
+    doi: "10.63493/resolutions/conf200818"
+    urn: "urn:oiml:doc:conf:resolution:13.18"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -320,6 +423,8 @@ resolutions:
         kind: effective
     actions: []
   - identifier: Conference/2008/19
+    doi: "10.63493/resolutions/conf200819"
+    urn: "urn:oiml:doc:conf:resolution:13.19"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:

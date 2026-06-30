@@ -59,6 +59,22 @@ module ResolutionsData
       ["Takes note",                   "notes"],
       ["Welcomes",                     "welcomes"],
       ["Renews",                       "renews"],
+      # Past-tense forms used in older formal resolutions (CIML 43-48, ~2008-2013)
+      ["Approved",                     "approves"],
+      ["Elected",                      "elects"],
+      ["Endorsed",                     "endorses"],
+      ["Resolved",                     "resolves"],
+      ["Thanked",                      "thanks"],
+      ["Instructed",                   "instructs"],
+      ["Requested",                    "requests"],
+      ["Decided",                      "decides"],
+      ["Charged",                      "charges"],
+      ["Supported",                    "supports"],
+      ["Rescinded",                    "rescinds"],
+      ["Acknowledged",                 "acknowledges"],
+      ["Noted",                        "notes"],
+      ["Welcomed",                     "welcomes"],
+      ["Renewed",                      "renews"],
     ].freeze
 
     # French equivalents
@@ -193,13 +209,15 @@ module ResolutionsData
 
         res << {
           "identifier"  => ident,
+          "doi"         => compute_doi(src, ident),
+          "urn"         => compute_urn(src, ident),
           "subject"     => subject_str,
           "title"       => title,
           "dates"       => [{ "start" => meeting_date(src), "kind" => "decision" }],
           "agenda_item" => agenda_item,
           "considerations" => cons,
           "actions"     => acts,
-          "approvals"   => [],  # OIML doesn't mark approval degree in the body
+          "approvals"   => [],
         }
       end
 
@@ -266,6 +284,8 @@ module ResolutionsData
 
       {
         "identifier"     => identifier,
+        "doi"            => compute_doi(src, identifier),
+        "urn"            => compute_urn(src, identifier),
         "subject"        => "CIML",
         "title"          => title_str.empty? ? "(Untitled)" : title_str,
         "dates"          => [{ "start" => date_str, "kind" => "decision" }],
@@ -477,10 +497,23 @@ module ResolutionsData
     # Split body into [verb_line, continuation_lines] groups. A new group
     # starts whenever a line begins with a known verb prefix. Non-verb lines
     # attach to the most recent group.
+    # Optional "The Committee / The Conference / The Bureau / Le Comité / ..."
+    # prefix that appears in older formal resolutions where the subject and
+    # the verb are on the same line (no comma after the subject).
+    SUBJECT_LEAD = /
+      \A
+      (?:The\s+(?:Committee|Conference|Bureau|Council)\s+
+       |Le\s+Comit[ée]\s+
+       |La\s+Conf[ée]rence\s+)
+    /ix
+
     def self.group_by_leading_verb(body)
       cons_prefixes = CONSIDERATION_PREFIXES + FR_CONSIDERATION_PREFIXES
       act_prefixes  = ACTION_PREFIXES + FR_ACTION_PREFIXES
       all_prefixes  = (cons_prefixes + act_prefixes).map(&:first).sort_by(&:length).reverse
+      # Build one regex that allows an optional subject lead before the verb.
+      verb_alternatives = all_prefixes.map { |p| Regexp.escape(p) }.join("|")
+      verb_with_subject_re = /\A(?:The\s+(?:Committee|Conference|Bureau|Council)\s+|Le\s+Comit[ée]\s+|La\s+Conf[ée]rence\s+)?(?:#{verb_alternatives})/i
 
       groups = []
       current_verb_line = nil
@@ -488,10 +521,8 @@ module ResolutionsData
 
       body.each_line do |line|
         next if line.strip.empty?
-        # Skip markdown headers
         next if line =~ /\A#+\s/
-        prefix = all_prefixes.find { |p| line.strip.start_with?(p) }
-        if prefix
+        if line.strip =~ verb_with_subject_re
           groups << [current_verb_line, current_body] if current_verb_line
           current_verb_line = line
           current_body = []
@@ -505,12 +536,15 @@ module ResolutionsData
 
     def self.classify_verb(verb_line, cons_prefixes, act_prefixes)
       return [nil, nil] unless verb_line
-      stripped = verb_line.strip
+      # Strip a leading subject marker so "The Committee approved" classifies
+      # the same as "approved".
+      stripped = verb_line.strip.sub(SUBJECT_LEAD, "")
+      stripped_lower = stripped.downcase
       cons_prefixes.each do |(prefix, type)|
-        return [type, "consideration"] if stripped.start_with?(prefix)
+        return [type, "consideration"] if stripped_lower.start_with?(prefix.downcase)
       end
       act_prefixes.each do |(prefix, type)|
-        return [type, "action"] if stripped.start_with?(prefix)
+        return [type, "action"] if stripped_lower.start_with?(prefix.downcase)
       end
       [nil, nil]
     end
@@ -566,6 +600,49 @@ module ResolutionsData
       src["date_start"] || "#{src['year']}-01-01"
     end
 
+    # Per the URN spec at ~/src/oimlsmart/smart/data/oiml-urn-specification.adoc:
+    #   urn:oiml:doc:conf:resolution:<session>.<seq>
+    #   urn:oiml:doc:ciml:resolution:<year>-<seq>
+    def self.compute_urn(src, identifier)
+      kind, year, seq = parse_identifier_parts(identifier, src)
+      seq_padded = pad_seq(seq)
+      case kind
+      when "Conference" then "urn:oiml:doc:conf:resolution:#{src['session']}.#{seq_padded}"
+      when "CIML"       then "urn:oiml:doc:ciml:resolution:#{year}-#{seq_padded}"
+      else "urn:oiml:doc:#{kind.downcase}:resolution:#{year}-#{seq_padded}"
+      end
+    end
+
+    # Per user direction (TODO.cleanups/01-doi-urn.md):
+    #   Conference: 10.63493/resolutions/conf<YYYY><NN>
+    #   CIML:        10.63493/resolutions/ciml<YYYY><NN>
+    def self.compute_doi(src, identifier)
+      kind, year, seq = parse_identifier_parts(identifier, src)
+      seq_padded = pad_seq(seq)
+      prefix = kind == "Conference" ? "conf" : "ciml"
+      "10.63493/resolutions/#{prefix}#{year}#{seq_padded}"
+    end
+
+    # identifier is "Conference/2025/01" or "CIML/2025/44" or "CIML/2004/2.1"
+    def self.parse_identifier_parts(identifier, src)
+      if identifier =~ /\A(Conference|CIML)\/(\d{4})\/(.+)\z/
+        [$1, $2, $3]
+      else
+        # Fallback for unexpected shapes (narrative-era identifiers always
+        # include the body prefix, so this should rarely fire)
+        kind_label = src["kind"] == "ciml" ? "CIML" : "Conference"
+        [kind_label, src["year"].to_s, identifier.to_s]
+      end
+    end
+
+    # Zero-pad a sequence token to 2 digits if it's purely numeric.
+    # Alphanumeric seqs (e.g. "4a") are preserved as-is.
+    def self.pad_seq(seq)
+      return seq if seq.to_s =~ /\A\d+\z/ && seq.to_s.length >= 2
+      return seq.to_s.rjust(2, "0") if seq.to_s =~ /\A\d+\z/
+      seq.to_s
+    end
+
     def self.render_collection(src, out_slug, lang, resolutions)
       kind     = src["kind"]
       number   = src["kind"] == "ciml" ? src["meeting"] : src["session"]
@@ -609,6 +686,8 @@ module ResolutionsData
       indent = "  "
       lines = []
       lines << "#{indent}- identifier: #{yaml_escape(r['identifier'])}"
+      lines << "#{indent}  doi: #{yaml_escape(r['doi'])}" if r["doi"]
+      lines << "#{indent}  urn: #{yaml_escape(r['urn'])}" if r["urn"]
       lines << "#{indent}  subject: #{yaml_escape(r['subject'])}"
       lines << "#{indent}  title: #{yaml_escape(r['title'])}"
       lines << "#{indent}  dates:"

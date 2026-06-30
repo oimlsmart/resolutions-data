@@ -15,22 +15,46 @@ metadata:
   language: en
 resolutions:
   - identifier: CIML/2008/1
+    doi: "10.63493/resolutions/ciml200801"
+    urn: "urn:oiml:doc:ciml:resolution:2008-01"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee approved the Minutes of the 42nd CIML Meeting without modification.
     dates:
     - start: '2008-10-28'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        The Committee approved the Minutes of the 42nd CIML Meeting without modification.
+      dates:
+      - start: '2008-10-28'
+        kind: effective
   - identifier: CIML/2008/2
+    doi: "10.63493/resolutions/ciml200802"
+    urn: "urn:oiml:doc:ciml:resolution:2008-02"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee welcomed Montenegro as a new Corresponding Member and expressed its appreciation for
     dates:
     - start: '2008-10-28'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        The Committee welcomed Montenegro as a new Corresponding Member and expressed its appreciation for the growing interest shown by many countries in joining the OIML.
+      dates:
+      - start: '2008-10-28'
+        kind: effective
+    - type: instructs
+      message: |
+        The Committee instructed its President and the Bureau to continue to raise the level of awareness of the advantages of OIML Membership, in order to encourage the widest possible participation in the International Legal Metrology System.
+      dates:
+      - start: '2008-10-28'
+        kind: effective
   - identifier: CIML/2008/3
+    doi: "10.63493/resolutions/ciml200803"
+    urn: "urn:oiml:doc:ciml:resolution:2008-03"
     subject: OIML Conference
     title: (Untitled)
     dates:
@@ -39,14 +63,25 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2008/4
+    doi: "10.63493/resolutions/ciml200804"
+    urn: "urn:oiml:doc:ciml:resolution:2008-04"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee decided to strike Cameroon and Ethiopia off the list of Member States
     dates:
     - start: '2008-10-28'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: decides
+      message: |
+        The Committee decided to strike Cameroon and Ethiopia off the list of Member States in application of Article XXIX of the Convention.
+        The Committee further resolved that in application of Article XXIV of the Convention, the Conference would be requested to consider whether these countries should be granted the opportunity to reduce their debt over a period of time to be determined, in which case the Committee's decision would be suspended. Failing acceptance by the Conference, they would be struck off the list of Member States as decided by the Committee.
+      dates:
+      - start: '2008-10-28'
+        kind: effective
   - identifier: CIML/2008/5
+    doi: "10.63493/resolutions/ciml200805"
+    urn: "urn:oiml:doc:ciml:resolution:2008-05"
     subject: OIML Conference
     title: (Untitled)
     dates:
@@ -55,10 +90,24 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2008/6
+    doi: "10.63493/resolutions/ciml200806"
+    urn: "urn:oiml:doc:ciml:resolution:2008-06"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee instructed its President and the Bureau to strike Zambia off the list
     dates:
     - start: '2008-10-28'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: instructs
+      message: |
+        The Committee instructed its President and the Bureau to strike Zambia off the list of Corresponding Members.
+        <div align="center">
+        du
+        COMITE INTERNATIONAL de METROLOGIE LEGALE
+        Sydney, 28 & 31 octobre 2008
+        </div>
+        <div align="center">
+      dates:
+      - start: '2008-10-28'
+        kind: effective

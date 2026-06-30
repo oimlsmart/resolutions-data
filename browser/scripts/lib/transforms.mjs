@@ -46,7 +46,8 @@ export function buildResolutionRecord(res, sourceFile, metadata) {
   return {
     id,
     identifier: String(identifier),
-    urn: `${URN_BASE}:resolution:${identifier}`,
+    doi: res.doi || '',
+    urn: res.urn || `${URN_BASE}:resolution:${identifier}`,
     title: deriveDisplayTitle(res, acclamation),
     subject: res.subject || '',
     year,
