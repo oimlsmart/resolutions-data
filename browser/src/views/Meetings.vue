@@ -1,13 +1,13 @@
 <template>
   <div class="res-page">
     <header class="res-page__header">
-      <h1 class="animate-up" style="--nth: 1">Meetings</h1>
-      <p class="res-page__subtitle animate-up" style="--nth: 2">Browse resolutions by CIML meeting or OIML Conference.</p>
+      <h1 class="animate-up" style="--nth: 1">{{ t('meetings.title') }}</h1>
+      <p class="res-page__subtitle animate-up" style="--nth: 2">{{ t('meetings.subtitle') }}</p>
     </header>
 
     <div class="std-filter animate-up" style="--nth: 3">
       <div class="std-filter__field std-filter__field--body">
-        <span class="std-filter__label">Body</span>
+        <span class="std-filter__label">{{ t('meetings.body') }}</span>
         <div class="std-filter__chips">
           <button
             class="std-chip"
@@ -18,12 +18,12 @@
             class="std-chip"
             :class="{ 'is-active': selectedBodyType === 'ciml' }"
             @click="selectedBodyType = 'ciml'"
-          >CIML Meetings</button>
+          >{{ t('meetings.bodyCiml') }}</button>
           <button
             class="std-chip"
             :class="{ 'is-active': selectedBodyType === 'conference' }"
             @click="selectedBodyType = 'conference'"
-          >OIML Conference</button>
+          >{{ t('meetings.bodyConf') }}</button>
         </div>
       </div>
       <div class="std-filter__search-wrap">
@@ -35,7 +35,7 @@
           type="search" 
           v-model="searchQuery" 
           class="std-filter__search" 
-          placeholder="Search meetings by venue or year…" 
+          :placeholder="t('meetings.searchPlaceholder')" 
           autocomplete="off" 
           spellcheck="false" 
           aria-label="Search meetings" 
@@ -43,7 +43,7 @@
       </div>
       <div class="std-filter__controls">
         <div class="std-filter__field">
-          <span class="std-filter__label">Year</span>
+          <span class="std-filter__label">{{ t('meetings.year') }}</span>
           <div class="std-filter__chips">
             <button 
               class="std-chip" 
@@ -60,7 +60,7 @@
           </div>
         </div>
         <div class="std-filter__field" v-if="availableCountries.length > 1">
-          <span class="std-filter__label">Country</span>
+          <span class="std-filter__label">{{ t('meetings.country') }}</span>
           <div class="std-filter__chips">
             <button 
               class="std-chip" 
@@ -138,14 +138,14 @@
               
               <span class="timeline-venue">
                 <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                {{ m.venue || 'Virtual Meeting' }}
+                {{ m.venue || t('meetings.virtual') }}
               </span>
               
               <span class="timeline-meta">
-                <span class="meta-body-type" :class="`meta-body-type--${m.body_type}`">{{ m.body_type === 'conference' ? 'Conference' : 'CIML' }}</span>
+                <span class="meta-body-type" :class="`meta-body-type--${m.body_type}`">{{ m.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
                 <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
                 <span v-if="m.meeting_date" class="meta-sep">&middot;</span>
-                <span class="meta-count">{{ m.resolution_count }} resolution{{ m.resolution_count !== 1 ? 's' : '' }}</span>
+                <span class="meta-count">{{ interpolate(t('meetings.resolutionsCount'), { count: m.resolution_count }) }}</span>
               </span>
 
               <span class="timeline-arrow">
@@ -177,6 +177,8 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMeetings, groupMeetingsByDecade } from '../composables/useMeetings'
 import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
+import { useI18n } from '../composables/useI18n'
+import { interpolate } from '../data/translations'
 import { formatDateShort } from '../utils/format'
 
 const router = useRouter()
@@ -188,6 +190,7 @@ const searchQuery = ref((route.query.q as string) || '')
 const selectedYear = ref((route.query.year as string) || '')
 const selectedCountry = ref((route.query.country as string) || '')
 const selectedBodyType = ref((route.query.body as string) || '')
+const { t } = useI18n()
 
 onMounted(() => {
   loadData()

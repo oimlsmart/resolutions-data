@@ -8,13 +8,13 @@
       
       <div class="hero-content">
         <h1 class="hero-title animate-up" style="--nth: 1">
-          Resolutions &amp; Decisions <br/> <span class="text-blue-accent">of the CIML &amp; OIML Conference</span>
+          {{ t('home.heroLine1') }} <br/> <span class="text-blue-accent">{{ t('home.heroLine2') }}</span>
         </h1>
         
         <p class="hero-subtitle animate-up" style="--nth: 2">
-          <template v-if="!isLoaded">Loading data...</template>
+          <template v-if="!isLoaded">{{ t('home.loading') }}</template>
           <template v-else>
-            {{ formatNumber(animResolutions) }} resolutions from {{ formatNumber(animMeetings) }} meetings, spanning {{ yearRange.earliest }} to {{ yearRange.latest }}. {{ committee.tagline }}.
+            {{ interpolate(t('home.subtitle'), { resolutions: formatNumber(animResolutions), meetings: formatNumber(animMeetings), earliest: yearRange.earliest, latest: yearRange.latest }) }} {{ lang === 'fr' ? "Résolutions du CIML et de la Conférence OIML" : "Resolutions of the CIML and the OIML Conference" }}.
           </template>
         </p>
 
@@ -24,22 +24,22 @@
               <template v-if="!isLoaded">—</template>
               <template v-else>{{ formatNumber(animResolutions) }}</template>
             </span>
-            <span class="stat-label">Resolutions</span>
+            <span class="stat-label">{{ t('home.resolutionsLabel') }}</span>
           </div>
           <div class="stat-item">
             <span class="stat-value">
               <template v-if="!isLoaded">—</template>
               <template v-else>{{ formatNumber(animMeetings) }}</template>
             </span>
-            <span class="stat-label">Meetings</span>
+            <span class="stat-label">{{ t('home.meetingsLabel') }}</span>
           </div>
           <div class="stat-item">
             <span class="stat-value">{{ formatNumber(animMembers) }}</span>
-            <span class="stat-label">Member States</span>
+            <span class="stat-label">{{ t('home.memberStatesLabel') }}</span>
           </div>
           <div class="stat-item">
             <span class="stat-value">{{ formatYear(animEstablished) }}</span>
-            <span class="stat-label">Established</span>
+            <span class="stat-label">{{ t('home.establishedLabel') }}</span>
           </div>
         </div>
 
@@ -261,6 +261,8 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useResolutions } from '../composables/useResolutions'
 import { useMeetings } from '../composables/useMeetings'
+import { useI18n } from '../composables/useI18n'
+import { interpolate } from '../data/translations'
 import { committee } from '../data/committee'
 import { useCountUp } from '../composables/useCountUp'
 import { getActionColor } from '../data/actionTypes'
@@ -272,6 +274,7 @@ const route = useRoute()
 
 const { resolutions, isLoaded, loadData, search } = useResolutions()
 const { meetings, loadData: loadMeetingsData } = useMeetings()
+const { t, lang } = useI18n()
 
 const searchQuery = ref((route.query.q as string) || '')
 const selectedYear = ref((route.query.year as string) || '')
