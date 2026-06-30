@@ -92,7 +92,7 @@
 
   .site-footer__bottom {
     padding-top: 2rem;
-    border-top: 2px solid #e3000f;
+    border-top: 2px solid var(--color-teal);
     display: flex;
     flex-direction: column;
     align-items: center;

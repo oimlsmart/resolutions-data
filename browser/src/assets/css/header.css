@@ -7,7 +7,7 @@
     left: 0;
     right: 0;
     height: 3px;
-    background: #e3000f;
+    background: var(--color-teal);
     z-index: 51;
   }
 
@@ -257,4 +257,16 @@
 }
 @media (max-width: 640px) {
   .site-header__logo-img { height: 1.75rem; }
+}
+
+
+/* Logo theme adaptation: invert on dark mode so the dark-on-light logo
+   becomes light-on-dark without needing a separate asset. */
+.site-header__logo-img--theme,
+.site-footer__logo-img--theme {
+  transition: filter 0.2s ease;
+}
+.dark .site-header__logo-img--theme,
+.dark .site-footer__logo-img--theme {
+  filter: invert(1) brightness(1.4);
 }
