@@ -17,19 +17,19 @@
 
       <!-- 3. Action Types -->
       <section class="about-section animate-up" style="--nth: 4">
-        <h2 class="about-heading">Action Types</h2>
+        <h2 class="about-heading">{{ t('about.actionTypesHeading') }}</h2>
         <div class="about-body">
           <p>
-            Every resolution is composed of typed <code>actions</code> that categorize what the committee decided to do (e.g., requesting an action, approving a document, or thanking a host). This semantic typing allows for advanced filtering and analysis of the committee's historical activities.
+            {{ t('about.actionTypesBody') }}
           </p>
           <div class="action-grid">
-            <span 
-              v-for="chip in actionChips" 
+            <span
+              v-for="chip in actionChips"
               :key="chip.type"
               class="action-chip"
               :style="{ '--chip-bg': chip.bg, '--chip-text': chip.text }"
             >
-              {{ chip.type }}
+              {{ getActionLabel(chip.type, lang) }}
             </span>
           </div>
         </div>
@@ -223,9 +223,9 @@
 <script setup lang="ts">
 import { committee } from '../data/committee'
 import { useI18n } from '../composables/useI18n'
-import { getActionColor } from '../data/actionTypes'
+import { getActionColor, getActionLabel } from '../data/actionTypes'
 
-const { t } = useI18n()
+const { t, lang } = useI18n()
 
 // Top action types by frequency (from data analysis)
 const actionTypes = [

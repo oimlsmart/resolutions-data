@@ -404,15 +404,53 @@ const secondaryResolution = computed(() => {
 // Backwards-compat alias so existing template references keep working.
 const resolution = computed(() => primaryResolution.value)
 
-// Bilingual mode: 'en' | 'fr' | 'both'. Defaults to the current UI language,
-// or to 'en' if the UI language isn't available for this resolution.
+// Bilingual mode: 'en' | 'fr' | 'both'. Reads the URL `?lang=` query
+// on first mount, then syncs back on every change so deep links work.
+// Persists the choice in localStorage so navigation across resolutions
+// keeps the user's preferred language.
+const RES_LANG_STORAGE_KEY = 'oiml-res-lang'
+const VALID_LANGS = new Set(['en', 'fr', 'both'])
+
 const activeLang = ref<'en' | 'fr' | 'both'>('en')
+
+function readInitialLang(): 'en' | 'fr' | 'both' {
+  // 1. URL query takes precedence (deep-link support).
+  const fromQuery = route.query.lang as string | undefined
+  if (fromQuery && VALID_LANGS.has(fromQuery)) return fromQuery as 'en' | 'fr' | 'both'
+  // 2. Persisted preference from a previous session.
+  if (typeof localStorage !== 'undefined') {
+    const saved = localStorage.getItem(RES_LANG_STORAGE_KEY)
+    if (saved && VALID_LANGS.has(saved)) return saved as 'en' | 'fr' | 'both'
+  }
+  // 3. UI language, if available for this resolution.
+  return 'en'
+}
+
 watch([resolution, () => lang.value], () => {
   if (!resolution.value) return
   const available = availableLanguages.value
-  const fallback = available.includes(lang.value as 'en' | 'fr') ? lang.value as 'en' | 'fr' : (available[0] || 'en')
-  activeLang.value = fallback
+  const initial = readInitialLang()
+  // Honor explicit choices; fall back to the available language when
+  // the requested one isn't present for this resolution.
+  if (initial === 'both' && available.length >= 2) {
+    activeLang.value = 'both'
+  } else if (available.includes(initial as 'en' | 'fr')) {
+    activeLang.value = initial
+  } else {
+    activeLang.value = available[0] || 'en'
+  }
 }, { immediate: true })
+
+// Persist + sync URL whenever the user toggles.
+watch(activeLang, (newLang) => {
+  if (typeof localStorage !== 'undefined') {
+    localStorage.setItem(RES_LANG_STORAGE_KEY, newLang)
+  }
+  const newQuery = { ...route.query, lang: newLang }
+  // Don't pollute the URL with the default — keep it clean.
+  if (newLang === 'en' && !route.query.lang) return
+  router.replace({ query: newQuery })
+})
 
 const meetingLinkLabel = computed(() => {
   const res = resolution.value

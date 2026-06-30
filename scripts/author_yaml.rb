@@ -709,15 +709,47 @@ module ResolutionsData
       m && m[1]
     end
 
-    def self.extract_subject(body, lang)
-      # Look for "The Conference," or "The Committee," on its own line.
-      body.each_line do |line|
-        line = line.strip
-        return "OIML Conference" if line =~ /\AThe Conference,?\z/i
-        return "CIML"            if line =~ /\AThe Committee,?\z/i
-        return "Conférence OIML" if line =~ /\ALa Conf[ée]rence,?\z/i
-        return "CIML"            if line =~ /\ALe Comit[ée],?\z/i
+    # Canonical subject kinds recognized in resolution bodies.
+    # Each entry: [regex_pattern, kind_symbol].
+    # `kind` is one of :committee, :conference, :bureau, :council.
+    # Returns the localized subject label via lookup against
+    # `SUBJECT_LABELS_BY_KIND`.
+    SUBJECT_PATTERNS = [
+      [/\A[ \t]*the[ \t]+conference[ \t]*[,.;]?\z/i,         :conference],
+      [/\A[ \t]*the[ \t]+committee[ \t]*[,.;]?\z/i,          :committee],
+      [/\A[ \t]*the[ \t]+bureau[ \t]*[,.;]?\z/i,             :bureau],
+      [/\A[ \t]*the[ \t]+council[ \t]*[,.;]?\z/i,            :council],
+      [/\A[ \t]*la[ \t]+conf[ée]rence[ \t]*[,.;]?\z/i,       :conference],
+      [/\A[ \t]*le[ \t]+comit[ée][ \t]*[,.;]?\z/i,           :committee],
+      [/\A[ \t]*le[ \t]+bureau[ \t]*[,.;]?\z/i,              :bureau],
+      [/\A[ \t]*le[ \t]+conseil[ \t]*[,.;]?\z/i,             :council],
+    ].freeze
+
+    # Per-language canonical labels by subject kind. Returns the
+    # display string that goes into Resolution.localization.subject.
+    SUBJECT_LABELS_BY_KIND = {
+      committee:   { en: "CIML",            fr: "CIML" },
+      conference:  { en: "OIML Conference", fr: "Conférence OIML" },
+      bureau:      { en: "BIML Bureau",     fr: "Bureau du BIML" },
+      council:     { en: "Council",         fr: "Conseil" },
+    }.freeze
+
+    # Detect the subject kind from a resolution body. Walks each line,
+    # strips whitespace + zero-width chars, and matches against the
+    # canonical subject patterns. Returns the kind symbol or :unknown.
+    def self.detect_subject_kind(body)
+      body.each_line do |raw|
+        line = raw.strip.gsub(/​/, "").gsub(/\s+/, " ")
+        SUBJECT_PATTERNS.each do |(re, kind)|
+          return kind if line =~ re
+        end
       end
+      :unknown
+    end
+
+    def self.extract_subject(body, lang)
+      kind = detect_subject_kind(body)
+      return SUBJECT_LABELS_BY_KIND.dig(kind, lang) || SUBJECT_LABELS_BY_KIND.dig(kind, :en) || "" unless kind == :unknown
       # Fallback: derive from lang
       lang == :fr ? "Conférence OIML" : "OIML Conference"
     end
@@ -728,11 +760,14 @@ module ResolutionsData
     def self.strip_meta_lines(body)
       out = []
       body.each_line do |line|
-        stripped = line.strip
+        stripped = line.strip.gsub(/​/, "")
         next if stripped =~ /\AAgenda item\b/i
-        next if stripped =~ /\AThe (Conference|Committee),?\z/i
-        next if stripped =~ /\ALa Conf[ée]rence,?\z/i
-        next if stripped =~ /\ALe Comit[ée],?\z/i
+        # Drop any subject marker line detected by detect_subject_kind.
+        # This is more lenient than the prior regex — handles OCR
+        # whitespace + trailing punctuation variants.
+        if SUBJECT_PATTERNS.any? { |(re, _)| stripped =~ re }
+          next
+        end
         # Strip leading markdown header marks. Within a single resolution body
         # there should be no real section breaks (those were used as resolution
         # delimiters earlier in the pipeline). "## Foo" → "Foo".
