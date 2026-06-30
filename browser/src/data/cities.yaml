@@ -1,17 +1,95 @@
-# City name (lowercase English) → French translation.
-# Only cities whose French name differs need to be listed here.
-# Most city names are identical in EN/FR.
-citiesFr:
-  beijing: Pékin
-  cape town: Le Cap
-  cartagena de indias: Carthagène des Indes
-  cologne: Cologne
-  florence: Florence
-  geneva: Genève
-  hamburg: Hambourg
-  ho chi minh city: Hô Chi Minh-Ville
-  köln: Cologne
-  munich: Munich
-  the hague: La Haye
-  turin: Turin
-  vienna: Vienne
+# IATA city codes -> localized city names (EN/FR).
+#
+# Use the 3-letter IATA city code as the canonical id when one exists
+# (BER for Berlin, CPT for Cape Town, etc.). For cities without an IATA
+# code, fall back to a stable synthetic code (the first 3 letters of
+# the English name, uppercased).
+#
+# Adding a city: just add a new entry — venues.ts reads by code at
+# runtime, and manifests store `city:` as the IATA code so the lookup
+# is direct.
+cities:
+  BER:
+    en: Berlin
+    fr: Berlin
+  LYO:
+    en: Lyon
+    fr: Lyon
+  CPT:
+    en: Cape Town
+    fr: Le Cap
+  SHA:
+    en: Shanghai
+    fr: Shanghai
+  SYD:
+    en: Sydney
+    fr: Sydney
+  MBA:
+    en: Mombasa
+    fr: Mombasa
+  MCO:
+    en: Orlando
+    fr: Orlando
+  PRG:
+    en: Prague
+    fr: Prague
+  OTP:
+    en: Bucharest
+    fr: Bucarest
+  SGN:
+    en: Ho Chi Minh City
+    fr: Hô Chi Minh-Ville
+  AKL:
+    en: Auckland
+    fr: Auckland
+  ARC:
+    en: Arcachon
+    fr: Arcachon
+  SXB:
+    en: Strasbourg
+    fr: Strasbourg
+  CTG:
+    en: Cartagena de Indias
+    fr: Carthagène des Indes
+  HAM:
+    en: Hamburg
+    fr: Hambourg
+  BTS:
+    en: Bratislava
+    fr: Bratislava
+  PAR:
+    en: Paris
+    fr: Paris
+  VIE:
+    en: Vienna
+    fr: Vienne
+  BJS:
+    en: Beijing
+    fr: Pékin
+  TRN:
+    en: Turin
+    fr: Turin
+  CGN:
+    en: Cologne
+    fr: Cologne
+  GVA:
+    en: Geneva
+    fr: Genève
+  FLR:
+    en: Florence
+    fr: Florence
+  MUC:
+    en: Munich
+    fr: Munich
+  HAG:
+    en: The Hague
+    fr: La Haye
+  WAS:
+    en: Washington, D.C.
+    fr: Washington
+  DPS:
+    en: Bali
+    fr: Bali
+  CNX:
+    en: Chiang Mai
+    fr: Chiang Mai

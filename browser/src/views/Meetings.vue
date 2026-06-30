@@ -236,7 +236,7 @@ import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import { getMeetingTypeShort, mtStyle } from '../data/meetingTypes'
-import { formatDateShort } from '../utils/format'
+import { useDateFormat } from '../composables/useDateFormat'
 
 const router = useRouter()
 const route = useRoute()
@@ -248,6 +248,7 @@ const selectedYear = ref((route.query.year as string) || '')
 const selectedCountry = ref((route.query.country as string) || '')
 const selectedBodyType = ref((route.query.body as string) || '')
 const { t, lang } = useI18n()
+const { formatDateShort } = useDateFormat()
 const venueForLangFn = (city: string, code: string) => venueForLang(city, code, lang.value)
 
 onMounted(() => {

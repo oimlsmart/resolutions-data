@@ -26,7 +26,6 @@ export function normalizeSnippet(rawMessage) {
 export function bodyTypeFromSourceFile(sourceFile) {
   return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
 }
-
 // Per TODO.cleanups/06: each meeting gets a DOI under 10.63493/meetings/.
 // CIML: ciml<meeting-number> (e.g. ciml60)
 // Conference: conf<session-number> (e.g. conf17)
@@ -51,11 +50,12 @@ export function deriveDisplayTitle(res, acclamation) {
   return ''
 }
 
-export function buildResolutionRecord(res, sourceFile, metadata) {
+export function buildResolutionRecord(res, sourceFile, metadata, sourceUrl) {
   const identifier = String(res.identifier)
   const acclamation = isAcclamation(identifier)
   const datesInfo = metadata.dates || []
   const meetingDate = datesInfo.length > 0 ? datesInfo[0].start : ''
+  const dateEnd = datesInfo.length > 0 ? (datesInfo[0].end || '') : ''
   const year = meetingDate ? meetingDate.substring(0, 4) : ''
 
   // id is the URL-safe slug (slashes -> dashes) used for routing.
@@ -84,6 +84,9 @@ export function buildResolutionRecord(res, sourceFile, metadata) {
     meeting_urn: `${URN_BASE}:meeting:${sourceFile}`,
     source_title: metadata.title || '',
     meeting_date: meetingDate,
+    meeting_date_end: dateEnd,
+    agenda_item: res.agenda_item || '',
+    source_url: sourceUrl || '',
     is_acclamation: acclamation,
     actions: res.actions || [],
     considerations: res.considerations || [],

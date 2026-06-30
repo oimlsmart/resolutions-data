@@ -1,13 +1,13 @@
 import { computed, type ComputedRef } from 'vue'
 import { useResolutions } from './useResolutions'
 import type { Meeting, MeetingBodyType } from '../types/resolution'
+import { bodyTypeFromSourceFile } from '../utils/meetingType'
 
 export type { Meeting, MeetingBodyType }
 
-/** Derive the OIML body (CIML vs Conference) from a source-file slug. */
-export function bodyTypeFromSourceFile(sourceFile: string): MeetingBodyType {
-  return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
-}
+// Re-exported for backwards compatibility with existing call sites that
+// imported bodyTypeFromSourceFile from this composable.
+export { bodyTypeFromSourceFile }
 
 /** Strip the language suffix from a source-file slug so that
  *  ciml-44-resolutions-en and ciml-44-resolutions-fr collapse to the same

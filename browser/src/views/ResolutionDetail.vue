@@ -55,11 +55,8 @@
         </router-link>
 
         <span v-if="resolution.meeting_date" class="std-page__badge badge-date">{{ formatDate(resolution.meeting_date) }}</span>
-        <span v-if="!resolution.is_acclamation" class="std-page__badge">
-          <template v-if="resolution.source_type === 'plenary'">{{ t('resolution.plenary') }}</template>
-          <template v-else-if="resolution.source_type === 'ballot'">{{ t('resolution.ballotResolution') }}</template>
-          <template v-else-if="resolution.source_type === '7372ma'">{{ t('resolution.ma7372Resolution') }}</template>
-          <template v-else>{{ t('resolution.plenary') }}</template>
+        <span v-if="!resolution.is_acclamation" class="std-page__badge body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(resolution.source_file || ''))">
+          {{ getMeetingTypeShort(bodyTypeFromSourceFile(resolution.source_file || ''), lang) }}
         </span>
         <a v-if="resolution.group_id" :href="`/groups/${resolution.group_id}/`" class="std-page__badge std-page__badge--link badge-group">{{ resolution.group_id.toUpperCase() }}</a>
       </div>
@@ -98,6 +95,12 @@
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </button>
+    </div>
+
+    <!-- Original PDF on OIML site -->
+    <div v-if="resolution.source_url" class="urn-bar animate-up" style="--nth: 3">
+      <span class="urn-label">{{ t('resolution.originalPdfLabel') }}</span>
+      <a :href="resolution.source_url" class="urn-value urn-value--link" target="_blank" rel="noopener noreferrer">{{ resolution.source_url }}</a>
     </div>
 
     <!-- Content -->
@@ -291,16 +294,19 @@ import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import type { Resolution } from '../types/resolution'
 import { useMeetings } from '../composables/useMeetings'
+import { bodyTypeFromSourceFile } from '../composables/useMeetings'
 import { asciidocify } from '../utils/asciidoc'
 import { getActionColor } from '../data/actionTypes'
 import { formatActionType } from '../utils/actionType'
-import { formatDate } from '../utils/format'
+import { useDateFormat } from '../composables/useDateFormat'
 import { useClipboard } from '../composables/useClipboard'
+import { mtStyle, getMeetingTypeShort } from '../data/meetingTypes'
 
 const router = useRouter()
 const route = useRoute()
 const { resolutions, isLoaded, loadData } = useResolutions()
 const { t, lang } = useI18n()
+const { formatDate } = useDateFormat()
 const { getMeetingResolutions, loadData: loadMeetingsData, isLoaded: isMeetingsLoaded } = useMeetings()
 
 const searchInput = ref('')

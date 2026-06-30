@@ -4,9 +4,24 @@ import App from './App.vue'
 import { routes } from './router'
 import './assets/main.css'
 
+/**
+ * Scroll behavior applied across every navigation. New routes land at the
+ * top of the page; browser back/forward restores the saved position;
+ * hash anchors scroll smoothly to the targeted element with a small
+ * offset so the sticky header doesn't cover the heading.
+ */
+const scrollBehavior = (to: any, _from: any, savedPosition: any) => {
+  if (savedPosition) return savedPosition
+  if (to.hash) {
+    const el = document.querySelector(to.hash)
+    if (el) return { el: to.hash, top: 80, behavior: 'smooth' as const }
+  }
+  return { top: 0, left: 0 }
+}
+
 export const createApp = ViteSSG(
   App,
-  { routes, base: import.meta.env.BASE_URL },
+  { routes, scrollBehavior, base: import.meta.env.BASE_URL },
   async () => {
     if (import.meta.env.SSR) {
       const { readFileSync } = await import('node:fs')

@@ -34,14 +34,20 @@
         <div class="header-badges">
           <span class="std-results__badge badge-body" :style="mtStyle(meeting.body_type)">{{ meeting.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
           <span class="std-results__badge badge-year">{{ meeting.year }}</span>
-          <span v-if="meeting.meeting_date" class="std-results__badge">{{ formatDate(meeting.meeting_date) }}</span>
+          <span v-if="meetingDateRange" class="std-results__badge">{{ meetingDateRange }}</span>
         </div>
-        
+
         <h1 class="meeting-detail__title">
           <span v-if="venueFlag" class="meeting-detail__flag">{{ venueFlag }}</span>
           {{ (meeting.city && meeting.country_code) ? venueForLang(meeting.city, meeting.country_code, lang) : (venueForLang(meeting.venue, lang) || t('meetings.virtual')) }}
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
+
+        <!-- Original PDF link -->
+        <div v-if="meetingPdfUrl" class="meeting-urn-bar">
+          <span class="meeting-urn-label">{{ t('meeting.originalPdf') }}</span>
+          <a :href="meetingPdfUrl" class="meeting-urn-value meeting-urn-value--link" target="_blank" rel="noopener noreferrer">{{ meetingPdfUrl }}</a>
+        </div>
 
         <!-- Meeting DOI -->
         <div v-if="meetingDoi" class="meeting-urn-bar meeting-doi-bar">
@@ -113,17 +119,20 @@ import { useMeetings } from '../composables/useMeetings'
 import { venueToFlag } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
-import { formatDate } from '../utils/format'
 import { buildMeetingUrn } from '../utils/urn'
 import { useClipboard } from '../composables/useClipboard'
+import { useDateFormat } from '../composables/useDateFormat'
 import { mtStyle } from '../data/meetingTypes'
+import { getPdfUrl } from '../utils/pdfUrl'
 
 const route = useRoute()
 const { getMeeting, getMeetingResolutions, isLoaded, loadData } = useMeetings()
 const { t, lang } = useI18n()
+const { formatDateRange } = useDateFormat()
 const { copied: meetingCopied, copy: copyUrn } = useClipboard()
 
 const sourceFile = computed(() => route.params.sourceFile as string)
+const meetingPdfUrl = computed(() => getPdfUrl(meeting.value?.source_url))
 
 onMounted(() => {
   loadData()
@@ -136,6 +145,11 @@ const meeting = computed(() => {
 const meetingUrn = computed(() => {
   if (!meeting.value) return ''
   return buildMeetingUrn(sourceFile.value)
+})
+
+const meetingDateRange = computed(() => {
+  if (!meeting.value) return ''
+  return formatDateRange(meeting.value.date_start || meeting.value.meeting_date, meeting.value.date_end)
 })
 
 const meetingDoi = computed(() => meeting.value?.doi || '')

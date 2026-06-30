@@ -175,7 +175,7 @@
               <span v-if="res.is_acclamation" class="std-results__type type-acclamation">{{ t('home.acclamation') }}</span>
               <template v-else>
                 <span>{{ res.identifier || res.id }}</span>
-                <span class="std-results__type">{{ t('home.plenary') }}</span>
+                <span class="std-results__type">{{ getMeetingTypeShort(bodyTypeFromSourceFile(res.source_file), lang) }}</span>
               </template>
             </div>
             <span class="badge-year">{{ res.year }}</span>
@@ -264,9 +264,11 @@ import { useMeetings } from '../composables/useMeetings'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import { committee } from '../data/committee'
+import { getMeetingTypeShort } from '../data/meetingTypes'
 import { useCountUp } from '../composables/useCountUp'
+import { bodyTypeFromSourceFile } from '../composables/useMeetings'
 import { getActionColor } from '../data/actionTypes'
-import { formatDate } from '../utils/format'
+import { useDateFormat } from '../composables/useDateFormat'
 import { highlightText } from '../utils/highlight'
 
 const router = useRouter()
@@ -275,6 +277,7 @@ const route = useRoute()
 const { resolutions, isLoaded, loadData, search } = useResolutions()
 const { meetings, loadData: loadMeetingsData } = useMeetings()
 const { t, lang } = useI18n()
+const { formatDate } = useDateFormat()
 
 const searchQuery = ref((route.query.q as string) || '')
 const selectedYear = ref((route.query.year as string) || '')

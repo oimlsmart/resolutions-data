@@ -28,12 +28,41 @@ export interface Approval {
   message?: string
 }
 
+export type MeetingBodyType = 'ciml' | 'conference'
+
+export interface Meeting {
+  source_file: string
+  source_title: string
+  meeting_date: string
+  /** ISO 8601 inclusive start day, from the Edoxen metadata.dates[0].start. */
+  date_start?: string
+  /** ISO 8601 inclusive end day, from the Edoxen metadata.dates[0].end.
+   *  Empty when the meeting is a single-day session. */
+  date_end?: string
+  venue: string
+  city: string
+  /** IATA city code (3 letters) when the manifest entry uses the code
+   *  instead of the raw English city name. Empty otherwise. */
+  city_code?: string
+  country_code: string
+  year: string
+  body_type: MeetingBodyType
+  language: '' | 'en' | 'fr'
+  doi: string
+  /** Canonical OIML URL for the source PDF. Empty when not yet listed
+   *  in scripts/manifest.yaml. */
+  source_url?: string
+  resolution_count: number
+  acclamation_count: number
+}
+
 export interface Resolution {
   id: string
   identifier?: string
   language?: '' | 'en' | 'fr'
   doi?: string
   city?: string
+  city_code?: string
   country_code?: string
   title: string
   subject: string
@@ -44,6 +73,11 @@ export interface Resolution {
   source_type?: string
   group_id?: string
   meeting_date: string
+  /** ISO 8601 meeting end day. Empty when single-day. */
+  meeting_date_end?: string
+  agenda_item?: string
+  /** Canonical OIML URL for the source PDF containing this resolution. */
+  source_url?: string
   is_acclamation: boolean
   actions: Action[]
   considerations: Consideration[]
@@ -53,21 +87,4 @@ export interface Resolution {
   snippet: string
   urn?: string
   meeting_urn?: string
-}
-
-export type MeetingBodyType = 'ciml' | 'conference'
-
-export interface Meeting {
-  source_file: string
-  source_title: string
-  meeting_date: string
-  venue: string
-  city: string
-  country_code: string
-  year: string
-  body_type: MeetingBodyType
-  language: '' | 'en' | 'fr'
-  doi: string
-  resolution_count: number
-  acclamation_count: number
 }

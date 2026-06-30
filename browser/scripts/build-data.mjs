@@ -13,15 +13,28 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 const RESOLUTIONS_DIR = path.resolve(__dirname, '../../resolutions');
+const MANIFEST_FILE = path.resolve(__dirname, '../../scripts/manifest.yaml');
 const OUTPUT_DIR = path.resolve(__dirname, '../public/data');
 const RESOLUTIONS_FILE = path.join(OUTPUT_DIR, 'resolutions.json');
 const MEETINGS_FILE = path.join(OUTPUT_DIR, 'meetings.json');
+
+/** Read scripts/manifest.yaml once and produce a sourceFile → url map. */
+function loadSourceUrlMap() {
+  if (!fs.existsSync(MANIFEST_FILE)) return new Map()
+  const parsed = yaml.load(fs.readFileSync(MANIFEST_FILE, 'utf8')) || {}
+  const map = new Map()
+  for (const src of parsed.sources || []) {
+    if (src.slug && src.url) map.set(src.slug, src.url)
+  }
+  return map
+}
 
 function main() {
   if (!fs.existsSync(OUTPUT_DIR)) {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
+  const sourceUrlMap = loadSourceUrlMap()
   const files = fs.readdirSync(RESOLUTIONS_DIR).filter(f => f.endsWith('.yaml') || f.endsWith('.yml'));
   const allResolutions = [];
   const meetingsMap = new Map();
@@ -46,25 +59,32 @@ function main() {
     // Track per-source-file meeting metadata
     if (!meetingsMap.has(source_file)) {
       const dates = metadata.dates || []
-      const meetingDate = dates.length > 0 ? dates[0].start : ''
+      const dateRange = dates[0] || {}
+      const meetingDate = dateRange.start || ''
       const year = meetingDate ? meetingDate.substring(0, 4) : ''
+      const cityRaw = metadata.city || ''
+      const lang = metadata.language || ''
       meetingsMap.set(source_file, {
         source_file,
         source_title: metadata.title || '',
         meeting_date: meetingDate,
+        date_start: dateRange.start || '',
+        date_end: dateRange.end || '',
         venue: metadata.venue || '',
-        city: metadata.city || '',
+        city: cityRaw,
+        city_code: /^[A-Z]{3}$/.test(cityRaw) ? cityRaw : '',
         country_code: metadata.country_code || '',
         year,
         body_type: bodyTypeFromSourceFile(source_file),
-        language: metadata.language || '',
+        language: lang,
         doi: buildMeetingDoi(metadata, source_file),
+        source_url: sourceUrlMap.get(source_file) || '',
         resolution_count: 0,
       })
     }
 
     for (const res of parsed.resolutions) {
-      allResolutions.push(buildResolutionRecord(res, source_file, metadata));
+      allResolutions.push(buildResolutionRecord(res, source_file, metadata, sourceUrlMap.get(source_file) || ''));
       meetingsMap.get(source_file).resolution_count++
     }
   }
