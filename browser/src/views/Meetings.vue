@@ -232,7 +232,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMeetings, groupMeetingsByDecade } from '../composables/useMeetings'
 import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
-import { venueForLang } from '../data/venues'
+import { venueForLang, countryName } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import { getMeetingTypeShort, mtStyle } from '../data/meetingTypes'
@@ -269,13 +269,16 @@ const availableCountries = computed(() => {
     const venue = m.venue || ''
     if (venue.toLowerCase().includes('virtual')) {
       if (!countries.has('virtual')) {
-        countries.set('virtual', { code: 'virtual', name: 'Virtual', flag: '\u{1F310}' })
+        countries.set('virtual', { code: 'virtual', name: t.value('meetings.virtual'), flag: '\u{1F310}' })
       }
     } else {
       const code = venueToCountryCode(venue)
       if (code && !countries.has(code)) {
-        const countryName = venue.split(',').pop()?.trim() || code
-        countries.set(code, { code, name: countryName, flag: venueToFlag(venue) })
+        // Localized country name via the COUNTRIES table; fall back
+        // to the last segment of the venue string (legacy) only when
+        // the country code is unknown.
+        const name = countryName(code, lang.value) || venue.split(',').pop()?.trim() || code
+        countries.set(code, { code, name, flag: venueToFlag(venue) })
       }
     }
   })

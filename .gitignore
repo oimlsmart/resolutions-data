@@ -1,5 +1,8 @@
-# OCR cache (reproducible from PDFs via scripts/ocr/run.rb)
-reference-docs/.ocr/
+# OCR cache: the JSON responses (reference-docs/.ocr/raw/) are
+# reproducible from PDFs via scripts/ocr/run.rb and are large; keep
+# them out of git. The MARKDOWN digest (reference-docs/.ocr/md/)
+# is the project data we author against — track it.
+reference-docs/.ocr/raw/
 
 # Browser build artifacts (reproducible via `npm run build`)
 browser/dist/

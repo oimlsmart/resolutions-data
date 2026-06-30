@@ -28,7 +28,7 @@
       <header class="res-page__header header-mt animate-up" style="--nth: 1">
         <router-link :to="{ name: 'meetings' }" class="back-link group">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-          Back to Meetings
+          {{ t('meetings.back') }}
         </router-link>
         
         <div class="header-badges">
@@ -91,15 +91,16 @@
           :style="`--nth: ${index}`"
         >
           <div class="std-results__name">
-            <span v-if="res.is_acclamation" class="std-results__type type-acclamation">Acclamation</span>
+            <span v-if="res.is_acclamation" class="std-results__type type-acclamation">{{ t('resolution.acclamation') }}</span>
             <template v-else>
               <span>{{ res.identifier || res.id }}</span>
-              <span class="std-results__type">Plenary</span>
+              <span class="std-results__type body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(res.source_file))">{{ getMeetingTypeShort(bodyTypeFromSourceFile(res.source_file), lang) }}</span>
+              <span class="std-results__type language-chip">{{ t('resolution.language.' + (res.language || 'en')) }}</span>
             </template>
           </div>
-          <div class="std-results__title meeting-card__title">{{ res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + (res.identifier || res.id)) }}</div>
+          <div class="std-results__title meeting-card__title">{{ res.is_acclamation ? t('resolution.acclamation') : (res.title || interpolate(t('resolution.fallbackTitle'), { id: res.identifier || res.id })) }}</div>
           <div v-if="res.snippet" class="std-results__snippet snippet-text">{{ res.snippet }}</div>
-          
+
           <div class="card-footer">
             <span v-if="res.subject" class="std-results__badge badge-subject truncate-text">{{ res.subject }}</span>
             <div class="card-hover-arrow">
@@ -122,7 +123,9 @@ import { useI18n } from '../composables/useI18n'
 import { buildMeetingUrn } from '../utils/urn'
 import { useClipboard } from '../composables/useClipboard'
 import { useDateFormat } from '../composables/useDateFormat'
-import { mtStyle } from '../data/meetingTypes'
+import { mtStyle, getMeetingTypeShort } from '../data/meetingTypes'
+import { interpolate } from '../data/translations'
+import { bodyTypeFromSourceFile } from '../utils/meetingType'
 import { getPdfUrl } from '../utils/pdfUrl'
 
 const route = useRoute()
