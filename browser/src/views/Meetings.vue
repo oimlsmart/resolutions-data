@@ -6,6 +6,26 @@
     </header>
 
     <div class="std-filter animate-up" style="--nth: 3">
+      <div class="std-filter__field std-filter__field--body">
+        <span class="std-filter__label">Body</span>
+        <div class="std-filter__chips">
+          <button
+            class="std-chip"
+            :class="{ 'is-active': selectedBodyType === '' }"
+            @click="selectedBodyType = ''"
+          >All</button>
+          <button
+            class="std-chip"
+            :class="{ 'is-active': selectedBodyType === 'ciml' }"
+            @click="selectedBodyType = 'ciml'"
+          >CIML Meetings</button>
+          <button
+            class="std-chip"
+            :class="{ 'is-active': selectedBodyType === 'conference' }"
+            @click="selectedBodyType = 'conference'"
+          >OIML Conference</button>
+        </div>
+      </div>
       <div class="std-filter__search-wrap">
         <svg class="std-filter__search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
           <circle cx="11" cy="11" r="8"/>
@@ -166,6 +186,7 @@ const { meetings, isLoaded, loadData } = useMeetings()
 const searchQuery = ref((route.query.q as string) || '')
 const selectedYear = ref((route.query.year as string) || '')
 const selectedCountry = ref((route.query.country as string) || '')
+const selectedBodyType = ref((route.query.body as string) || '')
 
 onMounted(() => {
   loadData()
@@ -204,7 +225,11 @@ const availableCountries = computed(() => {
 
 const filteredMeetings = computed(() => {
   let list = meetings.value
-  
+
+  if (selectedBodyType.value) {
+    list = list.filter(m => m.body_type === selectedBodyType.value)
+  }
+
   if (selectedYear.value) {
     list = list.filter(m => m.year === selectedYear.value)
   }

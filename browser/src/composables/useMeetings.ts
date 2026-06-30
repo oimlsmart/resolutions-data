@@ -1,8 +1,13 @@
 import { computed, type ComputedRef } from 'vue'
 import { useResolutions } from './useResolutions'
-import type { Meeting } from '../types/resolution'
+import type { Meeting, MeetingBodyType } from '../types/resolution'
 
-export type { Meeting }
+export type { Meeting, MeetingBodyType }
+
+/** Derive the OIML body (CIML vs Conference) from a source-file slug. */
+export function bodyTypeFromSourceFile(sourceFile: string): MeetingBodyType {
+  return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
+}
 
 export interface DecadeGroup {
   label: string
@@ -53,6 +58,7 @@ export function useMeetings() {
           meeting_date: res.meeting_date,
           venue: res.venue,
           year: res.year,
+          body_type: bodyTypeFromSourceFile(file),
           resolution_count: 0,
           acclamation_count: 0
         })
