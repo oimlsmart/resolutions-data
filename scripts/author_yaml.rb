@@ -257,7 +257,10 @@ module ResolutionsData
           } unless first_para.empty?
         end
 
-        title       = synthesize_title(acts)
+        # Title: prefer "Agenda item N" as the canonical reference, which
+        # is how OIML cites resolutions. Falls back to a synthesized verb-led
+        # snippet when no agenda item is recorded.
+        title = agenda_item ? "Agenda item #{agenda_item}" : synthesize_title(acts)
 
         res << {
           "identifier"  => ident,
