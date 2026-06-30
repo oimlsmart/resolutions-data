@@ -134,8 +134,8 @@
         <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.actions') }}</h2>
         <div class="std-page__body res-detail-list">
           <div v-for="(act, idx) in resolution.actions" :key="idx" class="action-item res-detail-card res-detail-card--action">
-            <span 
-              v-if="act.type" 
+            <span
+              v-if="act.type"
               class="res-detail-card-type res-detail-card-type--action"
               :style="{ '--action-color': getActionColor(act.type).bg }"
             >
@@ -143,6 +143,11 @@
             </span>
             <p v-if="act.subject" class="res-detail-card-subject">{{ act.subject }}</p>
             <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
+            <!-- Interleaved FR translation in 'both' mode -->
+            <div v-if="activeLang === 'both' && frActionAt(idx)" class="res-detail-bilingual-pair">
+              <div class="res-detail-bilingual-lang">FR</div>
+              <div class="res-detail-richtext res-detail-richtext--fr" v-html="asciidocify(frActionAt(idx).message)"></div>
+            </div>
             <template v-if="act.dates && act.dates.length > 0">
               <div class="res-detail-dates">
                 <span v-for="(d, didx) in act.dates" :key="didx" class="res-detail-date">
@@ -174,28 +179,9 @@
       </section>
       
       <!-- Related Resolutions -->
-      <!-- Secondary language rendering (EN/FR side-by-side, 'both' mode) -->
-      <section v-if="activeLang === 'both' && secondaryResolution" class="std-page__section res-secondary-lang animate-up">
-        <h2 class="std-page__section-heading res-secondary-lang__heading">
-          <span class="res-secondary-lang__badge">FR</span>
-          {{ t('resolution.frenchVersion') }}
-        </h2>
-        <div class="std-page__body">
-          <p v-if="secondaryResolution.title" class="res-secondary-lang__title">{{ secondaryResolution.title }}</p>
-          <div v-if="secondaryResolution.considerations && secondaryResolution.considerations.length" class="res-detail-list">
-            <div v-for="(cons, idx) in secondaryResolution.considerations" :key="`fr-cons-${idx}`" class="consideration-item res-detail-card">
-              <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type) }}</span>
-              <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
-            </div>
-          </div>
-          <div v-if="secondaryResolution.actions && secondaryResolution.actions.length" class="res-detail-list">
-            <div v-for="(act, idx) in secondaryResolution.actions" :key="`fr-act-${idx}`" class="action-item res-detail-card res-detail-card--action">
-              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ formatActionType(act.type) }}</span>
-              <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- Bilingual mode now renders FR inline within each action card
+           above (interleaved). The old separate "French version"
+           section was removed for better UX. -->
 
       <section v-if="relatedResolutions.length > 0" class="std-page__section animate-up" style="--nth: 9">
         <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.related') }}</h2>
@@ -408,6 +394,15 @@ const secondaryResolution = computed(() => {
   const matches = languageVersions.value
   return matches.find(r => r.language === 'fr') || null
 })
+
+/** Return the FR action at a given index, or null. Used in 'both'
+ *  mode to interleave the FR translation below each EN action. */
+function frActionAt(idx: number): any | null {
+  if (!secondaryResolution.value) return null
+  const acts = secondaryResolution.value.actions
+  if (!acts || idx >= acts.length) return null
+  return acts[idx] || null
+}
 
 // Backwards-compat alias so existing template references keep working.
 const resolution = computed(() => primaryResolution.value)
@@ -887,6 +882,30 @@ function submitSearch() {
 .res-detail-richtext :deep(p) { margin-bottom: 1rem; }
 .res-detail-richtext :deep(p:last-child) { margin-bottom: 0; }
 .res-detail-richtext :deep(a) { color: var(--color-blue-accent); text-decoration: underline; }
+
+/* Bilingual interleaved pair (EN action with FR translation below) */
+.res-detail-bilingual-pair {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--color-slate-200);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+}
+.dark .res-detail-bilingual-pair { border-top-color: var(--color-slate-700); }
+.res-detail-bilingual-lang {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-slate-400);
+  text-transform: uppercase;
+  padding-top: 0.15rem;
+}
+.res-detail-richtext--fr {
+  font-style: italic;
+  color: var(--color-slate-500);
+}
+.dark .res-detail-richtext--fr { color: var(--color-slate-400); }
 
 .res-detail-dates {
   margin-top: 1.5rem;
