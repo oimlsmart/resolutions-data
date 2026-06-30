@@ -1,40 +1,21 @@
 // Bilingual venue rendering.
 //
 // Venues are stored as `city` + `country_code` (ISO 3166-1 alpha-2) in
-// scripts/manifest.yaml. The country name is rendered in the current UI
-// language via countries.yaml.
-//
-// For legacy venues that are still single strings ("Berlin, Germany"),
-// venueForLang() falls back to the COUNTRY_FR / CITY_FR maps below. New
-// meetings should use the structured form.
+// scripts/manifest.yaml. Country names come from countries.yaml. A small
+// list of cities whose French name differs is in cities.yaml.
 
 import { COUNTRIES } from './countries'
+import citiesData from './cities.yaml'
 
 type Lang = 'en' | 'fr'
 
+const CITY_FR: Record<string, string> = citiesData.citiesFr || {}
 
 export function countryName(code: string | null | undefined, lang: Lang): string {
   if (!code) return ''
   const entry = COUNTRIES[code.toUpperCase()]
   if (entry) return entry[lang] || entry.en || code
   return code
-}
-
-// A small map for the handful of cities whose names differ in FR.
-const CITY_FR: Record<string, string> = {
-  'vienna':       'Vienne',
-  'cologne':      'Cologne',
-  'köln':         'Cologne',
-  'munich':       'Munich',
-  'the hague':    'La Haye',
-  'geneva':       'Genève',
-  'turin':        'Turin',
-  'florence':     'Florence',
-  'cape town':    'Le Cap',
-  'ho chi minh city': 'Hô Chi Minh-Ville',
-  'beijing':      'Pékin',
-  'cartagena de indias': 'Carthagène des Indes',
-  'hamburg':      'Hambourg',
 }
 
 const VIRTUAL_FR = 'Réunion en ligne'
@@ -79,7 +60,6 @@ export function venueForLang(
   }
   const parts = cityOrVenue.split(',').map(s => s.trim())
   const rendered = parts.map((part) => {
-    // Try to match the part against a known EN country name → look up the code → translate.
     const entry = Object.entries(COUNTRIES).find(([, v]) => v.en.toLowerCase() === part.toLowerCase())
     if (entry) return entry[1][langArg] || entry[1].en
     return translateCity(part, langArg)
