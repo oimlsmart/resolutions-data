@@ -13,7 +13,7 @@
             class="std-chip"
             :class="{ 'is-active': selectedBodyType === '' }"
             @click="selectedBodyType = ''"
-          >All</button>
+          >{{ t('common.all') }}</button>
           <button
             class="std-chip"
             :class="{ 'is-active': selectedBodyType === 'ciml' }"
@@ -49,7 +49,7 @@
               class="std-chip" 
               :class="{ 'is-active': selectedYear === '' }"
               @click="selectedYear = ''"
-            >All</button>
+            >{{ t('common.all') }}</button>
             <button 
               v-for="year in availableYears" 
               :key="year"
@@ -66,7 +66,7 @@
               class="std-chip" 
               :class="{ 'is-active': selectedCountry === '' }"
               @click="selectedCountry = ''"
-            >All</button>
+            >{{ t('common.all') }}</button>
             <button 
               v-for="country in availableCountries" 
               :key="country.code"

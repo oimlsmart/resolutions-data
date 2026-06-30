@@ -46,27 +46,27 @@
             <div class="committee-stats">
               <div class="stat-item">
                 <span class="stat-value">{{ committee.established }}</span>
-                <span class="stat-label">Established</span>
+                <span class="stat-label">{{ t('home.establishedLabel') }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-value">{{ committee.memberStates }}</span>
-                <span class="stat-label">Member States</span>
+                <span class="stat-label">{{ t('home.memberStatesLabel') }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-value">{{ committee.correspondingMembers }}</span>
-                <span class="stat-label">Corresponding Members</span>
+                <span class="stat-label">{{ t('about.correspondingMembers') }}</span>
               </div>
             </div>
 
             <div class="committee-links">
               <a :href="committee.links.oiml" target="_blank" rel="noopener noreferrer" class="committee-link">
-                Official website
+                {{ t('footer.officialWebsite') }}
               </a>
-              <a href="https://www.oiml.org/en/structure/members/memberslist_view?varMember=1" target="_blank" rel="noopener noreferrer" class="committee-link">
-                Member States
+              <a :href="committee.links.committeeSite" target="_blank" rel="noopener noreferrer" class="committee-link">
+                {{ t('footer.memberStatesLink') }}
               </a>
               <a :href="committee.links.github" target="_blank" rel="noopener noreferrer" class="committee-link">
-                GitHub Organization
+                GitHub
               </a>
               <a :href="committee.links.linkedin" target="_blank" rel="noopener noreferrer" class="committee-link">
                 LinkedIn
