@@ -49,28 +49,28 @@
               <circle cx="11" cy="11" r="8"/>
               <path d="m21 21-4.35-4.35"/>
             </svg>
-            <input 
+            <input
               ref="searchInputRef"
-              type="search" 
-              v-model="searchQuery" 
-              class="hero-search-input" 
-              placeholder="Search by topic, number, or keyword…"
-              autocomplete="off" 
-              spellcheck="false" 
-              aria-label="Search resolutions" 
+              type="search"
+              v-model="searchQuery"
+              class="hero-search-input"
+              :placeholder="t('search.placeholder')"
+              autocomplete="off"
+              spellcheck="false"
+              :aria-label="t('home.searchAriaLabel')"
             />
             <div class="hero-search-hint">
-              <kbd>/</kbd> to search
+              <kbd>/</kbd> {{ t('home.searchHint') }}
             </div>
           </div>
         </div>
 
         <div class="hero-actions animate-up" style="--nth: 5">
           <button @click="scrollToResults" class="hero-btn hero-btn--primary">
-            Browse Resolutions
+            {{ t('home.browseResolutions') }}
           </button>
           <router-link :to="{ name: 'meetings' }" class="hero-btn hero-btn--secondary">
-            Browse Meetings
+            {{ t('home.browseMeetings') }}
           </router-link>
         </div>
       </div>
@@ -80,15 +80,15 @@
       <div class="std-filter std-filter--elevated">
         <div class="std-filter__controls">
           <div class="std-filter__field">
-            <span class="std-filter__label">Filter by Year</span>
+            <span class="std-filter__label">{{ t('home.filterByYear') }}</span>
             <div class="std-filter__chips">
-              <button 
-                class="std-chip" 
+              <button
+                class="std-chip"
                 :class="{ 'is-active': selectedYear === '' }"
                 @click="selectedYear = ''"
-              >All Years</button>
-              <button 
-                v-for="year in availableYears" 
+              >{{ t('home.allYears') }}</button>
+              <button
+                v-for="year in availableYears"
                 :key="year"
                 class="std-chip"
                 :class="{ 'is-active': selectedYear === year }"
@@ -98,15 +98,15 @@
           </div>
 
           <div class="std-filter__field" v-if="topActionTypes.length">
-            <span class="std-filter__label">Filter by Action</span>
+            <span class="std-filter__label">{{ t('home.filterByAction') }}</span>
             <div class="std-filter__chips">
-              <button 
-                class="std-chip" 
+              <button
+                class="std-chip"
                 :class="{ 'is-active': selectedActionTypes.size === 0 }"
                 @click="selectedActionTypes.clear()"
-              >All Actions</button>
-              <button 
-                v-for="action in topActionTypes" 
+              >{{ t('home.allActions') }}</button>
+              <button
+                v-for="action in topActionTypes"
                 :key="action"
                 class="std-chip"
                 :class="{ 'is-active': selectedActionTypes.has(action) }"
@@ -117,14 +117,14 @@
               </button>
             </div>
           </div>
-          
+
           <div class="std-filter__field std-filter__field--flex-end">
             <div class="sort-dropdown-container">
-              <label for="sort-dropdown" class="sr-only">Sort By</label>
+              <label for="sort-dropdown" class="sr-only">{{ t('home.sortBy') }}</label>
               <select id="sort-dropdown" v-model="sortOrder" class="sort-dropdown">
-                <option value="newest">Newest First</option>
-                <option value="oldest">Oldest First</option>
-                <option value="most_actions">Most Actions</option>
+                <option value="newest">{{ t('home.sortNewest') }}</option>
+                <option value="oldest">{{ t('home.sortOldest') }}</option>
+                <option value="most_actions">{{ t('home.sortMostActions') }}</option>
               </select>
               <svg class="sort-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
@@ -132,7 +132,7 @@
         </div>
 
         <div class="active-filters-bar" v-if="searchQuery || selectedYear || selectedActionTypes.size > 0">
-          <span class="active-filters-label">Active Filters:</span>
+          <span class="active-filters-label">{{ t('home.activeFilters') }}</span>
           <div class="active-filter-chips">
              <button v-if="searchQuery" class="active-filter-chip" @click="searchQuery = ''">
                "{{ searchQuery }}" <span class="filter-remove">&times;</span>
@@ -143,14 +143,14 @@
              <button v-for="act in Array.from(selectedActionTypes)" :key="act" class="active-filter-chip" @click="toggleActionType(act)">
                {{ act }} <span class="filter-remove">&times;</span>
              </button>
-             <button class="active-filter-clear" @click="clearAllFilters">Clear All</button>
+             <button class="active-filter-clear" @click="clearAllFilters">{{ t('home.clearAll') }}</button>
           </div>
         </div>
 
         <div class="std-filter__meta">
-          <span>Showing {{ filteredResolutions.length }} of {{ totalResolutions }} resolutions</span>
+          <span>{{ interpolate(t('home.showing'), { count: filteredResolutions.length, total: totalResolutions }) }}</span>
           <button class="legend-toggle" @click="isLegendOpen = !isLegendOpen">
-            {{ isLegendOpen ? 'Hide Legend' : 'View Action Legend' }}
+            {{ isLegendOpen ? t('home.hideLegend') : t('home.viewLegend') }}
           </button>
         </div>
 
@@ -172,17 +172,17 @@
         >
           <div class="card-header-row">
             <div class="std-results__name">
-              <span v-if="res.is_acclamation" class="std-results__type type-acclamation">Acclamation</span>
+              <span v-if="res.is_acclamation" class="std-results__type type-acclamation">{{ t('home.acclamation') }}</span>
               <template v-else>
                 <span>{{ res.identifier || res.id }}</span>
-                <span class="std-results__type">Plenary</span>
+                <span class="std-results__type">{{ t('home.plenary') }}</span>
               </template>
             </div>
             <span class="badge-year">{{ res.year }}</span>
           </div>
 
           <div class="std-results__title meeting-card__title">
-            <span v-html="highlightText(res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + (res.identifier || res.id)), searchQuery)"></span>
+            <span v-html="highlightText(res.is_acclamation ? t('home.acclamation') : (res.title || interpolate(t('resolution.fallbackTitle'), { id: res.identifier || res.id })), searchQuery)"></span>
           </div>
 
           <div v-if="res.snippet" class="std-results__snippet snippet-text">
@@ -200,7 +200,7 @@
                 {{ actType }}
               </span>
               <span v-if="getUniqueActions(res).length > 3" class="action-chip action-chip--more">
-                +{{ getUniqueActions(res).length - 3 }} more
+                {{ interpolate(t('home.moreActions'), { count: getUniqueActions(res).length - 3 }) }}
               </span>
             </div>
 
@@ -216,10 +216,10 @@
         
         <div v-if="filteredResolutions.length === 0" class="empty-state">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <h3>No results found</h3>
-          <p>Try adjusting your search or filtering by a different criteria.</p>
+          <h3>{{ t('home.emptyResults') }}</h3>
+          <p>{{ t('home.emptyResultsHint') }}</p>
           <div class="empty-state__suggestions">
-             <p class="suggestions-label">Try searching for:</p>
+             <p class="suggestions-label">{{ t('home.trySearching') }}</p>
              <div class="suggestions-chips">
                 <button class="std-chip" @click="searchQuery='resolves'">resolves</button>
                 <button class="std-chip" @click="searchQuery='approves'">approves</button>
@@ -227,7 +227,7 @@
                 <button class="std-chip" @click="searchQuery='ISO 10303'">ISO 10303</button>
              </div>
           </div>
-          <button class="std-chip btn-mt" @click="clearAllFilters">Clear all filters</button>
+          <button class="std-chip btn-mt" @click="clearAllFilters">{{ t('home.clearAllFilters') }}</button>
         </div>
       </div>
       
@@ -249,7 +249,7 @@
       
       <div v-if="hasMore" class="load-more-container">
         <button @click="loadMore" class="std-chip load-more-btn">
-          Load More
+          {{ t('home.loadMore') }}
         </button>
       </div>
     </div>

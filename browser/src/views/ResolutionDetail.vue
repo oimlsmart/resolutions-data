@@ -8,7 +8,7 @@
     <!-- Back link -->
     <button @click="$router.back()" class="std-page__back back-link animate-up" style="--nth: 1">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-      Back to results
+      {{ t('resolution.back') }}
     </button>
 
     <!-- Language toggle (only when both EN and FR are available) -->
@@ -34,12 +34,12 @@
     <!-- Header -->
     <header class="std-page__header res-detail-header animate-up" style="--nth: 2">
       <div class="std-page__meta res-detail-meta">
-        <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">Acclamation</span>
+        <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">{{ t('resolution.acclamation') }}</span>
         <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.identifier || resolution.id }}</span>
-        
-        <router-link 
-          v-if="resolution.source_file" 
-          :to="{ name: 'meeting-detail', params: { sourceFile: resolution.source_file } }" 
+
+        <router-link
+          v-if="resolution.source_file"
+          :to="{ name: 'meeting-detail', params: { sourceFile: resolution.source_file } }"
           class="meeting-link-badge"
         >
           <svg class="meeting-link-badge__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -53,13 +53,13 @@
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
         </router-link>
-        
+
         <span v-if="resolution.meeting_date" class="std-page__badge badge-date">{{ formatDate(resolution.meeting_date) }}</span>
         <span v-if="!resolution.is_acclamation" class="std-page__badge">
-          <template v-if="resolution.source_type === 'plenary'">Resolution</template>
-          <template v-else-if="resolution.source_type === 'ballot'">Ballot resolution</template>
-          <template v-else-if="resolution.source_type === '7372ma'">7372 MA resolution</template>
-          <template v-else>Resolution</template>
+          <template v-if="resolution.source_type === 'plenary'">{{ t('resolution.plenary') }}</template>
+          <template v-else-if="resolution.source_type === 'ballot'">{{ t('resolution.ballotResolution') }}</template>
+          <template v-else-if="resolution.source_type === '7372ma'">{{ t('resolution.ma7372Resolution') }}</template>
+          <template v-else>{{ t('resolution.plenary') }}</template>
         </span>
         <a v-if="resolution.group_id" :href="`/groups/${resolution.group_id}/`" class="std-page__badge std-page__badge--link badge-group">{{ resolution.group_id.toUpperCase() }}</a>
       </div>
@@ -78,7 +78,7 @@
       <button
         @click="copyUrn(resolution.doi)"
         class="urn-copy-btn"
-        :aria-label="copied ? 'Copied' : 'Copy DOI'"
+        :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyDoi')"
       >
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -93,7 +93,7 @@
         v-if="resolution.urn"
         @click="copyUrn(resolution.urn)"
         class="urn-copy-btn"
-        :aria-label="copied ? 'Copied' : 'Copy URN'"
+        :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyUrn')"
       >
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -136,7 +136,7 @@
             <template v-if="act.dates && act.dates.length > 0">
               <div class="res-detail-dates">
                 <span v-for="(d, didx) in act.dates" :key="didx" class="res-detail-date">
-                  Effective: {{ d.start }}<template v-if="d.end"> &ndash; {{ d.end }}</template>
+                  {{ interpolate(t('resolution.effectiveLabel'), { date: d.start }) }}<template v-if="d.end"> &ndash; {{ d.end }}</template>
                 </span>
               </div>
             </template>
@@ -145,7 +145,7 @@
       </section>
 
       <section v-if="resolution.approvals && resolution.approvals.length > 0" class="std-page__section animate-up" style="--nth: 7">
-        <h2 class="std-page__section-heading res-detail-section-title">Approval</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.approval') }}</h2>
         <div class="std-page__body">
           <div v-for="(app, idx) in resolution.approvals" :key="idx" class="approval-panel" :class="{ 'mt-4': idx > 0 }">
             <p class="approval-text">
@@ -157,7 +157,7 @@
       </section>
 
       <section v-if="resolution.categories && resolution.categories.length > 0" class="std-page__section animate-up" style="--nth: 8">
-        <h2 class="std-page__section-heading res-detail-section-title">Categories</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.categories') }}</h2>
         <div class="categories-list">
           <span v-for="(cat, idx) in resolution.categories" :key="idx" class="std-page__badge">{{ cat }}</span>
         </div>
@@ -188,7 +188,7 @@
       </section>
 
       <section v-if="relatedResolutions.length > 0" class="std-page__section animate-up" style="--nth: 9">
-        <h2 class="std-page__section-heading res-detail-section-title">Related Resolutions</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.related') }}</h2>
         <div class="related-list">
           <router-link 
             v-for="r in relatedResolutions" 
@@ -200,7 +200,7 @@
               <span class="related-id">{{ r.identifier || r.id }}</span>
               <span class="related-date">{{ formatDate(r.meeting_date) }}</span>
             </div>
-            <div class="related-title">{{ r.title || 'Resolution ' + (r.identifier || r.id) }}</div>
+            <div class="related-title">{{ r.title || interpolate(t('resolution.fallbackTitle'), { id: r.identifier || r.id }) }}</div>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
@@ -209,27 +209,27 @@
       </section>
 
       <!-- Prev / Next Navigation -->
-      <nav class="res-navigation animate-up" style="--nth: 10" aria-label="Resolution navigation">
-        <router-link 
-          v-if="prevResolution" 
+      <nav class="res-navigation animate-up" style="--nth: 10" :aria-label="t('resolution.navigationAriaLabel')">
+        <router-link
+          v-if="prevResolution"
           :to="{ name: 'resolution-detail', params: { id: prevResolution.id } }"
           class="res-nav-card res-nav-card--prev"
         >
           <span class="res-nav-label">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            Previous
+            {{ t('resolution.previous') }}
           </span>
           <span class="res-nav-title">{{ prevResolution.title || prevResolution.id }}</span>
         </router-link>
         <div v-else class="res-nav-empty"></div>
 
-        <router-link 
-          v-if="nextResolution" 
+        <router-link
+          v-if="nextResolution"
           :to="{ name: 'resolution-detail', params: { id: nextResolution.id } }"
           class="res-nav-card res-nav-card--next"
         >
           <span class="res-nav-label">
-            Next
+            {{ t('resolution.next') }}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </span>
           <span class="res-nav-title">{{ nextResolution.title || nextResolution.id }}</span>
@@ -263,21 +263,21 @@
   <div v-else class="res-not-found">
     <div class="empty-state">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      <h3>Resolution not found</h3>
-      <p>The resolution you requested could not be found or does not exist.</p>
-      
+      <h3>{{ t('resolution.notFound') }}</h3>
+      <p>{{ t('resolution.notFoundHint') }}</p>
+
       <form @submit.prevent="submitSearch" class="not-found-search">
-        <input 
-          type="search" 
-          v-model="searchInput" 
-          placeholder="Search for resolutions..." 
+        <input
+          type="search"
+          v-model="searchInput"
+          :placeholder="t('resolution.notFoundSearchPlaceholder')"
           class="not-found-input"
         >
-        <button type="submit" class="not-found-submit">Search</button>
+        <button type="submit" class="not-found-submit">{{ t('resolution.notFoundSearchBtn') }}</button>
       </form>
-      
+
       <div class="not-found-actions">
-        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">Back to Home</router-link>
+        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">{{ t('resolution.notFoundBack') }}</router-link>
       </div>
     </div>
   </div>
@@ -288,6 +288,7 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useResolutions } from '../composables/useResolutions'
 import { useI18n } from '../composables/useI18n'
+import { interpolate } from '../data/translations'
 import type { Resolution } from '../types/resolution'
 import { useMeetings } from '../composables/useMeetings'
 import { asciidocify } from '../utils/asciidoc'

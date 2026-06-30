@@ -20,8 +20,8 @@
     </div>
     <div v-else-if="!meeting" class="empty-state">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      <h3>Meeting not found</h3>
-      <p>The meeting you are looking for does not exist.</p>
+      <h3>{{ t('meetings.notFound') }}</h3>
+      <p>{{ t('meetings.notFoundHint') }}</p>
       <router-link :to="{ name: 'meetings' }" class="std-chip btn-mt link-no-ul">{{ t('meetings.back') }}</router-link>
     </div>
     <template v-else>
@@ -50,7 +50,7 @@
           <button
             @click="copyUrn(meetingDoi)"
             class="meeting-urn-copy"
-            :aria-label="meetingCopied ? 'Copied' : 'Copy DOI'"
+            :aria-label="meetingCopied ? t('clipboard.copied') : t('clipboard.copyDoi')"
           >
             <svg v-if="!meetingCopied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -64,7 +64,7 @@
           <button 
             @click="copyUrn(meetingUrn)" 
             class="meeting-urn-copy"
-            :aria-label="meetingCopied ? 'Copied' : 'Copy URN'"
+            :aria-label="meetingCopied ? t('clipboard.copied') : t('clipboard.copyUrn')"
           >
             <svg v-if="!meetingCopied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>

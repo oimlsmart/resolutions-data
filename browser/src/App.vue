@@ -67,9 +67,9 @@
 
     <!-- Mobile Menu -->
     <div v-show="isMobileMenuOpen" class="mobile-menu" :class="{ 'mobile-menu--open': isMobileMenuOpen }">
-      <router-link :to="{ name: 'home' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.resolutions') }}</router-link>
-      <router-link :to="{ name: 'meetings' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.meetings') }}</router-link>
-      <router-link :to="{ name: 'about' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.about') }}</router-link>
+      <router-link :to="{ name: 'home' }" class="mobile-menu__link" active-class="active" @click="isMobileMenuOpen = false">{{ t('nav.resolutions') }}</router-link>
+      <router-link :to="{ name: 'meetings' }" class="mobile-menu__link" active-class="active" @click="isMobileMenuOpen = false">{{ t('nav.meetings') }}</router-link>
+      <router-link :to="{ name: 'about' }" class="mobile-menu__link" active-class="active" @click="isMobileMenuOpen = false">{{ t('nav.about') }}</router-link>
       
       <span class="mobile-menu__section-title">External Links</span>
       <a :href="committee.links.committeeSite" target="_blank" rel="noopener noreferrer" class="mobile-menu__link">OIML Members</a>
@@ -113,9 +113,9 @@
         <div>
           <h4 class="site-footer__heading">{{ t('footer.explore') }}</h4>
           <ul class="site-footer__links">
-            <li><router-link :to="{ name: 'home' }" class="site-footer__link">Resolutions</router-link></li>
-            <li><router-link :to="{ name: 'meetings' }" class="site-footer__link">Meetings</router-link></li>
-            <li><router-link :to="{ name: 'about' }" class="site-footer__link">About</router-link></li>
+            <li><router-link :to="{ name: 'home' }" class="site-footer__link">{{ t('nav.resolutions') }}</router-link></li>
+            <li><router-link :to="{ name: 'meetings' }" class="site-footer__link">{{ t('nav.meetings') }}</router-link></li>
+            <li><router-link :to="{ name: 'about' }" class="site-footer__link">{{ t('nav.about') }}</router-link></li>
           </ul>
         </div>
         

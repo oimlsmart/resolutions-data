@@ -32,13 +32,13 @@
           <path d="m21 21-4.35-4.35"/>
         </svg>
         <input 
-          type="search" 
-          v-model="searchQuery" 
-          class="std-filter__search" 
-          :placeholder="t('meetings.searchPlaceholder')" 
-          autocomplete="off" 
-          spellcheck="false" 
-          aria-label="Search meetings" 
+          type="search"
+          v-model="searchQuery"
+          class="std-filter__search"
+          :placeholder="t('meetings.searchPlaceholder')"
+          autocomplete="off"
+          spellcheck="false"
+          :aria-label="t('meetings.searchAriaLabel')"
         />
       </div>
       <div class="std-filter__controls">
@@ -92,23 +92,23 @@
           <span class="legend-size-small"></span>
           <span class="legend-size-medium"></span>
           <span class="legend-size-large"></span>
-          <span class="legend-size-label">Node size = resolution count</span>
+          <span class="legend-size-label">{{ t('meetings.legendNodeSize') }}</span>
         </div>
         <div class="legend-item">
           <span class="legend-flag-example">🇯🇵</span>
-          <span>Host country</span>
+          <span>{{ t('meetings.legendHostLabel') }}</span>
         </div>
         <div class="legend-item">
           <span class="legend-flag-example">🌐</span>
-          <span>Virtual</span>
+          <span>{{ t('meetings.legendVirtualLabel') }}</span>
         </div>
       </div>
 
       <div v-if="filteredMeetings.length === 0" class="empty-state">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <h3>No meetings found</h3>
-        <p>Try adjusting your search or year filter.</p>
-        <button class="std-chip btn-mt" @click="searchQuery=''; selectedYear=''; selectedCountry=''">Clear filters</button>
+        <h3>{{ t('meetings.noMeetings') }}</h3>
+        <p>{{ t('meetings.noMeetingsHint') }}</p>
+        <button class="std-chip btn-mt" @click="searchQuery=''; selectedYear=''; selectedCountry=''">{{ t('meetings.clearFilters') }}</button>
       </div>
       
       <div v-else class="body-type-list">
