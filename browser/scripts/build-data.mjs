@@ -6,7 +6,6 @@ import {
   buildResolutionRecord,
   buildMeetingDoi,
   bodyTypeFromSourceFile,
-  pickLocalizable,
   sortResolutions,
 } from './lib/transforms.mjs';
 
@@ -41,9 +40,6 @@ function main() {
 
     if (!parsed || !parsed.resolutions) continue;
 
-    // One YAML per meeting (TODO.complete/13). The file slug carries
-    // no language suffix anymore — languages live inside the file as
-    // per-row tags and per-language `source_urls[]` entries.
     const source_file = file.replace(/\.ya?ml$/, '');
     const metadata = parsed.metadata || {}
 
@@ -52,14 +48,14 @@ function main() {
       const dateRange = dates[0] || {}
       const meetingDate = dateRange.start || ''
       const year = meetingDate ? meetingDate.substring(0, 4) : ''
-      const sourceUrls = metadata.source_urls || {}
-      const langs = Array.from(new Set(sourceUrls.map(u => u && u.lang).filter(Boolean)))
+      const sourceUrls = metadata.source_urls || []
+      const titleLocalized = metadata.title_localized || []
+      const langs = Array.from(new Set(sourceUrls.map(u => u && u.language_code).filter(Boolean)))
 
       meetingsMap.set(source_file, {
         source_file,
-        source_title: pickLocalizable(metadata.title, 'en'),
-        source_title_en: pickLocalizable(metadata.title, 'en'),
-        source_title_fr: pickLocalizable(metadata.title, 'fr'),
+        source_title: metadata.title || '',
+        title_localized: titleLocalized,
         meeting_date: meetingDate,
         date_start: dateRange.start || '',
         date_end: dateRange.end || '',
@@ -71,21 +67,23 @@ function main() {
         body_type: bodyTypeFromSourceFile(source_file),
         languages: langs,
         source_urls: sourceUrls,
-        default_source_url: (sourceUrls.find(u => u.lang === 'en') || sourceUrls[0] || {}).ref || '',
+        default_source_url: (sourceUrls.find(u => u.language_code === 'eng') || sourceUrls[0] || {}).ref || '',
         doi: buildMeetingDoi(metadata, source_file),
         resolution_count: 0,
       })
     }
 
     for (const res of parsed.resolutions) {
-      const lang = res.language || ''
-      const langUrl = ((metadata.source_urls || []).find(u => u && u.lang === lang) || {}).ref || ''
-      const record = buildResolutionRecord(res, source_file, metadata, {
-        defaultLanguage: lang,
-        sourceUrl: langUrl,
-      })
-      allResolutions.push(record)
-      meetingsMap.get(source_file).resolution_count++
+      // Each resolution carries multiple localizations; flatten one
+      // JSON row per (resolution, localization).
+      const localizations = res.localizations || []
+      for (const loc of localizations) {
+        const record = buildResolutionRecord(res, source_file, metadata, loc)
+        if (record) {
+          allResolutions.push(record)
+          meetingsMap.get(source_file).resolution_count++
+        }
+      }
     }
   }
 

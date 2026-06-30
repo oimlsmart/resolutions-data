@@ -1,10 +1,12 @@
 // Build-time helpers shared by scripts/build-data.mjs.
 //
-// Localization: per TODO.complete/13, every text field is a
-// LocalizableValue — either a plain string (legacy/single-language
-// fixtures) or an array of {content, lang} records. `pickLocalizable`
-// returns the requested language's text, falling back through
-// lang → en → first available → ''.
+// Localization model (TODO.complete/14): each Resolution carries a
+// `localizations[]` array. Each Localization is monolingual — its
+// text fields (title, subject, message) are plain strings, not
+// Localizable arrays. The build pipeline flattens each
+// (Resolution, Localization) pair into one JSON record keyed by
+// (source_file, identifier, language_code) so the browser still
+// resolves a single row per resolution × language.
 
 export const URN_BASE = 'urn:oiml'
 
@@ -45,59 +47,33 @@ export function buildMeetingDoi(meta, sourceFile) {
   return `10.63493/meetings/${prefix}${num}`
 }
 
-// Pick the text in the requested language from a Localizable value.
-//   pickLocalizable('Hello', 'fr')               -> 'Hello'  (string treated as raw)
-//   pickLocalizable([{content, lang}], 'fr')     -> '...'
-//   pickLocalizable(undefined, 'fr')              -> ''
-export function pickLocalizable(value, lang = 'en', fallbackLang = 'en') {
-  if (value == null) return ''
-  if (typeof value === 'string') return value
-  if (!Array.isArray(value) || value.length === 0) return ''
-  for (const item of value) {
-    if (item && item.lang === lang && typeof item.content === 'string') return item.content
-  }
-  if (fallbackLang && fallbackLang !== lang) {
-    for (const item of value) {
-      if (item && item.lang === fallbackLang && typeof item.content === 'string') return item.content
-    }
-  }
-  const first = value.find(v => v && typeof v.content === 'string')
-  return first ? first.content : ''
-}
-
-/** Return an array of {content, lang} for the requested language fallbacks. */
-export function localizeRecord(value, lang = 'en') {
-  if (value == null) return null
-  if (typeof value === 'string') return [{ content: value, lang }]
-  if (!Array.isArray(value)) return null
-  return value.filter(v => v && typeof v.content === 'string')
-}
-
 export function isAcclamation(identifier) {
   return String(identifier).includes('-acclaim-')
 }
 
-/** Pull a piece of per-meeting metadata text in the row's language. */
-function meetingMeta(metadata, lang) {
-  const src = metadata.source_urls || []
-  const urlObj = src.find(u => u && u.lang === lang) || src.find(u => u && u.lang === 'en') || src[0]
-  return {
-    title: pickLocalizable(metadata.title, lang),
-    source_url: urlObj ? urlObj.ref : '',
-  }
+// Map ISO 639-3 (eng, fra) to ISO 639-1 (en, fr) so the browser
+// Intl machinery keeps working without code changes.
+const LANG_639_3_TO_1 = {
+  eng: 'en',
+  fra: 'fr',
+  deu: 'de',
+  spa: 'es',
+  jpn: 'ja',
+  rus: 'ru',
+  zho: 'zh',
+  ara: 'ar',
 }
 
-export function deriveDisplayTitle(res) {
-  if (!res) return ''
-  if (res.title_localized) return res.title_localized
-  if (res.title) return res.title
-  if (res.actions && res.actions.length > 0 && res.actions[0].message) {
-    return res.actions[0].message
-  }
-  return ''
+export function toLang6391(code) {
+  return LANG_639_3_TO_1[code] || code
 }
 
-export function buildResolutionRecord(res, sourceFile, metadata, options = {}) {
+/**
+ * Flatten one (Resolution, Localization) pair into a JSON record.
+ * Returns null when neither side carries usable content.
+ */
+export function buildResolutionRecord(res, sourceFile, metadata, localization) {
+  if (!res || !localization) return null
   const identifier = String(res.identifier)
   const acclamation = isAcclamation(identifier)
   const datesInfo = metadata.dates || []
@@ -107,52 +83,52 @@ export function buildResolutionRecord(res, sourceFile, metadata, options = {}) {
 
   // id is the URL-safe slug (slashes -> dashes) used for routing.
   const id = String(identifier).replace(/\//g, '-')
+  const language = toLang6391(localization.language_code || '')
 
-  // Per-row language comes from the YAML; the legacy per-file fallback
-  // remains so older fixtures still work.
-  const language = res.language || options.defaultLanguage || ''
+  // Find the matching source URL for this language.
+  const sourceUrls = metadata.source_urls || []
+  const langMatch = sourceUrls.find(u => u && u.language_code === localization.language_code)
+  const sourceUrl = (langMatch && langMatch.ref) || (sourceUrls[0] && sourceUrls[0].ref) || ''
 
-  // The matching per-language source PDF URL for this row.
-  const langMatch = (metadata.source_urls || []).find(u => u && u.lang === language)
-  const sourceUrl = (langMatch && langMatch.ref) || options.sourceUrl || ''
-
-  // Localized text extracted once per row. Older fixtures used plain
-  // strings; newer Localizable rows use {content, lang} arrays.
-  const titleText = pickLocalizable(res.title, language)
-  const subjectText = pickLocalizable(res.subject, language)
+  const actions = (localization.actions || []).map(a => ({
+    ...a,
+    message: a.message || '',
+  }))
+  const considerations = (localization.considerations || []).map(c => ({
+    ...c,
+    message: c.message || '',
+  }))
 
   return {
     id,
     identifier: String(identifier),
     language,
-    title: titleText,
-    title_localized: localizeRecord(res.title),
-    subject: subjectText,
-    subject_localized: localizeRecord(res.subject),
+    language_code: localization.language_code || '',
+    script: localization.script || 'Latn',
+    title: localization.title || '',
+    subject: localization.subject || '',
     year,
     venue: metadata.venue || '',
     city: metadata.city || '',
     country_code: metadata.country_code || '',
     source_file: sourceFile,
     meeting_urn: `${URN_BASE}:meeting:${sourceFile}`,
-    source_title: pickLocalizable(metadata.title, language),
-    source_title_en: pickLocalizable(metadata.title, 'en'),
-    source_title_fr: pickLocalizable(metadata.title, 'fr'),
+    source_title: metadata.title || '',
     meeting_date: meetingDate,
     meeting_date_end: dateEnd,
     agenda_item: res.agenda_item || '',
     source_url: sourceUrl,
     is_acclamation: acclamation,
-    actions: (res.actions || []).map(a => ({ ...a, message: pickLocalizable(a.message, language) || '' })),
-    considerations: (res.considerations || []).map(c => ({ ...c, message: pickLocalizable(c.message, language) || '', subject: pickLocalizable(c.subject, language) || '' })),
-    approvals: res.approvals || [],
+    actions,
+    considerations,
+    approvals: localization.approvals || res.approvals || [],
     dates: res.dates || [],
     doi: res.doi || '',
     urn: res.urn || '',
     snippet: normalizeSnippet(
-      ((res.actions && res.actions.length > 0) ? pickLocalizable(res.actions[0].message, language) : '') ||
-      ((res.considerations && res.considerations.length > 0) ? pickLocalizable(res.considerations[0].message, language) : '') ||
-      titleText
+      (actions[0] && actions[0].message) ||
+      (considerations[0] && considerations[0].message) ||
+      (localization.title || '')
     ),
   }
 }
@@ -166,9 +142,9 @@ export function sortResolutions(a, b) {
   if (!aIsAcc && !bIsAcc) {
     const aNum = parseFloat(a.id)
     const bNum = parseFloat(b.id)
-    if (!isNaN(aNum) && !bNum) return bNum - aNum
+    if (!isNaN(aNum) && !isNaN(bNum)) return bNum - aNum
     return (a.id || '').localeCompare(b.id)
   }
-  if (aIsAcc !== aIsAcc) return aIsAcc ? 1 : -1
+  if (aIsAcc !== bIsAcc) return aIsAcc ? 1 : -1
   return (a.id || '').localeCompare(b.id)
 }

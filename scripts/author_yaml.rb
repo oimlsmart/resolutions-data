@@ -196,7 +196,11 @@ module ResolutionsData
     end
 
     def self.emit_meeting(meeting_slug, meeting_sources, stats, pending)
-      grouped = []
+      # Parsed resolutions, grouped by canonical identifier. Each value
+      # is a hash of language_code -> parsed-resolution-hash so we can
+      # merge EN + FR into a single Resolution with multiple
+      # localizations.
+      by_identifier = {}
       titles_by_lang = {}
       meeting_sources.each do |src|
         md_slug = src["slug"]
@@ -218,40 +222,57 @@ module ResolutionsData
                      parse_with_fallback(md, src, :en)
                    end
 
-        # Stamp every row with its source PDF's language so duplicates can
-        # be detected correctly across the EN and FR halves.
-        lang_stamp = (src["lang"] == "fr" ? "fr" : "en")
-        per_lang.each { |r| r["language"] = lang_stamp }
-        grouped.concat(per_lang)
-        stats[:resolutions] += per_lang.size
-        titles_by_lang[lang_stamp.to_sym] ||= src["title"].to_s
-      end
-
-      # Drop repeated (language, identifier) duplicates within the meeting.
-      seen = {}
-      unique_resolutions = []
-      grouped.each do |r|
-        key = [r["language"], r["identifier"]]
-        if seen[key]
-          pending << "#{meeting_slug}: duplicate #{r['language']} #{r['identifier']}"
-          next
+        lang_639_3 = (src["lang"] == "fr" ? "fra" : "eng")
+        per_lang.each do |r|
+          r["language_code"] = lang_639_3
+          r["script"] = "Latn"
+          id_key = r["identifier"].to_s
+          (by_identifier[id_key] ||= {})[lang_639_3] = r
         end
-        seen[key] = true
-        unique_resolutions << r
+        stats[:resolutions] += per_lang.size
+        titles_by_lang[lang_639_3.to_sym] ||= src["title"].to_s
       end
 
-      if unique_resolutions.empty?
+      resolutions = by_identifier.values.map { |langs| build_resolution_with_localizations(langs) }
+      if resolutions.empty?
         pending << "#{meeting_slug}: parser found 0 resolutions (deferred)"
         return
       end
 
       stats[:emitted] += 1
       out_path = File.join(OUT_DIR, "#{meeting_slug}.yaml")
-      File.write(out_path, render_meeting_collection(meeting_slug, meeting_sources, unique_resolutions, titles_by_lang))
-      puts "  ok   #{meeting_slug}  (#{unique_resolutions.size} resolutions across #{meeting_sources.size} source PDF(s))"
+      File.write(out_path, render_meeting_collection(meeting_slug, meeting_sources, resolutions, titles_by_lang))
+      puts "  ok   #{meeting_slug}  (#{resolutions.size} resolutions across #{meeting_sources.size} source PDF(s))"
     rescue => e
       stats[:error] += 1
       pending << "#{meeting_slug}: ERROR #{e.class}: #{e.message}"
+    end
+
+    # Build a single Resolution with one Localization per available
+    # language. Language-agnostic fields (identifier, doi, urn,
+    # agenda_item, dates) come from the English row when present,
+    # otherwise from the first available language.
+    def self.build_resolution_with_localizations(by_lang)
+      primary = by_lang["eng"] || by_lang["fra"] || by_lang.values.first
+      localizations = by_lang.values.map do |r|
+        {
+          "language_code" => r["language_code"],
+          "script"        => r["script"] || "Latn",
+          "title"         => r["title"],
+          "subject"       => r["subject"],
+          "considerations"=> r["considerations"] || [],
+          "actions"       => r["actions"] || [],
+          "approvals"     => r["approvals"] || [],
+        }
+      end
+      {
+        "identifier"    => primary["identifier"],
+        "doi"           => primary["doi"],
+        "urn"           => primary["urn"],
+        "agenda_item"   => primary["agenda_item"],
+        "dates"         => primary["dates"] || [],
+        "localizations" => localizations,
+      }
     end
 
     # Try the formal parser, then the narrative parser, then return [].
@@ -263,20 +284,6 @@ module ResolutionsData
       resolutions
     end
 
-    # Render a per-meeting YAML with multilingual Localizable text. Each
-    # per-resolution row carries `language:`; every text field that
-    # supports translation emits the Localizable `[{content, lang}, ...]`
-    # form keyed by the language recorded on the row.
-    def self.localized(text_per_lang)
-      Array(text_per_lang).map { |lang, content| { "content" => content.to_s, "lang" => lang.to_s } }
-    end
-
-    def self.localized_yaml(text_per_lang, indent = "    ")
-      localized(text_per_lang).map do |h|
-        "  #{indent}- { content: \"#{h["content"].to_s.gsub('"', '\\"')}\", lang: #{h["lang"]} }"
-      end.join("\n")
-    end
-
     def self.render_meeting_collection(meeting_slug, meeting_sources, resolutions, titles_by_lang)
       primary     = meeting_sources.first
       kind        = primary["kind"]
@@ -286,8 +293,7 @@ module ResolutionsData
 
       en_default = "Resolutions of the #{number_to_ordinal(number, :en)} #{body} (#{primary['year']})"
       fr_default = "Résolutions #{number_to_ordinal(number, :fr)} #{body} (#{primary['year']})"
-      en_title = titles_by_lang[:en] || en_default
-      fr_title = titles_by_lang[:fr] || titles_by_lang[:en] || fr_default
+      canonical_title = titles_by_lang[:eng] || titles_by_lang[:fra] || en_default
 
       venue = primary["venue"]
       date_start = primary["date_start"] || "#{primary['year']}-01-01"
@@ -300,12 +306,12 @@ module ResolutionsData
 
       pdf_paths = meeting_sources.map { |s| source_pdf_path(s) }.join(" | ")
       url_lines = meeting_sources.map do |s|
-        lang = s["lang"] == "fr" ? "fr" : "en"
+        lang_639_3 = (s["lang"] == "fr" ? "fra" : "eng")
         ref  = s["url"].to_s.gsub('"', '\"')
-        "    - { ref: \"#{ref}\", format: pdf, lang: #{lang} }"
+        "    - { ref: \"#{ref}\", format: pdf, language_code: #{lang_639_3} }"
       end.join("\n")
 
-      available_langs = meeting_sources.map { |s| s["lang"].to_s }.uniq.reject(&:empty?).join(", ")
+      available_langs = meeting_sources.map { |s| (s["lang"] == "fr" ? "fra" : "eng") }.uniq.join(", ")
 
       <<~YAML
         # yaml-language-server: $schema=#{SCHEMA_URL}
@@ -314,8 +320,9 @@ module ResolutionsData
         # Languages: #{available_langs}
         ---
         metadata:
-          title:
-        #{localized_yaml({ en: en_title, fr: fr_title })}
+          title: #{yaml_escape(canonical_title)}
+          title_localized:
+        #{localized_title_block(titles_by_lang)}
         #{dates_yaml}
           venue: #{yaml_escape(venue)}
           city: #{yaml_escape(primary['city'].to_s)}
@@ -327,63 +334,59 @@ module ResolutionsData
         .concat(resolutions.map { |r| render_meeting_resolution(r) }.join("\n"))
     end
 
+    def self.localized_title_block(titles_by_lang)
+      rows = []
+      rows << "    - { language_code: eng, script: Latn, title: #{yaml_escape(titles_by_lang[:eng].to_s)} }" if titles_by_lang[:eng]
+      rows << "    - { language_code: fra, script: Latn, title: #{yaml_escape(titles_by_lang[:fra].to_s)} }" if titles_by_lang[:fra]
+      rows.join("\n")
+    end
+
     def self.render_meeting_resolution(r)
       indent = "  "
       lines = []
       lines << "#{indent}- identifier: #{yaml_escape(r['identifier'])}"
-      lines << "#{indent}  language: #{r['language']}" if r["language"]
-
-      # title as a per-row Localizable list. We only have the one
-      # language on the row, but emit as a single-entry list to keep
-      # the wire shape consistent with the schema.
-      if r["title"] && !r["title"].to_s.empty?
-        lines << "#{indent}  title:"
-        lines << "#{indent}    - { content: #{yaml_escape(r['title'])}, lang: #{r['language']} }"
-      end
-      if r["subject"]
-        subj_list = localized({ r['language'].to_s => r['subject'] })
-        lines << "#{indent}  subject:"
-        subj_list.each do |h|
-          lines << "#{indent}    - { content: #{yaml_escape(h['content'])}, lang: #{h['lang']} }"
+      lines << "#{indent}  doi: #{yaml_escape(r['doi'])}" if r["doi"]
+      lines << "#{indent}  urn: #{yaml_escape(r['urn'])}" if r["urn"]
+      lines << "#{indent}  agenda_item: '#{r['agenda_item']}'" if r["agenda_item"]
+      if r["dates"] && r["dates"].any?
+        lines << "#{indent}  dates:"
+        r["dates"].each do |d|
+          lines << "#{indent}  - start: '#{d['start']}'"
+          lines << "#{indent}    kind: #{d['kind']}"
         end
       end
-      if r["doi"]
-        lines << "#{indent}  doi: #{yaml_escape(r['doi'])}"
-      end
-      if r["urn"]
-        lines << "#{indent}  urn: #{yaml_escape(r['urn'])}"
-      end
-      lines << "#{indent}  dates:"
-      r["dates"].each do |d|
-        lines << "#{indent}  - start: '#{d['start']}'"
-        lines << "#{indent}    kind: #{d['kind']}"
-      end
-      lines << "#{indent}  agenda_item: '#{r['agenda_item']}'" if r["agenda_item"]
-      if r["considerations"] && r["considerations"].any?
-        lines << "#{indent}  considerations:"
-        r["considerations"].each { |c| lines << render_meeting_action_like(c, indent + "  ", r['language']) }
-      else
-        lines << "#{indent}  considerations: []"
-      end
-      if r["actions"] && r["actions"].any?
-        lines << "#{indent}  actions:"
-        r["actions"].each { |a| lines << render_meeting_action_like(a, indent + "  ", r['language']) }
-      else
-        lines << "#{indent}  actions: []"
+      lines << "#{indent}  localizations:"
+      r["localizations"].each do |loc|
+        lines << "#{indent}  - language_code: #{loc['language_code']}"
+        lines << "#{indent}    script: #{loc['script']}"
+        lines << "#{indent}    title: #{yaml_escape(loc['title'])}" if loc["title"]
+        lines << "#{indent}    subject: #{yaml_escape(loc['subject'])}" if loc["subject"]
+        if loc["considerations"] && loc["considerations"].any?
+          lines << "#{indent}    considerations:"
+          loc["considerations"].each { |c| lines << render_meeting_action_like(c, indent + "    ") }
+        end
+        if loc["actions"] && loc["actions"].any?
+          lines << "#{indent}    actions:"
+          loc["actions"].each { |a| lines << render_meeting_action_like(a, indent + "    ") }
+        end
       end
       lines.join("\n")
     end
 
-    def self.render_meeting_action_like(entry, indent, lang)
+    def self.render_meeting_action_like(entry, indent)
       out = []
       out << "#{indent}- type: #{entry['type']}"
       msg = entry['message'].to_s
-      out << "#{indent}  message:"
-      out << "#{indent}    - { content: #{yaml_escape(msg)}, lang: #{lang} }"
-      out << "#{indent}  dates:"
-      Array(entry['dates']).each do |d|
-        out << "#{indent}  - start: '#{d['start']}'"
-        out << "#{indent}    kind: #{d['kind']}"
+      out << "#{indent}  message: |"
+      msg.to_s.split("\n").each do |line|
+        out << "#{indent}    #{line}"
+      end
+      if entry['dates'] && entry['dates'].any?
+        out << "#{indent}  dates:"
+        entry['dates'].each do |d|
+          out << "#{indent}  - start: '#{d['start']}'"
+          out << "#{indent}    kind: #{d['kind']}"
+        end
       end
       out.join("\n")
     end
