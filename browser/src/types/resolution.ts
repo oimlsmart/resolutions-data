@@ -31,6 +31,7 @@ export interface Approval {
 export interface Resolution {
   id: string
   identifier?: string
+  doi?: string
   title: string
   subject: string
   year: string
@@ -51,12 +52,15 @@ export interface Resolution {
   meeting_urn?: string
 }
 
+export type MeetingBodyType = 'ciml' | 'conference'
+
 export interface Meeting {
   source_file: string
   source_title: string
   meeting_date: string
   venue: string
   year: string
+  body_type: MeetingBodyType
   resolution_count: number
   acclamation_count: number
 }

@@ -15,86 +15,185 @@ metadata:
   language: fr
 resolutions:
   - identifier: CIML/2010/1
+    doi: "10.63493/resolutions/ciml201001"
+    urn: "urn:oiml:doc:ciml:resolution:2010-01"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité approuve le compte rendu de la 44ème Réunion du CIML moyennant les"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        Le Comité approuve le compte rendu de la 44ème Réunion du CIML moyennant les modifications suivantes :
+        en page 30, quatrième paragraphe, sous 3.1, troisième ligne : ajouter : "et Asiatiques" entre "Européens" et "Pays" ;
+        en page 32, au troisième paragraphe en partant du bas, deuxième ligne, supprimer "le projet de".
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/2
+    doi: "10.63493/resolutions/ciml201002"
+    urn: "urn:oiml:doc:ciml:resolution:2010-02"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport oral présenté par son Président."
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport oral présenté par son Président.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/3
+    doi: "10.63493/resolutions/ciml201003"
+    urn: "urn:oiml:doc:ciml:resolution:2010-03"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport oral concernant le rapprochement avec le BIPM "
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport oral concernant le rapprochement avec le BIPM ; il demande au Président d'appliquer la Résolution n° 3 de la 44ème Réunion du CIML, de préparer un rapport intermédiaire avec l'aide de quelques Membres du CIML, afin de le présenter à la 46ème Réunion du CIML et en vue de prendre des décisions définitives en 2012, lors de la 14ème Conférence.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/4
+    doi: "10.63493/resolutions/ciml201004"
+    urn: "urn:oiml:doc:ciml:resolution:2010-04"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport sur les liaisons avec l'ILAC et l'IAF et"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport sur les liaisons avec l'ILAC et l'IAF et se félicite de cette excellente coopération.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
+    - type: charges
+      message: |
+        Le Comité charge le Bureau de poursuivre les activités communes avec I'ILAC et I'IAF, prenant ainsi en compte les futurs besoins de I'OIML en matière de systèmes d'acceptation et de certification.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/5
+    doi: "10.63493/resolutions/ciml201005"
+    urn: "urn:oiml:doc:ciml:resolution:2010-05"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport concernant les relations avec l'ISO et la CEI."
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport concernant les relations avec l'ISO et la CEI.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
+    - type: charges
+      message: |
+        Le Comité charge le Bureau de poursuivre la coopération avec l'ISO, et de mettre en place des relations de travail similaires avec la CEI, et de transmettre toutes informations pertinentes sur ces démarches aux Membres du CIML.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/6
+    doi: "10.63493/resolutions/ciml201006"
+    urn: "urn:oiml:doc:ciml:resolution:2010-06"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport sur les relations avec le Comité sur les"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport sur les relations avec le Comité sur les Obstacles Techniques au Commerce (TBT) de l'Organisation Mondiale du Commerce (OMC), et charge le Bureau d'entretenir des liens appropriés avec cette Organisation et de transmettre aux Membres de l'OIML toutes informations pertinentes relatives au TBT.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/7
+    doi: "10.63493/resolutions/ciml201007"
+    urn: "urn:oiml:doc:ciml:resolution:2010-07"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport concernant les relations avec le CODEX Alimentarius et"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport concernant les relations avec le CODEX Alimentarius et charge le Bureau de :
+        - poursuivre les travaux qui permettent d'assurer la cohérence entre les publications de l'OIML et celles du CODEX ;
+        - explorer des domaines supplémentaires de coopération avec le CODEX, autres que les préemballages ;
+        consulter les Membres du CIML avant de soumettre toute proposition au CODEX.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/8
+    doi: "10.63493/resolutions/ciml201008"
+    urn: "urn:oiml:doc:ciml:resolution:2010-08"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport sur les relations avec l'UNECE et charge le"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport sur les relations avec l'UNECE et charge le Bureau d'informer les Membres du CIML sur les progrès dans l'identification de domaines de coopération potentiels.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/9
+    doi: "10.63493/resolutions/ciml201009"
+    urn: "urn:oiml:doc:ciml:resolution:2010-09"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité remercie les représentants de BIPM, de l'ILAC/IAF, de la CEI et du"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: thanks
+      message: |
+        Le Comité remercie les représentants de BIPM, de l'ILAC/IAF, de la CEI et du CECIP pour leurs présentations et charge le Bureau de prendre en considération les attentes exprimées par ces organisations quant à la coordination des travaux des Comités et des Sous-comités techniques de I'OIML.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/10
+    doi: "10.63493/resolutions/ciml201010"
+    urn: "urn:oiml:doc:ciml:resolution:2010-10"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note des conclusions de la Table Ronde des Organisations Régionales et"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note des conclusions de la Table Ronde des Organisations Régionales et invite celles-ci à diffuser leurs informations sur les sites web des différents groupes de travail mis à leur disposition.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/11
+    doi: "10.63493/resolutions/ciml201011"
+    urn: "urn:oiml:doc:ciml:resolution:2010-11"
     subject: "Conférence OIML"
     title: "Décide qu'après l'élection du Vice-Président au cours de la présente réunion, le CIML décidera"
     dates:
@@ -127,6 +226,8 @@ resolutions:
       - start: '2010-09-21'
         kind: effective
   - identifier: CIML/2010/12
+    doi: "10.63493/resolutions/ciml201012"
+    urn: "urn:oiml:doc:ciml:resolution:2010-12"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -135,30 +236,61 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/13
+    doi: "10.63493/resolutions/ciml201013"
+    urn: "urn:oiml:doc:ciml:resolution:2010-13"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport sur les activités du Bureau et charge ce"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport sur les activités du Bureau et charge ce dernier de poursuivre la mise en service d'outils en ligne pour que les Organisations Régionales soient informées de manière réciproque, en particulier sur les problèmes propres aux Pays en Développement.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/14
+    doi: "10.63493/resolutions/ciml201014"
+    urn: "urn:oiml:doc:ciml:resolution:2010-14"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note de la confirmation des Publications OIML suivantes, par leurs Comités"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note de la confirmation des Publications OIML suivantes, par leurs Comités et SousComités Techniques respectifs :
+        - OIML R 92:1989 Humidimètres pour le bois - Méthodes et moyens de vérification: exigences générales.
+        - OIML R 127:1999 Systèmes de dosimétrie par film radiochromique pour le traitement par rayonnement ionisant de matériaux et de produits,
+        - OIML R 131:2001 Systèmes dosimétriques au polyméthylméthacrylate (PMMA) pour le traitement par rayonnements ionisants des matériaux et produits,
+        OIML R 132:2001 Systèmes dosimétriques RPE à l'alanine pour le traitement par rayonnements ionisants des matériaux et produits,
+        OIML R 133:2002 Thermomètres à liquide en verre.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/15
+    doi: "10.63493/resolutions/ciml201015"
+    urn: "urn:oiml:doc:ciml:resolution:2010-15"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité approuve l'organisation d'un Séminaire sur le thème de la Conformité au Type"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        Le Comité approuve l'organisation d'un Séminaire sur le thème de la Conformité au Type (CTT) et encourage vivement ses Membres à apporter leur contribution active à ce séminaire.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/16
+    doi: "10.63493/resolutions/ciml201016"
+    urn: "urn:oiml:doc:ciml:resolution:2010-16"
     subject: CIML
     title: "Prend note du rapport par le Bureau concernant le résultat du vote en ligne"
     dates:
@@ -179,14 +311,24 @@ resolutions:
       - start: '2010-09-21'
         kind: effective
   - identifier: CIML/2010/17
+    doi: "10.63493/resolutions/ciml201017"
+    urn: "urn:oiml:doc:ciml:resolution:2010-17"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité charge le Bureau de soumettre à l'approbation directe en ligne par le"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: charges
+      message: |
+        Le Comité charge le Bureau de soumettre à l'approbation directe en ligne par le CIML du Projet de Révision de la R 100 Spectromètres d'absorption atomique pour la mesure des polluants métalliques dans l'eau.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/18
+    doi: "10.63493/resolutions/ciml201018"
+    urn: "urn:oiml:doc:ciml:resolution:2010-18"
     subject: "Conférence OIML"
     title: "Demande au Secrétariat de l'OIML TC 3/SC 2 de préparer un nouveau Projet de"
     dates:
@@ -219,6 +361,8 @@ resolutions:
       - start: '2010-09-21'
         kind: effective
   - identifier: CIML/2010/19
+    doi: "10.63493/resolutions/ciml201019"
+    urn: "urn:oiml:doc:ciml:resolution:2010-19"
     subject: CIML
     title: "Décide qu'une telle prise de décision concernant les propositions doit être reportée à la"
     dates:
@@ -251,6 +395,8 @@ resolutions:
       - start: '2010-09-21'
         kind: effective
   - identifier: CIML/2010/20
+    doi: "10.63493/resolutions/ciml201020"
+    urn: "urn:oiml:doc:ciml:resolution:2010-20"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -259,6 +405,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/21
+    doi: "10.63493/resolutions/ciml201021"
+    urn: "urn:oiml:doc:ciml:resolution:2010-21"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -267,6 +415,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/22
+    doi: "10.63493/resolutions/ciml201022"
+    urn: "urn:oiml:doc:ciml:resolution:2010-22"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -275,14 +425,24 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/23
+    doi: "10.63493/resolutions/ciml201023"
+    urn: "urn:oiml:doc:ciml:resolution:2010-23"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité approuve le retrait du projet « p 2 » de l'OIML TC"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        Le Comité approuve le retrait du projet « p 2 » de l'OIML TC 11/SC 2 concernant les thermocouples normalisés.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/24
+    doi: "10.63493/resolutions/ciml201024"
+    urn: "urn:oiml:doc:ciml:resolution:2010-24"
     subject: CIML
     title: "Charge le Bureau de procéder à la consultation de l'ensemble des Membres du CIML"
     dates:
@@ -315,54 +475,114 @@ resolutions:
       - start: '2010-09-21'
         kind: effective
   - identifier: CIML/2010/25
+    doi: "10.63493/resolutions/ciml201025"
+    urn: "urn:oiml:doc:ciml:resolution:2010-25"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité approuve les comptes 2008 et 2009 et charge son Président de les"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        Le Comité approuve les comptes 2008 et 2009 et charge son Président de les présenter à la 14ème Conférence OIML.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/26
+    doi: "10.63493/resolutions/ciml201026"
+    urn: "urn:oiml:doc:ciml:resolution:2010-26"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité charge le Bureau de maintenir ses efforts d'amélioration vers une plus grande"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: charges
+      message: |
+        Le Comité charge le Bureau de maintenir ses efforts d'amélioration vers une plus grande efficacité en termes de finances et de gestion.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/27
+    doi: "10.63493/resolutions/ciml201027"
+    urn: "urn:oiml:doc:ciml:resolution:2010-27"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note du rapport concernant le système de retraite et des observations"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note du rapport concernant le système de retraite et des observations formulées par Mr. Peter Mason et par le Dr. Philippe Richard.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
+    - type: notes
+      message: |
+        Le Comité prend note que la réévaluation des actifs permet de couvrir bien plus que la valeur des droits acquis et qu'il n'y aura pas besoin de procéder à un nouvel appel à contribution aux Etats Membres pour faire face à cet engagement.
+        de mettre en œuvre les normes IPSAS pour l'exercice 2010, en enregistrant l'intégralité des droits acquis dans le passif de I'OIML et la valeur réévaluée des locaux du BIML dans l'actif de I'OIML;
+        de préparer une présentation des Exercices 2008 et 2009 conformes à ce principe, en vue de les présenter à la 14ème Conférence OIML ; et
+        - d'inclure, dans la révision du Règlement Financier de l'OIML, cette mise en œuvre des normes IPSAS, et de spécifier les règles et la périodecité de réévaluation des bâtiments de l'OIML dans l'actif de l'Organisation.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/28
+    doi: "10.63493/resolutions/ciml201028"
+    urn: "urn:oiml:doc:ciml:resolution:2010-28"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité élit Mr. Peter Mason (Grande-Bretagne) Président du CIML pour un mandat de"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: elects
+      message: |
+        Le Comité élit Mr. Peter Mason (Grande-Bretagne) Président du CIML pour un mandat de 6 ans.
+        Conformément aux règles définies dans la publication OIML B 14, celui-ci prendra ses fonctions à l'ouverture de la 46ème Réunion du CIML en 2011.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/28a
+    doi: "10.63493/resolutions/ciml201028a"
+    urn: "urn:oiml:doc:ciml:resolution:2010-28a"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité prend note des commentaires du Membre Français du CIML concernant l'utilisation du"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        Le Comité prend note des commentaires du Membre Français du CIML concernant l'utilisation du Français comme langue officielle de l'Organisation, et demande au Président d'accorder toute son attention à cette question.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/29
+    doi: "10.63493/resolutions/ciml201029"
+    urn: "urn:oiml:doc:ciml:resolution:2010-29"
     subject: "Conférence OIML"
-    title: (Untitled)
+    title: "Le Comité élit le Dr. Roman Schwartz (Allemagne) Vice-Président du CIML pour un mandat"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: elects
+      message: |
+        Le Comité élit le Dr. Roman Schwartz (Allemagne) Vice-Président du CIML pour un mandat de 6 ans.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
   - identifier: CIML/2010/30
+    doi: "10.63493/resolutions/ciml201030"
+    urn: "urn:oiml:doc:ciml:resolution:2010-30"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -371,6 +591,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/30a
+    doi: "10.63493/resolutions/ciml201030a"
+    urn: "urn:oiml:doc:ciml:resolution:2010-30a"
     subject: CIML
     title: "Elit le Dr. Grahame Harvey premier Vice-Président."
     dates:
@@ -392,6 +614,8 @@ resolutions:
       - start: '2010-09-21'
         kind: effective
   - identifier: CIML/2010/31
+    doi: "10.63493/resolutions/ciml201031"
+    urn: "urn:oiml:doc:ciml:resolution:2010-31"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -400,6 +624,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/32
+    doi: "10.63493/resolutions/ciml201032"
+    urn: "urn:oiml:doc:ciml:resolution:2010-32"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:
@@ -408,6 +634,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2010/33
+    doi: "10.63493/resolutions/ciml201033"
+    urn: "urn:oiml:doc:ciml:resolution:2010-33"
     subject: "Conférence OIML"
     title: (Untitled)
     dates:

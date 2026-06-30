@@ -285,3 +285,13 @@
   .resolution-card:hover { border-color: #99c2eb; }
   .dark .resolution-card:hover { border-color: rgb(51 133 214 / 0.3); }
 }
+
+
+/* DOI bar — same shape as urn-bar; the DOI value is a link. */
+.doi-bar .urn-value--link {
+  color: var(--color-blue-accent, #0061ad);
+  text-decoration: none;
+}
+.doi-bar .urn-value--link:hover {
+  text-decoration: underline;
+}

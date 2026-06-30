@@ -15,38 +15,76 @@ metadata:
   language: en
 resolutions:
   - identifier: CIML/2011/1
+    doi: "10.63493/resolutions/ciml201101"
+    urn: "urn:oiml:doc:ciml:resolution:2011-01"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee approves the minutes of the 45th CIML Meeting with the following modifications
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        The Committee approves the minutes of the 45th CIML Meeting with the following modifications:
+        - In 3.1.1, third paragraph on page 28 ("Mr. Issaev agreed ...”), fourth line: replace "Seville" with "Sèvres";
+        - In 3.1.2.5 (page 33), first line, delete "was";
+        - Under the heading of 8.1 (page 72), insert a sub-heading "8.1.1-8.1.3 Confirmation of publications" and in the first line, replace "8.1.1 to 8.1.4" with "8.1.1 to 8.1.3";
+        - 8.1.3 (page 73) to be renumbered "8.1.4".
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/2
+    doi: "10.63493/resolutions/ciml201102"
+    urn: "urn:oiml:doc:ciml:resolution:2011-02"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee notes the report given by its President.
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee notes the report given by its President.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/3
+    doi: "10.63493/resolutions/ciml201103"
+    urn: "urn:oiml:doc:ciml:resolution:2011-03"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee notes the general report given by the BIML Director and his report
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee notes the general report given by the BIML Director and his report on BIML staff matters and expresses its appreciation for the full and clear explanation of the improvements introduced in the operation of the Bureau since he took up his post.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/4
+    doi: "10.63493/resolutions/ciml201104"
+    urn: "urn:oiml:doc:ciml:resolution:2011-04"
     subject: OIML Conference
-    title: (Untitled)
+    title: "The Committee decides to renew the contract of Willem Kool, BIML Assistant Director, for"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: decides
+      message: |
+        The Committee decides to renew the contract of Willem Kool, BIML Assistant Director, for a five-year term from 1 January 2012.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/5
+    doi: "10.63493/resolutions/ciml201105"
+    urn: "urn:oiml:doc:ciml:resolution:2011-05"
     subject: CIML
     title: Instructs its President and the BIML Director to continue to work diligently to resolve
     dates:
@@ -68,6 +106,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/6
+    doi: "10.63493/resolutions/ciml201106"
+    urn: "urn:oiml:doc:ciml:resolution:2011-06"
     subject: CIML
     title: "Approves the 2010 accounts, and"
     dates:
@@ -100,6 +140,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/7
+    doi: "10.63493/resolutions/ciml201107"
+    urn: "urn:oiml:doc:ciml:resolution:2011-07"
     subject: CIML
     title: (Untitled)
     dates:
@@ -133,14 +175,24 @@ resolutions:
         kind: effective
     actions: []
   - identifier: CIML/2011/8
+    doi: "10.63493/resolutions/ciml201108"
+    urn: "urn:oiml:doc:ciml:resolution:2011-08"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee welcomes Zimbabwe and Georgia as new Corresponding Members.
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: welcomes
+      message: |
+        The Committee welcomes Zimbabwe and Georgia as new Corresponding Members.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/9
+    doi: "10.63493/resolutions/ciml201109"
+    urn: "urn:oiml:doc:ciml:resolution:2011-09"
     subject: CIML
     title: Notes the report of Eberhard Seiler as the Facilitator on Developing Country matters and
     dates:
@@ -156,6 +208,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/10
+    doi: "10.63493/resolutions/ciml201110"
+    urn: "urn:oiml:doc:ciml:resolution:2011-10"
     subject: CIML
     title: Approves the Memorandum of Understanding with the IEC
     dates:
@@ -176,6 +230,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/11
+    doi: "10.63493/resolutions/ciml201111"
+    urn: "urn:oiml:doc:ciml:resolution:2011-11"
     subject: CIML
     title: Welcomes the prospective establishment of a liaison with the Consumer Policy Committee of ISO
     dates:
@@ -196,14 +252,24 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/12
+    doi: "10.63493/resolutions/ciml201112"
+    urn: "urn:oiml:doc:ciml:resolution:2011-12"
     subject: OIML Conference
-    title: (Untitled)
+    title: "The Committee notes the reports of the BIPM, of ILAC and the IAF, and"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: notes
+      message: |
+        The Committee notes the reports of the BIPM, of ILAC and the IAF, and of CECIP on their liaison with the OIML and thanks their respective representatives for their presentations.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/13
+    doi: "10.63493/resolutions/ciml201113"
+    urn: "urn:oiml:doc:ciml:resolution:2011-13"
     subject: CIML
     title: Instructs the Bureau to pursue those recommendations and report on the progress at its
     dates:
@@ -226,6 +292,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/14
+    doi: "10.63493/resolutions/ciml201114"
+    urn: "urn:oiml:doc:ciml:resolution:2011-14"
     subject: CIML
     title: Acknowledges the new collaboration era at all levels between the OIML and the BIPM
     dates:
@@ -252,13 +320,23 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/15
+    doi: "10.63493/resolutions/ciml201115"
+    urn: "urn:oiml:doc:ciml:resolution:2011-15"
     subject: OIML Conference
-    title: Instructs the BIML Director to begin the preparation of a detailed work program to
+    title: "The Committee approves the revision of publication OIML B 15 OIML Strategy, with the"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
     actions:
+    - type: approves
+      message: |
+        The Committee approves the revision of publication OIML B 15 OIML Strategy, with the following modifications:
+        - in the mission statement, after "recognized" replace "and will" by "for all areas for which governments take responsibility, such as those which";
+        - in the second line under "objective 5" delete "developing", and
+      dates:
+      - start: '2011-10-11'
+        kind: effective
     - type: instructs
       message: |
         Instructs the BIML Director to begin the preparation of a detailed work program to implement the Strategy, using the framework of OIML B 15.
@@ -266,22 +344,43 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/16
+    doi: "10.63493/resolutions/ciml201116"
+    urn: "urn:oiml:doc:ciml:resolution:2011-16"
     subject: OIML Conference
-    title: (Untitled)
+    title: "The Committee approves the following Recommendation: - OIML R 35-2 Material measures of length"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        The Committee approves the following Recommendation:
+        - OIML R 35-2 Material measures of length for general use - Part 2: Test methods.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/17
+    doi: "10.63493/resolutions/ciml201117"
+    urn: "urn:oiml:doc:ciml:resolution:2011-17"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee instructs the BIML to submit the following Draft Recommendations to direct CIML
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: instructs
+      message: |
+        The Committee instructs the BIML to submit the following Draft Recommendations to direct CIML online approval after they have received sufficient support in the preliminary ballot:
+        - Draft Revision of OIML R 126 Evidential breath analyzers;
+        - Draft Revision of OIML R 137 (Parts 1 and 2) Gas meters.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/18
+    doi: "10.63493/resolutions/ciml201118"
+    urn: "urn:oiml:doc:ciml:resolution:2011-18"
     subject: OIML Conference
     title: (Untitled)
     dates:
@@ -290,6 +389,8 @@ resolutions:
     considerations: []
     actions: []
   - identifier: CIML/2011/19
+    doi: "10.63493/resolutions/ciml201119"
+    urn: "urn:oiml:doc:ciml:resolution:2011-19"
     subject: CIML
     title: "Approves the following Draft Basic Publications: - Revision of OIML B 3 OIML Basic"
     dates:
@@ -306,6 +407,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/20
+    doi: "10.63493/resolutions/ciml201120"
+    urn: "urn:oiml:doc:ciml:resolution:2011-20"
     subject: CIML
     title: "Decides that Issuing Participants may request the registration of Manufacturers' Testing Laboratorie…"
     dates:
@@ -332,6 +435,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/21
+    doi: "10.63493/resolutions/ciml201121"
+    urn: "urn:oiml:doc:ciml:resolution:2011-21"
     subject: CIML
     title: "Approves as a new work item for OIML TC 3/SC 5: - the amendment"
     dates:
@@ -360,6 +465,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/22
+    doi: "10.63493/resolutions/ciml201122"
+    urn: "urn:oiml:doc:ciml:resolution:2011-22"
     subject: CIML
     title: "Approves the establishment of a new Subcommittee of TC 3, to be titled \"Conformity"
     dates:
@@ -402,6 +509,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/23
+    doi: "10.63493/resolutions/ciml201123"
+    urn: "urn:oiml:doc:ciml:resolution:2011-23"
     subject: CIML
     title: "Approves, subject to re-titling the proposed \"working groups\" as \"Project Groups\" and other necessar…"
     dates:
@@ -431,6 +540,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/24
+    doi: "10.63493/resolutions/ciml201124"
+    urn: "urn:oiml:doc:ciml:resolution:2011-24"
     subject: CIML
     title: Instructs the BIML to monitor the correct implementation of this Resolution at all stages
     dates:
@@ -472,6 +583,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/25
+    doi: "10.63493/resolutions/ciml201125"
+    urn: "urn:oiml:doc:ciml:resolution:2011-25"
     subject: CIML
     title: Thanks Dr. Arnold Leitner for representing the OIML in the CCU (Consultative Committee of
     dates:
@@ -492,6 +605,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/26
+    doi: "10.63493/resolutions/ciml201126"
+    urn: "urn:oiml:doc:ciml:resolution:2011-26"
     subject: CIML
     title: "Resolves to request the 14th OIML Conference to approve the following interpretation, applicable to"
     dates:
@@ -523,6 +638,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/27
+    doi: "10.63493/resolutions/ciml201127"
+    urn: "urn:oiml:doc:ciml:resolution:2011-27"
     subject: CIML
     title: Instructs the BIML Director to review relevant past decisions and to draft a proposal
     dates:
@@ -549,6 +666,8 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/28
+    doi: "10.63493/resolutions/ciml201128"
+    urn: "urn:oiml:doc:ciml:resolution:2011-28"
     subject: OIML Conference
     title: Requests the 14th Conference to take account of this opinion in the budget for
     dates:
@@ -563,26 +682,52 @@ resolutions:
       - start: '2011-10-11'
         kind: effective
   - identifier: CIML/2011/29
+    doi: "10.63493/resolutions/ciml201129"
+    urn: "urn:oiml:doc:ciml:resolution:2011-29"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee approves the Terms of Reference for the Presidential Council and their publication
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: approves
+      message: |
+        The Committee approves the Terms of Reference for the Presidential Council and their publication as OIML Basic Publication B 16, with the following amendments:
+        - in the second bullet under "Composition of the Council", replace "represent" with "reflect"; and
+        - after "appointed" insert "in a personal capacity".
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/30
+    doi: "10.63493/resolutions/ciml201130"
+    urn: "urn:oiml:doc:ciml:resolution:2011-30"
     subject: OIML Conference
-    title: (Untitled)
+    title: "The Committee decides to award Prof. Dr. Lev Issaev, its former Member for the"
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: decides
+      message: |
+        The Committee decides to award Prof. Dr. Lev Issaev, its former Member for the Russian Federation, the title of Member of Honor, in recognition of his work for the OIML over a period of more than 30 years.
+      dates:
+      - start: '2011-10-11'
+        kind: effective
   - identifier: CIML/2011/31
+    doi: "10.63493/resolutions/ciml201131"
+    urn: "urn:oiml:doc:ciml:resolution:2011-31"
     subject: OIML Conference
-    title: (Untitled)
+    title: The Committee thanks Romania for its presentation on the venue for the 14th OIML
     dates:
     - start: '2011-10-11'
       kind: decision
     considerations: []
-    actions: []
+    actions:
+    - type: thanks
+      message: |
+        The Committee thanks Romania for its presentation on the venue for the 14th OIML Conference and the 47th CIML Meeting in 2012.
+      dates:
+      - start: '2011-10-11'
+        kind: effective

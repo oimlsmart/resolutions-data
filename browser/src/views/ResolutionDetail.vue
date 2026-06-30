@@ -51,13 +51,27 @@
       </p>
     </header>
 
+    <!-- DOI -->
+    <div v-if="resolution.doi" class="urn-bar doi-bar animate-up" style="--nth: 3">
+      <span class="urn-label">DOI</span>
+      <a :href="`https://doi.org/${resolution.doi}`" class="urn-value urn-value--link" target="_blank" rel="noopener noreferrer">{{ resolution.doi }}</a>
+      <button
+        @click="copyUrn(resolution.doi)"
+        class="urn-copy-btn"
+        :aria-label="copied ? 'Copied' : 'Copy DOI'"
+      >
+        <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+        <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
+      </button>
+    </div>
+
     <!-- URN Identifier -->
     <div v-if="resolution.urn" class="urn-bar animate-up" style="--nth: 3">
       <span class="urn-label">URN</span>
       <code class="urn-value">{{ resolution.urn }}</code>
-      <button 
-        v-if="resolution.urn" 
-        @click="copyUrn(resolution.urn)" 
+      <button
+        v-if="resolution.urn"
+        @click="copyUrn(resolution.urn)"
         class="urn-copy-btn"
         :aria-label="copied ? 'Copied' : 'Copy URN'"
       >
