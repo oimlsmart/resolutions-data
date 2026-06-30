@@ -102,7 +102,9 @@
 
 
 /* Body-type sections on the meetings index. CIML and Conference are
-   visually distinct: CIML uses brand blue, Conference uses teal. */
+   visually distinct: per-body-type colors come from the :style bindings
+   in Meetings.vue via the --mt-bg custom property (see
+   browser/src/data/meeting-types.yaml). */
 .body-type-list {
   display: flex;
   flex-direction: column;
@@ -110,14 +112,8 @@
   margin-top: 1.5rem;
 }
 .body-section {
-  border-left: 4px solid var(--color-slate-200, #e2e8f0);
+  border-left: 4px solid var(--mt-bg, var(--color-slate-200, #e2e8f0));
   padding-left: 1.25rem;
-}
-.body-section--ciml {
-  border-left-color: var(--color-brand-600, #004996);
-}
-.body-section--conference {
-  border-left-color: var(--color-teal, #024873);
 }
 .body-section__header {
   display: flex;
@@ -142,26 +138,22 @@
   letter-spacing: 0.06em;
   padding: 0.2rem 0.55rem;
   border-radius: 9999px;
-  color: white;
+  color: var(--mt-fg, white);
+  background: var(--mt-bg, var(--color-slate-400, #94a3b8));
 }
-.body-section__badge--ciml        { background: var(--color-brand-600, #004996); }
-.body-section__badge--conference  { background: var(--color-teal, #024873); }
 .body-section__count {
   font-size: 0.85rem;
   color: var(--color-slate-500, #64748b);
   font-weight: 500;
 }
 
-/* Timeline node — distinct fill per body type */
-.timeline-node--ciml {
-  background: var(--color-brand-600, #004996);
+/* Timeline node — fill follows the per-body-type --mt-bg set inline
+   (see browser/src/data/meeting-types.yaml). */
+.timeline-node {
+  background: var(--mt-bg, var(--color-slate-400, #94a3b8));
 }
-.timeline-node--conference {
-  background: var(--color-teal, #024873);
-}
-.timeline-entry--ciml:hover .timeline-year,
-.timeline-entry--conference:hover .timeline-year {
-  color: var(--color-brand-700, #003a78);
+.timeline-entry:hover .timeline-year {
+  color: var(--mt-accent, var(--color-brand-700, #003a78));
 }
 
 /* The decade sub-title is smaller now (h3 under the body-type h2). */

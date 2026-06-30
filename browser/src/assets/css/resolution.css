@@ -297,15 +297,13 @@
 }
 
 
-/* Body-type badges (CIML vs Conference). */
-.std-results__badge.badge-body--ciml {
-  background: var(--color-brand-600, #004996);
-  color: white;
-  border: none;
-}
-.std-results__badge.badge-body--conference {
-  background: var(--color-teal, #024873);
-  color: white;
+/* Body-type badges (CIML vs Conference). The bg/fg are bound from
+   meeting-types.yaml via :style on each badge — see
+   browser/src/data/meetingTypes.ts `mtStyle()`. Default fallback is a
+   neutral gray for any element without the data attribute. */
+.std-results__badge.badge-body {
+  color: var(--mt-fg, white);
+  background: var(--mt-bg, var(--color-slate-500, #64748b));
   border: none;
 }
 .meeting-doi-bar .meeting-urn-value--link {
@@ -314,7 +312,8 @@
 }
 .meeting-doi-bar .meeting-urn-value--link:hover { text-decoration: underline; }
 
-/* Inline body-type chip on the meetings timeline. */
+/* Inline body-type chip on the meetings timeline. Background follows
+   the per-body-type --mt-bg set inline (see meeting-types.yaml). */
 .timeline-meta .meta-body-type {
   font-size: 0.7rem;
   font-weight: 600;
@@ -322,10 +321,9 @@
   letter-spacing: 0.04em;
   padding: 0.1rem 0.45rem;
   border-radius: 9999px;
-  color: white;
+  color: var(--mt-fg, white);
+  background: var(--mt-bg, var(--color-slate-500, #64748b));
 }
-.timeline-meta .meta-body-type--ciml { background: var(--color-brand-600, #004996); }
-.timeline-meta .meta-body-type--conference { background: var(--color-teal, #024873); }
 
 
 /* Per-resolution language toggle. */

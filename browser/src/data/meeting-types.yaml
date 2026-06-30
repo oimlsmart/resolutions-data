@@ -1,0 +1,33 @@
+# Meeting body type table (CIML vs OIML Conference).
+# Editing colors or short chip labels: edit this file, not meetingTypes.ts.
+#
+# Field reference:
+#   id     : canonical body-type key (matches MeetingBodyType in
+#            browser/src/types/resolution.ts).
+#   short  : 3-5 letter chip label shown in section headers and badges.
+#            EN/FR pairs — pick the same label when no translation needed.
+#   bg     : primary fill (badges, timeline nodes, section borders).
+#   fg     : text on `bg`.
+#   accent : hover/active shade — applied to timeline-entry:hover year and
+#            any other interactive states.
+#
+# The CSS reads these via per-element custom properties (set from :style in
+# Meetings.vue / MeetingDetail.vue). Hover states are written in CSS as
+# `var(--mt-{bg|fg|accent})` and propagate from the element that sets them.
+meetingTypes:
+  ciml:
+    id: ciml
+    short:
+      en: CIML
+      fr: CIML
+    bg: '#004996'
+    fg: '#ffffff'
+    accent: '#003a78'
+  conference:
+    id: conference
+    short:
+      en: CONF
+      fr: CONF
+    bg: '#024873'
+    fg: '#ffffff'
+    accent: '#013a5e'

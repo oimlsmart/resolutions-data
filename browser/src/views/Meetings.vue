@@ -113,10 +113,10 @@
       
       <div v-else class="body-type-list">
         <!-- CIML Meetings -->
-        <section v-if="cimlMeetings.length" class="body-section body-section--ciml">
+        <section v-if="cimlMeetings.length" class="body-section" :style="mtStyle('ciml')">
           <header class="body-section__header">
             <h2 class="body-section__title">
-              <span class="body-section__badge body-section__badge--ciml">CIML</span>
+              <span class="body-section__badge">{{ getMeetingTypeShort('ciml', lang) }}</span>
               {{ t('meetings.bodyCiml') }}
             </h2>
             <span class="body-section__count">{{ cimlMeetings.reduce((s, d) => s + d.meetings.length, 0) }}</span>
@@ -132,9 +132,10 @@
                   v-for="m in decade.meetings"
                   :key="m.source_file"
                   :to="{ name: 'meeting-detail', params: { sourceFile: m.source_file } }"
-                  class="timeline-entry timeline-entry--ciml"
+                  class="timeline-entry"
+                  :style="mtStyle('ciml')"
                 >
-                  <span class="timeline-node timeline-node--ciml"
+                  <span class="timeline-node"
                     :class="{
                       'node--small': m.resolution_count <= 5,
                       'node--medium': m.resolution_count > 5 && m.resolution_count <= 15,
@@ -161,10 +162,10 @@
         </section>
 
         <!-- OIML Conference -->
-        <section v-if="conferenceMeetings.length" class="body-section body-section--conference">
+        <section v-if="conferenceMeetings.length" class="body-section" :style="mtStyle('conference')">
           <header class="body-section__header">
             <h2 class="body-section__title">
-              <span class="body-section__badge body-section__badge--conference">CONF</span>
+              <span class="body-section__badge">{{ getMeetingTypeShort('conference', lang) }}</span>
               {{ t('meetings.bodyConf') }}
             </h2>
             <span class="body-section__count">{{ conferenceMeetings.reduce((s, d) => s + d.meetings.length, 0) }}</span>
@@ -180,9 +181,10 @@
                   v-for="m in decade.meetings"
                   :key="m.source_file"
                   :to="{ name: 'meeting-detail', params: { sourceFile: m.source_file } }"
-                  class="timeline-entry timeline-entry--conference"
+                  class="timeline-entry"
+                  :style="mtStyle('conference')"
                 >
-                  <span class="timeline-node timeline-node--conference"
+                  <span class="timeline-node"
                     :class="{
                       'node--small': m.resolution_count <= 5,
                       'node--medium': m.resolution_count > 5 && m.resolution_count <= 15,
@@ -233,6 +235,7 @@ import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
+import { getMeetingTypeShort, mtStyle } from '../data/meetingTypes'
 import { formatDateShort } from '../utils/format'
 
 const router = useRouter()

@@ -32,7 +32,7 @@
         </router-link>
         
         <div class="header-badges">
-          <span class="std-results__badge" :class="`badge-body--${meeting.body_type}`">{{ meeting.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
+          <span class="std-results__badge badge-body" :style="mtStyle(meeting.body_type)">{{ meeting.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
           <span class="std-results__badge badge-year">{{ meeting.year }}</span>
           <span v-if="meeting.meeting_date" class="std-results__badge">{{ formatDate(meeting.meeting_date) }}</span>
         </div>
@@ -116,6 +116,7 @@ import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
 import { buildMeetingUrn } from '../utils/urn'
 import { useClipboard } from '../composables/useClipboard'
+import { mtStyle } from '../data/meetingTypes'
 
 const route = useRoute()
 const { getMeeting, getMeetingResolutions, isLoaded, loadData } = useMeetings()
