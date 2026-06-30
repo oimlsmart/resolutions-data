@@ -39,7 +39,7 @@
         
         <h1 class="meeting-detail__title">
           <span v-if="venueFlag" class="meeting-detail__flag">{{ venueFlag }}</span>
-          {{ venueForLang(meeting.venue, lang) || t('meetings.virtual') }}
+          {{ (meeting.city && meeting.country_code) ? venueForLang(meeting.city, meeting.country_code, lang) : (venueForLang(meeting.venue, lang) || t('meetings.virtual')) }}
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
 

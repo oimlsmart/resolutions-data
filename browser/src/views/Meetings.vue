@@ -144,7 +144,7 @@
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
                     <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                    {{ venueForLangFn(m.venue) || t('meetings.virtual') }}
+                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
@@ -192,7 +192,7 @@
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
                     <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                    {{ venueForLangFn(m.venue) || t('meetings.virtual') }}
+                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
@@ -245,7 +245,7 @@ const selectedYear = ref((route.query.year as string) || '')
 const selectedCountry = ref((route.query.country as string) || '')
 const selectedBodyType = ref((route.query.body as string) || '')
 const { t, lang } = useI18n()
-const venueForLangFn = (v: string) => venueForLang(v, lang.value)
+const venueForLangFn = (city: string, code: string) => venueForLang(city, code, lang.value)
 
 onMounted(() => {
   loadData()
