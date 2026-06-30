@@ -104,7 +104,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201806"
     urn: "urn:oiml:doc:ciml:resolution:2018-06"
     subject: CIML
-    title: (Untitled)
+    title: "Appoints \"LG Audits & Conseils\" as the independent chartered accountant of the Organization for"
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -112,12 +112,22 @@ resolutions:
     - type: having_regard_to
       message: |
         Having regard to article 21.4 of OIML B 8:2012 OIML Financial Regulations,
+      dates:
+      - start: '2018-10-09'
+        kind: effective
+    - type: following_recommendation
+      message: |
         Following the recommendation of the BIML Director,
+      dates:
+      - start: '2018-10-09'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints "LG Audits & Conseils" as the independent chartered accountant of the Organization for a four-year term from 1 January 2019.
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
   - identifier: CIML/2018/7
     doi: "10.63493/resolutions/ciml201807"
     urn: "urn:oiml:doc:ciml:resolution:2018-07"
@@ -836,7 +846,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201835"
     urn: "urn:oiml:doc:ciml:resolution:2018-35"
     subject: CIML
-    title: (Untitled)
+    title: Appoints Mr. Anthony Donnellan as Director Designate of the BIML with effect from 1
     dates:
     - start: '2018-10-09'
       kind: decision
@@ -868,11 +878,16 @@ resolutions:
     - type: considering
       message: |
         Considering the comments made by its Members,
+      dates:
+      - start: '2018-10-09'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr. Anthony Donnellan as Director Designate of the BIML with effect from 1 November 2018, and as Director of the BIML for a five-year term with effect from 1 January 2019.
       dates:
       - start: '2018-10-09'
         kind: effective
-    actions: []
   - identifier: CIML/2018/36
     doi: "10.63493/resolutions/ciml201836"
     urn: "urn:oiml:doc:ciml:resolution:2018-36"

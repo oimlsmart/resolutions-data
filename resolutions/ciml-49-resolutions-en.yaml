@@ -166,7 +166,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201407"
     urn: "urn:oiml:doc:ciml:resolution:2014-07"
     subject: CIML
-    title: (Untitled)
+    title: "Appoints \"LG Audits & Conseils\" as the independent chartered accountant of the Organization for"
     dates:
     - start: '2014-11-04'
       kind: decision
@@ -175,12 +175,22 @@ resolutions:
     - type: having_regard_to
       message: |
         Having regard to article 21.4 of OIML B 8:2012 OIML Financial regulations,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: following_recommendation
+      message: |
         Following the recommendation of the Director,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints "LG Audits & Conseils" as the independent chartered accountant of the Organization for a four-year term from 1 January 2015.
       dates:
       - start: '2014-11-04'
         kind: effective
-    actions: []
   - identifier: CIML/2014/8
     doi: "10.63493/resolutions/ciml201408"
     urn: "urn:oiml:doc:ciml:resolution:2014-08"

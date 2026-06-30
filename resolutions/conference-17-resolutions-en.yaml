@@ -179,7 +179,7 @@ resolutions:
     doi: "10.63493/resolutions/conf202507"
     urn: "urn:oiml:doc:conf:resolution:17.07"
     subject: OIML Conference
-    title: (Untitled)
+    title: Resolves
     dates:
     - start: '2025-10-14'
       kind: decision
@@ -212,6 +212,13 @@ resolutions:
     - type: considering
       message: |
         Considering that the total number of base contributory shares, taking into account the classification of Member States as reviewed in 2025, is 150 for the year 2026 and 161 for the years 2027, 2028 and 2029,
+      dates:
+      - start: '2025-10-14'
+        kind: effective
+    actions:
+    - type: resolves
+      message: |
+        Resolves:
         a) The overall amount of credits necessary for the 2026-2029 financial period shall be €12209489;
         b) The base contributory share (annual contribution for a Member State in Class 1 as defined in Article XXVI (1) of B 1:1968 OIML Convention) shall be €14 800 in each year of the 2026- 2029 financial period.
         c) This results in the following annual contributions for the financial period 2026-2029, for Member States classified according to Article XXVI (1) of B 1:1968 OIML Convention:
@@ -234,7 +241,6 @@ resolutions:
       dates:
       - start: '2025-10-14'
         kind: effective
-    actions: []
   - identifier: Conference/2025/08
     doi: "10.63493/resolutions/conf202508"
     urn: "urn:oiml:doc:conf:resolution:17.08"

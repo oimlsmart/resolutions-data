@@ -534,6 +534,11 @@ resolutions:
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors of recent editions, those who have already offered to be Guest Editors of future editions, and all the contributing authors, and
+      dates:
+      - start: '2025-10-13'
+        kind: effective
+    - type: confirms
+      message: |
         Confirms its continued support for the OIML Bulletin.
       dates:
       - start: '2025-10-13'
@@ -946,13 +951,22 @@ resolutions:
     doi: "10.63493/resolutions/ciml202542"
     urn: "urn:oiml:doc:ciml:resolution:2025-42"
     subject: CIML
-    title: (Untitled)
+    title: "Appoints - Dr Charles Ehrlich, and - Mrs Corinne Lagauterie as Members of Honour"
     dates:
     - start: '2025-10-13'
       kind: decision
     agenda_item: '15.3'
     considerations: []
-    actions: []
+    actions:
+    - type: appoints
+      message: |
+        Appoints
+        - Dr Charles Ehrlich, and
+        - Mrs Corinne Lagauterie
+        as Members of Honour of the Committee.
+      dates:
+      - start: '2025-10-13'
+        kind: effective
   - identifier: CIML/2025/43
     doi: "10.63493/resolutions/ciml202543"
     urn: "urn:oiml:doc:ciml:resolution:2025-43"

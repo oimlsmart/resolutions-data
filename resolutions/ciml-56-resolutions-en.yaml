@@ -111,7 +111,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml202105"
     urn: "urn:oiml:doc:ciml:resolution:2021-05"
     subject: CIML
-    title: (Untitled)
+    title: Confirmss its support for the CIML President to sign the final version of a
     dates:
     - start: '2021-10-19'
       kind: decision
@@ -121,16 +121,21 @@ resolutions:
       message: |
         Recalling its Resolution 2020/6,
         Welcoming the activities of the OIML-BIPM Joint Task Group in the field of digital transformation of metrological processes and activities,
+      dates:
+      - start: '2021-10-19'
+        kind: effective
+    actions:
+    - type: confirms
+      message: |
         Confirmss its support for the CIML President to sign the final version of a Joint Statement of Intent on digital transformation in international scientific and quality infrastructure (QI), which is intended to be also signed by other QI stakeholders, such as CODATA, IAF, IEC, ILAC, IMEKO, ISC, and ISO.
       dates:
       - start: '2021-10-19'
         kind: effective
-    actions: []
   - identifier: CIML/2021/06
     doi: "10.63493/resolutions/ciml202106"
     urn: "urn:oiml:doc:ciml:resolution:2021-06"
     subject: CIML
-    title: Requests the CIML President to report back on any proposals in due time.
+    title: "Confirms its support for the JTG to consider a possible bilateral OIML-BIPM MoU, and"
     dates:
     - start: '2021-10-19'
       kind: decision
@@ -145,11 +150,16 @@ resolutions:
     - type: noting
       message: |
         Noting the activities of the OIML-BIPM Joint Task Group (JTG) to explore opportunities for an enhanced cooperation of the two international metrology organisations,
-        Confirms its support for the JTG to consider a possible bilateral OIML-BIPM MoU, and
       dates:
       - start: '2021-10-19'
         kind: effective
     actions:
+    - type: confirms
+      message: |
+        Confirms its support for the JTG to consider a possible bilateral OIML-BIPM MoU, and
+      dates:
+      - start: '2021-10-19'
+        kind: effective
     - type: requests
       message: |
         Requests the CIML President to report back on any proposals in due time.

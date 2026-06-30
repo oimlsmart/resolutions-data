@@ -240,7 +240,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201711"
     urn: "urn:oiml:doc:ciml:resolution:2017-11"
     subject: CIML
-    title: "Notes the oral report on the activities of the Advisory Group, and Confirmsthe outcome"
+    title: "Notes the oral report on the activities of the Advisory Group, and"
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -255,6 +255,11 @@ resolutions:
     - type: notes
       message: |
         Notes the oral report on the activities of the Advisory Group, and
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+    - type: confirms
+      message: |
         Confirmsthe outcome of the Advisory Group meeting held on 9 October 2017 as presented by Mr. Peter Mason.
       dates:
       - start: '2017-10-10'
@@ -317,7 +322,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201715"
     urn: "urn:oiml:doc:ciml:resolution:2017-15"
     subject: CIML
-    title: (Untitled)
+    title: Appoints Mr. Peter Mason as the Vice-chairperson of the Advisory Group for a three-year
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -337,11 +342,16 @@ resolutions:
     - type: noting
       message: |
         Noting the comments made by its Members,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr. Peter Mason as the Vice-chairperson of the Advisory Group for a three-year term.
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
   - identifier: CIML/2017/16
     doi: "10.63493/resolutions/ciml201716"
     urn: "urn:oiml:doc:ciml:resolution:2017-16"
@@ -380,7 +390,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201717"
     urn: "urn:oiml:doc:ciml:resolution:2017-17"
     subject: CIML
-    title: "Requests that any future proposals for the development, revision or amendment of OIML Basic"
+    title: Confirms that the rules set out in OIML B6 shall only apply to the
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -394,11 +404,16 @@ resolutions:
     - type: noting
       message: |
         Noting the comments made by its Members on the note prepared by the convener of the Project Group,
-        Confirms that the rules set out in OIML B6 shall only apply to the development, revision or amendment of OIML Basic Publications if the CIML so decides for a particular Basic Publication,
       dates:
       - start: '2017-10-10'
         kind: effective
     actions:
+    - type: confirms
+      message: |
+        Confirms that the rules set out in OIML B6 shall only apply to the development, revision or amendment of OIML Basic Publications if the CIML so decides for a particular Basic Publication,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
     - type: requests
       message: |
         Requests that any future proposals for the development, revision or amendment of OIML Basic Publications should take the form of a project proposal submitted to the Committee for approval,
@@ -593,7 +608,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201722"
     urn: "urn:oiml:doc:ciml:resolution:2017-22"
     subject: CIML
-    title: (Untitled)
+    title: Appoints Mr. Cock Oosterman as MC Chairperson and Mr. Bill Loizides as MC Deputy
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -613,16 +628,21 @@ resolutions:
     - type: noting
       message: |
         Noting the comments made by its members,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr. Cock Oosterman as MC Chairperson and Mr. Bill Loizides as MC Deputy Chairperson.
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
   - identifier: CIML/2017/23
     doi: "10.63493/resolutions/ciml201723"
     urn: "urn:oiml:doc:ciml:resolution:2017-23"
     subject: CIML
-    title: (Untitled)
+    title: "Appoints Mrs. Corinne Lagauterie, Mr. Thomas Madzivhe, Mr. Sergey Golubev and Dr. Yukinobu Miki"
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -642,11 +662,16 @@ resolutions:
     - type: noting
       message: |
         Noting the comments made by its members,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mrs. Corinne Lagauterie, Mr. Thomas Madzivhe, Mr. Sergey Golubev and Dr. Yukinobu Miki as members of the Board of Appeal (BoA) and Dr. Roman Schwartz as BoA Chairperson.
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
   - identifier: CIML/2017/24
     doi: "10.63493/resolutions/ciml201724"
     urn: "urn:oiml:doc:ciml:resolution:2017-24"
@@ -780,7 +805,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201731"
     urn: "urn:oiml:doc:ciml:resolution:2017-31"
     subject: CIML
-    title: (Untitled)
+    title: Appoints Mr. Paul Dixon as BIML Assistant Director.
     dates:
     - start: '2017-10-10'
       kind: decision
@@ -800,11 +825,16 @@ resolutions:
     - type: noting
       message: |
         Noting the comments made by its Members,
+      dates:
+      - start: '2017-10-10'
+        kind: effective
+    actions:
+    - type: appoints
+      message: |
         Appoints Mr. Paul Dixon as BIML Assistant Director.
       dates:
       - start: '2017-10-10'
         kind: effective
-    actions: []
   - identifier: CIML/2017/32
     doi: "10.63493/resolutions/ciml201732"
     urn: "urn:oiml:doc:ciml:resolution:2017-32"

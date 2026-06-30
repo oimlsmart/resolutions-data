@@ -143,7 +143,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201107"
     urn: "urn:oiml:doc:ciml:resolution:2011-07"
     subject: CIML
-    title: (Untitled)
+    title: Resolves
     dates:
     - start: '2011-10-11'
       kind: decision
@@ -162,18 +162,30 @@ resolutions:
         c) the increased use of English as the working language of the Organization and consequently, the decrease in demand for translations into English, resulting in ever growing funds in the special account of the BIML Translation Center,
         d) that it is considered necessary to make certain OIML Publications available in both English and French,
         e) that, to increase the efficiency and effectiveness of the BIML, in particular regarding the dissemination of information to Members, it is desirable to make (historical) documents (Conference and Committee minutes and resolutions, OIML Bulletins, etc.) available in electronic format,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    actions:
+    - type: resolves
+      message: |
+        Resolves
         a) that the funds in the special account of the BIML Translation Center may be used, as necessary, for translation and interpretation activities that are not currently part of the normal operation of the Bureau, in particular:
         - the translation of documents (with particular priority to translating from English to French to reduce the backlog of Publications into French);
         - interpretation on an experimental basis at Conferences and Committee Meetings;
         - converting existing documents of interest to the work of the Organization (minutes and resolutions of past Conferences and Committee Meetings and other relevant documents) into a suitable electronic format;
         b) to decrease the base contribution for the BIML Translation Center to EUR 200,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    - type: instructs
+      message: |
+        Instructs the Bureau to
         a) continue to manage the BIML Translation Center, taking this Resolution into account,
         b) make translated and converted documents available to the Members in a suitable electronic format,
         c) report annually to the Committee on the functioning of the BIML Translation Center.
       dates:
       - start: '2011-10-11'
         kind: effective
-    actions: []
   - identifier: CIML/2011/8
     doi: "10.63493/resolutions/ciml201108"
     urn: "urn:oiml:doc:ciml:resolution:2011-08"
@@ -529,6 +541,11 @@ resolutions:
     - type: instructs
       message: |
         Instructs the Bureau to produce a guidance document no later than 1 December 2011 setting out the arrangements for implementation and to introduce the new arrangements from 1 January 2012 in an orderly way,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    - type: establishes
+      message: |
         Establishes an ad-hoc working group, chaired by the Second Vice-President, to consider improvements to OIML B 6-1 and OIML B 6-2, suggested by CIML Members in the light of the experience of operating the new procedures, and
       dates:
       - start: '2011-10-11'
@@ -543,7 +560,7 @@ resolutions:
     doi: "10.63493/resolutions/ciml201124"
     urn: "urn:oiml:doc:ciml:resolution:2011-24"
     subject: CIML
-    title: Instructs the BIML to monitor the correct implementation of this Resolution at all stages
+    title: Resolves
     dates:
     - start: '2011-10-11'
       kind: decision
@@ -569,13 +586,19 @@ resolutions:
     - type: considering
       message: |
         Considering the imminent completion of the revision of the International Vocabulary of Legal Metrology (VIML) by OIML TC 1,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
+    actions:
+    - type: resolves
+      message: |
+        Resolves
         a) that new, and revisions of existing OIML Recommendations and Documents should apply the terminology and definitions of the VIM and the VIML without amendment,
         b) that terms and definitions from international vocabularies from other fields (for instance statistics) may be adapted when the concept that they pertain to in legal metrology is different and that such conceptual differences should be explained in a note,
         c) that when, in OIML Publications other than Recommendations and Documents, terms and definitions are used that differ from those in the VIM and the VIML, these differences should be indicated in notes, as appropriate,
       dates:
       - start: '2011-10-11'
         kind: effective
-    actions:
     - type: instructs
       message: |
         Instructs the BIML to monitor the correct implementation of this Resolution at all stages of the preparation of OIML Publications.
@@ -673,7 +696,20 @@ resolutions:
     dates:
     - start: '2011-10-11'
       kind: decision
-    considerations: []
+    considerations:
+    - type: considering
+      message: |
+        Considering
+        - that the net revenue from the paid subscriptions for the OIML Bulletin is relatively small;
+        - that the OIML Bulletin is still an indispensible means of communication to the Members and other interested parties; and
+        - that the OIML Bulletin should be circulated to as wide an audience as possible,
+        Of the opinion that
+        - the OIML Bulletin should be rendered free of charge;
+        - electronic versions of all issues of the OIML Bulletin should be available for download on the OIML web site without restriction;
+        - printed copies of the OIML Bulletin should be provided only to OIML Member States and Corresponding Members,
+      dates:
+      - start: '2011-10-11'
+        kind: effective
     actions:
     - type: requests
       message: |

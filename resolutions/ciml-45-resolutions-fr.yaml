@@ -494,12 +494,30 @@ resolutions:
     doi: "10.63493/resolutions/ciml201026"
     urn: "urn:oiml:doc:ciml:resolution:2010-26"
     subject: "Conférence OIML"
-    title: "Le Comité charge le Bureau de maintenir ses efforts d'amélioration vers une plus grande"
+    title: "Le Comité prend note : - des informations fournies par le Directeur du BIML"
     dates:
     - start: '2010-09-21'
       kind: decision
     considerations: []
     actions:
+    - type: notes
+      message: |
+        Le Comité prend note :
+        - des informations fournies par le Directeur du BIML concernant le rapport de l'audit financier et de gestion réalisé en février 2010 ;
+        des mesures prises par le Bureau ; et
+        du Plan d'action proposé par le Bureau.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
+    - type: charges
+      message: |
+        Le Comité charge son Président :
+        - d'envoyer le rapport d'audit, ainsi que les commentaires du Directeur du BIML sur ce rapport, aux Membres du CIML,
+        - d'assurer le suivi de cette question, et
+        - d'en rendre compte lors de la 46ème Réunion du CIML.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
     - type: charges
       message: |
         Le Comité charge le Bureau de maintenir ses efforts d'amélioration vers une plus grande efficacité en termes de finances et de gestion.
@@ -525,6 +543,12 @@ resolutions:
     - type: notes
       message: |
         Le Comité prend note que la réévaluation des actifs permet de couvrir bien plus que la valeur des droits acquis et qu'il n'y aura pas besoin de procéder à un nouvel appel à contribution aux Etats Membres pour faire face à cet engagement.
+      dates:
+      - start: '2010-09-21'
+        kind: effective
+    - type: charges
+      message: |
+        Le Comité charge le Bureau :
         de mettre en œuvre les normes IPSAS pour l'exercice 2010, en enregistrant l'intégralité des droits acquis dans le passif de I'OIML et la valeur réévaluée des locaux du BIML dans l'actif de I'OIML;
         de préparer une présentation des Exercices 2008 et 2009 conformes à ce principe, en vue de les présenter à la 14ème Conférence OIML ; et
         - d'inclure, dans la révision du Règlement Financier de l'OIML, cette mise en œuvre des normes IPSAS, et de spécifier les règles et la périodecité de réévaluation des bâtiments de l'OIML dans l'actif de l'Organisation.
