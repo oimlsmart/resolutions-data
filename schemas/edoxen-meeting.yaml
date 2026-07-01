@@ -1,0 +1,356 @@
+---
+$schema: "http://json-schema.org/draft-07/schema#"
+$id: "https://github.com/edoxen/edoxen/schema/meeting.yaml"
+title: "Edoxen Meeting Schema"
+description: |
+  Schema for validating Edoxen Meeting/Agenda YAML files.
+
+  Mirrors the canonical LutaML information model in
+  https://github.com/edoxen/edoxen-model/tree/main/models (meeting*.lutaml,
+  agenda*.lutaml, etc.).
+
+  The root accepts either a single Meeting or a MeetingCollection.
+
+  Enum lists in this schema are kept in lockstep with
+  Edoxen::Enums::* (Meeting side) by
+  `spec/edoxen/schema_meeting_enum_sync_spec.rb`.
+type: object
+$ref: "#/$defs/Meeting"
+
+$defs:
+
+  # ====================================================================
+  # Reused from schema/edoxen.yaml (re-declared here so this file is
+  # self-contained — schema/meeting.yaml does not depend on
+  # schema/edoxen.yaml).
+  # ====================================================================
+
+  StructuredIdentifier:
+    type: object
+    description: "prefix + number identifier. A Meeting carries 1..*."
+    additionalProperties: false
+    required: [prefix, number]
+    properties:
+      prefix: { type: string }
+      number: { type: string }
+
+  SourceUrl:
+    type: object
+    description: "Per-language canonical source URL (PDF, page, register link)."
+    additionalProperties: false
+    required: [ref]
+    properties:
+      ref:          { type: string }
+      format:       { type: string }
+      language_code:
+        type: string
+        pattern: "^[a-z]{3}$"
+      kind:
+        $ref: "#/$defs/SourceUrlKind"
+
+  # ====================================================================
+  # Meeting-side primitive types.
+  # ====================================================================
+
+  DateRange:
+    type: object
+    description: "Start + end date pair for multi-day meetings."
+    additionalProperties: false
+    properties:
+      start:
+        type: string
+        format: date
+      end:
+        type: string
+        format: date
+
+  Location:
+    type: object
+    description: "Venue geography. Multi-venue meetings carry one Location per venue."
+    additionalProperties: false
+    properties:
+      name:    { type: string }
+      address: { type: string }
+      link:    { type: string }
+      phone:   { type: string }
+      note:    { type: string }
+      lat:     { type: number }
+      lon:     { type: number }
+
+  Person:
+    type: object
+    description: "Identity + role + affiliation + contact."
+    additionalProperties: false
+    properties:
+      name:        { type: string }
+      role:        { type: string }
+      affiliation: { type: string }
+      email:       { type: string }
+      phone:       { type: string }
+      orcid:       { type: string }
+
+  HostRef:
+    type: object
+    description: "Typed reference to an organization that hosts or co-organizes a meeting."
+    additionalProperties: false
+    required: [ref]
+    properties:
+      ref:    { type: string }
+      type:
+        $ref: "#/$defs/HostType"
+      role:   { type: string }
+      contact:
+        $ref: "#/$defs/Person"
+
+  ScheduleItem:
+    type: object
+    description: "One entry in the meeting timetable."
+    additionalProperties: false
+    properties:
+      date:
+        type: string
+        format: date
+      time:        { type: string }
+      event:       { type: string }
+      description: { type: string }
+      room:        { type: string }
+
+  Deadline:
+    type: object
+    description: "A time-bound requirement (registration, submission, etc.)."
+    additionalProperties: false
+    required: [date]
+    properties:
+      date:
+        type: string
+        format: date
+      description: { type: string }
+
+  Reference:
+    type: object
+    description: "Generic document reference (used by AgendaItem.references)."
+    additionalProperties: false
+    properties:
+      ref:   { type: string }
+      kind:  { type: string }
+      title: { type: string }
+
+  # ====================================================================
+  # Agenda side.
+  # ====================================================================
+
+  AgendaItem:
+    type: object
+    description: "One entry on an Agenda."
+    additionalProperties: false
+    properties:
+      label:       { type: string }
+      kind:
+        $ref: "#/$defs/AgendaItemKind"
+      title:       { type: string }
+      description: { type: string }
+      references:
+        type: array
+        items:
+          $ref: "#/$defs/Reference"
+      outcome:
+        $ref: "#/$defs/AgendaItemOutcome"
+      resolution_ref:
+        type: string
+        description: "URN of the resolution this item produced."
+
+  Agenda:
+    type: object
+    description: |
+      The business-order document of a Meeting. Versioned independently
+      of the Meeting via the `status` field (draft, final, amended).
+    additionalProperties: false
+    properties:
+      identifier:
+        type: array
+        items:
+          $ref: "#/$defs/StructuredIdentifier"
+      status:
+        $ref: "#/$defs/AgendaStatus"
+      source_doc: { type: string }
+      items:
+        type: array
+        items:
+          $ref: "#/$defs/AgendaItem"
+      opening_session:
+        $ref: "#/$defs/ScheduleItem"
+      closing_session:
+        $ref: "#/$defs/ScheduleItem"
+
+  # ====================================================================
+  # Meeting side.
+  # ====================================================================
+
+  MeetingRelation:
+    type: object
+    description: "Directed link between two meetings."
+    additionalProperties: false
+    required: [source, destination, type]
+    properties:
+      source:
+        $ref: "#/$defs/StructuredIdentifier"
+      destination:
+        $ref: "#/$defs/StructuredIdentifier"
+      type:
+        $ref: "#/$defs/MeetingRelationType"
+
+  MeetingLocalization:
+    type: object
+    description: "Per-language content for a Meeting."
+    additionalProperties: false
+    required: [language_code]
+    properties:
+      language_code:
+        type: string
+        pattern: "^[a-z]{3}$"
+      script:
+        type: string
+        pattern: "^[A-Z][a-z]{3}$"
+      title:          { type: string }
+      general_area:   { type: string }
+      practical_info: { type: string }
+
+  Meeting:
+    type: object
+    description: "A single Meeting (event)."
+    additionalProperties: false
+    required: [identifier, type]
+    properties:
+      identifier:
+        type: array
+        minItems: 1
+        items:
+          $ref: "#/$defs/StructuredIdentifier"
+      urn:        { type: string }
+      ordinal:    { type: integer }
+      type:
+        $ref: "#/$defs/MeetingType"
+      status:
+        $ref: "#/$defs/MeetingStatus"
+      year:       { type: integer }
+
+      date_range:
+        $ref: "#/$defs/DateRange"
+
+      committee:       { type: string }
+      committee_group: { type: string }
+
+      venues:
+        type: array
+        items:
+          $ref: "#/$defs/Location"
+      general_area:    { type: string }
+      city:            { type: string }
+      country_code:
+        type: string
+        pattern: "^[A-Z]{2}$"
+      virtual:         { type: boolean }
+
+      chair:     { $ref: "#/$defs/Person" }
+      secretary: { $ref: "#/$defs/Person" }
+      host:      { type: string }
+      hosts:
+        type: array
+        items:
+          $ref: "#/$defs/HostRef"
+
+      source_urls:
+        type: array
+        items:
+          $ref: "#/$defs/SourceUrl"
+      landing_url:      { type: string }
+      registration_url: { type: string }
+
+      agenda:
+        $ref: "#/$defs/Agenda"
+      schedule:
+        type: array
+        items:
+          $ref: "#/$defs/ScheduleItem"
+      deadlines:
+        type: array
+        items:
+          $ref: "#/$defs/Deadline"
+
+      localizations:
+        type: array
+        items:
+          $ref: "#/$defs/MeetingLocalization"
+      relations:
+        type: array
+        items:
+          $ref: "#/$defs/MeetingRelation"
+      resolution_refs:
+        type: array
+        items: { type: string }
+
+  MeetingCollectionMetadata:
+    type: object
+    description: "Display-level metadata for a MeetingCollection."
+    additionalProperties: false
+    properties:
+      title:  { type: string }
+      source: { type: string }
+
+  MeetingCollection:
+    type: object
+    description: "Top-level wrapper for many Meetings in one file."
+    additionalProperties: false
+    required: [meetings]
+    properties:
+      metadata:
+        $ref: "#/$defs/MeetingCollectionMetadata"
+      meetings:
+        type: array
+        items:
+          $ref: "#/$defs/Meeting"
+
+  # ====================================================================
+  # Enums. Each value-list must equal the matching Edoxen::Enums::*
+  # frozen array; spec/edoxen/schema_meeting_enum_sync_spec.rb enforces.
+  # ====================================================================
+
+  MeetingType:
+    type: string
+    description: "Edoxen::Enums::MEETING_TYPE."
+    enum: [plenary, working_group, task_group, ad_hoc, joint, conference_session]
+
+  MeetingStatus:
+    type: string
+    description: "Edoxen::Enums::MEETING_STATUS."
+    enum: [upcoming, completed, cancelled]
+
+  AgendaStatus:
+    type: string
+    description: "Edoxen::Enums::AGENDA_STATUS."
+    enum: [draft, final, amended, cancelled, superseded]
+
+  AgendaItemKind:
+    type: string
+    description: "Edoxen::Enums::AGENDA_ITEM_KIND."
+    enum: [numbered, unnumbered, header, opening, closing]
+
+  AgendaItemOutcome:
+    type: string
+    description: "Edoxen::Enums::AGENDA_ITEM_OUTCOME."
+    enum: [discussed, resolved, deferred, adopted, withdrawn]
+
+  HostType:
+    type: string
+    description: "Edoxen::Enums::HOST_TYPE."
+    enum: [national_body, liaison, associate, organizer]
+
+  MeetingRelationType:
+    type: string
+    description: "Edoxen::Enums::MEETING_RELATION_TYPE."
+    enum: [continues_from, continues_to, joint_with, supersedes, superseded_by, rescheduled_from, rescheduled_to]
+
+  SourceUrlKind:
+    type: string
+    description: "Edoxen::Enums::SOURCE_URL_KIND."
+    enum: [agenda_pdf, minutes_pdf, resolutions_pdf, report_pdf, register_url, landing_page]
