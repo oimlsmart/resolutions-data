@@ -1,0 +1,167 @@
+## celebrating 70 years
+
+OIML
+
+1955 - 2025
+
+## 17th International Conference on Legal Metrology: Resolutions
+
+BIML
+
+<div align="center">
+
+# 17th International Conference on Legal Metrology Paris, France 14 October 2025
+
+</div>
+
+<div align="center">
+
+# Resolutions
+
+</div>
+
+## Resolution Conference/2025/01
+
+Agenda item 2
+
+The Conference,
+
+Approves the agenda for the 17th International Conference on Legal Metrology (OIML Conference).
+
+## Resolution Conference/2025/02
+
+Agenda item 3
+
+The Conference,
+
+Having regard to Article IX of OIML B 1:1968 OIML Convention,
+
+Elects His Excellency Fahad M. Al Ruwaily (Ambassador of the Kingdom of Saudi Arabia to the French Republic) as President for the 17th OIML Conference, and
+
+Elects Ms Renée Hansson and Dr Bobjoseph Mathew as Vice-Presidents for the 17th OIML Conference.
+
+## Resolution Conference/2025/03
+
+Agenda item 4
+
+The Conference,
+
+Approves the minutes of the 16th OIML Conference (2021).
+
+## Resolution Conference/2025/04
+
+Agenda item 8
+
+The Conference,
+
+Having regard to Article XXV, penultimate paragraph, of OIML B 1:1968 OIML Convention,
+
+Noting Resolutions CIML/2022/10 of the 57th CIML Meeting, CIML/2023/10 of the 58th CIML Meeting, CIML/2024/08 of the 59th CIML Meeting, and CIML/2025/07 of the 60th CIML Meeting,
+
+Noting that the budget was managed in conformity with the expenses necessary for carrying out the work of the Bureau and that the accuracy of the report has been certified by annual audits,
+
+Noting that the respective functions assigned by the Convention to the President of the International Committee of Legal Metrology and to the Director of the International Bureau of Legal Metrology have been fulfilled,
+
+Gives its definitive discharge to the President of the Committee and to the Director of the Bureau for their management of the budget during the years mentioned above.
+
+## Resolution Conference/2025/05
+
+Agenda item 9.1
+
+The Conference,
+
+Having regard to Article XXVI (1) of OIML B 1:1968 OIML Convention,
+
+Recalling Resolution 8 of the 14th OIML Conference (2012) that the classification of Member States shall be reviewed in the final year of a financial period in order to determine their respective contributory shares for the following financial period,
+
+Considering the procedure for the classification of Member States as decided by the 40th CIML Meeting (2005),
+
+Endorses Resolution CIML/2025/10 of the 60th CIML Meeting.
+
+## Resolution Conference/2025/06
+
+Agenda item 9.1
+
+The Conference,
+
+Recalling Resolution Conference/2021/07 of the 16th Conference, which endorsed the principle described in Resolution CIML/2021/13 of the 56th CIML Meeting that increases in the annual Corresponding Member contributory fees will start in 2024 and progressively continue, with the aim of becoming 50 % of the annual Member State contribution for their applicable class in 2028,
+
+Re-affirms its endorsement of Resolution CIML/2021/13 of the 56th CIML Meeting.
+
+## Resolution Conference/2025/07
+
+Agenda item 9.1
+
+The Conference,
+
+Having regard to Article XXIV, first paragraph, Article XXVI (1), and Article XXVIII, second paragraph, of OIML B 1:1968 OIML Convention,
+
+Noting Resolution 2012/08 of the 14th OIML Conference, which states that changes in the classification of Member States take place from the second year of the following financial period,
+
+Noting the information contained in Resolution Conference/2025/06 of the 17th Conference,
+
+Noting Resolutions CIML/2025/10 and CIML/2025/11 of the 60th CIML Meeting,
+
+Considering that the total number of base contributory shares, taking into account the classification of Member States as reviewed in 2025, is 150 for the year 2026 and 161 for the years 2027, 2028 and 2029,
+
+## Resolves:
+
+a) The overall amount of credits necessary for the 2026-2029 financial period shall be €12209489;
+
+b) The base contributory share (annual contribution for a Member State in Class 1 as defined in Article XXVI (1) of B 1:1968 OIML Convention) shall be €14 800 in each year of the 2026- 2029 financial period.
+
+c) This results in the following annual contributions for the financial period 2026-2029, for Member States classified according to Article XXVI (1) of B 1:1968 OIML Convention:
+
+<table border="1"><tr><td>Class</td><td>2026</td><td>2027</td><td>2028</td><td>2029</td></tr><tr><td>1</td><td>€14800</td><td>€14800</td><td>€14800</td><td>€14800</td></tr><tr><td>2</td><td>€29600</td><td>€29600</td><td>€29600</td><td>€29600</td></tr><tr><td>3</td><td>€59200</td><td>€59200</td><td>€59200</td><td>€59200</td></tr><tr><td>4</td><td>€118400</td><td>€118400</td><td>€118400</td><td>€118400</td></tr></table>
+
+d) This results in the following annual contributions for the financial period 2026-2029, for Corresponding Members classified using the same criteria as for Member States:
+
+<table border="1"><tr><td>Class</td><td>2026</td><td>2027</td><td>2028</td><td>2029</td></tr><tr><td>1</td><td>€3890</td><td>€5365</td><td>€7400</td><td>€7400</td></tr><tr><td>2</td><td>€7780</td><td>€10730</td><td>€14800</td><td>€14800</td></tr><tr><td>3</td><td>€15560</td><td>€21460</td><td>€29600</td><td>€29600</td></tr><tr><td>4</td><td>€31120</td><td>€42920</td><td>€59200</td><td>€59200</td></tr></table>
+
+e) For the 2026-2029 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
+
+## Resolution Conference/2025/08
+
+Agenda item 9.2
+
+The Conference,
+
+Recalling Resolution Conference 2021/09 of the 16th OIML Conference,
+
+Noting the information contained in 17th Conference Document 6,
+
+Resolves that, from the surplus resulting from the 2022-2025 financial period, up to €231 319 be allocated to the Designated Operating Reserve for the OIML.
+
+Resolves that any remaining surplus from the 2022-2025 financial period be used in the 2026-2029 financial period to advance and accelerate projects of high importance to the Organization.
+
+## Resolution Conference/2025/09
+
+Agenda item 10
+
+The Conference,
+
+Having regard to Article VIII, first and fifth paragraphs, of OIML B 1:1968 OIML Convention,
+
+Noting the report on publications approved by the Committee since the 16th Conference (2021) in Conference Document 10,
+
+Resolves that the OIML publications listed in Conference Document 10 are hereby sanctioned. Member States are reminded of their obligation to implement OIML Recommendations as far as possible.
+
+## Resolution Conference/2025/10
+
+Agenda item 12
+
+The Conference,
+
+Having regard to Article X of OIML B 1:1968 OIML Convention,
+
+Considering the standing practice to organize a Conference once every four years,
+
+Resolves to charge the Committee with organizing the 18th OIML Conference in 2029, the venue and dates to be decided by the Committee.
+
+## Resolution Conference/2025/11
+
+Agenda item 13
+
+The Conference,
+
+Thanks His Excellency Fahad M. Al Ruwaily (Ambassador of the Kingdom of Saudi Arabia to the French Republic) for his impeccable presidency of the 17th OIML Conference.

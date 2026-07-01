@@ -1,0 +1,213 @@
+<div align="center">
+
+# Décisions
+
+&
+
+Résolutions
+
+</div>
+
+<div align="center">
+
+# DECISIONS & RESOLUTIONS
+
+</div>
+
+39ème Réunion du CIML
+
+![](page=0,bbox=[757, 2290, 1111, 2590])
+
+ORGANISATION INTERNATIONALE
+
+DE MÉTROLOGIE LÉGALE
+
+INTERNATIONAL ORGANIZATION OF LEGAL METROLOGY
+
+<div align="center">
+
+# TRENTE-NEUVIÈME RÉUNION
+
+du
+
+COMITÉ INTERNATIONAL de MÉTROLOGIE LÉGALE
+
+Berlin, 26-29 octobre 2004
+
+</div>
+
+## DÉCISIONS
+
+## Allocution d'ouverture
+
+Le Comité a pris note de l'allocution d'ouverture prononcée par son Président Intérimaire.
+
+## Appel des Délégués - Quorum
+
+Après avoir procédé à l'appel des Délégués, il a été constaté que 54 États Membres sur 59 étaient présents ou représentés et que le quorum statutaire des trois quarts du nombre total de Membres du CIML était donc atteint. Le Comité a aussi constaté la participation de plusieurs Membres Correspondants, Pays Observateurs, Institutions en Liaison et Organisations Régionales de Métrologie Légale, ainsi que du Président Sortant du CIML, d'un Membre Honoraire du CIML et de membres du personnel du Bureau.
+
+## Approbation de l'ordre du jour
+
+Le Comité a approuvé sans modification le projet d'ordre du jour.
+
+1 Approbation du compte-rendu de la 38ème Réunion du CIML
+
+Le Comité a approuvé sans modification le compte-rendu de sa 38ème Réunion.
+
+2 États Membres et Membres Correspondants
+
+2. 1 Situation de certains Membres
+
+Le Comité a pris note du fait que la Zambie avait été radiée de la liste des États Membres, suite aux décisions rendues à la 38ème Réunion du CIML.
+
+Le Comité a constaté que plusieurs pays avaient entrepris les procédures d'adhésion à l'Organisation comme États Membres ou Membres Correspondants, ou l'envisageaient.
+
+## 3 Questions Financières
+
+3. 1 Adoption du rapport comptable pour 2002 et 2003
+
+Le Comité a approuvé le rapport comptable pour 2002 et 2003 et a demandé à son Président Intérimaire et au Directeur du BIML de le présenter à la Conférence.
+
+## 3.2 Projet de Révision du Règlement Financier de l'OIML
+
+Le Comité a approuvé le Projet de Révision du Règlement Financier de l'OIML et a chargé son Président Intérimaire de le présenter à la Conférence.
+
+## 4 Activités du Conseil de la Présidence
+
+Le Comité a pris note d'un rapport de son Président Intérimaire en ce qui concerne les activités du Conseil de la Présidence depuis la dernière Réunion du CIML.
+
+## 5 Activités du BIML
+
+Le Comité a pris note d'un rapport décrivant les activités du Bureau depuis la dernière Réunion du CIML.
+
+## 6 Activités techniques
+
+## 6.1 Approbation de Documents Internationaux
+
+Le Comité a approuvé le Document International suivant:
+
+- Révision du D 1 Bases pour les lois de métrologie.
+
+- Le Comité a constaté que les Documents Internationaux suivants et un Format de Rapport d'Essai avaient été approuvés par le CIML par vote postal depuis la 38ème Réunion du CIML et que le BIML procéderait à leur publication:
+
+- Révisions de D 9, D 11, D 14 et D 6/D 8;
+
+- Le nouveau D 28 Valeur conventionnelle du résultat de la pesée dans l'air (reclassification de R 33);
+
+- R 111-2 Poids des classes $ E_{1}, E_{2}, F_{1}, F_{2}, M_{1}, M_{1-2}, M_{2}, M_{2-3} $ et $ M_{3}. $ Partie 2: Format du Rapport d'Essai (Edition 2004)
+
+## 6.2 Examen de la situation de certains TC/SC
+
+Le Comité a pris note d'un rapport du BIML décrivant la situation de certains Comités Techniques et SousComités.
+
+Le Comité a approuvé la proposition d'attribuer le Secrétariat du TC 6 à l'Afrique du sud et celui du TC 9/SC 3 à l'Allemagne.
+
+Le Comité a constaté premièrement que les Secrétariats du TC 8/SC 2 et du TC 10/SC 3 étaient encore vacants, et deuxièmement que l'Allemagne souhaitait abandonner le Secrétariat du TC 12. Il a demandé aux Membres d'étudier la possibilité de prendre la responsabilité des Secrétariats de ces organes techniques.
+
+Le Comité a approuvé deux nouveaux projets de travail:
+
+- Révision de R 99/ISO 3930 Instruments de mesure des gaz d'échappement des vehicules proposée conjointement par le TC 16/SC 1 et ISO TC 22/SC 5;
+
+- Nouvelle Recommandation sur les Thermomètres cliniques auriculaires à rayonnement infrarouge proposée par le TC 18/SC 2.
+
+Le Comité a fixé la date limite pour la délivrance des Certificats d'après l'édition 1996 de la R 61 au 31 décembre 2005 et a demandé aux Autorités de Délivrance d'avertir le BIML lorsqu'elles seraient prêtes à délivrer des Certificats d'après les exigences de la R 61 révisée (édition 2004), car la R 61-1 avait déjà été publiée et la publication de la R 61-2 (2004) était imminente.
+
+Note: Les exigences de transformation pour les Certificats délivrés sur la base de l'édition 1996 (Supplément à OIML R 61 Doseuses pondérales à fonctionnement automatique) ont été rédigées par le TC 9/SC 2 conformément à la décision de la 38ème Réunion du CIML et seront applicables dès leur publication.
+
+## 6.3 Application du MAA
+
+Le Comité a pris note d'un rapport sur l'Atelier tenu le dimanche 24 octobre, et a approuvé les décisions proposées annexées aux présentes décisions.
+
+Le Comité a chargé le TC 3/SC 5 et le Bureau de commencer une révision du B 3 et du B 10 après avoir acquis une certaine expérience sur le MAA.
+
+Le Comité a pris note d'un projet de programme pour l'application du MAA.
+
+## 6.4 Autres décisions liées au Système de Certificats OIML
+
+Le Comité a décidé qu'à partir du 1er janvier 2005, les Autorités de délivrance de l'OIML devaient établir les Certificats OIML dans un format électronique spécifié par le BIML, de façon que ces Certificats puissent être diffusés sur le site Internet de l'OIML.
+
+## 6.5 Divers
+
+Le Comité a souhaité qu'il soit précisé que les interprétations substantielles des Recommandations et Documents relevaient de la responsabilité des Comités Techniques et Sous-comités de l'OIML.
+
+## 7 Pays en Développement
+
+Le Comité a pris note d'un rapport présenté par le Dr Seiler à propos du Forum Métrologie - Facilitateur de Commerce tenu lundi 25 octobre et a chargé le Bureau d'organiser les suites de ce Forum.
+
+Le Comité a pris note d'un rapport présenté par M. Magaña sur les activités du Conseil de Développement de l'OIML et a exprimé sa plus grande satisfaction pour les contributions de sa Présidente, Mme Annabi.
+
+Le Comité a considéré que le travail de l'OIML sur les questions relatives aux Pays en Développement pouvait être géré plus efficacement par le Groupe de Travail Permanent sur les Pays en Développement (PWGDC) créé par la 38ème Réunion du CIML; le PWGDC devrait remplacer le Conseil de Développement.
+
+## 8 Coordination avec les Organisations Régionales de Métrologie Légale
+
+Le Comité a chargé son Président et le Directeur du Bureau de continuer à travailler en liaison étroite avec les Organisations Régionales de Métrologie Légale.
+
+## 9 Douzième Conférence Internationale de Métrologie Légale
+
+## Ordre du jour et programme
+
+Le Comité a approuvé les projets d'ordre du jour et de programme de la Conférence. Il a pris note que le Dr Röhling serait proposé comme Président de la Conférence et a approuvé la proposition du Président Intérimaire du CIML de désigner Mme Annabi et Dr Zhagora comme Vice-Présidents pour la séance de la Conférence.
+
+## 10 Présidence du CIML
+
+Le Comité a élu M. Alan E. Johnston (Membre du CIML pour le Canada) comme Président du CIML pour les six prochaines années.
+
+Le Président élu prendra ses fonctions lors de la 40ème Réunion du CIML en 2005. Le Président Intérimaire cédera la Présidence du CIML au nouveau Président élu lors de l'ouverture de la 40ème Réunion du CIML. Le mandat du Président élu sera de six ans et s'achèvera lors de l'ouverture de la 46ème Réunion du CIML en 2011. La prochaine élection d'un Président sera organisée lors de la 45ème Réunion du CIML en 2010 afin de prévoir la même période de transition.
+
+La majorité requise de votes n'ayant pas été obtenue, le Comité a été dans l'impossibilité d'élire un Premier Vice-Président.
+
+Le Président élu a demandé à Pr. Kochsiek de poursuivre ses fonctions de Premier Vice-Président du CIML jusqu'à l'élection d'un nouveau Premier Vice-Président lors de la 40ème Réunion du CIML. Cette mesure a été approuvée par le CIML.
+
+## 11 Douzième Conférence Internationale de Métrologie Légale
+
+## Examen des décisions prises par la Conférence
+
+Le Comité a pris note des décisions rendues par la Douzième Conférence et a demandé à son Président Intérimaire, au Présidium et au Conseil de la Présidence de veiller à leur application et d'en rendre compte lors de la prochaine Réunion du CIML.
+
+## 12 Futures réunions
+
+## 12.1 40ème Réunion du CIML (2005)
+
+Le Comité a remercié le Gouvernement français pour son invitation à tenir sa 40ème Réunion à Lyon, France, du 17 au 20 juin 2005, en conjonction avec le Congrès International de Métrologie. Le Comité a pris note du fait qu'une réception de gala serait organisée le 20 juin 2005 pour célébrer le 50ème Anniversaire de l'OIML.
+
+La Comité a aussi noté que des sessions de métrologie légale seraient organisées par le Bureau lors du Congrès International de Métrologie et que le Bureau prendrait à sa charge les frais d'inscription d'un participant de chaque État Membre et Membre Correspondant de l'OIML pour assister à ce Congrès.
+
+## 12.2 41ème Réunion du CIML (2006)
+
+Le Comité a accepté l'invitation de l'Afrique du Sud pour accueillir la 41ème Réunion du CIML et a exprimé ses remerciements à M. Carstens pour cette invitation.
+
+## 13 Autres questions
+
+## 13.1 Directeur du BIML
+
+Le Comité a approuvé la Procédure de recrutement du Directeur du BIML et des Adjoints au Directeur.
+
+## 14 Adoption des décisions
+
+Les décisions mentionnées ci-dessus ont été adoptées.
+
+## ANNEXE
+
+<div align="center">
+
+# Règles applicables à la mise en application du MAA de l'OIML
+
+</div>
+
+## 1 Relation entre les DoMC et l'ancien Système de Certificats OIML
+
+1. 1 Lorsqu'une Autorité de Délivrance signe une Déclaration de Confiance Mutuelle (DoMC) dans le cadre du MAA, tous les Certificats OIML et les rapports d'essai associés émis par cette Autorité de Délivrance pour la catégorie d'instruments considérée, seront dès lors délivrés dans les conditions particulières résultant de sa participation à la DoMC. Cette Autorité de Délivrance ne sera pas autorisée à continuer de délivrer des Certificats dans les seules conditions du Système de Certificats OIML.
+
+1. 2 Les Certificats OIML et les rapports d'essai associés délivrés dans les conditions d'une DoMC devront porter un logo OIML spécifique (à définir par le BIML), apposé par l'Autorité de Délivrance et sous sa propre responsabilité. Ce logo sera la propriété de l'OIML et son utilisation par ces Autorités de Délivrance sera autorisée par le Bureau.
+
+1. 3 Dès qu'une DoMC aura été signée, le Bureau fera à l'occasion de la Réunion du CIML qui suivra, une proposition visant à décider si pour la catégorie concernée, le Système de Certificats OIML sera uniquement applicable par les signataires de cette DoMC et dans les conditions de cette DoMC. Cette disposition entrera en vigueur à une date définie par le CIML.
+
+1. 4 Les Certificats OIML ayant été délivrés avant l'établissement de la DoMC ou pendant cette période de transition selon les règles précédentes, continueront d'apparaître dans les bases de données OIML publiées sur le site Internet de l'OIML.
+
+1. 5 Les Certificats OIML délivrés dans les conditions d'une DoMC seront enregistrés séparément et apparaîtront séparément dans les bases de données OIML publiées sur le site Internet de l'OIML.
+
+## 2 Dispositions finales
+
+Ces décisions entreront en vigueur pour la mise en application du MAA et pour le fonctionnement du Système de Certificats OIML à partir du 1er janvier 2005.
+
+Le TC 3/SC 5 effectuera la révision de la Publication B 3 (ancienne référence P 1) Système de Certificats OIML pour les Instruments de Mesure conformément à ces décisions et élaborera, si nécessaire, des règles détaillées pour la mise en application du MAA pour les soumettre à l'approbation du CIML.

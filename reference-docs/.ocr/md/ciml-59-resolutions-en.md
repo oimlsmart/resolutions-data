@@ -1,0 +1,485 @@
+## 59th CIML Meeting
+
+Online 22-24 October 2024
+
+## RESOLUTIONS
+
+![](page=0,bbox=[477, 1123, 1503, 1761])
+
+![](page=0,bbox=[883, 1903, 1108, 2094])
+
+INTERNATIONAL BUREAU OF LEGAL METROLOGY (BIML) 11, RUE TURGOT-F-75009 PARIS-FRANCE
+
+TEL: 33(0)148781282
+
+FAX:33(0)142821727
+
+E-MAIL: biml@oiml.org
+
+INTERNET: www.oiml.org
+
+## FIFTY-NINTH MEETING of the INTERNATIONAL COMMITTEE of LEGAL METROLOGY
+
+## Online 22-24 October 2024
+
+## Resolutions
+
+Resolution no. CIML/2024/01
+
+The Committee,
+
+Agenda item 2
+
+Approves the agenda for the 59th CIML Meeting.
+
+Resolution no. CIML/2024/02
+
+The Committee,
+
+Agenda item 3
+
+Approves the minutes of the 58th CIML Meeting.
+
+Resolution no. CIML/2024/03
+
+The Committee,
+
+Agenda item 4
+
+Notes the report given by its President.
+
+Resolution no. CIML/2024/04
+
+The Committee,
+
+Agenda item 5
+
+Noting the procedure for the election of the CIML Vice-Presidents in OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+
+Selects Mrs Renée Hansson as its First Vice-President for a six-year term starting with immediate effect.
+
+Resolution no. CIML/2024/05
+
+The Committee,
+
+Agenda item 6
+
+Notes the report given by the BIML Director.
+
+## Resolution no. CIML/2024/06
+
+Agenda item 6
+
+The Committee,
+
+Welcomes Djibouti as a new Corresponding Member,
+
+Welcomes Burkina Faso as a returning Corresponding Member, and
+
+Welcomes Zimbabwe as a returning Corresponding Member.
+
+## Resolution no. CIML/2024/07
+
+The Committee,
+
+Agenda item 7.1
+
+Notes the corrected information regarding Corresponding Member budgeted income for 2023, 2024, and 2025 given in 59th CIML Meeting Document 7.1.
+
+## Resolution no. CIML/2024/08
+
+Agenda item 7.2
+
+The Committee,
+
+Noting the accounts for 2023, the OIML budget summary, and the BIML Director's comments,
+
+Considering the external auditor's report on the 2023 accounts,
+
+Approves the 2023 accounts, and
+
+Instructs its President to present them to the 17th OIML Conference.
+
+## Resolution no. CIML/2024/09
+
+Agenda item 7.2
+
+The Committee,
+
+Having regard to its Resolution 2022/15 regarding the appointment of L.G. Audit & Conseils as the OIML independent chartered accountant (external auditor),
+
+Approves the extension of this appointment for two additional calendar years.
+
+## Resolution no. CIML/2024/10
+
+Agenda item 7.3
+
+The Committee,
+
+Notes the report given by the BIML Director,
+
+Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+
+Requests those Members with arrears to bring their situation up to date as soon as possible.
+
+## Resolution no. CIML/2024/11
+
+Agenda item 7.4
+
+The Committee,
+
+Notes the report on the budget forecast for 2024 given by the BIML Director.
+
+## Resolution no. CIML/2024/12
+
+Agenda item 7.5
+
+The Committee,
+
+Notes the report of the internal financial audit team,
+
+Thanks Mrs Renée Hansson and Dr Charles Ehrlich for conducting the financial audit and producing the report,
+
+Acknowledges the conclusions of the report and supports the recommendations contained therein, and Requests that its President and the BIML Director ensure the implementation of these recommendations.
+
+## Resolution no. CIML/2024/13
+
+Agenda item 11.1.1
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Reconfirms R 50:2014 Continuous totalizing automatic weighing instruments (belt weighers).
+
+## Resolution no. CIML/2024/14
+
+Agenda item 11.1.2
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Reconfirms R 99:2008 Instruments for measuring vehicle exhaust emissions.
+
+## Resolution no. CIML/2024/15
+
+Agenda item 11.1.3
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Reconfirms R 106:2011 Automatic rail-weighbridges.
+
+## Resolution no. CIML/2024/16
+
+Agenda item 11.1.4
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Reconfirms R 107:2007 Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers).
+
+## Resolution no. CIML/2024/17
+
+Agenda item 11.1.5
+
+The Committee,
+
+Noting comments from its Members,
+
+Approves the revision of R 49:2013 Water meters for cold potable water and hot water,
+
+Welcomes the close cooperation with ISO to ensure full harmonisation between OIML R 49 and the corresponding ISO standard, and
+
+Thanks the Project Group convener and members for their work in completing this project.
+
+## Resolution no. CIML/2024/18
+
+Agenda item 11.1.6
+
+The Committee,
+
+Approves the revision of B 20:2019 Rules for the use of OIML logos.
+
+## Resolution no. CIML/2024/19
+
+The Committee,
+
+Agenda item 11.1.7
+
+Noting the clarifications requested by its Members,
+
+Approves Amendment 2 to B 7:2013 BIML Staff regulations.
+
+## Resolution no. CIML/2024/20
+
+The Committee,
+
+Agenda item 11.2
+
+Noting that no proposals for new work projects were put forward for approval at the 59th CIML Meeting,
+
+Encourages its Members to consider the need for new work projects and submit proposals for approval at the 60th CIML Meeting.
+
+## Resolution no. CIML/2024/21
+
+Agenda item 11.3
+
+The Committee,
+
+Noting the report on the OIML technical work,
+
+Noting comments from its Members,
+
+Approves the list of high priority publications given in 59th CIML Meeting Document 11.3, and Approves the list of high priority projects given in 59th CIML Meeting Document 11.3.
+
+## Resolution no. CIML/2024/22
+
+Agenda item 11.4
+
+The Committee,
+
+Notes the report on the current status of OIML activities on e-Learning and other online training,
+
+Encourages Members to collaborate on this activity by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
+
+## Resolution no. CIML/2024/23
+
+Agenda item 11.5
+
+The Committee,
+
+Notes the continued success of the concept of "Mentor" for key topics of the OIML Bulletin,
+
+Thanks those individuals who have been Mentors for recent editions, those who have already offered to be Mentors for future editions, and all the contributing authors,
+
+Encourages Members to nominate themselves as Mentors for key topics of future editions,
+
+Thanks the BIML Editor, Mr Chris Pulham, for his support in the promotion of the OIML Bulletin, and Confirms its continued support for the OIML Bulletin.
+
+## Resolution no. CIML/2024/24
+
+Agenda item 12.1
+
+The Committee,
+
+Notes the report of the Acting OIML Certification System (OIML-CS) Management Committee (MC) Chairperson,
+
+Thanks Mr Marc Schmidt for serving as Acting OIML-CS MC Chairperson, and
+
+Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
+
+## Resolution no. CIML/2024/25
+
+Agenda item 12.2
+
+The Committee,
+
+Noting the recommendation from the OIML-CS Management Committee,
+
+Appoints Mr Marc Schmidt as OIML-CS Management Committee Chairperson for a three-year term with effect from 1 January 2025.
+
+## Resolution no. CIML/2024/26
+
+Agenda item 12.2
+
+The Committee,
+
+Noting the recommendation from the OIML-CS Management Committee,
+
+Appoints Ms Katharina Gierschke as OIML-CS Management Committee Deputy Chairperson for a three-year term with effect from 1 January 2025.
+
+## Resolution no. CIML/2024/27
+
+Agenda item 13.1
+
+The Committee,
+
+Notes the report of the CEEMS Advisory Group (AG) Chairperson,
+
+Thanks Mr Jaco Marneweck for serving as CEEMS AG Chairperson, and
+
+Thanks the members of the CEEMS AG for their work.
+
+## Resolution no. CIML/2024/28
+
+Agenda item 13.2
+
+The Committee,
+
+Recalling clause 2, second bullet point, of OIML B 19:2023 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS),
+
+Noting the nomination of a candidate from the CEEMS Advisory Group (AG) for the position of CEEMS AG Vice-Chairperson,
+
+Appoints Mr Ashutosh Agarwal as CEEMS AG Vice-Chairperson for a three-year term with immediate effect.
+
+## Resolution no. CIML/2024/29
+
+Agenda item 14.1
+
+The Committee,
+
+Notes the report of the OIML Digitalisation Task Group (DTG) Chairperson,
+
+Thanks Dr Sascha Eichstadt for serving as DTG Chairperson, and Dr Yang Ping for serving as Deputy Chairperson,
+
+Thanks the members of the DTG and its Subcommittees for their work, and
+
+Encourages its Members to support the DTG by making experts and other resources available to implement future recommendations put forward by the DTG.
+
+## Resolution no. CIML/2024/30
+
+The Committee,
+
+Agenda item 14.2
+
+Approves the DTG Roadmap provided in 59th CIML Meeting Document 14.2 and presented by the DTG Chairperson as important guidance regarding work items for the DTG, and
+
+Thanks the members of the DTG and the DTG Steering Committee for their work in developing the DTG Roadmap.
+
+## Resolution no. CIML/2024/31
+
+Agenda item 14.2
+
+The Committee,
+
+Notes the report of the DTG Chairperson on the work of the DTG Subcommittee "Smart OIML documents",
+
+Welcomes the strong collaboration of the DTG Subcommittee with ISO and the IEC on machine-readable standards and standardisation, and
+
+Approves the proposal to align the digitalisation of the OIML's technical work and publications with the corresponding developments in ISO and the IEC.
+
+## Resolution no. CIML/2024/32
+
+Agenda item 14.2
+
+The Committee,
+
+Notes the report of the DTG Chairperson on the work of the DTG Subcommittee "e-Learning",
+
+Welcomes the provision of e-Learning material on digitalisation and digital transformation in legal metrology on the OIML platform, and
+
+Approves the general concept for an initial course on fundamental principles of digitalisation as outlined in 59th CIML Meeting Document 14.2 and in the report by the DTG Chairperson.
+
+## Resolution no. CIML/2024/33
+
+Agenda item 18.1
+
+The Committee,
+
+Notes the report of the Regional Legal Metrology Organisations (RLMO) Round Table Chairperson, Recognising the key role Dr Charles Ehrlich has played in advancing the work of the RLMO Round Table, and in significantly increasing collaboration amongst the RLMOs,
+
+Thanks Dr Charles Ehrlich for serving as RLMO Round Table Chairperson, and
+
+Thanks the CIML Member for Colombia, Mr Pedro Pérez Vargas, for taking over as the new Chairperson of the RLMO Round Table.
+
+## Resolution no. CIML/2024/34
+
+Agenda item 18.2
+
+The Committee,
+
+Notes the report on OIML activities with organisations in liaison.
+
+## Resolution no. CIML/2024/35
+
+Agenda item 18.2
+
+The Committee,
+
+Noting the nomination of Dr Charles Ehrlich by OIML TC 2 Units of Measurement,
+
+Requests Dr Charles Ehrlich to represent the OIML on the Consultative Committee for Units (CCU), and
+
+Thanks Dr Rado Lapuh (Slovenia) for having represented the OIML on the CCU in recent years.
+
+## Resolution no. CIML/2024/36
+
+Agenda item 18.3
+
+The Committee,
+
+Notes the written reports provided by organisations in liaison,
+
+Thanks their representatives for providing this information to the Committee, and
+
+Thanks Samuel Schmidt (CECIP) and Rob Knake (ILAC) for their presentations to the Committee.
+
+## Resolution no. CIML/2024/37
+
+Agenda item 18.4
+
+The Committee,
+
+Recognising the importance of issues in the area of climate change to society, and to the activities of the OIML,
+
+Considering that a number of the OIML's current activities and technical work projects are aimed at better regulation and cooperation in the field of climate change in legal metrology activities,
+
+Requests the BIML to complete the procedures necessary for the OIML to become an "accepted observer" in the United Nations Framework Convention on Climate Change (UNFCCC),
+
+Requests the BIML to continue to engage with other stakeholders in the field of climate change, and
+
+Encourages its Members to promote the use of legal metrology as an important tool in climate change mitigation and in the energy transition.
+
+## Resolution no. CIML/2024/38
+
+Agenda item 19.1
+
+The Committee,
+
+Congratulates this year's recipients of an OIML Medal,
+
+- Dr Charles Ehrlich, and
+
+- Mr Chris Pulham
+
+for their significant contributions to the work of the OIML.
+
+## Resolution no. CIML/2024/39
+
+Agenda item 19.2
+
+The Committee,
+
+Congratulates this year's recipients of an OIML Letter of Appreciation,
+
+- Mrs Helga Grohne,
+
+- The Government of Kazakhstan,
+
+- Ms Shirin Mammadova,
+
+- Dr Toshiyuki Takatsuji, and
+
+- Mr Ian Dunmill
+
+for their significant contributions to the work of the OIML.
+
+## Resolution no. CIML/2024/40
+
+Agenda item 20.1
+
+The Committee,
+
+Notes the information provided on the organisation of the 60th CIML Meeting and 17th OIML Conference in 2025,
+
+Thanks India and Saudi Arabia for their invitations to host the 60th CIML Meeting and 17th OIML Conference in 2025,
+
+Noting the result of the secret ballot on the host for these meetings,
+
+Selects Saudi Arabia to host the meetings, and
+
+Instructs the Bureau to make the necessary arrangements to organise the 60th CIML Meeting and 17th OIML Conference in 2025.
+
+## Resolution no. CIML/2024/41
+
+Agenda item 20.3
+
+The Committee,
+
+Noting the information provided on the organisation of the 61st CIML Meeting in 2026,
+
+Confirms the decision expressed in its Resolution CIML/2023/41.
