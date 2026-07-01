@@ -4,6 +4,7 @@ reference-docs/.ocr/
 # Browser build artifacts (reproducible via `npm run build`)
 browser/dist/
 browser/.vite/
+browser/.vite-ssg-temp/
 browser/tsconfig.tsbuildinfo
 browser/node_modules/
 

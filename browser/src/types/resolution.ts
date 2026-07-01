@@ -57,6 +57,18 @@ export interface Resolution {
 
 export type MeetingBodyType = 'ciml' | 'conference'
 
+export interface MeetingLocalization {
+  language_code: string
+  script?: string
+  title: string
+  general_area?: string
+}
+
+export interface MeetingMinutesRef {
+  urn: string
+  language_code: string
+}
+
 export interface Meeting {
   source_file: string
   source_title: string
@@ -70,4 +82,11 @@ export interface Meeting {
   doi: string
   resolution_count: number
   acclamation_count: number
+  // Enrichment from meetings/*.yaml (optional — present when a meeting
+  // YAML exists for this source_file).
+  urn?: string
+  virtual?: boolean
+  committee?: string
+  localizations?: MeetingLocalization[]
+  minutes?: MeetingMinutesRef[]
 }
