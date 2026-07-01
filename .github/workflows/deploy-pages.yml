@@ -27,9 +27,12 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.4'
+          bundler-cache: true
+          working-directory: scripts/specs
 
       - name: Validate YAML files
-        run: ruby scripts/validate_yaml.rb
+        run: bundle exec ruby ../validate_yaml.rb
+        working-directory: scripts/specs
 
   build:
     runs-on: ubuntu-latest
