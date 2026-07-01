@@ -63,15 +63,24 @@ existing_meetings.each do |path|
   refs.each do |ref|
     next if existing_urns.include?(ref["urn"])
 
-    minutes_field << {
+    entry = {
       "urn" => ref["urn"],
       "language_code" => ref["language_code"],
       "script" => "Latn",
-      "source_doc" => ref["source_doc"],
     }
+    # source_doc is optional in the schema; omit when nil so we don't
+    # emit `source_doc: null` which fails the `type: string` check.
+    entry["source_doc"] = ref["source_doc"] if ref["source_doc"] && !ref["source_doc"].empty?
+    minutes_field << entry
   end
 
-  data["minutes"] = minutes_field
+  data["minutes"] = minutes_field.map do |entry|
+    if entry["source_doc"].nil? || entry["source_doc"].to_s.empty?
+      entry = entry.dup
+      entry.delete("source_doc")
+    end
+    entry
+  end
   File.write(path, "---\n# Auto-updated by scripts/link_minutes_to_meetings.rb.\n" +
                    data.to_yaml.sub(/^---\s*$/, "").lstrip)
   puts "Updated meetings/ciml-#{ordinal}.yaml (#{refs.size} minutes refs)"
@@ -100,12 +109,13 @@ minutes_by_ordinal.each do |ordinal, refs|
     "ordinal" => ordinal,
     "localizations" => localizations,
     "minutes" => refs.map { |r|
-      {
+      entry = {
         "urn" => r["urn"],
         "language_code" => r["language_code"],
         "script" => "Latn",
-        "source_doc" => r["source_doc"],
       }
+      entry["source_doc"] = r["source_doc"] if r["source_doc"] && !r["source_doc"].empty?
+      entry
     },
     "resolution_refs" => ["urn:oiml:ciml:resolution-collection:#{slug}-resolutions"],
   }

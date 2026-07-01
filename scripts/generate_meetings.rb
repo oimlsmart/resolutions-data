@@ -199,6 +199,17 @@ def lang_three_letter(two_or_three)
   { "en" => "eng", "fr" => "fra" }.fetch(two_or_three, two_or_three)
 end
 
+# Expand a manifest language tag into the list of ISO 639-3 codes it
+# covers. Bilingual PDFs serve both eng and fra; everything else maps
+# 1:1.
+def langs_for(tag)
+  case tag.to_s
+  when "bilingual" then %w[eng fra]
+  when "fr"        then %w[fra]
+  else                  %w[eng]
+  end
+end
+
 def emit_yaml(data)
   out = +"---\n"
   out << "# yaml-language-server: $schema=#{SCHEMA_REF}\n"
@@ -224,23 +235,30 @@ meetings.each do |(kind, ord), m|
   year = meeting_year(meta["date_start"]) || meta["year"]
   status = meeting_status(meta["date_end"])
 
-  source_urls = m[:urls].map do |lang, url|
-    {
-      "ref"           => url,
-      "format"        => "pdf",
-      "language_code" => lang_three_letter(lang),
-      "kind"          => "resolutions_pdf",
-    }
+  # Source URLs: one entry per ISO 639-3 language actually served.
+  # Bilingual PDFs produce two entries (eng + fra) pointing at the
+  # same URL — the schema requires `language_code` to match ^[a-z]{3}$.
+  source_urls = m[:urls].flat_map do |lang, url|
+    langs_for(lang).map do |code|
+      {
+        "ref"           => url,
+        "format"        => "pdf",
+        "language_code" => code,
+        "kind"          => "resolutions_pdf",
+      }
+    end
   end
 
-  localizations = m[:languages].keys.sort.map do |lang|
-    {
-      "language_code" => lang_three_letter(lang),
-      "script"        => "Latn",
-      "title"         => m[:languages][lang]["title"] || locale_label(kind, ord, lang_three_letter(lang)),
-      "general_area"  => venue,
-    }
-  end
+  localizations = m[:languages].keys.sort.flat_map do |lang|
+    langs_for(lang).map do |code|
+      {
+        "language_code" => code,
+        "script"        => "Latn",
+        "title"         => m[:languages][lang]["title"] || locale_label(kind, ord, code),
+        "general_area"  => venue,
+      }
+    end
+  end.uniq { |loc| loc["language_code"] }
 
   agenda = nil
   unless m[:languages].empty?
@@ -263,14 +281,18 @@ meetings.each do |(kind, ord), m|
     },
     "committee"   => committee_label(kind),
     "general_area" => venue,
-    "city"         => city,
-    "country_code" => country_code,
     "virtual"      => virtual,
     "source_urls"  => source_urls,
     "localizations" => localizations,
     "agenda"        => agenda,
     "resolution_refs" => ["urn:oiml:#{kind}:resolution-collection:#{slug}-resolutions"],
   }
+  # city / country_code are optional in the schema but require a strict
+  # pattern (UN/LOCODE + ISO 3166-1 alpha-2). Omit when nil/empty so we
+  # don't emit `city: null` or `country_code: ''` that the validator
+  # rejects. Virtual meetings have no host city by definition.
+  data["city"] = city if city && !city.empty?
+  data["country_code"] = country_code if country_code && !country_code.empty?
   emit[[kind, ord]] = data
 end
 
