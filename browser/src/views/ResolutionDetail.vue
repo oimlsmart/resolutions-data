@@ -11,26 +11,6 @@
       {{ t('resolution.back') }}
     </button>
 
-    <!-- Language toggle (only when both EN and FR are available) -->
-    <div v-if="hasLanguageChoice" class="res-lang-toggle animate-up" style="--nth: 1" role="group" :aria-label="t('resolution.languageToggleLabel')">
-      <span class="res-lang-toggle__label">{{ t('resolution.languageToggleLabel') }}</span>
-      <button
-        class="res-lang-toggle__btn"
-        :class="{ 'res-lang-toggle__btn--active': activeLang === 'en' }"
-        @click="activeLang = 'en'"
-      >EN</button>
-      <button
-        class="res-lang-toggle__btn"
-        :class="{ 'res-lang-toggle__btn--active': activeLang === 'fr' }"
-        @click="activeLang = 'fr'"
-      >FR</button>
-      <button
-        class="res-lang-toggle__btn res-lang-toggle__btn--both"
-        :class="{ 'res-lang-toggle__btn--active': activeLang === 'both' }"
-        @click="activeLang = 'both'"
-      >EN / FR</button>
-    </div>
-
     <!-- Header -->
     <header class="std-page__header res-detail-header animate-up" style="--nth: 2">
       <div class="std-page__meta res-detail-meta">
@@ -48,7 +28,7 @@
             <line x1="8" y1="2" x2="8" y2="6"/>
             <line x1="3" y1="10" x2="21" y2="10"/>
           </svg>
-          <span class="meeting-link-badge__text">{{ meetingLinkLabel }}</span>
+          <span class="meeting-link-badge__text">{{ meetingSummaryText }}</span>
           <svg class="meeting-link-badge__arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
@@ -58,7 +38,13 @@
         <span v-if="!resolution.is_acclamation" class="std-page__badge body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(resolution.source_file || ''))">
           {{ getMeetingTypeShort(bodyTypeFromSourceFile(resolution.source_file || ''), lang) }}
         </span>
-        <a v-if="resolution.group_id" :href="`/groups/${resolution.group_id}/`" class="std-page__badge std-page__badge--link badge-group">{{ resolution.group_id.toUpperCase() }}</a>
+
+        <!-- Language segmented control — inline in the meta bar -->
+        <div v-if="hasLanguageChoice" class="lang-segmented" role="group" :aria-label="t('resolution.languageToggleLabel')">
+          <button :class="{ active: activeLang === 'en' }" @click="activeLang = 'en'">EN</button>
+          <button :class="{ active: activeLang === 'fr' }" @click="activeLang = 'fr'">FR</button>
+          <button :class="{ active: activeLang === 'both' }" @click="activeLang = 'both'">EN+FR</button>
+        </div>
       </div>
 
       <h1 v-if="resolution.title" class="std-page__title res-detail-title">{{ resolution.title }}</h1>
@@ -67,7 +53,7 @@
         {{ resolution.source_title }}
       </p>
 
-      <!-- Agenda item title (lookup against the per-meeting agenda). -->
+      <!-- Agenda item title -->
       <p v-if="agendaItemTitle" class="res-detail-agenda">
         <strong>{{ t('resolution.agendaItemLabel') }} {{ resolution.agenda_item }}</strong>
         <span class="res-detail-agenda-sep">—</span>
@@ -79,36 +65,29 @@
     <div v-if="resolution.doi" class="urn-bar doi-bar animate-up" style="--nth: 3">
       <span class="urn-label">DOI</span>
       <a :href="`https://doi.org/${resolution.doi}`" class="urn-value urn-value--link" target="_blank" rel="noopener noreferrer">{{ resolution.doi }}</a>
-      <button
-        @click="copyUrn(resolution.doi)"
-        class="urn-copy-btn"
-        :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyDoi')"
-      >
+      <button @click="copyUrn(resolution.doi)" class="urn-copy-btn" :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyDoi')">
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </button>
     </div>
 
-    <!-- URN Identifier -->
+    <!-- URN -->
     <div v-if="resolution.urn" class="urn-bar animate-up" style="--nth: 3">
       <span class="urn-label">URN</span>
       <code class="urn-value">{{ resolution.urn }}</code>
-      <button
-        v-if="resolution.urn"
-        @click="copyUrn(resolution.urn)"
-        class="urn-copy-btn"
-        :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyUrn')"
-      >
+      <button v-if="resolution.urn" @click="copyUrn(resolution.urn)" class="urn-copy-btn" :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyUrn')">
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </button>
     </div>
 
-    <!-- Original PDF on OIML site -->
-    <div v-if="resolution.source_url" class="urn-bar animate-up" style="--nth: 3">
-      <span class="urn-label">{{ t('resolution.originalPdfLabel') }}</span>
-      <a :href="resolution.source_url" class="urn-value urn-value--link" target="_blank" rel="noopener noreferrer">{{ resolution.source_url }}</a>
-    </div>
+    <!-- Original PDF — icon + label, not raw URL -->
+    <a v-if="resolution.source_url" :href="resolution.source_url" target="_blank" rel="noopener noreferrer" class="pdf-link-btn animate-up" style="--nth: 3">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+      </svg>
+      {{ t('resolution.originalPdfLabel') }}
+    </a>
 
     <!-- Content -->
     <div class="std-page__content res-detail-content">
@@ -293,7 +272,7 @@ import { getActionColor } from '../data/actionTypes'
 import { formatActionType } from '../utils/actionType'
 import { useDateFormat } from '../composables/useDateFormat'
 import { useClipboard } from '../composables/useClipboard'
-import { mtStyle, getMeetingTypeShort } from '../data/meetingTypes'
+import { mtStyle, getMeetingTypeShort, meetingSummary } from '../data/meetingTypes'
 import { findAgendaItem } from '../data/agendas'
 
 const router = useRouter()
@@ -455,21 +434,12 @@ watch(activeLang, (newLang) => {
   router.replace({ query: newQuery })
 })
 
-const meetingLinkLabel = computed(() => {
+// i18n-aware summary for the meeting-link badge:
+// "{CIML|CONF} \u00b7 {date range} \u00b7 {venue}" in the current UI language.
+const meetingSummaryText = computed(() => {
   const res = resolution.value
   if (!res) return ''
-  const venue = res.venue || ''
-  const isVirtual = venue.toLowerCase().includes('virtual')
-  if (isVirtual && res.meeting_date) {
-    try {
-      const d = new Date(res.meeting_date)
-      const monthYear = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' })
-      return `Virtual \u00b7 ${monthYear}`
-    } catch {
-      return venue || res.source_title || 'Meeting'
-    }
-  }
-  return venue || res.source_title || 'Meeting'
+  return meetingSummary(res.source_file, lang.value, res)
 })
 
 // Title of the agenda item this resolution references. Looked up
@@ -577,6 +547,76 @@ function submitSearch() {
 }
 
 /* Base layout */
+
+/* Language segmented control — compact, inline in the meta bar */
+.lang-segmented {
+  display: inline-flex;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid var(--color-slate-200);
+  background: var(--color-slate-50);
+}
+.dark .lang-segmented {
+  border-color: var(--color-slate-700);
+  background: var(--color-slate-800);
+}
+.lang-segmented button {
+  padding: 0.2rem 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--color-slate-500);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.02em;
+}
+.dark .lang-segmented button { color: var(--color-slate-400); }
+.lang-segmented button:hover {
+  color: var(--color-slate-800);
+  background: rgba(0,0,0,0.04);
+}
+.dark .lang-segmented button:hover {
+  color: white;
+  background: rgba(255,255,255,0.06);
+}
+.lang-segmented button.active {
+  background: var(--color-blue-accent);
+  color: white;
+}
+
+/* Original PDF link — icon + label, button-styled */
+.pdf-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-slate-700);
+  background: var(--color-slate-50);
+  border: 1px solid var(--color-slate-200);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-bottom: 2rem;
+}
+.dark .pdf-link-btn {
+  color: var(--color-slate-300);
+  background: rgba(30, 41, 59, 0.5);
+  border-color: var(--color-slate-800);
+}
+.pdf-link-btn:hover {
+  border-color: var(--color-blue-accent);
+  color: var(--color-blue-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.dark .pdf-link-btn:hover {
+  border-color: #66a3e0;
+  color: #66a3e0;
+}
+
 .back-link {
   background: transparent;
   border: none;

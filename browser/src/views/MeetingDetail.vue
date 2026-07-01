@@ -43,11 +43,13 @@
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
 
-        <!-- Original PDF link -->
-        <div v-if="meetingPdfUrl" class="meeting-urn-bar">
-          <span class="meeting-urn-label">{{ t('meeting.originalPdf') }}</span>
-          <a :href="meetingPdfUrl" class="meeting-urn-value meeting-urn-value--link" target="_blank" rel="noopener noreferrer">{{ meetingPdfUrl }}</a>
-        </div>
+        <!-- Original PDF — icon + label button -->
+        <a v-if="meetingPdfUrl" :href="meetingPdfUrl" target="_blank" rel="noopener noreferrer" class="pdf-link-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+          </svg>
+          {{ t('meeting.originalPdf') }}
+        </a>
 
         <!-- Meeting DOI -->
         <div v-if="meetingDoi" class="meeting-urn-bar meeting-doi-bar">
@@ -409,6 +411,35 @@ function secondaryTitleFor(group: { en?: any; fr?: any; primary: any }): string 
   .meeting-detail__title { font-size: 3rem; }
 }
 .dark .meeting-detail__title { color: white; }
+
+.pdf-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-slate-700);
+  background: var(--color-slate-50);
+  border: 1px solid var(--color-slate-200);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-top: 1.5rem;
+}
+.dark .pdf-link-btn {
+  color: var(--color-slate-300);
+  background: rgba(30, 41, 59, 0.5);
+  border-color: var(--color-slate-800);
+}
+.pdf-link-btn:hover {
+  border-color: var(--color-blue-accent);
+  color: var(--color-blue-accent);
+}
+.dark .pdf-link-btn:hover {
+  border-color: #66a3e0;
+  color: #66a3e0;
+}
 
 .back-link {
   display: flex;
