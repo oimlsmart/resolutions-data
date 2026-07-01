@@ -28,8 +28,13 @@ jobs:
         with:
           ruby-version: '3.4'
 
-      - name: Validate YAML files
+      - name: Validate resolution YAMLs (structural)
         run: ruby scripts/validate_yaml.rb
+
+      - name: Validate meeting YAMLs (edoxen schema)
+        run: |
+          gem install edoxen --no-document
+          edoxen validate-meetings 'meetings/*.yaml'
 
   build:
     runs-on: ubuntu-latest
