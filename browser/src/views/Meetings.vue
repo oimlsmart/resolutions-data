@@ -263,12 +263,13 @@ const availableCountries = computed(() => {
   const countries = new Map<string, { code: string; name: string; flag: string }>()
   meetings.value.forEach(m => {
     const venue = m.venue || ''
-    if (venue.toLowerCase().includes('virtual')) {
+    const isVirtual = m.virtual || venue.toLowerCase().includes('virtual')
+    if (isVirtual) {
       if (!countries.has('virtual')) {
         countries.set('virtual', { code: 'virtual', name: 'Virtual', flag: '\u{1F310}' })
       }
     } else {
-      const code = venueToCountryCode(venue)
+      const code = m.country_code || venueToCountryCode(venue)
       if (code && !countries.has(code)) {
         const countryName = venue.split(',').pop()?.trim() || code
         countries.set(code, { code, name: countryName, flag: venueToFlag(venue) })
@@ -295,9 +296,9 @@ const filteredMeetings = computed(() => {
 
   if (selectedCountry.value) {
     if (selectedCountry.value === 'virtual') {
-      list = list.filter(m => m.venue && m.venue.toLowerCase().includes('virtual'))
+      list = list.filter(m => m.virtual || (m.venue && m.venue.toLowerCase().includes('virtual')))
     } else {
-      list = list.filter(m => venueToCountryCode(m.venue) === selectedCountry.value)
+      list = list.filter(m => (m.country_code || venueToCountryCode(m.venue || '')) === selectedCountry.value)
     }
   }
   
