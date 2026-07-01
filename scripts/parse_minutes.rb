@@ -79,48 +79,57 @@ FR_UNIT_FULL_WORDS = {
   "dixneuvieme" => 19,
 }.freeze
 
+# Tens-prefix ordinals with the suffix elided/attached, e.g.
+# "trentieme", "trentetroisieme", "quarantieme". We strip the trailing
+# suffix and any compound unit, then map the bare tens word.
+FR_TENS_PREFIX_FULL = {
+  "vingt" => 20, "trent" => 30, "quarant" => 40, "cinquant" => 50,
+  "soixant" => 60, "septant" => 70, "huitant" => 80, "octant" => 80,
+  "nonant" => 90,
+}.freeze
+
 def parse_french_ordinal(phrase)
-  # Direct full-word match first — handles the 1-19 range cleanly when
-  # OCR capitalises the ordinal ("QUINZIÈME RÉUNION" → "quinzieme"
-  # after diacritic strip, which is in the table).
+  # Normalise: lowercase, strip accents, drop punctuation. Result is
+  # space-separated ASCII words.
   stripped = phrase.downcase.gsub(/[éèêë]/, "e").gsub(/[^a-z\s]/, "").strip
-  first_word = stripped.split(/\s+/).first
-  if FR_UNIT_FULL_WORDS.key?(first_word)
-    return FR_UNIT_FULL_WORDS[first_word]
+  first_word = stripped.split(/\s+/).first.to_s
+
+  # 1-19: direct full-word match.
+  return FR_UNIT_FULL_WORDS[first_word] if FR_UNIT_FULL_WORDS.key?(first_word)
+
+  # 20-99: tens prefix (with optional "ieme" suffix) + optional unit.
+  # The bare tens stem ends in a consonant ("trent", "quarant") - we
+  # match by prefix.
+  FR_TENS_PREFIX_FULL.each do |prefix, base|
+    next unless first_word.start_with?(prefix)
+    rest = first_word[prefix.length..]
+    # Strip ordinal suffix from rest if present.
+    rest = rest.sub(/\A(?:ieme|eme|ime)\z/, "")
+    if rest.empty?
+      return base
+    end
+    # Compound form: e.g. "trentetroisieme" → 30 + 3.
+    # The suffix list above covers forms like "troisieme", but the
+    # stripped rest may be a unit. Try direct lookup first, then a
+    # second pass that strips a trailing "ieme" suffix.
+    if FR_UNIT_FR_TO_INT.key?(rest)
+      return base + FR_UNIT_FR_TO_INT[rest]
+    end
+    rest_stripped = rest.sub(/ieme\z/, "")
+    if FR_UNIT_FR_TO_INT.key?(rest_stripped)
+      return base + FR_UNIT_FR_TO_INT[rest_stripped]
+    end
   end
 
-  # Fall back to the position-by-position parser for compound
-  # ordinals ("vingt et un", "vingt-deux", ...).
-  cleaned = phrase.downcase
-  cleaned = cleaned.sub(/(ieme|ième|ème|eme|ere|er)\b/i, "")
-  cleaned = cleaned.tr("-", " ")
-  parts = cleaned.split(/\s+/).map { |p| p.gsub(/[^a-z]/, "") }.reject(&:empty?)
-  total = 0
-  i = 0
-  while i < parts.length
-    p = parts[i]
-    if FR_TENS.key?(p)
-      total += FR_TENS[p]
-      # lookahead for "et un"
-      if parts[i + 1] == "et" && parts[i + 2] == "un"
-        total += 1
-        i += 2
-      elsif FR_UNITS.key?(parts[(i + 1)..].join(" "))
-        total += FR_UNITS[parts[(i + 1)..].join(" ")]
-        i += 1
-      elsif FR_UNITS.key?(parts[i + 1])
-        total += FR_UNITS[parts[i + 1]]
-        i += 1
-      end
-    elsif FR_UNITS.key?(p)
-      total += FR_UNITS[p]
-    elsif WORD_TO_INT.key?(p)
-      total += WORD_TO_INT[p]
-    end
-    i += 1
-  end
-  total.zero? ? nil : total
+  nil
 end
+
+FR_UNIT_FR_TO_INT = {
+  "un" => 1, "deux" => 2, "trois" => 3, "quatre" => 4, "cinq" => 5,
+  "six" => 6, "sept" => 7, "huit" => 8, "neuf" => 9, "dix" => 10,
+  "onze" => 11, "douze" => 12, "treize" => 13, "quatorze" => 14,
+  "quinze" => 15, "seize" => 16,
+}.freeze
 
 def parse_arabic_ordinal(text)
   m = text.match(/(\d{1,2})(?:st|nd|rd|th)?\s+Meeting/i)
@@ -147,8 +156,10 @@ EN_ORDINAL_RE = /
 
 FR_ORDINAL_RE = %r{
   (?:
-    # 20-99: tens + optional unit
-    (?:Vingt|Trente|Quarante|Cinquante|Soixante|Septante|Huitante|Nonante)
+    # 20-99: tens stem + optional trailing "e" (source PDFs may write
+    # the bare stem like "TRENT" in "TRENTIÈME" or the full "trente"
+    # in "trentième"), then optional unit, then ordinal suffix.
+    (?:Vingt|Trent|Quarant|Cinquant|Soixant|Septant|Huitant|Nonant)e?
     (?:[-\s]*
        (?:et\ un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|
         onze|douze|treize|quatorze|quinze|seize|dix-sept|dix-huit|dix-neuf)
