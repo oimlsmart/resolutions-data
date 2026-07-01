@@ -132,9 +132,59 @@ end
 
 def meeting_year(date_start)
   return nil unless date_start
+
   Date.parse(date_start).year
 rescue ArgumentError
   nil
+end
+
+# Map from manifest city name + ISO 3166-1 alpha-2 country code to the
+# 5-character UN/LOCODE. Cover the cities OIML/CIML has actually met
+# in (per scripts/manifest.yaml). Returns nil for virtual meetings or
+# when no mapping is known — the schema's `city` field is optional.
+CITY_NAME_TO_UNLOCODE = {
+  ["Berlin", "DE"]             => "DEBER",
+  ["Lyon", "FR"]               => "FRLYS",
+  ["Cape Town", "ZA"]          => "ZACPT",
+  ["Shanghai", "CN"]           => "CNSHA",
+  ["Sydney", "AU"]             => "AUSYD",
+  ["Mombasa", "KE"]            => "KEMBA",
+  ["Orlando", "US"]            => "USORL",
+  ["Prague", "CZ"]             => "CZPRG",
+  ["Bucharest", "RO"]          => "ROBUH",
+  ["Ho Chi Minh City", "VN"]   => "VNSGN",
+  ["Auckland", "NZ"]           => "NZAKL",
+  ["Arcachon", "FR"]           => "FRARC",
+  ["Strasbourg", "FR"]         => "FRSTR",
+  ["Cartagena de Indias", "CO"] => "COCTG",
+  ["Hamburg", "DE"]            => "DEHAM",
+  ["Bratislava", "SK"]         => "SKBTS",
+  ["Chiang Mai", "TH"]         => "THCNM",
+  ["Paris", "FR"]              => "FRPAR",
+  ["Berlin, Germany", "DE"]    => "DEBER",
+  ["Lyon, France", "FR"]       => "FRLYS",
+  ["Cape Town, South Africa", "ZA"] => "ZACPT",
+  ["Shanghai, P.R. China", "CN"]    => "CNSHA",
+  ["Sydney, Australia", "AU"]       => "AUSYD",
+  ["Mombasa, Kenya", "KE"]          => "KEMBA",
+  ["Orlando, USA", "US"]            => "USORL",
+  ["Prague, Czech Republic", "CZ"]  => "CZPRG",
+  ["Bucharest, Romania", "RO"]      => "ROBUH",
+  ["Ho Chi Minh City, Viet Nam", "VN"] => "VNSGN",
+  ["Arcachon, France", "FR"]        => "FRARC",
+  ["Strasbourg, France", "FR"]      => "FRSTR",
+  ["Cartagena de Indias, Colombia", "CO"] => "COCTG",
+  ["Hamburg, Germany", "DE"]        => "DEHAM",
+  ["Bratislava, Slovak Republic", "SK"] => "SKBTS",
+  ["Chiang Mai, Thailand", "TH"]    => "THCNM",
+  ["Paris, France", "FR"]           => "FRPAR",
+}.freeze
+
+def unlocode_for(city_name, country_code)
+  return nil if city_name.nil? || city_name.empty?
+  return nil if country_code.nil? || country_code.empty?
+
+  CITY_NAME_TO_UNLOCODE[[city_name, country_code]]
 end
 
 def meeting_status(date_end)
@@ -162,10 +212,11 @@ meetings.each do |(kind, ord), m|
   next if kind.nil?
 
   meta = m[:meta]
-  city = meta["city"]
+  city_name = meta["city"]
   country_code = meta["country_code"]
   venue = meta["venue"] || ""
   virtual = venue.empty? || venue.casecmp("online meeting").zero?
+  city = unlocode_for(city_name, country_code)
 
   identifiers = identifiers_for(kind, ord)
   urn = meeting_urn(kind, ord)
