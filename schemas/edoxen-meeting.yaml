@@ -15,7 +15,9 @@ description: |
   Edoxen::Enums::* (Meeting side) by
   `spec/edoxen/schema_meeting_enum_sync_spec.rb`.
 type: object
-$ref: "#/$defs/Meeting"
+oneOf:
+  - $ref: "#/$defs/MeetingCollection"
+  - $ref: "#/$defs/Meeting"
 
 $defs:
 
@@ -102,6 +104,21 @@ $defs:
       contact:
         $ref: "#/$defs/Person"
 
+  ScheduleItemLocalization:
+    type: object
+    description: "Per-language content for a ScheduleItem."
+    additionalProperties: false
+    required: [language_code]
+    properties:
+      language_code:
+        type: string
+        pattern: "^[a-z]{3}$"
+      script:
+        type: string
+        pattern: "^[A-Z][a-z]{3}$"
+      event:       { type: string }
+      description: { type: string }
+
   ScheduleItem:
     type: object
     description: "One entry in the meeting timetable."
@@ -114,6 +131,88 @@ $defs:
       event:       { type: string }
       description: { type: string }
       room:        { type: string }
+      localizations:
+        type: array
+        items:
+          $ref: "#/$defs/ScheduleItemLocalization"
+
+  Attendance:
+    type: object
+    description: "One attendance record per person at a Meeting."
+    additionalProperties: false
+    required: [person, status]
+    properties:
+      person:
+        $ref: "#/$defs/Person"
+      status:
+        $ref: "#/$defs/ParticipationStatus"
+      affiliation: { type: string }
+      proxy_for:
+        $ref: "#/$defs/Person"
+      notes: { type: string }
+
+  VoteRecord:
+    type: object
+    description: "One vote by one person on one resolution at one meeting."
+    additionalProperties: false
+    required: [resolution_ref, person, vote]
+    properties:
+      resolution_ref: { type: string }
+      person:
+        $ref: "#/$defs/Person"
+      affiliation: { type: string }
+      vote:
+        $ref: "#/$defs/VoteType"
+      notes: { type: string }
+
+  MinutesSection:
+    type: object
+    description: |
+      One section of a Meeting's minutes — typically tied to an agenda
+      item by its `number` field. Carries the narrative as Markdown
+      (the format the GLM-OCR pipeline emits) plus an optional page
+      range for provenance back to the source PDF.
+    additionalProperties: false
+    properties:
+      number:      { type: string }
+      title:       { type: string }
+      narrative:   { type: string }
+      page_start:  { type: integer }
+      page_end:    { type: integer }
+      references:
+        type: array
+        items:
+          $ref: "#/$defs/Reference"
+
+  Minutes:
+    type: object
+    description: |
+      The narrative record of a Meeting — what was said, by whom, in
+      what order, with what outcome. Distinct from Agenda (the business
+      order drafted before the meeting) and from ResolutionCollection
+      (the formal decisions adopted). The Minutes are the running
+      record. One Minutes document per language; sections are typically
+      keyed by agenda-item number so consumers can join
+      Minutes ↔ AgendaItem ↔ Resolution.
+    additionalProperties: false
+    properties:
+      identifier:
+        type: array
+        items:
+          $ref: "#/$defs/StructuredIdentifier"
+      urn:           { type: string }
+      language_code:
+        type: string
+        pattern: "^[a-z]{3}$"
+      script:
+        type: string
+        pattern: "^[A-Z][a-z]{3}$"
+      source_doc:    { type: string }
+      source_pages:  { type: string }
+      sections:
+        type: array
+        items:
+          $ref: "#/$defs/MinutesSection"
 
   Deadline:
     type: object
@@ -245,7 +344,10 @@ $defs:
         items:
           $ref: "#/$defs/Location"
       general_area:    { type: string }
-      city:            { type: string }
+      city:
+        type: string
+        pattern: "^[A-Z]{2}[A-Z0-9]{3}$"
+        description: "UN/LOCODE of the host city (5-char: 2-letter ISO 3166-1 country + 3-char location, e.g. FRPAR, HKHKG, THCNM)."
       country_code:
         type: string
         pattern: "^[A-Z]{2}$"
@@ -276,6 +378,18 @@ $defs:
         type: array
         items:
           $ref: "#/$defs/Deadline"
+      attendance:
+        type: array
+        items:
+          $ref: "#/$defs/Attendance"
+      vote_records:
+        type: array
+        items:
+          $ref: "#/$defs/VoteRecord"
+      minutes:
+        type: array
+        items:
+          $ref: "#/$defs/Minutes"
 
       localizations:
         type: array
@@ -354,3 +468,13 @@ $defs:
     type: string
     description: "Edoxen::Enums::SOURCE_URL_KIND."
     enum: [agenda_pdf, minutes_pdf, resolutions_pdf, report_pdf, register_url, landing_page]
+
+  ParticipationStatus:
+    type: string
+    description: "Edoxen::Enums::PARTICIPATION_STATUS."
+    enum: [present, absent, apologies, observer, excused]
+
+  VoteType:
+    type: string
+    description: "Edoxen::Enums::VOTE_TYPE."
+    enum: [affirmative, negative, abstain, absent, not_applicable]

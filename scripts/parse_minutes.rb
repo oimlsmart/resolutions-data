@@ -69,7 +69,28 @@ def parse_english_ordinal(phrase)
   total.zero? ? nil : total
 end
 
+FR_UNIT_FULL_WORDS = {
+  "premiere" => 1, "premier" => 1,
+  "deuxieme" => 2, "troisieme" => 3, "quatrieme" => 4,
+  "cinquieme" => 5, "sixieme" => 6, "septieme" => 7, "huitieme" => 8,
+  "neuvieme" => 9, "dixieme" => 10, "onzieme" => 11, "douzieme" => 12,
+  "treizieme" => 13, "quatorzieme" => 14, "quinzieme" => 15,
+  "seizieme" => 16, "dixseptieme" => 17, "dixhuitieme" => 18,
+  "dixneuvieme" => 19,
+}.freeze
+
 def parse_french_ordinal(phrase)
+  # Direct full-word match first — handles the 1-19 range cleanly when
+  # OCR capitalises the ordinal ("QUINZIÈME RÉUNION" → "quinzieme"
+  # after diacritic strip, which is in the table).
+  stripped = phrase.downcase.gsub(/[éèêë]/, "e").gsub(/[^a-z\s]/, "").strip
+  first_word = stripped.split(/\s+/).first
+  if FR_UNIT_FULL_WORDS.key?(first_word)
+    return FR_UNIT_FULL_WORDS[first_word]
+  end
+
+  # Fall back to the position-by-position parser for compound
+  # ordinals ("vingt et un", "vingt-deux", ...).
   cleaned = phrase.downcase
   cleaned = cleaned.sub(/(ieme|ième|ème|eme|ere|er)\b/i, "")
   cleaned = cleaned.tr("-", " ")
@@ -107,24 +128,47 @@ def parse_arabic_ordinal(text)
 end
 
 EN_ORDINAL_RE = /
-  (?:Twenty|Thirty|Forty|Fifty|Sixty|Seventy|Eighty|Ninety)
-  (?:[-\s]*
-     (?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|
-      Tenth|Eleventh|Twelfth|Thirteenth|Fourteenth|Fifteenth|
-      Sixteenth|Seventeenth|Eighteenth|Nineteenth|Twentieth)
-  )?
+  (?:
+    # 20-99: tens + optional unit
+    (?:Twenty|Thirty|Forty|Fifty|Sixty|Seventy|Eighty|Ninety)
+    (?:[-\s]*
+       (?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|
+        Tenth|Eleventh|Twelfth|Thirteenth|Fourteenth|Fifteenth|
+        Sixteenth|Seventeenth|Eighteenth|Nineteenth|Twentieth)
+    )?
+    |
+    # 1-19: unit alone
+    (?:First|Second|Third|Fourth|Fifth|Sixth|Seventh|Eighth|Ninth|
+       Tenth|Eleventh|Twelfth|Thirteenth|Fourteenth|Fifteenth|
+       Sixteenth|Seventeenth|Eighteenth|Nineteenth|Twentieth)
+  )
   \s+(?:Meeting|CIML\ Meeting)
 /ix
 
-FR_ORDINAL_RE = /
-  (?:Vingt|Trente|Quarante|Cinquante|Soixante|Septante|Huitante|Nonante)
-  (?:[-\s]*
-     (?:et\ un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|
-      onze|douze|treize|quatorze|quinze|seize|dix-sept|dix-huit|dix-neuf)
-  )?
-  [eè]?(?:me|me|ième|ème)?
-  \s+(?:Réunion|Meeting)
-/ix
+FR_ORDINAL_RE = %r{
+  (?:
+    # 20-99: tens + optional unit
+    (?:Vingt|Trente|Quarante|Cinquante|Soixante|Septante|Huitante|Nonante)
+    (?:[-\s]*
+       (?:et\ un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|
+        onze|douze|treize|quatorze|quinze|seize|dix-sept|dix-huit|dix-neuf)
+    )?
+    (?:ieme|ième|ème|eme|ime)
+    |
+    # 1-19: unit alone. The trailing suffix alternation handles the
+    # accent variants in source PDFs ("ième" vs "ème") plus OCR
+    # spelling drift. Ruby's /i flag handles case folding on the full
+    # word but not within character classes for non-ASCII accents, so
+    # we use explicit alternation instead of [eéè].
+    (?:Premier|Première|Deuxième|Deuxieme|Troisième|Troisieme|Quatrième|Quatrieme|
+       Cinquième|Cinquieme|Sixième|Sixieme|Septième|Septieme|Huitième|Huitieme|
+       Neuvième|Neuvieme|Dixième|Dixieme|Onzième|Onzieme|Douzième|Douzieme|
+       Treizième|Treizieme|Quatorzième|Quatorzieme|Quinzième|Quinzieme|
+       Seizième|Seizieme|Dix-septi[eéè]me|Dix-septieme|Dix-huitième|Dix-huitieme|
+       Dix-neuvième|Dix-neuvieme)
+  )
+  \s+(?:Réunion|Reunion|Meeting)
+}ix
 
 def detect_meeting_ordinal(md_head)
   if (m = md_head.match(EN_ORDINAL_RE))
@@ -140,7 +184,9 @@ end
 
 def detect_language(md_head)
   return "fra" if /COMPTE RENDU/i.match?(md_head)
-  return "fra" if /Réunion/i.match?(md_head)
+  return "fra" if /R[ÉE]SUM[ÉE]/i.match?(md_head)
+  return "fra" if /SOMMAIRE/i.match?(md_head)
+  return "fra" if /R[ée]union/i.match?(md_head)
   return "fra" if /TRENT|VINGT|QUARANTE|CINQUANTE/i.match?(md_head)
 
   "eng"
@@ -152,6 +198,13 @@ rescue StandardError
   nil
 end
 
+ROMAN_TO_INT = {
+  "I" => 1, "II" => 2, "III" => 3, "IV" => 4, "V" => 5,
+  "VI" => 6, "VII" => 7, "VIII" => 8, "IX" => 9, "X" => 10,
+  "XI" => 11, "XII" => 12, "XIII" => 13, "XIV" => 14, "XV" => 15,
+  "XVI" => 16, "XVII" => 17, "XVIII" => 18, "XIX" => 19, "XX" => 20,
+}.freeze
+
 def extract_sections(md)
   return [] if md.nil? || md.empty?
 
@@ -159,10 +212,19 @@ def extract_sections(md)
   sections = []
   current = nil
 
+  # Match either Arabic (## N <title> or ## N.M <title>) or Roman
+  # (## I — <title>, ## IV b — <title>, ...) section headers.
+  header_re = /\A##\s+(\d{1,2}(?:\.\d{1,2})?(?:\.\d+)?(?:\s+[a-z])?|[IVX]+(?:\s+[a-z])?)\s*[\.\-—–]\s*(.*)\z/
+
   lines.each do |line|
-    if (m = line.match(/^###?\s+(\d{1,2}(?:\.\d{1,2})?)\s+(.+)$/))
+    if (m = line.match(header_re))
+      num = m[1].strip
+      # Roman → Arabic for stable identifiers
+      if ROMAN_TO_INT.key?(num)
+        num = ROMAN_TO_INT[num].to_s
+      end
       sections << current if current
-      current = { "number" => m[1], "title" => m[2].strip, "narrative" => +"" }
+      current = { "number" => num, "title" => m[2].strip, "narrative" => +"" }
     elsif current
       current["narrative"] << line << "\n"
     end
@@ -180,7 +242,7 @@ Dir.glob(File.join(RAW_DIR, "*.json")).sort.each do |path|
   md = data["md_results"]
   md = md.is_a?(Array) ? md.join("\n") : md.to_s
   next if md.empty?
-  next unless /MINUTES|COMPTE RENDU/i.match?(md[0..5000])
+  next unless /MINUTES|COMPTE RENDU|MINUT[S]?|SUMMARY|R[ÉE]SUM[ÉE]|SOMMAIRE/i.match?(md[0..5000])
 
   head = md[0..5000]
   ordinal = detect_meeting_ordinal(head)
@@ -205,6 +267,10 @@ by_meeting.each do |(ordinal, lang), info|
   sections = merged.values.sort_by { |s| s["number"].split(".").map(&:to_i) }
 
   urn = "urn:oiml:ciml:minutes:ciml-#{ordinal}-#{lang}"
+  # source_doc is optional in the schema — emit it only when at least
+  # one of the contributing OCR chunks had a source_url. The original
+  # PDFs may have been loaded directly into OCR (cache JSONs without
+  # source_url) so we don't lose minutes coverage by skipping here.
   source_doc = info[:sources].compact.first
 
   data = {
@@ -212,9 +278,9 @@ by_meeting.each do |(ordinal, lang), info|
     "urn" => urn,
     "language_code" => lang,
     "script" => "Latn",
-    "source_doc" => source_doc,
     "sections" => sections,
   }
+  data["source_doc"] = source_doc if source_doc
 
   out_path = File.join(OUT_DIR, "ciml-#{ordinal}-#{lang}.yaml")
   File.write(out_path, "---\n# Auto-generated by scripts/parse_minutes.rb.\n" +

@@ -36,6 +36,12 @@ jobs:
           gem install edoxen --no-document
           edoxen validate-meetings 'meetings/*.yaml'
 
+      - name: Cross-check schema enum parity
+        run: ruby scripts/check_schema_sync.rb
+
+      - name: Cross-check resolution ↔ meeting join
+        run: ruby scripts/check_meeting_join.rb
+
   build:
     runs-on: ubuntu-latest
     needs: validate

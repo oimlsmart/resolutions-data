@@ -5,290 +5,326 @@
 # Language: fr
 ---
 metadata:
-  title: "15e Conférence OIML — Résolutions (FR)"
+  title: 15e Conférence OIML — Résolutions (FR)
   dates:
   - start: '2016-10-19'
     end: '2016-10-20'
     kind: meeting
   source: OIML Conference Secretariat (BIML)
-  venue: "Strasbourg, France"
+  venue: Strasbourg, France
   city: Strasbourg
   country_code: FR
   language: fr
+  meeting_urn: urn:oiml:conference:meeting:conference-15
 resolutions:
-  - identifier: Conference/2016/1
-    doi: "10.63493/resolutions/conf201601"
-    urn: "urn:oiml:doc:conf:resolution:15.01"
-    subject: "Conférence OIML"
-    title: "Approuve le compte rendu de la $ 1 4^{\\mathrm{\\text{ème}}} $ Conférence en 2012."
+- identifier: Conference/2016/1
+  doi: 10.63493/resolutions/conf201601
+  urn: urn:oiml:doc:conf:resolution:15.01
+  subject: Conférence OIML
+  title: Approuve le compte rendu de la $ 1 4^{\mathrm{\text{ème}}} $ Conférence en
+    2012.
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations: []
+  actions:
+  - type: approves
+    message: 'Approuve le compte rendu de la $ 1 4^{\mathrm{\text{ème}}} $ Conférence
+      en 2012.
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations: []
-    actions:
-    - type: approves
-      message: |
-        Approuve le compte rendu de la $ 1 4^{\mathrm{\text{ème}}} $ Conférence en 2012.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/2
-    doi: "10.63493/resolutions/conf201602"
-    urn: "urn:oiml:doc:conf:resolution:15.02"
-    subject: "Conférence OIML"
-    title: "Décide que "
+      kind: effective
+- identifier: Conference/2016/2
+  doi: 10.63493/resolutions/conf201602
+  urn: urn:oiml:doc:conf:resolution:15.02
+  subject: Conférence OIML
+  title: 'Décide que '
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu le dernier paragraphe de l''Article XXV de la Convention,
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu le dernier paragraphe de l'Article XXV de la Convention,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: decides
-      message: |
-        Décide que :
-        a) Les excédents budgétaires (résultats nets) de l'exercice financier 2013-2016 doivent être ajoutés aux fonds de réserve ;
-        b) Durant l'exercice financier 2017-2020, l'augmentation des fonds de réserve mentionnés en a) ci-dessus devrait être utilisée pour apporter aux secrétariats et aux responsables des groupes un soutien limité dans le temps visant à développer leurs capacités à réaliser le travail technique de l'OIML, notamment par des actions de formation.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: charges
-      message: |
-        Charge le Directeur de préparer des budgets à présenter au CIML pour les années 2017, 2018, 2019 et 2020 faisant apparaître ces dépenses.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/3
-    doi: "10.63493/resolutions/conf201603"
-    urn: "urn:oiml:doc:conf:resolution:15.03"
-    subject: "Conférence OIML"
-    title: "Demande au Comité d'examiner la politique qu'il devrait adopter en ce qui concerne le"
+      kind: effective
+  actions:
+  - type: decides
+    message: |
+      Décide que :
+      a) Les excédents budgétaires (résultats nets) de l'exercice financier 2013-2016 doivent être ajoutés aux fonds de réserve ;
+      b) Durant l'exercice financier 2017-2020, l'augmentation des fonds de réserve mentionnés en a) ci-dessus devrait être utilisée pour apporter aux secrétariats et aux responsables des groupes un soutien limité dans le temps visant à développer leurs capacités à réaliser le travail technique de l'OIML, notamment par des actions de formation.
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu ses discussions sur le niveau des réserves convenant au fonctionnement de l'organisation,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: requests
-      message: |
-        Demande au Comité d'examiner la politique qu'il devrait adopter en ce qui concerne le niveau du fond de réserve à long terme et les fins pour lesquelles il devrait être utilisé, et de soumettre un rapport sur ses recommandations à la 16ème Conférence en 2020.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/4
-    doi: "10.63493/resolutions/conf201604"
-    urn: "urn:oiml:doc:conf:resolution:15.04"
-    subject: "Conférence OIML"
-    title: "Décide que : Les comptes audités pour 2012, 2013, 2014 et 2015 sont à"
+      kind: effective
+  - type: charges
+    message: 'Charge le Directeur de préparer des budgets à présenter au CIML pour
+      les années 2017, 2018, 2019 et 2020 faisant apparaître ces dépenses.
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu l'avant-dernier paragraphe de l'Article XXV de la Convention,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: noting
-      message: |
-        Prenant note des Résolutions du CIML n $ ^{o s} $ 2013/7,2014/6,2015/5 et 2016/6,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: decides
-      message: |
-        Décide que :
-        Les comptes audités pour 2012, 2013, 2014 et 2015 sont à présent approuvés. Le Président du CIML et le Directeur du BIML sont définitivement déchargés de leur gestion financière desdites années.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/5
-    doi: "10.63493/resolutions/conf201605"
-    urn: "urn:oiml:doc:conf:resolution:15.05"
-    subject: "Conférence OIML"
-    title: "Décide que : Les publications de l'OIML listées dans le rapport en Annexe D"
+      kind: effective
+- identifier: Conference/2016/3
+  doi: 10.63493/resolutions/conf201603
+  urn: urn:oiml:doc:conf:resolution:15.03
+  subject: Conférence OIML
+  title: Demande au Comité d'examiner la politique qu'il devrait adopter en ce qui
+    concerne le
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu ses discussions sur le niveau des réserves convenant au fonctionnement
+      de l''organisation,
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu les $ 1^{\mathrm{er}} $ et $ 5^{\mathrm{ème}} $ paragraphes de l'Article VIII de la Convention,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: noting
-      message: |
-        Prenant note du rapport sur les publications approuvées par le Comité depuis la 14ème Conférence en 2012 figurant en Annexe D,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: decides
-      message: |
-        Décide que :
-        Les publications de l'OIML listées dans le rapport en Annexe D sont à présent sanctionnées.
-        Il est rappelé aux États Membres qu'ils ont l'obligation de mettre en œuvre les Recommandations de l'OIML dans la mesure du possible.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/6
-    doi: "10.63493/resolutions/conf201606"
-    urn: "urn:oiml:doc:conf:resolution:15.06"
-    subject: "Conférence OIML"
-    title: "Décide que "
+      kind: effective
+  actions:
+  - type: requests
+    message: 'Demande au Comité d''examiner la politique qu''il devrait adopter en
+      ce qui concerne le niveau du fond de réserve à long terme et les fins pour lesquelles
+      il devrait être utilisé, et de soumettre un rapport sur ses recommandations
+      à la 16ème Conférence en 2020.
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu le premier paragraphe de l'Article XXIV, l'Article XXVI (1), et le second paragraphe de l'Article XXVIII de la Convention,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: noting
-      message: |
-        Prenant note de la Résolution n $ ^{\circ} $ 2016/10 de la 51 $ ^{\mathrm{e m e}} $ Réunion du CIML,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: considering
-      message: |
-        Considérant que le nombre total de parts contributives de base, en prenant en considération la classification des États Membres tel que révisée en 2016, est de 144 pour l'année 2017 et, après reclassification de certains États Membres, de 146 pour les années suivantes de l'exercice financier 2017-2020,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: decides
-      message: |
-        Décide que :
-        a) Le montant global des crédits nécessaires pour couvrir les frais de fonctionnement de l'Organisation est de 8 827 000 euros pour l'exercice financier 2017-2020 ;
-        b) La part annuelle contributive de base pour l'exercice financier 2017-2020 est de 14 000 euros. Cela entraîne une contribution annuelle totale pour un État Membre classifié conformément à l'Article XXVI (1) de la Convention en Classe 1, Classe 2, Classe 3 ou Classe 4 de 56 000 euros, 112 000 euros, 224 000 euros or 448 000 euros, respectivement ;
-        c) En cas d'admission d'un État Membre au cours de l'exercice financier, le montant global de crédits mentionné en a) ci-dessus, est augmenté par la part contributive dudit État Membre, calculée à partir de sa classification et de la part contributive de base, proportionnellement à la période allant de son admission jusqu'à la fin de l'exercice financier ;
-        d) Pour l'exercice financier 2017-2020, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/7
-    doi: "10.63493/resolutions/conf201607"
-    urn: "urn:oiml:doc:conf:resolution:15.07"
-    subject: "Conférence OIML"
-    title: "Décide que"
+      kind: effective
+- identifier: Conference/2016/4
+  doi: 10.63493/resolutions/conf201604
+  urn: urn:oiml:doc:conf:resolution:15.04
+  subject: Conférence OIML
+  title: 'Décide que : Les comptes audités pour 2012, 2013, 2014 et 2015 sont à'
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu l''avant-dernier paragraphe de l''Article XXV de la Convention,
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu l'Article XIII de la Convention,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: noting
-      message: |
-        Prenant note des discussions de la $ 5 0^{\mathrm{\mathrm
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: decides
-      message: |
-        Décide que:
-        a) Si le Bureau a été informé que le représentant désigné d'un État Membre ne remplit plus les conditions d'appartenance au Comité et que l'État Membre n'a pas encore désigné un nouveau représentant, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité ;
-        b) Si le représentant désigné d'un État Membre n'a répondu à aucune communication du Bureau depuis plus de six mois et si le Bureau a fait toutes les tentatives raisonnablement possibles pour contacter le représentant désigné, le Bureau devra chercher la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, selon une procédure décidée par le Comité ;
-        c) S'il n'est pas possible, dans un délai raisonnable à fixer par le Comité, d'obtenir la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-  - identifier: Conference/2016/8
-    doi: "10.63493/resolutions/conf201608"
-    urn: "urn:oiml:doc:conf:resolution:15.08"
-    subject: "Conférence OIML"
-    title: "Décide que : Le Comité est à présent chargé d'organiser la 16eme Conférence en"
+      kind: effective
+  - type: noting
+    message: 'Prenant note des Résolutions du CIML n $ ^{o s} $ 2013/7,2014/6,2015/5
+      et 2016/6,
+
+      '
     dates:
     - start: '2016-10-19'
-      kind: decision
-    considerations:
-    - type: having_regard_to
-      message: |
-        Vu l'Article X de la Convention,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    - type: considering
-      message: |
-        Considérant la pratique actuelle de tenir une Conférence tous les quatre ans,
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-    actions:
-    - type: decides
-      message: |
-        Décide que :
-        Le Comité est à présent chargé d'organiser la 16eme Conférence en 2020, et d'en fixer le lieu et les dates.
-        ***
-        <div align="center">
-        15 $ ^{\mathrm{e}me}} $ Conférence Internationale de Métrologie Légale Point 6
-        </div>
-        Sanction des publications OIML
-        Une liste est donnée ci-dessous de tous les Documents, Recommandations et Vocabulaires qui ont été soit :
-        - approuvés par le CIML lors de sa 48ème Réunion (2013), 49ème Réunion (2014) et 50ème Réunion (2015), soit
-        - soumis à la 51ème Réunion du CIML (2016) pour approbation.
-        2013
-        Approuvés lors de la 48 $ ^{\mathrm{ème}} $ Réunion du CIML (Résolutions 2013/11 et 2013/19)
-        - R 46-3 Compteurs actifs d'énergie électrique - Partie 3: Format du rapport d'essai
-        - R 49-1 Compteurs d'eau potable froide et d'eau chaude - Partie 1: Exigences métrologiques et techniques
-        - R 49-2 Compteurs d'eau potable froide et d'eau chaude - Partie 2: Méthodes d'essai
-        - R 49-3 Compteurs d'eau potable froide et d'eau chaude - Partie 3: Format du rapport d'essai
-        - R 144 Instruments pour le mesurage continu de CO et NOx dans les émissions de sources fixes
-        - R 100 Systèmes de spectromètres d'absorption atomique pour la mesure des polluants métalliques
-        - D 11 Exigences générales pour les instruments de mesure - Conditions environnementales
-        - V1 Vocabulaire international des termes de métrologie légale (VIML)
-        2014
-        Approuvés lors de la 49<sup>eme</sup> Réunion du CIML (Résolution 2014/15)
-        - Amd R 35-1 Mesures matérilisées de longueur pour usages généraux - Partie 1: Exigences métrologiques et techniques
-        - R 50-1 Instruments de pesage totalisateurs continus à fonctionnement automatique
-        - (peseuses sur bande) - Partie 1: Exigences métrologiques et techniques
-        - R 50-2 Instruments de pesage totalisateurs continus à fonctionnement automatique (peseuses sur bande) – Partie 2: Procédures d'essai
-        - R 50-3 Instruments de pesage totalisateurs continus à fonctionnement automatique
-        (peseuses sur bande) – Partie 3: Format du rapport d'essai
-        - R 117-2 Ensembles de mesurage dynamique de liquides autres que l'eau
-        - Partie 2: Contrôles métrologiques et essais de performance
-        - R 117-3 Ensembles de mesurage dynamique de liquides autres que l'eau
-        - Partie 3: Format du rapport d'essai
-        - R 139-1 Ensembles de mesurage de gaz compressé pour véhicules
-        - Partie 1: Exigences métrologiques et techniques
-        - R 139-2 Ensembles de mesurage de gaz compressé pour véhicules
-        - Partie 2: Contrôles métrologiques et essais de performance
-        Approbation directe en ligne par le CIML en 2014
-        - R 137-3 Compteurs de gaz - Partie 3: Format du rapport d'essai
-        - Amd R 137-1 Compteurs de gaz - Partie 1: Exigences métrologiques et techniques
-        - Amd R 137-2 Compteurs de gaz - Partie 2: Contrôles métrologiques et essais de performance
-        2015
-        Approuvés lors de la $ 50^{\mathrm{ème}} $ Réunion du CIML (Résolution 2015/14)
-        - R 79 Exigences pour l'étiquetage des produits préemballés
-        - R 139-3 Ensembles de mesurage de gaz compressé pour véhicules
-        - Partie 3: Format du rapport d'essai
-        - R 145 Instruments ophtalmiques - tonomètres d'empreinte et d'aplanation
-        2016
-        Soumis pour approbation à la 51<sup>ème</sup> Réunion du CIML (Voir le point 9.1 du CIML)
-        - R 59 Humidimètres pour grains de céréales et graines oléagineuses
-        - R 87 Quantité de produit dans les préemballages
-        - Nouvelle R Instruments de mesure utilisés pour la détermination des protéines dans les grains
-        - et les oléagineux
-        - Nouvelle R Radiateur étalon à corps noir pour l'étendue de température de $ - 5 0 \mathrm {^o C} $ à $ 2 5 0 0 \mathrm {^o C} $
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      kind: effective
+  actions:
+  - type: decides
+    message: |
+      Décide que :
+      Les comptes audités pour 2012, 2013, 2014 et 2015 sont à présent approuvés. Le Président du CIML et le Directeur du BIML sont définitivement déchargés de leur gestion financière desdites années.
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+- identifier: Conference/2016/5
+  doi: 10.63493/resolutions/conf201605
+  urn: urn:oiml:doc:conf:resolution:15.05
+  subject: Conférence OIML
+  title: 'Décide que : Les publications de l''OIML listées dans le rapport en Annexe
+    D'
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu les $ 1^{\mathrm{er}} $ et $ 5^{\mathrm{ème}} $ paragraphes de l''Article
+      VIII de la Convention,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  - type: noting
+    message: 'Prenant note du rapport sur les publications approuvées par le Comité
+      depuis la 14ème Conférence en 2012 figurant en Annexe D,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  actions:
+  - type: decides
+    message: |
+      Décide que :
+      Les publications de l'OIML listées dans le rapport en Annexe D sont à présent sanctionnées.
+      Il est rappelé aux États Membres qu'ils ont l'obligation de mettre en œuvre les Recommandations de l'OIML dans la mesure du possible.
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+- identifier: Conference/2016/6
+  doi: 10.63493/resolutions/conf201606
+  urn: urn:oiml:doc:conf:resolution:15.06
+  subject: Conférence OIML
+  title: 'Décide que '
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu le premier paragraphe de l''Article XXIV, l''Article XXVI (1), et
+      le second paragraphe de l''Article XXVIII de la Convention,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  - type: noting
+    message: 'Prenant note de la Résolution n $ ^{\circ} $ 2016/10 de la 51 $ ^{\mathrm{e
+      m e}} $ Réunion du CIML,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  - type: considering
+    message: 'Considérant que le nombre total de parts contributives de base, en prenant
+      en considération la classification des États Membres tel que révisée en 2016,
+      est de 144 pour l''année 2017 et, après reclassification de certains États Membres,
+      de 146 pour les années suivantes de l''exercice financier 2017-2020,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  actions:
+  - type: decides
+    message: |
+      Décide que :
+      a) Le montant global des crédits nécessaires pour couvrir les frais de fonctionnement de l'Organisation est de 8 827 000 euros pour l'exercice financier 2017-2020 ;
+      b) La part annuelle contributive de base pour l'exercice financier 2017-2020 est de 14 000 euros. Cela entraîne une contribution annuelle totale pour un État Membre classifié conformément à l'Article XXVI (1) de la Convention en Classe 1, Classe 2, Classe 3 ou Classe 4 de 56 000 euros, 112 000 euros, 224 000 euros or 448 000 euros, respectivement ;
+      c) En cas d'admission d'un État Membre au cours de l'exercice financier, le montant global de crédits mentionné en a) ci-dessus, est augmenté par la part contributive dudit État Membre, calculée à partir de sa classification et de la part contributive de base, proportionnellement à la période allant de son admission jusqu'à la fin de l'exercice financier ;
+      d) Pour l'exercice financier 2017-2020, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+- identifier: Conference/2016/7
+  doi: 10.63493/resolutions/conf201607
+  urn: urn:oiml:doc:conf:resolution:15.07
+  subject: Conférence OIML
+  title: Décide que
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu l''Article XIII de la Convention,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  - type: noting
+    message: 'Prenant note des discussions de la $ 5 0^{\mathrm{\mathrm
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  actions:
+  - type: decides
+    message: |
+      Décide que:
+      a) Si le Bureau a été informé que le représentant désigné d'un État Membre ne remplit plus les conditions d'appartenance au Comité et que l'État Membre n'a pas encore désigné un nouveau représentant, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité ;
+      b) Si le représentant désigné d'un État Membre n'a répondu à aucune communication du Bureau depuis plus de six mois et si le Bureau a fait toutes les tentatives raisonnablement possibles pour contacter le représentant désigné, le Bureau devra chercher la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, selon une procédure décidée par le Comité ;
+      c) S'il n'est pas possible, dans un délai raisonnable à fixer par le Comité, d'obtenir la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité.
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+- identifier: Conference/2016/8
+  doi: 10.63493/resolutions/conf201608
+  urn: urn:oiml:doc:conf:resolution:15.08
+  subject: Conférence OIML
+  title: 'Décide que : Le Comité est à présent chargé d''organiser la 16eme Conférence
+    en'
+  dates:
+  - start: '2016-10-19'
+    kind: decision
+  considerations:
+  - type: having_regard_to
+    message: 'Vu l''Article X de la Convention,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  - type: considering
+    message: 'Considérant la pratique actuelle de tenir une Conférence tous les quatre
+      ans,
+
+      '
+    dates:
+    - start: '2016-10-19'
+      kind: effective
+  actions:
+  - type: decides
+    message: |
+      Décide que :
+      Le Comité est à présent chargé d'organiser la 16eme Conférence en 2020, et d'en fixer le lieu et les dates.
+      ***
+      <div align="center">
+      15 $ ^{\mathrm{e}me}} $ Conférence Internationale de Métrologie Légale Point 6
+      </div>
+      Sanction des publications OIML
+      Une liste est donnée ci-dessous de tous les Documents, Recommandations et Vocabulaires qui ont été soit :
+      - approuvés par le CIML lors de sa 48ème Réunion (2013), 49ème Réunion (2014) et 50ème Réunion (2015), soit
+      - soumis à la 51ème Réunion du CIML (2016) pour approbation.
+      2013
+      Approuvés lors de la 48 $ ^{\mathrm{ème}} $ Réunion du CIML (Résolutions 2013/11 et 2013/19)
+      - R 46-3 Compteurs actifs d'énergie électrique - Partie 3: Format du rapport d'essai
+      - R 49-1 Compteurs d'eau potable froide et d'eau chaude - Partie 1: Exigences métrologiques et techniques
+      - R 49-2 Compteurs d'eau potable froide et d'eau chaude - Partie 2: Méthodes d'essai
+      - R 49-3 Compteurs d'eau potable froide et d'eau chaude - Partie 3: Format du rapport d'essai
+      - R 144 Instruments pour le mesurage continu de CO et NOx dans les émissions de sources fixes
+      - R 100 Systèmes de spectromètres d'absorption atomique pour la mesure des polluants métalliques
+      - D 11 Exigences générales pour les instruments de mesure - Conditions environnementales
+      - V1 Vocabulaire international des termes de métrologie légale (VIML)
+      2014
+      Approuvés lors de la 49<sup>eme</sup> Réunion du CIML (Résolution 2014/15)
+      - Amd R 35-1 Mesures matérilisées de longueur pour usages généraux - Partie 1: Exigences métrologiques et techniques
+      - R 50-1 Instruments de pesage totalisateurs continus à fonctionnement automatique
+      - (peseuses sur bande) - Partie 1: Exigences métrologiques et techniques
+      - R 50-2 Instruments de pesage totalisateurs continus à fonctionnement automatique (peseuses sur bande) – Partie 2: Procédures d'essai
+      - R 50-3 Instruments de pesage totalisateurs continus à fonctionnement automatique
+      (peseuses sur bande) – Partie 3: Format du rapport d'essai
+      - R 117-2 Ensembles de mesurage dynamique de liquides autres que l'eau
+      - Partie 2: Contrôles métrologiques et essais de performance
+      - R 117-3 Ensembles de mesurage dynamique de liquides autres que l'eau
+      - Partie 3: Format du rapport d'essai
+      - R 139-1 Ensembles de mesurage de gaz compressé pour véhicules
+      - Partie 1: Exigences métrologiques et techniques
+      - R 139-2 Ensembles de mesurage de gaz compressé pour véhicules
+      - Partie 2: Contrôles métrologiques et essais de performance
+      Approbation directe en ligne par le CIML en 2014
+      - R 137-3 Compteurs de gaz - Partie 3: Format du rapport d'essai
+      - Amd R 137-1 Compteurs de gaz - Partie 1: Exigences métrologiques et techniques
+      - Amd R 137-2 Compteurs de gaz - Partie 2: Contrôles métrologiques et essais de performance
+      2015
+      Approuvés lors de la $ 50^{\mathrm{ème}} $ Réunion du CIML (Résolution 2015/14)
+      - R 79 Exigences pour l'étiquetage des produits préemballés
+      - R 139-3 Ensembles de mesurage de gaz compressé pour véhicules
+      - Partie 3: Format du rapport d'essai
+      - R 145 Instruments ophtalmiques - tonomètres d'empreinte et d'aplanation
+      2016
+      Soumis pour approbation à la 51<sup>ème</sup> Réunion du CIML (Voir le point 9.1 du CIML)
+      - R 59 Humidimètres pour grains de céréales et graines oléagineuses
+      - R 87 Quantité de produit dans les préemballages
+      - Nouvelle R Instruments de mesure utilisés pour la détermination des protéines dans les grains
+      - et les oléagineux
+      - Nouvelle R Radiateur étalon à corps noir pour l'étendue de température de $ - 5 0 \mathrm {^o C} $ à $ 2 5 0 0 \mathrm {^o C} $
+    dates:
+    - start: '2016-10-19'
+      kind: effective
