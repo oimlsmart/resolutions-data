@@ -26,6 +26,15 @@ translations:
   about.technical:
     en: Technical information
     fr: Informations techniques
+  about.actionTypesHeading:
+    en: Action Types
+    fr: Types d'actions
+  about.actionTypesBody:
+    en: Every resolution is composed of typed actions that categorize what the committee decided to do (e.g., requesting an action, approving a document, or thanking a host). This semantic typing allows for advanced filtering and analysis of the committee's historical activities.
+    fr: Chaque résolution se compose d'actions typées qui catégorisent ce que le comité a décidé de faire (par exemple, demander une action, approuver un document ou remercier un hôte). Ce typage sémantique permet un filtrage et une analyse avancés des activités historiques du comité.
+  about.correspondingMembers:
+    en: Corresponding Members
+    fr: Membres correspondants
   about.title:
     en: About This Archive
     fr: À propos de cette archive
@@ -38,14 +47,14 @@ translations:
   committee.scope:
     en: Legal metrology — the practice and science of measurement that affects trade,
       health, safety, and the environment.
-    fr: '"La métrologie légale — la pratique et la science de la mesure qui touche
-      au commerce, à la santé, à la sécurité et à l''environnement.",'
+    fr: "La métrologie légale — la pratique et la science de la mesure qui touche
+      au commerce, à la santé, à la sécurité et à l'environnement."
   committee.tagline:
     en: Resolutions of the CIML and the OIML Conference
-    fr: '''Résolutions du CIML et de la Conférence OIML'','
+    fr: "Résolutions du CIML et de la Conférence OIML"
   committee.title:
     en: International Organization of Legal Metrology
-    fr: '''Organisation Internationale de Métrologie Légale'','
+    fr: "Organisation Internationale de Métrologie Légale"
   common.all:
     en: All
     fr: Tous
@@ -89,7 +98,7 @@ translations:
     en: of the CIML & OIML Conference
     fr: du CIML et de la Conférence OIML
   home.loading:
-    en: Loading data...
+    en: Loading data…
     fr: Chargement…
   home.meetingsLabel:
     en: Meetings
@@ -129,6 +138,9 @@ translations:
   meeting.meetingUrn:
     en: Meeting URN
     fr: URN de la réunion
+  meeting.originalPdf:
+    en: Original PDF
+    fr: PDF original
   meetings.back:
     en: Back to Meetings
     fr: Retour aux réunions
@@ -228,3 +240,168 @@ translations:
   search.results:
     en: '{count} resolutions'
     fr: '{count} résolutions'
+  home.browseResolutions:
+    en: Browse Resolutions
+    fr: Parcourir les résolutions
+  home.browseMeetings:
+    en: Browse Meetings
+    fr: Parcourir les réunions
+  home.filterByYear:
+    en: Filter by Year
+    fr: Filtrer par année
+  home.filterByAction:
+    en: Filter by Action
+    fr: Filtrer par action
+  home.allYears:
+    en: All Years
+    fr: Toutes les années
+  home.allActions:
+    en: All Actions
+    fr: Toutes les actions
+  home.sortBy:
+    en: Sort by
+    fr: Trier par
+  home.sortNewest:
+    en: Newest First
+    fr: Les plus récentes
+  home.sortOldest:
+    en: Oldest First
+    fr: Les plus anciennes
+  home.sortMostActions:
+    en: Most Actions
+    fr: Plus d'actions
+  home.activeFilters:
+    en: 'Active Filters:'
+    fr: 'Filtres actifs :'
+  home.clearAll:
+    en: Clear All
+    fr: Tout effacer
+  home.showing:
+    en: 'Showing {count} of {total} resolutions'
+    fr: 'Affichage de {count} sur {total} résolutions'
+  home.viewLegend:
+    en: View Action Legend
+    fr: Afficher la légende
+  home.hideLegend:
+    en: Hide Legend
+    fr: Masquer la légende
+  home.emptyResults:
+    en: No results found
+    fr: Aucun résultat trouvé
+  home.emptyResultsHint:
+    en: Try adjusting your search or filtering by different criteria.
+    fr: Essayez d'ajuster votre recherche ou les filtres.
+  home.trySearching:
+    en: 'Try searching for:'
+    fr: 'Essayez de rechercher :'
+  home.clearAllFilters:
+    en: Clear all filters
+    fr: Effacer tous les filtres
+  home.loadMore:
+    en: Load More
+    fr: Charger plus
+  home.acclamation:
+    en: Acclamation
+    fr: Acclamation
+  home.plenary:
+    en: Plenary
+    fr: Plénière
+  home.searchHint:
+    en: '/ to search'
+    fr: '/ pour rechercher'
+  home.searchAriaLabel:
+    en: Search resolutions
+    fr: Rechercher des résolutions
+  home.moreActions:
+    en: '+{count} more'
+    fr: '+{count} de plus'
+  resolution.approval:
+    en: Approval
+    fr: Approbation
+  resolution.categories:
+    en: Categories
+    fr: Catégories
+  resolution.notFound:
+    en: Resolution not found
+    fr: Résolution introuvable
+  resolution.notFoundHint:
+    en: The resolution you requested could not be found or does not exist.
+    fr: La résolution demandée est introuvable ou n'existe pas.
+  resolution.notFoundSearchPlaceholder:
+    en: Search for resolutions…
+    fr: Rechercher des résolutions…
+  resolution.notFoundSearchBtn:
+    en: Search
+    fr: Rechercher
+  resolution.notFoundBack:
+    en: Back to Home
+    fr: Retour à l'accueil
+  resolution.plenary:
+    en: Plenary
+    fr: Plénière
+  resolution.acclamation:
+    en: Acclamation
+    fr: Acclamation
+  resolution.ballotResolution:
+    en: Ballot resolution
+    fr: Résolution par scrutin
+  resolution.ma7372Resolution:
+    en: 7372 MA resolution
+    fr: Résolution 7372 MA
+  resolution.fallbackTitle:
+    en: 'Resolution {id}'
+    fr: 'Résolution {id}'
+  resolution.effectiveLabel:
+    en: 'Effective: {date}'
+    fr: 'En vigueur : {date}'
+  resolution.navigationAriaLabel:
+    en: Resolution navigation
+    fr: Navigation des résolutions
+  resolution.originalPdfLabel:
+    en: Original PDF
+    fr: PDF original
+  resolution.language.en:
+    en: English
+    fr: Anglais
+  resolution.language.fr:
+    en: French
+    fr: Français
+  resolution.agendaItemLabel:
+    en: 'Agenda item'
+    fr: 'Point de l''ordre du jour'
+  meetings.noMeetings:
+    en: No meetings found
+    fr: Aucune réunion trouvée
+  meetings.noMeetingsHint:
+    en: Try adjusting your search or year filter.
+    fr: Essayez d'ajuster votre recherche ou le filtre d'année.
+  meetings.clearFilters:
+    en: Clear filters
+    fr: Effacer les filtres
+  meetings.legendHostLabel:
+    en: Host country
+    fr: Pays hôte
+  meetings.legendVirtualLabel:
+    en: Virtual
+    fr: En ligne
+  meetings.legendNodeSize:
+    en: Node size = resolution count
+    fr: La taille du nœud = nombre de résolutions
+  meetings.notFound:
+    en: Meeting not found
+    fr: Réunion introuvable
+  meetings.notFoundHint:
+    en: The meeting you are looking for does not exist.
+    fr: La réunion recherchée n'existe pas.
+  meetings.searchAriaLabel:
+    en: Search meetings
+    fr: Rechercher des réunions
+  clipboard.copied:
+    en: Copied
+    fr: Copié
+  clipboard.copyDoi:
+    en: Copy DOI
+    fr: Copier le DOI
+  clipboard.copyUrn:
+    en: Copy URN
+    fr: Copier l'URN

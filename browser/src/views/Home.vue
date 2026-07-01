@@ -14,7 +14,7 @@
         <p class="hero-subtitle animate-up" style="--nth: 2">
           <template v-if="!isLoaded">{{ t('home.loading') }}</template>
           <template v-else>
-            {{ interpolate(t('home.subtitle'), { resolutions: formatNumber(animResolutions), meetings: formatNumber(animMeetings), earliest: yearRange.earliest, latest: yearRange.latest }) }} {{ lang === 'fr' ? "Résolutions du CIML et de la Conférence OIML" : "Resolutions of the CIML and the OIML Conference" }}.
+            {{ interpolate(t('home.subtitle'), { resolutions: formatNumber(animResolutions), meetings: formatNumber(animMeetings), earliest: yearRange.earliest, latest: yearRange.latest }) }} {{ t('home.tagline') }}.
           </template>
         </p>
 
@@ -49,28 +49,28 @@
               <circle cx="11" cy="11" r="8"/>
               <path d="m21 21-4.35-4.35"/>
             </svg>
-            <input 
+            <input
               ref="searchInputRef"
-              type="search" 
-              v-model="searchQuery" 
-              class="hero-search-input" 
-              placeholder="Search by topic, number, or keyword…"
-              autocomplete="off" 
-              spellcheck="false" 
-              aria-label="Search resolutions" 
+              type="search"
+              v-model="searchQuery"
+              class="hero-search-input"
+              :placeholder="t('search.placeholder')"
+              autocomplete="off"
+              spellcheck="false"
+              :aria-label="t('home.searchAriaLabel')"
             />
             <div class="hero-search-hint">
-              <kbd>/</kbd> to search
+              <kbd>/</kbd> {{ t('home.searchHint') }}
             </div>
           </div>
         </div>
 
         <div class="hero-actions animate-up" style="--nth: 5">
           <button @click="scrollToResults" class="hero-btn hero-btn--primary">
-            Browse Resolutions
+            {{ t('home.browseResolutions') }}
           </button>
           <router-link :to="{ name: 'meetings' }" class="hero-btn hero-btn--secondary">
-            Browse Meetings
+            {{ t('home.browseMeetings') }}
           </router-link>
         </div>
       </div>
@@ -80,15 +80,15 @@
       <div class="std-filter std-filter--elevated">
         <div class="std-filter__controls">
           <div class="std-filter__field">
-            <span class="std-filter__label">Filter by Year</span>
+            <span class="std-filter__label">{{ t('home.filterByYear') }}</span>
             <div class="std-filter__chips">
-              <button 
-                class="std-chip" 
+              <button
+                class="std-chip"
                 :class="{ 'is-active': selectedYear === '' }"
                 @click="selectedYear = ''"
-              >All Years</button>
-              <button 
-                v-for="year in availableYears" 
+              >{{ t('home.allYears') }}</button>
+              <button
+                v-for="year in availableYears"
                 :key="year"
                 class="std-chip"
                 :class="{ 'is-active': selectedYear === year }"
@@ -98,33 +98,33 @@
           </div>
 
           <div class="std-filter__field" v-if="topActionTypes.length">
-            <span class="std-filter__label">Filter by Action</span>
+            <span class="std-filter__label">{{ t('home.filterByAction') }}</span>
             <div class="std-filter__chips">
-              <button 
-                class="std-chip" 
+              <button
+                class="std-chip"
                 :class="{ 'is-active': selectedActionTypes.size === 0 }"
                 @click="selectedActionTypes.clear()"
-              >All Actions</button>
-              <button 
-                v-for="action in topActionTypes" 
+              >{{ t('home.allActions') }}</button>
+              <button
+                v-for="action in topActionTypes"
                 :key="action"
                 class="std-chip"
                 :class="{ 'is-active': selectedActionTypes.has(action) }"
                 @click="toggleActionType(action)"
               >
                 <span class="chip-color-dot" :style="{ '--dot-bg': getActionColor(action).bg }"></span>
-                {{ action }}
+                {{ getActionLabel(action, lang) }}
               </button>
             </div>
           </div>
-          
+
           <div class="std-filter__field std-filter__field--flex-end">
             <div class="sort-dropdown-container">
-              <label for="sort-dropdown" class="sr-only">Sort By</label>
+              <label for="sort-dropdown" class="sr-only">{{ t('home.sortBy') }}</label>
               <select id="sort-dropdown" v-model="sortOrder" class="sort-dropdown">
-                <option value="newest">Newest First</option>
-                <option value="oldest">Oldest First</option>
-                <option value="most_actions">Most Actions</option>
+                <option value="newest">{{ t('home.sortNewest') }}</option>
+                <option value="oldest">{{ t('home.sortOldest') }}</option>
+                <option value="most_actions">{{ t('home.sortMostActions') }}</option>
               </select>
               <svg class="sort-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>
             </div>
@@ -132,7 +132,7 @@
         </div>
 
         <div class="active-filters-bar" v-if="searchQuery || selectedYear || selectedActionTypes.size > 0">
-          <span class="active-filters-label">Active Filters:</span>
+          <span class="active-filters-label">{{ t('home.activeFilters') }}</span>
           <div class="active-filter-chips">
              <button v-if="searchQuery" class="active-filter-chip" @click="searchQuery = ''">
                "{{ searchQuery }}" <span class="filter-remove">&times;</span>
@@ -143,23 +143,23 @@
              <button v-for="act in Array.from(selectedActionTypes)" :key="act" class="active-filter-chip" @click="toggleActionType(act)">
                {{ act }} <span class="filter-remove">&times;</span>
              </button>
-             <button class="active-filter-clear" @click="clearAllFilters">Clear All</button>
+             <button class="active-filter-clear" @click="clearAllFilters">{{ t('home.clearAll') }}</button>
           </div>
         </div>
 
         <div class="std-filter__meta">
-          <span>Showing {{ filteredResolutions.length }} of {{ totalResolutions }} resolutions</span>
+          <span>{{ interpolate(t('home.showing'), { count: groupedFilteredResolutions.length, total: totalResolutions }) }}</span>
           <button class="legend-toggle" @click="isLegendOpen = !isLegendOpen">
-            {{ isLegendOpen ? 'Hide Legend' : 'View Action Legend' }}
+            {{ isLegendOpen ? t('home.hideLegend') : t('home.viewLegend') }}
           </button>
         </div>
 
-        <div v-show="isLegendOpen" class="action-legend">
-          <div v-for="action in allActionTypes" :key="action" class="legend-item">
-             <span class="legend-color" :style="{ '--legend-bg': getActionColor(action).bg }"></span>
-             <span class="legend-label">{{ action }}</span>
+          <div v-show="isLegendOpen" class="action-legend">
+            <div v-for="action in allActionTypes" :key="action" class="legend-item">
+               <span class="legend-color" :style="{ '--legend-bg': getActionColor(action).bg }"></span>
+               <span class="legend-label">{{ getActionLabel(action, lang) }}</span>
+            </div>
           </div>
-        </div>
       </div>
 
       <div class="std-results" v-if="isLoaded">
@@ -172,17 +172,17 @@
         >
           <div class="card-header-row">
             <div class="std-results__name">
-              <span v-if="res.is_acclamation" class="std-results__type type-acclamation">Acclamation</span>
+              <span v-if="res.is_acclamation" class="std-results__type type-acclamation">{{ t('home.acclamation') }}</span>
               <template v-else>
                 <span>{{ res.identifier || res.id }}</span>
-                <span class="std-results__type">Plenary</span>
+                <span class="std-results__type">{{ getMeetingTypeShort(bodyTypeFromSourceFile(res.source_file), lang) }}</span>
               </template>
             </div>
             <span class="badge-year">{{ res.year }}</span>
           </div>
 
           <div class="std-results__title meeting-card__title">
-            <span v-html="highlightText(res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + (res.identifier || res.id)), searchQuery)"></span>
+            <span v-html="highlightText(res.is_acclamation ? t('home.acclamation') : (res.title || interpolate(t('resolution.fallbackTitle'), { id: res.identifier || res.id })), searchQuery)"></span>
           </div>
 
           <div v-if="res.snippet" class="std-results__snippet snippet-text">
@@ -197,16 +197,16 @@
                 class="action-chip"
                 :style="{ '--chip-bg': getActionColor(actType).bg, '--chip-text': getActionColor(actType).text }"
               >
-                {{ actType }}
+                {{ getActionLabel(actType, lang) }}
               </span>
               <span v-if="getUniqueActions(res).length > 3" class="action-chip action-chip--more">
-                +{{ getUniqueActions(res).length - 3 }} more
+                {{ interpolate(t('home.moreActions'), { count: getUniqueActions(res).length - 3 }) }}
               </span>
             </div>
 
             <div class="card-meta-bottom">
               <span v-if="res.meeting_date" class="std-results__badge badge-date">{{ formatDate(res.meeting_date) }}</span>
-              <span v-if="res.venue" class="std-results__badge badge-venue truncate-text">{{ res.venue }}</span>
+              <span v-if="venueLabel(res)" class="std-results__badge badge-venue truncate-text">{{ venueLabel(res) }}</span>
             </div>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -216,10 +216,10 @@
         
         <div v-if="filteredResolutions.length === 0" class="empty-state">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-          <h3>No results found</h3>
-          <p>Try adjusting your search or filtering by a different criteria.</p>
+          <h3>{{ t('home.emptyResults') }}</h3>
+          <p>{{ t('home.emptyResultsHint') }}</p>
           <div class="empty-state__suggestions">
-             <p class="suggestions-label">Try searching for:</p>
+             <p class="suggestions-label">{{ t('home.trySearching') }}</p>
              <div class="suggestions-chips">
                 <button class="std-chip" @click="searchQuery='resolves'">resolves</button>
                 <button class="std-chip" @click="searchQuery='approves'">approves</button>
@@ -227,7 +227,7 @@
                 <button class="std-chip" @click="searchQuery='ISO 10303'">ISO 10303</button>
              </div>
           </div>
-          <button class="std-chip btn-mt" @click="clearAllFilters">Clear all filters</button>
+          <button class="std-chip btn-mt" @click="clearAllFilters">{{ t('home.clearAllFilters') }}</button>
         </div>
       </div>
       
@@ -249,7 +249,7 @@
       
       <div v-if="hasMore" class="load-more-container">
         <button @click="loadMore" class="std-chip load-more-btn">
-          Load More
+          {{ t('home.loadMore') }}
         </button>
       </div>
     </div>
@@ -264,10 +264,19 @@ import { useMeetings } from '../composables/useMeetings'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import { committee } from '../data/committee'
+import { getMeetingTypeShort } from '../data/meetingTypes'
 import { useCountUp } from '../composables/useCountUp'
-import { getActionColor } from '../data/actionTypes'
-import { formatDate } from '../utils/format'
+import { bodyTypeFromSourceFile } from '../composables/useMeetings'
+import { getActionColor, getActionLabel } from '../data/actionTypes'
+import { useDateFormat } from '../composables/useDateFormat'
 import { highlightText } from '../utils/highlight'
+import { venueForLang } from '../data/venues'
+
+function venueLabel(res: any): string {
+  if (!res) return ''
+  if (res.city || res.country_code) return venueForLang(res.city, res.country_code, lang.value)
+  return ''
+}
 
 const router = useRouter()
 const route = useRoute()
@@ -275,6 +284,7 @@ const route = useRoute()
 const { resolutions, isLoaded, loadData, search } = useResolutions()
 const { meetings, loadData: loadMeetingsData } = useMeetings()
 const { t, lang } = useI18n()
+const { formatDate } = useDateFormat()
 
 const searchQuery = ref((route.query.q as string) || '')
 const selectedYear = ref((route.query.year as string) || '')
@@ -284,7 +294,15 @@ const limit = ref(50)
 const searchInputRef = ref<HTMLInputElement | null>(null)
 const isLegendOpen = ref(false)
 
-const totalResolutions = computed(() => resolutions.value.length)
+// Count UNIQUE resolution identifiers (not per-language rows) so
+// the hero stat reflects the actual number of logical resolutions.
+const totalResolutions = computed(() => {
+  const ids = new Set<string>()
+  for (const r of resolutions.value) {
+    ids.add(r.identifier || r.id)
+  }
+  return ids.size
+})
 const totalMeetings = computed(() => meetings.value.length)
 const committeeMembers = computed(() => committee.memberStates)
 const committeeEst = computed(() => committee.established)
@@ -432,11 +450,11 @@ const filteredResolutions = computed(() => {
       list = list.filter(r => matchedIds.has(r.id))
     } else {
       const qLower = q.toLowerCase()
-      list = list.filter(r => 
+      list = list.filter(r =>
         (r.title && r.title.toLowerCase().includes(qLower)) ||
         (r.id && r.id.toLowerCase().includes(qLower)) ||
         (r.subject && r.subject.toLowerCase().includes(qLower)) ||
-        (r.venue && r.venue.toLowerCase().includes(qLower))
+        venueLabel(r).toLowerCase().includes(qLower)
       )
     }
   }
@@ -456,12 +474,35 @@ const filteredResolutions = computed(() => {
   })
 })
 
+// Group EN+FR rows by canonical identifier so each logical resolution
+// appears as ONE card on the home page (was showing 2 cards per
+// bilingual resolution). The primary row follows the UI language;
+// the secondary row is available for hover/tooltip display.
+const groupedFilteredResolutions = computed(() => {
+  const byKey = new Map<string, any>()
+  for (const r of filteredResolutions.value) {
+    const key = r.identifier || r.id
+    if (!byKey.has(key)) {
+      byKey.set(key, { ...r, _languages: [r.language] })
+    } else {
+      const existing = byKey.get(key)!
+      existing._languages.push(r.language)
+      // Prefer the UI language as primary
+      if (r.language === lang.value && existing.language !== lang.value) {
+        const langs = existing._languages
+        Object.assign(existing, r, { _languages: langs })
+      }
+    }
+  }
+  return Array.from(byKey.values())
+})
+
 const paginatedResolutions = computed(() => {
-  return filteredResolutions.value.slice(0, limit.value)
+  return groupedFilteredResolutions.value.slice(0, limit.value)
 })
 
 const hasMore = computed(() => {
-  return limit.value < filteredResolutions.value.length
+  return limit.value < groupedFilteredResolutions.value.length
 })
 
 function loadMore() {

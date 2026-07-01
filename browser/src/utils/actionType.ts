@@ -1,46 +1,28 @@
 // Display helpers for action / consideration types.
-// The parser stores semantic types in snake_case ('having_regard_to',
-// 'noting', 'following_recommendation', ...). The UI should show them in
-// a humanized form.
+//
+// Delegates to the YAML-backed action-types registry so the label
+// table is data-driven (single source of truth). The legacy
+// snake_case → Title-Case fallback remains for any type the YAML
+// hasn't registered yet.
 
-const TYPE_LABELS: Record<string, string> = {
-  // Considerations
-  having_regard_to:         'Having regard to',
-  having_regard:            'Having regard',
-  noting:                   'Noting',
-  recalling:                'Recalling',
-  considering:              'Considering',
-  following_recommendation: 'Following the recommendation of',
-  // Actions
-  approves:    'Approves',
-  elects:      'Elects',
-  endorses:    'Endorses',
-  resolves:    'Resolves',
-  gives_discharge:     'Gives discharge',
-  thanks:      'Thanks',
-  instructs:   'Instructs',
-  requests:    'Requests',
-  decides:     'Decides',
-  charges:     'Charges',
-  supports:    'Supports',
-  reaffirms:   'Re-affirms',
-  rescinds:    'Rescinds',
-  acknowledges: 'Acknowledges',
-  notes:       'Notes',
-  welcomes:    'Welcomes',
-  renews:      'Renews',
-  appoints:    'Appoints',
-  establishes: 'Establishes',
-  proclaims:   'Proclaims',
-  confirms:    'Confirms',
-}
+import { getActionLabel } from '../data/actionTypes'
+import { useI18n } from '../composables/useI18n'
 
 export function formatActionType(type: string | undefined | null): string {
   if (!type) return ''
-  if (TYPE_LABELS[type]) return TYPE_LABELS[type]
-  // Fallback: convert snake_case → Title Case
-  return type
-    .split('_')
-    .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
-    .join(' ')
+  // Inside <script setup>, useI18n().lang is reactive. For callers
+  // outside of a Vue component context (build scripts), fall back to
+  // English.
+  try {
+    const { lang } = useI18n()
+    return getActionLabel(type, lang.value)
+  } catch {
+    return getActionLabel(type, 'en')
+  }
+}
+
+/** Pure-English variant for non-Vue callers (build scripts, tests). */
+export function formatActionTypeEn(type: string | undefined | null): string {
+  if (!type) return ''
+  return getActionLabel(type, 'en')
 }

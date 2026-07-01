@@ -8,38 +8,18 @@
     <!-- Back link -->
     <button @click="$router.back()" class="std-page__back back-link animate-up" style="--nth: 1">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-      Back to results
+      {{ t('resolution.back') }}
     </button>
-
-    <!-- Language toggle (only when both EN and FR are available) -->
-    <div v-if="hasLanguageChoice" class="res-lang-toggle animate-up" style="--nth: 1" role="group" :aria-label="t('resolution.languageToggleLabel')">
-      <span class="res-lang-toggle__label">{{ t('resolution.languageToggleLabel') }}</span>
-      <button
-        class="res-lang-toggle__btn"
-        :class="{ 'res-lang-toggle__btn--active': activeLang === 'en' }"
-        @click="activeLang = 'en'"
-      >EN</button>
-      <button
-        class="res-lang-toggle__btn"
-        :class="{ 'res-lang-toggle__btn--active': activeLang === 'fr' }"
-        @click="activeLang = 'fr'"
-      >FR</button>
-      <button
-        class="res-lang-toggle__btn res-lang-toggle__btn--both"
-        :class="{ 'res-lang-toggle__btn--active': activeLang === 'both' }"
-        @click="activeLang = 'both'"
-      >EN / FR</button>
-    </div>
 
     <!-- Header -->
     <header class="std-page__header res-detail-header animate-up" style="--nth: 2">
       <div class="std-page__meta res-detail-meta">
-        <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">Acclamation</span>
+        <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">{{ t('resolution.acclamation') }}</span>
         <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.identifier || resolution.id }}</span>
-        
-        <router-link 
-          v-if="resolution.source_file" 
-          :to="{ name: 'meeting-detail', params: { sourceFile: resolution.source_file } }" 
+
+        <router-link
+          v-if="resolution.source_file"
+          :to="{ name: 'meeting-detail', params: { sourceFile: resolution.source_file } }"
           class="meeting-link-badge"
         >
           <svg class="meeting-link-badge__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -48,20 +28,23 @@
             <line x1="8" y1="2" x2="8" y2="6"/>
             <line x1="3" y1="10" x2="21" y2="10"/>
           </svg>
-          <span class="meeting-link-badge__text">{{ meetingLinkLabel }}</span>
+          <span class="meeting-link-badge__text">{{ meetingSummaryText }}</span>
           <svg class="meeting-link-badge__arrow" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
             <path d="M5 12h14M12 5l7 7-7 7"/>
           </svg>
         </router-link>
-        
+
         <span v-if="resolution.meeting_date" class="std-page__badge badge-date">{{ formatDate(resolution.meeting_date) }}</span>
-        <span v-if="!resolution.is_acclamation" class="std-page__badge">
-          <template v-if="resolution.source_type === 'plenary'">Resolution</template>
-          <template v-else-if="resolution.source_type === 'ballot'">Ballot resolution</template>
-          <template v-else-if="resolution.source_type === '7372ma'">7372 MA resolution</template>
-          <template v-else>Resolution</template>
+        <span v-if="!resolution.is_acclamation" class="std-page__badge body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(resolution.source_file || ''))">
+          {{ getMeetingTypeShort(bodyTypeFromSourceFile(resolution.source_file || ''), lang) }}
         </span>
-        <a v-if="resolution.group_id" :href="`/groups/${resolution.group_id}/`" class="std-page__badge std-page__badge--link badge-group">{{ resolution.group_id.toUpperCase() }}</a>
+
+        <!-- Language segmented control — inline in the meta bar -->
+        <div v-if="hasLanguageChoice" class="lang-segmented" role="group" :aria-label="t('resolution.languageToggleLabel')">
+          <button :class="{ active: activeLang === 'en' }" @click="activeLang = 'en'">EN</button>
+          <button :class="{ active: activeLang === 'fr' }" @click="activeLang = 'fr'">FR</button>
+          <button :class="{ active: activeLang === 'both' }" @click="activeLang = 'both'">EN+FR</button>
+        </div>
       </div>
 
       <h1 v-if="resolution.title" class="std-page__title res-detail-title">{{ resolution.title }}</h1>
@@ -69,36 +52,42 @@
       <p v-if="resolution.source_title" class="res-detail-subtitle">
         {{ resolution.source_title }}
       </p>
+
+      <!-- Agenda item title -->
+      <p v-if="agendaItemTitle" class="res-detail-agenda">
+        <strong>{{ t('resolution.agendaItemLabel') }} {{ resolution.agenda_item }}</strong>
+        <span class="res-detail-agenda-sep">—</span>
+        <span>{{ agendaItemTitle }}</span>
+      </p>
     </header>
 
     <!-- DOI -->
     <div v-if="resolution.doi" class="urn-bar doi-bar animate-up" style="--nth: 3">
       <span class="urn-label">DOI</span>
       <a :href="`https://doi.org/${resolution.doi}`" class="urn-value urn-value--link" target="_blank" rel="noopener noreferrer">{{ resolution.doi }}</a>
-      <button
-        @click="copyUrn(resolution.doi)"
-        class="urn-copy-btn"
-        :aria-label="copied ? 'Copied' : 'Copy DOI'"
-      >
+      <button @click="copyUrn(resolution.doi)" class="urn-copy-btn" :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyDoi')">
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </button>
     </div>
 
-    <!-- URN Identifier -->
+    <!-- URN -->
     <div v-if="resolution.urn" class="urn-bar animate-up" style="--nth: 3">
       <span class="urn-label">URN</span>
       <code class="urn-value">{{ resolution.urn }}</code>
-      <button
-        v-if="resolution.urn"
-        @click="copyUrn(resolution.urn)"
-        class="urn-copy-btn"
-        :aria-label="copied ? 'Copied' : 'Copy URN'"
-      >
+      <button v-if="resolution.urn" @click="copyUrn(resolution.urn)" class="urn-copy-btn" :aria-label="copied ? t('clipboard.copied') : t('clipboard.copyUrn')">
         <svg v-if="!copied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
         <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
       </button>
     </div>
+
+    <!-- Original PDF — icon + label, not raw URL -->
+    <a v-if="resolution.source_url" :href="resolution.source_url" target="_blank" rel="noopener noreferrer" class="pdf-link-btn animate-up" style="--nth: 3">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+      </svg>
+      {{ t('resolution.originalPdfLabel') }}
+    </a>
 
     <!-- Content -->
     <div class="std-page__content res-detail-content">
@@ -124,8 +113,8 @@
         <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.actions') }}</h2>
         <div class="std-page__body res-detail-list">
           <div v-for="(act, idx) in resolution.actions" :key="idx" class="action-item res-detail-card res-detail-card--action">
-            <span 
-              v-if="act.type" 
+            <span
+              v-if="act.type"
               class="res-detail-card-type res-detail-card-type--action"
               :style="{ '--action-color': getActionColor(act.type).bg }"
             >
@@ -133,10 +122,15 @@
             </span>
             <p v-if="act.subject" class="res-detail-card-subject">{{ act.subject }}</p>
             <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
+            <!-- Interleaved FR translation in 'both' mode -->
+            <div v-if="activeLang === 'both' && frActionAt(idx)" class="res-detail-bilingual-pair">
+              <div class="res-detail-bilingual-lang">FR</div>
+              <div class="res-detail-richtext res-detail-richtext--fr" v-html="asciidocify(frActionAt(idx).message)"></div>
+            </div>
             <template v-if="act.dates && act.dates.length > 0">
               <div class="res-detail-dates">
                 <span v-for="(d, didx) in act.dates" :key="didx" class="res-detail-date">
-                  Effective: {{ d.start }}<template v-if="d.end"> &ndash; {{ d.end }}</template>
+                  {{ interpolate(t('resolution.effectiveLabel'), { date: d.start }) }}<template v-if="d.end"> &ndash; {{ d.end }}</template>
                 </span>
               </div>
             </template>
@@ -145,7 +139,7 @@
       </section>
 
       <section v-if="resolution.approvals && resolution.approvals.length > 0" class="std-page__section animate-up" style="--nth: 7">
-        <h2 class="std-page__section-heading res-detail-section-title">Approval</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.approval') }}</h2>
         <div class="std-page__body">
           <div v-for="(app, idx) in resolution.approvals" :key="idx" class="approval-panel" :class="{ 'mt-4': idx > 0 }">
             <p class="approval-text">
@@ -157,38 +151,19 @@
       </section>
 
       <section v-if="resolution.categories && resolution.categories.length > 0" class="std-page__section animate-up" style="--nth: 8">
-        <h2 class="std-page__section-heading res-detail-section-title">Categories</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.categories') }}</h2>
         <div class="categories-list">
           <span v-for="(cat, idx) in resolution.categories" :key="idx" class="std-page__badge">{{ cat }}</span>
         </div>
       </section>
       
       <!-- Related Resolutions -->
-      <!-- Secondary language rendering (EN/FR side-by-side, 'both' mode) -->
-      <section v-if="activeLang === 'both' && secondaryResolution" class="std-page__section res-secondary-lang animate-up">
-        <h2 class="std-page__section-heading res-secondary-lang__heading">
-          <span class="res-secondary-lang__badge">FR</span>
-          {{ t('resolution.frenchVersion') }}
-        </h2>
-        <div class="std-page__body">
-          <p v-if="secondaryResolution.title" class="res-secondary-lang__title">{{ secondaryResolution.title }}</p>
-          <div v-if="secondaryResolution.considerations && secondaryResolution.considerations.length" class="res-detail-list">
-            <div v-for="(cons, idx) in secondaryResolution.considerations" :key="`fr-cons-${idx}`" class="consideration-item res-detail-card">
-              <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type) }}</span>
-              <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
-            </div>
-          </div>
-          <div v-if="secondaryResolution.actions && secondaryResolution.actions.length" class="res-detail-list">
-            <div v-for="(act, idx) in secondaryResolution.actions" :key="`fr-act-${idx}`" class="action-item res-detail-card res-detail-card--action">
-              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ formatActionType(act.type) }}</span>
-              <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
-            </div>
-          </div>
-        </div>
-      </section>
+      <!-- Bilingual mode now renders FR inline within each action card
+           above (interleaved). The old separate "French version"
+           section was removed for better UX. -->
 
       <section v-if="relatedResolutions.length > 0" class="std-page__section animate-up" style="--nth: 9">
-        <h2 class="std-page__section-heading res-detail-section-title">Related Resolutions</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.related') }}</h2>
         <div class="related-list">
           <router-link 
             v-for="r in relatedResolutions" 
@@ -200,7 +175,7 @@
               <span class="related-id">{{ r.identifier || r.id }}</span>
               <span class="related-date">{{ formatDate(r.meeting_date) }}</span>
             </div>
-            <div class="related-title">{{ r.title || 'Resolution ' + (r.identifier || r.id) }}</div>
+            <div class="related-title">{{ r.title || interpolate(t('resolution.fallbackTitle'), { id: r.identifier || r.id }) }}</div>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
@@ -209,27 +184,27 @@
       </section>
 
       <!-- Prev / Next Navigation -->
-      <nav class="res-navigation animate-up" style="--nth: 10" aria-label="Resolution navigation">
-        <router-link 
-          v-if="prevResolution" 
+      <nav class="res-navigation animate-up" style="--nth: 10" :aria-label="t('resolution.navigationAriaLabel')">
+        <router-link
+          v-if="prevResolution"
           :to="{ name: 'resolution-detail', params: { id: prevResolution.id } }"
           class="res-nav-card res-nav-card--prev"
         >
           <span class="res-nav-label">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            Previous
+            {{ t('resolution.previous') }}
           </span>
           <span class="res-nav-title">{{ prevResolution.title || prevResolution.id }}</span>
         </router-link>
         <div v-else class="res-nav-empty"></div>
 
-        <router-link 
-          v-if="nextResolution" 
+        <router-link
+          v-if="nextResolution"
           :to="{ name: 'resolution-detail', params: { id: nextResolution.id } }"
           class="res-nav-card res-nav-card--next"
         >
           <span class="res-nav-label">
-            Next
+            {{ t('resolution.next') }}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </span>
           <span class="res-nav-title">{{ nextResolution.title || nextResolution.id }}</span>
@@ -263,21 +238,21 @@
   <div v-else class="res-not-found">
     <div class="empty-state">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      <h3>Resolution not found</h3>
-      <p>The resolution you requested could not be found or does not exist.</p>
-      
+      <h3>{{ t('resolution.notFound') }}</h3>
+      <p>{{ t('resolution.notFoundHint') }}</p>
+
       <form @submit.prevent="submitSearch" class="not-found-search">
-        <input 
-          type="search" 
-          v-model="searchInput" 
-          placeholder="Search for resolutions..." 
+        <input
+          type="search"
+          v-model="searchInput"
+          :placeholder="t('resolution.notFoundSearchPlaceholder')"
           class="not-found-input"
         >
-        <button type="submit" class="not-found-submit">Search</button>
+        <button type="submit" class="not-found-submit">{{ t('resolution.notFoundSearchBtn') }}</button>
       </form>
-      
+
       <div class="not-found-actions">
-        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">Back to Home</router-link>
+        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">{{ t('resolution.notFoundBack') }}</router-link>
       </div>
     </div>
   </div>
@@ -288,18 +263,23 @@ import { ref, computed, onMounted, onUnmounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useResolutions } from '../composables/useResolutions'
 import { useI18n } from '../composables/useI18n'
+import { interpolate } from '../data/translations'
 import type { Resolution } from '../types/resolution'
 import { useMeetings } from '../composables/useMeetings'
+import { bodyTypeFromSourceFile } from '../composables/useMeetings'
 import { asciidocify } from '../utils/asciidoc'
 import { getActionColor } from '../data/actionTypes'
 import { formatActionType } from '../utils/actionType'
-import { formatDate } from '../utils/format'
+import { useDateFormat } from '../composables/useDateFormat'
 import { useClipboard } from '../composables/useClipboard'
+import { mtStyle, getMeetingTypeShort, meetingSummary } from '../data/meetingTypes'
+import { findAgendaItem } from '../data/agendas'
 
 const router = useRouter()
 const route = useRoute()
 const { resolutions, isLoaded, loadData } = useResolutions()
 const { t, lang } = useI18n()
+const { formatDate } = useDateFormat()
 const { getMeetingResolutions, loadData: loadMeetingsData, isLoaded: isMeetingsLoaded } = useMeetings()
 
 const searchInput = ref('')
@@ -394,34 +374,82 @@ const secondaryResolution = computed(() => {
   return matches.find(r => r.language === 'fr') || null
 })
 
+/** Return the FR action at a given index, or null. Used in 'both'
+ *  mode to interleave the FR translation below each EN action. */
+function frActionAt(idx: number): any | null {
+  if (!secondaryResolution.value) return null
+  const acts = secondaryResolution.value.actions
+  if (!acts || idx >= acts.length) return null
+  return acts[idx] || null
+}
+
 // Backwards-compat alias so existing template references keep working.
 const resolution = computed(() => primaryResolution.value)
 
-// Bilingual mode: 'en' | 'fr' | 'both'. Defaults to the current UI language,
-// or to 'en' if the UI language isn't available for this resolution.
+// Bilingual mode: 'en' | 'fr' | 'both'. Reads the URL `?lang=` query
+// on first mount, then syncs back on every change so deep links work.
+// Persists the choice in localStorage so navigation across resolutions
+// keeps the user's preferred language.
+const RES_LANG_STORAGE_KEY = 'oiml-res-lang'
+const VALID_LANGS = new Set(['en', 'fr', 'both'])
+
 const activeLang = ref<'en' | 'fr' | 'both'>('en')
+
+function readInitialLang(): 'en' | 'fr' | 'both' {
+  // 1. URL query takes precedence (deep-link support).
+  const fromQuery = route.query.lang as string | undefined
+  if (fromQuery && VALID_LANGS.has(fromQuery)) return fromQuery as 'en' | 'fr' | 'both'
+  // 2. Persisted preference from a previous session.
+  if (typeof localStorage !== 'undefined') {
+    const saved = localStorage.getItem(RES_LANG_STORAGE_KEY)
+    if (saved && VALID_LANGS.has(saved)) return saved as 'en' | 'fr' | 'both'
+  }
+  // 3. UI language, if available for this resolution.
+  return 'en'
+}
+
 watch([resolution, () => lang.value], () => {
   if (!resolution.value) return
   const available = availableLanguages.value
-  const fallback = available.includes(lang.value as 'en' | 'fr') ? lang.value as 'en' | 'fr' : (available[0] || 'en')
-  activeLang.value = fallback
+  const initial = readInitialLang()
+  // Honor explicit choices; fall back to the available language when
+  // the requested one isn't present for this resolution.
+  if (initial === 'both' && available.length >= 2) {
+    activeLang.value = 'both'
+  } else if (available.includes(initial as 'en' | 'fr')) {
+    activeLang.value = initial
+  } else {
+    activeLang.value = available[0] || 'en'
+  }
 }, { immediate: true })
 
-const meetingLinkLabel = computed(() => {
+// Persist + sync URL whenever the user toggles.
+watch(activeLang, (newLang) => {
+  if (typeof localStorage !== 'undefined') {
+    localStorage.setItem(RES_LANG_STORAGE_KEY, newLang)
+  }
+  const newQuery = { ...route.query, lang: newLang }
+  // Don't pollute the URL with the default — keep it clean.
+  if (newLang === 'en' && !route.query.lang) return
+  router.replace({ query: newQuery })
+})
+
+// i18n-aware summary for the meeting-link badge:
+// "{CIML|CONF} \u00b7 {date range} \u00b7 {venue}" in the current UI language.
+const meetingSummaryText = computed(() => {
   const res = resolution.value
   if (!res) return ''
-  const venue = res.venue || ''
-  const isVirtual = venue.toLowerCase().includes('virtual')
-  if (isVirtual && res.meeting_date) {
-    try {
-      const d = new Date(res.meeting_date)
-      const monthYear = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' })
-      return `Virtual \u00b7 ${monthYear}`
-    } catch {
-      return venue || res.source_title || 'Meeting'
-    }
-  }
-  return venue || res.source_title || 'Meeting'
+  return meetingSummary(res.source_file, lang.value, res)
+})
+
+// Title of the agenda item this resolution references. Looked up
+// against the per-meeting agenda in browser/src/data/agendas.yaml
+// via findAgendaItem(source_file, agenda_item_number).
+const agendaItemTitle = computed(() => {
+  const res = resolution.value
+  if (!res || !res.agenda_item || !res.source_file) return ''
+  const item = findAgendaItem(res.source_file, res.agenda_item)
+  return item?.description || ''
 })
 
 const meetingResolutions = computed(() => {
@@ -519,6 +547,76 @@ function submitSearch() {
 }
 
 /* Base layout */
+
+/* Language segmented control — compact, inline in the meta bar */
+.lang-segmented {
+  display: inline-flex;
+  border-radius: 9999px;
+  overflow: hidden;
+  border: 1px solid var(--color-slate-200);
+  background: var(--color-slate-50);
+}
+.dark .lang-segmented {
+  border-color: var(--color-slate-700);
+  background: var(--color-slate-800);
+}
+.lang-segmented button {
+  padding: 0.2rem 0.65rem;
+  font-size: 0.7rem;
+  font-weight: 600;
+  border: none;
+  background: transparent;
+  color: var(--color-slate-500);
+  cursor: pointer;
+  transition: all 0.15s;
+  letter-spacing: 0.02em;
+}
+.dark .lang-segmented button { color: var(--color-slate-400); }
+.lang-segmented button:hover {
+  color: var(--color-slate-800);
+  background: rgba(0,0,0,0.04);
+}
+.dark .lang-segmented button:hover {
+  color: white;
+  background: rgba(255,255,255,0.06);
+}
+.lang-segmented button.active {
+  background: var(--color-blue-accent);
+  color: white;
+}
+
+/* Original PDF link — icon + label, button-styled */
+.pdf-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-slate-700);
+  background: var(--color-slate-50);
+  border: 1px solid var(--color-slate-200);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-bottom: 2rem;
+}
+.dark .pdf-link-btn {
+  color: var(--color-slate-300);
+  background: rgba(30, 41, 59, 0.5);
+  border-color: var(--color-slate-800);
+}
+.pdf-link-btn:hover {
+  border-color: var(--color-blue-accent);
+  color: var(--color-blue-accent);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.dark .pdf-link-btn:hover {
+  border-color: #66a3e0;
+  color: #66a3e0;
+}
+
 .back-link {
   background: transparent;
   border: none;
@@ -676,9 +774,33 @@ function submitSearch() {
   padding-left: 1rem;
   border-left: 2px solid var(--color-slate-200);
 }
-.dark .res-detail-subtitle { 
+.dark .res-detail-subtitle {
   color: var(--color-slate-400);
   border-left-color: var(--color-slate-700);
+}
+
+.res-detail-agenda {
+  font-size: 1rem;
+  color: var(--color-slate-600);
+  font-style: italic;
+  padding-left: 1rem;
+  border-left: 2px solid var(--color-blue-accent);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+.dark .res-detail-agenda {
+  color: var(--color-slate-400);
+  border-left-color: #66a3e0;
+}
+.res-detail-agenda strong {
+  font-style: normal;
+  font-weight: 600;
+  color: var(--color-blue-accent);
+}
+.dark .res-detail-agenda strong { color: #66a3e0; }
+.res-detail-agenda-sep {
+  margin: 0 0.5rem;
+  color: var(--color-slate-300);
 }
 
 .res-detail-content {
@@ -800,6 +922,30 @@ function submitSearch() {
 .res-detail-richtext :deep(p) { margin-bottom: 1rem; }
 .res-detail-richtext :deep(p:last-child) { margin-bottom: 0; }
 .res-detail-richtext :deep(a) { color: var(--color-blue-accent); text-decoration: underline; }
+
+/* Bilingual interleaved pair (EN action with FR translation below) */
+.res-detail-bilingual-pair {
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+  border-top: 1px dashed var(--color-slate-200);
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.75rem;
+}
+.dark .res-detail-bilingual-pair { border-top-color: var(--color-slate-700); }
+.res-detail-bilingual-lang {
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  color: var(--color-slate-400);
+  text-transform: uppercase;
+  padding-top: 0.15rem;
+}
+.res-detail-richtext--fr {
+  font-style: italic;
+  color: var(--color-slate-500);
+}
+.dark .res-detail-richtext--fr { color: var(--color-slate-400); }
 
 .res-detail-dates {
   margin-top: 1.5rem;

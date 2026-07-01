@@ -1,99 +1,286 @@
-# Action / consideration type color map.
+# Action / consideration type color map + localized labels.
 #
 # Semantic types from the parser (approves, resolves, notes, ...) map
-# to (bg, text) color pairs used by the resolution detail page.
+# to (bg, text) color pairs used by the resolution detail page, plus
+# localized labels so the chip text can render in the current UI
+# language. Labels are keyed by ISO 639-3 code (eng, fra) for forward
+# compatibility — adding a third language is one new key per type.
+#
 # Default fallback is the special key `_default`.
 actionTypeColors:
   _default:
     bg: '#64748b'
     text: '#ffffff'
+    labels:
+      eng: Other
+      fra: Autre
   accepts:
     bg: '#16a34a'
     text: '#ffffff'
+    labels:
+      eng: Accepts
+      fra: Accepte
   acknowledges:
     bg: '#64748b'
     text: '#ffffff'
+    labels:
+      eng: Acknowledges
+      fra: Prend acte
   adopts:
     bg: '#15803d'
     text: '#ffffff'
+    labels:
+      eng: Adopts
+      fra: Adopte
   agrees:
     bg: '#16a34a'
     text: '#ffffff'
+    labels:
+      eng: Agrees
+      fra: Conviennent
   appoints:
     bg: '#b45309'
     text: '#ffffff'
+    labels:
+      eng: Appoints
+      fra: Nomme
   appreciates:
     bg: '#9d174d'
     text: '#ffffff'
+    labels:
+      eng: Appreciates
+      fra: Exprime son appréciation
   approves:
     bg: '#15803d'
     text: '#ffffff'
+    labels:
+      eng: Approves
+      fra: Approuve
   asks:
     bg: '#6d28d9'
     text: '#ffffff'
+    labels:
+      eng: Asks
+      fra: Demande
   assigns:
     bg: '#d97706'
     text: '#ffffff'
+    labels:
+      eng: Assigns
+      fra: Affecte
   confirms:
     bg: '#166534'
     text: '#ffffff'
+    labels:
+      eng: Confirms
+      fra: Confirme
   considers:
     bg: '#475569'
     text: '#ffffff'
+    labels:
+      eng: Considers
+      fra: Considère
   decides:
     bg: '#0061ad'
     text: '#ffffff'
+    labels:
+      eng: Decides
+      fra: Décide
   directs:
     bg: '#1e40af'
     text: '#ffffff'
+    labels:
+      eng: Directs
+      fra: Ordonne
   disbands:
     bg: '#991b1b'
     text: '#ffffff'
+    labels:
+      eng: Disbands
+      fra: Dissout
   encourages:
     bg: '#7c3aed'
     text: '#ffffff'
+    labels:
+      eng: Encourages
+      fra: Encourage
   endorses:
     bg: '#166534'
     text: '#ffffff'
+    labels:
+      eng: Endorses
+      fra: Soutient
   establishes:
     bg: '#0e7490'
     text: '#ffffff'
+    labels:
+      eng: Establishes
+      fra: Établit
+  elects:
+    bg: '#b45309'
+    text: '#ffffff'
+    labels:
+      eng: Elects
+      fra: Élit
+  charges:
+    bg: '#1e40af'
+    text: '#ffffff'
+    labels:
+      eng: Charges
+      fra: Charge
+  gives_discharge:
+    bg: '#166534'
+    text: '#ffffff'
+    labels:
+      eng: Gives discharge
+      fra: Donne quitus
+  following_recommendation:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Following the recommendation
+      fra: Suivant la recommandation
+  having_regard_to:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Having regard to
+      fra: Vu
+  having_regard:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Having regard
+      fra: Vu
   instructs:
     bg: '#1e40af'
     text: '#ffffff'
+    labels:
+      eng: Instructs
+      fra: Charge
   nominates:
     bg: '#b45309'
     text: '#ffffff'
+    labels:
+      eng: Nominates
+      fra: Propose
+  remarks:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Notes
+      fra: Prend note
   notes:
     bg: '#475569'
     text: '#ffffff'
+    labels:
+      eng: Notes
+      fra: Prend note
+  noting:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Noting
+      fra: Notant
+  proclaims:
+    bg: '#0e7490'
+    text: '#ffffff'
+    labels:
+      eng: Proclaims
+      fra: Proclame
+  recalling:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Recalling
+      fra: Rappelant
   recognises:
     bg: '#64748b'
     text: '#ffffff'
+    labels:
+      eng: Recognises
+      fra: Reconnaît
   recognizes:
     bg: '#64748b'
     text: '#ffffff'
+    labels:
+      eng: Recognizes
+      fra: Reconnaît
   recommends:
     bg: '#7c3aed'
     text: '#ffffff'
+    labels:
+      eng: Recommends
+      fra: Recommande
+  renews:
+    bg: '#16a34a'
+    text: '#ffffff'
+    labels:
+      eng: Renews
+      fra: Renouvelle
   replaces:
     bg: '#dc2626'
     text: '#ffffff'
+    labels:
+      eng: Replaces
+      fra: Remplace
   requests:
     bg: '#6d28d9'
     text: '#ffffff'
+    labels:
+      eng: Requests
+      fra: Demande
+  rescinds:
+    bg: '#dc2626'
+    text: '#ffffff'
+    labels:
+      eng: Rescinds
+      fra: Annule
   resolves:
     bg: '#0061ad'
     text: '#ffffff'
+    labels:
+      eng: Resolves
+      fra: Résout
+  affirms:
+    bg: '#15803d'
+    text: '#ffffff'
+    labels:
+      eng: Reaffirms
+      fra: Réaffirme
+  sets:
+    bg: '#d97706'
+    text: '#ffffff'
+    labels:
+      eng: Sets
+      fra: Fixe
   supports:
     bg: '#15803d'
     text: '#ffffff'
+    labels:
+      eng: Supports
+      fra: Soutient
   thanks:
     bg: '#be185d'
     text: '#ffffff'
+    labels:
+      eng: Thanks
+      fra: Remercie
   welcomes:
     bg: '#db2777'
     text: '#ffffff'
+    labels:
+      eng: Welcomes
+      fra: Accueille
+  wishes:
+    bg: '#7c3aed'
+    text: '#ffffff'
+    labels:
+      eng: Wishes
+      fra: Souhaite
   withdraws:
     bg: '#dc2626'
     text: '#ffffff'
+    labels:
+      eng: Withdraws
+      fra: Retire

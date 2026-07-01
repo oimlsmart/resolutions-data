@@ -1,0 +1,281 @@
+## DECISIONS
+
+42nd CIML Meeting
+
+Shanghai, P.R. China - 24-26 October 2007
+
+![](page=0,bbox=[756, 2289, 1112, 2591])
+
+ORGANISATION INTERNATIONALE
+
+DE MÉTROLOGIE LÉGALE
+
+INTERNATIONAL ORGANIZATION OF LEGAL METROLOGY
+
+![](page=2,bbox=[826, 277, 1162, 562])
+
+![](page=2,bbox=[152, 722, 1830, 1836])
+
+Shanghai, 24-26 October 2007
+
+<div align="center">
+
+# DECISIONS
+
+</div>
+
+INTERNATIONAL BUREAU OF LEGAL METROLOGY (BIML) 11, RUE TURGOT-F-75009 PARIS-FRANCE
+
+TEL: 33(0)148781282
+
+FAX: 33(0)142821727
+
+E-MAIL: biml@oiml.org
+
+INTERNET: www.oiml.org
+
+<div align="center">
+
+# FORTY-SECOND MEETING of the INTERNATIONAL COMMITTEE of LEGAL METROLOGY Shanghai, 24-26 October 2007
+
+</div>
+
+<div align="center">
+
+# DECISIONS
+
+</div>
+
+## Opening addresses
+
+The Committee took note of opening addresses given by Mr. Li Chuanqing, Minister, Mr. Zhou Taitong, Deputy Mayor and Mr. Alan E. Johnston, CIML President.
+
+## Roll-call-Quorum
+
+48 Member States out of 59 were present or represented at the opening of the 42nd CIML Meeting. The quorum (45 Member States) was therefore reached.
+
+The Committee also noted the participation of a number of OIML Corresponding Members, one Observer Country, Liaison Institutions and Regional Legal Metrology Organizations, as well as the CIML Immediate Past President, CIML Honorary Members, and members of AQSIQ Staff and BIML Staff.
+
+## Approval of the agenda
+
+The Committee approved the Draft Agenda with the addition of a report on the Conformity to Type Working Group under Item 6.3.
+
+## 1 Approval of the minutes of the 41st CIML Meeting
+
+The Committee approved the minutes of the 41st CIML Meeting without modification.
+
+## 2 Member States and Corresponding Members
+
+## 2.1 Situation of certain Members
+
+The Committee noted that two additional Corresponding Members (United Arab Emirates and Sudan) had joined the OIML.
+
+## 3 Financial matters
+
+## 3.1 Adoption of the Auditor's report for 2006
+
+The Committee approved the Auditor's report for 2006 and requested its President and the BIML Director to submit it to the Thirteenth Conference in 2008.
+
+3. 2 Assets and liabilities as at 01/01/2006 and at 01/01/2007 and
+
+## 3.3 Financial report for 2006 and estimates for 2007
+
+The Committee took note of the report given by the BIML Director.
+
+## 3.4 Elements for the 2009-2012 budget
+
+The Committee approved the orientations presented by the Bureau and instructed the Director to prepare a draft budget on these lines, taking account of the comments expressed and of comments that Member States are invited to send to the Bureau no later than 31 December 2007.
+
+## 3.5 Pension scheme
+
+The Committee approved the orientations proposed by the Director of the Bureau and instructed him to prepare a draft revision of the OIML Staff Regulations based on these orientations, to be submitted to the CIML for approval at its 43rd Meeting.
+
+## 4 Presidential Council activities
+
+## 4.1 Report on Presidential Council activities
+
+The Committee took note of an oral report presented by the CIML President.
+
+## 4.2 Long Term Strategy and
+
+## 4.3 Action Plan
+
+The Committee examined the Action Plan and instructed the CIML President to finalize and approve it on its behalf, taking account of the comments made at this Meeting and of any further comments that could be sent in by CIML Members no later than 31 December 2007.
+
+## 5 Developing Country activities
+
+## 5.1 Report on PWGDC and JCDCMAS activities
+
+The Committee took note of presentations given by Mr. Dunmill and Dr. Seiler and instructed the Bureau to prepare, with Dr. Seiler, a procedure to identify and reward exemplary actions carried out by Developing Countries for the progress of legal metrology. This procedure will be submitted to the CIML for approval.
+
+## 5.2 Report on the D1 Seminar
+
+The Committee took note of a report on the Seminar held on Tuesday 23 and expressed its thanks to Dr. Seiler for organizing and chairing it.
+
+## 6 Liaisons
+
+## 6.1 Presentation by the Bureau on liaison activities and joint actions
+
+The Committee took note of a report given by the BIML Director on Liaison activities with other Organizations and instructed the CIML President to sign the extension of the existing ILAC-OIML MoU to also include the IAF.
+
+The Committee asked the CIML President to monitor and update, if necessary, the joint working programs with the BIPM, ILAC and IAF.
+
+## 6.2 Updates by Liaison Organizations
+
+The Committee took note of a presentation given by Mr. Stoll, CECIP.
+
+## 6.3 Report on the RLMO Round Table and Conformity to Type Working Group
+
+The Committee took note of a report given by the BIML Director on the RLMO Round Table, noted that presentations given by RLMOs were posted on the OIML web site and agreed to set up a working group on funding resources, chaired by Mr. Carstens.
+
+The Committee instructed the Bureau to:
+
+- draw up a draft MoU between the OIML and RLMOs;
+
+- set up a web based forum to facilitate exchange of information between RLMOs.
+
+The Committee took note of a report given by the BIML Director on the CTT WG and instructed the BIML to draw up draft terms of reference for a study on conformity to type.
+
+These ToR will be submitted to the CIML President for approval.
+
+## 6.4 MID Tables
+
+The Committee took note of a presentation given by the BIML Director and instructed the Bureau to continue its cooperation with WELMEC on this issue, and requested the European participants of the appropriate TCs/SCs, to draw up the first draft tables of correspondence with the MID requirements as soon as a Recommendation reaches DR status.
+
+## 7 BIML activities
+
+## 7.1 Report on BIML activities for 2006-2007
+
+The Committee took note of a report given by the BIML Director.
+
+## 7.2 Communication, web site
+
+The Committee took note of a presentation given by Mr. Pulham, notably concerning the advancement of joint BIPM-OIML projects, developments in the interactive parts of the web site, and future developments envisaged in this domain.
+
+The Committee reiterated its request to CIML Members to make extensive and timely use of the online facilities for voting and commenting on drafts, and updating information.
+
+## 8 Technical activities
+
+## 8.1 Approval of International Recommendations and Documents
+
+The Committee approved the following Publications:
+
+- DR 1 Combined Revision of R 4, R 29, R 45 and R 96 Vessels for commercial transactions;
+
+- DR 2 Combined Revision of R 117, R 105 & R 86 Dynamic measuring systems for liquids other than water;
+
+- DR3 New OIML Draft Recommendation Compressed gaseous fuel measuring systems for vehicles;
+
+- DR 4 New OIML Draft Recommendation Measuring systems for gaseous fuel;
+
+- DR 5 Revision R 21 Taximeters;
+
+- DR 6 Revision R 107-1 Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers). Part 1: Metrological and technical requirements - Tests;
+
+- DR 7 Revision R 35 Material measures of length for general use. Part 1: Metrological and technical requirements;
+
+- DR 8 Revision R 107-2 Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers). Part 2: Test report format;
+
+- AM1 Amendment 2 to D2 Legal units of measurement.
+
+## 8.2 Proposals regarding TC/SC work
+
+The Committee approved:
+
+- the proposal to merge TC 8/SC 7 Gas metering and TC 8/SC 8 Gas meters (BIML Note: Secretariat The Netherlands - the resulting SC will be TC 8/SC 7 and will retain the same title);
+
+- the proposal to Revise R 79 Labelling requirements for pre-packaged products;
+
+- the proposal to reallocate the responsibility for Measuring Container Bottles (MCB) from TC 8 to TC 6;
+
+- the proposal to revise R 81 Dynamic measuring devices and systems for cryogenic liquids;
+
+- the proposal to grant dispensation to section 3.4 of B 6-1 (Directives for the technical work) for the revision of R 99;
+
+- the proposal to submit the DR of the revision of R 71 to direct CIML online approval;
+
+- the proposal to submit the DRs of the revisions of R 85-1, R 85-2 and R 85-3 to direct CIML online approval;
+
+- the proposal to submit the DR of the revision of R 80-1 to direct CIML online approval;
+
+- the proposal to submit the DR of the new Recommendation on Thermographic instruments to direct CIML online approval;
+
+- the proposal to submit the DR of the new Recommendation on Automated refractometers to direct CIML online approval;
+
+- the proposal to withdraw D4 Installation and storage conditions for cold water meters;
+
+- the proposal to approve the revision of R 66 Length measuring instruments as a new work item;
+
+- the proposal to re-confirm R 24 Standard one metre bar for verification officers;
+
+- the proposal to submit the Draft Amendment to DR 1 Combined Revision of R 4, R 29, R 45 and R 96 Vessels for commercial transactions to direct CIML online approval;
+
+- the proposal to revise DR 3 New OIML Draft Recommendation Compressed gaseous fuel measuring systems for vehicles as a new work item in (the new) TC 8/SC 7.
+
+## 8.3 MAA
+
+The Committee took note of a report given by Ms. Gaucher on the progress of the MAA implementation.
+
+It instructed the Bureau to draw up a resolution to be submitted for approval by the CIML at its 43rd Meeting, concerning the transitory period and the intention to maintain the Basic Certificate System for Issuing Participants of the DoMCs.
+
+The Committee strongly encouraged Member States and Corresponding Members to participate in the DoMCs.
+
+The Committee instructed TC 3/SC 5 to take account of comments expressed during the Meeting in the revision of B3 and B10.
+
+## 8.4 Nature of OIML Publications and the Guide for CIML Members
+
+The Committee took note of a presentation given by Mr. Kool concerning the two Guides:
+
+- G16 Guide on the categories of OIML Publications and their adoption procedures;
+
+- G 17 Guide for CIML Members.
+
+## 8.5 Progress on the revision of the Directives
+
+The Committee took note of a report given by Mr. Dunmill on the progress in the revision of the Directives for Technical Work.
+
+## 8.6 Training sessions for OIML TC/SC Secretariats
+
+The Committee took note of information given by Ms. Gaucher on training sessions for those responsible for TC/SC Secretariats and on the development of training material for one-day training sessions to be organized by CIML Members.
+
+## 9 Human resource matters
+
+## 9.1 Dispute related to the dismissal of a BIML Secretary
+
+The Committee took note of a report given by the BIML Director on a dispute concerning a dismissal.
+
+It noted that this affair had now been settled and that there no longer existed any uncertainty as to the applicable jurisdiction.
+
+The Committee instructed the Bureau to undertake a review of the legal aspects of the BIML Staff Regulations with the assistance of a competent legal counsel.
+
+## 10 Future meetings
+
+## 10.1 13th Conference and 43rd CIML Meeting (2008)
+
+The Committee thanked Australia for presenting the venue at which the 13th Conference and 43rd CIML Meeting will be held in Sydney in 2008.
+
+## 10.2 44th CIML Meeting (2009)
+
+The Committee thanked Kenya for its invitation to hold the 44th CIML Meeting in 2009, and accepted.
+
+## 12 Awards
+
+The Committee made Awards to the following individuals in recognition of their outstanding contribution to legal metrology:
+
+- Mr. Romain Eggermont (Belgium);
+
+- Mr. Gerard Lagauterie (France);
+
+- Mr. Wayne Stiefel (United States);
+
+- Mr. Ali Tukai (Tanzania);
+
+- Mr. Bruno Vaucher (Switzerland).
+
+It also gave Letters of Appreciation to:
+
+- Mr. Peter Brandes (Germany);
+
+- Mr. Charles Ehrlich (United States), and
+
+- Mr. Mikhalchenko Vassily Nikolaevich (Kazakhstan).

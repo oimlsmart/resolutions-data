@@ -151,30 +151,37 @@ module ResolutionsData
       ["Endorses",      "endorses"],   # duplicate to be safe
     ].freeze
 
+    # Group manifest entries by meeting identity. A CIML meeting is keyed
+    # by "ciml-{N}"; a Conference by "conference-{S}". The English and
+    # French source PDFs of the same meeting collapse into a single emit
+    # pass, producing ONE per-meeting YAML file with embedded
+    # Localizable resolution rows.
+    def self.group_sources_by_meeting(sources)
+      groups = {}
+      sources.each do |src|
+        next unless src["slug"]
+        # Strip the trailing language tag (en / fr / bilingual) so
+        # the same meeting with EN and FR PDFs groups together.
+        base_slug = src["slug"].sub(/-(en|fr|bilingual)\z/, '')
+        groups[base_slug] ||= []
+        groups[base_slug] << src
+      end
+      groups
+    end
+
     def self.run
       FileUtils.mkdir_p(OUT_DIR)
       sources = YAML.load_file(MANIFEST)["sources"]
       stats = Hash.new(0)
       pending = []
 
-      sources.each do |src|
-        slug = src["slug"]
-        md_path = File.join(OCR_DIR, "#{slug}.md")
-        unless File.exist?(md_path)
-          warn "  SKIP #{slug}: no OCR markdown"
-          next
-        end
-        md = File.read(md_path)
-
-        # Bilingual: split at the French "Résolutions" header
-        if src["lang"] == "bilingual"
-          en, fr = split_bilingual(md)
-          emit_one(src, slug + "-en", en, :en, stats, pending)
-          emit_one(src, slug + "-fr", fr, :fr, stats, pending)
-        else
-          lang_sym = src["lang"] == "fr" ? :fr : :en
-          emit_one(src, slug, md, lang_sym, stats, pending)
-        end
+      # Group source PDFs by meeting identity (kind + number). Each
+      # meeting gets ONE YAML file containing every language version
+      # (each resolution row tagged with its `language:`). See
+      # TODO.complete/13-meeting-single-file-yaml.md.
+      by_meeting = group_sources_by_meeting(sources)
+      by_meeting.each do |meeting_slug, meeting_sources|
+        emit_meeting(meeting_slug, meeting_sources, stats, pending)
       end
 
       File.write(PENDING, pending.join("\n")) unless pending.empty?
@@ -186,6 +193,202 @@ module ResolutionsData
       puts "  Decisions deferred:    #{stats[:deferred]}  (CIML 39–42 narrative style)"
       puts "  Pending-review notes:  #{pending.size}  → #{PENDING}"
       exit 1 if stats[:error] > 0
+    end
+
+    def self.emit_meeting(meeting_slug, meeting_sources, stats, pending)
+      # Parsed resolutions, grouped by canonical identifier. Each value
+      # is a hash of language_code -> parsed-resolution-hash so we can
+      # merge EN + FR into a single Resolution with multiple
+      # localizations.
+      by_identifier = {}
+      titles_by_lang = {}
+      meeting_sources.each do |src|
+        md_slug = src["slug"]
+        md_path = File.join(OCR_DIR, "#{md_slug}.md")
+        unless File.exist?(md_path)
+          pending << "#{meeting_slug}: missing OCR markdown for #{md_slug}"
+          next
+        end
+        md = File.read(md_path)
+
+        per_lang = case src["lang"]
+                   when "bilingual"
+                     en_md, fr_md = split_bilingual(md)
+                     parse_with_fallback(en_md, src, :en) +
+                       parse_with_fallback(fr_md, src, :fr)
+                   when "fr"
+                     parse_with_fallback(md, src, :fr)
+                   else
+                     parse_with_fallback(md, src, :en)
+                   end
+
+        lang_639_3 = (src["lang"] == "fr" ? "fra" : "eng")
+        per_lang.each do |r|
+          r["language_code"] = lang_639_3
+          r["script"] = "Latn"
+          id_key = r["identifier"].to_s
+          (by_identifier[id_key] ||= {})[lang_639_3] = r
+        end
+        stats[:resolutions] += per_lang.size
+        titles_by_lang[lang_639_3.to_sym] ||= src["title"].to_s
+      end
+
+      resolutions = by_identifier.values.map { |langs| build_resolution_with_localizations(langs) }
+      if resolutions.empty?
+        pending << "#{meeting_slug}: parser found 0 resolutions (deferred)"
+        return
+      end
+
+      stats[:emitted] += 1
+      out_path = File.join(OUT_DIR, "#{meeting_slug}.yaml")
+      File.write(out_path, render_meeting_collection(meeting_slug, meeting_sources, resolutions, titles_by_lang))
+      puts "  ok   #{meeting_slug}  (#{resolutions.size} resolutions across #{meeting_sources.size} source PDF(s))"
+    rescue => e
+      stats[:error] += 1
+      pending << "#{meeting_slug}: ERROR #{e.class}: #{e.message}"
+    end
+
+    # Build a single Resolution with one Localization per available
+    # language. Language-agnostic fields (identifier, doi, urn,
+    # agenda_item, dates) come from the English row when present,
+    # otherwise from the first available language.
+    def self.build_resolution_with_localizations(by_lang)
+      primary = by_lang["eng"] || by_lang["fra"] || by_lang.values.first
+      localizations = by_lang.values.map do |r|
+        {
+          "language_code" => r["language_code"],
+          "script"        => r["script"] || "Latn",
+          "title"         => r["title"],
+          "subject"       => r["subject"],
+          "considerations"=> r["considerations"] || [],
+          "actions"       => r["actions"] || [],
+          "approvals"     => r["approvals"] || [],
+        }
+      end
+      {
+        "identifier"    => primary["identifier"],
+        "doi"           => primary["doi"],
+        "urn"           => primary["urn"],
+        "agenda_item"   => primary["agenda_item"],
+        "dates"         => primary["dates"] || [],
+        "localizations" => localizations,
+      }
+    end
+
+    # Try the formal parser, then the narrative parser, then return [].
+    def self.parse_with_fallback(md, src, lang)
+      resolutions, _deferred = parse(md, src, lang)
+      if resolutions.empty? && md =~ /#*\s*D[ÉE]CISIONS\b/i
+        resolutions, _deferred = parse_narrative(md, src, lang)
+      end
+      resolutions
+    end
+
+    def self.render_meeting_collection(meeting_slug, meeting_sources, resolutions, titles_by_lang)
+      primary     = meeting_sources.first
+      kind        = primary["kind"]
+      number      = primary["kind"] == "ciml" ? primary["meeting"] : primary["session"]
+      body        = primary["kind"] == "ciml" ? "CIML Meeting" : "OIML Conference"
+      urn_kind    = primary["kind"] == "ciml" ? "ciml" : "conference"
+
+      en_default = "Resolutions of the #{number_to_ordinal(number, :en)} #{body} (#{primary['year']})"
+      fr_default = "Résolutions #{number_to_ordinal(number, :fr)} #{body} (#{primary['year']})"
+      canonical_title = titles_by_lang[:eng] || titles_by_lang[:fra] || en_default
+
+      venue = primary["venue"]
+      date_start = primary["date_start"] || "#{primary['year']}-01-01"
+      date_end   = primary["date_end"]   || date_start
+      dates_yaml = if date_start == date_end
+        "  dates:\n  - start: '#{date_start}'\n    kind: meeting"
+      else
+        "  dates:\n  - start: '#{date_start}'\n    end: '#{date_end}'\n    kind: meeting"
+      end
+
+      pdf_paths = meeting_sources.map { |s| source_pdf_path(s) }.join(" | ")
+      url_lines = meeting_sources.map do |s|
+        lang_639_3 = (s["lang"] == "fr" ? "fra" : "eng")
+        ref  = s["url"].to_s.gsub('"', '\"')
+        "    - { ref: \"#{ref}\", format: pdf, language_code: #{lang_639_3} }"
+      end.join("\n")
+
+      available_langs = meeting_sources.map { |s| (s["lang"] == "fr" ? "fra" : "eng") }.uniq.join(", ")
+
+      <<~YAML
+        # yaml-language-server: $schema=#{SCHEMA_URL}
+        # Auto-generated by scripts/author_yaml.rb from #{pdf_paths}.
+        # Meeting URN: urn:oiml:#{urn_kind}:meeting:#{meeting_slug}
+        # Languages: #{available_langs}
+        ---
+        metadata:
+          title: #{yaml_escape(canonical_title)}
+          title_localized:
+        #{localized_title_block(titles_by_lang)}
+        #{dates_yaml}
+          venue: #{yaml_escape(venue)}
+          city: #{yaml_escape(primary['city'].to_s)}
+          country_code: #{yaml_escape(primary['country_code'].to_s)}
+          source_urls:
+        #{url_lines}
+        resolutions:
+      YAML
+        .concat(resolutions.map { |r| render_meeting_resolution(r) }.join("\n"))
+    end
+
+    def self.localized_title_block(titles_by_lang)
+      rows = []
+      rows << "    - { language_code: eng, script: Latn, title: #{yaml_escape(titles_by_lang[:eng].to_s)} }" if titles_by_lang[:eng]
+      rows << "    - { language_code: fra, script: Latn, title: #{yaml_escape(titles_by_lang[:fra].to_s)} }" if titles_by_lang[:fra]
+      rows.join("\n")
+    end
+
+    def self.render_meeting_resolution(r)
+      indent = "  "
+      lines = []
+      lines << "#{indent}- identifier: #{yaml_escape(r['identifier'])}"
+      lines << "#{indent}  doi: #{yaml_escape(r['doi'])}" if r["doi"]
+      lines << "#{indent}  urn: #{yaml_escape(r['urn'])}" if r["urn"]
+      lines << "#{indent}  agenda_item: '#{r['agenda_item']}'" if r["agenda_item"]
+      if r["dates"] && r["dates"].any?
+        lines << "#{indent}  dates:"
+        r["dates"].each do |d|
+          lines << "#{indent}  - start: '#{d['start']}'"
+          lines << "#{indent}    kind: #{d['kind']}"
+        end
+      end
+      lines << "#{indent}  localizations:"
+      r["localizations"].each do |loc|
+        lines << "#{indent}  - language_code: #{loc['language_code']}"
+        lines << "#{indent}    script: #{loc['script']}"
+        lines << "#{indent}    title: #{yaml_escape(loc['title'])}" if loc["title"]
+        lines << "#{indent}    subject: #{yaml_escape(loc['subject'])}" if loc["subject"]
+        if loc["considerations"] && loc["considerations"].any?
+          lines << "#{indent}    considerations:"
+          loc["considerations"].each { |c| lines << render_meeting_action_like(c, indent + "    ") }
+        end
+        if loc["actions"] && loc["actions"].any?
+          lines << "#{indent}    actions:"
+          loc["actions"].each { |a| lines << render_meeting_action_like(a, indent + "    ") }
+        end
+      end
+      lines.join("\n")
+    end
+
+    def self.render_meeting_action_like(entry, indent)
+      out = []
+      out << "#{indent}- type: #{entry['type']}"
+      msg = entry['message'].to_s
+      out << "#{indent}  message: |"
+      msg.to_s.split("\n").each do |line|
+        out << "#{indent}    #{line}"
+      end
+      if entry['dates'] && entry['dates'].any?
+        out << "#{indent}  dates:"
+        entry['dates'].each do |d|
+          out << "#{indent}  - start: '#{d['start']}'"
+          out << "#{indent}    kind: #{d['kind']}"
+        end
+      end
+      out.join("\n")
     end
 
     def self.emit_one(src, out_slug, md, lang, stats, pending)
@@ -506,15 +709,47 @@ module ResolutionsData
       m && m[1]
     end
 
-    def self.extract_subject(body, lang)
-      # Look for "The Conference," or "The Committee," on its own line.
-      body.each_line do |line|
-        line = line.strip
-        return "OIML Conference" if line =~ /\AThe Conference,?\z/i
-        return "CIML"            if line =~ /\AThe Committee,?\z/i
-        return "Conférence OIML" if line =~ /\ALa Conf[ée]rence,?\z/i
-        return "CIML"            if line =~ /\ALe Comit[ée],?\z/i
+    # Canonical subject kinds recognized in resolution bodies.
+    # Each entry: [regex_pattern, kind_symbol].
+    # `kind` is one of :committee, :conference, :bureau, :council.
+    # Returns the localized subject label via lookup against
+    # `SUBJECT_LABELS_BY_KIND`.
+    SUBJECT_PATTERNS = [
+      [/\A[ \t]*the[ \t]+conference[ \t]*[,.;]?\z/i,         :conference],
+      [/\A[ \t]*the[ \t]+committee[ \t]*[,.;]?\z/i,          :committee],
+      [/\A[ \t]*the[ \t]+bureau[ \t]*[,.;]?\z/i,             :bureau],
+      [/\A[ \t]*the[ \t]+council[ \t]*[,.;]?\z/i,            :council],
+      [/\A[ \t]*la[ \t]+conf[ée]rence[ \t]*[,.;]?\z/i,       :conference],
+      [/\A[ \t]*le[ \t]+comit[ée][ \t]*[,.;]?\z/i,           :committee],
+      [/\A[ \t]*le[ \t]+bureau[ \t]*[,.;]?\z/i,              :bureau],
+      [/\A[ \t]*le[ \t]+conseil[ \t]*[,.;]?\z/i,             :council],
+    ].freeze
+
+    # Per-language canonical labels by subject kind. Returns the
+    # display string that goes into Resolution.localization.subject.
+    SUBJECT_LABELS_BY_KIND = {
+      committee:   { en: "CIML",            fr: "CIML" },
+      conference:  { en: "OIML Conference", fr: "Conférence OIML" },
+      bureau:      { en: "BIML Bureau",     fr: "Bureau du BIML" },
+      council:     { en: "Council",         fr: "Conseil" },
+    }.freeze
+
+    # Detect the subject kind from a resolution body. Walks each line,
+    # strips whitespace + zero-width chars, and matches against the
+    # canonical subject patterns. Returns the kind symbol or :unknown.
+    def self.detect_subject_kind(body)
+      body.each_line do |raw|
+        line = raw.strip.gsub(/​/, "").gsub(/\s+/, " ")
+        SUBJECT_PATTERNS.each do |(re, kind)|
+          return kind if line =~ re
+        end
       end
+      :unknown
+    end
+
+    def self.extract_subject(body, lang)
+      kind = detect_subject_kind(body)
+      return SUBJECT_LABELS_BY_KIND.dig(kind, lang) || SUBJECT_LABELS_BY_KIND.dig(kind, :en) || "" unless kind == :unknown
       # Fallback: derive from lang
       lang == :fr ? "Conférence OIML" : "OIML Conference"
     end
@@ -525,11 +760,14 @@ module ResolutionsData
     def self.strip_meta_lines(body)
       out = []
       body.each_line do |line|
-        stripped = line.strip
+        stripped = line.strip.gsub(/​/, "")
         next if stripped =~ /\AAgenda item\b/i
-        next if stripped =~ /\AThe (Conference|Committee),?\z/i
-        next if stripped =~ /\ALa Conf[ée]rence,?\z/i
-        next if stripped =~ /\ALe Comit[ée],?\z/i
+        # Drop any subject marker line detected by detect_subject_kind.
+        # This is more lenient than the prior regex — handles OCR
+        # whitespace + trailing punctuation variants.
+        if SUBJECT_PATTERNS.any? { |(re, _)| stripped =~ re }
+          next
+        end
         # Strip leading markdown header marks. Within a single resolution body
         # there should be no real section breaks (those were used as resolution
         # delimiters earlier in the pipeline). "## Foo" → "Foo".

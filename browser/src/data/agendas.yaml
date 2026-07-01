@@ -1,0 +1,146 @@
+# Per-meeting agenda items.
+#
+# This file is the single source of truth for what the OIML mini-sites
+# list under each agenda heading. The format mirrors the printed table:
+# each top-level item has a number (1, 2, ..., 21), a description,
+# and an optional sub_items list carrying the dotted children
+# (11.1, 11.2, ...).
+#
+# Resolution resolutions[*].agenda_item matches against AgendaItem.number.
+
+agendas:
+  - source_file: ciml-58-resolutions
+    source_url: https://58ciml.oiml.org/ciml.html
+    items:
+      - number: "1"
+        description: Opening remarks and roll call
+        sub_items: []
+      - number: "2"
+        description: Adoption of the agenda
+        sub_items: []
+      - number: "3"
+        description: "Approval of the minutes of the 57th CIML Meeting"
+        sub_items: []
+      - number: "4"
+        description: "Report by the CIML President"
+        sub_items: []
+      - number: "5"
+        description: "CIML First Vice-President (2024–2030)"
+        sub_items: []
+      - number: "6"
+        description: "Presentation by the candidate for CIML Second Vice-President (2023–2029)"
+        sub_items: []
+      - number: "7"
+        description: "Report by the BIML Director on BIML matters and activities"
+        sub_items: []
+      - number: "8"
+        description: "Renewal of the contract of Mr Anthony Donnellan, BIML Director"
+        sub_items: []
+      - number: "9"
+        description: "Renewal of the contract of Mr Ian Dunmill, BIML Assistant Director"
+        sub_items: []
+      - number: "10"
+        description: "Financial matters"
+        sub_items:
+          - number: "10.1"
+            description: "Approval of the 2022 accounts"
+            sub_items: []
+          - number: "10.2"
+            description: "Arrears of Member States and Corresponding Members"
+            sub_items: []
+          - number: "10.3"
+            description: "Budget forecast for 2023"
+            sub_items: []
+          - number: "10.4"
+            description: "Internal financial audit"
+            sub_items: []
+      - number: "11"
+        description: "OIML publications and technical activities"
+        sub_items:
+          - number: "11.1"
+            description: "Publications for approval by the CIML"
+            sub_items: []
+          - number: "11.2"
+            description: "Project proposals for approval by the CIML"
+            sub_items: []
+          - number: "11.3"
+            description: "Other technical items for information and approval"
+            sub_items: []
+          - number: "11.4"
+            description: "Current status and plans regarding e-Learning and online training"
+            sub_items: []
+          - number: "11.5"
+            description: "OIML Bulletin"
+            sub_items: []
+      - number: "12"
+        description: "OIML Certification System (OIML-CS)"
+        sub_items:
+          - number: "12.1"
+            description: "Report by the OIML-CS Management Committee (MC) Chairperson"
+            sub_items: []
+          - number: "12.2"
+            description: "Recommendations from the OIML-CS MC to the CIML"
+            sub_items: []
+          - number: "12.3"
+            description: "Appointment of the OIML-CS MC Deputy Chairperson (secret ballot)"
+            sub_items: []
+      - number: "13"
+        description: "CEEMS Advisory Group (CEEMS AG)"
+        sub_items:
+          - number: "13.1"
+            description: "Report by the CEEMS AG Chairperson"
+            sub_items: []
+          - number: "13.2"
+            description: "Recommendations from the CEEMS AG to the CIML"
+            sub_items: []
+      - number: "14"
+        description: "OIML Digitalisation Task Group (OIML DTG)"
+        sub_items: []
+      - number: "15"
+        description: "International cooperation"
+        sub_items:
+          - number: "15.1"
+            description: "Report by the RLMO Round Table Chairperson"
+            sub_items: []
+          - number: "15.2"
+            description: "Reports on OIML activities with organisations in liaison"
+            sub_items: []
+          - number: "15.3"
+            description: "Updates by other organisations in liaison"
+            sub_items: []
+      - number: "16"
+        description: "Election and decisions on the renewal of contracts (secret ballots)"
+        sub_items:
+          - number: "16.1"
+            description: "Election of the CIML Second Vice-President (2023–2029)"
+            sub_items: []
+          - number: "16.2"
+            description: "Decision on the renewal of the contract of Mr Anthony Donnellan, BIML Director"
+            sub_items: []
+          - number: "16.3"
+            description: "Decision on the renewal of the contract of Mr Ian Dunmill, BIML Assistant Director"
+            sub_items: []
+      - number: "17"
+        description: "OIML Awards"
+        sub_items:
+          - number: "17.1"
+            description: "OIML Medals"
+            sub_items: []
+          - number: "17.2"
+            description: "OIML Letters of Appreciation"
+            sub_items: []
+          - number: "17.3"
+            description: "OIML CEEMS Award"
+            sub_items: []
+      - number: "18"
+        description: "59th CIML Meeting"
+        sub_items: []
+      - number: "19"
+        description: "Any other business"
+        sub_items: []
+      - number: "20"
+        description: "Review and approval of draft CIML resolutions"
+        sub_items: []
+      - number: "21"
+        description: "Closing remarks"
+        sub_items: []

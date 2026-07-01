@@ -1,10 +1,20 @@
+// Build-time helpers shared by scripts/build-data.mjs.
+//
+// Localization model (TODO.complete/14): each Resolution carries a
+// `localizations[]` array. Each Localization is monolingual — its
+// text fields (title, subject, message) are plain strings, not
+// Localizable arrays. The build pipeline flattens each
+// (Resolution, Localization) pair into one JSON record keyed by
+// (source_file, identifier, language_code) so the browser still
+// resolves a single row per resolution × language.
+
 export const URN_BASE = 'urn:oiml'
 
 const PUA_BULLET_REPLACEMENTS = [
-  [/\uf0b7/g, '•'],
-  [/\uf0be/g, '‣'],
-  [/\uf0d8/g, '▸'],
-  [/\uf020/g, ' '],
+  [//g, '•'],
+  [//g, '‣'],
+  [//g, '▸'],
+  [//g, ' '],
 ]
 
 export function normalizeSnippet(rawMessage) {
@@ -28,10 +38,6 @@ export function bodyTypeFromSourceFile(sourceFile) {
 }
 
 // Per TODO.cleanups/06: each meeting gets a DOI under 10.63493/meetings/.
-// CIML: ciml<meeting-number> (e.g. ciml60)
-// Conference: conf<session-number> (e.g. conf17)
-// The meeting/session number is parsed from the source_file slug because
-// the YAML metadata block doesn't carry it.
 export function buildMeetingDoi(meta, sourceFile) {
   const bodyType = bodyTypeFromSourceFile(sourceFile)
   const m = sourceFile.match(/^(?:ciml|conference)-(\d+)/)
@@ -45,56 +51,144 @@ export function isAcclamation(identifier) {
   return String(identifier).includes('-acclaim-')
 }
 
-export function deriveDisplayTitle(res, acclamation) {
-  if (res.title) return res.title
-  if (acclamation && res.actions && res.actions.length > 0) return 'Acclamation'
+// Derive the adoption_kind from the identifier by matching against
+// the YAML-declared identifier_pattern of each kind. Defaults to
+// 'plenary' when no pattern matches. See data/adoption-kinds.yaml.
+//
+// We hard-code the kinds here because the build script runs in Node
+// before vite-plugin-yaml has loaded the browser-side data file. The
+// canonical source of truth remains adoption-kinds.yaml; this map is
+// a build-time mirror that drift-checks against the YAML at test time.
+const ADOPTION_KIND_PATTERNS = [
+  ['acclamation', '-acclaim-'],
+]
+const DEFAULT_ADOPTION_KIND = 'plenary'
+
+export function deriveAdoptionKind(identifier) {
+  const id = String(identifier || '')
+  for (const [kind, pattern] of ADOPTION_KIND_PATTERNS) {
+    if (id.includes(pattern)) return kind
+  }
+  return DEFAULT_ADOPTION_KIND
+}
+
+// Map ISO 639-3 (eng, fra) to ISO 639-1 (en, fr) so the browser
+// Intl machinery keeps working without code changes.
+const LANG_639_3_TO_1 = {
+  eng: 'en',
+  fra: 'fr',
+  deu: 'de',
+  spa: 'es',
+  jpn: 'ja',
+  rus: 'ru',
+  zho: 'zh',
+  ara: 'ar',
+}
+
+export function toLang6391(code) {
+  return LANG_639_3_TO_1[code] || code
+}
+
+/**
+ * Extract the canonical identifier string ("CIML/2023/05") from a
+ * Resolution. Accepts both the canonical Edoxen v2 shape
+ * (identifier: [{prefix, number}]) and the legacy scalar form.
+ */
+export function identifierOf(res) {
+  const ident = res.identifier
+  if (Array.isArray(ident) && ident.length > 0) {
+    const first = ident[0]
+    if (!first) return ''
+    if (first.prefix && first.number) return `${first.prefix}/${first.number}`
+    return String(first.number || '')
+  }
+  return String(ident || '')
+}
+
+/**
+ * Pick the meeting date (ISO 8601) off a ResolutionMetadata. Newer
+ * Edoxen v2 metadata carries a single `date` string; older builds
+ * also accepted `dates[]` for back-compat.
+ */
+export function meetingDateOf(metadata) {
+  if (!metadata) return ''
+  if (metadata.date) return metadata.date
+  const dates = metadata.dates
+  if (Array.isArray(dates) && dates.length > 0) {
+    return dates[0]?.start || dates[0]?.date || ''
+  }
   return ''
 }
 
-export function buildResolutionRecord(res, sourceFile, metadata) {
-  const identifier = String(res.identifier)
+export function meetingDateEndOf(metadata) {
+  if (!metadata) return ''
+  const dates = metadata.dates
+  if (Array.isArray(dates) && dates.length > 0) return dates[0]?.end || ''
+  return ''
+}
+
+/**
+ * Flatten one (Resolution, Localization) pair into a JSON record.
+ * Returns null when neither side carries usable content.
+ */
+export function buildResolutionRecord(res, sourceFile, metadata, localization) {
+  if (!res || !localization) return null
+  const identifier = identifierOf(res)
   const acclamation = isAcclamation(identifier)
-  const datesInfo = metadata.dates || []
-  const meetingDate = datesInfo.length > 0 ? datesInfo[0].start : ''
+  const meetingDate = meetingDateOf(metadata)
+  const dateEnd = meetingDateEndOf(metadata)
   const year = meetingDate ? meetingDate.substring(0, 4) : ''
 
   // id is the URL-safe slug (slashes -> dashes) used for routing.
-  // identifier preserves the canonical slash form (e.g. 'CIML/2025/44') for display.
   const id = String(identifier).replace(/\//g, '-')
+  const language = toLang6391(localization.language_code || '')
 
-  // Language is derived from the source_file slug suffix
-  // (ciml-44-resolutions-en -> 'en'; bilingual-PDF halves also end in -en/-fr).
-  let language = ''
-  if (/-en$/.test(sourceFile)) language = 'en'
-  else if (/-fr$/.test(sourceFile)) language = 'fr'
+  // Find the matching source URL for this language.
+  const sourceUrls = metadata.source_urls || []
+  const langMatch = sourceUrls.find(u => u && u.language_code === localization.language_code)
+  const sourceUrl = (langMatch && langMatch.ref) || (sourceUrls[0] && sourceUrls[0].ref) || ''
+
+  const actions = (localization.actions || []).map(a => ({
+    ...a,
+    message: a.message || '',
+  }))
+  const considerations = (localization.considerations || []).map(c => ({
+    ...c,
+    message: c.message || '',
+  }))
 
   return {
     id,
     identifier: String(identifier),
     language,
-    doi: res.doi || '',
-    urn: res.urn || `${URN_BASE}:resolution:${identifier}`,
-    title: deriveDisplayTitle(res, acclamation),
-    subject: res.subject || '',
+    language_code: localization.language_code || '',
+    script: localization.script || 'Latn',
+    title: localization.title || '',
+    subject: localization.subject || '',
     year,
-    venue: metadata.venue || '',
     city: metadata.city || '',
     country_code: metadata.country_code || '',
     source_file: sourceFile,
     meeting_urn: `${URN_BASE}:meeting:${sourceFile}`,
     source_title: metadata.title || '',
     meeting_date: meetingDate,
+    meeting_date_end: dateEnd,
+    agenda_item: res.agenda_item || '',
+    source_url: sourceUrl,
+    adoption_kind: deriveAdoptionKind(identifier),
     is_acclamation: acclamation,
-    actions: res.actions || [],
-    considerations: res.considerations || [],
-    approvals: res.approvals || [],
+    actions,
+    considerations,
+    approvals: localization.approvals || [],
     dates: res.dates || [],
+    type: res.type || (sourceFile.includes('-decisions-') ? 'decision' : 'resolution'),
+    doi: res.doi || '',
+    urn: res.urn || '',
     snippet: normalizeSnippet(
-      (res.actions && res.actions.length > 0 ? res.actions[0].message : '') ||
-      (res.considerations && res.considerations.length > 0 ? res.considerations[0].message : '') ||
-      res.title ||
-      ''
-    )
+      (actions[0] && actions[0].message) ||
+      (considerations[0] && considerations[0].message) ||
+      (localization.title || '')
+    ),
   }
 }
 
@@ -108,7 +202,7 @@ export function sortResolutions(a, b) {
     const aNum = parseFloat(a.id)
     const bNum = parseFloat(b.id)
     if (!isNaN(aNum) && !isNaN(bNum)) return bNum - aNum
-    return (b.id || '').localeCompare(a.id)
+    return (a.id || '').localeCompare(b.id)
   }
   if (aIsAcc !== bIsAcc) return aIsAcc ? 1 : -1
   return (a.id || '').localeCompare(b.id)

@@ -6,6 +6,8 @@ import {
   buildResolutionRecord,
   buildMeetingDoi,
   bodyTypeFromSourceFile,
+  meetingDateOf,
+  meetingDateEndOf,
   sortResolutions,
 } from './lib/transforms.mjs';
 
@@ -43,29 +45,45 @@ function main() {
     const source_file = file.replace(/\.ya?ml$/, '');
     const metadata = parsed.metadata || {}
 
-    // Track per-source-file meeting metadata
     if (!meetingsMap.has(source_file)) {
-      const dates = metadata.dates || []
-      const meetingDate = dates.length > 0 ? dates[0].start : ''
+      const meetingDate = meetingDateOf(metadata)
+      const dateEnd = meetingDateEndOf(metadata)
       const year = meetingDate ? meetingDate.substring(0, 4) : ''
+      const sourceUrls = metadata.source_urls || []
+      const titleLocalized = metadata.title_localized || []
+      const langs = Array.from(new Set(sourceUrls.map(u => u && u.language_code).filter(Boolean)))
+
       meetingsMap.set(source_file, {
         source_file,
         source_title: metadata.title || '',
+        title_localized: titleLocalized,
         meeting_date: meetingDate,
-        venue: metadata.venue || '',
+        date_start: meetingDate,
+        date_end: dateEnd,
         city: metadata.city || '',
+        city_code: /^[A-Z]{3}$/.test(metadata.city || '') ? metadata.city : '',
         country_code: metadata.country_code || '',
         year,
         body_type: bodyTypeFromSourceFile(source_file),
-        language: metadata.language || '',
+        languages: langs,
+        source_urls: sourceUrls,
+        default_source_url: (sourceUrls.find(u => u.language_code === 'eng') || sourceUrls[0] || {}).ref || '',
         doi: buildMeetingDoi(metadata, source_file),
         resolution_count: 0,
       })
     }
 
     for (const res of parsed.resolutions) {
-      allResolutions.push(buildResolutionRecord(res, source_file, metadata));
-      meetingsMap.get(source_file).resolution_count++
+      // Each resolution carries multiple localizations; flatten one
+      // JSON row per (resolution, localization).
+      const localizations = res.localizations || []
+      for (const loc of localizations) {
+        const record = buildResolutionRecord(res, source_file, metadata, loc)
+        if (record) {
+          allResolutions.push(record)
+          meetingsMap.get(source_file).resolution_count++
+        }
+      }
     }
   }
 

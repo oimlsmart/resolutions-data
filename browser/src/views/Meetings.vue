@@ -13,7 +13,7 @@
             class="std-chip"
             :class="{ 'is-active': selectedBodyType === '' }"
             @click="selectedBodyType = ''"
-          >All</button>
+          >{{ t('common.all') }}</button>
           <button
             class="std-chip"
             :class="{ 'is-active': selectedBodyType === 'ciml' }"
@@ -32,13 +32,13 @@
           <path d="m21 21-4.35-4.35"/>
         </svg>
         <input 
-          type="search" 
-          v-model="searchQuery" 
-          class="std-filter__search" 
-          :placeholder="t('meetings.searchPlaceholder')" 
-          autocomplete="off" 
-          spellcheck="false" 
-          aria-label="Search meetings" 
+          type="search"
+          v-model="searchQuery"
+          class="std-filter__search"
+          :placeholder="t('meetings.searchPlaceholder')"
+          autocomplete="off"
+          spellcheck="false"
+          :aria-label="t('meetings.searchAriaLabel')"
         />
       </div>
       <div class="std-filter__controls">
@@ -49,7 +49,7 @@
               class="std-chip" 
               :class="{ 'is-active': selectedYear === '' }"
               @click="selectedYear = ''"
-            >All</button>
+            >{{ t('common.all') }}</button>
             <button 
               v-for="year in availableYears" 
               :key="year"
@@ -66,7 +66,7 @@
               class="std-chip" 
               :class="{ 'is-active': selectedCountry === '' }"
               @click="selectedCountry = ''"
-            >All</button>
+            >{{ t('common.all') }}</button>
             <button 
               v-for="country in availableCountries" 
               :key="country.code"
@@ -92,31 +92,31 @@
           <span class="legend-size-small"></span>
           <span class="legend-size-medium"></span>
           <span class="legend-size-large"></span>
-          <span class="legend-size-label">Node size = resolution count</span>
+          <span class="legend-size-label">{{ t('meetings.legendNodeSize') }}</span>
         </div>
         <div class="legend-item">
           <span class="legend-flag-example">🇯🇵</span>
-          <span>Host country</span>
+          <span>{{ t('meetings.legendHostLabel') }}</span>
         </div>
         <div class="legend-item">
           <span class="legend-flag-example">🌐</span>
-          <span>Virtual</span>
+          <span>{{ t('meetings.legendVirtualLabel') }}</span>
         </div>
       </div>
 
       <div v-if="filteredMeetings.length === 0" class="empty-state">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <h3>No meetings found</h3>
-        <p>Try adjusting your search or year filter.</p>
-        <button class="std-chip btn-mt" @click="searchQuery=''; selectedYear=''; selectedCountry=''">Clear filters</button>
+        <h3>{{ t('meetings.noMeetings') }}</h3>
+        <p>{{ t('meetings.noMeetingsHint') }}</p>
+        <button class="std-chip btn-mt" @click="searchQuery=''; selectedYear=''; selectedCountry=''">{{ t('meetings.clearFilters') }}</button>
       </div>
       
       <div v-else class="body-type-list">
         <!-- CIML Meetings -->
-        <section v-if="cimlMeetings.length" class="body-section body-section--ciml">
+        <section v-if="cimlMeetings.length" class="body-section" :style="mtStyle('ciml')">
           <header class="body-section__header">
             <h2 class="body-section__title">
-              <span class="body-section__badge body-section__badge--ciml">CIML</span>
+              <span class="body-section__badge">{{ getMeetingTypeShort('ciml', lang) }}</span>
               {{ t('meetings.bodyCiml') }}
             </h2>
             <span class="body-section__count">{{ cimlMeetings.reduce((s, d) => s + d.meetings.length, 0) }}</span>
@@ -132,9 +132,10 @@
                   v-for="m in decade.meetings"
                   :key="m.source_file"
                   :to="{ name: 'meeting-detail', params: { sourceFile: m.source_file } }"
-                  class="timeline-entry timeline-entry--ciml"
+                  class="timeline-entry"
+                  :style="mtStyle('ciml')"
                 >
-                  <span class="timeline-node timeline-node--ciml"
+                  <span class="timeline-node"
                     :class="{
                       'node--small': m.resolution_count <= 5,
                       'node--medium': m.resolution_count > 5 && m.resolution_count <= 15,
@@ -143,8 +144,8 @@
                   ></span>
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
-                    <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
+                    <span v-if="cityToFlag(m.city, m.country_code)" class="timeline-flag">{{ cityToFlag(m.city, m.country_code) }}</span>
+                    {{ venueForLangFn(m.city, m.country_code) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
@@ -161,10 +162,10 @@
         </section>
 
         <!-- OIML Conference -->
-        <section v-if="conferenceMeetings.length" class="body-section body-section--conference">
+        <section v-if="conferenceMeetings.length" class="body-section" :style="mtStyle('conference')">
           <header class="body-section__header">
             <h2 class="body-section__title">
-              <span class="body-section__badge body-section__badge--conference">CONF</span>
+              <span class="body-section__badge">{{ getMeetingTypeShort('conference', lang) }}</span>
               {{ t('meetings.bodyConf') }}
             </h2>
             <span class="body-section__count">{{ conferenceMeetings.reduce((s, d) => s + d.meetings.length, 0) }}</span>
@@ -180,9 +181,10 @@
                   v-for="m in decade.meetings"
                   :key="m.source_file"
                   :to="{ name: 'meeting-detail', params: { sourceFile: m.source_file } }"
-                  class="timeline-entry timeline-entry--conference"
+                  class="timeline-entry"
+                  :style="mtStyle('conference')"
                 >
-                  <span class="timeline-node timeline-node--conference"
+                  <span class="timeline-node"
                     :class="{
                       'node--small': m.resolution_count <= 5,
                       'node--medium': m.resolution_count > 5 && m.resolution_count <= 15,
@@ -191,8 +193,8 @@
                   ></span>
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
-                    <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
+                    <span v-if="cityToFlag(m.city, m.country_code)" class="timeline-flag">{{ cityToFlag(m.city, m.country_code) }}</span>
+                    {{ venueForLangFn(m.city, m.country_code) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
@@ -229,11 +231,12 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMeetings, groupMeetingsByDecade } from '../composables/useMeetings'
-import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
-import { venueForLang } from '../data/venues'
+import { countryCodeToFlag, cityToFlag } from '../data/countryFlags'
+import { venueForLang, countryName } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
-import { formatDateShort } from '../utils/format'
+import { getMeetingTypeShort, mtStyle } from '../data/meetingTypes'
+import { useDateFormat } from '../composables/useDateFormat'
 
 const router = useRouter()
 const route = useRoute()
@@ -245,6 +248,7 @@ const selectedYear = ref((route.query.year as string) || '')
 const selectedCountry = ref((route.query.country as string) || '')
 const selectedBodyType = ref((route.query.body as string) || '')
 const { t, lang } = useI18n()
+const { formatDateShort } = useDateFormat()
 const venueForLangFn = (city: string, code: string) => venueForLang(city, code, lang.value)
 
 onMounted(() => {
@@ -262,16 +266,17 @@ const availableYears = computed(() => {
 const availableCountries = computed(() => {
   const countries = new Map<string, { code: string; name: string; flag: string }>()
   meetings.value.forEach(m => {
-    const venue = m.venue || ''
-    if (venue.toLowerCase().includes('virtual')) {
+    const city = m.city || ''
+    const code = m.country_code || ''
+    const isVirtual = !code && (!city || city.toLowerCase().includes('virtual'))
+    if (isVirtual) {
       if (!countries.has('virtual')) {
-        countries.set('virtual', { code: 'virtual', name: 'Virtual', flag: '\u{1F310}' })
+        countries.set('virtual', { code: 'virtual', name: t('meetings.virtual'), flag: '\u{1F310}' })
       }
-    } else {
-      const code = venueToCountryCode(venue)
-      if (code && !countries.has(code)) {
-        const countryName = venue.split(',').pop()?.trim() || code
-        countries.set(code, { code, name: countryName, flag: venueToFlag(venue) })
+    } else if (code) {
+      if (!countries.has(code)) {
+        const name = countryName(code, lang.value) || code
+        countries.set(code, { code, name, flag: countryCodeToFlag(code) })
       }
     }
   })
@@ -295,16 +300,21 @@ const filteredMeetings = computed(() => {
 
   if (selectedCountry.value) {
     if (selectedCountry.value === 'virtual') {
-      list = list.filter(m => m.venue && m.venue.toLowerCase().includes('virtual'))
+      list = list.filter(m => {
+        const code = m.country_code || ''
+        const city = (m.city || '').toLowerCase()
+        return !code && city.includes('virtual')
+      })
     } else {
-      list = list.filter(m => venueToCountryCode(m.venue) === selectedCountry.value)
+      list = list.filter(m => m.country_code === selectedCountry.value)
     }
   }
-  
+
   if (searchQuery.value) {
     const q = searchQuery.value.toLowerCase()
-    list = list.filter(m => 
-      (m.venue && m.venue.toLowerCase().includes(q)) ||
+    list = list.filter(m =>
+      (m.city && m.city.toLowerCase().includes(q)) ||
+      (m.country_code && m.country_code.toLowerCase().includes(q)) ||
       (m.year && m.year.toLowerCase().includes(q)) ||
       (m.source_title && m.source_title.toLowerCase().includes(q))
     )

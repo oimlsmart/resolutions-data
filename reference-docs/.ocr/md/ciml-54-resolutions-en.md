@@ -1,0 +1,479 @@
+## 54th CIML Meeting
+
+Bratislava, Slovak Republic 22-25 October 2019
+
+RESOLUTIONS
+
+![](page=0,bbox=[567, 1229, 1414, 1787])
+
+![](page=0,bbox=[883, 1993, 1109, 2189])
+
+INTERNATIONAL BUREAU OF LEGAL METROLOGY (BIML) 11, RUE TURGOT-F-75009 PARIS-FRANCE
+
+TEL: 33(0)148781282
+
+FAX: 33(0)142821727
+
+E-MAIL: biml@oiml.org
+
+INTERNET: www.oiml.org
+
+<div align="center">
+
+# FIFTY-FOURTH MEETING of the INTERNATIONAL COMMITTEE of LEGAL METROLOGY Bratislava, Slovak Republic 22-25 October 2019
+
+</div>
+
+Resolutions
+
+Resolution 2019/1
+
+(Agenda item 1)
+
+The Committee,
+
+Approves the minutes of the 53rd CIML Meeting with some minor editorial corrections.
+
+Resolution 2019/2
+
+The Committee,
+
+(Agenda item 2)
+
+Notes the report given by its President,
+
+Thanks the members of Task Group 2023 and the Presidential Council for their work, and
+
+Supports the proposals put forward by its President in his report.
+
+Resolution 2019/3
+
+The Committee,
+
+(Agenda item 4.1)
+
+Notes the report given by the BIML Director, and
+
+Thanks the BIML Director for providing his report in English and in French.
+
+Resolution 2019/4
+
+(Agenda item 4.2)
+
+The Committee,
+
+Notes the report given by the BIML on the training courses relating to OIML technical work delivered since the 53rd CIML Meeting,
+
+Thanks the BIML for organising the training, and thanks the participants for their efforts to harmonise the technical work of the Organisation,
+
+Encourages the BIML to continue to support technical training activities in the future as financial provisions allow, and
+
+Requests the BIML to examine the effect the training has on the conduct of OIML technical work.
+
+Resolution 2019/5
+
+(Agenda item 5)
+
+The Committee,
+
+Welcomes Kyrgyzstan as a returning Corresponding Member.
+
+Resolution 2019/6
+
+(Agenda item 6.1)
+
+The Committee,
+
+Noting the accounts for 2018 and the comments from its President and from the BIML Director,
+
+Considering the external auditor's approval of the 2018 accounts,
+
+Approves the 2018 accounts, and
+
+Instructs its President to present them to the 16th OIML Conference in 2020.
+
+Resolution 2019/7
+
+(Agenda item 6.1)
+
+The Committee,
+
+Noting the accounts for 2018 and the comments from its President and from the BIML Director,
+
+Instructs the BIML Director to implement effective measures to monitor the budget,
+
+Instructs the BIML Director to investigate alternative revenue streams with a view to increasing the income of the Organisation,
+
+Instructs the BIML Director to continue to examine an appropriate level for the OIML's reserves, and Instructs the BIML Director to present information on these to the 55th CIML Meeting in 2020.
+
+Resolution 2019/8
+
+(Agenda item 6.2)
+
+The Committee,
+
+Notes the report on the budget forecast for 2019 given by the BIML Director, and
+
+Expresses its appreciation to the BIML Director for his efforts in bringing the budget under control within a short space of time.
+
+Resolution 2019/9
+
+(Agenda item 6.3)
+
+The Committee,
+
+Notes the report given by the BIML Director,
+
+Encourages the BIML to continue its efforts to recover outstanding arrears and to consider additional mechanisms for prompt payment by Member States and Corresponding Members,
+
+Requests those Member States and Corresponding Members with arrears to bring their situation up to date as soon as possible, and
+
+Requests Member States and Corresponding Members to ensure prompt payment of membership fees.
+
+Resolution 2019/10
+
+(Agenda item 7.1)
+
+The Committee,
+
+Notes the report on activities with organisations in liaison given by the BIML.
+
+Resolution 2019/11
+
+(Agenda item 7.2)
+
+The Committee,
+
+Notes the report on the RLMO Round Table meeting given by its Chairperson,
+
+Thanks Dr Yukinobu Miki for his work as Chairperson of the RLMO Round Table, and
+
+Thanks the CIML First Vice-President, Dr Charles Ehrlich, for taking over as Chairperson of the RLMO Round Table.
+
+Resolution 2019/12
+
+(Agenda item 7.3)
+
+The Committee,
+
+Notes the report made by the BIPM,
+
+Thanks its Director, Dr Martin Milton, for providing this information to the Committee, and
+
+Supports a stronger cooperation between the OIML and the BIPM through a joint task group to explore opportunities for closer cooperation towards the development of a common vision and a common concept of metrology as a key element of quality infrastructure.
+
+(Agenda item 7.4)
+
+Resolution 2019/13
+
+The Committee,
+
+Thanks Dr Rado Lapuh (Slovenia) for representing the OIML in the Consultative Committee for Units (CCU) and for his written report,
+
+Notes the oral report given by Ms Nataša Vukovič (Slovenia) on developments in the CCU, and
+
+Requests OIML TC 2 to closely observe the ongoing discussions in the CCU on the definition of the term "unit", on angles, on dimensionless quantities, and on the SI in the digital world, and to facilitate a common OIML position, if possible.
+
+Resolution 2019/14
+
+(Agenda item 7.5)
+
+The Committee,
+
+Notes the reports and presentations from the following organisations in liaison:
+
+- CECIP,
+
+- IAF,
+
+- ILAC,
+
+- OECD, and
+
+- UNIDO.
+
+Thanks their representatives for providing this information to the Committee.
+
+Resolution 2019/15
+
+(Agenda item 8.1)
+
+The Committee,
+
+Notes the report on the activities of the CEEMS Advisory Group,
+
+Welcomes the proposal to develop a scholarship scheme for leaders of tomorrow,
+
+Encourages Member States to explore opportunities for taking part in pilot projects by acting as hosts and sponsors, and
+
+Emphasises the importance of OIML D1 Considerations for a Law on Metrology and requests the appropriate Project Group to do all in its power to produce a Final Draft Document which can be adopted at the 55th CIML Meeting in 2020.
+
+Resolution 2019/16
+
+(Agenda item 8.1)
+
+The Committee,
+
+Thanks Mr Pu Changcheng for his initiative in the establishment of the CEEMS Advisory Group, and for his leadership as its chairperson,
+
+Noting the recommendations of the CEEMS Advisory Group,
+
+Appoints Mr Peter Mason as the chairperson of the CEEMS Advisory Group for a three-year term, and
+
+Appoints Dr Peter Ulbig as vice-chairperson of the CEEMS Advisory Group for a three-year term.
+
+Resolution 2019/17
+
+(Agenda item 8.1)
+
+The Committee,
+
+Noting the discussions in the CEEMS Advisory Group on the lack of a procedure for the selection of its chairperson,
+
+Requests the chairperson of the CEEMS Advisory Group to develop proposals for an appropriate revision of OIML B 19 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS).
+
+Resolution 2019/18
+
+(Agenda item 8.1)
+
+The Committee,
+
+Thanks Dr Bobjoseph Mathew, Dr Peter Ulbig, and the BIML for having organised the workshop on e-Learning which took place on Monday 21 October 2019,
+
+Thanks Ms Dorina Nati (UNIDO) and Mr Phil Sorrell (New Zealand) for their excellent presentations at this workshop,
+
+Considers that the development of an e-Learning concept for the benefit of the legal metrology community and others should be a priority activity for the Organisation,
+
+Requests the CEEMS Advisory Group to establish one or more ad hoc working groups to develop, with the assistance of the Bureau, an e-Learning concept taking into account the following elements:
+
+1) a summary, analysis and prioritisation of the outcomes of the e-Learning seminar,
+
+2) the optimum means of capturing expert input from Technical Committees and Subcommittees in developing and maintaining high quality content,
+
+3) collaboration with other appropriate organisations,
+
+4) consideration of the appropriate platform and technology for the e-Learning concept,
+
+5) consideration of appropriate funding mechanisms and sources,
+
+Instructs the BIML Director to take into account this e-Learning concept when preparing the budget for the 2021-2024 financial period.
+
+## Resolution 2019/19
+
+(Agenda item 9.1)
+
+The Committee,
+
+Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, Thanks the members of the MC, the Review Committee and the Maintenance Group for their work, Thanks Mr Cock Oosterman for having served as MC Chairperson since the launch of the OIML-CS, Requests CIML Members to promote the benefits of the OIML-CS to stakeholders in their country, and Requests OIML Issuing Authorities to promote the benefits of the OIML-CS to manufacturers in their country.
+
+Resolution 2019/20
+
+(Agenda item 10.1.1)
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Considering the report by the USA on the status of the project to revise R 117 Dynamic measuring instruments for liquids other than water,
+
+Decides to accept the proposal to vote on the Final Draft Recommendation revision of R 117 at this meeting.
+
+Resolution 2019/21
+
+(Agenda item 10.1.1)
+
+The Committee,
+
+Approves the following Final Draft Publications:
+
+- Revision of D31 General requirements for software-controlled measuring instruments,
+
+- New Document Reference standard liquids (Newtonian viscosity standard for the calibration and verification of viscometers),
+
+- New Document Conformity to Type (CTT) - Pre-market conformity assessment of measuring instruments,
+
+- New Basic Publication Rules for the use of OIML logos,
+
+- New Basic Publication Framework for OIML Training Centers and OIML Training Events,
+
+- Revision of R 117 Dynamic measuring instruments for liquids other than water,
+
+Thanks the relevant Project Group conveners and members for their work in completing these projects.
+
+Resolution 2019/22
+
+(Agenda item 10.1.2.1)
+
+The Committee,
+
+Approves as a new project, under the responsibility of OIML TC 5/SC 2, the revision of D 31 General requirements for software controlled measuring instruments, to be conducted as specified in the project proposal provided in Addendum 10.1.2.1 to the Working Document for this meeting.
+
+Resolution 2019/23
+
+(Agenda item 10.1.2.2)
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 6, a new publication, provisionally titled R 87 prepackage template, to be conducted as specified in the project proposal provided in Addendum 10.1.2.2 to the Working Document for this meeting.
+
+Resolution 2019/24
+
+(Agenda item 10.1.2.3)
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 17/SC 2, the revision of R 142 Automated refractometers: Methods and means of verification, to be conducted as specified in the project proposal provided in Addendum 10.1.2.3 to the Working Document for this meeting.
+
+Resolution 2019/25
+
+(Agenda item 10.1.2.4)
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 17/SC 5, a new publication Rotary viscometers - Determination of dynamic viscosity - Verification method, to be conducted as specified in the project proposal provided in Addendum 10.1.2.4 to the Working Document for this meeting.
+
+Resolution 2019/26
+
+(Agenda item 10.1.2.5)
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Considering the report by the USA on the status of the project to revise B 11 Rules governing the translation, copyright and distribution of OIML Publications, and
+
+Decides to accept the proposal to vote on the project to revise B 11 at this meeting.
+
+Resolution 2019/27
+
+(Agenda item 10.1.2.5)
+
+The Committee,
+
+Approves as a new project, under the responsibility of the BIML and the USA, the revision of B 11 Rules governing the translation, copyright and distribution of OIML Publications, to be conducted as specified in the project proposal provided in Additional Meeting Document 10.1.2.5.
+
+Resolution 2019/28
+
+(Agenda item 10.1.3)
+
+The Committee,
+
+Noting the result of the vote on the 1CD of the Revision of B 6 Directives for OIML technical work,
+
+Noting the recommendation in Addendum 10.1.3.2 to the Working Document for this meeting,
+
+Approves the amended periodic review procedure detailed in Annex A of Addendum 10.1.3.2 to the Working Document for this meeting,
+
+Approves the inclusion of the revised text, detailed in Annex B as amended during the meeting, together with the flowchart given in Annex C of Addendum 10.1.3.2 to the Working Document for this meeting, in the Final Draft Basic (FDB) Publication Revision of B 6-1 presented in 10.1.3.1, and
+
+Approves the FDB Revision of B 6.
+
+Resolution 2019/29
+
+(Agenda item 10.1.3 and 10.2)
+
+The Committee,
+
+Supports the criteria used to identify high priority publications and projects developed by Task Group 2023, Supports the provisional lists of high priority publications and projects as presented at the Meeting, and Requests the Presidential Council and the BIML to review these and make proposals for approval at the 55th CIML Meeting in 2020.
+
+Resolution 2019/30
+
+(Agenda item 10.3)
+
+The Committee,
+
+Supports the proposal of Task Group 2023 and the Presidential Council to identify "mentors" for the OIML Bulletin, who will take responsibility for sustainably increasing the number of technical articles in the OIML Bulletin for the benefit of the legal metrology community, including legal metrology practitioners,
+
+Requests CIML Members to consider becoming a "mentor" for the OIML Bulletin, and
+
+Requests that CIML Members make any possible efforts in order that more technical articles are submitted for publication in the OIML Bulletin.
+
+Resolution 2019/31
+
+The Committee,
+
+(Agenda item 11)
+
+Noting the procedure for the election of the CIML Second Vice-President in OIML B 14:2013,
+
+Selects Dr Bobjoseph Mathew (Switzerland) as its Second Vice-President for a six-year term with immediate effect.
+
+Resolution 2019/32
+
+(Agenda item 12.1)
+
+The Committee,
+
+Congratulates this year's recipients of an OIML Medal,
+
+- Dr Jerzy Borzyminski
+
+- Mrs Corinne Lagauterie
+
+- Dr Yukinobu Miki
+
+for their contribution to the work of the OIML.
+
+Resolution 2019/33
+
+(Agenda item 12.1)
+
+The Committee,
+
+Thanks Dr Yukinobu Miki for his contribution to the work of the OIML in his roles
+
+- as CIML Member for Japan since 2005,
+
+- as member of the Presidential Council since 2007,
+
+- as Second CIML Vice-President since 2013,
+
+- acting First Vice-President from 2017-2018, and
+
+- as Chairperson of the RLMO Round Table since 2014.
+
+Resolution 2019/34
+
+The Committee,
+
+(Agenda item 12.2)
+
+Congratulates this year's recipient of a Letter of Appreciation, Mr Cock Oosterman, and
+
+Thanks him for his contribution to the development of the OIML Certification System (OIML-CS) and as Chairperson of the Management Committee since the launch of the OIML-CS.
+
+Resolution 2019/35
+
+(Agenda item 12.4)
+
+The Committee,
+
+Thanks Mr Marcos Trevisan Vasconcellos (Brazil) for his presentation on behalf of Prof. Carlos Augusto de Azevedo, winner of the 2018 OIML CEEMS Award.
+
+Resolution 2019/36
+
+(Agenda item 14.1)
+
+The Committee,
+
+Notes the information provided on the organisation of the 55th CIML Meeting and 16th International Conference in 2020,
+
+Thanks the People's Republic of China for its invitation to host the 55th CIML Meeting and 16th International Conference in 2020, and
+
+Instructs the Bureau to make the necessary arrangements to organise the 55th CIML Meeting and 16th International Conference in 2020.
+
+Resolution 2019/37
+
+(Agenda item 14.2)
+
+The Committee,
+
+Notes the information provided on the organisation of the 56th CIML Meeting in 2021,
+
+Thanks the Russian Federation for its invitation to host the 56th CIML Meeting in 2021, and
+
+Instructs the Bureau to make the necessary arrangements to organise the 56th CIML Meeting in 2021.
+
+***
+
+**

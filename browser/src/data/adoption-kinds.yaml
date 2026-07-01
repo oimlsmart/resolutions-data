@@ -1,0 +1,48 @@
+# Adoption kinds for OIML resolutions.
+#
+# Replaces the boolean `is_acclamation` field with a richer enum
+# that captures how a resolution was formally adopted. Adding a
+# new kind is one new row here — no code change anywhere.
+#
+# Each entry has:
+#   id       : canonical identifier (matches the value stored on
+#              Resolution.adoption_kind).
+#   label    : per-language display label (ISO 639-3 keyed).
+#   derived_from : a regex / shape used by the build script to
+#              infer the kind from the resolution identifier
+#              (e.g. identifiers containing "-acclaim-" map to
+#              `acclamation`).
+adoptionKinds:
+  plenary:
+    id: plenary
+    label:
+      eng: Plenary
+      fra: Plénière
+    description:
+      eng: Adopted by a show of hands or vocal vote in plenary session.
+      fra: Adoptée à main levée ou par voix lors d'une session plénière.
+  acclamation:
+    id: acclamation
+    label:
+      eng: Acclamation
+      fra: Acclamation
+    description:
+      eng: Adopted without objection or vote.
+      fra: Adoptée sans objection ni vote.
+    identifier_pattern: '-acclaim-'
+  ballot:
+    id: ballot
+    label:
+      eng: Ballot
+      fra: Scrutin
+    description:
+      eng: Adopted by secret ballot.
+      fra: Adoptée par scrutin secret.
+  ma:
+    id: ma
+    label:
+      eng: MA resolution
+      fra: Résolution MA
+    description:
+      eng: Adopted under the Mutual Acceptance Arrangement.
+      fra: Adoptée dans le cadre de l'Arrangement sur l'Acceptation Mutuelle.

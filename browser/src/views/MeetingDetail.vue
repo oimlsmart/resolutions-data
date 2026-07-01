@@ -20,28 +20,36 @@
     </div>
     <div v-else-if="!meeting" class="empty-state">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      <h3>Meeting not found</h3>
-      <p>The meeting you are looking for does not exist.</p>
+      <h3>{{ t('meetings.notFound') }}</h3>
+      <p>{{ t('meetings.notFoundHint') }}</p>
       <router-link :to="{ name: 'meetings' }" class="std-chip btn-mt link-no-ul">{{ t('meetings.back') }}</router-link>
     </div>
     <template v-else>
       <header class="res-page__header header-mt animate-up" style="--nth: 1">
         <router-link :to="{ name: 'meetings' }" class="back-link group">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-          Back to Meetings
+          {{ t('meetings.back') }}
         </router-link>
         
         <div class="header-badges">
-          <span class="std-results__badge" :class="`badge-body--${meeting.body_type}`">{{ meeting.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
+          <span class="std-results__badge badge-body" :style="mtStyle(meeting.body_type)">{{ meeting.body_type === 'conference' ? t('meeting.conference') : t('meeting.ciml') }}</span>
           <span class="std-results__badge badge-year">{{ meeting.year }}</span>
-          <span v-if="meeting.meeting_date" class="std-results__badge">{{ formatDate(meeting.meeting_date) }}</span>
+          <span v-if="meetingDateRange" class="std-results__badge">{{ meetingDateRange }}</span>
         </div>
-        
+
         <h1 class="meeting-detail__title">
           <span v-if="venueFlag" class="meeting-detail__flag">{{ venueFlag }}</span>
-          {{ (meeting.city && meeting.country_code) ? venueForLang(meeting.city, meeting.country_code, lang) : (venueForLang(meeting.venue, lang) || t('meetings.virtual')) }}
+          {{ (meeting.city && meeting.country_code) ? venueForLang(meeting.city, meeting.country_code, lang) : t('meetings.virtual') }}
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
+
+        <!-- Original PDF — icon + label button -->
+        <a v-if="meetingPdfUrl" :href="meetingPdfUrl" target="_blank" rel="noopener noreferrer" class="pdf-link-btn">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/>
+          </svg>
+          {{ t('meeting.originalPdf') }}
+        </a>
 
         <!-- Meeting DOI -->
         <div v-if="meetingDoi" class="meeting-urn-bar meeting-doi-bar">
@@ -50,7 +58,7 @@
           <button
             @click="copyUrn(meetingDoi)"
             class="meeting-urn-copy"
-            :aria-label="meetingCopied ? 'Copied' : 'Copy DOI'"
+            :aria-label="meetingCopied ? t('clipboard.copied') : t('clipboard.copyDoi')"
           >
             <svg v-if="!meetingCopied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -64,7 +72,7 @@
           <button 
             @click="copyUrn(meetingUrn)" 
             class="meeting-urn-copy"
-            :aria-label="meetingCopied ? 'Copied' : 'Copy URN'"
+            :aria-label="meetingCopied ? t('clipboard.copied') : t('clipboard.copyUrn')"
           >
             <svg v-if="!meetingCopied" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
             <svg v-else width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"></polyline></svg>
@@ -77,25 +85,35 @@
       </div>
 
       <div class="std-results">
-        <router-link 
-          v-for="(res, index) in meetingResolutions" 
-          :key="res.id" 
-          :to="{ name: 'resolution-detail', params: { id: res.id } }"
+        <router-link
+          v-for="(group, index) in groupedResolutions"
+          :key="group.identifier"
+          :to="{ name: 'resolution-detail', params: { id: group.primary.id } }"
           class="std-results__card meeting-card animate-card"
           :style="`--nth: ${index}`"
         >
           <div class="std-results__name">
-            <span v-if="res.is_acclamation" class="std-results__type type-acclamation">Acclamation</span>
+            <span v-if="group.primary.is_acclamation" class="std-results__type type-acclamation">{{ t('resolution.acclamation') }}</span>
             <template v-else>
-              <span>{{ res.identifier || res.id }}</span>
-              <span class="std-results__type">Plenary</span>
+              <span>{{ group.identifier }}</span>
+              <span class="std-results__type body-type-badge" :style="mtStyle(bodyTypeFromSourceFile(group.primary.source_file))">{{ getMeetingTypeShort(bodyTypeFromSourceFile(group.primary.source_file), lang) }}</span>
+              <span v-if="group.en && group.fr" class="std-results__type bilingual-badge">EN&nbsp;·&nbsp;FR</span>
+              <span v-else class="std-results__type language-chip">{{ t('resolution.language.' + (group.primary.language || 'en')) }}</span>
             </template>
           </div>
-          <div class="std-results__title meeting-card__title">{{ res.is_acclamation ? 'Acclamation' : (res.title || 'Resolution ' + (res.identifier || res.id)) }}</div>
-          <div v-if="res.snippet" class="std-results__snippet snippet-text">{{ res.snippet }}</div>
-          
+
+          <!-- Primary language title (large) -->
+          <div class="std-results__title meeting-card__title">{{ group.primary.is_acclamation ? t('resolution.acclamation') : (group.primary.title || interpolate(t('resolution.fallbackTitle'), { id: group.identifier })) }}</div>
+
+          <!-- Secondary language title (smaller, italic) when both exist -->
+          <div v-if="group.en && group.fr && secondaryTitleFor(group)" class="meeting-card__alt-title">
+            {{ secondaryTitleFor(group) }}
+          </div>
+
+          <div v-if="group.primary.snippet" class="std-results__snippet snippet-text">{{ group.primary.snippet }}</div>
+
           <div class="card-footer">
-            <span v-if="res.subject" class="std-results__badge badge-subject truncate-text">{{ res.subject }}</span>
+            <span v-if="group.primary.subject" class="std-results__badge badge-subject truncate-text">{{ group.primary.subject }}</span>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
@@ -110,19 +128,25 @@
 import { computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useMeetings } from '../composables/useMeetings'
-import { venueToFlag } from '../data/countryFlags'
+import { venueToFlag, countryCodeToFlag } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
-import { formatDate } from '../utils/format'
 import { buildMeetingUrn } from '../utils/urn'
 import { useClipboard } from '../composables/useClipboard'
+import { useDateFormat } from '../composables/useDateFormat'
+import { mtStyle, getMeetingTypeShort } from '../data/meetingTypes'
+import { interpolate } from '../data/translations'
+import { bodyTypeFromSourceFile } from '../utils/meetingType'
+import { getPdfUrl } from '../utils/pdfUrl'
 
 const route = useRoute()
 const { getMeeting, getMeetingResolutions, isLoaded, loadData } = useMeetings()
 const { t, lang } = useI18n()
+const { formatDateRange } = useDateFormat()
 const { copied: meetingCopied, copy: copyUrn } = useClipboard()
 
 const sourceFile = computed(() => route.params.sourceFile as string)
+const meetingPdfUrl = computed(() => getPdfUrl(meeting.value?.source_url))
 
 onMounted(() => {
   loadData()
@@ -137,13 +161,53 @@ const meetingUrn = computed(() => {
   return buildMeetingUrn(sourceFile.value)
 })
 
+const meetingDateRange = computed(() => {
+  if (!meeting.value) return ''
+  return formatDateRange(meeting.value.date_start || meeting.value.meeting_date, meeting.value.date_end)
+})
+
 const meetingDoi = computed(() => meeting.value?.doi || '')
 
-const venueFlag = computed(() => venueToFlag(meeting.value?.venue))
+const venueFlag = computed(() => {
+  const m = meeting.value
+  if (!m) return ''
+  if (m.country_code) return countryCodeToFlag(m.country_code)
+  return venueToFlag((m as any).venue || '')
+})
 
 const meetingResolutions = computed(() => {
   return isLoaded.value ? getMeetingResolutions(sourceFile.value) : []
 })
+
+// Group resolution rows by canonical identifier so EN+FR render as
+// ONE card per logical resolution (not two cards). Each group exposes
+// both language rows + the user's preferred language first.
+const groupedResolutions = computed(() => {
+  const byKey = new Map<string, { identifier: string; en?: any; fr?: any; primary: any }>()
+  for (const r of meetingResolutions.value) {
+    const key = r.identifier || r.id
+    if (!byKey.has(key)) {
+      byKey.set(key, { identifier: key, primary: r })
+    }
+    const group = byKey.get(key)!
+    if (r.language === 'fr') group.fr = r
+    else group.en = r
+  }
+  // Pick the primary row in the user's UI language, falling back to EN.
+  const groups = Array.from(byKey.values())
+  for (const g of groups) {
+    g.primary = (lang.value === 'fr' && g.fr) ? g.fr : (g.en || g.fr)
+  }
+  return groups
+})
+
+/** Returns the title in the language OPPOSITE the primary row, so the
+ *  card shows both: e.g. when UI lang is EN, returns the FR title. */
+function secondaryTitleFor(group: { en?: any; fr?: any; primary: any }): string {
+  if (!group.en || !group.fr) return ''
+  const secondary = group.primary.language === 'fr' ? group.en : group.fr
+  return secondary?.title || ''
+}
 </script>
 
 <style scoped>
@@ -258,6 +322,33 @@ const meetingResolutions = computed(() => {
   font-size: 0.75rem !important;
 }
 
+.bilingual-badge {
+  background: var(--color-blue-accent) !important;
+  color: #fff !important;
+  font-size: 0.7rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.05em !important;
+}
+
+.meeting-card__alt-title {
+  font-size: 0.875rem;
+  color: var(--color-slate-500);
+  font-style: italic;
+  margin-top: 0.25rem;
+  line-height: 1.4;
+}
+.dark .meeting-card__alt-title { color: var(--color-slate-400); }
+
+.language-chip {
+  background: var(--color-slate-200) !important;
+  color: var(--color-slate-700) !important;
+  font-size: 0.7rem !important;
+}
+.dark .language-chip {
+  background: var(--color-slate-700) !important;
+  color: var(--color-slate-200) !important;
+}
+
 .snippet-text {
   font-size: 0.875rem;
   color: var(--color-slate-500);
@@ -325,6 +416,35 @@ const meetingResolutions = computed(() => {
   .meeting-detail__title { font-size: 3rem; }
 }
 .dark .meeting-detail__title { color: white; }
+
+.pdf-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--color-slate-700);
+  background: var(--color-slate-50);
+  border: 1px solid var(--color-slate-200);
+  border-radius: 0.5rem;
+  text-decoration: none;
+  transition: all 0.2s;
+  margin-top: 1.5rem;
+}
+.dark .pdf-link-btn {
+  color: var(--color-slate-300);
+  background: rgba(30, 41, 59, 0.5);
+  border-color: var(--color-slate-800);
+}
+.pdf-link-btn:hover {
+  border-color: var(--color-blue-accent);
+  color: var(--color-blue-accent);
+}
+.dark .pdf-link-btn:hover {
+  border-color: #66a3e0;
+  color: #66a3e0;
+}
 
 .back-link {
   display: flex;

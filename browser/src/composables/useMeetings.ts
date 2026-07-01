@@ -1,25 +1,32 @@
 import { computed, type ComputedRef } from 'vue'
 import { useResolutions } from './useResolutions'
 import type { Meeting, MeetingBodyType } from '../types/resolution'
+import { bodyTypeFromSourceFile } from '../utils/meetingType'
 
 export type { Meeting, MeetingBodyType }
 
-/** Derive the OIML body (CIML vs Conference) from a source-file slug. */
-export function bodyTypeFromSourceFile(sourceFile: string): MeetingBodyType {
-  return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
-}
+// Re-exported for backwards compatibility with existing call sites that
+// imported bodyTypeFromSourceFile from this composable.
+export { bodyTypeFromSourceFile }
 
-/** Strip the language suffix from a source-file slug so that
- *  ciml-44-resolutions-en and ciml-44-resolutions-fr collapse to the same
- *  canonical meeting ID (ciml-44-resolutions). */
+/**
+ * Identity function — kept for backwards compatibility with call
+ * sites that previously needed to strip a language suffix. After
+ * TODO.complete/13 (single-file-per-meeting), every source_file is
+ * already canonical; the suffix-strip is a no-op. New code should
+ * use source_file directly.
+ */
 export function canonicalMeetingId(sourceFile: string): string {
-  return sourceFile.replace(/-(en|fr)$/, '')
+  return sourceFile
 }
 
-/** Derive the language tag from the source-file slug suffix. */
-export function languageFromSourceFile(sourceFile: string): '' | 'en' | 'fr' {
-  if (/-en$/.test(sourceFile)) return 'en'
-  if (/-fr$/.test(sourceFile)) return 'fr'
+/**
+ * Identity function — kept for backwards compatibility. After
+ * TODO.complete/13, the source-file slug no longer carries a
+ * language suffix. The per-row `language` field on Resolution is
+ * the authoritative source of language.
+ */
+export function languageFromSourceFile(_sourceFile: string): '' {
   return ''
 }
 
@@ -90,7 +97,6 @@ export function useMeetings() {
             source_file: file,
             source_title: res.source_title || 'Unknown Meeting',
             meeting_date: res.meeting_date,
-            venue: res.venue,
             city: (res as any).city || '',
             country_code: (res as any).country_code || '',
             year: res.year,

@@ -1,72 +1,66 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Validate every resolutions/*.yaml parses cleanly and has a `resolutions` array
-# of well-formed entries. Exits non-zero on any failure.
+# Validate every resolutions/*.yaml against the canonical Edoxen schema.
+#
+# Used by .github/workflows/deploy-pages.yml so a PR can't deploy unless
+# every YAML is schema-compliant. The canonical schema is vendored at
+# scripts/specs/schemas/edoxen.yaml (refreshed from metanorma/edoxen);
+# override the path with the EDOXEN_SCHEMA env var if needed.
 
 require "yaml"
+begin
+  require "json_schemer"
+rescue LoadError
+  warn "json_schemer is required. Install with: gem install json_schemer"
+  exit 2
+end
 
 module ResolutionsData
   module Validate
     ROOT = File.expand_path("..", __dir__)
     DIR  = File.join(ROOT, "resolutions")
 
-    REQUIRED_RESOLUTION_FIELDS = %w[identifier subject title dates].freeze
-    REQUIRED_METADATA_FIELDS   = %w[title dates source venue language].freeze
+    def self.schema_path
+      ENV["EDOXEN_SCHEMA"] ||
+        File.join(ROOT, "scripts", "specs", "schemas", "edoxen.yaml")
+    end
 
     def self.run
+      schema_file = schema_path
+      unless File.exist?(schema_file)
+        abort("edoxen schema not found at #{schema_file}")
+      end
+
+      schema = YAML.safe_load(File.read(schema_file))
+      schemer = JSONSchemer.schema(schema)
+
       files = Dir.glob(File.join(DIR, "*.yaml")).sort
       abort("no YAML files found under #{DIR}") if files.empty?
 
       bad = 0
       files.each do |f|
         begin
-          data = YAML.load_file(f)
+          data = YAML.safe_load(File.read(f), permitted_classes: [Date, Time, DateTime])
         rescue => e
           warn "  PARSE FAIL #{File.basename(f)}: #{e.message}"
           bad += 1
           next
         end
 
-        unless data.is_a?(Hash)
-          warn "  SHAPE FAIL #{File.basename(f)}: top-level is #{data.class}, not Hash"
+        errors = schemer.validate(data).to_a
+        if errors.any?
           bad += 1
-          next
-        end
-
-        meta = data["metadata"]
-        unless meta.is_a?(Hash)
-          warn "  META FAIL  #{File.basename(f)}: no metadata Hash"
-          bad += 1
-        else
-          REQUIRED_METADATA_FIELDS.each do |k|
-            unless meta.key?(k)
-              warn "  META FAIL  #{File.basename(f)}: missing metadata.#{k}"
-              bad += 1
-            end
-          end
-        end
-
-        ress = data["resolutions"]
-        unless ress.is_a?(Array)
-          warn "  RES FAIL   #{File.basename(f)}: resolutions is not an Array"
-          bad += 1
-          next
-        end
-
-        ress.each_with_index do |r, i|
-          REQUIRED_RESOLUTION_FIELDS.each do |k|
-            unless r.is_a?(Hash) && r.key?(k)
-              warn "  RES FAIL   #{File.basename(f)}[#{i}]: missing #{k}"
-              bad += 1
-            end
+          warn "  SCHEMA FAIL #{File.basename(f)}: #{errors.size} error(s)"
+          errors.first(3).each do |e|
+            warn "    #{e['data_pointer']}: #{e['error']}"
           end
         end
       end
 
       total = files.size
-      puts "Validated #{total} YAML files; #{bad} issue(s)."
-      exit (bad.zero? ? 0 : 1)
+      puts "Validated #{total} YAML files against #{File.basename(schema_file)}; #{bad} failure(s)."
+      exit(bad.zero? ? 0 : 1)
     end
   end
 end

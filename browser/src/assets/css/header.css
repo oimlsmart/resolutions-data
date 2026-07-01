@@ -103,6 +103,15 @@
     color: #f8fafc;
     background: rgb(255 255 255 / 0.06);
   }
+  .site-header__nav-link.active {
+    color: var(--color-blue-accent, #0061ad);
+    background: rgba(0, 97, 173, 0.08);
+    font-weight: 600;
+  }
+  .dark .site-header__nav-link.active {
+    color: #66a3e0;
+    background: rgba(102, 163, 224, 0.12);
+  }
   .site-header__nav-link svg {
     width: 0.75rem;
     height: 0.75rem;
@@ -234,6 +243,15 @@
   .dark .mobile-menu__link:hover {
     color: #fff;
     background: rgb(255 255 255 / 0.06);
+  }
+  .mobile-menu__link.active {
+    color: var(--color-blue-accent, #0061ad);
+    background: rgba(0, 97, 173, 0.08);
+    font-weight: 600;
+  }
+  .dark .mobile-menu__link.active {
+    color: #66a3e0;
+    background: rgba(102, 163, 224, 0.12);
   }
 }
 
