@@ -1,0 +1,388 @@
+# Vendored from https://github.com/metanorma/edoxen/blob/main/schema/edoxen.yaml
+# Mirror commit: edoxen@6252c0b (post-glossarist-style Localization +
+# SourceUrl models from edoxen-model@75a5476).
+#
+# Refresh: `cp ~/src/mn/edoxen/schema/edoxen.yaml scripts/specs/schemas/`
+# Tests assert every YAML in resolutions/ validates against this schema.
+---
+$schema: "http://json-schema.org/draft-07/schema#"
+$id: "https://github.com/metanorma/edoxen/schema/edoxen.yaml"
+title: "Edoxen Resolution Collection Schema"
+description: |
+  Schema for validating Edoxen ResolutionCollection YAML files.
+
+  Mirrors the canonical LutaML information model in
+  https://github.com/metanorma/edoxen-model/tree/main/models .
+
+  The enum constants declared under `$defs` (ActionType,
+  ConsiderationType, ApprovalType, ApprovalDegree, ResolutionType,
+  ResolutionDateType, ResolutionRelationType, UrlKind) are the
+  authoritative wire values. `spec/edoxen/schema_enum_sync_spec.rb`
+  asserts each one is character-for-character identical to the
+  corresponding `Edoxen::Enums::*` frozen array.
+
+  Trade-off: json_schemer's `valid_values` is not populated when an
+  `enum` is reached via `$ref`, so the validator's enum-violation
+  message degrades to "value ... is not one of: (see schema)". This
+  is documented in `Edoxen::SchemaValidator#format_message`.
+type: object
+additionalProperties: false
+
+properties:
+  metadata:
+    $ref: "#/$defs/ResolutionMetadata"
+  resolutions:
+    type: array
+    items:
+      $ref: "#/$defs/Resolution"
+
+required:
+  - resolutions
+
+$defs:
+
+  # ====================================================================
+  # Identifiers and references.
+  # ====================================================================
+
+  StructuredIdentifier:
+    type: object
+    description: "A resolution identifier (prefix + number). A Resolution may carry 1..* of these."
+    additionalProperties: false
+    required: [prefix, number]
+    properties:
+      prefix:
+        type: string
+        description: "Authority prefix, e.g. 'ISO', 'OIML', 'CIML'."
+      number:
+        type: string
+        description: "Resolution number issued under that prefix."
+
+  MeetingIdentifier:
+    type: object
+    description: "Identifies the meeting a Resolution belongs to."
+    additionalProperties: false
+    properties:
+      venue:
+        type: string
+        description: "Meeting venue name (free text)."
+      date:
+        type: string
+        format: date
+        description: "Meeting date."
+
+  Url:
+    type: object
+    description: "URL with a kind (access / report) and an optional format hint."
+    additionalProperties: false
+    required: [kind, ref]
+    properties:
+      kind:
+        $ref: "#/$defs/UrlKind"
+      ref:
+        type: string
+      format:
+        type: string
+
+  ResolutionRelation:
+    type: object
+    description: "Directed relation between two resolutions identified by their StructuredIdentifier."
+    additionalProperties: false
+    required: [source, destination, type]
+    properties:
+      source:
+        $ref: "#/$defs/StructuredIdentifier"
+      destination:
+        $ref: "#/$defs/StructuredIdentifier"
+      type:
+        $ref: "#/$defs/ResolutionRelationType"
+
+  # ====================================================================
+  # Date carriers.
+  # ====================================================================
+
+  ResolutionDate:
+    type: object
+    description: "Date with semantic kind (adoption / drafted / discussed)."
+    additionalProperties: false
+    required: [date, type]
+    properties:
+      date:
+        type: string
+        format: date
+        description: "The date itself."
+      type:
+        $ref: "#/$defs/ResolutionDateType"
+
+  # ====================================================================
+  # Per-localization sub-structures. Each is owned by exactly one
+  # Language; the language_code discriminator lives on Localization.
+  # ====================================================================
+
+  Action:
+    type: object
+    description: "A verb + one effective date + human-readable message."
+    additionalProperties: false
+    required: [type, message, date_effective]
+    properties:
+      type:
+        $ref: "#/$defs/ActionType"
+      date_effective:
+        $ref: "#/$defs/ResolutionDate"
+      message:
+        type: string
+
+  Approval:
+    type: object
+    description: "Approval record: vote type, consensus degree, date, message."
+    additionalProperties: false
+    required: [type, degree, date]
+    properties:
+      type:
+        $ref: "#/$defs/ApprovalType"
+      degree:
+        $ref: "#/$defs/ApprovalDegree"
+      date:
+        $ref: "#/$defs/ResolutionDate"
+      message:
+        type: string
+
+  Consideration:
+    type: object
+    description: "The basis for a Resolution: a verb + one effective date + reasoning."
+    additionalProperties: false
+    required: [type, message, date_effective]
+    properties:
+      type:
+        $ref: "#/$defs/ConsiderationType"
+      date_effective:
+        $ref: "#/$defs/ResolutionDate"
+      message:
+        type: string
+
+  Localization:
+    type: object
+    description: |
+      A monolingual rendering of a Resolution. Mirrors the glossarist
+      LocalizedConcept pattern: language-agnostic fields live on the
+      parent Resolution; per-language content lives here.
+    additionalProperties: false
+    required: [language_code]
+    properties:
+      language_code:
+        type: string
+        pattern: "^[a-z]{3}$"
+        description: "ISO 639-3 three-letter language code (eng, fra, deu, spa, jpn, ...)."
+      script:
+        type: string
+        pattern: "^[A-Z][a-z]{3}$"
+        description: "ISO 15924 four-letter script code (Latn, Cyrl, Hant, Arab)."
+      title:
+        type: string
+      subject:
+        type: string
+      message:
+        type: string
+      considering:
+        type: string
+      considerations:
+        type: array
+        items:
+          $ref: "#/$defs/Consideration"
+      approvals:
+        type: array
+        items:
+          $ref: "#/$defs/Approval"
+      actions:
+        type: array
+        items:
+          $ref: "#/$defs/Action"
+
+  SourceUrl:
+    type: object
+    description: "Per-language canonical source URL (e.g. one PDF per language)."
+    additionalProperties: false
+    required: [ref, format, language_code]
+    properties:
+      ref:
+        type: string
+        description: "The URL string."
+      format:
+        type: string
+        description: "Document format, e.g. 'pdf', 'html'."
+      language_code:
+        type: string
+        pattern: "^[a-z]{3}$"
+
+  # ====================================================================
+  # Top-level structures.
+  # ====================================================================
+
+  Resolution:
+    type: object
+    description: |
+      A formal Resolution. Language-agnostic admin fields live here;
+      every translatable field is wrapped inside `localizations[]`
+      (one entry per available language; at least one is required).
+    additionalProperties: false
+    required: [identifier, localizations]
+    properties:
+      identifier:
+        type: array
+        minItems: 1
+        items:
+          $ref: "#/$defs/StructuredIdentifier"
+      type:
+        $ref: "#/$defs/ResolutionType"
+      doi:
+        type: string
+      urn:
+        type: string
+      agenda_item:
+        type: string
+      dates:
+        type: array
+        items:
+          $ref: "#/$defs/ResolutionDate"
+      categories:
+        type: array
+        items:
+          type: string
+      meeting:
+        $ref: "#/$defs/MeetingIdentifier"
+      relations:
+        type: array
+        items:
+          $ref: "#/$defs/ResolutionRelation"
+      urls:
+        type: array
+        items:
+          $ref: "#/$defs/Url"
+      localizations:
+        type: array
+        minItems: 1
+        items:
+          $ref: "#/$defs/Localization"
+
+  ResolutionMetadata:
+    type: object
+    description: "Collection-level metadata (title, meeting date, source, source URLs, host venue)."
+    additionalProperties: false
+    properties:
+      title:
+        type: string
+        description: "Default title (no language). For multilingual, use `title_localized[]`."
+      title_localized:
+        type: array
+        items:
+          $ref: "#/$defs/Localization"
+        description: "Per-language title records (parallel pattern to Resolution#localizations)."
+      date:
+        type: string
+        format: date
+        description: "Meeting date."
+      source:
+        type: string
+        description: "Source organization / secretariat that issued the collection."
+      source_urls:
+        type: array
+        items:
+          $ref: "#/$defs/SourceUrl"
+        description: "Canonical URLs to the source PDFs in each available language."
+      city:
+        type: string
+        description: "IATA city code (3-letter, e.g. BER, CPT, PAR) of the host city."
+      country_code:
+        type: string
+        description: "ISO 3166-1 alpha-2 country code (2-letter, e.g. DE, FR, JP) of the host country."
+
+  # ====================================================================
+  # Enums. Each is referenced by its $ref name above. The schema
+  # <-> Ruby enum sync spec asserts each value-list matches the
+  # corresponding Edoxen::Enums::* frozen array.
+  # ====================================================================
+
+  ActionType:
+    type: string
+    description: "Edoxen::Enums::ACTION_TYPE — LUTAML action.lutaml (deduped)."
+    enum:
+      - adopts
+      - thanks
+      - approves
+      - decides
+      - declares
+      - asks
+      - invites
+      - resolves
+      - confirms
+      - welcomes
+      - recommends
+      - requests
+      - congratulates
+      - instructs
+      - urges
+      - appoints
+      - calls-upon
+      - encourages
+      - affirms
+      - elects
+      - authorizes
+      - charges
+      - states
+      - remarks
+      - judges
+      - sanctions
+      - abrogates
+      - empowers
+
+  ConsiderationType:
+    type: string
+    description: "Edoxen::Enums::CONSIDERATION_TYPE — LUTAML consideration.lutaml (deduped)."
+    enum:
+      - having
+      - noting
+      - recognizing
+      - acknowledging
+      - recalling
+      - reaffirming
+      - considering
+      - taking-into-account
+      - pursuant-to
+      - bearing-in-mind
+      - emphasizing
+      - concerned
+      - accepts
+      - observing
+      - referring
+      - acting
+      - empowers
+
+  ApprovalType:
+    type: string
+    description: "Edoxen::Enums::APPROVAL_TYPE — LUTAML approval_type.lutaml."
+    enum: [affirmative, negative]
+
+  ApprovalDegree:
+    type: string
+    description: "Edoxen::Enums::APPROVAL_DEGREE — LUTAML approval_degree.lutaml."
+    enum: [unanimous, majority, minority]
+
+  ResolutionType:
+    type: string
+    description: "Edoxen::Enums::RESOLUTION_TYPE — LUTAML resolution_type.lutaml."
+    enum: [resolution, recommendation, decision, declaration]
+
+  ResolutionDateType:
+    type: string
+    description: "Edoxen::Enums::RESOLUTION_DATE_TYPE — LUTAML resolution_date_type.lutaml."
+    enum: [adoption, drafted, discussed]
+
+  ResolutionRelationType:
+    type: string
+    description: "Edoxen::Enums::RESOLUTION_RELATION_TYPE — LUTAML resolution_relation_type.lutaml."
+    enum: [annexOf, hasAnnex, updates, refines, replaces, considers]
+
+  UrlKind:
+    type: string
+    description: "Edoxen::Enums::URL_KIND."
+    enum: [access, report]

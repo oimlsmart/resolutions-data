@@ -10,8 +10,13 @@ require "json_schemer"
 require "yaml"
 
 RSpec.describe "Edoxen schema validation" do
+  # Schema lookup order:
+  #   1. EDOXEN_SCHEMA env var (used by CI / overrides)
+  #   2. Vendored copy at scripts/specs/schemas/edoxen.yaml (this repo)
+  #   3. Sibling checkout at ~/src/mn/edoxen (local dev)
   let(:schema_path) do
     ENV["EDOXEN_SCHEMA"] ||
+      File.expand_path("schemas/edoxen.yaml", __dir__) ||
       File.expand_path("../../../../mn/edoxen/schema/edoxen.yaml", __dir__)
   end
   let(:schema) do
