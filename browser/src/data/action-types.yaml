@@ -164,6 +164,12 @@ actionTypeColors:
     labels:
       eng: Nominates
       fra: Propose
+  remarks:
+    bg: '#475569'
+    text: '#ffffff'
+    labels:
+      eng: Notes
+      fra: Prend note
   notes:
     bg: '#475569'
     text: '#ffffff'
@@ -236,7 +242,7 @@ actionTypeColors:
     labels:
       eng: Resolves
       fra: Résout
-  reaffirms:
+  affirms:
     bg: '#15803d'
     text: '#ffffff'
     labels:

@@ -39,7 +39,7 @@
 
         <h1 class="meeting-detail__title">
           <span v-if="venueFlag" class="meeting-detail__flag">{{ venueFlag }}</span>
-          {{ (meeting.city && meeting.country_code) ? venueForLang(meeting.city, meeting.country_code, lang) : (venueForLang(meeting.venue, lang) || t('meetings.virtual')) }}
+          {{ (meeting.city && meeting.country_code) ? venueForLang(meeting.city, meeting.country_code, lang) : t('meetings.virtual') }}
         </h1>
         <p class="res-page__subtitle subtitle-max-w">{{ meeting.source_title }}</p>
 
@@ -128,7 +128,7 @@
 import { computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import { useMeetings } from '../composables/useMeetings'
-import { venueToFlag } from '../data/countryFlags'
+import { venueToFlag, countryCodeToFlag } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { buildMeetingUrn } from '../utils/urn'
@@ -168,7 +168,12 @@ const meetingDateRange = computed(() => {
 
 const meetingDoi = computed(() => meeting.value?.doi || '')
 
-const venueFlag = computed(() => venueToFlag(meeting.value?.venue))
+const venueFlag = computed(() => {
+  const m = meeting.value
+  if (!m) return ''
+  if (m.country_code) return countryCodeToFlag(m.country_code)
+  return venueToFlag((m as any).venue || '')
+})
 
 const meetingResolutions = computed(() => {
   return isLoaded.value ? getMeetingResolutions(sourceFile.value) : []

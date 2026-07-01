@@ -97,7 +97,6 @@ export function useMeetings() {
             source_file: file,
             source_title: res.source_title || 'Unknown Meeting',
             meeting_date: res.meeting_date,
-            venue: res.venue,
             city: (res as any).city || '',
             country_code: (res as any).country_code || '',
             year: res.year,

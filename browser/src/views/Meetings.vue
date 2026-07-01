@@ -144,8 +144,8 @@
                   ></span>
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
-                    <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
+                    <span v-if="cityToFlag(m.city, m.country_code)" class="timeline-flag">{{ cityToFlag(m.city, m.country_code) }}</span>
+                    {{ venueForLangFn(m.city, m.country_code) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
@@ -193,8 +193,8 @@
                   ></span>
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
-                    <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
-                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
+                    <span v-if="cityToFlag(m.city, m.country_code)" class="timeline-flag">{{ cityToFlag(m.city, m.country_code) }}</span>
+                    {{ venueForLangFn(m.city, m.country_code) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
@@ -231,7 +231,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMeetings, groupMeetingsByDecade } from '../composables/useMeetings'
-import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
+import { countryCodeToFlag, cityToFlag } from '../data/countryFlags'
 import { venueForLang, countryName } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
@@ -266,19 +266,17 @@ const availableYears = computed(() => {
 const availableCountries = computed(() => {
   const countries = new Map<string, { code: string; name: string; flag: string }>()
   meetings.value.forEach(m => {
-    const venue = m.venue || ''
-    if (venue.toLowerCase().includes('virtual')) {
+    const city = m.city || ''
+    const code = m.country_code || ''
+    const isVirtual = !code && (!city || city.toLowerCase().includes('virtual'))
+    if (isVirtual) {
       if (!countries.has('virtual')) {
         countries.set('virtual', { code: 'virtual', name: t('meetings.virtual'), flag: '\u{1F310}' })
       }
-    } else {
-      const code = venueToCountryCode(venue)
-      if (code && !countries.has(code)) {
-        // Localized country name via the COUNTRIES table; fall back
-        // to the last segment of the venue string (legacy) only when
-        // the country code is unknown.
-        const name = countryName(code, lang.value) || venue.split(',').pop()?.trim() || code
-        countries.set(code, { code, name, flag: venueToFlag(venue) })
+    } else if (code) {
+      if (!countries.has(code)) {
+        const name = countryName(code, lang.value) || code
+        countries.set(code, { code, name, flag: countryCodeToFlag(code) })
       }
     }
   })
@@ -302,16 +300,21 @@ const filteredMeetings = computed(() => {
 
   if (selectedCountry.value) {
     if (selectedCountry.value === 'virtual') {
-      list = list.filter(m => m.venue && m.venue.toLowerCase().includes('virtual'))
+      list = list.filter(m => {
+        const code = m.country_code || ''
+        const city = (m.city || '').toLowerCase()
+        return !code && city.includes('virtual')
+      })
     } else {
-      list = list.filter(m => venueToCountryCode(m.venue) === selectedCountry.value)
+      list = list.filter(m => m.country_code === selectedCountry.value)
     }
   }
-  
+
   if (searchQuery.value) {
     const q = searchQuery.value.toLowerCase()
-    list = list.filter(m => 
-      (m.venue && m.venue.toLowerCase().includes(q)) ||
+    list = list.filter(m =>
+      (m.city && m.city.toLowerCase().includes(q)) ||
+      (m.country_code && m.country_code.toLowerCase().includes(q)) ||
       (m.year && m.year.toLowerCase().includes(q)) ||
       (m.source_title && m.source_title.toLowerCase().includes(q))
     )

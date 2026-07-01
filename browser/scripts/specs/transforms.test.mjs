@@ -119,10 +119,12 @@ test('normalizeSnippet returns empty for null/empty', () => {
 
 // --- buildResolutionRecord -------------------------------------------
 
+// Canonical Edoxen v2 shape: identifier is an Array of StructuredIdentifier,
+// metadata carries a single `date`, Action/Consideration dates are nested
+// under `date_effective` as a ResolutionDate ({date, type}).
 const SAMPLE_METADATA = {
   title: 'Test Meeting',
-  dates: [{ start: '2025-10-13', end: '2025-10-15', kind: 'meeting' }],
-  venue: 'Paris, France',
+  date: '2025-10-13',
   city: 'PAR',
   country_code: 'FR',
   source_urls: [
@@ -132,11 +134,12 @@ const SAMPLE_METADATA = {
 }
 
 const SAMPLE_RESOLUTION = {
-  identifier: 'CIML/2025/44',
+  identifier: [{ prefix: 'CIML', number: '2025/44' }],
+  type: 'resolution',
   doi: '10.63493/resolutions/ciml202544',
   urn: 'urn:oiml:doc:ciml:resolution:2025-44',
   agenda_item: '16.2',
-  dates: [{ start: '2025-10-13', kind: 'decision' }],
+  dates: [{ date: '2025-10-13', type: 'adoption' }],
 }
 
 const SAMPLE_LOCALIZATION_EN = {
@@ -160,6 +163,8 @@ test('buildResolutionRecord flattens (resolution, localization) into a row', () 
   assert.equal(r.source_url, 'https://oiml.org/en.pdf')
   assert.equal(r.adoption_kind, 'plenary')
   assert.equal(r.is_acclamation, false)
+  assert.equal(r.meeting_date, '2025-10-13')
+  assert.equal(r.type, 'resolution')
 })
 
 test('buildResolutionRecord picks matching source URL by language_code', () => {
@@ -173,6 +178,24 @@ test('buildResolutionRecord picks matching source URL by language_code', () => {
 test('buildResolutionRecord builds snippet from first action', () => {
   const r = buildResolutionRecord(SAMPLE_RESOLUTION, 'ciml-60-resolutions', SAMPLE_METADATA, SAMPLE_LOCALIZATION_EN)
   assert.equal(r.snippet, 'Approves the minutes.')
+})
+
+test('buildResolutionRecord accepts legacy scalar identifier', () => {
+  const legacy = { ...SAMPLE_RESOLUTION, identifier: 'CIML/2025/44' }
+  const r = buildResolutionRecord(legacy, 'ciml-60-resolutions', SAMPLE_METADATA, SAMPLE_LOCALIZATION_EN)
+  assert.equal(r.identifier, 'CIML/2025/44')
+  assert.equal(r.id, 'CIML-2025-44')
+})
+
+test('buildResolutionRecord accepts legacy metadata.dates[]', () => {
+  const legacyMeta = {
+    ...SAMPLE_METADATA,
+    date: undefined,
+    dates: [{ start: '2025-10-13', end: '2025-10-15', kind: 'meeting' }],
+  }
+  const r = buildResolutionRecord(SAMPLE_RESOLUTION, 'ciml-60-resolutions', legacyMeta, SAMPLE_LOCALIZATION_EN)
+  assert.equal(r.meeting_date, '2025-10-13')
+  assert.equal(r.meeting_date_end, '2025-10-15')
 })
 
 // --- sortResolutions --------------------------------------------------

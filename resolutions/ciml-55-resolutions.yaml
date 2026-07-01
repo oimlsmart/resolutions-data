@@ -4,1463 +4,1825 @@
 # Languages: eng, fra
 ---
 metadata:
-  title: "55th CIML Meeting — Resolutions (EN)"
+  title: 55th CIML Meeting — Resolutions (EN)
   title_localized:
-    - { language_code: eng, script: Latn, title: "55th CIML Meeting — Resolutions (EN)" }
-    - { language_code: fra, script: Latn, title: "55e réunion du CIML — Résolutions (FR)" }
-  dates:
-  - start: '2020-10-20'
-    end: '2020-10-22'
-    kind: meeting
-  venue: Online meeting
-  city: ""
-  country_code: ""
+  - language_code: eng
+    script: Latn
+    title: 55th CIML Meeting — Resolutions (EN)
+  - language_code: fra
+    script: Latn
+    title: 55e réunion du CIML — Résolutions (FR)
+  city: ''
+  country_code: ''
   source_urls:
-    - { ref: "https://www.oiml.org/en/structure/ciml/pdf/55-ciml-resolutions-english.pdf", format: pdf, language_code: eng }
-    - { ref: "https://www.oiml.org/fr/structure/ciml/pdf/55-ciml-resolutions-french.pdf", format: pdf, language_code: fra }
+  - ref: https://www.oiml.org/en/structure/ciml/pdf/55-ciml-resolutions-english.pdf
+    format: pdf
+    language_code: eng
+  - ref: https://www.oiml.org/fr/structure/ciml/pdf/55-ciml-resolutions-french.pdf
+    format: pdf
+    language_code: fra
+  date: '2020-10-20'
 resolutions:
-  - identifier: CIML/2020/1
-    doi: "10.63493/resolutions/ciml202001"
-    urn: "urn:oiml:doc:ciml:resolution:2020-01"
-    agenda_item: '2.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 2.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Noting the provisions for its decisions set out in Article XVII of OIML B 1 Convention establishing an International Organisation of Legal Metrology,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: considering
-        message: |
-          Considering the need to facilitate the work of the Committee when online CIML meetings are held,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: decides
-        message: |
-          Decides that the "in-meeting" conditions for Committee decisions, given in paragraphs two and three of Article XVII of OIML B 1, shall be used in the case of online voting on subjects which have been discussed at an online CIML meeting.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 2.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note des dispositions relatives à ses décisions énoncées à l'article XVII de l'OIML B 1 Convention instituant une organisation internationale de métrologie légale,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: considering
-        message: |
-          Considérant la nécessité de faciliter le travail du Comité lors des réunions du CIML en ligne,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: decides
-        message: |
-          Décide que les conditions "en réunion" pour les décisions du Comité, énoncées aux paragraphes deux et trois de l'article XVII de l'OIML B 1, seront utilisées dans le cas d'un vote en ligne sur des sujets qui ont été discutés lors d'une réunion en ligne du CIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/2
-    doi: "10.63493/resolutions/ciml202002"
-    urn: "urn:oiml:doc:ciml:resolution:2020-02"
-    agenda_item: '2.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 2.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Noting the provisions for its decisions set out in Article XVII of OIML B 1 Convention establishing an International Organisation of Legal Metrology,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: considering
-        message: |
-          Considering the need to facilitate the work of the Committee when online CIML meetings are held,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: approves
-        message: |
-          Approves the use of the secure voting tools on the OIML website for CIML draft resolutions and for secret ballots on appointments.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 2.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note des dispositions relatives à ses décisions énoncées à l'article XVII de l'OIML B 1 Convention instituant une organisation internationale de métrologie légale,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: considering
-        message: |
-          Considérant la nécessité de faciliter le travail du Comité lors des réunions du CIML en ligne,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: approves
-        message: |
-          Approuve l'utilisation des outils de vote sécurisés du site web de l'OIML pour les projets de résolution du CIML et pour les votes à bulletin secret sur les nominations.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/3
-    doi: "10.63493/resolutions/ciml202003"
-    urn: "urn:oiml:doc:ciml:resolution:2020-03"
-    agenda_item: '4'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 4
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the minutes of the 54th CIML Meeting.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 4
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le compte rendu de la 54ème Réunion du CIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/4
-    doi: "10.63493/resolutions/ciml202004"
-    urn: "urn:oiml:doc:ciml:resolution:2020-04"
-    agenda_item: '5'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 5
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report given by its President.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 5
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Point 5 de l'ordre du jour
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/5
-    doi: "10.63493/resolutions/ciml202005"
-    urn: "urn:oiml:doc:ciml:resolution:2020-05"
-    agenda_item: '5'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 5
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report on the internal review of BIML salary costs,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Thanks Mr Alan Johnston and Dr Bobjoseph Mathew for their work in conducting this review and producing the report,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: acknowledges
-        message: |
-          Acknowledges the findings and conclusions of the review,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: supports
-        message: |
-          Supports the recommendations contained in the report,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Requests that its President and the BIML Director ensure the implementation of these recommendations, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: supports
-        message: |
-          Supports the immediate amendment of OIML B 7 BIML Staff regulations, Annex 2 as proposed in recommendation 3 of the report, this work to be conducted by the BIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 5
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport sur l'examen interne des coûts salariaux du BIML,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Remercie M. Alan Johnston et le Dr Bobjoseph Mathew pour leur travail dans la réalisation de cette étude et la production du rapport,
-          Prend acte des résultats et des conclusions de l'examen,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: endorses
-        message: |
-          Soutient les recommandations contenues dans le rapport,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Demande à son Président et au Directeur du BIML de veiller à la mise en œuvre de ces recommandations, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: endorses
-        message: |
-          Soutient la modification immédiate des Statuts du personnel du BIML, OIML B 7, Annexe 2, comme proposé dans la recommandation 3 du rapport, ce travail devant être effectué par le BIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/6
-    doi: "10.63493/resolutions/ciml202006"
-    urn: "urn:oiml:doc:ciml:resolution:2020-06"
-    agenda_item: '5'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 5
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report of its President in support of a stronger cooperation between the OIML and the BIPM (see Resolution 2019/12),
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approves the Terms of Reference of an OIML/BIPM Joint Task Group (JTG) as proposed in the Annex to Addendum 5c to the Working Document for this meeting,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: appoints
-        message: |
-          Appoints Dr Roman Schwartz, Dr Charles Ehrlich and Mr Anthony Donnellan as the OIML representatives on that JTG, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Requests the JTG to draw up proposals, based on the Terms of Reference, and an action plan with a time frame, to be presented at the 56th CIML Meeting and the 16th OIML Conference.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 5
-      subject: "Conférence OIML"
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport de son Président en faveur d'une coopération renforcée entre l'OIML et le BIPM (voir la résolution 2019/12),
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve le mandat d'un Groupe de travail commun OIML/BIPM (JTG) tel que proposé dans l'annexe à l'Addendum 5c au document de travail de cette réunion,
-          Nomme Roman Schwartz, Charles Ehrlich et Anthony Donnellan comme représentants de l'OIML au sein de ce GTM, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Demande au JTG d'élaborer des propositions, basées sur les termes de référence, et un plan d'action avec un calendrier, qui seront présentés à la 56ème Réunion du CIML et à la 16ème Conférence de l'OIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/7
-    doi: "10.63493/resolutions/ciml202007"
-    urn: "urn:oiml:doc:ciml:resolution:2020-07"
-    agenda_item: '6'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 6
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report given by the BIML Director.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 6
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport donné par le Directeur du BIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/8
-    doi: "10.63493/resolutions/ciml202008"
-    urn: "urn:oiml:doc:ciml:resolution:2020-08"
-    agenda_item: '7.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 7.1
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Noting the accounts for 2019 and the BIML Director's comments,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: considering
-        message: |
-          Considering the external auditor's audit of the 2019 accounts,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: approves
-        message: |
-          Approves the 2019 accounts, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: instructs
-        message: |
-          Instructs its President to present them to the 16th OIML Conference.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 7.1
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note des comptes de 2019 et des commentaires du Directeur du BIML,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: considering
-        message: |
-          Considérant l'audit des comptes 2019 par l'auditeur externe,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: approves
-        message: |
-          Approuve les comptes de 2019, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: charges
-        message: |
-          Charge son Président de les présenter à la 16ème Conférence de l'OIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/9
-    doi: "10.63493/resolutions/ciml202009"
-    urn: "urn:oiml:doc:ciml:resolution:2020-09"
-    agenda_item: '7.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 7.2
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report on the budget forecast for 2020 given by the BIML Director.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 7.2
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport sur les prévisions budgétaires pour 2020 donné par le Directeur du BIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/10
-    doi: "10.63493/resolutions/ciml202010"
-    urn: "urn:oiml:doc:ciml:resolution:2020-10"
-    agenda_item: '7.3'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 7.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report on the budget for 2021 given by the BIML Director.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 7.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport sur le budget pour 2021 donné par le Directeur du BIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/11
-    doi: "10.63493/resolutions/ciml202011"
-    urn: "urn:oiml:doc:ciml:resolution:2020-11"
-    agenda_item: '7.4'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 7.4
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report given by the BIML Director,
-          Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Requests those Members with arrears to bring their situation up to date as soon as possible.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 7.4
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport donné par le Directeur du BIML,
-          Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés de ses États Membres et des Membres Correspondants, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Demande aux Membres ayant des arriérés de mettre à jour leur situation dans les plus brefs délais.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/12
-    doi: "10.63493/resolutions/ciml202012"
-    urn: "urn:oiml:doc:ciml:resolution:2020-12"
-    agenda_item: '8.1.1.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.1
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft New Recommendation Non-invasive non-automated sphygmomanometers (Revision of R 16-1), and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approves the withdrawal of Recommendation R 16-1:2002 Non-invasive non-automated sphygmomanometers.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.1
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de nouvelle Recommandation Sphygmomanomètres non invasifs non automatiques (Révision de la R 16-1), et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve le retrait de la Recommandation R 16-1:2002 Sphygmomanomètres non invasifs non automatiques.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/13
-    doi: "10.63493/resolutions/ciml202013"
-    urn: "urn:oiml:doc:ciml:resolution:2020-13"
-    agenda_item: '8.1.1.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.2
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft New Recommendation Non-invasive automated sphygmomanometers (Revision of R 16-2), and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approves the withdrawal of Recommendation R 16-2:2002 Non-invasive automated sphygmomanometers.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.2
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de nouvelle Recommandation Sphygmomanomètres non invasifs automatiques (Révision de la R 16-2), et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve le retrait de la Recommandation R 16-2:2002 Sphygmomanomètres non invasifs automatiques.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/14
-    doi: "10.63493/resolutions/ciml202014"
-    urn: "urn:oiml:doc:ciml:resolution:2020-14"
-    agenda_item: '8.1.1.3'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.3
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft New Recommendation Continuous totalizing automatic weighing instruments of the arched chute type.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.3
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de nouvelle Recommandation Instruments de pesage automatiques totalisateurs continus à goulotte cintrée.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/15
-    doi: "10.63493/resolutions/ciml202015"
-    urn: "urn:oiml:doc:ciml:resolution:2020-15"
-    agenda_item: '8.1.1.4'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.4
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft Revision of R 129 Multi-dimensional measuring instruments.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.4
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de révision de la R 129 Instruments de mesure multi-dimensionnels.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/16
-    doi: "10.63493/resolutions/ciml202016"
-    urn: "urn:oiml:doc:ciml:resolution:2020-16"
-    agenda_item: '8.1.1.5'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.5
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft Revision of D1 National metrology systems - Developing the institutional and legislative framework.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.5
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de révision du D 1 Systèmes de métrologie nationaux - Développement du cadre institutionnel et législatif.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/17
-    doi: "10.63493/resolutions/ciml202017"
-    urn: "urn:oiml:doc:ciml:resolution:2020-17"
-    agenda_item: '8.1.1.6'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.6
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft New Document Petroleum measurement tables, and Approves the withdrawal of Recommendation R 63:1994 Petroleum measurement tables.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.6
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de nouveau Document Tables de mesure du pétrole, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve le retrait de la Recommandation R 63:1994 Tables de mesure du pétrole.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/18
-    doi: "10.63493/resolutions/ciml202018"
-    urn: "urn:oiml:doc:ciml:resolution:2020-18"
-    agenda_item: '8.1.1.7'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.1.7
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves the Final Draft New Document Pipe provers for testing measuring systems for liquids, and Approves the withdrawal of Recommendation R 119:1996 Pipe provers for testing of measuring systems for liquids other than water.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.1.7
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve le Projet final de nouveau Document Tubes étalons pour vérification et étalonnage des ensembles de mesurage de liquides, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve le retrait de la Recommandation R 119:1996 Tubes étalons pour l'essai des ensembles de mesurage de liquides autres que l'eau.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/19
-    doi: "10.63493/resolutions/ciml202019"
-    urn: "urn:oiml:doc:ciml:resolution:2020-19"
-    agenda_item: '8.1.2.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.1.2.1
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approves as a new project, under the responsibility of the OIML-CS Management Committee and the BIML, the update of R 60:2017 Metrological regulation for load cells, to be conducted as specified in the project proposal provided in Addendum 8.1.2.1 to the Working Document for this meeting.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.1.2.1
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          Approuve comme nouveau projet, sous la responsabilité du Comité de Management de l'OIML-CS et du BIML, la mise à jour de la R 60:2017 Réglementation métrologique pour les cellules de pesée, à effectuer comme spécifié dans la proposition de projet fournie dans l'Addendum 8.1.2.1 au document de travail pour cette réunion.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/20
-    doi: "10.63493/resolutions/ciml202020"
-    urn: "urn:oiml:doc:ciml:resolution:2020-20"
-    agenda_item: '8.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 8.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Noting the report on OIML technical work,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: approves
-        message: |
-          Approves the list of high priority projects as presented in Addendum 8.2 to the Working Document for this meeting, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approves the list of the high priority publications as presented in Addendum 8.2 to the Working Document for this meeting.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note du rapport sur les travaux techniques de l'OIML,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: approves
-        message: |
-          Approuve la liste des projets hautement prioritaires telle que présentée dans l'addendum 8.2 au document de travail de cette réunion, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve la liste des publications hautement prioritaires telle que présentée dans l'addendum 8.2 au document de travail pour cette réunion.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/21
-    doi: "10.63493/resolutions/ciml202021"
-    urn: "urn:oiml:doc:ciml:resolution:2020-21"
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Notes the report by the BIML on the steps taken to implement CIML resolution
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report by the BIML on the steps taken to implement CIML resolution 2019/30,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: welcomes
-        message: |
-          Welcomes the proposals by the CIML President and the BIML to further promote the OIML Bulletin including a new web page at https://www.oiml.org/en/publications/bulletin/future-editions, and
-          Strongly encourages all CIML Members and Corresponding Member Representatives to support the OIML Bulletin, to share their legal metrology experiences, and to take responsibility either as a "Mentor" for one of the next editions of the Bulletin, or by promoting it at TC/SC/PG meetings, RLMO meetings, CEEMS AG meetings, and other opportunities.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 8.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport du BIML sur les mesures prises pour mettre en œuvre la résolution 2019/30 du CIML,
-          Se félicite des propositions du Président du CIML et du BIML visant à promouvoir davantage le Bulletin de l'OIML, y compris une nouvelle page web à l'adresse https://www.oiml.org/en/publications/bulletin/future-editions, et
-          Encourage vivement tous les Membres du CIML et les Représentants des Membres Correspondants à soutenir le Bulletin de l'OIML, à partager leurs expériences en métrologie légale, et à prendre la responsabilité soit comme "Mentor" pour l'une des prochaines éditions du Bulletin, soit en le promouvant lors des réunions du TC/SC/PG, des réunions des RLMO, des réunions du CEEMS AG, et autres opportunités.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/22
-    doi: "10.63493/resolutions/ciml202022"
-    urn: "urn:oiml:doc:ciml:resolution:2020-22"
-    agenda_item: '9.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 9.1
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Acting Chairperson,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Thanks Mr Bill Loizides for undertaking the role of MC Acting Chairperson, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 9.1
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport du Président par intérim du Comité de Management (MC) du Système de Certification de l'OIML (OIML-CS),
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Remercie M. Bill Loizides d'avoir assumé le rôle de Président par intérim du MC, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Remercie les membres du MC de l'OIML-CS, du Comité de révision, du Groupe de maintenance, et des Groupes de travail pour leur travail.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/23
-    doi: "10.63493/resolutions/ciml202023"
-    urn: "urn:oiml:doc:ciml:resolution:2020-23"
-    agenda_item: '9.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 9.2
-      subject: OIML Conference
-      considerations:
-      - type: noting
-        message: |
-          Noting the selection by the OIML-CS Management Committee (MC) of Mr Mannie Panesar as the nominee for appointment to the position of MC Chairperson,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: having_regard_to
-        message: |
-          Having regard to section 4.2.5 of OIML-CS Operational Document OD-01 Edition 2,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: appoints
-        message: |
-          Appoints Mr Mannie Panesar as OIML-CS MC Chairperson for a period of three years from 1 January 2021.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 9.2
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note de la sélection par le Comité de Management (MC) de l'OIML-CS de M. Mannie Panesar comme candidat à la nomination au poste de Président du MC,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: having_regard_to
-        message: |
-          Vu la section 4.2.5 du Document Opérationnel OIML-CS OD-01 Edition 2,
-          Désigne M. Mannie Panesar comme Président du Comité de Management de l'OIML-CS pour une période de trois ans à compter du 1er janvier 2021.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: notes
-        message: |
-          Point 9.2 de l'ordre du jour
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/24
-    doi: "10.63493/resolutions/ciml202024"
-    urn: "urn:oiml:doc:ciml:resolution:2020-24"
-    agenda_item: '9.3'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 9.3
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Noting the selection by the OIML-CS Management Committee (MC) of Mr Bill Loizides as the nominee for re-appointment to the position of OIML-CS MC Deputy Chairperson,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: having_regard_to
-        message: |
-          Having regard to section 4.2.5 of OIML-CS Operational Document OD-01 Edition 2,
-          Re-appoints Mr Bill Loizides as OIML-CS MC Deputy Chairperson for a period of three years from 1 January 2021.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: notes
-        message: |
-          Noting the selection by the OIML-CS Management Committee (MC) of Mr Bill Loizides as the nominee for re-appointment to the position of OIML-CS MC Deputy Chairperson,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 9.3
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note de la sélection par le Comité de Management (MC) de l'OIML-CS de M. Bill Loizides comme candidat à la reconduction du mandat de Vice-président du MC de l'OIML-CS,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: having_regard_to
-        message: |
-          Vu la section 4.2.5 du Document Opérationnel OIML-CS OD-01 Edition 2,
-          Renouvelle le mandat de M. Bill Loizides en tant que Vice-président du MC de l'OIML-CS pour une période de trois ans à compter du 1er janvier 2021.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: notes
-        message: |
-          Point 9.3 de l'ordre du jour
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/25
-    doi: "10.63493/resolutions/ciml202025"
-    urn: "urn:oiml:doc:ciml:resolution:2020-25"
-    agenda_item: '9.4'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 9.4
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Noting the recommendation from the OIML Certification System (OIML-CS) Management Committee (MC) provided in Addendum 9.1 to the Working Document for this meeting,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: decides
-        message: |
-          Decides that reference to the marking of the OIML certificate number on measuring instruments should be removed from all OIML publications,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Requests the OIML-CS MC to revise the relevant OIML-CS publications and to develop a Guidance Note regarding the meaning of the OIML certificate number when it is marked on a measuring instrument,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: instructs
-        message: |
-          Instructs the BIML to review all other OIML publications to identify those that include a reference to the marking of the OIML certificate number on measuring instruments, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: instructs
-        message: |
-          Instructs the BIML to identify the most appropriate method to amend/revise the relevant publications and to communicate this information to the Secretariats of the appropriate technical committees and/or subcommittees.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Décide que la référence au marquage du numéro de certificat OIML sur les instruments"
-      subject: CIML
-      considerations:
-      - type: noting
-        message: |
-          Prenant note de la recommandation du Comité de Management (MC) du Système de Certification OIML (OIML-CS) fournie dans l'Addendum 9.1 au document de travail pour cette réunion,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: decides
-        message: |
-          Décide que la référence au marquage du numéro de certificat OIML sur les instruments de mesure doit être supprimée de toutes les publications de l'OIML,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: requests
-        message: |
-          Demande au MC de OIML-CS de réviser les publications OIML-CS pertinentes et de développer une note d'orientation concernant la signification du numéro de certificat OIML lorsqu'il est marqué sur un instrument de mesure,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: charges
-        message: |
-          Charge le BIML d'examiner toutes les autres publications de l'OIML afin d'identifier celles qui comportent une référence au marquage du numéro de certificat OIML sur les instruments de mesure, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: charges
-        message: |
-          Charge le BIML d'identifier la méthode la plus appropriée pour modifier/réviser les publications pertinentes et de communiquer ces informations aux secrétariats des comités et/ou sous-comités techniques appropriés.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/26
-    doi: "10.63493/resolutions/ciml202026"
-    urn: "urn:oiml:doc:ciml:resolution:2020-26"
-    agenda_item: '10'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 10
-      subject: OIML Conference
-      actions:
-      - type: notes
-        message: |
-          Notes the report on the activities of the CEEMS Advisory Group,
-          Expresses its appreciation for the progress made by the Advisory Group and in particular the significant effort made to complete the revision of OIML International Document D 1, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: endorses
-        message: |
-          Endorses the proposal for the Advisory Group to develop a strategy on the Application of online technology to capacity building and other CEEMS activities and requests that the results of this work should be available to Member States well before the 56th CIML Meeting.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 10
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport sur les activités du groupe consultatif du CEEMS,
-          Se félicite des progrès réalisés par le groupe consultatif et, en particulier, des efforts importants déployés pour achever la révision du Document International D 1 de l'OIML, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: approves
-        message: |
-          Approuve la proposition du groupe consultatif d'élaborer une stratégie sur l'application de la technologie en ligne au renforcement des capacités et aux autres activités des CEEMS et demande que les résultats de ces travaux soient mis à la disposition des États Membres bien avant la 56ème Réunion du CIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/27
-    doi: "10.63493/resolutions/ciml202027"
-    urn: "urn:oiml:doc:ciml:resolution:2020-27"
-    agenda_item: '11.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 11.1
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report on the RLMO Round Table meeting given by its Chairperson, and
-          Encourages the RLMO Round Table Chairperson to further develop the Round Table format based on the feedback received at the last Round Table meeting.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 11.1
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport sur la réunion de la Table Ronde RLMO présenté par son Président, et
-          Encourage le Président de la Table Ronde des RLMO à développer davantage le format de la Table Ronde en se basant sur les commentaires reçus lors de la dernière réunion de la Table Ronde.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/28
-    doi: "10.63493/resolutions/ciml202028"
-    urn: "urn:oiml:doc:ciml:resolution:2020-28"
-    agenda_item: '11.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 11.2
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the report on activities with organisations in liaison provided by the BIML, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Thanks the BIML Director and staff for continuing this work under the difficult circumstances which have existed due to the COVID-19 pandemic.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 11.2
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note du rapport sur les activités avec les organisations en liaison fourni par le BIML, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Remercie le Directeur et le personnel du BIML de poursuivre ce travail dans les circonstances difficiles qui ont existé en raison de la pandémie de COVID-19.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/29
-    doi: "10.63493/resolutions/ciml202029"
-    urn: "urn:oiml:doc:ciml:resolution:2020-29"
-    agenda_item: '11.3'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 11.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Notes the written reports submitted by organisations in liaison, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Thanks their representatives for providing this information to the Committee.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 11.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Prend note des rapports écrits soumis par les organisations en liaison, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: thanks
-        message: |
-          Remercie leurs représentants d'avoir fourni ces informations au Comité.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/30
-    doi: "10.63493/resolutions/ciml202030"
-    urn: "urn:oiml:doc:ciml:resolution:2020-30"
-    agenda_item: '12.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 12.1
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Congratulates this year's recipient of an OIML Medal, Dr Tsuyoshi Matsumoto, for his contribution to the work of the OIML.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 12.1
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Point 12.1 de l'ordre du jour
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/31
-    doi: "10.63493/resolutions/ciml202031"
-    urn: "urn:oiml:doc:ciml:resolution:2020-31"
-    agenda_item: '12.2'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 12.2
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Congratulates this year's recipients of an OIML Letter of Appreciation:
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 12.2
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Point 12.2 de l'ordre du jour
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/32
-    doi: "10.63493/resolutions/ciml202032"
-    urn: "urn:oiml:doc:ciml:resolution:2020-32"
-    agenda_item: '12.3'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 12.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Congratulates this year's recipient of the OIML CEEMS Award - The Directorate of Metrology under the Ministry of Trade of the Republic of Indonesia, represented by:
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 12.3
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Point 12.3 de l'ordre du jour
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-  - identifier: CIML/2020/33
-    doi: "10.63493/resolutions/ciml202033"
-    urn: "urn:oiml:doc:ciml:resolution:2020-33"
-    agenda_item: '13.1'
-    dates:
-    - start: '2020-10-20'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Agenda item 13.1
-      subject: CIML
-      considerations:
-      - type: recalling
-        message: |
-          Recalling its Resolution no. 2019/36,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: thanks
-        message: |
-          Thanks the People's Republic of China for confirming its invitation to host the 56th CIML Meeting and 16th International Conference in 2021, and
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: instructs
-        message: |
-          Instructs the Bureau to make, as far as possible, the necessary arrangements to organise the 56th CIML Meeting and 16th International Conference in 2021.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Agenda item 13.1
-      subject: CIML
-      considerations:
-      - type: recalling
-        message: |
-          Rappelant sa résolution n° 2019/36,
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      actions:
-      - type: thanks
-        message: |
-          Remercie la République Populaire de Chine d'avoir confirmé son invitation à accueillir la 56ème Réunion du CIML et la 16ème Conférence Internationale en 2021, et
-        dates:
-        - start: '2020-10-20'
-          kind: effective
-      - type: charges
-        message: |
-          Charge le Bureau de prendre, dans la mesure du possible, les dispositions nécessaires pour organiser la 56ème Réunion du CIML et la 16ème Conférence Internationale en 2021.
-        dates:
-        - start: '2020-10-20'
-          kind: effective
+- identifier:
+  - prefix: CIML
+    number: 2020/1
+  doi: 10.63493/resolutions/ciml202001
+  urn: urn:oiml:doc:ciml:resolution:2020-01
+  agenda_item: '2.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 2.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the provisions for its decisions set out in Article XVII of
+        OIML B 1 Convention establishing an International Organisation of Legal Metrology,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: considering
+      message: 'Considering the need to facilitate the work of the Committee when
+        online CIML meetings are held,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: decides
+      message: 'Decides that the "in-meeting" conditions for Committee decisions,
+        given in paragraphs two and three of Article XVII of OIML B 1, shall be used
+        in the case of online voting on subjects which have been discussed at an online
+        CIML meeting.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 2.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note des dispositions relatives à ses décisions énoncées à
+        l''article XVII de l''OIML B 1 Convention instituant une organisation internationale
+        de métrologie légale,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: considering
+      message: 'Considérant la nécessité de faciliter le travail du Comité lors des
+        réunions du CIML en ligne,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: decides
+      message: 'Décide que les conditions "en réunion" pour les décisions du Comité,
+        énoncées aux paragraphes deux et trois de l''article XVII de l''OIML B 1,
+        seront utilisées dans le cas d''un vote en ligne sur des sujets qui ont été
+        discutés lors d''une réunion en ligne du CIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/2
+  doi: 10.63493/resolutions/ciml202002
+  urn: urn:oiml:doc:ciml:resolution:2020-02
+  agenda_item: '2.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 2.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the provisions for its decisions set out in Article XVII of
+        OIML B 1 Convention establishing an International Organisation of Legal Metrology,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: considering
+      message: 'Considering the need to facilitate the work of the Committee when
+        online CIML meetings are held,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: approves
+      message: 'Approves the use of the secure voting tools on the OIML website for
+        CIML draft resolutions and for secret ballots on appointments.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 2.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note des dispositions relatives à ses décisions énoncées à
+        l''article XVII de l''OIML B 1 Convention instituant une organisation internationale
+        de métrologie légale,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: considering
+      message: 'Considérant la nécessité de faciliter le travail du Comité lors des
+        réunions du CIML en ligne,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: approves
+      message: 'Approuve l''utilisation des outils de vote sécurisés du site web de
+        l''OIML pour les projets de résolution du CIML et pour les votes à bulletin
+        secret sur les nominations.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/3
+  doi: 10.63493/resolutions/ciml202003
+  urn: urn:oiml:doc:ciml:resolution:2020-03
+  agenda_item: '4'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 4
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the minutes of the 54th CIML Meeting.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 4
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le compte rendu de la 54ème Réunion du CIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/4
+  doi: 10.63493/resolutions/ciml202004
+  urn: urn:oiml:doc:ciml:resolution:2020-04
+  agenda_item: '5'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 5
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report given by its President.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 5
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Point 5 de l''ordre du jour
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/5
+  doi: 10.63493/resolutions/ciml202005
+  urn: urn:oiml:doc:ciml:resolution:2020-05
+  agenda_item: '5'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 5
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report on the internal review of BIML salary costs,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Thanks Mr Alan Johnston and Dr Bobjoseph Mathew for their work in
+        conducting this review and producing the report,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: remarks
+      message: 'Acknowledges the findings and conclusions of the review,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Supports the recommendations contained in the report,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Requests that its President and the BIML Director ensure the implementation
+        of these recommendations, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Supports the immediate amendment of OIML B 7 BIML Staff regulations,
+        Annex 2 as proposed in recommendation 3 of the report, this work to be conducted
+        by the BIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 5
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport sur l''examen interne des coûts salariaux du
+        BIML,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: |
+        Remercie M. Alan Johnston et le Dr Bobjoseph Mathew pour leur travail dans la réalisation de cette étude et la production du rapport,
+        Prend acte des résultats et des conclusions de l'examen,
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Soutient les recommandations contenues dans le rapport,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Demande à son Président et au Directeur du BIML de veiller à la mise
+        en œuvre de ces recommandations, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Soutient la modification immédiate des Statuts du personnel du BIML,
+        OIML B 7, Annexe 2, comme proposé dans la recommandation 3 du rapport, ce
+        travail devant être effectué par le BIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/6
+  doi: 10.63493/resolutions/ciml202006
+  urn: urn:oiml:doc:ciml:resolution:2020-06
+  agenda_item: '5'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 5
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report of its President in support of a stronger cooperation
+        between the OIML and the BIPM (see Resolution 2019/12),
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approves the Terms of Reference of an OIML/BIPM Joint Task Group (JTG)
+        as proposed in the Annex to Addendum 5c to the Working Document for this meeting,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: appoints
+      message: 'Appoints Dr Roman Schwartz, Dr Charles Ehrlich and Mr Anthony Donnellan
+        as the OIML representatives on that JTG, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Requests the JTG to draw up proposals, based on the Terms of Reference,
+        and an action plan with a time frame, to be presented at the 56th CIML Meeting
+        and the 16th OIML Conference.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 5
+    subject: Conférence OIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport de son Président en faveur d''une coopération
+        renforcée entre l''OIML et le BIPM (voir la résolution 2019/12),
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: |
+        Approuve le mandat d'un Groupe de travail commun OIML/BIPM (JTG) tel que proposé dans l'annexe à l'Addendum 5c au document de travail de cette réunion,
+        Nomme Roman Schwartz, Charles Ehrlich et Anthony Donnellan comme représentants de l'OIML au sein de ce GTM, et
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Demande au JTG d''élaborer des propositions, basées sur les termes
+        de référence, et un plan d''action avec un calendrier, qui seront présentés
+        à la 56ème Réunion du CIML et à la 16ème Conférence de l''OIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/7
+  doi: 10.63493/resolutions/ciml202007
+  urn: urn:oiml:doc:ciml:resolution:2020-07
+  agenda_item: '6'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 6
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report given by the BIML Director.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 6
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport donné par le Directeur du BIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/8
+  doi: 10.63493/resolutions/ciml202008
+  urn: urn:oiml:doc:ciml:resolution:2020-08
+  agenda_item: '7.1'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 7.1
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the accounts for 2019 and the BIML Director''s comments,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: considering
+      message: 'Considering the external auditor''s audit of the 2019 accounts,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: approves
+      message: 'Approves the 2019 accounts, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: instructs
+      message: 'Instructs its President to present them to the 16th OIML Conference.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 7.1
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note des comptes de 2019 et des commentaires du Directeur
+        du BIML,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: considering
+      message: 'Considérant l''audit des comptes 2019 par l''auditeur externe,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: approves
+      message: 'Approuve les comptes de 2019, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: charges
+      message: 'Charge son Président de les présenter à la 16ème Conférence de l''OIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/9
+  doi: 10.63493/resolutions/ciml202009
+  urn: urn:oiml:doc:ciml:resolution:2020-09
+  agenda_item: '7.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 7.2
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report on the budget forecast for 2020 given by the BIML
+        Director.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 7.2
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport sur les prévisions budgétaires pour 2020 donné
+        par le Directeur du BIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/10
+  doi: 10.63493/resolutions/ciml202010
+  urn: urn:oiml:doc:ciml:resolution:2020-10
+  agenda_item: '7.3'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 7.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report on the budget for 2021 given by the BIML Director.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 7.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport sur le budget pour 2021 donné par le Directeur
+        du BIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/11
+  doi: 10.63493/resolutions/ciml202011
+  urn: urn:oiml:doc:ciml:resolution:2020-11
+  agenda_item: '7.4'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 7.4
+    subject: CIML
+    actions:
+    - type: remarks
+      message: |
+        Notes the report given by the BIML Director,
+        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Requests those Members with arrears to bring their situation up to
+        date as soon as possible.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 7.4
+    subject: CIML
+    actions:
+    - type: remarks
+      message: |
+        Prend note du rapport donné par le Directeur du BIML,
+        Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés de ses États Membres et des Membres Correspondants, et
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Demande aux Membres ayant des arriérés de mettre à jour leur situation
+        dans les plus brefs délais.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/12
+  doi: 10.63493/resolutions/ciml202012
+  urn: urn:oiml:doc:ciml:resolution:2020-12
+  agenda_item: 8.1.1.1
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.1
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft New Recommendation Non-invasive non-automated
+        sphygmomanometers (Revision of R 16-1), and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approves the withdrawal of Recommendation R 16-1:2002 Non-invasive
+        non-automated sphygmomanometers.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.1
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de nouvelle Recommandation Sphygmomanomètres
+        non invasifs non automatiques (Révision de la R 16-1), et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approuve le retrait de la Recommandation R 16-1:2002 Sphygmomanomètres
+        non invasifs non automatiques.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/13
+  doi: 10.63493/resolutions/ciml202013
+  urn: urn:oiml:doc:ciml:resolution:2020-13
+  agenda_item: 8.1.1.2
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.2
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft New Recommendation Non-invasive automated
+        sphygmomanometers (Revision of R 16-2), and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approves the withdrawal of Recommendation R 16-2:2002 Non-invasive
+        automated sphygmomanometers.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.2
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de nouvelle Recommandation Sphygmomanomètres
+        non invasifs automatiques (Révision de la R 16-2), et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approuve le retrait de la Recommandation R 16-2:2002 Sphygmomanomètres
+        non invasifs automatiques.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/14
+  doi: 10.63493/resolutions/ciml202014
+  urn: urn:oiml:doc:ciml:resolution:2020-14
+  agenda_item: 8.1.1.3
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.3
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft New Recommendation Continuous totalizing
+        automatic weighing instruments of the arched chute type.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.3
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de nouvelle Recommandation Instruments de
+        pesage automatiques totalisateurs continus à goulotte cintrée.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/15
+  doi: 10.63493/resolutions/ciml202015
+  urn: urn:oiml:doc:ciml:resolution:2020-15
+  agenda_item: 8.1.1.4
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.4
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft Revision of R 129 Multi-dimensional measuring
+        instruments.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.4
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de révision de la R 129 Instruments de mesure
+        multi-dimensionnels.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/16
+  doi: 10.63493/resolutions/ciml202016
+  urn: urn:oiml:doc:ciml:resolution:2020-16
+  agenda_item: 8.1.1.5
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.5
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft Revision of D1 National metrology systems
+        - Developing the institutional and legislative framework.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.5
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de révision du D 1 Systèmes de métrologie
+        nationaux - Développement du cadre institutionnel et législatif.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/17
+  doi: 10.63493/resolutions/ciml202017
+  urn: urn:oiml:doc:ciml:resolution:2020-17
+  agenda_item: 8.1.1.6
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.6
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft New Document Petroleum measurement tables,
+        and Approves the withdrawal of Recommendation R 63:1994 Petroleum measurement
+        tables.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.6
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de nouveau Document Tables de mesure du pétrole,
+        et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approuve le retrait de la Recommandation R 63:1994 Tables de mesure
+        du pétrole.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/18
+  doi: 10.63493/resolutions/ciml202018
+  urn: urn:oiml:doc:ciml:resolution:2020-18
+  agenda_item: 8.1.1.7
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.1.7
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves the Final Draft New Document Pipe provers for testing measuring
+        systems for liquids, and Approves the withdrawal of Recommendation R 119:1996
+        Pipe provers for testing of measuring systems for liquids other than water.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.1.7
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve le Projet final de nouveau Document Tubes étalons pour vérification
+        et étalonnage des ensembles de mesurage de liquides, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approuve le retrait de la Recommandation R 119:1996 Tubes étalons
+        pour l''essai des ensembles de mesurage de liquides autres que l''eau.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/19
+  doi: 10.63493/resolutions/ciml202019
+  urn: urn:oiml:doc:ciml:resolution:2020-19
+  agenda_item: 8.1.2.1
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.1.2.1
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approves as a new project, under the responsibility of the OIML-CS
+        Management Committee and the BIML, the update of R 60:2017 Metrological regulation
+        for load cells, to be conducted as specified in the project proposal provided
+        in Addendum 8.1.2.1 to the Working Document for this meeting.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.1.2.1
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'Approuve comme nouveau projet, sous la responsabilité du Comité de
+        Management de l''OIML-CS et du BIML, la mise à jour de la R 60:2017 Réglementation
+        métrologique pour les cellules de pesée, à effectuer comme spécifié dans la
+        proposition de projet fournie dans l''Addendum 8.1.2.1 au document de travail
+        pour cette réunion.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/20
+  doi: 10.63493/resolutions/ciml202020
+  urn: urn:oiml:doc:ciml:resolution:2020-20
+  agenda_item: '8.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 8.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the report on OIML technical work,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: approves
+      message: 'Approves the list of high priority projects as presented in Addendum
+        8.2 to the Working Document for this meeting, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approves the list of the high priority publications as presented in
+        Addendum 8.2 to the Working Document for this meeting.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note du rapport sur les travaux techniques de l''OIML,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: approves
+      message: 'Approuve la liste des projets hautement prioritaires telle que présentée
+        dans l''addendum 8.2 au document de travail de cette réunion, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approuve la liste des publications hautement prioritaires telle que
+        présentée dans l''addendum 8.2 au document de travail pour cette réunion.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/21
+  doi: 10.63493/resolutions/ciml202021
+  urn: urn:oiml:doc:ciml:resolution:2020-21
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Notes the report by the BIML on the steps taken to implement CIML resolution
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report by the BIML on the steps taken to implement CIML
+        resolution 2019/30,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: welcomes
+      message: |
+        Welcomes the proposals by the CIML President and the BIML to further promote the OIML Bulletin including a new web page at https://www.oiml.org/en/publications/bulletin/future-editions, and
+        Strongly encourages all CIML Members and Corresponding Member Representatives to support the OIML Bulletin, to share their legal metrology experiences, and to take responsibility either as a "Mentor" for one of the next editions of the Bulletin, or by promoting it at TC/SC/PG meetings, RLMO meetings, CEEMS AG meetings, and other opportunities.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 8.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: |
+        Prend note du rapport du BIML sur les mesures prises pour mettre en œuvre la résolution 2019/30 du CIML,
+        Se félicite des propositions du Président du CIML et du BIML visant à promouvoir davantage le Bulletin de l'OIML, y compris une nouvelle page web à l'adresse https://www.oiml.org/en/publications/bulletin/future-editions, et
+        Encourage vivement tous les Membres du CIML et les Représentants des Membres Correspondants à soutenir le Bulletin de l'OIML, à partager leurs expériences en métrologie légale, et à prendre la responsabilité soit comme "Mentor" pour l'une des prochaines éditions du Bulletin, soit en le promouvant lors des réunions du TC/SC/PG, des réunions des RLMO, des réunions du CEEMS AG, et autres opportunités.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/22
+  doi: 10.63493/resolutions/ciml202022
+  urn: urn:oiml:doc:ciml:resolution:2020-22
+  agenda_item: '9.1'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 9.1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report of the OIML Certification System (OIML-CS) Management
+        Committee (MC) Acting Chairperson,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Thanks Mr Bill Loizides for undertaking the role of MC Acting Chairperson,
+        and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Thanks the members of the OIML-CS MC, Review Committee, Maintenance
+        Group and Working Groups for their work.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 9.1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport du Président par intérim du Comité de Management
+        (MC) du Système de Certification de l''OIML (OIML-CS),
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Remercie M. Bill Loizides d''avoir assumé le rôle de Président par
+        intérim du MC, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Remercie les membres du MC de l''OIML-CS, du Comité de révision, du
+        Groupe de maintenance, et des Groupes de travail pour leur travail.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/23
+  doi: 10.63493/resolutions/ciml202023
+  urn: urn:oiml:doc:ciml:resolution:2020-23
+  agenda_item: '9.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 9.2
+    subject: OIML Conference
+    considerations:
+    - type: noting
+      message: 'Noting the selection by the OIML-CS Management Committee (MC) of Mr
+        Mannie Panesar as the nominee for appointment to the position of MC Chairperson,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: having
+      message: 'Having regard to section 4.2.5 of OIML-CS Operational Document OD-01
+        Edition 2,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: appoints
+      message: 'Appoints Mr Mannie Panesar as OIML-CS MC Chairperson for a period
+        of three years from 1 January 2021.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 9.2
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note de la sélection par le Comité de Management (MC) de l''OIML-CS
+        de M. Mannie Panesar comme candidat à la nomination au poste de Président
+        du MC,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: having
+      message: |
+        Vu la section 4.2.5 du Document Opérationnel OIML-CS OD-01 Edition 2,
+        Désigne M. Mannie Panesar comme Président du Comité de Management de l'OIML-CS pour une période de trois ans à compter du 1er janvier 2021.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: remarks
+      message: 'Point 9.2 de l''ordre du jour
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/24
+  doi: 10.63493/resolutions/ciml202024
+  urn: urn:oiml:doc:ciml:resolution:2020-24
+  agenda_item: '9.3'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 9.3
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the selection by the OIML-CS Management Committee (MC) of Mr
+        Bill Loizides as the nominee for re-appointment to the position of OIML-CS
+        MC Deputy Chairperson,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: having
+      message: |
+        Having regard to section 4.2.5 of OIML-CS Operational Document OD-01 Edition 2,
+        Re-appoints Mr Bill Loizides as OIML-CS MC Deputy Chairperson for a period of three years from 1 January 2021.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: remarks
+      message: 'Noting the selection by the OIML-CS Management Committee (MC) of Mr
+        Bill Loizides as the nominee for re-appointment to the position of OIML-CS
+        MC Deputy Chairperson,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 9.3
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note de la sélection par le Comité de Management (MC) de l''OIML-CS
+        de M. Bill Loizides comme candidat à la reconduction du mandat de Vice-président
+        du MC de l''OIML-CS,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: having
+      message: |
+        Vu la section 4.2.5 du Document Opérationnel OIML-CS OD-01 Edition 2,
+        Renouvelle le mandat de M. Bill Loizides en tant que Vice-président du MC de l'OIML-CS pour une période de trois ans à compter du 1er janvier 2021.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: remarks
+      message: 'Point 9.3 de l''ordre du jour
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/25
+  doi: 10.63493/resolutions/ciml202025
+  urn: urn:oiml:doc:ciml:resolution:2020-25
+  agenda_item: '9.4'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 9.4
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the recommendation from the OIML Certification System (OIML-CS)
+        Management Committee (MC) provided in Addendum 9.1 to the Working Document
+        for this meeting,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: decides
+      message: 'Decides that reference to the marking of the OIML certificate number
+        on measuring instruments should be removed from all OIML publications,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Requests the OIML-CS MC to revise the relevant OIML-CS publications
+        and to develop a Guidance Note regarding the meaning of the OIML certificate
+        number when it is marked on a measuring instrument,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: instructs
+      message: 'Instructs the BIML to review all other OIML publications to identify
+        those that include a reference to the marking of the OIML certificate number
+        on measuring instruments, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: instructs
+      message: 'Instructs the BIML to identify the most appropriate method to amend/revise
+        the relevant publications and to communicate this information to the Secretariats
+        of the appropriate technical committees and/or subcommittees.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Décide que la référence au marquage du numéro de certificat OIML sur les
+      instruments
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Prenant note de la recommandation du Comité de Management (MC) du
+        Système de Certification OIML (OIML-CS) fournie dans l''Addendum 9.1 au document
+        de travail pour cette réunion,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: decides
+      message: 'Décide que la référence au marquage du numéro de certificat OIML sur
+        les instruments de mesure doit être supprimée de toutes les publications de
+        l''OIML,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: requests
+      message: 'Demande au MC de OIML-CS de réviser les publications OIML-CS pertinentes
+        et de développer une note d''orientation concernant la signification du numéro
+        de certificat OIML lorsqu''il est marqué sur un instrument de mesure,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: charges
+      message: 'Charge le BIML d''examiner toutes les autres publications de l''OIML
+        afin d''identifier celles qui comportent une référence au marquage du numéro
+        de certificat OIML sur les instruments de mesure, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: charges
+      message: 'Charge le BIML d''identifier la méthode la plus appropriée pour modifier/réviser
+        les publications pertinentes et de communiquer ces informations aux secrétariats
+        des comités et/ou sous-comités techniques appropriés.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/26
+  doi: 10.63493/resolutions/ciml202026
+  urn: urn:oiml:doc:ciml:resolution:2020-26
+  agenda_item: '10'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 10
+    subject: OIML Conference
+    actions:
+    - type: remarks
+      message: |
+        Notes the report on the activities of the CEEMS Advisory Group,
+        Expresses its appreciation for the progress made by the Advisory Group and in particular the significant effort made to complete the revision of OIML International Document D 1, and
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Endorses the proposal for the Advisory Group to develop a strategy
+        on the Application of online technology to capacity building and other CEEMS
+        activities and requests that the results of this work should be available
+        to Member States well before the 56th CIML Meeting.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 10
+    subject: CIML
+    actions:
+    - type: remarks
+      message: |
+        Prend note du rapport sur les activités du groupe consultatif du CEEMS,
+        Se félicite des progrès réalisés par le groupe consultatif et, en particulier, des efforts importants déployés pour achever la révision du Document International D 1 de l'OIML, et
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: approves
+      message: 'Approuve la proposition du groupe consultatif d''élaborer une stratégie
+        sur l''application de la technologie en ligne au renforcement des capacités
+        et aux autres activités des CEEMS et demande que les résultats de ces travaux
+        soient mis à la disposition des États Membres bien avant la 56ème Réunion
+        du CIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/27
+  doi: 10.63493/resolutions/ciml202027
+  urn: urn:oiml:doc:ciml:resolution:2020-27
+  agenda_item: '11.1'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 11.1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: |
+        Notes the report on the RLMO Round Table meeting given by its Chairperson, and
+        Encourages the RLMO Round Table Chairperson to further develop the Round Table format based on the feedback received at the last Round Table meeting.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 11.1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: |
+        Prend note du rapport sur la réunion de la Table Ronde RLMO présenté par son Président, et
+        Encourage le Président de la Table Ronde des RLMO à développer davantage le format de la Table Ronde en se basant sur les commentaires reçus lors de la dernière réunion de la Table Ronde.
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/28
+  doi: 10.63493/resolutions/ciml202028
+  urn: urn:oiml:doc:ciml:resolution:2020-28
+  agenda_item: '11.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 11.2
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the report on activities with organisations in liaison provided
+        by the BIML, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Thanks the BIML Director and staff for continuing this work under
+        the difficult circumstances which have existed due to the COVID-19 pandemic.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 11.2
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note du rapport sur les activités avec les organisations en
+        liaison fourni par le BIML, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Remercie le Directeur et le personnel du BIML de poursuivre ce travail
+        dans les circonstances difficiles qui ont existé en raison de la pandémie
+        de COVID-19.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/29
+  doi: 10.63493/resolutions/ciml202029
+  urn: urn:oiml:doc:ciml:resolution:2020-29
+  agenda_item: '11.3'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 11.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Notes the written reports submitted by organisations in liaison, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Thanks their representatives for providing this information to the
+        Committee.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 11.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Prend note des rapports écrits soumis par les organisations en liaison,
+        et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: thanks
+      message: 'Remercie leurs représentants d''avoir fourni ces informations au Comité.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/30
+  doi: 10.63493/resolutions/ciml202030
+  urn: urn:oiml:doc:ciml:resolution:2020-30
+  agenda_item: '12.1'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 12.1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Congratulates this year''s recipient of an OIML Medal, Dr Tsuyoshi
+        Matsumoto, for his contribution to the work of the OIML.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 12.1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Point 12.1 de l''ordre du jour
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/31
+  doi: 10.63493/resolutions/ciml202031
+  urn: urn:oiml:doc:ciml:resolution:2020-31
+  agenda_item: '12.2'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 12.2
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Congratulates this year''s recipients of an OIML Letter of Appreciation:
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 12.2
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Point 12.2 de l''ordre du jour
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/32
+  doi: 10.63493/resolutions/ciml202032
+  urn: urn:oiml:doc:ciml:resolution:2020-32
+  agenda_item: '12.3'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 12.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Congratulates this year''s recipient of the OIML CEEMS Award - The
+        Directorate of Metrology under the Ministry of Trade of the Republic of Indonesia,
+        represented by:
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 12.3
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Point 12.3 de l''ordre du jour
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2020/33
+  doi: 10.63493/resolutions/ciml202033
+  urn: urn:oiml:doc:ciml:resolution:2020-33
+  agenda_item: '13.1'
+  dates:
+  - date: '2020-10-20'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Agenda item 13.1
+    subject: CIML
+    considerations:
+    - type: recalling
+      message: 'Recalling its Resolution no. 2019/36,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: thanks
+      message: 'Thanks the People''s Republic of China for confirming its invitation
+        to host the 56th CIML Meeting and 16th International Conference in 2021, and
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: instructs
+      message: 'Instructs the Bureau to make, as far as possible, the necessary arrangements
+        to organise the 56th CIML Meeting and 16th International Conference in 2021.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Agenda item 13.1
+    subject: CIML
+    considerations:
+    - type: recalling
+      message: 'Rappelant sa résolution n° 2019/36,
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    actions:
+    - type: thanks
+      message: 'Remercie la République Populaire de Chine d''avoir confirmé son invitation
+        à accueillir la 56ème Réunion du CIML et la 16ème Conférence Internationale
+        en 2021, et
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+    - type: charges
+      message: 'Charge le Bureau de prendre, dans la mesure du possible, les dispositions
+        nécessaires pour organiser la 56ème Réunion du CIML et la 16ème Conférence
+        Internationale en 2021.
+
+        '
+      date_effective:
+        date: '2020-10-20'
+        type: adoption
+  type: resolution

@@ -206,7 +206,7 @@
 
             <div class="card-meta-bottom">
               <span v-if="res.meeting_date" class="std-results__badge badge-date">{{ formatDate(res.meeting_date) }}</span>
-              <span v-if="res.venue" class="std-results__badge badge-venue truncate-text">{{ res.venue }}</span>
+              <span v-if="venueLabel(res)" class="std-results__badge badge-venue truncate-text">{{ venueLabel(res) }}</span>
             </div>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -270,6 +270,13 @@ import { bodyTypeFromSourceFile } from '../composables/useMeetings'
 import { getActionColor, getActionLabel } from '../data/actionTypes'
 import { useDateFormat } from '../composables/useDateFormat'
 import { highlightText } from '../utils/highlight'
+import { venueForLang } from '../data/venues'
+
+function venueLabel(res: any): string {
+  if (!res) return ''
+  if (res.city || res.country_code) return venueForLang(res.city, res.country_code, lang.value)
+  return ''
+}
 
 const router = useRouter()
 const route = useRoute()
@@ -443,11 +450,11 @@ const filteredResolutions = computed(() => {
       list = list.filter(r => matchedIds.has(r.id))
     } else {
       const qLower = q.toLowerCase()
-      list = list.filter(r => 
+      list = list.filter(r =>
         (r.title && r.title.toLowerCase().includes(qLower)) ||
         (r.id && r.id.toLowerCase().includes(qLower)) ||
         (r.subject && r.subject.toLowerCase().includes(qLower)) ||
-        (r.venue && r.venue.toLowerCase().includes(qLower))
+        venueLabel(r).toLowerCase().includes(qLower)
       )
     }
   }

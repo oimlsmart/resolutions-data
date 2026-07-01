@@ -90,14 +90,10 @@ export function meetingSummary(
 
 function renderMeetingVenue(m: Meeting | Resolution | null | undefined, lang: 'en' | 'fr'): string {
   if (!m) return ''
-  // Prefer the structured city + country_code from the manifest (post
-  // Phase A item 9 the city field is an IATA code).
   const city = (m as Meeting).city || ''
   const code = (m as Meeting).country_code || ''
   if (city || code) {
-    const rendered = venueForLang(city, code, lang)
-    if (rendered) return rendered
+    return venueForLang(city, code, lang)
   }
-  // Legacy fallback: a single "City, Country" string.
-  return venueForLang((m as Meeting).venue, lang) || ''
+  return ''
 }

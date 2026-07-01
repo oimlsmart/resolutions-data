@@ -116,7 +116,7 @@ export default defineConfig({
           },
           location: {
             '@type': 'Place',
-            name: m.venue,
+            name: m.city || '',
             address: {
               '@type': 'PostalAddress',
               addressLocality: m.city,

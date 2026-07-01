@@ -45,18 +45,9 @@ RSpec.describe "Edoxen schema validation" do
     it "#{File.basename(path)} validates" do
       data = YAML.safe_load(File.read(path))
       errors = schemer.validate(data).to_a
-      # Tolerate parser-side action verbs not yet in the schema enum —
-      # surface them as warnings rather than failures. Anything else
-      # is a hard error.
-      real_errors = errors.reject do |e|
-        pointer = e["data_pointer"] || ""
-        schema_p = e["schema_pointer"] || ""
-        (pointer.include?("/actions/") && schema_p.include?("type")) ||
-          (pointer.include?("/considerations/") && schema_p.include?("type"))
-      end
-      expect(real_errors).to be_empty,
-        "#{File.basename(path)} had #{real_errors.size} validation errors:\n" +
-        real_errors.first(5).map { |e| "  #{e['data_pointer']}: #{e['error']}" }.join("\n")
+      expect(errors).to be_empty,
+        "#{File.basename(path)} had #{errors.size} validation errors:\n" +
+        errors.first(5).map { |e| "  #{e['data_pointer']}: #{e['error']}" }.join("\n")
     end
   end
 end

@@ -4,995 +4,1277 @@
 # Languages: eng, fra
 ---
 metadata:
-  title: "42nd CIML Meeting — Decisions (EN)"
+  title: 42nd CIML Meeting — Decisions (EN)
   title_localized:
-    - { language_code: eng, script: Latn, title: "42nd CIML Meeting — Decisions (EN)" }
-    - { language_code: fra, script: Latn, title: "42e réunion du CIML — Décisions (FR)" }
-  dates:
-  - start: '2007-10-24'
-    end: '2007-10-26'
-    kind: meeting
-  venue: "Shanghai, P.R. China"
+  - language_code: eng
+    script: Latn
+    title: 42nd CIML Meeting — Decisions (EN)
+  - language_code: fra
+    script: Latn
+    title: 42e réunion du CIML — Décisions (FR)
   city: SHA
   country_code: CN
   source_urls:
-    - { ref: "https://www.oiml.org/en/structure/ciml/pdf/42-ciml-decisions-english.pdf", format: pdf, language_code: eng }
-    - { ref: "https://www.oiml.org/fr/structure/ciml/pdf/42-ciml-decisions-french.pdf", format: pdf, language_code: fra }
+  - ref: https://www.oiml.org/en/structure/ciml/pdf/42-ciml-decisions-english.pdf
+    format: pdf
+    language_code: eng
+  - ref: https://www.oiml.org/fr/structure/ciml/pdf/42-ciml-decisions-french.pdf
+    format: pdf
+    language_code: fra
+  date: '2007-10-24'
 resolutions:
-  - identifier: CIML/2007/1
-    doi: "10.63493/resolutions/ciml200701"
-    urn: "urn:oiml:doc:ciml:resolution:2007-01"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Approval of the minutes of the 41st CIML Meeting
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          The Committee approved the minutes of the 41st CIML Meeting without modification.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Approbation du Compte Rendu de la 41<sup>ème</sup> Réunion du CIML"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a approuvé le Compte Rendu de la 41eme Réunion du CIML sans y apporter de modification.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/2
-    doi: "10.63493/resolutions/ciml200702"
-    urn: "urn:oiml:doc:ciml:resolution:2007-02"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Member States and Corresponding Members
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "États Membres et Membres Correspondants"
-      subject: CIML
-  - identifier: CIML/2007/2.1
-    doi: "10.63493/resolutions/ciml20072.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-2.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Situation of certain Members
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee noted that two additional Corresponding Members (United Arab Emirates and Sudan) had joined the OIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Situation de certains Membres
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note de l'adhésion à l'OIML de deux Membres Correspondants supplémentaires (les Émirats Arabes Unis et le Soudan).
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/3
-    doi: "10.63493/resolutions/ciml200703"
-    urn: "urn:oiml:doc:ciml:resolution:2007-03"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Financial matters
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Questions financières"
-      subject: CIML
-  - identifier: CIML/2007/3.1
-    doi: "10.63493/resolutions/ciml20073.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-3.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Adoption of the Auditor's report for 2006
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          The Committee approved the Auditor's report for 2006 and requested its President and the BIML Director to submit it to the Thirteenth Conference in 2008.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Adoption du Rapport d'audit de 2006
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a approuvé le Rapport d'audit de 2006 et a demandé à son Président et au Directeur du BIML de le soumettre à la Treizième Conférence en 2008.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le comité a pris note du rapport rendu par le Directeur du BIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/3.3
-    doi: "10.63493/resolutions/ciml20073.3"
-    urn: "urn:oiml:doc:ciml:resolution:2007-3.3"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Financial report for 2006 and estimates for 2007
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of the report given by the BIML Director.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/3.4
-    doi: "10.63493/resolutions/ciml20073.4"
-    urn: "urn:oiml:doc:ciml:resolution:2007-3.4"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Elements for the 2009-2012 budget
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          The Committee approved the orientations presented by the Bureau and instructed the Director to prepare a draft budget on these lines, taking account of the comments expressed and of comments that Member States are invited to send to the Bureau no later than 31 December 2007.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Éléments du budget 2009-2012"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a approuvé les orientations présentées par le Bureau et a chargé le Directeur de préparer un projet de budget pour celles-ci, en tenant compte des remarques exprimées et des remarques que les États Membres sont invités à envoyer au Bureau avant le 31 décembre 2007.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/3.5
-    doi: "10.63493/resolutions/ciml20073.5"
-    urn: "urn:oiml:doc:ciml:resolution:2007-3.5"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Pension scheme
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          The Committee approved the orientations proposed by the Director of the Bureau and instructed him to prepare a draft revision of the OIML Staff Regulations based on these orientations, to be submitted to the CIML for approval at its 43rd Meeting.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Système de retraite"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a approuvé les orientations proposées par le Directeur du Bureau et l'a chargé de préparer un projet de révision du Règlement du Personnel de l'OIML à partir de ces orientations ; le projet doit être soumis à l'approbation du CIML lors de sa 43ème Réunion.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/4
-    doi: "10.63493/resolutions/ciml200704"
-    urn: "urn:oiml:doc:ciml:resolution:2007-04"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Presidential Council activities
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Activités du Conseil de la Présidence"
-      subject: CIML
-  - identifier: CIML/2007/4.1
-    doi: "10.63493/resolutions/ciml20074.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-4.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Report on Presidential Council activities
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of an oral report presented by the CIML President.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Rapport relatif aux activités du Conseil de la Présidence"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport oral présenté par le Président du CIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/4.2
-    doi: "10.63493/resolutions/ciml20074.2"
-    urn: "urn:oiml:doc:ciml:resolution:2007-4.2"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Long Term Strategy and
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Stratégie à long terme et"
-      subject: CIML
-  - identifier: CIML/2007/4.3
-    doi: "10.63493/resolutions/ciml20074.3"
-    urn: "urn:oiml:doc:ciml:resolution:2007-4.3"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Action Plan
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee examined the Action Plan and instructed the CIML President to finalize and approve it on its behalf, taking account of the comments made at this Meeting and of any further comments that could be sent in by CIML Members no later than 31 December 2007.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Plan d'Action
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a examiné le Plan d'Action et a chargé le Président du CIML de le finaliser et l'approuver en son nom, en tenant compte des remarques formulées lors de la présente Réunion, ainsi que des remarques supplémentaires qui pourront être envoyées par les Membres du CIML avant le 31 décembre 2007.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/5
-    doi: "10.63493/resolutions/ciml200705"
-    urn: "urn:oiml:doc:ciml:resolution:2007-05"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Developing Country activities
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Activités des Pays en Développement"
-      subject: CIML
-  - identifier: CIML/2007/5.1
-    doi: "10.63493/resolutions/ciml20075.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-5.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Report on PWGDC and JCDCMAS activities
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of presentations given by Mr. Dunmill and Dr. Seiler and instructed the Bureau to prepare, with Dr. Seiler, a procedure to identify and reward exemplary actions carried out by Developing Countries for the progress of legal metrology. This procedure will be submitted to the CIML for approval.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Rapport relatif aux activités du PWGDC et du JCDCMAS"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note des exposés de M. Dunmill et du Docteur Seiler et a chargé le Bureau de préparer, avec le Docteur Seiler, une procédure visant à identifier et récompenser les actions exemplaires accomplies par les Pays en Développement pour l'avancée de la métrologie légale. Cette procédure sera soumise à l'approbation du CIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/5.2
-    doi: "10.63493/resolutions/ciml20075.2"
-    urn: "urn:oiml:doc:ciml:resolution:2007-5.2"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Report on the D1 Seminar
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report on the Seminar held on Tuesday 23 and expressed its thanks to Dr. Seiler for organizing and chairing it.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Rapport relatif au Séminaire D 1"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport relatif au Séminaire qui s'est tenu le mardi 23 et a exprimé ses remerciements au Docteur Seiler pour l'avoir organisé et présidé.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/6
-    doi: "10.63493/resolutions/ciml200706"
-    urn: "urn:oiml:doc:ciml:resolution:2007-06"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Liaisons
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: Liaisons
-      subject: CIML
-  - identifier: CIML/2007/6.1
-    doi: "10.63493/resolutions/ciml20076.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-6.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Presentation by the Bureau on liaison activities and joint actions
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report given by the BIML Director on Liaison activities with other Organizations and instructed the CIML President to sign the extension of the existing ILAC-OIML MoU to also include the IAF.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          The Committee asked the CIML President to monitor and update, if necessary, the joint working programs with the BIPM, ILAC and IAF.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Exposé par le Bureau concernant les activités en liaison et les actions communes"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport donné par le Directeur du BIML sur les Activités en liaison avec d'autres Organisations et a chargé le Président du CIML de signer la reconduction du MoU existant entre l'ILAC et l'OIML afin d'inclure également l'IAF.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le Comité a demandé au Président du CIML de surveiller et mettre à jour si nécessaire les programmes de travail communs avec le BIPM, l'ILAC et l'IAF.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/6.2
-    doi: "10.63493/resolutions/ciml20076.2"
-    urn: "urn:oiml:doc:ciml:resolution:2007-6.2"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Updates by Liaison Organizations
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a presentation given by Mr. Stoll, CECIP.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Rapports par les Organisations en Liaison
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris notre d'un exposé de M. Stoll du CECIP.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/6.3
-    doi: "10.63493/resolutions/ciml20076.3"
-    urn: "urn:oiml:doc:ciml:resolution:2007-6.3"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Report on the RLMO Round Table and Conformity to Type Working Group
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report given by the BIML Director on the RLMO Round Table, noted that presentations given by RLMOs were posted on the OIML web site and agreed to set up a working group on funding resources, chaired by Mr. Carstens.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: instructs
-        message: |
-          The Committee instructed the Bureau to:
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          The Committee took note of a report given by the BIML Director on the CTT WG and instructed the BIML to draw up draft terms of reference for a study on conformity to type.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Rapport concernant la Table Ronde des RLMO et le Groupe de Travail sur la Conformité au Type"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport présenté par le Directeur du BIML concernant la Table Ronde des organisations régionales de métrologie légale (RLMO), a noté que les exposés effectués par les RLMO ont été mis en ligne sur le site web de l'OIML et a accepté de mettre en place un groupe de travail sur les ressources de financement, présidé par M. Carstens.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport présenté par le Directeur du BIML concernant le Groupe de Travail sur la Conformité au Type et a chargé le BIML de rédiger un projet de termes de référence pour une étude sur la conformité au type.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/6.4
-    doi: "10.63493/resolutions/ciml20076.4"
-    urn: "urn:oiml:doc:ciml:resolution:2007-6.4"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: MID Tables
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a presentation given by the BIML Director and instructed the Bureau to continue its cooperation with WELMEC on this issue, and requested the European participants of the appropriate TCs/SCs, to draw up the first draft tables of correspondence with the MID requirements as soon as a Recommendation reaches DR status.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Tableaux de la MID (directive européenne sur les instruments de mesure)"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un exposé du Directeur du BIML et a chargé le Bureau de continuer sa coopération avec WELMEC concernant ce point. Le Comité a également demandé aux participants européens des TC/SC concernés de rédiger les premiers projets de tableaux de correspondance avec les exigences de la MID dès qu'une Recommandation reçoit le statut de DR (Draft Recommendation).
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/7
-    doi: "10.63493/resolutions/ciml200707"
-    urn: "urn:oiml:doc:ciml:resolution:2007-07"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: BIML activities
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Activités du BIML"
-      subject: CIML
-  - identifier: CIML/2007/7.1
-    doi: "10.63493/resolutions/ciml20077.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-7.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Report on BIML activities for 2006-2007
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report given by the BIML Director.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Rapport sur les activités du BIML en 2006-2007"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport présenté par le Directeur du BIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/7.2
-    doi: "10.63493/resolutions/ciml20077.2"
-    urn: "urn:oiml:doc:ciml:resolution:2007-7.2"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: "Communication, web site"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a presentation given by Mr. Pulham, notably concerning the advancement of joint BIPM-OIML projects, developments in the interactive parts of the web site, and future developments envisaged in this domain.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          The Committee reiterated its request to CIML Members to make extensive and timely use of the online facilities for voting and commenting on drafts, and updating information.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Communication, site Internet"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un exposé effectué par M. Pulham, concernant notamment l'avancée des projets communs entre le BIPM et l'OIML, les développements des parties interactives du site Internet et les futurs développements envisagés dans ce domaine.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le Comité a réitéré sa demande aux Membres du CIML d'utiliser largement et régulièrement le site Internet pour voter sur les projets, y apporter des remarques et mettre à jour leurs informations.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/8
-    doi: "10.63493/resolutions/ciml200708"
-    urn: "urn:oiml:doc:ciml:resolution:2007-08"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Technical activities
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Activités techniques"
-      subject: CIML
-  - identifier: CIML/2007/8.1
-    doi: "10.63493/resolutions/ciml20078.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-8.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Approval of International Recommendations and Documents
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          The Committee approved the following Publications:
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Approbation des Documents et Recommandations Internationaux
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          ## Le Comité a approuvé les Publications suivantes :
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/8.2
-    doi: "10.63493/resolutions/ciml20078.2"
-    urn: "urn:oiml:doc:ciml:resolution:2007-8.2"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Proposals regarding TC/SC work
-      subject: CIML
-      actions:
-      - type: approves
-        message: |
-          The Committee approved:
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Proposition concernant le travail des TC/SC
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a approuvé :
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/8.3
-    doi: "10.63493/resolutions/ciml20078.3"
-    urn: "urn:oiml:doc:ciml:resolution:2007-8.3"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: MAA
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report given by Ms. Gaucher on the progress of the MAA implementation.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          The Committee strongly encouraged Member States and Corresponding Members to participate in the DoMCs.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: instructs
-        message: |
-          The Committee instructed TC 3/SC 5 to take account of comments expressed during the Meeting in the revision of B3 and B10.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: MAA
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport présenté par Mme Gaucher concernant l'avancée de la mise en œuvre de la MAA.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le Comité a encouragé fortement les États Membres et les Membres Correspondants à participer aux DoMC.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le Comité a chargé le TC 3/SC 5 de prendre en compte les remarques exprimées au cours de la Réunion qui concernent la révision des B 3 et B 10.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/8.4
-    doi: "10.63493/resolutions/ciml20078.4"
-    urn: "urn:oiml:doc:ciml:resolution:2007-8.4"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Nature of OIML Publications and the Guide for CIML Members
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a presentation given by Mr. Kool concerning the two Guides:
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: Nature des Publications de l'OIML et Guide pour les Membres du CIML
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un exposé présenté par M. Kool ayant trait aux deux Guides :
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/8.5
-    doi: "10.63493/resolutions/ciml20078.5"
-    urn: "urn:oiml:doc:ciml:resolution:2007-8.5"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Progress on the revision of the Directives
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report given by Mr. Dunmill on the progress in the revision of the Directives for Technical Work.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Avancée concernant la révision des Directives"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport présenté par M. Dunmill concernant l'avancée de la révision des Directives pour les travaux techniques de l'OIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/8.6
-    doi: "10.63493/resolutions/ciml20078.6"
-    urn: "urn:oiml:doc:ciml:resolution:2007-8.6"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Training sessions for OIML TC/SC Secretariats
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of information given by Ms. Gaucher on training sessions for those responsible for TC/SC Secretariats and on the development of training material for one-day training sessions to be organized by CIML Members.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Sessions de formation pour les Secrétariats TC/SC de l'OIML"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note des informations présentées par Mme Gaucher concernant d'une part, les sessions de formation des responsables des Secrétariats des TC/SC et d'autre part, le développement d'outils de formation pour des sessions de formation d'une journée à organiser par les Membres du CIML.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/9
-    doi: "10.63493/resolutions/ciml200709"
-    urn: "urn:oiml:doc:ciml:resolution:2007-09"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Human resource matters
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: Questions relatives aux ressources humaines
-      subject: CIML
-  - identifier: CIML/2007/9.1
-    doi: "10.63493/resolutions/ciml20079.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-9.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Dispute related to the dismissal of a BIML Secretary
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee took note of a report given by the BIML Director on a dispute concerning a dismissal.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: instructs
-        message: |
-          The Committee instructed the Bureau to undertake a review of the legal aspects of the BIML Staff Regulations with the assistance of a competent legal counsel.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Litige relatif au licenciement d'un Secrétaire du BIML"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a pris note d'un rapport présenté par le Directeur du BIML sur un litige relatif à un licenciement.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-      - type: notes
-        message: |
-          Le Comité a chargé le Bureau d'entreprendre un examen des aspects juridiques du Règlement du Personnel du BIML en se faisant aider par un conseiller juridique compétent.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/10
-    doi: "10.63493/resolutions/ciml200710"
-    urn: "urn:oiml:doc:ciml:resolution:2007-10"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Future meetings
-      subject: CIML
-    - language_code: fra
-      script: Latn
-      title: "Réunions à venir"
-      subject: CIML
-  - identifier: CIML/2007/10.1
-    doi: "10.63493/resolutions/ciml200710.1"
-    urn: "urn:oiml:doc:ciml:resolution:2007-10.1"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: "13th Conference and 43rd CIML Meeting (2008)"
-      subject: CIML
-      actions:
-      - type: thanks
-        message: |
-          The Committee thanked Australia for presenting the venue at which the 13th Conference and 43rd CIML Meeting will be held in Sydney in 2008.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "$ 1 3^{\\mathrm{\\mathrm"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a remercié l'Australie pour sa présentation des lieux où seront organisées la 13ème conférence et la 43ème Réunion du CIML à Sydney en 2008.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/10.2
-    doi: "10.63493/resolutions/ciml200710.2"
-    urn: "urn:oiml:doc:ciml:resolution:2007-10.2"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: "44th CIML Meeting (2009)"
-      subject: CIML
-      actions:
-      - type: thanks
-        message: |
-          The Committee thanked Kenya for its invitation to hold the 44th CIML Meeting in 2009, and accepted.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "$ 4 4^{\\mathrm{e m e}} $ Réunion du CIML (2009)"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a remercié le Kenya pour son invitation à organiser la 44eme Réunion du CIML en 2009, et I'a acceptée.
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-  - identifier: CIML/2007/12
-    doi: "10.63493/resolutions/ciml200712"
-    urn: "urn:oiml:doc:ciml:resolution:2007-12"
-    dates:
-    - start: '2007-10-24'
-      kind: decision
-    localizations:
-    - language_code: eng
-      script: Latn
-      title: Awards
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          The Committee made Awards to the following individuals in recognition of their outstanding contribution to legal metrology:
-        dates:
-        - start: '2007-10-24'
-          kind: effective
-    - language_code: fra
-      script: Latn
-      title: "Récompenses"
-      subject: CIML
-      actions:
-      - type: notes
-        message: |
-          Le Comité a récompensé les personnes suivantes en reconnaissance de leur importante contribution à la métrologie légale :
-        dates:
-        - start: '2007-10-24'
-          kind: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/1
+  doi: 10.63493/resolutions/ciml200701
+  urn: urn:oiml:doc:ciml:resolution:2007-01
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Approval of the minutes of the 41st CIML Meeting
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'The Committee approved the minutes of the 41st CIML Meeting without
+        modification.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Approbation du Compte Rendu de la 41<sup>ème</sup> Réunion du CIML
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a approuvé le Compte Rendu de la 41eme Réunion du CIML sans
+        y apporter de modification.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/2
+  doi: 10.63493/resolutions/ciml200702
+  urn: urn:oiml:doc:ciml:resolution:2007-02
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Member States and Corresponding Members
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: États Membres et Membres Correspondants
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/2.1
+  doi: 10.63493/resolutions/ciml20072.1
+  urn: urn:oiml:doc:ciml:resolution:2007-2.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Situation of certain Members
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee noted that two additional Corresponding Members (United
+        Arab Emirates and Sudan) had joined the OIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Situation de certains Membres
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note de l''adhésion à l''OIML de deux Membres Correspondants
+        supplémentaires (les Émirats Arabes Unis et le Soudan).
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/3
+  doi: 10.63493/resolutions/ciml200703
+  urn: urn:oiml:doc:ciml:resolution:2007-03
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Financial matters
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Questions financières
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/3.1
+  doi: 10.63493/resolutions/ciml20073.1
+  urn: urn:oiml:doc:ciml:resolution:2007-3.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Adoption of the Auditor's report for 2006
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'The Committee approved the Auditor''s report for 2006 and requested
+        its President and the BIML Director to submit it to the Thirteenth Conference
+        in 2008.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Adoption du Rapport d'audit de 2006
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a approuvé le Rapport d''audit de 2006 et a demandé à son
+        Président et au Directeur du BIML de le soumettre à la Treizième Conférence
+        en 2008.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le comité a pris note du rapport rendu par le Directeur du BIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/3.3
+  doi: 10.63493/resolutions/ciml20073.3
+  urn: urn:oiml:doc:ciml:resolution:2007-3.3
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Financial report for 2006 and estimates for 2007
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of the report given by the BIML Director.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/3.4
+  doi: 10.63493/resolutions/ciml20073.4
+  urn: urn:oiml:doc:ciml:resolution:2007-3.4
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Elements for the 2009-2012 budget
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'The Committee approved the orientations presented by the Bureau and
+        instructed the Director to prepare a draft budget on these lines, taking account
+        of the comments expressed and of comments that Member States are invited to
+        send to the Bureau no later than 31 December 2007.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Éléments du budget 2009-2012
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a approuvé les orientations présentées par le Bureau et
+        a chargé le Directeur de préparer un projet de budget pour celles-ci, en tenant
+        compte des remarques exprimées et des remarques que les États Membres sont
+        invités à envoyer au Bureau avant le 31 décembre 2007.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/3.5
+  doi: 10.63493/resolutions/ciml20073.5
+  urn: urn:oiml:doc:ciml:resolution:2007-3.5
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Pension scheme
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'The Committee approved the orientations proposed by the Director of
+        the Bureau and instructed him to prepare a draft revision of the OIML Staff
+        Regulations based on these orientations, to be submitted to the CIML for approval
+        at its 43rd Meeting.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Système de retraite
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a approuvé les orientations proposées par le Directeur du
+        Bureau et l''a chargé de préparer un projet de révision du Règlement du Personnel
+        de l''OIML à partir de ces orientations ; le projet doit être soumis à l''approbation
+        du CIML lors de sa 43ème Réunion.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/4
+  doi: 10.63493/resolutions/ciml200704
+  urn: urn:oiml:doc:ciml:resolution:2007-04
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Presidential Council activities
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Activités du Conseil de la Présidence
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/4.1
+  doi: 10.63493/resolutions/ciml20074.1
+  urn: urn:oiml:doc:ciml:resolution:2007-4.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Report on Presidential Council activities
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of an oral report presented by the CIML President.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Rapport relatif aux activités du Conseil de la Présidence
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport oral présenté par le Président
+        du CIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/4.2
+  doi: 10.63493/resolutions/ciml20074.2
+  urn: urn:oiml:doc:ciml:resolution:2007-4.2
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Long Term Strategy and
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Stratégie à long terme et
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/4.3
+  doi: 10.63493/resolutions/ciml20074.3
+  urn: urn:oiml:doc:ciml:resolution:2007-4.3
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Action Plan
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee examined the Action Plan and instructed the CIML President
+        to finalize and approve it on its behalf, taking account of the comments made
+        at this Meeting and of any further comments that could be sent in by CIML
+        Members no later than 31 December 2007.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Plan d'Action
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a examiné le Plan d''Action et a chargé le Président du
+        CIML de le finaliser et l''approuver en son nom, en tenant compte des remarques
+        formulées lors de la présente Réunion, ainsi que des remarques supplémentaires
+        qui pourront être envoyées par les Membres du CIML avant le 31 décembre 2007.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/5
+  doi: 10.63493/resolutions/ciml200705
+  urn: urn:oiml:doc:ciml:resolution:2007-05
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Developing Country activities
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Activités des Pays en Développement
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/5.1
+  doi: 10.63493/resolutions/ciml20075.1
+  urn: urn:oiml:doc:ciml:resolution:2007-5.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Report on PWGDC and JCDCMAS activities
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of presentations given by Mr. Dunmill and
+        Dr. Seiler and instructed the Bureau to prepare, with Dr. Seiler, a procedure
+        to identify and reward exemplary actions carried out by Developing Countries
+        for the progress of legal metrology. This procedure will be submitted to the
+        CIML for approval.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Rapport relatif aux activités du PWGDC et du JCDCMAS
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note des exposés de M. Dunmill et du Docteur Seiler
+        et a chargé le Bureau de préparer, avec le Docteur Seiler, une procédure visant
+        à identifier et récompenser les actions exemplaires accomplies par les Pays
+        en Développement pour l''avancée de la métrologie légale. Cette procédure
+        sera soumise à l''approbation du CIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/5.2
+  doi: 10.63493/resolutions/ciml20075.2
+  urn: urn:oiml:doc:ciml:resolution:2007-5.2
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Report on the D1 Seminar
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report on the Seminar held on Tuesday
+        23 and expressed its thanks to Dr. Seiler for organizing and chairing it.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Rapport relatif au Séminaire D 1
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport relatif au Séminaire qui s''est
+        tenu le mardi 23 et a exprimé ses remerciements au Docteur Seiler pour l''avoir
+        organisé et présidé.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/6
+  doi: 10.63493/resolutions/ciml200706
+  urn: urn:oiml:doc:ciml:resolution:2007-06
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Liaisons
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Liaisons
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/6.1
+  doi: 10.63493/resolutions/ciml20076.1
+  urn: urn:oiml:doc:ciml:resolution:2007-6.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Presentation by the Bureau on liaison activities and joint actions
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report given by the BIML Director on
+        Liaison activities with other Organizations and instructed the CIML President
+        to sign the extension of the existing ILAC-OIML MoU to also include the IAF.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'The Committee asked the CIML President to monitor and update, if necessary,
+        the joint working programs with the BIPM, ILAC and IAF.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Exposé par le Bureau concernant les activités en liaison et les actions
+      communes
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport donné par le Directeur du BIML
+        sur les Activités en liaison avec d''autres Organisations et a chargé le Président
+        du CIML de signer la reconduction du MoU existant entre l''ILAC et l''OIML
+        afin d''inclure également l''IAF.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le Comité a demandé au Président du CIML de surveiller et mettre à
+        jour si nécessaire les programmes de travail communs avec le BIPM, l''ILAC
+        et l''IAF.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/6.2
+  doi: 10.63493/resolutions/ciml20076.2
+  urn: urn:oiml:doc:ciml:resolution:2007-6.2
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Updates by Liaison Organizations
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a presentation given by Mr. Stoll, CECIP.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Rapports par les Organisations en Liaison
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris notre d''un exposé de M. Stoll du CECIP.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/6.3
+  doi: 10.63493/resolutions/ciml20076.3
+  urn: urn:oiml:doc:ciml:resolution:2007-6.3
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Report on the RLMO Round Table and Conformity to Type Working Group
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report given by the BIML Director on
+        the RLMO Round Table, noted that presentations given by RLMOs were posted
+        on the OIML web site and agreed to set up a working group on funding resources,
+        chaired by Mr. Carstens.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: instructs
+      message: 'The Committee instructed the Bureau to:
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'The Committee took note of a report given by the BIML Director on
+        the CTT WG and instructed the BIML to draw up draft terms of reference for
+        a study on conformity to type.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Rapport concernant la Table Ronde des RLMO et le Groupe de Travail sur
+      la Conformité au Type
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport présenté par le Directeur du BIML
+        concernant la Table Ronde des organisations régionales de métrologie légale
+        (RLMO), a noté que les exposés effectués par les RLMO ont été mis en ligne
+        sur le site web de l''OIML et a accepté de mettre en place un groupe de travail
+        sur les ressources de financement, présidé par M. Carstens.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport présenté par le Directeur du BIML
+        concernant le Groupe de Travail sur la Conformité au Type et a chargé le BIML
+        de rédiger un projet de termes de référence pour une étude sur la conformité
+        au type.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/6.4
+  doi: 10.63493/resolutions/ciml20076.4
+  urn: urn:oiml:doc:ciml:resolution:2007-6.4
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: MID Tables
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a presentation given by the BIML Director
+        and instructed the Bureau to continue its cooperation with WELMEC on this
+        issue, and requested the European participants of the appropriate TCs/SCs,
+        to draw up the first draft tables of correspondence with the MID requirements
+        as soon as a Recommendation reaches DR status.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Tableaux de la MID (directive européenne sur les instruments de mesure)
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un exposé du Directeur du BIML et a chargé
+        le Bureau de continuer sa coopération avec WELMEC concernant ce point. Le
+        Comité a également demandé aux participants européens des TC/SC concernés
+        de rédiger les premiers projets de tableaux de correspondance avec les exigences
+        de la MID dès qu''une Recommandation reçoit le statut de DR (Draft Recommendation).
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/7
+  doi: 10.63493/resolutions/ciml200707
+  urn: urn:oiml:doc:ciml:resolution:2007-07
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: BIML activities
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Activités du BIML
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/7.1
+  doi: 10.63493/resolutions/ciml20077.1
+  urn: urn:oiml:doc:ciml:resolution:2007-7.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Report on BIML activities for 2006-2007
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report given by the BIML Director.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Rapport sur les activités du BIML en 2006-2007
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport présenté par le Directeur du BIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/7.2
+  doi: 10.63493/resolutions/ciml20077.2
+  urn: urn:oiml:doc:ciml:resolution:2007-7.2
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Communication, web site
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a presentation given by Mr. Pulham, notably
+        concerning the advancement of joint BIPM-OIML projects, developments in the
+        interactive parts of the web site, and future developments envisaged in this
+        domain.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'The Committee reiterated its request to CIML Members to make extensive
+        and timely use of the online facilities for voting and commenting on drafts,
+        and updating information.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Communication, site Internet
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un exposé effectué par M. Pulham, concernant
+        notamment l''avancée des projets communs entre le BIPM et l''OIML, les développements
+        des parties interactives du site Internet et les futurs développements envisagés
+        dans ce domaine.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le Comité a réitéré sa demande aux Membres du CIML d''utiliser largement
+        et régulièrement le site Internet pour voter sur les projets, y apporter des
+        remarques et mettre à jour leurs informations.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8
+  doi: 10.63493/resolutions/ciml200708
+  urn: urn:oiml:doc:ciml:resolution:2007-08
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Technical activities
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Activités techniques
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8.1
+  doi: 10.63493/resolutions/ciml20078.1
+  urn: urn:oiml:doc:ciml:resolution:2007-8.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Approval of International Recommendations and Documents
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'The Committee approved the following Publications:
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Approbation des Documents et Recommandations Internationaux
+    subject: CIML
+    actions:
+    - type: remarks
+      message: "## Le Comité a approuvé les Publications suivantes :\n"
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8.2
+  doi: 10.63493/resolutions/ciml20078.2
+  urn: urn:oiml:doc:ciml:resolution:2007-8.2
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Proposals regarding TC/SC work
+    subject: CIML
+    actions:
+    - type: approves
+      message: 'The Committee approved:
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Proposition concernant le travail des TC/SC
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a approuvé :
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8.3
+  doi: 10.63493/resolutions/ciml20078.3
+  urn: urn:oiml:doc:ciml:resolution:2007-8.3
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: MAA
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report given by Ms. Gaucher on the progress
+        of the MAA implementation.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'The Committee strongly encouraged Member States and Corresponding
+        Members to participate in the DoMCs.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: instructs
+      message: 'The Committee instructed TC 3/SC 5 to take account of comments expressed
+        during the Meeting in the revision of B3 and B10.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: MAA
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport présenté par Mme Gaucher concernant
+        l''avancée de la mise en œuvre de la MAA.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le Comité a encouragé fortement les États Membres et les Membres Correspondants
+        à participer aux DoMC.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le Comité a chargé le TC 3/SC 5 de prendre en compte les remarques
+        exprimées au cours de la Réunion qui concernent la révision des B 3 et B 10.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8.4
+  doi: 10.63493/resolutions/ciml20078.4
+  urn: urn:oiml:doc:ciml:resolution:2007-8.4
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Nature of OIML Publications and the Guide for CIML Members
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a presentation given by Mr. Kool concerning
+        the two Guides:
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Nature des Publications de l'OIML et Guide pour les Membres du CIML
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un exposé présenté par M. Kool ayant trait
+        aux deux Guides :
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8.5
+  doi: 10.63493/resolutions/ciml20078.5
+  urn: urn:oiml:doc:ciml:resolution:2007-8.5
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Progress on the revision of the Directives
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report given by Mr. Dunmill on the progress
+        in the revision of the Directives for Technical Work.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Avancée concernant la révision des Directives
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport présenté par M. Dunmill concernant
+        l''avancée de la révision des Directives pour les travaux techniques de l''OIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/8.6
+  doi: 10.63493/resolutions/ciml20078.6
+  urn: urn:oiml:doc:ciml:resolution:2007-8.6
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Training sessions for OIML TC/SC Secretariats
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of information given by Ms. Gaucher on training
+        sessions for those responsible for TC/SC Secretariats and on the development
+        of training material for one-day training sessions to be organized by CIML
+        Members.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Sessions de formation pour les Secrétariats TC/SC de l'OIML
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note des informations présentées par Mme Gaucher
+        concernant d''une part, les sessions de formation des responsables des Secrétariats
+        des TC/SC et d''autre part, le développement d''outils de formation pour des
+        sessions de formation d''une journée à organiser par les Membres du CIML.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/9
+  doi: 10.63493/resolutions/ciml200709
+  urn: urn:oiml:doc:ciml:resolution:2007-09
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Human resource matters
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Questions relatives aux ressources humaines
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/9.1
+  doi: 10.63493/resolutions/ciml20079.1
+  urn: urn:oiml:doc:ciml:resolution:2007-9.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Dispute related to the dismissal of a BIML Secretary
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee took note of a report given by the BIML Director on
+        a dispute concerning a dismissal.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: instructs
+      message: 'The Committee instructed the Bureau to undertake a review of the legal
+        aspects of the BIML Staff Regulations with the assistance of a competent legal
+        counsel.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Litige relatif au licenciement d'un Secrétaire du BIML
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a pris note d''un rapport présenté par le Directeur du BIML
+        sur un litige relatif à un licenciement.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+    - type: remarks
+      message: 'Le Comité a chargé le Bureau d''entreprendre un examen des aspects
+        juridiques du Règlement du Personnel du BIML en se faisant aider par un conseiller
+        juridique compétent.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/10
+  doi: 10.63493/resolutions/ciml200710
+  urn: urn:oiml:doc:ciml:resolution:2007-10
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Future meetings
+    subject: CIML
+  - language_code: fra
+    script: Latn
+    title: Réunions à venir
+    subject: CIML
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/10.1
+  doi: 10.63493/resolutions/ciml200710.1
+  urn: urn:oiml:doc:ciml:resolution:2007-10.1
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: 13th Conference and 43rd CIML Meeting (2008)
+    subject: CIML
+    actions:
+    - type: thanks
+      message: 'The Committee thanked Australia for presenting the venue at which
+        the 13th Conference and 43rd CIML Meeting will be held in Sydney in 2008.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: "$ 1 3^{\\mathrm{\\mathrm"
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a remercié l''Australie pour sa présentation des lieux où
+        seront organisées la 13ème conférence et la 43ème Réunion du CIML à Sydney
+        en 2008.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/10.2
+  doi: 10.63493/resolutions/ciml200710.2
+  urn: urn:oiml:doc:ciml:resolution:2007-10.2
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: 44th CIML Meeting (2009)
+    subject: CIML
+    actions:
+    - type: thanks
+      message: 'The Committee thanked Kenya for its invitation to hold the 44th CIML
+        Meeting in 2009, and accepted.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: "$ 4 4^{\\mathrm{e m e}} $ Réunion du CIML (2009)"
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a remercié le Kenya pour son invitation à organiser la 44eme
+        Réunion du CIML en 2009, et I''a acceptée.
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution
+- identifier:
+  - prefix: CIML
+    number: 2007/12
+  doi: 10.63493/resolutions/ciml200712
+  urn: urn:oiml:doc:ciml:resolution:2007-12
+  dates:
+  - date: '2007-10-24'
+    type: adoption
+  localizations:
+  - language_code: eng
+    script: Latn
+    title: Awards
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'The Committee made Awards to the following individuals in recognition
+        of their outstanding contribution to legal metrology:
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  - language_code: fra
+    script: Latn
+    title: Récompenses
+    subject: CIML
+    actions:
+    - type: remarks
+      message: 'Le Comité a récompensé les personnes suivantes en reconnaissance de
+        leur importante contribution à la métrologie légale :
+
+        '
+      date_effective:
+        date: '2007-10-24'
+        type: adoption
+  type: resolution

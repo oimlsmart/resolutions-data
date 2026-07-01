@@ -6,6 +6,8 @@ import {
   buildResolutionRecord,
   buildMeetingDoi,
   bodyTypeFromSourceFile,
+  meetingDateOf,
+  meetingDateEndOf,
   sortResolutions,
 } from './lib/transforms.mjs';
 
@@ -44,9 +46,8 @@ function main() {
     const metadata = parsed.metadata || {}
 
     if (!meetingsMap.has(source_file)) {
-      const dates = metadata.dates || []
-      const dateRange = dates[0] || {}
-      const meetingDate = dateRange.start || ''
+      const meetingDate = meetingDateOf(metadata)
+      const dateEnd = meetingDateEndOf(metadata)
       const year = meetingDate ? meetingDate.substring(0, 4) : ''
       const sourceUrls = metadata.source_urls || []
       const titleLocalized = metadata.title_localized || []
@@ -57,9 +58,8 @@ function main() {
         source_title: metadata.title || '',
         title_localized: titleLocalized,
         meeting_date: meetingDate,
-        date_start: dateRange.start || '',
-        date_end: dateRange.end || '',
-        venue: metadata.venue || '',
+        date_start: meetingDate,
+        date_end: dateEnd,
         city: metadata.city || '',
         city_code: /^[A-Z]{3}$/.test(metadata.city || '') ? metadata.city : '',
         country_code: metadata.country_code || '',

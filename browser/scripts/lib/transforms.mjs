@@ -90,16 +90,53 @@ export function toLang6391(code) {
 }
 
 /**
+ * Extract the canonical identifier string ("CIML/2023/05") from a
+ * Resolution. Accepts both the canonical Edoxen v2 shape
+ * (identifier: [{prefix, number}]) and the legacy scalar form.
+ */
+export function identifierOf(res) {
+  const ident = res.identifier
+  if (Array.isArray(ident) && ident.length > 0) {
+    const first = ident[0]
+    if (!first) return ''
+    if (first.prefix && first.number) return `${first.prefix}/${first.number}`
+    return String(first.number || '')
+  }
+  return String(ident || '')
+}
+
+/**
+ * Pick the meeting date (ISO 8601) off a ResolutionMetadata. Newer
+ * Edoxen v2 metadata carries a single `date` string; older builds
+ * also accepted `dates[]` for back-compat.
+ */
+export function meetingDateOf(metadata) {
+  if (!metadata) return ''
+  if (metadata.date) return metadata.date
+  const dates = metadata.dates
+  if (Array.isArray(dates) && dates.length > 0) {
+    return dates[0]?.start || dates[0]?.date || ''
+  }
+  return ''
+}
+
+export function meetingDateEndOf(metadata) {
+  if (!metadata) return ''
+  const dates = metadata.dates
+  if (Array.isArray(dates) && dates.length > 0) return dates[0]?.end || ''
+  return ''
+}
+
+/**
  * Flatten one (Resolution, Localization) pair into a JSON record.
  * Returns null when neither side carries usable content.
  */
 export function buildResolutionRecord(res, sourceFile, metadata, localization) {
   if (!res || !localization) return null
-  const identifier = String(res.identifier)
+  const identifier = identifierOf(res)
   const acclamation = isAcclamation(identifier)
-  const datesInfo = metadata.dates || []
-  const meetingDate = datesInfo.length > 0 ? datesInfo[0].start : ''
-  const dateEnd = datesInfo.length > 0 ? (datesInfo[0].end || '') : ''
+  const meetingDate = meetingDateOf(metadata)
+  const dateEnd = meetingDateEndOf(metadata)
   const year = meetingDate ? meetingDate.substring(0, 4) : ''
 
   // id is the URL-safe slug (slashes -> dashes) used for routing.
@@ -129,7 +166,6 @@ export function buildResolutionRecord(res, sourceFile, metadata, localization) {
     title: localization.title || '',
     subject: localization.subject || '',
     year,
-    venue: metadata.venue || '',
     city: metadata.city || '',
     country_code: metadata.country_code || '',
     source_file: sourceFile,
@@ -143,8 +179,9 @@ export function buildResolutionRecord(res, sourceFile, metadata, localization) {
     is_acclamation: acclamation,
     actions,
     considerations,
-    approvals: localization.approvals || res.approvals || [],
+    approvals: localization.approvals || [],
     dates: res.dates || [],
+    type: res.type || (sourceFile.includes('-decisions-') ? 'decision' : 'resolution'),
     doi: res.doi || '',
     urn: res.urn || '',
     snippet: normalizeSnippet(

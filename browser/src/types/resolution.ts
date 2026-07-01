@@ -34,15 +34,13 @@ export interface Meeting {
   source_file: string
   source_title: string
   meeting_date: string
-  /** ISO 8601 inclusive start day, from the Edoxen metadata.dates[0].start. */
+  /** ISO 8601 inclusive start day, derived from the Edoxen metadata.date. */
   date_start?: string
-  /** ISO 8601 inclusive end day, from the Edoxen metadata.dates[0].end.
-   *  Empty when the meeting is a single-day session. */
+  /** ISO 8601 inclusive end day. Empty when the meeting is a single-day session. */
   date_end?: string
-  venue: string
-  city: string
   /** IATA city code (3 letters) when the manifest entry uses the code
    *  instead of the raw English city name. Empty otherwise. */
+  city: string
   city_code?: string
   country_code: string
   year: string
@@ -67,7 +65,6 @@ export interface Resolution {
   title: string
   subject: string
   year: string
-  venue: string
   source_file: string
   source_title: string
   source_type?: string
@@ -92,6 +89,8 @@ export interface Resolution {
   approvals: Approval[]
   categories?: string[]
   dates: any[]
+  /** Edoxen ResolutionType: resolution / recommendation / decision / declaration. */
+  type?: string
   snippet: string
   urn?: string
   meeting_urn?: string

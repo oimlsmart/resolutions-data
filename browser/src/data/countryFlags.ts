@@ -11,6 +11,12 @@ function countryCodeToEmoji(code: string): string {
     .replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt(0)))
 }
 
+/** Map an English country name to ISO 3166-1 alpha-2. */
+export function countryNameToCode(countryName: string | undefined | null): string {
+  if (!countryName) return ''
+  return COUNTRY_CODE_MAP[countryName.toLowerCase().trim()] || ''
+}
+
 /** Returns the ISO 3166-1 alpha-2 code for the venue's country, or '' if unknown. */
 export function venueToCountryCode(venue: string | undefined | null): string {
   if (!venue) return ''
@@ -33,4 +39,14 @@ export function venueToFlag(venue: string | undefined | null): string {
 export function countryCodeToFlag(code: string | undefined | null): string {
   if (!code) return ''
   return countryCodeToEmoji(code)
+}
+
+/** Render an emoji flag for a city + ISO country_code pair. Used by
+ *  timeline / list views that don't carry a free-text `venue` string.
+ *  Virtual meetings (empty country_code) return the globe glyph. */
+export function cityToFlag(city: string | undefined | null, countryCode: string | undefined | null): string {
+  if (countryCode) return countryCodeToEmoji(countryCode)
+  if (city && city.toLowerCase().includes('virtual')) return '🌐'
+  // Legacy fallback: treat `city` as a free-text "City, Country" string.
+  return venueToFlag(city || '')
 }
