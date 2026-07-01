@@ -90,28 +90,49 @@ FR_TENS_PREFIX_FULL = {
 
 def parse_french_ordinal(phrase)
   # Normalise: lowercase, strip accents, drop punctuation. Result is
-  # space-separated ASCII words.
-  stripped = phrase.downcase.gsub(/[éèêë]/, "e").gsub(/[^a-z\s]/, "").strip
-  first_word = stripped.split(/\s+/).first.to_s
+  # space-separated ASCII words. Hyphens become spaces so compound
+  # ordinals ("vingt-neuvième") split cleanly.
+  stripped = phrase.downcase.tr("-", " ").gsub(/[éèêë]/, "e").gsub(/[^a-z\s]/, "").strip
+  words = stripped.split(/\s+/).reject { |w| w == "reunion" || w == "meeting" }
+  first_word = words.first.to_s
+  second_word = words[1].to_s
 
-  # 1-19: direct full-word match.
+  # 1-19: direct full-word match on the first word.
   return FR_UNIT_FULL_WORDS[first_word] if FR_UNIT_FULL_WORDS.key?(first_word)
 
-  # 20-99: tens prefix (with optional "ieme" suffix) + optional unit.
-  # The bare tens stem ends in a consonant ("trent", "quarant") - we
-  # match by prefix.
+  # 20-99: tens prefix on first word (with optional "ieme" suffix),
+  # optional unit on second word.
   FR_TENS_PREFIX_FULL.each do |prefix, base|
     next unless first_word.start_with?(prefix)
     rest = first_word[prefix.length..]
+    # Strip trailing "e" (the full tens word ends in "e": "trente",
+    # "quarante", ...). The bare stem ("trent") is what's left after
+    # the prefix; the full word has an extra "e" we should ignore.
+    rest = rest.sub(/\Ae\b/, "")
     # Strip ordinal suffix from rest if present.
     rest = rest.sub(/\A(?:ieme|eme|ime)\z/, "")
+
     if rest.empty?
+      # First word was a bare tens stem (or tens+e). Look for a unit
+      # on the second word — try the ordinal-stem table first (handles
+      # "neuvième", "cinquième", "quatrième" which don't reduce to
+      # bare cardinals by stripping "ieme"), then the bare-cardinal
+      # table. Also handle the "et un" (21, 31, 41, ...) form where
+      # the second word is "et" and the unit is on the third word.
+      if second_word == "et" && words[2]
+        third = words[2].sub(/(?:ieme|eme|ime)\z/, "")
+        return base + 1 if third == "un" || words[2] == "un" || words[2] == "unieme"
+      end
+      if !second_word.empty?
+        return base + FR_ORDINAL_UNIT_STEMS[second_word] if FR_ORDINAL_UNIT_STEMS.key?(second_word)
+        u = second_word.sub(/(?:ieme|eme|ime)\z/, "")
+        return base + FR_UNIT_FR_TO_INT[u] if FR_UNIT_FR_TO_INT.key?(u)
+        return base + FR_UNIT_FR_TO_INT[second_word] if FR_UNIT_FR_TO_INT.key?(second_word)
+      end
       return base
     end
+
     # Compound form: e.g. "trentetroisieme" → 30 + 3.
-    # The suffix list above covers forms like "troisieme", but the
-    # stripped rest may be a unit. Try direct lookup first, then a
-    # second pass that strips a trailing "ieme" suffix.
     if FR_UNIT_FR_TO_INT.key?(rest)
       return base + FR_UNIT_FR_TO_INT[rest]
     end
@@ -129,6 +150,26 @@ FR_UNIT_FR_TO_INT = {
   "six" => 6, "sept" => 7, "huit" => 8, "neuf" => 9, "dix" => 10,
   "onze" => 11, "douze" => 12, "treize" => 13, "quatorze" => 14,
   "quinze" => 15, "seize" => 16,
+}.freeze
+
+# Ordinal-stem unit forms used in compound ordinals like "VINGT-NEUVIÈME"
+# (29), "TRENTE-ET-UNIÈME" (31), "QUARANTE-CINQUIÈME" (45). Some of
+# these stems differ from the bare cardinal (neuf → neuvième, cinq →
+# cinquième, quatre → quatrième) so they need their own lookup.
+FR_ORDINAL_UNIT_STEMS = {
+  "unieme" => 1, "premiere" => 1, "premier" => 1,
+  "deuxieme" => 2,
+  "troisieme" => 3,
+  "quatrieme" => 4,
+  "cinquieme" => 5,
+  "sixieme" => 6,
+  "septieme" => 7,
+  "huitieme" => 8,
+  "neuvieme" => 9,
+  "dixieme" => 10,
+  "onzieme" => 11, "douzieme" => 12, "treizieme" => 13,
+  "quatorzieme" => 14, "quinzieme" => 15, "seizieme" => 16,
+  "dixseptieme" => 17, "dixhuitieme" => 18, "dixneuvieme" => 19,
 }.freeze
 
 def parse_arabic_ordinal(text)
@@ -156,21 +197,32 @@ EN_ORDINAL_RE = /
 
 FR_ORDINAL_RE = %r{
   (?:
-    # 20-99: tens stem + optional trailing "e" (source PDFs may write
-    # the bare stem like "TRENT" in "TRENTIÈME" or the full "trente"
-    # in "trentième"), then optional unit, then ordinal suffix.
+    # 20-99 form A: tens stem + bare unit + ordinal suffix
+    # ("VINGT NEUF IÈME" — rare in source but possible).
     (?:Vingt|Trent|Quarant|Cinquant|Soixant|Septant|Huitant|Nonant)e?
-    (?:[-\s]*
-       (?:et\ un|deux|trois|quatre|cinq|six|sept|huit|neuf|dix|
-        onze|douze|treize|quatorze|quinze|seize|dix-sept|dix-huit|dix-neuf)
+    (?:[\s\-]+
+       (?:et[\s\-]+un
+        |deux|trois|quatre|cinq|six|sept|huit|neuf|dix
+        |onze|douze|treize|quatorze|quinze|seize
+        |dix[\s\-]+sept|dix[\s\-]+huit|dix[\s\-]+neuf)
     )?
     (?:ieme|ième|ème|eme|ime)
     |
-    # 1-19: unit alone. The trailing suffix alternation handles the
-    # accent variants in source PDFs ("ième" vs "ème") plus OCR
-    # spelling drift. Ruby's /i flag handles case folding on the full
-    # word but not within character classes for non-ASCII accents, so
-    # we use explicit alternation instead of [eéè].
+    # 20-99 form B: tens stem + ordinal-suffixed unit (the unit already
+    # carries the ième suffix, as in "VINGT-NEUVIÈME"). The unit
+    # alternation enumerates both accented and unaccented forms because
+    # Ruby's /i flag handles ASCII case folding but not accent removal.
+    (?:Vingt|Trent|Quarant|Cinquant|Soixant|Septant|Huitant|Nonant)e?
+    (?:[\s\-]+
+       (?:unième|unieme|deuxième|deuxieme|troisième|troisieme|quatrième|quatrieme
+        |cinquième|cinquieme|sixième|sixieme|septième|septieme|huitième|huitieme
+        |neuvième|neuvieme|dixième|dixieme|onzième|onzieme|douzième|douzieme
+        |treizième|treizieme|quatorzième|quatorzieme|quinzième|quinzieme
+        |seizième|seizieme|dix-septième|dix-septieme|dix-huitième|dix-huitieme
+        |dix-neuvième|dix-neuvieme)
+    )
+    |
+    # 1-19: unit alone.
     (?:Premier|Première|Deuxième|Deuxieme|Troisième|Troisieme|Quatrième|Quatrieme|
        Cinquième|Cinquieme|Sixième|Sixieme|Septième|Septieme|Huitième|Huitieme|
        Neuvième|Neuvieme|Dixième|Dixieme|Onzième|Onzieme|Douzième|Douzieme|

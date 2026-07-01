@@ -1,0 +1,601 @@
+## 57th CIML Meeting
+
+Online 18-20 October 2022
+
+## RESOLUTIONS
+
+![](page=0,bbox=[585, 1237, 1396, 1707])
+
+![](page=0,bbox=[883, 1905, 1108, 2099])
+
+INTERNATIONAL BUREAU OF LEGAL METROLOGY (BIML) 11, RUE TURGOT-F-75009 PARIS-FRANCE
+
+TEL:33(0)148781282
+
+FAX:33(0)142821727
+
+E-MAIL: biml@oiml.org
+
+INTERNET: www.oiml.org
+
+## FIFTY-SEVENTH MEETING of the INTERNATIONAL COMMITTEE of LEGAL METROLOGY
+
+## Online 18-20 October 2022
+
+## Resolutions
+
+Resolution no. CIML/2022/01
+
+The Committee,
+
+Agenda item 2
+
+Approves the agenda for the 57th CIML Meeting.
+
+Resolution no. CIML/2022/02
+
+Agenda item 3
+
+The Committee,
+
+Approves the minutes of the 56th CIML Meeting, subject to the amendment of the list of participants.
+
+Resolution no. CIML/2022/03
+
+Agenda item 4
+
+The Committee,
+
+Notes the report given by its President.
+
+Resolution no. CIML/2022/04
+
+Agenda item 5
+
+The Committee,
+
+Noting the procedure for the election of the CIML President in OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+
+Selects Dr Bobjoseph Mathew as its President for a six-year term starting during session 1 of the 58th CIML Meeting planned for October 2023.
+
+## Resolution no. CIML/2022/05
+
+Agenda item 5
+
+The Committee,
+
+Noting the procedure for the election of CIML Vice-Presidents in OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+
+Considering the appointment of the CIML Second Vice-President as CIML President with effect from the 58th CIML Meeting planned for 2023, and therefore the need to elect a new CIML Second Vice President,
+
+Instructs the Bureau to circulate a call for candidates for the position of CIML Second Vice-President with a deadline of 31 May 2023, with a view to the CIML appointing a CIML Second Vice-President at the 58th CIML Meeting planned for 2023, with effect from that meeting,
+
+Considering that the CIML First Vice-President's term of office comes to an end at the 59th CIML Meeting in 2024,
+
+Instructs the Bureau to circulate a call for candidates for the position of CIML First Vice-President with a deadline of 31 May 2023, with a view to the CIML appointing a CIML First Vice-President at the 58th CIML Meeting planned in 2023, with effect from the 59th CIML Meeting planned for 2024.
+
+## Resolution no. CIML/2022/06
+
+The Committee,
+
+Agenda item 6
+
+Notes the report given by the BIML Director.
+
+## Resolution no. CIML/2022/07
+
+Agenda item 7
+
+The Committee,
+
+Having regard to section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Having regard to its Resolution CIML/2021/09,
+
+Extends the contract of Mr Paul Dixon as BIML Assistant Director for a five-year term with effect from 1 January 2023.
+
+## Resolution no. CIML/2022/08
+
+Agenda item 8
+
+The Committee,
+
+Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations, and section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Considering that the term of appointment of Mr Anthony Donnellan, BIML Director, expires on 31 December 2023,
+
+Considering the proposal made by its President,
+
+Expresses its expectation that it will resolve to renew the appointment of Mr Anthony Donnellan as BIML Director for a fixed term of up to five years at its meeting in 2023, and
+
+Resolves not to appoint the Selection Committee specified in section 3 of OIML B 13:2004.
+
+## Resolution no. CIML/2022/09
+
+Agenda item 9
+
+The Committee,
+
+Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations, and section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Considering that the term of appointment of Mr Ian Dunmill, BIML Assistant Director, expires on 14 March 2024,
+
+Considering the proposal made by its President,
+
+Expresses its expectation that it will resolve to renew the appointment of Mr Ian Dunmill as BIML Assistant Director for a fixed term of up to five years at its meeting in 2023, and
+
+Resolves not to appoint the Selection Committee specified in section 3 of OIML B 13:2004.
+
+## Resolution no. CIML/2022/10
+
+The Committee,
+
+Agenda item 10.1
+
+Noting the accounts for 2021, the OIML budget summary, and the BIML Director's comments,
+
+Considering the external auditor's report on the 2021 accounts,
+
+Approves the 2021 accounts, and
+
+Instructs its President to present them to the 17th OIML Conference.
+
+## Resolution no. CIML/2022/11
+
+The Committee,
+
+Agenda item 10.2
+
+Notes the report given by the BIML Director,
+
+Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+
+Requests those Members with arrears to bring their situation up to date as soon as possible.
+
+## Resolution no. CIML/2022/12
+
+Agenda item 10.3
+
+The Committee,
+
+Notes the report on the budget forecast for 2022 given by the BIML Director.
+
+## Resolution no. CIML/2022/13
+
+Agenda item 10.4
+
+The Committee,
+
+Notes the report of the internal financial audit team,
+
+Thanks Mrs Mairead Buckley and Dr Bobjoseph Mathew for conducting the financial audit and producing the report,
+
+Acknowledges the conclusions of the report and supports the recommendations contained therein, and Requests that its President and the BIML Director ensure the implementation of these recommendations.
+
+## Resolution no. CIML/2022/14
+
+Agenda item 10.5
+
+The Committee,
+
+Noting the outcome of the tender evaluation panel's considerations, as provided in Addendum 10.5a to the Working Document for the 57th CIML Meeting,
+
+Approves the revision of OIML B 8:2012 OIML Financial Regulations as provided in Addendum 10.5c to the Working Document for the 57th CIML Meeting.
+
+## Resolution no. CIML/2022/15
+
+Agenda item 10.5
+
+The Committee,
+
+Having regard to Article 21.4 of OIML B 8:2012 OIML Financial Regulations,
+
+Noting the recommendation of the tender evaluation panel, as provided in Addendum 10.5a to the Working Document for the 57th CIML Meeting,
+
+Appoints L.G. Audit & Conseils as the OIML independent chartered accountant (external financial auditor) for two calendar years commencing on 1 January 2023, with the option to extend this appointment for two additional calendar years in single annual instalments, subject to satisfactory performance as evaluated at the end of each of these defined periods.
+
+## Resolution no. CIML/2022/16
+
+The Committee,
+
+Agenda item 14.1.1
+
+Approves the Final Draft revision of D 5:1982 Principles for the establishment of hierarchy schemes for measuring instruments, and
+
+Thanks the Project Group conveners and members for their work in completing this project.
+
+## Resolution no. CIML/2022/17
+
+Agenda item 14.1.2
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Reconfirms R 139:2018 Compressed gaseous fuel measuring systems for vehicles.
+
+## Resolution no. CIML/2022/18
+
+Agenda item 14.1.3
+
+The Committee,
+
+Approves the Final Draft revision of D 10:2007 ILAC-G24/OIML D 10 Guidelines for the determination of recalibration intervals of measuring equipment used in testing laboratories, and
+
+Thanks the Project Group convener and members for their work in completing this project.
+
+## Resolution no. CIML/2022/19
+
+Agenda item 14.1.4
+
+The Committee,
+
+Approves the Final Draft revision of B 12:2004 Policy paper on liaisons between the OIML and other bodies, and
+
+Thanks the RLMO RT Chairperson and members for their work in completing this project.
+
+## Resolution no. CIML/2022/20
+
+Agenda item 14.1.5
+
+The Committee,
+
+Approves the Final Draft update of V 1:2013 International vocabulary of terms in legal metrology (VIML) (bilingual French-English) / Vocabulaire international des termes de métrologie légale (VIML) (bilingue français-anglaise), and
+
+Thanks the Project Group conveners and members for their work in completing this project.
+
+## Resolution no. CIML/2022/21
+
+Agenda item 14.1.6
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Decides to accept the proposal to vote on the Final Draft New Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML Certification System at this meeting.
+
+## Resolution no. CIML/2022/22
+
+Agenda item 14.1.6
+
+The Committee,
+
+Approves the Final Draft New Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML Certification System, and
+
+Thanks the Project Group convener and members for their work in completing this project.
+
+## Resolution no. CIML/2022/23
+
+Agenda item 14.2.1
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 5/SC 1, the Revision of OIML D 11:2013 General requirements for measuring instruments - Environmental conditions, to be conducted as specified in the project proposal provided in Addendum 14.2.1 to the Working Document for this meeting.
+
+## Resolution no. CIML/2022/24
+
+Agenda item 14.2.2
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 11, the Revision of OIML R 75:2002 Heat meters, to be conducted as specified in the project proposal provided in Addendum 14.2.2 to the Working Document for this meeting.
+
+## Resolution no. CIML/2022/25
+
+Agenda item 14.2.3
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 8/SC 7, the Revision of OIML R 137:2012 Gas meters, to be conducted as specified in the project proposal provided in Addendum 14.2.3 to the Working Document for this meeting.
+
+## Resolution no. CIML/2022/26
+
+Agenda item 14.2.4
+
+The Committee,
+
+Approves as a new project, under the responsibility of the BIML, the revision of OIML B 6:2019 Directives for OIML technical work - Part 1: Structures and procedures for the development of OIML publications, and Part 2: Guide to the drafting and presentation of OIML publications, to be conducted as specified in the project proposal provided in Addendum 14.2.4 to the Working Document for this meeting, and
+
+Encourages the Project Group to conduct the second stage of this revision in close association with the OIML Digitalisation Task Group.
+
+## Resolution no. CIML/2022/27
+
+Agenda item 14.3
+
+The Committee,
+
+Noting the report on the OIML technical work,
+
+Approves the list of high priority projects as presented in Addendum 14.3 to the Working Document for this meeting, and
+
+Approves the list of high priority publications as presented in Addendum 14.3 to the Working Document for this meeting.
+
+## Resolution no. CIML/2022/28
+
+Agenda item 14.3
+
+The Committee,
+
+Noting the highly efficient and rapid progress on the first stage of the work in Project Group TC 12/p 3 which resulted in the publication of OIML G 22:2022 Electric vehicle supply equipment,
+
+Thanks the convener and the members of the Project Group for their work.
+
+## Resolution no. CIML/2022/29
+
+Agenda item 14.3
+
+The Committee,
+
+Noting the information provided in Addendum 14.3 to the Working Document for this meeting concerning the Project Groups established at the 56th CIML Meeting under TC 18/SC 1 and TC 18/SC 2,
+
+Encourages Members to consider participating in this work to enable progress to be made on these important projects.
+
+## Resolution no. CIML/2022/30
+
+Agenda item 14.4
+
+The Committee,
+
+Notes the report on the current status of OIML activities on e-Learning and other online training,
+
+Welcomes the collaboration with the BIPM on the development of an e-Learning course and other supporting materials relating to OIML D 1:2020 National metrology systems - Developing the institutional and legislative framework, and
+
+Encourages Members to collaborate on e-Learning activities by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
+
+## Resolution no. CIML/2022/31
+
+Agenda item 14.5
+
+The Committee,
+
+Notes the success of the concept of "Mentor" for key topics of the OIML Bulletin,
+
+Thanks those individuals who have been Mentors for recent editions, and those who have already offered to be Mentors for future editions,
+
+Encourages Members to come forward as Mentors for key topics of future editions, and
+
+Renews its support for the OIML Bulletin.
+
+## Resolution no. CIML/2022/32
+
+The Committee,
+
+Agenda item 15.1
+
+Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, and
+
+Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
+
+## Resolution no. CIML/2022/33
+
+The Committee,
+
+Agenda item 15.2
+
+Noting the recommendation from the OIML-CS Management Committee,
+
+Approves the Final Draft revision of OIML B 18:2018 Framework for the OIML Certification System (OIML-CS), and
+
+Thanks the OIML-CS Management Committee and Maintenance Group for their work in completing this project.
+
+## Resolution no. CIML/2022/34
+
+Agenda item 16.1
+
+The Committee,
+
+Recalling section 2, first bullet point, of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS),
+
+Noting the nomination of a candidate from the CEEMS Advisory Group (AG) for the position of CEEMS AG Chairperson,
+
+Noting the information provided by the CEEMS AG Chairperson,
+
+Appoints Mr Jaco Marneweck as CEEMS AG Chairperson for a three-year term with effect from 1 January 2023, and
+
+Thanks Mr Peter Mason for his leadership of the CEEMS AG during his three years as its Chairperson.
+
+## Resolution no. CIML/2022/35
+
+Agenda item 16.1
+
+The Committee,
+
+Recalling section 2, first bullet point, of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS),
+
+Noting the nomination of a candidate from the CEEMS Advisory Group (AG) for the position of CEEMS AG Vice-Chairperson,
+
+Noting the information provided by the CEEMS AG Chairperson,
+
+Appoints Mr HAN Jianping as CEEMS AG Vice-Chairperson for a three-year term with immediate effect, and
+
+Thanks Dr Peter Ulbig for his work as Vice-Chairperson of the CEEMS AG during the period 2019- 2021.
+
+## Resolution no. CIML/2022/36
+
+Agenda item 16.2
+
+The Committee,
+
+Notes the report on the activities of the CEEMS Advisory Group (AG),
+
+Encourages Members to join the CEEMS AG, and
+
+Thanks members of the CEEMS AG for their work.
+
+## Resolution no. CIML/2022/37
+
+Agenda item 16.3
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Decides to accept the proposal to vote on the Final Draft revision of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS) at this meeting.
+
+## Resolution no. CIML/2022/38
+
+Agenda item 16.3
+
+The Committee,
+
+Approves the Final Draft revision of B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS), and
+
+Thanks the CEEMS Advisory Group members for their work in completing this project.
+
+## Resolution no. CIML/2022/39
+
+Agenda item 16.3
+
+The Committee,
+
+Welcomes the intention of the CIML President to approve the document Guide to the use of online technology for conducting CEEMS activities in a post-COVID world as an OIML Guide, and
+
+Encourages the BIML, the CEEMS Advisory Group, the OIML Digitalisation Task Group, CIML Members, and Corresponding Member Representatives to take note of its recommendations.
+
+## Resolution no. CIML/2022/40
+
+Agenda item 16.3
+
+The Committee,
+
+Welcomes the restarting of the work of the CEEMS/p 1 Project Group on the revision of OIML D 14:2004 Training and qualification of legal metrology personnel,
+
+Encourages Members to participate in this Project Group, and
+
+Encourages Members of the Project Group to respond to the survey being conducted as an initial phase of this work.
+
+## Resolution no. CIML/2022/41
+
+Agenda item 17.1
+
+The Committee,
+
+Recalling its resolution CIML/2021/07,
+
+Noting the information provided by its President,
+
+Appoints Dr Sascha Eichstadt as OIML Digitalisation Task Group Chairperson for a three-year term with immediate effect.
+
+## Resolution no. CIML/2022/42
+
+Agenda item 17.1
+
+The Committee,
+
+Recalling its resolution CIML/2021/07,
+
+Noting the information provided by its President,
+
+Appoints Dr Ping Yang as OIML Digitalisation Task Group Deputy Chairperson for a three-year term with immediate effect.
+
+## Resolution no. CIML/2022/43
+
+Agenda item 17.3
+
+The Committee,
+
+Approves the Draft Terms of Reference for the OIML Digitalisation Task Group (OIML DTG), as endorsed by the OIML DTG and presented in Addendum 17.3 to the Working Document for the 57th CIML Meeting, and
+
+Instructs the BIML to assist the OIML DTG chairperson in finalising the Terms of Reference and to publish them in an appropriate place on the OIML website.
+
+## Resolution no. CIML/2022/44
+
+Agenda item 21.1
+
+The Committee,
+
+Notes the report on the RLMO Round Table meeting given by its Chairperson.
+
+## Resolution no. CIML/2022/45
+
+The Committee,
+
+Agenda item 21.2
+
+Notes the report on OIML activities with organisations in liaison.
+
+## Resolution no. CIML/2022/46
+
+Agenda item 21.2
+
+The Committee,
+
+Considering the information relating to OIML representation in JCGM-WG2:VIM provided in item 3.2.2 of Addendum 21.2 to the Working Document for this meeting,
+
+Considering the proposal by its President,
+
+Approves the nomination of Dr Agnieszka Zon (Poland) to replace Dr Jerzy Borzyminski (Poland) as one of the OIML representatives in JCGM-WG2:VIM,
+
+Requests the BIML Director to inform the JCGM secretary of this decision, and
+
+Thanks Dr Jerzy Borzyminski for having represented the OIML in the JCGM-WG2:VIM.
+
+## Resolution no. CIML/2022/47
+
+Agenda item 21.3
+
+The Committee,
+
+Notes the reports and presentations by organisations in liaison, and
+
+Thanks their representatives for providing this information to the Committee.
+
+## Resolution no. CIML/2022/48
+
+Agenda item 22.1
+
+The Committee,
+
+Congratulates this year's recipient of an OIML Medal,
+
+- Mr Peter Mason,
+
+for his contribution to the work of the OIML.
+
+## Resolution no. CIML/2022/49
+
+The Committee,
+
+Agenda item 22.2
+
+Congratulates this year's recipients of an OIML Letter of Appreciation:
+
+- Dr Matthijs van der Wiel and the core project development team of TC 12/p 3,
+
+- Mr Xie Jun,
+
+- Mr Alex Winchester,
+
+- Dr Harry Stolz,
+
+for their contribution to the work of the OIML.
+
+## Resolution no. CIML/2022/50
+
+The Committee,
+
+Agenda item 22.3
+
+Congratulates this year's recipient of the OIML CEEMS Award, Guyana Bureau of Standards (GNBS).
+
+## Resolution no. CIML/2022/51
+
+The Committee,
+
+Agenda item 23.1
+
+Notes the report provided by the CIML President,
+
+Supports taking into account the responses to the survey summarised in Addendum 23.1 to the Working Document for the 57th CIML Meeting when considering invitations for future CIML meetings.
+
+## Resolution no. CIML/2022/52
+
+The Committee,
+
+Agenda item 23.2
+
+Notes the information provided on the organisation of the 58th CIML Meeting in 2023,
+
+Thanks the Kingdom of Thailand for its invitation to host the 58th CIML Meeting in 2023, and
+
+Instructs the Bureau to make the necessary arrangements to organise the 58th CIML Meeting in 2023.
