@@ -16,15 +16,21 @@ require "tmpdir"
 
 LOCAL_SCHEMA = File.expand_path("../schemas/edoxen-meeting.yaml", __dir__)
 
-# Locate the gem's schema via `gem which edoxen` and resolving up to the
-# gem root, then appending schema/meeting.yaml. Falls back to a sibling
-# checkout at ~/src/edoxen/edoxen for local development.
+# Locate the gem's schema. Try several layouts: system gem install,
+# bundler install (bundler/gems/<gem>-<sha>/), and sibling checkout at
+# ~/src/edoxen/edoxen for local development.
 def gem_schema_path
   out, = Open3.capture2("gem", "which", "edoxen")
   path = out.lines.first&.strip
   if path&.start_with?("/") && File.exist?(path)
-    # lib/edoxen.rb → gem root → schema/meeting.yaml
-    gem_root = File.expand_path("../../../..", path)
+    # lib/edoxen.rb is two levels below the gem root.
+    gem_root = File.expand_path("../..", path)
+    candidate = File.join(gem_root, "schema", "meeting.yaml")
+    return candidate if File.exist?(candidate)
+  end
+  # Bundler layout: gems/<name>-<sha>/lib/edoxen.rb → up two.
+  if path && path =~ %r{/bundler/gems/}
+    gem_root = File.expand_path("../..", path)
     candidate = File.join(gem_root, "schema", "meeting.yaml")
     return candidate if File.exist?(candidate)
   end
