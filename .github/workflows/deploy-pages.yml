@@ -88,3 +88,10 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v5
+        # Pages deploy can take >10 min when githubstatus.com reports
+        # degraded performance on Pages. The default timeout is 10 min
+        # (600000 ms), which surfaces as a false "failure" even when
+        # the backend deployment actually succeeds. Lift it to 30 min
+        # so transient Pages slowness doesn't break CI.
+        with:
+          timeout: 1800000
