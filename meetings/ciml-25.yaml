@@ -6,15 +6,26 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-25
 type: plenary
 status: completed
+year: 1990
 ordinal: 25
+date_range:
+  start: '1990-10-03'
+  end: '1990-10-05'
+committee: International Committee of Legal Metrology (CIML)
+general_area: Oporto, Portugal
+virtual: false
+source_urls: []
 localizations:
 - language_code: eng
   script: Latn
-  title: 25th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 25th CIML Meeting — Minutes (EN, Bulletin)
+  general_area: Oporto, Portugal
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-25-resolutions
+country_code: PT
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-25-eng
   language_code: eng
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-25-resolutions

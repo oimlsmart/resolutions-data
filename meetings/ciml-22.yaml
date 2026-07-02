@@ -6,15 +6,27 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-22
 type: plenary
 status: completed
+year: 1987
 ordinal: 22
+date_range:
+  start: '1987-09-02'
+  end: '1987-09-04'
+committee: International Committee of Legal Metrology (CIML)
+general_area: Paris, France
+virtual: false
+source_urls: []
 localizations:
 - language_code: eng
   script: Latn
-  title: 22th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 22nd CIML Meeting — Minutes (EN, Bulletin)
+  general_area: Paris, France
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-22-resolutions
+city: FRPAR
+country_code: FR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-22-eng
   language_code: eng
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-22-resolutions

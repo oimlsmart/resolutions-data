@@ -6,15 +6,27 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-21
 type: plenary
 status: completed
+year: 1986
 ordinal: 21
+date_range:
+  start: '1986-04-16'
+  end: '1986-04-18'
+committee: International Committee of Legal Metrology (CIML)
+general_area: Paris, France
+virtual: false
+source_urls: []
 localizations:
 - language_code: eng
   script: Latn
-  title: 21th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 21st CIML Meeting — Minutes (EN, Bulletin)
+  general_area: Paris, France
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-21-resolutions
+city: FRPAR
+country_code: FR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-21-eng
   language_code: eng
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-21-resolutions

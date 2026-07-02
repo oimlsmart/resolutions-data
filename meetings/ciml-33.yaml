@@ -6,15 +6,26 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-33
 type: plenary
 status: completed
+year: 1998
 ordinal: 33
+date_range:
+  start: '1998-10-28'
+  end: '1998-10-30'
+committee: International Committee of Legal Metrology (CIML)
+general_area: Seoul, Republic of Korea
+virtual: false
+source_urls: []
 localizations:
 - language_code: fra
   script: Latn
-  title: 33th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 33rd CIML Meeting — Minutes (FR, Bulletin)
+  general_area: Seoul, Republic of Korea
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-33-resolutions
+country_code: KR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-33-fra
   language_code: fra
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-33-resolutions
