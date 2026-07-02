@@ -1,5 +1,9 @@
 name: Deploy Pages
 
+# Deploys the Vue/Vite browser build to GitHub Pages. The deploy job
+# depends on validate (Ruby) and build (Node); both must pass before
+# the artifact is uploaded and handed to actions/deploy-pages.
+
 on:
   push:
     branches:
