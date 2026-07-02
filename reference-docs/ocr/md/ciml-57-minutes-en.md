@@ -1,0 +1,2853 @@
+## 57th CIML Meeting
+
+Online 18-20 October 2022
+
+Minutes
+
+![](page=0,bbox=[585, 1214, 1396, 1691])
+
+![](page=0,bbox=[869, 1871, 1097, 2065])
+
+INTERNATIONAL BUREAU OF LEGAL METROLOGY (BIML)
+
+11, RUE TURGOT-F-75009 PARIS-FRANCE
+
+TEL: 33 (0)1 48 78 12 82 / FAX: 33 (0)1 42 82 17 27
+
+biml@oiml.org / www.oiml.org
+
+## Contents
+
+1 Opening remarks and meeting protocol ... 5
+
+2 Adoption of the agenda ... 6
+
+3 Minutes of the 56th CIML Meeting ... 6
+
+4 Report by the CIML President ... 7
+
+5 Presentations by the candidates for CIML President (2023–2029) ... 12
+
+6 Report by the BIML Director on BIML matters and activities ... 16
+
+7 Renewal of the contract of Mr Paul Dixon, BIML Assistant Director ... 20
+
+8 Discussion on the renewal of the contract of Mr Anthony Donnellan, BIML Director ... 21
+
+9 Discussion on the renewal of the contract of Mr Ian Dunmill, BIML Assistant Director ... 21
+
+10 Financial matters ... 21
+
+10.1 2021 accounts ... 21
+
+10.2 Arrears of Member States and Corresponding Members ... 23
+
+10.3 Budget forecast for 2022 ... 23
+
+10.4 Report of the internal financial audit team ... 25
+
+10.5 Appointment of an independent chartered accountant (external financial auditor) ... 25
+
+11 Secret ballots ... 27
+
+11.1 Explanation of the secret ballot procedure ... 27
+
+11.2 Secret ballot for the CIML President (2023–2029) ... 27
+
+11.3 Secret ballot on the renewal of the contract of Mr Paul Dixon, BIML Assistant Director ... 28
+
+12 Review and approval of draft CIML resolutions (Session 1) ... 28
+
+12.1 Explanation of the voting procedure ... 28
+
+12.2 Review of draft CIML resolutions ... 29
+
+12.3 Voting on draft CIML resolutions ... 33
+
+13 Closing remarks for Session 1 ... 34
+
+14 OIML publications and technical activities ... 34
+
+14.1 Publications for approval by the CIML ... 34
+
+14.2 Project proposals for approval by the CIML ... 37
+
+14.3 Other technical items for information ... 40
+
+14.4 Current status and plans regarding e-Learning and online training ... 41
+
+14.5 OIML Bulletin ... 42
+
+15 OIML Certification System (OIML-CS) ... 44
+
+15.1 Report by the OIML-CS Management Committee (MC) Chairperson ... 44
+
+15.2 Recommendations from the OIML-CS MC to the CIML ... 47
+
+16 CEEMS Advisory Group (CEEMS AG) ... 48
+
+16.1 Introduction of candidates for the CEEMS AG Chairperson and Vice-Chairperson ... 48
+
+16.2 Report by the CEEMS AG Chairperson ... 49
+
+16.3 Recommendations from the CEEMS AG to the CIML ... 52
+
+17 OIML Digitalisation Task Group (OIML DTG) ... 52
+
+17.1 Introduction of candidates for the OIML DTG Chairperson and Deputy Chairperson ... 52
+
+17.2 Report by the provisional OIML DTG Chairperson ... 53
+
+18 Secret ballots... 55
+
+18.1 Secret ballots for the CEEMS AG Chairperson and Vice-Chairperson... 55
+
+18.2 Secret ballots for the OIML DTG Chairperson and Deputy Chairperson... 56
+
+19 Review and approval of draft CIML resolutions (Session 2)... 56
+
+19.1 Review of draft CIML resolutions... 56
+
+19.2 Voting on draft CIML resolutions... 63
+
+20 Closing remarks for Session 2... 64
+
+21 International cooperation... 64
+
+21.1 Report by the RLMO Round Table Chairperson... 64
+
+21.2 Reports on OIML activities with organisations in liaison... 68
+
+21.3 Updates by other organisations in liaison... 69
+
+22 OIML Awards... 74
+
+22.1 OIML Medals... 74
+
+22.2 OIML Letters of Appreciation... 76
+
+22.3 OIML CEEMS Award... 79
+
+22.4 Presentation by the 2021 CEEMS Award winner... 80
+
+23 Future meetings... 80
+
+23.1 Discussion on future CIML meeting locations... 80
+
+23.2 58th CIML Meeting (2023)... 83
+
+24 Any other business... 84
+
+25 Review and approval of draft CIML resolutions (Session 3)... 85
+
+26 Closing remarks... 87
+
+List of participants... 89
+
+## BIML note:
+
+The agenda items are transcribed in the order of the agenda which is not necessarily the order in which they were discussed.
+
+<div align="center">
+
+# Fifty-seventh meeting of the International Committee of Legal Metrology
+
+</div>
+
+Online 18-20 October 2022
+
+<div align="center">
+
+# -MINUTES-
+
+</div>
+
+The International Committee of Legal Metrology was convened by its President, Dr Roman Schwartz, and met online from 18-20 October 2022.
+
+Session 1: Tuesday 18 October 2022, 10:00-13:30 UTC (12:00-15:30 CEST)
+
+## 1 Opening remarks and meeting protocol
+
+Dr Schwartz greeted delegates and welcomed them to the 57th CIML Meeting, which he said was the third CIML meeting to be held online. He had been optimistic that the meeting might have been held in person this year, but the ongoing pandemic had again prevented this. Nevertheless, he was pleased to report that there were around 220 registered participants, of which 131 were present at the current time. 56 CIML Members were present or represented, so the quorum of 48 was met.
+
+Dr Schwartz welcomed CIML Members, Corresponding Member Representatives, representatives of observer countries and economies, Organisations in Liaison, and the Members of Honour and other distinguished guests. He passed on the best wishes of the past-President and Member of Honour Prof. Manfred Kochsiek, who although unable to attend the meeting this year, remained very interested in the work of the OIML.
+
+He thanked the BIML Director, Mr Anthony Donnellan, and his team, for their outstanding commitment and excellent preparation of this third online CIML meeting. He was pleased that last year's Conference Resolution 2021/03 had confirmed that in-person and online participation in OIML meetings was considered equivalent. This meant that the voting would again be done online, in the last part of each session, using the online voting tools, which were hosted within the restricted access area of the OIML website.
+
+Last but not least, Dr Schwartz extended a warm welcome to the interpreters, Mr Marc Potentier and Mr Garry Hutton, whom most of the delegates would know from previous CIML meetings. He added that as usual they were able to offer simultaneous interpretation from English to French, and vice-versa, using the interpretation function of Zoom.
+
+He wished delegates a very successful 57th CIML Meeting, and handed over to BIML Assistant Director Mr Ian Dunmill, who he said would briefly explain the meeting schedule and protocol.
+
+Mr Dunmill thanked Dr Schwartz and gave a brief outline of the meeting protocol and how to use the Zoom application. He reminded delegates that the meeting was being recorded so that the minutes could be drafted easily, and stated that by participating in the meeting, delegates would be consenting to that recording being made. He reminded delegates to state their name and the country they represented when they first spoke. He said for part of the meeting, a breakout room would be used to replicate the closed
+
+room discussions which were held during in-person meetings. This would only be for the Heads of Delegation. The BIML would move everyone back to the main session once this discussion was concluded. He pointed out that in the breakout room there would be no interpretation and no recording. He asked if there were any questions about the procedures. There were none.
+
+## 2 Adoption of the agenda
+
+Dr Schwartz stated that the current version of the draft agenda for the meeting was version 1 dated 18 July 2022. He asked whether there were any objections or amendments to the proposed agenda. There were none.
+
+He asked Mr Dunmill to read the first Draft Resolution which would be voted on at the end of the day's session.
+
+Mr Dunmill read:
+
+Draft Resolution no. CIML/2022/01
+
+The Committee,
+
+Approves the agenda for the 57th CIML Meeting.
+
+Mr Dunmill reiterated that all the resolutions would be re-read at the end of the day before the voting was carried out, although they would be shown as they arose on the agenda so that delegates could see the text that was being proposed and make any comments or corrections as necessary. There were no comments.
+
+## 3 Minutes of the 56th CIML Meeting
+
+Dr Schwartz stated that the draft minutes of the 56th CIML Meeting had been provided in Addendum 3, and asked if there were any questions or comments on them.
+
+Mr Xie Jun (P.R. China) greeted the President and delegates. He stated that they agreed with the draft minutes of the 56th CIML Meeting, but wished to provide a complete list of Chinese delegates that had attended the meeting and hoped these could be added to the list of online participants in the final minutes.
+
+Dr Schwartz reassured Mr Xie Jun that they would make sure the full list of Chinese delegates would be added. He asked Mr Donnellan if he could see any reasons why this could not be done. Mr Donnellan saw no objection to including the complete list of participants from P.R. China as requested, and added that any other countries whose full list of delegates had not been included in the draft minutes of the 56th CIML Meeting could send their list to the Bureau for inclusion. He added that the Bureau should also be made aware of any additional delegates participating in the current meeting, and remarked that it was difficult for the Bureau to know exactly who was present if several people were in the same room as the named delegate, but not necessarily in front of the camera.
+
+Dr Schwartz checked there were no further comments on the draft minutes of the 56th CIML Meeting, and there were none. He anticipated that the minutes would therefore be approved, and asked Mr Dunmill to read the respective draft resolution.
+
+Mr Dunmill read:
+
+Draft Resolution no. CIML/2022/...
+
+The Committee,
+
+Approves the minutes of the 56th CIML Meeting.
+
+Dr Schwartz said this should read "subject to the amendments to be submitted to the BIML regarding the list of participants"; Mr Dunmill added this phrase to the resolution.
+
+## 4 Report by the CIML President
+
+Dr Schwartz stated that his report had been provided both in English and French in Addendum 4. His presentation would take the form of a PowerPoint presentation which Mr Dunmill would be controlling as he spoke.
+
+Dear colleagues,
+
+Once more a warm welcome to the 57th CIML Meeting, our third online Committee Meeting.
+
+I am pleased to be able to report that, despite the ongoing COVID-19 pandemic, the period since October 2021 has again been a very productive one for the OIML, with many activities following the 56th CIML Meeting and the successful 16th International Conference on Legal Metrology in October 2021, which was the first time in the history of the OIML that the Conference was held online.
+
+The 52 Resolutions taken during the 56th CIML Meeting and the 16th Conference demonstrate that our Organisation is fully operational in this difficult time, and they provide a sound basis for the next four-year budget period.
+
+One particularly important Conference Resolution was the confirmation that online and inperson participation in all OIML meetings is now considered equivalent. This ensures business continuity for our Organisation and makes it "future-proof", even under the ongoing pandemic conditions.
+
+A major step towards the digital transformation of metrology in general, and of legal metrology in particular, was the signing of the Joint Statement of Intent (JSI) "On the digital transformation in the international scientific and quality infrastructure" on 30 March 2022.
+
+The OIML is one of eight international organisations that have signed the JSI, based on which a new OIML Digitalisation Task Group (DTG) has been established comprising experts from OIML Member States, Corresponding Members, Organisations in Liaison, and the BIML.
+
+The DTG has the task of examining the challenges and, in consultation with the CIML, taking the necessary actions in order to lead our technical activities, the OIML Certification System (OIML-CS), and Countries and Economies with Emerging Metrology Systems (CEEMS) activities into the digital age and make our Organisation future-proof also in that respect.
+
+An important decision the Committee will have to make this year is the election of the next CIML President for the period 2023-2029. I am pleased that two colleagues have submitted their candidacy and stand for election.
+
+I am also very pleased to mention the new OIML website, which, together with its modern new look and feel, provides even better support to our Members and stakeholders, which is equally critical in order to future-proof our Organisation.
+
+Let me take this opportunity to express my thanks to everyone who has supported and who continues to support our Organisation and its mission, notably the highly motivated BIML team, the members of the Presidential Council, and last but certainly not least all the active CIML Members.
+
+I would have liked to end this introduction with an optimistic outlook. Since its founding in 1955 the OIML, according to its Convention, has been committed to international cooperation in the field of legal metrology, based on trust, mutual confidence and respect among its Members. This neutral position is considered a valuable asset that enables a continued dialogue amongst our Members, partners and stakeholders and I look forward to working with all our Members to ensure this position is maintained.
+
+I am very pleased to welcome Ethiopia, following their readmission as a Member State, and Mr Getachew Wollel Tiruneh as the CIML Member for Ethiopia.
+
+Last year I welcomed Ukraine as a new Member State, but the CIML Member had not yet been appointed. Therefore, I am pleased to now warmly welcome Mr Yurii Kuzmenko as the recently appointed CIML Member for Ukraine.
+
+I am pleased to also welcome the following new CIML Members:
+
+Bulgaria: Mr Paun IIchev
+
+Canada: Mr Benoit Desforges
+
+Egypt: Eng. Ahmad Mahamoud Ahmad Sulayman
+
+Indonesia: Mr Matheus Hendro Purnomo
+
+Iran: Mr Hassan Khanehzar
+
+Kazakhstan: Mr Kuanysh Yelikbaev
+
+South Africa: Mr Jaco Marneweck
+
+Vietnam: Dr Ha Minh Hiep
+
+Fortunately, no OIML Member State has been delisted since the last CIML meeting, and concerning OIML Corresponding Members, there have been no changes.
+
+The Presidential Council (PC) held an online meeting on 9-10 March 2022. In addition, the Presidency, the BIML Director and the BIML Assistant Directors have held several online meetings to discuss the current situation.
+
+As regards PC membership, Ms Himba Cheelo has only recently stepped down as CIML Member for Zambia due to her promotion to Permanent Secretary at the Zambian Ministry of Energy, and has thus also left the PC. I would like to congratulate her on her promotion and to thank her for her great commitment to the CIML, the Presidential Council, and legal metrology matters in general, and wish her every success in her new role.
+
+Before I address the various items discussed by the PC and the Presidency, let me briefly mention the fact that we have taken care of all the actions arising from the 56th CIML Meeting and the 16th OIML Conference, so I am pleased to state that all these actions have either been completed or are on the agenda of this year's meeting.
+
+At the 55th CIML Meeting in 2020, Resolution 2020/5 concerning the establishment of an internal financial audit of salaries and other operational expenses was adopted. The new internal financial audit is intended to annually review the implementation of, and compliance with, OIML B 8 OIML Financial Regulations and OIML B 7 BIML Staff Regulations.
+
+Last year I appointed Dr Bobjoseph Mathew (CIML Second Vice-President) and Ms Mairead Buckley (Member of the Presidential Council) as members of the Internal Financial Audit Team, and asked them to conduct a respective audit.
+
+I am very pleased to inform you that the first audit report of this kind has since been finalised and I would like to take this opportunity to thank Dr Mathew and Mrs Buckley, but also the BIML Director and both BIML Assistant Directors for their cooperation and support during this audit, particularly as their activities were impacted during the COVID-19 pandemic.
+
+In conclusion I can state that a suite of internal documents has been established, which clearly define the roles and responsibilities for various internal financial processes and procedures. This suite of documents can be considered adequate for an organisation of the size of the BIML, and it forms a good basis for future regular, annual internal financial audits. Further details will be given by Dr Mathew under agenda item 10.4.
+
+I am pleased to inform you that the overall financial situation of the Organisation is good although it is always necessary to keep a close watch on the cash position and operating reserves. A respective policy paper was approved at the 56th CIML Meeting, endorsed by the 16th Conference, and is now being implemented by the Bureau.
+
+Last year, the Committee and the Conference also approved a realistic, sustainable budget, which provides a sound basis for 2022 and the next three years. Regarding the implementation of the approved budget, and more details, I refer you to the BIML Director's report on financial matters under agenda item 10.
+
+As you are aware, digital technologies already affect, and will increasingly affect, industrial and commercial processes, but also metrological and related processes such as conformity assessment, inspection, verification, and market surveillance.
+
+In a keynote presentation that I was invited to present on behalf of the OIML at the recent IMEKO TC 6 conference on Metrology and Digital Transformation, I summarised the major challenges for legal metrology as follows. I would like to share this with you now:
+
+- there is a clear expectation on the part of our customers that metrological services should be delivered in modern digital ways, e.g. via online platforms and databases;
+
+- it will be necessary for certificates and reports to be machine-readable, which means that they can be read and processed by software;
+
+- there is the need to establish standardised, commonly accepted, and SI-based terminologies, which means we need a common "digital language", which guarantees the interoperability of relevant metrological data;
+
+- there is the need to prepare for digital representatives, so called "digital twins", which can be used for the remote assessment of products and services; and
+
+- last but not least, we will need to consider new concepts allowing continuous quality and conformity assessment when using instruments, including the effective implementation of software updates.
+
+I am very pleased that, on the basis of CIML Resolution 2021/07 taken last year, we have successfully established the new OIML DTG, which will consider these challenges and come up with respective proposals to the CIML.
+
+The DTG had a very good start and has already held two meetings this year, at which the draft Terms of Reference were developed and agreed, the fields of activity identified, priorities agreed, and a Chairperson and Deputy Chairperson elected unanimously. I look forward to the report under agenda item 17, where the CIML will be asked to approve the draft Terms of Reference as endorsed by the DTG, and to appoint the nominees for the positions of DTG Chairperson and Deputy Chairperson, Dr Sascha Eichstadt and Dr Ping Yang, respectively.
+
+Many Project Groups have successfully adapted to online work and have made good progress. Nevertheless, it becomes obvious that especially new Project Groups are suffering from a lack of personal contact. One example is TC 18 Medical measuring devices, which is considered a key topic for the OIML. The Committee approved several projects last year to commence the necessary technical work, especially regarding infrared medical thermometers, and the verification of sphygmomanometers. It is hoped that more Member States will take part and support this work.
+
+On the other hand, I am very pleased that TC 12 has produced the new, recently published Guide OIML G22 Electric Vehicle Supply Equipment (EVSE). This enables us to already provide international best practice information in this significant area, in the expectation that a full OIML Recommendation will be developed as soon as possible, and the Guide be withdrawn once the Recommendation is published. We will come back to this successful project later under agenda item 14.3, but I would like to take this opportunity to thank the Project Group convener, Dr Matthijs van der Wiel (Netherlands), and all the TC 12/p 3 members for their hard work to finalise this important Guide in an extremely short time.
+
+Also, a very successful OIML EVSE webinar was held on 7 October to publicise the Guide and to provide more information on this important and highly topical subject.
+
+Fortunately, a couple of other projects have also been successfully finalised, so the Committee will be able to approve a number of new or revised publications at the 57th CIML Meeting. More detailed information on OIML publications and technical activities will be provided under agenda item 14.
+
+Concerning the OIML-CS, here a summary of some key facts and figures:
+
+- currently there are 39 categories of measuring instrument in the OIML-CS;
+
+- 38 categories are in Scheme A, and one new category of measuring instrument (OIMLR 150 Continuous totalising automatic weighing instruments of the arched chute type) is in Scheme B;
+
+- there are currently 12 OIML Issuing Authorities and 24 Test Laboratories approved under the OIML-CS, with 33 Utilizers and Associates (Utilizers and Associates have declared that they will accept and utilise OIML Certificates and/or OIML type evaluation reports as the basis for granting national or regional approvals); and
+
+- the OIML-CS Management Committee (MC) held its seventh meeting, as an online meeting, on 22-23 March 2022, which was chaired by the MC Chairperson, Mr Mannie Panesar (UK).
+
+Further information on the operation of the OIML-CS, along with recommendations from the OIML-CS MC to the CIML, will be provided under agenda item 15.
+
+Moving onto CEEMS, the focus of this year's CEEMS AG activities was on the finalisation of the new OIML publication Application of online technology to capacity building and other CEEMS activities under the responsibility of the CEEMS AG Chairperson, Mr Peter Mason, who was supported by a small working group and the BIML; the new DTG was also involved. The draft publication is expected to be published as an OIML Guide before the end of the year.
+
+The CEEMS AG Project Group on the revision of D14 Training and qualification of legal metrology personnel is expected to start its work very soon.
+
+Also, preparations for the OIML Training Event on "Prepackages and statistical control", planned for July 2023 in South Germany, are currently underway.
+
+Since Mr Peter Mason has declared that he will step down as CEEMS AG Chairperson by the end of 2022, and also a new Deputy Chairperson has been nominated, the Committee will be requested to appoint the nominated candidates for the CEEMS AG Chairperson and Deputy Chairperson. This will be conducted during the session tomorrow.
+
+As I said at the beginning of my report, this year's focus has very much been on the Joint Statement of Intent (JSI) "On the digital transformation in the international scientific and quality infrastructure", signed on 30 March 2022 by the OIML, the BIPM, the International Measurement Confederation (IMEKO), the International Science Council (ISC), the Committee on Data (CODATA), the International Electrotechnical Commission (IEC), the International Laboratory Accreditation Cooperation (ILAC), and the International Organization for Standardization (ISO). I am very happy that this statement has been signed and this also forms the basis for the work of our DTG.
+
+I would like to once more express my sincere thanks to the CIML First Vice-President, Dr Charles Ehrlich, who took over the chair of the RLMO Round Table (RT) two years ago and successfully introduced interim RT meetings, in addition to the regular RT meetings held prior to CIML meetings. I am pleased that we can observe increased interactions of the regions through the interim RT meetings.
+
+It is the intention to target the OIML Bulletin at relevant and interesting key topics, and thus ensure it remains an attractive journal for the legal metrology community worldwide, and also a good figurehead of our Organisation.
+
+I am very pleased to report that the concept of "Mentors", who take responsibility for certain key topics, has proven to be very successful again this year with the two very informative and topical editions dedicated to "Measurement related to traffic" (April 2022) and "Metrology for a sustainable environment" (July 2022). Many thanks to the Mentors, to all the authors, and, of course, to Mr Chris Pulham, Editor and Webmaster at the Bureau. And many thanks to everyone who actively supports and promotes the OIML Bulletin and helps to keep it an attractive journal for the legal metrology community worldwide.
+
+And finally, as I mentioned already, my term as CIML President will expire in October 2023. Following my proposal, we will elect the next CIML President at this CIML meeting, so that the President-Elect can become familiar with the new tasks and take over during the 58th CIML Meeting next year. I look forward to a fruitful cooperation with the President-Elect.
+
+Other important CIML decisions will be the renewal of the contracts of the BIML Director and both the BIML Assistant Directors, and of course the appointments of the Chair and Deputy Chair of the DTG and the Chair and Vice-chair of the CEEMS AG.
+
+Let me conclude by thanking you all for your continued support in these challenging times. I sincerely hope that we will be able to meet in person in 2023. I wish us all a very productive and fruitful 57th CIML Meeting.
+
+Thank you!
+
+Dr Schwartz asked if there were any questions.
+
+Dr Rifan Ardianto (Indonesia) thanked Dr Schwartz for his presentation. He said that at the last CIML meeting he had asked a question regarding indexing the Bulletin. Now that there was an electronic version of the Bulletin, he thought it could be an idea to index it, at least using Google Scholar, so that researchers and legal metrology practitioners could more easily find topics of interest to them. A lot of articles in the Bulletin were useful for legal metrology officers, and Dr Ardianto felt that this would make them easier to find.
+
+Dr Schwartz thanked Dr Ardianto for his proposal, which he considered was valid, and invited the BIML Director to comment.
+
+Mr Donnellan agreed that Dr Ardianto's suggestion was useful. He confirmed that since he held the role of Editor-in-chief of the Bulletin, he would discuss the matter with the Bulletin Editor, Mr Chris Pulham, and look at the best ways of referencing the OIML Bulletin in Google Scholar and in any other scholarly search engines so as to provide a wider search capability for the articles that were included in the OIML Bulletin.
+
+Dr Schwartz reported there were no more questions.
+
+Mr Dunmill read the draft resolution:
+
+Draft Resolution no. CIML/2022/...
+
+The Committee,
+
+Notes the report given by its President.
+
+Mr Dunmill asked whether Dr Schwartz wished to amend the resolution to include a note about the Bulletin, and suggested that it may be possible to include this when they considered the agenda item on the Bulletin.
+
+Dr Schwartz agreed with this suggestion and the resolution was noted.
+
+## 5 Presentations by the candidates for CIML President (2023-2029)
+
+Dr Schwartz wished to make some introductory remarks before the candidates were given the floor. He said that, as he had indicated in his general report, at its last meeting the Committee had supported his proposal to elect the next CIML President at the current CIML meeting. Based on this proposal, CIML Resolution 2021/03 had been passed, and a call for candidates had been sent to CIML Members in November 2021. Dr Schwartz added that he had been very pleased that, by the deadline of 31 May 2022, two colleagues had submitted their candidacies for the post of CIML President, namely: Dr Bobjoseph Mathew, CIML Member for Switzerland and current CIML Second Vice-President, and Mr Juan Camillo Duran Tellez, CIML Member for Colombia, and he thanked both candidates for having put themselves forward.
+
+Dr Schwartz informed delegates that details of the candidacies had been made available in Addendum 5. He reported that each candidate had been invited to give a ten-minute presentation, which should address their motivation for the candidacy, their knowledge and experience in legal metrology, and their personal expectations and commitments. The election would take place by secret ballot at the end of the current session under agenda item 11.2, and the respective CIML resolution would be voted on under agenda item 12.3.
+
+He invited the CIML Second Vice-President, Dr Bobjoseph Mathew to give his presentation.
+
+Thank you very much for giving the opportunity to present today. Dear President, dear Vice President, dear Director, dear colleagues.
+
+I am very pleased to present today my candidacy for the Presidency of the CIML. Cher Président, cher Vice-Président, cher Directeur, chers collègues, J'aimerais bien m'adresser aussi aux collègues francophones. Je suis content de présenter aujourd'hui ma candidature. Pour faciliter la présentation quand même, je vais continuer maintenant en anglais.
+
+First, I would like to introduce myself and tell you about my background. Since 2019 I am the CIML Second Vice-President. In my current role as CIML Second Vice-President I had the opportunity to support and work alongside the current CIML President and my colleague the First Vice-President, as well as the members of the Presidential Council and the BIML team.
+
+Since 2017 I am the Vice-Director of METAS, the Swiss Federal Institute of Metrology. Leveraging my role of Vice-Director within the management board of METAS, I draw on broad expertise across a wide range of relevant areas to support my work with the OIML. With respect to leadership and management skills, I bring more than 18 years of senior executive experience gained in the telecommunications sector, as well as at METAS. I've held senior management positions in both the public, as well as the private sectors, managing in particular budgetary, organisational, regulatory, and strategic matters, as well as international negotiations. My educational background is inter-disciplinary. I have a PhD in international trade law, as well as a post grad in IT systems. I am multi-lingual - fluent in English and French as well as in German, and my Indian mother tongue. My application also has the full support of the Swiss Federal Councillor, the Member of the Swiss Government.
+
+In addition, I would like to emphasise that METAS guarantees to provide the necessary means and resources related to this position. I can draw on my professional experience for this role. In my role as Vice-Director at METAS, my responsibility included heading the legal metrology division, as well as leadership of the business units addressing digital transformation, customer relations, and communications. I have particular expertise with respect to type approvals and verifications, conformity assessments, and market surveillance, as well as the development of metrological regulations and technical documents, all areas which are of high relevance for the OIML's work.
+
+But I also have hands-on experience in digitalisation projects, stakeholder communication strategy, and budgetary work. I am also very engaged within the OIML. As I said, I am a Member of the CIML Presidential Board and have been able to contribute to the implementation of the OIML's strategy and budgetary work, as well as other initiatives or special tasks in the
+
+area of finance. I am also a member of the OIML-CS Management Committee and the Digitalisation Task Group. I used to be also a member of the OIML-CS Review Committee. All these roles gave me the opportunity to work with Dr Schwartz, Dr Ehrlich, with Members of the Presidential Council, as well as with Honorary Members, and I am very grateful for this experience because I could learn from them but also it helped me to develop the necessary understanding of this Organisation.
+
+On a regional level, I am the Swiss delegate of the WELMEC Committee and an active member of WELMEC Working Group 8.
+
+I would like now to explain to you my personal motivation for my candidacy. I am convinced that the OIML plays a pivotal role in international legal metrology and standardisation. The Organisation enables national economies to establish effective and sound legal metrology frameworks that are compatible and recognised worldwide. The OIML is well positioned to address new challenges such as digitalisation. The OIML's technical work is essential to establish legal metrology frameworks that are mutually compatible and internationally recognised. Our community can introduce new approaches and ideas to identify solutions in that ever-changing technological landscape. Further, I am convinced that the OIML should continue to promote mutual confidence through the OIML Certification System in order to reduce trade barriers. I also believe that it is an important forum for the exchange of technical expertise.
+
+The Organisation promotes and enables knowledge sharing and exchanges of competence within the legal metrological community on an international level. The OIML's work lays an essential foundation for progress and global trade, consumer protection, and sustainable development. The OIML can take a vital role that brings stakeholders together and builds bridges across borders, economies and cultures. So, what is my commitment? I would like to highlight my focus areas for the future so, if elected, I commit to continue the ongoing implementation of the OIML's vision and strategic objectives. The OIML has a relevant mission, and benefits from inclusive and effective governance. It has, in addition, a strategy with clear objectives, which is comprehensive, and fit for purpose.
+
+I would like to support efforts to further improve the efficiency of the vital technical work of the OIML. I will also continue to support and promote the OIML-CS amongst key stakeholders in order to gain its worldwide acceptance, and in doing so I would like to reduce barriers that we have in trade. I would like to advocate the exchange of technical expertise of the developing economies, especially collaboration with the CEEMS countries and promote recognition of the importance of quality infrastructure in the context of digitalisation of economies and society. I really want to raise awareness of the OIML's contribution to legal metrology infrastructure to attract also new members. So further I commit to advance initiatives that ensure that the OIML keeps abreast of the rapid digitalisation of the legal metrology environment, and promotes the sharing of expertise between all OIML Member States. I promise to work as a team at the Presidential Board and the Presidential Council with the BIML Director and BIML team, but also, and this is very important to me, with all of you, as an Organisation, and as individuals.
+
+I believe we should foster the consideration of sustainable development goals (SDGs) in our work. As the responsible organisation that we are, the OIML can also ensure that its work is contributing to the achievement of the SDGs. I would like to be an ambassador for the OIML to international organisations and ministries, and continue to deepen cooperation with other international organisations, including the BIPM, ISO, IEC, and ILAC. So, I really would like to serve the OIML in its pivotal role, contributing to progress on issues of global trade, consumer protection and sustainable development.
+
+Thank you for your attention. I would appreciate your support for my candidacy. Merci pour votre attention. J'espère que je peux compter sur votre soutien.
+
+Dr Schwartz thanked Dr Mathew for his presentation and he asked if there were any questions. There were none, so he invited the next candidate, Mr Juan Camillo Duran Tellez, to present his application.
+
+Good morning, good afternoon and good evening to all my colleagues from around the world. It is a pleasure for me to be a candidate for this CIML position. My name is Juan Camillo Duran Tellez, and I am from Colombia. I am a lawyer and I have been working in this area for almost ten years of my career in different positions, in the private and public sector.
+
+[This slide shows] what I have done in Colombia with legal metrology, and also some training and general information which is how I plan to present my candidacy for the CIML. In Colombia we have designated a third-party verification body. I have been working with types of metrological instruments such as NAWIs and fuel dispensers, and we have done all of this with the support of Colombians and the OIML.
+
+I am pretty sure that you are asking why I am applying for the CIML Presidency. It is because I know that Latin America is a region that is now not well represented in the OIML, and I want to work to include more countries and economies. I think that since I speak Spanish, I know this is very good option for other countries in Latin America to join the OIML. We've been working very hard with other countries on prepackages and conducting training around Latin America trying to show why it is important to join the OIML and to get involved in legal metrology. It's important to note that not many Latin American countries are aware of the importance of legal metrology, and I think that if a person from Latin America that can speak Spanish and understand the Latin American culture were in the CIML Presidency, we could probably get more Latin American countries to join the OIML. It is very important to join the OIML and to demonstrate the benefits of the Organisation.
+
+We've also been working very hard on prepackages, as all countries do, and we've conducted more than 90 000 verifications over the last four years during which I've been the head of legal metrology in Colombia. We also created SIMEL, which is an application which won a Sistema Interamericano de Metrologia (SIM) award in 2017. It includes all the legal metrology information in the country, such as producers, importers, measuring instrument owners, repair personnel, and third parties that undertake verification. This makes it easier for everyone to participate in legal metrology and for the authorities to verify instruments. We have more than 253 registered manufacturers and importers, and more than 1 300 registered models. I am mentioning this because Colombia is relatively new in the OIML, having been a Member for no more than ten years, but during that time we have been working very hard to get involved in legal metrology, and in trying to get our neighbouring countries involved in legal metrology, and of course in the OIML.
+
+If I am elected as the CIML President, I would like to try to get involved in getting all Latin American economies to join the OIML. I know that this is already being worked on through SIM, for example, and Colombia currently has the presidency of the SIM Legal Metrology Working Group. We have been working on a legal metrology repository of verifications of prepackaged products. Since the producers are global manufacturers and legal metrology is very local, we have been trying to tackle this problem through a wider vision. In this sense, we created this very simple repository so every country can include product verifications throughout the year, and any country can then check which products other countries have checked and verified. This has the advantage of being able to see if there is a problem with a particular product throughout the region or to create area alerts on these products. We are also working with OIML TC 6 on the creation of a verification template for prepackaged products. This work will make help make verification easier around the world. We've also been working very hard with other economies, such as Argentina and Brazil, and we've been conducting in-person training around Latin America in countries such as Guatemala, Guyana and Mexico, as well as other online training events.
+
+I am also currently the chairperson of the Promotion and Awareness Raising Working Group of the OIML-CS. We've been trying to show the benefits of the OIML-CS, and in July 2022 we prepared an event in which more than 15 countries participated, especially from Latin
+
+America, such as Barbados, Belize, Bolivia, Colombia, Costa Rica, Ecuador, Guatemala, Guyana, Mexico, Panama, Paraguay, Peru and Uruguay. Mannie Panesar, OIML-CS MC Chairperson helped us to promote the Certification System and we've been working very hard with other economies, trying to get them involved. Currently I am a member of the OIML-CS Management Committee, and one of the missions is to reduce technical barriers to trade according to the WTO system. Colombia is one of the Utilizers of the Certification System, and we have more than 600 instruments. We've been trying to promote the OIML-CS with many SIM countries, such as Colombia, United States, Brazil, Argentina, Costa Rica, Panama, Mexico, Uruguay, Guatemala, Trinidad and Tobago, Guyana, Saint Lucia, and Barbados, as I said before, not only to get them involved in the OIML-CS, but also in the OIML.
+
+Finally, if I am elected as the CIML President, I will try to get involved, not only with existing members of the OIML, but also with the non-members. I think we need to work harder to get more countries involved in the OIML, and I think that especially Latin America is the region where we have to work harder to get more economies involved, and I therefore think that as a Colombian, speaking Spanish, and understanding the culture would be very important in getting these economies involved within the OIML.
+
+I would also like to thank all CIML Members for their votes. If I am elected as CIML President, I will try to keep in contact with all of you, to make a stronger Organisation. Thank you very much.
+
+Dr Schwartz thanked Mr Duran Tellez for his presentation, and asked delegates whether they had any questions for the second candidate.
+
+There were no questions.
+
+Dr Schwartz thanked both candidates again for their excellent presentations, which he said had clearly provided delegates with a view of their intentions and what they would do if they were elected as the President. He invited Mr Dunmill to read the respective draft resolution.
+
+Mr Dunmill stated that towards the end of the current session there would be a secret ballot on these two positions, and he would give details on how this would be conducted, and what the rules would be when they came to that item. Following the secret ballot, there would be a draft resolution to vote on which would be as follows:
+
+Draft Resolution no. CIML/2022/...
+
+The Committee,
+
+Noting the procedure for the election of the CIML President in OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+
+Selects ... as its President for a six-year term starting during session 1 of the 58th CIML Meeting planned for October 2023.
+
+Dr Schwartz thanked Mr Dunmill. He remarked that the meeting would now experience one of the disadvantages of an online meeting, as normally he would now suggest a coffee break, during which it would have been a good opportunity to meet the candidates and to speak to them if possible. He stated this was of course not possible during an online meeting. Nevertheless, he suggested there was now a coffee break for 15 minutes, and suggested that delegates used the chat function if there were any remaining questions.
+
+## 6 Report by the BIML Director on BIML matters and activities
+
+Dr Schwartz asked Mr Donnellan to take the floor and deliver a summary of his report as BIML Director, the full version having been provided in Addendum 6.
+
+Mr Donnellan thanked Dr Schwartz for his introduction. As the President had already mentioned, his presentation would closely follow the comprehensive report in Addendum 6 which had been made available for this item.
+
+Mr Donnellan said he had titled the report and this presentation Laying the foundations - a year of change and foundation building for the Organisation. He wished to start by explaining that during this period the BIML had been active in developing a number of future-focused initiatives, looking at ways they could assist in growing and developing the Organisation. This had included developing more adaptive, flexible, and contemporary operating procedures and structures which would enable the OIML to move forward and evolve as a consumer- and industry-focused Organisation. This of course required high frequency review, revision and renewal of OIML publications. He emphasised that this was very much a shared approach within the Organisation and would enable the OIML to continue to assert itself as a leading international standard-setting organisation. As he had already mentioned, to facilitate all of the above, the BIML had been working actively with Project Group conveners and stakeholders, and had also proposed a revision of B6 Directives for OIML technical work for CIML approval at the current meeting. He commented that this was a very important enabling publication for the technical work.
+
+Looking at the Organisation's foundations going forward with regards to governance and appointments, Mr Donnellan stated that delegates had just heard the two presentations from the candidates for the post of CIML President. During the period since the 56th CIML Meeting and 16th Conference, the Bureau had been busy organising a number of these calls for candidacies for a number of roles. These had included the call for the next CIML President, which they had just heard about, the establishment of the OIML Digitalisation Task Group (DTG), which he said he would touch on again later in his presentation, and a call for the OIML DTG Chairperson and Deputy Chairperson. Similarly, with the CEEMS Advisory Group (AG), a call had been issued for a new Chairperson and Vice-Chairperson. Building the Organisation's foundation for the future, a call had also been issued for an external auditor.
+
+Mr Donnellan then went on to look at the foundations of the Organisation in little more detail. A key point, already touched on by the CIML President in his report, was the formation of the OIML DTG. The BIML had been actively engaged with, and advanced the digital transformation of legal metrology within the Organisation, and had also encouraged and facilitated this as part of the wider technical publication development process. At the present time, Mr Donnellan reported that the DTG consisted of 15 representatives from OIML Members and international and regional organisations. He said that the DTG would support, coordinate and promote the international harmonisation and implementation of digital transformation in legal metrology, a key aspect of which was the promotion and coordination of harmonisation. He reported that the BIML had been very proactive in establishing the foundation for this important "horizontal" group.
+
+Mr Donnellan stated that another important foundation for the Organisation during the present year had been the signing of the Joint Statement of Intent on digital transformation in the international scientific and quality infrastructure. This "Joint Statement", as the President had mentioned, had been signed by the OIML as one of the initial signatories in March 2022. It had laid the foundations for the work of the OIML DTG and how the international Quality Infrastructure would organise itself and its priorities for the future. By signing the Joint Statement, the OIML had signalled its support for the Statement's principles, which included the FAIR principles on data. Importantly, the Joint Statement provided a framework and reference point for the OIML DTG.
+
+Moving on to some of the corporate matters and deliverables for the Organisation, Mr Donnellan stated that during the current period, the BIML had established a more transformative and flexible way of working, not only on an operational level, but also importantly with its Project Groups and other stakeholders. Mr Donnellan commented that, as delegates would know, the operating environment was rapidly changing, and continually presented both challenges and opportunities, and he stated the BIML
+
+was responding to these as they arose. Mr Donnellan indicated that some of the key highlights from this period would be covered in his presentation.
+
+With regard to Membership, Mr Donnellan stated that the OIML was growing, which he commented was very positive news for the Organisation, and he added that new and more Members were always welcomed. The Organisation currently had 126 Members, having welcomed the Federal Democratic Republic of Ethiopia as a re-joining OIML Member State. Mr Donnellan added he was pleased to report that no OIML Member State or Corresponding Member had been delisted in 2021, which had been the result of the significant sustained effort and resources deployed by the Bureau to manage Members' debts. Mr Donnellan reported that the BIML had also made a considerable effort with a number of South American and Latin American economies during the current period, as well as with one Corresponding Member from Africa, with a view to their becoming OIML Member States. He explained this was of course in addition to many other Members and Corresponding Members with which the Bureau worked actively.
+
+With regard to the governance of the Organisation and the CIML, Mr Donnellan said that reporting and support had been provided to the Presidential Council during the year for its March and October 2022 meetings. He remarked this was a core offering by the Bureau to the governance and decision-making bodies of the Organisation. As the President had already mentioned, multiple Presidential Board and other meetings had been convened during the current period, and enhancements had been made to the OIML financial framework documents. The Summary Reports, Resolutions and Draft Minutes of the 56th CIML Meeting and 16th Conference held the previous year had also been published. A survey of CIML members had been undertaken to obtain feedback on the selection criteria for future CIML meeting locations, and Mr Donnellan said that this would be discussed in more detail by the CIML President later on in the agenda.
+
+In terms of the strategy from a BIML perspective, Mr Donnellan reported that the OIML-BIPM Joint Task Group continued to meet, and relevant actions had been implemented by the BIML on behalf of the Organisation. There had been continued engagement with the International Network on Quality Infrastructure (INetQI), and the BIML continued to provide the IT support for this important network. Mr Donnellan stated that direct liaison also continued with UNESCO, and with relevant UNESCO Member States and permanent missions, to advance the OIML and BIPM joint bid for a UNESCO World Day of Metrology. On this matter, Mr Donnellan commented that he was very pleased to report that, following very recent discussions by the Executive Board of UNESCO, the bid had been supported by a significant number of UNESCO Member States. This meant that the bid would proceed to the 42nd General Assembly of UNESCO, which would be convened in 2023, and Mr Donnellan reiterated that the Organisation called on all Member States and Corresponding Members of the OIML to support this very important initiative through the United Nations framework, to recognise a World Day of Metrology. Lastly, Mr Donnellan said that the BIML had provided technical input and advice to UNIDO as part of the Quality Infrastructure for Sustainable Development Index (QI4SD Index) project. He emphasised that this was another example of where there had been good cooperation and collaboration under the tripartite MoU between the OIML, the BIPM and UNIDO. Mr Donnellan particularly encouraged Member States, non-members and stakeholders to have a look at this index and its associated report. He regarded it as one of the key measures to consider how the sustainable development goals of the United Nations and metrology work hand-in-hand.
+
+From an operations perspective, Mr Donnellan reported that the BIML had undertaken a major renewal of the OIML website. This had been managed by the BIML, and had improved both the user experience and the underpinning software, as well as system upgrades. Continued hardware and software backups had been provided to provide a secure, stable environment for all Project Group conveners and others who interact with the OIML website. Other enhancements had also been made, including the simplification of coding to the databases that interact with the OIML website and a custom-built CIML voting module.
+
+Moving onto some of the financial matters, Mr Donnellan reported that the invoicing system had been updated to take account of the various Conference and CIML decisions made the previous year. From a management point of view, which he said he would refer to in the financial presentations, late payment
+
+continued to present an underlying risk to the OIML. Inflation, as most delegates would be aware, continued to present a challenge, and Mr Donnellan emphasised that this would be more fully realised in the financial activities of the Organisation in the trimesters to come. During the current year, expenses had remained within expectations, and again he said he would cover this in more detail later in the agenda. During the current period, the OIML Operating Reserve had been established, and various mechanisms had been put in place. More importantly, Mr Donnellan reported that the OIML Operating Reserve fund had not been accessed. He continued that the Internal Audit Team's recommendations had been implemented by the BIML, and the 2021 accounts had been externally audited and published as part of the Addenda for the current meeting. Finally, a request for tender had been undertaken concerning the external auditor, and Mr Donnellan said he would mention this again later in the agenda.
+
+Mr Donnellan moved onto the some of the more focused areas within the Organisation and the technical publications, which he stated was one of the key offerings and the "raison d'être" of the Organisation. A variety of new projects had been launched, with BIML support given explicitly and tailored to Project Group conveners. As already mentioned by the President, all publications that had been approved by the CIML at its 56th Meeting had been published. Updates and progress reports had been obtained from the Project Groups, and these had been reported to the Presidential Council and to the CIML. The work undertaken by the Bureau had focussed on the high priority projects, and the process had been agreed for the reconfirmation of conveners and secretariats. Numerous meetings had been held online and work had been undertaken by the Bureau in a number of different ways to re-energise certain projects and obtain the requisite number of P-members for the projects to proceed.
+
+Moving on briefly to the OIML-CS, Mr Donnellan stated that there would be a more comprehensive report later on the agenda, and remarked that this was a key pillar for the Organisation. The Seventh OIML-CS Management Committee Meeting had been held in March, and a number of initiatives had been undertaken and progress to the system had been made. In particular, Mr Donnellan wished to mention that the OIML, and indeed the Bureau, had been very grateful for the contributions to the OIML-CS, especially by the Review Committee and the workload associated with the Review Committee. Finally, as he had already mentioned, on a number of matters, the OIML-CS would benefit from direct and effective engagement with industry. He emphasised that Members could help to improve and expand the OIML-CS by talking to manufacturers, industry associations, and type submitters within their own jurisdictions, in order to draw their attention to the OIML-CS and its benefits.
+
+Moving on to CEEMS, Mr Donnellan stated that the BIML had provided active support to the CEEMS AG on several topics. He specifically mentioned the revision of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS AG). As he had already said, the calls had been issued for the CEEMS AG Chairperson and Vice-Chairperson. The Bureau had also directly contributed to the project looking at the use of online technology for conducting CEEMS activities. Mr Donnellan said it was important for him to acknowledge the extended work by his colleagues in the Bureau to provide secretariat services to the CEEMS AG in the absence of any co-secretariat support from Member States at the moment.
+
+Moving on to stakeholder engagement and liaison, Mr Donnellan said they had already touched on the OIML Bulletin, and added that it continued to be produced every three months. He commented that work on the Bulletin was very focused now, and the support of the Mentors who had contributed to the Bulletin was very much appreciated, as were all those who submitted articles. The Bureau looked forward to advancing more in the months and editions to come. Mr Donnellan continued that the social media outreach and engagement strategy had been successful and was growing, and the Bureau was looking at improving systems through the development of a Style Guide. He said that he had already mentioned the refreshed OIML website, which was really important for a modern international organisation that was digitally focused and pushing activity through its website, which was the main means of communication for the OIML. Of course, there were other examples of outreach, including the BIML's engagement with its Quadrilateral partners which met each year, as well as work with the UNECE, with regional organisations, and of course with the RMOs and RLMOs and the OECD.
+
+With regard to e-Learning, Mr Donnellan stated that the OIML e-Learning strategy continued to be developed, refined, and advanced, and he said it would interact with the work of the OIML DTG as well as other bodies. He remarked that it was important to make the connection between the e-Learning strategy and that of the DTG, and the BIML continued to contribute significantly to both of these. The BIML had been looking at ways it could share, on the OIML website, those resources and e-Learning modules and training programmes that were available through the Organisation's RLMO partners. Mr Donnellan stated that more about this would be discussed throughout the agenda. He considered that it was important to mention that this was not being done in isolation, as there was also collaboration with the BIPM and he thanked the BIPM for their support. Importantly, Mr Donnellan wished to note that the Bureau was working with the BIPM on developing an e-Learning module on OIML D1, which he remarked was a very important topic for many Members.
+
+Mr Donnellan mentioned briefly that in addition to the Bureau's outreach and engagement with stakeholders, the Bureau had also actively contributed to other stakeholders' organising committees in order to advance and elevate the promotion of legal metrology within international fora. As examples, Mr Donnellan mentioned the 21st International Metrology Congress which would be held in 2023, the International Conference on Weighing, which again would be held in April 2023, and the very successful IMEKO TC6 conference on digitalisation which had been held the previous month in a hybrid form at the PTB.
+
+Moving on to World Metrology Day, Mr Donnellan commented that hopefully it would not come as a surprise to anyone that the theme for 2022 had been Metrology in the Digital Era, which reflected the importance of digitalisation and digital transformation, and the significant work that both the OIML and the BIPM had carried out on this subject. The DTG and the Joint Statement had directly influenced the choice of theme in 2022, and he showed delegates some statistics on the outreach and penetration of World Metrology Day around the globe, including the work with Directors' messages and press releases, the events that had been conducted within Member States, and some of the activities through the WMD website and social media. He emphasised that all Members were encouraged to actively participate in World Metrology Day each year, which would of course support the OIML/BIPM bid with UNESCO.
+
+Moving on to cooperation with the BIPM, the BIML had collaborated with the BIPM on many subjects during the period 2021-2022, including work with organisations in liaison, such as shared consistent messaging, representation, and resourcing, World Metrology Day and the UNESCO bid for a World Day of Metrology, digitalisation, and the Joint Statement of Intent. There had also been important collaboration on more organisational, corporate and governance matters which were common to both Organisations. Meetings were convened on a regular basis, and there was an ongoing regular dialogue between the Director of the BIPM and himself.
+
+Mr Donnellan indicated that his last slide showed some of the emerging matters within the context of legal metrology, metrology more generally, and that of an international standard-setting organisation. As delegates knew, international standards were most effective when they were widely accepted and trusted. In order to assess and improve the level of acceptance, the OIML as an organisation, through the work of the Bureau with UNIDO, has mapped its metrology functions to some of the UN Sustainable Development Goals (SDGs), looking at how metrology really interacted with, and added value to these. He again encouraged all delegates to look at the UNIDO QI4SD Index which had been made available on the UNIDO website. The Organisation also needed to focus on adding value to society to support the implementation of the SDGs, focusing on the three Ps: People, Planet and Prosperity. He continued that the OIML DTG would need to consider these as part of its mandate and look at the most appropriate ways to drive sustainability priorities and practices on both a horizontal basis in OIML activities, as well as in vertical areas. Mr Donnellan stated that the Organisation needed to work collaboratively to raise the profile of its standards, to increase their accessibility, including machine readability and other accessibility requirements, and to reduce their complexity for greater uptake. Mr Donnellan emphasised that the Organisation needed to actively and regularly seek feedback from, and provide feedback to consumers and industry on its work. Mr Donnellan stated that this was the end of his presentation.
+
+Dr Schwartz thanked Mr Donnellan for his comprehensive, and overall very positive report, in which he had addressed all the aspects and work items that were currently of high relevance for the Organisation. He thanked and congratulated him and the team at the Bureau on having accomplished many work items in the past year with high motivation and competence. He asked delegates if there were any questions or comments, and there were none.
+
+Dr Schwartz asked Mr Dunmill to read the respective draft resolution.
+
+Mr Dunmill read
+
+Draft Resolution no. CIML/2022/...
+
+The Committee,
+
+Notes the report given by the BIML Director.
+
+There were no comments on the resolution.
+
+## 7 Renewal of the contract of Mr Paul Dixon, BIML Assistant Director
+
+Dr Schwartz stated that the next three items on the agenda (items 7,8 and 9) would deal with the renewals of the contracts for the BIML Director and both Assistant Directors. This would be done in a closed session which would exclusively be open to Heads of Delegation from Member States, and also to Members of Honour. The closed session would use a Zoom breakout room, and he asked Assistant Director Mr Dunmill to briefly explain how this would work for all delegates, as those who would not be in the breakout room would, he joked, be enjoying another 15 minutes break.
+
+Mr Dunmill gave a short explanation of the Zoom breakout session.
+
+Dr Schwartz suggested altering the order of items 8 and 9 so that delegates would first consider the renewal of the contracts of BIML Assistant Directors Mr Dixon and Mr Dunmill, before then considering the renewal of the contract of BIML Director Mr Anthony Donnellan, at which point he would ask Mr Donnellan to also leave the room in Braunschweig.
+
+[Closed session covering agenda items 7,9 and 8-not recorded or minuted]
+
+Following the closed session, Mr Dunmill stated that for agenda item 7 concerning the renewal of the contract of Mr Dixon as BIML Assistant Director, in accordance with the procedures, there would be a secret ballot later. If this was successful, the CIML would vote on a draft resolution which would say:
+
+Draft Resolution no. CIML/2022/...
+
+The Committee,
+
+Having regard to section 4, first bullet point, of OIML B13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Having regard to its Resolution CIML/2021/09,
+
+Noting the comments made by its Members [if applicable],
+
+Extends the contract of Mr Paul Dixon as BIML Assistant Director for a five-year term with effect from 1 January 2023.
+
+Dr Schwartz asked if there were any questions on this draft resolution. There were none.
+
+Mr Dunmill confirmed that the line noting any comments would therefore be removed.
+
+## 8 Discussion on the renewal of the contract of Mr Anthony Donnellan, BIML Director
+
+This item was discussed in closed session and is therefore not minuted.
+
+Mr Dunmill stated that the resolution for agenda item 8 concerned the renewal of the contract of Mr Anthony Donnellan, BIML Director. This was a preliminary decision, with the approval of the renewal itself taking place next year. Mr Dunmill read:
+
+Draft Resolution no. CIML/2022/...
+
+The Committee,
+
+Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations, and section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Considering that the term of appointment of Mr Anthony Donnellan, BIML Director, expires on 31 December 2023,
+
+Considering the proposal made by its President,
+
+Noting the comments made by its Members [if applicable],
+
+Expresses its expectation that it will resolve to renew the appointment of Mr Anthony Donnellan as BIML Director for a fixed term of up to five years at its meeting in 2023, and
+
+Resolves not to appoint the Selection Committee specified in section 3 of OIML B 13:2004.
+
+Dr Schwartz commented that this was quite a lengthy draft resolution but added that it was necessary for it to be formally worded in that way. He asked if there were any questions on the draft text. There were none.
+
+Mr Dunmill confirmed that again the phrase noting any comments would therefore be removed.
+
+## 9 Discussion on the renewal of the contract of Mr Ian Dunmill, BIML Assistant Director
+
+This item was discussed in closed session and is therefore not minuted.
+
+Dr Schwartz suggested that delegates skipped the reading of the next draft resolution, as it was more or less the same as the last one regarding Mr Donnellan, except that it concerned the renewal of Mr Dunmill's contract.
+
+## 10 Financial matters
+
+Dr Schwartz asked Mr Donnellan to take the floor and give his reports on financial matters.
+
+## 10.1 2021 accounts
+
+Mr Donnellan thanked Dr Schwartz for his introduction. He stated that he would address agenda items 10.1, 10.2, and 10.3 during his current presentation, taking a pause between each item.
+
+Mr Donnellan reminded delegates that the budget and the finances for 2021 had been an extension to the 2020 budget, because the 16th Conference had been postponed from 2020 to 2021. Mr Donnellan stated that the provisions in Article XXIV of the OIML Convention allowed for the extension of existing credits in such circumstances, and therefore the figures from the 2020 budget had been applied in 2021. He commented that this had been good for business continuity purposes, but unfortunately had not
+
+reflected any of the expected increases to the budget, which had been set in 2016 in Strasbourg. He said he was mentioning this as a reminder to delegates of the scenario that had been faced the previous year.
+
+In summary, Mr Donnellan said that 2021 had been another good year, in which the Organisation's good financial position had been consolidated. Expenditure had been lower than the allocated budget, even though the figures from the 2020 budget had been applied again in 2021, and despite the emergence of fairly significant inflationary pressure towards the end of 2021, which had continued to the present time. There had also been some exchange rate vulnerability, which the Organisation had limited exposure to, but which, nevertheless, did present a risk and a challenge. As he had already mentioned, late payment by Members continued to present a risk to the Organisation, and although he understood the situation in various Member States, he reminded delegates of the need to pay under the terms of the Convention, which he said he would touch upon again later in his presentation.
+
+Mr Donnellan next showed a slide in French, and a slide in English, which were the reports from the external auditor confirming that the accounts were in conformity with the necessary IPSAS standards.
+
+Mr Donnellan's next slide showed the total income. He indicated that income had been higher than the budgeted figure in 2021, which had been primarily due to additional members having joined the OIML in the last financial year, although there had also been higher than budgeted OIML-CS certificate income for 2021, as could be seen in the far right-hand column in green. This had resulted in a total income surplus of €16 141.
+
+The next slide showed the total charges. Mr Donnellan stated that for 2021, total expenditure had been below the voted budget, which had been a continuation of the provisions in the 2020 budget. This represented another good year of savings and austerity measures undertaken by the BIML, and as delegates could see, a number of savings were reflected across total expenditure for that year.
+
+Mr Donnellan drew attention to his next slide which depicted this graphically. He pointed out that the blue line on the graph represented the budget which had been approved by the CIML for the previous financial period, and the orange line represented the actual expenditure. He commented that the expenditure and total charges for the Organisation had been decreased significantly and had been well within budget expectations.
+
+As required by the financial reporting rules and previous CIML resolutions, Mr Donnellan said that the OIML-CS income and costs had to be reported separately. The next slide showed a summary of OIML-CS income and costs for the year 2021. As he had already mentioned, the certificate income had been higher than the budgeted amount. Some of the expenditure had been higher as well, but Mr Donnellan remarked that this was manageable within the overall budget provisions.
+
+This led onto Mr Donnellan's next slide, which was the total result for the financial year 2021. As delegates could see, against a voted surplus of €4865, there had been a surplus of €141999, which left a net difference of €137134. This positive result against the budget expectation for 2021 put the Organisation in a good position for 2022, and showed the Organisation's financial stability. He reported that the available operating funds remained positive and adequate for an organisation the size of the OIML, and emphasised that this was particularly important for Members and other stakeholders to understand in a period of high inflation and economic volatility, as was the case at the present time on an international level. This was evident not just through the level of payments into the Organisation, but also with their timeliness and the difficulties in receiving payments in some circumstances. In this situation, and with the current high inflation, Mr Donnellan considered that the Organisation was in a good position at the present time.
+
+Mr Donnellan said that this concluded agenda item 10.1.
+
+Dr Schwartz verified that there were no questions, and asked Mr Donnellan to proceed to the next item.
+
+## 10.2 Arrears of Member States and Corresponding Members
+
+Mr Donnellan reminded delegates that this was a standing agenda item, and showed them a slide which detailed the current, and preceding four years of arrears of Member States and Corresponding Members. He explained that the table was broken down by Member State, Corresponding Member, and total arrears, in that order. He drew delegates' attention to the fact that this was for the period from October to October, and commented that Member States arrears had increased by approximately 653000 from October 2021 to October 2022, which represented an 8.4 % increase. Corresponding Member arrears had increased by 69 669, or 30 % from October 2021 to October 2022. This meant that the total arrears of the 126 Members (both Member States and Corresponding Members) had increased by 62 669, or 9.5 % over that reporting period. He remarked that a number of payments had been received within the last 24 hours, so these figures were subject to change, and were only good at the time they were generated. Mr Donnellan thanked all Members for their payments, and added that the Organisation recognised the current exchange rate vulnerability and other challenges. Nevertheless, he pointed out that Member States' and Corresponding Members' arrears had increased by approximately 10 % year on year.
+
+Mr Donnellan stated that his next slide showed Member States' payment behaviour in 2022. This chart showed that the percentage of Member States which had paid on time or early was 29 %, and which had paid late was 71 %. As indicated in the arrears chart, this was a deterioration from 2021, where the figure for early or on-time payment had been 34.4 %. This was a decrease of 5.4 points over that reporting period.
+
+Continuing with Member State payment behaviour, Mr Donnellan stated that the next chart represented the total contributions income received from Member States, the contributions having been approved by the CIML and the Conference. Mr Donnellan indicated that for 2022, delegates could see that 23.8 % of payments had been on time, and 76.2 % had been late, which again represented a deterioration from the previous year, where on-time payment had been slightly higher at 25.5 %. This represented a change of about 1.7 points year-on-year.
+
+Corresponding Members payment behaviour presented a similar situation, with early/on-time payment received from 23.8 % of Corresponding Members in 2022, and late payment from 76.2 %. This reflected a deterioration from 2021, where on-time payment had been 28.1 %, and represented a change of 4.3 points from 2021 to 2022.
+
+Mr Donnellan reiterated his reminder, which he made every year, that the arrears of Member States and Corresponding Members did present an overall risk to the Organisation. He remarked that the Organisation was "lucky" or "able" to carry this risk at the current point in time due to good financial management and prudence, and due to the austerity measures that had been applied. However, he appealed to all Member States and Corresponding Members, emphasising that Article XXV of the Convention required Member State contributions and Corresponding Member subscription fees to be paid at the beginning of each year, and he implored all Members to adhere to this. He again thanked all Members who did regularly pay on time, repeating that the Organisation did recognise the challenges within economies from time to time.
+
+Dr Schwartz thanked Mr Donnellan for his report on item 10.2 and asked if there were any questions. There were none, so Dr Schwartz asked Mr Donnellan to move onto item 10.3.
+
+## 10.3 Budget forecast for 2022
+
+Mr Donnellan reported that the initiatives and reforms which had been implemented within the Bureau had continued to be applied in 2022, and had resulted, amongst other things, in the savings listed on the screen. There were
+
+- savings in operational and administrative costs,
+
+- reduced costs associated with OIML governance,
+
+- changed and prioritised engagement in external fora and modes of participation,
+
+- savings associated with digital transition and the way the Organisation worked, and
+
+- building and operational savings.
+
+There were also several capital expenditure savings, which included the deferral of some capital expenditure, and also reprioritisation of capital expenditure such as IT infrastructure, and contractor costs.
+
+Mr Donnellan pointed out that the next slide, showing the budget results for recent years, indicated that the overall trend had been positive because of the savings and austerity measures, and the vigilance that had been applied by Bureau staff, and Mr Donnellan thanked them for their efforts and continued vigilance.
+
+Regarding the budget forecast for 2022 displayed on the next slide, Mr Donnellan asked delegates to note that this included a lower than expected forecast for income, which was a reflection of a number of factors, including certificate income, which Mr Donnellan commented did often change. He remarked that these forecasts were always made on a conservative basis, in terms of income and outgoings for the Organisation. Mr Donnellan reported that forecast expenditure was looking positive in terms of the savings that would continue to be applied, including reduced operational expenditure costs, reduced travel costs in the current operating environment, and reduced meeting costs, although these would be slightly higher in the current year, specifically for the CIML and some other meetings. Importantly, Mr Donnellan stressed that the reprioritised capital expenditure and savings applied to capital expenditure would have a direct effect on depreciation and amortisation and that capital expenditure planning affected a number of the savings that would be made. Mr Donnellan reiterated that the effects of inflation had so far been managed within the existing budget envelope, although they would be more evident in the coming trimesters, as the inflationary pressures worked through the system, and through the INSEE index. He stressed that meant that the Organisation had not needed to access the designated operating reserve during the current period.
+
+Mr Donnellan presented a slide showing the budget, the actual charges, and the forecast for 2022. While the costs and expenditure were increasing, partly due to the level of inflation which had been experienced globally and certainly in France, they were expected to remain within the voted budget for 2022. Mr Donnellan stated that this closed item 10.3.
+
+Dr Schwartz thanked Mr Donnellan and commented that delegates would be glad to hear that the Organisation remained in a healthy condition from a financial point of view. He thanked Mr Donnellan for having kept a close eye on the budget and for having taken the necessary austerity measures.
+
+Mr Marneweck (South Africa) said he had a question regarding the previous item. He wished to determine whether there were any Member State or Corresponding Members that had not paid their subscription for three consecutive years and if there were, he asked what the BIML was doing about the situation.
+
+Mr Donnellan said that Article XXIX of the Convention was quite clear that Member States and Corresponding Members would be struck off after three consecutive years of non-payment. He continued that the Bureau had been deploying significant resources to work with Member States and Corresponding Members to prevent payment problems from arising. He remarked that it took a significant amount of time for the secretariat to chase those payments. So far, these measures had been successful which was why he had been pleased to report that no Members had been delisted at the beginning of this year. He stressed that every effort was being made to work actively with diplomatic missions in France, and across Europe where Members were at risk of being struck off. Visits were made to the embassies to talk to the ambassadors about these risks, letters were sent to them and these were conveyed to the national metrology institutes through their departments of foreign affairs and other relevant ministries to highlight the risks. He repeated that it was an ongoing problem for the OIML, which was why appeals were made to all Members to make their payments regularly and on time.
+
+Dr Schwartz thanked Mr Donnellan, and asked if there were any questions regarding the budget forecast for 2022, but there were none.
+
+## 10.4 Report of the internal financial audit team
+
+Dr Schwartz said that the report on this item had been provided in Addendum 10.4, which would now be presented by CIML Second Vice-President Dr Bobjoseph Mathew. He suggested that in the interests of saving time, the draft resolutions for agenda item 10 would be presented under item 12.2.
+
+Dr Mathew stated that he would be giving an oral report on the internal audit that had been conducted. The report would be structured in three sections: an introduction, an explanation of the audit approach, and the conclusions reached. As the CIML President had already mentioned, at the 55th CIML Meeting, a resolution had been adopted concerning the establishment of an internal financial audit of salaries and other operational expenses, and the internal financial audit had been started on this basis. The CIML President had appointed Ms Mairead Buckley (Ireland), Member of the Presidential Council, and himself as members of the audit team, and they had been asked to conduct an internal financial audit and to provide a report to the CIML President and the Presidential Council.
+
+The audit team had asked the BIML Director to provide them with specific documents describing the roles and responsibilities for the various financial management processes as well as the internal control procedures. It had been important for the audit team to understand the controls which were in place for each process. Requests had been made for process documents covering planning, budgeting, accounting, accounts receivable and payable, salaries, and cost control. The audit team had based the audit on the draft audit report from 2020 and the accounts of 2020. The audit team understood that when the BIML Director had taken up office in 2019, he had had to build up procedures and controls to establish a full suite of documents regarding internal financial processes. Dr Mathew commented that the audit team appreciated the efforts that had been made at that time by the Director and both Assistant Directors, taking into account the amount of work undertaken during the audit. The audit team had reviewed 14 documents, which Dr Mathew said he had mentioned in the written report.
+
+Dr Mathew stated that the conclusions had shown that a suite of processes and procedures had been established which defined the roles of various finance processes. For some of these, documents existed, and others were either being updated or were being introduced for a number of important financial controls. The audit team confirmed that the documentation was adequate for an organisation of the size of the BIML and Dr Mathew emphasised that the size of the BIML was very important. The audit team had made a number of recommendations for immediate action, as well as several other observations with the aim of further enhancing the robustness of the procedures. Dr Mathew said the audit team had been very happy to see that, as of June 2022, all the findings had been addressed and immediate actions had been taken to implement the majority of the recommendations. Some of the observations that could not be addressed would be addressed as soon as practicable. He recommended that the next review should confirm that the controls defined in the processes and procedures were being applied systematically, and were operating effectively, in particular those relating to salaries and other operational expenses. The audit team wished to thank the BIML Director and the Assistant Directors for their cooperation and support during the audit, which had taken place during the COVID-19 pandemic.
+
+Dr Schwartz thanked Dr Mathew for his short report and asked if there were any questions or comments. There were none, so in the interests of saving time, Dr Schwartz suggested that the text of the respective draft resolution should be considered under item 12.2.
+
+## 10.5 Appointment of an independent chartered accountant (external financial auditor)
+
+Dr Schwartz said that the report on this item would be given by the BIML Director, and delegates had received information in Addenda 10.5a, 10.5b, and 10.5c.
+
+Mr Donnellan explained that the current term of the OIML independent chartered accountant (external financial auditor) would expire at the end of 2022. OIML B 8:2012 OIML financial regulations required the CIML to appoint an independent chartered accountant for a period of four years to audit the financial
+
+accounts of the OIML. In accordance with resolution CIML 2020/5 taken at the 55th CIML Meeting, a request for tender (RFT) had been issued, and the CIML President had selected and formed a tender evaluation panel (TEP) comprising three CIML Members to evaluate the submissions received.
+
+The RFT had opened on 4 April 2022, and had closed on 1 May 2022. During the four weeks that it was publicly available on the OIML website, the RFT pages were directly accessed/downloaded 311 times, and accessed via the News page 962 times. The TEP then evaluated the responses received using pre-agreed criteria, and made a recommendation to the BIML Director regarding the appointment of an OIML independent chartered accountant. This recommendation had been that L.G. Audit and Conseils should be appointed for two calendar years, with the option to extend this appointment for two additional calendar years in single annual instalments, subject to satisfactory performance, as evaluated at the end of each of these defined periods. Mr Donnellan confirmed that he was now making this recommendation to the CIML.
+
+Additionally, the TEP had agreed to a recommendation made by the CIML President to amend the current operating provisions of Article 21.4 of OIML B 8:2012, so as to provide the OIML with even greater flexibility when engaging an independent chartered accountant. The proposed revised text for B 8 had been provided in the Addendum for this agenda item.
+
+Dr Schwartz thanked Mr Donnellan for his clear presentation, including the proposal to amend B 8 in order to give the OIML more flexibility when appointing an external financial auditor. Dr Schwartz asked if there were any questions.
+
+Mr Panesar (United Kingdom) specified that his comment was with regard to B 8,21.4 on satisfactory performance. He remarked that it may be helpful to define at the outset what was meant by "satisfactory performance", both for the auditors' information and also so that CIML Members could understand what the aim of the "satisfactory performance" was.
+
+Mr Donnellan replied that the performance criteria for the selected financial auditor would be detailed in the contractual terms and conditions, but would include, for example, areas such as on-time auditing services, accurate auditing services, availability for advice, and the maintenance of current accreditation qualifications. OIML B 8, 21.4 had been expanded and simplified to give the Organisation greater operating flexibility, and he reassured Mr Panesar and the Committee that those requirements would be included as part of any arrangements put in place with the successful auditor.
+
+Dr Schwartz confirmed that he fully understood the proposal made by Mr Panesar but suggested that the existing wording was maintained because the major purpose, as explained by Mr Donnellan, had been to give the Organisation more flexibility when appointing an external auditor. He added that he thought it was clear enough and continued that if more detail on what was understood by "satisfactory performance" was needed, this could be added by another amendment to the paragraph.
+
+Mr Marneweck noted that the TEP's recommendation was to appoint the same auditing firm which had been responsible for auditing the accounts of Bureau for a number of years, and he asked if this might not create a risk if the Organisation kept using the same auditing firm over a prolonged period, and wished to extend that period even further.
+
+Dr Schwartz replied that Mr Marneweck's comment would be taken seriously, and confirmed that this had been discussed several times, both at the Presidential Council, and with the Presidency, together with the BIML Director and Assistant Directors. He reassured Mr Marneweck that his comment would be taken into consideration when further tenders were undertaken and further appointments made.
+
+Dr Schwartz noted there were no more comments, so before moving onto the secret ballots he suggested that delegates took a short break of around five minutes, as it was already around midnight for delegates from the Asia-Pacific region. The Committee would then move on to the secret ballots and the voting on CIML Resolutions, which would then conclude the first session of the CIML meeting.
+
+## 11 Secret ballots
+
+Dr Schwartz welcomed delegates back to the last part of current session, and before starting the ballots themselves, asked Mr Dunmill to explain the secret ballot procedure.
+
+## 11.1 Explanation of the secret ballot procedure
+
+Mr Dunmill said that since this was the first time this procedure had been used, he wished to run through it to make sure that all delegates knew exactly how and where to find the necessary tools. He explained that only Heads of Delegation would be able to vote, that each ballot would need to be voted on separately, and that votes could not be changed once cast. He showed a number of screenshots to demonstrate the process.
+
+He asked if there were any questions about the balloting process. There were none. Mr Dunmill highlighted that a full version of the explanation he had just given could be found in the document Meeting and voting guidelines V 2 which had been posted on the 2022 CIML meeting website.
+
+## 11.2 Secret ballot for the CIML President (2023-2029)
+
+Mr Dunmill described the procedure for the secret ballot for the CIML President as laid down in B 14:2013:
+
+- As long as there are two candidates or more:
+
+- CIML Members vote for one of the candidates, and the candidate who obtained the smallest number of votes is eliminated;
+
+- in case two candidates share the lowest number of votes,the candidate who was most recently appointed CIML Member is eliminated.
+
+- If there is only one candidate or when only one candidate remains, CIML Members vote "yes" or "abstention" and the candidate is elected if he/she obtains a number of "yes" votes greater or equal to 50 % of the number of OIML Member States.
+
+- In case the remaining candidate has not obtained the required 50 % majority:
+
+- for the election of the President, the First Vice-President becomes Acting President until the next CIML meeting, at which time a new election is organised;
+
+- for the election of a Vice-President, the position shall remain vacant until the next CIML meeting, at which time a new election is organised.
+
+Mr Dunmill added that for the election at the current meeting, the prospective candidate would need 32 votes, and since there were two candidates, there would be two stages:
+
+- in the first ballot, one of the two candidates would be eliminated;
+
+- a second ballot would then be used to confirm that the remaining candidate had the support of at least 50 % of OIML Member States (in this case 32).
+
+Dr Schwartz opened the voting on the position of CIML President and invited the Heads of Delegation to log in to the OIML website. To verify there were no problems, Dr Schwartz reported he was following the necessary steps on his own computer.
+
+He also asked what he should do about providing a proxy vote for another country. After a brief discussion away from his microphone, Dr Schwartz announced that in case of casting a proxy vote, delegates could find this option on the online voting page, where they had a choice of voting for their own country or for other countries which had given them a proxy. He reminded delegates to make sure that they also provided any proxy votes. After some delay, Dr Schwartz announced that the voting had been successful, and having confirmed that certain countries, specifically Austria, South Africa, and Vietnam had been able to cast their votes, he announced the conclusion of the first round of the secret ballot and declared the voting closed. He asked the BIML to confirm the result.
+
+Dr Schwartz announced that Dr Bobjoseph Mathew had received the majority of votes in the first round. He thanked Mr Duran Tellez very much for having put forward his candidacy. He then announced that the second round of voting would now take place to confirm that Dr Mathew had the support of 50 % of Members States. Having announced the opening of the second round, Dr Schwartz again verified that there were no problems concerning the voting procedure. He apologised for any problems delegates were experiencing, saying that two test runs had been undertaken, but with smaller numbers of participants. He thanked delegates, and specifically those from the Asia-Pacific region, for their patience. He reminded delegates that they could either vote "yes" or "abstain", and reminded them to cast any proxy votes. He reassured delegates that the voting procedures would be smoothed out by the next time they were needed. He asked if any Heads of Delegation were still experiencing problems, and pointed out that delegates should only be voting currently on the secret ballots. He declared the voting closed. Dr Schwartz announced that the secret ballot for the CIML President had received 50 "yes" votes. He congratulated Dr Mathew on becoming CIML President-elect with immediate effect, and CIML President from the following year.
+
+## 11.3 Secret ballot on the renewal of the contract of Mr Paul Dixon, BIML Assistant Director
+
+Dr Schwartz stated that this ballot required a simple majority of 50 % of the Members States to vote "yes", which meant 32 votes. He declared the voting open and directed delegates to the secret ballot on agenda item 11.3, where delegates could click to vote "yes" or "abstain". He again reminded delegates to vote for their proxy country if they had any.
+
+Mr Dunmill requested Turkey and Iran to confirm that the person who had been nominated as Head of Delegation was trying to vote but experiencing problems. Iran said that they had been able to cast their vote, but the delegate from Turkey was experiencing problems.
+
+Dr Schwartz suggested that the vote should be closed in the interests of saving time, as only a simple majority was needed. He apologised to the delegate from Turkey.
+
+After a short pause, he announced the result, and congratulated BIML Assistant Director Mr Dixon on a successful vote to renew his contract for another five-year term. He announced that 49 "yes" votes had been received, which he felt meant delegates were very grateful and happy with all his work as Assistant Director.
+
+## 12 Review and approval of draft CIML resolutions (Session 1)
+
+## 12.1 Explanation of the voting procedure
+
+Dr Schwartz said that a roll call would not be necessary, as the number of Members present or represented could be ascertained by simply counting the "yes", "no" and "abstain" votes. He did not think it would be necessary to explain the details of the voting procedure, as he considered that more or less everybody understood the "75 %, 80 % and 80 %" rule for CIML voting. He added that a quorum of 48 CIML Members present or represented was needed. At least 80 % of those 48 would need to provide either a "yes" or "no" vote, and 80 % of these needed to be "yes" votes. He asked Mr Dunmill to read through the resolutions.
+
+He added that he should have mentioned already under item 11.2 that the successful election of Dr Mathew would have the immediate consequence that the Committee would need to elect a new CIML Second Vice-President at the 2023 CIML meeting. He said that a respective draft resolution requesting a call for candidates should be presented, and reported that this had already been prepared. He specified that two versions of the resolutions had been prepared, depending on which of the candidates had been successful, and once resolution 5 was reached, which dealt with the election of the
+
+CIML President for the next period, delegates would be asked to consider a resolution for the call for candidates for a new CIML Second Vice-President.
+
+## 12.2 Review of draft CIML resolutions
+
+Mr Dunmill said this item reviewed the resolutions which had been proposed so far concerning the agenda items covered in this session. He stated that as he read each resolution, he would ask if there were any comments, and explained that this was not for voting, but to verify whether delegates had any problems with the wording of the resolutions. He read:
+
+Draft Resolution no. CIML/2022/01 Agenda item 2
+
+The Committee,
+
+Approves the agenda for the 57th CIML Meeting.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/02 Agenda item 3
+
+The Committee,
+
+Approves the minutes of the 56th CIML Meeting, subject to the amendment of the list of participants.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/03 Agenda item 4
+
+The Committee,
+
+Notes the report given by its President.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/04 Agenda item 5
+
+The Committee,
+
+Noting the procedure for the election of the CIML President in OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+
+Selects Dr Bobjoseph Mathew as its President for a six-year term starting during session 1 of the 58th CIML Meeting planned for October 2023.
+
+There were no comments.
+
+Dr Schwartz interceded, stating that before the next resolution was read, he wished CIML First Vice President Dr Ehrlich to take the floor and explain his proposal relating to the position of CIML First Vice-President.
+
+Dr Ehrlich (United States) explained using the same strategy that had been used in 2022 with the position of CIML President, he still had two more years of his term as CIML First Vice-President, but he wished to propose that a vote should be taken at the CIML meeting in 2023 on the CIML First Vice-President position, so that the First Vice-President elect could be chosen at that meeting, and spend the following year from 2023-2024 becoming familiar with their new tasks before officially taking up office in 2024.
+
+Dr Schwartz stated that he fully supported this proposal, as he felt it would put the Organisation in a good position regarding the future of the two CIML Vice-President positions. His proposal was
+
+therefore that there would be two calls for candidates after the current meeting, one for the candidate for the position of CIML Second Vice-President, to be voted on in 2023, which would then take immediate effect, and a second call for the position of CIML First Vice-President, which would be voted on at the CIML meeting in 2023, with the decision becoming effective in 2024. If delegates agreed with this proposal, it would now be put forward by Mr Dunmill. He requested that delegates made any comments after the respective draft resolution had been read.
+
+Mr Dunmill commented that delegates would not have seen this resolution as a draft because the results of the secret ballot had not been known, and noted that the proposed resolution also covered the point just made by Dr Ehrlich. He read
+
+Draft Resolution no. CIML/2022/05 Agenda item 5
+
+The Committee,
+
+Noting the procedure for the election of CIML Vice-Presidents in OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+
+Considering the appointment of the CIML Second Vice-President as CIML President with effect from October 2023, and therefore the need to elect a new CIML Second Vice-President,
+
+Instructs the Bureau to circulate a call for candidates for the position of CIML Second Vice President with a deadline of 31 May 2023, with a view to the CIML appointing a CIML Second Vice-President at the 58th CIML Meeting planned for October 2023, with effect from that meeting,
+
+Considering that the CIML First Vice-President's term of office comes to an end in October 2024,
+
+Instructs the Bureau to circulate a call for candidates for the position of CIML First Vice President with a deadline of 31 May 2023, with a view to the CIML appointing a CIML First Vice-President at the 58th CIML Meeting planned for October 2023, with effect from October 2024.
+
+Mr Dunmill asked if there were any comments on this wording.
+
+Dr Takatsuji (Japan) stated that the resolution mentioned that the term of the First Vice-President would end in October 2024, but the actual month would depend on the timing of the 58th CIML Meeting so not necessarily in October 2024.
+
+Dr Schwartz understood that Dr Takatsuji was suggesting that the resolution clearly indicated "with effect from the 59th CIML Meeting in 2024". He thanked Dr Takatsuji for his comment and asked if that change would address his concerns.
+
+Dr Takatsuji added it also applied to the previous line.
+
+Dr Schwartz commented that the third paragraph "Instructs the Bureau ..." regarding the CIML Second Vice-President should not mention "October 2023", but should just mention "the 58th CIML Meeting in 2023".
+
+Mr Dunmill confirmed that this reference to October would also be removed. He added that the text would basically be the same but instead of referring to the specific date of October 2024, it would refer to the 59th CIML Meeting in 2024.
+
+Mr Marneweck wondered whether the first "Considering ..." should also refer to a meeting and not be left as the date of October so that the whole resolution was aligned.
+
+Dr Schwartz commented that these editorial improvements would be taken into account before voting. He verified that delegates were in principal in agreement with this draft resolution, as this had been presented to them after the secret ballot on the election of the next President. There were no objections, so Dr Schwartz declared that in principle delegates were in agreement and thanked them. He asked Mr Dunmill to move on to the next resolution.
+
+## Mr Dunmill read
+
+Draft Resolution no. CIML/2022/06 Agenda item 6
+
+The Committee,
+
+Notes the report given by the BIML Director.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/07 Agenda item 7
+
+The Committee,
+
+Having regard to section 4, first bullet point, of OIML B13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Having regard to its Resolution CIML/2021/09,
+
+Extends the contract of Mr Paul Dixon as BIML Assistant Director for a five-year term with effect from 1 January 2023.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/08 Agenda item 8
+
+The Committee,
+
+Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations, and section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Considering that the term of appointment of Mr Anthony Donnellan, BIML Director, expires on 31 December 2023,
+
+Considering the proposal made by its President,
+
+Expresses its expectation that it will resolve to renew the appointment of Mr Anthony Donnellan as BIML Director for a fixed term of up to five years at its meeting in 2023, and
+
+Resolves not to appoint the Selection Committee specified in section 3 of OIML B 13:2004.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/09 Agenda item 9
+
+The Committee,
+
+Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations, and section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Considering that the term of appointment of Mr Ian Dunmill, BIML Assistant Director, expires on 14 March 2024,
+
+Considering the proposal made by its President,
+
+Expresses its expectation that it will resolve to renew the appointment of Mr Ian Dunmill as BIML Assistant Director for a fixed term of up to five years at its meeting in 2023, and
+
+Resolves not to appoint the Selection Committee specified in section 3 of OIML B 13:2004.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/10 Agenda item 10.1 The Committee, Noting the accounts for 2021, the OIML budget summary, and the BIML Director's comments, Considering the external auditor's report on the 2021 accounts, Approves the 2021 accounts, and Instructs its President to present them to the 17th OIML Conference. There were no comments.
+
+Draft Resolution no. CIML/2022/11 Agenda item 10.2
+
+The Committee,
+
+Notes the report given by the BIML Director,
+
+Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+
+Requests those Members with arrears to bring their situation up to date as soon as possible.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/12 Agenda item 10.3
+
+The Committee,
+
+Notes the report on the budget forecast for 2022 given by the BIML Director.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/13 Agenda item 10.4
+
+The Committee,
+
+Notes the report of the internal financial audit team,
+
+Thanks Mrs Mairead Buckley and Dr Bobjoseph Mathew for conducting the financial audit and producing the report,
+
+Acknowledges the conclusions of the report and supports the recommendations contained therein, and
+
+Requests that its President and the BIML Director ensure the implementation of these recommendations.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/14 Agenda item 10.5
+
+The Committee,
+
+Noting the outcome of the tender evaluation panel's considerations, as provided in Addendum 10.5a to the Working Document for the 57th CIML Meeting,
+
+Approves the revision of OIML B 8:2012 OIML Financial Regulations as provided in Addendum 10.5c to the Working Document for the 57th CIML Meeting.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/15 Agenda item 10.5
+
+The Committee,
+
+Having regard to Article 21.4 of OIML B 8:2012 OIML Financial Regulations,
+
+Noting the recommendation of the tender evaluation panel, as provided in Addendum 10.5a to the Working Document for the 57th CIML Meeting,
+
+Appoints L.G. Audit and Conseils as the OIML independent chartered accountant (external financial auditor) for two calendar years commencing on 1 January 2023, with the option to extend this appointment for two additional calendar years in single annual instalments, subject to satisfactory performance as evaluated at the end of each of these defined periods.
+
+There were no comments.
+
+Mr Dunmill said this concluded the resolutions for this session.
+
+## 12.3 Voting on draft CIML resolutions
+
+Dr Schwartz asked delegates to vote on the resolutions. First he asked again if there were any questions or comments on any of the resolutions.
+
+There were no comments.
+
+Dr Schwartz declared the voting open, after confirming that the most recent changes to the resolutions had been uploaded by the BIML.
+
+Mr Dunmill displayed an administration screen so that the voting could be followed. He stated that for voting on CIML resolutions it was possible to tell how many "yes", "no", and "abstain" responses there had been for each of the resolutions, which was the kind of information that would normally be announced at an in-person CIML meeting. He pointed out that the screen also showed whether each of the three conditions which had been mentioned earlier had been met at the present time, and commented that at the moment, not enough votes had been cast for any of the conditions to be met.
+
+Dr Schwartz interjected that for the moment 44 had been received, at least on draft resolution 1, and added that at least 48 votes were needed.
+
+Mr Dunmill said that Australia had asked about how to "vote yes for all". He explained that in the column heading where delegates clicked to vote, there was an option to "vote yes for all". If delegates did this and then wished to change one of their votes to "abstain", or to "no", they had this option until the voting session was closed. If delegates wished to vote other than "yes" for even a couple of the resolutions, it was still quicker to "vote yes for all", and then change some individual ones.
+
+Dr Schwartz drew delegates' attention to the screen, on which they could see the current result, and highlighted that the red crosses signified that the quorum had not yet been reached. Since this first condition had not yet been met, the other conditions were automatically also not met. He stated that he could see that currently 44 or 45 votes had been cast. He urged delegates to submit their vote, even if it was to abstain, as this would at least count towards the quorum, and this count replaced the roll call.
+
+Mr Dunmill reminded countries who had proxies to vote for the proxy as well as for themselves.
+
+Dr Schwartz announced that there were still no more than 44 or 45 votes, which meant that there were not enough Heads of Delegations present, so he suggested that the vote should remain open until the beginning of the following session the next morning, by which time there would hopefully be enough votes so the voting could then be declared closed with the necessary quorum.
+
+## 13 Closing remarks for Session 1
+
+Dr Schwartz wished to thank all those who had given reports, and delegates for having participated in the current session. He thanked delegates for their patience. He was aware that there had been some problems with the secret ballot, which had taken some time to resolve, and he apologised for this, remarking that it had been difficult to rehearse this but thanked the BIML for taking immediate action to correct the problem. He looked forward to seeing all delegates the following day at 10:00 UTC, and asked delegates to join several minutes in advance of this time so that the meeting itself could start on time. This concluded the first session.
+
+## Session 2: Wednesday 19 October 2022, 10:00-13:30 UTC (12:00-15:30 CEST)
+
+Dr Schwartz welcomed delegates back to the meeting. He stated that the current session would be focusing on the technical activities, the OIML-CS, CEEMS, and the new Digitalisation Task Group (DTG) but, before starting the session, he requested delegates returned to the voting on the resolutions from the previous day's session. Dr Schwartz reminded delegates that the quorum had not been reached the previous day by one or two votes, so the voting had been left open overnight to enable remaining Heads of Delegation to cast their votes on the first 15 resolutions of the current CIML meeting. Dr Schwartz said he was pleased to inform delegates that the quorum of 48 votes had now been reached. He asked Assistant Director Mr Dunmill to announce the results of the votes on the previous day's resolutions.
+
+Mr Dunmill showed delegates a table presenting the results of the resolutions for the previous day. There had been 48 "yes" votes for all the resolutions out of the 63 CIML Members. He pointed out that the table comprised columns to indicate whether each of the successive conditions given in the OIML Convention for CIML decisions had been met, and said that the green ticks indicated that all of these had been met, and therefore that all the resolutions from the previous day's meeting had been approved.
+
+Dr Schwartz declared the voting on the previous day's resolutions closed. He thanked Heads of Delegation for having provided their votes.
+
+Dr Schwartz informed delegates that he had agreed with the two CIML Vice-Presidents that the chair would be rotated during the current session, so the part of the meeting up to the first break would be chaired by CIML First Vice-President, Dr Ehrlich, the part up to the second break by CIML Second Vice-President, Dr Mathew, and then Dr Schwartz would then chair the last part of current session. He handed over to Dr Ehrlich, thanking him for chairing this part of the meeting.
+
+## 14 OIML publications and technical activities
+
+Dr Ehrlich said that he hoped delegates had looked at the Working Document and its Addenda in relation to this item.
+
+## 14.1 Publications for approval by the CIML
+
+Dr Ehrlich asked Mr Dunmill to present the publications that were being put forward for CIML approval, and then to discuss how to handle the respective resolutions.
+
+Mr Dunmill explained that delegates would have seen the publications proposed for approval in the Working Document, and informed delegates that a typical draft resolution had been provided in the Working Document to indicate what kind of resolution would be presented for each publication. In order to save time, he proposed that each individual resolution would not be shown to delegates at this
+
+time. The resolutions would be read in full when reviewing the current session's resolutions at the end of the session.
+
+## 14.1.1 Revision of D 5:1982
+
+## Principles for the establishment of hierarchy schemes for measuring instruments
+
+Mr Dunmill stated that this publication had been undergone a CIML Preliminary Online Ballot with a deadline of March 2022. There had been 26 responses, all of which had been in favour. He asked if anyone from the BIML wished to comment on this, and if there were any questions. He added that no comments had been received from Members since the time this had been posted in the Working Document for approval. There were no comments.
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Noting comments from its Members [if applicable],
+
+Approves the Final Draft revision of D 5:1982 Principles for the establishment of hierarchy schemes for measuring instruments, and
+
+Thanks the Project Group convener and members for their work in completing this project.
+
+## 14.1.2 Reconfirmation of R 139:2018
+
+## Compressed gaseous fuel measuring systems for vehicles
+
+Mr Dunmill reported that this publication had not undergone a CIML Preliminary Online Ballot because the reconfirmation had come through the OIML-CS Management Committee (MC), which had conducted a ballot of its members on the subject. Delegates would see on the screen that 14 responses had been obtained from the MC's 22 members, with all of them having been in favour of this reconfirmation. He checked that there were no further comments from the OIML-CS MC on this, and added that there had been no additional comments.
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Noting comments from its Members [if applicable],
+
+Reconfirms R 139:2018 Compressed gaseous fuel measuring systems for vehicles.
+
+## 14.1.3 Revision of D 10:2007
+
+ILAC-G24/OIML D 10 Guidelines for the determination of recalibration intervals of measuring equipment used in testing laboratories
+
+Mr Dunmill stated this had undergone a CIML Preliminary Online Ballot with a deadline of June 2022. There had been 35 responses out of the 63 CIML Members, with no abstentions or negative votes so it had received a unanimous approval in the CIML Preliminary Online Ballot. Mr Dunmill checked there were no further comments. There were no comments.
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Noting comments from its Members [if applicable],
+
+Approves the Final Draft revision of D 10:2007 ILAC-G24/OIML D 10 Guidelines for the determination of recalibration intervals of measuring equipment used in testing laboratories, and
+
+Thanks the Project Group convener and members for their work in completing this project.
+
+## 14.1.4 Revision of B 12:2004
+
+## Policy paper on liaisons between the OIML and other bodies
+
+Mr Dunmill stated that this had not undergone a CIML Preliminary Online Ballot because it was a very minor revision which had been proposed and agreed by the RLMO Round Table. Although it was a minor change, it was nevertheless being proposed for CIML approval. Mr Dunmill asked if there were any comments from the RLMO Chairperson.
+
+Dr Ehrlich did not have any comments.
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Noting comments from its Members [if applicable],
+
+Approves the Final Draft revision of B 12:2004 Policy paper on liaisons between the OIML and other bodies, and
+
+Thanks the RLMO RT Chairperson and members for their work in completing this project.
+
+## 14.1.5 Update of V 1:2013
+
+International vocabulary of terms in legal metrology (VIML) (bilingual French-English) / Vocabulaire international des termes de métrologie légale (VIML) (bilingue français-anglais)
+
+Mr Dunmill continued that because this was simply an update, according to OIML B 6 Directives for OIML technical work, there was no need for it to undergo a CIML Preliminary Online Ballot. There had been a Project Group vote on a revised CD with a deadline of July 2022, and the responses had all been in favour. This update was proposed for CIML approval, and Mr Dunmill reminded delegates that an update did not make any technical changes to the publication, but included a number of updates to references.
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Noting comments from its Members [if applicable],
+
+Approves the Final Draft update of V1:2013 International vocabulary of terms in legal metrology (VIML) (bilingual French-English) / Vocabulaire international des termes de métrologie légale (VIML) (bilingue français-anglais), and
+
+Thanks the Project Group conveners and members for their work in completing this project.
+
+## 14.1.6 New Document
+
+Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML-CS
+
+Mr Dunmill said that this new publication had undergone a CIML Preliminary Online Ballot with a deadline of August 2022. 38 responses had been received from CIML Members with one abstention, one negative vote, and the rest in favour. In this case, as the deadline had been in August of the current year, two resolutions would need to be proposed. Firstly, the CIML would need to decide on whether to accept to vote on the approval of this new publication, because it had not been made available for the required three months' consideration before this CIML meeting. This resolution would read as follows:
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Decides to accept the proposal to vote on the Final Draft New Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML-CS at this meeting.
+
+If this resolution was approved, there would be a normal approval resolution, as follows:
+
+Draft Resolution no. CIML/2022/ ...,
+
+The Committee,
+
+Noting comments from its Members [if applicable],
+
+Approves the Final Draft New Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML-CS, and
+
+Thanks the Project Group conveners and members for their work in completing this project.
+
+These draft resolutions would both be proposed at the end of the current session, and the first resolution would have to be approved first in order for the second resolution approving the publication itself to pass.
+
+If this process was clear, Mr Dunmill stated that this completed the section on the publications being put forward for CIML approval. Dr Ehrlich thanked Mr Dunmill, and again invited any questions or comments, confirming that Mr Dunmill had already made this request as he had proceeded through this section of the agenda. Dr Ehrlich reminded delegates that voting on the resolutions would take place at the end of the current session, as had happened the previous day. Dr Ehrlich stated that as no hands were raised, this concluded this agenda item.
+
+## 14.2 Project proposals for approval by the CIML
+
+Dr Ehrlich asked Mr Dunmill to take the floor.
+
+Mr Dunmill stated that there was an Addendum for each project proposal on the 57th CIML Meeting website and these were mostly mentioned in the Working Document, although he would discuss them in more detail shortly. Mr Dunmill showed delegates a typical resolution on the screen. He said there would be a separate resolution for each of the project proposals, although in the interests of saving time he proposed not to go through each of them at the moment. He reassured delegates that they would all be read in full at the end of the session.
+
+## 14.2.1 Revision of D 11
+
+General requirements for measuring instruments - Environmental conditions
+
+Mr Dunmill asked whether the proposer of this project would like to any comments to the CIML at this stage or whether any Members had any questions about the proposal which had been put forward.
+
+Mr Dixon commented that TC 5/SC 1 had been consulted according to the periodic review procedure defined in OIML B 6. He continued that the TC/SC members had given feedback on the periodic review and this information had then been sent to the OIML-CS Management Committee, which had now made this proposal to revise D 11. Canada had volunteered to take on the convenership.
+
+Mr Dunmill remarked that there were no more comments, and so as previously mentioned, the resolution for this project proposal would be read at the end of this session.
+
+## 14.2.2 Revision of R 75
+
+Heat meters
+
+Mr Dunmill asked whether the project proposer or any other Members had comments on this project proposal.
+
+Dr Schwartz stated that Germany had proposed this project, but it had been supported by other P-members of TC 11-Austria, Canada, France and the Netherlands. The objective of the project was
+
+to undertake a full revision of R 75 to align it with existing European and other regulations worldwide. He said a survey had been circulated in the spring of 2022 amongst TC 11's 17 P-members, of which seven had voted in favour of a revision, and in addition two O-members had voted in favour.
+
+Mr Dunmill observed that there were no other hands raised.
+
+## 14.2.3 Revision of R 137
+
+Gas meters
+
+Mr Dunmill asked whether the project proposer or any other Members had any comments.
+
+Mr Dixon indicated that this proposal had gone through the same process that had been undertaken for D11. The relevant Subcommittee, TC 8/SC 7, had been consulted, and the information from this consultation had been sent to the OIML-CS Management Committee. The proposal had now been put forward to revise R 137, with the work being undertaken by a Project Group under TC 8/SC 7.
+
+Mr Dunmill observed that there were no other comments.
+
+## 14.2.4 Revision of OIML B 6
+
+## Directives for OIML technical work
+
+Mr Dunmill stated that this project proposal was to revise both parts of B 6, adding that the work would be carried out in two stages. He asked if the project proposers or any other Members would like to make any comments.
+
+Mr Dixon commented that the first stage of this revision would be to align the procedures in B 6-1 with current practice, and to correct issues that had been identified by the BIML, which would result in a final draft being presented for approval at the 58th CIML Meeting in 2023. The second stage would then be a more detailed revision of B 6-1 and B 6-2 to address more fundamental issues in the processes and procedures regarding OIML technical work, and also to take into consideration the outcomes of the work of the OIML DTG.
+
+Dr Schwartz remarked that he thought his comment had already been addressed by Mr Dixon, but he wished to emphasise that he thought it would be really important to interact, at least during the second stage, with the OIML DTG for two reasons. Firstly, he felt there were digital aspects to be considered, such as an increased use of digital technologies to improve the efficiency of project work and project management during the development of new or revised OIML publications. Secondly, he thought the DTG already interacted with, and had learnt from, other International Standardisation Organisations regarding the development of what was called "smart standards", and he considered that this learning should be reflected in the revised B 6, so he was happy to hear that this was already envisaged.
+
+Mr Richter (USA) wished to confirm that Mr Dixon was going to be the convener for the first stage, with the hope that the final draft could be voted on in 2023. He assumed that this first stage of aligning the publication was not going to follow the procedures of B 6 itself and therefore need a first committee draft, a second committee draft, and so on, all of which would need three-month commenting periods, but that a more rapid procedure would apply.
+
+Mr Dixon confirmed that the BIML would take on the convenership, and he could be the convener. He stated that a lot of work had already been undertaken, so as soon as the project proposal had been approved and a Project Group had been formed, there was material which could form a first committee draft for B 6-1 and B 6-2, so the intention was to move the project forward rapidly, with the aim of presenting a final draft for approval to the CIML in 2023.
+
+Dr Ehrlich asked if this answered Mr Richter's question, and Mr Richter thanked Mr Dixon and confirmed that it did.
+
+Mr Dunmill highlighted that the point of the interaction with the DTG and the adaptation of procedures and the presentation to align with the developments in "smart documents" and "smart standards" and so on would be reflected in the resolution which would be put forward later in the session. He emphasised that it would be taken into account during the second stage. He added that the first stage
+
+did take into account a number of developments which had come about during the COVID-19 period due the changes that had taken place in Members' working practices.
+
+Dr Ehrlich observed that there were no more hands raised, so he asked delegates to consider the next item.
+
+## 14.2.5 New Recommendation:
+
+## Chemical oxygen demand (COD) analysers (photoelectrochemical oxygen demand)
+
+Mr Dunmill stated that this final project proposal had not been included in the Working Document which delegates had been sent in July 2022. It had been on the website for this meeting since 29 September. He continued that there had been a number of questions from Members about the details of this project proposal, and whether the proposal should be considered further before the CIML decided whether to approve it as a new project. He asked if any Members would like to comment on this proposal.
+
+Prof. Tremblay (Canada) stated that Measurement Canada was not a P-member or an O-member of TC 16/SC 2. She added that they were not at all familiar with this type of device, as Canada's legislation was limited to trade measurements. They did not include environmental regulations, and did not anticipate having any activity in this field. She explained that she had therefore been surprised to see that Canada had been mentioned in the project proposal as an economy intending to utilise or apply the publication. She asked if this project could possibly be delayed until 2023 so that they could carry out further analysis.
+
+Mr Loizides (Australia) stated that Australia had a similar viewpoint to Canada. Australia did not regulate this type of device under the Australian legal metrology system, so he requested more time to consider the application. He considered it was environmentally based but would like to carry out further research, so his recommendation would be that maybe this could be discussed at the next CIML meeting when Australia would be more informed.
+
+Mr Richter stated he supported his colleagues from Canada and Australia. He said that the USA held the secretariat for TC 16/SC 2, under which this proposed project would fall. He supported the idea that more research needed to be carried out on this type of measuring instrument, and agreed that it should be delayed for a year and reconsidered at the 2023 CIML meeting.
+
+Dr Ehrlich asked whether Iran, as the country proposing the project, would be amenable to this delay, or whether they had any comments they would like to make. After a short pause Mr Dunmill indicated that two people from Iran were present at the current session.
+
+Dr Ehrlich repeated his request for comments from the project proposer, and suggested that if they had no comments, given the remarks that had just been made, he thought it would be good to delay the vote on this, and allow time for further research. He repeated his request for comments.
+
+Mr Dunmill added that more work could be done by putting the various people who had raised the questions in touch with each other and with the proposer of the project proposal. Apart from delaying the project proposal until the following year's CIML meeting, there was also be the possibility of putting it forward for an online CIML approval at some point during the coming year if there was a quick agreement on the project proposal.
+
+Dr Ehrlich thanked Mr Dunmill for these useful suggestions and asked again if there were any comments from the project proposer from Iran.
+
+Mr Dunmill interjected that while Iran was considering this, he also wished to highlight another problem, which was that if the approval was conducted during the current session there might not be enough countries interested in becoming P-members as it was an area that was not regulated in many Member States. The CIML might therefore end up approving a project in which not enough countries would be interested in taking part. Mr Dunmill emphasised he would be talking more about this problem under the next agenda item.
+
+Dr Ehrlich proposed that a final decision on whether to vote on this project proposal or to withdraw it was delayed until the voting session at the end of the current session.
+
+Mr Dunmill responded that given the comments he thought it might be better to withdraw it at this point, and if things were sorted out within a short time, then an online approval could be started at that point rather than waiting until the following year in 2023. This would help to clarify which resolutions would be put forward for approval at this session.
+
+Dr Ehrlich thanked Mr Dunmill for his suggestion and asked if there were any objections to withdraw this from voting for the present time in order to allow time for further information to be gathered and then for this to be put forward at a future date.
+
+Dr Ehrlich stated he did not see any hands raising objections and proposed that the proceedings followed Mr Dunmill's suggestion. If there were no further comments on the publications for approval and project proposals, then he asked delegates to move on to the next item.
+
+## 14.3 Other technical items for information
+
+Dr Ehrlich asked Mr Dunmill to take the floor for this item.
+
+Mr Dunmill stated that delegates would have received an Addendum which contained a table of the currently identified high priority publications, the list of which the CIML was being asked to approve. These were the publications which were seen to be of high importance to the Organisation, mainly because of their use in the OIML-CS. Mr Dunmill stated that the criteria used to decide which publications were included in the list were also set out in the Addendum. He continued that the Addendum also included a set of high priority projects, which were those which the Organisation considered needed to be kept under close review to ensure that good progress was being made with them because of their importance. Mr Dunmill then drew attention to the lengthy annex to the Addendum, which gave the current status and history of all of these high priority projects. Mr Dunmill stated that a resolution to approve each of these lists would be read out at the end of the session.
+
+Mr Dunmill went on to highlight two points from the ongoing technical work:
+
+- Firstly, he mentioned the project on electric vehicle supply equipment, which had been approved at the previous year's CIML meeting. This Project Group had firstly been working extremely efficiently earlier in the current year to develop an OIML Guide, and he announced that OIML G 22:2022 Electric Vehicle Supply Equipment (EVSE) had been published in September. This Project Group was now continuing its work to develop a new OIML Recommendation on these instruments. Mr Dunmill considered that this had been a very successful story for OIML technical work during the current year.
+
+- Secondly, he wished to mention the projects that had been approved the previous year under TC 18 and TC 18/SC 2. Six new projects had been unanimously approved the previous year in this domain, which he conjectured was perhaps because of the health concerns during the COVID-19 pandemic. Some progress had been made on the medical thermometers projects, but in the case of two of the projects on blood pressure instruments, not enough P-members had signed up to the Project Groups to respect the requirements of B 6-1. He thought this was regrettable because the convener was very willing and able to start work.
+
+Mr Dunmill said this brought him back to the subject he had mentioned at the end of the last item, where for certain subjects which were maybe on the fringes of traditional trade applications of legal metrology, it was difficult to register enough P-members, even though the CIML had approved the projects. He urged Members to consider joining the Project Groups on medical instruments as P-members so that the work could advance, and he stressed that the convener was very willing to proceed with the work. He added that the rules in B 6-1 on how many countries had to be P-members existed to ensure that projects resulted in truly international publications. He explained that he had wanted to highlight these two stories, one of which was a success and one of which was a problem so that Members could see the range of activities in the technical work.
+
+Dr Ehrlich congratulated the EVSE group on their good work carried out in a short period of time. He asked delegates if there were any comments or questions for Mr Dunmill on his report.
+
+Mr Dunmill summarised that one of the resolutions which had been put forward would be seeking CIML approval of the projects; there would also be a resolution to thank the Project Group on electric vehicle charging for its efficient work that had resulted in the OIML Guide being published in a year, and also encouraging Members to join the Project Groups.
+
+Dr Ehrlich observed that he did not see any hands raised so there were no questions. He asked delegates to consider the next item.
+
+## 14.4 Current status and plans regarding e-Learning and online training
+
+Mr Dunmill said he had been hoping at this point that there would have been considerable progress to report on the OIML e-Learning platform. The work had not progressed as much as expected, but he at least had some updates to give, although an Addendum had not been provided.
+
+The BIML had now completed some server hardware upgrades on the e-Learning system during the past year. He had reported the previous year that problems had been experienced due to some equipment having gone missing during delivery to the Bureau at the time of the various COVID pandemic restrictions in France. That hardware had now been delivered, installed, and two new servers had been set up on it for both development and production use, so that there would be no risk of the service being interrupted.
+
+An external consultant had also been identified to carry out the necessary software upgrades. These upgrades would be conducted in two stages, and this work had now been started. Once the software platform itself had been upgraded, the existing e-Learning material would be migrated to the new platform as there were some problems with the platform it was currently on.
+
+Looking to the future of the e-Learning system, a collaboration with the BIPM had just begun on the development of an e-Learning package and other physical supporting materials on D1 National metrology systems - Developing the institutional and legislative framework. This work was being funded by Switzerland under an existing project arrangement with the BIPM. As D1 was a joint OIML/BIPM publication, this was an important collaboration. The current plan was for this work to be completed around the middle of 2023.
+
+Other than this new course, existing e-Learning materials and courses, which were either available nationally or regionally, could be integrated into the new OIML system once the upgraded software was in place. The BIML would be asking Members and RLMOs whether there was any material that could be linked to or hosted at the OIML in the future. Once this had been done, the BIML would look at the possibility of developing new courses which Members would like to be developed and would find useful. Mr Dunmill took this opportunity, even though it would be in the future, to request Members to begin making suggestions for new e-Learning courses which would be appropriate and useful to them.
+
+Mr Dunmill said that the final subject to mention under this item was that 'e-Learning' did not just cover formal e-Learning courses - a series of webinars had started recently, called MetTalks. Mr Dunmill reported that a very successful MetTalk had been held on 10 October 2022 on the new G22:2022 Electric Vehicle Supply Equipment, for which 400 people had registered. Although Mr Dunmill did not think all 400 had attended, it had raised a lot of interest, and the recordings and presentations from that webinar, as well as the previous one held the previous year on medical devices, would be made available on the OIML online learning pages as soon as possible. He regretted that these had been a little delayed due to the time spent on preparations for the CIML meeting.
+
+Mr Dunmill reported that the BIML would like to make the MetTalks a regular feature, and although he was not suggesting that there would be one every week, or even every month, it was considered useful to make them a regular feature on topics of interest to Members. He therefore asked Members to suggest subjects for future MetTalks. For any Members who had not attended one of these webinars, Mr Dunmill described them as an event that lasted about an hour, normally with just one or two
+
+presenters talking for about half an hour, followed by a question and answer session for another half an hour. He remarked that the MetTalks would not therefore "eat up the entire day" and that recordings would be available for those that were not able to attend the events themselves. He again urged Members to make suggestions for future subjects. Mr Dunmill stated this concluded what he had to say on this item.
+
+Dr Schwartz stressed the need for "resources" in this area. He said that it was always good to receive proposals for courses and other material, but pointed out that Switzerland had made some financial resources available for the joint project with the BIPM on D1, and the draft resolution on which the Committee would be voting later also made reference to make "respective resources available for this important project. Dr Schwartz was sure that e-Learning would become even more important, not only for the OIML but for other organisations, especially due to travel restrictions, which he considered would probably last. He thought that it might be possible to make financial and personnel resources available to support OIML work, so that materials and other courses could be made more widely available to other regions as well as within regions. He stated he would very much like to encourage this approach and to make delegates aware that the OIML itself also needed resources, as the BIML team was rather small. There were also possibilities for secondments or online support.
+
+Dr Ehrlich said that he hoped delegates would take this into consideration, and think about how additional resources could be provided to further the e-Learning and training efforts within the OIML.
+
+Mr Dunmill confirmed that an additional point had been added to the resolution to encourage Members to collaborate on this and to look at providing the OIML with resources where possible in the future.
+
+Dr Ehrlich asked if there were any further comments or questions on this agenda item. There were none.
+
+## 14.5 OIML Bulletin
+
+Dr Ehrlich asked Mr Pulham to provide delegates with his report.
+
+Mr Pulham greeted delegates, and expressed his hope that they were already familiar with the Bulletin, the quarterly journal of the OIML, which had been published for the last 62 years.
+
+He continued that the Bulletin was a forum for the publication of technical papers, as well as those of general interest, and other diverse articles. The aim was that it should address metrological advances in both emerging and traditional areas, including trade, health, the environment, and safety, which were the four pillars of the OIML's activities. If delegates went to the publications section of the OIML website, all the previous editions since 1960 were available free of charge, and could be downloaded as PDF files. A few years previously, it had been decided that, mainly to cut costs, a paper version would no longer be made available, although the Bulletin had been printed for many years. As a result, it was now only freely available online, which had proved to be a very successful measure. He added that there had been no remarks about this, and it had proved to be an excellent cost-saving exercise.
+
+Mr Pulham said he wished to speak about the concept of "Mentors", which had been introduced in Bratislava at the 54th CIML Meeting. At this meeting, he had given a presentation to explain this concept, which had been developed with the CIML President, Dr Schwartz, as well as the VicePresidents, and the BIML Director. The objective was to keep the Bulletin topical and relevant, serving the international metrological community, and to make sure that it continued to address key topics. The idea had been that mentors would take responsibility for increasing the number of both technical and non-technical articles in the OIML Bulletin, for everyone's benefit, but on specific themes. Since this concept had begun, it had been extremely successful, and Mr Pulham specifically thanked Dr Mathew and Dr Ehrlich, who had already been mentors, and would be future mentors, in addition to Dr Schwartz.
+
+Mr Pulham stated that since July 2021 four editions had been mentored on specific subjects, and he added that where possible, these had been linked to World Metrology Day. For example, in July 2021 the topic had been on "Digital transformation", and in October 2021 the topic had been on the theme
+
+for World Metrology Day 2021 "Legal metrology for health". This had been followed by "Traffic measurements" in April 2022 and "Metrology for a sustainable environment" in July 2022, which Mr Pulham commented was also very topical. The specific topics that had been covered, or that authors had contributed papers on, in those two editions had included for example, in April, a number of articles on speed standards, speed meters, autonomous driving and e-vehicle supply equipment, which he added Mr Dunmill had just highlighted, and which had also been the subject of a MetTalks webinar. Mr Pulham stressed that R126 Evidential breath analysers had also been the subject of a good article written by the co-conveners of the R126 Project Group on breath analysers, and he emphasised that this had been a very specific edition. The July 2022 edition had been on "Metrology for a sustainable environment", and although Mr Pulham did not want to itemise the six or seven articles it comprised from all over the world, the authors had provided very varied contributions on how the OIML could contribute to a sustainable environment.
+
+Mr Pulham said that the October 2022 edition was currently being put together, although it had been slightly delayed because of the CIML preparations. It would be mainly on the theme of "CEEMS", and Mr Pulham thanked Mr Peter Mason for his contributions to this edition, stating that Mr Mason had written the Editorial, as well as a review of all the CEEMS activities since he had been CEEMS AG Chairperson. Mr Pulham stated that there would also be an article about the current revision of D14 Training and qualification of legal metrology personnel. He commented that there would also be an extremely interesting article by UNIDO, which he highlighted was being represented at the current meeting by Mr Tomlinson. The article would be on the "Quality Infrastructure for Sustainable Development Index" or QI4SD index. There would also be an article from Indonesia on the evaluation of their infrastructure and the performance of local governments. Mr Pulham added that this edition would hopefully also include a short account of the EVSE MetTalk which had recently taken place.
+
+Mr Pulham emphasised that although a lot of different themes had already been covered, he was now looking for future mentors. The January 2023 Bulletin would obviously concentrate, as usual, on this CIML meeting, with reports and features on the meeting, including keynote addresses from the CIML President and the BIML Director.
+
+For the April 2023 edition, Mr Pulham reported that the BIML had been working with the RLMO RT Chairperson, Dr Ehrlich, on an edition concentrating on the RLMOs. At the recent RLMO Round Table meeting, a number of volunteers had proposed to write articles. A "brain storming" session had been held the previous day, prior to the start of the current CIML meeting, concentrating on the next editions of the Bulletin. It had been suggested that reusable energy and energy efficiency were topical subjects, so this could be one theme inviting articles on hydrogen measurement, smart meters, electric vehicle supply equipment, and so on. Mr Pulham stated that more volunteers were needed; more CIML Members or Corresponding Members Representatives, to come up with themes and to propose themselves as mentors. He stressed that volunteers would not be expected to work on their own as the BIML provided support, and the Bulletin was produced by working together.
+
+Mr Pulham now wished to throw the floor open to discussion, if the Chairperson was in agreement, and also to invite any comments, not only from delegates, but also from Mr Donnellan and Dr Schwartz, as major supporters of the mentor concept.
+
+Dr Ehrlich thanked Mr Pulham for his presentation, and for the great work he did for the Bulletin. He encouraged delegates to think about what Mr Pulham had said and provide suggestions and offer support for future Bulletin issues. He stated that the meeting was running a little behind schedule but asked if anyone had any comments, questions or thoughts for Mr Pulham.
+
+Mr Donnellan drew attention to the support and commitment that was given by the Bureau to produce, in conjunction with the mentors and with article contributors, a very high quality Bulletin for the benefit of all Members and stakeholders within the international legal metrology community. In order to make this successful, it was necessary for Members to come forward with themes which were topical within their economies, and he emphasised that it was very much the Members' Bulletin, so the BIML welcomed, and was open to, very varied suggestions, whether they be related to legislative reform,
+
+technical items for discussion, or evolutions within particular countries. He also took this opportunity to reiterate a point that had been raised the previous day by the CIML Member for Indonesia, regarding references to Google Scholar, and better integration of the OIML Bulletin within the academic fraternity and community more generally, and he thought there were some opportunities for this approach. If this were to encourage more individuals to contribute articles because they would be peer-reviewed and cross-referenced in an academic sense, the BIML could look at this as part of the evolution of the OIML Bulletin. He concluded by offering his thanks to all contributors thus far, and stressed that it was important that the Bulletin remained focused on topical issues so that it was relevant for everyone.
+
+Mr Qin (P.R. China) said he fully agreed with the Director regarding the OIML Bulletin, and China had paid much more attention to the Bulletin recently. He considered that, as the largest developing Member, China benefitted a lot from the OIML Bulletin, and as usual, China would continue to contribute articles in relevant areas such as national metrology systems, and he said that China would contact Mr Pulham, the Editor of the Bulletin, about this by email.
+
+Dr Schwartz reiterated what he had said the previous day in his report. He wanted to thank those who had supported the OIML Bulletin in the past, and judged that the more attractive it was, the more successful it would be, and the easier it would be to find new mentors and topical themes. He wished to encourage everyone to put forward proposals and interesting articles for the legal metrology community, and stressed that mentors were also needed for these themes. He repeated his thanks, but also emphasised the need for support to be provided to Mr Pulham, who was always looking to the future for topical themes and mentors. He said he would do his best in the next month to come up with some good proposals and would be in touch with his colleagues at the PTB who had contributed in the past and would certainly be ready to contribute in the future to interesting OIML Bulletin editions.
+
+Dr Ehrlich thanked Dr Schwartz and all those who had contributed to the discussion, and also Mr Pulham for his report and his work and conjectured that Members were looking forward to many future enjoyable Bulletin issues. He noted there were no more hands raised and so this concluded this item.
+
+## 15 OIML Certification System (OIML-CS)
+
+## 15.1 Report by the OIML-CS Management Committee (MC) Chairperson
+
+Dr Ehrlich asked Mr Panesar to take the floor for this item.
+
+Mr Panesar stated that his report would be based on the information he had provided in Addendum 15.1 to the Working Document for this meeting. He had selected a few items to discuss in more detail, but encouraged delegates to read the full report, which he said was only 19 pages, half of which were informative graphs, charts, and tables, so there was not a huge amount of reading.
+
+Mr Panesar reported that there had been good participation in the 7th OIML-CS Management Committee (MC) meeting, with 18 of the 22 Management Committee members present or represented. In addition there were representatives from CASCO, CECIP, CECOD, ILAC/IAF, and ISO. There had been a large agenda, and there had been excellent discussions and strong participation, and he thought the meeting had been very productive.
+
+Mr Panesar stated that he was always aware of how many new CIML Members there were, so he wished to give an idea of what the OIML-CS structure looked like. He showed delegates a slide which he had extracted from OIML B18 Framework for the OIML Certification System (OIML-CS), and he encouraged new CIML Members to take an in-depth look at this. As delegates could see, the OIML-CS consisted of a number of different committees, including the Management Committee, Review Committee and Maintenance Group, and a Board of Appeal. Mr Panesar showed delegates a slide which included bullet points to illustrate some of the key topics which had been discussed at the meeting. Although he would not read all of them, he said that he would go into some of them in more detail later in his presentation with no areas of great concern raised by the attendees.
+
+The same approach had been used as in 2021, where both the Review Committee and the Maintenance Group meetings had been held prior to the Management Committee meeting. This had enabled the Review Committee and the Maintenance Group to discuss key issues and to develop proposals for consideration and decision at the Management Committee meeting. There had been an incredible amount of work for the Review Committee, as OIML Issuing Authorities and their Test Laboratories had needed to demonstrate their continued compliance with the OIML-CS requirements. He explained that because the OIML-CS had been in operation since January 2018, the four-year re-approval period had been reached, so the OIML Issuing Authorities and their Test Laboratories had needed to demonstrate compliance at the Management Committee meeting in March 2022. He specifically wished to thank Harry Stolz and his Review Committee colleagues for their considerable work, in addition to members of the Management Committee.
+
+As an indication of some of the work which had been undertaken, Mr Panesar showed a slide illustrating the OIML Issuing Authorities and their current scopes as of June 2022. He reported that although there had not been an increase in the number of OIML Issuing Authorities, which was something the Management Committee was very aware of, it was important to note that OIML Issuing Authorities' scopes had significantly increased since the OIML-CS had started. Mr Panesar explained that this was partly in line with the transition of instrument categories from Scheme B to Scheme A. Mr Panesar's next slide showed the number of certificates issued by Recommendation since the OIML-CS had started, and he commented that it was quite easy to see the most popular ones. The next graphic also indicated the number of certificates issued, but this time by OIML Issuing Authority, and he commented that NMi in the Netherlands had issued the most certificates.
+
+Mr Panesar stated that the next graphic was included in the Addendum to the Working Document for the meeting, although he said he had added some trend lines and also highlighted the fact that the COVID-19 pandemic during the period shown may have affected some OIML Issuing Authorities and Test Laboratories more than others. The graph showed the number of certificates issued per quarter of each year. Looking specifically at the trend lines, the positive news was that despite the impacts of the pandemic, the trend lines showed a general upward trend. He emphasised that this was very positive, but indicated that the upward trend had not been as steep as the Management Committee would have liked, so the Management Committee was aware that it could not "take its eye off the ball" and that it needed to carry on working to improve awareness of the OIML-CS.
+
+He also emphasised that delegates should remember that as instrument categories transitioned from Scheme B to Scheme A, many Test Laboratories and OIML Issuing Authorities had been quite busy expanding their scopes and transitioning from Scheme B to Scheme A. He remarked that their productivity in doing some of the testing and certification may have been impacted by this work. He stressed that it was worth noting that something else which may have "skewed" the figures was that a large number of transitions from Scheme B to Scheme A had taken place in 2021. He confirmed that, as most Recommendations and instrument categories had now moved into Scheme A, future data should be much more consistent.
+
+Mr Panesar also wished to mention that the effectiveness of the OIML-CS could be measured in several ways, and said he would discuss this later in his presentation. As delegates could see from the three categories highlighted on his next slide, one of the ways could be the number of experts. He reported that the number of experts had grown, but in his opinion, he thought more could be done, particularly in the management systems area. As he had mentioned before, most Recommendations were now in Scheme A, so hopefully this would potentially be reflected in the number of experts mirroring the expertise in the OIML Issuing Authorities, as their extensions to scope demonstrated. Mr Panesar continued that the scope of Test Laboratories had also increased, and this was another area where the number of experts might be increased. As he had already mentioned, all but one of the Recommendations were now in Scheme A, with a plan to move R 150 Continuous totalizing automatic weighing instruments of the arched chute type into Scheme A on 1 January 2023.
+
+Mr Panesar reported that the chairman of the promotion and awareness group had conducted a survey of countries in the Americas, and Mr Panesar believed this would be of great value to the work of the Management Committee in considering how it could be more effective in promotion and awareness-
+
+raising. The survey would provide more intelligence and data on how awareness-raising could be better achieved. Other areas that had assisted in this had been the update to the website, and particularly the improvements to the OIML-CS working area. He added that this helped the Working Groups and committees to carry out their work online in an effective and collaborative manner, and he commented that effectiveness had improved. He drew attention to the comment at the bottom of his slide reporting that he had personally provided about ten presentations internally to his organisation, as well as a few external presentations, and this had highlighted the fact that all Members could engage in promotion and awareness-raising on the OIML-CS.
+
+He asked delegates to consider the mission statement which he was displaying on his current slide, which he believed was something of value to all CIML meeting delegates who were part of the OIML CS. He stressed that if delegates wished to carry out internal or external presentations on the OIML CS, either himself or Mr Dixon would be happy to provide materials or past presentations, and potentially attend as well, to help spread awareness of what the OIML-CS did and how it could benefit a particular nation.
+
+Mr Panesar said that when thinking about how to measure the performance of the OIML-CS, the bullet points on his next slide indicated the current indicators. He asked delegates to use the chat function to contribute any thoughts, views, comments, or suggestions on how the performance of the OIML-CS could be measured. He thought that it was important to note that the Management Committee had not rejected any applications from OIML Issuing Authorities or Test Laboratories, nor suspended any of them. There had also been no appeals against the decisions of the Management Committee, which in his opinion was positive, and meant it was doing an appropriate and good job. He again urged delegates to comment.
+
+Regarding the future, Mr Panesar said he was interested in receiving feedback from CIML Members at the current meeting as he was interested to know what delegates considered the Management Committee should cover. He said that the Management Committee had a good idea of what it wished to do, and said that his next slide indicated some of his thoughts. He added that when he had presented himself as the potential Management Committee Chairperson, he had wished to create a Chairperson's Board. He mentioned that he had not had the time to set this up, but it was something he wanted to create in 2023, and he reiterated that he would be raising these sorts of questions with the Board. He stressed that other areas of interest included the promotion and awareness-raising activities, and the increased collaboration with the Digitalisation Task Group. He believed a risk register might also be appropriate for this type of Board.
+
+Since Addendum 15.1 had been published, there had been some changes, and Mr Panesar said he would now present delegates with updates. He remarked that the list of Board of Appeal participants on page 7 of his report was currently incorrect, but he had confidence that the Board of Appeal Chairperson, Dr Schwartz, would identify suitable participants, and he was sure an update would follow once they had been confirmed.
+
+Mr Panesar said that he had promised to keep to 15 minutes, so he now presented his last slide. He thought it was important to mention that the members of the Review Committee, chaired by Dr Harry Stolz, and of the Maintenance Group, chaired by Mr Bill Loizides, were all volunteers. He therefore wished to thank them very much for their hard work, particularly for the work on implementing ISO/IEC 17020 into the OIML-CS. He also wished to thank Mr Dixon for all his support to all the committees and working groups, and thanked delegates for their attention.
+
+Dr Ehrlich thanked Mr Panesar for his presentation and for all the work he was doing chairing the Management Committee. He also reiterated the thanks he had given to the others. He acknowledged that the whole team had conducted a tremendous amount of work, and wished to congratulate them all. Dr Ehrlich asked if there were any comments or questions for Mr Panesar.
+
+Dr Ardianto asked that the OIML conduct a webinar to increase knowledge of the OIML-CS amongst all OIML Members, including information such as how to register as a Utilizer or as an OIML Issuing Authority.
+
+Dr Ehrlich remarked that Mr Panesar had said that he and Mr Dixon had been making presentations, and awareness had also been raised through the RLMO Round Table. He stated that there were many mechanisms for doing this, but said he was grateful for this comment, and it was useful to know what areas and information would be particularly helpful to countries and economies.
+
+Mr Panesar responded by encouraging all CIML Members to use the chat for any subjects to which they wanted to draw attention. He agreed that the comment had been very valuable.
+
+Mr Dunmill pointed out that there was a comment in the chat from Mr Winchester about possible measures of success for the OIML-CS.
+
+Dr Ehrlich thanked Mr Winchester for having commented, and thanked him and his group for their work to date. There were no more comments or questions for Mr Panesar so Dr Ehrlich closed this item.
+
+## 15.2 Recommendations from the OIML-CS MC to the CIML
+
+Dr Ehrlich asked Mr Dixon to provide his report.
+
+Mr Dixon stated that at the previous year's CIML meeting, the Management Committee had put forward a recommendation regarding the implementation of ISO/IEC 17020 into the OIML-CS, and resolution number 2021/31 had been approved. He reported that over the past 12 months, a lot of work had been done to implement this resolution. This had started with the revision of B18, followed by the development of a new Guide to the application of ISO/IEC 17020. Mr Dixon stated that this had already been mentioned earlier in the meeting under agenda item 14.1.6. In the background, in addition to these publications, the Management Committee had already undertaken a lot of work to revise and approve the Operational and Procedural Documents that underpinned the processes and procedures for the OIML-CS. The intention was if the revision of B18 and the new OIML Document were approved at the current meeting, then all of these publications would be published at the same time.
+
+Mr Dixon continued with a detailed explanation of the project relating to the revision of OIML B 18. A number of changes had been implemented in the revised version which was being presented for approval. The first was the implementation of ISO/IEC 17020 into the OIML-CS, and Mr Dixon said this was to give OIML Issuing Authorities an alternative route to demonstrate their competence, whereas previously they had been limited to using ISO/IEC 17065. A number of relevant clarifications and interpretations had been implemented, which the Management Committee had approved and published in one of its publications. There had also been further improvements based on practical experience obtained through the use of OIML B 18.
+
+As Mr Panesar had mentioned, the OIML-CS had now been in operation since 2018, which meant that there was now a lot more practical experience of how the OIML-CS worked, which had enabled the identification of some potential improvements to B 18 itself. Mr Dixon said that a full list of the changes had been provided in Addendum 15.2a. He then explained that the process to revise B 18 had been that a first Working Draft revision had been developed, which had been circulated to the Maintenance Group for comments. A First Committee Draft had then been presented at the 7th Management Committee meeting earlier in 2022, and the feedback received from Management Committee Members had resulted in a Second Committee Draft being circulated to the Maintenance Group for comments. None had been received, so a Draft revision had been submitted to the Management Committee for voting, which it had approved with 17 "yes" votes, 0 "no" votes, and 0 abstentions.
+
+Mr Dixon stated that following the Management Committee's approval of the Draft revision of B 18, the Management Committee was recommending that the CIML approved the Final Draft revision of B 18 Framework for the OIML Certification System (OIML-CS). Marked and clean versions of the Final Draft revision had been included in Addenda 15.2b and 15.2c respectively. The result of the Management Committee vote, along with a summary of all of the comments received throughout the whole revision project, had been included in the information document in Addendum 15.2d. Mr Dixon stressed that the marked version showed all of the changes that had been made when compared with the current published 2018 edition. This concluded his presentation.
+
+Dr Ehrlich thanked Mr Dixon for his report and all the work he had done on the OIML-CS and B 18, which he commented was very much appreciated. He asked if there were any comments or questions for Mr Dixon. There were none. He again thanked both Mr Dixon and Mr Panesar.
+
+## 16 CEEMS Advisory Group (CEEMS AG)
+
+Dr Mathew welcomed delegates back to the meeting following a short break and asked the CEEMS Advisory Group (CEEMS AG) Chairperson, CIML Honorary Member Mr Peter Mason to take the floor to guide delegates through the first part of this agenda item.
+
+## 16.1 Introduction of candidates for the CEEMS AG Chairperson and Vice-Chairperson
+
+Mr Mason stated that his presentation concerned the request that the CIML approve the appointment of a new Chairperson and Vice-Chairperson for the CEEMS AG. Under the provisions of the current edition of B 19, the CIML simply appointed a Chairperson, as no procedure was described on how this should be approached. The Vice-Chairperson was nominated from among the CEEMS AG Members, but again was actually appointed by the CIML.
+
+Mr Mason reminded delegates that the position of Vice-Chairperson had been vacant since Dr Peter Ulbig had left the CEEMS AG when he had left the PTB in 2020. The post of Chairperson would become vacant when Mr Mason himself stood down at the end of his three-year term ending in December 2022. The CEEMS AG was recommending that the procedure for appointing new officers to these positions should follow that which had been included in the revision of B19, which Mr Mason would be moving on to later in his presentation. This procedure had involved some formal presentations and formal votes during the online CEEMS AG meetings, and he added that the votes had been handled through the online Zoom voting feature. Mr Mason continued that the nominee for Chairperson was Mr Jaco Marneweck, who Mr Mason remarked would be very familiar to most CIML Members, and the nominee for Vice-Chairperson was Mr Han Jianping, the co-opted expert to the CEEMS AG from P.R. China, who Mr Mason said would also be known to a very large number of delegates.
+
+Mr Marneweck's full CV had been provided in the papers to the CIML. Mr Mason pointed out that Mr Marneweck was currently both the Senior Manager: Inspections and the Acting General Manager at the NRCS, the legal metrology authority in South Africa, and was currently the CIML Member for South Africa. He also had extensive experience within SADCMEL and AFRIMETS, having been its Vice-Chairperson between 2018-2022. He had also acted as convener of OIML TC 6 Prepackaged products and Mr Mason commented that he had witnessed at first hand Mr Marneweck's excellent chairing skills on that Committee. Mr Mason pointed out that Mr Marneweck also had extensive first-hand experience of providing training to many CEEMS members. Mr Mason confirmed he would have no hesitation in recommending that the CIML appointed Mr Marneweck as the new CEEMS AG Chairperson from the beginning of 2023.
+
+Mr Mason re-iterated that Mr Han Jianping was being recommended as CEEMS AG Vice-Chairperson. He said Mr Han Jianping had held senior positions, firstly at AQSIQ and currently in the Department of International Cooperation at SAMR in P.R. China. Mr Mason added that he would be extremely well known to very many CIML Members. Mr Mason said Mr Han Jianping had a very wide experience, which had been set out in his CV, but that he particularly wished to draw attention to Han Jianping's active involvement in the work of the CEEMS AG since it had first been established in 2013, and in his work in supporting Mr Pu Changcheng, who had then been CEEMS AG Chairperson. Mr Mason stated that Mr Han Jianping had also been responsible for organising the CEEMS AG co-secretariat arrangements, which had involved contributions from other colleagues in China, and he had played a key role in developing the OIML Training Centre (OTC) concept. Mr Mason commented that Mr Han
+
+Jianping would be an excellent choice for the Vice-Chairperson position, and he would not hesitate to recommend that the CIML appoint him for a three-year term with immediate effect.
+
+Mr Mason stated that it was now proposed that there should be secret ballots on both of these appointments, and suggested that this process was started immediately after these presentations. In the meantime, Mr Mason said he was happy to take any questions. Mr Mason also drew attention to the fact that Mr Han Jianping had been the only candidate for Vice-Chairperson, and that there had been a choice of two candidates for the Chairperson's position, the other having been Mr B.N. Dixit, the CIML Member for India, but the CEEMS AG vote had selected Mr Marneweck, so he was therefore being put forward as the Chairperson nominee for CIML approval.
+
+There were no questions for Mr Mason, so Dr Mathew thanked Mr Mason for having chaired the CEEMS AG for so long. Before moving on, due to the experience of the previous day, he wished to remind delegates that the secret ballot was already open, and delegates could cast their votes from the present time onwards. This could be done by logging in to the OIML website and following the same processes that had been followed the previous day.
+
+## 16.2 Report by the CEEMS AG Chairperson
+
+## Dr Mathew asked Mr Mason to report on this item.
+
+Mr Mason stated that this was his first report since 2020, for reasons which had been explained in the full report which had been made available to CIML Members, and which he hoped delegates would have had the opportunity to read in full. Mr Mason said he would be drawing attention to the main features of that report.
+
+The CEEMS AG had taken the opportunity, following the trend in the RLMO Round Table, of starting interim online meetings in order to make progress with its work, so three online meetings had been held during the past year, with the principal annual meeting having been held on 12 October 2022. Mr Mason hoped that in future, the process of holding physical meetings alongside the CIML meetings would be able to recommence once there were in-person CIML meetings again.
+
+Mr Mason said he would cover the issues of Advisory Group membership, the revision of B19, the publication on "CEEMS activities in a post-COVID world", the topic of digital transformation in CEEMS (which Mr Mason commented had an important link with the DTG agenda item which would follow his presentation), some comments on the revision of D1 which had been approved at the 2020 CIML meeting, and finally some comments on the CEEMS AG workplan.
+
+Starting with the CEEMS AG membership, Mr Mason said there had been changes in the RLMO representatives on the CEEMS AG, and there was also a new co-opted expert, Dr Marion Stoldt from the PTB. However, he wished to particularly highlight the fact that the CEEMS AG had lost three of the six CIML Members who had voluntarily joined the CEEMS AG. These had been the Members for Kenya, Zambia and Iran. Mr Mason said he would like to encourage CIML Members to consider participating directly in the work of the CEEMS AG. He thought that delegates would agree that this was an important part of the OIML's activities, and individual CIML Members brought an important area of expertise to the CEEMS AG. He said that these were the only comments he wished to make on membership, because the change in Chairperson and Vice-Chairperson had already been discussed.
+
+Mr Mason said that the next topic which had involved a lot of work during the 2021-2022 period had been the revision of B19, which had mirrored the revision of B18 on the OIML-CS, and which had been reported on under the previous item. The revision had started off with the identification of two main needs, firstly that there should be a more detailed procedure for nominating the Chairperson and Vice-Chairperson, and secondly to change the CEEMS AG secretariat arrangements, which had previously been tied to the Chairperson of the CEEMS AG. The CEEMS AG had also decided that recognition should be given for its role in promoting OIML technical work, in the OIML-CS, and in new areas such as digitalisation. The revision had also refined the process for co-opting experts to the CEEMS AG, made provision for online meetings, allowed proxies for volunteer CIML Members and
+
+RLMO representatives, provided for observers (which had always been a feature of the CEEMS AG inperson meetings), and clarified the responsibility for organising meetings.
+
+Mr Mason reported that the revised B 19 had been unanimously approved by the Project Group which had carried out the revision and had also been endorsed by the CEEMS AG. Mr Mason said this revision would be considered for approval by the CIML under the following agenda item.
+
+Following his presentation, Mr Mason said the publication on CEEMS activities in a post-COVID world had been discussed in 2020 after experiencing the first six months of the COVID pandemic. The need for a strategy document had been identified, to address how CEEMS activities would be conducted in a world where permanent changes were likely as a result of the pandemic. The original intention of producing a strategy document had continued, but Mr Mason thought it was fair to say that CEEMS had actually adapted very well to the demands of carrying out more work online. However, there were several recommendations, including support for activities already under way, which the CEEMS AG had thought would be useful to propose, firstly to the Bureau, secondly to the CEEMS AG itself, thirdly to the DTG, and finally to other bodies. These were separated into a number of chapters, mirroring the various types of CEEMS activities that were carried out. These were developing documents, e-Learning, interactive training, consultancy and advisory support, maintaining contacts across the metrology world, and engagement outside the metrology world.
+
+Mr Mason explained that, as the draft had developed, it had become clear that it also identified several examples of good practice across all these areas, which it would be right to share. The draft which was being worked on therefore retained these recommendations, but had increasingly taken the form of a guide to good practice across all of the areas. It was therefore now the intention to publish this as an OIML Guide to the use of online technology for conducting CEEMS activities. As a Guide, it would be submitted to the CIML President for approval according to B 6. Mr Mason stated that the Guide itself had been fully agreed by the Project Group which had been created to finalise the text, and which had included representatives from both the CEEMS AG and the DTG, and it had also been endorsed by the DTG and by the CEEMS AG. It was hoped that, following the CIML meeting, the Guide would be published quite quickly.
+
+As part of the work mentioned above, Mr Mason reported that it had become clear that there was a wider CEEMS interest in digital transformation, which Mr Mason stressed had been important to address. Mr Mason said that different challenges had been presented, firstly by the increased use of digital technology in measuring instruments themselves and how these instruments were regulated, secondly by the different expectations of business and the public when it came to accessing legal metrology authorities and their work digitally, and thirdly by the way that digital technology was used within legal metrology and the other communities that supported it, including CEEMS. Mr Mason observed that obviously the work that the CEEMS AG had been carrying out had concentrated largely on the third of these challenges, and the narrower area of CEEMS activities within that.
+
+Mr Mason indicated that he saw the CEEMS AG as having an important role in conducting surveys on CEEMS priorities, and although the DTG should take the lead, the CEEMS AG should play a role in assisting the DTG to develop proposals for guidance documents, training, advisory, and other services relevant to CEEMS, as well as assisting the DTG in the development of a wider OIML digital technology publication, because one of the things which the CEEMS AG had identified about the good practice guide was that it had the potential to be used much more widely than simply for CEEMS activities. He added that he viewed this as an activity that would become increasingly important.
+
+The other major focus of CEEMS AG activities over the past year had been thinking about how to make best use of the revised OIML D1 which had been approved in 2020. He reported that its promotion had been hampered by the pandemic, but as life returned closer to normal, the CEEMS AG considered there was a real need to encourage the use of D1 as widely as possible. As had been reported elsewhere, work had started, or was being planned, on e-Learning materials, on simplified leaflets and other documents, and on training courses, all of which he considered would have the effect of promoting D1. He also commented that one of the key issues was the importance of cooperating with the BIPM, as D1 was a joint BIPM/OIML publication. Mr Mason was pleased to say that this cooperation had already begun, and was built into the work that was being carried out.
+
+Finally moving onto his next slide, Mr Mason remarked that the bullet points being displayed were part of a longer workplan which had traditionally been the way that the CEEMS AG had organised its work. The full workplan had been provided to the CIML. Other items that Mr Mason said he would identify as being of particular importance were the continued development of the CEEMS presence on the OIML website, the need to update and extend the experts database, the extension of the suite of e-Learning modules, which Mr Dunmill had already mentioned in a previous item, the organising of further OTC/OTE projects, one of which he was pleased to say had been planned for 3-7 July 2023 in Germany on "Prepackages and statistical control".
+
+Mr Mason hoped that there would be some further work on developing the scholarship programme which had initially been mentioned at the meeting in 2020. Finally, he wished to emphasise that real progress was now being made on the revision of D14 Training and qualification of legal metrology personnel, and a questionnaire had been issued to Member States, which he hoped would receive adequate feedback.
+
+Mr Mason stated that these were the main points he had wished to make about the CEEMS AG's activities. He also wished to note that in the next item concerning the CEEMS AG's recommendations to the CIML, the main decision the CIML was being asked to make, other than the appointment of the Chairperson and Vice-Chairperson, was on the approval of the revision of B19. He also wished to encourage individual CIML Members to help the CEEMS AG by volunteering themselves to serve on the CEEMS AG. He highlighted that the CEEMS AG would be asking Member States for input both on the questionnaire on D14 and on future surveys on digital transformation priorities. He hoped that many as Members as possible would respond, and added that the CEEMS AG was putting forward some resolutions to confirm this. This concluded Mr Mason's presentation on items 16.2 and 16.3, and he reiterated that he was happy to take any questions.
+
+## Dr Mathew thanked Mr Mason and asked if there were any questions.
+
+Mr Dixit (India) asked how ex-CIML Members could contribute to the CIML and OIML committees.
+
+Mr Mason responded that CIML Members who put themselves forward for membership of the CEEMS AG obviously were in a position to take part directly in the work of the CEEMS AG, including in the meetings which were held both annually and currently online between the annual meetings. In addition, members of the CEEMS AG were very likely to be asked to take part in, or to lead, Project Groups on specific items of work. One of the items identified in the workplan was that there were activities for which leaders had not yet been identified, so a number of people were being sought to lead these projects, and this was another way in which contributions could be made.
+
+Mr Xie Jun thanked Mr Mason for his excellent presentation about the CEEMS AG's activities and its future workplan. China supported the CEEMS AG recommendation to the CIML about how to strengthen the CEEMS activities, and wanted to take this opportunity to thank Mr Mason for his chairmanship of the CEEMS AG. He said that under Mr Mason's leadership, the CEEMS AG had developed and grown, and in recent years it had actively promoted the role which the OIML played in CEEMS, as well as actively seeking various types of support for CEEMS in order to enhance their participation in the OIML. He again thanked Mr Mason.
+
+Dr Schwartz said that since this concluded the report on the activities of the CEEMS AG, he wished to highlight the fact that this would be the last report to be presented by Mr Mason, who had been the CEEMS AG Chairperson since 2019, so he wished to make a few comments. He was sure that the OIML community would wish to acknowledge the end of Mr Mason's outstanding work during a very busy and pioneering 20-year period. Dr Schwartz said that Mr Mason had always worked for the benefit of the OIML, for its Members, and especially for CEEMS. Dr Schwartz wished to take this opportunity to announce that Mr Mason had been given an OIML Award for his work as CIML President and as CEEMS AG Chairperson, and this would be officially awarded to Mr Mason the following day under item 22. He asked Mr Mason if he would be able to participate in the following day's session.
+
+Mr Mason confirmed he would be able to participate, and added that this was a very pleasant surprise.
+
+Dr Mathew thanked Mr Mason for his work and recorded that many acknowledgements and comments of appreciation were being made to Mr Mason on the Zoom chat function.
+
+Mr Dunmill asked delegates to note that there would be a resolution encouraging Members to join the CEEMS AG, as well as thanking the existing AG members for the work they had conducted.
+
+## 16.3 Recommendations from the CEEMS AG to the CIML
+
+Dr Mathew asked Mr Dunmill to present this item.
+
+Mr Dunmill reminded delegates that since B19 had not been submitted to the CIML three months before the current meeting, there needed to be a two-stage approval process, where the CIML was first asked to allow the vote on B19 even though the required three-month consideration period had not been given. This would be followed by a resolution to approve the publication. There was also a resolution welcoming the intention of the CIML President to approve the Guide which Mr Mason had mentioned on the use of online technology, and to encourage the widespread use of this Guide.
+
+The restarting of the work on D14, which had begun immediately before the pandemic had started, but which had been paused due to the COVID-19 situation, was also welcomed, and Members were encouraged to participate in the revision process and to respond to the survey which would be conducted as an initial phase of the work. Mr Dunmill stated that these resolutions related to the recommendations contained in Mr Mason's report; he would read through them in detail when the meeting came to the review of the resolutions at the end of the current session.
+
+## 17 OIML Digitalisation Task Group (OIML DTG)
+
+Dr Mathew asked CIML President Dr Schwartz to introduce the candidates for OIML DTG Chairperson and Deputy Chairperson.
+
+## 17.1 Introduction of candidates for the OIML DTG Chairperson and Deputy Chairperson
+
+Dr Schwartz stated that at its second meeting in May 2022, the DTG had selected candidates for the position of OIML DTG Chairperson and Deputy Chairperson. The committee would now be asked to take secret ballets on both nominated candidates. He interjected that he hoped the other secret ballot on the CEEMS AG Chairperson and Vice-Chairperson was going well.
+
+Dr Schwartz stated that he would not repeat the details that had been provided in Addendum 17.1 but instead present a short summary as Mr Mason had just done for the CEEMS AG Chairperson and Vice Chairperson.
+
+As he had already mentioned, the second DTG online meeting had been held on 18 May 2022, and had been attended by ten Member States and three Corresponding Members, as well as a representative from IECEx and two invited guests/observers.
+
+During the meeting, each candidate had given a presentation. There had only been one candidate for each position: for the post of the OIML DTG Chairperson, Dr Sascha Eichstadt (PTB, Germany), and for the post of Deputy Chairperson, Dr Ping Yang (National Institute of Metrology, P.R. China). Dr Schwartz stated that the online Zoom voting feature had been used, and he was happy to report that both candidates had been selected with nine "yes" votes and one abstention.
+
+Dr Schwartz then gave a short introduction on Dr Sascha Eichstadt. He said Dr Eichstadt was head of the PTB department Metrology for digital transformation located in Berlin. He was the team leader for Metrology for sensor networks. He was also the convener of the EURAMET TC-IM working group Metrology for digital transformation (WG M4D), and chair of IMEKO TC6 Digitalization.
+
+Dr Schwartz continued with a short introduction on Dr Ping Yang, Deputy Director of the National Institute of Metrology in P.R China. He was the Director of the Centre of Metrology and Scientific Data and Energy Metrology. He was also a member of the CIPM Consultative Committee for Acoustics, Ultrasound and Vibration (CCAUV), and also chair of the APMP Technical Committee on quality systems. He was also the chair of the national metrology technical committee on acoustics.
+
+Dr Schwartz stated this concluded his short presentation and introduction to the two candidates, and reiterated that more details could be found in Addendum 17.1. He recommended that the CIML appoint the two excellent candidates as OIML DTG Chairperson and Deputy Chairperson by a clear vote in the secret ballots and their respective resolutions. He announced that the secret ballot for these two positions would open now.
+
+Dr Schwartz announced that at the same time, the secret ballots for the CEEMS AG Chairperson and Vice-Chairperson would be closed.
+
+Dr Mathew asked delegates if there were any questions or comments. There were none.
+
+## 17.2 Report by the provisional OIML DTG Chairperson
+
+## Dr Mathew asked Dr Eichstadt to give his report.
+
+Dr Eichstadt said he would start by reminding delegates of the information which had already been provided in the report by the CIML President. This had summarised the activities of the DTG in its early months, as well as the proposed work items, and also briefly commented on some of the early activities of the DTG. It was important to note that the DTG considered itself to be a strategic Task Group, so it was considering work items that would be of strategic importance for the OIML. It was also a "horizontal" Task Group, looking at issues across the various OIML activities. It was not competing with the parallel work of other Project Groups, but instead sought to collaborate very closely with them, including groups such as the CEEMS AG and the OIML-CS, amongst others. The DTG also wished to be considered as a contact point for other international organisations that had signed the Joint Statement of Intent being coordinated by the BIPM, and which had several signatories already. Already several observers and guests had been invited to DTG meetings, in particular from the standardisation community, and the DTG was looking out for other attendees from other areas and communities, in particular from industry. Dr Eichstadt remarked that CECIP was already a guest observer at DTG meetings.
+
+The DTG's major purpose was to analyse the challenges of the digital transformation of the various legal metrology processes and activities, and to prepare respective proposals to the CIML, as well as providing corresponding advice and input to other OIML Project Groups and other bodies such as the CEEMS AG.
+
+Dr Eichstadt said that as had already been mentioned, the DTG had several participants from OIML Member States as well as from Corresponding Members and institutions in liaison, mainly IECEx and CECIP. In addition, the current CEEMS AG Chairperson, Mr Mason, had been invited to participate as an observer, and Dr Eichstadt stated that of course this invitation would be extended to the new Chairperson of the CEEMS AG.
+
+Dr Eichstadt then moved straight on to the proposed and planned activities and the immediate work items, as the subject of the nominated Chairperson and Deputy Chairperson and had already been covered.
+
+Dr Eichstadt stated that work items had been agreed at the first meetings of the DTG earlier in 2022. The first item was that immediate action should be taken to support the IMEKO TC6 conference which had taken place in September 2022 in Berlin. This had been organised as a hybrid event, and a subcommittee had been created from the DTG to prepare and organise a legal metrology session. The second work item had been to support OIML technical work and Project Groups regarding "SMART", the machine readability of OIML publications, and Dr Eichstadt said he would say more about this later on in his presentation. The third work item had been the strategic discussion on the role of the OIML in
+
+an international digital metrology system. The fourth work item had been the support of the "Online technology project" initiated by the CEEMS Advisory Group, and which was now proposed to become an OIML Guide, as had been presented earlier by Mr Mason. This was now intended to be further developed, in order to become a "living document".
+
+Dr Eichstadt stated that the IMEKO conference, or for short the M4Dconf 2022, which had been held in Berlin in September had been organised as a fully hybrid event, during which the DTG had organised a special session named "Digital transformation in legal metrology". Dr Eichstadt reported that the OIML had been one of the supporters of the conference, together with the CIPM, GULFMET, SIM and several others including EURAMET and EUROLAB. In their session, the DTG had invited three peer-reviewed presentations on legal metrology aspects for digitalisation, and a panel discussion had also been organised with representatives from CEEMS, CECIP, OIML-CS, NMIA and German market surveillance. Dr Eichstadt stated that the legal metrology session and the conference as a whole had both been a great success, with very positive feedback from attendees.
+
+Dr Eichstadt reiterated that the second work item had been the support of OIML technical work and Project Groups regarding "SMART" OIML publications. He said this aligned with the developments in the standardisation community, such as the work being carried out by ISO/IEC on SMART standards. Dr Eichstadt drew attention to his current slide, where delegates could see an image from an ISO/IEC IM group publication which introduced the different levels of digital maturity of machine-readable documents. Dr Eichstadt reported that this work item would be considered by a subcommittee of the DTG, and said that several DTG members had already indicated their willingness to become active members of this subcommittee. They would also be inviting people from external groups, in particular from the standardisation community, as well as others. The DTG would also consult with existing OIML Project Groups. As had been mentioned earlier that day, the topic of machine readability should be taken into account with regard to OIML publications, so this was one direction the DTG was thinking of working on, in order to prepare and provide recommendations.
+
+The third work item had been strategic discussions originating from the realisation that there was a need to identify, clarify and harmonise vocabulary and terminology, starting with the understanding of basic and fundamental aspects of digital transformation. He gave the examples of questions such as "What is digital transformation?", "What is digitisation?", and "What did these and other vocabularies really mean from a legal metrology perspective?" Dr Eichstadt stated that from these positions, the DTG could then provide consultancy and support for Project Groups and for other OIML activities. These could also feed into discussions with the OIML-CS to better understand how to position the OIML-CS, and where further development was needed in order to take advantage of the possibilities and opportunities of digital transformation. He stressed it could also provide the OIML-CS with the possibility of enabling digital transformation in industry and international trade. These activities were also foreseen for the future CIPM forum on digitalisation which Dr Eichstadt reminded delegates had been included in the draft resolutions of the CGPM meeting to be held in November 2022. Dr Eichstadt commented that this forum would be created based on the Joint Statement of Intent, and the outcome of the DTG's discussions on this work item would very likely be fed into this forum.
+
+The fourth envisaged work item had been DTG support for the "Online technology project" initiated by the CEEMS Advisory Group. Dr Eichstädt said the DTG had already commented on the Draft Guide and had approved the Final Draft Guide from the CEEMS AG. He added that several recommendations from the DTG had been included in the final version. In particular, section 8 of the Guide had clearly referred to further collaboration between the DTG and the CEEMS AG on this topic, and the further extension of the Guide and its scope. The DTG was also extending an invitation to the new CEEMS AG Chairperson to act as an observer and consultant in DTG general meetings, to ensure that whatever the DTG was working on would align with the needs of CEEMS. Dr Eichstädt stated this concluded his presentation, and asked if there were any comments or questions.
+
+Dr Mathew thanked Dr Eichstadt and asked if there were any questions.
+
+Mr Xie Jun thanked Dr Eichstadt for his report from the OIML DTG and for the details regarding the Task Group. He asked how many Members had joined this Task Group so far.
+
+Dr Eichstadt replied that the exact number had been indicated on the slide shown by Dr Schwartz, but Dr Eichstadt thought it was between fifteen and twenty.
+
+Dr Schwartz responded that ten Member States and three Corresponding Members had been represented, in addition to one organisation in liaison, and two guests including the CEEMS AG Chairperson. Dr Schwartz added that the number of attendees was not limited.
+
+Mr Xie Jun commented that it would be better just to use the term "P.R. China" in the list.
+
+Dr Mathew thought it was important to emphasise the call to all delegates to join this group. He pointed out that it was an open group, and added that the group would appreciate and welcome anyone who would like to join.
+
+A delegate from Vietnam thanked Dr Eichstadt for his presentation and proposed that developing countries such as Vietnam should join as observers or members and join in the activities, as digitalisation was occurring around the world.
+
+Dr Eichstadt welcomed this comment. The invitation to the CEEMS AG Chairperson was just one option to make sure that the needs of CEEMS were taken into account, and other volunteers were very welcome to participate. The current membership of the DTG had been based on a survey which had been circulated in late 2021 or early 2022, after the decision of the 56th CIML Meeting, but he stressed that membership was not limited.
+
+Dr Mathew stated that there were no further questions, so he asked delegates to consider the recommendation and proposed resolution.
+
+Mr Dunmill explained that this resolution concerned the CIML approval of the terms of reference for the DTG; it also instructed the BIML to publish them in a suitable place on the OIML website.
+
+Dr Schwartz requested that the resolution included not only to "publish" them but also to "finalise" them, as the terms of reference were currently in draft form. He would recommend that the BIML provided some support to finalise the draft before it was published.
+
+Dr Mathew wished to close the session but before doing so he reminded delegates that the secret ballot was still open.
+
+## 18 Secret ballots
+
+Dr Schwartz welcomed delegates back to the last part of the second session of the 57th CIML Meeting. He asked the BIML to close the second secret ballot so that the result could be announced, and thanked the BIML team, who had worked hard to significantly improve the voting procedure from the previous day.
+
+## 18.1 Secret ballots for the CEEMS AG Chairperson and Vice-Chairperson
+
+Dr Schwartz announced that Mr Marneweck had received 41 votes in favour of his appointment as CEEMS AG Chairperson. Dr Schwartz offered his congratulations to Mr Marneweck and remarked joked that this appointment would of course be subject to the approval of the respective resolution.
+
+Dr Schwartz announced that Mr Han Jianping had received 41 votes in favour of his appointment as CEEMS AG Vice-Chairperson, and congratulated him.
+
+## 18.2 Secret ballots for the OIML DTG Chairperson and Deputy Chairperson
+
+Dr Schwartz announced that Dr Eichstadt had received 47 votes in favour of his appointment as OIML DTG Chairperson, and congratulated him.
+
+Dr Schwartz announced that Dr Yang Ping had received 46 votes in favour of his appointment as OIML DTG Deputy Chairperson, and congratulated him.
+
+Dr Schwartz stated that this concluded the results of the secret ballots. He emphasised the CIML's thanks to the candidates for their willingness to support the OIML's CEEMS and DTG activities in such prominent positions, and he wished the candidates good luck and much success in their future work for the CEEMS AG and DTG.
+
+## 19 Review and approval of draft CIML resolutions (Session 2)
+
+Dr Schwartz asked Mr Dunmill to present the text of the draft resolutions that had arisen from the current session, asking for discussion and clarification before voting on each of them.
+
+## 19.1 Review of draft CIML resolutions
+
+Mr Dunmill stated that the resolutions up to 2022/15 had been approved the previous day. He would read the resolutions for approval at this session.
+
+Draft Resolution no. CIML/2022/16
+
+Agenda item 14.1.1
+
+The Committee,
+
+Approves the Final Draft revision of D 5:1982 Principles for the establishment of hierarchy schemes for measuring instruments, and
+
+Thanks the Project Group conveners and members for their work in completing this project.
+
+Mr Marneweck asked whether the publication year mentioned in the draft resolution should be updated.
+
+Mr Dunmill replied that this was how the resolutions were normally presented. In this case, the Final Draft being approved was a revision of the previous version, which had been published in 1982. Once the new edition had been approved by the CIML, it would be published with the new date.
+
+Dr Schwartz confirmed this was the case. The year would be added according to the year of publication.
+
+Mr Dunmill pointed out that delegates could see on the screen the resolution for the approval of the revision of D 10 which had the same format in its heading. It was headed D 10:2007. He confirmed that the publication would be given a new date when it was finalised.
+
+There were no other comments.
+
+Draft Resolution no. CIML/2022/17
+
+Agenda item 14.1.2
+
+The Committee,
+
+Noting the proposal from the OIML-CS Management Committee,
+
+Reconfirms R 139:2018 Compressed gaseous fuel measuring systems for vehicles.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/18
+
+Agenda item 14.1.3
+
+The Committee,
+
+Approves the Final Draft revision of D 10:2007 ILAC-G24/OIML D 10 Guidelines for the determination of recalibration intervals of measuring equipment used in testing laboratories, and
+
+Thanks the Project Group convener and members for their work in completing this project. There were no comments.
+
+Draft Resolution no. CIML/2022/19
+
+Agenda item 14.1.4
+
+The Committee,
+
+Approves the Final Draft revision of B 12:2004 Policy paper on liaisons between the OIML and other bodies, and
+
+Thanks the RLMO RT Chairperson and members for their work in completing this project. There were no comments.
+
+Draft Resolution no. CIML/2022/20
+
+The Committee,
+
+Agenda item 14.1.5
+
+Approves the Final Draft update of V1:2013 International vocabulary of terms in legal metrology (VIML) (bilingual French-English) / Vocabulaire international des termes de métrologie légale (VIML) (bilingue français-anglaise), and
+
+Thanks the Project Group conveners and members for their work in completing this project. There were no comments.
+
+Draft Resolution no. CIML/2022/21
+
+Agenda item 14.1.6
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Decides to accept the proposal to vote on the Final Draft New Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML CS at this meeting.
+
+In relation to this and the next draft resolution, Mr Dunmill pointed out that delegates had not received the normal three months' notice of voting on the Final Draft new Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML-CS. The CIML President had therefore proposed that Members should first consider whether they would accept to vote on this, and then, if such a resolution were to pass, they could vote on the Final Draft Document itself in a separate draft resolution.
+
+There were no further comments.
+
+Draft Resolution no. CIML/2022/22
+
+Agenda item
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Decides to accept the proposal to vote on the Final Draft New Document Guide for the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML-CS at this meeting.
+
+Mr Dunmill commented this was the resolution to approve the Final Draft new Document itself. There were no other comments.
+
+Draft Resolution no. CIML/2022/23
+
+Agenda item 14.2.1
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 5/SC 1, the Revision of OIMLD 11:2013 General requirements for measuring instruments - Environmental conditions, to be conducted as specified in the project proposal provided in Addendum 14.2.1 to the Working Document for this meeting.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/24
+
+Agenda item 14.2.2
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 11, the Revision of OIML R 75:2002 Heat meters, to be conducted as specified in the project proposal provided in Addendum 14.2.2 to the Working Document for this meeting.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/25
+
+Agenda item 14.2.3
+
+The Committee,
+
+Approves as a new project, under the responsibility of TC 8/SC 7, the Revision of OIMLR 137:2012 Gas meters, to be conducted as specified in the project proposal provided in Addendum 14.2.3 to the Working Document for this meeting.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/26
+
+Agenda item 14.2.4
+
+The Committee,
+
+Approves as a new project, under the responsibility of the BIML, the revision of OIML B 6:2019 Directives for OIML technical work - Part 1: Structures and procedures for the development of OIML publications, and Part 2: Guide to the drafting and presentation of OIML publications, to be conducted as specified in the project proposal provided in Addendum 14.2.4 to the Working Document for this meeting, and
+
+Encourages the Project Group to conduct the second stage of this revision in close association with the OIML DTG.
+
+Mr Dunmill reported that the last line had been added to reflect the discussions that had taken place under this item.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/27
+
+Agenda item 14.3
+
+The Committee,
+
+Noting the report on the OIML technical work,
+
+Approves the list of high priority projects as presented by the BIML, and
+
+Approves the list of high priority publications as presented by the BIML.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/28
+
+The Committee,
+
+Agenda item 14.3
+
+Noting the highly efficient and rapid progress on the first stage of the work in Project Group TC 12/p 3, which resulted in the publication of OIML G 22:2022 Electric vehicle supply equipment,
+
+Thanks the convener and the members of the Project Group for their work.
+
+Mr Dunmill commented that this project would be continuing, in order to complete its work to produce a new OIML Recommendation.
+
+Dr Van Der Wiel (Netherlands) stated that the draft resolution presented on the screen should read "Project Group TC 12/p 3" rather than "Project Group TC 12/p 4". Mr Dunmill verified that Mr Pulham would make this correction in the online version.
+
+There were no other comments.
+
+Draft Resolution no. CIML/2022/29
+
+Agenda item 14.3
+
+The Committee,
+
+Noting the information provided in Addendum 14.3 to the Working Document for this meeting concerning the Project Groups established at the 56th CIML Meeting under TC 18/SC 1 and TC 18/SC 2,
+
+Encourages Members to consider participating in this work to enable progress to be made on these important projects.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/30
+
+The Committee,
+
+Agenda item 14.4
+
+Notes the report on the current status of OIML activities on e-Learning and other online training,
+
+Welcomes the collaboration with the BIPM on the development of an e-Learning course and other supporting materials relating to OIML D1:2020 National metrology systems - Developing the institutional and legislative framework, and
+
+Encourages Members to collaborate on e-Learning activities by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
+
+There were no comments.
+
+Agenda item 14.5
+
+Draft Resolution no. CIML/2022/31
+
+The Committee,
+
+Notes the success of the concept of "Mentor" for key topics of the OIML Bulletin,
+
+Thanks those individuals who have been Mentors for recent editions, and those who have already offered to be Mentors for future editions,
+
+Encourages Members to come forward as Mentors for key topics of future editions, and
+
+Renews its support for the OIML Bulletin.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/32
+
+Agenda item 15.1
+
+The Committee,
+
+Notes the report of the OIML Certification System (OIML-CS) Management Committee (MC) Chairperson, and
+
+Thanks the members of the OIML-CS MC, Review Committee, Maintenance Group and Working Groups for their work.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/33
+
+Agenda item 15.2
+
+The Committee,
+
+Noting the recommendation from the OIML-CS Management Committee,
+
+Approves the Final Draft revision of OIML B 18 Framework for the OIML Certification System (OIML-CS), and
+
+Thanks the OIML-CS Management Committee and Maintenance Group for their work in completing this project.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/34
+
+Agenda item 16.1
+
+The Committee,
+
+Recalling section 2, first bullet point, of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS),
+
+Noting the nomination of a candidate from the CEEMS Advisory Group for the position of CEEMS AG Chairperson,
+
+Noting the information provided by the CEEMS AG Chairperson,
+
+Appoints Mr Jaco Marneweck as CEEMS AG Chairperson for a three-year term with effect from 1 January 2023, and
+
+Thanks Mr Peter Mason for his leadership of the CEEMS AG during his three years as its Chairperson.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/35
+
+Agenda item 16.1
+
+The Committee,
+
+Recalling section 2, first bullet point, of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS),
+
+Noting the nomination of a candidate from the CEEMS Advisory Group for the position of CEEMS AG Vice-Chairperson,
+
+Noting the information provided by the CEEMS AG Chairperson,
+
+Appoints Mr Han Jianping as CEEMS AG Vice-Chairperson for a three-year term with immediate effect, and
+
+Thanks Dr Peter Ulbig for his work as Vice-Chairperson of the CEEMS AG during the period 2019-2021.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/36
+
+Agenda item 16.2
+
+The Committee,
+
+Notes the report on the activities of the CEEMS AG,
+
+Encourages Members to join the CEEMS AG, and
+
+Thanks members of the CEEMS AG for their work.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/37
+
+Agenda item 16.3
+
+The Committee,
+
+Considering the remarks made by its President,
+
+Decides to accept the proposal to vote on the Final Draft revision of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS) at this meeting.
+
+Mr Dunmill explained that this resolution was again necessary in order for the Committee to agree to vote on something for which there had not been the usual three months' notice. The resolution to approve the Final Draft revision of B 19 would follow.
+
+There were no other comments.
+
+Draft Resolution no. CIML/2022/38
+
+Agenda item 16.3
+
+The Committee,
+
+Approves the Final Draft revision of B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS), and
+
+Thanks the CEEMS AG members for their work in completing this project.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/39
+
+Agenda item 16.3
+
+The Committee,
+
+Welcomes the intention of the CIML President to approve the document Guide to the use of online technology for conducting CEEMS activities in a post-COVID world as an OIML Guide, and
+
+Encourages the BIML, the CEEMS AG, the OIML DTG, CIML Members, and Corresponding Member Representatives to take note of its recommendations.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/40
+
+Agenda item 16.3
+
+The Committee,
+
+Welcomes the restarting of the work of the CEEMS/p 1 Project Group on the revision of OIMLD 14:2004 Training and qualification of legal metrology personnel,
+
+Encourages Members to participate in this Project Group, and
+
+Encourages Members of the Project Group to respond to the survey being conducted as an initial phase of this work.
+
+Mr Mason commented that this seemed to be addressed only to members of the Project Group, whereas he had thought the questionnaire was being distributed more widely.
+
+Dr Schwartz stated that the questionnaire would be circulated to the existing CEEMS/p 1 Project Group. This Project Group was already established, and had, he believed, around 14 P-members and around three O-members. The intention had been that CIML Members who were interested in joining the project should do so quickly, and preferably immediately after the current CIML meeting, in order to have the chance to receive the questionnaire. He stated that the questionnaire would not be circulated to all CIML Members. The deadline for its completion would be 31 December 2022, so there would be plenty of time for any new members to complete it. This had been the idea of the German convener.
+
+Mr Mason thanked Dr Schwartz for the clarification.
+
+Mr Dunmill stressed that if any delegates wished to join this Project Group and had difficulties in doing so as it was not a normal Project Group, they should contact him. He pointed out that it was listed on the same page as all the rest of the Project Groups.
+
+There were no further comments.
+
+Draft Resolution no. CIML/2022/41
+
+Agenda item 17.1
+
+The Committee,
+
+Recalling its resolution CIML/2021/07,
+
+Noting the information provided by its President,
+
+Appoints Dr Sascha Eichstadt as OIML DTG Chairperson for a three-year term with immediate effect.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/42
+
+Agenda item 17.1
+
+The Committee,
+
+Recalling its resolution CIML/2021/07,
+
+Noting the information provided by its President,
+
+Appoints Dr Ping Yang as OIML DTG Deputy Chairperson for a three-year term with immediate effect.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/43
+
+Agenda item 17.3
+
+The Committee,
+
+Approves the Draft Terms of Reference for the OIML Digitalisation Task Group (OIML DTG), as endorsed by the OIML DTG and presented in Addendum 17.3 to the Working Document for the 57th CIML Meeting, and
+
+Instructs the BIML to assist the DTG chairperson in finalising the Terms of Reference and to publish them in an appropriate place on the OIML website.
+
+There were no comments.
+
+Dr Schwartz announced that this was the end of the draft resolutions for this session and thanked Mr Dunmill and the BIML team for their careful revision and completion of all the resolutions.
+
+## 19.2 Voting on draft CIML resolutions
+
+Dr Schwartz asked whether the voting could be opened, and after a short pause announced that the resolutions were now available on the OIML website and could now be voted on. He stressed again that it was very easy to vote in favour of all the draft resolutions by clicking on the last but one column under "Action", where there was a heading "Click here to vote yes for all". If a delegate then wished to abstain, or to vote "no", it would be possible to do so for that specific draft resolution.
+
+Dr Schwartz reminded those countries holding proxies to make sure votes were cast for the other country or countries.
+
+Dr Schwartz stated that delegates could see on their screen the number of votes that had been cast by clicking on "Results", and added that currently 38 Heads of Delegation had voted. If this figure did not reach 48, then the same thing would happen as had happened the previous day and the voting would be left open until the following session the next day. On looking at his screen again, Dr Schwartz noted that 44 votes had been cast, so he asked delegates to wait a little longer as only four more votes needed to be cast in order to reach the quorum.
+
+Mr Dunmill made a table summarising the voting available to delegates on their screens.
+
+Dr Schwartz asked any Heads of Delegation who were having problems casting their votes to contact the BIML, adding that there were still only 46 votes for resolution 16, which meant that the meeting was not in a position to approve this resolution at the present time. He added that the delegate from Brazil had indicated he was having difficulty, and said that the BIML would ensure that the delegate received the help he needed. He noted that the delegate from Albania was also having difficulties.
+
+## 20 Closing remarks for Session 2
+
+Dr Schwartz requested that instead of waiting further, the session be brought to a close. The voting had gone a lot smoother during the current session, and he again thanked the BIML team for their work in having improved the secret ballot voting system. He asked any delegates currently experiencing problems with voting to contact the BIML team, and stated that the voting would be left open until the beginning of the next session the following day.
+
+This concluded session two, where the focus had been on the technical activities. He thanked all those who had provided reports.
+
+Dr Schwartz noted that some hands were raised, and asked whether the respective delegates were having technical difficulties with voting. He then announced that while he had been speaking, the quorum had been reached. This meant that all the draft resolutions from this session had been approved, indicating that it was not necessary to leave the voting open overnight. He thanked delegates, and declared the voting closed.
+
+Dr Schwartz again thanked all those who had provided reports, as well as for all their hard work, be it as convener, Chairperson or Vice/Deputy Chairperson. He also congratulated those candidates who had been elected as Chairperson or Vice/Deputy Chairperson. He closed the session and said he looked forward to seeing all delegates the following morning at 10:00 UTC.
+
+## Session 3: Thursday 20 October 2022, 10:00-13:30 UTC (12:00-15:30 CEST)
+
+Dr Schwartz welcomed delegates to the third and final session of the 57th CIML Meeting. He said that the focus of this session would be on international cooperation, the OIML Awards, and future CIML meetings. Dr Schwartz said that CIML Second Vice-President Dr Bobjoseph Mathew had agreed to chair the meeting until the first break, and he handed over to Dr Mathew.
+
+## 21 International cooperation
+
+Dr Mathew greeted delegates and said that there would be three reports under this item. The first would be given by the RLMO RT Chairperson and CIML First Vice-President, Dr Charles Ehrlich. He asked Dr Ehrlich to give his presentation.
+
+## 21.1 Report by the RLMO Round Table Chairperson
+
+Dr Ehrlich was pleased to report that the RLMO Round Table continued to be very active, having held two interim meetings during 2022, in addition to the annual meeting. All these meetings had been held online, and he thanked the BIML for hosting them. He stated that the interim meetings had been held primarily to exchange information and ideas, which each RLMO could then take back to their region as appropriate. Short update presentations from each RLMO on matters of particular urgency or interest were also permitted at these meetings, but were not required. These interim meetings were also used for presentations on topics of interest, and as indicated on his slide, Dr Ehrlich stated there had been two presentations on smart meters during 2022. One of these had been given by Dr Pavel Klenovsky, CIML Member for the Czech Republic and WELMEC Chairman. The other had been given by Mr Juan Carlos Mateus Sánchez from INMETRO, Brazil.
+
+Dr Ehrlich reported that the annual Round Table meeting had been held on 27 September 2022, three weeks prior to the 57th CIML Meeting, and he said that at this meeting each of the RLMOs had reported on the activities and developments in their Regions over the past year. The plans for the following year's
+
+Round Table meeting and activities had also been discussed, and Dr Ehrlich said he would elaborate on this later in his presentation.
+
+At this point, Dr Ehrlich reminded delegates about the RLMO Round Table web page on the OIML website, and he thanked Mr Pulham for maintaining this up to date. He explained that the logos of each of the six RLMOs on this page provided a link to the home page of that RLMO. A new workspace for the RLMO Round Table had also been set up on the OIML website, and he thanked Mr Mussio and the BIML team for keeping this up to date, and for having produced an easier to use version during the current year. Dr Ehrlich also thanked Mr Richter for his assistance during the year.
+
+Dr Ehrlich's next slide showed delegates how to access the presentations and other public documents from the annual Round Table meetings for the last three years, by clicking on "Structure" on the menu bar of the OIML website. He reminded delegates that the RLMO Round Table had been meeting annually since 2007, although the meetings had been held online for the last three years due to the COVID pandemic.
+
+Dr Ehrlich's next slide indicated the first six items of the latest Round Table meeting, and he thanked all the RLMO presenters, who were displayed under agenda item 4 on his slide. There had been three new presenters at this latest meeting from SIM, GULFMET, and COOMET. Dr Ehrlich said he would discuss the highlights from each of the six RLMOs presentations later, adding that these had also been posted on the Round Table website, and he encouraged all delegates to take a look at them, as they contained reports of the many interesting activities and events happening in the regions, and he would not have time to elaborate on these during his current presentation.
+
+Dr Ehrlich reported that the open forum discussion topics in 2022 had been on "digitalisation" and "smart meter" activities in the regions, as indicated under agenda item 5 of the RT meeting. He said that these topics would be continued in the coming year because there were still many ongoing activities in these areas.
+
+A new item on the agenda for the RLMO Round Table had been item 6, which delegates would have heard about the previous day from Mr Pulham. This was that the April 2023 OIML Bulletin would be focused on the RLMOs. Dr Ehrlich remarked that he was serving as Mentor for that issue, and thanked in advance the authors of the articles.
+
+Dr Ehrlich showed delegates the rest of the agenda for the 2022 RLMO Round Table annual meeting. Under agenda item 7 of the RT meeting, Mr Peter Mason had provided an update on the activities of the CEEMS AG, and under agenda item 8 of the RT meeting, Mr Mannie Panesar and Mr Paul Dixon had provided an update on the OIML-CS. Dr Ehrlich stated that delegates would have already heard updates on both of these at the CIML meeting the previous day. He did not intend to repeat the information that had been given then, but added that these updates were very valuable and much appreciated by the representatives from the regions. The updates provided a good opportunity for the regional representatives to ask questions and obtain useful information, helping to facilitate further participation in the OIML-CS in individual regions.
+
+Under agenda item 9, a number of issues had been covered, and Dr Ehrlich would describe the outcome of these discussions in his presentation. It had been decided to continue to hold two interim meetings each year, which would be in January and May 2023. Talks on two new topics would be given in 2023, on "Electric Vehicle Supply Equipment (EVSE)" and "measurements in law enforcement". At each Round Table meeting, an open forum discussion was held to discuss any questions that had arisen on the special topics, and it had been decided at the most recent Round Table meeting to keep the two existing discussion topics, "digitalisation" and "smart meters", and to add the two new topics which he had mentioned. All four of these would be on the Round Table interim and annual agendas for 2023, and Dr Ehrlich encouraged all delegates who were interested to attend and to take part in those discussions.
+
+As discussed the previous day at the CIML meeting, Dr Ehrlich stated that the revision of OIML B 12 Policy paper on liaisons between the OIML and other bodies had been approved. This revision had included an amendment to reflect the OIML's policy concerning coordination with RLMOs, which would be considered annually at RLMO Round Table meetings. Dr Ehrlich reminded delegates that the
+
+previous year, the RLMOs had agreed that they should remain independent of the OIML and from each other, but that interactions through the Round Table should continue, so as to facilitate effective communication channels. At the 2022 Round Table meeting, this position had been discussed, and had been maintained with no change. However, Dr Ehrlich reported that through the Round Table, several of the RLMOs had developed bilateral interactions for their own mutual benefit, which he remarked was great to hear.
+
+Dr Ehrlich stated that delegates had heard from Mr Dunmill the previous day about the current status and plans of the OIML regarding e-Learning and online training, adding that Mr Dunmill had provided a similar report to the September meeting of the Round Table. Dr Ehrlich stated that the hardware was now in place at the BIML, and the software was under development. Ways of incorporating the extensive e-Learning materials from the APLMF were being considered.
+
+Regarding CEEMS, Dr Ehrlich said that encouraging more participation by CEEMS in the Round Table discussions was always a consideration by the regions, since CEEMS are typically more involved in the individual RLMOs than they are in the Round Table.
+
+Dr Ehrlich said he would now provide delegates with some of the highlights from the individual presentations the RLMO representatives had given at the annual Round Table meeting. These would be in alphabetical order, starting with AFRIMETS, which had been represented by Mr Jaco Marneweck (South Africa), but he firstly congratulated Mr Marneweck on his appointment as CEEMS AG Chairperson, which had not yet taken place at the time of the annual Round Table meeting.
+
+## AFRIMETS
+
+Mr Marneweck had reported that the recent 15th AFRIMETS General Assembly had focused on AFRIMETS' self-sustainability. An AFRIMETS Technical Committee (TC) Legal workshop, which had taken place around the same time, had focused on the regulation of smart electricity meters, with presentations by the three speakers indicated on his slide: Dr Pavel Klenovsky (Czech Republic), Dr Juan Carlos Mateus Sánchez (Brazil), and Ms Sowmya Ramakrishnan (Australia). Afterwards it had been decided that this workshop would be followed up by similar workshops.
+
+## APLMF
+
+Dr Ehrlich stated that the APLMF President, Dr Osman Zakaria (Malaysia), had provided the APLMF report. He had reported that there were currently 27 APLMF member economies. He had also informed the meeting that besides the training courses and e-Learning modules on NAWIs and the verification of fuel dispensers, the APLMF was planning new workshops and training courses on software used in measuring instrument transactions, belt weighers (based on OIML R 50), and weighing-in-motion technology (based on OIML R 134). These would probably continue to be conducted online, but the last two workshops might be held in person. Dr Zakaria had also reported that the APLMF had six active Working Groups, and was in the process of adding two more on "measurement of fuel" and "medical measurement". Dr Ehrlich stated that the details of these could be found in Dr Zakaria's PowerPoint report, which had been posted on the OIML website.
+
+## COOMET
+
+Dr Ehrlich said that the COOMET report had been supplied by the COOMET President, Dr Valery Hurevich (Belarus). Dr Ehrlich remarked that the report had been very comprehensive, and he would be reporting on a few key highlights. Dr Hurevich had reported that there were currently 14 full members, and five associate members. COOMET had translated a number of OIML publications (D 1:2020, D 10, D 30, D 32, R 75, G 14) and the UNIDO-OIML brochure Certification of measuring instruments. Dr Ehrlich then explained that in 2022 and 2023, COOMET TC 2 expected to complete more translations and implement two projects on "Development of rules for setting up reverification and recalibration intervals for measuring instruments used in the field of legal metrology" and "Review of approaches to the metrological support of medical measuring instruments". Dr Ehrlich reported that COOMET had conducted a survey on the regulation of smart meters, which would continue to be discussed in TC 2. A COOMET Task Group on the issues of digital transformation in metrology had
+
+been established, which had developed a roadmap on the implementation of the concept. Dr Ehrlich ended the COOMET report by saying that the COOMET Committee meeting would be held from 25-27 October 2022.
+
+## EURAMET
+
+Dr Ehrlich said that the EURAMET chairman, Dr Jörn Stenger, had made a presentation at the interim meeting in May 2022, where he had invited the RLMOs to collaborate with EURAMET on projects of mutual interest. At the recent annual Round Table meeting in September, it had been reported that GULFMET had pursued this, and WELMEC had reported that it routinely interacted with EURAMET, although less in recent times due to the COVID pandemic.
+
+## GULFMET
+
+Dr Ehrlich said that the GULFMET report had been given by the TC Legal Metrology chair, Eng. Amina Al Bastaki, who reported that GULFMET had been working towards participating in the OIML-CS, and had nominated two people for membership of the OIML-CS Management Committee. GULFMET had also developed a proposal to form its own certification scheme based on the OIML CS. She had also reported that GULFMET TC Legal Metrology had formed a working group to update the GCC common metrology law, and had put this forward for approval by the Ministerial Committee. GULFMET had participated in the CEEMS AG meeting in July 2022, and had been planning a GULFMET TC Legal Metrology meeting and GULFMET week event in December of 2022. GULFMET had also participated in-person at the IMEKO Conference on "Metrology and Digital Transformation" which had been held in Berlin in September 2022.
+
+## SIM
+
+Dr Ehrlich stated that the SIM report had been provided by the Vice-Chair of the SIM Legal Metrology Working Group (LMWG), Ms Sandra Rodriguez (Costa Rica), who had reported on a template being developed in the SIM LMWG to keep track of the metrological verification of prepackaged products in SIM countries. She had also said that the SIM web page on legal metrology had been updated, and that meetings of the SIM LMWG were being held every three months. Dr Ehrlich remarked that he had been invited to participate in these. The SIM LMWG had identified as key needs in SIM countries the development of training courses in the areas of energy meters, non-automatic weighing instruments, fuel dispensers, and software, and the four bodies Dr Ehrlich had highlighted on his current slide had been particularly active working on digitalisation systems: SIMEL (Colombia), RBMLQ-I (Brazil), SICOMET (Argentina) and, recently, INACAL (Peru). Ms Rodriguez had also reported that the regulation of smart electricity meters was also becoming a priority in some SIM countries.
+
+## WELMEC
+
+Dr Ehrlich stated that the WELMEC Chairman, Dr Pavel Klenovsky, had reported that future WELMEC Committee meetings would feature short (10 minute) talks on "hot issues" in legal metrology through a "technical exchange". He had also reported that WELMEC was launching regular webinars on new developments in WELMEC activities and that the first one would be on 23 November 2022 on the fitness-for-purpose of the European Directives on metrology. Delegates could see from the bottom of his current slide that the WELMEC Committee had been very active during the current year, having approved nine revised Guides, two new Guides and one corresponding table, and would be holding its next meeting in May 2023 in Braunschweig, Germany. Dr Klenovsky had reported that WELMEC continued to be active in the area of active electrical energy meters and digitalisation, and that a new WELMEC Working Group had been established on digital transformation. The WELMEC Chairman and executive board members had published an article on legal metrology for the magazine Nature Physics. Dr Ehrlich stated that the link for this article, as well as much more information, could be found in the individual WELMEC PowerPoint report on the Round Table web page. Dr Ehrlich again highlighted this on his next slide as an encouragement to all delegates to read the article.
+
+## Closing remarks
+
+Dr Ehrlich stated that this had been a brief overview of the Round Table discussions and presentations, and encouraged all delegates to go to the Round Table web page and look at all six of the individual RLMO presentations from the recent annual Round Table meeting where there was much more detail than he had been able to report in the time available. He thanked delegates for their attention.
+
+Dr Mathew thanked Dr Ehrlich for his very informative and comprehensive report, and for his leadership of the RLMO Round Table. Dr Mathew also thanked the members of all the RLMOs for their contributions. There were no questions or comments.
+
+## 21.2 Reports on OIML activities with organisations in liaison
+
+Dr Mathew asked delegates to consider the next item on the agenda, the BIML's report on OIML activities with organisations in liaison, and asked Mr Donnellan to give this report.
+
+Mr Donnellan pointed out that as the time allocated to this agenda item was quite short, he would simply be providing a verbal summary, along with his colleagues from the Bureau, on some key highlights from the previous reporting period. He drew delegates' attention to Addendum 21.2, which had been published on the CIML meeting website. He considered that this was a comprehensive report, detailing the liaison activities of the Bureau and other "organs" of the OIML over the period between 2021 and 2022.
+
+Mr Donnellan stated that from his perspective, there were two important points to highlight at the current meeting. The first was the ongoing work with the United Nations Education, Scientific and Cultural Organisation (UNESCO) to have a World Day of Metrology declared in the next year or two. The work on this had been continuing with a number of embassies, permanent representatives to UNESCO in Paris, and also with Member States of UNESCO, to arrive at the current point. He was pleased to report that the proposal had been accepted by the executive board of UNESCO, with support from their external relations committee. Mr Donnellan said he expected the proposal to be put forward to the 42nd General Assembly of UNESCO in 2023, and that hopefully a World Day of Metrology would be declared in 2024, in addition to the activities the OIML already organised for World Metrology Day. He requested that all Members of the OIML provided their support through their permanent delegations, or ambassadors to UNESCO, as a measure of support for this very important initiative, and he stated that the Bureau would be very happy to provide more details about this.
+
+The second point Mr Donnellan wished to mention was in relation to a proposed change in the OIML representation to the JCGM Working Group 2, which addressed the International Vocabulary of Metrology. Again, he referred delegates to Addendum 21.2, and stated that the changes would be detailed in the draft resolution for this item. He said that this concluded his brief report, and handed over to Mr Dunmill who had some further updates.
+
+Mr Dunmill also drew attention to the information provided in the Addendum for this item and wished to update the Committee about the World Health Organisation (WHO). The BIML had not had much interaction with the WHO during the past year because it had been difficult to contact their staff responsible for medical devices. However, there had been a last-minute request from them to provide contributions to a public consultation on the performance requirements for blood pressure instruments. This had been distributed to members of the appropriate Project Group, and the BIML had provided the comments received to the WHO, despite only having been given a couple of days' notice of the deadline. He hoped that during the coming year the relationship with the WHO would improve in view of the ongoing projects on medical instruments.
+
+Dr Mathew thanked his colleagues from the BIML for the summary of their work. There were no questions or comments.
+
+## 21.3 Updates by other organisations in liaison
+
+Dr Mathew explained that the organisations concerned had been asked to provide reports, which delegates could find in Addendum 21.3. The organisations had also been asked to provide short presentations.
+
+Dr Mathew said that he would call the representatives of each organisation to give their presentations in the following order: CECIP, Marcogaz, IEC, ICUMSA, EUROMET, IAF, BIPM, ISWIM and ILAC.
+
+## 21.3.1 CECIP (Tim Hamers)
+
+Mr Hamers, from CECIP, the European association for national trade organisations representing the European manufacturers of weighing instruments, greeted delegates. He said that he wished to report on two main points.
+
+The first point was an invitation to all delegates. CECIP was organising an International Conference of Weighing, in conjunction with partners from all over the world. These partners included the OIML specifically Dr Schwartz and Mr Donnellan, who had helped with the preparations for the conference, in addition to the BIPM. Other industry associations involved came from Japan, South Korea, China, Australia, the US, Brazil, and Argentina, amongst others. The idea had been to organise the first Global Conference focusing on the weighing industry. Mr Hamers said that more information could be found on the conference website: https://www.weighingconference.com. The conference was open to all stakeholders including industry representatives, ministries, and metrology institutes. He encouraged delegates to visit the website and emphasised that everyone would be welcome.
+
+Secondly, he explained that CECIP was working on a "Weighing you can trust" campaign. He did not think it was necessary to explain to delegates how important it was to have high quality weighing measurements. However, other people were often not aware of this, and the subject was frequently taken for granted, so CECIP was launching a campaign to inform users and buyers of weighing instruments about the importance of high quality, accurate weighing which was compliant with legal metrology requirements. This campaign could be followed on CECIP's social media channels, and was to inform everyone that quality weighing and quality measurements were very important. This completed his presentation.
+
+Dr Mathew thanked Mr Hamers for his information especially regarding the conference. There were no questions or comments.
+
+Dr Schwartz wished to lend support to Mr Hamers by encouraging delegates to participate in the first International Conference on Weighing, which he explained would take place in Hamburg in April 2023, adding that it would be a good opportunity to meet in person. He pointed out that weighing instruments were the most important category of measuring instruments covered by the OIML-CS, and he particularly encouraged OIML-CS Issuing Authorities or Utilizers to attend. As a member of the organising committee for the conference, he wished to encourage all delegates to consider participating.
+
+## 21.3.2 Marcogaz (Manuel Coxe)
+
+Mr Coxe introduced himself as the Secretary General of Marcogaz, the Technical association of the European gas industry. He said that his slides had been made available together with his report in the Addendum to this agenda item so he would not go through them in detail. He would talk briefly about the organisation of Marcogaz, the most recent changes, and their activities.
+
+Mr Coxe explained that over the previous two years, significant changes had been made within the organisation and its work on measuring activities to accommodate the analysis of new gases, including hydrogen, biomethane, and synthetic gases. In 2023, Marcogaz would be celebrating its 55th year, and it now had 28 members in 20 European countries, and continued to publish technical reports.
+
+At Marcogaz's General Assembly, held in June 2022, Mr Liam Nolan had been elected as President for a four-year term, together with a new Vice-President, Mr Alexander Schwanzer. Mr Coxe reported that
+
+some changes had also been made in order to create new working groups, in particular relating to hydrogen, biomethane, new gases, and energy efficiency. Mr Coxe described the gas metering working group as being very active, and said that he would now elaborate on this. Although Marcogaz was based in Brussels, its main work was not lobbying, but undertaking technical assessments, and producing technical reports which were useful to industry and policy makers. Its work on metrology also supported various CEN Working Groups.
+
+With regard to its activities over the previous two years, Mr Coxe reported that Marcogaz had participated in various European Commission forums including the Madrid Forum, the Copenhagen Forum, and the Citizen's Forum. It was currently contributing to the Oslo Forum for Carbon Capture, Utilisation and Storage (CCUS). Mr Coxe stated that Marcogaz was also a member of European Hydrogen Alliance, as well as having a seat in the European Hydrogen Partnership, which was the supervisory board of the joint undertaking for projects on hydrogen.
+
+Marcogaz also organised technical forums to exchange views with experts, and although they had not organised a forum on metrology in the past two years, they were considering doing so in 2023. He reported that their next forum would be held the following week, on the subject of hydrogen 30.
+
+Marcogaz had three pillars of activity. The first was gas infrastructure, where a lot of the work on metrology took place. There were many internal discussions within various groups, and he added that Marcogaz experts were very active in CEN/CENELEC TCs and Working Groups. Mr Coxe said that he mentioned this to highlight that with regard to infrastructure, apart from metrology, Marcogaz also dealt with odorisation, pipelines, distribution, and with the analysis of retrofitting the gas grid. Mr Coxe stated that in September 2022 Marcogaz had welcomed a new chair of the working group for gas metering, Mr Vulovic. It was hoped that Mr Vulovic would bring new energy to the group, and that more information could be provided at the next meeting, as the agenda on metering issues would be strengthened. With regard to activities specific to gas metering, Marcogaz had been working with CEN/CENELEC and had been participating in the various forums of the European Commission. They had also been working closely with the OIML.
+
+Mr Coxe stated that the second pillar was on end-use. Marcogaz dealt with end-use analysis, mostly related to the energy efficiency of appliances, and also on gas quality and gas installations. This had been an area of focus for Marcogaz, and he said Marcogaz understood that metering activities were very relevant to end-use, and to the blending of natural gas and the new gases.
+
+The third pillar was sustainability. When Marcogaz talked about sustainability, it was related to health and level of safety when dealing with natural gas, and other gases such as hydrogen and biomethane, and also the mitigation of methane emissions.
+
+In terms of networks and liaisons, Marcogaz worked with various international organisations such as the International Gas Union (IGU), ISO, CEN, and many others including the OIML.
+
+Regarding the benefits of being a member of Marcogaz, Mr Coxe said it focused on sharing mostly technical information, for use by the policy makers and industry. In terms of metrology itself, the activities of Marcogaz provided information and strengthened industry, in particular to the gas industry. Although it was a gas association, it also participated in the European Commission's Group related to metering, and electricity, and also how to empower the end consumer in terms of participating in the market with their meters. Mr Coxe said that this concluded his presentation, and he asked if there were any questions.
+
+There were no questions for Mr Coxe, so Dr Mathew thanked the Secretary General of Marcogaz for his short but very comprehensive presentation.
+
+## 21.3.3 ICUMSA (Martijn Leijdekkers)
+
+Mr Leijdekkers, from the International Commission for Uniform Methods of Sugar Analysis (ICUMSA), greeted delegates and thanked the Committee for allowing him a few minutes to introduce the work of ICUMSA. He said that he had not prepared any slides, but reminded delegates that his report had been provided in Addendum 21.3c.
+
+Mr Leijdekkers said that he had been the chairman of ICUMSA for a couple of years. He drew attention to the fact that ICUMSA was an international organisation which had existed for over 100 years. The main aim of the organisation was to develop, publish, and maintain methods of sugar analysis. Mr Leijdekkers commented that worldwide there was a lot of trading in sugar and sugar products, and as delegates could imagine, when it came to specifications for the quality of the product, it was also very important to specify the analytical method that had to be used for its analysis, because if different methods were used to determine a certain parameter, quite different results could be obtained. It was therefore important to use reliable, validated methods to analyse sugar products. Over the period of 100 years, a methods book had been developed, which was recognised worldwide by many parties, including regulators and quality laboratories in the sugar industry. It could also be seen in EU regulations, quality documents, and product specifications. Behind each parameter there was also a specified ICUMSA method for the analysis of a product. More than 20 national committees were members of ICUMSA, i.e. more than 20 different countries, which were mainly the larger sugar-producing and consumer countries in the world. Mr Leijdekkers said that ICUMSA held a biannual congress, and in between there were several working groups, working on different topics and different sugar products, to develop new methods of analysis, or to keep current methods of analysis up to date.
+
+Since the organisation had existed for more than 100 years, delegates could imagine that the technology had developed significantly and rapidly, so their aim was to keep the methods book up to date, and to exchange outdated methods for newer techniques, which were more cost effective and more efficient. Mr Leijdekkers again drew delegates' attention to the short report included in the Addendum highlighting ICUMSA's activities and the different topics it was working on. This concluded his report.
+
+Dr Mathew thanked Mr Leijdekkers for his report. There were no questions.
+
+## 21.3.4 IEC (David Hanlon)
+
+Mr Hanlon greeted delegates. He said he had provided a report but had not prepared any slides for his presentation. He drew delegates' attention to the fact that the IEC would be holding its General Meeting in San Francisco beginning at the end of the following week. The IEC was involved in many of the same activities as the OIML, and shared many external liaison organisations in common such as the INetQI. The IEC was also a liaison organisation on the OIML Digital Transformation Group, and the IEC had a similar group for conformity assessment activities.
+
+Mr Hanlon explained that the IEC was a standards development organisation for electrotechnical equipment, products and services. It also carried out conformity assessment work, where it ran schemes for services and products on a global scale, as acceptance and recognition of the certification of electrotechnical products were needed on the global stage. In many ways, it was very similar to the OIML, which developed standards for legal metrology and also carried out conformity assessment activities to assess and certify metrology products for the legal metrology sector. In summary Mr Hanlon said that the IEC considered it very important to maintain good relationships with the OIML and the BIPM. He apologised that his presentation had been improvised, as he had not expected to make one, so he hoped it had been sufficient.
+
+Dr Mathew thanked Mr Hanlon for his comprehensive short overview. He acknowledged that the invitation to make a presentation may not have been very clear, and joked that since delegates were living through a period in which everyone was expected to be agile, there was an expectation that everyone could handle this. It was also very nice to highlight the two organisations' touchpoints and
+
+interfaces, and the OIML was looking forward to continuing the fruitful collaboration with the IEC. Dr Mathew noted there were no questions for Mr Hanlon.
+
+## 21.3.5 EURAMET (Jörn Stenger)
+
+Mr Stenger stated that he had also not prepared a presentation, although he had submitted a report. Delegates would be aware that EURAMET (European Association of National Metrology Institutes) was one of the two regions in the world where legal metrology was covered by a different organisation, which was WELMEC in their case. Nevertheless, most EURAMET members were active in matters of legal metrology or in matters under another regulation. Although WELMEC existed, EURAMET also had a genuine interest in working in legal metrology. The most important or striking development had been the start of a new metrology research programme called the "European Partnership on Metrology", which succeeded the EMPIR programme. The objectives of the new programme explicitly included regulation, stating that EURAMET will provide Europe with better regulations which are more fit for purpose, and that the organisation should cover not only classical legal metrology, including measurement devices, but also a wide variety of devices where metrology was relevant, which would include for example in-vitro diagnostics and medical devices, radiation protection, and the many activities working towards the "green deal" environment-related regulation.
+
+The current EURAMET programme had been formally concluded following many discussions with the European Commission on the administrative details. The first projects for which EURAMET had sent out calls the previous year had now started following the signing of their contracts. EURAMET was now in the process of receiving ideas and proposals for scopes for 2022, and the selection would take place in November for projects to be funded in 2023. In 2023, there would be a call related to metrology for industry and fundamental metrology, together with standardisation, and a regulation-related call.
+
+Mr Stenger said he additionally wished to report that EURAMET had also participated in the WMO/BIPM workshop on climate action, and that it was still active in the digital transformation of industry and society, which was very relevant for legal metrology.
+
+Dr Mathew thanked Mr Stenger for having given an interesting overview of EUROMET's work programme as well as the challenges it was facing. There were no questions for Mr Stenger.
+
+## 21.3.6 IAF (Jianhua Xiao)
+
+Mr Jianhua Xiao introduced himself as the past Chair of the International Accreditation Forum (IAF). He said he would give a short update in addition to the written report which had been included in the Addendum.
+
+There had been two hot topics recently within the IAF in addition to its traditional work areas. One was digitalisation, which was similar to the OIML. The IAF Technical Committee was in the process of transforming the existing remote task force into an IAF Technical Committee Digital Working Group. This new Working Group would focus on leading the way in the area of digitalisation, so as to ensure that accredited conformity assessment retained its trust and value in a digitalised world. Another hot topic was sustainability. The IAF Executive Committee had created a Sustainability Working Group to study this and related issues, so as to ensure that the accreditation community was proactive in ensuring that sustainability-related activities were underpinned by IAF accreditation, and accredited conformity schemes. These were the two main topics Mr Xiao wished to report to this CIML meeting. In addition, he wanted to highlight that the joint IAF/ILAC General Assembly would be held on 10 November 2022, and the OIML would be welcome to participate in it, as well as in other relevant meetings.
+
+Dr Mathew thanked Mr Xiao for his presentation. There were no questions for Mr Xiao.
+
+## 21.3.7 BIPM (Andy Henson)
+
+Mr Henson remarked that many of the previous presentations resonated with his own, which was summarised in one slide, with four bullet points.
+
+Firstly, Mr Henson said that the collaboration between the BIPM and OIML had already been reported on, partly by Mr Donnellan the previous day, and other topics had been mentioned in the current session. For many years this cooperation had notably included World Metrology Day, including the recent initiative to take this through UNESCO, a process which he remarked was looking very positive. As delegates had heard, the UNESCO General Assembly would consider the matter the following year, but things were moving in the right direction.
+
+The collaboration also included the work on what the OIML referred to as OIML D1, which was a joint publication of the two organisations. The BIPM and the OIML were currently collaborating on producing an e-learning course and supporting material on D1. Mr Henson stressed that collaboration also happened with regard to representation within other organisations: where it was convenient and appropriate, the OIML and the BIPM helped each other out, for example with regard to a forthcoming UNECE Working Group meeting, where on one day, the BIPM would be presenting on training about metrology, and would cover aspects of both legal and scientific/industrial metrology. The following day, BIML staff would be talking about digital metrology, and would mention some of the BIPM's initiatives. Mr Henson remarked that this collaborative representation worked very effectively, and the BIPM was very pleased with it. Mr Henson observed that digitalisation was being talked about everywhere. It was the same for the BIPM, which had put a lot of effort into trying to understand how to move forward. The fundamental target was very easy - it was to provide machine access to the SI in the same way as there was human access to the SI. Putting this into practice was not so simple, but the BIPM now understood what the building blocks towards this goal looked like, and there was plenty of discussion going on and much work to do, so the BIPM was starting to increase its resources and efforts in that direction.
+
+At the present time, the BIPM was very busy preparing for the CGPM, the General Conference on Weights and Measures, which is held every four years, and which would take place in November 2022. At this Conference there would be a series of resolutions, one of which related to the evolving strategic needs of metrology. The strategy would be wider than conveyed in the resolution, and would cover additional items including digital transformation, as delegates would expect. One of the signs of the success of measurement science, and science generally, was the need to extend the SI prefixes to the $ 1 0^{-2 7} $ and $ 1 0^{-3 0} $ and $ 1 0^{2 7} $ $ 1 0^{3 0} $ with the addition of new prefixes for the SI, the ronno and quecto, and the rhonna and quetta respectively. This indicated that the boundaries of measurement were constantly moving forward.
+
+There would also be some long-term resolutions relating to the work on the continuous time scale issue. At the moment, leap seconds were injected into the system, which was quite disruptive for many industries, and Mr Henson reported that this issue would take a long time to be fully resolved. The early resolutions related to the redefinition of the second to optical frequencies would also be discussed in the future. One resolution perhaps of more interest to legal metrology delegates was that the BIPM was intending to look at how its membership system worked. The remaining non-member countries across the world were very small economies, and the BIPM needed a new membership model to help them participate, and thus to achieve universal adherence to the BIPM.
+
+Mr Henson summarised that there was a large amount of ongoing interaction between the OIML and the BIPM. The two organisations helped each other out and shared joint projects, and he added that it was always a pleasure to work with BIML staff.
+
+Dr Mathew thanked Mr Henson for his presentation and his kind words. He added that the OIML also appreciated the collaboration between the OIML and BIPM. There were no questions for Mr Henson.
+
+Mr Henson informed delegates that this would be the final CIML meeting he would attend before retiring at the beginning of 2023. Ms Anna Cypionka would be replacing him; she would be arriving at the BIPM in January and be taking over his role in March.
+
+Dr Mathew thanked Mr Henson for all his work, both on behalf of the OIML, and on behalf of the many delegates that had worked with Mr Henson, and had benefitted from his knowledge, wisdom, and his many initiatives.
+
+Dr Mathew reported that representatives from the International Society of Weighing in Motion (ISWIM) and from ILAC did not appear to be present, which brought this item to an end. He again thanked all those representatives who had responded very spontaneously.
+
+## 22 OIML Awards
+
+## 22.1 OIML Medals
+
+Dr Schwartz was pleased to announce that he considered this to be the most pleasant part of the meeting. Unfortunately, as in the last two years, it would not be possible to hand over awards personally, but the candidates had been invited to join the current session so the awards could be handed over to them online.
+
+Dr Schwartz said he would start with an OIML Medal. These were given to recognise the outstanding contribution of individuals to the development of legal metrology. This year there was a candidate who undoubtedly deserved such an award in recognition of his long career and achievement in the field of legal metrology. Dr Schwartz stated that the previous day, he had already made certain remarks following the report on CEEMS activities, so not unexpectedly - this year's recipient of an OIML Medal was Mr Peter Mason, the past CIML President and CEEMS AG Chairperson. Dr Schwartz said he was glad that Mr Mason was able to be present online.
+
+Dr Schwartz remarked that a complete laudation with a full appreciation of all Mr Mason's achievements would be beyond the scope of this session, so he intended to present a shortened version. A more detailed version would appear in one of the next OIML Bulletins, which would fit in with the report Mr Mason was going to provide on CEEMS activities.
+
+Dr Schwartz gave the following laudation:
+
+Peter Mason was President of the CIML from 2010 to 2017, Honorary Member of the OIML since 2017, and Chairperson of the CEEMS Advisory Group since 2019. In these roles he has made a significant contribution to the modernisation and reorientation of the OIML, and has greatly enhanced the international reputation of our Organisation with his numerous ideas and initiatives.
+
+In his first years in office, he first dedicated himself to stabilising the financial situation, in particular addressing the potential burden of the pension scheme, modernising human resources management, and safeguarding the value of the BIML building in Paris as the most important asset of our Organisation.
+
+Furthermore, under his leadership, the strategic orientation of the OIML, on the basis of the OIML Convention, was adapted to the changed conditions of international, global trade as well as to new technologies and laid down in the publication B 15:2011 OIML Strategy, which is still valid today.
+
+Peter Mason's term of office also included the successful revision of OIML B 6 Directives for OIML technical work, in which the technical work of the TCs and SCs was changed to Project Group work. This project-oriented work significantly speeds up the revision of OIML publications in many areas.
+
+Perhaps one of the most important developments during his term of office was the preparation for the introduction of a new, single, integrated OIML Certification System (OIML-CS), which was launched on the basis of OIML B 18 shortly after the end of his presidency, on 1 January 2018.
+
+Not only the introduction of the new OIML-CS, but also Peter Mason's successful efforts to intensify contacts with other international partner organisations, such as the BIPM, ISO, ILAC, the OECD, and UNIDO, have contributed significantly to the improvement of the OIML's international reputation and to stronger cooperation, especially in the area of quality infrastructure. We have just listened to the interesting reports given by nine organisations in liaison.
+
+Last, but not least, it was a matter of the heart for Peter Mason as CIML President, to champion the concerns of the CEEMS community. Under his aegis, the CEEMS activities of the OIML were re-organised, the CEEMS Advisory Group (CEEMS AG) was founded and put on a formal basis with the development of OIML B 19:2017 Terms of Reference for the Advisory Group on matters concerning Countries and Economies with Emerging Metrology Systems (CEEMS). Peter Mason took over as Chairperson in 2019 from the co-initiator and first Chairperson, the former CIML Member for P.R. China, Mr Pu Changcheng.
+
+Among the many points of the CEEMS AG's multifaceted work plan, I would like to pick out two particularly important ones as examples. The first is the development of the concept of OIML Training Centres and OIML Training Events, which has now been set out in OIML B 21:2019 Framework for OIML Training Centres and OIML Training Events. The first OIML Pilot Training Centre was established in China in 2016, and several successful OIML training events have followed. It is hoped that this proven form of exchange and training can continue in 2023.
+
+The second important point is the successful revision of OIML D 1:2012 Considerations for a Law on Metrology, which was revised with the significant involvement of Peter Mason, and in close cooperation with the BIPM, and has now been published as D 1:2020 National metrology systems - Developing the institutional and legislative framework.
+
+Many more of Peter Mason's activities and initiatives could be mentioned here which have significantly advanced the OIML and international legal metrology in recent years for the benefit of OIML Member States and Corresponding Members. However, this would go beyond the scope of this laudation.
+
+So, on behalf of the OIML community, it is now my great pleasure to congratulate Peter Mason on his outstanding career, to say a heartfelt thank-you for his great personal commitment to the OIML and international legal metrology, and to wish him all the best, good health, and an enjoyable "real" retirement. We will certainly miss you Peter, but we hope to keep in touch with you on one occasion or the other!
+
+Dr Schwartz indicated that Mr Mason's certificate was being shown on the screen, together with a picture of the OIML Medal which would either be presented to Mr Mason the following month, or at the following year's CIML meeting.
+
+Mr Mason thanked the President, his CIML colleagues and the wider legal metrology community. He said it was a surprise, or at least it had been a surprise when it had been hinted at the previous day. Although he had had 24 hours' notice, he joked that delegates would be glad that he had not prepared an acceptance speech. He thanked delegates for the great honour of this award, saying that it had been nice to be reminded of all the various things he had been involved in, but pointed out that for every one of them, it would not have been possible to have made the progress which had been made without significant contributions from so many of his friends and colleagues in the CIML, and within the wider community. He said that he was very grateful for the friendship that had been shown to him, and also for the commitment that so many of them had made to the Organisation. These were too numerous to count, but he remarked that it was the strength of the Organisation that it looked to a large number of committed individuals to take on the some of the work, and he said he had been very pleased to be
+
+associated with that. Mr Mason acknowledged that Dr Schwartz was correct in that it had been a long process of retirement, as he had originally stood down from his full-time post in 2014, and said he had been gradually winding down since then. The end of 2022 would probably be the most significant winding down, and it had been a great pleasure to do so on this very pleasant note. He thanked everyone again for the great honour being given to him, and thanked all his friends and colleagues who had already sent him good wishes through the Zoom "chat".
+
+Dr Schwartz thanked Mr Mason for his spontaneous acceptance speech. He said everyone had been happy that Mr Mason could be present at the current meeting, and were very grateful for all that he had done for the Organisation and for legal metrology. Dr Schwartz said he had already spoken to Mr Donnellan who, on behalf of the membership, had officially invited Mr Mason to come to the 58th CIML Meeting which would be announced later. This concluded the OIML medals.
+
+## 22.2 OIML Letters of Appreciation
+
+Dr Schwartz explained that the next category of OIML awards recognised excellent work on a specific project relating to legal metrology. He said it was his great pleasure to announce four Letters of Appreciation for 2022.
+
+## Dr Matthijs van der Wiel and the core project development team for TC 12/p 3
+
+Dr Schwartz said he would like to begin with a colleague whose name had already been mentioned the previous day when delegates had been informed about a very successful project, the development of the new Guide G 22:2022 Electrical Vehicle Supply Equipment. This new Guide was under the responsibility of TC 12/p 3 Electric vehicle charging stations, for which Dr Matthijs van der Wiel was the convener. This Letter of Appreciation was in recognition of the excellent work of Dr Van Der Wiel and his core project development team, namely:
+
+- Mr Henri Schouten (Netherlands);
+
+- Mr Bill Hardy (USA);
+
+- Ms Katya Delak (USA);
+
+- Mr Adnan Rashid (Canada); and
+
+- Mr Christian Mester (Switzerland).
+
+Dr Schwartz gave the following laudation:
+
+This project, approved by the CIML at its 56th Meeting in October 2021, was to convert, as quickly as possible, a proposed annex to the revised R 46 into a stand-alone Guide on electric vehicle supply equipment, to be followed in due course by an International Recommendation.
+
+The Project Group was set up by the end of 2021, and the core working group has held many other discussions in order to assess, prioritise, and incorporate the hundreds of comments received on the numerous Working Drafts, and to prioritise the subjects for discussion at meetings of the full Project Group, which has met online seven times this year. In all, 23 Working Drafts were produced before the Project Group accepted a Final Draft Guide, which was sent to the BIML in the second half of July 2022 for final editing before approval by himself as CIML President.
+
+In recognition of the unprecedented speed, highly efficient, and timely completion of this Guide, it is my great pleasure to congratulate Dr Van Der Wiel and his core team, as well as the whole TC 12/p 3 Project Group, on their achievements, and to thank them all, on behalf of the OIML, for their great contribution to this very topical and important field of legal metrology.
+
+Dr Schwartz said this was a really positive example of how Project Groups should work, with excellent project management. Dr Schwartz congratulated Dr Van Der Wiel and his core team on this award, which he stressed was truly deserved. The Letter of Appreciation was shown on the screen. Dr Schwartz asked whether Dr Van Der Wiel or someone from his team had been able to attend the current session.
+
+Dr Van Der Wiel indicated that he was present. He said he was happy with this honour and happy to see that it was addressed not just to himself as the convener for nearly a year, but also the core team of experts surrounding him, who had actually put in the majority of the work in relation to the text, the figures, and the technical content of the Guide, which had been published the previous month. It also extended, as he thought was just, to the entire Project Group of TC 12/p 3, which had a huge set of very active members, and Dr Van Der Wiel hoped this would set an example to other Project Groups. Of course, he realised that it was a very topical and urgent project. It was definitely not difficult to explain the urgency of the project in the light of the energy transition currently underway, so he observed that it had perhaps been not the most difficult project to convince people of the need to put effort into. He reiterated that he was very happy that it had progressed so quickly.
+
+Dr Schwartz thanked Dr Van Der Wiel for his short acceptance speech, and gave him his best wishes for the next stage of his project, reiterating that the Project Group's work was not yet complete.
+
+## Mr Xie Jun
+
+Dr Schwartz stated that the second Letter of Appreciation was in recognition of the excellent work of a well-known colleague from P.R. China, namely Mr Xie Jun. Dr Schwartz said he had known Mr Xie Jun for many years, and since he had always enjoyed working with him, it was his great pleasure to now present the following laudation, provided by the CIML Member for P.R. China, Mr Qin:
+
+Mr Xie Jun is currently Director General of the Department of International Cooperation at the State Administration for Market Regulation (SAMR) of the People's Republic of China.
+
+He has been involved in legal metrology since 1988, when he started out as an expert at NIM China. Throughout his career he has also worked in product quality supervision, certification management of inspection and testing, and international cooperation.
+
+His past roles include being Deputy Director of the Certification and Accreditation Administration of the People's Republic of China (CNCA), Director General of the Department of Metrology of the former Administration of Quality Supervision, Inspection and Quarantine of China (AQSIQ), Director General of the Department of Metrology of SAMR, and Director General of International Cooperation of SAMR.
+
+Mr Xie Jun has attended many OIML meetings, and has also participated actively in OIML-CS Management Committee meetings as an MC member from its beginning.
+
+He represented the CIML Member for P.R. China at a number of Presidential Council meetings, and also attended APLMF meetings.
+
+During this period he implemented the national metrology strategy in China, and has regularly contributed his knowledge and expertise internationally, including helping to set up and organise the OIML Pilot Training Centre.
+
+It is therefore my great pleasure to award Mr Xie Jun with this Letter of Appreciation, and I thank him on behalf of the CIML for the work he has carried out in support of our activities.
+
+Dr Schwartz reiterated his congratulations, and asked the Bureau to display the Letter of Appreciation on the screen. Dr Schwartz asked whether Mr Xie Jun had attended the current session, and would like to give a short address to the Committee.
+
+Mr Xie Jun thanked Dr Schwartz and everyone in the OIML community. He had been a little surprised that the OIML had issued him with a Letter of Appreciation, although he was very happy and honoured to have received the award. He thought it was not only an appreciation of his work, but also a recognition of China's contribution as a Member of the OIML, and also his colleagues in the Chinese legal metrology team. Recalling his career in the area of metrology, quality supervision, certification, inspection and testing, and international cooperation, Mr Xie said that this OIML Letter of Appreciation had been the highest recognition he had received specifically for his work in the field of legal metrology. He sincerely thanked everyone in the OIML community, and especially the CIML President, Dr Schwartz, the CIML Members, and all his Chinese colleagues. He said he would continue to implement
+
+international and regional metrology strategy at the national level and contribute knowledge and expertise at the international level.
+
+Dr Schwartz congratulated Mr Xie Jun again and thanked him for his acceptance speech and gave him his best wishes.
+
+## Mr Alexander Winchester
+
+Dr Schwartz said the third Letter of Appreciation was in recognition of the excellent work of another well-known colleague, this time from Australia, namely Mr Alexander Winchester. Dr Schwartz said that he was very pleased to provide the following laudation, which had been provided by the CIML Member for Australia, Mr Bill Loizides:
+
+This Letter of Appreciation is made to Mr Alexander Winchester in recognition of the outstanding contributions he has made to the OIML Certification System as a member of the OIML-CS Maintenance Group and Review Committee. Working with the BIML, Mr Winchester has been able to draw on his vast knowledge, skills and experience across a broad range of legal metrology activities to support the development and implementation of the OIML-CS Procedural Documents. This work has and continues to facilitate, accelerate and harmonise national and regional type evaluation and approval work. Mr Winchester is also well known in OIML TC 8/SC 5 Water meters for his thorough and insightful discussion papers, which have often served as the basis for discussions at Project Group meetings, thus accelerating the revision of OIML R 49 Water meters for cold potable water and hot water. Mr Winchester has long been active in many OIML Project Groups, and is widely accepted as a trusted source on metering-related issues. It is therefore my great pleasure to award Mr Alexander Winchester with this Letter of Appreciation, and I thank him on behalf of the CIML for the work he has carried out in support of our activities.
+
+Dr Schwartz reiterated his congratulations on a truly deserved award. He drew attention to the Letter of Appreciation which the Bureau was showing on the screen. He asked whether Mr Winchester was present and if he would like to give a short address to the Committee.
+
+Mr Winchester indicated that he was present. He thanked the CIML President, Dr Schwartz, and the Committee as a whole. He said he was a little bit surprised, but delighted to have received a Letter of Appreciation. It was a real privilege to be able to participate and collaborate within the OIML, to work with friends and colleagues in the international legal metrology community, and to contribute to the important work of the Organisation. As Mr Panesar had said the previous day, Mr Winchester thought that the work and accomplishments of the OIML-CS were really a team effort, so he wanted to offer his sincere thanks to all of his colleagues, and to members of the OIML-CS Maintenance Group, the Review Committee, the Management Committee, and all the other Working Groups within the OIML-CS, and indeed to all of his friends and colleagues in various Technical Committees, Subcommittees and Project Groups. In particular, within the OIML-CS, Mr Winchester wished to thank Mr Bill Loizides, Mr Mannie Panesar, Dr Harry Stolz, and definitely Mr Paul Dixon. He thanked them for their leadership and vision within the OIML-CS, and said it had been a pleasure to work with them all. Finally, he wished to acknowledge his peers and leaders at NMI Australia for their fantastic ongoing guidance and support.
+
+Dr Schwartz congratulated Mr Winchester again on his truly deserved award.
+
+## Dr Harry Stolz
+
+Dr Schwartz said he now came to the fourth and last Letter of Appreciation, which was in recognition of the excellent work of another well-known colleague, this time from Germany, namely Dr Harry Stolz.
+
+Dr Schwartz gave the following laudation:
+
+This Letter of Appreciation is made to Dr Harry Stolz in recognition of his outstanding work in the establishment and operation of the OIML Certification System (OIML-CS) since its launch in 2018, and before.
+
+As an active member of
+
+- the Provisional OIML-CS Management Committee until 31 December 2017,
+
+- the OIML-CS Management Committee since 1 January 2018,
+
+- the OIML-CS Review Committee since 1 January 2018, and
+
+- the OIML-CS Maintenance Group since its foundation in the year 2019,
+
+Harry Stolz has made significant contributions to the OIML-CS. As a member of the Review Committee, for instance, he has reviewed more than 400 applications and related documents from Issuing Authorities and Utilizers. Harry Stolz is also a highly respected and demanded Management System Expert (MSE) for the peer review of Issuing Authorities and Conformity Assessment Bodies, head of the Conformity Assessment body at the PTB, contact person for the German OIML Issuing Authority DE1, and a member of OIML TC 3/SC 5 Conformity assessment. The OIML is grateful to Dr Stolz for his significant and valuable contributions to the OIML-CS. It is therefore my great pleasure to award him with this Letter of Appreciation, and I thank him on behalf of the CIML for the work he has carried out in support of our activities.
+
+Dr Schwartz again congratulated Dr Stolz on his truly deserved award and asked for the Letter of Appreciation to be displayed to delegates on the screen. Dr Schwartz said it was his great pleasure to report that Dr Stolz was present in the PTB meeting room, commenting that finally he was able to hand over one of the awards in person.
+
+Dr Stolz thanked Dr Schwartz and his colleagues from the legal metrology community all over the world. He said it was a great pleasure and a great honour for him to have achieved this award, which was his first in such a case. He said he would celebrate this at the weekend with his family and his friends, but wished to thank all his colleagues who had contributed to the award, especially those in the OIML-CS Review Committee and the OIML-CS Management Committee. He also thanked Mr Dixon, who he said was sitting in front of him, for his excellent cooperation. He specifically mentioned the members of the Review Committee, stating that it was their award, as it had been their work. He also mentioned his assistant Stefanie Koepsell who had also supported him, as well as his colleagues at the PTB who had provided their support enabling him to achieve this honour, which he was happy to have received.
+
+## 22.3 OIML CEEMS Award
+
+Dr Schwartz said that during the current year, several worthy nominations for the OIML CEEMS Award had been received, but one had clearly been above average. It was therefore his pleasure to announce that the winner of the 2022 OIML CEEMS Award was the Guyana National Bureau of Standards (GNBS). Dr Schwartz congratulated them, and asked Mr Dunmill to present a short laudation:
+
+The Guyana National Bureau of Standards (GNBS) is a small National Measuring Institute (NMI) and has made significant strides in the development of legal metrology in Guyana by employing quite a number of legal metrology inspectors, by building capacity, and by acquiring a significant amount of metrology equipment to conduct verification activities effectively. The Bureau has transformed from having only six officers in 1997, to its current workforce of 25 legal metrology inspectors and four regional officers, and is presently providing verification services in the areas of petrol pumps, bulk meters, tanker wagon compartments, flow meters, storage tanks, scales, masses, breathalysers, grain moisture meters and electricity meters. Even with its current relatively light capacity, the GNBS performs approximately 35000 verifications annually. In all, their staff monitor measurements used by airlines, supermarkets, hospitals, clinics, rice mills, shipping agencies, seafood companies, ferry stellings, sugar estates and other private entities. The Bureau is now working on developing a new Metrology Act and
+
+regulations, and on developing services in a number of emerging areas of demand such as bulk transfer meters, tank gauging and custody transfer, speed guns as well as prepackages. They had also taken steps to increase public awareness of the importance of measurements in daily life, consumer protection, and fair trade. The Bureau has already established branch offices in seven of Guyana's ten administrative regions, and is currently working on setting up the remaining offices. This decentralisation aims to improve legal metrology services for those living across the country. A legal metrology monitoring committee has also been set up to coordinate legal metrology activities across the country and to discuss these activities as well as any problems that may arise between the different regions. Guyana became a Corresponding Member of the OIML in January 2021, and also collaborates with regional metrology authorities and other metrology authorities in the region through its activities in CARIMET and SIM. The GNBS took advantage of this year's World Metrology Day on the theme of digital transformation to launch a new metrology portal on 20 May 2022, which is intended to transform their operations from a paper-based system to a fully digital system. We therefore feel that this award goes to a country which, despite the limited resources and capacity problems, is making very significant strides in the development of legal metrology in their country, and therefore serves as very good model to others of similar size and development.
+
+Dr Schwartz congratulated GNBS again, and invited them to submit an article for publication in the OIML Bulletin, so that delegates could obtain more detailed background information about the excellent work to establish a sustainable legal metrology system in Guyana over the last 20 years or more. He mentioned that the award and certificate were displayed on the screen, and he hoped there would be an opportunity for him to hand over the real award to a representative of the GNBS personally at next year's CIML meeting. Dr Schwartz asked if there was a representative from the GNBS attending the current session who could give a short address.
+
+There was nobody at the current session from Guyana, so Dr Schwartz congratulated them again and gave his best wishes for the further development of the Guyana legal metrology system.
+
+## 22.4 Presentation by the 2021 CEEMS Award winner
+
+Dr Schwartz said that the 2021 OIML CEEMS Award had gone to Mr Sophors Em from Cambodia. He explained that there was a tradition that the previous year's CEEMS Award winner gave a presentation on their achievements at the next Committee Meeting. Unfortunately, Mr Em had informed the BIML at very short notice that he would not be able to attend this session, nor had he had time to prepare a recorded presentation. Dr Schwartz said that this had to be accepted, and that Mr Em had instead been offered the opportunity to submit an article for publication in one of the next editions of the Bulletin.
+
+Dr Schwartz stated this concluded the Awards session.
+
+## 23 Future meetings
+
+## 23.1 Discussion on future CIML meeting locations
+
+Dr Schwartz said that he first wished to inform delegates of the results of the online survey that had been launched by the BIML in April 2022 to all CIML Members. The main purpose of the survey had been to identify the relevant criteria to be applied to meeting locations, in order to guarantee that the necessary quorum was reached when an in-person CIML meeting were held, which he considered all delegates wanted for the future.
+
+Dr Schwartz indicated that he would make a short presentation summarising Addendum 23.1 which delegates had received with the Working Document for this CIML meeting.
+
+The background was that on 15 April 2022, the BIML had launched an online survey, by email, among all CIML Members concerning
+
+1) the feasibility for CIML Members to attend the current 57th CIML Meeting which was to have been held in Suzhou, P.R. China, in the week commencing 17 October 2022, and
+
+2) the criteria that CIML Members felt were important when selecting an economy to host future CIML meetings.
+
+Dr Schwartz stated that the survey had provided some very clear results. By the closing date of 15 May 2022, 43 out of 62 CIML Members had responded, which Dr Schwartz observed was two-thirds of CIML Members. The detailed results of the survey had been sent out on 2 June 2022 by the BIML, in the form of a letter from himself to all CIML Members, Assignees, and Corresponding Member Representatives. This letter and the survey results had been summarized in Annex A to Addendum 23.1.
+
+Dr Schwartz said he would next show delegates the most important results of the survey by question.
+
+Question one: "As CIML Member for your country, if the 57th CIML Meeting is held in Suzhou, People's Republic of China, would you be able to participate in person?"
+
+Dr Schwartz reported that the 43 responses had indicated that an in-person meeting would not have achieved the required quorum (75 % of CIML Members present), which he added was the first condition of the CIML voting rules set out in the OIML Convention. He stated that in agreement with the CIML Member for P.R. China, Mr Qin, it had been decided to hold the current meeting online. He stressed that the decision had been made jointly by himself and the CIML Member for P.R. China. He thanked Mr Qin for his acceptance of this decision, which had been difficult to take.
+
+Question two: "As CIML Member for your country, in your opinion what criteria are important when selecting an economy to host future CIML meetings in order to ensure maximum in-person participation?"
+
+Dr Schwartz commented that the responses to this question had been very useful, and the criteria could be categorised into six categories:
+
+1) Travelling to the host country / venue;
+
+2) Safety / security in the host country;
+
+3) Health / COVID-19 conditions;
+
+4) Meeting room;
+
+5) Costs for the OIML;
+
+6) Other.
+
+Dr Schwartz then presented the results for each of these categories in more detail.
+
+Criterion one: "Travelling to the host country / venue"
+
+Dr Schwartz showed delegates a list of the most important aspects that had been raised in the responses:
+
+- It should be convenient to reach the venue, with sufficient flights available;
+
+- The travel costs should be reasonable;
+
+- There should be few visa requirements and the host country should make visa support available;
+
+- There should be good overall infrastructure; and
+
+- If possible there should be multiple options for hotels.
+
+Criterion two: "Safety / security in the host country"
+
+Dr Schwartz showed delegates the list of aspects raised:
+
+- The safety and security of delegates must be guaranteed; and
+
+- There should be no political issues.
+
+## Criterion three: "Health/COVID-19 conditions"
+
+Dr Schwartz said that the list of important aspects raised were as follows:
+
+- The country should be safe and stable according to the WHO;
+
+- There should be minimal restrictions to enter and leave the country;
+
+- There should be no COVID-19 quarantine;
+
+- COVID-19 testing should be easily available if required; and
+
+- Any kind of vaccination should be accepted, or even no vaccination, on entry.
+
+## Criterion four: "Meeting room"
+
+Dr Schwartz reported that the list of important aspects raised was as follows:
+
+- There should be excellent conference facilities;
+
+- There should be excellent communication facilities, of course including wifi; and
+
+- Physical distancing should be possible, and must be ensured.
+
+Criterion five: "Costs for the OIML"
+
+Dr Schwartz said that the most important aspects raised were as follows:
+
+- The total cost should be reasonable; and
+
+- The funds had to be secured.
+
+Criterion six: "Other"
+
+Dr Schwartz said that two important aspects had been raised:
+
+- There should be opportunities to visit relevant manufacturing and research facilities if there were any; and
+
+- There should be dedicated staff to support participants.
+
+Dr Schwartz commented that delegates were used to this last point, but it was always worth mentioning.
+
+In conclusion, Dr Schwartz thought that this survey had generated very useful results. He thanked the 43 CIML Members who had responded.
+
+The information collected in this survey had guided the choice of the format for the current year's CIML meeting, and would certainly also help in the selection of future CIML meeting locations. Dr Schwartz asked if there were any questions or comments.
+
+Mr Panesar thanked Dr Schwartz for having gone through the results of the survey. He suggested that it might be useful to consider applying the valuable data which had been revealed when making arrangements for meetings of the OIML Certification System Management Committee. He would discuss this with Mr Dixon to decide whether it was appropriate.
+
+Mr John Bukhebi Wamwana (Kenya) commented that this had been a valuable survey, which could be used as input into making OIML processes better. He believed it was valuable to those countries that might bid to host a CIML meeting as it gave them a structure behind which there would be procedures for the country to confirm it was able to host. He felt that Members could go through this with their authorities, and by the time it came to bid for hosting, the Organisation would be fully aware that behind each bid, there would be support, and that when delegates travelled, every part of the authorities and the government in the host country would be able to support the system to ensure the ease of flow of traffic, assistance for any emergencies, and the removal of any restrictions which needed to be lifted to assist towards the meeting taking place. This could be done in advance, before the bid was put forward by the country involved.
+
+Dr Schwartz thanked Mr Wamwana for his valuable comment. He supported this statement, and added that this had been exactly the intention of the survey in order to provide those Member States which might be willing to become a host country for future CIML meetings with something that could be used as a guidance document in order to check whether the country could meet the criteria for hosting future
+
+meetings. It was in the interests of the Organisation that the quorum was reached, so that decisions could be taken at future in-person meetings, despite the more difficult situation of the pandemic.
+
+Dr Schwartz noted there were no more questions.
+
+## 23.2 58th CIML Meeting (2023)
+
+Dr Schwartz said that as he had already explained under the previous item, it had not been possible to hold an in-person meeting in 2022, but he was hoping that this would be possible in 2023. Dr Schwartz said he was very glad that the OIML had received a confirmed invitation from Thailand, offering a meeting location which met most of the criteria that had just been mentioned. He thanked the CIML Member for Thailand, Mr Wattanasak Sur-Iam, the Director General of the Department of Internal Trade at the Ministry of Commerce, and invited Mr Sur-Iam to make a short address.
+
+Mr Sur-Iam thanked the President and greeted delegates. For the 58th CIML Meeting in October 2023, he would like to propose that Thailand hosted the meeting. Thailand possessed various spectacular traditions, food, and other facilities of an international meeting standard. He believed that Thailand met all the requirements of all the resources required by delegates in the survey. Thailand had a beautiful geography, with scenic views of mountains, sea, and forests, which makes Thailand a paradise for tourists. This year, Thailand had been visited by nearly 40 million tourists from around the world, and he was proposing that Chiang Mai should be the venue for the 58th CIML Meeting.
+
+Chiang Mai was located in the northern part of Thailand, and was surrounded by beautiful nature and cultures, as well as having a variety of facilities and activities at reasonable prices. It had all standards of hotels up to six stars, a wide range of food, from street food up to fine dining restaurants, and a variety of transport, including buses, taxis and tuk-tuks, for local transportation, as well as hire cars. There were also good medical services, with both public and private hospitals. There were many shopping facilities, from small shopping streets to mega department stores. Thailand also had attractions and activities such as elephant riding, silk handicrafts, etc., and Chiang Mai has as wide a range of facilities as Bangkok, including night traders. The average Chiang Mai temperature in October was around 24-27 $ ^{\circ} C $ , with night temperatures only 2-3 $ ^{\circ} C $ lower.
+
+Regarding legal metrology control, Chiang Mai is the biggest planted area and processed base of longan in Thailand. To protect farmers' rights, and to promote fair trade, the CBWM had invented, developed and verified longan graders for sorting longans by size, which had been accepted and was widely used in public for domestic trade and export. Hopefully he would have the opportunity to invite all delegates to test fresh longan from the farms and to introduce the invention of longan graders at the 58th CIML Meeting.
+
+Last, but not least, the Department of Internal Trade Ministry of Commerce Thailand, on behalf of the CBWM, would like to thank the CIML President and CIML Members for allowing Thailand the opportunity to put itself forward to host the next CIML meeting. He asked delegates to listen to a two minute presentation on Chiang Mai.
+
+The BIML shared the video with delegates.
+
+Dr Schwartz thanked the CIML Member for Thailand for his kind invitation, and thought that his presentation would increase delegates' interest and curiosity to come to Thailand. He said he was very much hoping that it would be possible, and that the pandemic situation would not prevent an in-person meeting taking place in Chiang Mai in October 2023. The vote on the respective resolution would be taken under agenda item 25. Dr Schwartz noted that there were no questions or comments from delegates.
+
+## 24 Any other business
+
+Dr Schwartz said that he had been informed that the BIML Director wanted to make an announcement, so he asked Mr Donnellan to take the floor.
+
+Mr Donnellan announced that the Bureau had been delighted to have received earlier that morning the finalised application from St Lucia to become the Organisation's newest Corresponding Member. On behalf of the President and the Organisation, he was very pleased to welcome St Lucia to the OIML, and he reported that a circular had already been released to Members to this effect. This now brought the overall membership of the Organisation to 127, and as he had stressed in his earlier presentation, the OIML was a growing Organisation, and it was not losing Members, which was very pleasing.
+
+Dr Schwartz thanked Mr Donnellan for this good news, and also welcomed St Lucia as a new Corresponding Member.
+
+Dr Schwartz announced that there were no other points to be addressed under any other business, stating that the Zoom "chat" function had also been checked to make sure this was the case.
+
+Mr Donnellan wished to take this opportunity to thank their hosts at the PTB in Germany, and in particular Dr Schwartz and his team, for their support and hospitality over the course the meeting. As the President had mentioned, although the 57th CIML Meeting had been held online again, it had been beneficial for the OIML that three members of the BIML staff, the CIML President, and one of the CIML Vice-Presidents, as well as PTB staff had been able to come together at the PTB.
+
+Mr Donnellan also wished to thank the interpreters, Gary Hutton and Mark Potentier, for another excellent job. It was a challenging role, particularly working with the many technical terms and abbreviations, and he thanked them for their continued diligence.
+
+Mr Donnellan also wished to thank the BIML team, both those in front of the camera and those behind the camera, who had helped to put the infrastructure in place, not only for the CIML meeting, but for all the Members on an ongoing basis.
+
+Dr Schwartz added that it had been a pleasure to have some of the BIML team at the PTB, and said that he would pass on Mr Donnellan's thanks to his colleagues, including to Ms Susanne Ludwig, who was present, in addition to Ms Uta Schultz and all the others.
+
+Mr Samo Kopac (Slovenia) welcomed the idea of face-to-face meetings and the offer from Thailand, but he believed that future meetings should be organised in a hybrid format so that delegates could participate online as well. This was how the BIPM's next Conference was going to take place, and he had found it to be a very good experience elsewhere. He asked if this was being considered for the next CIML meeting.
+
+Dr Schwartz reassured Mr Kopac that this option would be considered. He commented that more experience of hybrid meetings was needed, that their pros and cons needed to be considered, and that care should be taken in looking at both sides before finally making a decision. This would be considered, and Members would be informed during the course of the next year.
+
+Dr Van Der Wiel wondered whether he had missed something during the announcement about the 58th CIML Meeting, and asked whether a particular week had been scheduled for the meeting.
+
+Dr Schwartz acknowledged that this was a good point, and asked Thailand whether a specific week had been fixed. The response was that this had not yet been decided.
+
+Dr Schwartz responded that the BIML would discuss this as quickly as possible with Thailand as the host country, and with the Presidential Council, and Members would be informed as quickly as possible after the CIML meeting.
+
+Dr Schwartz proposed a short, five-minute break before reviewing the resolutions.
+
+## 25 Review and approval of draft CIML resolutions (Session 3)
+
+Dr Schwartz asked Mr Dunmill to take the floor.
+
+Mr Dunmill invited delegates to interrupt with any comments on each resolution, so that any necessary amendments could be made to the texts of the resolutions. He added that, as with the previous sessions, CIML Members would be asked to vote on these resolutions once he had completed their reading.
+
+Dr Schwartz announced that in fact voting was already open, so Members could vote one by one as Mr Dunmill read each resolution.
+
+Draft Resolution no. CIML/2022/44
+
+Agenda item 21.1
+
+The Committee,
+
+Notes the report on the RLMO Round Table meeting given by its Chairperson.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/45
+
+The Committee,
+
+Agenda item 21.2
+
+Notes the report on OIML activities with organisations in liaison.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/46
+
+Agenda item 21.2
+
+The Committee,
+
+Considering the information relating to OIML representation in JCGM-WG2:VIM provided in item 3.2.2 of Addendum 21.2 to the Working Document for this meeting,
+
+Considering the proposal by its President,
+
+Approves the nomination of Dr Agnieszka Zon (Poland) to replace Dr Jerzy Borzyminski (Poland) as one of the OIML representatives in JCGM-WG2:VIM,
+
+Requests the BIML Director to inform the JCGM secretary of this decision, and
+
+Thanks Dr Jerzy Borzyminski for having represented the OIML in the JCGM-WG2:VIM.
+
+Mr Dunmill stated that this resolution had been referred to in the presentation given by Mr Donnellan, but that the specific names had not been included at that point.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/47
+
+Agenda item 21.3
+
+The Committee,
+
+Notes the reports and presentations by organisations in liaison, and
+
+Thanks their representatives for providing this information to the Committee.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/48
+
+The Committee,
+
+Agenda item 22.1
+
+Congratulates this year's recipient of an OIML Medal,
+
+- Mr Peter Mason,
+
+for his contribution to the work of the OIML.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/49
+
+Agenda item 22.2
+
+The Committee,
+
+Congratulates this year's recipients of an OIML Letter of Appreciation:
+
+- Dr Matthijs van der Wiel and the core project development team of TC 12/p 3,
+
+- Mr Xie Jun,
+
+- Mr Alex Winchester,
+
+- Dr Harry StoIz,
+
+for their contribution to the work of the OIML.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/50
+
+Agenda item 22.3
+
+The Committee,
+
+Congratulates this year's recipient of the OIML CEEMS Award, Guyana Bureau of Standards (GNBS).
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/51
+
+Agenda item 23.1
+
+The Committee,
+
+Notes the report provided by the CIML President,
+
+Supports taking into account the responses to the survey summarised in Addendum 23.1 to the Working Document for the 57th CIML Meeting when considering invitations for future CIML meetings.
+
+There were no comments.
+
+Draft Resolution no. CIML/2022/52
+
+Agenda item 23.2
+
+The Committee,
+
+Notes the information provided on the organisation of the 58th CIML Meeting in 2023, Thanks the Kingdom of Thailand for its invitation to host the 58th CIML Meeting in 2023, and Instructs the Bureau to make the necessary arrangements to organise the 58th CIML Meeting in 2023.
+
+There were no comments.
+
+Mr Dunmill stated that this completed the resolutions for the current session, and indeed for the whole meeting. He reiterated that these resolutions had been put online for voting and reminded CIML Members where to find the link to vote on them.
+
+Dr Schwartz thanked Mr Dunmill for having presented the final version of the draft resolutions. He suggested that the voting remained open for at least another five minutes, so that the quorum of 48 could be reached. He asked the BIML team in Paris to inform delegates of the current status of the voting, and the reply was that currently 36 votes had been cast.
+
+Dr Schwartz reminded those countries holding proxies for other countries to provide the appropriate votes for the proxy. He stressed that it would be a very good conclusion for the session if the quorum could be reached, and the rest of the resolutions approved. He urged Heads of Delegation to provide their votes and reminded any with technical issues to contact the BIML as quickly as possible.
+
+Dr Schwartz announced that the contingency plan had been to leave the vote open until 12:00 UTC the following day. This would be a compromise, enabling any Head of Delegation who had not been able to provide a vote during the course of meeting to do so after the meeting.
+
+After a short pause, Dr Schwartz announced that the quorum had still not been reached, so he suggested that the vote was left open as he had just specified. He reiterated that the vote would be left open until 12:00 UTC the following day, and the BIML would send out reminders to those Heads of Delegation who had not been able to vote during the current session. He commented that this was an advantage of having online voting, and he was confident that the quorum would be reached so that the last draft resolutions might be approved.
+
+## 26 Closing remarks
+
+Dr Schwartz stated that this had been the third online CIML meeting, and he hoped delegates had been satisfied with how it had been prepared and conducted. Although some routines in holding online CIML meetings were being formed, it was not self-evident that an online meeting with so many participants should run so smoothly. In particular, Dr Schwartz was pleased that the online voting had again gone very well. The first 42 resolutions had been approved, and he was confident that the remaining ten would be approved the following day. The various secret online ballots had also gone very well, and the Committee had managed to make a number of important personnel decisions, including a unanimous decision on the new President Elect Dr Bobjoseph Mathew, who would take over the following year, in 2023. Dr Schwartz wished to congratulate Dr Mathew again on his successful election as the new CIML President. Dr Schwartz also wished to congratulate Mr Jaco Marneweck on his successful appointment as the new CEEMS AG Chairperson, and the successor to Mr Peter Mason, and also Mr Han Jianping from P.R. China on his successful appointment as Vice-Chairperson of the CEEMS AG. Dr Schwartz also congratulated Dr Sascha Eichstadt (Germany) on his appointment as the new Chairperson of the Digitalisation Task Group (DGT), Dr Yang Ping from P.R. China, as the Deputy Chairperson of the DGT, and also BIML Assistant Director, Mr Paul Dixon, on the renewal of his contract for another five years. He thanked all these people for their continued and increasing commitment to the Organisation and international legal metrology work.
+
+Dr Schwartz also wished to thank the BIML Director, Mr Donnellan, and his team for their excellent preparation of this third online CIML meeting. He reported that more than 50 Member States, as well as about 150 participants, had been present online throughout the three days of the CIML meeting.
+
+Dr Schwartz also thanked the two CIML Vice-Presidents, Dr Ehrlich and Dr Mathew, and again the BIML Director and Assistant Directors, with whom he had held many videoconferences in advance of this year's meeting. Dr Schwartz remarked that he really appreciated the excellent cooperation with them all.
+
+Dr Schwartz also thanked all CIML Members, Corresponding Members Representatives, Members of Honour, representatives of organisations in liaison, and other guests, for having participated in, and contributed to, this online CIML meeting. He thanked them for having made it a success, despite the
+
+still difficult conditions. Finally he again thanked the interpreters, Mr Potentier and Mr Hutton, for having done a such a great job.
+
+Dr Schwartz thanked the colleagues from Thailand for their kind invitation, saying that he was sure all delegates hoped that the meeting in Thailand would be an in-person meeting. He was looking forward to seeing everyone again at the 58th CIML Meeting in 2023.
+
+He declared the 57th CIML Meeting closed, and wished delegates all the best for the following year, if he did not see them in other meetings before that.
+
+<div align="center">
+
+# 57th CIML Meeting
+
+</div>
+
+Online 18-20 October 2022
+
+## List of participants
+
+## Presidency
+
+Roman Schwartz ...CIML President (Germany)
+
+Charles D. Ehrlich...CIML First Vice-President (United States)
+
+Bobjoseph Mathew ...CIML Second Vice-President (Switzerland)
+
+## Participants
+
+Stilian Habibi ...Albania
+
+Petrit Rama ...Albania
+
+Trevor Byrne ...Australia
+
+Darryl Hines ...Australia
+
+Chris Jarrett ...Australia
+
+Bill Loizides ...Australia
+
+Phillip Mitchell ...Australia
+
+Sowmya Ramakrishnan ...Australia
+
+Alex Winchester ...Australia
+
+Robert Edelmaier ...Austria
+
+Veronika Rennmayr ...Austria
+
+Azer Gurbanov ...Azerbaijan
+
+Aliaksandr Kazachok ...Belarus
+
+Maksim Shabanov ...Belarus
+
+Valentin Tataritsky ...Belarus
+
+Dirk Bils ...Belgium
+
+Marcelo Morais ...Brazil
+
+Periceles Vianna ...Brazil
+
+Pitou By ...Cambodia
+
+Ousa Khlaut ...Cambodia
+
+Samrach Muy ...Cambodia
+
+Khlaut Ousa ...Cambodia
+
+Kong Sok ...Cambodia
+
+Benoit Desforges ...Canada
+
+Erica Garnier ...Canada
+
+Isabelle Tremblay ...Canada
+
+Ying-Chun Lin ...Chinese Taipei
+
+Wang Shyrcherng ...Chinese Taipei
+
+Shyrcherng Wang ...Chinese Taipei
+
+Qin Yizhi ...China (People's Re
+
+Xie Jun ...China (People's Re
+
+Han Jianping ...China (People's Re
+
+Zhang Yiqun ...China (People's Re
+
+Shu Lingmin ...China (People's Re
+
+Yang Ping ...China (People's Re
+
+Zheng Huaxin ...China (People's Re
+
+<table border="1"><tr><td>Wang Yuhan</td><td>China(People&#x27;s Republic of)</td></tr><tr><td>Wang Jian</td><td>China(People&#x27;s Republic of)</td></tr><tr><td>Cai Changqing</td><td>China(People&#x27;s Republic of)</td></tr><tr><td>Guo Su</td><td>China(People&#x27;s Republic of)</td></tr><tr><td>Juan Duran</td><td>Colombia</td></tr><tr><td>Fernando Andrésmonge</td><td>Costa Rica</td></tr><tr><td>Sandra Rodriguez</td><td>Costa Rica</td></tr><tr><td>Brankica Novosel</td><td>Croatia</td></tr><tr><td>Fernando Arruza</td><td>Cuba</td></tr><tr><td>Pavel Klenovský</td><td>Czechia</td></tr><tr><td>Zbynek Veselak</td><td>Czechia</td></tr><tr><td>Ahmad Sulayman</td><td>Egypt</td></tr><tr><td>Rich Miller</td><td>Estonia</td></tr><tr><td>Priit Poschlin</td><td>Estonia</td></tr><tr><td>Getachew W. Tiruneh</td><td>Ethiopia</td></tr><tr><td>Sari Hemminki</td><td>Finland</td></tr><tr><td>Bernard Van Maris</td><td>France</td></tr><tr><td>Sascha Eichstaedt</td><td>Germany</td></tr><tr><td>Katharina Gierschke</td><td>Germany</td></tr><tr><td>Olaf Kuehn</td><td>Germany</td></tr><tr><td>Frank Lienesch</td><td>Germany</td></tr><tr><td>Susanne Ludwig</td><td>Germany</td></tr><tr><td>Roman Schwartz</td><td>Germany</td></tr><tr><td>Péter Gál</td><td>Hungary</td></tr><tr><td>Jianhua Xiao</td><td>Hungary</td></tr><tr><td>Ashutosh Agarwal</td><td>India</td></tr><tr><td>Rifan Ardianto</td><td>Indonesia</td></tr><tr><td>M Hendro Purnomo</td><td>Indonesia</td></tr><tr><td>Matheus Hendro Purnomo</td><td>Indonesia</td></tr><tr><td>Denny Tresna Seswara</td><td>Indonesia</td></tr><tr><td>Hassan Khanehzar</td><td>Iran(Islamic Republic of)</td></tr><tr><td>Shima Zanganeh</td><td>Iran(Islamic Republic of)</td></tr><tr><td>Lia Zeiaei</td><td>Iran(Islamic Republic of)</td></tr><tr><td>Mairead Buckley</td><td>Ireland</td></tr><tr><td>Daniela La Marra</td><td>Italy</td></tr><tr><td>Hiroaki Morinaka</td><td>Japan</td></tr><tr><td>Hajime Nemoto</td><td>Japan</td></tr><tr><td>Akira Shigemori</td><td>Japan</td></tr><tr><td>Kayoko Taguchi</td><td>Japan</td></tr><tr><td>Toshi Takatsuji</td><td>Japan</td></tr><tr><td>Tolegen Bekeshov</td><td>Kazakhstan</td></tr><tr><td>Yashkina Gulnar Kazmemst</td><td>Kazakhstan</td></tr><tr><td>John Ngugi Mwaura</td><td>Kenya</td></tr><tr><td>Florence Njihia</td><td>Kenya</td></tr><tr><td>Getrude Nyungu</td><td>Kenya</td></tr><tr><td>Gichora Raphael</td><td>Kenya</td></tr><tr><td>Gichora Raphael</td><td>Kenya</td></tr><tr><td>Simon Tilla</td><td>Kenya</td></tr><tr><td>John Wamwana</td><td>Kenya</td></tr><tr><td>Yumi Choe</td><td>Korea(Republic of)</td></tr><tr><td>Gil Choi</td><td>Korea(Republic of)</td></tr><tr><td>Jeonghee Chung</td><td>Korea(Republic of)</td></tr></table>
+
+Kwang Hee An ...Korea (Republic of)
+
+Jinki Hong ...Korea (Republic of)
+
+Wanbin Im ...Korea (Republic of)
+
+Hyenki Kim ...Korea (Republic of)
+
+Seunghyun Ko ...Korea (Republic of)
+
+Jongseon Park ...Korea (Republic of)
+
+Gerda Krukoniené ...Lithuania
+
+Osman Zakaria ...Malaysia
+
+Robert Lambregts ...Netherlands
+
+Matthijs Van Der Wiel ...Netherlands
+
+Stephen O'brien ...New Zealand
+
+Chioma Obi ...Nigeria
+
+Ibrahim Isah ...Nigeria
+
+Salim Muktar Mohammed ...Nigeria
+
+Okechukwu Ejiofor ...Nigeria
+
+Geir Samuelsen ...Norway
+
+Marcin Mikiel ...Poland
+
+Isabel Godinho ...Portugal
+
+Omar Alsheeb ...Qatar
+
+Roberta Todor ...Romania
+
+Sergey Komissarov ...Russian Federation
+
+Alexander Kuzin ...Russian Federation
+
+Fawaz Alamri ...Saudi Arabia
+
+Bader Alfaiz ...Saudi Arabia
+
+Ismail Alfaleh ...Saudi Arabia
+
+Naif Almansour ...Saudi Arabia
+
+Mohammed Almutairi ...Saudi Arabia
+
+Rakan Alnefaie ...Saudi Arabia
+
+Ali Alomar ...Saudi Arabia
+
+Nawaf Alshammari ...Saudi Arabia
+
+Hassan Jamah ...Saudi Arabia
+
+Saad Alkasabi ...Saudi Arabia
+
+Tomas Petak ...Slovakia
+
+Natalija Jovanović ...Slovenia
+
+Samo Kopač ...Slovenia
+
+Hendrik Ferreira ...South Africa
+
+Jaco Marneweck ...South Africa
+
+Tshepo Modiba ...South Africa
+
+Jose A. Robles ...Spain
+
+Maite López ...Spain
+
+Sujeewa Akuranthilaka ...Sri Lanka
+
+Renée Hansson ...Sweden
+
+Bobjoseph Mathew ...Switzerland
+
+Chartree Areewong ...Thailand
+
+Varantorn Weruwanarak ...Thailand
+
+Souad Bouaziz ...Tunisia
+
+Hichem Haj Brahim ...Tunisia
+
+Tuba Gorgulu ...Turkey
+
+Murat Taşcı ...Turkey
+
+Morayo Awosola ...United Kingdom
+
+Joanne Bone ...United Kingdom
+
+Grégory Glas ...United Kingdom
+
+Mannie Panesar ...United Kingdom
+
+Yuriy Kuzmenko ...Ukraine
+
+Ihor Pototskyi ...Ukraine
+
+Sergii Tsiporenko ...Ukraine
+
+Katya Delak ...United States of America
+
+Charles Ehrlich ...United States of America
+
+Jan Konijnenburg ...United States of America
+
+Carrie Lacrosse ...United States of America
+
+Katrice Lippa ...United States of America
+
+Rich Miller ...United States of America
+
+Michael Nelson ...United States of America
+
+Ralph Richter ...United States of America
+
+David Sefcik ...United States of America
+
+Roxana Abreu ...Venezuela (Bolivarian Republic of)
+
+Viet-Bach Cao ...Viet Nam
+
+Minh-Hiep Ha ...Viet Nam
+
+Dat-Minh Ly ...Viet Nam
+
+Dinh-The Thin ...Viet Nam
+
+Quy-Giau Tran ...Viet Nam
+
+## Liaison Organisations
+
+Andy Henson ...BIPM
+
+Luis Cachon ...CECIP
+
+Tim Hamers ...CECIP
+
+David Hanlon ...IEC
+
+Chris Koniditsiotis ...ISWIM
+
+Manuel Coxe ...MARCOGAZ
+
+David Tomlinson ...UNIDO
+
+## Members of Honour
+
+John Birch ...Member of Honour
+
+Gerard Faber ...Member of Honour
+
+Lev Issaev ...Member of Honour
+
+Alan Johnston ...Member of Honour
+
+Peter Mason ...Member of Honour
+
+## BIML
+
+Anthony Donnellan...BIML Director
+
+Ian Dunmill ...BIML Assistant Director
+
+Paul Dixon ...BIML Assistant Director
+
+Jalil Adnani...BIML Database Systems Management
+
+Jean-Christophe Esmiol...BIML IT Systems Management
+
+Luis Mussio...BIML Senior Engineer
+
+Chris Pulham...BIML Editor/Webmaster
+
+Patricia Saint-Germain...BIML Administrator, Members
+
+## Interpreters
+
+Garry Hutton...Interpreter
+
+Marc Pontier...Interpreter

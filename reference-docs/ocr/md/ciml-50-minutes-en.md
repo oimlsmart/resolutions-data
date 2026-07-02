@@ -1,0 +1,3028 @@
+<div align="center">
+
+# 50th CIML Meeting
+
+</div>
+
+Arcachon, France 20-22 October 2015
+
+Minutes
+
+![](page=0,bbox=[599, 1178, 1382, 1644])
+
+![](page=0,bbox=[869, 1775, 1099, 1972])
+
+INTERNATIONAL BUREAU OF LEGAL METROLOGY (BIML) 11, RUE TURGOT-F-75009 PARIS-FRANCE
+
+TEL: 33 (0)1 48 78 12 82
+
+FAX: 33 (0)1 42 82 17 27
+
+E-MAIL: biml@oiml.org
+
+INTERNET: www.oiml.org
+
+![](page=2,bbox=[880, 394, 1105, 584])
+
+## International Organization of Legal Metrology
+
+Secretariat:
+
+<div align="center">
+
+# BUREAU INTERNATIONAL DE MÉTROLOGIE LÉGALE (BIML)
+
+</div>
+
+11, RUE TURGOT-75009 PARIS-FRANCE
+
+TEL: +33148781282
+
+FAX: +33142821727
+
+E-MAIL: biml@oiml.org
+
+INTERNET: www.oiml.org
+
+<div align="center">
+
+# Fiftieth meeting of the International Committee of Legal Metrology
+
+</div>
+
+Arcachon, France
+
+20-22 October 2015
+
+![](page=4,bbox=[885, 912, 1105, 1100])
+
+The International Committee of Legal Metrology was convened by its President, Mr. Peter Mason, and met from 20-22 October 2015 at the Palais des Congrès, Arcachon, France.
+
+![](page=4,bbox=[600, 1535, 1381, 1998])
+
+## Contents
+
+Opening speeches to the 50th CIML Meeting... 8
+
+Roll call... 13
+
+Approval of the Agenda... 14
+
+1 Approval of the minutes of the 49th CIML Meeting ... 14
+
+2 General report by the CIML President... 15
+
+3 BIML matters... 18
+
+3.1 Report on BIML activities... 18
+
+3.2 Progress with the new OIML website... 20
+
+3.3 Renewal of the contract of Mr. Willem Kool, BIML Assistant Director... 24
+
+3.4 Renewal of the contract of Mr. Stephen Patoray, BIML Director... 24
+
+4 Member States and Corresponding Members... 24
+
+5 Financial matters... 25
+
+5.1 Approval of the 2014 accounts... 25
+
+5.2 Management of the Translation Center ... 26
+
+5.3 Forecast budget realization 2015... 27
+
+5.4 Outstanding arrears of Member States and Corresponding Members ... 29
+
+6 Report on developing countries matters... 30
+
+6.1 BIML activities in liaison with other international organizations ... 30
+
+6.2 Advisory group on countries and economies with emerging metrology systems... 34
+
+6.3 Special project aimed at developing countries... 40
+
+7 Liaisons... 49
+
+7.1 Report by the BIML on liaison activities... 49
+
+7.2 Reports from / presentations by Liaison Organizations... 49
+
+7.3 Information regarding the RLMO Round Table... 59
+
+8 Technical activities ... 61
+
+8.1 Review of the report on experiences with B 6 concerning PG Workspaces
+
+and other features... 61
+
+8.2 Proposal for a new project to revise B 6... 62
+
+8.3 Items for approval... 68
+
+8.4 Items for information ... 77
+
+9 OIML Certificate System... 79
+
+9.1 Report of the ad hoc working group on the MAA ... 79
+
+9.2 Report on the OIML Certificate Systems ... 94
+
+10 Preparation of the 15th Conference (2016)... 95
+
+10.1 Information about the organization of the 15th Conference (2016)... 95
+
+10.2 Proposal for an interpretation of the Convention... 95
+
+10.3 Voting at CIML meetings on administrative matters... 99
+
+11 Other matters... 99
+
+12 Awards... 99
+
+13 Future meetings... 100
+
+13.1 51st CIML Meeting (2016)... 100
+
+13.2 52nd CIML Meeting (2017)... 100
+
+14 Approval of meeting resolutions... 100
+
+Concluding remarks ... 104
+
+Resolutions... 105
+
+Attendance list... 113
+
+<div align="center">
+
+# Fiftieth meeting of the International Committee of Legal Metrology 20-22 October 2015
+
+</div>
+
+Arcachon, France
+
+- MINUTES-
+
+## Opening speeches to the 50th CIML Meeting
+
+## Peter Mason - CIML President
+
+Bonjour. Chers collègues, c'est un grand plaisir de vous accueillir à cette réunion, la Cinquantième Réunion du Comité International de Métrologie Légale. C'est une réunion très importante et nous célébrons soixante années depuis la fondation de notre Organisation. Il faudra que nous prenions des décisions concernant notre Système de Certificats et concernant la manière de conduire notre travail technique, et nous aurons aussi l'opportunité d'arriver à des décisions très importantes pour nos Membres qui ont des systèmes métrologiques qui ne sont pas encore développés.
+
+Mes collègues francophones reconnaîtront que je n'ai pas toujours choisi les mots justes en français, et peut-être que je crée des difficultés pour ceux qui essaient de traduire ce que je dis. Pardonnez-moi. Mais je n'aime pas lire des phrases écrites par d'autres. Cependant, je me suis dit que lorsque je suis en France, lieu d'origine de notre Organisation, célébrant le soixantième anniversaire de la fondation de notre Organisation, il me faut essayer de parler quelques phrases dans la langue officielle de notre Organisation ! Donc, c'est maintenant mon plaisir de vous présenter Madame Isabelle Notter, qui est la Directrice de la Direction Régionale des Entreprises, de la Concurrence, de la Consommation, du Travail et de l'Emploi. Les entreprises, la concurrence, la consommation, le travail et l'emploi, sujets près de mon cœur et près des cœurs de plusieurs autres collègues, et sujets où la métrologie peut souvent faire une contribution très importante. Madame Notter, nous voulons vous donner un accueil chaleureux.
+
+## BIML translation:
+
+Dear colleagues, it is with great pleasure that I welcome you to this meeting, the Fiftieth Meeting of the International Committee of Legal Metrology. This is a very important meeting. We are celebrating the sixtieth anniversary of the founding of our Organization. But in addition to this, we have the opportunity to take decisions concerning our Certificate System and how we go about our technical work, and also an opportunity to reach some important decisions for our Members with less developed metrological systems.
+
+My French speaking colleagues will recognize that I have not always chosen the most appropriate way of expressing things, and I may perhaps be creating problems for those who are trying to translate what I say. My apologies. However, I said to myself that while I was in France celebrating the sixtieth anniversary of the founding of this Organisation which has its origins in this country, I must attempt to speak a few sentences in its official language! So, I now have the pleasure in introducing Madame Isabelle Notter, who is the Director of
+
+Regional Business, Competition, Consumer Affairs, Work and Employment Management, all subjects close to my heart and to the hearts of many other colleagues; subjects, also, where metrology can often play an important role. Madame Notter, we would like to offer you a warm welcome.
+
+Madame Notter - Director of Regional directorate for companies, competition, consumption, work and employment
+
+(Directrice de la direction régionale des entreprises, de la concurrence, de la consommation, du travail et de l'emploi)
+
+Monsieur le Président du Comité International de Métrologie Légale,
+
+Messieurs les Vice-Présidents,
+
+Mesdames et Messieurs les Membres de Comité,
+
+Monsieur le Directeur du Bureau International de Métrologie Légale,
+
+Mesdames et Messieurs les délégués,
+
+Au nom du Ministre de l'Economie, de l'Industrie et du Numérique, et au nom de la Région Aquitaine, je suis heureuse de vous accueillir à Arcachon pour la Cinquantième Réunion du Comité International de Métrologie Légale.
+
+L'OIML, votre organisation, fondée en octobre 1955 à Paris, célébre son soixantième anniversaire, et je voulais saluer son rôle essentiel. Au fil des ans, elle a permis de mettre en place des Recommandations techniques, harmonisées au niveau mondial. Les Etats s'y réfèrent pour étabir leurs réglementations qui se doivent d'être compatibles dans le cadre de la mondialisation des échanges. Pour contribuer à fluidité des marchés mondiaux, un système de certification a également été développé et son évolution après quelques années d'expérience fera l'objet de vos discussions cette semaine.
+
+La métrologie figure parmi les plus anciennes réglementations commerciales au monde. Quand on achète et quand on vend, il faut être certain que le poids de ce qu'on achète et de ce qu'on vend est le bon poids. Pour nous qui mettons en œuvre des réglementations, qui ont pour objet de vérifier la loyauté des transactions commerciales, entre autres, la métrologie est un outil, une brique absolument essentielle.
+
+Votre organisation apporte également tout son soutien aux Etats qui mettent en place leur système de métrologie légale et ce sujet a fait l'objet du séminaire pour les pays et les économies dont le système de métrologie est émergent. Ce séminaire s'est déroulé hier, et il a rencontré un vif intérêt.
+
+Depuis la création de l'OIML, la France a pris une part active dans le développement de ses travaux. L'unification des mesures en France date du 18ème siècle et a trouvé sa source dans les suites de la Révolution française de 1789. Sur la base d'une loi de 1795, le système s'est mis en place avec les premiers contrôles et la création des corps d'inspecteurs. La loi actuellement en vigueur qui constitue la base du système de métrologie date de 1837. Elle a été récemment modifiée, en 2014, pour introduire les amendes administratives dans le cadre d'une réforme plus générale de la loi relative à la consommation et au commerce, visant à une plus grande effectivité dans les contrôles, par des sanctions adaptées.
+
+L'essentiel de la réglementation française qui concerne 37 catégories d'instruments de mesure et divers usages transactionnels et légaux est basé sur des décrets et arrêtés qui font largement référence aux exigences techniques développées par l'OIML.
+
+Depuis la fin des années 90, l'Etat français a recentré son rôle et l'activité de ses services vers la réglementation et la surveillance d'un système qui fait appel à des organismes tierce partie pour réaliser les tâches de certification et de vérification.
+
+On compte ainsi en France plus de 700 organismes privés, agréés par les Préfets ou désignés par le Ministre pour réaliser des contrôles d'instruments de mesure. La plupart d'entre eux sont accrédités par le COFRAC (Comité Français d'Accréditation).
+
+Le Bureau de la Métrologie de la Direction Générale des Entreprises, ici représenté par Corinne Lagauterie, Membre du CIML pour la France, est responsable de l'élaboration de la réglementation et coordonne techniquement les activités des services de métrologie des régions.
+
+Le Laboratoire National de Métrologie et d'Essais, LNE, représenté par Thomas Lommatzsch, responsable de la division Certification des Instruments de Mesure, est l'organisme de délivrance des certificats d'examen de types nationaux et européens mais aussi des certificats OIML. Le LNE joue également un rôle de plus haut niveau en métrologie scientifique concernant la définition et le maintien des étalons avec le soutien financier du ministère en charge de l'industrie.
+
+En région, donc en Aquitaine, les services de métrologie légale font partie des pôles C (concurrence, consommation, métrologie) des directions régionales des entreprises, de la concurrence, de la consommation, du travail et de l'emploi.
+
+En Aquitaine, le service de métrologie de la direction, dirigé par Éric Lefèvre, présent aujourd'hui, comprend sept inspecteurs. Ils consacrent au moins 25 % de leur activité à surveiller les détenteurs d'instruments de mesure afin de s'assurer qu'ils utilisent correctement les instruments appropriés à l'usage et à jour de leur vérifications obligatoires. Par ailleurs, une part importante de leur activité concerne la surveillance des organismes agréés auxquels les vérifications ont été déléguées. Cette surveillance prend notamment la forme de visites inopinées sur le terrain (170 en 2015 à ce jour). Elle vise à assurer que les organismes respectent leurs obligations et travaillent dans des conditions de concurrence loyale. C'est l'élément essentiel de surveillance.
+
+Enfin, le service de métrologie veille à la surveillance du marché des instruments neufs mais également la surveillance d'instruments réparés, afin d'assurer que seuls des instruments conformes sont mis sur le marché en service et qu'ils continuent de l'être en cours d'utilisation.
+
+Pour terminer, je souhaite vous présenter rapidement la Région Aquitaine.
+
+Elle est la troisième région de France par sa superficie qui s'étend sur plus de 4 100 km $ ^{2} $ . Pour ce qui concerne sa population et son activité économique, elle compte plus de 3,3 millions d'habitants et se place au sixième rang en termes de PIB. Sa capitale, Bordeaux, est la sixième métropole française et constitue un nœud logistique important avec des liaisons aériennes, ferroviaires, maritimes et routières. Notre région, vous le savez déjà, est très réputée pour ses vignobles et son attrait touristique, avec la façade atlantique et les activités de montagne. Elle compte également nombreuses entreprises liées à ces activités, et au-delà, parmi lesquelles nous pouvons citer l'industrie aérospatiale et la pétrochimie par exemple.
+
+J'espère qu'au cours de votre séjour vous aurez l'occasion d'apprécier ses différents aspects.
+
+Je ne doute pas que les débats de votre réunion seront fructueux, prendront en compte les besoins sociétaux dans le cadre de la mondialisation des échanges et resteront attentifs à la protection des consommateurs et à la loyauté des échanges et de la concurrence entre professionnels.
+
+Monsieur le Président, je vous remercie de m'avoir donné l'opportunité de cette intervention et je vous souhaite une excellente Cinquantième Réunion du CIML.
+
+BIML translation:
+
+President of the International Committee of Legal Metrology,
+
+Vice-Presidents,
+
+Members of the Committee,
+
+Director of the International Bureau of Legal Metrology,
+
+and all delegates,
+
+In the name of the Minister for the Economy, Industry and Digital Affairs, and in the name of the Aquitaine region, I am pleased to welcome you to Arcachon for the Fiftieth Meeting of the International Committee of Legal Metrology.
+
+The OIML, your organization, which was founded in October 1955 in Paris, is celebrating its sixtieth anniversary and I wanted to pay tribute to its vital role. Over the years, it has allowed technical Recommendations, harmonized at a global level, to be set up. States refer to them to establish their regulations which must be compatible as part of the globalization of exchanges.
+
+To contribute to the fluidity of global markets, a certification system was also developed and its evolution after some years of experience will be the subject of your discussions this week.
+
+Metrology features among the oldest commercial regulations in the world. When we buy and when we sell, we must be sure that the weight of what we are buying and selling is the correct weight. For those of us who put regulations in place, whose goal is to verify the fairness of commercial transactions, among other things, metrology is a tool, an absolutely essential brick.
+
+Your organization also supports States setting up their legal metrology system and a seminar was held on this subject for countries and economies with emerging metrology systems. This seminar took place yesterday and was met with great interest.
+
+Since the creation of the OIML, France has played an active role in the development of its work. The unification of measurements in France dates back to the 18th century and its source lies in the wake of the French Revolution of 1789. Based on a law from 1795, the system was established with the first inspections and the creation of a body of inspectors. The law currently in force, which makes up the basis of the metrology system, dates back to 1837. It was modified recently, in 2014, to introduce administrative fines under a more general reform of the law relating to consumption and commerce, aiming for a greater effectiveness of inspections, through adapted sanctions.
+
+The most important thing about French regulations, which cover 37 categories of measuring instruments and various transactional and legal uses, is that they are based on decrees and orders which largely make reference to the technical requirements developed by the OIML.
+
+Since the end of the 1990s, the French State has redefined its role and the activity of its services for regulating and monitoring a system which calls on third party bodies to carry out certification and verification duties.
+
+So in France we have more than 700 private bodies, authorized by Prefects or designated by the Minister to carry out checks on measuring instruments. Most of them are accredited by COFRAC (the French Committee of Accreditation).
+
+The Bureau of Metrology of the Directorate General of Businesses, represented here by Corinne Lagauterie, CIML Member for France, is responsible for the development of regulations and carries out technical coordination of regional metrology service activities.
+
+The National Laboratory of Metrology and Tests, LNE, represented by Thomas Lommatzsch, manager of the Certification of Measuring Instruments division, is the organization which issues national and European type examination certificates, and also OIML certificates. The LNE also plays a role at the highest level of scientific metrology concerning the definition and maintenance of standards with the financial support of the ministry in charge of industry.
+
+In the Regions, and so also in Aquitaine, the legal metrology services are part of the C group (competition, consumption, metrology) of the regional directorate for businesses, competition consumption, work and employment.
+
+In Aquitaine, the directorate's metrology service, led by Eric Lefèvre, who is here today, is made up of seven inspectors. They dedicate at least 25 % of their work to monitoring those who possess measuring instruments to ensure that they are correctly using instruments which are appropriate and up to date with their mandatory verifications. Furthermore, an important part of their activity involves monitoring the authorized bodies to which the verifications have been delegated. Notably, this monitoring takes the form of unexpected on-site visits (170 in 2015, to date). It aims to ensure that the bodies respect their obligations and work under conditions of fair competition. This is the essential element of monitoring.
+
+Lastly, the metrology service ensures the monitoring of the market for new instruments but also for repaired instruments, to ensure that only instruments which are compliant are put into service on the market and that they continue to be compliant during their use.
+
+To finish, I would like to give you a brief introduction to the Aquitaine region.
+
+Aquitaine is the third region in France in terms of its surface area which extends over more than 4100 $ km^{2} $ . In terms of its population and its economic activity, it has more than 3.3
+
+million inhabitants and is placed sixth in terms of GDP. Its capital, Bordeaux, is the sixth city in France and is an important logistical hub with air, rail, maritime and road links.
+
+Our region, as you already know, is very famous for its vineyards and its tourist attractions, with the Atlantic coast and mountain activities. It also boasts many businesses linked to these activities, and beyond all this, we could give further examples of the aerospace and petrochemical industries.
+
+I hope that during your stay you will have the opportunity to appreciate some of these different aspects.
+
+I have no doubt that the debates during your meeting will be fruitful, will take into account society's needs in the framework of the globalization of exchanges and will remain attentive to consumer protection and fairness of exchanges and competition between professionals.
+
+Mr. President, I thank you for having given me the opportunity to make this address and I wish you an excellent Fiftieth CIML Meeting.
+
+## Mr. Mason thanked Madame Notter, in French:
+
+Madame Notter, je voudrais vous remercier pour votre discours. Vous nous avez rappelés la contribution importante que la France a faite à la métrologie et la contribution importante que nos collègues français continuent à faire. Merci pour votre accueil en France et en Région Aquitaine.
+
+## BIML translation:
+
+Madame Notter, I would like to thank you for your speech. You have reminded us of France's important contribution to legal metrology and also of the important ongoing contribution of our French colleagues. Thank you for welcoming us to France and to the Aquitaine Region.
+
+Mr. Mason encouraged delegates to contact Madame Notter's colleagues to discuss any specific aspects of French metrology with them throughout the week. He also thanked the organizers of the meeting for what they had done so far.
+
+## Roll call
+
+Mr. Kool greeted those present and reminded Members that although he would call out the names of the Member States, as this was a CIML meeting, only the designated CIML Member of each country was entitled to vote. He pointed out that although there were 60 Member States, there were only 59 designated CIML Members. He then called the Member State names:
+
+Albania not present - proxy to Switzerland
+
+Algeria not present - no proxy given
+
+Australia not present - proxy to New Zealand
+
+Austria present
+
+Belarus present
+
+Belgium present
+
+Brazil not present - proxy to the United States
+
+Bulgaria present
+
+Cameroon not present - no proxy given
+
+Canada present
+
+Colombia not present - proxy to Canada
+
+Croatia present
+
+Cuba not present - proxy to the Russian Federation
+
+Cyprus present
+
+Czech Republic present
+
+Denmark present
+
+Egypt not present - proxy to Tunisia
+
+Finland present
+
+France present
+
+Germany present
+
+Greece not present - proxy to Cyprus
+
+Hungary not present - proxy to Poland
+
+India present $ ^{1} $
+
+Indonesia present
+
+Iran present
+
+Ireland present
+
+Israel present
+
+Italy not present - proxy to Spain
+
+Japan present
+
+Kazakhstan not present - proxy to the Russian Federation
+
+Kenya present
+
+Korea present
+
+Macedonia not present - no proxy given
+
+Monaco not present - proxy to France
+
+Morocco not present - no proxy given
+
+Netherlands present
+
+New Zealand present
+
+Norway ...present
+
+China ...present
+
+Pakistan ...not present - no proxy given
+
+Poland ...present
+
+Portugal ...no designated CIML Member
+
+Romania ...present
+
+Russian Federation ...present
+
+Saudi Arabia ...present
+
+Serbia...present
+
+Slovakia...present
+
+Slovenia...present
+
+South Africa ...present
+
+Spain...present
+
+Sri Lanka ...not present - no proxy given
+
+Sweden ...present
+
+Switzerland ...present
+
+Tanzania ...present
+
+Tunisia...present
+
+Turkey ...present
+
+United Kingdom...present
+
+United States ...present
+
+Viet Nam ...present
+
+Zambia...present
+
+Mr. Kool counted that $ 4 2^{2} $ CIML Members were present, and ten were represented by proxy. This made a total of 52 votes. The quorum was 45.
+
+## Approval of the Agenda
+
+Mr. Mason asked Mr. Kool to confirm that the Agenda had been approved. Mr. Kool asked Members to approve the addition a new item for information, 8.4.2, concerning the weighing of shipping containers. This was done and the agenda was adopted.
+
+## 1 Approval of the minutes of the 49th CIML Meeting
+
+Mr. Kool asked for comments; there were none. A draft resolution was approved.
+
+## 2 General report by the CIML President
+
+Mr. Kool told Members that two additional documents were available on the website: the written report in English (Additional Meeting Document 6) and the translation of that into French (Additional Meeting Document 10).
+
+## Peter Mason:
+
+As Willem has pointed out, my report has already been circulated in written form, but I will ask the indulgence of the Committee if I read it for the record, since it was circulated rather later than I would have hoped, and certainly the translation into French was circulated later than I think we would normally try to achieve. That in itself is a reflection of the amount of work which has been going on and which I will cover in this report.
+
+We have a lot to celebrate this year as we commemorate the sixty years since the establishment of our Organisation and this, the fiftieth meeting of our Committee. We have a number of important issues to discuss during this meeting, and all of them illustrate, I believe, the continued vigour which CIML Members, staff from their administrations and the Director and his colleagues in the BIML bring to the world of legal metrology. It is also appropriate that we are meeting once again in France to celebrate these anniversaries, since it is there - indeed, it is here - that in many respects, it all began.
+
+First, however, it is my great pleasure to welcome a number of new CIML Members. Over the course of the year, we have welcomed eight new Members:
+
+for Bulgaria: Mr. Paun Ilchev,
+
+for Hungary: Mr. Kristof Torok,
+
+for Iran: Mr. Khosro Madanipour,
+
+for the Netherlands: Ms. Anneke van Spronssen,
+
+for the Russian Federation: Dr. Sergey Golubev,
+
+for South Africa: Mr. (Nnditsheni) Thomas Madzivhe,
+
+for Switzerland: Mr. Gregor Dudle,
+
+for Zambia: Ms. Himba Cheelo.
+
+The Director will be providing detailed information on the current financial position of the Organisation, but in summary, our financial position remains healthy and will hopefully form a strong platform for our future plans.
+
+There have not been any personnel changes in the Bureau in the past year, but there have been some health issues for a number of staff. I am pleased to say that none of these were related to their official duties, but it has meant that for significant periods staff have been covering for one or more of their colleagues, which places a strain on the resources of such a small team. I would like to pay tribute to the way in which all concerned have continued to deliver in difficult circumstances. It reflects well on the team morale within the Bureau that they have worked so well to keep the impact of absences to a minimum, and I am also grateful for the support of fellow CIML Members and for the support that they have shown during this period.
+
+With the effective completion of the repair and renovation of the Rue Turgot building, attention has naturally turned to the updating of the Organisation's IT and communication systems. With the introduction of the "PG Workspace" functionality earlier this year, we now have a set of sophisticated tools which are able to support new and much more efficient ways of working.
+
+As with the introduction of any new technology, we face a number of challenges in making the most of the new website's potential for improving the way we conduct our work, most specifically our technical work.
+
+The first and most obvious challenge is the challenge that each one of us faces, as individuals, in understanding what the new systems can do and what we need to do in order for those systems to work properly. A start was made on this last year with the sessions in Auckland, which allowed
+
+those attending to understand how the new site ought to be used and this has now been followed up by the first of our proposed series of training sessions aimed specifically at those who act as secretariats and conveners, and I am grateful to our colleagues in Germany for acting as guinea pigs for that first training session. I am encouraged by the use which many colleagues are making of features such as updating contact details and registering of electronic votes but it is clear that there is a lot of scope to make better use of the Project Group Workspace.
+
+A second and more fundamental challenge, however, is to keep our rules and procedures in step with the new systems and new technology. There is both a long term and a short term aspect to this. The long term aspect requires us, in my view, to look again at B 6 Directives for OIML technical work. A proposal will be made later this week to begin a project to carry out a limited revision of B 6. I am sure that will generate a lot of debate, as this subject always does.
+
+The short term aspect concerns how we operate the existing provisions of B 6 in the light of the potential which already exists in a world where we can now do electronically what previously would have had to be done at a formal face-to-face meeting. We are developing some experience of this as more conveners become familiar with the ways of working that "PG Workspace" offers. However, it remains very important, as I mentioned last year, that conveners and secretariats are prepared to work closely with Bureau staff so that experiences can be shared and ideas exchanged on how we can make the best and most imaginative use of the resources available.
+
+In all of this it is essential to keep in mind the fundamental objective of the changes we are making. This is to make our Recommendations and our Documents remain relevant in a rapidly changing world. Those publications are the foundation of everything else we do - from providing certificate schemes to giving support to members of the worldwide legal metrology community. Keeping them up to date requires both that our technical work is carried out more quickly than in the past and that we are more inclusive about who is involved in that work. As I also said last year, the best way to achieve this is for CIML Members themselves to take a close personal interest in the work being carried out in the important Project Groups.
+
+A second major area of work has been the development of thinking on the OIML's certificate schemes. This has its origins in the Seminar which was held alongside the 48th CIML Meeting two years ago. Although the issue was originally considered to be how to make the MAA more successful, as work has progressed it has been increasingly clear that it would be better to rethink our approach to both the Basic and MAA schemes. As a consequence of the overlap between the conclusions coming out of the various task groups set up in 2013, the Presidential Council agreed earlier this year that a comprehensive package of recommendations covering the whole operation of both schemes should be submitted to the CIML, including some major structural changes. I am sure that these will also be a subject of lively debate at our meeting. I would like to take this opportunity to thank once again and to express my appreciation of the contribution made by CIML First Vice-President, Dr. Roman Schwartz in leading this work.
+
+Another area where I feel there has been a lot of good progress is on matters relating to what I think most of us now refer to as "countries and economies with emerging metrology systems" (CEEMS). Following the first formal meeting of the Advisory Group chaired by the CIML Member for China in Auckland, and building on the survey which the Group carried out to identify what the priorities of the Group should be, a very successful workshop was held in May in Chengdu. This was followed by the Seminar which was held yesterday and will again be a subject of discussions in this CIML meeting, later in the week. I believe it offers us a unique opportunity to put together a comprehensive package of measures which set a clear way forward on meeting the needs of members with emerging metrology systems and which addresses concrete proposals for things which both OIML itself and others can do in this area.
+
+In my report last year I mentioned that the OIML has taken up the opportunity to participate in an OECD study on the role of international organisations in regulatory cooperation. As this work has progressed it has confirmed my view that we have a valuable role in sharing with colleagues in other organisations our experience of introducing reform and modernisation into our processes and procedures. I hope that by next year this study will have produced a published report which will recognise the wider relevance of what we have learned by going through this process, and which
+
+will also at the same time raise the profile of legal metrology with other important international organisations.
+
+Of the international organisations with whom we already have bilateral relationships, by far the most important is the BIPM. It is very pleasing to see how well we are working together in areas of mutual interest, the most important of which, in my view, is the support both organisations offer to countries and economies with emerging metrology systems. During a conference in St Petersburg last month on Metrological Provision in Economies for Current Conditions, I was able to discuss in some depth with the President of the International Committee of Weights and Measures (CIPM) how our two organisations might work even more closely together in promoting the role which a modern metrology infrastructure, designed to support scientific metrology, industrial metrology and legal metrology, can play in economic development. And indeed, only yesterday, I think that approach of working together was further confirmed, and I think we are now moving to a situation where in these matters the default assumption is that the two organisations will work together. There will be occasions where we do our own things, but those will be the exception rather than the rule.
+
+I was also delighted to be able to participate in a conference organised at the end of June by the BIPM on the role of measurement in addressing issues relating to climate change. My own view is that it is still too early to be thinking of a legal metrology response to the challenges of climate change, but it is encouraging that we are now moving to a position where the focus is no longer exclusively on the role of measurement in identifying the problems but we can start considering the role of measurement in formulating solutions.
+
+More generally, given the links which legal metrology has with standardisation, accreditation and conformity assessment, another theme which came out very clearly in yesterday's seminar is that it is encouraging to see the interest the BIPM, ISO and ILAC are showing in how these different elements of what is now widely regarded as an economy's "quality infrastructure" all work together.
+
+In addition to the CEEMS workshop in Chengdu, the conference in St Petersburg, and the OECD and BIPM meetings in France I have already mentioned, the only other meeting I have attended as CIML President over the last year, or since the last CIML meeting, was the APLMF meeting in Wellington. I also took advantage, however, of visits to Azerbaijan and Egypt in my capacity as a UK representative to draw attention to the role that the OIML could play in their work on improving their metrology systems. Before the end of the year I also plan to attend the annual SIM meeting in Punta Cana in November and the UNECE Working Party 6 meeting in Geneva in December. Such meetings in my view play a vital role in maintaining our links with other international organisations which can help us achieve the OIML mission and help ensure our activities remain relevant to the needs of our Members.
+
+Looking forward it seems clear to me that the three main challenges for our Organisation over the next few years are ones we can expect to debate in some detail at our meeting this week:
+
+- First, we have to speed up and make more efficient the process of producing and revising our Recommendations and other publications. Indeed, a number of the proposals that came out of the seminar yesterday would involve the drafting of new Documents, and that will be something which is done through our framework of technical work. It is those processes which will again be tested to demonstrate how quickly we can produce the things which our Members are asking for. We have introduced new web-based technology to make this easier, but we need to make sure that our rules and procedures are updated to reflect the new ways of working and we have to encourage everyone involved in technical work to use the new systems.
+
+- Second, in my view we need to make substantial changes to both our certificate schemes, if they are to be more widely used and cover more types of instrument, and that will probably involve changes in the way that the OIML supervises this work.
+
+- Finally, we need a clear way forward on meeting the needs of our Members - including our Corresponding Members - with emerging metrology systems. However, I am now hopeful,
+
+and even more hopeful after yesterday, that we can produce a comprehensive package of proposals for things both the OIML and others can do.
+
+During the past year we have seen the departure from the CIML of three valued colleagues who have served on the Presidential Council: Stuart Carstens, the CIML Member for South Africa and a former Vice-President, Cees van Mullem, the CIML Member for the Netherlands, and Philippe Richard, the CIML Member for Switzerland. Stuart has however been able to join us to help facilitate and lead the work in yesterday's seminar, so we have the pleasure of his company for one more year and we will take full advantage of that. I also received, late last night, a message from Cees van Mullem wishing us well for the 50th meeting, and expressing his mixed feelings about not being with us. Indeed, I would like to express my thanks to all three of these departing colleagues for the support and wise advice they have offered both myself and my predecessors. I am pleased to say that Magdalena Chuwa, the CIML Member for Tanzania, and Anneke van Spronssen, the new CIML Member for the Netherlands, have both accepted my invitation to join the Presidential Council. Both are already well known for their contributions to our debates and I look forward to being able to draw on their talents even more in the future.
+
+There are many others, however, beyond those on the Presidential Council and other members of the CIML, who make important contributions to our work. In addition to the staff in the Bureau, whom I have already mentioned, we should also acknowledge the many hundreds of experts who participate in our technical work, in particular those who act as secretaries and conveners. And we should also not forget the colleagues in their administrations whose support makes that participation possible. As we celebrate our 60th Anniversary, this is a good time to reflect on the fact that none of what this Organisation has achieved over those years would have been possible without a huge range of contributions from colleagues all over the world and we have every reason to be grateful for their efforts.
+
+Thank you for your attention. This concludes my report for the last year, though I will happily take questions arising from the report which I have just given.
+
+## 3 BIML matters
+
+## 3.1 Report on BIML activities
+
+## Stephen Patoray:
+
+Bonjour,
+
+Mesdames et Messieurs,
+
+Monsieur le Président du CIML,
+
+Les Membres d'Honneur,
+
+Les Membres du CIML,
+
+Les Représentants des Membres Correspondants,
+
+Madame Notter,
+
+Bienvenus à Arcachon. Bienvenus à la Cinquantième Réunion du CIML. Je souhaite un très heureux soixantième anniversaire à l'OIML. Je suis très heureux que tant de monde soit présent à cette réunion. Je suis aussi très heureux du progrès que nous avons fait concernant les finances de l'OIML, l'avancement et l'utilisation du site web, la participation globale des Membres aux travaux l'OIML. Cependant, il y a toujours une grande quantité de travail qui reste à faire. J'espère que ce sera une réunion très productive. Je m'attends aux contributions des Membres pendant nos débats sur des questions très importantes. Je m'attends aussi à ce que nous puissions profiter de l'occasion, lors de célébrations que nous avons prévues. Je vous souhaite tous la meilleure.
+
+BIML translation:
+
+Good day, ladies and gentlemen, Mr. CIML President, Members of Honor, CIML Members, Representatives of Corresponding Members, Mrs. Notter. Welcome to Arcachon and to the
+
+50th CIML Meeting. I wish a very happy 60th birthday to the OIML. I am very happy that so many people are present at this meeting. I am also very happy with the progress that has been made in the OIML's finances, in the utilization of the website and in Members' global participation in the OIML's work. However, a great deal of work remains to be done. I hope this will be a very productive meeting. I look forward to hearing Members' contributions during our debates on some very important questions. I also hope you will enjoy the celebrations we have planned. I wish you all the best.
+
+I too express my appreciation to my French colleagues for my attempts at my French. I realize that my accent is not perfect; however, I do attempt to understand and speak when I can, but the simple fact is, it must be simplement - very simple words, lentement - very slowly, and at this point I still speak only in the present tense because of the complex nature of the various conjugations of French verbs. So, I welcome you all, and I just have to look out this window and it's just fantastic. It's a wonderful place.
+
+Moving on to some of the more related areas, the five years since I joined the BIML have gone by very, very fast, especially this past year, during which so much has happened. Strangely, though, it feels like a very long time since we last met in New Zealand. Maybe it is due to the amount of travel that I have had during this past year, or to the intense discussions on several of the topics as mentioned by President Mason. It may be the significant activity that is going on at the BIML, or, as mentioned, even the large number of health issues that I and others at the BIML have faced over this past year. But whatever the reasons, it is very good to see all of you again.
+
+I am pleased to report that both the health of the BIML staff and also my health have now greatly improved. A ruptured disc, a broken wrist, a broken finger, a dislocated knee, a motorbike accident and even surgery have now virtually healed and the BIML is now back at full strength. And even through all these difficult times, the staff has continued to make progress on significant projects, asking for nothing more than the satisfaction of knowing they have done their job well. I would like to say that this year the whole BIML staff, except for Jean-Christophe Esmiol, are here: would you please stand? They are at the back of the room and Willem Kool is up here at the front. Jean-Christophe unfortunately had a personal commitment and he is also maintaining our IT system right now. I wish to thank all of you very much for a very good year of work, and also good wishes for your health for the year to come. Thank you.
+
+I hope that you will all find a little bit of time to discuss any concerns with them. If you have any issues related to the website, we have Jalil Adnani, who will discuss with you, and Chris Pulham, who will also help, and if you have questions on your finance or your subscription fees, Florence Martinie is here, and each one will be able to help you in various ways.
+
+We have had a very full year, culminating in the organization of this meeting, and I wish to recognize Patricia Saint-Germain and her endless hours of work. I know many of you had problems with visas and we were trying to assist as much as possible with the visas. Some were able to benefit from the transport and the shuttle bus that were provided; but just the meeting itself and all of the organization of it has been quite a task for her and I appreciate very much the work of Patricia and wish to recognize her and her contributions.
+
+We have also had many significant advancements on the website, and we will talk about that in the next section, but we have our website team; two of them are here with us. Luis Mussio helps support the website team and Jean-Christophe Esmiol is back in the Bureau making sure that everything is running at this time.
+
+Significant work has also been done on the IT, or Information Technology system, including the backup, which has required significant effort in the last few months. I can report that we are now fully operational with the backup system, and we will talk about that again in the next section.
+
+We have had support from the members of the staff of the BIML to the ad hoc working group, and I want to acknowledge our First Vice-President Roman Schwartz and his contribution as well, to this work, and you will be seeing a proposal for this particular item come before you.
+
+We have had support from President Mason and the Presidential Council, and significant debate regarding the proposal for a project to revise B 6, and we have also had support for two different
+
+seminars, one which, hopefully, you had the pleasure yesterday of attending, and also the one that was in Chengdu, and we have had a good amount of support from the Chinese delegation. Mr. Pu, President Mason, and Ian Dunmill have been involved significantly in that area as well. So with that we hope to be able to make continued progress in what we now call CEEMS, and continue to build on that small idea from the time of the budget, when a small amount of money was allocated for the work with developing countries.
+
+These are just a few of what we have as recent accomplishments, and we will cover a number of other important topics during this time. Many of these items, such as the MAA and the Certificate System, the B6 project, other things will be discussed in more detail. It is very possible that all your questions will be answered during the various agenda items; however, if you have any particular questions of me now, please feel free to ask at this time or any time during the week, and I wish that we have a very successful and productive meeting, and je vous remercie et vous souhaite a tous, une Cinquantieme Réunion du CIML très productive. Merci.
+
+And now it's time for the fireworks!
+
+## 3.2 Progress with the new OIML website
+
+## Stephen Patoray:
+
+Under this item I will make a brief presentation on our website. President Mason referred to it quite often in his presentation, and we will go through a few of the areas and recall where we started.
+
+During the CIML meeting and Conference in Romania three short years ago, we carried out a survey which many of you participated in. Some of the things that we found in the survey were:
+
+- improve both structure and navigation, as the past website was difficult to find and navigate through;
+
+- improve the navigation to create a modern design which was easy to use, requiring fewer clicks to reach the information you are looking for;
+
+- use the home page for news and other public information;
+
+- develop targeted information so that you can find what you are looking for quickly;
+
+- group together Member related information and eliminate the need for the double Member authentication. Many people had to log in two different times with two different usernames and passwords;
+
+- improve the search facilities to be able to search certificates, active projects, publications related to certain activities, etc.;
+
+- integrate a number of very pointed suggestions regarding the TC/SC section, and ensure that the technical information is always up to date;
+
+- ensure the status of projects is always up to date;
+
+- ensure that the country participation is always up to date.
+
+Many of those items relate to the work itself: the conveners for the technical work, but also the CIML Members, and how your country participates in the various TCs, SCs and PGs, including a list of up to date contacts within each structure. Ensuring that all the information is cross referenced enables us to retrieve more complete data and allows us to keep better track of the 58 ongoing projects, the Project Groups involved, and also the publications they are developing. We have created a lot of cross-referencing on the new website database which many users have reported as being very useful.
+
+The biggest number of comments came from a request to change or improve what was then called the "Plone" or "workgroup" functions, because, to be perfectly honest, there was only one convener that actually used the system. Two or three used it occasionally and the rest did not use it at all, because it was very difficult to use. So the biggest number of comments pointed to the need to develop a better system for doing the work of the technical groups.
+
+Also, it was clear that there was a need to introduce more online voting. In the past CIML Members could vote on Recommendations, but we had no other online voting. Today we have online voting for Committee Drafts as well as all of the other CIML voting that needs to take place. And in
+
+addition, we have recently added the process of online review of publications to decide first within the TC/SC then at CIML level whether a publication should be reconfirmed, withdrawn or revised.
+
+We also wanted to have a facility whereby the conveners could email their Project Groups, and this is now in place. In the new PG workspaces, conveners have the ability to click on a single button and obtain a list of all the contact emails, making it much easier to send out emails.
+
+So, as we go through this list, are we really meeting the requirements that were identified in Romania at that time? We think we are well on the way to developing a coherent system to meet the modern needs of our Organization.
+
+We have also, hopefully, made it easier for CIML Members to perform updates, and we have seen abundant activity on this since we introduced the new website. Even in this past week for example, Denmark has done a lot of work to update their particular group of people that are involved in the technical work. The BIML receives notifications when any changes are made which enables us to keep a close eye on what is happening.
+
+We have also received some general comments on the best way to distribute information. As a result, we no longer send out email notifications for every circular, only for key information including online voting and especially changes related to CIML Members, but everything is listed on the homepage of the website, where we keep three months of history.
+
+We have recently increased the visibility of the developing country information with the creation of a new CEEMS section, and there will be further changes in due course as we add to that particular area.
+
+Since our meeting in New Zealand we have added the ability for Committee Drafts to be either commented or voted on, online; we have also published written procedures on the website in the "My Access" section.
+
+In March 2015 we introduced the PG workspace; we have seen some limited activity on the workspace so far, and, as Peter Mason mentioned, there has been some initial training in Germany on the workspace and how it ties in with B 6. There will be additional work to improve this, and to make it better for all the conveners to use.
+
+We have improved the CIML registration database - this year we asked you to enter your travel plans in order to assist you with airport transfer and with the visa process.
+
+Most recently, we added the review of publications. We initiated the TC/SC review for three OIML publications: R 111, R 18 and R 76. We received a fairly good response for R 76, however, not many replies were received for R 111 and R 18 from the TCs/SCs concerned, so we will have to see what we can do to improve that particular area, because, as Peter Mason mentioned, it is important that our publications remain up to date. This is a process that we now also have online, and we can easily submit other publications for online review by the TC concerned. Following B 6, we next have to put the reviews to the CIML; this will determine whether to revise, withdraw or reconfirm that publication. This is another feature requested in our survey.
+
+One major ongoing activity is the backup system. This comprises a rack and a number of batteries which have been installed in the basement at the BIML. The backup system is connected throughout the building and is linked to all the other systems and servers in place including the main IT system [Photos shown]. The backup will save all of our data for up to 30 days, including all the work stations and all the virtual machines running in the Bureau. This system is also fully compatible and could communicate with the system at the BIPM. In the future there will be a fiber link between the BIML and the BIPM so that we can share resources and have off site backup and capabilities with this system, so it was designed with this in mind.
+
+Next on the program is the new Presidential Council workspace, which is basically ready to go online, but we want to make sure that everything is in place and correctly set up before we make it active.
+
+We also have the potential for a CPR workspace. Work is still ongoing with the current CPR and the main review will take place next year, so they too will have a workspace.
+
+Several people have made suggestions on how we can further improve the website, and there are some aspects we have seen ourselves that need improvement. One example is that sometimes the
+
+font changes and makes the website look strange. But because of the complexity of the system itself it is sometimes difficult to pinpoint where such problems originate from.
+
+We are also going to attempt to automate the process of correlation of comments for conveners. ISO already operates this type of system, but for the OIML it will require more discipline in the way comments are structured; we think it is going to be an advantage for the conveners.
+
+In addition, we also anticipate there is going to be a workspace for the new Certificate System that is being proposed at this meeting. There will be a workspace for B 6, and also one for the RLMOs. A new RLMO website is also being discussed. CEEMS will also have a workspace, so that they are able to communicate better. The process to reappoint conveners is currently in B 6, however we are not currently abiding by the rules of this particular part of it, but every three years the term of the convener is supposed to be reviewed.
+
+One area that I have not mentioned here is the overhaul of the current Certificate System part of our website. Roman Schwartz and Dorothea Knopf have been going through this with us, the BIML has revised the whole section and we are just about ready to go live with the new Certificate System web pages.
+
+Dr. Ehrlich thanked the Director and said that he thought that the progress that had been made was to be commended - it was good to develop these tools. The United States had experienced some confusion with the PG workspaces, and, as something had just become clear to him the day before, he thought that it might be useful to other CIML Members who might be having similar experiences, to elaborate on where the PG workspaces fitted in to the development process of working drafts and Committee Drafts. What he had learned the previous day was that the PG workspaces were to be used between Committee Drafts, or perhaps even for development of a working draft. The procedural documents to which Mr. Patoray had referred, in particular W009 which discussed the PG workspaces, referred to WDs, "working documents". He therefore suggested, in order to try to help to eliminate some of the confusion, that some other name or acronym might be considered, since the Directives referred to WDs as "working drafts", which was a well-defined stage in the development of a publication. Perhaps a different symbol could be used, to help remedy the situation. Dr. Ehrlich pointed out that this had come up in connection with the use of the PG workspaces for R61, and he had some suggestions to offer for discussion with the Director and perhaps with some of the conveners, in order further to facilitate the use of the PG workspaces.
+
+Mr. Patoray thanked Dr. Ehrlich for his comments. He said that there were times when it was difficult to see the forest for the trees. The Bureau had tried to look very closely at both, and they were also fully involved in the process of developing the system, so the confusions mentioned by the United States were not something that the Bureau staff fully understood. It was possible that this was because they had not fully explained the system well enough to everyone. The PG workspace, he continued, was very much a private workspace for technical work. B 6, in 5.12.2, talked about work between meetings. This was what the PG workspace was. B 6 clearly stated that documents were created. So the confusion of whether there was a "working document" or a "working draft", he was sorry to say, was in there and he could not change the wording. They could certainly try to clarify and make a better use of terminology, but unfortunately B 6 clearly stated that documents should be numbered during the process of development. 5.12.2 expressed the fact that votes were created when appropriate between meetings. Various things were created which the workspace allowed to be done. It had never, however, been indicated that the workspace was a place to post and vote on Committee Drafts, or even working drafts, because B 6 clearly stated that this should not be done. So, with better communication rather than emphasis on individual words, he did not believe that a problem existed. The system was very functional and would allow the technical work to take place in the private area. When the Committee Draft was complete and in its final form, it was sent in to the BIML and then posted for vote. This was very separate and very different. The one area that did present a significant problem was the length of time and the number of Committee Drafts that were already in process. If they could start with a clean sheet of paper, without any of the existing partial publications and the 5, 6 or 7 Committee Drafts that were in circulation at present, trying to be posted into a space, which was now basically public, even though it was called a private space, everyone on the technical committee could
+
+see the work. So, the words were important and Mr. Patoray agreed with the United States that there must be agreement on terminology that was sensible and understandable for everybody to use. In that individual training, as Mr. Mason had indicated, it was important for the conveners to contact the Bureau regularly on an individual basis if they had any questions. The Bureau had attempted to resolve this confusion through several different levels of communication, which apparently had not been successful in some cases. Mr. Patoray was not happy that communication could not be more clear and open, but unfortunately there was also a limit on the words that could be chosen. If B6 said that documents were created, then documents must be created. If it also said that working drafts were created, then that must be done. The requirements in B6 must be followed. He hoped that in this matter everyone could speak more clearly, listen a little better, and, in the case of the training, that the training completed in Germany could be continued, taking the feedback from that endeavor to the others as well, and that the system could be improved so that it was satisfactory for all Members. Any confusion would lead to delay in the development in the various OIML publications, which was something that really could not be afforded. Members of the Bureau staff were certainly open to suggestions and to making changes, but he felt fundamentally that the only need was for better understanding and not significant changes to the workspace. Being able to utilize it as much as possible in a way consistent with B6, and also to realize that changes had to be made to B6, would enable progress to be made.
+
+Mr. Mason intervened to say, with reference to R 61 (for which the UK held the convenership) that he agreed with the CIML Member for the USA, though he had not yet communicated this to his colleagues on the secretariat, that they should attempt to produce further clarification of how the workspace on R 61 was being operated. The Presidential Council had taken the view that the proper way of proceeding at present was to operate on a case by case basis where individual Project Groups might be having difficulty in working out how best to use the workspace. That would be done with R 61, and he encouraged other conveners finding themselves in a similar position to do the same. The view of the Presidential Council was certainly that further clarification documents from the Bureau itself were not required at the current time.
+
+Dr. Miki commented that it was no wonder that there was some confusion over the workspace operation, because it was at a very early stage. But this was a good time for the BIML and Members to have good communication and good guidance documents and perhaps some type of lectures to persuade people to use the system, because although it was known to be useful, people who had formerly used email did not usually want to start to use the web based system. He hoped the BIML would take some initiative in promoting the workspace.
+
+Mr. Patoray thanked Dr. Miki for his excellent suggestion.
+
+Mr. Teunisse thanked Mr. Patoray for all the work he had done in the last two or three years in developing these tools. Mr. Patoray had referred to people from the old workgroups who were now using the new technology. He thought that this might be a reference to him, and he had had some positive experiences with it. He had of course been looking at making available the same kind of tools in the new PG workspaces, and he was happy that Mr. Patoray was open for discussion on what was in the workspaces. He hoped that it would be possible to continue to have some exchange on some issues which were not yet fully resolved. As an example, he was missing the presence of liaisons in the PG workspace. It should be possible for the conveners to communicate and to work together to find good solutions. He was pleased that Mr. Patoray was open to more progress being made with this.
+
+Mr. Patoray replied that the Bureau was behind in entering all the information from liaisons into the site. The information which had come over from the old database had in some cases been very dated and the contexts were not correct, and getting this aspect clarified with all the relevant liaisons was a significant priority for the Bureau. Some contacts had been made with the main liaisons, in particular those with whom the OIML had MoUs, to try to update their information on the website, but it was certainly true that some of this information was currently missing. Sometimes when moving into a new direction it was not possible to stop and correct every small item on the way. But at the current stage, where it was possible to reflect on what was there and when it was beginning to be used, when there was some experience of using it, it would then be possible to make the necessary improvements. However, some things which were based on a database and system set up from a website would not be the same when working in a desktop environment, so there might be some limitations, but these could
+
+normally be worked out. He appreciated the comments, and expected to work very closely with Mr. Teunisse, who had experience with the former workgroups site. It was important to ensure that no abilities were lost with the new system.
+
+Dr. Schwartz said that he had just taken a quick look at TC1 Terminology and could see the project liaisons there. It seemed that this problem was specific to Mr. Teunisse's Project Group. On the TC1 contact list it was possible to find the P-members, the O-members and the project liaisons, so at least in TC1 all seemed to be well.
+
+Mr. Patoray clarified that there was no conflict there: some TCs and some Project Groups did not list the correct liaisons. Some did, and indeed there was a space to list liaisons and the ability to do so, but in some cases there had been no request from liaisons to be added, in others the Bureau did not have correct information and would not enter incorrect information, but, as Dr. Schwartz had pointed out, when the correct information was available it could and would be added. All the liaisons needed to be surveyed and all the current information obtained, because liaisons were not able to access the website directly and add their own information - this was done by the BIML. Whereas CIML Members could add themselves to a TC, SC or Project Group whenever they wished, liaisons could not do that.
+
+Mr. Dunmill added that frequently contact details for liaisons were not complete. Before the move to focusing on the Project Groups, frequently liaison organizations had simply been listed as being in liaison with the Bureau, and the Bureau had been in contact with wherever the head office or main secretariat of that liaison organization was. Now, however, there was the possibility of focusing on direct liaison with individual projects. As Mr. Patoray had said, the Bureau would have to conduct a survey of all the liaison organizations to see exactly which projects they were concerned with. This had been started with the organizations that had the most detailed contacts, i.e. ISO and the IEC, but it was quite complicated to identify the individual people who were responsible, in view of the fact that, as Mr. Patoray had said, they could not make their own updates. Mr. Teunisse was correct that some liaisons were missing and this also applied to the main website contact lists for Project Groups. Bureau staff would use the information available to improve the situation as soon as possible.
+
+## 3.3 Renewal of the contract of Mr. Willem Kool, BIML Assistant Director
+
+After a closed session, Mr. Mason reported that the resolution had been adopted unanimously by the Committee; no selection committee would be set up and it was expected that Mr. Kool's contact would be renewed in 2016 for a further five-year period.
+
+## 3.4 Renewal of the contract of Mr. Stephen Patoray, BIML Director
+
+After a closed session, Mr. Mason reported that the resolution had been adopted unanimously by the Committee, having been amended to say that at Mr. Patoray's request, his contract would be renewed for a period of three years instead of the customary five years.
+
+## 4 Member States and Corresponding Members
+
+Mr. Patoray reported that there were no new Member States. There had been continuing conversations with several countries, but he did not like to make predictions because most of the time decisions were political and legislative and therefore difficult to predict. There were currently 68 Corresponding Members, which also had not changed. The situation was stable, but he nevertheless hoped to encourage some Corresponding Members to become Member States.
+
+Mr. Mason added that at the seminar a clear link had been made between what the OIML could do in this area and the extent to which OIML activities attracted new members. There was widespread recognition that what the OIML was doing was more likely to improve and increase the number of members than reduce it. He believed that as the OIML was more successful in demonstrating that its activities were relevant to a wider range of members, then that itself should attract a higher level of membership, a higher level of participation, and thus a greater level of relevance of the OIML's work across the world.
+
+## 5 Financial matters
+
+## 5.1 Approval of the 2014 accounts
+
+Mr. Patoray reminded delegates that the OIML's finances were one of the primary responsibilities of the Director, and he had to make sure that all monies were accounted for and that Members were satisfied with the expenses and other items. Members had received the auditor's report and letter. Several Members had individually requested that type of information when their subscriptions were due, and Mr. Patoray urged them to let the Bureau know when they needed such information, so that it could be prepared and sent to them.
+
+Mr. Patoray showed Members a comparison between the 2013 and 2014 budgets, and reminded them that there was also an additional meeting document giving answers to a number of specific questions asked by individual Members, though there may be additional questions.
+
+He then showed the chart of total net assets, which continued to grow. It was possible to have net assets and still not be a healthy organization unless you had some cash. It could be seen from the second graph that the cash had now begun to increase again, as it had since 2008/2009. The significant decrease in 2013 was because of payment for the major parts of the renovation of the building. This, as Mr. Mason had indicated, was proof that the OIML was in a healthy financial state.
+
+Mr. Patoray then showed a compilation, going back to 2008, of total meetings, travel and accommodation expenses. These had all been combined because in the past, travel to the CIML meeting had sometimes been accounted for under "CIML meeting" and sometimes under "Travel". He had now put all these costs together in "Meetings, travel and accommodation".
+
+One of the main questions that had arisen was why there was either a decrease in 2013 or a significant increase in 2014; the short answer was that they were still below budget. Mr. Patoray looked strongly to the budget to guide his activities and what was done, and also in 2013 he had limited his travel significantly so as to focus on the finishing of the renovation of the building. Mr. Mason at that time had also been terminating his full time position in the UK and had had to limit his travel to less than usual. There was also the situation where many of the liaison organizations met in Europe and then in Asia in alternate years, and 2013 had been the year for Europe. These many factors had combined to make 2013 less expensive than some other years. In 2014 Mr. Patoray had returned to a full travel schedule, Mr. Mason had also done more travel, which he was continuing in 2015, the meeting in New Zealand had given rise to significant travel costs, and also there had been $ \epsilon 50000 $ provision in the schedule for the New Zealand meeting, which would be discussed later in the forecast. All this had amounted to additional spending in 2014, but Mr. Patoray believed that obligations for attending meetings had been met, and also spending was below budget, in contrast to the situation in 2008 and 2009. He showed a slide with present budget in blue, the past budget in green and the actual in red. All charges for the Organization were included; it was slightly above the value of the budget but not too far out of line.
+
+Mr. Patoray then showed what he called the "bottom line". This year they had not quite made their target surplus of €116 000, the figure was about €100 000. On the other hand, over the two years there was a surplus of €146 000, whereas their target over four years was €140 000, so they were already ahead of target.
+
+Some of the detail on the income side included the fact that there were two more Members than had been projected, so that had brought in a little more income. There was no income from the Translation Center; requests for funding for this had not continued and its winding down would be discussed later. Interest on investments was not as high as anticipated, but this was the same for everyone at the moment, because of the current state of the economy.
+
+There were also changes in the banking. The accounts were being consolidated in only two banks instead of the previous seven.
+
+The current situation was that income was slightly above expectation, and expenses were also a little above the budgeted amount.
+
+A characteristic for 2014 was extra expense under staff costs - this was part of stopping the pension system. Members might recall that this had been briefly discussed in 2014; because the pension system
+
+had been stopped, the payment being made to the pension system itself had been basically reflected in not having to pay the social security system in France. The OIML was "paying itself", so the figure would show as positive instead of negative. Since the pension system had been ended, the amount that would normally be paid into to the French system was being paid to Mr. Dunmill; this payment showed in the accounts but would be seen to have dropped in the following year. This explained staff costs being higher.
+
+Running costs were slightly higher than the budgeted amount. This was due to translation costs of €20 000, because a large number of translations had been done in 2014.
+
+The next figure of €80 000 was accounted for by the fact that, unfortunately, €14 000 had been spent for a security guard while the door to the front of the office was being repaired. There had been serious concern that the temporary door which had been fitted would not be sufficient to deter night time intrusion, so a security agent had been hired for over three weeks while the door was being fixed, which cost €14 000, equivalent to the overspend in both accounts.
+
+Costs of the meeting in New Zealand included the 50 000 provision, which again was a little high, so that overall expenses were a little over the budgeted amount. Mr. Patoray showed a slide of 2014 expenses, rather higher than might have been desirable, but still, over the two years taken together, already reaching the four-year target. In general he tried to stay within budget, but some unforeseen incidents (such as the security guard) could not have been anticipated in 2012 when the budget had been drawn up.
+
+Mr. Patoray invited questions, adding that more detail was to be found in the written accounts. He was grateful for the early questions, which helped with preparation. He said that the wording for the resolution would mention that the accounts had been noted, the external auditor's report had been presented, the accounts for 2014 would be approved and that the President would present them to the 15th Conference.
+
+## 5.2 Management of the Translation Center
+
+Mr. Patoray explained that the Translation Center fund had been set up in 1975 (Resolution 1975-IXc). From about 2004, however, there did not seem to be much activity, but the fund kept growing. When Mr. Patoray had taken up his post there had been over $ \epsilon 1 0 0 \, 0 0 0 $ in the fund, unused. The OIML had moved from doing technical work in French to English, so there was a need to be able to translate from English to French, which was not allowed for by this fund.
+
+There had been discussions in 2011 to be able to use the fund to at least reduce the backlog of the English to French translations. As could be seen, the backlog had been reduced quite substantially, by about €60000 in that three-year time frame, a lot of it with the help of colleagues at the LNE in France. The 2004 and 2008 Conference minutes had also needed to be translated.
+
+There were 15 contributor countries and their aid over the years was much appreciated. The backlog of translations had now been reduced, so the OIML was now at the stage of needing to translate current publications, which in 2014 had cost €20 000. Mr. Patoray believed that it was now time to close this fund, in particular because they were no longer soliciting contributions to it, and also it was necessary to make a decision as to what to do with the remaining funds. The 15 contributors had been asked what they wished to do with the balance of approximately €38 000. They could either:
+
+- allow the funds to be used to translate current publications into French or English, depending on needs;
+
+- request a pro rata refund of the remaining amount; or
+
+- request a credit against their 2016 subscription.
+
+The third alternative was offered because any refund might end up in some other government department, and not to the organization which was represented in the CIML which had donated the money, whereas a credit against subscription was more likely to benefit the donating organization. The result was that:
+
+- ten of the 15 contributors indicated that the BIML could use the remaining funds;
+
+- two contributors requested a refund; and
+
+- three requested a credit.
+
+Some of those who had opted for the second or third alternative had done so because they were subject to regulations which made this obligatory. In consequence about €12 000 to €13 000 remained, which would be used exclusively for translations. Current work included:
+
+- R 49-1, -2 & -3;
+
+- R 137-3;
+
+- R 144-1, -2, and -3;
+
+- R 117-2 & -3;
+
+- R 139-1, -2 and -3; and
+
+R 50.
+
+The LNE's work was appreciated. It was extra work for them, done in their own time; they were paid but they had to find the time in their busy schedules. The BIML would continue to rely on them for technical translation, which was mainly from English to French.
+
+By the end of 2015 the BIML would calculate what monies remained in the fund after the refunds or credits had been taken into account. This amount would be shown in the 2016 budget, and at the 2016 CIML meeting there would be a resolution which would formally close the Translation Center Fund, and there would be no reference to it in any subsequent budget.
+
+## 5.3 Forecast budget realization 2015
+
+Mr. Mason explained to Members that at the Presidential Council he had asked Mr. Patoray to report on the forecast budget realization for 2015 in more detail, giving an opportunity not just to see audited past accounts as discussed in the previous item, but also to understand how the OIML was doing in the current financial year, of which almost ten months had already elapsed.
+
+Mr. Patoray explained that the auditor, Mr. Fisher, performed a review every trimester in order to evaluate where the OIML was at that particular point in time, and also tried to estimate where they would be at the end of the year based on actual spending.
+
+The interim result for 2015 of €24 386 currently stood at a little less than the projection. At this point, and based on a conservative estimate, an end of year result of just under $ \epsilon 4 0 0 0 0 $ was expected. For the three years of the current budget, combined with the projection for the following year's budget, the figure stood at $ \epsilon 1 7 2 0 0 0 $ instead of $ \epsilon 1 4 0 0 0 0 $.
+
+Explaining how this figure had been arrived at, Mr. Patoray said that the incomes were no different as no new countries had joined, nor were any likely to be struck off for non-payment. The income was almost the same as for the previous year, which made it relatively easy to project. When it came to charges, however, staff costs were again slightly higher, due (as previously explained) to the transition to the change in the pension system. This had not been part of the budget, but would disappear over the following year as the next budget period was reached.
+
+However, there was some encouraging news in other areas. The running costs were very conservative and administrative costs were also much closer to budget. The $ \epsilon 80000 $ for meeting costs was less than the budget projection. Mr. Patoray thanked the French Ministry, which was supporting the reception that evening, but added that most of the other costs were being absorbed by the meetings budget. There had been a very generous offer from New Zealand, which would not require reimbursement of the meeting expenses held there the previous year, so the $ \epsilon 50000 $ which had been put in as a provision for the 2014 budget was being taken out of the current year's accounts. Mr. Patoray noted that it was also anticipated that the VAT paid on the expenses for the present meeting would be at least partially refunded by the French Government. He had nevertheless included it in the charges, because this rebate had not yet been received. Mr. Patoray had indicated the figure of $ \epsilon 80000 $ ex VAT or $ \epsilon 130000 $ including VAT for the meeting, but the final cost would probably be slightly over $ \epsilon 100000 $ ex VAT.
+
+The following line, showing travel, was substantially less in the current year but was a little premature because during the last quarter of the year there was always a lot of travel. It included the CIML, for example; he himself was leaving immediately to go to the APLMF meeting. Mr. Mason, Mr. Mussio and he would then go to a SIM meeting; Mr. Kool would also travel before the end of the year. However, because Mr. Kool had not traveled very much within the first part of the year, unlike his
+
+usual heavy schedule of travel, the budget had decreased. The hope was, therefore, that the figures being shown were largely correct.
+
+Going down the list, the largest figure that had to be dealt with was depreciation. €117 000 had been budgeted; this was because the renovation of the building had cost more than anticipated. The actual budget was €183 000, but depreciation was not an actual outlay of money, it was accounting for future activities and reinvestment into the Organization and its infrastructure, so the €66 000 depreciation would decrease a little each year because the OIML was not investing quite as heavily in the building. On the other hand there was investment in the computer system, for example the backup system described earlier. These numbers would oscillate, but would also change because of the way depreciation worked.
+
+Mr. Patoray said that he had also included all of the provision for retirement, €40 000. For 2014, that figure had been just over €11 000 because of the unwinding of the pension system, but it was unclear at the moment what exactly that charge would be. The auditor would calculate this at the end of the year, based on the actuarial accounts done several years previously. He was once again being conservative, so there could be a difference here.
+
+The provision for uncollected funds would be discussed under the next item. The $ \epsilon7000 $ here was for five Corresponding Members who were currently close to being struck off, potentially by the end of the current year. In view of the state of the world economy when the budget had been drawn up, Mr. Patoray had included a large sum for this contingency, as he had been concerned that a Member might be lost because of non-payment. Fortunately, this had not happened, so this acted as a buffer in the accounts.
+
+Summing up, Mr. Patoray expected that the final end of year result would be at least as good as that forecast, and perhaps a little better. Thinking about the budget for the future, however, he still wanted to discuss with Members a projection of the cash the Organization had in the bank, by trimester. In each December to March period, the figure rose quite significantly, as a majority (but not all) of Members paid their subscriptions at the beginning of the year. Mr. Patoray displayed a graph showing the trend, in cash, over several years; he was concerned because this trend was continually increasing. While this was not bad as it indicated that the OIML had cash, it possibly had too much cash because the current total was almost $ \epsilon2,000,000 $ , which represented almost 100% of the budget. In Mr. Patoray's experience and training, not more than 60% of budget should be held in cash. This was a decision for Members to make, but he would like the amount to stabilize. This would ensure that there was no increase in the subscription fees, because a little could be taken out of the cash to subsidize fees overall. The method of doing this would have to be made very clear in the budget, but he was alerting Members that he would want that figure at least to stabilize. If it went a little negative, that would not be bad, but in the long run it would also be necessary to look at projects such as CEEMS would the budget increase in order to be able to finance activities in that field? This was not known at the moment, but at least the potential existed and Mr. Patoray asked Members to let him know their thoughts on this. Planning for the next budget would begin in the next few months in readiness for the 2016 Conference.
+
+Mr. Patoray invited questions.
+
+Mr. Johnston, on behalf of the Canadian Government, read a statement to the effect that the Canadian Government urged the OIML to continue to explore means to reduce operating costs, in particular travel and meeting costs.
+
+Mr. Patoray responded that the OIML was continually looking at ways of reducing travel costs, and pointed out that meeting and travel costs had been reduced significantly since 2011. Theoretically, a lot of work could be done online and virtual meetings could be held although because of the international nature of the Organization it was difficult to fix a time at which the whole world could attend a "webinar".
+
+Another suggestion to reduce travel costs was for Project Group meetings involving 16 or fewer people to be held at the BIML in Paris, eliminating the need for BIML staff to travel.
+
+He added that the other significant cost was the CIML meeting; he asked Members whether they wished to continue with the same format of meeting, lasting the same length of time including receptions, breaks, lunches and all that was generally provided. He believed that the fact that those attending did not have to go off site for lunch was good and made the meeting more productive. Much thought had gone into this, but he was not planning to make cuts here.
+
+Mr. Mason added, bearing in mind that the Canadian Government's statement would be in the minutes, that it seemed to him that the amount of travel that was done was conditioned by the objectives that the OIML Members set themselves. This was done on a four-year basis and a budget was set which was appropriate to what was planned for that cycle. So, in response to the Canadian Government he wanted it to be clear that he was absolutely committed to reducing the cost of travel, but that he did not think there would be a desire to reduce the amount of travel below what had been set in the four-year budget, because that amount of travel was established by what Members sought to achieve for the Organization. He felt that it was necessary to be clear that what was being done at the moment was seeking to obtain the best value for a budgeted amount of travel which had been voted at the 2012 Conference-there would be the opportunity to reconsider the balance of what was done and how it was done at the 2016 Conference.
+
+Ms. Vukovič asked whether there was any opportunity to open a savings account with the OIML's money, or whether it was all in a current account.
+
+Mr. Patoray replied that about half of the money was in what he described as a long term certificate of deposit. Because of the restrictions in the OIML's Financial Regulations, it could not be invested in stock markets or high risk funds, and there was a specific requirement that anything that was done would have to have the highest rating of security for the principal that was invested so that was what was being done currently. The higher the amount invested, the better the interest rate.
+
+Dr. Klenovský wondered if what Mr. Patoray had reported might lead to a small reduction in membership fees. The Czech Government was pressing to save costs on international organizations. He thought that consideration should be given at the Conference to a small reduction in membership fees for the next financial period.
+
+Mr. Patoray answered that there had been a 3% reduction in the fees for the current period and this had been held steady, because this was what the Convention required. Even though this instruction had not been followed in the past, it was clearly stated in the Convention that the budget was to be set for the four-year period. A strong effort would be made at least to stabilize that number for the next budget. He had options in the budget to be able to do this.
+
+Mr. Mason added that as a result of the current transparency concerning expenditure, and also the additional ability to know the current state of spending, there was a better platform than ever before for taking decisions of this kind, and it would be possible to have a proper debate about the balance of advantage in running down reserves, in adjusting subscription levels, or considering whether spending should be in different areas. These were all subjects to be debated at the following year's Conference.
+
+He also commented that it was perhaps worth encouraging Member States to express a particular preference between a reduction in their subscription or changes in the balance of spending, and the way that the reserves being built up could be used. He wanted to encourage Members to express such preferences between CIML meetings. What had to be done at the Conference was to anticipate what the CIML would feel, and there would be an advantage in Member States feeling able to express views, as the Czech Republic had done in the current meeting, during the period of preparation for the Conference.
+
+## 5.4 Outstanding arrears of Member States and Corresponding Members
+
+Mr. Patoray pointed out that some Member States had not yet paid their subscription fees for 2015 but there was still some time left in the year, so it was still possible for them to pay. Currently, there were only one or two countries with arrears extending back before 2015 therefore there was no potential for any Member State to be struck off during the next year, because only countries which had not paid for three consecutive years were struck off. However, some of the late payers were those with large subscriptions, so this affected the cash flow. There was some cash in the bank, but there was
+
+nevertheless a focus on trying to persuade those present to pay their dues. There was more concern, however, about some Corresponding Members.
+
+Mr. Mason pointed out that Member States had the option of paying their subscription any time during the calendar year to which it related, in which case he asked whether it was right to regard those who had not yet paid as being in arrears. The proper use of this phrase might rather be for anyone who had not yet paid their 2014 subscription, and that it be recognized that for the current year, some countries paid early and others paid later.
+
+Mr. Patoray replied that his interpretation was perhaps rather literal but the Convention indicated that payments should be made at the beginning of the year, and this was what he looked at for guidance. Mr. Mason was correct in pointing out that if "in arrears" was thought of as the year, the term would not be appropriate for those who had paid in 2014 but not in 2015. Money that was paid early in the year would be in the OIML's bank account, collecting what little interest it could, and thus financing the late payers. There was no penalty for not paying on time, but paying on time meant paying at the start of the year. Perhaps he sounded a little blunt, but when talking about money sometimes it was necessary to be blunt. The Bureau sent out invoices in November of the previous year, and started sending out notices of arrears in June. They had sent out a second notice of arrears in the past month. But he concurred that technically, countries which had not paid in 2015 were yet not in arrears.
+
+Mr. Mason thanked Mr. Patoray, pointing out that it could be difficult to move from established custom and practice back to what was said in the Convention, but this could perhaps be taken as encouragement to move back to what had been stipulated there.
+
+Mr. Pu commented that, just for clarification, according to the Chinese budget plan procedure, they would pay their contribution before the end of the year.
+
+Mr. Patoray reiterated that no-one was far behind, and that in the previous year almost all the monies had come through, but this had been a question which had come up from a Member regarding uncollected invoices which had to be accounted for at the end of the year. If Members wished this to be adjusted, it could be done without a problem. In previous years there had often been times when some Members had not paid for multiple years, but all were at present fulfilling their commitments.
+
+Moving on to Corresponding Members, Mr. Patoray said that in the current year there was again a mixture. Some Corresponding Members only owed fees for 2015, but those shown in red on the slide he presented were nearly at the point of being struck off for non-payment of three consecutive years. If they did not make a payment by the end of the current year they would unfortunately have to be struck off. Reminders had been sent out, but this was another Convention item which, though clearly stated there, had not been well followed in the past. The Bureau was in contact with these Corresponding Members, and was trying to get them to fulfil their obligations and at least pay something, because if they made a payment even of a small amount according to the rules they would not be struck off.
+
+Mr. Patoray said that there were a large number of Corresponding Members, and he very much appreciated the considerable number of them who were in the room, but there were also many from whom not much was heard, and who were not actively participating in technical work or other things. A watch had to be kept to ensure that all Members met their obligations.
+
+The resolution was shown and comments on it were invited but none were made. The resolution urged those who had not yet paid to do so, and reiterated thanks to those who had already paid, for the time and resources they were saving the Bureau.
+
+## 6 Report on developing countries matters
+
+## 6.1 BIML activities in liaison with other international organizations
+
+Mr. Dunmill informed Members that during the last year there had been cooperative activities, often together with the BIPM, with UNIDO and some discussions with the representative from the ACP-EU TBT Programme. Those who had been present the previous day would have heard from all three organizations during the seminar, but he would now speak about the other cooperation there had been
+
+during the year. He would also speak of the work with the DCMAS Network, which most of those present would also be familiar with from previous years.
+
+During the past year, Mr. Dunmill told the meeting, most of the work with UNIDO had been following up on the AFRIMETS Legal Metrology School, which had been held in Tunis in October 2014. Since then there had been an article in the OIML Bulletin about it. It had been a very successful event, and during the time of the School, UNIDO had asked for comments from the participants so that this feedback could be used to improve future events of a similar kind. UNIDO had then worked with those comments and with the pictures, video, etc. which had been taken, to produce a results booklet. This booklet had been made available the previous day, and Mr. Dunmill said that if anybody who had not been present the previous day would like a copy, this could be sent to them later or electronic versions could be provided. The booklet explained what the program was, what the lectures were, how the whole ten days had worked out, and could be used as a tool to market such events and show how they could be of benefit to other regions. A similar booklet had been produced for the previous metrology school two years earlier, which had concentrated on scientific metrology, so now there were two. It was professional looking, hot off the press the previous day because Mr. Dunmill had visited UNIDO a couple of weeks previously, before it was finished, and worked through a lot of the text, managing to complete it in time for the OIML seminar the previous day.
+
+UNIDO had also made a very short video of the same event, which had been shown the previous day; again, this was available and would be made available on either the UNIDO or the OIML website. Although it had been shown the previous day in incomplete form, there were interviews and other items to be added before it was quite complete.
+
+Mr. Dunmill said that a number of future activities had also been discussed with UNIDO. The whole problem of awareness-raising amongst senior government figures and politicians had also been discussed at the previous day's seminar, and UNIDO would like to produce, with the OIML and probably also the BIPM, a short brochure on the importance of legal metrology to an economy for awareness-raising purposes.
+
+For the last two years, Mr. Dunmill said, the DCMAS meetings had been held in association with UNIDO regional training events to help people in developing countries and with developing metrology systems.
+
+Referring to the ACP-EU TBT Programme, about which those attending the seminar had already heard, Mr. Dunmill explained that in its lengthy acronym, ACP referred to the fact that they helped specifically certain African, Caribbean and Pacific countries; it was an EU funded programme and their work aimed at reducing technical barriers to trade, which included metrology as a significant part. The organization was based in Brussels and had been responsible for funding almost all of the participants at the 2014 legal metrology school, putting a considerable amount of money into this. BIML staff had spoken to this organization about the possibility of a publication on the economic benefits of legal metrology, because they had economics experts available to them who might be able to help the BIML with finalizing the kind of publication on which they had already started work.
+
+Following the previous day's seminar, the BIML was already exploring with ACP-EU TBT and with the BIPM the possibility of them funding the production of a set of videos on the importance of metrology. There would be short and long versions to help explain the importance of legal metrology to an economy.
+
+ACP-EU TBT had made available a request form which could be used by countries within their remit to request help from their program funds. Any Members within the ACP-EU TBT area who were interested in this could contact Mr. Dunmill to obtain the contact details for these forms.
+
+DCMAS, for anybody who did not already know, was a group of international organizations working in metrology, accreditation and standardization. The members were listed on the screen. Membership was not fixed and could include others as it developed.
+
+The 2015 annual DCMAS meeting, Mr. Dunmill reported, had been held in Maputo (Mozambique) in conjunction with the UNIDO training course, run primarily for African least developed countries. This built on the format established in 2014 when the meeting and training course had been held in Poland, on that occasion with the training targeting the former CIS countries. These training events aimed to improve the knowledge of countries in the region on quality infrastructure. As DCMAS Network
+
+members represented the major players on an international level working in the quality infrastructure area, colocation increased efficiency by exploiting the opportunity of the experts gathered for the DCMAS Network meeting to lecture at the training course.
+
+At the DCMAS Network meeting one of the subjects discussed had been the possibility of changing the name of this network. This was proposed by the IEC to reflect the fact that the network also covered conformity assessment, and to acknowledge that the term 'Quality Infrastructure' was increasingly being recognized as the term covering the DCMAS Network activities (metrology, accreditation, standardization and conformity assessment). However, with no real international definition of the term 'Quality Infrastructure' consensus was not reached on a name change, so the current name remains, at least for the present.
+
+As Mr. Henson had mentioned the previous day during the seminar, Mr. Dunmill said, the OIML had been responsible for hosting the DCMAS website since the foundation of this network a number of years ago. The OIML was currently in the process of revising that website with an external design company as there were not sufficient resources in the Bureau to do it themselves, although it was hosted on the BIML servers. The website at the moment was difficult to use and partly as a consequence of this, information was not kept up to date. It had been established with a very limited objective, namely to provide some general information for general public use, but primarily to create an archive of the documents for meetings. This was essential because the network had a rotating chair, for which each organization in turn was responsible.
+
+The other point with this network was that the BIPM held the chair for 2015 to 2016, and the OIML would follow this by taking the chair from 2016 to 2017. Metrology was therefore currently at the forefront of the network's operations.
+
+Mr. Dixit suggested that the secretariat should prepare a working manual on the meaning of quality infrastructure for weighing and measuring instruments, as Mr. Dunmill had said there was no real international definition of this.
+
+Mr. Mason found this to be a very interesting suggestion. He was aware that even since the last debate on this matter in DCMAS there had probably been some further movement towards a more commonly accepted understanding of what quality infrastructure involved. It had been one of the features of the presentations made the previous day, and all of the speakers in the first session, he thought, had mentioned the phrase "quality infrastructure". They had all described it in what seemed to him to be almost identical terms. The suggestion of using DCMAS to produce a more comprehensive statement of what was meant by quality infrastructure should best, in his opinion, be addressed to the current chair of DCMAS. He asked that person to comment on the proposal.
+
+Mr. Henson reiterated that a proposal to consider renaming the network "the Quality Infrastructure Network" or something similar had been submitted before the last DCMAS Network meeting. Members would recall, however, that the PTB presentation the previous day had spoken of testing as a pillar; some of the others had considered conformity assessment as a pillar, some had just metrology, accreditation and documentary standards as a pillar. There was no consensus among the large number of organizations on there being a single definition, and with that lack of consensus it was not possible to change the name. There was no problem between the BIPM and the OIML; they were comfortable and described it fairly consistently which was satisfactory for them. The issue of conformity assessment became complicated, however, as one of the DCMAS partners, the IEC, had very specific and identified activities which they would want included, and others wanted testing; it would be possible to end up with so many pillars that it did not make sense. There was already a very good UNIDO document on this type of area, and ISO had also issued a document. Mr. Henson's own view was that over time the term "quality infrastructure" would become the recognized term, as it was the most widely used one. Although people might argue about its detailed definition and what exactly was meant by it, its intent was well understood and all that was needed was more time. To him, it was a much more meaningful term than the DCMAS, which was not known anywhere. Quality infrastructure was a well-recognized concept and, other than arguing about the fine terms of its definition, it was also a well understood concept.
+
+Mr. Henson went on to say that the DCMAS Network was not an organization that produced material of its own, but rather a means of allowing the participant organizations to discuss and collaborate where they were able to do so. The next step for the immediate future would be to focus on reworking the website, which was not that easy to use and did not attract very many visitors.
+
+Mr. Mason thanked Mr. Henson, adding that he thought it was important to recognize that if there were existing documents of this kind, particularly the UNIDO one, which already addressed issues, then the challenge was perhaps to make sure that they were more widely understood and available. He imagined that there would still be a need for this to be addressed in a little more detail, simply by virtue of the fact that the website was being revamped. Even if DCMAS itself did not produce documents, it would in some sense be producing web pages, so it seemed likely that they would return to the question, though not necessarily with the sort of document that Mr. Dixit was suggesting. Exercising Chairman's prerogative, he wondered whether it would be helpful for the OIML to reflect on what had been said about how, as an organization, they saw themselves interacting with what they understood to be quality infrastructure. His own thought on this, which he had expressed the previous day, was that in fact the OIML had to recognize that when it came to legal metrology they were not interested only in the metrology pillar of quality infrastructure, but had to recognize that their activities involved a form of standardization, standards making. They were a standards-making body and not purely a metrology body. Similarly, some of the work they were involved in through their certificate system, if not formal accreditation, nevertheless brought them very close to an activity which was quite similar to accreditation. Finally, he said, many Members were themselves in the business of operating laboratories which were engaged in conformity assessment, so they had an interest, certainly as individual Members, in how conformity assessment was viewed as part of infrastructure. He would certainly suggest that this approach was the appropriate one for the OIML, when it came to address questions of quality infrastructure. If this was not a universally held view, this might be a good opportunity to see whether others were uncomfortable with how the OIML was engaging with the other members of the quality infrastructure family.
+
+Mr. Dixit said that two years previously, in a CPR meeting, this had been discussed regarding accreditations based on ISO/IEC 17025 for MAA certification. On that occasion the PTB representative had reflected the point that they did not want any type of third party assessment. They were self-competent and they wanted only peer assessment. Based on that, several decisions had been taken, so his request in the forum was to factor that ILAC or ISO people were doing legal metrology. They had no knowledge of technical issues relating to legal metrology, they only had the document that checked whether this or that document had been made or was correct. This was to be decided by legal metrology. So there should be clear-cut guidelines about some of the certification systems, otherwise ILAC or ISO would just jump over the CIML and the OIML.
+
+Mr. Mason thanked Mr. Dixit for his observations. He said he had chosen his words very carefully when he had referred to accreditation type activities and not Accreditation with a capital A. He thought there was a continuing debate about how one arrived at the level of confidence necessary to give formal status to conformity assessment activities when they were operating under an OIML umbrella. The right forum to continue to have those discussions was in the work that would be taking place on the new certificate system. He asked Dr. Schwartz whether he had anything to add, as he would be doing the work.
+
+Dr. Schwartz replied that they were just at the beginning of the revision of the MAA and of converting it into the certification system. He suggested that it be taken into consideration later, after experience had been gained. There were enough matters needing immediate consideration, but this point would be put in the minutes and kept in mind.
+
+Mr. Mason suggested that the absence of further comment was putting the OIML into a position not far off the IEC one, which was that conformity assessment activities were part of that broader understanding of what a quality infrastructure was, even if that was, of course, separate from the question of the individual international organizations that were involved in the network, or indeed what it called itself.
+
+Mr. Henson added, for clarity, that the terms of reference for the DCMAS Network already included conformity assessment, which had been added to the ToRs some years after the collaboration had been
+
+established. The argument had been a somewhat prosaic one, about the name of this network. The issue for the IEC was that the initials of the title, an acronym of 'Developing Countries Metrology, Accreditation and Standards' did not adequately reflect this widened remit.
+
+Mr. Mason said that it sounded as if everyone was in agreement and closed the discussion on this item.
+
+## 6.2 Advisory group on countries and economies with emerging metrology systems
+
+## Report by Mr. Guo Su on CEEMS activities
+
+Mr. Guo Su said that on behalf of the advisory group he was very glad to be reporting on CEEMS activities over the past year and plans for the following year.
+
+The activities of the past year, he said, had followed the plan made at the previous year's CIML meeting - namely to continue collecting surveys and also to hold seminars for CEEMS. In addition to the 2014 survey they had also collected the 2015 survey during the CEEMS seminar in Chengdu, which had been attended by about 100 people.
+
+They had discovered that the main areas CEEMS were interested in were prepackaged goods, weighing instruments and a several types of dispensers. Mr. Guo showed the needs in both categories. Some CEEMS countries were also interested in the management of the metrology system in their countries.
+
+The seminars held over the past year were firstly Legal Metrology in Daily Life, which had been held in Chengdu on 14-15 May 2015, and also other similar seminars in the wake of this meeting. The Chengdu program had included keynote speeches from each country, followed by case studies on site in three different places. There had been very fruitful group discussions and a summary. Mr. Guo showed a slide with photos of speakers from different countries and also photos of the case studies. They had visited a local market, a social hospital and an electricity meter verification center in order to demonstrate on site how China managed its metrology system in these areas.
+
+Mr. Guo said that a very comprehensive summary report had been published in the July OIML Bulletin. He showed a picture of the group discussion and a brief summary of the last day of the seminar. He believed that Mr. Mason would give a comprehensive summary report of the Arcachon seminar held during the current week.
+
+After the Chengdu seminar, Mr. Guo said, the survey and needs of the CEEMS had been summarized. In order to respond to these needs and resolve any issues, after the Chengdu seminar they had drawn up some proposals for a long term plan based on the surveys and a needs analysis. They had followed the terms of reference of the advisory group which had provided information for RLMO training, they had held seminars to answer the needs of the CEEMS countries, and had also provided concertation for the needs of the CEEMS countries. They wanted to do this on a regular basis and build up a database to provide more opportunities for the CEEMS countries. The proposals also included building OIML CEEMS virtual training centers involving network cooperation with expert involvement, eventually with many training centers, but the intention was to first set up a pilot site to see what would happen and maybe build more afterwards.
+
+The Chinese Government, Mr. Guo told Members, had shown interest in hosting such training centers, so they had chosen a pilot site. The main tasks in the proposed network were:
+
+- a training course: the plans for the training course, based on their experience, were that:
+
+o it should last for a short period, maximum seven days;
+
+it must focus on common interests such as the needs of CEEMS countries; and
+
+o it should be on a regional basis, so that more regional CEEMS countries could participate.
+
+- capacity building consulting: the advisory group wanted to invite an OIML expert to be involved in this, to act as consultant to the CEEMS countries on:
+
+o metrology and measurement systems;
+
+how to manage their measuring instruments;
+
+market surveillance laws and regulations;
+
+the MAA;
+
+laboratory requirements; and
+
+personnel development.
+
+- test procedures: this element should be based on the previous training course. This test procedure was basically an interpretation of the OIML Recommendations. After that, they could publish the test procedures and collect some video clips of the test procedures for certain measuring instruments.
+
+- attachment training: this should be long term in order to be more effective and efficient, so the proposal was for one to three months - perhaps in some areas this could be extended to between six months and one year. About ten people should be selected from a CEEMS country per year to attend the OIML CEEMS training center. The trainer would be from the NMI, the provincial metrology unit, and the CMA, or Central Metrology Authorities.
+
+The conclusion was that the air fare could be paid by the trainees, but if there were real financial difficulties, the OIML CEEMS Training Center should think of ways to resolve this. Accommodation, food and local transportation for the trainees should be borne by the OIML Training Center. In the case of China, the supporting organization might be the AQSIQ, which was a CMA, and also the Chinese national measurement institute and the provincial metrology institutes. Industrial associations might also contribute.
+
+Mr. Guo thought that by 2020 China could train about 100 people from CEEMS countries, and they would try to apply for some special donations, and also a supportive fund from central government. The target group for training was administrative and technical staff. People who might be very important in industry or in social organizations would be chosen by CIML Members.
+
+Mr. Mason thanked Mr. Guo for his report, adding that several very interesting ideas had emerged since Monday's seminar. One of the tasks for the OIML in its discussions on both these proposals and the ideas coming out of that seminar would be how to bring them together. He suggested that at this stage any questions should be addressed to the advisory group about its general work program and activities. Some CIML Members might have questions about the specific proposals put forward, but he suggested that these might be better addressed after looking at the other ideas that had come from Monday's seminar, and all the ideas could be debated together. He therefore asked only for comments on the report Members had just heard.
+
+Mr. Onyancha wanted to thank the People's Republic of China for hosting this important seminar. It really tackled the issues that were troubling emerging economies in terms of their metrology. The content had been comprehensive and had dealt with the real issues which were affecting the emerging economies in terms of capacity building and training. Kenya would also like to contribute to this program and looked forward to hosting one of the training centers.
+
+Mr. Mason thanked Mr. Onyancha for his endorsement and said that at the end of their discussions they would probably be looking to the CIML as a whole for their endorsement of a number of these ideas.
+
+## Report by Mr. Mason on the Arcachon CEEMS seminar
+
+Mr. Mason thanked P.R. China once again for its initiative and for its contribution to both the advisory group and to the two seminars. He attached great importance to the contribution they had already made and to the resulting proposals.
+
+Monday's seminar, Mr. Mason told Members, had followed on from the format devised for the seminar in Chengdu, namely that three broad areas for CEEMS work had been identified:
+
+- the first was capacity building, i.e. the efforts made to assist CEEMS countries. This encompassed many familiar training initiatives, but also embraced the specific proposals put forward by the advisory group in its report;
+
+- the second distinct area was to consider what the OIML could do specifically to help countries in this community improve the effectiveness and the efficiency of their market regulation. On a number of occasions they had heard that there was a desire for countries to improve the way that national regulations were enforced, but one of the major difficulties they faced, in common with most other Members, was a lack of resources to revise their regulations and carry out other projects that countries with more developed and mature metrology systems could do;
+
+- the third theme was that of new ideas in legal metrology. In both seminars many very interesting new ideas had emerged. Another challenge was how to capture those ideas and to share best practice.
+
+Mr. Mason also wanted to highlight some common themes that had been raised, particularly from the Monday seminar.
+
+Regarding capacity building, Mr. Mason said, most of the actions that could be carried out in this area would involve working with others. It was not feasible for the OIML to organize training courses and assistance programs on its own, and this had been confirmed by both seminars. On the other hand, the OIML had been able to identify the willingness of a number of organizations that were active in this area (for example UNIDO, the EU through its ACP program, the BIPM, and also various bilateral programs) to make things happen. The OIML needed to make sure that legal metrology featured in those programs, which was something they could do.
+
+Moving on to the help that the OIML could offer, having listened to the presentations by liaison organizations, the required help was already available. The organizations that were active in these areas already recognized the potential for legal metrology to feature in their programs and so this first hurdle had been overcome. There remained the issue of how best to take advantage of this situation, but the outlook was encouraging.
+
+Another point was that all the speakers had focused much of their activity on a wider quality infrastructure agenda, that of helping this community of countries to improve all aspects of their quality infrastructure, of which legal metrology was a part.
+
+When the question of what more needed to be done had been asked, the answer had been that, apart from continuing with what was already being done, and making sure that this was an important part of the OIML's agenda, the OIML should make sure that what metrology could do was expressed in appropriate terms. The clearest example of this was the need to align what the OIML was doing with matters such as the UN sustainable development goals. All the responses had been very positive from that engagement with those external organizations that the OIML had been able to attract to the seminar on Monday.
+
+What the OIML itself could do, in cooperation with other organizations active in this area, was:
+
+- to create a database of experts; this corresponded with some of the advisory group's ideas. These were not separate themes - the advisory group had helped shape the agenda of the two seminars. In the modern world of greater interconnectivity, using internet tools was now easier to do, to provide up to date information and actually give the experts themselves self-service rights, so that they could update their own details. This had been suggested by a number of contributors;
+
+- to develop the OIML website, which should be seen as a potential source of up to date information in the capacity building area;
+
+to develop the BIML's direct engagement in capacity building activities. What the BIML did together with representatives from individual Member States, including Mr. Mason himself, was already valued. A good example of this was the AFRIMETS legal metrology school which had been held in Tunisia the previous year, which had been reported on at the seminar. No dramatic upturn in activity was envisaged, but the CIML should confirm and endorse that they expected the Bureau to engage, at that level, in this sort of activities.
+
+- to improve the skills and experience of staff in CEEMS countries by providing them with secondment opportunities. This was one of the elements in the proposals of the advisory group, but there was scope to do that within the Bureau itself. Mr. Patoray was open for proposals.
+
+Mr. Mason noted that there were a number of actions that the OIML itself could undertake. The training centers, as proposed by the secretariat of the advisory group, should be thought of in general terms, because this was not just a proposal of what China would do in isolation; the proposal was that China should act as the pilot in order to see if worked, following which other states could find ways of doing something similar. Working with the advisory group, the CIML should ensure that the best use was made of that pilot; if it turned out to be a successful model, there would be an opportunity to explore with other Member States what they could do.
+
+Mr. Mason noted with appreciation that Kenya had already offered to host a seminar, but advised his Kenyan colleague to look carefully into the matter before committing himself, as hosting a seminar involved committing considerable money and resources. It was more probable that the developed Members would be asked to consider doing something similar, but for the moment there was a need to consider the matter in detail to work out how it could be integrated with other OIML activities.
+
+The second theme identified, Mr. Mason continued, was what contribution the OIML could make to improve the way traditional regulation operated, i.e. the making and enforcement of rules through recognized mechanisms such as type approvals, verification systems, inspection, etc. When these elements had been discussed at the Arcachon seminar, a number of thoughts had been identified which would be familiar to many of those present. One of these was to make more effort to ensure that OIML Recommendations really were relevant to the CEEMS membership. The other, which had featured more prominently than previously, was the need to explicitly address the requirements of the CEEMS community in the OIML certificate systems. As Mr. Mason had said before, the OIML had failed to sufficiently promote what a really well functioning certificate system could contribute to individual countries looking for a better and less expensive way of achieving greater assurance of the quality of the products in their market place. These were the two objectives which had come out of that part of the discussion. The solution often put forward was that there simply had to be greater involvement of the CEEMS community in technical work. The only way of ensuring that the Recommendations were relevant and that the certificate system was meeting the needs of this community, was for representatives of that community to be involved in that technical work.
+
+One of the successes of both recent seminars was being able to obtain clear feedback from Members in the CEEMS areas as to what they were looking for. The best way to do this was to make full use of modern technology. Everybody found it difficult to travel to as many meetings as in the past, in particular technical meetings, but the members of the CEEMS community found it even more difficult to participate in meetings of that kind.
+
+A number of new OIML publications had also been suggested at the seminar, Mr. Mason told the meeting, notably in support of the general themes of participation in Recommendations and the way the certificate system operated. Several specific proposals had been identified; Members would recognize at least two of them as being pieces of work that were already taking place, but there had been particular interest in the OIML doing something more on market surveillance, in advising on good techniques for carrying this out, alongside the more traditional ways of performing legal metrology tasks. There was a clear demand for the OIML to produce documents in this area. Mr. Mason regarded this as positive, because the people who were asking for them were already familiar with the documents that were currently available. They were not asking for something completely different, but for similarly helpful documents to be produced in other areas. This was a powerful message, and should be listened to. Mr. Mason told Members that this was a matter for them to decide,
+
+rather than something to be debated at the seminar because any new publications would require technical work, and therefore resources and funding. The CIML had to decide how producing this sort of publication would fit in with its existing way of working. As with all technical work,
+
+- who was to be the owner of any of these projects?
+
+could they be allocated to any existing TCs and SCs or to a new one?
+
+should they fall under the leadership of the advisory group?
+
+were they something which needed a different ownership model?
+
+- who was going to do the work? There was a well-established model where most OIML technical work was done by Member State conveners, sometimes working together with the Bureau. But if more was to be done in this area, the question arose as to whether that model was the right one or whether there were alternative models, some possibly still involving collaboration between the Bureau and an individual Member State, others possibly using external experts.
+
+Moving on, one particular suggestion had been made (which the OIML could not do, but other countries perhaps might) which was to look at market surveillance not just nationally but in a coordinated way across borders. It had been pointed out that this was already done to a degree in the European Union, and Mr. Mason had heard some examples from Africa also. It was already happening, but there was a clear message that a lot of countries did not have the resources to carry out good market surveillance projects on their own, but, coordinated with similar nearby countries it would both be more affordable and yield a better result.
+
+Both the Chengdu and the Arcachon seminars had produced a wealth of new ideas. The question was now whether the OIML should attempt to list, prioritize and schedule new ideas, or should we rather concentrate on providing the mechanisms for sharing and evaluating new ideas?
+
+- one of these ideas was the documents and guides already discussed;
+
+- the second, mentioned a number of times, was the use of the OIML Bulletin, for which it was often difficult to obtain enough articles to fill its quarterly editions - with recognition that one of its purposes was to share new ideas, so this could be a good way of sharing successful experiences with the rest of the OIML membership;
+
+- the third was the website, on which much work was being done to turn this basic tool into a useful support for technical work, and in future it was hoped that it would be the first port of call when considering new approaches to OIML work;
+
+- fourthly, Mr. Mason confirmed that seminars could be effectively used to share and evaluate new ideas, as had been proved by the two very successful seminars held to date;
+
+- finally, though perhaps less traditionally used to spread ideas, was the role of research. It was not sufficient to simply share existing information, the OIML now had to play a role in generating some of that information, and this was done by means of research.
+
+Taking a wider view, Mr. Mason affirmed that legal metrology was about regulation, self-regulation was about regulation, and self-regulation was a part of legal metrology.
+
+Finally, Mr. Mason said, there had been some common themes across all of the areas discussed at the Monday seminar. One was, in his words, that "the OIML had a small pot of money but a large pool of goodwill". This was the way to approach what the OIML could contribute in this area. The second concept was that in order to make an impact it was essential to reach beyond the legal metrology community, to touch the policy makers, whose decisions ultimately affected how legal metrology was practiced in each and every Member State in both the developed and the less developed world. This advocacy role should be seen as a core function of the BIPM as well as the OIML. Thirdly, research was important in capacity building, in improving regulation and in generating new ideas, and this had been a common theme.
+
+Concluding his summary, Mr. Mason said that he hoped his two fellow panelists from the Monday seminar felt that he had done justice to a very wide-ranging seminar. He had not discussed with the Bureau exactly how to publish everything that had been said there, but he was sure a means would be found to make more of the detail available.
+
+In terms of what to do next, he had tried to turn the various items he had just spoken of into a potential resolution which would guide what was done in that area over the next few years. He would circulate this on paper so that Committee Members could study and comment on it. Inevitably, this was all being done at the last minute, as fresh ideas and experiences were being dealt with. He would take a few questions at once, but discussion of the detail of the resolution would need to be timetabled for a later stage, during the final vote on resolutions. He invited questions.
+
+Mr. O'Brien asked for more detail about the proposed pilot CEEMS training center. He wondered whether it would be similar to the metrology schools that AFRIMETS had successfully run.
+
+Mr. Mason replied that this was broadly speaking the case. However, it would concentrate on specific areas such as weighing instruments or prepackages, whereas the AFRIMETS school had not had time to enter into sufficient detail. The format would be similar in other respects.
+
+Mr. Guo added that this OIML training center would take the form of a network. Also, they hoped for support from organizations such as the NMIs, the provincial metrology institutes and the CMAs. It was not a site like a school, but rather a network of experts.
+
+Coming back to Mr. Mason's presentation, Mrs. Lagauterie (BIML translation) pointed out that one system need not exclude another. There could be a need for certain training of a general nature, for example on model laws on metrology or on organization in general, and then training sessions directed at specific subjects or specific categories of measuring instruments. This system was used for the ongoing training of agents and technicians in the metrology service all over France, and the two aspects were complementary.
+
+Mr. Mason thanked Mrs. Lagauterie for her comment, which would certainly be taken into account.
+
+Mr. Madzivhe asked for clarification of the form of this training or network proposed by China. If it was not a site, what would be accessed for information, and how would it work?
+
+Mr. Guo replied that once the training center was formed, there would be at least a web page on the OIML website, or a separate website to announce training information. Of course, they would request help from the BIML to announce such information to all the Member States.
+
+Mr. Madzivhe asked what content such announcements would have - would they be announcing that training was available, or would they be saying the information was there to be read?
+
+Mr. Guo replied that the titles of the available training courses would be based on needs as revealed by the survey. Once these were known, a relevant program would be developed and announced to the Member States.
+
+Mr. Mason suggested that these ideas now needed to be worked on in more detail, but at the moment they were being asked to consider whether, in general terms, that sort of thinking, offer and support from a Member State could be endorsed by the OIML. For at least some of the detail of this proposal, the Chinese colleagues needed to know they had OIML endorsement of the general approach before they could obtain the support and the finance necessary to work out the fine detail. Mr. Mason then asked Dr. Kochsiek and Mr. Carstens, his fellow presenters at the seminar, whether they would like to add anything.
+
+Dr. Kochsiek said that there were a lot of international and regional donor organizations (such as the World Bank, the EU Commission, US Aid) and individual donor countries (such as Germany). In his opinion the BIML should have the task of bringing the large pool of willing helpers together with the small pool of funds. In his experience, quite often CEEMS countries were looking for knowledge, and donor organizations were looking for countries in which to create or improve the infrastructure including metrology, accreditation and so on.
+
+Mr. Mason agreed that some donor organizations were already willing to support the scheme - some had been present at the seminar on Monday - and others might do the same with a little more urging.
+
+Mr. Carstens added that competency was a big issue in most of the CEEMS. Training should be explored more because it was important for competency to be raised and be uniform as far as possible across all countries. He also made a plea for a repository of training material to be collated by the BIML for use by other training organizations.
+
+## 6.3 Special project aimed at developing countries
+
+Mr. Mason said that the draft resolution circulated to Members needed a lot of work to be turned into a proper resolution, and that after reading it he wished the Committee to consider whether it was better to continue the discussion on CEEMS matters immediately or to postpone further discussion until the following morning, when up to an hour would be available.
+
+## Peter Mason:
+
+The CIML will be invited to recognize that continued efforts are needed to assist in building the capacity of legal metrology institutions and staff in CEEMS countries and that we would take the opportunity to instruct the BIML to continue its efforts to participate in capacity building activities through training courses and other regional activities organized by others. That is, us endorsing the level of activity that the Bureau is already engaged in.
+
+I think the next element is to express our support for the work of DCMAS which we heard about yesterday, and to urge the Bureau to continue to work with the various bodies of DCMAS, which include all of the elements of the quality infrastructure at international level, but in particular the BIPM.
+
+The third element, and this addresses the point that Manfred Kochsiek and Stuart Carstens made before the break, is that we should approve the proposal to use the OIML website as a source of up to date information on capacity building initiatives, including a feasible database of experts.
+
+The fourth element would be to invite the Committee to endorse the proposal of the advisory group to establish a pilot training center and to encourage our colleagues in the People's Republic of China to give support to this initiative. Obviously, I will be interested to hear from our Chinese colleagues whether alternative wording would be more helpful in that part of the Resolution.
+
+The next element is to urge Member States to study the results of this pilot and to consider whether they wish to initiate something similar, and we have already had the expression of interest from Kenya, in considering what they can do in this area.
+
+The next is to address this question of secondment and to encourage Member States themselves and Corresponding Members to look for opportunities to second staff to the Bureau. We have already heard from the Director that the Bureau itself would welcome such nominations, in particular where the objective is to develop the skills and experience of the nominated individuals.
+
+The next one is a request to all of the technical committees and the sub-committees to take note of the interest that so many of our CEEMS Members have in ensuring Recommendations take more account of CEEMS needs. There are many elements of that, but I think if we make a general message to the technical committees and sub-committees, that hopefully will be sufficient.
+
+The next is to instruct the certificate system Project Group which we are hoping to set up, if one of our later resolutions is passed, to ensure that the CEEMS needs are addressed when they develop their proposals for the new certificate system, the proposed new Basic Publication and the other add-ons.
+
+The next element would be to instruct the Bureau to take account of the need for greater involvement of the CEEMS community in technical work when they develop the website's functionality in supporting technical work.
+
+The next element is to instruct the B 6 review Project Group, if that also is approved by one of our later resolutions, to take account of the need for greater involvement of the CEEMS community when they are carrying out the work of reviewing B 6, if that is passed.
+
+The next element is to urge the conveners of the two projects which have been mentioned and which are already under way, namely the CTT document in TC 3/SC 6 and also the prepackages certification guide which TC 6 is working on, to bring that work to conclusion as quickly as possible.
+
+The next element is to urge Member States to propose conveners for some of the other documents that have been proposed during the two seminars. On the slide, you will recall, there are a number of specific suggestions in that area.
+
+The next element is to instruct the Bureau to pay particular attention to the role of the OIML Bulletin and the role of the OIML website in facilitating the exchange of new ideas, and in particular new approaches to legal metrology.
+
+The next item would be to approve the approach of us looking for use of the small amount of funding that we have in the special fund to support research which can promote or evaluate new approaches to legal metrology, and to give an instruction to the Director to take this into account when he is considering projects.
+
+The final item is to frame a request to the office holders of the Committee and the Bureau to take particular account of the needs of CEEMS when involved in activities relating to Objective 5 in the OIML Strategy. This is the one which talks about promoting to policy makers the importance of legal metrology, and indeed metrology itself, so I think we are asking the Committee to endorse the element of advocacy that came out of the Monday seminar.
+
+Mr. Mason went on to say that the above were the elements that he would see as being proposed to the Committee to approve and to include in its response to what had been heard. There might be new items to add, there might be items that some members of the Committee felt uncertain about, and there should certainly be a proper debate on this. Mr. Mason's question at the moment was whether that debate should be continued immediately or the following morning, when Members would have had more time to consider what was in the draft resolution and to propose specific changes, and the opportunity of the secretariat to express the CIML resolution in more appropriate language.
+
+Mr. Mason therefore asked anyone in favor of continuing the debate at once to make their opinion known. Colleagues had expressed a preference for returning to it the following morning.
+
+Mr. Dixit thanked Mr. Mason for this proposal for developing countries. He asked for a request to be made also to manufacturers, because they were the most important factor. They were everywhere in every country installing instruments and they had to show the instruments they made to local metrology officers. They might give good training at the time of installation as to how it might be calibrated and even verified, for people who did not know about such things. For example, if instruments from ten countries came into India, and all the manufacturers came to one place to demonstrate their technology and how they sealed and stamped the goods, and the inspectors answered all their questions, in this way future problems would be resolved. This would be one type of training, which could be organized by manufacturers' organizations or even by the leading manufacturers themselves. This was one solution. Another was that India had the Indian Institute of Legal Metrology, which had all the residential facilities and equipment in one place. If other countries' officers were interested in undergoing any type of training they could approach UNIDO for example.
+
+Mr. Mason thanked Mr. Dixit, adding that the question of how to involve manufacturers in this package was an interesting one. Since at the moment they were trying to decide whether to have the debate at once or the following morning, he asked the manufacturers' representatives who were present whether they would be available the following morning. The CECIP representative said he would be available then.
+
+Mr. Mason said that he would take that as a vote in favor of postponing discussion until the following morning.
+
+Mrs. Van Spronssen said she was not in favor of having the debate at once, but wished Members to think about the question of secondment, what period of time was envisaged and who would bear the cost.
+
+Mr. Mason said the resolution was not a detailed work program or a detailed commitment. Not enough time was available to do that, but they might consider whether there was scope to do this. The alternative was to say that if a resolution of this nature was adopted it would give direction to both the CIML and the Bureau as to how they should support the following year's budget discussions.
+
+Mrs. Lagauterie asked whether, since the resolution proposal was so long and diverse, and needed to be studied, it would be possible for herself and her French-speaking colleague to have a version in French. She was happy with the discussion taking place the following day.
+
+Mr. Mason replied that they would attempt to make such a translation available.
+
+Dr. Ehrlich said that he also was in favor of delaying the discussion until the following day, but wished that discussion to include clarification of the request to relevant TCs and SCs to "take more account of CEEMS needs", and how it would be implemented.
+
+BIML note: The following detailed discussion of Resolution no. 2015/10 took place on the last day of the CIML meeting but is published here in the context of item 6.3 for ease of reference.
+
+## Discussion of the draft resolution on CEEMS
+
+Mr. Mason asked for comments, observations and questions on the text of the draft resolution. He said this was an important text because it represented the OIML's opportunity to put on record its approach to a wide variety of matters of interest to the CEEMS community. He started by inviting general comments on the approach that had been adopted, and, alongside that, items that Members might have expected to see in a resolution but which had not been included.
+
+Mr. Dudle made the general comment that the resolution was rather long. One way out of this might perhaps be to take one or two of the listed points which clearly addressed other Project Groups and to move them to another resolution. For example, point 8 instructed the certificate system Project Group to do something, but for the certificate Project Group it might be easier to include that directly in its own resolution. The same could also be said for point 10, which instructed the B 6 review Project Group to do something.
+
+Mr. Mason commented that this was an interesting solution, which he would have been keen to adopt if more time were available. Unfortunately, at the moment he was not sure what principles should be followed in separating out the different elements of the resolution. This had had to be done very quickly, even though it had been for extremely good reasons, i.e. in response to a seminar which had taken place only three days previously, and in which there had been a wide variety of views and comments covering an enormous range of subjects. He asked Mr. Dudle whether he could give clear guidance on splitting the resolution, as otherwise it would give rise to extra administrative work, and there was not enough time for this to be done properly.
+
+Dr. Schwartz said that the question had been raised the previous day of a request for 11 TCs and SCs to take note of the demand... and so on. He could live with this, but on the other hand he was not quite sure whether the other aspect should not also be considered: CEEMS countries could be encouraged to actually participate in the technical work. They had the opportunity to do this, and, while it was the job of the technical committees to take into account the needs of CEEMS, it would be good if they had the opportunity actively to participate. He was not unhappy with the present formulation, but there had also been a comment the previous day to the effect that CEEMS countries should also be encouraged to accomplish something on their own.
+
+Mr. Mason said that, given that there was no numbering system, in order to make resolutions easier to read it would be possible to adopt a principle of separating out the different audiences for the different elements. Clearly the Bureau, Member States or sub-sets of Member States were being asked to carry out specific actions. Identifiable individuals, namely Project Group conveners and TC/SC secretariats, were being asked to do other things again.
+
+Mr. Kool said that it would certainly be possible afterwards to try to regroup the different elements that were currently in the draft resolution; however, some of them belonged together because they addressed the same issue. For instance, if the Bureau was instructed to do something, this was done in several places because it was addressing different issues.
+
+Mr. Mason said that he had thought there was something in the resolution about encouraging CEEMS Member States, and indeed other Corresponding Members, to take the initiative in a number of ways. If this was not already in the resolution, then he thought it should be added.
+
+As a follow-on to Dr. Schwartz's comment, Mr. Richter said that he was the person who had raised the issue about TCs and SCs ensuring that Recommendations took more account of CEEMS' needs. He had requested the other day, but had not received, some additional clarification as to how it was envisioned that this would be implemented.
+
+Mr. Mason replied that "implemented" was perhaps the wrong word to use for such a general requirement. In practice, it would provide a form of encouragement to conveners to add this to the number of things they thought about in the way that they conducted their work; this would hopefully not be too onerous in most cases, but it certainly gave them clear guidance that if members of the CEEMS community, especially those that had elected to join as P-members, made suggestions, then conveners should pay attention to them. Finally, also, it meant that when a Recommendation was put to the Committee, if someone said "this is irrelevant to our needs and we asked for some other work to be done, but this was not done", then the Committee would want to take this into account. This was the way in which a resolution of this nature generally took effect. It was not a direct instruction which could be implemented in the way that could be done with some other types of resolution, and certainly he believed that Dr. Schwartz was right in saying that there needed to be two sides to this: conveners should listen to their CEEMS members, but CEEMS members themselves needed to make their views known.
+
+No further general comments being forthcoming, Mr. Mason moved on to the detail of the resolution. He hoped that all Members had had an opportunity to read the different elements in the order in which they currently appeared. He invited comments on the specific drafting for each element, saying that this was sufficiently important for the CIML to go through them one by one.
+
+BIML note: The elements of this resolution are reproduced in blue above the discussion to facilitate reference to them.
+
+1) Recognizing the continued efforts that are needed to assist in building the capacity of legal metrology institutions and their staff in countries and economies with emerging metrology systems (CEEMS)
+
+Commenting, Mr. Madzivhe wanted to check whether there was a way of categorizing CEEMS in order to know who was at which level and how they must be helped, or whether this was just a generic term to cover Corresponding Members or new members of the OIML.
+
+Mr. Mason replied that this was definitely self-categorization, where there was not a direct link with the state of development of a country, its institutions or its economy. This was one of the consequences of the wording the OIML used. Mr. Mason put himself in the position of someone responsible for the metrology system in his country: the first question he would ask was whether he was happy with it. If so then it was a mature system that he might be changing at the edges, but which was mature and not emerging, so his was not a CEEMS country. He thought that, for any Members who were in that position of responsibility for their broad metrology systems (not just legal metrology systems) if they looked at it and said they were not happy with it, and there was a lot more to do, then that was a CEEMS country.
+
+2) Instructs the Bureau to continue its efforts to participate in capacity building activities through training courses and other regional activities organized by other organizations
+
+This was an authorizing resolution, supporting the Bureau in the current level of activity which it was able to do within the current budget and within the plans approved at the last Conference.
+
+3) Instructs the Bureau to continue to work with the constituent bodies of the DCMAS Network, in particular the BIPM, in identifying new initiatives where the OIML can make a direct contribution
+
+This third item again instructed the Bureau to continue the work with the constituent bodies of the DCMAS network, in particular the BIPM, in identifying new initiatives where the OIML could make a direct contribution. Mr. Mason was proposing this wording in order to recognize that the CIML expected the Bureau, in particular in its liaison activities, to work closely with the other organizations with an interest in quality infrastructure, and most particularly the BIPM, because the default assumption in this area had to be work in cooperation with the BIPM rather than completely independent activity.
+
+Mr. Johnston said that he saw the first part ("expressing support") as an instruction, but the major part of the instruction was to continue to work with the DCMAS Network, which included the BIPM,
+
+identifying new initiatives; he was not sure why this expression was needed as it seemed redundant. Again, in the following item he thought this also should be an instruction, "... instructs the BIML to ... in such a way, etc." Here again he felt the wording caused the item to lose directness.
+
+Mr. Mason replied that these were helpful comments and that these drafting changes could be made because the CIML was authorizing the Bureau to do certain things whereas, bearing in mind that the Bureau worked for the CIML, they normally instructed them. He suggested recasting the wording of both of these items to be instructions to the Bureau.
+
+4) Instructs the Bureau to further develop the OIML website such that it may be used as a source of up-to-date information on capacity-building initiatives, including training materials and, if feasible, a database of experts available to contribute to such work
+
+This item, Mr. Mason said, would also be an instruction to the Bureau.
+
+Mr. O'Brien said that with relevance to the resolution under discussion, he had thought that the CIML was considering making training resources available on the website as well as information about courses. If that was the intention, it would be useful to include this in the resolution, as well as the calendar and information about events.
+
+Mr. Mason welcomed this as a valuable suggestion; certainly he had interpreted "information on capacity building initiatives" as encompassing that, but adding the words "including training materials" before the words "and, if feasible a database of experts". "If feasible" had to be retained because the Committee had not gone through the implications of advertising the availability of experts on the website; there could conceivably be problems about the nature of approval or endorsement given to people whose names went onto the list. These details needed to be considered, but this was a clear encouragement to do it if the problems were not too serious. This, he summarized, was a broad instruction to the Bureau to make the most of the website, and of course some of that work was already ongoing.
+
+## 5) Endorses the proposal of the advisory group, set up by Resolution no. 2013/9, to establish a "pilot training center" and encourages the authorities in P.R. China to give their full support to this initiative
+
+This item, Mr. Mason said, concerned the advisory group chaired by the CIML Member for the People's Republic of China. So they were endorsing the proposal to establish a pilot training center, and encouraging the authorities in the People's Republic of China to give their support to this initiative. Mr. Mason said that he was particularly looking to his Chinese colleagues present to confirm that they were happy with the wording of this draft.
+
+The Chinese delegate affirmed that this was the case.
+
+Mr. Mason added that this was also clearly an expression of support on the part of the Committee as a whole for the proposal they had heard about the previous day. There had been an opportunity on that occasion to ask questions about it, but if there were other questions this was the time to pose them.
+
+6) Urges other Member States to study the results of this first pilot and to consider, in the light of an evaluation of the pilot, whether they are able to initiate something similar
+
+Mr. Mason said there had already been an expression of interest from Kenya. This also, Mr. Mason believed, committed the OIML to carry out some evaluation of the training; this would probably be done by the mechanism of the advisory group, but the resolution did not determine exactly how it would be done. The whole idea of a pilot was to study how it worked and take lessons from it to be applied elsewhere. Certainly no Member State was committed to doing this themselves.
+
+7) Urges both Member States and Corresponding Members to consider opportunities to second staff to the Bureau in order to develop the skills and experience of appropriate individuals
+
+Mrs. Van Spronssen asked what sort of skills it was thought might be developed, and also about the costs of people who might spend time at the Bureau.
+
+Mr. Mason replied that in referring to skills and experience, what was really being said was that the primary purpose of a secondment was to develop the skills of that person, rather than for the Bureau to acquire an extra "employee". The seconding organization should discuss with the Bureau what skills they wished to be developed. There obviously needed to be a fit between the skills that a person already had, the skills that they would be developing, and whether, in developing those skills, they could make a contribution to the work of the Bureau. The other question was one of cost. It had been made clear that it was not expected that large amounts of money would be spent on such programs, as no such monies were provisioned for in the budget. If it were to be turned into a major program it would need to be properly identified in the budget proposals at the next Conference. In practice, it would probably mean that a seconding organization would still have to be responsible for paying the salary of the person sent to the Bureau on these terms, but that the Bureau should be prepared, if the money could be found in the existent budget, to support living costs and certainly the other costs of having someone on the premises. The fact that the Director could make this offer meant that he believed that within the current budgetary framework it was possible to do something of this kind.
+
+## 8) Requests relevant Technical Committees and Subcommittees to take note of the demand from CEEMS to ensure Recommendations take more account of the needs of CEEMS
+
+This was something which had already been touched on. Members would note that the word was "request". Mr. Mason had noted the previous day that it was possible for the CIML to issue "instructions" to technical committees that were doing work, but that word had deliberately not been used here because this was a more general requirement of the kind which Mr. Mason had discussed in response to the question from the USA.
+
+9) Instructs the Certificate System Project Group (CSPG), established by Resolution 2015/18, to ensure that the needs of CEEMS are addressed in the OIML Certificate System
+
+Mr. Mason commented that again, it would be a lot easier for them to do that if at least one member of the CEEMS community participated in the work. He did not know whether any of the six people who had already volunteered for this Project Group were from CEEMS countries, but he urged people who were to consider joining this work.
+
+10) Instructs the Bureau to take account of the need for greater involvement of CEEMS in OIML technical work when further developing the OIML website's functionality in supporting the technical work
+
+Mr. Mason clarified that those working on the website should make sure that what they did was potentially usable by all OIML countries.
+
+11) Instructs the Project Group for the revision of OIML B 6:2013 Directives for OIML technical work (see Resolution no. 2015/13) to take account of the need for greater involvement of CEEMS in OIML technical work when drafting the revision of B 6
+
+Again, Mr. Mason said that the same comments applied as for the certificates Project Group; it was as much an instruction to Mr. Mason himself, as chair of that group, as to anyone else. He would also welcome Members from the CEEMS community to that Project Group, though he wanted to make it clear that there would be a lot of hard work involved.
+
+12) Urges the conveners of Project Groups TC 3/SC 6/p 1 Premarket surveillance activities and TC 6/p 5 Guidance for defining the system requirements for a certification system for prepackages to bring their work to a conclusion as soon as possible
+
+Mr. Mason explained that his reason for including this had been that these were two of the documents mentioned at the seminar as being the sort of publication that the CEEMS community was really
+
+looking to the OIML to produce. He asked New Zealand and South Africa whether they were content with that wording.
+
+Mr. O'Brien replied that with respect to the conformity to type project, the group accepted the urgency and undertook to bring it to conclusion as quickly as possible.
+
+Mr. Marneweck said that South Africa also accepted the urgency for their work to be concluded.
+
+## 13) Urges Member States to be ready to propose conveners for projects to produce other documents proposed during the two seminars organized in 2015
+
+Mr. Mason said that these projects were not yet far enough advanced for conveners to be sought. The projects first needed to be thought about more and then proposed. There had been a list with several examples, one of which had been a suggestion of a guide directly addressing market surveillance. He wanted to say that the OIML urged Member States to be ready to propose conveners - this still contained the reference. There was not time to go through all the suggestions that had been made at the seminar and to decide which of them was close to being a project to put forward and which was not. Mr. Mason underlined that one of the consequences of the OIML accepting that they wanted to do more work in this area was that there was more work to be done. That meant that here would have to be either Project Groups with conveners or possibly some other way of generating documents. This element of the resolution was there to make it clear that that would be part of the OIML's future work.
+
+## 14) Instructs the Bureau to pay particular attention to the role of the OIML Bulletin and the OIML website in facilitating the exchange of new ideas, and in particular new approaches to legal metrology
+
+Once more, this was a reference which was to give a mechanism for responding to so many of the ideas that had been generated both in Chengdu and in Arcachon. The Bulletin was already being used and there were already plans for the OIML website to be extended in this way; this was not just the authorization but the instruction to the Bureau that this should be part of their activities.
+
+## 15) Notes the particular contribution that research can play in promoting and evaluating new approaches to legal metrology, and instructs the Director to take this into account when considering projects which can be supported by the special fund created by the 14th Conference
+
+Mr. Mason explained that this was again general wording to acknowledge what had come out of the Seminar discussions about the role that the OIML, often in association with others, could play in producing research, among which the evaluation of ideas that had already been produced. Mr. Mason thought that one of the things which had also come out of the general work on the international organizations was the increasing emphasis on evaluation as part of modern approaches to regulation. Basically it was only possible to evaluate if there was a preparedness to spend some money on researching and carrying out that activity. So this was an authorization and an encouragement to the Director to use the small amounts of money that the OIML had in this way, alongside any other proposals that there might be. This was obviously not authorizing new expenditure.
+
+## 16) Requests its President, Vice Presidents and the Bureau to take particular account of the needs of CEEMS when involved in activities related to Objective 5 in the OIML Strategy (OIML B 15:2011)
+
+This had been included, Mr. Mason said, in order for Members to recognize that one of the things that he, the Director and Assistant Directors were involved in was representing the views of the legal metrology community when they had opportunities to discuss OIML activities with a wide range of people. He had included the Vice-Presidents because he thought it had to be recognized that the elected Members of the committee had a particular potential role in representing the organization as a whole, but again he saw it as an authorizing element in the resolution. It authorized activities that were already taking place; it did not state what level of activity was expected. It was relevant to the conversation that had been held two days previously concerning the use of the travel budget.
+
+Dr. Schwartz said that he had just checked what was meant by Objective 5 and it was "in cooperation with other metrology bodies to raise awareness of the contribution that a sound legal metrology infrastructure can make to a modern economy". He could fully agree to support this objective.
+
+Dr. Miki said that it was the same for him. Also as a convener of the round table he ran the round table to achieve this objective.
+
+Mr. Mason said that no new level of expenditure was envisaged associated with this. The mix of this activity alongside others was something which should be considered the next time the budget was looked at, at the next Conference.
+
+Dr. Ehrlich said that he very much appreciated all of the work that had gone into developing this resolution. These were all very important matters, and he looked forward to it all moving forward, although he said he was a little surprised at this being put forward as a resolution at present. He had not anticipated that, and several times along the way cost implications had been mentioned. He was not able to tell what the cost implications of agreeing to this resolution would be, so he was rather reluctant at the moment to vote in favor. Clearly there would also be a lot of work ahead to achieve this, but he would like some time to think about those before being asked to vote on this resolution. He asked whether it could be done online or in another way because if the vote was taken now he would have to abstain.
+
+Mr. Mason asked Mr. Patoray to comment on the budgetary implications.
+
+Mr. Patoray replied that obviously a budget had been approved which extended until the end of 2016. It was his responsibility to ensure that the budget stayed within those numbers, and there was nothing in the resolution that would indicate anything other than staying within the current budget limitations that had already been passed in 2012. There would be no expenses or expenditure beyond what the budget allowed. Members had seen that over his years in office expenditure had stayed within the limits set. In the projection for the current year the result was more positive than anticipated. There were monies to spend within the amount that had been allocated for developing countries; this amount was not spent yet, although these resources would not stretch very far.
+
+Mr. Mason underlined that fact. He had drafted virtually every word of the resolution himself, and he had done so in the knowledge that the OIML was obliged to stay not only within the overall budgetary limit set by the Conference, but also the balance of activities implied by that. He could give an absolute assurance that he did not see this resolution as committing the OIML either to higher levels of expenditure or to a significantly different pattern of expenditure from that which had been agreed at the last Conference. Nor did he think that it committed the Conference to take a fundamentally different approach to the way in which it decided the financing of the organization. If he had thought there would be any change to the way OIML activities were financed, the resolution would have been worded differently. He certainly completely supported and concurred with what the Director had said, i.e. that this did not commit the OIML to extra expenditure above that which had already been authorized, nor did it change in a significant way the pattern of expenditure, and it did not commit the OIML in advance of the Conference to doing things substantially differently. This would not prevent some Members, if they so wished, to argue at the Conference for a different approach.
+
+Ms. Vukovič said that she was more concerned at the additional work that Members would have to do as a community to realize all these resolutions. Additional work would generate more costs, which meant additional costs to additional Member States. The main dilemma here, however, was whether as a community Members were prepared to do additional work to achieve the goals they had set themselves.
+
+Mr. Mason thanked Ms. Vukovič for her observation, which was an important one. If there were new projects, then the way that the OIML operated was that the bulk of the work would fall on Member States that took an active role in the project, often only a small number of them. However, again, what had not been done was to make a commitment to any projects above and beyond those which had already been authorized. Any new projects would be subject to the same procedures that already existed for approving work. It had been seen the previous day that the Committee took its responsibility for approving projects seriously, and the reason it did so was that, when projects were approved, not just the Bureau but also some Member States were committed to doing some additional work. Again, this was why there was a need for a clear idea of who was going to be a convener before a project was approved. There was no commitment at this point to doing work of that nature regardless of its impact.
+
+Dr. Ehrlich thanked the President for his clarification about possible costs to the Bureau. He had appreciated very much the comments from Slovenia; this had been as much his concern as cost to the Bureau. He had also been referring to cost to his own budget and to his workload.
+
+Mr. Madzivhe said that South Africa was generally pleased with the resolution, but, as had been stated, there should be some work around the CEEMS issue. During the seminar, a question had been asked as to what was being done to extend actions to European countries, and what was being done for some Asian countries. So there was an issue as to what exactly CEEMS was, which for him was not clear. There should be some work to establish whether a country was emerging or established, and where it wanted to be, rather than self-declaration. Generally speaking, he thought, as Member States the objective was to try to improve metrology systems in all Members. The way the budget was spent might also change, but they could not say that they could not do something for economies with emerging metrology systems for ever, and should also establish what the benefit was for all countries. It could not be said that some countries must remain at the stage they were at and that others had too much - this would be a problem. When he looked at informing, aiding, encouraging and support from Member States, where one might not wish to do so, there was no forcing or saying you must do so. But it could not be said that the status quo must remain and the gap must be bridged. Everybody wanted to see metrology systems improved, in all Member States, but they could not start from the same base. So South Africa was pleased with the resolution but also wanted efforts and commitment to ensure that the interests of all Members were served.
+
+Mr. Mason thanked Mr. Madzivhe for his comments. He said that there was obviously an option at various points to take a more fundamental look at the balance and role of what the OIML should do; the Conference was the time to do that. What had deliberately not been done here was even to discuss the possibility of a significant change in the balance of OIML activities or indeed a policy based on, for instance, the assumption of being able to attract significant additional Members and significant additional resources. He knew that a number of Member States would have reservations about any such proposal, but the Conference was the time to discuss that. Equally, there was also the question of what in particular the developed countries were able to do themselves on a bilateral basis to augment everything that had been done here. He thought a number of individual countries had already been seen, within their own budgetary frameworks, to undertake a lot of activity. Some countries were better placed to do this than others. He had wondered about adding a resolution directed in particular at Member States to do more individually and outside the OIML framework, but he had not felt that that was appropriate. It would also probably generate a lot more discussion than was possible at the moment.
+
+Mrs. Lagauterie (BIML translation) thanked the BIML for providing her and her French-speaking colleagues with a French translation of the resolution, and hoped it could be updated as it did not fully correspond to the English original. She went on to say that she understood perfectly the worries expressed by her US and Slovenian colleagues, but she equally understood Mr. Mason's response to this, and the referral to the Conference for certain decisions. Nevertheless, she thought it was essential that an appraisal of the decisions contained in the resolution should be done and presented to the Conference, to reassure a certain number of delegations. Of course any other developments should also be subjected to the same appraisal and study of the cost implications.
+
+Mr. Mason thanked Mrs. Lagauterie and said that indeed everything possible would be done so that when considering the budget, Conference delegates had all the relevant information to allow them to come to considered conclusions. He considered that the level of support was now good enough for a vote to be taken on this alongside the votes on other resolutions.
+
+## 7 Liaisons
+
+## 7.1 Report by the BIML on liaison activities
+
+There was no discussion on this item which was covered by BIML Additional Meeting Document 50CIML-AMD-04, which had already been provided to Members.
+
+## 7.2 Reports from / presentations by Liaison Organizations
+
+## BIPM
+
+Mr. Henson reminded Members that the BIPM currently had 57 Member States and 40 Associate States and Economies. Over the past year the BIPM had welcomed two new Member States: Firstly Lithuania had transitioned from Associate to Member State. This was very pleasing for the BIPM, as the CIPM formally encouraged those Associate states whose development had reached an appropriate level to make this transition. In the past there was concern that some Associate states were very active in the CIPM MRA, yet remained Associates. In 2011 the General Conference had changed the rules so that Associate states which had been Associates for at least five years and which had reached a certain level of engagement were encouraged to become Member States, and if they did not, they started to have their subscriptions increased in steps over five years. The impact of that policy was starting to be seen. This was the first state that had actually made the jump from an Associate with increasing subscriptions to becoming a full Member State. The BIPM was very pleased that this had happened.
+
+Secondly they had also recently welcomed the United Arab Emirates as their newest Member State. This was very timely, because at the CIPM meeting the previous week, after Mr. Henson had written his report, the CIPM had accepted the application by GULFMET to be recognized as a new regional metrology body, on a provisional basis, for the Gulf region. It was about three and a half years since they had made the formal application but they had been working hard during this time developing their structures and capabilities. With provisional status they still could not submit CMCs through the RMO and they could not vote, but otherwise they fully participated in the meetings and the reviews. There would now be a period during which the states continued to build their capability, and it was hoped that at some point in the future they would make the transition to full recognition as an RMO. The key challenge for them was the limited number of countries that were members of GULFMET, and the even more limited number with significant metrological capacity at NMI level.
+
+The BIPM had also lost two participants. Sri Lanka had not paid its subscriptions as an Associate for three years had been excluded at the end of 2014. Since that time there had been contact, and Sri Lanka had indicated that it would try to cover the outstanding debt and hoped to be able to participate again in the future. The BIPM had concluded a rescheduling arrangement with the Dominican Republic, a Member State which had a long outstanding debt, but this country had failed to make any payments in 2013 and 2014 of either its contribution or its rescheduled payments and had finally been excluded at the end of 2014. Since that time the Dominican Republic had approached the BIPM and a diplomatic meeting had taken place. The Dominican Republic had indicated that it was very keen to rejoin, and asked that a case be put to the next General Conference in 2018 asking Member States to reconsider the level of debt. There were some diplomatic interpretations related to the Treaty that they felt should be considered by the Member States, and the BIPM would be working ahead of that to make information available to Member States so that they could properly consider that case. It was somewhat analogous to the situation of Iran, which would also be making a similar case. The difference was that Iran had been making payments under the rescheduling arrangement, and was paying current contributions and had therefore remained a Member State. The debt repayments had now been frozen because of the appeal, but they had already paid back a considerable amount of money and they were also going to take their case for consideration by BIPM Member States in 2018. It was going to be a busy Conference because there would be other important issues, not least of which was the redefinition of the SI, to deal with at the same time.
+
+The 25th General Conference in November 2014 had dealt with a number of issues. Of course, work was proceeding towards the new SI; this was probably the most fundamental development at a scientific level, but it was enough to simply summarize developments because OIML experts were
+
+already well attuned to this. Matters appeared to be well on track for the redefinition in 2018. It was not possible to be absolutely sure; scientific results would be accepted by CODATA data up to July 2017, but the reality looked as though they were achieving convergence on the mass experiments and the others were also progressing well. They were close to (or already) meeting the criteria set by the Consultative Committee that would allow the redefinition to take place. The expectation was definitely there that redefinition would take place, and work was progressing well on the mise en pratique, i.e. the ability to actually realize these units in new definitions.
+
+The General Conference had marked a very significant change for the BIPM in the way CIPM Members were elected: they were now all elected each time and for the term of the General Conference. It had also seen quite a significant turnover: there had been seven new people, and also some of the remainder had only been provisionally elected shortly before that, so it was probably the biggest turnover in the history of the CIPM. There was also a lot of new energy, which had been very evident during the launch of the review of the CIPM MRA. A meeting had been held for this in the previous week involving the NMI directors and a significant number of stakeholders, to review the preparations for the review. A lot of groundwork had already been done. It looked as though the timetable would give the review group, which had now been established, a period of about a year to make detailed recommendations, as it was clearly necessary to be very cautious. The community had a massive investment in the CIPM MRA as it existed at present. The recognition was that it was doing a good job, but could the same job be done with fewer resources than were used at present? They also expected to see a new KCB database with improved functionality, though this could obviously not be designed until the result of the review was known.
+
+The BIPM had held a couple of significant workshops, one on the GUM and the proposed changes in it. There was a lot of controversy around this, but Mr. Henson thought that in reality Working Group 1 and the JCGM, which the OIML was part of, would respond positively to the concerns raised by developing a new framework for the future development of the GUM. They would meet in June 2016, and then we should have a clearer idea of the direction.
+
+Another important workshop had been related to carbon metrology, which was becoming very significant. There were carbon trading schemes, where the question was being asked whether a ton of carbon when it was counted one way was the same as a ton of carbon counted another way. The science of understanding what was going on in the carbon cycle was also still under discussion. This was a huge issue which was moving, and, as Mr. Mason had earlier said, there might even be a time when this became an issue for legal metrology. At some point down the line, it was quite likely that people would want to regulate carbon in some way. This would probably be a "watch this space" issue for the years to come.
+
+Regarding working with the BIML, Members had probably already heard most of the points. What Mr. Henson would really like to say was to confirm that the relationship was extremely good, with very effective interaction between the two teams. He had spoken in detail on many occasions about directions and initiatives and in fact the two organizations also represented each other when necessary. For example sometimes it was just not possible for both to attend all of the meetings and so they presented each other's slides or viewpoints. They also discussed the positions they were going to take on a number of topics, so really the relationship was going very well. One of the big joint initiatives concerned World Metrology Day. If anyone present was from a country with an emerging metrology system who felt that their government did not recognize well enough what they did, Mr. Henson suggested that they should go and look at how other countries used World Metrology Day to raise the profile of metrology very significantly. In the context of World Metrology Day, Mr. Henson and Mr. Dunmill had also visited Azerbaijan earlier in the year and had been on prime time television for half an hour, talking to the whole nation. Many countries organized significant events around World Metrology Day - offering Members a sneak preview, Mr. Henson said that the tag line for 2016 would be "Measurements in a dynamic world", and Members could interpret that as they wished. It could be the top end of metrology, dynamic measurements, or it could be interpreted more generally as meaning measurements made in a changing world. They tried to choose tag lines that could be used and supported by Members' individual circumstances.
+
+Mr. Henson said that he also wanted to take a moment to speak of ISO CASCO Working Group 44 on ISO/IEC 17025, as the topic had been raised a number of times. The BIPM was also obviously very
+
+interested in this, and he was a member of the working group. He had attended all three of the WG meetings and would be part of the drafting team which would meet in January to address the comments that would be submitted on the Committee Draft and to prepare for of the next working group meeting in February 2016. He pointed out that he operated under a CIPM mandate, outlined in a position paper adopted by the CIPM so that it was clear to Mr. Henson what they wanted him to achieve. These were very predictable things such as maintaining the requirement of traceability to the SI, and also maintaining normative references to the VIM. For the BIPM, it was also very important to avoid calibration being classed as conformity assessment per se, because that could have obliged NMI bodies to comply with any legislation that was intended to cover conformity assessment bodies, and that was not appropriate for the NMIs. So far they had been successful in doing that. The BIPM would also like some recognition for the CIPM MRA as a mechanism for assuring the international acceptability of calibration certificates issued by participating NMIs and DIs. More generally he pointed out that many of the challenges related to the CASCO requirement for the revised standard to follow a common structure set for the 17000 standards, to integrate an option to use the management clauses from ISO 9001 and around a question related to whether organizations that undertook sampling, but not the testing or calibration, were within the scope of the standard. So far things seemed to be proceeding in a reasonably satisfactory manner, although the imposed common structure was, in his view, not necessarily a step forward. The BIPM was busy projecting the core values but Members might well have a particular national view on how things should be done. He advised Members to speak to their national standards body and make sure they communicated their views to this body in order for them to be represented.
+
+The big news for the BIPM, which had been very active in the OIML CEEMS seminar, was that they had launched a capacity building and knowledge transfer program (the BIPM CBKT Program). This was a voluntary funded program to allow the BIPM to support Member States and Associates with emerging metrology systems. The BIPM recognized that for some time now all advanced economies had already been participating in their activities, and thus as new Member States and Associates were added, they were invariably CEEMS states. One of the major needs was to help ensure effective participation in the CIPM MRA. This applied both to states and economies familiar with the CIPM MRA but stepping up to take leadership roles for the first time, and those states and economies that were engaging with the CIPM MRA for the first time. Funding had been agreed for two training courses, one of which would probably take place in November 2016, preparing chairs, future chairs and working group conveners, because these played a really important role since much of the BIPM's work was done at regional level. In 2017, for those who were first engaging in the CIPM MRA a second course would help them navigate their way. During both those courses, Mr. Henson explained, there would be an integrated day's training at the BIML on legal metrology, because many of the individuals were from institutes that dealt with both legal and scientific metrology. Of course, they would be working closely with the BIML on how to accomplish that.
+
+The BIPM would start a new work program in January 2016, details of which could be found on the website, broken down into projects and deliverables.
+
+Finally Mr. Henson referred to changes in his own team at the BIPM. After many years Claudine Thomas, who had previously been Head of the Length section, and who had played many roles including as the Executive Secretary of WG2 on the VIM, and who in recent years had been KCDB Coordinator, had now retired. Her place as KCDB coordinator has been taken by Suzanne Picard, who was also continuing some duties as a CC Executive Secretary and as a scientist in their ionizing radiation department.
+
+Mr. Henson invited questions.
+
+Mr. Dixit asked whether any agreement had been signed between ILAC and the BIPM to follow ISO/IEC 17025.
+
+Mr. Henson replied that the BIPM had an MoU with ILAC, but the MoU addressed the way the two organizations cooperated, so did not specifically mention ISO/IEC 17025. Various ILAC policy documents and the CIPM MRA, meant that both organizations supported both compliance with ISO/IEC 17025 and SI traceability. He added that the BIPM operated to ISO/IEC 17025. The BIPM
+
+met each year with ILAC, with the OIML and with ISO to discuss matters such as these standards and their interactions together. So yes, they had an MoU, and the revision of ISO/IEC 17025 was one of the items that would surely be discussed at the next meeting, which would be in March 2016.
+
+Mr. Dixit asked whether the CIPM also followed the ISO/IEC 17025 revision.
+
+Mr. Henson confirmed that, as he had explained earlier, his negotiating mandate for what he was asked to achieve in the ISO/IEC 17025 CASCO Working Group 44 was set by the CIPM, and that he reported back to them. Furthermore the CIPM had appointed a former CIPM Member to help advise Mr. Henson in preparing for the meetings and the subsequent comments. So yes, the CIPM followed the developments.
+
+Ms. Mikanadze commented that regarding the traceability issues Mr. Henson had mentioned, in the new version of ISO/IEC 17025 as far as she understood from the draft there was no differentiation between testing and calibration laboratories. The chapter remained general, it seemed.
+
+Mr. Henson confirmed that this was correct at least in the current draft. He believed that the traceability part was not so much of a problem, it was the reporting part which the BIPM would be challenging. The approach that was being taken by the working group at the moment, although there was not absolute agreement on this, was that the traceability part was really rather simple. It required traceability to the SI where possible, or to reference materials or agreed international procedures where not possible. An informative annex contained further information; if it remained as this more general approach, then at least in the traceability part he did not foresee many problems - he saw more problems in the reporting part, but they would analyze the comments which came in on the CD.
+
+Ms. Mikanadze said that the problem was that, for example, there was no requirement for calibration laboratories to have a calibration program or other important issues, just traceability to the SI, and the various informative annexes which Mr. Henson had mentioned did not contain mandatory requirements since they were purely informative. The commenting period, as far as she understood, was until November 17, so if member countries did want to comment, she did not know whether they had the first Committee Draft available.
+
+Mr. Henson replied that the first Committee Draft was certainly with the national standards bodies, and they had an obligation to make it available to their stakeholders if requested, so it should just be a case of contacting the national standards body, expressing the wish to comment and requesting the draft, which he encouraged members to do. There was a real need for the NMIs to take a good look at it and pass on their views.
+
+Mr. Mason recalled that Mr. Henson had told Members of his formal position on working group 44, and in fact the status of Mr. Kool's participation was also of an equivalent level, so the OIML was also engaged in this process in a similar fashion. He reaffirmed what he had said earlier concerning the sort of developments in thinking that had taken place, particularly in the last year, about the extent to which both the BIPM and the OIML saw it as their remit to argue with policy makers for a proper understanding of the role that metrology could play in a modern economy, and, following on from that, the fact that he thought they were now at a position where working together on such initiatives was the default assumption. Sometimes they might very well do something somewhat differently, but he thought they were now approaching that as a recognized activity on both their parts. The default assumption was that they would work together in making such arguments.
+
+Mr. Mason then commented on the work on redefinition, mentioning the excellent work of Dr. Philippe Richard, the former CIML Member for Switzerland who was now a member of the CIPM. Mr. Mason asked about the effectiveness of the arrangements that the OIML now had to make sure that the legal metrology community was participating in this work on redefinition. This had been an issue when they had been running into the 2011 General Conference, he recalled, and he was not aware of the current arrangements for providing input into that work.
+
+Mr. Henson replied that the situation had been stable for a long time; all that was awaited now was for the scientific results to converge, which seemed very likely, and for the final decimal places to be fixed in the values of the constants. So they were not seeing a massive shift in the expectation of where this was going, which meant there was plenty of time for the community to make its views known.
+
+Dr. Schwartz added that the major concerns had been from the mass and weighing community. He fully agreed with Mr. Henson that the results had now converged so well that it was not expected that the fixing of constants at PPM level would have any influence.
+
+Mr. Henson added that at the moment the IPK, the international prototype, had zero uncertainty. After redefinition this would not be the case. Any mass would have some uncertainty, but it was at a level that was unlikely, he thought, to have a direct effect. There was a small effect for the electrical community, because the conventional values for the Von Klitzing and Josephson were being brought back into the system. There was a very small offset for them, but quite a lot of work was being done related to that, and, again, it was of greatest impact at the very highest levels in metrology and not at the day to day level.
+
+Mr. Mason pointed out that Mr. Henson had addressed the scientific aspect, but there was a parallel issue of communication and making sure that the changes that were being made were properly understood, not least within the legal metrology community. He asked Mr. Henson to say a little about the work on that.
+
+Mr. Henson replied that the CIPM had set up a communication group chaired by Professor Ullrich, the President of the PTB, which had already held its first meeting. They had called together some communication experts and were working on a plan so that there would be an organized communication campaign as redefinition in 2018 approached. It was certainly going to attract a lot of interest. Even in the current week, because the CIPM had recently met, he had received four or five emails from the press asking whether anything had happened. They were still some years away and the interest was already there, and hence a major campaign was being planned.
+
+Dr. Schwartz suggested that use could be made of the OIML Bulletin to aid in this campaign.
+
+Mr. Henson added, referring to Mr. Mason's mention of representation at high level, that he should perhaps have reported another activity. In November of the previous year, aligned with the WTO TBT meeting, there had been a seminar for the almost 300 trade negotiators in Geneva. At this seminar he had given a presentation about the role of metrology in conformity assessment. He had presented all of metrology, and indeed all of quality infrastructure, but with specific emphasis on metrology and legal metrology. This, he pointed out, was an example of the BIPM working on behalf of both organizations at a very senior level, in this case to help trade negotiators understand that to achieve their objectives metrology provided an important cornerstone and foundations that allowed them to get to where they wanted to go.
+
+## EURAMET
+
+Dr. Klenovský began by wondering why just one Regional Fundamental Metrology Organization was an OIML Corresponding Member, but said it was not up to him to decide such matters; his task was to give a short presentation about EURAMET's activities.
+
+Dr. Klenovsky first said that EURAMET's membership comprised 37 European NMIs, and countries which had association agreements with the EU. There were also some liaison organizations, Regional Metrology Organizations, the BIPM and some others.
+
+The Ninth General Assembly had been held in June, organized by Polish colleagues in Krakow; it had been attended by over 100 participants. Four BoD Members had been re-elected, and also three TC chairs. They had also adjusted the bye-laws to allow for a new position of General Secretary, and established an Internal Audit Committee, which was a requirement of the European Commission. The next General Assembly would be held in Oslo in May 2016. The new Chairperson elected at the Ninth General Assembly was Dr. Beat Jeckelmann from Switzerland. Dr. Klenovsky noted that currently there was no representative from Germany, the biggest European Union country, on the Board of Directors. This was of concern to some NMI Directors in Europe, including himself. The membership was spread over a number of European countries.
+
+The names highlighted in red on the slide Dr. Klenovský showed were the new TC Chairs. Again, there was a very good spread over all the European countries. Besides the Technical Committees, some special task groups had also been formed to address problems in specific areas such as energy, the environment and health.
+
+As Dr. Klenovský had already mentioned, the General Assembly had approved a new structure for the EURAMET Secretariat, which was a complicated matter. The secretariat was geographically located in two places, in Braunschweig and in Teddington, and after controversial discussions it had been agreed that a new position of General Secretary would be added to this structure, but up to the present time the Board of Directors had not been able to select a new General Secretary. The expectation was that because the Board of Directors was composed of people who were not professionals, they could not devote 100 % of their time to the work, so the expectation was that the daily performance of this task, i.e. the daily management of the Secretariat, would be taken over by the General Secretary. The advertisement was to be found in various media, if any of those present would like to apply for the job. EURAMET, Dr. Klenovský continued, also generated various Guides; basically those Guides had been taken over from European Accreditation, and they were now maintained by EURAMET. They also had a new document on the role of designated institutes, on which he would comment later. The General Assembly had also approved a new website. At the moment there were 19 calibration Guides and two technical Guides. The problem with these Guides was that they should be used by a wide community of calibration laboratories in Europe, but some of these laboratories were afraid that the requirements were probably more suited to the situation of NMIs and not to normal calibration laboratories. It was therefore necessary to be careful when drawing up such Guides to address this point. Dr. Klenovský showed some examples of EURAMET's existing Guides, which were available for free download from the EURAMET website.
+
+Like every organization, Dr. Klenovsky continued, a couple of years previously EURAMET had had to prepare a new strategy, which might be expected for such an organization. It consisted of:
+
+- engaging key stakeholders: EURAMET wished to strengthen cooperation with standardization bodies such as CEN/CENELEC and ISO and also with WELMEC as a regional metrology organization, with the EC Directorates, and with the Joint Research Centre;
+
+- increasing influence with policy makers: EURAMET worked with standards bodies and also with accreditation bodies; in the case of Europe, this was European Accreditation. He expected that the General Secretary would play a more important role in this respect, and he hoped EURAMET would use the EMRP/EMPIR results to influence policy formulation and implementation;
+
+- further developing R&D collaboration across Europe: following the funding from the European Commission EURAMET had to prepare a research strategy. They had to strengthen capacity building and pre-normative research. They had to think in advance because in a number of institutes many new scientists had been employed to work on EMPIR and EURAMET had to explore opportunities for research outside this 2020 EU research horizon;
+
+- supporting the European quality infrastructure: a lot of work had been done in simplifying the CIPM MRA. EURAMET had submitted a paper for the ongoing discussion about the revision of the CIPM MRA; a Guide was also to be developed on the designated institutes. They were planning on holding a workshop about that and they had to work also with European regional accreditation organizations;
+
+- delivering high value to members: there was the question of assisting countries with emerging metrology systems to develop metrological infrastructures. Some money was assigned for assistance in the EMPIR project for capacity building. There was a special focus group that dealt with this problem, building up metrological infrastructures in the new member countries.
+
+Dr. Klenovský mentioned that they had run research projects to the value of one billion euros both for EMPIR and EMRP. Members could imagine the sort of administrative tasks, transparency, and financial discipline associated with that.
+
+Dr. Klenovsky then spoke about the European Metrology Research Programs. There was now increased participation on the part of the NMIs and DIs of various countries in the subsequent stages of these metrology research programs but although on the surface participation was progressing well, some indicators showed that the gaps between the best and the less good performers were widening.
+
+This was a big challenge for EURAMET, which in the context of the EMPIR project was doing its best to close those gaps as the European Commission wanted all the NMIs to be at the same level.
+
+Dr. Klenovsky went on to mention various research courses run by EURAMET, some of the key courses being run every three years. All the information on these, and on the important metrology research program, could be found on the main EMPIR portal. He wanted to initiate some proposals from the area of legal metrology that would be taken up by this EMPIR program but this had not been very successful. From an impact point of view it would be very easy to demonstrate to the European Commission whenever something had been done in support of European legislation, so this would be very well accepted by the European Commission. However, it looked as though both communities, legal and fundamental metrology, still lived somewhat apart from one another. As an example, it would be necessary to develop a standard for the verification of taximeters, but such items had not been included in the program, though fortunately there were people in their institute who were able to develop such a standard based on GPS that would verify a taximeter on a normal road under normal traffic conditions. Unfortunately though, this had not been part of the program.
+
+Participation in this research activity was broader than might be expected: besides the NMIs and designated EURAMET institutes, there were also externally funded partners such as universities and research bodies all across Europe. The program defined who the eligible partners for the Horizon 2020 program could be, which could also include unfunded partners, because the idea was that that every research organization in the world who could contribute to the success of this research project should be allowed to participate. Dr. Klenovský reiterated that EURAMET would like to support the participation of even non-European unfunded partners.
+
+On the subject of the CIPM MRA, in EURAMET they had the problem that they had by far the highest number of designated institutes, which generated a lot of additional administrative work. Some of those DIs, which were expected to submit some CMCs, were not submitting anything, so EURAMET had to prepare a paper on the role of designated institutes in a regional metrological organization, under the CIPM MRA. A workshop would be held in Denmark at the beginning of 2016 about this challenge associated with designated institutes under the CIPM MRA.
+
+Dr. Klenovský told Members that the BIPM had recently launched a project to review the CIPM MRA, as some scientists or NMI directors were not happy with the progress of CMC approvals, which were relatively complicated within the RMOs as deadlines were not kept, etc. Compared with accreditation, approval of CMCs took longer. Work was ongoing on this simplification, and EURAMET was preparing an important paper to simplify and accelerate this process. Dr. Klenovský showed Members a list of various opportunities to streamline the process.
+
+Dr. Klenovsky's last slide showed that EURAMET had in the current year started closer cooperation with European Accreditation. Both parties had some urgent points to discuss with each other: for example, on the EURAMET side some said that the CMCs of some accreditation laboratories were too tight or too small, and that they were not supported by any inter-comparison. Accreditors would like automatic recognition of accreditation in EURAMET for NMIs and DIs for the purposes of CIPM MRAs. It was agreed that they would meet every year to discuss such items.
+
+In conclusion Dr. Klenovský said that in his opinion, in Europe there was a big increase in the manipulation of measuring instruments in legal metrology, starting with the manipulation of errors within MPEs; there were also suspicions about manipulations of measuring instrument software. For example, as mentioned earlier in the agenda, in Zambia there were various problems with manipulations concerning tank trucks, even in full view of citizens and the media. However, this would at some point also draw attention from the politicians. For example, Dr. Klenovský never complained that he did not have many questions from citizens about instruments such as water meters, electricity meters, gas meters and whether these instruments measured correctly, which was a challenge. EURAMET's studies showed that many such instruments were totally unfit to be used, but a number of steps had been taken to streamline the situation, and Dr. Klenovský also thought that the OIML should also work on that, because legal metrology was coming more and more under the spotlight of citizens, the media and therefore politicians.
+
+Dr. Schwartz thanked Dr. Klenovský for his report about EURAMET activities and also for his personal remark at the end, which he thought everybody would agree with.
+
+Mr. Dixit commented that Dr. Klenovský was apparently not satisfied with the verification system, that a lot of manipulations took place and that people were not happy, so he asked in which countries this happened most.
+
+Dr. Klenovský replied that there were suspicions of manipulation of software in fuel dispensers in certain countries where petrol was expensive, but declined to say in which countries in response to a further question from Mr. Dixit, who then asked what role OIML Members could play to reduce these problems.
+
+Dr. Klenovsky replied that there were notified bodies in Europe responsible for type examination certificates, so they would have to concentrate on validation and testing of software, even if it was a very erosive situation. For example for the tank truck problem WELMEC had decided to draw up guidance on various "tricks" that could be played during fuel transportation from depots to petrol stations, including error manipulation; this was also a typical problem encountered with fuel dispensers, some of which were faulty in some countries. Some very simple instruments such as water meters were totally unfit for their purpose, just because of the new system of lever taps which caused a very abrupt change in the flowrate, to which water meters were very sensitive. This could give rise to errors of 30 % in favor of the water distributors.
+
+## CECIP
+
+Mr. Banholzer, President of the CECIP Legal Metrology Group, thanked Members for giving him the opportunity to speak at the CIML meeting.
+
+He explained that CECIP was the European Association of Weighing Instrument Manufacturers, which had been founded in 1958 in Paris but which was now located in Brussels because it was closer to the European Parliament.
+
+CECIP members covered nearly all of Europe, forming a wide line stretching between Poland and Russia. CECIP membership currently comprised the associations of weighing instrument manufacturers from 14 countries (Austria, Czech Republic, France, Germany, Hungary, Italy, Netherlands, Poland, Romania, Russia, Slovak Republic, Spain, Switzerland and the UK). He stressed that it was the associations who were members of CECIP not the manufacturers themselves.
+
+CECIP represented the weighing industry in various different sectors: agriculture, pharmaceutical, medical, transport, production, warehousing and retail. A very wide variety of weighing instruments was now in use; for weighing instruments under the scope of the MID, catchweighers accounted for 42 % of instruments, filling instruments 36 %, discontinuous totalizing instruments 12 %, continuous totalizing instruments 6 % and rail weighbridges 4 %.
+
+Looking at NAWI instruments, four ranges were covered: up to 150 kg, 1.5 tonnes, 10 tonnes, and over 10 tonnes for truck weighbridges. Based on the largest number of weighing instruments, the main field was the smaller capacity instruments (up to 150 kg) which accounted for 78 % in Europe.
+
+Considering the industry behind CECIP, European weighing instrument manufacturers accounted for over 50% of the worldwide trade volume and comprised about 700 large and SME companies employing approximately 50.000 people with a turnover of some 3 billion euros in 2014. Exports accounted for 1079.02 million euros and imports 773.23 million euros in 2014. In addition, related industry accounted for some 4000-5000 micro companies (service providers and occasionally scales assemblers) totalizing about 10.000 employees.
+
+This was also the reason why CECIP worked closely together with the OIML, WELMEC and the European Commission; via the membership, CECIP also enjoyed direct contact with all the national authorities which was crucial to ensuring that effective, joint solutions were found to common problems across Europe.
+
+Mr. Banholzer explained that CECIP's primary objectives were:
+
+- to reduce barriers created by technical and administrative regulations relevant to weighing instruments;
+
+- to harmonize national regulations; and
+
+- to develop and promote proper and effective market surveillance.
+
+The CECIP General Assembly is held once a year. The board comprised members from different countries, a president, three vice-presidents, a permanent secretary (located in Brussels) and three different permanent working groups. One of the groups was the Legal Metrology Group (LMG); there was also the Business and Trade Group (BTG) which looked after trade and market surveillance, and thirdly the International Cooperation Group (ICG), founded only a few weeks previously, to build cooperation outside of Europe and to find solutions together with other associations. There were also ad hoc working groups which looked at specific issues.
+
+The role of the LMG was to analyze the relevant regulatory framework and to represent the industrial point of view in this legislative process. The LMG also participated in the work of international organizations.
+
+The BTG focused on securing fair competition within the European market, ensuring a proper and uniform control of instruments in service by the relevant authorities. Mr. Banholzer explained that to achieve this goal, the BTG collected and analyzed the market situation and advocated for the improvement of market surveillance, especially customs controls.
+
+The ICG had been set up with the objective to support OIML Members with one voice representing industry. It was therefore very important to work together with the CIML, notably for example when a new Recommendation was developed.
+
+CECIP's goals, Mr. Banholzer said, were:
+
+- to get closer to CECIP members by visiting their national associations - this was CECIP's daily job;
+
+- to provide support to national associations with seminars, workshops and impact assessments of new legislation and what it meant for manufacturers;
+
+- to improve the efficiency of the internal organization; and
+
+- to improve internal and external communication.
+
+Concerning cooperation, CECIP had held meetings with the Japanese Measuring Instruments Federation, the JMIF. In June they had visited Tokyo with the JMIF, where a major congress had taken place; they had exchanged much information on the Japanese way of thinking and discussed their aims. The JMIF was a large measuring instruments association in Japan, comprising 115 members and 14 supporting members.
+
+In the European Community, CECIP was in regular close contact with CECOD, the European Federation of Petroleum Measuring and Distribution equipment. They also enjoyed a close relation with FARECOGAZ, the European Association of Manufacturers of Gas Meters, Gas Pressure Regulators and associated Safety Devices and Stations. CECIP had also contacted the Chinese Weighing Industry Association (CWIA), which had visited CECIP in Frankfurt four weeks previously, and discovered that the two associations had similar issues which they wanted to focus on. They were now preparing the next steps to increase cooperation and the Chinese had been invited to the CECIP General Assembly in Vienna the following year, as also had the Japanese colleagues and US colleagues from the Scales Manufacturer Association (SMA), which was also in contact with CECIP. All this work was progressing, but slowly; it needed time.
+
+In conclusion, Mr. Banholzer said that CECIP's objective was to cooperate with these associations in order to arrive at a common approach on an international level in order to improve support to the OIML, to discuss legal metrology topics and decide on a common approach to various issues, to speak to the OIML and to other organizations with a single voice on behalf of the international weighing industry, and to exchange information on technical requirements arising from standards, OIML Recommendations, legislation and legal metrology issues. Mr. Banholzer felt that this was a big issue for CECIP and for everyone involved.
+
+Dr. Schwartz thanked Mr. Banholzer for his report and congratulated him on being nominated as successor to Mrs. Martens, who had received an award at the previous CIML meeting, and wished him
+
+every success in that position. He also thanked CECIP for the valuable input they had always given and, he was sure, always would give to many technical committees, sub-committees and Project Groups. The OIML would certainly continue to include CECIP as a liaison in active Project Groups.
+
+Mr. O'Brien also thanked Mr. Banholzer for his presentation and commended CECIP on their work in trying to develop a single voice for manufacturers' associations around the world. He thought that would be very valuable. He asked whether any international group with a formal structure was planned, and was also interested in hearing how Mr. Banholzer differentiated between the view of CECIP and the more general international ones.
+
+Mr. Banholzer replied that CECIP had started developing this idea, which was just an idea at the moment although he hoped it might lead to an international association of manufacturers as a counterpart of the OIML, which he thought would be a good idea. However, he had no idea how long it would take to reach this position.
+
+## ILAC/IAF
+
+Mr. Vinson said that he worked for COFRAC, the French accreditation body, and that he was also the ILAC/IAF liaison officer for the OIML. He displayed a slide listing ILAC/IAF objectives:
+
+- to maintain the Arrangements and to extend coverage into new economies;
+
+- to increase cooperation with all relevant stakeholders such as the BIPM and the OIML;
+
+- to act as a central hub to organize conformity assessment best practice; and
+
+- to provide assistance to developing countries by providing appropriate support to new accreditation activities.
+
+The idea, Mr. Vinson said, was to have a single worldwide program of conformity assessment which reduced risk for business, regulators and the consumer by ensuring that accredited services could be relied on.
+
+ILAC membership, Mr. Vinson said, covered the accreditation of laboratories and also, since 2012 inspection bodies. IAF membership and activities covered the field of certification of management systems such as the ISO 9000 series, certification of personnel and certification of products. In 2012 ILAC/IAF's MRA activities were extended to include inspection. Accreditation body members were deemed competent through a peer evaluation process involving ISO/IEC 17011 (currently under revision) and the IAF/ILAC "A" series of documents. COFRAC was due to undergo peer assessment by its European peer assessors the following spring, and once they had successfully passed this peer assessment they would become a member of the ILAC and IAF MRAs. The signatories were obliged to recognize certificates, reports and results issued by organizations accredited by other signatories without further tests and evaluations.
+
+At the moment there were 89 Full Members (signatories to the ILAC MRA) representing 74 economies; the MRA covered testing, calibration and inspection, and more than 49000 accredited laboratories and 8000 accredited inspection bodies. Mr. Vinson showed a map of the very large ILAC coverage.
+
+Mr. Vinson explained that there were 60 IAF MLA signatories representing 55 economies covering management system certification, product certification and others. The coverage of the IAF MLA was quite broad.
+
+Mr. Vinson showed a slide of the pyramid structure. At the top was the accreditation system; then came the conformity assessment bodies, which covered testing, calibration laboratories, inspection bodies, certification bodies; then came the self-evaluating product and service providers. It could be added that this would be an extension of the European and international MLAs, also the PT providers and RMP producers.
+
+Concerning specifically ILAC-OIML cooperation, the ILAC/IAF/OIML Memorandum of Understanding had been renewed in October 2014 in Vancouver and a joint program had been established with the OIML. One main task over recent years had been to set up a joint ILAC/OIML assessment procedure in the field of legal metrology, which was published by both ILAC and the OIML in December 2014. The procedure covered the tests and the recognition of tests performed
+
+within the framework of the OIML MAA. Members would know that there were two routes to this, either by accreditation or by peer assessment, and the idea had been to make sure that both routes led to similar recognition.
+
+At the moment, Mr. Vinson said, a review was ongoing of the joint publication OIML D 10/ILAC G24 Guidelines for the determination of calibration intervals of measuring instruments. There had also been a common presentation by the IAF chair, Randy Dougherty, the ILAC vice-chair, Merih Malmqvist Nilsson, and Peter Mason of the OIML, to an OECD meeting on Fostering the contribution of internal organizations to better rules of globalization, in April 2015 in Paris.
+
+Speaking of the common denominators for cooperation between ILAC, the IAF and the OIML, Mr. Vinson identified:
+
+- a level playing field for all the parties (producers and conformity assessment bodies);
+
+- the promotion of free trade by eliminating technical barriers to trade;
+
+- conformity assessment;
+
+- traceability of measurements;
+
+- minimizing of costs and workload for all the actors in the market; and
+
+achieving market confidence.
+
+Mr. Vinson wanted to wish the OIML a happy 60th Anniversary, and showed delegates a picture of the Watt balance made of LEGO bricks created by Leon Chao from the US National Institute of Science and Technology and colleagues from the University of Maryland and Massachusetts Institute of Technology.
+
+Concluding his presentation, Mr. Vinson recalled that he had been the ILAC/IAF liaison officer to the OIML for some four or five years, but now he had been elected EA laboratory committee chair at the European level, so he had to step down and in a few weeks the OIML would be notified of a new liaison person. He said it had been a pleasure to work with the OIML, and wished them all the best for the coming years.
+
+## 7.3 Information regarding the RLMO Round Table
+
+Dr. Miki reported that the RLMO Round Table had been held on Monday 19 October after the CEEMS Seminar. There had been 22 participants, from 10 Member States and the BIML, all of whom he thanked. The six RLMOs in attendance were:
+
+- AFRIMETS - the Intra-African Metrology System;
+
+- APLMF - the Asia-Pacific Legal Metrology Forum;
+
+- ARAMEL - the brand new Arab Programme for Legal Metrology;
+
+- COOMET - the Euro-Asian Cooperation of National Metrological Institutions;
+
+- SIM - the Inter-American Metrology System; and
+
+- WELMEC - the European Cooperation in Legal Metrology.
+
+The purpose of the Round Table, Dr. Miki said, was just for RLMOs to gather and exchange information and discuss possible actions or ideas. First, every RLMO was asked to report their recent topics of activity.
+
+- Mr. Marneweck (South Africa) had provided a report from AFRIMETS and SADCMEL;
+
+- Mr. Guo Su (P.R. China) had provided a report from the APLMF;
+
+- Mr. Cherif (Tunisia) had provided a report from ARAMEL (which had been established in 2011);
+
+- Mr. Ulbig (Germany) had provided a report from COOMET;
+
+- Mr. Richter (USA) had provided a report from SIM; and
+
+- Mrs. Van Spronssen (Netherlands) had provided a report from WELMEC.
+
+Each RLMO, Dr. Miki explained, was active in specific areas. For example, AFRIMETS, the APLMF and maybe ARAMEL had capacity building as their main target, as also did SIM, whereas for
+
+COOMET and WELMEC, technical activities were their main preoccupation, notably publishing guidance documents and conducting special projects. Much variety was therefore to be found among RLMOs. But sharing the information, and knowing what was going on in other RLMOs, could contribute to each of them thinking about future actions or give them some guidance towards completing their projects. This had been the main part of the Round Table, Dr. Miki confirmed.
+
+Following this, the RLMOs had talked about ongoing actions and had passed on advice of benefit to other RLMOs:
+
+- AFRIMETS supported the possibility of an RLMO being able to participate in the activities of other RLMOs as an Associate member in order to enjoy closer relations and ensure rapid exchange of information;
+
+- COOMET had reported that its new project, which might also be a possible one for other RLMOs, was to look at certain older OIML Recommendations to see whether there was a need to revise them, as they could still be useful in some cases.
+
+- COOMET had also suggested that OIML D1 could be used as a basis to make a document on legal metrology for CEEMS. D1 covered a number of areas, and COOMET was now making documents from it for its members, but it had been suggested that this might be a good thing also for other RLMOs to do.
+
+Another action which the RLMOs might jointly work together on, and which had been discussed at the previous Round Table meeting, was a new website. Dr. Miki had made a skeleton of the website; while he did not intend to cover everything the RLMOs did, he felt that having a location where much of the key information was available would be an advantage, and then each RLMO's own website could still be viewed for more detailed information. He showed a slide of his proposal, explaining that it would contain a list of the RLMOs, news, an events calendar, and access to any training material as this would be useful to many people. There would also be a collection of the presentations made at the Round Table, together with other material intended to be shared among RLMOs. If necessary, controlled access to certain parts of the site could be set up, so that all the information was not publicly available. Dr. Miki said that he would talk about this later with the BIML, and he thought it could be launched in a few months.
+
+In conclusion, Dr. Miki said, the Round Table continued to be a good forum for RLMOs to exchange their information, ideas and opinions, which was most important.
+
+The next RLMO Round Table, Dr. Miki told Members, would hopefully be held in conjunction with the next CIML and Conference the following year.
+
+Mr. Mason thanked Dr. Miki for his comprehensive report.
+
+Mr. Dixit said that he felt there was also a need for the introduction of such cooperation. Many weighing instruments were exported from one country to another, and if any dispute arose, the exporting country would say that they were complying with OIML Recommendations, but when the goods were received it might be seen that this was in fact not the case. There was no body in existence to resolve such an issue. In his opinion this should be resolved either by the CIML or, at local level, by an RLMO.
+
+Mr. Mason thanked Mr. Dixit for his comment, and added that this was something the meeting could return to after the next two presentations. There was certainly a clear limit to what the OIML itself could do about such matters, because of the nature of the Treaty. OIML Recommendations, ultimately, were "recommendations", and as such could not be enforced in the same way that a national requirement could be enforced. One of the suggestions the meeting would be coming to as they considered the report on the Monday session was the possibility that smaller groups of countries should have the ability to cooperate in terms of cross-border enforcement. This was one idea that might be more relevant to the situation Mr. Dixit was suggesting.
+
+## 8 Technical activities
+
+## 8.1 Review of the report on experiences with B 6 concerning PG Workspaces and other features
+
+Mr. Dunmill said that he would briefly highlight some of the points concerning the implementation of the Directives since their revision in 2013. Experience had been growing as time went on and technical work progressed. Unfortunately though, at the moment a large number of Project Groups had not been making much progress. There had not been many meetings or Committee Drafts produced during 2015; he was not sure why, but there had been a reduction in the level of technical work. However, editorial comments had been collected on points in B 6 which were not clear and on some procedural points where there was a problem, so there was a collection of ideas which could feed into the work, which would be done once a review of the Directives took place.
+
+There was not much to say about the workspaces, other than that the facility was now available to all Project Group conveners who wanted to make use of it. Using the workspace would also enable more experience to be gathered on how it operated and enable the Bureau to improve it. It was not set in stone, so any comments to improve it were very welcome. It enabled conveners to develop their publications outside meetings and was easier than sending documents out by email, as well as making it possible to set up a meeting. Directions, agendas and documents could be uploaded in this way. Comments could be invited and votes collected to obtain feedback on the acceptability of documents. He asked conveners consider using these project workspaces in their work.
+
+The Bureau had already promised to train conveners in the use of the workspaces and the procedures in the Directives. They had held a trial one-day training course on these at PTB, because Germany held a number of convenerships, so the Bureau had taken advantage of that by going to Germany to conduct the training course, which in fact had been attended by many people other than conveners the workshop had been open to anyone who was interested in the OIML's work. Mr. Dunmill, who had run the workshop, had explained the process of preparing a publication using B 6, shown how the workspaces worked in real time, how to post documents, how to upload comments, how the voting system worked, and so on. Other courses for conveners were planned, to be held in other countries and other regions.
+
+Mr. Mason said that this had been discussed to some extent the previous day, but now was an opportunity to make sure there were no outstanding issues.
+
+Dr. Ehrlich thanked Mr. Dunmill. Following up on his comments of the previous day about the confusion his group had encountered, he suggested that this confusion, which had been encountered by other groups as well as his own, might be one of the reasons for the lack of use of the workspaces and the criticisms the Bureau had received. He asked for further clarification of the advice given to one of the conveners, about not being able to call documents on a workspace "CDs" because all three parts were not presented. To him this seemed to be a separate issue, having to do with interpretation of the Directives. These issues concerning the Directives were what he wanted Mr. Dunmill to clarify. Concerning documents at a Committee Draft stage, if work was going to be done on a subsequent Committee Draft using the workspace, he asked whether the document was still considered to be a Committee Draft, with the workspace being used to create the next version of it, or whether Mr. Dunmill was recommending turning the Committee Draft into a working draft.
+
+Mr. Mason intervened to reply that some issues with the workspace had become apparent during the work on R 61, which was one of the first Recommendations where the workspace was being extensively and successfully used. They had undertaken to clarify, for the members of that Project Group, the terminology being used for the texts which were posted on the workspace. They wished to consult others, before finally deciding what the preferred terminology was but they were fairly confident that it would not begin with "W". He saw these as being intermediate documents. They were not Committee Drafts, since Committee Drafts had to have reached the stage where they were posted by the Bureau and voted on electronically. If it had reached that stage but was not ready to pass to the CIML, then there would be work on the workspace on these intermediate texts, just as there would previously have been email contact. As convener of this project, Mr. Mason's group was undertaking this clarification of terms, possibly also with the help of other groups which the Bureau would contact.
+
+Dr. Ehrlich thanked Mr. Mason for the suggestion of renaming the terminology, which he felt would be useful. He then asked about the situation, prevalent over the last ten years, where different parts of a Recommendation were being developed at different stages; would things continue to be done in this way, or would these different documents be combined into one?
+
+Mr. Mason replied, in his position as the secretariat of a subcommittee in which work had previously been carried out in that way, according to custom and practice, that it was indeed the case that incomplete Recommendations had been put to, and adopted by, the CIML. It was the view of many members of the Committee that this situation gave rise to potentially serious problems, if, for example, Part 1 of a Recommendation was published without Parts 2 and 3 which made it unusable for type approval or certification purposes. Some Members held the view that the custom and practice which had been followed was itself contrary to the Directives as they were currently expressed. Debate seemed unnecessary; the UK position was that incomplete Recommendations should not be put to the CIML, and that they would wish to be satisfied that Parts 1, 2 and 3 of R 61 were available and had been approved by the Project Group before they went to the CIML. Bearing in mind that the next item concerned a proposed review of B 6, he did not think it was necessary to take up a formal position on the other matters.
+
+Dr. Ehrlich thanked Mr. Mason for his clarification. His group thought that there was room for interpretation of the Directives as permitting different parts to be developed separately. On the other hand, he did not support the idea of different parts not being synchronized. He would like there to be a scheme in place where this did not happen, and had raised the issue so that all Members were aware of it. He was very optimistic about the future of the PG workspaces, but thought was needed during their development so that confusion did not arise.
+
+Mr. Mason thanked Dr. Ehrlich for his clarification and confirmed to members of the Committee that different people had different views on the matter at the moment. He knew of at least four irreconcilable positions from active participants. This would be solved initially on a case by case basis, and in the longer term by looking again precisely at B 6. If the CIML approved a revision of B 6, what he called the "we really mean it this time" position on such matters could be adopted at that point.
+
+## 8.2 Proposal for a new project to revise B 6
+
+In introducing this item, and before inviting Mr. Patoray to make his presentation, Mr. Mason observed that this was a new project; it was therefore being initiated under the rules of the revised B 6 Directives for OIML technical work, namely to obtain CIML approval to start the project and to draw up clear terms of reference.
+
+On the other hand, as had been debated in the past, proposals to revise Basic Publications were often not easy to approach in quite the same way as would be the case for a proposal to revise a Recommendation or Document which was under the ownership of a TC or SC. In the present case, no TC or SC had ownership of B 6. To a large extent, the position had been adopted that the nearest equivalent to that was the Presidential Council, because of its role in some of the detailed operations of the oversight of a TC. Therefore the proposal being put forward arose from discussions in the Presidential Council itself and in a sub-group of it which had been invited to look at this proposal made by the Director. The three questions which needed to be addressed, Mr. Mason said, were:
+
+- whether this was the right time to be looking at B 6;
+
+- whether this was the right scope for such a revision; and, after discussing the first two questions,
+
+- whether this was the right way to approach both the revision and the suggested timetable for the project.
+
+Taking the floor, Mr. Patoray recalled that shortly after his arrival at the BIML in 2011, a lot of work had already been done to address the issues in B 6, the revision of which had been under discussion for more than ten years.
+
+In 2011 a new revision was completed. Then in 2011 and 2012 two working groups were set up under the leadership of Dr. Schwartz. A number of clarifying amendments had been put forward, and led to
+
+B 6 being re-issued in 2012 and 2013. However, some items remained unresolved and had been left for future consideration.
+
+During the 2013 CIML Meeting, the CIML had indicated that they no longer wanted to conduct annual revisions of B 6, in order to allow it to become part of the working environment for technical and development work, mainly in OIML Recommendations and some Documents.
+
+At the 2014 CIML meeting in New Zealand when discussing his continuing role as Director, Mr. Patoray had informed Members that he would be proposing a new project to revise B 6 in 2015 because when it had last been revised, there had not even been the concept of the website, or of the new workspace. They had tried to predict developments based on what existed at the time in the Plone workgroup, a separate site that only a few conveners or secretariats were using, and to incorporate what they could into the revision. However, based on several comments received and on the confusion of some Members related to the workspace and its relation to B 6, and to the nature of a complete CD with all the required parts, it had now become clear that some action was necessary. He felt that the time was now right to move forward with this item.
+
+The scope of the revision had been discussed in great detail by the Presidential Council, Mr. Patoray told Members. There had been consensus there, based on a limited scope, that the focus should be on just a few items, which were listed very clearly in the resolution for this project. The potential for those particular items focused on clarifying or editing those parts of the current B 6 which were not clear. The Bureau had a somewhat lengthy list of these, but the process to be gone through was one of editing and clarifying, and not of changing.
+
+There was also a need to cover the items that had been left over from 2013, which certainly needed to be addressed. This did not necessarily mean they would be adopted into B 6, but merely that they would be discussed and that their validity would be determined.
+
+The main focus, however, was to look at B 6 and establish whether it was possible to reduce the time taken to develop a Recommendation. Mr. Patoray gave a single example of many: the review of R 76 was currently ongoing and the TC/SC stage had just been completed, but the current process meant that:
+
+- it took three months to ask the TC/SC whether they thought the Recommendation needed to be revised, withdrawn or reconfirmed;
+
+- after that it had to be submitted to the CIML, which took a further three months, with the same question being asked;
+
+- based on that outcome, there would be a decision as to whether or not a project proposal would be put together; it would take another three months for the CIML to decide whether they wanted to approve a new project;
+
+- if they did decide to do so, another three months would be spent in forming the Project Group.
+
+So a year passed between the initial question and any actual work being started, which seemed unacceptable to Mr. Patoray. According to B 6, a period of three years was allotted for carrying out the project, meaning that the whole process took four years, but there was a five-year time frame for review. Shortly after finishing the work, it had to be re-started so Mr. Patoray felt that something was basically wrong with the current formula. ISO was able to work with a two-year time frame to review their standards. Surely then the OIML could do better than four years, which itself was achievable in ideal conditions. The main focus of the scope was how to ensure Recommendations were revised within a reasonable time, or at least determine that they did not need any work to be done, and clearly identify this in the Recommendation itself.
+
+Mr. Patoray told the meeting that he thought the time was right and the scope was correct, but the work to be done would be difficult as there were many different opinions on how technical directives should be written, and many words needed to be clarified to satisfy all the Members.
+
+He explained that this was where Variant One and Variant Two came in. It was clearly stated in the current B 6 that Basic Publications did not fall under the criteria of technical work. When a Basic Publication was to be created, the CIML itself had to decide whether or not that work needed to follow all the criteria listed in B 6 for technical work. B 6 certainly affected OIML technical work, but it was
+
+only an "internal" publication, meaning that it was not destined to be adopted in any country's legal requirements.
+
+To carry this work forward, there were questions which needed to be answered as quickly as possible. B 6 needed to be revised with all speed, and not be limited by requirements about waiting periods for voting, CDs etc., necessary though these might be for the technical work. On the other hand, because it did concern the OIML's technical work, there might be a need to introduce more structure in the ability to identify everybody's interests and concerns, so that it was not put forward too quickly. A balance needed to be struck. Part of this was how much confidence and faith Members had in the people doing the work. One way of building confidence was via long periods of waiting and of comments after the fact, but Mr. Patoray preferred to put confidence in people beforehand and get the work done by experts who knew what they were doing and could produce a good document in a short time, so that it was possible to move on and reduce the level of confusion some Members had at present. What was needed was a clear document that could be used by all, compatible with existing materials and with the workspace, and which could be used to create Recommendations, Documents and others, which, as had been pointed out, needed to be current, useful, and usable by both emerging economies and fully developed ones.
+
+Mr. Patoray hoped for a good discussion of the alternatives. He would of course carry out whatever the CIML decreed about B 6 and the schedule for preparing it.
+
+Mr. Mason thanked Mr. Patoray. He was aware that the part of the proposal that would provoke most discussion was how the work was done and the timetable to be followed. In order to make sure that the discussion was structured as productively as possible, he wanted to leave that until the other two questions had been addressed. He wanted first to establish that there was agreement on the part of the Committee that this was the appropriate time to do so, and then secondly the scope of the project. He first invited comments on the idea that the pause in examining B 6 had lasted long enough and that it should now be re-examined.
+
+There were no comments in favor of extending the delay.
+
+Mr. Mason then passed to the question of scope. The Presidential Council had identified this as being what needed most attention. The scope drawn up by the Council was not as wide as some would like and not as narrow as others would like, but one on which the Council had managed to reach consensus. He thought this was the right level of activity. The scope of the proposed project, which used common wording between the two Variants, was:
+
+1 to look at the Step 2 proposals that had been left until later in the 2013 discussions;
+
+2 to carry out a review of the steps in addressing the development of an OIML publication, to address the timetable issues; and
+
+3 to have a free hand to propose other editorial changes in order to improve the text of the document, but not to look at any other substantive changes to the structure of OIML processes.
+
+Mr. Mason asked if any Members wished to put a case for a different scope.
+
+No comments were forthcoming. Mr. Mason said that this was very encouraging and showed that the members of the Presidential Council who had devised it were not out of step with the rest of the Committee.
+
+The final matter, Mr. Mason said, was how this should be done. It could be expressed in the question of whether they would follow B 6 when revising B 6, or not. He himself was not comfortable with that way of approaching this debate, because he thought it was too formalistic. What needed to be discussed was what key elements of B 6 they would be following if they followed B 6 as far as possible. It seemed to him that there were three elements in what B 6 tried to achieve, as below.
+
+- The first element was the question of who did the work. For a Basic Publication there was no secretariat or convener. It was not clear what the convener role would be, or how that should be pursued. The Presidential Council had proposed a B6 type process in terms of the membership of the Project Group, which would be an open membership group. In the absence of a default secretariat, there would not be a conventional convener, but a chair of the Project Group and a secretariat. Mr. Mason himself was the proposed chair, and the secretariat would
+
+be the Bureau. He acknowledged that it was unusual for the President to propose himself as chair of a Project Group, but he felt that this matter was sufficiently important an issue for that to be the right approach.
+
+- The second element concerned the voting procedures, meaning what level of agreement was necessary in the Project Group before it was in a position to submit its proposal to the CIML. They had suggested that the voting rules in B 6 were the appropriate ones. In both variants, there was an emphasis on consensus, but recognition that if consensus could not be reached, then the B 6 voting rules should be applied in this Project Group.
+
+The third element was that B 6 provided guidance on the number of stages and the time that should be taken, including not only the procedure at the beginning of the process outlined by Mr. Patoray, but also at the end. Was a preliminary ballot needed as well as a CIML vote on B 6? These, Mr. Mason said, were the timetable questions. On this there had not been consensus within the Presidential Council. Some would like a very ambitious timescale, and Variant One proposed an ambitious but, it was thought, feasible timescale, giving a clear direction to the chair, secretariat and volunteer Project Group members to try to complete this in time to submit a text to the CIML for approval in 2016. A second body of opinion (Variant Two) was that more time was needed, and that following the timetable and processes of B 6 was a good way of allowing additional time. Under Variant Two it was certainly not possible to follow a strict B 6 timetable and propose a revised document to the CIML in 2016, and it could not even be guaranteed for 2017, but it was believed that using Variant Two this could be achieved. So in essence, the choice of timetable was 2016 or 2017. As President, Mr. Mason said that he should observe neutrality; however, as representative of a Member State that held several secretariats and was responsible for a number of important projects, he felt entitled to express a view, which was that the group should aim for 2016, because the quicker the new procedures could be brought in, the better. There had been a classic example of how the OIML would benefit from speeding up processes only a couple of weeks previously, when colleagues from Japan had approached various groups about the need to have a new version of R 139 in order to make it more appropriate for dispensing hydrogen for automobile fuels. The existing B 6 would impose a certain timetable for that work; a revised B 6 would allow it to be done more quickly, and this was in a situation where it was known that the market was moving quickly. From that point of view, Mr. Mason had a very clear opinion in favor of Variant One, but it would not be right for him not to express this as such.
+
+Opening the matter for debate, Mr. Mason said that even between Variant One and Variant Two, there was only a difference of timing. This was the main question for debate, but Members were also welcome to express their opinion on how the work should be done.
+
+Dr. Ehrlich thanked the President and Director and told Members that as a Member State which also held a number of secretariats and projects, the USA's preference was strongly for Variant Two. They felt that it made sense to use B 6 to revise B 6; it was a clearly defined set of rules - if there were rules, why not use them? If questions came up, Variant One would not have a clear solution for how to proceed, as there was no document to define what rules were in operation. Concerning the issue of timetables, he thought that the Director had laid out a lot of issues that needed to be considered, and he had his own list of ten or twenty more, in addition to the nine Step Two proposals which had been put on the table two or three years previously. These were Step Two proposals because they had needed additional time for consideration as they were not easy to address and would require some debate. There were therefore several reasons for not rushing this project, but rather taking the full time, using the full process and coming to a well thought out conclusion. There were some issues that might benefit from speed, but overall, allowing time for countries to translate if necessary, and consult, was a good idea. If there was agreement about speeding up certain steps, that could be done, and that was in fact one of the Step Two directives that could go into the revised B 6 as a way of speeding up work in the future, but this was not in the present B 6. The need was to take time and do the thing right.
+
+Mr. Mason thanked Dr. Ehrlich for his clear exposition of the case for Variant Two. He added that even under Variant One, if more time was required on important matters there would not be a draft in 2016. This would be the consequence of adopting the voting rules in B 6. Neither Variant One nor
+
+Variant Two was a pure B 6 process, though the latter imported more of B 6 than the former. The proposed voting rules would make it difficult to close debate on matters where there was desire in the Project Group to continue discussing issues before submitting them to the CIML.
+
+Dr. Klenovský said that due to the importance of the project, he supported the President's view that at least an attempt should be made to achieve it in a shortened period under Variant One.
+
+Dr. Miki said that as a country which supported Variant Two, formalism had some meaning, allowing for depth of discussion. B 6 was a key OIML publication which covered most of the technical activities, so there was a need to be very cautious in amending it. To ensure a solid consensus, it should be dealt with using B 6 procedures.
+
+Mr. Mason continued that Variant Two was meant to indicate that all the elements of the standard B 6 timetable would be followed by this project. There would therefore be all the potential delays in setting up a project which had been identified by Mr. Patoray. It meant that every time a text was submitted for a vote in the Project Group, the three-month deadline would have to be followed. They would also be committed to holding a preliminary CIML ballot as well as a full vote at the CIML meeting. Theoretically they could try an online vote, but this did not really seem practical or desirable for a document of this nature. Variant Two was drafted sparingly but he wished to make it clear that it committed them to the full B 6 timetable.
+
+Mr. Mason called for more comments and questions before the vote.
+
+Mr. Teunisse pointed out that Variant One mentioned certain stages and certain months. It was not clear to him what stage the document would be at in those months. Variant Two showed various stages the document would pass through, as in B 6. He asked Mr. Mason to elaborate further on what was meant by the indicative dates in Variant One.
+
+Mr. Mason replied that the reason for suggesting indicative meeting dates in Variant One was to give potential participants in the working group an indication of the pace at which they would be asked to contribute. The advantage of Variant One was that it offered much more flexibility about the status of a draft text and about the deadline that there would be for comments and, ultimately, approval. The one clear thing was that this Project Group should not be submitting a text to the CIML unless there had been a clear vote on it. How many votes were necessary and how many drafts were appropriate left a lot of room for flexibility, if the Variant One timetable was followed. There was not the same flexibility if the standard B 6 timetable was followed, as this would commit the group to having a first Committee Draft which was not voted on, a second Committee Draft which would be voted on, and, if it did not pass, would go back to the Project Group for the preparation of a third Committee Draft. Variant One would give much more flexibility about the number and nature of the drafts that were circulated among Project Group members. It did not speak in terms of drafting stages but rather the indicative timetable of meetings to consider drafts, and was silent about whether there would be intermediate drafts between physical or virtual meetings.
+
+Mr. Teunisse said that he now understood that Variant One did not have fixed stages of drafts. He understood that the timetable should be complete by October 2016 although no intermediate stages had been fixed.
+
+Mr. Mason said that in order to have a draft available for October 2016 there would still need to be a text available three months before that date, as with anything put to the CIML for approval, though it would not commit the group to have a preliminary ballot on the text. Also, the document would not leave the Project Group to go to the CIML, or be significantly altered, unless or until there had been at least a conclusive acceptance vote on it under B 6 stipulation. This was because when the text reached the CIML it would have to be passed by the normal CIML rules of an 80 % decision. As chair of the group, Mr. Mason would prefer there to be consensus of the Project Group on the text, or at least a clear vote in favor of the text before it was submitted to the CIML.
+
+Mr. Teunisse thanked Mr. Mason for the additional information, but said that he still wondered if it was possible to produce the document by October 2016. Mr. Mason had said that this timetable could be extended. He suggested starting instead from Variant Two and perhaps, as the US had suggested, reducing some of its prescribed periods, if all the participants agreed. In his opinion, it would be possible to reach the 2016 date by this method.
+
+Mr. Mason said that he did not think that Variant Two stages could be completed by 2016. Its advantage was that it set out prescribed time stages to be followed. He thought that if the CIML told the group to follow B 6 but skip or shorten some stages as convenient, then the B 6 timetable was not strictly being followed. He felt that it must be clear at the outset what sort of timetable was being followed. Variant One was indicative; it might not be achievable, but it was the appropriate way of describing a project that hopefully would be completed as fast as possible, and it was important for people committing themselves to the Project Group to know what they were undertaking. Participants would be expected to read the documents and turn round their comments very quickly. Basic Publications were not treated in the same way as Recommendations and Documents because the latter required extensive consultation within Member States, members of the administration, business interests and others who might be affected. This was why there were fixed deadlines for comment in B 6. A review would look at whether there had to be so many stages and such exact time periods. Members taking part in revision of Basic Publications should be able to form their own judgements with minimal consultation. This had been done in the case of the 2011 revision. There had been a large number of drafts, most of them neither numbered nor voted on by any group, because there was no group. This was an attempt to put this review on a clearer structured basis. It was intended to meet the needs of CIML Members and the small number of experts in their administrations who had direct experience of such work.
+
+Mr. Dixit expressed a hope that the draft would be completed within six months, and the rest put in the hands of the BIML, so that it could be put before the CIML at its next meeting. The BIML could then express the main concerns so that the working group could concentrate on these points.
+
+Mr. Mason thanked Mr. Dixit for his support for moving quickly, but thought a six-month deadline would be too demanding. Variant One in practice gave nine months, leaving three months for the CIML to study the text, which was very important. Also, if finished in six months, the proposal would have to wait a further three months for the CIML to endorse it.
+
+Mr. Björkqvist said that Sweden wished to support Variant One. He had not at first understood why this was being proposed, but having heard the arguments from the President and Director, he could accept that it was a good move to follow. B 6 began with wording along the lines of "unless otherwise indicated in the terms of reference, the time lines should be followed..." This did seem to give the CIML the right to change the terms of reference, explaining why this was being done in a shorter period of time, and still be following B 6. He did not know whether the document could be redrafted in nine months, but there was hope.
+
+Mr. Mason agreed that the time scale would put a heavy load on the people writing the initial drafts, especially the first working draft, but having had conversations with the Director and Bureau staff, who would propose the first working draft, which would go a long way to meeting the various proposals, he thought it was at least possible.
+
+Mr. O'Brien said that he thought that the benefits of trying to move as quickly as possible outweighed the risks associated with the shorter time period. Even if the document was not of a high enough standard, the CIML would review it and vote on it accordingly.
+
+Mr. Sanders said that Mr. Mason as President and UK CIML Member had made his views clear. Mr. Sanders said that in conversation with him, UK manufacturers of measuring instruments who were customers of the OIML certificate system were keen that all possible steps be taken to speed up the whole process of revising documents, especially Recommendations, because the OIML always struggled to keep up with technological innovation. For the manufacturers' sake, this should be seriously considered.
+
+Mr. Mason added that the manufacturers' representatives who were present had given no sign of disagreement.
+
+Dr. Ehrlich commented that as one of the persons who had drafted the 2013 Step Two proposals, he knew they were difficult and complicated to resolve, and he thought that the working group would find them so, and would have to live with the results of rushing the process.
+
+Mr. Mason thanked Dr. Ehrlich but pointed out that in 2013 there had been a slightly different situation as palpable B 6 fatigue had been setting in at that stage as it had been continuously discussed in rather unstructured groups for a long time. The process had not been the present clear one of
+
+inviting participating members in the group, and had not had the structure and terms of reference for a project, which was the case at present. It could not be concluded that what had been too difficult in 2013 would be too difficult in 2016.
+
+Mr. Dudle said that Switzerland also fully supported Variant One. Things needed to be speeded up as much as possible, and as the group's convener himself proposed to speed things up, Members should not hold him back; they should at least try to have the new document ready by the following year.
+
+Mrs. Buckley commented that when enthusiasm to take work forward was seen, it should always be supported. She did not see any difficulty with the timetable in Variant One, because there was the safeguard of taking it to the next CIML meeting if it was not sufficiently mature.
+
+## Vote on the revision of B 6
+
+There being no further comment, Mr. Mason proposed moving to a vote. He thought it could be assumed that if Variant One were not accepted, anyone who had voted for it would be in favor of Variant Two, so he proposed submitting to the CIML a vote for Variant One, recognizing that those who favored Variant Two would have the opportunity to vote against Variant One. If Variant One failed to meet the necessary voting thresholds according to CIML voting procedures, they would then submit Variant Two for a vote, which he assumed would be a straightforward process if Variant One should fail.
+
+Mr. Kool conducted the vote in favor of Variant One.
+
+54 CIML Members had been present or represented when the roll call had been taken (the quorum requirement was 43). One abstained (The Netherlands), so 53 votes were cast. There were 7 votes against (Australia, Austria, Brazil, Italy, Japan, Spain, United States), so there were therefore 46 "yes" votes, therefore the vote was decisive in favor of Variant One.
+
+Mr. Mason thanked colleagues for that outcome, and for the onerous task undertaken by the participants in the Project Group. He announced that there would shortly be a call for volunteers to participate in this Project Group. Consistent with the wish to move quickly, he asked Members to consider very carefully whether they wished to participate in the group, and told them that he looked forward to hearing from a number of volunteers to share this important work. Both CIML Members and persons nominated by them would be welcome and Members were welcome to inform Mr. Patoray immediately if they so wished.
+
+## 8.3 Items for approval
+
+## 8.3.1 Deviation from OIML B 6 concerning the approval of a Final Draft Recommendation
+
+Mr. Kool explained that this item concerned the revision of R 87 Quantity of product in prepackages. It had been hoped that the current meeting would be able to approve the revision, under the condition that it had passed the CIML preliminary ballot. In Additional Meeting Document 12 there was information about the outcome of the preliminary ballot. There were two conditions to pass the preliminary ballot, the first being that there must be sufficient votes in favor. The project had passed that condition, but there were two comments which would require further discussion. One was on the sample sizes which were in a table, but the construction of that table had been criticized. The other issue was about the statistical requirements that applied to the sample sizes, which a limited number of TC members had commented on. The objective now, decided in consultation with the convener of the Project Group, was to bring together a limited number of experts to resolve these two issues, and then to resubmit the draft for a second preliminary ballot. It was hoped that this could be done within a couple of months, and therefore the draft for the revision of R 87 would be removed from the list of drafts to be approved in the current meeting.
+
+Mr. Mason hoped that the attempt to achieve consensus would very soon bear fruit.
+
+## 8.3.2 Approval of Final Draft Recommendations and Documents
+
+Mr. Kool confirmed that three drafts were submitted for approval; they had been on the meeting website for the previous three months.
+
+## i) R 139-3
+
+The first draft was the new Part 3 Test report format to an existing Recommendation, R 139 Compressed gaseous fuels measuring systems for vehicles.
+
+The vote was taken. There were no abstentions or votes against, so the Recommendation was unanimously approved.
+
+## ii) R 79
+
+The second draft was the revision of R 79 Labelling requirements for prepackages.
+
+There were no comments or abstentions. Australia voted against. This Recommendation was approved.
+
+## iii) R 145
+
+The third draft was a new Recommendation: Ophthalmic instruments - impression and applanation tonometers. Mr. Kool reminded Members that there was an Additional Meeting Document with some late editorial comments, and consultation with the convener had confirmed that these were just editorial.
+
+There were no comments. Sweden and Brazil abstained. There were no votes against, so this was also approved.
+
+## 8.3.3 Non-exploitation of maximum permissible errors
+
+Mr. Kool explained that the issue here was a proposal to approve a resolution that instructed secretariats of technical committees and conveners of Project Groups, when OIML Recommendations for a relevant category of measuring instruments were being revised, to ensure that requirements were included stating that "the instruments shall not exploit maximum permissible errors or systematically favor any party, and/or when the errors all have the same sign, they shall not all exceed a specified value". This resolution had been proposed as a result of discussions in the Presidential Council on a report submitted to the Council by Dr. Miki on behalf of the secretariat of TC 8, which had carried out a survey to find out whether in different regions, different Recommendations or different national legislation, there were any requirements for having provisions for non-exploitation of maximum permissible errors for certain types of measuring instruments. Based on these discussions and the notes that the BIML had taken, this was the resolution that the BIML had put into the working document.
+
+However, Mr. Kool continued, as it had turned out, a mistake had been made, because the advice from the Presidential Council had been not to include any quantitative requirements in the resolution, so item B in the resolution was not a part of the advice that was given by the Presidential Council and only item A should have been included. It was of course up to the CIML to decide what should be included, but the Council's advice had been to include only item A.
+
+Mr. Mason asked whether the CIML was in a position to "instruct" secretariats and conveners. Bureau members confirmed that it was. Mr. Mason pointed out that to gain acceptance for their projects, secretariats and conveners needed to obey requests as well as instructions. Having been reassured on this point, he moved on to the more serious question of whether any Member wanted to retain item B in the draft resolution, or whether anybody felt very strongly that it would be a mistake to retain it.
+
+Dr. Klenovsky recommended that this item be included, because in Europe there had been a generic rule since 2009, but no detail, and this gave rise to major controversy between authorities and manufacturers. He recommended taking a step forward and to be very restrictive.
+
+Mr. Birch said that smart meters were particularly susceptible to exploitation of the MPEs. He had represented the OIML at an ISO/COPOLCO meeting a year or two previously at which smart meters had been a major concern of the consumer organizations. He wanted to ensure that smart meters could not be exploited.
+
+Mr. Mason said that this was certainly a vote in favor of having a resolution on this, but he still needed some comments on the inclusion of item B.
+
+Mrs. Van Spronssen said it was essential to be careful about imposing a generic rule on manufacturers and test houses. For five years they had been discussing how to avoid the exploitation of heat meters, water meters and fluid meters such as petrol pumps, etc., so far without success. Therefore if this resolution was accepted, those responsible for developing the Recommendations had to ensure that in the test procedure there was some advice or indication of how this requirement was to be fulfilled. She pointed out that there was a mistake in the report - there were only requirements to avoid exploitation of MPEs for utility meters (ME005 dealt with meters for fluid).
+
+Mr. Mason asked whether the effect of the above comments was to make the CIML look more carefully at the wording of the resolution as a whole, or to make sure that item B remained.
+
+Mrs. Van Spronssen replied that when this item had come up in the European Commission they had voted against it, and she thought The Netherlands were still against it, but that should probably not stop this resolution going through. She still, however, wanted to make sure that there was a test procedure to fulfil this requirement.
+
+Mr. Kool commented that two issues had been mentioned. The first was that there should be a test procedure if there was a requirement in the Recommendation. He thought that in general, if there was a technical or metrological requirement in a Recommendation, there should be something to test whether that requirement had been met, so that in his view that was implicit. If it was not there, it was an omission in the test procedures. Regarding the categories of instruments, there were options, but the present wording was "relevant categories of measuring instruments", without specifying which were the relevant categories. In the first instance it was up to the Project Group to decide whether their specific categories were relevant or not. And then of course, he said, there remained the last sentence, according to which the Bureau should monitor the implementation of these resolutions. If the Bureau found that this was not a good decision by the Project Group, they could discuss it, as could the CIML when the draft reached that stage. Mr. Kool felt that it should be kept as general as possible in order to avoid any category being omitted from the list.
+
+Mrs. Lagauterie (BIML translation) felt that it was vital to not keep item B, because it was very easy to get round this requirement, especially using modern technology. If there was one point for which an error did not have the same sign as the majority of the errors, in an area where the instrument was not used, this could lead to the acceptance of instruments which exploit the maximum permissible errors. So she felt that item B was a rule that was extremely easy to overturn and which would produce exactly the opposite effect from what was sought. She was very firm on this. She absolutely understood the concerns of her European colleagues but she confirmed what Willem had said, if there was a requirement in the Recommendation, as nowadays all three parts had to be ready at the same time, there would be a test procedure along with the requirement.
+
+Dr. Schwartz commented that he was not an expert in this field, but if what was being spoken of was systematic error or influence, he wondered if this could be tested at type approval, or whether this type of error could only be tested in the field, in which case it would not be covered by Part 2 of a Recommendation.
+
+Mr. Kool replied that he did not see why it could not be tested at type approval - there was an instrument which was being tested, so it could be tested for. What usually happened, in his experience, was that at verification, a subset of the type approval tests was taken to perform a verification. This element could be one of those in the subset tests done for verification.
+
+Dr. Ehrlich said that he objected to the entire discussion on procedural grounds. An error had been made in constructing the resolution and this error should simply be corrected. As written, it said "noting the advice of the Presidential Council...", and what was written was not the advice of the Presidential Council. This error should therefore be corrected and item B removed accordingly.
+
+Mr. Patoray told the meeting that he appreciated the comment from the US, and concurred completely with it. Item B was only there because of an error he himself had made in the minutes of the Presidential Council meeting. He had omitted the word "not" in front of the word "quantitative", with the result that Mr. Kool, when writing the resolution, had taken his words to mean the opposite of what Mr. Patoray and the Presidential Council had intended. The mistaken wording had to be
+
+presented as it was in the meeting documentation Members had received, but it was not there for open discussion.
+
+Mr. Mason said that he had expected the outcome on this item to be as expressed by Mr. Patoray, but had not expected that two out of the three EU representatives who had spoken would be in favor of a different text from the one he expected to be the subject of the vote. It had always been his understanding that there was a common European position on this matter, yet two comments had expressed dissent from this. This made it difficult for the Committee to adopt this strongly phrased resolution.
+
+Dr. Miki said that this problem had been raised at the Presidential Council meeting in March 2013, and he had been assigned to study the real situation between OIML, WELMEC and other publications. Working with his colleague, he had searched web pages and asked some countries about the situation there. He could not claim that his research was complete; some parts of the world were still missing, but although it was causing arguments now, he had found quantitative expressions in some documents, especially regarding utility meters, but, in discussion with many colleagues, the reality was, as Mrs. Lagauterie had pointed out, that, scientifically or technically, there was not a confident basis for this; there were only two or three testing points. On the other hand, however, in the real technical world, if such a rule did not exist, inspectors could have some problems in situations such as these. Generally, of course, what was expressed was sufficient, but for item B, he did not know. Almost everybody in that technical field believed that there should be an expression of this type, but he believed that a general description such as this one was sufficient.
+
+Mr. Mason said that he felt uncomfortable about putting to the CIML a resolution which would have a very strong effect, being an instruction to secretariats or conveners to take out quantitative rule provisions in Recommendations which currently had them and not to introduce them in Recommendations which did not have them. They should certainly give this strong instruction if they had complete agreement that it was the right thing to do, but there seemed to be a great deal of uncertainty about how much agreement there was, not least within Europe, where he had understood that a common position had been developed. He was minded to withdraw the resolution and put the issue back to TC 8, asking them to come back with a resolution which had been worked on further to make sure that the viewpoints of different parties and on different types of instrument had been taken into account. This was, as Mr. Birch had said, an important and controversial issue upon which the OIML should have a position, but he did not think a firm position could be adopted in view of the range of views which had been expressed. He asked whether anyone disagreed.
+
+Mrs. Lagauterie (BIML translation) said that she understood the situation the President found himself in. They could wait for another proposal, but she simply wanted to point out that the European rules were what they were. It was known that the contents of item B did not fulfil the rule in the European Directives, which meant that the existing OIML Recommendations, if they remained unchanged, would systematically not give a presumption of conformity to the European Directive, which meant that OIML Recommendations would be weak, as would instruments certified under OIML rules when they were put on the European market.
+
+Mr. Mason thanked Mrs. Lagauterie for her observation, and said that that pointed to the need for a very clear dialogue between TC 8 and the relevant people within the European Union so that they could be absolutely clear about the consequences of the sort of resolution that might be put forward. This reinforced his reservations about moving to a resolution on a matter of this nature where the expected level of agreement was not present. He proposed the withdrawal of the resolution.
+
+Mr. Kool said that no formal CIML resolution was needed; the decision would be noted in the minutes and the BIML would contact TC 8 about the next move. Dr. Miki, on behalf of the TC 8 secretariat, agreed to this. Mr. Mason said they would return to the issue the following year.
+
+Mr. Patoray apologized to the CIML for his error, which might or might not have led to the interesting discussion on the item. He raised the possibility of online voting, but said he thought the mood of the meeting was rather in favor of further full discussion. Mr. Mason confirmed that it was more important to do this correctly than to do it fast.
+
+Mrs. Lagauterie (BIML translation) said she just wanted to point out that the European Commission was instructing European standardization bodies to modify all the European standards, in particular on
+
+this subject, insisting on the fact that European standards, themselves based on ISO/IEC standards especially for water, electricity and gas meters, had to have technical solutions to the problem of nonexploitation of maximum permissible errors. She also reminded Members that the OIML Recommendations on these categories had always been joint documents or been very close to the relevant ISO/IEC standards, and the secretariats of the TCs responsible for these Recommendations would certainly have to take great care to update them if they wanted to ensure they remained compatible with European and international standards.
+
+Mr. Mason thanked Mrs. Lagauterie, saying that her comments confirmed his own understanding of the situation. As an international organization, the OIML had to be able to take its own view on what the right approach to these matters was, and that would clearly take into account what not just single Member States but groups of Member States felt on a matter. If, however, there was not the level of unanimity which he had understood to be the case on this matter, then he did not feel it was something on which they could move to a resolution. They should however recognize the importance of this question and submit it to the right forum, which was TC 8, to give them the right directions as to what they ought to consider. While compatibility between their policy and that of the European Union was one of the most important considerations, nevertheless the OIML should follow its own procedures.
+
+Mr. Henson commented that as a lay person, he found the wording at the end of the paragraph beginning "instructs secretariats" a little bizarre. The final part was "to ensure requirements are included stating that ...". He would prefer "including requirements stating that", or "including requirements addressing...". The terminology seemed mixed.
+
+Mr. Mason thanked Mr. Henson for his drafting suggestion, which he was sure colleagues in TC 8 or the Bureau would take into account.
+
+The resolution was duly withdrawn.
+
+## 8.3.4 Proposal for a new project in TC 8/SC 1 Static volume and mass measurement: Revision of R 71 Fixed storage tanks - General requirements
+
+Mr. Kool informed Members that items 8.3.4, 8.3.5 and 8.3.6 all concerned proposals for new projects. Dr. Klenovsky said he was surprised that a test procedure was not being prepared for this Recommendation and thought that it would be advisable to have one. Different procedures were used in practice so it was not an easy subject, but the project proposal stated that a test procedure and test format would not be drawn up.
+
+Mr. Kool explained that the proposal stated that because of the nature of fixed storage tanks, where each tank was of a different and unique construction, there was no expectation of type approval being granted according to R 71. Instead, what was essentially an initial verification was conducted on each unique tank. There was therefore no expectation that a Part 2 Test procedures or a Part 3 Test report format would be created as part of this revision process. So this only concerned initial verifications rather than type approvals.
+
+Mr. Mason commented they were discussing the approval of a project, and an indication had been given by the secretariat of the expected scope of that project. He assumed that any Member State that wished to do so could join the Project Group as a P-member, to argue that it would be useful for some form of test procedures or test report to be developed, even if it was a matter of initial verifications rather than other forms of test. The convener could, if desired, produce a document that varied slightly from its original description, thus giving them the opportunity to consider comments such as the one from the Czech Republic.
+
+Mrs. Lagauterie (BIML translation) said that she was slightly surprised by what she had heard because in general, even if one passed straight to initial verification without type approval, instruments nevertheless had to respect requirements, testing had to be done and a qualification had to exist. So she feared that they were being orientated towards a rather strange law.
+
+Mr. Richter replied that this project and the next one (under item 8.3.5) were really sister projects and therefore needed to be implemented in parallel. Item 8.3.5 represented a much more traditional approach to an OIML Recommendation. R 85 was for automatic level gauges, which of course would have test procedures and a test report format, and it would be possible to issue certificates based on
+
+that Recommendation. But their experience was that this was not the case with fixed storage tanks. The two Recommendations had been created in parallel because the tank and the automatic level gauge in the tank had to work together.
+
+Mr. Mason thanked Mr. Richter, but said that this did not necessarily address the point about whether it would be desirable for R71 to have some form of procedure which was appropriate to initial verification, as France and the Czech Republic were arguing.
+
+Mr. Richter replied that the current Recommendations, while needing to be revised, were worked out and set up correctly with definite points set out in the proposals stating what was going to be accomplished in that revision. There was therefore no need for a Part 2 or a Part 3 to R 71.
+
+Mr. Mason pointed out that there had been no request for a Part 2 or a Part 3 as such; what had been suggested by France and the Czech Republic was that something should be said about the procedure for verification alongside the traditional Part 1 activities of drawing up specifications. He hoped however that the minutes would be clear enough about the concerns identified for the convener to take account of them in planning their work, and, for those who had an interest in making sure that R 71 took a particular form, to join the Project Group and make their views felt within it.
+
+Mr. Richter said he looked forward to the Czech Republic and France participating in this project.
+
+Mrs. Lagauterie (BIML translation) asked for this note to be withdrawn from the proposal, because in her opinion it had an influence on the work before it had been discussed, and she thought that was totally contrary to OIML principles. Even fixed storage tanks had to meet certain rules. It had to be possible to verify a tank, even if it was a one-off design, and there must be a test procedure or a way to study the plans before being able to validate them.
+
+Mr. Marneweck said that, looking at the old documents and at what the United States had indicated, R 71 made it possible for a various range of unique tanks to be metrologically characterized. In other words, a tank was being calibrated and a metrological value was being given to its construction being a tank. The old Recommendation had included metrological characteristics and metrological controls and any other additional information needed by the manufacturer or the user. It had not, however, made provision for any type approval requirement because each was unique so certain processes and procedures in the Recommendation had to be followed in order to be able to use that tank in conjunction with other tank level gauging equipment. The tank level gauging equipment did undergo all the type approval requirements because they were all similar in nature.
+
+Mr. Mason asked for confirmation that the wish was to remove the note in question from the project proposal.
+
+Mr. Marneweck replied that as it was only a note and not a requirement it had no real significance; it merely explained why, when it was finally published, there might not be Parts 2 and 3. On the other hand the TC might establish different parts, though this was not foreseen at the moment. Its presence or absence would not alter what the TC would do.
+
+Mr. Bjorkqvist asked for clarification: he could see that the bottom line of both the proposals mentioned liaisons. WELMEC was mentioned, but he wondered what connection there was with WELMEC on these topics.
+
+Mrs. Van Spronssen, chair of WELMEC, said she could not explain it because this was the first time she had seen it. As far as she knew, individual members of WELMEC could participate, but the association as such did not participate in working groups of this type, nor had WELMEC approved these two projects.
+
+Mr. Mason said that WELMEC might be invited to participate but would not agree to do so. The convener would no doubt wish to note this.
+
+Mrs. Lagauterie (BIML translation) wanted to add to what the WELMEC chair said. She said WELMEC WG 10 was working on dynamic volume measurement and within its scope it could also help on static measurement, but it did not at present have any projects on anything of that type, so she felt it was very surprising to find this now in an OIML publication.
+
+Mr. Mason confirmed that this also was an observation the convener would wish to take into account. He asked whether procedurally it was open to the CIML to amend a project proposal before approving it.
+
+Mr. Kool considered that on this issue the proposal could simply be changed, but that if it had been a matter of a radical change of scope that would be different. The reference to WELMEC could simply be deleted.
+
+Mr. Mason said he had no problem with mentioning WELMEC. All the meeting had done was to draw attention to the fact that WELMEC as an organization would not feel able to participate in a manner different from the input of its individual member states. He was more concerned with the note, because there had been a proposal from two Member States that the note be removed from the project proposal. This could be done in two ways. Either the convener could remove it voluntarily, if he was happy to do so, and the amended proposal could be voted on, or else, if the project proposer wished to keep the note in place, Mr. Mason wondered if the CIML could vote to approve the project on condition that the note was removed.
+
+Mr. Kool replied that what was in question was the value of the note. It talked about an expectation that there would be no Part 2 or 3. But the group might decide that it was necessary.
+
+Mr. Richter commented that he had no particular attachment for the note. He asked for it to go into the record that it had been there to provide information and then for the note to be removed, if this would help to pass the proposal.
+
+Dr. Schwartz suggested that the concerns could be allayed by simply turning the note around to say "Nevertheless, there is the expectation that the Recommendation provides an appropriate description of procedures for verification".
+
+Mr. Mason agreed that this would give a clearer direction to the convener, but there were implications. The purpose of voting on proposals was for the CIML to give a clear instruction to the group to undertake the work, but not to set narrow limits on how it was done. A group could not use approval to work on one subject to start work on other subjects, but neither should they be constrained by fine detail in the description of a project, because this description was likely to develop as a result of input from the members of the Project Group. On behalf of the Committee therefore, he preferred to accept the offer of withdrawing the note and proceed to the vote.
+
+There were no abstentions or votes against on this revised proposal, which was therefore approved unanimously.
+
+## 8.3.5 Proposal for a new project in TC 8/SC1 Static volume and mass measurement: Revision of R 85 Automatic level gauges for measuring the level of liquid in stationary storage tanks
+
+This proposal for a new project in TC 8/SC 1 to revise R 85was unanimously approved.
+
+## 8.3.6 Proposal for a new project in TC 9/SC 2 Automatic weighing instruments: New Recommendation Continuous totalizing automatic weighing instruments of the arched chute type
+
+Dr. Ehrlich asked for clarification and a better understanding of these instruments, for example, what level of accuracy did they operate at? Did they serve in the same range as a belt conveyor scale or a totalizing instrument? Were they a new type of instrument?
+
+Mr. Kool replied it was his understanding that these instruments were for continuous measurement of flows of material, that they were of the medium accuracy class and that they were used quite extensively at present, but he was not an expert.
+
+Mr. Teunisse commented that this proposal had originated from CECIP, who had noticed that only belt weighers were included in the relevant Recommendation. CECIP had asked for the arched chute type of instrument also to be included. There were a number on the market currently, and their accuracy was reasonable and similar to that of belt weighers. This was the reason for asking for a project proposal for a new Recommendation, which would be quite similar to R 50.
+
+Mr. Kool noted that the project proposal contained the wording "the ones in the higher accuracy range fulfil the maximum permissible errors mentioned in R 50, 3.2, Tables 1 and 2". So these instruments
+
+were comparable to what was already in R 50 for belt weighers, but this type of instrument did not fit in the scope of R 50, which was why a separate Recommendation to cover them was being requested.
+
+Mr. Sanders said that towards the end of the project proposal there was a list of countries known to regulate or that intended to regulate this category of instrument. To his knowledge the UK did not regulate and had not made a decision as to whether they would regulate in the future, so he asked for reference to the UK to be removed from the list.
+
+Mr. Dunmill added that as part of the project proposal CECIP had gone through the existing R 50 and made suggested changes as an initial working document, and these changes did not affect the tables for accuracy classes and so on. So his impression was that there would be the same levels of accuracy requirements to fit within the same classes as the existing R 50, and the main alterations would be to the terminology. Rather than making the existing R 50 confusing by trying to address two different kinds of technology, it was better dealt with as a separate Recommendation for that type of instrument.
+
+Mr. Banholzer, for CECIP, said that he was not aware of this project. Nevertheless he was in general in favor of harmonizing legislation and would prefer a Recommendation for a similar instrument, if such existed, to be altered to include the new instrument. He would like further discussion in CECIP as to whether a new Recommendation was the right way to go. He thought there were enough of these already and should be kept on a level that could be used.
+
+Mr. Mason summarized that this gave rise to three questions:
+
+- firstly, was this a category of instruments on which time should be spent "getting it right"?
+
+- secondly, was it clear enough that aspects such as levels of accuracy were attainable, and was there a clear understanding of what was expected from the work?
+
+- thirdly, was the appropriate way of dealing with this category of instrument to make modifications to R 50, or to produce a Recommendation with a different number?
+
+As this would be done under the supervision of a TC/SC which was already responsible for R 50, it was to be hoped that this Project Group would have the ability to take a conscious decision on whether in the end it was better to make amendments to R 50 or to produce a new Recommendation. Approving this project, he told Members, did not finally commit them to a particular solution, though it was helpful that the indication had been made that at the moment they thought it would be a Recommendation with a new number rather than an extension to R 50.
+
+The proposal was put to the vote. Australia, Czech Republic and the United States abstained.
+
+Mrs. Lagauterie (BIML translation) was under the impression that many of those present, including herself, did not understand what type of instrument this project proposal concerned. At first she had believed it was just a revision of R 50, but she now saw that they were talking about a whole new instrument technology. She had no idea what the French meaning of the English terminology might be. Without a description of what sort of technology was being talked about, she also preferred to abstain.
+
+Dr. Klenovský stated his agreement with Mrs. Lagauterie. There was not enough background information, and nobody in the room understood what this project was about.
+
+Mr. Mason reminded Members that this proposal had been circulated to all CIML Members three months ago. One of the reasons for circulating proposals of this nature well in advance was for those who had an interest in it to make inquiries, and in this case it was very clear that those inquiries should be addressed to the TC 9/SC 2 secretariat, which would no doubt be able to furnish a description and probably also a photograph. All potential conveners would want to take from this discussion the message that it was a good idea to make sure that the proposal, especially for a new Recommendation, was as clear as possible about the type of instrument that was going to be included. It was open to the Committee to say they were not going to approve the proposal until they had had a better explanation. It was always possible to approve new projects online, but, as this discussion and the previous one had indicated, there was value in having these items considered by the CIML at a meeting, where there was a considerable amount of technical expertise to draw on.
+
+Returning to the vote, as there were numerous abstentions Mr. Mason invited the proposers of the project to comment on whether they would prefer to withdraw the proposal and to circulate it for online approval at a later stage.
+
+Mr. Teunisse confirmed that this proposal had originated from The Netherlands, and that the complete proposed Part 1 of the Recommendation had been submitted to the BIML together with the proposal, so a considerable amount of information had in fact been available prior to the CIML meeting possibly without photographs, although there were some sketches.
+
+Mr. Dunmill said that the project proposal itself contained a reasonable number of explanations as to why it had been put forward, together with an initial draft based on R 50-1. Although this draft had been sent by The Netherlands with the proposal, it had not actually been included in the working document; he was therefore surprised that during the three months the proposal had been available Members had not asked to see this extra information that they had been told was available. The proposal itself was actually a marked up version of the existing R 50.
+
+Mr. Mason added that this was a proposal for a project which required a 50% CIML majority, not 80% as for approving a new Recommendation, and abstentions did not count. This might change the approach of countries which were uncomfortable about the proposal. He suggested restarting the vote, unless The Netherlands preferred to withdraw the proposal and submit it for online approval with photographs.
+
+Mrs. Van Spronssen asked whether, if the project was not accepted, there would be an opportunity to present it again with more information or if that was the end of the project.
+
+Mr. Mason replied that if a project proposal was rejected it could always be brought back, either in identical form with additional information, or as a different proposal. The only matter being decided at present was whether this subject was sufficiently important to ask not just conveners but also potential P-members to devote time and effort to it.
+
+Mr. Kool quoted B 6-1, 5.4.4 Procedure for approval of a project:
+
+"The new project is approved by the CIML if a majority of all CIML Members vote in favor of the proposal".
+
+This meant that 30 votes in favor were needed for the proposal to be approved, so if there were 30 abstentions, votes against and absences, it could not be passed.
+
+With Mr. Mason's concurrence, Mr. Kool asked immediately for votes in favor. There were only about 20, so Mr. Mason recommended that a roll-call be made.
+
+Mr. Richter asked for confirmation that The Netherlands had submitted this proposal and that the UK was the secretariat of the sub-committee. He asked whether the UK had agreed to be the convener of the Project Group and whether it was a project that they wanted to manage.
+
+Mr. Awosola confirmed that the UK had agreed to be the convener, because they had held detailed discussions with The Netherlands who had already submitted a draft; the draft just needed a little work before being sent out to members of the Project Group. The UK had also been approached to revise R 50, which had been drawn up years earlier, specifically to focus on belt weigher types of instrument, but the technology being put forward did not fall into the category of belt weighers so it had been decided that a new Recommendation should be envisaged.
+
+Mr. Teunisse told the meeting that the issue had been discussed and it was felt that it was better to withdraw the proposal for the moment and to try to implement the proposal that this type of instrument be included in R 50.
+
+Mr. Mason felt sure that that would meet the concerns of some. He asked for a photograph to be included in the proposal when it came up again. He hoped that enough interest had now been generated in this issue for everybody to be prepared to press the appropriate button when it came up for online voting.
+
+## 8.4 Items for information
+
+## 8.4.1 Periodic review of OIML publications
+
+Mr. Dunmill said Members would remember from the previous year that under the new revision of the Directives, the Bureau was now responsible for starting the reviews of publications after they had been in place for five years, rather than the secretariats as had previously been the case.
+
+In July 2015, a system had been put in place for conducting these reviews through the OIML website and an initial batch of three Recommendations had been launched for review. They had been chosen because of the expected outcome of the voting, to try to produce different kinds of results to test whether the system worked. They had chosen R 18:1989 Visual disappearing filament pyrometers, R 76:2006 Non-automatic weighing instruments and R 111:2004 Weights of classes $ E_{1}, $ $ E_{2}, $ $ F_{1}, $ $ F_{2}, $ $ M_{1}, $ $ M_{1-2}, $ $ M_{2}, $ $ M_{2-3} $ and $ M_{3}. $
+
+OIML B 6-1 stated that three options were given: to reconfirm, to revise, or to withdraw each of the Recommendations, and the decision was valid when 2/3 of the votes cast were in favor. Mr. Dunmill pointed out that only votes cast were taken into account, and not the total number of Members. Voting was conducted in two stages: first the TC or SC was asked to vote, and secondly the whole CIML was asked. There were two three-month voting periods for a review, as Mr. Patoray had mentioned earlier. The results had been inconclusive for R18 and for R111, but in the case of R 76 they had indicated that there should be a revision rather than a review. In detail:
+
+- There were 10 P-members in TC 11/SC 3 which was responsible for R 18; only 6 P-members had voted. A 2/3 majority in favor of one of the options was needed, so this required 4 votes; in fact, however, there had been 3 votes to reconfirm it, 3 to withdraw it and no votes for a revisions so the result was inconclusive.
+
+- There were 29 P-members in TC 9/SC 1. Surprisingly, as R 76 was one of the OIML's most important, well known and most used Recommendations, only 13 of the P-members had voted. There had however been a clear 2/3 vote in favor of revising this Recommendation.
+
+- In the case of R 111, another widely used Recommendation, as reflected in the high number (21) of P-members in TC 9/SC 3, again fewer than half of them had voted. More people had wanted to reconfirm it than to revise it, and no-one had wanted to withdraw it, but the level of voting had not been enough to reach the required majority.
+
+Around the time when this review system was being set up but before it was available online, a review had been conducted via email by the secretariat responsible for R 51 (TC 9/SC 2). This would also proceed to the CIML phase with the other three which had been conducted through the online system. Again, this was a secretariat with a high number of P-members, and again there had been a very poor voting response, though there had at least been the required majority to revise the Recommendation.
+
+According to B 6, the next step following the TC or SC review stage was for the BIML to report to the CIML on what had happened, which was what Mr. Dunmill was currently doing. The CIML would then need to take a decision, based on the normal voting rules for CIML decisions, on whether the Recommendations in question needed to be reconfirmed, revised or withdrawn. In other words, the whole CIML now had to be asked exactly the same question which had just been put to the appropriate TC or SC, for a three-month period.
+
+As the CIML had not yet had three months to consider this, decisions on these Recommendations could not be taken at the meeting, but a CIML voting phase would now be started using the online facilities available on the website, and R 51, which had not been among the pilot group (consisting of R 18, R 76 and R 111), would be added because it had already been decided that it needed revision. It was now up to the CIML to vote.
+
+So those four Recommendations would be put online in the review part of the "My Access" section of the website very shortly, and Members would be asked to vote on them. Mr. Dunmill hoped to be able to report at the 2016 CIML meeting that the response level had been a lot better at the CIML vote stage than at the TC/SC stage. If there were to be online voting systems, responses from Members
+
+were essential and he encouraged Members to support the website developments being set up to facilitate all aspects of the OIML's technical work.
+
+Mr. Mason asked whether there was scope for asking the secretariats themselves which of the options they preferred, either at the TC/SC vote stage or at the CIML vote stage.
+
+Mr. Dunmill replied that this might be possible, but that it was not part of the B 6 requirements, although there seemed no reason why it should not happen.
+
+Mr. Mason suggested that despite not being a requirement it was probably a good idea, certainly as the CIML was being given a choice on these matters, for the secretariat, which would be expected to better understand the extent to which these Recommendations were actually used or not, to express their opinion and for this opinion to be made available to the CIML.
+
+Mr. Dixit suggested that all Recommendations should be reviewed by TCs or by the CIML every five years, because of changing technology.
+
+Mr. Mason informed Mr. Dixit that a requirement for five-year reviews was already in place. He sensed agreement for TC/SC involvement prior to the CIML vote and urged CIML Members to vote on the reviews because the question of what should be done with old, and often very old, Recommendations was a significant reputational issue for the OIML. He further urged those CIML Members who were P-members of TCs or SCs to think hard about whether their own representation as P-members was appropriate if they were not able even to express an opinion on a matter as important as this. The voting figures were very disappointing in view of the fact that Member States had expressed interest in the subjects in question, so he urged Members to review the processes of nominating P-members in these committees.
+
+Mr. Dunmill added that although the Bureau had not explicitly asked for comments, some comments had been received at the time of voting, and these would go in the package to the CIML; they would be helpful when Members were deciding which option to vote for. He would certainly add a recommendation from each of the relevant secretariats.
+
+Mr. Richter asked on what grounds, out of more than a hundred Recommendations which were more than five years old, the Bureau had selected these three.
+
+Mr. Dunmill replied that all the Recommendations which were more than five years old and not currently under revision, which was about a third of the total, would be dealt with in due course. A third of the others were under revision and a third of them were less than five years old. These three had been chosen because it had been thought that the likely result was that one would be withdrawn, one revised and one reconfirmed. The voting results had tended to indicate that that was indeed the way people felt, but there had not been the necessary majority to lead to action. It was a fairly random choice, but made in an effort to intentionally obtain different results. Not all the out of date Recommendations could be reviewed at once, but the next set to be reviewed would be those that were in the Certificate System, progressively moving on to others after that.
+
+## 8.4.2 Weighing of shipping containers
+
+The next item, Mr. Mason said, concerned the weighing of shipping containers. This was an extremely interesting subject and he strongly urged Members to read the papers which had been circulated on the subject.
+
+Mr. Dunmill explained that the article on containers which had featured in the October 2015 Bulletin had been put on the CIML meeting agenda to make CIML Members aware of this issue which was highly important for international trade. Members' metrology services might or might not be involved in the implementation of the International Maritime Association's new requirements which would be an international shipping regulation, and potentially a major issue, possibly affecting legal metrology or not, depending on each country's law, but certainly international trade in general, and the OIML's profile. He urged Members to read the paper and look into the matter.
+
+Mr. Mason regretted that since so much time had been spent on chute arching weighing instruments, containers could unfortunately not be discussed.
+
+## 9 OIML Certificate System
+
+## 9.1 Report of the ad hoc working group on the MAA
+
+Dr. Schwartz began with a reminder that the setting up of the ad hoc working group and the review of the MAA had begun in Ho Chi Minh City in 2013, when there had been a seminar on this subject. He also reminded Members of the three important resolutions that had given the mandate to the group:
+
+- the first resolution stated that the ad hoc working group should consider how awareness of the MAA could be raised;
+
+- the second resolution urged the ad hoc group to review with the CPRs the structure, rules and procedures governing the operation of the MAA and the role of utilizing participants, with a view to increasing the efficiency of the operation of the MAA;
+
+- the third resolution, on the steps towards one single certification system for OIML type evaluation, stated "The CIML resolves that steps should be taken to ensure that, in future, there will be only one single certification system for OIML type evaluations, based on the principles of the MAA, and that, as a first step, the options for how such a single system may be organized, how the transition could take place and by what time schedule, should be investigated, taking into account the experiences of similar, well established certification systems". It also urged the ad hoc working group to make appropriate gradations. This had then been taken up by the CIML at its 2014 meeting (Resolution no. 2014/18): "The CIML encourages the AHWG, including its task groups, to undertake every effort to present concrete proposals to the next CIML meeting".
+
+Dr. Schwartz was therefore now presenting concrete proposals. He first thanked the Task Group chairs, who were his PTB colleague Dorothea Knopf and Paul Dixon (UK), and also Willem Kool for their excellent support, without which they could not have been able to present what he was just about to present.
+
+Concerning awareness raising, Task Group 1 proposed as a first step the reorganization of the OIML website drop down menu on certificates, as follows:
+
+- General information
+
+- Basic certificates
+
+- MAA certificates
+
+- Search registered certificates
+
+- Documentation
+
+Dr. Schwartz was pleased to announce that these changes had been implemented the previous evening, thanks to support from the BIML Web Team, which he thanked. The new structure could now be seen on the website.
+
+The second Task Group had been dealing with the reasons for non-acceptance. Dr. Schwartz reminded Members that there had been a resolution the previous year, following which the BIML had sent out a letter enquiring as to the possible reasons why Basic or MAA certificates were not accepted at all, or accepted with limitations. There had been 32 responses:
+
+- more than half of those who responded (15 Member States and 6 Corresponding Members) had indicated that they accepted, at least to a great extent, OIML Basic and MAA certificates;
+
+- three Member States had indicated that they could accept only MAA certificates;
+
+- two Member States and two Corresponding Members had indicated that their national legislation did not allow the acceptance of OIML certificates at all; and
+
+- one Corresponding Member did not have a type approval service.
+
+Concluding this point, Dr. Schwartz announced that the group would like to publish the responses on the OIML website, and was going to send a request to the respective OIML Member representatives for their agreement to allow this.
+
+Dr. Schwartz told Members that there had been a lot of activity in Task Group 2, led by Paul Dixon on the review of the CPR, and Task Group 3, led by Dorothea Knopf, on the single certification system.
+
+Four meetings had taken place during the past year:
+
+- a meeting had been held in January of the Task Group chairs, the BIML and Dr. Schwartz himself in Braunschweig;
+
+- a second meeting had been held at the beginning of March in conjunction with the Presidential Council meeting in Paris;
+
+- there had been a discussion at the Presidential Council meeting; and
+
+- a final, follow-up meeting had been held in June to prepare the proposals for the CIML.
+
+The outcome of the meetings of these two Task Groups was a proposal for a single certificate system, which Dr. Schwartz would now present. In fact these two Task Groups had merged because it had become obvious that the ideas coming out of each group were almost the same. The proposal being submitted to the CIML meeting was a fairly comprehensive package and further documentation comprising five documents was available in Addendum 9.1:
+
+1. Part B (part A was the report which he had just summarized) was a proposal for the principal structure and organization of a single OIML certification system.
+
+2. Part C was a working document, in its real sense, the first working draft, Framework for the OIML certification system.
+
+3. Part D was a proposed timeline for the implementation of the proposed OIML certification system.
+
+4. Part E contained two proposed draft resolutions to be voted on at the current meeting.
+
+5. The final part, Part F, contained the terms of reference of a certification system Project Group. The current ad hoc working group would be disbanded and a new Project Group would be put together to draft relevant documents for a revised OIML certification system.
+
+Before going into detail, Dr. Schwartz said he would explain the basic idea behind the proposal. Starting with the existing MAA, he listed the Recommendations for which a substantial number of certificates, either MAA or Basic, had been issued. About ten Recommendations were used for both types of certificate. He then showed a slide with four columns for four Member States:
+
+## The basic idea of the OIML-CS
+
+<div align="center">
+
+a) Present status (MAA):
+
+</div>
+
+<table border="1"><tr><td>MI Cat./OIML R</td><td></td><td>MS1</td><td>MS2</td><td>MS3</td><td>MS4</td><td>MAA</td></tr><tr><td>R76</td><td>MAA</td><td>IP</td><td>IP</td><td>UP</td><td>-</td><td>DoMC1</td></tr><tr><td>R60</td><td>MAA</td><td>IP</td><td>UP</td><td>UP</td><td>-</td><td>DoMC2</td></tr><tr><td>R49</td><td>MAA</td><td>IP</td><td>UP</td><td>-</td><td>-</td><td>DoMC3</td></tr><tr><td>R51</td><td>Basic</td><td>IA</td><td>IA</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R117</td><td>Basic</td><td>IA</td><td>IA</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R61</td><td>Basic</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R85</td><td>Basic</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R31</td><td>Basic</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R129</td><td>Basic</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></table>
+
+A Member State in the MAA could currently be either an issuing participant or a utilizing participant. In the example:
+
+- Member State One was an issuing participant, heavily engaged in all three categories R 76, R 60 and R 49 of the MAA, and also an issuing authority in all the other relevant Recommendations;
+
+- Member State Two was an issuing participant only in R 76 and a utilizing participant in load cells and water meters and an issuing authority for R 51 and R 117;
+
+- Member State Three was just a utilizing participant with the MAA and a user for the other Recommendations;
+
+- Member State Four did not participate at all in the certificate system.
+
+For each category in the MAA there was one declaration of mutual confidence. So there was DoMC 1 for non-automatic weighing instruments, DoMC 2 for load cells and DoMC 3 for water meters. This meant there were three CPRs, and if the existing system were to be extended it would be necessary to create even more CPRs. That was the present sticking point, and it was why they were thinking about changing the system.
+
+Dr. Schwartz then explained the idea of the proposed revised OIML certification system. With the same instrument categories and the same Recommendations, what was now called the MAA would be called "Scheme B". Thus the revised system would be a single certification system with two different schemes and Scheme B would be for those Recommendations currently applicable in the MAA. It was suggested that the present issuing participants should be renamed "issuing authorities" or "utilizers". He showed a slide of this change:
+
+## The basic idea of the OIML-CS
+
+<div align="center">
+
+b) The proposed OIML-CS:
+
+</div>
+
+<table border="1"><tr><td>MI Cat./OIML R</td><td>Scheme</td><td>MS1</td><td>MS2</td><td>MS3</td><td>MS4</td><td>MAA</td></tr><tr><td>R76</td><td>B</td><td>IA</td><td>IA</td><td>Ut</td><td>-</td><td>DoMC-1</td></tr><tr><td>R60</td><td>B</td><td>IA</td><td>Ut</td><td>Ut</td><td>-</td><td>DoMC-2</td></tr><tr><td>R49</td><td>B</td><td>IA</td><td>Ut</td><td>-</td><td>-</td><td>DoMC-3</td></tr><tr><td>R51</td><td>A</td><td>IA</td><td>IA</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R117</td><td>A</td><td>IA</td><td>IA</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R61</td><td>A</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R85</td><td>A</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R31</td><td>A</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>R129</td><td>A</td><td>IA</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td></td><td>New:</td><td>Declar.of Scope</td><td>Declar.of Scope</td><td>Declar.of Scope</td><td>user</td><td></td></tr></table>
+
+Recommendations R 51 to R 129 would be called Scheme A. The group suggested no longer looking at DoMCs for individual Recommendations, but rather looking at declarations of scope for each Member State:
+
+- Member State 1, for example, could declare that it was ready to be an issuing authority in a given set of Recommendations and to accept certificates in certain other categories;
+
+- Member State 2 could be a utilizer or an issuing authority;
+
+- Member State 3 could be a utilizer; and
+
+- Member State 4 could just be a user.
+
+This would differentiate between the utilizers which actively said they accepted certificates, and users, which passively did or did not accept test reports.
+
+Dr. Schwartz showed a slide of how the future certificate system might look, with the same four Member States in their new functions:
+
+<div align="center">
+
+The basic idea of the OIML-CS
+
+</div>
+
+<div align="center">
+
+c) The proposed OIML-CS in the future:
+
+</div>
+
+<table border="1"><tr><td>MI Cat./OIML R</td><td>Scheme</td><td>MS1</td><td>MS2</td><td>MS3</td><td>MS4</td><td></td></tr><tr><td>R76</td><td>B</td><td>IA</td><td>IA</td><td>IA</td><td>Ut</td><td></td></tr><tr><td>R60</td><td>B</td><td>IA</td><td>IA</td><td>IA</td><td>Ut</td><td></td></tr><tr><td>R49</td><td>B</td><td>IA</td><td>IA</td><td>IA</td><td>Ut</td><td></td></tr><tr><td>R51</td><td>B</td><td>IA</td><td>IA</td><td>Ut</td><td>Ut</td><td></td></tr><tr><td>R117</td><td>B</td><td>IA</td><td>IA</td><td>Ut</td><td>Ut</td><td></td></tr><tr><td>R61</td><td>B</td><td>IA</td><td>Ut</td><td>Ut</td><td>Ut</td><td></td></tr><tr><td>R85</td><td>B</td><td>IA</td><td>Ut</td><td>Ut</td><td>Ut</td><td></td></tr><tr><td>R31</td><td>B</td><td>IA</td><td>Ut</td><td>Ut</td><td>Ut</td><td></td></tr><tr><td>R129</td><td>B</td><td>IA</td><td>Ut</td><td>Ut</td><td>Ut</td><td></td></tr><tr><td>Rxxx</td><td>A</td><td>-</td><td>-</td><td>-</td><td>-</td><td></td></tr><tr><td></td><td></td><td>Declar.of Scope</td><td>Declar.of Scope</td><td>Declar.of Scope</td><td>Declar.of scope</td><td></td></tr></table>
+
+The aim would be in the future for more and more Member States to become utilizing participants in the system. It was probably not realistic to raise the number of issuing authorities, because this required test laboratories to be built or built up, but utilizing participants could actively express a wish to play a certain role in the certificate scheme.
+
+Scheme A, Dr. Schwartz said, was still needed because where a Recommendation existed but there was no issuing authority, then that Recommendation could not yet be said to be covered by the OIML certification scheme. It would require at least one issuing authority for a Recommendation to be considered as a candidate for Scheme B, therefore there would always need to be two schemes within the single system. When a new Recommendation was developed for a new instrument it would start as a Scheme A instrument, and as soon as there was an issuing authority the new Recommendation could be moved into Scheme B.
+
+Summarizing, Dr. Schwartz said, under the new system there would no longer be DoMCs but there would be a single signature from each state. This system seemed to him to be more open than the existing one.
+
+The key principles of the new system, Dr. Schwartz said, were:
+
+1. It was a voluntary system. No-one was forced to sign it and to become part of this OIML certification system. However, once a Member State had signed, of course there was a moral obligation to fulfil the duties.
+
+2. There was still a distinction between Scheme A and Scheme B. Scheme A could be called the Basic system, to make it clear to everybody that they were speaking of something close to what they were used to, and the MAA had become Scheme B.
+
+3. A category of measuring instrument was either in Scheme A or in B. At the moment there was a mixture. There were Basic certificates for R 76, but also MAA certificates, and this was confusing the users and utilizers, and so the task group had decided to propose that an instrument could either be in A or in B. The transition from A to B was subject to defined criteria, and it was the preferred direction; so the final goal was to include as many Recommendations as possible in Scheme B. Naturally this made sense only where there was an issuing authority for a particular Recommendation.
+
+4. DoMCs for each category of measuring instrument would be replaced by Declarations of Scope signed by each participant - one signature per Member State. Issuing authorities or utilizers would declare their scope for issuing and acceptance. Of course, users could just passively participate in the system, but without declaring an intention to issue or accept certificates.
+
+5. The requirements for participation in Scheme A or B were the same; that meant compliance (of course) with ISO/IEC 17025 and OIML D30. For participation in Scheme A, it was
+
+sufficient to demonstrate competence on the basis of self-declaration with additional supporting evidence. With the MAA system there was currently the route of either accreditation or peer assessment, which could both be called "peer evaluation". However the new aspect the group would like to propose was that also under Scheme A issuing authorities would be required to have a quality management system in place which fulfilled the requirements of ISO/IEC 17025. They need not necessarily aim for accreditation or peer assessment for the time being, but at least they must be ready to self-declare that they had a system in place which fulfilled ISO/IEC 17025. This was not the case at the moment, as Basic certificates could be issued by any issuing authority which simply stated that it wished to issue Basic certificates and no evidence of a management system was required.
+
+6. If a CIML Member nominated one or more organizations to become an issuing authority under the OIML certification system, the decision on participation would be under the responsibility of the Management Committee. Under the old system of governance, for each DoMC there was a CPR. This form of governance was not very effective and an effective managing committee was essential. The group had suggested calling this the "Management Committee" rather than CPR; it would have oversight of the system and control whether everything was functioning well, and would decide on the participation of new participants. Dr. Schwartz was aware that the Management Committee was very important, so the group had thought very deeply about what criteria a Management Committee should meet in order to properly operate a certification system. He was expecting discussions on this and was well prepared to answer questions. The most critical point was that the Management Committee should be small enough to be effective, and so the group proposed a maximum of 12 members. Many members of the existing CPRs did not attend the meetings and so there was always a need to look for a quorum - sometimes this was not achieved and so the meeting could achieve nothing. The members of the Management Committee needed to be dedicated and take their position seriously, and they would have to act in the best interests of the OIML certification system and not primarily represent the interests of their own countries. This had been learnt from the ISO and IEC schemes. They had looked especially at the IECEx scheme and had found it interesting to see that it was most important for the members of the Management Committees to be dedicated, with a primary interest in running an effective system rather than representing their own country. Representation must of course be balanced between issuing authorities and utilizers. CIML Members of each Member State could propose candidates, and there would be a nomination process (which had not yet been defined) which would ensure that certain criteria were fulfilled. Potential members would be elected by the CIML for a fixed period, the MC chair would be appointed by the CIML, there should be no more than one member from any one country (including the chair) and the chair and each member would have one vote. There would be an executive secretary without a vote (a BIML staff member) and there would be support from an advisory panel of technical experts. So when the Management Committee had to decide on new participants, for example, or the extension of the scope of an existing participant, technical expertise would be required to judge the accreditation or peer assessment reports. As at present in the CPRs, the group had thought experts needed to judge the reports. It would be called the advisory panel and its members would be technical experts in various fields.
+
+Dr. Schwartz showed an overview of the proposed certification system:
+
+![](page=83,bbox=[507, 310, 1413, 899])
+
+The left hand side, in blue, represented where the Recommendations were produced or revised, and in green the proposed certification system.
+
+Going through the four green boxes step by step, Dr. Schwartz explained that the advisory panel consisted of experts nominated by CIML Members and appointed by the Management Committee for certain categories of measuring instruments; these would be called upon by the executive secretary when needed to provide advice, particularly on accreditation and peer assessment reports. So it was a standing committee but not necessarily one which met regularly; it which was a kind of pool where the executive secretary could ask certain members to give support to the Management Committee.
+
+The next box was a test lab forum. This idea had come from the experience of other conformity assessment systems. If test labs were doing conformity assessment tests on a weighing instrument - e.g. a water meter or a gas meter - they would apply the Recommendations and they would probably find problems or at least have questions which were not fully covered in the Recommendation. In Europe, for example, there was NOBOMET, a notified body forum which exchanged information about existing standards, and their application in conformity assessment procedures. The group thought that, additionally, the OIML would be well advised to think about such a forum, where those who were actively performing tests had a forum for asking questions, seeking advice, looking at harmonized procedures, and also to give advice and feedback to the TC responsible for the Recommendation. This would be an online platform for ongoing discussions, offered by the OIML to test laboratories.
+
+The board of appeal was also necessary, in order to hear any appeals against the decisions of the Management Committee, from which it would be completely independent. It would be called on only when required. The appeals mechanism would have to be described in the framework document for the certification system. These were the elements necessary for a well-functioning certification system.
+
+Most of the work, Dr. Schwartz continued, would be done by correspondence and email, using the facilities of the new OIML website, except for the Management Committee itself, which he considered should meet at least annually. The executive secretary, as already mentioned, should be a BIML staff member responsible for the day to day operation, who would also act as secretary for the advisory panel and test labs forum.
+
+Finally, approaching what he was aware was a critical issue, Dr. Schwartz said, the working group had looked at the fees and the budget. They were confident that the operation of the proposed system would not lead to an increase in membership fees. The proposal was that the costs of running the certificate system should, for the first time, be accounted separately, so that the time and effort going into it could be analyzed for the first time ever. This would enable the OIML to fully understand the costs associated with running the system and would enable a clear comparison with the income generated through the registering of certificates. At the moment there was an income of about 70000 per year from certificates, and the average annual cost for a BIML staff member was 130000 per
+
+year, so at the moment the income from the certificates already covered more than half the cost of a BIML staff member.
+
+The framework document for the new system had already been drafted, Dr. Schwartz told Members. It would be a Basic Publication, possibly B18, and the text was available in Addendum 9.1. Management Committee documents were also needed, which would be comparable with the existing MAA documents, written by the first CPR. They would be called MC documents (or similar) and it was proposed that the framework document and MC documents together would replace B3 and B10 and MAA 01, most of the elements of which would be incorporated in the framework and MC documents. So there would be one single system, one framework document, plus supporting MC documents.
+
+In order to achieve this it was proposed that there should be a Project Group, to be called the Certification System Project Group or CSPG, for which terms of reference had already been drafted. These ToR were produced in section F of Addendum 9.1 and are summarized below:
+
+1. The purpose of the project would be to draft a Basic OIML Publication with the framework for a single certification system and to develop the procedures and operational documents for the single certification system.
+
+2. Membership and convenership of this CSPG was open to every interested CIML Member or their expert representative. At the suggestion of others, Dr. Schwartz would chair this Project Group and the BIML would provide secretarial support. Dr. Schwartz reminded Members that Mr. Kool had sent out a letter three weeks previously inviting Members to make proposals for participation in this Project Group.
+
+3. The proposed tasks of the CSPG were already defined, and were to work out:
+
+- the Basic OIML Publication;
+
+- the nomination process for membership of the Management Committee;
+
+- draft procedures and operational documents for the single certification system.
+
+4. Dr. Schwartz showed the time schedule, presented in detail in section D of Addendum 9.1. An ambitious timetable was proposed, because two elements needed to be confirmed by the Conference in 2016: first the Management Committee itself and the second the budget related to the certification system. If these elements were not ready for the 2016 Conference, the next window of opportunity would only be in 2020. Similar to the earlier discussion, Dr. Schwartz warned, if the B 6 procedure was followed to the letter it would certainly not be possible to meet the 2016 Conference deadline. However it was an internal document, and although the timeline was ambitious, the group felt well prepared, and convinced that with dedicated persons on the Project Group the deadlines could be met. The timeline contained enough time for Members to read the documents which would be produced and to comment on the proposals, so he hoped the meeting would agree to the ambitious timeline. The working draft for the Basic Publication was ready, and elements of the existing B3, B10 and MAA01 documents would be incorporated, so the only new element needed was the nomination process.
+
+5. It was proposed that decisions of the Project Group, as in other similar groups, should be valid if two thirds of votes cast by its members were in favor. This was the rule applied to Project Groups.
+
+In concluding, Dr. Schwartz said that the ad hoc working group recommended that the CIML approve the principal structure and organization of the proposed certification system and establish the CSPG Project Group.
+
+He emphasized that the ad hoc working group had put a great deal of effort into the elaboration of the concept he had just presented, based on the mandate given by the CIML. He was convinced that the new certification system would only be successful if there was an effective Management Committee with dedicated members, including, of course, its chair, and a dedicated executive secretary. This had also been the experience of other certification schemes. Without the person representing the system it would not work. The aim was to develop and maintain a well-functioning certification system within
+
+the framework defined and supervised by the CIML. On the other hand, although it was completely under CIML supervision, there must be a readiness to give the Management Committee the necessary freedom and responsibility to operate the system within the defined framework. So there must also be some freedom for the Management Committee to react quickly and to make the proper decisions within the framework given by the CIML. So, as the chair of the ad hoc working group, Dr. Schwartz asked the CIML to support both the proposed certification system and the ambitious time frame. As he had previously pointed out, the next opportunity would be the 2016 Conference for endorsement of the concept but if this opportunity were missed it would create problems in establishing the system. There was a good momentum at the moment and he hoped Members would support this. He thanked Members for listening and invited questions.
+
+Mr. Mason thanked Dr. Schwartz for his full and comprehensive account. In his view this was the most important item being discussed in the current week. This was an opportunity to make a significant change, and significant improvement in the way that one of the OIML's core activities functioned. Parallels would obviously be drawn between this and the B 6 debate, because in both cases it was a matter of setting up a Project Group with a defined task, with in many respects a very similar membership structure and with a very challenging timetable. But there was one important difference, which was that the certification task represented the outcome of two years of work by a number of people, not least the First Vice-President himself, who had put an enormous amount of effort into developing these proposals, as well as the other individuals he had acknowledged.
+
+Mr. Mason proposed dividing the discussion into two, looking first at the totality of the proposals. He read the key section of the first proposed resolution, which was that the CIML was approving the principles set out, including the proposed structure, organization and distribution of the constitutional documents between a framework Basic Publication which the CIML would have to approve, and the constituent documents, which would be under the ownership of the Management Committee. The important distinction was, once again, that the CIML was giving the Project Group the task of producing the initial draft of the Management Committee documents as well. So he invited questions and comments in the first instance on the structure, principle and organization of the new integrated certification system. Members would note the link between the project in hand and the message which had come from Monday's seminar about the potential relevance of a certification system which worked much better than the current one in meeting the needs of all OIML Members, not only those with mature systems but those which were looking to improve the way they regulated.
+
+Mrs. Lagauterie (BIML translation) congratulated Dr. Schwartz for leading the work; many people had worked with him but he had been the driving force. She also congratulated him on the clarity of his presentation. She was familiar with the material he was presenting, but one question had occurred to her as she listened: was it assumed that States that were issuing participants were also utilizers? In the past there had been limits, and she supposed that it would be the same under the revised system. A state could be an issuing participant for certain categories of instruments only, and a utilizer for others. Unless she had missed where this was clarified, it needed to be added.
+
+Mr. Mason pointed out that there were two different kinds of users. One kind was a country which issued certificates, because it had the structure to do that, but actually for products it did not itself regulate. To that extent, being an issuing participant did not necessarily commit anyone to accepting certificates, which was irrelevant if they were not regulating. The more direct question was whether an issuing participant, in order to participate in this system, should be required to accept certificates as a condition of benefiting from the scheme as an issuing participant.
+
+Dr. Schwartz thanked Mrs. Lagauterie for her important comment. The group had thought about it but he had not mentioned it in his presentation because it would have been too detailed. However, in the framework document on page 14 of Addendum 9.1 a definition for an issuing authority could be found in the glossary. This clearly stated that "Under Scheme B an issuing authority will also be a utilizer for that category of measuring instruments". This was the principle he believed Mrs. Lagauterie was looking for. It would clearly be the expectation that this important aspect of the MAA would not be changed.
+
+Mr. Bjorkqvist also congratulated those who had accomplished this huge amount of work, because this product, if he might call it so, was much clearer than the existing system which had been discussed for many years. He still, however, had some questions or problems with understanding it, because it was said that it was a voluntary system; they spoke of authorities, but he could see in the glossary that authorities were not what he had originally thought, i.e. public authorities which could be the certification body. But in this system, as he understood it, there were many tasks for the Member States. There should be a national committee, forums for test laboratories and other administrative matters that Member States should undertake. The CIML Member should also take part in some of these matters, and Mr. Bjorkqvist wondered how he should understand the voluntary part of it. Many Members had heard him ten years previously discussing the MAA and the problems that Sweden had with that system, and whether it was the Member State that took part, or the certification body, or some other body. This was not totally clear to him.
+
+Dr. Schwartz confirmed that it was a voluntary system in the sense that every Member State was free to sign or not to sign. He compared this with the former WELMEC type approval agreement which had existed in Europe 15 years previously whereby a state was free to sign or not, but once it had signed it was committed to, among other things, accepting test reports from others. On the question of resources being put into the system, he did not envisage that more resources would have to be put into the new system than was already the case with the existing MAA system. The test labs forum was an offer of an online platform to all the test labs which at present did not have a platform to exchange information; he felt they might welcome this new element, which did not require any further resources. Concerning the advisory panel, there was already a list of technical experts for the MAA, and he hoped that in the future more experts might be ready to assist in peer assessment and accreditation activities. He understood how the impression might be given that more tasks were being created for the Member States, but most of the work would be done online and electronically, with as few meetings as possible. OIML Member States had an advantage, because it was for the benefit of the OIML to have a well-functioning certification system, but in order to establish such a system they must be ready to allocate some resources. However, there would not have to be many new resources as the same people would be doing the tests (those involved in accreditation and in peer assessment) and there would probably be fewer people in the Management Committee than there were at the moment in the CPR, so in reality he thought no real new resources would be needed and therefore no new financial burden would be put on Member States.
+
+Mr. Fekiri (BIML translation) thanked Professor Schwartz, his team and the Bureau for their efforts to simplify and improve the certification system, but considered that the scheme, which had been under discussion for ten years, was too theoretical and difficult to grasp. He felt that the OIML should work with international accreditation organizations such as ILAC and the IAF to create some kind of a complementary guide on certification or accreditation.
+
+Mr. Mason commented that this went beyond the work being done on the certification system. There were already accreditation frameworks, there were also organizations which tested equipment, and which produced test reports and certificates under their own names, often within a framework of accreditation. All that was already there, but was not accepted by the majority of OIML Member States as being sufficient for areas of regulation where they were trying to impose type approval, type requirements and so on. He thought that was not the way forward, bearing in mind OIML Members' understanding of what more they needed to do to give assurance to Member States wanting to regulate in their markets that the certificates that were developed under OIML authority were good enough to be accepted by them. They knew they were going beyond what the present accreditation processes were able to deliver, but that was essential, because the present accreditation processes were already available, though none of them would be sufficient in themselves for legal metrology authorities looking for type approval or type assurance in their markets.
+
+Dr. Klenovsky said that he thought much along the same lines as Mr. Fekiri: soon it would be possible to use ILAC's system, for example, and to encourage those countries that did not accept accredited test reports to recognize them. This was how things had worked in other conformity assessment areas. But basically he felt that some sort of analysis was lacking of what the rate of utilization of the current certificates would be. This was important, for example, for nations that might be considering whether to join the DoMC on R 76. There were in fact only three countries which recognized only MAA
+
+certificates, which was not many. So they were near to a not very elaborate system where a high level of recognition could be achieved. He also felt that there was a lack of any financial implications because just now to join a DoMC a registration fee of 1700 euros had to be paid. This was quite prohibitive if one took into account that there were only three countries in which MAA certificates were needed. With the few manufacturers that they served, the statistical probability of exporting to these countries was quite low. Now he understood that there was a cost of about $ \epsilon140000 $ to run the system at present; this looked like quite a high amount to him.
+
+Mr. Mason replied that on the question of whether any of this should be done, that had effectively been the question that the OIML had asked itself two years previously. They had held an MAA seminar and had looked at the experience of the scheme to date, and that had been the opportunity to say "It's not working, let's get rid of it altogether". But that was not the conclusion that had been reached. Instead, they had reached the conclusion that it was not working very well, and more had to be done to make it more effective. He thought it would therefore be unfortunate if they were now to revisit a decision taken two years previously instead of looking at this as a set of proposals which those who had looked at it regarded as being the best way of making the existing system work better. There might very well be individual Members who would say that the system did not appeal to them and that they did not want to be involved in it either by issuing certificates or accepting them. Within the European Union, the CE marketing requirements created a different situation in any case. But they should not be adopting a narrow national standpoint when looking at this, but rather an organizational one - was this a system which was in the interests of the OIML and its membership as a whole, not as individual countries, because all countries were able to take an individual decision as to whether to participate or not.
+
+On accreditation and peer assessment, Dr. Schwartz reminded Members that in the morning they had heard the report from ILAC, which had mentioned the joint ILAC/OIML assessment procedure in the field of legal metrology. Dr. Schwartz emphasized that just as the Metre Convention had done, the OIML had decided that they wanted to have an equivalent route for peer review, which was peer assessment. This was an equivalent route to accreditation and had been accepted by ILAC and the IAF, otherwise they would not have the joint OIML/ILAC assessment agreement in the field of legal metrology. He wished to keep this principle, because the OIML could only accept test reports from other authorities if they were confident that these test laboratories had been assessed with the proper expertise by the right persons, who were technical experts chosen by the OIML. They had read the reports with emphasis on the respective category of measuring instruments.
+
+Secondly, Dr. Schwartz showed a slide listing the benefits for the OIML of an effective certification system: it would raise the motivation within the membership, and the reputation and attractiveness of the Organization from the outside by facilitating mutual recognition worldwide and thereby reducing technical barriers to trade. It was in the interests of the OIML to have an effective system which supported the reduction of technical barriers to trade. Issuing authorities could offer attractive services to customers, sometimes referred to as one-stop testing. The benefit for utilizing participants was that they did not have to build up their own test facilities, they could rely on qualified certificates and related test reports from accredited or peer assessed issuing authorities, and they had the possibility to be represented on the Management Committee. Last but not least, manufacturers had the advantage of mutual acceptance of test results, avoiding lengthy and costly multiple testing. So there was benefit for many. He also supported what Mr. Mason had just said, that the decision had been taken to continue with an OIML system, and this was for the benefit of the OIML and for them all.
+
+Concerning the budget, Dr. Schwartz reminded Members that for the first time the costs of running and administering the present and the future system would be accounted for separately within the OIML budget, so that it could be seen how much effort went into the system. It was not yet known whether it was 10 %, 20 % or 50 % of a BIML staff member, so after a couple of years they would be in a position fully to understand the costs associated with running the system. Only then could the income generated be compared with the costs. He added that an attractive system was certainly associated with the expectation that the income would also rise. The present income, for which figures had been supplied by Mr. Patoray, had averaged 672000 per year over the last two years, and the Director had also supplied the figure for staff costs. It was not yet known how much time BIML staff were putting into the certificate system, but if the figure was for example 50 % of one BIML staff
+
+member's time, this was already covered by the fees being earned at the moment. Dr. Schwartz's expectation would be that the better the system ran, the more care was put into making it run smoothly and effectively, the better it would be accepted and the more income it would earn and the more the OIML would be in a position to inject more resources into it, because they could cope with it.
+
+Mr. Mason added that he had spent four years in the finance directorate of his parent department and there were two questions he asked in such situations:
+
+- firstly, did the numbers add up? It had been seen in the present case that the numbers certainly did add up, and Mr. Patoray had indicated that he did not expect this project to lead to any increase in Member States' subscriptions;
+
+secondly: was there a risk if the numbers did not add up? And when taking a risk, it was also necessary to ask what the potential benefit was. Mr. Mason's estimation was that even if there was a risk here that the numbers were not as positive as expected, nevertheless, the advantage of the proposed scheme for the OIML was far greater than the element of risk that might be incurred by moving into this form of fee-generating activity. He considered that the numbers as they existed at the moment should be looked at in this way. What was known was that by the time this proposal would be submitted to the Conference and the budget had to be set, there would be a much clearer idea of what the likely costs would be, of the nature of the structures, and of what costs, apart from BIML staff costs, would have to be met in order for the scheme to operate. The proposed scheme was of potential interest to a very large number of Members, and the benefit far outweighed the risk.
+
+Mr. Dixit congratulated Dr. Schwartz on his excellent work in coming to the conclusion the OIML had been struggling to reach for several years concerning this work. He asked what the preconditions would be for issuing authorities - when would they apply, and what would the duration of the certificate be.
+
+Dr. Schwartz replied that the precondition for test laboratories would be ISO/IEC 17025, supported by D 30, and in any case a quality management system demonstrating competence.
+
+Mr. Dixit said that there were three MAA categories: water meters, load cells and non-automatic weighing instruments, but at present he felt there was only interest in the last of these (NAWIs). He asked what the criteria would be for non-automatic weighing instruments.
+
+Dr. Schwartz reiterated that the criterion was ISO/IEC 17025, plus a demonstration of competence to test weighing instruments; this would be judged by an assessment team, in the framework of either an accreditation or a peer assessment team, which would include a technical expert in R 76 who had experience in judging whether the laboratory in question was able to properly test non-automatic weighing instruments.
+
+Mr. Dixit asked, if he was a candidate to become an issuing authority and he requested peer assessment by the PTB or METAS, whether their recommendation would be sufficient.
+
+Dr. Schwartz confirmed that this had been done under the MAA and would certainly be continued under the new system. If a peer assessment included a relevant expert for example from the PTB, from METAS, from the UK, from Japan, etc. the report would then be considered by the Management Committee (at the moment this would be the CPR) so it was important that the report from the assessment team was accepted by the responsible committee.
+
+Mr. Dixit asked how long the certificate would be valid for.
+
+Dr. Schwartz explained that at the moment a complete re-evaluation was carried out every five years and a re-evaluation on paper was done every year, to demonstrate that the system was working.
+
+Mr. Mason intervened to say that he thought Mr. Dixit meant the duration of certificates issued under the system.
+
+Dr. Schwartz explained that this matter had not yet been finally resolved. There would not be a problem for MAA certificates under the new system because the rules were similar. For Basic certificates there would be a transition period, as yet undefined.
+
+Mr. Dixit then asked what would happen to weighing instruments which had been put on the market under the Basic system. Would manufacturers have to apply for another MAA certificate?
+
+Mr. Mason reiterated Dr. Schwartz's answer, that the length of the transition would be determined by the Management Committee, which was why that Committee needed to include representation of a range of viewpoints so that the interests of users of the system as well as issuers were taken into account.
+
+Mr. Dixit thought that it was clear that manufacturers were being supported more than consumers.
+
+Mr. Mason replied that whenever a new and more demanding set of requirements was introduced there was always a need to set up transitional arrangements.
+
+Dr. Miki said that he too was interested in transitional periods. The target date of introduction of the new system was the beginning of 2017. He wondered whether this was not rather ambitious; however, he also understood that the 2016 OIML Conference would be a very good opportunity to discuss this, so he was not complaining about the time frame. But the time frame did create a lot of demanding tasks, not only for the BIML and the Management Committee, but also for Member States. A lot of jobs had to be done in preparation for starting the new system. He asked whether any transitional period was envisaged during which both the existing and the new schemes would run in parallel.
+
+Mr. Kool replied they had looked carefully at the existing schemes in the IEC. That organization had had many years of practice and had developed many documents that the OIML could draw from (and indeed had drawn from). Based on that experience, the Project Group believed it was possible to draft the documents within the time frame that had been set in the proposal. Those Member States that were interested in participating, which was by no means all of them, would also have to do some work in the coming year, but this was the reason why nominations of experts for the proposed Project Group had already been asked for. There had already been six of these nominations. It was not, however, necessary to reinvent the wheel: the IEC had already provided the tools and it was only a question of adapting these tools to the OIML's situation.
+
+Dr. Schwartz added that in addition there were already very good provisions in B 10. Many Members were not familiar with all the documents in existence, but B 10 gave perfect requirements and also touched on the transition period for Basic certificates, MAA certificates, revisions of Basic certificates, what happened when moving from one scheme to another, etc. So from this point of view also there was no need to reinvent the wheel; the provisions from B 10 could be used.
+
+Dr. Miki continued that it was not only a question of preparing a document, but Member States also had to get ready to start the system, which was a demanding task for them.
+
+Mr. Kool suggested that this was not the case. The proposal stated that the role of the CIML Member was to nominate issuing authorities, which was a role they already had. There was also a suggestion that there might be a national structure which would allow stakeholders to participate. But this was a suggestion only, and many countries already had national institutes of some kind, or some structure whereby stakeholders were invited to a meeting to discuss issues of this kind.
+
+Mr. Banholzer, speaking for CECIP and for the weighing industry, said he was very impressed with the work on the project, which was already very detailed. The weighing industry much appreciated the fact that there would be just one system. It was also important for industry, however, for these certificates to be widely accepted, in which case the cost would not be the most important issue. Even if the cost were higher, industry would still accept it.
+
+Mr. Mason thanked Mr. Banholzer, and reassured him they would try not to exploit his comments! He added that among the various concerns that had been addressed, he did not think anyone had suggested that here might be a lower level of acceptance than for the present system. The whole reason for the changes was to increase levels of acceptance and he was very confident that this would happen.
+
+Mr. Marneweck wanted to confirm that utilizers would still be able to identify a certificate under Scheme A or Scheme B, because some of them needed the assurance that if it was issued under Scheme B it had gone through peer assessment or accreditation.
+
+Mr. Mason replied that this assurance could certainly be given. Since instruments would be either in Scheme A or Scheme B, users would have a clear idea of what sort of certificate it was, based on the instrument.
+
+Drawing the debate to a conclusion, Mr. Mason said that the discussion up to then had centered on the principles of the scheme and the arguments for and against it. He felt that the time was now right to
+
+create a Project Group which, like other Project Groups in OIML technical work, would work as far as possible within terms of reference defined by the CIML. It would be an open Project Group which would be expected to operate the appropriate voting procedures and principles.
+
+The suggested timetable did not involve the full procedures of B 6 concerning approval, gathering nominations, circulating a consultation draft, making provision for a preliminary ballot, etc. He now wanted to concentrate on this. They were now in a situation which was different from B 6, because a lot of work had been done. There were already six nominations for the Project Group, which remained open to accept more. The group which had been formed had been broadly supportive of this timetable. He invited comments on this approach to the next stage of work, and in particular on the timetable.
+
+Mr. Dixit commented that in his opinion, everything was looking good. However, a situation might arise where a person had an OIML MAA certificate but this was not accepted in other countries. What would be the fate of such a manufacturer and would he have to apply again in another country?
+
+Mr. Mason replied that there would be other opportunities for detailed questions such as this, but that at the moment it was imperative to move on to the question of how the project would be carried out. Dr. Miki had expressed some doubt as to whether all this could be done as fast as they hoped. He asked whether these doubts were strong enough to argue that the work should be done to a different timetable.
+
+Dr. Miki replied that he did not think this timetable would be a problem.
+
+Mr. Marneweck expressed South Africa's satisfaction with the way the new certification system was developing, building on the old system. Referring to Dr. Schwartz's intention to keep this Management Committee to about 12 members, he fully supported this idea, especially in view of how hard it was to gather a larger number of people together. This Management Committee was there for the specific purpose of ratifying work done by accreditors or peer reviewers; they should also be entirely independent of the Members that they would be evaluating.
+
+Mr. Mason said it would be helpful to include that suggestion in the minutes; it was up to the Project Group to make the decision on the Management Committee size, but they would bear that comment in mind.
+
+Mr. O'Brien supported the work being done and liked the scheme in its present form. He asked the Project Group to consider calling the former MAA scheme the Scheme A and the former Basic system Scheme B. "A" was then the gold plated, high confidence version and "B" was slightly less so, and hopefully people would move from B to A.
+
+Mr. Mason said that this again was a useful idea for the Project Group, and seemed to be receiving Members' support.
+
+Dr. Ehrlich felt that this was another case where using B 6 could provide a better framework for doing the work, although he did understand the sense of urgency. He also suggested that the Project Group could be within TC 3/SC 5. He continued that the USA had expressed concern about the Management Committee having a limited membership, meaning that decisions might not be made by as broad a group of people as was now the case with the CPRs. Even with the current MAA he felt that having a Management Committee would be a good idea, to assist the BIML in the work of conducting the current MAA. Perhaps there could be a way of incorporating that. Finally, he had concerns about costs, but Dr. Schwartz had addressed this the previous day, for which he thanked him. It was still not exactly clear how the cost aspect would work out, but he appreciated the fact that some thought had been given to it.
+
+Mr. Mason thanked Dr. Ehrlich, adding that the idea of proceeding according to B 6 had been discussed, and delegations who felt very strongly about it would have to consider whether they could support the proposals. However, he understood that there was a determination to move as quickly as possible, and so it was not possible to follow the B 6 procedure and still introduce this system in the suggested time scale.
+
+Mr. Marneweck confirmed that South Africa would gladly support the Project Group in finishing this work as soon as possible. It had already been ongoing for two years and was based on best practice methods, so they wished to support it. If the Project Group thought they could finish it in the suggested time schedule, then South Africa would support them in finishing it as soon as possible. Also, B 6
+
+made it very clear in its points one and two that the CIML could deviate from its procedures especially when there was urgent work to be done.
+
+Dr. Ehrlich asked whether if the work was not completed by the 2016 Conference, would it have to wait another four years before being implemented?
+
+Mr. Mason said that in his view it would not be necessary to wait another four years; there might well be things that could not be done without the support of the Conference, but if the entire package were not available the following year, then the Conference would have some difficult decisions to make concerning provisional guidance or approval for decisions that might be made in the intervening period. He did not want to give the impression to the CIML that this work would have to be finished either within one year or else in five years, because there were probably a lot of things that could be introduced anyway. They had not investigated exactly how much could be done without Conference sanction, and they also had the option of asking the Conference to give provisional approval to certain proposals, but these details would have to be considered the following year if it had not been possible to complete the work.
+
+Dr. Schwartz commented that this was correct; he would much prefer to have the complete package ready in 2016. Failing this, he feared that it might be difficult to highlight exactly what would have to be endorsed by the Conference and what would not. Many actions could be undertaken to restructure the MAA, but the Management Committee was very important and so was the budget, both of which had to be endorsed by the Conference. By the following year there should be more accurate figures on the budget, and a better idea of what percentage of BIML staff time already went into certification work. But both the Management Committee and the cost of the new system would have to be endorsed by the Conference.
+
+Mr. Dixit expressed his opinion firstly that the new certificate system should be set up in a limited time. Secondly, he asked to whom a country which had been accepted by peer assessment but then rejected by the Management Committee would be able to appeal. Thirdly, he wanted to know how the Management Committee would be supervised.
+
+Mr. Mason agreed that both the CIML and the Conference would want to satisfy themselves that the supervision arrangements were adequate. Among the more controversial elements of certification was the relationship between peer assessment and accreditation. It should be clear that the present policy and approach were not being questioned as the new arrangements were introduced, although he was sure that this question would be revisited at some point in the future. They were changing what needed to be changed in order to make certification more efficient, but not reopening questions such as peer assessment, the role of manufacturers' test results, etc. All these matters were outside the project under consideration.
+
+Dr. Miki said he understood that it would be preferable to take a decision on the Management Committee and on funding at the 2016 Conference for the new system, but he asked whether if it was not ready for the Conference it would be necessary to wait a further four years.
+
+Mr. Mason repeated that this was not the case and explained that if the entire package could not be approved in 2016 it was possible that, subject to sufficient agreement, the Conference could pass a resolution approving for example the setting up of the Management Committee subject to certain matters being resolved. If they were close to agreement on most points, then the Conference would probably be able to take the necessary decisions, but if there was deadlock this would be much more difficult. It was not possible to foresee how close they might be to obtaining consensus.
+
+The CIML was then invited to vote on two resolutions.
+
+The first resolution, Mr. Mason said, was in support of the direction that the certification system would take in the future, making it clear that the present ad hoc working group was being disbanded and instructing the Bureau that in this interim period everything possible should be done to ensure that the existing systems continued to function as intended.
+
+Taking the vote, Mr. Kool noted that 53 CIML Members were present or represented.
+
+India had received a proxy from Indonesia.
+
+Brazil, Cyprus, Finland, Greece, Japan, Sweden and the USA abstained.
+
+There were no votes against so the resolution was approved.
+
+The second resolution, Mr. Mason said, was the specific approval of the proposal to implement the principles in the direction of travel which had just been agreed to. This took the form of detailed instructions to the Project Group on how they should conduct their work.
+
+Brazil, Japan and the USA abstained.
+
+There were no votes against so the resolution was approved.
+
+Mr. Kool added that a few weeks previously he had sent out a circular asking for experts to serve on the Project Group which had now been established. He had so far only received six nominations. He asked for more nominees and volunteers.
+
+Dr. Ehrlich said that in the light of the number of abstentions in the first vote, this seemed to him to be an appropriate time for him to raise the issue of the methodology used for deciding the outcome of votes. It had occurred to him the previous day, when one of the Member States had not been present during the voting, that the votes of those who were not in the room at the time of the vote were cast as "yes" votes. In cases where there was a close vote he felt that it was appropriate to conduct a vote where the number of "yes" votes was actually counted. He understood that the technique which had been used for some time, i.e. to look at the number of abstentions and the number of votes against and then subtract that from the number of Members who were present or represented was an efficient use of time when the vote was not close, but in the case where the votes were close, then it seemed to him that it would be most appropriate to actually conduct a count of the number of "yes" votes. This had occurred the previous day during the vote on Variant One on the revision of the Directives and it had occurred a few minutes previously, though perhaps not quite as close. He noted that at least one Member was absent from the room, as had been the case the previous day. So he would like to raise this as an issue and request that in the case of close votes the number of "yes" votes actually be counted.
+
+Mr. Mason thanked Dr. Ehrlich for the way in which he had raised this issue, and for giving him advance notice of the issue in order that he could consider what advice he thought it appropriate to give the CIML. Dr. Ehrlich, he said, had rightly acknowledged that the consequence of what Mr. Mason would call the "rough and ready" approach to voting that the CIML had adopted was a useful way of establishing whether a proposal had the necessary level of support, bearing in mind the OIML's complex voting rules. He considered that as a matter of principle Dr. Ehrlich was also absolutely right in that if the votes were close, it was appropriate for that "rough and ready" approach to be substituted by a roll call vote. He felt that this was the clear expectation of what the CIML would expect on such matters. He was happy for this to be transcribed in the minutes and for it to guide OIML procedures in the future.
+
+It then became necessary, Mr. Mason continued, to decide in any particular instance whether a vote was sufficiently close to call for a roll call. He felt it was abundantly clear that the votes just taken on the two certification resolutions had not been close, and so he had not considered asking for a roll call on this point. In terms of the previous day's vote, where there had been a more significant number of votes against, the question had been raised with him whether that had been sufficiently close to justify a roll call vote. In his view it was not, since they had been in a position to model, using the Excel sheet they had created, the level of absences that would be necessary to make a vote of one abstention and seven votes against be deemed as "close". The principle he had just outlined had been applied, namely they had considered whether a roll call vote was appropriate in that case, and he had felt that it was not. He was grateful for the issue being raised in the way that it had, and he hoped that this approach had the support of the Committee.
+
+Dr. Ehrlich wished it to be on record that, concerning the previous day's vote on Variant One, although he had not seen the details of the modelling that had been performed, he did have some background in statistics. He confessed he had difficulty in seeing why the vote (which had passed by only three votes according to the software used by the Director) was not considered close enough to warrant a roll call vote in order to accurately note the number of "yes" votes, as he knew that one Member had been absent - possibly two - but who might have had a proxy.
+
+Mr. Mason thanked Dr. Ehrlich, but confirmed that it was a matter of arithmetic rather than statistics. He recognized that Dr. Ehrlich had offered an opportunity for the meeting to consider this question, but considered that in this particular situation he had been able to determine how many empty seats
+
+there were in the room and calculate the precise voting figures, because in reality this had not been a "close vote" within the meaning of the principles just set out.
+
+## 9.2 Report on the OIML Certificate Systems
+
+Because this was an item for information on a system which the CIML had just decided to change substantially, Mr. Mason asked Mr. Mussio to present it as briefly as possible, concentrating on any questions the Committee might wish to ask.
+
+Mr. Mussio reported that the number of certificates was growing steadily. The growth in the number of what he called historical certificates had not changed, nor was it expected to change in the short term. The only thing he questioned was why so many Basic certificates for R 76 were issued by MAA issuing participants. He had asked these participants the reasons for this, and in many cases the explanation was that some of the data used for the test reports dated from before the MAA had been signed, so these certificates could not be MAA certificates. Many of these were also revisions of old certificates. However, he pointed out that no new certificates had been issued as Basic certificates that could have been issued as MAA certificates.
+
+Historically since the beginning of the MAA there had been little change in the overall number of certificates. In the last year the only difference had been a slight percentage increase in the number of certificates issued by the Netherlands and by the UK.
+
+By the middle of 2015, Mr. Mussio said, he had only received annual reports from those participants who had actually issued certificates, but many who had not issued certificates in the past two or three years had not sent in their annual reports. In 2015 a full revision was due; Mr. Mussio had already sent out the calendar. The problem he was finding during this meeting was that two people had already told him they had not received the information, and when he had checked, this turned out to be because he had not received certain changes in the names of CPR members. He asked anyone who was not receiving information to send the updated name and address of the contact person in their country who should be receiving the review information so that the BIML database could be updated.
+
+Mr. Mussio reminded Members that as Dr. Schwartz had announced the previous day, the revised certificates section of the OIML website had now been made live. One problem was that although the Bureau had a full list of issuing authorities, few of them included the actual name and address that a customer should contact to request a certificate. He had sent out a mailing asking for these names to enter them on the website, but once again he had only received information from those issuing authorities that actually issued certificates, and nothing from any of the others. So he asked all issuing authorities to send him the name of the person the customer must contact if they wanted a certificate from that issuing authority.
+
+Mr. Mason thanked Mr. Mussio for his admirably brief report, pointing out that the information had also been circulated prior to the meeting. If the certificate system was important and worth reviewing, he added, then it was also worth reporting and it was important for the OIML to continue to operate the existing system to the best of its ability, and this included all Members of the Committee who were issuing participants or members of the CPRs continuing to fulfil their obligations, as indeed one of the CIML resolutions committed them to doing. He asked for questions on the report there were none.
+
+## 10 Preparation of the 15th Conference (2016)
+
+## 10.1 Information about the organization of the 15th Conference (2016)
+
+Mr. Kool stated that no information could be given at present, as there was no potential venue yet.
+
+## 10.2 Proposal for an interpretation of the Convention
+
+Mr. Mason said that this was an item to be put to the Conference in 2016.
+
+Mr. Kool explained that this proposal for an interpretation of the Convention dealt with the matter of a CIML Member being designated or not, and whether CIML Members were taken into account when establishing the quorum.
+
+This had been discussed at the previous year's CIML meeting, at which time there had been some comments, mainly from Switzerland, that the text should be examined to ensure that the position of the Member State was more prominent. These comments had been taken into account, and the resulting resolution was in the working document:
+
+"If a designated representative of a Member State is known to no longer satisfy the conditions for membership of the Committee, and the Member State has not yet designated a new representative, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee".
+
+This was already in accordance with the text of the Convention. Mr. Kool continued:
+
+"If the designated representative of a Member State has not responded to any communication from the Bureau for more than six months, and the Bureau has made all reasonably possible attempts to contact the designated representative, the Bureau shall seek confirmation from the Member State as to the status of its representative in the Committee according to a procedure decided by the Committee. If it is not possible within a reasonable period of time, to be decided by the Committee, to obtain confirmation from the Member State as to the status of the representative in the Committee, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee".
+
+He explained that this actually meant that if a designated CIML Member had not been heard from for a long time, and everything had been tried to contact him, but there was no confirmation from the Member State that he was still in office or that they wished to designate another Committee Member, then this person would no longer be taken into account when establishing the quorum.
+
+Mr. Dixit commented that if you could ask a particular person whether he was still the CIML Member or not, then all was well. Complications might arise if it was a matter of policy decisions that made the government decide to reply or not to reply. He felt that just because a CIML Member did not reply to the Bureau, that was not a reason for assuming he was no longer the CIML Member for his country. Membership should be confirmed with the Member himself. Many answers were not given simply because the government did not want to give an answer.
+
+Mr. Mason thanked Mr. Dixit for his comment, which summarized the problem. However, what this resolution also did was to demonstrate a clear way of ensuring that the business of the Committee was not put at risk by a Member State's authority. This was no longer a matter with the CIML Member, but with the Member State's policy authorities: if they were not able to confirm that a CIML Member had been appointed, then the proposal was that they should not be able to put at risk the business of the Committee by being counted as part of the quorum when they were in reality no longer a CIML Member. This had been looked at various times; the resolution at the moment very clearly put the responsibility on the Member State. This would of course be submitted to the Member States at the Conference, and Member States needed to understand that they were a Member State for as long as they paid their subscription, and it was up to them whether they played an active part in the Conference or not. That was not at issue. But one of the obligations of a Member State was to appoint a CIML Member. And if a Member State did not appoint a CIML Member, then the consequence was
+
+that they did not have a representative on the Committee, but also that the Committee should regard itself as having been reduced in number when it came to calculating the voting. This was what the resolution said. At the moment there was a vacancy on the Committee, as had been mentioned during the roll call. But this was not the sort of situation they were talking about. They were in contact with the Portuguese authorities, who were in the position of changing from a previous CIML Member who was no longer a government official, having retired and therefore left a vacancy. This principle had already been applied here. But with Portugal, which was an active Member State, contact continued and the situation was understood. The Member States that were being referred to were very definitely not in the room and were rarely ever heard from, except for their subscriptions.
+
+Mr. Dixit recalled that there was already a rule that if a Member State had not paid its contributions three years in succession, then it would be delisted. But if a Member State had paid all its contributions and the CIML Member decided to be represented by another individual, then it could not be said that that country was not represented by anyone, even though that individual was not the CIML Member.
+
+In reply, Mr. Mason reiterated that this proposal would be submitted to the Conference, and it would be the representatives of the Member States at the Conference who would ultimately decide whether they were happy with this proposal. The Committee first needed to be clear about the recommendations being made to the Conference about how best to run OIML affairs.
+
+Mr. Bjorkqvist thought that this proposal was not really a matter of interpreting the Convention, but merely of how to handle this situation.
+
+Mr. Mason replied that another word would be found for what the Conference was being asked to do.
+
+Dr. Ehrlich quoted from the first sentence of the proposed resolution: "if the designated representative of a Member State is known to no longer satisfy...". "Known" seemed to him to be slightly too vague and general an expression - known by whom? Who would make the decision? This seemed to him to be something to consider for the following year, and perhaps elaborate on a little.
+
+Mr. Mason thought it probably meant "known by the Committee", through information from the Bureau and President. There was at present a situation where the CIML Member for Portugal had able notified the Committee of his retirement, but no replacement CIML Member had been appointed. Such cases took a few months to resolve and it was awkward if that happened over the period of a CIML meeting.
+
+Mrs. Van Spronssen said she was much happier with this resolution than the one presented the previous year. In the working document there was a clear schedule of the steps being taken, but the draft resolution was much more open and, for example, point C meant that every time this situation occurred it was necessary to go back to the Committee to decide on a reasonable period of time. Why, she wondered, should a period of (for example) six months not be set, in order to simplify the process?
+
+Mr. Kool replied that for purely practical reasons they did not want the Conference to have to take a decision such as imposing a six-month period and then after a year find that this might not be very practical. It was clearly stated in the draft resolution that the Committee had to approve a procedure to do that. This would happen after the Conference had approved this resolution; the Committee would then approve a procedure to set time limits, which could subsequently be changed if necessary by the Committee.
+
+Ms. Mikanadze asked whether, in terms of legal issues, "no longer be taken into account" meant "no longer be a CIML Member".
+
+Mr. Mason clarified that it just meant that the person would not be taken into account when calculating the voting rules. A resolution passed if a given percentage of the Committee had voted for it, so it was important to know the size of the Committee on which this percentage was based. At the moment, as there was no clear provision for recognizing vacant CIML seats, it was assumed that there were as many CIML Members as Member States, although in reality this was not always the case, as there might be times when a Member State might not have a CIML Member. This was the only matter being dealt with here.
+
+Ms. Mikanadze asked for clarification on whether this absent person was considered as no longer a CIML Member or just not counted when the calculation was done.
+
+Mr. Mason said that there were two possible situations: the clear one was fairly straightforward and was when they had been informed that an individual was no longer a CIML Member. In the second type of situation, when a Member State was certainly not doing its job because neither it nor the person it had appointed to the post was responding, they should, after a reasonable time had elapsed and after efforts had been made, exclude that country when calculating the size of the Committee. The Bureau would continue to press the Member State, which was paying money but not participating in the work of the Committee. This situation must not be allowed to impede the business of the Committee.
+
+Mr. Edelmaier asked whether the procedure on which the Committee would have to decide had already been drafted.
+
+Mr. Kool replied that an outline of that procedure was in the working document (Addendum 10.2) and a proposal would be submitted to the Committee after the Conference had approved the resolution.
+
+Ms. Vukovič wondered how many cases of this sort there had been and whether it was a real dilemma, and why it had to be discussed.
+
+Mr. Kool replied that the number of CIML Members present, or represented by a proxy, stood at 53 or 54, which meant that six or seven Member States had not responded. He suspected that many of these never responded to anything. It was not known whether the CIML Members of these Member States still complied with the requirements to be a CIML Member.
+
+Mr. Mason confirmed that this was a real problem because if there were even one or two Member States who were part of the potential maximum size of the Committee, but who were obviously not attending any meetings, then they put the quorum for the meeting at risk. They had come quite close to this situation in Auckland, and on other occasions also they had been close to not having a quorum. A Member State which had an active CIML Member could give a proxy, but if there was not someone who recognized his own basic obligations, he could not even do that. If 40 or more States had spent the money to travel to Auckland but a quorum had not been reached, all of that expenditure would have been wasted because valid decisions could not have been taken.
+
+Ms. Vukovič asked whether the Bureau had ever contacted the government of a Member State that did not respond.
+
+Mr. Mason said that the situations being described were those where continued efforts had been made to get in touch with anyone who would recognize that they had a responsibility in this area. This was not taken lightly. People who did not attend or give proxies threatened the work of the Committee. There were some Member States which in nine years Mr. Mason had never seen attend a Committee meeting, and more often than not these Member States did not give proxies either. Yet somebody there was still paying the subscription.
+
+Mr. Dixit suggested that this statement should be reduced to one or two lines, the six months extended to one year and if the Member was still paying their three years' contributions, and after that there was no communication for one year, then this process could be used.
+
+Mr. Mason said that the question of six months or one year, and other procedural suggestions, could be decided by the Committee after the resolution had been passed by the Conference.
+
+Mrs. Habich said that Poland appreciated the efforts made to improve the resolution and understood the problem but they could not support the proposal in point C because in their opinion it was not entirely in line with the Convention and it could limit the power of Member States regarding the appointment of their representative. Poland could not agree that lack of contact with a Member State or a CIML Member should automatically lead to that Member State not being included in the quorum.
+
+Mr. Mason thanked Mrs. Habich for her statement of position, which obviously would be reflected in her vote, but he believed that the general feeling was in favor of the proposal. The Conference would
+
+decide whether this was the right approach and then the Committee would decide the precise mechanisms to be followed.
+
+Mrs. Martin expressed support for the position of her Polish colleague.
+
+Mr. Mason felt that this had now been discussed enough and that it was time to move to the next item, which also concerned voting issues, but in this case it was the question of the way of approaching decisions that the Committee itself had made through some of the documents that it had adopted.
+
+Mr. Fekiri (BIML translation) said that in his opinion the reason for non-attendance of many Members could be the cost, which often had to be paid by the metrology department of the country. He suggested that OIML fees could be increased so that Members' travel and accommodation expenses for attendance at the CIML meeting would be paid. He thought that if that happened all Members would attend meetings.
+
+Mr. Mason thanked Mr. Fekiri for his suggestion, which raised very substantial issues concerning the financing of the organization. A much simpler approach for Member States who found it difficult to participate for financial or other reasons was to use the proxy procedure, as was the case for many Member States represented but not present at the current meeting. Many Member States present had experience of using proxies. Sometimes this was done by regular attenders who at the last minute were prevented from attending. There could be general, or clear directions on how to vote could be given with a proxy. Some Member States might be keen to contribute but have difficulty in finding a suitable delegate, but such Member States would surely not want the business of the organization to be hampered by their failure to appoint a proxy.
+
+Two Member States had stated that they did not like what was being proposed, and they were entitled to take that view, but he appealed to CIML Members to think very carefully about this. If the current situation meant not being able to deal with Member States which were completely silent about their CIML participation, then the work of the Committee would be put at risk at some point in the future. There would be a time when the Committee would meet and there would not be a quorum. He urged all Member States to consider what they would feel about the situation where they attended such a meeting.
+
+Dr. Schwartz added that he had the impression that there was possibly a misunderstanding. The resolution did not at all make a judgement on whether a CIML Member was considered to be a CIML Member or not because he did not attend a meeting. The Committee merely said that they would not count that CIML Member when counting for the quorum. He could understand the concerns, and had shared them at first, but no judgement was being made; it just concerned how the counting was done.
+
+Mr. Mason thanked Dr. Schwartz and reminded Members that all that was being done was proposing something to the Conference, which itself would make the actual decision.
+
+Mr. Bjorkqvist commented that, as he had said when this problem was discussed at the previous meeting, he understood that there was a problem, but perhaps the solution to the problem was to amend the Convention.
+
+Mr. Mason thought this might be a matter of last resort. The difficulty about amending the Convention was that if a single Member State was unhappy about a particular proposal it could make it even more difficult to achieve. He preferred to wait for the vote and then see whether Member States themselves might address this issue at the Conference.
+
+Ms. Vukovič said that she shared Sweden's concern. She did not know whether from the legal point of view it was allowable to have such an interpretation or whether the only solution was to change the Convention.
+
+Mr. Mason said that even if this resolution was passed there would no doubt be a lively debate at the Conference as to whether this was an acceptable way forward. He emphasized however that interpretation of the Convention by the Conference had been the preferred way of representing the views of the Member States, and others would represent a different view at the Conference. Mr. Mason himself was one of those in the fortunate position of being able to represent a Member State as well as his views as a CIML Member.
+
+Mrs. Van Spronssen said that she could understand that the word "interpretation" was always a little difficult; she did not think it was necessary. It could be substituted by "working procedure" or "procedure", because what was being done was in fact setting down a procedure in case this situation occurred.
+
+Mr. Mason agreed that "interpretation" was possibly not the best word for what was being done. This would be taken into account in the final drafting.
+
+The vote would be taken with the other resolutions and if this failed, Member States would be asked to produce a solution.
+
+## 10.3 Voting at CIML meetings on administrative matters
+
+This also concerned an issue of voting Mr. Mason said, and had arisen at the 2013 CIML meeting when Members had found themselves in the potentially awkward situation of a resolution which had been passed under the relevant provision of B 6 by a majority vote, but which had then been in danger of failing when an attempt was made to consider whether it should be turned into a formal resolution using the voting procedures in the Convention.
+
+At the end of that meeting Mr. Mason had undertaken to examine the nature of the potential conflicts and to make proposals. Addendum 10.3 contained an analysis of the current situation and identified a number of possible solutions. He had drafted the document some time previously and had expected there to be time for a wide-ranging discussion including the more extreme options of asking for a Conference resolution or even potentially an amendment to the Convention.
+
+He had continued to reflect on the matter in the light of CIML experience of voting at recent CIML meetings, including the present one, and had decided that this was something on which the Committee had shown itself able to take a pragmatic view. The commitment to look at these matters had been made after a heated and difficult session in Ho Chi Minh City, and it was right to look at it, but upon reflection, his own conclusion would be that in practice this was not a problem which could be expected to occur with any regularity, and when there were debates about the validity of a vote, as had happened earlier in the week, it was possible for the Committee to take a pragmatic approach to making its views known and transacting its business.
+
+Mr. Mason's recommendation was for the first option presented in Addendum 10.3, i.e. to recognize that the Committee generally acted in a very pragmatic way, and that after detailed analysis of the problem, in fact no change in the voting procedure was required. He invited comments.
+
+Dr. Ehrlich asked the President to confirm he was in favor of the first of the three possible options presented in Addendum 10.3.
+
+Mr. Mason confirmed this, adding that if it was the general view of the Committee that there was not a problem which required a particular solution, then a resolution was not needed. There being no dissension, this item was closed.
+
+## 11 Other matters
+
+Mr. Mason said that no other matters had been raised.
+
+## 12 Awards
+
+Mr. Mason said that under this item he would normally invite Mrs. Vida Zivkovič (Director of the Directorate of Measures and Precious Metals - DMDM, Serbia), the winner of the 2014 OIML Award for Excellent Contributions in Legal Metrology in Developing Countries, to make a presentation. Due to the shortage of time and after discussing the matter with her, it had been agreed to give her the opportunity to make her presentation the following year. Mr. Mason said that it was an interesting
+
+presentation because it had been given in Chengdu, but it would not do it justice if it had to be shortened.
+
+The other awards, Mr. Mason added, would be presented at the reception that evening:
+
+OIML Medals were presented to:
+
+- Mr. Ngo Quy Viet, Vietnam, and
+
+- Mr. Cartaxo Reis, Portugal
+
+for their contribution to the work of the OIML, and OIML Awards for Excellent Achievements in Legal Metrology in Developing Countries were presented to:
+
+- Mr. Nam Hyuk Lim, Director of Korea Testing Certification, and
+
+- The Metrology Department, Saint Lucia Bureau of Standards
+
+## 13 Future meetings
+
+## 13.1 51st CIML Meeting (2016)
+
+Mr. Patoray said that for the 51st CIML Meeting and the 15th Conference in 2016, no definite proposal had been received from any Member, so they would again default to a location in France. The Bureau would do their best to find a good venue. He had heard some very positive comments about the Arcachon area, but some rather less positive ones also, so suggestions as to where they might look for a possible venue would be welcome, though cost would have to be a factor - for example Paris was very expensive, many areas there having been ruled out as unaffordable. There were several possibilities around France, though the size of the room meeting place was a limiting factor, and some Palais de Congrès did not have adequate facilities for a meeting such as this. The Bureau would be researching this and information would be sent out as soon as possible.
+
+Mr. Patoray also asked for feedback on Members' experiences, both positive and negative, in Arcachon.
+
+## 13.2 52nd CIML Meeting (2017)
+
+Mr. Patoray said that there was a potential proposal for 2017 but he did not want to go into any detail or pre-commit anyone. There was also a potential for 2018, preliminary discussions for which had taken place with one of the Members. Further details would be given at the next meeting.
+
+Mr. Mason reminded Members that one of the reasons why the choice of the venue for the 2016 meeting was important was that it was a Conference, at which proxies were not permitted; the roll call was based on the number of Member States and not of CIML Members.
+
+## 14 Approval of meeting resolutions
+
+The roll call was taken:
+
+- Albania ...proxy to Switzerland
+
+- Algeria ... not present - no proxy given
+
+- Australia ...proxy to New Zealand
+
+- Austria ... present
+
+- Belarus ... present
+
+- Belgium ... present
+
+- Brazil ...proxy to the United States
+
+- Bulgaria ... present
+
+- Cameroon not present - no proxy given
+
+<!-- page-break -->
+
+<table border="1"><tr><td>Canada</td><td>present</td></tr><tr><td>Colombia</td><td>proxy to Canada</td></tr><tr><td>Croatia</td><td>present</td></tr><tr><td>Cuba</td><td>proxy to Russian Federation</td></tr><tr><td>Cyprus</td><td>present</td></tr><tr><td>Czech Republic</td><td>present</td></tr><tr><td>Denmark</td><td>present</td></tr><tr><td>Egypt</td><td>proxy to Tunisia</td></tr><tr><td>Finland</td><td>present</td></tr><tr><td>France</td><td>present</td></tr><tr><td>Germany</td><td>present</td></tr><tr><td>Greece</td><td>proxy to Cyprus</td></tr><tr><td>Hungary</td><td>proxy to Poland</td></tr><tr><td>India</td><td>present</td></tr><tr><td>Indonesia</td><td>proxy to India</td></tr><tr><td>Iran</td><td>present</td></tr><tr><td>Ireland</td><td>present</td></tr><tr><td>Israel</td><td>present</td></tr><tr><td>Italy</td><td>proxy to Spain</td></tr><tr><td>Japan</td><td>present</td></tr><tr><td>Kazakhstan</td><td>proxy to Russian Federation</td></tr><tr><td>Kenya</td><td>present</td></tr><tr><td>Korea(Rep.)</td><td>present</td></tr><tr><td>Macedonia</td><td>not present- no proxy given</td></tr><tr><td>Monaco</td><td>proxy to France</td></tr><tr><td>Morocco</td><td>not present- no proxy given</td></tr><tr><td>Netherlands</td><td>present</td></tr><tr><td>New Zealand</td><td>present</td></tr><tr><td>Norway</td><td>present</td></tr><tr><td>P.R.China</td><td>present</td></tr><tr><td>Pakistan</td><td>not present- no proxy given</td></tr><tr><td>Poland</td><td>present</td></tr><tr><td>Portugal</td><td>not present- no proxy given</td></tr><tr><td>Romania</td><td>present</td></tr><tr><td>Russian Federation</td><td>present</td></tr><tr><td>Saudi Arabia</td><td>present</td></tr><tr><td>Serbia</td><td>present</td></tr><tr><td>Slovakia</td><td>present</td></tr><tr><td>Slovenia</td><td>present</td></tr><tr><td>South Africa</td><td>present</td></tr><tr><td>Spain</td><td>present</td></tr><tr><td>Sri Lanka</td><td>not present- no proxy given</td></tr><tr><td>Sweden</td><td>present</td></tr><tr><td>Switzerland</td><td>present</td></tr><tr><td>Tanzania</td><td>present</td></tr><tr><td>Tunisia</td><td>present</td></tr><tr><td>Turkey</td><td>present</td></tr><tr><td>United Kingdom</td><td>present</td></tr><tr><td>United States</td><td>present</td></tr><tr><td>Viet Nam</td><td>present</td></tr></table>
+
+- Zambia ... present
+
+There were therefore 41 Members present and 12 represented by proxy, so a total of 53; the required quorum was therefore 45, so it was noted that valid decisions could be taken.
+
+Mr. Mason said that there would not be a second vote on those resolutions which had already been approved during the meeting.
+
+The final resolutions are reproduced at the end of these minutes.
+
+## Resolution no. 2015/1
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/2
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/3
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/4
+
+This resolution had already been approved during the meeting.
+
+## Resolution no. 2015/5
+
+This resolution had already been approved during the meeting.
+
+## Resolution no. 2015/6
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/7
+
+## Resolution no. 2015/8
+
+There were no abstentions or votes against so the resolution was approved.
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/9
+
+## Resolution no. 2015/10
+
+There were no abstentions or votes against so the resolution was approved.
+
+Brazil and the United States abstained. There were no votes against so the resolution was approved.
+
+## Resolution no. 2015/11
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/12
+
+There were no abstentions or votes against so the resolution was approved.
+
+## Resolution no. 2015/13
+
+This resolution had already been approved during the meeting.
+
+Dr. Ehrlich said that in the light of his earlier comments about the voting, and in recognition of the President's mathematics and risk analysis skills, now that a roll call of those actually present had been taken he would like to request that a quick vote be conducted on this resolution so that no lingering question remained. He was fully prepared to accept the results of the vote, that went without question, but he felt it would be useful to eliminate any uncertainty about this.
+
+Mr. Mason wished to repeat what he had said earlier about this matter, which was that he thought it was only appropriate to proceed to a roll call vote, either at the time or subsequently, if the vote was sufficiently close for the "rough and ready" method of calculation to be unreliable. He thought that a
+
+view also had to be taken on whether the decision to conduct a roll call vote should be at the instigation of a single Member of the Committee, or at the discretion of the President, or by any other means of resolving whether it was the right thing to do. It was his view that it was at the discretion of the President. It was a question which he had already addressed and as President he had not felt that the vote in question was sufficiently close. However, he was prepared to reconsider his decision if he felt the Committee as a whole was unhappy about the judgement he had made. At the moment he did not detect any other support for reopening this question and therefore felt that the judgement he had arrived at previously should stand.
+
+## Resolution no. 2015/14
+
+This resolution had already been approved during the meeting.
+
+## Resolution no. 2015/15
+
+This resolution had already been approved during the meeting.
+
+## Resolution no. 2015/16
+
+This resolution had already been approved during the meeting.
+
+## Resolution no. 2015/17
+
+This resolution had already been approved during the meeting.
+
+## Resolution no.2015/18
+
+This resolution had already been approved during the meeting.
+
+## Resolution no. 2015/19
+
+## Mr. Kool read this resolution, as follows:
+
+"The Committee,
+
+## Considering that
+
+- according to Article XIII of the Convention, persons designated by their government as Member of the Committee shall be serving officials in the department concerned with measuring instruments or have active official functions in the field of legal metrology,
+
+- according to Article XVII of the Convention, the quorum for decisions at a meeting of the Committee, or for resolutions taken by the Committee by correspondence, is three-quarters of the number of persons designated as Members of the Committee,
+
+## Noting that
+
+- it is sometimes not clear whether a person designated as Member of the Committee still satisfies the conditions for membership, and that
+
+- it is becoming increasingly difficult to achieve the quorum for decisions of the Committee,
+
+Of the opinion that, if a person designated as Member of the Committee no longer satisfies the conditions for membership of the Committee, this person has ceased to be a Member of the Committee for the purpose of calculating any quorum,
+
+Resolves to request the 15th OIML Conference to approve the following interpretation applicable to the fourth paragraph of Article XIII of the Convention: ...".
+
+Mr. Mason stopped Mr. Kool at this mention of the word "interpretation". It had been suggested that "procedure" should be substituted.
+
+Mr. Kool said that he believed that "interpretation" was the correct term and thought that this was something which needed to be reconsidered.
+
+Mr. Mason said that he thought many CIML Members had a different view on the right word to use, and since this was a resolution on which he thought there would be a close vote, he would prefer a word that would meet the support of as many Members as possible. He suggested "to approve the following procedure", and rather than "applicable to", "based on". He then revised this to "relevant to".
+
+Mr. Kool read the amended version:
+
+"Resolves to request the 15th OIML Conference to approve the following procedure, relevant to the fourth paragraph of Article XIII of the Convention:
+
+(a) if the designated representative of a Member State is known to no longer satisfy the conditions for membership of the Committee and the Member State has not yet designated a new representative, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee,
+
+(b) if the designated representative of a Member State has not responded to any communication from the Bureau for more than six months and the Bureau has made all reasonably possible attempts to contact the designated representative, the Bureau shall seek confirmation from the Member State as to the status of its representative in the Committee, according to a procedure decided by the Committee,
+
+(c) if it is not possible, within a reasonable period of time to be decided by the Committee, to obtain confirmation from the Member State as to the status of its representative in the Committee, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee".
+
+Austria, Canada, France, India, Indonesia, Ireland and Sweden abstained.
+
+Hungary, Italy, Poland and Spain voted against.
+
+The resolution was approved.
+
+Resolution no.2015/20
+
+Mr. Mason said that the formal resolution could of course only be adopted after the Awards had been announced and presented later that evening at the reception, as had been agreed. He hoped this resolution could be adopted by acclamation that evening and asked whether that was an acceptable way forward, suggesting to Members that when they clapped they were voting for this resolution.
+
+## Concluding remarks
+
+Mr. Mason said that this concluded not only the voting but also the business of the Committee with five minutes to spare; he congratulated everybody who had made this possible. Once again the Members had shown that they could take a responsible attitude to the business of the Committee and achieve a lot within a tight time scale. They were fortunate to have the opportunity to meet again that evening at the reception; as had been identified, that would be in part a working session, and there would be speeches, though not very long ones, so he would reserve most of the remarks he would normally make at this point to the evening's reception, at which he looked forward to seeing everybody.
+
+He declared the meeting closed.
+
+## FIFTIETH MEETING of the INTERNATIONAL COMMITTEE of LEGAL METROLOGY
+
+## Arcachon, France 20-22 October 2015
+
+Resolutions
+
+Resolution no.2015/1
+
+(Agenda item 1)
+
+The Committee, Approves the minutes of the 49th CIML Meeting.
+
+Resolution no. 2015/2
+
+(Agenda item 2)
+
+The Committee, Notes the report given by its President.
+
+Resolution no. 2015/3
+
+(Agenda item 3.1)
+
+The Committee, Notes the report given by the BIML Director on the activities of the Bureau.
+
+Resolution no.2015/4
+
+(Agenda item 3.3)
+
+The Committee,
+
+Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations, section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004 Procedure for the appointment of the BIML Director and Assistant Directors,
+
+Considering that the term of appointment of Mr. Willem Kool, BIML Assistant Director, expires on 31 December 2016,
+
+Considering the proposal of its President, under section 2 of OIML B 13:2004, to extend the Assistant Director's contract without a further preliminary procedure,
+
+Noting the comments made by its Members,
+
+Expresses its expectation that it will resolve to renew the appointment of Mr. Willem Kool as BIML Assistant Director for a fixed term of up to five years at its meeting in 2016, and
+
+Resolves not to appoint a Selection Committee under section 3 of OIML B 13:2004.
+
+## Resolution no.2015/5
+
+(Agenda item 3.4)
+
+The Committee,
+
+Recalling its Resolution 2014/4,
+
+Resolves to renew the contract of Mr. Stephen Patoray, BIML Director, for a three-year term from 1 January 2016.
+
+## Resolution no. 2015/6
+
+The Committee,
+
+(Agenda item 5.1)
+
+Noting the accounts for 2014 and the BIML Director's comments,
+
+Considering the external auditor's approval of the 2014 accounts,
+
+Approves the 2014 accounts, and
+
+Instructs its President to present them to the 15th OIML Conference.
+
+## Resolution no. 2015/7
+
+(Agenda item 5.4)
+
+The Committee,
+
+Noting the report given by the BIML Director,
+
+Encourages the Bureau to continue its efforts to recover the outstanding arrears of its Member States and Corresponding Members,
+
+Requests those Members with arrears to bring their situation up to date as soon as possible.
+
+## Resolution no.2015/8
+
+(Agenda item 6.1)
+
+The Committee,
+
+Notes the oral report given by the Bureau on its activities in liaison with other international organizations aimed at developing countries.
+
+## Resolution no. 2015/9
+
+(Agenda item 6.2)
+
+The Committee,
+
+Recalling its resolution no. 2013/9, setting up an advisory group to carry out wide consultation, to seek suggestions and to build up links with other bodies with an interest in promoting the economic development of countries and economies with emerging metrology systems,
+
+Notes the oral report given on behalf the Chair of the advisory group.
+
+## Resolution no. 2015/10
+
+The Committee,
+
+(Agenda item 6.3)
+
+Recognizing the continued efforts that are needed to assist in building the capacity of legal metrology institutions and their staff in countries and economies with emerging metrology systems (CEEMS),
+
+Instructs the Bureau to continue its efforts to participate in capacity building activities through training courses and other regional activities organized by other organizations,
+
+Expresses its support for the work of the DCMAS Network,
+
+Instructs the Bureau to continue to work with the constituent bodies of the DCMAS Network, in particular the BIPM, in identifying new initiatives where the OIML can make a direct contribution,
+
+Instructs the Bureau to further develop the OIML website such that it may be used as a source of up-to-date information on capacity-building initiatives, including training materials and, if feasible, a database of experts available to contribute to such work,
+
+Endorses the proposal of the advisory group, set up by Resolution no. 2013/9, to establish a "pilot training center" and encourages the authorities in P.R. China to give their full support to this initiative,
+
+Urges other Member States to study the results of this first pilot and to consider, in the light of an evaluation of the pilot, whether they are able to initiate something similar,
+
+Urges both Member States and Corresponding Members to consider opportunities to second staff to the Bureau in order to develop the skills and experience of appropriate individuals,
+
+Requests relevant Technical Committees and Subcommittees to take note of the demand from CEEMS to ensure Recommendations take more account of the needs of CEEMS,
+
+Instructs the Certificate System Project Group (CSPG), established by Resolution 2015/18, to ensure that the needs of CEEMS are addressed in the OIML Certificate System,
+
+Instructs the Bureau to take account of the need for greater involvement of CEEMS in OIML technical work when further developing the OIML website's functionality in supporting the technical work,
+
+Instructs the Project Group for the revision of OIML B 6:2013 Directives for OIML technical work (see Resolution no. 2015/13) to take account of the need for greater involvement of CEEMS in OIML technical work when drafting the revision of B 6,
+
+Urges the conveners of project groups TC 3/SC 6/p 1 Premarket surveillance activities and TC 6/p 5 Guidance for defining the system requirements for a certification system for prepackages to bring their work to a conclusion as soon as possible,
+
+Urges Member States to be ready to propose conveners for projects to produce other documents proposed during the two seminars organized in 2015,
+
+Instructs the Bureau to pay particular attention to the role of the OIML Bulletin and the OIML website in facilitating the exchange of new ideas, and in particular new approaches to legal metrology,
+
+Notes the particular contribution that research can play in promoting and evaluating new approaches to legal metrology, and instructs the Director to take this into account when considering projects which can be supported by the special fund created by the 14th Conference,
+
+Requests its President, Vice Presidents and the Bureau to take particular account of the needs of CEEMS when involved in activities related to Objective 5 in the OIML Strategy (OIML B 15:2011).
+
+## Resolution no. 2015/11
+
+(Agenda item 7.2)
+
+The Committee,
+
+Notes the written reports submitted by the BIPM, ILAC, the IAF, and EURAMET,
+
+Thanks Mr. Andy Henson (BIPM), Mr. Laurent Vinson (ILAC and the IAF), Mr. Pavel Klenovsky (EURAMET) and Mr. Karlheinz Banholzer (CECIP) for their presentations.
+
+## Resolution no. 2015/12
+
+(Agenda item 7.3)
+
+The Committee,
+
+Notes the oral report by its Second Vice-President, Dr. Yukinobu Miki, on the RLMO Round Table held on Monday 19 October 2015.
+
+## Resolution no. 2015/13
+
+(Agenda item 8.2)
+
+The Committee,
+
+Approves as a new project, the revision of OIML B 6:2013 Directives for OIML technical work to be conducted as specified in the project proposal provided in variant 1 in Addendum 8.2 to the working document for this meeting.
+
+## Resolution no. 2015/14
+
+(Agenda item 8.3.2)
+
+The Committee,
+
+Approves the following draft Recommendations:
+
+- Recommendation: OIML R 139-3 Compressed gaseous fuels measuring systems for vehicles - Part 3: Test report format,
+
+- Revision of OIML R 79: Labeling requirements for prepackages,
+
+- New Recommendation: Ophthalmic instruments - Impression and applanation tonometers.
+
+## Resolution no.2015/15
+
+(Agenda item 8.3.4)
+
+The Committee,
+
+Approves as a new project in TC 8/SC 1 Static volume and mass measurement the revision of R 71 Fixed storage tanks - General requirements, to be conducted as specified in the project proposal provided in Addendum 8.3.4 to the working document for this meeting.
+
+## Resolution no. 2015/16
+
+(Agenda item 8.3.5)
+
+The Committee,
+
+Approves as a new project in TC 8/SC 1 Static volume and mass measurement, the revision of R 85 Automatic level gauges for measuring the level of liquid in stationary storage tanks, to be conducted as specified in the project proposal provided in Addendum 8.3.5 to the working document for this meeting.
+
+## Resolution no. 2015/17
+
+(Agenda item 9.1)
+
+The Committee,
+
+Recalling its resolutions nos. 2013/15, 2013/16, 2013/17 and 2014/18,
+
+Noting the report of the chair of the ad-hoc working group on the review of the MAA (AHWG-MAA),
+
+Approves the principles for a single OIML certification system (OIML-CS) and the proposal for the structure and organization of such a system, contained in document AHWG-MAA-Doc-1 dated 2015-07-07 (part B of Addendum 9.1 to the working document for this meeting),
+
+Thanks the chair and members of the AHWG-MAA for their work,
+
+Disbands the AHWG-MAA,
+
+Instructs the Bureau to continue to operate the existing Basic and MAA systems until such time as the CIML approves the OIML-CS and it becomes operational,
+
+Encourages all participants in the existing Basic and MAA systems to fulfill their obligations.
+
+## Resolution no. 2015/18
+
+The Committee,
+
+(Agenda item 9.1)
+
+Recalling its resolution no. 2015/17,
+
+Considering the proposal of the ad-hoc working group on the review of the MAA,
+
+Decides to establish a certification system project group (CSPG) to prepare the relevant documents for the single OIML certification system (OIML-CS):
+
+- a B-type OIML publication containing the framework for a single OIML certification system (OIML-CS),
+
+- the procedures and operational documents for the single OIML certification system (OIML-CS),
+
+- the nomination process for membership of the OIML-CS Management Committee (MC),
+
+Requests its first Vice-President to chair the CSPG,
+
+Requests interested Members to participate in the CSPG, or to designate expert representative(s),
+
+Instructs the Bureau to provide secretarial support to the CSPG,
+
+Instructs the CSPG to take appropriate actions so that the proposed single OIML certification system may become effective 1 January 2017, subject to CIML approval and Conference sanctioning of the B-type OIML publication OIML-CS Framework Document,
+
+Instructs the CSPG to work in accordance with the procedures laid down in the proposed terms of reference (AHWG-MAA-Doc-5, part F of Addendum 9.1 to the working document for this meeting),
+
+Requests the CSPG to submit the final draft of the framework document for approval at the 51st CIML meeting in 2016, with a view to having the approved publication sanctioned by the Conference in 2016.
+
+## Resolution no. 2015/19
+
+(Agenda item 10.2)
+
+The Committee,
+
+Considering that
+
+- according to Article XIII of the Convention, persons designated by their government as Member of the Committee shall be serving officials in the department concerned with measuring instruments or have active official functions in the field of legal metrology,
+
+- according to Article XVII of the Convention, the quorum for decisions at a meeting of the Committee, or for resolutions taken by the Committee by correspondence, is three-quarters of the number of persons designated as Members of the Committee,
+
+- Noting that
+
+- it is sometimes not clear whether a person designated as Member of the Committee still satisfies the conditions for membership, and that
+
+- it is becoming increasingly difficult to achieve the quorum for decisions of the Committee,
+
+Of the opinion that, if a person designated as Member of the Committee no longer satisfies the conditions for membership of the Committee, this person has ceased to be a Member of the Committee for the purposes of calculating any quorum,
+
+Resolves to request the 15th OIML Conference to approve the following procedure, relevant to the fourth paragraph of Article XIII of the Convention:
+
+a) if the designated representative of a Member State is known to no longer satisfy the conditions for membership of the Committee and the Member State has not yet designated a new representative, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee,
+
+b) if the designated representative of a Member State has not responded to any communication from the Bureau for more than six months and the Bureau has made all reasonably possible attempts to contact the designated representative, the Bureau shall seek confirmation from the Member State as to the status of its representative in the Committee, according to a procedure decided by the Committee,
+
+c) if it is not possible, within a reasonable period of time to be decided by the Committee, to obtain confirmation from the Member State as to the status of its representative in the Committee, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee.
+
+## Resolution no. 2015/20
+
+(Agenda item 12)
+
+The Committee,
+
+Congratulates this year's recipients of an OIML Medal:
+
+- Mr. Ngo Quy Viet, Vietnam, and
+
+- Mr. Cartaxo Reis, Portugal
+
+for their contribution to the work of the OIML,
+
+Congratulates this year's recipients of the OIML Award for Excellent Achievements in Legal Metrology in Developing Countries:
+
+- Mr. Nam Hyuk Lim, Director of Korea Testing Certification, and
+
+- The Metrology Department, Saint Lucia Bureau of Standards.
+
+***
+
+**
+
+<div align="center">
+
+# CIML Meeting 2015 Total number of participants: 141
+
+</div>
+
+<table><thead><tr><th>Member States: 43</th><th colspan="3">Number of delegates: 99</th></tr></thead><tbody><tr><td colspan="4">AUSTRIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Robert Edelmaier</td><td>Director of the Metrology Service</td><td>robert.edelmaier@bev.gv.at</td><td>0</td></tr><tr><td colspan="4">BELARUS</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Maksim Shabanav</td><td>Head of Legal Metrology</td><td>shabanov@belgim.by</td><td>0</td></tr><tr><td>Mr. Valery Hurevich</td><td>Director, Head of the Delegation</td><td>shabanov@belgim.by</td><td>0</td></tr><tr><td colspan="4">BELGIUM</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Philippe Degavre</td><td>Conseiller Général - Service Métrologie</td><td>philippe.degavre@economie.fgov.be</td><td>0</td></tr><tr><td colspan="4">BULGARIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Paun Ilchev</td><td>Acting President</td><td>p.ilchev@bim.government.bg</td><td>0</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Valentin Starev</td><td>Director General, DG Measures and Measuring Instruments</td><td>v.starev@bim.government.bg</td><td>0</td></tr><tr><td colspan="4">CANADA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Alan E. Johnston</td><td>Measurement Canada President</td><td>alan.johnston@ic.gc.ca</td><td>1</td></tr><tr><td colspan="4">CROATIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Bozidar Ljubic</td><td>Deputy Director</td><td>bozidar.ljubic@dzm.hr</td><td>0</td></tr><tr><td colspan="4">CYPRUS</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Ioannis Economides</td><td>Controller of Weights and Measures</td><td>ieconomides@mcit.gov.cy</td><td>0</td></tr><tr><td colspan="4">CZECH REPUBLIC</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Pavel Klenovský</td><td>Director General</td><td>pklenovsky@cmi.cz</td><td>0</td></tr></tbody></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+<table><thead><tr><th></th><th>Position</th><th>E-Mail</th><th>Acc. persons</th></tr></thead><tbody><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mrs. Eliska Machova</td><td>Head of Development and International Cooperation Unit, Metrology Department</td><td>machova@unmz.cz</td><td>0</td></tr></tbody><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>DENMARK</td><td></td><td></td><td></td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms. Hanne Scherrebeck</td><td>Engineer of Metrology</td><td>hsc@sik.dk</td><td>0</td></tr></tbody><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>FINLAND</td><td></td><td></td><td></td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Tuomo Valkeapää</td><td>Chief Engineer</td><td>tuomo.valkeapaa@tukes.fi</td><td>0</td></tr></tbody><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>FRANCE</td><td></td><td></td><td></td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mrs. Corinne Lagauterie</td><td>Chef du Bureau de la Métrologie</td><td>corinne.lagauterie@finances.gouv.fr</td><td>1</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Eric Lefevre</td><td>Chef du service métrologie légale d'Aquitaine</td><td>eric.lefevre@direccte.gouv.fr</td><td>0</td></tr><tr><td>Mr. Thomas Lommatzsch</td><td>Responsable du pôle certification instrumentation</td><td>thomas.lommatzsch@lne.fr</td><td>0</td></tr></tbody><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>GERMANY</td><td></td><td></td><td></td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Prof. Roman Schwartz</td><td>Vice-President</td><td>roman.schwartz@ptb.de</td><td>1</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Johann Fischer</td><td>Director</td><td>Johann.Fischer@LME.Berlin-Brandenburg.de</td><td>0</td></tr><tr><td>Dr. Peter Ulbig</td><td>Head of Division Q "Scientific-technical Cross-sectional Tasks"</td><td>peter.ulbig@ptb.de</td><td>0</td></tr><tr><td>Prof. Olaf Kühn</td><td>Director</td><td>olaf.kuehn@lmet.de</td><td>0</td></tr><tr><td>Mrs. Susanne Ludwig</td><td>OIML Office at PTB</td><td>susanne.ludwig@ptb.de</td><td>0</td></tr></tbody><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>HUNGARY</td><td></td><td></td><td></td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Kristof Torok</td><td>Deputy Head for Economic Development and Competitiveness</td><td>kristof.torok@mkeh.hu</td><td>0</td></tr></tbody><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td>INDIA</td><td></td><td></td><td></td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. B. N. Dixit</td><td>Director of Legal Metrology</td><td>dirwmca@fca.nic.in</td><td>0</td></tr></tbody></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+Total number of participants: 141
+
+<table border="1"><tr><td></td><td colspan="3">Total number of participants:141</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Bharati Das</td><td>Joint Secretary</td><td>dirwmca@fca.nic.in</td><td>0</td></tr><tr><td colspan="4">INDONESIA</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Hari Prawoko</td><td>Director of Metrology</td><td>hari.prawoko@kemendag.go.id</td><td>0</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Usman Usman</td><td>Head of Sub Directorate of Standards and Measuring Instruments</td><td>usman.muthalib@gmail.com</td><td>1</td></tr><tr><td>Mr.Matheus Hendro Purnomo</td><td>Responsible of Mass Laboratory</td><td>mhendropurnomo@yahoo.com</td><td>2</td></tr><tr><td>Mr.Cecep Mufti Cahyana</td><td>Head of Center of Metrology Human Resources Development</td><td>-</td><td>1</td></tr><tr><td>Mr.Adi Candra Purnama</td><td>Head of Training Program</td><td>-</td><td>0</td></tr><tr><td>Mr.Permadi Permadi</td><td>Head of Program and Cooperation</td><td>-</td><td>0</td></tr><tr><td colspan="4">IRAN</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Khosro Madanipour</td><td>General Director, Metrology Center</td><td>madanipour@isiri.org.ir</td><td>0</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr.Omidali Masoudi</td><td>General Director</td><td>standard@isiri.org.ir</td><td>0</td></tr><tr><td>Eng.Ahad Mohammadi Livari</td><td>Deputy</td><td>ahad.mohammadi@gmail.com</td><td>0</td></tr><tr><td colspan="4">IRELAND</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms.Mairead Buckley</td><td>Director</td><td>mairead.buckley@nsai.ie</td><td>0</td></tr><tr><td colspan="4">ISRAEL</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Yitzhak(Itzik) Kimchi</td><td>Director of Legal Metrology</td><td>itzik.kimchi@economy.gov.il</td><td>0</td></tr><tr><td colspan="4">JAPAN</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Yukinobu Miki</td><td>Director of Metrology Management Center</td><td>y.miki@aist.go.jp</td><td>0</td></tr><tr><td>Delegate(ticked ifCIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms.Junko Taniguchi</td><td>Deputy Director, Metrology Policy Office</td><td>taniguchi-junko@meti.go.jp</td><td>0</td></tr><tr><td>Dr.Toshiyuki Takatsuji</td><td>Director, Research Institute for Engineering Measurement</td><td>toshiyuki.takatsuji@aist.go.jp</td><td>0</td></tr></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+<table border="1"><tr><td></td><td colspan="3">Total number of participants:141</td></tr><tr><td>Mr. Yasuhiro Koyano</td><td>☐Principal Research Manager, Research Institute for Engineering Measurement</td><td>y-koyano@aist.go.jp</td><td>0</td></tr><tr><td>Dr. Tsuyoshi Matsumoto</td><td>☐Assoc. Manager, International Metrology Cooperation Office</td><td>ty-matsumoto@aist.go.jp</td><td>0</td></tr><tr><td colspan="4">KENYA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Michael Nyamwamu Onyancha</td><td>☑Acting Director of Weights and Measures</td><td>weightskenya@gmail.com</td><td>0</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. John Bukhebi Wamwana</td><td>☐Weights and Measures Department</td><td>wamwana@gmail.com</td><td>0</td></tr><tr><td colspan="4">KOREA (R.)</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr. Choi Mi-Ae</td><td>☑Director</td><td>metrology@korea.kr</td><td>0</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. HongHo SHIN</td><td>☐Delegate</td><td>hhshin99@daum.net</td><td>0</td></tr><tr><td>Mr. KwangMin Park</td><td>☐Delegate</td><td>legend618@ktc.re.kr</td><td>0</td></tr><tr><td>Mr. HeeChan Yang</td><td>☐Delegate</td><td>hcyang75@korea.kr</td><td>0</td></tr><tr><td>Mr. YoungDae KIM</td><td>☐Delegate</td><td>ydae4js@ktc.re.kr</td><td>0</td></tr><tr><td colspan="4">NETHERLANDS</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms. J.M. van Spronssen (Anneke)</td><td>☑Senior policy advisor on Metrology</td><td>j.m.vanspronssen@minez.nl</td><td>0</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. George Teunisse</td><td>☐OIML contact for The Netherlands</td><td>gteunisse@verispect.nl</td><td>1</td></tr><tr><td colspan="4">NEW ZEALAND</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Stephen O&#x27;Brien</td><td>☑Manager, Trading Standards</td><td>stephen.obrien@mbie.govt.nz</td><td>0</td></tr><tr><td colspan="4">NORWAY</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms. Eli Mogstad Ranger</td><td>☐Head of Department</td><td>emr@justervesenet.no</td><td>0</td></tr><tr><td colspan="4">P.R. CHINA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Changcheng Pu</td><td>☑Vice Minister,AQSIQ</td><td>hanjp@aqsiq.gov.cn</td><td>0</td></tr></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+Total number of participants: 141
+
+<table border="1"><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Jianping Han</td><td>Deputy Director General</td><td>aplmfsec@163.com</td><td>0</td></tr><tr><td>Ms.Huaxin Zheng</td><td>Deputy Director</td><td>aplmfsec@163.com</td><td>0</td></tr><tr><td>Mr.Yuejun Du</td><td>Director</td><td>aplmfsec@163.com</td><td>0</td></tr><tr><td>Mr.Su Guo</td><td>APLMF Secretary/CEEMS</td><td>aplmfsec@163.com</td><td>0</td></tr><tr><td colspan="4">POLAND</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mrs.Dorota Habich</td><td>Vice-President</td><td>vprdh@gum.gov.pl</td><td>0</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Miroslaw Izdebski</td><td>Director of the Legal Metrology Department</td><td>bmp@gum.gov.pl</td><td>0</td></tr><tr><td colspan="4">ROMANIA</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr.Dumitru Dinu</td><td>Deputy General Director</td><td>dinudumitru@brml.ro</td><td>0</td></tr><tr><td>Ms.Alina Elena Taina</td><td>Coordinator CEPM</td><td>alinataina81@yahoo.com</td><td>0</td></tr><tr><td colspan="4">RUSSIAN FEDERATION</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr.Sergey Golubev</td><td>Deputy Head</td><td>sgolubev@gost.ru</td><td>1</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr.Komissarev Sergey</td><td>Head of International Department</td><td>komissarov@vniims.ru</td><td>1</td></tr><tr><td colspan="4">SAUDI ARABIA</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr.Saad Al-Kasabi</td><td>Governor</td><td>metrology@saso.gov.sa</td><td>0</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Eng.Abdullah Al Gahtani</td><td>Vice-Governor, Standards &amp; Laboratories</td><td>a.gahtani@saso.gov.sa</td><td>0</td></tr><tr><td>Eng.Ahmed Al Dobian</td><td>Director General of Standards Dept.</td><td>a.dobian@saso.gov.sa</td><td>0</td></tr><tr><td>Mr.Bader AL Faiz</td><td>Director of Metrology Specification Dept.</td><td>b.faiz@saso.gov.sa</td><td>0</td></tr><tr><td>Mr.Mohammed Alshahrani</td><td>Secretary of the Governor</td><td>m.sahab@saso.gov.sa</td><td>0</td></tr><tr><td>Dr.Masaed Almotari</td><td>Director of research and Studies Centre</td><td>mm.mutairi@saso.gov.sa</td><td>0</td></tr><tr><td colspan="4">SERBIA</td></tr><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mrs.Vida Ziykovia</td><td>Director</td><td>videzivkovia@dmdm.ro</td><td>0</td></tr></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+Total number of participants: 141
+
+## SLOVAKIA
+
+<table><thead><tr><th>COUNTRY</th><th>Position</th><th>E-Mail</th><th>Acc. persons</th></tr></thead><tbody><tr><td>SLOVAKIA</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mrs. Jana Krivosudska</td><td>Head of the Civil Service Office</td><td>jana.krivosudska@normoff.gov.sk</td><td>0</td></tr><tr><td></td><td>Mr. Peter Adam</td><td>Chief of metrological workplace</td><td>adam@slm.sk</td><td>0</td></tr><tr><td></td><td>Mr. Zbynek Schreier</td><td>Head of metrology department</td><td>zbynek.schreier@normoff.gov.sk</td><td>0</td></tr><tr><td>SLOVENIA</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Ms. Natasa Mejak Vukovic</td><td>Senior Legal Advisor</td><td>natasa.mejak-vukovic@gov.si</td><td>0</td></tr><tr><td>SOUTH AFRICA</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mr. Nnditsheni Thomas Madzivhe</td><td>General Manager</td><td>thomas.madzivhe@nrcs.org.za</td><td>0</td></tr><tr><td></td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mr. Jaco Marneweck</td><td>Senior Manager : Legal Metrology</td><td>jaco.marneweck@nrcs.org.za</td><td>0</td></tr><tr><td></td><td>Mr. Thitendiwi Nelufule</td><td>Principal Inspector : Legal Metrology</td><td>thitendiwi.nelufule@nrcs.org.za</td><td>0</td></tr><tr><td>SPAIN</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Dr. Fernando Ferrer Margalef</td><td>Director</td><td>oiml@cem.mityc.es</td><td>1</td></tr><tr><td></td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mrs. Belen Martin</td><td>Technical Advisor</td><td>bmblasco@cem.minetur.es</td><td>1</td></tr><tr><td></td><td>Prof. José Nuno Cartaxo Reis</td><td>Technical Expert</td><td>creis@ipq.pt</td><td>0</td></tr><tr><td>SWEDEN</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mr. Kari Björkqvist</td><td>Head of Legal Metrology Division</td><td>kari.bjorkqvist@swedac.se</td><td>0</td></tr><tr><td></td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Ms. Renée Hansson</td><td>Technical Advisor</td><td>renee.hansson@swedac.se</td><td>0</td></tr><tr><td>SWITZERLAND</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mr. Gregor Dudle</td><td>Deputy Director of METAS</td><td>gregor.dudle@metas.ch</td><td>0</td></tr><tr><td>TANZANIA</td><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td></td><td>Mrs. Magdalena P. Chuwa</td><td>Chief Executive Officer</td><td>chuwa@wma.go.tz</td><td>1</td></tr></tbody></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+<table border="1"><tr><td colspan="4">Total number of participants: 141</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Hamis Hamidu</td><td>Regional Manager</td><td>hamisi.hamidu@wma.go.tz</td><td>0</td></tr><tr><td>Mr. Juma Wickama</td><td>Principal Agricultural Research Officer</td><td>wickama@yahoo.com</td><td>0</td></tr><tr><td>Mrs. Fortunata Makoye</td><td>Regional Manager</td><td>fortunemakoye@yahoo.com</td><td>0</td></tr><tr><td colspan="4">TUNISIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Cherif Fekiri</td><td>Directeur de Métrologie Légale</td><td>fekiri.cherif@gmail.com</td><td>0</td></tr><tr><td colspan="4">TURKEY</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Prof. Necip Camuscu</td><td>General Director</td><td>necip.camuscu@sanayi.gov.tr</td><td>1</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Mehmet Demiray</td><td>Assistant Expert for Industry and Technology</td><td>mehmet.demiray@sanayi.gov.tr</td><td>0</td></tr><tr><td colspan="4">UNITED KINGDOM</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Peter Mason</td><td>Director, International, CIML President</td><td>peter.mason@nmro.gov.uk</td><td>1</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Morayo Awosola</td><td>UK Assignee</td><td>morayo.awosola@nmro.gov.uk</td><td>0</td></tr><tr><td>Mr. Richard Sanders</td><td>Acting CEO, NMRO</td><td>richard.sanders@nmro.gov.uk</td><td>0</td></tr><tr><td colspan="4">UNITED STATES</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr. Charles D. Ehrlich</td><td>Group Leader, International Legal Metrology Group</td><td>charles.ehrlich@nist.gov</td><td>1</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Ralph Richter</td><td>NIST/OWM staff member</td><td>ralph.richter@nist.gov</td><td>0</td></tr><tr><td colspan="4">VIET NAM</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Dien Tran Khac</td><td>Deputy Director</td><td>dientk@vmi.gov.vn</td><td>0</td></tr><tr><td>Mr. Diep Nguyen Hung</td><td>Director</td><td>diepnhbdl@tcvn.gov.vn</td><td>0</td></tr><tr><td>Dr. Viet Ngo Quy</td><td>Director General</td><td>ngoquyviet@tcvn.gov.vn</td><td>1</td></tr><tr><td colspan="4">ZAMBIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mo. Himba Cheola</td><td>Chief Executive Director</td><td>cheolab@zwmo.org.zm</td><td>0</td></tr></table>
+
+<table border="1"><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Isaac Changaya</td><td>Ag. Regional Manager North</td><td>isaac changaya
+&lt;isaacchangaya@gmail.com&gt;</td><td>0</td></tr></table>
+
+<div align="center">
+
+# CIML Meeting 2015
+
+</div>
+
+Total number of participants: 141
+
+## Corresponding Members: 9
+
+Number of delegates: 17
+
+<table><thead><tr><th colspan="4">BOTSWANA</th></tr></thead><tbody><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Botsile Kebapetse</td><td>Director - Department of Regulatory Compliance</td><td>kebapetse@bobstandards.bw</td><td>0</td></tr><tr><td>Mr. Ditlhake Tau</td><td>Manager Trade Metrology</td><td>tau@bobstandards.bw</td><td>1</td></tr></tbody><thead><tr><th colspan="4">CAMBODIA</th></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Dr. Laim Kimleng</td><td>President of National Metrology Center</td><td>cambodia_nmc@camintel.com</td><td>0</td></tr><tr><td>Mr. EM Sophors</td><td>Chief of Industrial Metrology Affairs and Intl Coop. Office</td><td>emsophors@gmail.com</td><td>0</td></tr></thead><tbody><tr><td colspan="4">CHINESE TAIPEI</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Ping-Ju Tseng</td><td>Associate Technician Specialist</td><td>pj.tseng@bsmi.gov.tw</td><td>0</td></tr><tr><td>Dr. Hsin-Hung Lee</td><td>Senior Researcher</td><td>KyleLee@itri.org.tw</td><td>0</td></tr><tr><td colspan="4">GEORGIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms. Nino Mikanadze</td><td>Director of Metrology Institute at GEOSTM</td><td>geostm@geostm.ge</td><td>0</td></tr><tr><td>Mr. Davit Tqemaladze</td><td>Director General</td><td>geostm@geostm.ge</td><td>0</td></tr><tr><td colspan="4">GHANA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. George Omane-Twumasi</td><td>Head</td><td>omanetwumasi@yahoo.com</td><td>0</td></tr><tr><td colspan="4">MALAYSIA</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Prof./Dr. Osman B. Zakaria</td><td>Senior General Manager</td><td>osman@sirim.my</td><td>0</td></tr><tr><td colspan="4">MOZAMBIQUE</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Alfredo Filipe Sitoe</td><td>Director</td><td>alfredositoe@innoq.gov.mz</td><td>0</td></tr><tr><td>Mr. Geraldo Albasini</td><td></td><td>geraldoalbasini@yahoo.com</td><td>0</td></tr></tbody></table>
+
+<table border="1"><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Oleksandr Hilenko</td><td>Deputy Director</td><td>tnv@me.gov.ua</td><td>0</td></tr></table>
+
+<div align="center">
+
+CIML Meeting 2015
+
+</div>
+
+<table><thead><tr><th colspan="4">CIML Meeting 2015</th></tr><tr><th colspan="4">Total number of participants: 141</th></tr></thead><tbody><tr><td>Mr. Sergii Tsiporenko</td><td>Head of Mass Measurement Department</td><td>s_Tsiporenko@ukrcsm.kiev.ua</td><td>0</td></tr><tr><td colspan="4">UNITED ARAB EMIRATES</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Eng. Ahmed Almarzooqi</td><td>Senior Analyst Legal Metrology</td><td>azainal@esma.gov.ae</td><td>0</td></tr><tr><td>Mr. Fareed Mohammed Ismail</td><td>Head of Metrology Section</td><td>azainal@esma.gov.ae</td><td>0</td></tr><tr><td>Mr. Suhail Al Falasi</td><td>Director</td><td>azainal@esma.gov.ae</td><td>0</td></tr><tr><td colspan="4">Honorary Members: 1</td></tr><tr><td colspan="4">Number of delegates: 4</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Gerard Faber</td><td>CIML Past President</td><td>Gerard Faber &lt;gerard.j.faber@gmail.com&gt;</td><td>1</td></tr><tr><td>Mr. John Birch</td><td>Member of Honor</td><td>"John Birch" &lt;jabirch@bigpond.com&gt;</td><td>1</td></tr><tr><td>Prof. Lev Issaev</td><td>Member of Honor</td><td>isaev-vm@vniims.ru</td><td>0</td></tr><tr><td>Prof./Dr. Manfred Kochsiek</td><td>CIML Past Acting President</td><td>manfred@kochsiek.com</td><td>1</td></tr><tr><td colspan="4">Liaison: 5</td></tr><tr><td colspan="4">Number of delegates: 6</td></tr><tr><td colspan="4">ACP EU TBT</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mrs. Irina Kireeva</td><td></td><td>i.kireeva@acp-eu-tbt.org</td><td>0</td></tr><tr><td colspan="4">BIPM</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Andy Henson</td><td>Director, International Liaison &amp; Communication Department</td><td>Andy Henson &lt;ahenson@bipm.org&gt;</td><td>1</td></tr><tr><td colspan="4">CECIP</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Karlheinz Banholzer</td><td>Director Metrology Center</td><td>karlheinz.banholzer@sartorius.com</td><td>0</td></tr><tr><td>Mr. Roland Nater</td><td>Head Legal Metrology</td><td>roland.nater@mt.com</td><td>1</td></tr><tr><td colspan="4">GSO</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Eng. Abdulelah Al-Qarnas</td><td>Metrology Researcher</td><td>alqarnas@gso.org.sa</td><td>0</td></tr><tr><td colspan="4">ILAC</td></tr><tr><td>Delegate (ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Mr. Laurent Vinson</td><td>Directeur (Cofrac)</td><td>laurent.vinson@cofrac.fr</td><td>0</td></tr></tbody></table>
+
+## Individual: 1
+
+## Number of delegates: 7
+
+<table border="1"><tr><td>Delegate(ticked if CIML Member)</td><td>Position</td><td>E-Mail</td><td>Acc. persons</td></tr><tr><td>Ms. Marie-Anne Ouvrard</td><td>Hostess</td><td>charge.projet@arcachon.com</td><td>0</td></tr><tr><td>Ms. Marion Roquet</td><td>Hostess</td><td>charge.projet@arcachon.com</td><td>0</td></tr><tr><td>Mrs. Isabelle Notter</td><td>Directeur</td><td></td><td>0</td></tr><tr><td>Mrs. Helene Devaux</td><td>Chargee de Projet</td><td>charge.projet@arcachon.com</td><td>0</td></tr><tr><td>Mr. Stuart Carstens</td><td>OIML Guest</td><td>stuart.carstens@gmail.com</td><td>1</td></tr><tr><td>Mr. Marc Potentier</td><td>Interpreter</td><td>sophie-dubois@hancock-hutton.com</td><td>0</td></tr><tr><td>Mr. Garry Hutton</td><td>Interpreter</td><td>sophie-dubois@hancock-hutton.com</td><td>0</td></tr></table>
+
+## BIML: 1
+
+## BIML
+
+## Number of delegates: 8
+
+Delegate (ticked if CIML Member) Position E-Mail Acc. persons
+
+Ms. Florence Martinie □ Administrator, Finance florence.martinie@oiml.org 0
+
+Mr. Ian Dunmill □ Assistant Director ian.dunmill@oiml.org 3
+
+Mr. Jalil Adnani □ Database Systems Management jalil.adnani@oiml.org 0
+
+Mr. Luis Mussio □ Engineer luis.mussio@oiml.org 0
+
+Mr. Stephen Patoray □ BIML Director stephen.patoray@oiml.org 1
+
+Mr. Willem Kool □ Assistant Director willem.kool@oiml.org 0
+
+Mrs. Patricia Saint-Germain □ Administrator, Members patricia.saint-germain@oiml.org 0
+
+Mr. Chris Pulham □ Editor - Webmaster chris.pulham@oiml.org 0
