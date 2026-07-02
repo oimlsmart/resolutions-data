@@ -18,7 +18,7 @@ require "digest"
 module ResolutionsData
   module Author
     ROOT       = File.expand_path("..", __dir__)
-    OCR_DIR    = File.join(ROOT, "reference-docs", ".ocr", "md")
+    OCR_DIR    = File.join(ROOT, "reference-docs", "ocr", "md")
     OUT_DIR    = File.join(ROOT, "resolutions")
     MANIFEST   = File.join(ROOT, "scripts", "manifest.yaml")
     PENDING    = File.join(OUT_DIR, "_pending_review.txt")
@@ -197,6 +197,17 @@ module ResolutionsData
         resolutions, deferred = parse_narrative(md, src, lang)
       end
 
+      # Final fallback for CIML 15–37 narrative minutes (Bulletin scans).
+      # These are scanned PDFs with no formal "## Resolution" headers and no
+      # "## DECISIONS" anchor; the agenda items are Roman or Arabic numerals
+      # followed by a separator (— – - .) and a title, e.g.
+      #   "## I — ADOPTION du COMPTE RENDU"     (CIML 15-16, FR)
+      #   "## 3 — Situation financière"          (CIML 18+, FR)
+      #   "## 1. APPROVAL OF THE REPORT …"       (CIML 17+, EN)
+      if resolutions.empty?
+        resolutions, deferred = parse_bulletin_narrative(md, src, lang)
+      end
+
       stats[:resolutions] += resolutions.size
       stats[:deferred]   += deferred
       stats[:emitted]    += 1 unless resolutions.empty?
@@ -313,6 +324,137 @@ module ResolutionsData
       res << build_narrative_resolution(current_header, current_body, src, date_str) if current_header
 
       [res, 0]
+    end
+
+    # CIML 15–37 Bulletin narrative parser. These PDFs are scanned OIML
+    # Bulletin pages whose agenda sections use Roman or Arabic numerals
+    # with em-dash / hyphen / period separators:
+    #
+    #   ## I — ADOPTION du COMPTE RENDU                 (CIML 15-16, FR)
+    #   ## IV b — Conseil de Développement              (CIML 15-16, FR; sub-items)
+    #   ## 3 — Situation financière                      (CIML 18+, FR)
+    #   ## 1. APPROVAL OF THE REPORT ON THE 19TH …      (CIML 17+, EN)
+    #   ## 2.1. Nouvelles adhésions                      (sub-items)
+    #
+    # We also skip non-decision front-matter sections like SUMMARY, SOMMAIRE,
+    # OPENING ADDRESS, ROLL-CALL, etc., by requiring the section title to
+    # look like an agenda item (capitalised phrase, not a person's name).
+    BULLETIN_SECTION_RE = /\A##\s+([IVX]+|\d+(?:\.\d+)?(?:[a-z])?)\s*[\.:\-–—]+\s*(.+?)\s*\n?\z/i
+
+    # Skip sections whose title looks like front-matter (opening addresses,
+    # roll-calls, agenda adoption, table of contents, person lists, etc.)
+    # These don't carry committee decisions.
+    BULLETIN_SKIP_RE = /\A(
+       SUMMARY | SOMMAIRE | CONTENTS | LIST\ OF\ (?:PERSONS|DELEGATES|ATTENDEES)
+     | WELCOM(ING|E)\ ADDRESS | OPENING\ ADDRESS | ALLOCUTION
+     | ROLL[-\ ]CALL.* | APPEL\ (?:DES\ )?(?:D[ÉE]L[ÉE]GU[ÉE]S|PARTICIPANTS).*
+     | ADOPTION\ (?:OF\ (?:THE\ )?)?AGENDA | ADOPTION\ DE\ L['']ORDRE\ DU\ JOUR
+     | ADDRESS\ BY .* | BY\ (?:HIS|HER|MR|MRS|MS)\ .*
+     | PERSONNALIT[ÉE]S\ PR[ÉE]SENTES | MEMBRES\ DU\ COMIT[ÉE]\ EXCUS[ÉE]S
+     | MINUTES\b | COMPTE\ RENDU\ DES\ D[ÉE]BATS
+     | BUREAU\ INTERNATIONAL.* | INTERPR[ÉE]TES | MEMBRES\ DU\ COMIT[ÉE].*
+     | page\b | ETAT\ CIVIL
+    )\z/ix
+
+    def self.parse_bulletin_narrative(md, src, lang)
+      res = []
+      date_str = meeting_date(src)
+
+      current_header = nil
+      current_body = []
+
+      md.each_line do |line|
+        if (m = line.match(BULLETIN_SECTION_RE))
+          # Skip front-matter sections — they're not committee decisions.
+          unless current_header.nil? || skip_bulletin_section?(current_header[1])
+            res << build_bulletin_resolution(current_header, current_body, src, date_str)
+          end
+          current_header = [m[1], m[2].strip]
+          current_body = []
+        elsif current_header
+          current_body << line
+        end
+      end
+      res << build_bulletin_resolution(current_header, current_body, src, date_str) if current_header && !skip_bulletin_section?(current_header[1])
+
+      [res, 0]
+    end
+
+    def self.skip_bulletin_section?(title)
+      return true if title.to_s.strip.match?(BULLETIN_SKIP_RE)
+      # Skip pure-personnel lines like "M. BIRKELAND :" or "by Mr CRUZ"
+      title.to_s.strip.match?(/\A(M\.|Mme|Mmes|Mr\.?|Mrs\.?|Ms\.?|Dr\.?|BY\s|by\s)\b/i)
+    end
+
+    def self.build_bulletin_resolution(header, body_lines, src, date_str)
+      number_raw, title = header
+      # Normalise identifier number: Roman → Arabic, "IV b" → "4b", "2.1" stays.
+      number = bulletin_number_to_arabic(number_raw)
+
+      kind_label = src["kind"] == "ciml" ? "CIML" : "Conference"
+      identifier = "#{kind_label}/#{src['year']}/#{number}"
+
+      paragraphs = body_lines.join.split(/\n\s*\n/).map(&:strip).reject(&:empty?)
+      acts = []
+      paragraphs.each do |para|
+        clean = para.gsub(/\A[-*]\s+/, "")
+        verb_type = classify_narrative_verb(clean)
+        msg = convert_tables(clean)
+        if verb_type
+          acts << {
+            "type"    => verb_type,
+            "message" => msg,
+            "dates"   => [{ "start" => date_str, "kind" => "effective" }],
+          }
+        end
+      end
+
+      # Fallback: preserve first paragraph as "notes" if no verb recognised.
+      if acts.empty? && paragraphs.any?
+        first = paragraphs.first
+        acts << {
+          "type"    => "notes",
+          "message" => convert_tables(first),
+          "dates"   => [{ "start" => date_str, "kind" => "effective" }],
+        }
+      end
+
+      title_str = title.to_s.strip
+      title_str = title_str[0...100] + "…" if title_str.size > 100
+
+      {
+        "identifier"     => identifier,
+        "doi"            => compute_doi(src, identifier),
+        "urn"            => compute_urn(src, identifier),
+        "subject"        => "(The CIML)",
+        "title"          => title_str.empty? ? "(untitled)" : title_str,
+        "dates"          => [{ "start" => date_str, "kind" => "decision" }],
+        "considerations" => [],
+        "actions"        => acts,
+        "approvals"      => [],
+      }
+    end
+
+    ROMAN_TO_INT_BULLETIN = {
+      "I" => 1, "II" => 2, "III" => 3, "IV" => 4, "V" => 5,
+      "VI" => 6, "VII" => 7, "VIII" => 8, "IX" => 9, "X" => 10,
+      "XI" => 11, "XII" => 12, "XIII" => 13, "XIV" => 14, "XV" => 15,
+      "XVI" => 16, "XVII" => 17, "XVIII" => 18, "XIX" => 19, "XX" => 20,
+    }.freeze
+
+    def self.bulletin_number_to_arabic(raw)
+      s = raw.to_s.strip
+      # "IV b" → base "IV", suffix "b"
+      m = s.match(/\A([IVX]+|\d+(?:\.\d+)?)\s*([a-z])?\z/i)
+      return s unless m
+      base = m[1]
+      suffix = m[2].to_s.downcase
+      arabic = if base =~ /\A[IVX]+\z/i
+                 ROMAN_TO_INT_BULLETIN[base.upcase].to_s
+               else
+                 base
+               end
+      suffix.empty? ? arabic : "#{arabic}#{suffix}"
     end
 
     def self.build_narrative_resolution(header, body_lines, src, date_str)
@@ -745,7 +887,7 @@ module ResolutionsData
 
       <<~YAML
         # yaml-language-server: $schema=#{SCHEMA_URL}
-        # Auto-generated from reference-docs/.ocr/md/#{src['slug']}.md by scripts/author_yaml.rb
+        # Auto-generated from reference-docs/ocr/md/#{src['slug']}.md by scripts/author_yaml.rb
         # Source PDF: #{source_pdf_path(src)}
         # Meeting URN: urn:oiml:#{urn_kind}:meeting:#{out_slug}
         # Language: #{lang}

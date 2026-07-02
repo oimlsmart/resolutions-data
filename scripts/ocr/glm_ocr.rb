@@ -3,18 +3,21 @@
 # OCR OIML resolution PDFs via z.ai GLM-OCR (layout parsing).
 #
 # Adapted from ~/src/relaton/relaton-data-oiml/backfill/glm_ocr.rb with
-# three changes only:
+# these changes:
 #   1. PAGES_PER_CHUNK 30 → 100  (current API limit)
 #   2. http.read_timeout 180 → 600  (bigger chunks need longer parse time)
-#   3. CACHE_DIR points at reference-docs/.ocr/raw in this repo
+#   3. CACHE_DIR points at reference-docs/ocr/raw in this repo
+#   4. PDFs > 100 pages are physically split via pdftk into ≤100-page
+#      sub-PDFs, since the API rejects any source PDF over 100 pages
+#      regardless of the start_page_id/end_page_id window.
 #
-# Limits: PDF <= 100 MB, <= 100 pages per request.
+# Limits: PDF <= 50 MB, <= 100 pages per request.
 # API: POST https://api.z.ai/api/paas/v4/layout_parsing
 #   body: { model: "glm-ocr", file: <url|base64>, start_page_id:, end_page_id: }
 #
 # Output:
-#   reference-docs/.ocr/raw/<sha(input,start,end)>.json  (full API response)
-#   reference-docs/.ocr/md/<slug>.md                     (concatenated, per source PDF)
+#   reference-docs/ocr/raw/<sha(input,start,end)>.json  (full API response)
+#   reference-docs/ocr/md/<slug>.md                     (concatenated, per source PDF)
 #
 # Run via scripts/ocr/run.rb — see TODO.work/04-ocr-adapt.md.
 
@@ -23,13 +26,15 @@ require "json"
 require "digest"
 require "fileutils"
 require "base64"
+require "open3"
+require "tmpdir"
 
 module ResolutionsData
   class GlmOcr
     ENDPOINT = URI("https://api.z.ai/api/paas/v4/layout_parsing").freeze
     PAGES_PER_CHUNK = 100
-    CACHE_DIR = File.expand_path("../../reference-docs/.ocr/raw", __dir__)
-    MAX_BYTES = 100 * 1024 * 1024 # 100 MB
+    CACHE_DIR = File.expand_path("../../reference-docs/ocr/raw", __dir__)
+    MAX_BYTES = 50 * 1024 * 1024 # 50 MB (z.ai lowered this from 100 MB)
 
     DEFAULT_KEY_FILE = File.expand_path("~/.zai-api-key")
 
@@ -46,20 +51,68 @@ module ResolutionsData
       Regexp.last_match(2).strip.gsub(/\A["']|["']\z/, "")
     end
 
-    # OCR an entire PDF by chunking into 100-page windows. Returns combined
-    # markdown. Caches each chunk by (input, window) so re-runs are free.
     def ocr_pdf(file_input, num_pages:)
-      raise "input exceeds 100 MB limit" if file_size_bytes(file_input) > MAX_BYTES
+      raise "input exceeds 50 MB limit" if file_size_bytes(file_input) > MAX_BYTES
+      return ocr_remote(file_input) if file_input.start_with?("http")
+
       chunks = []
-      (1..num_pages).each_slice(PAGES_PER_CHUNK).each do |window|
-        start_page = window.first
-        end_page   = [window.last, num_pages].min
-        chunks << chunk(file_input, start_page, end_page)
+      if num_pages <= PAGES_PER_CHUNK
+        chunks << chunk(file_input, 1, num_pages)
+      else
+        split_into_windows(num_pages).each do |start_page, end_page|
+          chunks << ocr_window_via_split(file_input, start_page, end_page)
+        end
       end
       chunks.join("\n\n<!-- page-break -->\n\n")
     end
 
-    # Single chunk. file_input is a URL string or local path.
+    # Single small PDF (≤ 100 pages): send directly with start/end window.
+    def ocr_remote(file_input)
+      chunk(file_input, 1, PAGES_PER_CHUNK)
+    end
+
+    private
+
+    # [{start, end}] — half-open windows of PAGES_PER_CHUNK pages each.
+    def split_into_windows(num_pages)
+      windows = []
+      start_page = 1
+      while start_page <= num_pages
+        end_page = [start_page + PAGES_PER_CHUNK - 1, num_pages].min
+        windows << [start_page, end_page]
+        start_page = end_page + 1
+      end
+      windows
+    end
+
+    # Physically split the source PDF with pdftk, then send the slice with
+    # start=1/end=window-size so the API never sees a >100-page source.
+    # Cache key includes the source path AND the original (in-PDF) page range
+    # so two windows of the same PDF don't collide.
+    def ocr_window_via_split(file_input, start_page, end_page)
+      cache_key = cache_key_for(file_input, start_page, end_page)
+      cached = read_cache(cache_key)
+      if cached
+        warn "  cache hit  pages #{start_page}-#{end_page} of #{File.basename(file_input)}"
+        return cached["md_results"] || ""
+      end
+
+      Dir.mktmpdir("glm-ocr-split") do |tmp|
+        slice_path = File.join(tmp, "slice-#{start_page}-#{end_page}.pdf")
+        # pdftk expects "cat N-M output …" for a contiguous range; a flat
+        # page list ("1 2 3 …") triggers "Unexpected text in page range end".
+        range_spec = "#{start_page}-#{end_page}"
+        _out, _err, st = Open3.capture3("pdftk", file_input, "cat", range_spec, "output", slice_path)
+        raise "pdftk split failed (#{st.exitstatus}): #{_err[0, 300]}" unless File.exist?(slice_path)
+
+        slice_size = end_page - start_page + 1
+        res = request(slice_path, 1, slice_size)
+        write_cache(cache_key, res)
+        warn "  OCR        #{File.basename(file_input)} pages #{start_page}-#{end_page}: #{res.dig('usage', 'total_tokens')} tokens"
+        res["md_results"] || ""
+      end
+    end
+
     def chunk(file_input, start_page, end_page)
       cache_key = cache_key_for(file_input, start_page, end_page)
       cached = read_cache(cache_key)
@@ -73,8 +126,6 @@ module ResolutionsData
       warn "  OCR        #{describe(file_input)} pages #{start_page}-#{end_page}: #{res.dig('usage', 'total_tokens')} tokens"
       res["md_results"] || ""
     end
-
-    private
 
     def file_size_bytes(input)
       return -1 if input.start_with?("http")
@@ -140,7 +191,7 @@ if $PROGRAM_NAME == __FILE__
   slug      = ARGV[2] || (input.start_with?("http") ? "remote" : File.basename(input, ".pdf"))
   md        = ResolutionsData::GlmOcr.new.ocr_pdf(input, num_pages: num_pages)
 
-  out_dir = File.expand_path("../../reference-docs/.ocr/md", __dir__)
+  out_dir = File.expand_path("../../reference-docs/ocr/md", __dir__)
   FileUtils.mkdir_p(out_dir)
   out = File.join(out_dir, "#{slug}.md")
   File.write(out, md)

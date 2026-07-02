@@ -11,7 +11,7 @@ module ResolutionsData
   module ExtractDates
     ROOT      = File.expand_path("..", __dir__)
     MANIFEST  = File.join(__dir__, "manifest.yaml")
-    OCR_DIR   = File.join(ROOT, "reference-docs", ".ocr", "md")
+    OCR_DIR   = File.join(ROOT, "reference-docs", "ocr", "md")
 
     MONTHS_EN = %w[January February March April May June July
                   August September October November December].freeze

@@ -25,7 +25,7 @@ separately (out of scope for the initial fetch).
 reference-docs/
   ciml/            # consolidated CIML resolution PDFs (one per meeting × lang)
   conferences/     # consolidated Conference resolution PDFs (one per session × lang)
-  .ocr/
+  ocr/
     raw/           # full GLM-OCR JSON response, one file per (pdf, page-window)
     md/            # concatenated markdown per source PDF
     index.yaml     # provenance: source pdf -> [chunk keys, page ranges, usage]
@@ -57,7 +57,7 @@ GLM-OCR (z.ai layout parsing) endpoint:
 * Limits: PDF ≤ 100 MB, ≤ 100 pages per request.
 * Body: `{ "model": "glm-ocr", "file": <url|base64>, "start_page_id": N, "end_page_id": M }`.
 * Response: JSON; markdown lives under the `md_results` key.
-* Caching: every API response is stored verbatim under `reference-docs/.ocr/raw/`,
+* Caching: every API response is stored verbatim under `reference-docs/ocr/raw/`,
   keyed by SHA-256 of (`input`, `start_page`, `end_page`). Restart-safe.
 
 Reference implementation:
