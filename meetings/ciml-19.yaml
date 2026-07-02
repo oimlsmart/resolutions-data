@@ -6,15 +6,26 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-19
 type: plenary
 status: completed
+year: 1983
 ordinal: 19
+date_range:
+  start: '1983-05-03'
+  end: '1983-05-05'
+committee: International Committee of Legal Metrology (CIML)
+general_area: Copenhagen, Denmark
+virtual: false
+source_urls: []
 localizations:
 - language_code: fra
   script: Latn
-  title: 19th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 19th CIML Meeting — Minutes (FR, Bulletin)
+  general_area: Copenhagen, Denmark
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-19-resolutions
+country_code: DK
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-19-fra
   language_code: fra
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-19-resolutions

@@ -6,15 +6,26 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-20
 type: plenary
 status: completed
+year: 1984
 ordinal: 20
+date_range:
+  start: '1984-10-01'
+  end: '1984-10-05'
+committee: International Committee of Legal Metrology (CIML)
+general_area: Helsinki, Finland
+virtual: false
+source_urls: []
 localizations:
 - language_code: eng
   script: Latn
-  title: 20th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 20th CIML Meeting — Minutes (EN, Bulletin)
+  general_area: Helsinki, Finland
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-20-resolutions
+country_code: FI
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-20-eng
   language_code: eng
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-20-resolutions

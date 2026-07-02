@@ -6,15 +6,30 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-35
 type: plenary
 status: completed
+year: 2000
 ordinal: 35
+date_range:
+  start: '2000-10-09'
+  end: '2000-10-13'
+committee: International Committee of Legal Metrology (CIML)
+general_area: London, United Kingdom
+virtual: false
+source_urls: []
 localizations:
+- language_code: eng
+  script: Latn
+  title: 35th CIML Meeting — Minutes (EN, Bulletin)
+  general_area: London, United Kingdom
 - language_code: fra
   script: Latn
-  title: 35th CIML Meeting (skeleton from minutes)
-  general_area: ''
+  title: 35th CIML Meeting — Minutes (FR, Bulletin)
+  general_area: London, United Kingdom
+agenda:
+  status: final
+resolution_refs:
+- urn:oiml:ciml:resolution-collection:ciml-35-resolutions
+country_code: GB
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-35-fra
   language_code: fra
   script: Latn
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-35-resolutions
