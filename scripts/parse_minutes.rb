@@ -4,7 +4,7 @@
 # Parse OCR'd CIML minutes JSONs (GLM-OCR `md_results` shape) into
 # Edoxen `Minutes` YAML files.
 #
-# Input:  reference-docs/.ocr/raw/*.json
+# Input:  reference-docs/ocr/raw/*.json
 # Output: minutes/ciml-{N}-{lang}.yaml (one per language per meeting)
 #
 # Each input JSON is one OCR chunk (the GLM-OCR pipeline splits long
@@ -23,7 +23,7 @@ require "yaml"
 require "fileutils"
 
 ROOT = File.expand_path("..", __dir__)
-RAW_DIR = File.join(ROOT, "reference-docs", ".ocr", "raw")
+RAW_DIR = File.join(ROOT, "reference-docs", "ocr", "raw")
 OUT_DIR = File.join(ROOT, "minutes")
 
 FileUtils.mkdir_p(OUT_DIR)
@@ -173,7 +173,9 @@ FR_ORDINAL_UNIT_STEMS = {
 }.freeze
 
 def parse_arabic_ordinal(text)
-  m = text.match(/(\d{1,2})(?:st|nd|rd|th)?\s+Meeting/i)
+  # Require a word boundary before the digit so "1.2 Meeting" doesn't
+  # trigger — only "2 Meeting" / "2nd Meeting" / "12 Meeting" do.
+  m = text.match(/(?:^|\s)(\d{1,2})(?:st|nd|rd|th)?\s+Meeting/i)
   m ? m[1].to_i : nil
 end
 
@@ -308,6 +310,13 @@ Dir.glob(File.join(RAW_DIR, "*.json")).sort.each do |path|
   next unless /MINUTES|COMPTE RENDU|MINUT[S]?|SUMMARY|R[ÉE]SUM[ÉE]|SOMMAIRE/i.match?(md[0..5000])
 
   head = md[0..5000]
+
+  # Skip Conference minutes (they are OIML Conference, not CIML, and our
+  # ciml-N-{lang} filename scheme doesn't apply). Detection: cover mentions
+  # "International Conference on Legal Metrology" or "Conférence …
+  # Métrologie Légale" before any CIML ordinal pattern.
+  next if /International Conference on Legal Metrology|Conf[ée]rence Internationale de M[ée]trologie/i.match?(head)
+
   ordinal = detect_meeting_ordinal(head)
   lang = detect_language(head)
   next unless ordinal

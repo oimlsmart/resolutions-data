@@ -17,9 +17,9 @@ require "optparse"
 module ResolutionsData
   module Verify
     ROOT   = File.expand_path("../", __dir__)
-    PDFS   = Dir.glob(File.join(ROOT, "reference-docs", "{ciml,conferences}", "*.pdf")).sort
-    MD_DIR = File.join(ROOT, "reference-docs", ".ocr", "md")
-    TXT_DIR = File.join(ROOT, "reference-docs", ".ocr", "text")
+    PDFS   = Dir.glob(File.join(ROOT, "reference-docs", "{ciml,conferences}", "**", "*.pdf")).sort
+    MD_DIR = File.join(ROOT, "reference-docs", "ocr", "md")
+    TXT_DIR = File.join(ROOT, "reference-docs", "ocr", "text")
 
     DEFAULT_MIN_SIMILARITY = 0.85
     STOPWORDS = Set.new(%w[the of and to a in for is on that with by as at an be from or this it are was were will has had].concat(%w[le la les des du de et à en un une pour que qui dans sur par ne pas ce cette]))

@@ -19,13 +19,10 @@ ROOT = File.expand_path("..", __dir__)
 DIR  = File.join(ROOT, "resolutions")
 
 def meeting_urn_for(source_file)
-  if source_file.start_with?("ciml-")
-    # ciml-39-decisions-en → ciml-39
-    slug = source_file.sub(/\A(ciml-\d+)-.*\z/, "\\1")
-    "urn:oiml:ciml:meeting:#{slug}"
-  elsif source_file.start_with?("conference-")
-    slug = source_file.sub(/\A(conference-\d+)-.*\z/, "\\1")
-    "urn:oiml:conference:meeting:#{slug}"
+  if source_file =~ /\Aciml-(\d+)-/ || source_file =~ /\A(\d+)CIML-/ || source_file =~ /\A(\d+)_ciml/
+    "urn:oiml:ciml:meeting:ciml-#{$1}"
+  elsif source_file =~ /\Aconference-(\d+)-/
+    "urn:oiml:conference:meeting:conference-#{$1}"
   else
     raise "unknown source_file shape: #{source_file}"
   end

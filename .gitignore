@@ -1,5 +1,7 @@
-# OCR cache (reproducible from PDFs via scripts/ocr/run.rb)
-reference-docs/.ocr/
+# OCR raw API cache (reproducible from PDFs via scripts/ocr/run.rb;
+# the md/ outputs are tracked in git as the canonical OCR text)
+reference-docs/ocr/raw/
+reference-docs/ocr/text/
 
 # Browser build artifacts (reproducible via `npm run build`)
 browser/dist/
