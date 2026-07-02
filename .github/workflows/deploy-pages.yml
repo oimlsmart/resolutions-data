@@ -37,7 +37,7 @@ jobs:
           bundle exec edoxen validate-meetings 'meetings/*.yaml'
 
       - name: Cross-check schema enum parity
-        run: ruby scripts/check_schema_sync.rb
+        run: bundle exec ruby scripts/check_schema_sync.rb
 
       - name: Cross-check resolution ↔ meeting join
         run: ruby scripts/check_meeting_join.rb
