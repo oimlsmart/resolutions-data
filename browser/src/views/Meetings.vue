@@ -131,7 +131,7 @@
                 <router-link
                   v-for="m in decade.meetings"
                   :key="m.meeting_slug"
-                  :to="{ name: 'meeting-detail', params: { meetingSlug: m.meeting_slug } }"
+                  :to="r('meeting-detail', { meetingSlug: m.meeting_slug })"
                   class="timeline-entry timeline-entry--ciml"
                 >
                   <span class="timeline-node timeline-node--ciml"
@@ -179,7 +179,7 @@
                 <router-link
                   v-for="m in decade.meetings"
                   :key="m.meeting_slug"
-                  :to="{ name: 'meeting-detail', params: { meetingSlug: m.meeting_slug } }"
+                  :to="r('meeting-detail', { meetingSlug: m.meeting_slug })"
                   class="timeline-entry timeline-entry--conference"
                 >
                   <span class="timeline-node timeline-node--conference"
@@ -234,11 +234,13 @@ import { venueForLang, countryName } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import { formatDateShort } from '../utils/format'
+import { useLocalizedRoute } from '../composables/useLocalizedRoute'
 
 const router = useRouter()
 const route = useRoute()
 
 const { meetings, isLoaded, loadData } = useMeetings()
+const r = useLocalizedRoute()
 
 const searchQuery = ref((route.query.q as string) || '')
 const selectedYear = ref((route.query.year as string) || '')

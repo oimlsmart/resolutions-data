@@ -39,7 +39,7 @@
         
         <router-link
           v-if="resolution.meeting_slug"
-          :to="{ name: 'meeting-detail', params: { meetingSlug: resolution.meeting_slug } }"
+          :to="r('meeting-detail', { meetingSlug: resolution.meeting_slug })"
           class="meeting-link-badge"
         >
           <svg class="meeting-link-badge__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -190,17 +190,17 @@
       <section v-if="relatedResolutions.length > 0" class="std-page__section animate-up" style="--nth: 9">
         <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.related') }}</h2>
         <div class="related-list">
-          <router-link 
-            v-for="r in relatedResolutions" 
-            :key="r.id" 
-            :to="{ name: 'resolution-detail', params: { id: r.id } }"
+          <router-link
+            v-for="rel in relatedResolutions"
+            :key="rel.id"
+            :to="r('resolution-detail', { id: rel.id })"
             class="related-card"
           >
             <div class="related-meta">
-              <span class="related-id">{{ r.identifier || r.id }}</span>
-              <span class="related-date">{{ formatDate(r.meeting_date, lang) }}</span>
+              <span class="related-id">{{ rel.identifier || rel.id }}</span>
+              <span class="related-date">{{ formatDate(rel.meeting_date, lang) }}</span>
             </div>
-            <div class="related-title">{{ r.title || 'Resolution ' + (r.identifier || r.id) }}</div>
+            <div class="related-title">{{ rel.title || 'Resolution ' + (rel.identifier || rel.id) }}</div>
             <div class="card-hover-arrow">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </div>
@@ -212,7 +212,7 @@
       <nav class="res-navigation animate-up" style="--nth: 10" aria-label="Resolution navigation">
         <router-link
           v-if="prevResolution"
-          :to="{ name: 'resolution-detail', params: { id: prevResolution.id } }"
+          :to="r('resolution-detail', { id: prevResolution.id })"
           class="res-nav-card res-nav-card--prev"
         >
           <span class="res-nav-label">
@@ -226,7 +226,7 @@
 
         <router-link
           v-if="nextResolution"
-          :to="{ name: 'resolution-detail', params: { id: nextResolution.id } }"
+          :to="r('resolution-detail', { id: nextResolution.id })"
           class="res-nav-card res-nav-card--next"
         >
           <span class="res-nav-label">
@@ -279,7 +279,7 @@
       </form>
       
       <div class="not-found-actions">
-        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">{{ t('resolution.backHome') }}</router-link>
+        <router-link :to="r('home')" class="std-chip link-no-ul">{{ t('resolution.backHome') }}</router-link>
       </div>
     </div>
   </div>
@@ -298,10 +298,12 @@ import { formatActionType } from '../data/actionTypes'
 import { formatDate } from '../utils/format'
 import { venueForLang } from '../data/venues'
 import { useClipboard } from '../composables/useClipboard'
+import { useLocalizedRoute } from '../composables/useLocalizedRoute'
 
 const router = useRouter()
 const route = useRoute()
 const { resolutions, isLoaded, loadData } = useResolutions()
+const r = useLocalizedRoute()
 const { t, lang } = useI18n()
 const { getMeetingResolutions, loadData: loadMeetingsData, isLoaded: isMeetingsLoaded } = useMeetings()
 
@@ -518,7 +520,7 @@ const relatedResolutions = computed(() => {
 
 function submitSearch() {
   if (searchInput.value) {
-    router.push({ name: 'home', query: { q: searchInput.value } })
+    router.push({ name: 'home', params: { lang: lang.value }, query: { q: searchInput.value } })
   }
 }
 </script>
