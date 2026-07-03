@@ -8,7 +8,7 @@
     <!-- Back link -->
     <button @click="$router.back()" class="std-page__back back-link animate-up" style="--nth: 1">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-      Back to results
+      {{ t('resolution.back') }}
     </button>
 
     <!-- Language toggle (only when both EN and FR are available) -->
@@ -136,7 +136,7 @@
             <template v-if="act.dates && act.dates.length > 0">
               <div class="res-detail-dates">
                 <span v-for="(d, didx) in act.dates" :key="didx" class="res-detail-date">
-                  Effective: {{ d.start }}<template v-if="d.end"> &ndash; {{ d.end }}</template>
+                  {{ t('resolution.effective') }}: {{ d.start }}<template v-if="d.end"> &ndash; {{ d.end }}</template>
                 </span>
               </div>
             </template>
@@ -145,7 +145,7 @@
       </section>
 
       <section v-if="resolution.approvals && resolution.approvals.length > 0" class="std-page__section animate-up" style="--nth: 7">
-        <h2 class="std-page__section-heading res-detail-section-title">Approval</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.approval') }}</h2>
         <div class="std-page__body">
           <div v-for="(app, idx) in resolution.approvals" :key="idx" class="approval-panel" :class="{ 'mt-4': idx > 0 }">
             <p class="approval-text">
@@ -157,7 +157,7 @@
       </section>
 
       <section v-if="resolution.categories && resolution.categories.length > 0" class="std-page__section animate-up" style="--nth: 8">
-        <h2 class="std-page__section-heading res-detail-section-title">Categories</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.categories') }}</h2>
         <div class="categories-list">
           <span v-for="(cat, idx) in resolution.categories" :key="idx" class="std-page__badge">{{ cat }}</span>
         </div>
@@ -188,7 +188,7 @@
       </section>
 
       <section v-if="relatedResolutions.length > 0" class="std-page__section animate-up" style="--nth: 9">
-        <h2 class="std-page__section-heading res-detail-section-title">Related Resolutions</h2>
+        <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.related') }}</h2>
         <div class="related-list">
           <router-link 
             v-for="r in relatedResolutions" 
@@ -217,7 +217,7 @@
         >
           <span class="res-nav-label">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
-            Previous
+            {{ t('resolution.previous') }}
           </span>
           <span class="res-nav-title">{{ prevResolution.title || prevResolution.id }}</span>
         </router-link>
@@ -229,7 +229,7 @@
           class="res-nav-card res-nav-card--next"
         >
           <span class="res-nav-label">
-            Next
+            {{ t('resolution.next') }}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </span>
           <span class="res-nav-title">{{ nextResolution.title || nextResolution.id }}</span>
@@ -277,7 +277,7 @@
       </form>
       
       <div class="not-found-actions">
-        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">Back to Home</router-link>
+        <router-link :to="{ name: 'home' }" class="std-chip link-no-ul">{{ t('resolution.backHome') }}</router-link>
       </div>
     </div>
   </div>

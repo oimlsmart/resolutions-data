@@ -3,7 +3,7 @@
 // browser's preferred language.
 
 import { ref, computed, watch } from 'vue'
-import { translations, type TranslationKey, type Language } from '../data/translations'
+import { translations, interpolate, type TranslationKey, type Language } from '../data/translations'
 
 const STORAGE_KEY = 'oiml-lang'
 const DEFAULT_LANG: Language = 'en'
@@ -34,10 +34,13 @@ watch(currentLang, (lang) => {
 })
 
 export function useI18n() {
-  const t = computed(() => (key: TranslationKey) => {
+  // t(key, vars?) looks up the translation for the current language and
+  // interpolates {placeholder} tokens with the provided vars.
+  const t = computed(() => (key: TranslationKey, vars?: Record<string, string | number>) => {
     const entry = translations[key]
     if (!entry) return key
-    return entry[currentLang.value] ?? entry.en ?? key
+    const raw = entry[currentLang.value] ?? entry.en ?? key
+    return vars ? interpolate(raw, vars) : raw
   })
   const lang = computed(() => currentLang.value)
 
