@@ -19,10 +19,23 @@ if (fs.existsSync(indexPath)) {
 
 const baseUrl = 'https://oiml.org/resolutions';
 const dataPath = path.resolve(__dirname, '../public/data/resolutions.json');
+const meetingsPath = path.resolve(__dirname, '../public/data/meetings.json');
 const data = JSON.parse(fs.readFileSync(dataPath, 'utf-8'));
+const meetings = JSON.parse(fs.readFileSync(meetingsPath, 'utf-8'));
 
 const resolutionIds = data.map((r) => r.id);
-const meetingFiles = [...new Set(data.map((r) => r.source_file))];
+// Canonical meeting URLs are keyed by meeting_slug (URN-derived).
+// Legacy source_file URLs are emitted as HTTP-equivalent redirect HTML
+// stubs below so existing links don't 404.
+const meetingSlugs = meetings.map((m) => m.meeting_slug);
+
+// Build legacy-source-file → canonical-slug redirect map.
+const legacyRedirects = new Map();
+for (const m of meetings) {
+  for (const sf of m.source_files || []) {
+    if (!legacyRedirects.has(sf)) legacyRedirects.set(sf, m.meeting_slug);
+  }
+}
 
 const staticPages = [
   { url: `${baseUrl}/`, priority: '1.0', changefreq: 'weekly' },
@@ -36,8 +49,8 @@ const resolutionPages = resolutionIds.map((id) => ({
   changefreq: 'yearly',
 }));
 
-const meetingPages = meetingFiles.map((sf) => ({
-  url: `${baseUrl}/meetings/${sf}`,
+const meetingPages = meetingSlugs.map((slug) => ({
+  url: `${baseUrl}/meetings/${slug}`,
   priority: '0.6',
   changefreq: 'yearly',
 }));
@@ -56,6 +69,35 @@ ${allPages.map(p => `  <url>
 
 fs.writeFileSync(path.join(distDir, 'sitemap.xml'), sitemap);
 console.log(`Generated sitemap.xml with ${allPages.length} URLs`);
+
+// Emit minimal HTML redirect stubs for legacy source_file-based meeting
+// URLs (e.g. /meetings/15CIML-1976-FR → /meetings/ciml-15). GitHub Pages
+// serves whatever index.html exists at a path, so a <meta refresh> +
+// <link rel=canonical> stub is enough to keep old bookmarks working
+// without breaking search-engine indexing.
+let redirectCount = 0;
+for (const [legacy, canonical] of legacyRedirects.entries()) {
+  const legacyDir = path.join(distDir, 'meetings', legacy);
+  fs.mkdirSync(legacyDir, { recursive: true });
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0; url=../${canonical}">
+<link rel="canonical" href="../${canonical}">
+<title>Redirecting…</title>
+</head>
+<body>
+<p>This page has moved to <a href="../${canonical}">${canonical}</a>.</p>
+</body>
+</html>
+`;
+  fs.writeFileSync(path.join(legacyDir, 'index.html'), html);
+  redirectCount++;
+}
+if (redirectCount > 0) {
+  console.log(`Generated ${redirectCount} legacy-URL redirect stub(s) under dist/meetings/`);
+}
 
 const robots = `User-agent: *
 Allow: /

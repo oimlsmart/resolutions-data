@@ -16,8 +16,12 @@ export const routes: RouteRecordRaw[] = [
     name: 'meetings',
     component: () => import('../views/Meetings.vue')
   },
+  // Canonical meeting route: /meetings/<slug> where slug is the URN-
+  // derived identifier (e.g. "ciml-15", "conference-13"). Legacy URLs
+  // that used source PDF filenames (/meetings/15CIML-1976-FR) are
+  // detected by MeetingDetail.vue and replaced with the canonical URL.
   {
-    path: '/meetings/:sourceFile',
+    path: '/meetings/:meetingSlug',
     name: 'meeting-detail',
     component: () => import('../views/MeetingDetail.vue')
   },

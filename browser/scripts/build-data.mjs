@@ -18,6 +18,16 @@ const OUTPUT_DIR = path.resolve(__dirname, '../public/data');
 const RESOLUTIONS_FILE = path.join(OUTPUT_DIR, 'resolutions.json');
 const MEETINGS_FILE = path.join(OUTPUT_DIR, 'meetings.json');
 
+// Derive the canonical URL slug for a meeting from its URN.
+//   urn:oiml:ciml:meeting:ciml-15        → ciml-15
+//   urn:oiml:conference:meeting:conf-13  → conf-13
+// Returns null when the URN doesn't match the expected shape.
+function meetingSlugFromUrn(urn) {
+  if (!urn) return null;
+  const m = String(urn).match(/:meeting:([-\w]+)$/);
+  return m ? m[1] : null;
+}
+
 // Map a meeting YAML's resolution_refs[0] URN to the source_file slug
 // used by the resolutions/ directory (e.g.
 // "urn:oiml:ciml:resolution-collection:ciml-39-resolutions" →
@@ -29,12 +39,12 @@ function sourceFileFromResolutionRefUrn(urn) {
   return m ? m[1] : null;
 }
 
-// Read meetings/*.yaml and index by source_file slug (when derivable
-// from resolution_refs) and by URN. Returns { bySourceFile, byUrn }.
+// Read meetings/*.yaml. Each meeting YAML is the canonical record for one
+// CIML meeting or OIML Conference session. Returns a Map keyed by
+// meeting_slug (the URL-safe slug derived from the meeting's URN).
 function loadMeetingYamls() {
-  const bySourceFile = new Map();
-  const byUrn = new Map();
-  if (!fs.existsSync(MEETINGS_YAML_DIR)) return { bySourceFile, byUrn };
+  const bySlug = new Map();
+  if (!fs.existsSync(MEETINGS_YAML_DIR)) return bySlug;
 
   const files = fs.readdirSync(MEETINGS_YAML_DIR).filter(f => f.endsWith('.yaml') || f.endsWith('.yml'));
   for (const file of files) {
@@ -48,6 +58,7 @@ function loadMeetingYamls() {
     }
     if (!parsed || !parsed.urn) continue;
 
+    const slug = meetingSlugFromUrn(parsed.urn) || file.replace(/\.ya?ml$/, '');
     const localizations = (parsed.localizations || []).map(loc => ({
       language_code: loc.language_code,
       script: loc.script,
@@ -55,9 +66,10 @@ function loadMeetingYamls() {
       general_area: loc.general_area,
     }));
 
-    const record = {
+    bySlug.set(slug, {
+      meeting_slug: slug,
+      source_files: [],
       urn: parsed.urn,
-      meeting_slug: file.replace(/\.ya?ml$/, ''),
       committee: parsed.committee || '',
       virtual: !!parsed.virtual,
       localizations,
@@ -66,14 +78,21 @@ function loadMeetingYamls() {
         language_code: m.language_code,
       })),
       resolution_refs: parsed.resolution_refs || [],
-    };
-    byUrn.set(parsed.urn, record);
-    for (const ref of parsed.resolution_refs || []) {
-      const sf = sourceFileFromResolutionRefUrn(ref);
-      if (sf) bySourceFile.set(sf, record);
-    }
+      // Per-meeting metadata; the first resolution YAML we encounter
+      // for this meeting will fill in source_title/venue/date/city/...
+      source_title: localizations[0]?.title || '',
+      meeting_date: parsed.date_range?.start || '',
+      venue: parsed.general_area || '',
+      city: parsed.city || '',
+      country_code: parsed.country_code || '',
+      year: parsed.year ? String(parsed.year) : '',
+      body_type: parsed.committee?.includes('Conference') ? 'conference' : 'ciml',
+      doi: buildMeetingDoi(parsed, slug),
+      resolution_count: 0,
+      acclamation_count: 0,
+    });
   }
-  return { bySourceFile, byUrn };
+  return bySlug;
 }
 
 function main() {
@@ -81,11 +100,22 @@ function main() {
     fs.mkdirSync(OUTPUT_DIR, { recursive: true });
   }
 
-  const { bySourceFile: meetingYamlBySourceFile, byUrn: meetingYamlByUrn } = loadMeetingYamls();
+  const meetingsBySlug = loadMeetingYamls();
+
+  // Build a source_file → meeting_slug lookup so each resolution YAML can
+  // be linked to its canonical meeting. The mapping comes from the
+  // meeting YAML's resolution_refs list (each ref's URN encodes the
+  // source_file slug).
+  const sourceFileToSlug = new Map();
+  for (const [slug, meeting] of meetingsBySlug.entries()) {
+    for (const ref of meeting.resolution_refs || []) {
+      const sf = sourceFileFromResolutionRefUrn(ref);
+      if (sf) sourceFileToSlug.set(sf, slug);
+    }
+  }
 
   const files = fs.readdirSync(RESOLUTIONS_DIR).filter(f => f.endsWith('.yaml') || f.endsWith('.yml'));
   const allResolutions = [];
-  const meetingsMap = new Map();
 
   for (const file of files) {
     const filePath = path.join(RESOLUTIONS_DIR, file);
@@ -102,76 +132,64 @@ function main() {
     if (!parsed || !parsed.resolutions) continue;
 
     const source_file = file.replace(/\.ya?ml$/, '');
-    const metadata = parsed.metadata || {}
-    const meetingYaml = meetingYamlBySourceFile.get(source_file);
+    const metadata = parsed.metadata || {};
 
-    // Track per-source-file meeting metadata
-    if (!meetingsMap.has(source_file)) {
-      const dates = metadata.dates || []
-      const meetingDate = dates.length > 0 ? dates[0].start : ''
-      const year = meetingDate ? meetingDate.substring(0, 4) : ''
-      meetingsMap.set(source_file, {
-        source_file,
-        source_title: metadata.title || '',
-        meeting_date: meetingDate,
-        venue: metadata.venue || '',
-        city: metadata.city || '',
-        country_code: metadata.country_code || '',
-        year,
-        body_type: bodyTypeFromSourceFile(source_file),
-        language: metadata.language || '',
-        doi: buildMeetingDoi(metadata, source_file),
-        resolution_count: 0,
-        // Enrichment from meetings/*.yaml (when matched):
-        urn: meetingYaml?.urn || '',
-        virtual: meetingYaml?.virtual || false,
-        committee: meetingYaml?.committee || '',
-        localizations: meetingYaml?.localizations || [],
-        minutes: meetingYaml?.minutes || [],
-      })
+    // The meeting_slug is the canonical identifier derived from the
+    // resolution YAML's metadata.meeting_urn (preferred) or via the
+    // source_file → slug lookup table.
+    const meetingSlug =
+      meetingSlugFromUrn(metadata.meeting_urn) ||
+      sourceFileToSlug.get(source_file) ||
+      null;
+
+    if (!meetingSlug) {
+      console.warn(`  ${file}: no meeting_urn in metadata and source_file "${source_file}" not in any meeting YAML — skipping`);
+      continue;
     }
+
+    const meeting = meetingsBySlug.get(meetingSlug);
+    if (!meeting) {
+      console.warn(`  ${file}: meeting_slug "${meetingSlug}" has no meetings/*.yaml — skipping`);
+      continue;
+    }
+
+    // Track this source_file on the meeting so the UI can list all PDFs
+    // that contributed resolutions.
+    if (!meeting.source_files.includes(source_file)) {
+      meeting.source_files.push(source_file);
+    }
+
+    // First source_file wins for the meeting-level metadata; meetings
+    // that have no metadata at all (e.g. CIML 15-37 Bulletin, where the
+    // meeting YAML only carries localizations) inherit it from the first
+    // resolutions YAML we see.
+    if (!meeting.source_title && metadata.title) meeting.source_title = metadata.title;
+    if (!meeting.meeting_date && metadata.dates?.[0]?.start) {
+      meeting.meeting_date = metadata.dates[0].start;
+      meeting.year = meeting.meeting_date.substring(0, 4);
+    }
+    if (!meeting.venue && metadata.venue) meeting.venue = metadata.venue;
+    if (!meeting.city && metadata.city) meeting.city = metadata.city;
+    if (!meeting.country_code && metadata.country_code) meeting.country_code = metadata.country_code;
 
     for (const res of parsed.resolutions) {
-      allResolutions.push(buildResolutionRecord(res, source_file, metadata));
-      meetingsMap.get(source_file).resolution_count++
+      const record = buildResolutionRecord(res, source_file, metadata);
+      record.meeting_slug = meetingSlug;
+      record.meeting_urn = meeting.urn;
+      allResolutions.push(record);
+      meeting.resolution_count++;
+      if (record.is_acclamation) meeting.acclamation_count++;
     }
-  }
-
-  // Meetings present in meetings/*.yaml but with no resolutions/ source
-  // (e.g. CIML 15-38 skeletons that only have minutes): emit a minimal
-  // record so they still appear in the Meetings list.
-  for (const [sourceFile, meetingYaml] of meetingYamlBySourceFile.entries()) {
-    if (meetingsMap.has(sourceFile)) continue;
-    const loc = meetingYaml.localizations[0] || {};
-    meetingsMap.set(sourceFile, {
-      source_file: sourceFile,
-      source_title: loc.title || meetingYaml.meeting_slug,
-      meeting_date: '',
-      venue: loc.general_area || '',
-      city: '',
-      country_code: '',
-      year: '',
-      body_type: sourceFile.startsWith('ciml-') ? 'ciml' : 'conference',
-      language: loc.language_code === 'fra' ? 'fr' : 'en',
-      doi: '',
-      resolution_count: 0,
-      urn: meetingYaml.urn,
-      virtual: meetingYaml.virtual,
-      committee: meetingYaml.committee,
-      localizations: meetingYaml.localizations,
-      minutes: meetingYaml.minutes,
-    });
   }
 
   allResolutions.sort(sortResolutions);
-  const meetings = Array.from(meetingsMap.values()).sort((a, b) =>
-    (b.meeting_date || '').localeCompare(a.meeting_date || '')
-  )
+  const meetings = Array.from(meetingsBySlug.values())
+    .sort((a, b) => (b.meeting_date || '').localeCompare(a.meeting_date || ''));
 
   fs.writeFileSync(RESOLUTIONS_FILE, JSON.stringify(allResolutions), 'utf8');
   fs.writeFileSync(MEETINGS_FILE, JSON.stringify(meetings), 'utf8');
   console.log(`Successfully built ${allResolutions.length} resolutions to ${RESOLUTIONS_FILE}`);
-  console.log(`Successfully built ${meetings.length} meetings to ${MEETINGS_FILE} (${meetingYamlByUrn.size} from meetings/*.yaml)`);
+  console.log(`Successfully built ${meetings.length} meetings to ${MEETINGS_FILE}`);
 }
 
 main();

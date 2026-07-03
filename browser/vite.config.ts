@@ -22,8 +22,8 @@ function getPageData(route: string) {
     return res ? [res] : []
   }
   if (/^\/meetings\/[^/]+$/.test(route)) {
-    const sf = decodeURIComponent(route.split('/').pop()!)
-    return data.filter(r => r.source_file === sf)
+    const slug = decodeURIComponent(route.split('/').pop()!)
+    return data.filter(r => r.meeting_slug === slug)
   }
   return null
 }
@@ -58,10 +58,23 @@ export default defineConfig({
       const { readFileSync } = await import('node:fs')
       const { resolve } = await import('node:path')
       const dataPath = resolve(process.cwd(), 'public/data/resolutions.json')
+      const meetingsPath = resolve(process.cwd(), 'public/data/meetings.json')
       const data = JSON.parse(readFileSync(dataPath, 'utf-8'))
       const resolutionIds = data.map((r: any) => `/resolution/${r.id}`)
-      const meetingFiles = [...new Set(data.map((r: any) => r.source_file))].map((s: string) => `/meetings/${s}`)
-      return ['/', '/meetings', '/about', ...resolutionIds, ...meetingFiles]
+      // Pre-render one page per canonical meeting slug (read from
+      // meetings.json so skeleton-only meetings with no resolutions
+      // still get a page). Legacy source-file URLs are not pre-rendered
+      // — they fall through to the SPA, which redirects them.
+      let meetingSlugs: string[] = []
+      try {
+        const meetings = JSON.parse(readFileSync(meetingsPath, 'utf-8'))
+        meetingSlugs = meetings.map((m: any) => `/meetings/${m.meeting_slug}`)
+      } catch {
+        // Fall back to slugs derived from resolution data if meetings.json
+        // is unavailable.
+        meetingSlugs = [...new Set(data.map((r: any) => r.meeting_slug).filter(Boolean))].map((s: string) => `/meetings/${s}`)
+      }
+      return ['/', '/meetings', '/about', ...resolutionIds, ...meetingSlugs]
     },
     onPageRendered: async (route, renderedHTML) => {
       let html = renderedHTML

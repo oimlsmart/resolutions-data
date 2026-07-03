@@ -30,15 +30,13 @@ export function bodyTypeFromSourceFile(sourceFile) {
 // Per TODO.cleanups/06: each meeting gets a DOI under 10.63493/meetings/.
 // CIML: ciml<meeting-number> (e.g. ciml60)
 // Conference: conf<session-number> (e.g. conf17)
-// The meeting/session number is parsed from the source_file slug because
-// the YAML metadata block doesn't carry it.
-export function buildMeetingDoi(meta, sourceFile) {
-  const bodyType = bodyTypeFromSourceFile(sourceFile)
-  const m = sourceFile.match(/^(?:ciml|conference)-(\d+)/)
-  if (!m) return ''
-  const num = m[1]
-  const prefix = bodyType === 'conference' ? 'conf' : 'ciml'
-  return `10.63493/meetings/${prefix}${num}`
+// The slug is the canonical meeting slug (derived from the meeting URN,
+// e.g. "ciml-15" or "conference-13"). Pass the slug, not the source_file.
+export function buildMeetingDoi(_meta, slug) {
+  const m = String(slug).match(/^(ciml|conference)-(\d+)/);
+  if (!m) return '';
+  const prefix = m[1] === 'conference' ? 'conf' : 'ciml';
+  return `10.63493/meetings/${prefix}${m[2]}`;
 }
 
 export function isAcclamation(identifier) {

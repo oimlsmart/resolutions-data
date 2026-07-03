@@ -107,42 +107,63 @@
 </template>
 
 <script setup lang="ts">
-import { computed, onMounted } from 'vue'
-import { useRoute } from 'vue-router'
+import { computed, onMounted, watch } from 'vue'
+import { useRoute, useRouter } from 'vue-router'
 import { useMeetings } from '../composables/useMeetings'
 import { venueToFlag } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
-import { buildMeetingUrn } from '../utils/urn'
 import { useClipboard } from '../composables/useClipboard'
 
 const route = useRoute()
-const { getMeeting, getMeetingResolutions, isLoaded, loadData } = useMeetings()
+const router = useRouter()
+const { getMeeting, getMeetingResolutions, isLoaded, loadData, meetings } = useMeetings()
 const { t, lang } = useI18n()
 const { copied: meetingCopied, copy: copyUrn } = useClipboard()
 
-const sourceFile = computed(() => route.params.sourceFile as string)
+// Route param can be either a canonical slug (ciml-15, conference-13) or
+// a legacy source-file identifier (15CIML-1976-FR, ciml-39-decisions-en).
+const routeParam = computed(() => route.params.meetingSlug as string)
 
 onMounted(() => {
   loadData()
 })
 
+// When the route param is a legacy source_file, look up the canonical
+// meeting_slug that owns it (via meeting.source_files) and replace the
+// URL in-place so the canonical address is what's shown/shared.
+watch([routeParam, meetings, isLoaded], ([p, list, loaded]) => {
+  if (!loaded || !p || !list?.length) return
+  // Canonical already?
+  if (/^(ciml|conference)-\d+$/.test(p)) return
+  const owner = list.find(m => (m.source_files || []).includes(p))
+  if (owner) {
+    router.replace({ name: 'meeting-detail', params: { meetingSlug: owner.meeting_slug } })
+  }
+}, { immediate: true })
+
 const meeting = computed(() => {
-  return isLoaded.value ? getMeeting(sourceFile.value) : null
+  if (!isLoaded.value) return null
+  // Canonical slug match
+  let m = getMeeting(routeParam.value)
+  if (m) return m
+  // Legacy source_file match — resolve via the meeting's source_files[].
+  for (const candidate of meetings.value) {
+    if ((candidate.source_files || []).includes(routeParam.value)) return candidate
+  }
+  return null
 })
 
-const meetingUrn = computed(() => {
-  if (!meeting.value) return ''
-  return buildMeetingUrn(sourceFile.value)
-})
+const meetingUrn = computed(() => meeting.value?.urn || '')
 
 const meetingDoi = computed(() => meeting.value?.doi || '')
 
 const venueFlag = computed(() => venueToFlag(meeting.value?.venue))
 
 const meetingResolutions = computed(() => {
-  return isLoaded.value ? getMeetingResolutions(sourceFile.value) : []
+  if (!meeting.value) return []
+  return isLoaded.value ? getMeetingResolutions(meeting.value.meeting_slug) : []
 })
 </script>
 

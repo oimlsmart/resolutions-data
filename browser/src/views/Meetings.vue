@@ -92,23 +92,23 @@
           <span class="legend-size-small"></span>
           <span class="legend-size-medium"></span>
           <span class="legend-size-large"></span>
-          <span class="legend-size-label">Node size = resolution count</span>
+          <span class="legend-size-label">{{ t('meetings.legendSize') }}</span>
         </div>
         <div class="legend-item">
           <span class="legend-flag-example">🇯🇵</span>
-          <span>Host country</span>
+          <span>{{ t('meetings.legendHost') }}</span>
         </div>
         <div class="legend-item">
           <span class="legend-flag-example">🌐</span>
-          <span>Virtual</span>
+          <span>{{ t('meetings.legendVirtual') }}</span>
         </div>
       </div>
 
       <div v-if="filteredMeetings.length === 0" class="empty-state">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
-        <h3>No meetings found</h3>
-        <p>Try adjusting your search or year filter.</p>
-        <button class="std-chip btn-mt" @click="searchQuery=''; selectedYear=''; selectedCountry=''">Clear filters</button>
+        <h3>{{ t('meetings.empty') }}</h3>
+        <p>{{ t('meetings.emptyHint') }}</p>
+        <button class="std-chip btn-mt" @click="searchQuery=''; selectedYear=''; selectedCountry=''">{{ t('meetings.clearFilters') }}</button>
       </div>
       
       <div v-else class="body-type-list">
@@ -130,8 +130,8 @@
               <div class="timeline-track">
                 <router-link
                   v-for="m in decade.meetings"
-                  :key="m.source_file"
-                  :to="{ name: 'meeting-detail', params: { sourceFile: m.source_file } }"
+                  :key="m.meeting_slug"
+                  :to="{ name: 'meeting-detail', params: { meetingSlug: m.meeting_slug } }"
                   class="timeline-entry timeline-entry--ciml"
                 >
                   <span class="timeline-node timeline-node--ciml"
@@ -178,8 +178,8 @@
               <div class="timeline-track">
                 <router-link
                   v-for="m in decade.meetings"
-                  :key="m.source_file"
-                  :to="{ name: 'meeting-detail', params: { sourceFile: m.source_file } }"
+                  :key="m.meeting_slug"
+                  :to="{ name: 'meeting-detail', params: { meetingSlug: m.meeting_slug } }"
                   class="timeline-entry timeline-entry--conference"
                 >
                   <span class="timeline-node timeline-node--conference"

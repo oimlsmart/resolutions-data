@@ -37,9 +37,9 @@
         <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">Acclamation</span>
         <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.identifier || resolution.id }}</span>
         
-        <router-link 
-          v-if="resolution.source_file" 
-          :to="{ name: 'meeting-detail', params: { sourceFile: resolution.source_file } }" 
+        <router-link
+          v-if="resolution.meeting_slug"
+          :to="{ name: 'meeting-detail', params: { meetingSlug: resolution.meeting_slug } }"
           class="meeting-link-badge"
         >
           <svg class="meeting-link-badge__icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -353,7 +353,7 @@ function findMatchingResolutions(): Resolution[] {
   const meetingId = route.params.meetingId as string
   const resolutionId = route.params.resolutionId as string
   if (meetingId && resolutionId) {
-    return resolutions.value.filter(r => r.source_file === meetingId && r.id === resolutionId)
+    return resolutions.value.filter(r => r.meeting_slug === meetingId && r.id === resolutionId)
   }
   const id = route.params.id as string
   if (id) {
@@ -425,8 +425,8 @@ const meetingLinkLabel = computed(() => {
 })
 
 const meetingResolutions = computed(() => {
-  if (!isMeetingsLoaded.value || !resolution.value || !resolution.value.source_file) return []
-  return getMeetingResolutions(resolution.value.source_file)
+  if (!isMeetingsLoaded.value || !resolution.value || !resolution.value.meeting_slug) return []
+  return getMeetingResolutions(resolution.value.meeting_slug)
 })
 
 const prevResolution = computed(() => {
@@ -443,26 +443,36 @@ const nextResolution = computed(() => {
 
 const relatedResolutions = computed(() => {
   if (!isLoaded.value || !resolution.value) return []
-  
+
   const current = resolution.value
-  // Find same subject first
-  let related = resolutions.value.filter(r => 
-    r.subject && 
-    current.subject && 
-    r.subject === current.subject && 
-    r.id !== current.id
-  )
-  
+  // "(The CIML)" / "(The Conference)" are *placeholder* subjects emitted
+  // by the parser when the issuer is inferred from context (every Bulletin
+  // agenda section gets one). They are not real subject tags and would
+  // match thousands of unrelated resolutions across meetings — so skip
+  // subject-based matching whenever either side carries a placeholder.
+  const PLACEHOLDER_SUBJECTS = new Set(['(The CIML)', '(The Conference)'])
+  const realSubject =
+    current.subject && !PLACEHOLDER_SUBJECTS.has(current.subject)
+
+  let related = realSubject
+    ? resolutions.value.filter(r =>
+        r.subject &&
+        !PLACEHOLDER_SUBJECTS.has(r.subject) &&
+        r.subject === current.subject &&
+        r.id !== current.id,
+      )
+    : []
+
   // If none or very few found, fill with resolutions from the same meeting
   if (related.length === 0) {
-    related = resolutions.value.filter(r => 
-      r.meeting_date === current.meeting_date && 
+    related = resolutions.value.filter(r =>
+      r.meeting_date === current.meeting_date &&
       r.id !== current.id &&
       r.id !== prevResolution.value?.id &&
-      r.id !== nextResolution.value?.id
+      r.id !== nextResolution.value?.id,
     )
   }
-  
+
   return related.slice(0, 5)
 })
 

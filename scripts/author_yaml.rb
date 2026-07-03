@@ -157,8 +157,30 @@ module ResolutionsData
       stats = Hash.new(0)
       pending = []
 
+      # Suppress duplicate extraction: when a meeting has both a
+      # decisions/resolutions PDF *and* a minutes PDF (e.g. CIML 38 has
+      # 38_ciml_decisions-{en,fr}.pdf and 38CIML-2003-{EN,FR}.pdf Bulletin
+      # minutes), extract resolutions only from the decisions/resolutions
+      # side. Minutes PDFs in that case are kept for the minutes/*.yaml
+      # pipeline (parse_minutes.rb) but skipped here so we don't emit two
+      # resolution YAMLs for the same identifier.
+      #
+      # Meetings with only minutes (CIML 15–37 Bulletin scans) still get
+      # their agenda sections extracted via parse_bulletin_narrative.
+      authoritative_kinds = %w[decisions resolutions decisions-joint-ciml-dc decisions-bilingual].freeze
+      sources_with_authoritative = sources.group_by { |s| [s["kind"], s.fetch("meeting") { s["session"] }] }
+        .filter_map { |(kind, ord), ss|
+          ss.any? { |s| authoritative_kinds.include?(s["doc_kind"]) } ? [[kind, ord], true] : nil
+        }.to_h
+
       sources.each do |src|
         slug = src["slug"]
+        key = [src["kind"], src.fetch("meeting") { src["session"] }]
+        if src["doc_kind"] == "minutes" && sources_with_authoritative[key]
+          warn "  SKIP #{slug}: minutes suppressed (meeting has decisions/resolutions PDF)"
+          next
+        end
+
         md_path = File.join(OCR_DIR, "#{slug}.md")
         unless File.exist?(md_path)
           warn "  SKIP #{slug}: no OCR markdown"

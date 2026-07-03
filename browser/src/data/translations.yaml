@@ -5,7 +5,7 @@
 translations:
   about.aboutCommittee:
     en: About the OIML
-    fr: À propos de l'OOIML
+    fr: À propos de l'OIML
   about.doiPattern:
     en: DOI Pattern
     fr: Schéma de DOI
@@ -15,8 +15,8 @@ translations:
   about.heroSubtitle:
     en: A digital record of CIML Meeting and OIML Conference resolutions, 2004 to
       today.
-    fr: '"Un registre numérique des résolutions des réunions du CIML et des Conférences
-      OIML, de 2004 à aujourd''hui.",'
+    fr: Un registre numérique des résolutions des réunions du CIML et des Conférences
+      OIML, de 2004 à aujourd'hui.
   about.heroTitle:
     en: About This Archive
     fr: À propos de cette archive
@@ -38,14 +38,14 @@ translations:
   committee.scope:
     en: Legal metrology — the practice and science of measurement that affects trade,
       health, safety, and the environment.
-    fr: '"La métrologie légale — la pratique et la science de la mesure qui touche
-      au commerce, à la santé, à la sécurité et à l''environnement.",'
+    fr: La métrologie légale — la pratique et la science de la mesure qui touche
+      au commerce, à la santé, à la sécurité et à l'environnement.
   committee.tagline:
     en: Resolutions of the CIML and the OIML Conference
-    fr: '''Résolutions du CIML et de la Conférence OIML'','
+    fr: Résolutions du CIML et de la Conférence OIML
   committee.title:
     en: International Organization of Legal Metrology
-    fr: '''Organisation Internationale de Métrologie Légale'','
+    fr: Organisation Internationale de Métrologie Légale
   common.all:
     en: All
     fr: Tous
@@ -153,6 +153,12 @@ translations:
   meetings.empty:
     en: No meetings match the current filters.
     fr: Aucune réunion ne correspond aux filtres.
+  meetings.emptyHint:
+    en: Try adjusting your search or year filter.
+    fr: Ajustez votre recherche ou le filtre d'année.
+  meetings.clearFilters:
+    en: Clear filters
+    fr: Réinitialiser les filtres
   meetings.legendHost:
     en: Host country
     fr: Pays hôte

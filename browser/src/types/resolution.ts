@@ -40,6 +40,7 @@ export interface Resolution {
   year: string
   venue: string
   source_file: string
+  meeting_slug: string
   source_title: string
   source_type?: string
   group_id?: string
@@ -70,7 +71,13 @@ export interface MeetingMinutesRef {
 }
 
 export interface Meeting {
-  source_file: string
+  // Canonical slug derived from the meeting URN — the URL identifier
+  // (e.g. "ciml-15", "conference-13"). Replaces the legacy source_file
+  // as the routing key.
+  meeting_slug: string
+  // All resolution source PDFs that contributed to this meeting
+  // (e.g. ["ciml-43-en", "ciml-43-fr"]).
+  source_files: string[]
   source_title: string
   meeting_date: string
   venue: string
@@ -82,9 +89,7 @@ export interface Meeting {
   doi: string
   resolution_count: number
   acclamation_count: number
-  // Enrichment from meetings/*.yaml (optional — present when a meeting
-  // YAML exists for this source_file).
-  urn?: string
+  urn: string
   virtual?: boolean
   committee?: string
   localizations?: MeetingLocalization[]
