@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   38_ciml_decisions-en.yaml, 38_ciml_decisions-fr.yaml
 metadata:
   dates:
   - start: '2003-11-05'
@@ -11,12 +9,12 @@ metadata:
   city: Kyoto
   country_code: JP
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-38
   title_localized:
   - language_code: eng
     title: 38th CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 38e réunion du CIML — Décisions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-38
 resolutions:
 - identifier: CIML/2003/1
   doi: 10.63493/resolutions/ciml200301

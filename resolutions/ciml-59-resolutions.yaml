@@ -1,11 +1,5 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/ciml-59-resolutions-en.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/ciml-59-resolutions-en.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-59-resolutions-en
-# Language: en
 ---
 metadata:
-  title: 59th CIML Meeting — Resolutions (EN)
   dates:
   - start: '2024-10-22'
     end: '2024-10-24'
@@ -15,10 +9,10 @@ metadata:
   city: ''
   country_code: ''
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-59
   title_localized:
   - language_code: eng
     title: 59th CIML Meeting — Resolutions (EN)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-59
 resolutions:
 - identifier: CIML/2024/06
   doi: 10.63493/resolutions/ciml202406

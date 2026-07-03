@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-47-resolutions-en.yaml, ciml-47-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2012-10-01'
@@ -11,12 +9,12 @@ metadata:
   city: Bucharest
   country_code: RO
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-47
   title_localized:
   - language_code: eng
     title: 47th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 47e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-47
 resolutions:
 - identifier: CIML/2012/1
   doi: 10.63493/resolutions/ciml201201
@@ -39,7 +37,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 1
+    title: Point 1 de l'ordre du jour
     subject: Conférence OIML
     considerations: []
     actions:
@@ -71,7 +69,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 2
+    title: Point 2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -102,7 +100,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 4.1
+    title: Point 4.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -135,7 +133,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 5
+    title: Point 5 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -279,7 +277,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 6.6
+    title: Point 6.6 de l'ordre du jour
     subject: CIML
     considerations:
     - type: considering
@@ -396,7 +394,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 6.8
+    title: Point 6.8 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -605,7 +603,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.1
+    title: Point 9.1 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -828,7 +826,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.3.3
+    title: Point 9.3.3 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -863,7 +861,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.3.4
+    title: Point 9.3.4 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -912,7 +910,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.3.1
+    title: Point 9.3.1 de l'ordre du jour
     subject: CIML
     considerations:
     - type: recalling
@@ -1205,7 +1203,7 @@ resolutions:
       - start: '2012-10-01'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.5
+    title: Point 9.5 de l'ordre du jour
     subject: CIML
     considerations:
     - type: recalling

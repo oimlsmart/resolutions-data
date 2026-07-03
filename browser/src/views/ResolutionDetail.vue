@@ -296,6 +296,7 @@ import { asciidocify } from '../utils/asciidoc'
 import { getActionColor } from '../data/actionTypes'
 import { formatActionType } from '../data/actionTypes'
 import { formatDate } from '../utils/format'
+import { venueForLang } from '../data/venues'
 import { useClipboard } from '../composables/useClipboard'
 
 const router = useRouter()
@@ -320,8 +321,13 @@ onUnmounted(() => {
 })
 
 watch(() => route.params, () => {
-  // Reset progress when navigating
+  // Reset progress + scroll to top when navigating between resolutions
+  // (prev/next). Vue Router preserves scroll position by default which
+  // feels jarring on detail-page transitions.
   readingProgress.value = 0
+  if (typeof window !== 'undefined') {
+    window.scrollTo({ top: 0, left: 0, behavior: 'instant' as ScrollBehavior })
+  }
 })
 
 function updateProgress() {
@@ -439,17 +445,23 @@ const meetingLinkLabel = computed(() => {
   const res = resolution.value
   if (!res) return ''
   const venue = res.venue || ''
-  const isVirtual = venue.toLowerCase().includes('virtual')
+  const isVirtual = venue.toLowerCase().includes('virtual') ||
+    venue.toLowerCase().includes('online') ||
+    !res.country_code // virtual meetings have no country
   if (isVirtual && res.meeting_date) {
     try {
       const d = new Date(res.meeting_date)
-      const monthYear = d.toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' })
-      return `Virtual \u00b7 ${monthYear}`
+      const locale = lang.value === 'fr' ? 'fr-FR' : 'en-US'
+      const monthYear = d.toLocaleDateString(locale, { month: 'short', year: 'numeric', timeZone: 'UTC' })
+      return `${t.value('meetings.virtual')} \u00b7 ${monthYear}`
     } catch {
-      return venue || res.source_title || 'Meeting'
+      return t.value('meetings.virtual') || res.source_title || 'Meeting'
     }
   }
-  return venue || res.source_title || 'Meeting'
+  // Render venue via the i18n venueForLang so UN/LOCODE cities resolve
+  // to the active UI language.
+  const rendered = venueForLang(res.city || venue, res.country_code || undefined, lang.value)
+  return rendered || res.source_title || 'Meeting'
 })
 
 const meetingResolutions = computed(() => {

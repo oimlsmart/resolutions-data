@@ -72,18 +72,25 @@ export function useMeetings() {
   // canonical identifier emitted by build-data.mjs). Collapse EN+FR
   // duplicates of the same canonical identifier into a single entry so
   // the meeting page doesn't show two cards for CIML/2007/9.1 (one
-  // from ciml-42-decisions-en, one from ciml-42-decisions-fr).
-  const getMeetingResolutions = (slug: string) => {
-    const seen = new Set<string>()
-    const out: typeof resolutions.value = []
+  // from ciml-42-decisions-en, one from ciml-42-decisions-fr). The
+  // preferred language wins (falls back to whatever is available).
+  const getMeetingResolutions = (slug: string, preferredLang: 'en' | 'fr' = 'en') => {
+    const byKey = new Map<string, typeof resolutions.value[number]>()
     for (const r of resolutions.value) {
       if (r.meeting_slug !== slug) continue
       const key = r.identifier || r.id
-      if (seen.has(key)) continue
-      seen.add(key)
-      out.push(r)
+      const prev = byKey.get(key)
+      if (!prev) {
+        byKey.set(key, r)
+        continue
+      }
+      // Prefer the record matching preferredLang; otherwise keep what's
+      // already there.
+      if (prev.language !== preferredLang && r.language === preferredLang) {
+        byKey.set(key, r)
+      }
     }
-    return out
+    return Array.from(byKey.values())
   }
 
   onMounted(() => {

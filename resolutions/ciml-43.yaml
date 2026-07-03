@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-43-en.yaml, ciml-43-fr.yaml
 metadata:
   dates:
   - start: '2008-10-28'
@@ -11,12 +9,12 @@ metadata:
   city: Sydney
   country_code: AU
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-43
   title_localized:
   - language_code: eng
     title: 43rd CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 43e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-43
 resolutions:
 - identifier: CIML/2008/1
   doi: 10.63493/resolutions/ciml200801

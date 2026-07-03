@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   conference-16-resolutions-en.yaml, conference-16-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2021-10-20'
@@ -11,12 +9,12 @@ metadata:
   city: ''
   country_code: ''
   language: en
-  meeting_urn: urn:oiml:conference:meeting:conference-16
   title_localized:
   - language_code: eng
     title: 16th OIML Conference — Resolutions (EN)
   - language_code: fra
     title: 16e Conférence OIML — Résolutions (FR)
+  meeting_urn: urn:oiml:conference:meeting:conference-16
 resolutions:
 - identifier: Conference/2021/01
   doi: 10.63493/resolutions/conf202101

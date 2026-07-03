@@ -3,7 +3,7 @@
     <!-- Back link -->
     <button @click="$router.back()" class="back-link animate-up" style="--nth: 1">
       <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-      Back
+      {{ t('about.back') }}
     </button>
 
     <!-- 1. Hero / Header -->
@@ -17,19 +17,19 @@
 
       <!-- 3. Action Types -->
       <section class="about-section animate-up" style="--nth: 4">
-        <h2 class="about-heading">Action Types</h2>
+        <h2 class="about-heading">{{ t('about.actionTypes') }}</h2>
         <div class="about-body">
           <p>
-            Every resolution is composed of typed <code>actions</code> that categorize what the committee decided to do (e.g., requesting an action, approving a document, or thanking a host). This semantic typing allows for advanced filtering and analysis of the committee's historical activities.
+            {{ t('about.actionTypesDesc') }}
           </p>
           <div class="action-grid">
-            <span 
-              v-for="chip in actionChips" 
+            <span
+              v-for="chip in actionChips"
               :key="chip.type"
               class="action-chip"
               :style="{ '--chip-bg': chip.bg, '--chip-text': chip.text }"
             >
-              {{ chip.type }}
+              {{ chip.label }}
             </span>
           </div>
         </div>
@@ -42,34 +42,34 @@
           <div class="committee-card">
             <h3 class="committee-title">{{ t('committee.title') }}</h3>
             <p class="committee-scope">{{ t('committee.scope') }}</p>
-            
+
             <div class="committee-stats">
               <div class="stat-item">
                 <span class="stat-value">{{ committee.established }}</span>
-                <span class="stat-label">Established</span>
+                <span class="stat-label">{{ t('about.statEstablished') }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-value">{{ committee.memberStates }}</span>
-                <span class="stat-label">Member States</span>
+                <span class="stat-label">{{ t('about.statMemberStates') }}</span>
               </div>
               <div class="stat-item">
                 <span class="stat-value">{{ committee.correspondingMembers }}</span>
-                <span class="stat-label">Corresponding Members</span>
+                <span class="stat-label">{{ t('about.statCorrespondingMembers') }}</span>
               </div>
             </div>
 
             <div class="committee-links">
               <a :href="committee.links.oiml" target="_blank" rel="noopener noreferrer" class="committee-link">
-                Official website
+                {{ t('footer.officialWebsite') }}
               </a>
               <a href="https://www.oiml.org/en/structure/members/memberslist_view?varMember=1" target="_blank" rel="noopener noreferrer" class="committee-link">
-                Member States
+                {{ t('footer.memberStatesLink') }}
               </a>
               <a :href="committee.links.github" target="_blank" rel="noopener noreferrer" class="committee-link">
-                GitHub Organization
+                {{ t('footer.github') }}
               </a>
               <a :href="committee.links.linkedin" target="_blank" rel="noopener noreferrer" class="committee-link">
-                LinkedIn
+                {{ t('footer.linkedin') }}
               </a>
             </div>
           </div>
@@ -223,11 +223,13 @@
 <script setup lang="ts">
 import { committee } from '../data/committee'
 import { useI18n } from '../composables/useI18n'
-import { getActionColor } from '../data/actionTypes'
+import { getActionColor, formatActionType } from '../data/actionTypes'
+import { computed } from 'vue'
 
-const { t } = useI18n()
+const { t, lang } = useI18n()
 
-// Top action types by frequency (from data analysis)
+// Action types by frequency (from data analysis). Rendered as chips
+// via formatActionType so labels follow the active UI language.
 const actionTypes = [
   'requests', 'thanks', 'appoints', 'approves', 'resolves', 'directs',
   'asks', 'encourages', 'accepts', 'instructs', 'nominates', 'decides',
@@ -236,11 +238,11 @@ const actionTypes = [
   'supports', 'disbands', 'acknowledges', 'assigns', 'appreciates'
 ]
 
-// Compute colors for display
-const actionChips = actionTypes.map(type => ({
+const actionChips = computed(() => actionTypes.map(type => ({
   type,
-  ...getActionColor(type)
-}))
+  label: formatActionType(type, lang.value),
+  ...getActionColor(type),
+})))
 </script>
 
 <style scoped>

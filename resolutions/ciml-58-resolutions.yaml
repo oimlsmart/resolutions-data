@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-58-resolutions-en.yaml, ciml-58-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2023-10-17'
@@ -11,12 +9,12 @@ metadata:
   city: Chiang Mai
   country_code: TH
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-58
   title_localized:
   - language_code: eng
     title: 58th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 58e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-58
 resolutions:
 - identifier: CIML/2023/05
   doi: 10.63493/resolutions/ciml202305
@@ -47,7 +45,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 6
+    title: Point 6 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -59,7 +57,9 @@ resolutions:
         kind: effective
     actions:
     - type: notes
-      message: 'Point 6 de l''ordre du jour
+      message: 'Prenant note de la procédure pour l''élection des Vice-Présidents
+        du CIML dans OIML B 14:2013 Procédure pour l''élection du Président et des
+        Vice-Présidents du CIML,
 
         '
       dates:
@@ -86,12 +86,12 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 7
+    title: Point 7 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Point 7 de l''ordre du jour
+      message: 'Prend acte du rapport présenté par le Directeur du BIML.
 
         '
       dates:
@@ -125,12 +125,13 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 7
+    title: Point 7 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Point 7 de l''ordre du jour
+      message: 'Souhaite la bienvenue au Monténégro en tant que nouvel État Membre,
+        et
 
         '
       dates:
@@ -180,7 +181,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 8
+    title: Point 8 de l'ordre du jour
     subject: CIML
     considerations:
     - type: having_regard_to
@@ -201,7 +202,8 @@ resolutions:
         kind: effective
     actions:
     - type: notes
-      message: 'Point 8 de l''ordre du jour
+      message: 'Vu la section 4, premier point, de l''OIML B 13:2004 Procédure pour
+        la désignation du Directeur et des Adjoints au Directeur du BIML,
 
         '
       dates:
@@ -251,7 +253,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 9
+    title: Point 9 de l'ordre du jour
     subject: CIML
     considerations:
     - type: having_regard_to
@@ -272,7 +274,8 @@ resolutions:
         kind: effective
     actions:
     - type: notes
-      message: 'Point 9 de l''ordre du jour
+      message: 'Vu la section 4, premier point, de l''OIML B 13:2004 Procédure pour
+        la désignation du Directeur et des Adjoints au Directeur du BIML,
 
         '
       dates:
@@ -315,7 +318,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 10.1
+    title: Point 10.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -362,7 +365,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 10.2
+    title: Point 10.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -396,7 +399,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 10.3
+    title: Point 10.3 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -429,7 +432,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 10.4
+    title: Point 10.4 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -478,7 +481,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.1.1
+    title: Point 11.1.1 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -662,7 +665,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.1.4
+    title: Point 11.1.4 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -716,7 +719,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.2.1
+    title: Point 11.2.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -755,7 +758,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.2.2
+    title: Point 11.2.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -813,7 +816,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.3
+    title: Point 11.3 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -870,7 +873,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.1.3
+    title: Point 11.1.3 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -938,7 +941,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.3
+    title: Point 11.3 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -1012,7 +1015,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.4
+    title: Point 11.4 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1156,7 +1159,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 12.1
+    title: Point 12.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1214,7 +1217,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 12.1
+    title: Point 12.1 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -1270,7 +1273,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 12.2
+    title: Point 12.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1337,7 +1340,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 12.2
+    title: Point 12.2 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -1393,12 +1396,12 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 12.2
+    title: Point 12.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Point 12.2 de l''ordre du jour
+      message: 'Prenant acte de la recommandation du Comité de Management de l''OIML-CS,
 
         '
       dates:
@@ -1425,7 +1428,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 15.1
+    title: Point 15.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1457,7 +1460,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 15.2
+    title: Point 15.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1513,7 +1516,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 15.2
+    title: Point 15.2 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -1730,7 +1733,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 13.1
+    title: Point 13.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1797,7 +1800,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 13.2
+    title: Point 13.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1847,7 +1850,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 13.2
+    title: Point 13.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1890,12 +1893,12 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 17.1
+    title: Point 17.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Point 17.1 de l''ordre du jour
+      message: 'Félicite les lauréats de la medaille de l''OIML de cette année,
 
         '
       dates:
@@ -1924,7 +1927,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 17.1
+    title: Point 17.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1958,12 +1961,13 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 17.2
+    title: Point 17.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Point 17.2 de l''ordre du jour
+      message: 'Félicite les récipients de la Lettre d''Appréciation de l''OIML de
+        cette année,
 
         '
       dates:
@@ -2022,7 +2026,7 @@ resolutions:
       - start: '2023-10-17'
         kind: effective
   - language_code: fra
-    title: Agenda item 18
+    title: Point 18 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting

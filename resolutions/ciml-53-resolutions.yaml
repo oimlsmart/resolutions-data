@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-53-resolutions-en.yaml, ciml-53-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2018-10-09'
@@ -11,12 +9,12 @@ metadata:
   city: Hamburg
   country_code: DE
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-53
   title_localized:
   - language_code: eng
     title: 53rd CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 53e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-53
 resolutions:
 - identifier: CIML/2018/1
   doi: 10.63493/resolutions/ciml201801

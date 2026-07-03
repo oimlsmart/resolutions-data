@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   conference-14-resolutions-en.yaml, conference-14-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2012-10-03'
@@ -11,12 +9,12 @@ metadata:
   city: Bucharest
   country_code: RO
   language: en
-  meeting_urn: urn:oiml:conference:meeting:conference-14
   title_localized:
   - language_code: eng
     title: 14th OIML Conference — Resolutions (EN)
   - language_code: fra
     title: 14e Conférence OIML — Résolutions (FR)
+  meeting_urn: urn:oiml:conference:meeting:conference-14
 resolutions:
 - identifier: Conference/2012/1
   doi: 10.63493/resolutions/conf201201
@@ -69,7 +67,7 @@ resolutions:
       - start: '2012-10-03'
         kind: effective
   - language_code: fra
-    title: Agenda item 2.2
+    title: Point 2.2 de l'ordre du jour
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -577,7 +575,7 @@ resolutions:
       - start: '2012-10-03'
         kind: effective
   - language_code: fra
-    title: Agenda item 8
+    title: Point 8 de l'ordre du jour
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -660,7 +658,7 @@ resolutions:
       - start: '2012-10-03'
         kind: effective
   - language_code: fra
-    title: Agenda item 9
+    title: Point 9 de l'ordre du jour
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -780,7 +778,7 @@ resolutions:
       - start: '2012-10-03'
         kind: effective
   - language_code: fra
-    title: Agenda item 10.2
+    title: Point 10.2 de l'ordre du jour
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -937,7 +935,7 @@ resolutions:
       - start: '2012-10-03'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.1
+    title: Point 11.1 de l'ordre du jour
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -1008,7 +1006,7 @@ resolutions:
       - start: '2012-10-03'
         kind: effective
   - language_code: fra
-    title: Agenda item 11.2
+    title: Point 11.2 de l'ordre du jour
     subject: Conférence OIML
     considerations:
     - type: having_regard_to

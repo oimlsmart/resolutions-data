@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-54-resolutions-en.yaml, ciml-54-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2019-10-22'
@@ -11,12 +9,12 @@ metadata:
   city: Bratislava
   country_code: SK
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-54
   title_localized:
   - language_code: eng
     title: 54th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 54e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-54
 resolutions:
 - identifier: CIML/2019/1
   doi: 10.63493/resolutions/ciml201901
