@@ -143,7 +143,7 @@
                   ></span>
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
-                    <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
+                    <span v-if="countryCodeToFlag(m.country_code)" class="timeline-flag">{{ countryCodeToFlag(m.country_code) }}</span>
                     {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
@@ -191,7 +191,7 @@
                   ></span>
                   <span class="timeline-year">{{ m.year }}</span>
                   <span class="timeline-venue">
-                    <span v-if="venueToFlag(m.venue)" class="timeline-flag">{{ venueToFlag(m.venue) }}</span>
+                    <span v-if="countryCodeToFlag(m.country_code)" class="timeline-flag">{{ countryCodeToFlag(m.country_code) }}</span>
                     {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
                   </span>
                   <span class="timeline-meta">
@@ -229,7 +229,7 @@
 import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMeetings, groupMeetingsByDecade } from '../composables/useMeetings'
-import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
+import { countryCodeToFlag } from '../data/countryFlags'
 import { venueForLang, countryName } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
@@ -269,9 +269,9 @@ const availableCountries = computed(() => {
         countries.set('virtual', { code: 'virtual', name: t.value('meetings.legendVirtual'), flag: '\u{1F310}' })
       }
     } else {
-      const code = m.country_code || venueToCountryCode(venue)
+      const code = m.country_code || ''
       if (code && !countries.has(code)) {
-        countries.set(code, { code, name: countryName(code, lang.value), flag: venueToFlag(venue) })
+        countries.set(code, { code, name: countryName(code, lang.value), flag: countryCodeToFlag(code) })
       }
     }
   })
@@ -297,7 +297,7 @@ const filteredMeetings = computed(() => {
     if (selectedCountry.value === 'virtual') {
       list = list.filter(m => m.virtual || (m.venue && m.venue.toLowerCase().includes('virtual')))
     } else {
-      list = list.filter(m => (m.country_code || venueToCountryCode(m.venue || '')) === selectedCountry.value)
+      list = list.filter(m => (m.country_code || '') === selectedCountry.value)
     }
   }
   

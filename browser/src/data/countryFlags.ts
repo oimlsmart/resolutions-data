@@ -1,9 +1,9 @@
-// Thin TypeScript wrapper around country-flags.yaml.
-// Editing the country-name → code map: edit country-flags.yaml, not this file.
-
-import data from './country-flags.yaml'
-
-const COUNTRY_CODE_MAP: Record<string, string> = data.countryCodeMap || {}
+// Country code → flag emoji helpers.
+//
+// The flag emoji is derived directly from the ISO 3166-1 alpha-2 code
+// (no country-name lookups, no legacy string-form venues). Meeting and
+// resolution YAMLs always carry `country_code` as the canonical
+// identifier; the UI calls countryCodeToFlag(code) when rendering.
 
 function countryCodeToEmoji(code: string): string {
   return code
@@ -11,26 +11,11 @@ function countryCodeToEmoji(code: string): string {
     .replace(/./g, (c) => String.fromCodePoint(127397 + c.charCodeAt(0)))
 }
 
-/** Returns the ISO 3166-1 alpha-2 code for the venue's country, or '' if unknown. */
-export function venueToCountryCode(venue: string | undefined | null): string {
-  if (!venue) return ''
-  const lower = venue.toLowerCase().trim()
-  if (lower === 'virtual' || lower.includes('virtual')) return ''
-
-  const parts = venue.split(',')
-  const countryName = parts[parts.length - 1].trim().toLowerCase()
-  return COUNTRY_CODE_MAP[countryName] || ''
-}
-
-export function venueToFlag(venue: string | undefined | null): string {
-  if (!venue) return ''
-  const lower = venue.toLowerCase().trim()
-  if (lower === 'virtual' || lower.includes('virtual')) return '🌐'
-  const code = venueToCountryCode(venue)
-  return code ? countryCodeToEmoji(code) : ''
-}
-
-export function countryCodeToFlag(code: string | undefined | null): string {
+/** Returns the flag emoji for an ISO 3166-1 alpha-2 country code, or
+ *  '' if the input is missing/empty. */
+export function countryCodeToFlag(code: string | null | undefined): string {
   if (!code) return ''
-  return countryCodeToEmoji(code)
+  const c = code.toUpperCase().trim()
+  if (c.length !== 2 || !/^[A-Z]{2}$/.test(c)) return ''
+  return countryCodeToEmoji(c)
 }

@@ -110,7 +110,7 @@
 import { computed, onMounted, watch } from 'vue'
 import { useRoute, useRouter } from 'vue-router'
 import { useMeetings } from '../composables/useMeetings'
-import { venueToFlag } from '../data/countryFlags'
+import { countryCodeToFlag } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
@@ -159,7 +159,7 @@ const meetingUrn = computed(() => meeting.value?.urn || '')
 
 const meetingDoi = computed(() => meeting.value?.doi || '')
 
-const venueFlag = computed(() => venueToFlag(meeting.value?.venue))
+const venueFlag = computed(() => countryCodeToFlag(meeting.value?.country_code))
 
 const meetingResolutions = computed(() => {
   if (!meeting.value) return []

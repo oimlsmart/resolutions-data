@@ -3,9 +3,8 @@ import path from 'node:path';
 import yaml from 'js-yaml';
 import { fileURLToPath } from 'node:url';
 import {
-  buildResolutionRecord,
+  buildResolutionRecords,
   buildMeetingDoi,
-  bodyTypeFromSourceFile,
   sortResolutions,
 } from './lib/transforms.mjs';
 
@@ -172,14 +171,30 @@ function main() {
     if (!meeting.city && metadata.city) meeting.city = metadata.city;
     if (!meeting.country_code && metadata.country_code) meeting.country_code = metadata.country_code;
 
+    // Track unique resolution identifiers seen for this meeting so the
+    // count reflects logical resolutions (not one-per-language). The
+    // merged YAMLs already collapse EN+FR into localizations[], so one
+    // record per identifier is the natural count.
+    if (!meeting._seenIdentifiers) meeting._seenIdentifiers = new Set();
     for (const res of parsed.resolutions) {
-      const record = buildResolutionRecord(res, source_file, metadata);
-      record.meeting_slug = meetingSlug;
-      record.meeting_urn = meeting.urn;
-      allResolutions.push(record);
-      meeting.resolution_count++;
-      if (record.is_acclamation) meeting.acclamation_count++;
+      const records = buildResolutionRecords(res, source_file, metadata);
+      for (const record of records) {
+        record.meeting_slug = meetingSlug;
+        record.meeting_urn = meeting.urn;
+        allResolutions.push(record);
+      }
+      const key = records[0]?.identifier || records[0]?.id;
+      if (key && !meeting._seenIdentifiers.has(key)) {
+        meeting._seenIdentifiers.add(key);
+        meeting.resolution_count++;
+        if (records[0]?.is_acclamation) meeting.acclamation_count++;
+      }
     }
+  }
+
+  // Strip the temporary identifier-tracking set before serialising.
+  for (const m of meetingsBySlug.values()) {
+    delete m._seenIdentifiers;
   }
 
   allResolutions.sort(sortResolutions);

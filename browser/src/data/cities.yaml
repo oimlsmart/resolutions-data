@@ -1,6 +1,12 @@
-# City name (lowercase English) → French translation.
-# Only cities whose French name differs need to be listed here.
-# Most city names are identical in EN/FR.
+# City localisation data.
+#
+# `citiesFr`: English city name → French translation, only for cities
+# whose French name differs. Most city names are identical in EN/FR.
+#
+# `unlocodeToCity`: UN/LOCODE (5-char code, e.g. "FRPAR") → English city
+# name. Meeting YAMLs from `scripts/generate_meetings.rb` emit UN/LOCODE
+# in the `city` field; the UI resolves it via this table so users see
+# "Paris" instead of "FRPAR".
 citiesFr:
   beijing: Pékin
   cape town: Le Cap
@@ -15,3 +21,63 @@ citiesFr:
   the hague: La Haye
   turin: Turin
   vienna: Vienne
+  vouliagmeni: Vouliagmeni
+  copenhagen: Copenhague
+  helsinki: Helsinki
+  washington: Washington
+  oporto: Porto
+  tunis: Tunis
+  london: Londres
+  moscow: Moscou
+  saint-jean-de-luz: Saint-Jean-de-Luz
+  rio de janeiro: Rio de Janeiro
+  seoul: Séoul
+  vancouver: Vancouver
+  kyoto: Kyoto
+  paris: Paris
+  berlin: Berlin
+  lyon: Lyon
+  shanghai: Shanghai
+  sydney: Sydney
+  mombasa: Mombasa
+  orlando: Orlando
+  prague: Prague
+  bucharest: Bucarest
+  auckland: Auckland
+  arcachon: Arcachon
+  strasbourg: Strasbourg
+  bratislava: Bratislava
+  chiang mai: Chiang Mai
+unlocodeToCity:
+  DEBER: Berlin
+  FRLYS: Lyon
+  ZACPT: Cape Town
+  CNSHA: Shanghai
+  CNBJS: Beijing
+  AUSYD: Sydney
+  KEMBA: Mombasa
+  USORL: Orlando
+  USWAS: Washington
+  CZPRG: Prague
+  ROBUH: Bucharest
+  VNSGN: Ho Chi Minh City
+  NZAKL: Auckland
+  FRARC: Arcachon
+  FRSTR: Strasbourg
+  FRSJL: Saint-Jean-de-Luz
+  COCTG: Cartagena de Indias
+  DEHAM: Hamburg
+  SKBTS: Bratislava
+  THCNM: Chiang Mai
+  FRPAR: Paris
+  DKCPH: Copenhagen
+  FIHEL: Helsinki
+  PTOPO: Oporto
+  GRVOU: Vouliagmeni
+  CAVAN: Vancouver
+  BRRIO: Rio de Janeiro
+  KRSEL: Seoul
+  TNTUN: Tunis
+  GBLON: London
+  RUMOW: Moscow
+  JPUKH: Kyoto

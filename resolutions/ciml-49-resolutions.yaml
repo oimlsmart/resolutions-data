@@ -1,0 +1,1065 @@
+---
+# Merged by scripts/merge_resolution_yamls.rb from:
+#   ciml-49-resolutions-en.yaml, ciml-49-resolutions-fr.yaml
+metadata:
+  dates:
+  - start: '2014-11-04'
+    end: '2014-11-06'
+    kind: meeting
+  source: OIML CIML Secretariat (BIML)
+  venue: Auckland, New Zealand
+  city: Auckland
+  country_code: NZ
+  language: en
+  meeting_urn: urn:oiml:ciml:meeting:ciml-49
+  title_localized:
+  - language_code: eng
+    title: 49th CIML Meeting — Resolutions (EN)
+  - language_code: fra
+    title: 49e réunion du CIML — Résolutions (FR)
+resolutions:
+- identifier: CIML/2014/1
+  doi: 10.63493/resolutions/ciml201401
+  urn: urn:oiml:doc:ciml:resolution:2014-01
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '1'
+  localizations:
+  - language_code: eng
+    title: Agenda item 1
+    subject: CIML
+    considerations: []
+    actions:
+    - type: approves
+      message: 'Approves the minutes of the 48th CIML Meeting.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 1
+    subject: CIML
+    considerations: []
+    actions:
+    - type: approves
+      message: 'Approuve le compte rendu de la $ 4 8^{\mathrm{eme}} $ Réunion du CIML.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/2
+  doi: 10.63493/resolutions/ciml201402
+  urn: urn:oiml:doc:ciml:resolution:2014-02
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '2'
+  localizations:
+  - language_code: eng
+    title: Agenda item 2
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Notes the report given by its President.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 2
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Prend note du rapport présenté par son Président.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/3
+  doi: 10.63493/resolutions/ciml201403
+  urn: urn:oiml:doc:ciml:resolution:2014-03
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '3.1'
+  localizations:
+  - language_code: eng
+    title: Agenda item 3.1
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Notes the report given by the BIML Director on the activities of the
+        Bureau.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 3.1
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Prend note du rapport présenté par le Directeur du BIML concernant
+        les activités du Bureau.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/4
+  doi: 10.63493/resolutions/ciml201404
+  urn: urn:oiml:doc:ciml:resolution:2014-04
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: Resolves not to appoint a Selection Committee under section 3 of OIML B
+      13:2004.
+    subject: CIML
+    considerations:
+    - type: having_regard_to
+      message: 'Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations,
+        section 2, first paragraph and section 4, first bullet point, of OIML B 13:2004
+        Procedure for the appointment of the BIML Director and Assistant Directors,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: considering
+      message: 'Considering that the term of appointment of the BIML Director expires
+        on 31st December, 2015,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: considering
+      message: 'Considering the proposal of its President, under section 2 of OIML
+        B 13:2004, to extend the Director''s contract without a further preliminary
+        procedure,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: noting
+      message: |
+        Noting the comments made by its Members,
+        Expresses its expectation that it will resolve to renew the appointment of the BIML Director for a fixed term of up to five years at its meeting in 2015, and
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: resolves
+      message: 'Resolves not to appoint a Selection Committee under section 3 of OIML
+        B 13:2004.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Décide de ne pas désigner de Comité de Sélection tel que le prévoit la
+    subject: CIML
+    considerations:
+    - type: having_regard_to
+      message: 'Vu la section 7.2.2 de l''OIML B 7:2013 Statuts du Personnel du BIML,
+        la section 2, premier paragraphe, et la section 4, premier alinéa, de l''OIML
+        B 13:2004 Procédure pour la désignation du Directeur et des Adjoints au Directeur
+        du BIML,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: considering
+      message: 'Considérant que le mandat du Directeur du BIML arrive à échéance le
+        31 décembre 2015,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: considering
+      message: 'Considérant la proposition de son Président, en application de la
+        section 2 de l''OIML B 13:2004, de renouveler le contrat du Directeur sans
+        autre procédure préalable,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: noting
+      message: |
+        Prenant note des observations formulées par ses Membres,
+        Indique qu'il prévoit de décider le renouvellement de l'engagement du Directeur du BIML pour une durée déterminée de cinq ans au maximum lors de sa réunion en 2015, et
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: decides
+      message: 'Décide de ne pas désigner de Comité de Sélection tel que le prévoit
+        la section 3 de l''OIML B 13:2004.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/5
+  doi: 10.63493/resolutions/ciml201405
+  urn: urn:oiml:doc:ciml:resolution:2014-05
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: Welcomes Cameroon as a re-instated Member State
+    subject: CIML
+    considerations: []
+    actions:
+    - type: welcomes
+      message: 'Welcomes Cameroon as a re-instated Member State,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: welcomes
+      message: 'Welcomes Azerbaijan as a new Corresponding Member.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 4
+    subject: CIML
+    considerations: []
+    actions:
+    - type: welcomes
+      message: 'Accueille le Cameroun comme État Membre réintégré,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: welcomes
+      message: 'Accueille l''Azerbaïdjan comme nouveau Membre Correspondant.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/6
+  doi: 10.63493/resolutions/ciml201406
+  urn: urn:oiml:doc:ciml:resolution:2014-06
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: Approves the 2013 accounts, and
+    subject: CIML
+    considerations:
+    - type: noting
+      message: 'Noting the accounts for 2013 and the BIML Director''s comments,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: considering
+      message: 'Considering the external auditor''s approval of the 2013 accounts,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: approves
+      message: 'Approves the 2013 accounts, and
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: instructs
+      message: 'Instructs its President to present them to the 15th OIML Conference.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 5.1
+    subject: CIML
+    considerations:
+    - type: noting
+      message: |
+        Prenant note des comptes de l'année 2013 et des observations du Directeur du BIML,
+        Compte tenu de l'approbation des comptes de l'année 2013 par l'auditeur externe,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: approves
+      message: 'Approuve les comptes de l''année 2013, et
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: charges
+      message: 'Charge son Président de présenter lesdits comptes lors de la 15ème
+        Conférence de l''OIML.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/7
+  doi: 10.63493/resolutions/ciml201407
+  urn: urn:oiml:doc:ciml:resolution:2014-07
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '5.1'
+  localizations:
+  - language_code: eng
+    title: Agenda item 5.1
+    subject: CIML
+    considerations:
+    - type: having_regard_to
+      message: 'Having regard to article 21.4 of OIML B 8:2012 OIML Financial regulations,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: following_recommendation
+      message: 'Following the recommendation of the Director,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: appoints
+      message: 'Appoints "LG Audits & Conseils" as the independent chartered accountant
+        of the Organization for a four-year term from 1 January 2015.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 5.1
+    subject: CIML
+    considerations:
+    - type: having_regard_to
+      message: |
+        Vu l'article 21.4 de l'OIML B 8:2012 Règlement financier de l'OIML,
+        Suivant la proposition du Directeur,
+        Désigne le cabinet « LG Audits & Conseils » comme expert comptable indépendant de l'Organisation pour une durée de quatre ans à compter du $ 1^{\mathrm{er}} $ janvier 2015.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: notes
+      message: "[Point 5.1bis de l'ordre du jour]\n"
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/8
+  doi: 10.63493/resolutions/ciml201408
+  urn: urn:oiml:doc:ciml:resolution:2014-08
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '5.5'
+  localizations:
+  - language_code: eng
+    title: Agenda item 5.5
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the BIML Director on the outstanding arrears of Member States and Corresponding Members,
+        Encourages the BIML to continue its efforts to recover these outstanding arrears, and
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: requests
+      message: 'Requests those Members with arrears to bring their situation up to
+        date as soon as possible.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 5.5
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Prend note du rapport présenté par le Directeur du BIML concernant les arriérés impayés des États Membres et des Membres Correspondants,
+        Encourage le BIML à poursuivre ses efforts pour recouvrer lesdits arriérés impayés, et
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: requests
+      message: 'Demande aux dits Membres présentant des arriérés de régulariser leur
+        situation dès que possible.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/9
+  doi: 10.63493/resolutions/ciml201409
+  urn: urn:oiml:doc:ciml:resolution:2014-09
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: Notes the oral report given by the BIML on its activities in liaison with
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Notes the oral report given by the BIML on its activities in liaison
+        with other international organizations aimed at developing countries, in particular
+        regarding the organization of an AFRIMETS Legal Metrology School in Tunis
+        in October 2014.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Prend note du rapport oral présenté par le BIML concernant les activités
+      qu'il mène
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Prend note du rapport oral présenté par le BIML concernant les activités
+        qu''il mène, en liaison avec d''autres organisations internationales, en faveur
+        des pays en développement, en particulier concernant l''organisation d''une
+        Ecole de Métrologie Légale AFRIMETS à Tunis en octobre 2014.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/10
+  doi: 10.63493/resolutions/ciml201410
+  urn: urn:oiml:doc:ciml:resolution:2014-10
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: Notes the oral report given by the Chair of the advisory group.
+    subject: CIML
+    considerations:
+    - type: recalling
+      message: 'Recalling its resolution no.2013/9, setting up an advisory group to
+        carry out wide consultation, to seek suggestions and to build up links with
+        other bodies with an interest in promoting the economic development of countries
+        and economies with emerging metrology systems,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: notes
+      message: 'Notes the oral report given by the Chair of the advisory group.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Prend note du rapport oral présenté par le Président du groupe consultatif.
+    subject: CIML
+    considerations:
+    - type: recalling
+      message: 'Rappelant sa Résolution n° 2013/9, relative à la mise en place d''un
+        groupe consultatif ayant pour tâche de mener une vaste consultation, de recueillir
+        des suggestions et de développer des liens avec d''autres organismes intéressés
+        par la promotion du développement économique de pays et d''économies possédant
+        des systèmes naissants de métrologie,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: notes
+      message: 'Prend note du rapport oral présenté par le Président du groupe consultatif.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/11
+  doi: 10.63493/resolutions/ciml201411
+  urn: urn:oiml:doc:ciml:resolution:2014-11
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '6.3'
+  localizations:
+  - language_code: eng
+    title: Agenda item 6.3
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Notes the oral report given by the BIML on the special project aimed
+        at developing countries.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 6.3
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Prend note du rapport oral présenté par le BIML concernant le projet
+        spécial en faveur des pays en développement.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/12
+  doi: 10.63493/resolutions/ciml201412
+  urn: urn:oiml:doc:ciml:resolution:2014-12
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '7.1'
+  localizations:
+  - language_code: eng
+    title: Agenda item 7.1
+    subject: CIML
+    considerations: []
+    actions:
+    - type: thanks
+      message: 'Thanks Dr. Philippe Richard, for his presentation on behalf of the
+        BIPM,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: notes
+      message: 'Notes the written reports submitted by ILAC, the IAF, ISO/CASCO and
+        the IEC,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: thanks
+      message: 'Thanks Mr. Mark Amos (IEC), Mrs. Veronika Martens (CECIP) and Dr.
+        Llewellyn Richards (ILAC-IAF) for their presentations.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Remercie le Dr. Philippe Richard pour l'exposé qu'il a présenté au nom
+      du BIPM
+    subject: CIML
+    considerations: []
+    actions:
+    - type: thanks
+      message: 'Remercie le Dr. Philippe Richard pour l''exposé qu''il a présenté
+        au nom du BIPM,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: notes
+      message: 'Prend note des rapports écrits soumis par I''ILAC, I''IAF, I''ISO/CASCO
+        et la CEI,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: thanks
+      message: 'Remercie M. Mark Amos (CEI), Mme Veronika Martens (CECIP) et le Dr.
+        Llewellyn Richards (ILAC-IAF) pour leurs exposés.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/13
+  doi: 10.63493/resolutions/ciml201413
+  urn: urn:oiml:doc:ciml:resolution:2014-13
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '7.4'
+  localizations:
+  - language_code: eng
+    title: Agenda item 7.4
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Notes the oral report by its Second Vice-President, Dr. Yukinobu Miki
+        on the RLMO Round Table held on Monday, 3 November 2014.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 7.4
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Prend note du rapport oral de son Second Vice-Président, le Dr. Yukinobu
+        Miki, concernant la Table ronde des Organisations Régionales de Métrologie
+        Légale (RLMO) qui s''est tenue le lundi 3 novembre 2014.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/14
+  doi: 10.63493/resolutions/ciml201414
+  urn: urn:oiml:doc:ciml:resolution:2014-14
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '8.1'
+  localizations:
+  - language_code: eng
+    title: Agenda item 8.1
+    subject: CIML
+    considerations:
+    - type: considering
+      message: 'Considering that a number of current Project Groups have too few P-members
+        and that for some Project Groups no Member State is willing or able to volunteer
+        to take up the convenership, and that, in accordance with 5.16 of OIML B 6-1:2013,
+        these Project Groups should be disbanded,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: notes
+      message: 'Notes the report given by the BIML on the implementation of OIML B
+        6-1:2013 Directives for OIML technical work,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: resolves
+      message: |
+        Resolves to disband the following Project Groups:
+        - TC 3/SC 1/p 4: Revision of D 13:1986 Guidelines for bi- or multilateral arrangements on the recognition of: test results, pattern approvals, verifications,
+        - TC 3/SC 5/p 10: New publication: Guide for the application of ISO/IEC 17021 to assessment of quality system certification bodies in the field of legal metrology,
+        - TC 3/SC 5/p 11: New publication: Guide for the application of ISO 9001 to legal metrology controls,
+        - TC 7/SC 4/p 2: Revision of R 55:1981 Speedometers, mechanical odometers and chronotachographs for motor vehicles,
+        - TC 10/SC 3/p 1: Revision of R 97:1990 Barometers,
+        - TC 16/SC 3/p 2: Revision of R 112:1994 High performance liquid chromatographs for measurement of pesticides and other toxic substances,
+        - TC 16/SC 4/p 1: New publication: Guide to air sampling devices for toxic chemical pollutants at hazardous waste sites,
+        - TC 16/SC 4/p 3: Revision of D 22:1991 Guide to portable instruments for assessing airborne pollutants arising from hazardous wastes (incorporating FTIR spectrometers),
+        - TC 18/SC 4/p 4: Revision of R 90:1990 Electrocardiographs, electrocardioscopes and electrocardioanalysers,
+        - TC 18/SC 4/p 6: Revision of R 89:1990 Electroencephalographs,
+        - TC 18/SC 5/p 1: New publication: Electronic blood cell counting chambers,
+        - TC 18/SC 5/p 4: Revision R 26: Medical syringes.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Prend note du rapport présenté par le BIML concernant la mise en œuvre
+      de
+    subject: CIML
+    considerations:
+    - type: considering
+      message: 'Considérant que, pour un certain nombre de Groupes de Projet actuels,
+        il n''y a pas suffisamment de Membres-P, que, pour certains Groupes de Projet,
+        aucun État Membre n''est désireux ou en mesure de se porter volontaire pour
+        en assurer la responsabilité et que, conformément au 5.16 de l''OIML B 6-1:2013,
+        ces Groupes de Projet doivent être dissous,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: notes
+      message: 'Prend note du rapport présenté par le BIML concernant la mise en œuvre
+        de l''OIML B 6-1:2013 Directives pour les travaux techniques de l''OIML,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: decides
+      message: |
+        Décide de dissoudre les Groupes de Projet suivants :
+        - TC 3/SC 1/p 4 : Révision du D 13:1986 Conseils pour les arrangements bi- ou multilatéraux de reconnaissance des : résultats d'essais – approbations de modèles - vérifications,
+        - TC 3/SC 5/p 10 : Nouvelle publication : Guide for the application of ISO/IEC 17021 to assessment of quality system certification bodies in the field of legal metrology [Guide pour l'application de la norme ISO/CEI 17021 à l'évaluation des organismes de certification des systèmes de qualité dans le domaine de la métrologie légale],
+        - TC 3/SC 5/p 11 : Nouvelle publication : Guide for the application of ISO 9001 to legal metrology controls [Guide pour l'application de la norme ISO 9001 aux contrôles de métrologie légale],
+        - TC 7/SC 4/p 2 : Révision de la R 55:1981 Compteurs de vitesse, compteurs mécaniques de distance et chronotachygraphes des véhicules automobiles,
+        - TC 10/SC 3/p 1 : Révision de la R 97:1990 Baromètres,
+        - TC 16/SC 3/p 2 : Révision de la R 112:1994 Chromatographes en phase liquide de haute performance pour la mesure des pesticides et autres substances toxiques,
+        - TC 16/SC 4/p 1 : Nouvelle publication : Guide to air sampling devices for toxic chemical pollutants at hazardous waste sites [Guide sur les dispositifs d'échantillonnage de l'air pour les polluants chimiques toxiques sur les sites de décharge de déchets dangereux,
+        - TC 16/SC 4/p 3 : Révision du D 22:1991 Guide sur les instruments portatifs pour l'évaluation des polluants contenus dans l'air en provenance des sites de décharge de déchets dangereux (incorporant les spectrophotomètres infrarouge à transformée de Fourier - FTIR),
+        - TC 18/SC 4/p 4 : Révision de la R 90:1990 Électrocardiographes, électrocardioscopes et électrocardioanalyseurs,
+        - TC 18/SC 4/p 6 : Révision de la R 89:1990 Électroencéphalographes,
+        - TC 18/SC 5/p 1 : Nouvelle publication : Electronic blood cell counting chambers [Chambres de comptage électronique de cellules sanguines],
+        - TC 18/SC 5/p 4 : Révision de la R 26 : Seringues médicales.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/15
+  doi: 10.63493/resolutions/ciml201415
+  urn: urn:oiml:doc:ciml:resolution:2014-15
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: 8.3.1
+  localizations:
+  - language_code: eng
+    title: Agenda item 8.3.1
+    subject: CIML
+    considerations: []
+    actions:
+    - type: approves
+      message: |
+        Approves the following draft publications:
+        - Amendment to R 35-1: Material measures for length for general use - Part 1: Metrological and technical requirements,
+        - Revision of R 50-1: Continuous totalizing automatic weighing instruments (belt weighers) - Part 1: Metrological and technical requirements,
+        - Revision of R 50-2: Continuous totalizing automatic weighing instruments (belt weighers) - Part 2: Test procedures,
+        - R 50-3: Continuous totalizing automatic weighing instruments (belt weighers) Part 3: Test report format,
+        - R 117-2: Dynamic measuring systems for liquids other than water Part 2: Metrological controls and performance tests,
+        - R 117-3: Dynamic measuring systems for liquids other than water Part 3: Test report format,
+        - Revision of R139-1: Compressed gaseous fuels measuring systems for vehicles Part 1: Metrological and technical requirements,
+        - Revision of R139-2: Compressed gaseous fuels measuring systems for vehicles Part 2: Metrological controls and performance tests.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: 'Approuve les projets de Publication [Draft Publications] suivants : -
+      Amendement à la R'
+    subject: CIML
+    considerations: []
+    actions:
+    - type: approves
+      message: |
+        Approuve les projets de Publication [Draft Publications] suivants :
+        - Amendement à la R 35-1 : Mesures matérilisées de longueur pour usages généraux. Partie 1 : Exigences métrologiques et techniques,
+        - Révision de la R 50-1 : Instruments de pesage totalisateurs continus à fonctionnement automatique (peseuses sur bande) – Partie 1 : Exigences métrologiques et techniques,
+        - Révision de la R 50-2 : Instruments de pesage totalisateurs continus à fonctionnement automatique (peseuses sur bande) – Partie 2 : Procédures d'essai,
+        - R 50-3 : Instruments de pesage totalisateurs continus à fonctionnement automatique (peseuses sur bande) – Partie 3 : Format du rapport d'essai,
+        - R 117-2 : Ensembles de mesurage dynamique de liquides autres que l'eau - Partie 2 : Contrôles métrologiques et essais de performance,
+        - R 117-3 : Ensembles de mesurage dynamique de liquides autres que l'eau – Partie 3 : Format du rapport d'essai,
+        - Révision de la R 139-1 : Ensembles de mesurage de gaz compressé pour véhicules - Partie 1 : Exigences métrologiques et techniques,
+        - Révision de la R 139-2 : Ensembles de mesurage de gaz compressé pour vehicules – Partie 2 : Contrôles métrologiques et essais de performance.
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/16
+  doi: 10.63493/resolutions/ciml201416
+  urn: urn:oiml:doc:ciml:resolution:2014-16
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: 8.3.2
+  localizations:
+  - language_code: eng
+    title: Agenda item 8.3.2
+    subject: CIML
+    considerations:
+    - type: considering
+      message: 'Considering the project proposal in Addendum 8.3.2 to the working
+        document for this meeting, as clarified during the meeting,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: approves
+      message: 'Approves as a new project in TC 8/SC 3 the revision of all parts of
+        R 117 Dynamic measuring systems for liquids other than water.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Approuve en tant que nouveau projet dans le cadre du TC 8/SC 3 la
+    subject: CIML
+    considerations:
+    - type: considering
+      message: 'Considérant la proposition de projet figurant dans l''additif 8.3.2
+        au document de travail élaboré pour la réunion, et les précisions y afférentes
+        fournies au cours de la réunion,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: approves
+      message: 'Approuve en tant que nouveau projet dans le cadre du TC 8/SC 3 la
+        révision de toutes les parties de la R 117 Ensembles de mesurage dynamique
+        de liquides autres que l''eau.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/17
+  doi: 10.63493/resolutions/ciml201417
+  urn: urn:oiml:doc:ciml:resolution:2014-17
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: 8.3.3
+  localizations:
+  - language_code: eng
+    title: Agenda item 8.3.3
+    subject: CIML
+    considerations:
+    - type: considering
+      message: 'Considering the project proposal in Addendum 8.3.3 to the working
+        document for this meeting,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: approves
+      message: 'Approves as a new project in TC 8/SC 7 the revision of all parts of
+        R 140 Measuring systems for gaseous fuels.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Agenda item 8.3.3
+    subject: CIML
+    considerations:
+    - type: considering
+      message: 'Considérant la proposition de projet figurant dans l''additif 8.3.3
+        au document de travail élaboré pour la réunion,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    actions:
+    - type: approves
+      message: 'Approuve en tant que nouveau projet dans le cadre du TC 8/SC 7 la
+        révision de toutes les parties de la R 140 Systèmes de mesurage de gaz.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/18
+  doi: 10.63493/resolutions/ciml201418
+  urn: urn:oiml:doc:ciml:resolution:2014-18
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '8.5'
+  localizations:
+  - language_code: eng
+    title: Agenda item 8.5
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Notes the report given by the ad-hoc working group (AHWG) chair and CIML First Vice President, Dr. Roman Schwartz,
+        Considers the review of the MAA as a high priority project, and therefore
+        Encourages the AHWG, including its task groups, to undertake every effort to present concrete proposals to the next CIML meeting,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: instructs
+      message: 'Instructs the BIML to provide the necessary support for the AHWG,
+        including its task groups, in order to implement CIML Resolutions nos. 2013/15,
+        2013/16 and 2013/17,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: requests
+      message: 'Requests CIML Members to inform the BIML about their experience and
+        knowledge as to whether or not OIML certificates (Basic or MAA) and OIML Test
+        Reports are accepted in their countries as the basis for national or regional
+        type approval, and the reasons in cases where they are either not accepted,
+        or not completely accepted.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Prend note du rapport présenté par le président du groupe de travail ad
+      hoc
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Prend note du rapport présenté par le président du groupe de travail ad hoc (AHWG) et le Premier Vice-Président du CIML, le Dr. Roman Schwartz,
+        Estime que l'examen du MAA est un projet hautement prioritaire et, en conséquence,
+        Encourage le groupe de travail ad hoc, y compris ses sous-groupes, à mettre tout en œuvre pour présenter des propositions concrètes à la prochaine réunion du CIML,
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: charges
+      message: 'Charge le BIML de fournir au groupe de travail ad hoc, y compris à
+        ses sous-groupes, le soutien nécessaire pour mettre en œuvre les Résolutions
+        n° 2013/15, 2013/16 et 2013/17 du CIML,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: requests
+      message: 'Demande aux Membres du CIML de faire part au BIML de l''expérience
+        et de la connaissance qu''ils ont de l''acceptation, ou de la non-acceptation,
+        des certificats (dits « de Base » ou MAA) de l''OIML et des Rapports d''essai
+        de l''OIML dans leur pays comme base d''une approbation de type à l''échelon
+        national ou régional, et des raisons pour lesquelles, soit ils ne sont pas
+        acceptés, soit ils ne sont pas complètement acceptés.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/19
+  doi: 10.63493/resolutions/ciml201419
+  urn: urn:oiml:doc:ciml:resolution:2014-19
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '11'
+  localizations:
+  - language_code: eng
+    title: Agenda item 11
+    subject: CIML
+    considerations: []
+    actions:
+    - type: thanks
+      message: 'Thanks Mrs. Magdalena Chuwa of the Tanzania Weights and Measures Agency,
+        the winner of the 2013 OIML Award for Excellent Achievements in Legal Metrology
+        in Developing Countries, for her presentation.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Remercie Mme Magdalena Chuwa de l'Agence des poids et mesures pour la Tanzanie,
+      lauréate
+    subject: CIML
+    considerations: []
+    actions:
+    - type: thanks
+      message: 'Remercie Mme Magdalena Chuwa de l''Agence des poids et mesures pour
+        la Tanzanie, lauréate en 2013 du Prix OIML de la meilleure réalisation de
+        métrologie légale dans un pays en développement, pour son exposé.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+- identifier: CIML/2014/20
+  doi: 10.63493/resolutions/ciml201420
+  urn: urn:oiml:doc:ciml:resolution:2014-20
+  dates:
+  - start: '2014-11-04'
+    kind: decision
+  agenda_item: '12'
+  localizations:
+  - language_code: eng
+    title: Agenda item 12
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Notes the information provided by its President and the BIML Director
+        on the organization of the 50th CIML Meeting in 2015 and on the 15th Conference
+        and the 51st CIML Meeting in 2016,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: instructs
+      message: 'Instructs the Bureau to make the necessary arrangements to organize
+        the 50th CIML Meeting in 2015 in France.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+  - language_code: fra
+    title: Prend note des informations communiquées par son Président et par le Directeur
+      du BIML
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Prend note des informations communiquées par son Président et par
+        le Directeur du BIML au sujet de l''organisation de la 50ème Réunion du CIML
+        en 2015, de la 15ème Conférence et de la 51ème Réunion du CIML en 2016,
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
+    - type: charges
+      message: 'Charge le Bureau de prendre les dispositions nécessaires pour organiser
+        la 50ème Réunion du CIML en 2015 en France.
+
+        '
+      dates:
+      - start: '2014-11-04'
+        kind: effective
