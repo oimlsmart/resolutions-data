@@ -163,7 +163,7 @@ const venueFlag = computed(() => countryCodeToFlag(meeting.value?.country_code))
 
 const meetingResolutions = computed(() => {
   if (!meeting.value) return []
-  return isLoaded.value ? getMeetingResolutions(meeting.value.meeting_slug) : []
+  return isLoaded.value ? getMeetingResolutions(meeting.value.meeting_slug, lang.value) : []
 })
 </script>
 

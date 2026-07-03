@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-52-resolutions-en.yaml, ciml-52-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2017-10-10'
@@ -11,12 +9,12 @@ metadata:
   city: Cartagena de Indias
   country_code: CO
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-52
   title_localized:
   - language_code: eng
     title: 52nd CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 52e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-52
 resolutions:
 - identifier: CIML/2017/1
   doi: 10.63493/resolutions/ciml201701

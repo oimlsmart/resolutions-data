@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-51-resolutions-en.yaml, ciml-51-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2016-10-17'
@@ -11,12 +9,12 @@ metadata:
   city: Strasbourg
   country_code: FR
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-51
   title_localized:
   - language_code: eng
     title: 51st CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 51e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-51
 resolutions:
 - identifier: CIML/2016/1
   doi: 10.63493/resolutions/ciml201601

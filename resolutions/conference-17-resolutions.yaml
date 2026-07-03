@@ -1,11 +1,5 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/conference-17-resolutions-en.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/conferences/conference-17-resolutions-en.pdf
-# Meeting URN: urn:oiml:conference:meeting:conference-17-resolutions-en
-# Language: en
 ---
 metadata:
-  title: 17th OIML Conference — Resolutions (EN)
   dates:
   - start: '2025-10-14'
     kind: meeting
@@ -14,10 +8,10 @@ metadata:
   city: Paris
   country_code: FR
   language: en
-  meeting_urn: urn:oiml:conference:meeting:conference-17
   title_localized:
   - language_code: eng
     title: 17th OIML Conference — Resolutions (EN)
+  meeting_urn: urn:oiml:conference:meeting:conference-17
 resolutions:
 - identifier: Conference/2025/01
   doi: 10.63493/resolutions/conf202501

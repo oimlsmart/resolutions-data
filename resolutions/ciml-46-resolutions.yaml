@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-46-resolutions-en.yaml, ciml-46-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2011-10-11'
@@ -11,12 +9,12 @@ metadata:
   city: Prague
   country_code: CZ
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-46
   title_localized:
   - language_code: eng
     title: 46th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 46e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-46
 resolutions:
 - identifier: CIML/2011/1
   doi: 10.63493/resolutions/ciml201101

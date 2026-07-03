@@ -1,11 +1,5 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/ciml-60-resolutions-en.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/ciml-60-resolutions-en.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-60-resolutions-en
-# Language: en
 ---
 metadata:
-  title: 60th CIML Meeting — Resolutions (EN)
   dates:
   - start: '2025-10-13'
     end: '2025-10-15'
@@ -15,10 +9,10 @@ metadata:
   city: Paris
   country_code: FR
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-60
   title_localized:
   - language_code: eng
     title: 60th CIML Meeting — Resolutions (EN)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-60
 resolutions:
 - identifier: CIML/2025/01
   doi: 10.63493/resolutions/ciml202501

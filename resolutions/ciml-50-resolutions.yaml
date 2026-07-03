@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-50-resolutions-en.yaml, ciml-50-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2015-10-20'
@@ -11,12 +9,12 @@ metadata:
   city: Arcachon
   country_code: FR
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-50
   title_localized:
   - language_code: eng
     title: 50th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 50e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-50
 resolutions:
 - identifier: CIML/2015/1
   doi: 10.63493/resolutions/ciml201501

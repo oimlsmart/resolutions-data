@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-56-resolutions-en.yaml, ciml-56-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2021-10-19'
@@ -11,12 +9,12 @@ metadata:
   city: ''
   country_code: ''
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-56
   title_localized:
   - language_code: eng
     title: 56th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 56e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-56
 resolutions:
 - identifier: CIML/2021/01
   doi: 10.63493/resolutions/ciml202101

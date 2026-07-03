@@ -68,8 +68,25 @@ end
 # language files.
 files = Dir.glob(File.join(DIR, "*.yaml")).reject { |p| File.basename(p).start_with?("_") }
 
-by_collection = Hash.new { |h, k| h[k] = { files: [], langs: [] } }
+# Partition files into:
+#   per_lang: filenames ending in -en/-fr (these are input to the merge)
+#   already_merged: filenames WITHOUT the -en/-fr suffix (either a
+#     prior merge output, or a single-language Bulletin file like
+#     15CIML-1976-FR whose slug's trailing -FR is the document language)
+per_lang_files = []
+already_merged_files = []
 files.each do |path|
+  base = File.basename(path, ".yaml")
+  if base =~ /\A(.*)-(en|fr)\z/
+    per_lang_files << path
+  else
+    already_merged_files << path
+  end
+end
+
+# Group per-lang files by collection slug.
+by_collection = Hash.new { |h, k| h[k] = { files: [], langs: [] } }
+per_lang_files.each do |path|
   slug, lang_suffix = split_collection_slug(path)
   collection = by_collection[slug]
   collection[:files] << path
@@ -77,52 +94,48 @@ files.each do |path|
 end
 
 merged_count = 0
-by_collection.each do |slug, info|
-  # Skip if there's only one file AND its slug already lacks the -en/-fr
-  # suffix (it's already a "merged" single-language Bulletin file).
-  if info[:files].size == 1 && slug !~ /-(en|fr)\z/
-    # Single-language Bulletin; the file is already in its final form.
-    # If it has `metadata.title` (single) instead of `title_localized[]`,
-    # convert it so the schema is consistent across the corpus.
-    path = info[:files].first
-    raw = File.read(path)
-    parts = raw.split(/^---\s*$/, 3)
-    next if parts.size < 2
 
-    preamble = parts[0].to_s
-    body = parts[1]
-    data = YAML.safe_load(body, permitted_classes: [Date, Time, DateTime]) || {}
+# First: convert already-merged single-lang files to the localizations[]
+# shape if they haven't been already. Idempotent.
+already_merged_files.each do |path|
+  raw = File.read(path)
+  parts = raw.split(/^---\s*$/, 3)
+  next if parts.size < 2
 
-    meta = data["metadata"] ||= {}
+  preamble = parts[0].to_s
+  body = parts[1]
+  data = YAML.safe_load(body, permitted_classes: [Date, Time, DateTime]) || {}
+
+  meta = data["metadata"] ||= {}
+  unless meta["title_localized"]
     title_loc = []
     if meta["title"]
-      lang_code = lang_for_collection(slug, nil)
+      lang_code = lang_for_collection(File.basename(path, ".yaml"), nil)
       title_loc << { "language_code" => lang_code, "title" => meta["title"] }
     end
-    meta["title_localized"] = title_loc if title_loc.any? && !meta["title_localized"]
-
-    # Wrap each resolution's per-lang content in localizations[].
-    res_list = data["resolutions"] || []
-    lang_code = lang_for_collection(slug, nil)
-    res_list.each do |res|
-      next if res["localizations"]&.any?
-      loc = {
-        "language_code" => lang_code,
-        "title" => res.delete("title"),
-      }
-      # Move per-lang fields under the localization.
-      loc["subject"] = res.delete("subject") if res["subject"]
-      loc["considerations"] = res.delete("considerations") if res["considerations"]
-      loc["actions"] = res.delete("actions") if res["actions"]
-      loc["approvals"] = res.delete("approvals") if res["approvals"]
-      res["localizations"] = [loc]
-    end
-
-    File.write(path, "#{preamble}---\n#{YAML.dump(data).sub(/\A---\s*\n/, "")}")
-    next
+    meta["title_localized"] = title_loc if title_loc.any?
   end
 
-  # Multi-language collection (e.g. ciml-44-resolutions + EN + FR).
+  res_list = data["resolutions"] || []
+  lang_code = lang_for_collection(File.basename(path, ".yaml"), nil)
+  res_list.each do |res|
+    next if res["localizations"]&.any?
+    loc = {
+      "language_code" => lang_code,
+      "title" => res.delete("title"),
+    }
+    loc["subject"] = res.delete("subject") if res["subject"]
+    loc["considerations"] = res.delete("considerations") if res["considerations"]
+    loc["actions"] = res.delete("actions") if res["actions"]
+    loc["approvals"] = res.delete("approvals") if res["approvals"]
+    res["localizations"] = [loc]
+  end
+
+  File.write(path, "#{preamble}---\n#{YAML.dump(data).sub(/\A---\s*\n/, "")}")
+end
+
+# Then: merge per-lang files into one collection per slug.
+by_collection.each do |slug, info|
   parsed = info[:files].map do |path|
     raw = File.read(path)
     parts = raw.split(/^---\s*$/, 3)

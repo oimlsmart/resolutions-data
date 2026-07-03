@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   conference-13-en.yaml, conference-13-fr.yaml
 metadata:
   dates:
   - start: '2008-10-29'
@@ -11,12 +9,12 @@ metadata:
   city: Sydney
   country_code: AU
   language: en
-  meeting_urn: urn:oiml:conference:meeting:conference-13
   title_localized:
   - language_code: eng
     title: 13th OIML Conference — Resolutions (EN)
   - language_code: fra
     title: 13e Conférence OIML — Résolutions (FR)
+  meeting_urn: urn:oiml:conference:meeting:conference-13
 resolutions:
 - identifier: Conference/2008/1
   doi: 10.63493/resolutions/conf200801

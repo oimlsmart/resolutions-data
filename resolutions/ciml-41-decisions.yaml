@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-41-decisions-en.yaml, ciml-41-decisions-fr.yaml
 metadata:
   dates:
   - start: '2006-10-18'
@@ -11,12 +9,12 @@ metadata:
   city: Cape Town
   country_code: ZA
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-41
   title_localized:
   - language_code: eng
     title: 41st CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 41e réunion du CIML — Décisions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-41
 resolutions:
 - identifier: CIML/2006/1
   doi: 10.63493/resolutions/ciml200601

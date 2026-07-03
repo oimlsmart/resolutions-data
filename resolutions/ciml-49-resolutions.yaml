@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-49-resolutions-en.yaml, ciml-49-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2014-11-04'
@@ -11,12 +9,12 @@ metadata:
   city: Auckland
   country_code: NZ
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-49
   title_localized:
   - language_code: eng
     title: 49th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 49e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-49
 resolutions:
 - identifier: CIML/2014/1
   doi: 10.63493/resolutions/ciml201401
@@ -39,7 +37,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 1
+    title: Point 1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -71,7 +69,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 2
+    title: Point 2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -104,7 +102,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 3.1
+    title: Point 3.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -244,7 +242,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 4
+    title: Point 4 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -303,7 +301,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 5.1
+    title: Point 5.1 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -365,7 +363,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 5.1
+    title: Point 5.1 de l'ordre du jour
     subject: CIML
     considerations:
     - type: having_regard_to
@@ -411,7 +409,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 5.5
+    title: Point 5.5 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -542,7 +540,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 6.3
+    title: Point 6.3 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -643,7 +641,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 7.4
+    title: Point 7.4 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -877,7 +875,7 @@ resolutions:
       - start: '2014-11-04'
         kind: effective
   - language_code: fra
-    title: Agenda item 8.3.3
+    title: Point 8.3.3 de l'ordre du jour
     subject: CIML
     considerations:
     - type: considering

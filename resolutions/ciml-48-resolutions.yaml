@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-48-resolutions-en.yaml, ciml-48-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2013-10-08'
@@ -11,12 +9,12 @@ metadata:
   city: Ho Chi Minh City
   country_code: VN
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-48
   title_localized:
   - language_code: eng
     title: 48th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 48e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-48
 resolutions:
 - identifier: CIML/2013/1
   doi: 10.63493/resolutions/ciml201301
@@ -39,7 +37,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 1
+    title: Point 1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -71,7 +69,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 2
+    title: Point 2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -103,7 +101,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 4.1
+    title: Point 4.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -135,7 +133,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 4.3
+    title: Point 4.3 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -633,7 +631,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.3.1
+    title: Point 9.3.1 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -674,12 +672,17 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.3.2
+    title: Point 9.3.2 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: "[Point 9.3.2 de l'ordre du jour]\n"
+      message: 'Confirmme sa décision de lancer, en tant que nouveau projet dans le
+        cadre du TC 4 Étalons de mesure et dispositifs d''etalonnage et de vérification,
+        la révision de l''OIML D 8:2004 Étalons de mesure. Choix, reconnaissance,
+        utilisation, conservation et documentation.
+
+        '
       dates:
       - start: '2013-10-08'
         kind: effective
@@ -707,12 +710,18 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.3.3
+    title: Point 9.3.3 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: "[Point 9.3.3 de l'ordre du jour]\n"
+      message: 'Confirmme sa décision d'' lancer, en tant que nouveau projet dans
+        le cadre du TC 6 Produits préemballés, la rédaction d''une nouvelle publication,
+        Guide pour la définition des exigences systèmes d''un système de certification
+        pour les préemballages, en tenant compte des réserves formulées par certains
+        de ses Membres.
+
+        '
       dates:
       - start: '2013-10-08'
         kind: effective
@@ -807,7 +816,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.5
+    title: Point 9.5 de l'ordre du jour
     subject: CIML
     considerations:
     - type: noting
@@ -899,7 +908,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.5
+    title: Point 9.5 de l'ordre du jour
     subject: CIML
     considerations:
     - type: recalling
@@ -929,7 +938,9 @@ resolutions:
         kind: effective
     actions:
     - type: notes
-      message: "[Point 9.5 de l'ordre du jour]\n"
+      message: 'Rappelant sa Résolution n° 2013/15 ;
+
+        '
       dates:
       - start: '2013-10-08'
         kind: effective
@@ -998,7 +1009,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 9.5
+    title: Point 9.5 de l'ordre du jour
     subject: CIML
     considerations:
     - type: recalling
@@ -1078,7 +1089,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 10
+    title: Point 10 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1112,7 +1123,7 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 11
+    title: Point 11 de l'ordre du jour
     subject: CIML
     considerations: []
     actions:
@@ -1143,12 +1154,17 @@ resolutions:
       - start: '2013-10-08'
         kind: effective
   - language_code: fra
-    title: Agenda item 12
+    title: Point 12 de l'ordre du jour
     subject: Conférence OIML
     considerations: []
     actions:
     - type: notes
-      message: "[Point 12 de l'ordre du jour]\n"
+      message: 'Accepte l''invitation de la Nouvelle-Zélande à accueillir la 49ème
+        Réunion du CIML à Auckland en Nouvelle-Zélande, en 2014 et remercie M. Stephen
+        O''Brien, Membre du CIML pour la Nouvelle-Zélande, pour sa présentation sur
+        les lieux de la 49ème Réunion.
+
+        '
       dates:
       - start: '2013-10-08'
         kind: effective

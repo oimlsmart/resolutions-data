@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   conference-12-decisions-en.yaml, conference-12-decisions-fr.yaml
 metadata:
   dates:
   - start: '2004-10-26'
@@ -11,12 +9,12 @@ metadata:
   city: Berlin
   country_code: DE
   language: en
-  meeting_urn: urn:oiml:conference:meeting:conference-12
   title_localized:
   - language_code: eng
     title: 12th OIML Conference — Joint CIML-39 + DC Decisions (EN)
   - language_code: fra
     title: 12e Conférence OIML — Décisions (FR)
+  meeting_urn: urn:oiml:conference:meeting:conference-12
 resolutions:
 - identifier: Conference/2004/1
   doi: 10.63493/resolutions/conf200401

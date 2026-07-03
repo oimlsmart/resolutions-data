@@ -290,10 +290,19 @@ module ResolutionsData
           } unless first_para.empty?
         end
 
-        # Title: prefer "Agenda item N" as the canonical reference, which
-        # is how OIML cites resolutions. Falls back to a synthesized verb-led
-        # snippet when no agenda item is recorded.
-        title = agenda_item ? "Agenda item #{agenda_item}" : synthesize_title(acts)
+        # Title: when an agenda_item is present, use the canonical
+        # citation form. OIML uses "Agenda item N" in English and
+        # "Point N de l'ordre du jour" in French. Falls back to a
+        # verb-led synthesis when no agenda item is recorded.
+        if agenda_item
+          title = if lang == :fr
+                    "Point #{agenda_item} de l'ordre du jour"
+                  else
+                    "Agenda item #{agenda_item}"
+                  end
+        else
+          title = synthesize_title(acts)
+        end
 
         res << {
           "identifier"  => ident,
@@ -691,6 +700,12 @@ module ResolutionsData
       body.each_line do |line|
         stripped = line.strip
         next if stripped =~ /\AAgenda item\b/i
+        # FR agenda-item marker: "Point 17.1 de l'ordre du jour" or
+        # "[Point 17.1 de l'ordre du jour]". The agenda_item itself is
+        # captured separately by extract_agenda_item and used as the
+        # resolution title; don't leave the literal line in the body
+        # (otherwise it ends up as the action message text).
+        next if stripped =~ /\A\[?\s*Point\s+[\d\.]+\s+de\s+l'ordre\s+du\s+jour\]?\z/i
         next if stripped =~ /\AThe (Conference|Committee),?\z/i
         next if stripped =~ /\ALa Conf[ée]rence,?\z/i
         next if stripped =~ /\ALe Comit[ée],?\z/i

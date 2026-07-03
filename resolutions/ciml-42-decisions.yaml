@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-42-decisions-en.yaml, ciml-42-decisions-fr.yaml
 metadata:
   dates:
   - start: '2007-10-24'
@@ -11,12 +9,12 @@ metadata:
   city: Shanghai
   country_code: CN
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-42
   title_localized:
   - language_code: eng
     title: 42nd CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 42e réunion du CIML — Décisions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-42
 resolutions:
 - identifier: CIML/2007/1
   doi: 10.63493/resolutions/ciml200701

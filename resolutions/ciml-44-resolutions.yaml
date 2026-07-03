@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-44-resolutions-en.yaml, ciml-44-resolutions-fr.yaml
 metadata:
   dates:
   - start: '2009-10-27'
@@ -11,12 +9,12 @@ metadata:
   city: Mombasa
   country_code: KE
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-44
   title_localized:
   - language_code: eng
     title: 44th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 44e réunion du CIML — Résolutions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-44
 resolutions:
 - identifier: CIML/2009/1
   doi: 10.63493/resolutions/ciml200901

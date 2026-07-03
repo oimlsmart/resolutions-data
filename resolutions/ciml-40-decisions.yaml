@@ -1,6 +1,4 @@
 ---
-# Merged by scripts/merge_resolution_yamls.rb from:
-#   ciml-40-decisions-en.yaml, ciml-40-decisions-fr.yaml
 metadata:
   dates:
   - start: '2005-06-18'
@@ -11,12 +9,12 @@ metadata:
   city: Lyon
   country_code: FR
   language: en
-  meeting_urn: urn:oiml:ciml:meeting:ciml-40
   title_localized:
   - language_code: eng
     title: 40th CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 40e réunion du CIML — Décisions (FR)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-40
 resolutions:
 - identifier: CIML/2005/1
   doi: 10.63493/resolutions/ciml200501
