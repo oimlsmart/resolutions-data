@@ -24,17 +24,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Approval of the minutes of the 38th CIML Meeting
+    title: Organization of the Meeting
     subject: CIML
     considerations: []
-    actions:
-    - type: approves
-      message: 'The Committee approved the minutes of its 38th Meeting without modification.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Organisation de la réunion
     subject: CIML
@@ -45,6 +38,158 @@ resolutions:
         prononcés par Dr. Tacke, Ministre délégué du "Federal Ministry of Economics
         and Labour", Dr. Röhling, Pr. Göbel, Président du PTB, et Pr. Kochsiek, Président
         Intérimaire du CIML.
+
+        '
+      dates:
+      - start: '2004-10-26'
+        kind: effective
+- identifier: Conference/2004/1.1
+  doi: 10.63493/resolutions/conf20041.1
+  urn: urn:oiml:doc:conf:resolution:12.1.1
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference took note of opening and welcome addresses delivered by
+      Dr. Tacke, Vice-Minister of t…
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        Federal Ministry of Economics and Labour, Dr. Röhling, Pr. Göbel, President of the PTB, and Pr. Kochsiek,
+              CIML Acting President.
+      dates:
+      - start: '2004-10-26'
+        kind: effective
+- identifier: Conference/2004/1.2
+  doi: 10.63493/resolutions/conf20041.2
+  urn: urn:oiml:doc:conf:resolution:12.1.2
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The roll of Delegates was called and it was found that 54 Member States
+      were present out of a total …
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'statutory quorum of two-thirds was therefore reached.
+
+        '
+      dates:
+      - start: '2004-10-26'
+        kind: effective
+- identifier: Conference/2004/1.3
+  doi: 10.63493/resolutions/conf20041.3
+  urn: urn:oiml:doc:conf:resolution:12.1.3
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: Information concerning voting procedures during Conference sessions was
+      given.
+    subject: CIML
+    considerations: []
+    actions: []
+- identifier: Conference/2004/1.4
+  doi: 10.63493/resolutions/conf20041.4
+  urn: urn:oiml:doc:conf:resolution:12.1.4
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference unanimously elected Dr. Röhling as Conference President
+      with Pr. Kochsiek (Germany)
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'standing in as and when required, and Mrs. Annabi and Dr. Zhagora
+        as Conference Vice-Presidents.
+
+        '
+      dates:
+      - start: '2004-10-26'
+        kind: effective
+- identifier: Conference/2004/1.5
+  doi: 10.63493/resolutions/conf20041.5
+  urn: urn:oiml:doc:conf:resolution:12.1.5
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference adopted the proposed agenda without modification.
+    subject: CIML
+    considerations: []
+    actions: []
+- identifier: Conference/2004/1.6
+  doi: 10.63493/resolutions/conf20041.6
+  urn: urn:oiml:doc:conf:resolution:12.1.6
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference established two Working Commissions, one for Financial Matters
+      and one for Technical
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Work.
+
+        '
+      dates:
+      - start: '2004-10-26'
+        kind: effective
+- identifier: Conference/2004/1.7
+  doi: 10.63493/resolutions/conf20041.7
+  urn: urn:oiml:doc:conf:resolution:12.1.7
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference adopted the proposed schedule.
+    subject: CIML
+    considerations: []
+    actions: []
+- identifier: Conference/2004/1.8
+  doi: 10.63493/resolutions/conf20041.8
+  urn: urn:oiml:doc:conf:resolution:12.1.8
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference approved the Minutes of the Eleventh Conference without
+      modification.
+    subject: CIML
+    considerations: []
+    actions: []
+- identifier: Conference/2004/1.9
+  doi: 10.63493/resolutions/conf20041.9
+  urn: urn:oiml:doc:conf:resolution:12.1.9
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference took note of a report presented by the President of the
+      International Committee of Le…
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Metrology describing the activities of the Organization for the period
+        2001–2004.
 
         '
       dates:
@@ -75,24 +220,17 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Situation of certain Members
+    title: New Members - Expected accessions
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'The Committee noted that Zambia had been struck off the list of Member
-        States, following the decisions made at the 38th CIML Meeting.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'The Committee noted that a number of countries were in the process
-        of, or were envisaging joining the Organization as Member States or as Corresponding
-        Members.
-
-        '
+      message: |
+        The Conference noted that the number of OIML Members had significantly increased since the Eleventh
+              Conference, although a number of Corresponding Members had been delisted for not having paid their
+              subscriptions for over three years. The Conference noted that certain Corresponding Members were
+              envisaging joining as Member States and that a number of countries/economies were expected to join as
+              Corresponding Members.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -122,16 +260,16 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Situation de certains Membres
+    title: The situation of certain Members
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a noté que la Zambie avait été radiée de la liste des
-        États Membres faute de s''être conformée aux obligations établies par la Onzième
-        Conférence.
-
-        '
+      message: |
+        The Conference noted that Zambia had been struck off the list of Member States for not having complied with
+              the requirements laid down by the Eleventh Conference.
+              It was also noted that the situation of two Member States would first be examined by the Finance
+              Commission, which would then report to the Conference under Item 8.2.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -157,67 +295,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Financial matters
+    title: Long-term policy
     subject: CIML
     considerations: []
-    actions:
-    - type: approves
-      message: 'The Committee approved the Auditor''s report for 2002 and 2003 and
-        requested its Acting President and the BIML Director to submit it to the Conference.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a pris note de l''allocution d''ouverture prononcée par
-        son Président Intérimaire.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a approuvé sans modification le projet d''ordre du jour.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a approuvé sans modification le compte-rendu de sa 38ème
-        Réunion.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a pris note du fait que la Zambie avait été radiée de la
-        liste des États Membres, suite aux décisions rendues à la 38ème Réunion du
-        CIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a constaté que plusieurs pays avaient entrepris les procédures
-        d''adhésion à l''Organisation comme États Membres ou Membres Correspondants,
-        ou l''envisageaient.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a approuvé le rapport comptable pour 2002 et 2003 et a demandé
-        à son Président Intérimaire et au Directeur du BIML de le présenter à la Conférence.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Politique à long terme
     subject: CIML
@@ -231,13 +312,12 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Rapport sur les actions réalisées depuis la Onzième Conférence
+    title: Report on actions carried out since the Eleventh Conference
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note d''un rapport présenté par le Directeur
-        du BIML.
+      message: 'The Conference took note of a report presented by the BIML Director.
 
         '
       dates:
@@ -264,15 +344,17 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Projet de Révision du Règlement Financier de l'OIML
+    title: Guidelines for the period 2005–2008
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a approuvé le Projet de Révision du Règlement Financier
-        de l''OIML et a chargé son Président Intérimaire de le présenter à la Conférence.
-
-        '
+      message: |
+        The Conference noted that most of the information concerning the actions carried out since the Eleventh
+              Conference, including the development of an Action Plan for 1999–2002 with extension to 2004, had been
+              given in the report on activities delivered by the CIML Acting President. The Conference also noted that the
+              Long-Term Policy and the Action Plan shall be revised under the supervision of the newly elected CIML
+              President, and requested the CIML to monitor its implementation.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -302,19 +384,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Activités du Conseil de la Présidence
+    title: Liaisons with international and regional institutions
     subject: CIML
     considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport de son Président Intérimaire en
-        ce qui concerne les activités du Conseil de la Présidence depuis la dernière
-        Réunion du CIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Liaisons avec les institutions internationales et régionales
     subject: CIML
@@ -328,13 +401,12 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Rapport sur les liaisons
+    title: Report on liaisons
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note d''un rapport présenté par le Directeur
-        du BIML.
+      message: 'The Conference took note of a report presented by the BIML Director.
 
         '
       dates:
@@ -361,15 +433,22 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Discours des Représentants des Institutions
+    title: Addresses by Representatives of Institutions
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a également pris note des rapports présentés par les
-        représentants de:
-
-        '
+      message: |
+        The Conference also noted the reports presented by the representatives of:
+              - ILAC/IAF, Mr. Pierre
+              - UNIDO, Dr. Loesener-Diaz
+              - Metre Convention, Dr. Castelazo
+              - WELMEC, Mr. Freistetter
+              - APLMF, Dr. Ooiwa
+              - EMLMF, Mr. Lagauterie
+              - SADCMEL, Mr. Carstens
+              - CCE, DG Enterprise, Mrs. Höke
+              - CECIP, Mr. Anthony.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -386,6 +465,28 @@ resolutions:
       dates:
       - start: '2004-10-26'
         kind: effective
+- identifier: Conference/2004/4.3
+  doi: 10.63493/resolutions/conf20044.3
+  urn: urn:oiml:doc:conf:resolution:12.4.3
+  dates:
+  - start: '2004-10-26'
+    kind: decision
+  localizations:
+  - language_code: eng
+    title: The Conference took note of a report presented by the BIML Director concerning
+      the main aspects of
+    subject: CIML
+    considerations: []
+    actions:
+    - type: notes
+      message: |
+        cooperation between the OIML and certain International and Regional Organizations. It was noted that a
+              number of matters should be considered in order to globally improve OIML activities in fields connected
+              with, for example, market surveillance, increased use of the work of other international or regional bodies,
+              etc.
+      dates:
+      - start: '2004-10-26'
+        kind: effective
 - identifier: Conference/2004/5
   doi: 10.63493/resolutions/conf200405
   urn: urn:oiml:doc:conf:resolution:12.05
@@ -394,18 +495,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Activités du BIML
+    title: Work of OIML Technical Committees and Subcommittees
     subject: CIML
     considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport décrivant les activités du Bureau
-        depuis la dernière Réunion du CIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Travaux des Comités Techniques et Sous-comités de l'OIML
     subject: CIML
@@ -419,18 +512,15 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Travaux entrepris - État d'avancement
+    title: Work undertaken - State of progress
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note d''un rapport concernant les activités des
-        Comités Techniques et Sous-comités de l''OIML et a demandé au CIML de continuer
-        à surveiller la situation et de trouver des solutions afin d''assurer une
-        meilleure répartition des responsabilités techniques parmi les États Membres
-        de l''OIML.
-
-        '
+      message: |
+        The Conference took note of a report concerning the activities of OIML Technical Committees and
+              Subcommittees and requested the CIML to continue to monitor the situation and to find solutions in order
+              to ensure a better distribution of technical responsibilities amongst OIML Member States.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -458,17 +548,18 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Mise en application des Recommandations par les Membres de l'OIML
+    title: Implementation of Recommendations by OIML Members
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note d''informations fournies par le Bureau concernant
-        la mise en application des Recommandations OIML dans les réglementations nationales
-        ou les normes d''application volontaire. Il a été constaté qu''en raison du
-        faible taux de réponses, aucun rapport complet ne pouvait être donné.
-
-        '
+      message: |
+        The Conference took note of information given by the Bureau concerning the implementation of OIML
+              Recommendations in national regulations or voluntary standards. It noted that due to the low level of
+              responses, no comprehensive report could be given.
+              Member States that had not yet replied to the BIML inquiry were requested to do so urgently. The Conference
+              encouraged the Bureau to convert this information and inquiries into a permanent interactive facility on the
+              OIML web site.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -495,19 +586,18 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Sanction officielle des Recommandations déjà approuvées par le Comité en
-      2001, 2002, 2003 et 2004
+    title: Formal sanction of Recommendations already approved by the Committee in
+      2001, 2002, 2003 and 2004
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a décidé que les Formats de Rapport d''Essai OIML, qui
-        sont de nature informative pour ce qui concerne leur application dans le cadre
-        des réglementations nationales, doivent être approuvés par le CIML selon les
-        règles applicables aux Documents Internationaux, sans devoir être sanctionnés
-        par la Conférence.
-
-        '
+      message: |
+        The Conference decided that OIML Test Report Formats, which are of an informative nature concerning their
+              implementation in national regulations, shall be approved by the CIML according to the rules applicable to
+              International Documents, without having to be sanctioned by the Conference.
+              The Conference sanctioned those new or revised Recommendations already approved by the Committee in
+              2001, 2002, 2003 and 2004.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -536,15 +626,14 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Projets de Recommandations présentés directement pour sanction par la Conférence
+    title: Draft Recommendations directly presented for sanctioning by the Conference
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a sanctionné une nouvelle Recommandation Instruments
-        de mesure de la surface des cuirs (R 136).
-
-        '
+      message: |
+        The Conference sanctioned one new Recommendation Instruments for measuring the area of leathers (R 136).
+              The Conference also decided to withdraw OIML Recommendations R 33 and R 62.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -569,7 +658,7 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Activités techniques
+    title: OIML Certificate System for Measuring Instruments
     subject: CIML
     considerations: []
     actions: []
@@ -586,23 +675,15 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Approbation de Documents Internationaux
+    title: Report on the situation of the System
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a approuvé le Document International suivant:
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a constaté que les Documents Internationaux suivants et
-        un Format de Rapport d''Essai avaient été approuvés par le CIML par vote postal
-        depuis la 38ème Réunion du CIML et que le BIML procéderait à leur publication:
-
-        '
+      message: |
+        The Conference took note of a report describing progress made with this activity since the establishment of
+              the System in general and since the 11th Conference in particular, including the results of recent inquiries
+              carried out among OIML Members and manufacturers.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -630,53 +711,17 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Examen de la situation de certains TC/SC
+    title: Mutual Acceptance Arrangement (MAA)
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a pris note d''un rapport du BIML décrivant la situation
-        de certains Comités Techniques et SousComités.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a approuvé la proposition d''attribuer le Secrétariat du
-        TC 6 à l''Afrique du sud et celui du TC 9/SC 3 à l''Allemagne.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a constaté premièrement que les Secrétariats du TC 8/SC
-        2 et du TC 10/SC 3 étaient encore vacants, et deuxièmement que l''Allemagne
-        souhaitait abandonner le Secrétariat du TC 12. Il a demandé aux Membres d''étudier
-        la possibilité de prendre la responsabilité des Secrétariats de ces organes
-        techniques.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a approuvé deux nouveaux projets de travail:
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a fixé la date limite pour la délivrance des Certificats
-        d''après l''édition 1996 de la R 61 au 31 décembre 2005 et a demandé aux Autorités
-        de Délivrance d''avertir le BIML lorsqu''elles seraient prêtes à délivrer
-        des Certificats d''après les exigences de la R 61 révisée (édition 2004),
-        car la R 61-1 avait déjà été publiée et la publication de la R 61-2 (2004)
-        était imminente.
-
-        '
+      message: |
+        The Conference expressed its appreciation to the CIML for the setting up of the Mutual Acceptance
+              Arrangement, and took note that this System will be implemented in 2005.
+              The Conference took note of proposals concerning the operation of the MAA and of the Certificate System.
+              The Conference instructed the Committee to take appropriate decisions on these proposals and to begin a
+              revision of this document once experience has been gained following its implementation.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -702,31 +747,17 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Application du MAA
+    title: Other developments
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a pris note d''un rapport sur l''Atelier tenu le dimanche
-        24 octobre, et a approuvé les décisions proposées annexées aux présentes décisions.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a chargé le TC 3/SC 5 et le Bureau de commencer une révision
-        du B 3 et du B 10 après avoir acquis une certaine expérience sur le MAA.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un projet de programme pour l''application
-        du MAA.
-
-        '
+      message: |
+        The Conference took note of a report concerning the results of various inquiries carried out by the BIML in
+              order to ascertain the views of manufacturers and CIML Members concerning advisable developments of the
+              System.
+              The Conference confirmed the urgency of addressing the problem of conformity to type of measuring
+              instruments.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -745,49 +776,6 @@ resolutions:
       dates:
       - start: '2004-10-26'
         kind: effective
-- identifier: Conference/2004/6.4
-  doi: 10.63493/resolutions/conf20046.4
-  urn: urn:oiml:doc:conf:resolution:12.6.4
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Autres décisions liées au Système de Certificats OIML
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a décidé qu''à partir du 1<sup>er</sup> janvier 2005, les
-        Autorités de délivrance de l''OIML devaient établir les Certificats OIML dans
-        un format électronique spécifié par le BIML, de façon que ces Certificats
-        puissent être diffusés sur le site Internet de l''OIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/6.5
-  doi: 10.63493/resolutions/conf20046.5
-  urn: urn:oiml:doc:conf:resolution:12.6.5
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Divers
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a souhaité qu''il soit précisé que les interprétations substantielles
-        des Recommandations et Documents relevaient de la responsabilité des Comités
-        Techniques et Sous-comités de l''OIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
 - identifier: Conference/2004/7
   doi: 10.63493/resolutions/conf200407
   urn: urn:oiml:doc:conf:resolution:12.07
@@ -796,38 +784,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Pays en Développement
+    title: Developing Countries
     subject: CIML
     considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport présenté par le Dr Seiler à propos
-        du Forum Métrologie - Facilitateur de Commerce tenu lundi 25 octobre et a
-        chargé le Bureau d''organiser les suites de ce Forum.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport présenté par M. Magaña sur les
-        activités du Conseil de Développement de l''OIML et a exprimé sa plus grande
-        satisfaction pour les contributions de sa Présidente, Mme Annabi.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: notes
-      message: 'Le Comité a considéré que le travail de l''OIML sur les questions
-        relatives aux Pays en Développement pouvait être géré plus efficacement par
-        le Groupe de Travail Permanent sur les Pays en Développement (PWGDC) créé
-        par la 38ème Réunion du CIML; le PWGDC devrait remplacer le Conseil de Développement.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Pays en Développement
     subject: CIML
@@ -841,16 +801,16 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Rapport sur les activités de la période 2001-2004
+    title: Report on activities for the period 2001–2004
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note d''un rapport concernant la réunion du Conseil
-        de Développement tenue le 25 octobre et a exprimé sa satisfaction à la Présidente
-        pour le travail accompli.
-
-        '
+      message: |
+        The Conference took note of a report concerning the Development Council meeting held on 25 October and
+              expressed its appreciation to the Chairperson for the work accomplished.
+              The Conference noted in particular the report concerning the Forum: Metrology – Trade Facilitator held on 25
+              October 2004 and expressed its appreciation to the German Authorities for having organized this event.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -876,19 +836,21 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Directives pour l'activité à venir
+    title: Guidelines for future activity
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note du rapport du Comité selon lequel, en dépit
-        de la Résolution 7.2 de la 6ème Conférence Internationale de Métrologie Légale
-        qui instituait le Conseil de Développement de l''OIML, le travail de l''OIML
-        sur les questions relatives aux Pays en Développement pourrait être géré plus
-        efficacement par un Groupe de Travail Permanent pour les Pays en Développement
-        (PWGDC), créé pour remplacer le Conseil de Développement.
-
-        '
+      message: |
+        The Conference noted the Committee’s report that, notwithstanding Resolution 7.2 of the 6th International
+              Conference of Legal Metrology which established the OIML Development Council, the OIML’s work on
+              Developing Country matters could be more efficiently managed by the establishment of a Permanent Working
+              Group on Developing Countries (PWGDC), which would replace the Development Council.
+              The Conference therefore approved the decision of the 38th CIML Meeting to create a PWGDC, the terms of
+              reference of which shall be established by the Committee. This Permanent Working Group shall act as an
+              advisory body to the President of the Committee on aspects of the OIML’s work relating to Developing
+              Countries.
+              The Conference also decided to cease the activities of the current Development Council.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -917,19 +879,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Coordination avec les Organisations Régionales de Métrologie Légale
+    title: Administrative and financial matters
     subject: CIML
     considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a chargé son Président et le Directeur du Bureau de continuer
-        à travailler en liaison étroite avec les Organisations Régionales de Métrologie
-        Légale.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Questions d'ordres administratif et financier
     subject: CIML
@@ -943,14 +896,22 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Examen de la gestion du budget de 2000 à 2003 et estimations pour 2004
+    title: Examination of the management of the budget from 2000 to 2003 and the estimates
+      for 2004
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence Internationale de Métrologie Légale,
-
-        '
+      message: |
+        The International Conference of Legal Metrology,
+              HAVING EXAMINED the report on the management of the budget for the years 2000, 2001, 2002 and 2003;
+              NOTING that the budget was managed in conformity with the expenses necessary for carrying out the work
+              of the Bureau and that the accuracy of the report has been certified by annual audits;
+              NOTING that the respective functions assigned by the Convention to the President of the International
+              Committee of Legal Metrology and to the Director of the International Bureau of Legal Metrology have been
+              fulfilled;
+              GIVES ITS DEFINITIVE DISCHARGE to the President of the Committee and to the Director of the Bureau
+              for their management of the budget during the years mentioned above.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -974,14 +935,21 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Décisions relatives aux dettes de certains pays
+    title: Decisions related to the debts of certain countries
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a adopté la Résolution suivante:
-
-        '
+      message: |
+        The Conference adopted the following Resolution:
+              The International Conference of Legal Metrology,
+              HAVING EXAMINED the report on the management of the budget for the years 2000, 2001, 2002 and 2003;
+              NOTING that a large part of the holdings on December 31, 2003 consisted of debts owed by Member States;
+              URGENTLY REQUESTS that those Member States that are in arrears with their contributions pay their debts
+              as soon as possible;
+              HAVING NOTED a report by the Director of the Bureau on the situation of certain Member States in arrears
+              with their contributions,
+              MAKES the following decisions:
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -1005,13 +973,13 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Révision du Règlement Financier de l'OIML
+    title: Revision of the OIML Financial Regulations
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a approuvé le Règlement Financier de l''OIML révisé
-        tel qu''établi par le Comité.
+      message: 'The Conference approved the revised OIML Financial Regulations as
+        established by the Committee.
 
         '
       dates:
@@ -1038,15 +1006,20 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Personnel du Bureau et plan de Retraite
+    title: Bureau staff and Retirement scheme
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a pris note d''un rapport fourni par le Directeur du
-        BIML sur cette question.
-
-        '
+      message: |
+        The Conference took note of a report given by the BIML Director on this issue.
+              The Conference noted that the OIML Retirement scheme will be balanced for the period 2005–2008 without
+              an additional endowment from the Organization being necessary.
+              The Conference noted that additional studies are necessary for assessing the rights of the Staff and the
+              commitments of the Organization concerning the Retirement scheme and for examining how these
+              commitments must be recorded in the Organization’s accounts.
+              The Conference instructed the CIML to undertake these studies and to report and make proposals to the
+              Thirteenth Conference.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -1071,15 +1044,20 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Budget pour la période financière 2005-2008
+    title: Budget for the financial period 2005–2008
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a accepté (avec une abstention) de considérer les propositions
-        budgétaires dans leur ensemble et non comme composants séparés.
-
-        '
+      message: |
+        The Conference accepted (with one abstention) to consider the budgetary proposals as a whole and not in
+              separate components.
+              The Conference adopted the following Resolution:
+              The International Conference of Legal Metrology,
+              ACCEPTING the budgetary proposals of the Director of the International Bureau of Legal Metrology for the
+              financial period beginning January 1, 2005 and ending December 31, 2008;
+              APPROVES the fee structure and the budget for the Organization’s expenses annexed to these Decisions and
+              Resolutions;
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -1104,17 +1082,15 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Statut des Publications OIML
+    title: Status of OIML Publications
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'La Conférence a approuvé la proposition de rendre toutes les Publications
-        OIML, exceptées celles publiées en commun avec d''autres organisations, disponibles
-        gratuitement sous forme électronique sur le site Internet de l''OIML et de
-        cesser leur publication sur papier.
-
-        '
+      message: |
+        The Conference approved the proposal to make all OIML Publications, except those which are published
+              jointly with other Organizations, available free of charge in electronic format on the OIML web site and to
+              cease publishing them on paper.
       dates:
       - start: '2004-10-26'
         kind: effective
@@ -1141,21 +1117,10 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Douzième Conférence Internationale de Métrologie Légale
+    title: Other business
     subject: CIML
     considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a approuvé les projets d''ordre du jour et de programme
-        de la Conférence. Il a pris note que le Dr Röhling serait proposé comme Président
-        de la Conférence et a approuvé la proposition du Président Intérimaire du
-        CIML de désigner Mme Annabi et Dr Zhagora comme Vice-Présidents pour la séance
-        de la Conférence.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+    actions: []
   - language_code: fra
     title: Autres questions
     subject: CIML
@@ -1169,13 +1134,12 @@ resolutions:
     kind: decision
   localizations:
   - language_code: eng
-    title: Présidence du CIML
+    title: Closure
     subject: CIML
     considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a élu M. Alan E. Johnston (Membre du CIML pour le Canada)
-        comme Président du CIML pour les six prochaines années.
+      message: '10.1 Adoption of the Decisions and Resolutions of the Conference
 
         '
       dates:
@@ -1193,20 +1157,6 @@ resolutions:
   - start: '2004-10-26'
     kind: decision
   localizations:
-  - language_code: eng
-    title: Adoption des Décisions et Résolutions de la Conférence
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Après avoir procédé à un second appel des Délégués, il a été constaté
-        que 53 États Membres étaient présents; le quorum statutaire des deux tiers
-        fixé par la Convention était donc atteint.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
   - language_code: fra
     title: Adoption des Décisions et Résolutions de la Conférence
     subject: CIML
@@ -1228,26 +1178,6 @@ resolutions:
   - start: '2004-10-26'
     kind: decision
   localizations:
-  - language_code: eng
-    title: Date et lieu de la prochaine Conférence
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'The Committee took note of the opening address delivered by its Acting
-        President.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-    - type: approves
-      message: 'The Committee approved the draft agenda without modification.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
   - language_code: fra
     title: Date et lieu de la prochaine Conférence
     subject: CIML
@@ -1258,135 +1188,6 @@ resolutions:
         jusqu''en 2006, une proposition d''un État Membre d''accueillir la Treizième
         Conférence en 2008. Si aucun État Membre n''y était disposé, alors le BIML
         organiserait la Conférence en France.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/11
-  doi: 10.63493/resolutions/conf200411
-  urn: urn:oiml:doc:conf:resolution:12.11
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Douzième Conférence Internationale de Métrologie Légale
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a pris note des décisions rendues par la Douzième Conférence
-        et a demandé à son Président Intérimaire, au Présidium et au Conseil de la
-        Présidence de veiller à leur application et d''en rendre compte lors de la
-        prochaine Réunion du CIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/12
-  doi: 10.63493/resolutions/conf200412
-  urn: urn:oiml:doc:conf:resolution:12.12
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Futures réunions
-    subject: CIML
-    considerations: []
-    actions: []
-- identifier: Conference/2004/12.1
-  doi: 10.63493/resolutions/conf200412.1
-  urn: urn:oiml:doc:conf:resolution:12.12.1
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: 40ème Réunion du CIML (2005)
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a remercié le Gouvernement français pour son invitation
-        à tenir sa 40ème Réunion à Lyon, France, du 17 au 20 juin 2005, en conjonction
-        avec le Congrès International de Métrologie. Le Comité a pris note du fait
-        qu''une réception de gala serait organisée le 20 juin 2005 pour célébrer le
-        50ème Anniversaire de l''OIML.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/12.2
-  doi: 10.63493/resolutions/conf200412.2
-  urn: urn:oiml:doc:conf:resolution:12.12.2
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: 41ème Réunion du CIML (2006)
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a accepté l''invitation de l''Afrique du Sud pour accueillir
-        la 41ème Réunion du CIML et a exprimé ses remerciements à M. Carstens pour
-        cette invitation.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/13
-  doi: 10.63493/resolutions/conf200413
-  urn: urn:oiml:doc:conf:resolution:12.13
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Autres questions
-    subject: CIML
-    considerations: []
-    actions: []
-- identifier: Conference/2004/13.1
-  doi: 10.63493/resolutions/conf200413.1
-  urn: urn:oiml:doc:conf:resolution:12.13.1
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Directeur du BIML
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité a approuvé la Procédure de recrutement du Directeur du BIML
-        et des Adjoints au Directeur.
-
-        '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/14
-  doi: 10.63493/resolutions/conf200414
-  urn: urn:oiml:doc:conf:resolution:12.14
-  dates:
-  - start: '2004-10-26'
-    kind: decision
-  localizations:
-  - language_code: eng
-    title: Adoption des décisions
-    subject: CIML
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Les décisions mentionnées ci-dessus ont été adoptées.
 
         '
       dates:
