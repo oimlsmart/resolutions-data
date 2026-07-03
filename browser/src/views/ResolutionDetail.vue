@@ -54,7 +54,7 @@
           </svg>
         </router-link>
         
-        <span v-if="resolution.meeting_date" class="std-page__badge badge-date">{{ formatDate(resolution.meeting_date) }}</span>
+        <span v-if="resolution.meeting_date" class="std-page__badge badge-date">{{ formatDate(resolution.meeting_date, lang) }}</span>
         <span v-if="!resolution.is_acclamation" class="std-page__badge">
           <template v-if="resolution.source_type === 'plenary'">Resolution</template>
           <template v-else-if="resolution.source_type === 'ballot'">Ballot resolution</template>
@@ -66,8 +66,8 @@
 
       <h1 v-if="resolution.title" class="std-page__title res-detail-title">{{ resolution.title }}</h1>
 
-      <p v-if="resolution.source_title" class="res-detail-subtitle">
-        {{ resolution.source_title }}
+      <p v-if="displaySourceTitle" class="res-detail-subtitle">
+        {{ displaySourceTitle }}
       </p>
     </header>
 
@@ -106,7 +106,7 @@
       <section v-if="resolution.subject" class="std-page__section animate-up" style="--nth: 4">
         <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.subject') }}</h2>
         <div class="std-page__body res-detail-body">
-          <p>{{ resolution.subject }}</p>
+          <p>{{ displaySubject }}</p>
         </div>
       </section>
 
@@ -114,7 +114,7 @@
         <h2 class="std-page__section-heading res-detail-section-title">{{ t('resolution.considerations') }}</h2>
         <div class="std-page__body res-detail-list">
           <div v-for="(cons, idx) in resolution.considerations" :key="idx" class="consideration-item res-detail-card">
-            <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type) }}</span>
+            <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type, lang) }}</span>
             <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
           </div>
         </div>
@@ -129,7 +129,7 @@
               class="res-detail-card-type res-detail-card-type--action"
               :style="{ '--action-color': getActionColor(act.type).bg }"
             >
-              {{ formatActionType(act.type) }}
+              {{ formatActionType(act.type, lang) }}
             </span>
             <p v-if="act.subject" class="res-detail-card-subject">{{ act.subject }}</p>
             <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
@@ -174,13 +174,13 @@
           <p v-if="secondaryResolution.title" class="res-secondary-lang__title">{{ secondaryResolution.title }}</p>
           <div v-if="secondaryResolution.considerations && secondaryResolution.considerations.length" class="res-detail-list">
             <div v-for="(cons, idx) in secondaryResolution.considerations" :key="`fr-cons-${idx}`" class="consideration-item res-detail-card">
-              <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type) }}</span>
+              <span v-if="cons.type" class="res-detail-card-type">{{ formatActionType(cons.type, lang) }}</span>
               <div class="res-detail-richtext" v-html="asciidocify(cons.message)"></div>
             </div>
           </div>
           <div v-if="secondaryResolution.actions && secondaryResolution.actions.length" class="res-detail-list">
             <div v-for="(act, idx) in secondaryResolution.actions" :key="`fr-act-${idx}`" class="action-item res-detail-card res-detail-card--action">
-              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ formatActionType(act.type) }}</span>
+              <span v-if="act.type" class="res-detail-card-type res-detail-card-type--action" :style="{ '--action-color': getActionColor(act.type).bg }">{{ formatActionType(act.type, lang) }}</span>
               <div class="res-detail-richtext" v-html="asciidocify(act.message)"></div>
             </div>
           </div>
@@ -198,7 +198,7 @@
           >
             <div class="related-meta">
               <span class="related-id">{{ r.identifier || r.id }}</span>
-              <span class="related-date">{{ formatDate(r.meeting_date) }}</span>
+              <span class="related-date">{{ formatDate(r.meeting_date, lang) }}</span>
             </div>
             <div class="related-title">{{ r.title || 'Resolution ' + (r.identifier || r.id) }}</div>
             <div class="card-hover-arrow">
@@ -210,8 +210,8 @@
 
       <!-- Prev / Next Navigation -->
       <nav class="res-navigation animate-up" style="--nth: 10" aria-label="Resolution navigation">
-        <router-link 
-          v-if="prevResolution" 
+        <router-link
+          v-if="prevResolution"
           :to="{ name: 'resolution-detail', params: { id: prevResolution.id } }"
           class="res-nav-card res-nav-card--prev"
         >
@@ -219,12 +219,13 @@
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
             {{ t('resolution.previous') }}
           </span>
+          <span class="res-nav-id font-mono">{{ prevResolution.identifier || prevResolution.id }}</span>
           <span class="res-nav-title">{{ prevResolution.title || prevResolution.id }}</span>
         </router-link>
         <div v-else class="res-nav-empty"></div>
 
-        <router-link 
-          v-if="nextResolution" 
+        <router-link
+          v-if="nextResolution"
           :to="{ name: 'resolution-detail', params: { id: nextResolution.id } }"
           class="res-nav-card res-nav-card--next"
         >
@@ -232,6 +233,7 @@
             {{ t('resolution.next') }}
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m9 18 6-6-6-6"/></svg>
           </span>
+          <span class="res-nav-id font-mono">{{ nextResolution.identifier || nextResolution.id }}</span>
           <span class="res-nav-title">{{ nextResolution.title || nextResolution.id }}</span>
         </router-link>
         <div v-else class="res-nav-empty"></div>
@@ -292,7 +294,7 @@ import type { Resolution } from '../types/resolution'
 import { useMeetings } from '../composables/useMeetings'
 import { asciidocify } from '../utils/asciidoc'
 import { getActionColor } from '../data/actionTypes'
-import { formatActionType } from '../utils/actionType'
+import { formatActionType } from '../data/actionTypes'
 import { formatDate } from '../utils/format'
 import { useClipboard } from '../composables/useClipboard'
 
@@ -396,6 +398,32 @@ const secondaryResolution = computed(() => {
 
 // Backwards-compat alias so existing template references keep working.
 const resolution = computed(() => primaryResolution.value)
+
+// Translate the parenthesised placeholder subjects ("(The CIML)" /
+// "(The Conference)") to the active UI language. Real subject strings
+// (e.g. "CIML", "OIML Conference") are displayed verbatim.
+const displaySubject = computed(() => {
+  const s = resolution.value?.subject || ''
+  if (s === '(The CIML)') return t.value('committee.placeholderCiml')
+  if (s === '(The Conference)') return t.value('committee.placeholderConference')
+  return s
+})
+
+// Localised source title: look up the meeting by meeting_slug and pick
+// the title from the localisation that matches the active UI language,
+// Source title is already language-correct: build-data.mjs picks the
+// entry from metadata.title_localized[] matching the record's language.
+// In 'both' mode we want the active UI language's title.
+const displaySourceTitle = computed(() => {
+  const res = resolution.value
+  if (!res) return ''
+  if (res.language === lang.value) return res.source_title || ''
+  // UI language differs from this record's language — look up the
+  // matching language version via languageVersions.
+  const target = lang.value === 'fr' ? 'fr' : 'en'
+  const match = languageVersions.value.find(r => r.language === target)
+  return match?.source_title || res.source_title || ''
+})
 
 // Bilingual mode: 'en' | 'fr' | 'both'. Defaults to the current UI language,
 // or to 'en' if the UI language isn't available for this resolution.

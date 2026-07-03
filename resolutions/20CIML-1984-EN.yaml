@@ -12,455 +12,496 @@ metadata:
     kind: meeting
   source: OIML CIML Secretariat (BIML)
   venue: Helsinki, Finland
-  city: Helsinki
+  city: FIHEL
   country_code: FI
   language: en
   meeting_urn: urn:oiml:ciml:meeting:ciml-20
+  title_localized:
+  - language_code: eng
+    title: 20th CIML Meeting — Minutes (EN, Bulletin)
 resolutions:
 - identifier: CIML/1984/1
   doi: 10.63493/resolutions/ciml198401
   urn: urn:oiml:doc:ciml:resolution:1984-01
-  subject: "(The CIML)"
-  title: APPROVAL OF THE REPORT ON THE 19th COMMITTEE MEETING
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'This report is approved with the following amendment :
+  localizations:
+  - language_code: eng
+    title: APPROVAL OF THE REPORT ON THE 19th COMMITTEE MEETING
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'This report is approved with the following amendment :
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/2
   doi: 10.63493/resolutions/ciml198402
   urn: urn:oiml:doc:ciml:resolution:1984-02
-  subject: "(The CIML)"
-  title: APPROVAL OF THE ACCOUNTANT REPORT FOR 1983 AND OTHER FINANCIAL INFORMATION
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: approves
-    message: 'The Committee approves the accountant report for 1983 and instructs
-      its President and the Director of the Bureau to submit it to the 7th Conference.
+  localizations:
+  - language_code: eng
+    title: APPROVAL OF THE ACCOUNTANT REPORT FOR 1983 AND OTHER FINANCIAL INFORMATION
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: approves
+      message: 'The Committee approves the accountant report for 1983 and instructs
+        its President and the Director of the Bureau to submit it to the 7th Conference.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/3
   doi: 10.63493/resolutions/ciml198403
   urn: urn:oiml:doc:ciml:resolution:1984-03
-  subject: "(The CIML)"
-  title: EXAMINATION OF THE DETAILED DRAFT REGULATIONS FOR THE OIML RETIREMENT PLAN
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr BIRKELAND recalls that the principle of the creation of an OIML retirement
-      plan was the subject of a decision taken by the 6th Conference. Subsequently,
-      during its 19th meeting, the Committee has accepted the expert''s report on
-      the cost of this retirement plan, which confirmed the estimates presented to
-      the 6th Conference. Complying with a request of the Committee, the Bureau has
-      then prepared a draft of the detailed rules of the retirement plan, which was
-      submitted to the meeting for study.
+  localizations:
+  - language_code: eng
+    title: EXAMINATION OF THE DETAILED DRAFT REGULATIONS FOR THE OIML RETIREMENT PLAN
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr BIRKELAND recalls that the principle of the creation of an OIML
+        retirement plan was the subject of a decision taken by the 6th Conference.
+        Subsequently, during its 19th meeting, the Committee has accepted the expert''s
+        report on the cost of this retirement plan, which confirmed the estimates
+        presented to the 6th Conference. Complying with a request of the Committee,
+        the Bureau has then prepared a draft of the detailed rules of the retirement
+        plan, which was submitted to the meeting for study.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/4
   doi: 10.63493/resolutions/ciml198404
   urn: urn:oiml:doc:ciml:resolution:1984-04
-  subject: "(The CIML)"
-  title: EXAMINATION OF PROPOSALS OF THE PRESIDENTIAL COUNCIL CONCERNING LONG-TERM
-    PLANNING OF OIML WORK, AND…
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr BIRKELAND presents the document on planning, elaborated by the Presidential
-      Council according to the decisions of the Committee (18th and 19th meetings)
-      and distributed to Committee Members in June 1984.
+  localizations:
+  - language_code: eng
+    title: EXAMINATION OF PROPOSALS OF THE PRESIDENTIAL COUNCIL CONCERNING LONG-TERM
+      PLANNING OF OIML WORK, AND…
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr BIRKELAND presents the document on planning, elaborated by the
+        Presidential Council according to the decisions of the Committee (18th and
+        19th meetings) and distributed to Committee Members in June 1984.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/5
   doi: 10.63493/resolutions/ciml198405
   urn: urn:oiml:doc:ciml:resolution:1984-05
-  subject: "(The CIML)"
-  title: 'SEVENTH CONFERENCE : ORGANIZATION OF THE MEETING, CHAIRMANSHIP, AGENDA'
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'The Committee adopts the drafts of the Agenda and of the timetable presented
-      by the Bureau as well as the proposals concerning the organization of the meeting
-      presented by Finland.
+  localizations:
+  - language_code: eng
+    title: 'SEVENTH CONFERENCE : ORGANIZATION OF THE MEETING, CHAIRMANSHIP, AGENDA'
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'The Committee adopts the drafts of the Agenda and of the timetable
+        presented by the Bureau as well as the proposals concerning the organization
+        of the meeting presented by Finland.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/6
   doi: 10.63493/resolutions/ciml198406
   urn: urn:oiml:doc:ciml:resolution:1984-06
-  subject: "(The CIML)"
-  title: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr BIRKELAND gives a summary of the decisions of the Conference, ensures
-      that there are no ambiguities and instructs the Bureau to ensure that they are
-      implemented, as appropriate.
+  localizations:
+  - language_code: eng
+    title: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr BIRKELAND gives a summary of the decisions of the Conference, ensures
+        that there are no ambiguities and instructs the Bureau to ensure that they
+        are implemented, as appropriate.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7
   doi: 10.63493/resolutions/ciml198407
   urn: urn:oiml:doc:ciml:resolution:1984-07
-  subject: "(The CIML)"
-  title: EXAMINATION OF THE SITUATION OF SOME SECRETARIATS
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions: []
+  localizations:
+  - language_code: eng
+    title: EXAMINATION OF THE SITUATION OF SOME SECRETARIATS
+    subject: "(The CIML)"
+    considerations: []
+    actions: []
 - identifier: CIML/1984/7.1
   doi: 10.63493/resolutions/ciml19847.1
   urn: urn:oiml:doc:ciml:resolution:1984-7.1
-  subject: "(The CIML)"
-  title: SP5 (volumes of liquids)
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'The Committee accepts the proposal presented by the Fed. Rep. of Germany,
-      United States and France to split into two SP5, a part « static measurement
-      » under the responsibility of France and a part « dynamic measurement » under
-      that of the Fed. Rep. of Germany.
+  localizations:
+  - language_code: eng
+    title: SP5 (volumes of liquids)
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'The Committee accepts the proposal presented by the Fed. Rep. of Germany,
+        United States and France to split into two SP5, a part « static measurement
+        » under the responsibility of France and a part « dynamic measurement » under
+        that of the Fed. Rep. of Germany.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.2
   doi: 10.63493/resolutions/ciml19847.2
   urn: urn:oiml:doc:ciml:resolution:1984-7.2
-  subject: "(The CIML)"
-  title: SP13 (electricity)
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr THULIN presents a study prepared by the Bureau about the possible
-      activity of this Pilot Secretariat in liaison with IEC work. For the majority
-      of the subjects it would be ideal for OIML not to undertake any specific work
-      but to influence the corresponding IEC work so that the IEC publications (which,
-      in general, cover the specifications as well as the test methods) are suitable
-      for legal metrology; the OIML Recommendations could then be limited to a selection
-      of necessary specifications and tests within the framework of legal metrology,
-      as it was done with sound level meters.
+  localizations:
+  - language_code: eng
+    title: SP13 (electricity)
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr THULIN presents a study prepared by the Bureau about the possible
+        activity of this Pilot Secretariat in liaison with IEC work. For the majority
+        of the subjects it would be ideal for OIML not to undertake any specific work
+        but to influence the corresponding IEC work so that the IEC publications (which,
+        in general, cover the specifications as well as the test methods) are suitable
+        for legal metrology; the OIML Recommendations could then be limited to a selection
+        of necessary specifications and tests within the framework of legal metrology,
+        as it was done with sound level meters.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.3
   doi: 10.63493/resolutions/ciml19847.3
   urn: urn:oiml:doc:ciml:resolution:1984-7.3
-  subject: "(The CIML)"
-  title: Photometry and radiometry
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr. THULIN recalls that in April 1984 the Bureau carried out an enquiry
-      in order to find out the interest shown by the Member States in these subjects;
-      this enquiry included extracts from IEC and CIE $ ^{*} $ work programs.
+  localizations:
+  - language_code: eng
+    title: Photometry and radiometry
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr. THULIN recalls that in April 1984 the Bureau carried out an enquiry
+        in order to find out the interest shown by the Member States in these subjects;
+        this enquiry included extracts from IEC and CIE $ ^{*} $ work programs.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.4
   doi: 10.63493/resolutions/ciml19847.4
   urn: urn:oiml:doc:ciml:resolution:1984-7.4
-  subject: "(The CIML)"
-  title: SP 17-Sr 3 (radioactive pollution)
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr ATHANE points out that the United Kingdom having initially accepted
-      responsibility for this Reporting Secretariat was obliged to abandon it; another
-      candidate country must therefore be found.
+  localizations:
+  - language_code: eng
+    title: SP 17-Sr 3 (radioactive pollution)
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr ATHANE points out that the United Kingdom having initially accepted
+        responsibility for this Reporting Secretariat was obliged to abandon it; another
+        candidate country must therefore be found.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.5
   doi: 10.63493/resolutions/ciml19847.5
   urn: urn:oiml:doc:ciml:resolution:1984-7.5
-  subject: "(The CIML)"
-  title: SP 2-Sr 4 (recognition of metrological controls)
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr BIRKELAND gives a summary of the discussions which took place during
-      the Conference and considers that it is not necessary to repeat them. In conclusion,
-      the Committee adopts the following resolution:
+  localizations:
+  - language_code: eng
+    title: SP 2-Sr 4 (recognition of metrological controls)
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr BIRKELAND gives a summary of the discussions which took place during
+        the Conference and considers that it is not necessary to repeat them. In conclusion,
+        the Committee adopts the following resolution:
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.6
   doi: 10.63493/resolutions/ciml19847.6
   urn: urn:oiml:doc:ciml:resolution:1984-7.6
-  subject: "(The CIML)"
-  title: Suppression of certain Secretariats
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Following the proposal of the Bureau and of the States concerned, the
-      Committee suppresses the following three Reporting Secretariats :
+  localizations:
+  - language_code: eng
+    title: Suppression of certain Secretariats
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Following the proposal of the Bureau and of the States concerned,
+        the Committee suppresses the following three Reporting Secretariats :
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.7
   doi: 10.63493/resolutions/ciml19847.7
   urn: urn:oiml:doc:ciml:resolution:1984-7.7
-  subject: "(The CIML)"
-  title: SP 2-Sr 6 and SP 7-Sr 2
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr PETERSEN underlines the extreme urgency of the work of both these
-      Secretariats and suggests that the Committee recognise this officially and requests
-      the States concerned to give these subjects the highest priority; he proposes
-      a draft resolution on this subject.
+  localizations:
+  - language_code: eng
+    title: SP 2-Sr 6 and SP 7-Sr 2
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr PETERSEN underlines the extreme urgency of the work of both these
+        Secretariats and suggests that the Committee recognise this officially and
+        requests the States concerned to give these subjects the highest priority;
+        he proposes a draft resolution on this subject.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/7.8
   doi: 10.63493/resolutions/ciml19847.8
   urn: urn:oiml:doc:ciml:resolution:1984-7.8
-  subject: "(The CIML)"
-  title: Recalibration intervals of measurement standards and standard devices
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'Mr ATHANE states that the two documents prepared by the ILAC task Force
-      E were taken into consideration by OIML.
+  localizations:
+  - language_code: eng
+    title: Recalibration intervals of measurement standards and standard devices
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'Mr ATHANE states that the two documents prepared by the ILAC task
+        Force E were taken into consideration by OIML.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/8
   doi: 10.63493/resolutions/ciml198408
   urn: urn:oiml:doc:ciml:resolution:1984-08
-  subject: "(The CIML)"
-  title: REPORT ON ACTIVITY OF BIML
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'The Committee took note of the report on the activity of BIML, presented
-      in writing.
+  localizations:
+  - language_code: eng
+    title: REPORT ON ACTIVITY OF BIML
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'The Committee took note of the report on the activity of BIML, presented
+        in writing.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/9
   doi: 10.63493/resolutions/ciml198409
   urn: urn:oiml:doc:ciml:resolution:1984-09
-  subject: "(The CIML)"
-  title: OTHER QUESTIONS
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions: []
+  localizations:
+  - language_code: eng
+    title: OTHER QUESTIONS
+    subject: "(The CIML)"
+    considerations: []
+    actions: []
 - identifier: CIML/1984/9.1
   doi: 10.63493/resolutions/ciml19849.1
   urn: urn:oiml:doc:ciml:resolution:1984-9.1
-  subject: "(The CIML)"
-  title: Collaboration ARSO-OIML
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: approves
-    message: 'The Committee approves this agreement and instructs its President to
-      sign it.
+  localizations:
+  - language_code: eng
+    title: Collaboration ARSO-OIML
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: approves
+      message: 'The Committee approves this agreement and instructs its President
+        to sign it.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
 - identifier: CIML/1984/10
   doi: 10.63493/resolutions/ciml198410
   urn: urn:oiml:doc:ciml:resolution:1984-10
-  subject: "(The CIML)"
-  title: DATE AND PLACE OF THE NEXT CIML MEETING
   dates:
   - start: '1984-10-01'
     kind: decision
-  considerations: []
-  actions:
-  - type: notes
-    message: 'The Committee adopted the report on its 19th meeting with the following
-      modification:
+  localizations:
+  - language_code: eng
+    title: DATE AND PLACE OF THE NEXT CIML MEETING
+    subject: "(The CIML)"
+    considerations: []
+    actions:
+    - type: notes
+      message: 'The Committee adopted the report on its 19th meeting with the following
+        modification:
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee adopted the accountant report for 1983 and instructed
-      its President and the Director of the Bureau to submit it to the Seventh Conference.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee adopted the accountant report for 1983 and instructed
+        its President and the Director of the Bureau to submit it to the Seventh Conference.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee accepted the proposals of its President and the Finnish
-      Delegation for the chairmanship of the Conference; the Committee also examined
-      and accepted the draft agenda and the arrangements for the organization of the
-      Conference.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee accepted the proposals of its President and the Finnish
+        Delegation for the chairmanship of the Conference; the Committee also examined
+        and accepted the draft agenda and the arrangements for the organization of
+        the Conference.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee examined the decisions of the Conference and took the
-      necessary measures to implement them.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee examined the decisions of the Conference and took the
+        necessary measures to implement them.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee divided the Pilot Secretariat SP5 as follows:
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee divided the Pilot Secretariat SP5 as follows:
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee took note of the BIML report on the measurement of electrical
-      and magnetic quantities and requested the States concerned to consider the present
-      situation of SP13 and to present appropriate proposals within the framework
-      of the long-term planning.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee took note of the BIML report on the measurement of electrical
+        and magnetic quantities and requested the States concerned to consider the
+        present situation of SP13 and to present appropriate proposals within the
+        framework of the long-term planning.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: requests
-    message: 'The Committee requested the BIML to continue its investigation on the
-      opportunity for OIML to work in the field of photometry and radiometry.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: requests
+      message: 'The Committee requested the BIML to continue its investigation on
+        the opportunity for OIML to work in the field of photometry and radiometry.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee took note of the fact that SP17-Sr3 would remain inactive
-      until a country volunteers to assume responsibility.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee took note of the fact that SP17-Sr3 would remain inactive
+        until a country volunteers to assume responsibility.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee suppressed the following Reporting Secretariats :
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee suppressed the following Reporting Secretariats :
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee took note of the BIML report and requested Czechoslovakia,
-      responsible for SP 23, to study the advisability of creating a new Reporting
-      Secretariat on recalibration intervals of standards, and to submit a proposal
-      to the Committee at its next meeting.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee took note of the BIML report and requested Czechoslovakia,
+        responsible for SP 23, to study the advisability of creating a new Reporting
+        Secretariat on recalibration intervals of standards, and to submit a proposal
+        to the Committee at its next meeting.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee took note of the report on BIML activity, submitted in
-      writing.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee took note of the report on BIML activity, submitted
+        in writing.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: approves
-    message: 'The Committee approved the draft agreement on collaboration between
-      ARSO and OIML.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: approves
+      message: 'The Committee approved the draft agreement on collaboration between
+        ARSO and OIML.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
-  - type: notes
-    message: 'The Committee judged appropriate to hold its 21st Meeting in the spring
-      of 1986, in Paris.
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective
+    - type: notes
+      message: 'The Committee judged appropriate to hold its 21st Meeting in the spring
+        of 1986, in Paris.
 
-      '
-    dates:
-    - start: '1984-10-01'
-      kind: effective
+        '
+      dates:
+      - start: '1984-10-01'
+        kind: effective

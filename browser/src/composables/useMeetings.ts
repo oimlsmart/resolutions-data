@@ -69,9 +69,22 @@ export function useMeetings() {
     allMeetings.value.find(m => m.meeting_slug === slug)
 
   // Resolutions belonging to a meeting: filter by meeting_slug (the
-  // canonical identifier emitted by build-data.mjs).
-  const getMeetingResolutions = (slug: string) =>
-    resolutions.value.filter(r => r.meeting_slug === slug)
+  // canonical identifier emitted by build-data.mjs). Collapse EN+FR
+  // duplicates of the same canonical identifier into a single entry so
+  // the meeting page doesn't show two cards for CIML/2007/9.1 (one
+  // from ciml-42-decisions-en, one from ciml-42-decisions-fr).
+  const getMeetingResolutions = (slug: string) => {
+    const seen = new Set<string>()
+    const out: typeof resolutions.value = []
+    for (const r of resolutions.value) {
+      if (r.meeting_slug !== slug) continue
+      const key = r.identifier || r.id
+      if (seen.has(key)) continue
+      seen.add(key)
+      out.push(r)
+    }
+    return out
+  }
 
   onMounted(() => {
     loadMeetings()

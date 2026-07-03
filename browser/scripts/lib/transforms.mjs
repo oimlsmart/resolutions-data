@@ -1,10 +1,10 @@
 export const URN_BASE = 'urn:oiml'
 
 const PUA_BULLET_REPLACEMENTS = [
-  [/\uf0b7/g, '•'],
-  [/\uf0be/g, '‣'],
-  [/\uf0d8/g, '▸'],
-  [/\uf020/g, ' '],
+  [//g, '•'],
+  [//g, '‣'],
+  [//g, '▸'],
+  [//g, ' '],
 ]
 
 export function normalizeSnippet(rawMessage) {
@@ -27,11 +27,8 @@ export function bodyTypeFromSourceFile(sourceFile) {
   return sourceFile.startsWith('conference-') ? 'conference' : 'ciml'
 }
 
-// Per TODO.cleanups/06: each meeting gets a DOI under 10.63493/meetings/.
-// CIML: ciml<meeting-number> (e.g. ciml60)
-// Conference: conf<session-number> (e.g. conf17)
-// The slug is the canonical meeting slug (derived from the meeting URN,
-// e.g. "ciml-15" or "conference-13"). Pass the slug, not the source_file.
+// Each meeting gets a DOI under 10.63493/meetings/. The slug is the
+// canonical meeting slug derived from the meeting URN.
 export function buildMeetingDoi(_meta, slug) {
   const m = String(slug).match(/^(ciml|conference)-(\d+)/);
   if (!m) return '';
@@ -49,51 +46,91 @@ export function deriveDisplayTitle(res, acclamation) {
   return ''
 }
 
-export function buildResolutionRecord(res, sourceFile, metadata) {
+// Expand a merged resolution record (with localizations[]) into one or
+// more flat resolution records for the UI. Each language produces one
+// record so the EN/FR/both toggle on the detail page can flip between
+// them. All records for the same logical resolution share the same
+// `identifier` and `id`.
+export function buildResolutionRecords(res, sourceFile, metadata) {
   const identifier = String(res.identifier)
   const acclamation = isAcclamation(identifier)
   const datesInfo = metadata.dates || []
   const meetingDate = datesInfo.length > 0 ? datesInfo[0].start : ''
   const year = meetingDate ? meetingDate.substring(0, 4) : ''
+  const id = identifier.replace(/\//g, '-')
+  const localizations = res.localizations || []
 
-  // id is the URL-safe slug (slashes -> dashes) used for routing.
-  // identifier preserves the canonical slash form (e.g. 'CIML/2025/44') for display.
-  const id = String(identifier).replace(/\//g, '-')
-
-  // Language is derived from the source_file slug suffix
-  // (ciml-44-resolutions-en -> 'en'; bilingual-PDF halves also end in -en/-fr).
-  let language = ''
-  if (/-en$/.test(sourceFile)) language = 'en'
-  else if (/-fr$/.test(sourceFile)) language = 'fr'
-
-  return {
-    id,
-    identifier: String(identifier),
-    language,
+  const base = {
+    identifier,
     doi: res.doi || '',
     urn: res.urn || `${URN_BASE}:resolution:${identifier}`,
-    title: deriveDisplayTitle(res, acclamation),
-    subject: res.subject || '',
     year,
     venue: metadata.venue || '',
     city: metadata.city || '',
     country_code: metadata.country_code || '',
     source_file: sourceFile,
-    meeting_urn: `${URN_BASE}:meeting:${sourceFile}`,
-    source_title: metadata.title || '',
+    source_title: '',
     meeting_date: meetingDate,
     is_acclamation: acclamation,
-    actions: res.actions || [],
-    considerations: res.considerations || [],
-    approvals: res.approvals || [],
     dates: res.dates || [],
-    snippet: normalizeSnippet(
-      (res.actions && res.actions.length > 0 ? res.actions[0].message : '') ||
-      (res.considerations && res.considerations.length > 0 ? res.considerations[0].message : '') ||
-      res.title ||
-      ''
-    )
   }
+
+  // Pick the meeting collection title from metadata.title_localized[]
+  // per language (fall back to metadata.title when no per-language
+  // variants exist).
+  const titleLocalized = metadata.title_localized || []
+  const defaultTitle = metadata.title || ''
+
+  if (localizations.length === 0) {
+    // Defensive: shouldn't happen, but emit one record anyway.
+    return [{
+      ...base,
+      id,
+      language: '',
+      title: '',
+      subject: '',
+      actions: [],
+      considerations: [],
+      approvals: [],
+      categories: res.categories || [],
+      snippet: '',
+      source_title: defaultTitle,
+    }]
+  }
+
+  return localizations.map((loc) => {
+    const langCode = loc.language_code === 'fra' ? 'fr' : 'en'
+    const titleEntry = titleLocalized.find(t => t.language_code === loc.language_code)
+      || titleLocalized.find(t => t.language_code === 'eng')
+      || titleLocalized[0]
+    const sourceTitle = titleEntry?.title || defaultTitle
+    const actions = loc.actions || []
+    const snippet = normalizeSnippet(
+      (actions.length > 0 ? actions[0].message : '') ||
+      (loc.considerations && loc.considerations.length > 0 ? loc.considerations[0].message : '') ||
+      loc.title ||
+      '',
+    )
+    return {
+      ...base,
+      id,
+      language: langCode,
+      title: loc.title || '',
+      subject: loc.subject || '',
+      actions,
+      considerations: loc.considerations || [],
+      approvals: loc.approvals || [],
+      categories: res.categories || [],
+      snippet,
+      source_title: sourceTitle,
+    }
+  })
+}
+
+// Legacy single-record export kept for any caller that hasn't migrated
+// to the new buildResolutionRecords (plural). Returns the first record.
+export function buildResolutionRecord(res, sourceFile, metadata) {
+  return buildResolutionRecords(res, sourceFile, metadata)[0]
 }
 
 export function sortResolutions(a, b) {

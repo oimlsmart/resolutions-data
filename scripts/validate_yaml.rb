@@ -1,8 +1,12 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Validate every resolutions/*.yaml parses cleanly and has a `resolutions` array
-# of well-formed entries. Exits non-zero on any failure.
+# Validate every resolutions/*.yaml parses cleanly and has a `resolutions`
+# array of well-formed entries. Exits non-zero on any failure.
+#
+# Resolution records follow the Edoxen schema: per-language content lives
+# under `localizations[]` (one entry per available language), so we check
+# that each resolution has at least one localization with a title.
 
 require "yaml"
 
@@ -11,8 +15,13 @@ module ResolutionsData
     ROOT = File.expand_path("..", __dir__)
     DIR  = File.join(ROOT, "resolutions")
 
-    REQUIRED_RESOLUTION_FIELDS = %w[identifier subject title dates].freeze
-    REQUIRED_METADATA_FIELDS   = %w[title dates source venue language].freeze
+    # Resolution-level (language-agnostic) required fields.
+    REQUIRED_RESOLUTION_FIELDS = %w[identifier dates].freeze
+    # Each localization must carry at least a title.
+    REQUIRED_LOCALIZATION_FIELDS = %w[language_code title].freeze
+    # Metadata must carry either `title` (legacy single-language) or
+    # `title_localized` (new merged-yaml form), plus dates/source.
+    REQUIRED_METADATA_FIELDS = %w[dates source venue].freeze
 
     def self.run
       files = Dir.glob(File.join(DIR, "*.yaml")).sort
@@ -45,6 +54,10 @@ module ResolutionsData
               bad += 1
             end
           end
+          unless meta.key?("title") || meta.key?("title_localized")
+            warn "  META FAIL  #{File.basename(f)}: missing both metadata.title and metadata.title_localized"
+            bad += 1
+          end
         end
 
         ress = data["resolutions"]
@@ -59,6 +72,22 @@ module ResolutionsData
             unless r.is_a?(Hash) && r.key?(k)
               warn "  RES FAIL   #{File.basename(f)}[#{i}]: missing #{k}"
               bad += 1
+            end
+          end
+
+          locs = r.is_a?(Hash) ? r["localizations"] : nil
+          unless locs.is_a?(Array) && !locs.empty?
+            warn "  RES FAIL   #{File.basename(f)}[#{i}]: missing localizations[]"
+            bad += 1
+            next
+          end
+
+          locs.each_with_index do |loc, li|
+            REQUIRED_LOCALIZATION_FIELDS.each do |k|
+              unless loc.is_a?(Hash) && loc.key?(k)
+                warn "  RES FAIL   #{File.basename(f)}[#{i}].localizations[#{li}]: missing #{k}"
+                bad += 1
+              end
             end
           end
         end
