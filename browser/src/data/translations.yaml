@@ -64,6 +64,21 @@ translations:
   footer.explore:
     en: Explore
     fr: Explorer
+  footer.github:
+    en: GitHub
+    fr: GitHub
+  footer.linkedin:
+    en: LinkedIn
+    fr: LinkedIn
+  footer.linksCiml:
+    en: CIML Meetings
+    fr: Réunions du CIML
+  footer.linksConference:
+    en: Conferences
+    fr: Conférences
+  footer.linksBulletin:
+    en: OIML Bulletin
+    fr: Bulletin OIML
   footer.links:
     en: Links
     fr: Liens
@@ -198,24 +213,42 @@ translations:
   resolution.actions:
     en: Actions
     fr: Actions
+  resolution.approval:
+    en: Approval
+    fr: Approbation
   resolution.approvals:
     en: Approvals
     fr: Approbations
   resolution.back:
     en: Back to results
     fr: Retour aux résultats
+  resolution.backHome:
+    en: Back to Home
+    fr: Retour à l'accueil
+  resolution.categories:
+    en: Categories
+    fr: Catégories
   resolution.considerations:
     en: Considerations
     fr: Considérations
   resolution.dates:
     en: Dates
     fr: Dates
+  resolution.effective:
+    en: Effective
+    fr: En vigueur
   resolution.frenchVersion:
     en: French version
     fr: Version française
   resolution.languageToggleLabel:
     en: Language
     fr: Langue
+  resolution.meetingNotFound:
+    en: Meeting not found
+    fr: Réunion introuvable
+  resolution.meetingNotFoundHint:
+    en: The meeting you are looking for does not exist.
+    fr: La réunion que vous cherchez n'existe pas.
   resolution.next:
     en: Next
     fr: Suivante
@@ -223,7 +256,7 @@ translations:
     en: Previous
     fr: Précédente
   resolution.related:
-    en: Related resolutions
+    en: Related Resolutions
     fr: Résolutions liées
   resolution.subject:
     en: Subject

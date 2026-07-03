@@ -20,15 +20,15 @@
     </div>
     <div v-else-if="!meeting" class="empty-state">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
-      <h3>Meeting not found</h3>
-      <p>The meeting you are looking for does not exist.</p>
+      <h3>{{ t('resolution.meetingNotFound') }}</h3>
+      <p>{{ t('resolution.meetingNotFoundHint') }}</p>
       <router-link :to="{ name: 'meetings' }" class="std-chip btn-mt link-no-ul">{{ t('meetings.back') }}</router-link>
     </div>
     <template v-else>
       <header class="res-page__header header-mt animate-up" style="--nth: 1">
         <router-link :to="{ name: 'meetings' }" class="back-link group">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
-          Back to Meetings
+          {{ t('meetings.back') }}
         </router-link>
         
         <div class="header-badges">
@@ -73,7 +73,7 @@
       </header>
 
       <div class="section-meta animate-up" style="--nth: 2">
-        <h2 class="section-meta-title">{{ meeting.resolution_count }} Resolutions</h2>
+        <h2 class="section-meta-title">{{ t('meetings.resolutionsCount', { count: meeting.resolution_count }) }}</h2>
       </div>
 
       <div class="std-results">

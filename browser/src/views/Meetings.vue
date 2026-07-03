@@ -62,13 +62,13 @@
         <div class="std-filter__field" v-if="availableCountries.length > 1">
           <span class="std-filter__label">{{ t('meetings.country') }}</span>
           <div class="std-filter__chips">
-            <button 
-              class="std-chip" 
+            <button
+              class="std-chip"
               :class="{ 'is-active': selectedCountry === '' }"
               @click="selectedCountry = ''"
-            >All</button>
-            <button 
-              v-for="country in availableCountries" 
+            >{{ t('common.all') }}</button>
+            <button
+              v-for="country in availableCountries"
               :key="country.code"
               class="std-chip country-chip"
               :class="{ 'is-active': selectedCountry === country.code }"
@@ -81,7 +81,7 @@
         </div>
       </div>
       <div class="std-filter__meta">
-        <span>{{ filteredMeetings.length }} meetings</span>
+        <span>{{ t('meetings.count', { count: filteredMeetings.length }) }}</span>
       </div>
     </div>
 
@@ -230,7 +230,7 @@ import { ref, computed, onMounted, watch } from 'vue'
 import { useRouter, useRoute } from 'vue-router'
 import { useMeetings, groupMeetingsByDecade } from '../composables/useMeetings'
 import { venueToFlag, venueToCountryCode } from '../data/countryFlags'
-import { venueForLang } from '../data/venues'
+import { venueForLang, countryName } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { interpolate } from '../data/translations'
 import { formatDateShort } from '../utils/format'
@@ -266,13 +266,12 @@ const availableCountries = computed(() => {
     const isVirtual = m.virtual || venue.toLowerCase().includes('virtual')
     if (isVirtual) {
       if (!countries.has('virtual')) {
-        countries.set('virtual', { code: 'virtual', name: 'Virtual', flag: '\u{1F310}' })
+        countries.set('virtual', { code: 'virtual', name: t.value('meetings.legendVirtual'), flag: '\u{1F310}' })
       }
     } else {
       const code = m.country_code || venueToCountryCode(venue)
       if (code && !countries.has(code)) {
-        const countryName = venue.split(',').pop()?.trim() || code
-        countries.set(code, { code, name: countryName, flag: venueToFlag(venue) })
+        countries.set(code, { code, name: countryName(code, lang.value), flag: venueToFlag(venue) })
       }
     }
   })
