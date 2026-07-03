@@ -69,7 +69,7 @@
           <button @click="scrollToResults" class="hero-btn hero-btn--primary">
             Browse Resolutions
           </button>
-          <router-link :to="{ name: 'meetings' }" class="hero-btn hero-btn--secondary">
+          <router-link :to="r('meetings')" class="hero-btn hero-btn--secondary">
             Browse Meetings
           </router-link>
         </div>
@@ -166,7 +166,7 @@
         <router-link 
           v-for="(res, index) in paginatedResolutions" 
           :key="res.source_file + res.id" 
-          :to="{ name: 'resolution-detail', params: { id: res.id } }"
+          :to="r('resolution-detail', { id: res.id })"
           class="std-results__card meeting-card animate-card"
           :style="`--nth: ${index % limit}`"
         >
@@ -268,11 +268,13 @@ import { useCountUp } from '../composables/useCountUp'
 import { getActionColor } from '../data/actionTypes'
 import { formatDate } from '../utils/format'
 import { highlightText } from '../utils/highlight'
+import { useLocalizedRoute } from '../composables/useLocalizedRoute'
 
 const router = useRouter()
 const route = useRoute()
 
 const { resolutions, isLoaded, loadData, search } = useResolutions()
+const r = useLocalizedRoute()
 const { meetings, loadData: loadMeetingsData } = useMeetings()
 const { t, lang } = useI18n()
 

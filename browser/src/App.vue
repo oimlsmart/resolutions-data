@@ -3,7 +3,7 @@
   <div class="site-brand-bar" aria-hidden="true"></div>
   <header id="nav-header" class="site-header">
     <div class="site-header__inner">
-      <router-link :to="{ name: 'home' }" class="site-header__logo">
+      <router-link :to="r('home')" class="site-header__logo">
         <img src="/assets/oiml-logo.svg" alt="OIML" class="site-header__logo-img site-header__logo-img--theme">
         <span class="site-header__logo-text">
           {{ t('committee.name') }}
@@ -12,9 +12,9 @@
       </router-link>
 
       <nav class="site-header__nav">
-        <router-link :to="{ name: 'home' }" class="site-header__nav-link" active-class="active">{{ t('nav.resolutions') }}</router-link>
-        <router-link :to="{ name: 'meetings' }" class="site-header__nav-link" active-class="active">{{ t('nav.meetings') }}</router-link>
-        <router-link :to="{ name: 'about' }" class="site-header__nav-link" active-class="active">{{ t('nav.about') }}</router-link>
+        <router-link :to="r('home')" class="site-header__nav-link" active-class="active">{{ t('nav.resolutions') }}</router-link>
+        <router-link :to="r('meetings')" class="site-header__nav-link" active-class="active">{{ t('nav.meetings') }}</router-link>
+        <router-link :to="r('about')" class="site-header__nav-link" active-class="active">{{ t('nav.about') }}</router-link>
       </nav>
 
       <div class="site-header__actions">
@@ -23,13 +23,13 @@
           <button
             class="lang-toggle__btn"
             :class="{ 'lang-toggle__btn--active': lang === 'en' }"
-            @click="setLang('en')"
+            @click="switchLang('en')"
             :aria-pressed="lang === 'en'"
           >EN</button>
           <button
             class="lang-toggle__btn"
             :class="{ 'lang-toggle__btn--active': lang === 'fr' }"
-            @click="setLang('fr')"
+            @click="switchLang('fr')"
             :aria-pressed="lang === 'fr'"
           >FR</button>
         </div>
@@ -61,9 +61,9 @@
 
     <!-- Mobile Menu -->
     <div v-show="isMobileMenuOpen" class="mobile-menu" :class="{ 'mobile-menu--open': isMobileMenuOpen }">
-      <router-link :to="{ name: 'home' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.resolutions') }}</router-link>
-      <router-link :to="{ name: 'meetings' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.meetings') }}</router-link>
-      <router-link :to="{ name: 'about' }" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.about') }}</router-link>
+      <router-link :to="r('home')" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.resolutions') }}</router-link>
+      <router-link :to="r('meetings')" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.meetings') }}</router-link>
+      <router-link :to="r('about')" class="mobile-menu__link" @click="isMobileMenuOpen = false">{{ t('nav.about') }}</router-link>
     </div>
   </header>
 
@@ -79,7 +79,7 @@
     <div class="site-footer__inner">
       <div class="site-footer__grid">
         <div class="site-footer__brand">
-          <router-link :to="{ name: 'home' }" class="site-footer__logo">
+          <router-link :to="r('home')" class="site-footer__logo">
             <img src="/assets/oiml-logo.svg" alt="OIML" class="site-footer__logo-img site-footer__logo-img--theme">
             <span class="site-footer__logo-text">{{ t('committee.name') }}</span>
           </router-link>
@@ -102,9 +102,9 @@
         <div>
           <h4 class="site-footer__heading">{{ t('footer.explore') }}</h4>
           <ul class="site-footer__links">
-            <li><router-link :to="{ name: 'home' }" class="site-footer__link">{{ t('nav.resolutions') }}</router-link></li>
-            <li><router-link :to="{ name: 'meetings' }" class="site-footer__link">{{ t('nav.meetings') }}</router-link></li>
-            <li><router-link :to="{ name: 'about' }" class="site-footer__link">{{ t('nav.about') }}</router-link></li>
+            <li><router-link :to="r('home')" class="site-footer__link">{{ t('nav.resolutions') }}</router-link></li>
+            <li><router-link :to="r('meetings')" class="site-footer__link">{{ t('nav.meetings') }}</router-link></li>
+            <li><router-link :to="r('about')" class="site-footer__link">{{ t('nav.about') }}</router-link></li>
           </ul>
         </div>
 
@@ -142,18 +142,42 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onUnmounted } from 'vue'
-import { useRouter } from 'vue-router'
+import { ref, onMounted, onUnmounted, watch } from 'vue'
+import { useRouter, useRoute } from 'vue-router'
 import { committee } from './data/committee'
-import { useI18n } from './composables/useI18n'
+import { useI18n, setLangInternal } from './composables/useI18n'
+import { useLocalizedRoute } from './composables/useLocalizedRoute'
 
 const router = useRouter()
-const { t, lang, setLang } = useI18n()
+const route = useRoute()
+const { t, lang } = useI18n()
+const r = useLocalizedRoute()
 const isDark = ref(false)
 const isMobileMenuOpen = ref(false)
 const showScrollTop = ref(false)
 const scrollPercent = ref(0)
 const THEME_KEY = 'theme'
+
+// Two-way sync between the route's :lang prefix and the i18n state.
+// - Route → i18n: when the URL changes (browser back/forward, manual
+//   edit, redirect), update currentLang so t() renders the right
+//   language.
+// - i18n → route: when the user clicks EN/FR in the header, rewrite
+//   the URL to swap the prefix. This keeps the URL shareable and the
+//   language state in sync.
+watch(() => route.params.lang, (newLang) => {
+  if (newLang === 'en' || newLang === 'fr') {
+    setLangInternal(newLang)
+  }
+}, { immediate: true })
+
+function switchLang(target: 'en' | 'fr') {
+  if (target === lang.value) return
+  setLangInternal(target)
+  // Rewrite the path: replace the leading /<lang>/ segment.
+  const newPath = route.fullPath.replace(/^\/(en|fr)(\/|$)/, `/${target}$2`)
+  router.push(newPath)
+}
 
 onMounted(() => {
   const saved = localStorage.getItem(THEME_KEY)
@@ -209,7 +233,7 @@ function handleGlobalSearch(e: KeyboardEvent) {
     e.preventDefault()
     // Navigate to home page and focus search
     if (router.currentRoute.value.name !== 'home') {
-      router.push({ name: 'home' }).then(() => {
+      router.push({ name: 'home', params: { lang: lang.value } }).then(() => {
         // Wait for page to render and input to be available
         setTimeout(() => {
           const input = document.querySelector('.hero-search-input') as HTMLInputElement

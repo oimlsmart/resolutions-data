@@ -37,23 +37,39 @@ for (const m of meetings) {
   }
 }
 
-const staticPages = [
-  { url: `${baseUrl}/`, priority: '1.0', changefreq: 'weekly' },
-  { url: `${baseUrl}/meetings`, priority: '0.8', changefreq: 'monthly' },
-  { url: `${baseUrl}/about`, priority: '0.5', changefreq: 'yearly' },
-];
+// Sitemap: emit canonical URLs for both language variants of every
+// page (e.g. /en/about and /fr/about). Each language is a separate
+// <url> entry so search engines index both.
+const langs = ['en', 'fr']
 
-const resolutionPages = resolutionIds.map((id) => ({
-  url: `${baseUrl}/resolution/${id}`,
-  priority: '0.7',
-  changefreq: 'yearly',
-}));
+const staticPages = []
+for (const lng of langs) {
+  staticPages.push({ url: `${baseUrl}/${lng}/`, priority: '1.0', changefreq: 'weekly' })
+  staticPages.push({ url: `${baseUrl}/${lng}/meetings`, priority: '0.8', changefreq: 'monthly' })
+  staticPages.push({ url: `${baseUrl}/${lng}/about`, priority: '0.5', changefreq: 'yearly' })
+}
 
-const meetingPages = meetingSlugs.map((slug) => ({
-  url: `${baseUrl}/meetings/${slug}`,
-  priority: '0.6',
-  changefreq: 'yearly',
-}));
+const resolutionPages = []
+for (const lng of langs) {
+  for (const id of resolutionIds) {
+    resolutionPages.push({
+      url: `${baseUrl}/${lng}/resolution/${id}`,
+      priority: '0.7',
+      changefreq: 'yearly',
+    })
+  }
+}
+
+const meetingPages = []
+for (const lng of langs) {
+  for (const slug of meetingSlugs) {
+    meetingPages.push({
+      url: `${baseUrl}/${lng}/meetings/${slug}`,
+      priority: '0.6',
+      changefreq: 'yearly',
+    })
+  }
+}
 
 const allPages = [...staticPages, ...resolutionPages, ...meetingPages];
 
@@ -97,6 +113,51 @@ for (const [legacy, canonical] of legacyRedirects.entries()) {
 }
 if (redirectCount > 0) {
   console.log(`Generated ${redirectCount} legacy-URL redirect stub(s) under dist/meetings/`);
+}
+
+// Emit HTML redirect stubs for legacy unprefixed paths so cold requests
+// to `/`, `/about`, `/meetings`, `/meetings/<slug>`, `/resolution/<id>`
+// (old bookmarks, search-engine results) don't 404. The stub runs a
+// tiny JS snippet that picks the user's preferred language and rewrites
+// the URL to /<lang>/...
+function emitLangRedirect(dir, targetPath) {
+  fs.mkdirSync(dir, { recursive: true })
+  const html = `<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<script>
+(function () {
+  var saved = null;
+  try { saved = localStorage.getItem('oiml-lang'); } catch (e) {}
+  var nav = (navigator.language || '').toLowerCase();
+  var lang = (saved === 'fr' || saved === 'en') ? saved : (nav.indexOf('fr') === 0 ? 'fr' : 'en');
+  var target = '/' + lang + '${targetPath}' + window.location.search + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+<meta http-equiv="refresh" content="0; url=/en${targetPath}">
+</head>
+<body>
+<p>Redirecting to <a href="/en${targetPath}">/en${targetPath}</a>.</p>
+</body>
+</html>
+`
+  fs.writeFileSync(path.join(dir, 'index.html'), html)
+}
+
+// Root + static bare paths.
+emitLangRedirect(path.join(distDir), '/')
+emitLangRedirect(path.join(distDir, 'about'), '/about')
+emitLangRedirect(path.join(distDir, 'meetings'), '/meetings')
+
+// Bare per-resolution and per-meeting paths.
+for (const id of resolutionIds) {
+  emitLangRedirect(path.join(distDir, 'resolution', id), `/resolution/${id}`)
+}
+for (const slug of meetingSlugs) {
+  emitLangRedirect(path.join(distDir, 'meetings', slug), `/meetings/${slug}`)
 }
 
 const robots = `User-agent: *

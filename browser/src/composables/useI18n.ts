@@ -1,8 +1,12 @@
 // Bilingual UI (English / French) for the OIML Resolutions archive.
-// Language preference is persisted in localStorage and defaults to the
-// browser's preferred language.
+//
+// The active language is the leading path segment of the current route
+// (`/en/...` vs `/fr/...`). `setLang` rewrites the URL to swap the
+// prefix; the rest of the app reads `lang` reactively. The preference
+// is also persisted to localStorage so the bare-path redirects (e.g.
+// visiting `/about` cold) pick the right language.
 
-import { ref, computed, watch } from 'vue'
+import { computed, watch } from 'vue'
 import { translations, interpolate, type TranslationKey, type Language } from '../data/translations'
 
 const STORAGE_KEY = 'oiml-lang'
@@ -16,6 +20,9 @@ function detectInitialLanguage(): Language {
   return nav.startsWith('fr') ? 'fr' : DEFAULT_LANG
 }
 
+// Single source of truth: a ref held in module scope, kept in sync
+// with the route by the App-level watcher in useRouterLangSync().
+import { ref } from 'vue'
 const currentLang = ref<Language>(detectInitialLanguage())
 
 function applyHtmlLang(lang: Language) {
@@ -33,9 +40,15 @@ watch(currentLang, (lang) => {
   applyHtmlLang(lang)
 })
 
+export function setLangInternal(lang: Language) {
+  currentLang.value = lang
+}
+
+export function currentLangRef() {
+  return currentLang
+}
+
 export function useI18n() {
-  // t(key, vars?) looks up the translation for the current language and
-  // interpolates {placeholder} tokens with the provided vars.
   const t = computed(() => (key: TranslationKey, vars?: Record<string, string | number>) => {
     const entry = translations[key]
     if (!entry) return key

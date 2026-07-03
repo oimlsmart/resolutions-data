@@ -16,13 +16,15 @@ function getData() {
 
 function getPageData(route: string) {
   const data = getData()
-  if (route.startsWith('/resolution/')) {
-    const id = route.split('/').pop()
+  // Strip the leading /en/ or /fr/ language prefix when matching data.
+  const stripped = route.replace(/^\/(en|fr)(?=\/|$)/, '') || '/'
+  if (stripped.startsWith('/resolution/')) {
+    const id = stripped.split('/').pop()
     const res = data.find(r => r.id === id)
     return res ? [res] : []
   }
-  if (/^\/meetings\/[^/]+$/.test(route)) {
-    const slug = decodeURIComponent(route.split('/').pop()!)
+  if (/^\/meetings\/[^/]+$/.test(stripped)) {
+    const slug = decodeURIComponent(stripped.split('/').pop()!)
     return data.filter(r => r.meeting_slug === slug)
   }
   return null
@@ -60,24 +62,39 @@ export default defineConfig({
       const dataPath = resolve(process.cwd(), 'public/data/resolutions.json')
       const meetingsPath = resolve(process.cwd(), 'public/data/meetings.json')
       const data = JSON.parse(readFileSync(dataPath, 'utf-8'))
-      const resolutionIds = data.map((r: any) => `/resolution/${r.id}`)
-      // Pre-render one page per canonical meeting slug (read from
-      // meetings.json so skeleton-only meetings with no resolutions
-      // still get a page). Legacy source-file URLs are not pre-rendered
-      // — they fall through to the SPA, which redirects them.
+      const meetings = JSON.parse(readFileSync(meetingsPath, 'utf-8'))
+
+      // Pre-render every page under both /en/ and /fr/ language prefixes.
+      // Legacy non-prefixed URLs are emitted as redirect HTML stubs by
+      // post-build.mjs.
+      const langs = ['en', 'fr'] as const
+
+      const staticPaths = ['', 'meetings', 'about']
+      const resolutionIds = data.map((r: any) => `resolution/${r.id}`)
       let meetingSlugs: string[] = []
       try {
-        const meetings = JSON.parse(readFileSync(meetingsPath, 'utf-8'))
-        meetingSlugs = meetings.map((m: any) => `/meetings/${m.meeting_slug}`)
+        meetingSlugs = meetings.map((m: any) => `meetings/${m.meeting_slug}`)
       } catch {
-        // Fall back to slugs derived from resolution data if meetings.json
-        // is unavailable.
-        meetingSlugs = [...new Set(data.map((r: any) => r.meeting_slug).filter(Boolean))].map((s: string) => `/meetings/${s}`)
+        meetingSlugs = [...new Set(data.map((r: any) => `meetings/${r.meeting_slug}`).filter(Boolean))]
       }
-      return ['/', '/meetings', '/about', ...resolutionIds, ...meetingSlugs]
+
+      const allPaths: string[] = []
+      for (const lng of langs) {
+        for (const p of [...staticPaths, ...resolutionIds, ...meetingSlugs]) {
+          allPaths.push(`/${lng}/${p}`)
+        }
+      }
+      // Root and legacy bare paths are also pre-rendered so the redirect
+      // logic works for cold requests to e.g. /about (no SPA fallback).
+      allPaths.push('/', '/resolution', '/meetings', '/about')
+      return allPaths
     },
     onPageRendered: async (route, renderedHTML) => {
       let html = renderedHTML
+
+      // Strip the leading /en/ or /fr/ language prefix when matching
+      // data and metadata so the same logic works for both languages.
+      const stripped = route.replace(/^\/(en|fr)(?=\/|$)/, '') || '/'
 
       const pageData = getPageData(route)
       if (pageData) {
@@ -89,24 +106,24 @@ export default defineConfig({
       let title = titleMatch ? titleMatch[1].replace(/<[^>]*>/g, '').trim() : null
       title = title ? title.replace(/[\u{1F1E0}-\u{1F1FF}\u{1F310}]\s*/gu, '').trim() : null
 
-      if (route.startsWith('/resolution/') && title) {
+      if (stripped.startsWith('/resolution/') && title) {
         const fullTitle = `${title} | OIML`
         html = html.replace(/<title>.*?<\/title>/, `<title>${fullTitle}</title>`)
 
         const descMatch = html.match(/<p[^>]*class="[^"]*res-detail-subtitle[^"]*"[^>]*>(.*?)<\/p>/s)
         const desc = descMatch ? descMatch[1].replace(/<[^>]*>/g, '').trim() : `${title} — OIML resolution.`
         html = html.replace('</head>', `<meta name="description" content="${desc.replace(/"/g, '&quot;').substring(0, 160)}">\n  <meta property="og:title" content="${fullTitle.replace(/"/g, '&quot;')}">\n  <meta property="og:description" content="${desc.replace(/"/g, '&quot;').substring(0, 160)}">\n  <meta property="og:type" content="article">\n</head>`)
-      } else if (route.startsWith('/meetings/') && title) {
+      } else if (stripped.startsWith('/meetings/') && title) {
         const fullTitle = `Meeting: ${title} | OIML`
         html = html.replace(/<title>.*?<\/title>/, `<title>${fullTitle}</title>`)
         html = html.replace('</head>', `<meta name="description" content="Resolutions from ${title} — OIML">\n  <meta property="og:title" content="${fullTitle.replace(/"/g, '&quot;')}">\n  <meta property="og:description" content="Resolutions adopted at ${title.replace(/"/g, '&quot;')}">\n  <meta property="og:type" content="website">\n</head>`)
-      } else if (route === '/meetings') {
+      } else if (stripped === '/meetings') {
         html = html.replace(/<title>.*?<\/title>/, '<title>Meetings | OIML</title>')
         html = html.replace('</head>', `<meta name="description" content="Browse OIML plenary meetings by year, country, and venue.">\n  <meta property="og:title" content="Meetings | OIML">\n  <meta property="og:description" content="Browse OIML plenary meetings by year, country, and venue.">\n</head>`)
-      } else if (route === '/about') {
+      } else if (stripped === '/about') {
         html = html.replace(/<title>.*?<\/title>/, '<title>About | OIML</title>')
         html = html.replace('</head>', `<meta name="description" content="About the OIML resolutions database.">\n</head>`)
-      } else if (route === '/') {
+      } else if (stripped === '/') {
         const countMatch = html.match(/\b(\d[\d,]{2,})\s+resolutions?/i)
         const count = countMatch ? countMatch[1] : ''
         const descSuffix = count ? `${count} resolutions of` : 'resolutions of'

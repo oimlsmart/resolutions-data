@@ -22,11 +22,11 @@
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="empty-state__icon"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>
       <h3>{{ t('resolution.meetingNotFound') }}</h3>
       <p>{{ t('resolution.meetingNotFoundHint') }}</p>
-      <router-link :to="{ name: 'meetings' }" class="std-chip btn-mt link-no-ul">{{ t('meetings.back') }}</router-link>
+      <router-link :to="r('meetings')" class="std-chip btn-mt link-no-ul">{{ t('meetings.back') }}</router-link>
     </div>
     <template v-else>
       <header class="res-page__header header-mt animate-up" style="--nth: 1">
-        <router-link :to="{ name: 'meetings' }" class="back-link group">
+        <router-link :to="r('meetings')" class="back-link group">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="back-link__icon"><path d="m15 18-6-6 6-6"/></svg>
           {{ t('meetings.back') }}
         </router-link>
@@ -80,7 +80,7 @@
         <router-link 
           v-for="(res, index) in meetingResolutions" 
           :key="res.id" 
-          :to="{ name: 'resolution-detail', params: { id: res.id } }"
+          :to="r('resolution-detail', { id: res.id })"
           class="std-results__card meeting-card animate-card"
           :style="`--nth: ${index}`"
         >
@@ -115,10 +115,12 @@ import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
 import { useClipboard } from '../composables/useClipboard'
+import { useLocalizedRoute } from '../composables/useLocalizedRoute'
 
 const route = useRoute()
 const router = useRouter()
 const { getMeeting, getMeetingResolutions, isLoaded, loadData, meetings } = useMeetings()
+const r = useLocalizedRoute()
 const { t, lang } = useI18n()
 const { copied: meetingCopied, copy: copyUrn } = useClipboard()
 
@@ -139,7 +141,7 @@ watch([routeParam, meetings, isLoaded], ([p, list, loaded]) => {
   if (/^(ciml|conference)-\d+$/.test(p)) return
   const owner = list.find(m => (m.source_files || []).includes(p))
   if (owner) {
-    router.replace({ name: 'meeting-detail', params: { meetingSlug: owner.meeting_slug } })
+    router.replace({ name: 'meeting-detail', params: { lang: lang.value, meetingSlug: owner.meeting_slug } })
   }
 }, { immediate: true })
 
