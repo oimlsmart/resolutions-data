@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "node scripts/build-data.mjs && vite",
     "build": "node scripts/build-data.mjs && vue-tsc -b && vite-ssg build && node scripts/post-build.mjs",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
   },
   "dependencies": {
     "@asciidoctor/core": "^3.0.4",
@@ -23,12 +25,23 @@
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.0.0",
     "@vitejs/plugin-vue": "^5.2.1",
+    "@vue/test-utils": "^2.4.11",
+    "happy-dom": "^20.10.6",
     "js-yaml": "^4.1.0",
     "postcss": "^8.4.0",
     "tailwindcss": "^4.0.0",
     "typescript": "^5.7.0",
     "vite": "^6.0.0",
+    "vitest": "^4.1.9",
     "vue-tsc": "^2.2.0"
   },
-  "description": "Web browser for OIML CIML and Conference resolutions."
+  "description": "Web browser for OIML CIML and Conference resolutions.",
+  "vitest": {
+    "globals": true,
+    "environment": "happy-dom",
+    "include": [
+      "src/**/*.test.ts",
+      "scripts/**/*.test.mjs"
+    ]
+  }
 }
