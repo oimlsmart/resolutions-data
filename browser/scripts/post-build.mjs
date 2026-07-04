@@ -120,8 +120,17 @@ if (redirectCount > 0) {
 // (old bookmarks, search-engine results) don't 404. The stub runs a
 // tiny JS snippet that picks the user's preferred language and rewrites
 // the URL to /<lang>/...
+//
+// IMPORTANT: the redirect target must include the Vite base path
+// (/resolutions-data/) because these stubs are served from GitHub
+// Pages under that sub-path, not from the domain root. Using bare
+// absolute paths like /en/about would redirect to
+// https://www.oimlsmart.org/en/about instead of
+// https://www.oimlsmart.org/resolutions-data/en/about.
+const BASE_PATH = '/resolutions-data';
 function emitLangRedirect(dir, targetPath) {
   fs.mkdirSync(dir, { recursive: true })
+  const base = BASE_PATH;
   const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -133,14 +142,14 @@ function emitLangRedirect(dir, targetPath) {
   try { saved = localStorage.getItem('oiml-lang'); } catch (e) {}
   var nav = (navigator.language || '').toLowerCase();
   var lang = (saved === 'fr' || saved === 'en') ? saved : (nav.indexOf('fr') === 0 ? 'fr' : 'en');
-  var target = '/' + lang + '${targetPath}' + window.location.search + window.location.hash;
+  var target = '${base}' + '/' + lang + '${targetPath}' + window.location.search + window.location.hash;
   window.location.replace(target);
 })();
 </script>
-<meta http-equiv="refresh" content="0; url=/en${targetPath}">
+<meta http-equiv="refresh" content="0; url=${base}/en${targetPath}">
 </head>
 <body>
-<p>Redirecting to <a href="/en${targetPath}">/en${targetPath}</a>.</p>
+<p>Redirecting to <a href="${base}/en${targetPath}">${base}/en${targetPath}</a>.</p>
 </body>
 </html>
 `
