@@ -73,6 +73,7 @@ export function buildResolutionRecords(res, sourceFile, metadata) {
     meeting_date: meetingDate,
     is_acclamation: acclamation,
     dates: res.dates || [],
+    agenda_item: res.agenda_item || '',
   }
 
   // Pick the meeting collection title from metadata.title_localized[]
