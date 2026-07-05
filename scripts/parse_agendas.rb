@@ -1,0 +1,163 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Generate structured agenda YAMLs from minutes sections.
+#
+# Each minutes/*.yaml has a `sections[]` array where each section
+# carries `number` + `title` — these ARE the agenda items. This is more
+# reliable than parsing mini-site HTML landing pages.
+#
+# For meetings with no minutes (CIML 4-14), we fall back to the
+# resolution YAML identifiers — each resolution's agenda_item field
+# tells us what agenda item it was discussed under.
+#
+# Output: agendas/ciml-{N}.yaml, agendas/conference-{N}.yaml
+
+require "yaml"
+require "fileutils"
+
+ROOT = File.expand_path("..", __dir__)
+MINUTES_DIR = File.join(ROOT, "minutes")
+RESOLUTIONS_DIR = File.join(ROOT, "resolutions")
+OUT_DIR = File.join(ROOT, "agendas")
+FileUtils.mkdir_p(OUT_DIR)
+
+def classify_kind(label, title)
+  title_lower = title.downcase
+  return "opening" if title_lower =~ /\b(opening|welcome|allocution|adresse)\b/i
+  return "closing" if title_lower =~ /\b(closing|cl[oô]ture|farewell|date and place)\b/i
+  return "aob" if title_lower =~ /\b(any other business|aob|questions diverses|divers)\b/i
+  "numbered"
+end
+
+def infer_outcome(title)
+  title_lower = title.downcase
+  return "adopted" if title_lower =~ /\b(approval|adoption|approves|adopte)\b/i
+  "discussed"
+end
+
+# Extract agenda items from minutes YAMLs. The minutes directory has
+# files like ciml-15-fra.yaml (language suffix), so we glob for any
+# file matching the meeting slug prefix.
+def from_minutes(slug)
+  # Try exact match first, then language-suffixed files.
+  paths = Dir.glob(File.join(MINUTES_DIR, "#{slug}*.yaml")).sort
+  return nil if paths.empty?
+
+  all_items = []
+  paths.each do |path|
+    data = YAML.safe_load(File.read(path))
+    next unless data && data["sections"]
+    data["sections"].each do |section|
+      number = section["number"].to_s
+      title = section["title"].to_s.strip
+      next if title.empty?
+      all_items << {
+        "label" => number,
+        "kind" => classify_kind(number, title),
+        "title" => title,
+        "outcome" => infer_outcome(title),
+      }
+    end
+  end
+  all_items.empty? ? nil : all_items
+end
+
+# Extract agenda items from a resolution YAML by collecting unique
+# agenda_item values.
+def from_resolutions(source_file)
+  items = []
+  Dir.glob(File.join(RESOLUTIONS_DIR, "#{source_file}*.yaml")).each do |path|
+    data = YAML.safe_load(File.read(path))
+    next unless data && data["resolutions"]
+    data["resolutions"].each do |res|
+      ag = res["agenda_item"]
+      next unless ag && !ag.empty?
+      loc = res["localizations"]&.first
+      title = loc ? loc["title"] : res["title"]
+      next unless title
+      items << {
+        "label" => ag,
+        "kind" => "numbered",
+        "title" => title,
+        "outcome" => "resolved",
+      }
+    end
+  end
+  items
+end
+
+# Build agenda for a meeting from BOTH minutes sections AND resolution
+# agenda_items. Minutes give us section titles; resolution agenda_items
+# give us which items had formal decisions (outcome = resolved).
+def build_agenda(meeting_slug)
+  # Collect from minutes.
+  minutes_items = from_minutes(meeting_slug) || []
+
+  # Collect from resolution agenda_items.
+  res_items = []
+  # Find resolution files that belong to this meeting.
+  glob_patterns = [
+    File.join(RESOLUTIONS_DIR, "*#{meeting_slug}*"),
+    File.join(RESOLUTIONS_DIR, "#{meeting_slug.sub('ciml-', 'ciml-').sub('conference-', 'conference-')}*"),
+  ]
+  seen_files = Set.new
+  glob_patterns.each do |pattern|
+    Dir.glob(pattern).each do |path|
+      next if seen_files.include?(path)
+      seen_files.add(path)
+      basename = File.basename(path, ".yaml")
+      res_items.concat(from_resolutions(basename))
+    end
+  end
+
+  # Merge: start with minutes items, add any resolution-only items.
+  by_label = {}
+  minutes_items.each { |item| by_label[item["label"]] = item }
+  res_items.each do |item|
+    existing = by_label[item["label"]]
+    if existing
+      # Resolution says this item was resolved.
+      existing["outcome"] = "resolved"
+    else
+      by_label[item["label"]] = item
+    end
+  end
+
+  items = by_label.values.sort_by { |i| i["label"].split(".").map(&:to_i) }
+
+  {
+    "status" => items.empty? ? "draft" : "final",
+    "items" => items,
+  }
+end
+
+# Process each meeting.
+# CIML 4-60 + Conference 12-17.
+meeting_slugs = []
+(4..60).each { |n| meeting_slugs << "ciml-#{n}" }
+(12..17).each { |n| meeting_slugs << "conference-#{n}" }
+
+written = 0
+meeting_slugs.each do |slug|
+  kind = slug.start_with?("ciml") ? "ciml" : "conference"
+  ordinal = slug[/(\d+)$/].to_i
+
+  agenda = build_agenda(slug)
+
+  data = {
+    "identifier" => [{ "prefix" => kind == "ciml" ? "CIML" : "OIML Conference", "number" => ordinal.to_s }],
+    "urn" => "urn:oiml:#{kind}:meeting:#{slug}",
+    "status" => agenda["status"],
+    "items" => agenda["items"],
+  }
+
+  out_path = File.join(OUT_DIR, "#{slug}.yaml")
+  File.write(out_path, "---\n# Auto-generated by scripts/parse_agendas.rb from minutes/resolutions.\n" +
+                       data.to_yaml.sub(/^---\s*$/, "").lstrip)
+  written += 1
+  count = agenda["items"]&.size || 0
+  puts "  #{slug}: #{count} items"
+end
+
+puts "\n#{written} agenda YAML(s) written."
