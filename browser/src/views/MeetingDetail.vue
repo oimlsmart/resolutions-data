@@ -72,7 +72,19 @@
         </div>
       </header>
 
-      <div class="section-meta animate-up" style="--nth: 2">
+      <!-- Agenda section -->
+      <div v-if="meeting.agenda_items && meeting.agenda_items.length > 0" class="section-meta animate-up" style="--nth: 2">
+        <h2 class="section-meta-title">{{ t('meeting.agenda') }}</h2>
+        <div class="agenda-list">
+          <div v-for="item in meeting.agenda_items" :key="item.label" class="agenda-item">
+            <span class="agenda-item__label font-mono">{{ item.label }}</span>
+            <span class="agenda-item__title">{{ item.title }}</span>
+            <span v-if="item.outcome === 'resolved'" class="agenda-item__badge">{{ t('meeting.agendaResolved') }}</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-meta animate-up" style="--nth: 3">
         <h2 class="section-meta-title">{{ t('meetings.resolutionsCount', { count: meeting.resolution_count }) }}</h2>
       </div>
 

@@ -127,3 +127,50 @@ describe('build-data pipeline', () => {
     expect(records[0].source_title).toBe('') // No title_localized for Bulletin
   })
 })
+
+// ---------------------------------------------------------------------------
+// Agenda item linking
+// ---------------------------------------------------------------------------
+
+describe('agenda_item linking', () => {
+  it('includes agenda_item field when present on the resolution', () => {
+    const res = {
+      identifier: 'CIML/2025/44',
+      agenda_item: '16.2',
+      localizations: [{
+        language_code: 'eng',
+        title: 'Decision on contract renewal',
+        actions: [{ type: 'decides', message: 'The Committee decides...', dates: [] }],
+      }],
+    }
+    const meta = {
+      dates: [{ start: '2025-10-13', kind: 'meeting' }],
+      venue: 'Paris, France',
+      city: 'FRPAR',
+      country_code: 'FR',
+    }
+
+    const records = buildResolutionRecords(res, 'ciml-60-resolutions', meta)
+    expect(records[0].agenda_item).toBe('16.2')
+  })
+
+  it('defaults agenda_item to empty string when not present', () => {
+    const res = {
+      identifier: 'CIML/1976/1',
+      localizations: [{
+        language_code: 'fra',
+        title: 'ADOPTION',
+        actions: [],
+      }],
+    }
+    const meta = {
+      dates: [{ start: '1976-10-05', kind: 'meeting' }],
+      venue: 'Paris, France',
+      city: 'FRPAR',
+      country_code: 'FR',
+    }
+
+    const records = buildResolutionRecords(res, '15CIML-1976-FR', meta)
+    expect(records[0].agenda_item).toBe('')
+  })
+})

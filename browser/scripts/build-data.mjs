@@ -13,6 +13,7 @@ const __dirname = path.dirname(__filename);
 
 const RESOLUTIONS_DIR = path.resolve(__dirname, '../../resolutions');
 const MEETINGS_YAML_DIR = path.resolve(__dirname, '../../meetings');
+const AGENDAS_DIR = path.resolve(__dirname, '../../agendas');
 const OUTPUT_DIR = path.resolve(__dirname, '../public/data');
 const RESOLUTIONS_FILE = path.join(OUTPUT_DIR, 'resolutions.json');
 const MEETINGS_FILE = path.join(OUTPUT_DIR, 'meetings.json');
@@ -36,6 +37,19 @@ function sourceFileFromResolutionRefUrn(urn) {
   if (!urn) return null;
   const m = String(urn).match(/:resolution-collection:([-\w]+)$/);
   return m ? m[1] : null;
+}
+
+// Read agendas/<slug>.yaml and return the items array. Returns [] if
+// no agenda file exists.
+function loadAgendaItems(slug) {
+  const agendaPath = path.join(AGENDAS_DIR, `${slug}.yaml`);
+  if (!fs.existsSync(agendaPath)) return [];
+  try {
+    const data = yaml.load(fs.readFileSync(agendaPath, 'utf8'));
+    return data?.items || [];
+  } catch {
+    return [];
+  }
 }
 
 // Read meetings/*.yaml. Each meeting YAML is the canonical record for one
@@ -76,7 +90,8 @@ function loadMeetingYamls() {
         urn: m.urn,
         language_code: m.language_code,
       })),
-      resolution_refs: parsed.resolution_refs || [],
+      resolution_ref: parsed.resolution_refs || [],
+      agenda_items: loadAgendaItems(slug),
       // Per-meeting metadata; the first resolution YAML we encounter
       // for this meeting will fill in source_title/venue/date/city/...
       source_title: localizations[0]?.title || '',
