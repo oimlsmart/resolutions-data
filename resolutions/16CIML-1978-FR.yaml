@@ -24,8 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: OBJET
-    subject: CIML
+    title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU'
     considerations: []
     actions:
     - type: notes
@@ -36,6 +35,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1978/2
@@ -46,8 +46,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: STATUT et MANDAT
-    subject: CIML
+    title: 'Agenda Item 2: SITUATION GENERALE DE L''ORGANISATION'
     considerations: []
     actions:
     - type: notes
@@ -58,6 +57,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1978/3
@@ -68,8 +68,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: COMPOSITION
-    subject: CIML
+    title: 'Agenda Item 3: SITUATION FINANCIERE'
     considerations: []
     actions:
     - type: notes
@@ -80,6 +79,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1978/4
@@ -90,8 +90,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: FONCTIONNEMENT
-    subject: CIML
+    title: 'Agenda Item 4: PERSONNEL DU BUREAU'
     considerations: []
     actions:
     - type: notes
@@ -102,6 +101,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1978/5
@@ -112,8 +112,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: DISPOSITIONS FINANCIERES
-    subject: CIML
+    title: 'Agenda Item 5: SECRETARIATS PILOTES ET RAPPORTEURS'
     considerations: []
     actions:
     - type: notes
@@ -126,6 +125,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1978/6
@@ -136,8 +136,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: DISPOSITION TRANSITOIRE
-    subject: CIML
+    title: 'Agenda Item 6: MODE DE TRAVAIL DES SECRETARIATS DE L''OIML'
     considerations: []
     actions:
     - type: notes
@@ -243,6 +242,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1978/1
@@ -253,8 +253,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: OBJET
-    subject: CIML
+    title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU'
     considerations: []
     actions:
     - type: notes
@@ -265,6 +264,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1978/2
@@ -275,8 +275,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: STATUT et MANDAT
-    subject: CIML
+    title: 'Agenda Item 2: SITUATION GENERALE DE L''ORGANISATION'
     considerations: []
     actions:
     - type: notes
@@ -287,6 +286,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1978/3
@@ -297,8 +297,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: COMPOSITION
-    subject: CIML
+    title: 'Agenda Item 3: SITUATION FINANCIERE'
     considerations: []
     actions:
     - type: notes
@@ -309,6 +308,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1978/4
@@ -319,8 +319,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: FONCTIONNEMENT
-    subject: CIML
+    title: 'Agenda Item 4: PERSONNEL DU BUREAU'
     considerations: []
     actions:
     - type: notes
@@ -331,6 +330,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1978/5
@@ -341,8 +341,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: DISPOSITIONS FINANCIERES
-    subject: CIML
+    title: 'Agenda Item 5: SECRETARIATS PILOTES ET RAPPORTEURS'
     considerations: []
     actions:
     - type: notes
@@ -355,6 +354,7 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1978/6
@@ -365,8 +365,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: DISPOSITION TRANSITOIRE
-    subject: CIML
+    title: 'Agenda Item 6: MODE DE TRAVAIL DES SECRETARIATS DE L''OIML'
     considerations: []
     actions:
     - type: notes
@@ -404,3 +403,4 @@ decisions:
       date_effective:
         date: '1978-06-19'
         type: effective
+  agenda_item: '6'

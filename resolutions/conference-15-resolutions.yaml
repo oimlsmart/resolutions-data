@@ -19,7 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the minutes of the 14th Conference in 2012.
+    title: 'Agenda Item 1: Approval of the minutes of the 14th Conference'
     subject: OIML Conference
     considerations: []
     actions:
@@ -31,8 +31,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: Approuve le compte rendu de la $ 1 4^{\mathrm{\text{ème}}} $ Conférence
-      en 2012.
+    title: 'Agenda Item 1: Approval of the minutes of the 14th Conference'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -44,6 +43,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: Conference
     number: 2016/2
@@ -54,7 +54,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Resolves
+    title: 'Agenda Item 2: Report on the work of the CIML (2013–2016)'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -82,7 +82,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: 'Décide que '
+    title: 'Agenda Item 2: Report on the work of the CIML (2013–2016)'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -109,6 +109,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: Conference
     number: 2016/3
@@ -119,8 +120,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Requests the Committee to consider the policy it should adopt towards the
-      long-term level
+    title: 'Agenda Item 3: Report on the work of the BIML (2013–2016)'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -142,8 +142,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: Demande au Comité d'examiner la politique qu'il devrait adopter en ce qui
-      concerne le
+    title: 'Agenda Item 3: Report on the work of the BIML (2013–2016)'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -165,6 +164,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: Conference
     number: 2016/4
@@ -175,8 +175,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Resolves: The audited accounts for 2012, 2013, 2014 and 2015 are hereby
-      approved. The'
+    title: 'Agenda Item 4: Report on the 2013–2016 financial period'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -202,7 +201,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: 'Décide que : Les comptes audités pour 2012, 2013, 2014 et 2015 sont à'
+    title: 'Agenda Item 4: Report on the 2013–2016 financial period'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -228,6 +227,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: Conference
     number: 2016/5
@@ -238,8 +238,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Resolves: The OIML publications listed in the report in Annex D are hereby
-      sanctioned.'
+    title: 'Agenda Item 5: Approval of the accounts for 2012, 2013, 2014 and 2015'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -267,8 +266,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: 'Décide que : Les publications de l''OIML listées dans le rapport en Annexe
-      D'
+    title: 'Agenda Item 5: Approval of the accounts for 2012, 2013, 2014 and 2015'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -296,6 +294,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: Conference
     number: 2016/6
@@ -306,7 +305,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Resolves
+    title: 'Agenda Item 6: Sanctioning of OIML publications'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -346,7 +345,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: 'Décide que '
+    title: 'Agenda Item 6: Sanctioning of OIML publications'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -386,6 +385,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: Conference
     number: 2016/7
@@ -396,7 +396,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Resolves
+    title: 'Agenda Item 7: Member States’ contributory classes and the base contributory
+      share for 2017–2020'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -425,7 +426,8 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: Décide que
+    title: 'Agenda Item 7: Member States’ contributory classes and the base contributory
+      share for 2017–2020'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -452,6 +454,7 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: Conference
     number: 2016/8
@@ -462,8 +465,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Resolves: The Committee is hereby charged to organize the 16th Conference
-      in 2020, the'
+    title: 'Agenda Item 8: Budget for the 2017–2020 financial period'
     subject: OIML Conference
     considerations:
     - type: having_regard_to
@@ -557,8 +559,7 @@ decisions:
         date: '2016-10-19'
         type: effective
   - language_code: fra
-    title: 'Décide que : Le Comité est à présent chargé d''organiser la 16eme Conférence
-      en'
+    title: 'Agenda Item 8: Budget for the 2017–2020 financial period'
     subject: Conférence OIML
     considerations:
     - type: having_regard_to
@@ -635,3 +636,4 @@ decisions:
       date_effective:
         date: '2016-10-19'
         type: effective
+  agenda_item: '8'

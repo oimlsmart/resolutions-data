@@ -1,0 +1,44 @@
+---
+identifier:
+- prefix: OIML Development Council
+  number: '1'
+urn: urn:oiml:dc:meeting:dc-1-2004
+type: committee
+status: completed
+ordinal: 1
+date_range:
+  start: '2004-10-25'
+  end: '2004-10-25'
+committee: OIML Development Council
+general_area: Berlin, Germany
+source_urls:
+- ref: https://berlin.oiml.org/docs_general/agenda_dc.pdf
+  format: pdf
+  language_code: eng
+  kind: agenda_pdf
+- ref: https://www.oiml.org/en/structure/conference/pdf/2004-oimldc-decisions-en.pdf
+  format: pdf
+  language_code: eng
+  kind: decisions_pdf
+- ref: https://www.oiml.org/en/structure/conference/pdf/2004-oimldc-decisions-fr.pdf
+  format: pdf
+  language_code: fra
+  kind: decisions_pdf
+localizations:
+- language_code: eng
+  script: Latn
+  title: 1st OIML Development Council — Decisions (EN)
+  general_area: Berlin, Germany
+- language_code: fra
+  script: Latn
+  title: 1er Conseil de Développement de l'OIML — Décisions (FR)
+  general_area: Berlin, Allemagne
+agenda:
+  status: final
+city: DEBER
+country_code: DE
+visibility: public
+venues:
+- kind: physical
+  unlocode: DEBER
+  country_code: DE

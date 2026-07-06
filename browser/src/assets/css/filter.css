@@ -119,6 +119,9 @@
 .body-section--conference {
   border-left-color: var(--color-teal, #024873);
 }
+.body-section--dc {
+  border-left-color: var(--color-amber, #b45309);
+}
 .body-section__header {
   display: flex;
   align-items: baseline;
@@ -146,6 +149,7 @@
 }
 .body-section__badge--ciml        { background: var(--color-brand-600, #004996); }
 .body-section__badge--conference  { background: var(--color-teal, #024873); }
+.body-section__badge--dc         { background: var(--color-amber, #b45309); }
 .body-section__count {
   font-size: 0.85rem;
   color: var(--color-slate-500, #64748b);
@@ -159,8 +163,12 @@
 .timeline-node--conference {
   background: var(--color-teal, #024873);
 }
+.timeline-node--dc {
+  background: var(--color-amber, #b45309);
+}
 .timeline-entry--ciml:hover .timeline-year,
-.timeline-entry--conference:hover .timeline-year {
+.timeline-entry--conference:hover .timeline-year,
+.timeline-entry--dc:hover .timeline-year {
   color: var(--color-brand-700, #003a78);
 }
 

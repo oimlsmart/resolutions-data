@@ -19,7 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approved the Minutes of the 42nd CIML Meeting without modification.
+    title: 'Agenda Item 1: Approval of the minutes of the 42nd CIML Meeting'
     subject: OIML Conference
     considerations: []
     actions:
@@ -32,8 +32,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a approuvé sans modification le Compte-rendu de la 42ème Réunion
-      du CIML.
+    title: 'Agenda Item 1: Approval of the minutes of the 42nd CIML Meeting'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -45,6 +44,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2008/2
@@ -55,8 +55,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee welcomed Montenegro as a new Corresponding Member and expressed
-      its appreciation for
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     subject: OIML Conference
     considerations: []
     actions:
@@ -80,8 +79,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a souhaité la bienvenue au Monténégro en tant que nouveau Membre
-      Correspondant
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -104,6 +102,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2008/3
@@ -114,8 +113,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee rejected the appeal from Greece concerning its contributory
-      class.
+    title: 'Agenda Item 3: Presidential Council activities'
     subject: OIML Conference
     considerations: []
     actions:
@@ -128,7 +126,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a rejeté l'appel de la Grèce relatif à sa classe de contribution.
+    title: 'Agenda Item 3: Presidential Council activities'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -139,6 +137,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2008/4
@@ -149,8 +148,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee decided to strike Cameroon and Ethiopia off the list of Member
-      States
+    title: 'Agenda Item 4: Developing Countries activities'
     subject: OIML Conference
     considerations: []
     actions:
@@ -162,7 +160,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a décidé de radier de la liste des Etats Membres le Cameroun
+    title: 'Agenda Item 4: Developing Countries activities'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -173,6 +171,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2008/5
@@ -183,8 +182,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee took note of the decision by the 13th Conference to grant
-      Cameroon
+    title: 'Agenda Item 5: Liaisons'
     subject: OIML Conference
     considerations: []
     actions:
@@ -197,8 +195,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a pris note de la décision de la 13ème Conférence d'accorder
-      un
+    title: 'Agenda Item 5: Liaisons'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -211,6 +208,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2008/6
@@ -221,8 +219,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee instructed its President and the Bureau to strike Zambia
-      off the list
+    title: 'Agenda Item 6: Technical activities'
     subject: OIML Conference
     considerations: []
     actions:
@@ -235,7 +232,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a donné instruction à son Président et au Bureau de radier la
+    title: 'Agenda Item 6: Technical activities'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -247,6 +244,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2008/7
@@ -257,8 +255,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee took note of an oral presentation given by its President
-      on the
+    title: 'Agenda Item 7: Human resources matters'
     subject: OIML Conference
     considerations: []
     actions:
@@ -271,8 +268,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a pris note de la présentation orale donnée par son Président
-      sur
+    title: 'Agenda Item 7: Human resources matters'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -284,6 +280,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2008/8
@@ -294,8 +291,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approved the allocation of the position of "Facilitator for
-      developing country activit…
+    title: 'Agenda Item 8: Conference Agenda'
     subject: OIML Conference
     considerations: []
     actions:
@@ -308,8 +304,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a approuvé la nomination de Monsieur Eberhard Seiler en tant
-      que "Facilitateur
+    title: 'Agenda Item 8: Conference Agenda'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -321,6 +316,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2008/9
@@ -331,8 +327,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approved the setting up of an OIML Award "for excellent contributions
-      from
+    title: 'Agenda Item 9: Future meetings'
     subject: OIML Conference
     considerations: []
     actions:
@@ -347,7 +342,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a approuvé la mise en place d'une récompense de l'OIML pour "l'excellence
+    title: 'Agenda Item 9: Future meetings'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -362,6 +357,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2008/10
@@ -372,8 +368,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee requested the BIML to circulate the joint report of the BIPM
-      and
+    title: 'Agenda Item 10: Other matters'
     subject: OIML Conference
     considerations: []
     actions:
@@ -387,8 +382,7 @@ decisions:
         date: '2008-10-28'
         type: effective
   - language_code: fra
-    title: Le Comité a exprimé son appréciation pour l'excellente coopération entre
-      le Conseil de Présidence
+    title: 'Agenda Item 10: Other matters'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -410,6 +404,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2008/11
@@ -451,6 +446,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2008/12
@@ -490,6 +486,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2008/13
@@ -532,6 +529,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2008/14
@@ -575,6 +573,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 2008/15
@@ -616,6 +615,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 2008/16
@@ -660,6 +660,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2008/17
@@ -697,6 +698,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 2008/18
@@ -741,6 +743,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: CIML
     number: 2008/19
@@ -782,6 +785,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '19'
 - identifier:
   - prefix: CIML
     number: 2008/20
@@ -824,6 +828,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '20'
 - identifier:
   - prefix: CIML
     number: 2008/21
@@ -871,6 +876,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '21'
 - identifier:
   - prefix: CIML
     number: 2008/22
@@ -914,6 +920,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '22'
 - identifier:
   - prefix: CIML
     number: 2008/23
@@ -956,6 +963,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '23'
 - identifier:
   - prefix: CIML
     number: 2008/24
@@ -1013,6 +1021,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '24'
 - identifier:
   - prefix: CIML
     number: 2008/25
@@ -1068,6 +1077,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '25'
 - identifier:
   - prefix: CIML
     number: 2008/26
@@ -1147,6 +1157,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '26'
 - identifier:
   - prefix: CIML
     number: 2008/27
@@ -1184,6 +1195,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '27'
 - identifier:
   - prefix: CIML
     number: 2008/28
@@ -1208,6 +1220,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '28'
 - identifier:
   - prefix: CIML
     number: 2008/29
@@ -1245,6 +1258,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '29'
 - identifier:
   - prefix: CIML
     number: 2008/30
@@ -1281,6 +1295,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '30'
 - identifier:
   - prefix: CIML
     number: 2008/31
@@ -1318,6 +1333,7 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '31'
 - identifier:
   - prefix: CIML
     number: 2008/32
@@ -1355,3 +1371,4 @@ decisions:
       date_effective:
         date: '2008-10-28'
         type: effective
+  agenda_item: '32'

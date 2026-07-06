@@ -20,8 +20,7 @@ decisions:
   agenda_item: '1'
   localizations:
   - language_code: eng
-    title: Agenda item 1
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 48th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -32,8 +31,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 48th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -54,8 +52,7 @@ decisions:
   agenda_item: '2'
   localizations:
   - language_code: eng
-    title: Agenda item 2
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -66,8 +63,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 2 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -88,8 +84,7 @@ decisions:
   agenda_item: '3.1'
   localizations:
   - language_code: eng
-    title: Agenda item 3.1
-    subject: CIML
+    title: 'Agenda Item 3.1: Report on BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -101,8 +96,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 3.1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 3.1: Report on BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -123,9 +117,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Resolves not to appoint a Selection Committee under section 3 of OIML B
-      13:2004.
-    subject: CIML
+    title: 'Agenda Item 4: Member States and Corresponding Members'
     considerations:
     - type: having_regard_to
       message: 'Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations,
@@ -170,8 +162,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Décide de ne pas désigner de Comité de Sélection tel que le prévoit la
-    subject: CIML
+    title: 'Agenda Item 4: Member States and Corresponding Members'
     considerations:
     - type: having_regard_to
       message: 'Vu la section 7.2.2 de l''OIML B 7:2013 Statuts du Personnel du BIML,
@@ -216,6 +207,7 @@ decisions:
       date_effective:
         date: '2014-11-04'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2014/5
@@ -226,8 +218,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Welcomes Cameroon as a re-instated Member State
-    subject: CIML
+    title: 'Agenda Item 5: Financial matters'
     considerations: []
     actions:
     - type: welcomes
@@ -245,8 +236,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 4 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 5: Financial matters'
     considerations: []
     actions:
     - type: welcomes
@@ -263,6 +253,7 @@ decisions:
       date_effective:
         date: '2014-11-04'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2014/6
@@ -273,8 +264,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the 2013 accounts, and
-    subject: CIML
+    title: 'Agenda Item 6: Report on developing countries matters'
     considerations:
     - type: noting
       message: 'Noting the accounts for 2013 and the BIML Director''s comments,
@@ -306,8 +296,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 5.1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 6: Report on developing countries matters'
     considerations:
     - type: noting
       message: |
@@ -332,6 +321,7 @@ decisions:
       date_effective:
         date: '2014-11-04'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2014/7
@@ -343,8 +333,7 @@ decisions:
   agenda_item: '5.1'
   localizations:
   - language_code: eng
-    title: Agenda item 5.1
-    subject: CIML
+    title: 'Agenda Item 5.1: Approval of the 2013 accounts'
     considerations:
     - type: having_regard_to
       message: 'Having regard to article 21.4 of OIML B 8:2012 OIML Financial regulations,
@@ -370,8 +359,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 5.1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 5.1: Approval of the 2013 accounts'
     considerations:
     - type: having_regard_to
       message: |
@@ -398,8 +386,8 @@ decisions:
   agenda_item: '5.5'
   localizations:
   - language_code: eng
-    title: Agenda item 5.5
-    subject: CIML
+    title: 'Agenda Item 5.5: Outstanding arrears of Member States and Corresponding
+      Members'
     considerations: []
     actions:
     - type: notes
@@ -418,8 +406,8 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 5.5 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 5.5: Outstanding arrears of Member States and Corresponding
+      Members'
     considerations: []
     actions:
     - type: notes
@@ -447,8 +435,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the oral report given by the BIML on its activities in liaison with
-    subject: CIML
+    title: 'Agenda Item 9: Preparation of the 15th Conference (2016)'
     considerations: []
     actions:
     - type: notes
@@ -462,9 +449,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Prend note du rapport oral présenté par le BIML concernant les activités
-      qu'il mène
-    subject: CIML
+    title: 'Agenda Item 9: Preparation of the 15th Conference (2016)'
     considerations: []
     actions:
     - type: notes
@@ -477,6 +462,7 @@ decisions:
       date_effective:
         date: '2014-11-04'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2014/10
@@ -487,8 +473,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the oral report given by the Chair of the advisory group.
-    subject: CIML
+    title: 'Agenda Item 10: Other matters'
     considerations:
     - type: recalling
       message: 'Recalling its resolution no.2013/9, setting up an advisory group to
@@ -509,8 +494,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Prend note du rapport oral présenté par le Président du groupe consultatif.
-    subject: CIML
+    title: 'Agenda Item 10: Other matters'
     considerations:
     - type: recalling
       message: 'Rappelant sa Résolution n° 2013/9, relative à la mise en place d''un
@@ -531,6 +515,7 @@ decisions:
       date_effective:
         date: '2014-11-04'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2014/11
@@ -542,8 +527,7 @@ decisions:
   agenda_item: '6.3'
   localizations:
   - language_code: eng
-    title: Agenda item 6.3
-    subject: CIML
+    title: 'Agenda Item 6.3: Special project aimed at developing countries'
     considerations: []
     actions:
     - type: notes
@@ -555,8 +539,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 6.3 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 6.3: Special project aimed at developing countries'
     considerations: []
     actions:
     - type: notes
@@ -578,8 +561,7 @@ decisions:
   agenda_item: '7.1'
   localizations:
   - language_code: eng
-    title: Agenda item 7.1
-    subject: CIML
+    title: 'Agenda Item 7.1: Report on the cooperation with the BIPM'
     considerations: []
     actions:
     - type: thanks
@@ -607,9 +589,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Remercie le Dr. Philippe Richard pour l'exposé qu'il a présenté au nom
-      du BIPM
-    subject: CIML
+    title: 'Agenda Item 7.1: Report on the cooperation with the BIPM'
     considerations: []
     actions:
     - type: thanks
@@ -647,8 +627,7 @@ decisions:
   agenda_item: '7.4'
   localizations:
   - language_code: eng
-    title: Agenda item 7.4
-    subject: CIML
+    title: 'Agenda Item 7.4: Information regarding the RLMO Round Table'
     considerations: []
     actions:
     - type: notes
@@ -660,8 +639,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Point 7.4 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 7.4: Information regarding the RLMO Round Table'
     considerations: []
     actions:
     - type: notes
@@ -684,8 +662,8 @@ decisions:
   agenda_item: '8.1'
   localizations:
   - language_code: eng
-    title: Agenda item 8.1
-    subject: CIML
+    title: 'Agenda Item 8.1: Implementation of the revised B 6: Directives for OIML
+      technical work'
     considerations:
     - type: considering
       message: 'Considering that a number of current Project Groups have too few P-members
@@ -725,9 +703,8 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le BIML concernant la mise en œuvre
-      de
-    subject: CIML
+    title: 'Agenda Item 8.1: Implementation of the revised B 6: Directives for OIML
+      technical work'
     considerations:
     - type: considering
       message: 'Considérant que, pour un certain nombre de Groupes de Projet actuels,
@@ -779,7 +756,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 8.3.1
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -799,7 +775,6 @@ decisions:
   - language_code: fra
     title: 'Approuve les projets de Publication [Draft Publications] suivants : -
       Amendement à la R'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -828,7 +803,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 8.3.2
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the project proposal in Addendum 8.3.2 to the working
@@ -849,7 +823,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Approuve en tant que nouveau projet dans le cadre du TC 8/SC 3 la
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considérant la proposition de projet figurant dans l''additif 8.3.2
@@ -882,7 +855,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 8.3.3
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the project proposal in Addendum 8.3.3 to the working
@@ -903,7 +875,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 8.3.3 de l'ordre du jour
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considérant la proposition de projet figurant dans l''additif 8.3.3
@@ -933,8 +904,7 @@ decisions:
   agenda_item: '8.5'
   localizations:
   - language_code: eng
-    title: Agenda item 8.5
-    subject: CIML
+    title: 'Agenda Item 8.5: OIML Systems: the MAA'
     considerations: []
     actions:
     - type: notes
@@ -966,9 +936,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le président du groupe de travail ad
-      hoc
-    subject: CIML
+    title: 'Agenda Item 8.5: OIML Systems: the MAA'
     considerations: []
     actions:
     - type: notes
@@ -1011,8 +979,7 @@ decisions:
   agenda_item: '11'
   localizations:
   - language_code: eng
-    title: Agenda item 11
-    subject: CIML
+    title: 'Agenda Item 11: Awards'
     considerations: []
     actions:
     - type: thanks
@@ -1025,9 +992,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Remercie Mme Magdalena Chuwa de l'Agence des poids et mesures pour la Tanzanie,
-      lauréate
-    subject: CIML
+    title: 'Agenda Item 11: Awards'
     considerations: []
     actions:
     - type: thanks
@@ -1050,8 +1015,7 @@ decisions:
   agenda_item: '12'
   localizations:
   - language_code: eng
-    title: Agenda item 12
-    subject: CIML
+    title: 'Agenda Item 12: Future meetings'
     considerations: []
     actions:
     - type: notes
@@ -1072,9 +1036,7 @@ decisions:
         date: '2014-11-04'
         type: effective
   - language_code: fra
-    title: Prend note des informations communiquées par son Président et par le Directeur
-      du BIML
-    subject: CIML
+    title: 'Agenda Item 12: Future meetings'
     considerations: []
     actions:
     - type: notes

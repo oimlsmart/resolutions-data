@@ -19,13 +19,11 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Organization of the Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Organization of the meeting'
     considerations: []
     actions: []
   - language_code: fra
-    title: Organisation de la réunion
-    subject: CIML
+    title: 'Agenda Item 1: Organization of the meeting'
     considerations: []
     actions:
     - type: notes
@@ -38,6 +36,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: Conference
     number: 2004/1.1
@@ -48,9 +47,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference took note of opening and welcome addresses delivered by
-      Dr. Tacke, Vice-Minister of t…
-    subject: CIML
+    title: 'Agenda Item 1.1: Opening'
     considerations: []
     actions:
     - type: notes
@@ -60,6 +57,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1.1'
 - identifier:
   - prefix: Conference
     number: 2004/1.2
@@ -70,9 +68,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The roll of Delegates was called and it was found that 54 Member States
-      were present out of a total …
-    subject: CIML
+    title: 'Agenda Item 1.2: Roll-call - Verification of credentials - Quorum'
     considerations: []
     actions:
     - type: notes
@@ -82,6 +78,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1.2'
 - identifier:
   - prefix: Conference
     number: 2004/1.3
@@ -92,11 +89,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Information concerning voting procedures during Conference sessions was
-      given.
-    subject: CIML
+    title: 'Agenda Item 1.3: Voting procedures during Conference sessions'
     considerations: []
     actions: []
+  agenda_item: '1.3'
 - identifier:
   - prefix: Conference
     number: 2004/1.4
@@ -107,9 +103,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference unanimously elected Dr. Röhling as Conference President
-      with Pr. Kochsiek (Germany)
-    subject: CIML
+    title: 'Agenda Item 1.4: Election of the President and Vice-Presidents of the
+      Conference'
     considerations: []
     actions:
     - type: notes
@@ -120,6 +115,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1.4'
 - identifier:
   - prefix: Conference
     number: 2004/1.5
@@ -130,10 +126,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference adopted the proposed agenda without modification.
-    subject: CIML
+    title: 'Agenda Item 1.5: Adoption of the agenda'
     considerations: []
     actions: []
+  agenda_item: '1.5'
 - identifier:
   - prefix: Conference
     number: 2004/1.6
@@ -144,9 +140,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference established two Working Commissions, one for Financial Matters
-      and one for Technical
-    subject: CIML
+    title: 'Agenda Item 1.6: Constitution of Working Commissions'
     considerations: []
     actions:
     - type: notes
@@ -156,6 +150,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1.6'
 - identifier:
   - prefix: Conference
     number: 2004/1.7
@@ -166,10 +161,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference adopted the proposed schedule.
-    subject: CIML
+    title: 'Agenda Item 1.7: Establishment of the schedule'
     considerations: []
     actions: []
+  agenda_item: '1.7'
 - identifier:
   - prefix: Conference
     number: 2004/1.8
@@ -180,11 +175,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference approved the Minutes of the Eleventh Conference without
-      modification.
-    subject: CIML
+    title: 'Agenda Item 1.8: Approval of the minutes of the Eleventh Conference'
     considerations: []
     actions: []
+  agenda_item: '1.8'
 - identifier:
   - prefix: Conference
     number: 2004/1.9
@@ -195,9 +189,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference took note of a report presented by the President of the
-      International Committee of Le…
-    subject: CIML
+    title: 'Agenda Item 1.9: Report on activities by the President of the International
+      Committee of Legal Metrology'
     considerations: []
     actions:
     - type: notes
@@ -208,6 +201,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1.9'
 - identifier:
   - prefix: Conference
     number: 2004/2
@@ -218,15 +212,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     considerations: []
     actions: []
   - language_code: fra
-    title: États Membres et Membres Correspondants
-    subject: CIML
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: Conference
     number: 2004/2.1
@@ -237,8 +230,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New Members - Expected accessions
-    subject: CIML
+    title: 'Agenda Item 2.1: New Members - Expected accessions'
     considerations: []
     actions:
     - type: notes
@@ -252,8 +244,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Nouveaux Membres - Perspectives d'adhésions
-    subject: CIML
+    title: 'Agenda Item 2.1: New Members - Expected accessions'
     considerations: []
     actions:
     - type: notes
@@ -269,6 +260,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: Conference
     number: 2004/2.2
@@ -279,8 +271,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The situation of certain Members
-    subject: CIML
+    title: 'Agenda Item 2.2: The situation of certain Members (see also Item 8.2)'
     considerations: []
     actions:
     - type: notes
@@ -293,8 +284,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Situation de certains Membres
-    subject: CIML
+    title: 'Agenda Item 2.2: The situation of certain Members (see also Item 8.2)'
     considerations: []
     actions:
     - type: notes
@@ -306,6 +296,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: Conference
     number: 2004/3
@@ -316,15 +307,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Long-term policy
-    subject: CIML
+    title: 'Agenda Item 3: Long-term policy'
     considerations: []
     actions: []
   - language_code: fra
-    title: Politique à long terme
-    subject: CIML
+    title: 'Agenda Item 3: Long-term policy'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: Conference
     number: 2004/3.1
@@ -335,8 +325,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on actions carried out since the Eleventh Conference
-    subject: CIML
+    title: 'Agenda Item 3.1: Report on actions carried out since the Eleventh Conference'
     considerations: []
     actions:
     - type: notes
@@ -347,8 +336,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Rapport sur les actions réalisées depuis la Onzième Conférence
-    subject: CIML
+    title: 'Agenda Item 3.1: Report on actions carried out since the Eleventh Conference'
     considerations: []
     actions:
     - type: notes
@@ -359,6 +347,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: Conference
     number: 2004/3.2
@@ -369,8 +358,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Guidelines for the period 2005–2008
-    subject: CIML
+    title: 'Agenda Item 3.2: Guidelines for the period 2005–2008'
     considerations: []
     actions:
     - type: notes
@@ -384,8 +372,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Lignes directrices pour la période 2005-2008
-    subject: CIML
+    title: 'Agenda Item 3.2: Guidelines for the period 2005–2008'
     considerations: []
     actions:
     - type: notes
@@ -401,6 +388,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: Conference
     number: 2004/4
@@ -411,15 +399,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Liaisons with international and regional institutions
-    subject: CIML
+    title: 'Agenda Item 4: Liaisons with international and regional institutions'
     considerations: []
     actions: []
   - language_code: fra
-    title: Liaisons avec les institutions internationales et régionales
-    subject: CIML
+    title: 'Agenda Item 4: Liaisons with international and regional institutions'
     considerations: []
     actions: []
+  agenda_item: '4'
 - identifier:
   - prefix: Conference
     number: 2004/4.1
@@ -430,8 +417,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on liaisons
-    subject: CIML
+    title: 'Agenda Item 4.1: Report on liaisons'
     considerations: []
     actions:
     - type: notes
@@ -442,8 +428,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Rapport sur les liaisons
-    subject: CIML
+    title: 'Agenda Item 4.1: Report on liaisons'
     considerations: []
     actions:
     - type: notes
@@ -454,6 +439,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '4.1'
 - identifier:
   - prefix: Conference
     number: 2004/4.2
@@ -464,8 +450,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Addresses by Representatives of Institutions
-    subject: CIML
+    title: 'Agenda Item 4.2: Addresses by Representatives of Institutions'
     considerations: []
     actions:
     - type: notes
@@ -484,8 +469,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Discours des Représentants des Institutions
-    subject: CIML
+    title: 'Agenda Item 4.2: Addresses by Representatives of Institutions'
     considerations: []
     actions:
     - type: notes
@@ -496,6 +480,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '4.2'
 - identifier:
   - prefix: Conference
     number: 2004/4.3
@@ -506,9 +491,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference took note of a report presented by the BIML Director concerning
-      the main aspects of
-    subject: CIML
+    title: 'Agenda Item 4.3: Discussions and conclusions'
     considerations: []
     actions:
     - type: notes
@@ -520,6 +503,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '4.3'
 - identifier:
   - prefix: Conference
     number: 2004/5
@@ -530,15 +514,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Work of OIML Technical Committees and Subcommittees
-    subject: CIML
+    title: 'Agenda Item 5: Work of OIML Technical Committees and Subcommittees'
     considerations: []
     actions: []
   - language_code: fra
-    title: Travaux des Comités Techniques et Sous-comités de l'OIML
-    subject: CIML
+    title: 'Agenda Item 5: Work of OIML Technical Committees and Subcommittees'
     considerations: []
     actions: []
+  agenda_item: '5'
 - identifier:
   - prefix: Conference
     number: 2004/5.1
@@ -549,8 +532,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Work undertaken - State of progress
-    subject: CIML
+    title: 'Agenda Item 5.1: Work undertaken - State of progress'
     considerations: []
     actions:
     - type: notes
@@ -562,8 +544,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Travaux entrepris - État d'avancement
-    subject: CIML
+    title: 'Agenda Item 5.1: Work undertaken - State of progress'
     considerations: []
     actions:
     - type: notes
@@ -577,6 +558,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '5.1'
 - identifier:
   - prefix: Conference
     number: 2004/5.2
@@ -587,8 +569,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Implementation of Recommendations by OIML Members
-    subject: CIML
+    title: 'Agenda Item 5.2: Implementation of Recommendations by OIML Members'
     considerations: []
     actions:
     - type: notes
@@ -603,8 +584,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Mise en application des Recommandations par les Membres de l'OIML
-    subject: CIML
+    title: 'Agenda Item 5.2: Implementation of Recommendations by OIML Members'
     considerations: []
     actions:
     - type: notes
@@ -617,6 +597,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '5.2'
 - identifier:
   - prefix: Conference
     number: 2004/5.3
@@ -627,9 +608,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Formal sanction of Recommendations already approved by the Committee in
-      2001, 2002, 2003 and 2004
-    subject: CIML
+    title: 'Agenda Item 5.3: Formal sanction of Recommendations already approved by
+      the Committee in 2001, 2002 and 2003'
     considerations: []
     actions:
     - type: notes
@@ -643,9 +623,8 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Sanction officielle des Recommandations déjà approuvées par le Comité en
-      2001, 2002, 2003 et 2004
-    subject: CIML
+    title: 'Agenda Item 5.3: Formal sanction of Recommendations already approved by
+      the Committee in 2001, 2002 and 2003'
     considerations: []
     actions:
     - type: notes
@@ -659,6 +638,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '5.3'
 - identifier:
   - prefix: Conference
     number: 2004/5.4
@@ -669,8 +649,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Draft Recommendations directly presented for sanctioning by the Conference
-    subject: CIML
+    title: 'Agenda Item 5.4: Draft Recommendations directly presented for sanctioning
+      by the Conference'
     considerations: []
     actions:
     - type: notes
@@ -681,8 +661,8 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Projets de Recommandations présentés directement pour sanction par la Conférence
-    subject: CIML
+    title: 'Agenda Item 5.4: Draft Recommendations directly presented for sanctioning
+      by the Conference'
     considerations: []
     actions:
     - type: notes
@@ -693,6 +673,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '5.4'
 - identifier:
   - prefix: Conference
     number: 2004/6
@@ -703,15 +684,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: OIML Certificate System for Measuring Instruments
-    subject: CIML
+    title: 'Agenda Item 6: OIML Certification, Mutual Acceptance and/or Recognition'
     considerations: []
     actions: []
   - language_code: fra
-    title: Système de Certificats OIML pour les Instruments de Mesure
-    subject: CIML
+    title: 'Agenda Item 6: OIML Certification, Mutual Acceptance and/or Recognition'
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: Conference
     number: 2004/6.1
@@ -722,8 +702,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on the situation of the System
-    subject: CIML
+    title: 'Agenda Item 6.1: OIML Certificate System for Measuring Instruments'
     considerations: []
     actions:
     - type: notes
@@ -735,8 +714,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Rapport sur la situation du Système
-    subject: CIML
+    title: 'Agenda Item 6.1: OIML Certificate System for Measuring Instruments'
     considerations: []
     actions:
     - type: notes
@@ -750,6 +728,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: Conference
     number: 2004/6.2
@@ -760,8 +739,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Mutual Acceptance Arrangement (MAA)
-    subject: CIML
+    title: 'Agenda Item 6.2: Mutual Acceptance Arrangement (MAA)'
     considerations: []
     actions:
     - type: notes
@@ -775,8 +753,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Arrangement d'Acceptation Mutuelle (MAA)
-    subject: CIML
+    title: 'Agenda Item 6.2: Mutual Acceptance Arrangement (MAA)'
     considerations: []
     actions:
     - type: notes
@@ -788,6 +765,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: Conference
     number: 2004/6.3
@@ -798,8 +776,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other developments
-    subject: CIML
+    title: 'Agenda Item 6.3: Other developments'
     considerations: []
     actions:
     - type: notes
@@ -813,8 +790,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Autres développements
-    subject: CIML
+    title: 'Agenda Item 6.3: Other developments'
     considerations: []
     actions:
     - type: notes
@@ -827,6 +803,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.3'
 - identifier:
   - prefix: Conference
     number: 2004/7
@@ -837,15 +814,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Developing Countries
-    subject: CIML
+    title: 'Agenda Item 7: Developing Countries'
     considerations: []
     actions: []
   - language_code: fra
-    title: Pays en Développement
-    subject: CIML
+    title: 'Agenda Item 7: Developing Countries'
     considerations: []
     actions: []
+  agenda_item: '7'
 - identifier:
   - prefix: Conference
     number: 2004/7.1
@@ -856,8 +832,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on activities for the period 2001–2004
-    subject: CIML
+    title: 'Agenda Item 7.1: Report on activities for the period 2001–2004'
     considerations: []
     actions:
     - type: notes
@@ -870,8 +845,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Rapport sur les activités de la période 2001-2004
-    subject: CIML
+    title: 'Agenda Item 7.1: Report on activities for the period 2001–2004'
     considerations: []
     actions:
     - type: notes
@@ -883,6 +857,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '7.1'
 - identifier:
   - prefix: Conference
     number: 2004/7.2
@@ -893,8 +868,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Guidelines for future activity
-    subject: CIML
+    title: 'Agenda Item 7.2: Guidelines for future activities'
     considerations: []
     actions:
     - type: notes
@@ -912,8 +886,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Directives pour l'activité à venir
-    subject: CIML
+    title: 'Agenda Item 7.2: Guidelines for future activities'
     considerations: []
     actions:
     - type: notes
@@ -928,6 +901,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '7.2'
 - identifier:
   - prefix: Conference
     number: 2004/8
@@ -938,15 +912,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Administrative and financial matters
-    subject: CIML
+    title: 'Agenda Item 8: Administrative and financial matters'
     considerations: []
     actions: []
   - language_code: fra
-    title: Questions d'ordres administratif et financier
-    subject: CIML
+    title: 'Agenda Item 8: Administrative and financial matters'
     considerations: []
     actions: []
+  agenda_item: '8'
 - identifier:
   - prefix: Conference
     number: 2004/8.1
@@ -957,9 +930,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the management of the budget from 2000 to 2003 and the estimates
-      for 2004
-    subject: CIML
+    title: 'Agenda Item 8.1: Examination of the management of the budget from 2001
+      to 2003 and the estimates for 2004'
     considerations: []
     actions:
     - type: notes
@@ -977,8 +949,8 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Examen de la gestion du budget de 2000 à 2003 et estimations pour 2004
-    subject: CIML
+    title: 'Agenda Item 8.1: Examination of the management of the budget from 2001
+      to 2003 and the estimates for 2004'
     considerations: []
     actions:
     - type: notes
@@ -988,6 +960,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8.1'
 - identifier:
   - prefix: Conference
     number: 2004/8.2
@@ -998,8 +971,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Decisions related to the debts of certain countries
-    subject: CIML
+    title: 'Agenda Item 8.2: Decisions related to the debts of certain countries'
     considerations: []
     actions:
     - type: notes
@@ -1017,8 +989,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Décisions relatives aux dettes de certains pays
-    subject: CIML
+    title: 'Agenda Item 8.2: Decisions related to the debts of certain countries'
     considerations: []
     actions:
     - type: notes
@@ -1028,6 +999,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8.2'
 - identifier:
   - prefix: Conference
     number: 2004/8.3
@@ -1038,8 +1010,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Revision of the OIML Financial Regulations
-    subject: CIML
+    title: 'Agenda Item 8.3: Revision of the OIML Financial Regulations'
     considerations: []
     actions:
     - type: notes
@@ -1051,8 +1022,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Révision du Règlement Financier de l'OIML
-    subject: CIML
+    title: 'Agenda Item 8.3: Revision of the OIML Financial Regulations'
     considerations: []
     actions:
     - type: notes
@@ -1063,6 +1033,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8.3'
 - identifier:
   - prefix: Conference
     number: 2004/8.4
@@ -1073,8 +1044,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Bureau staff and Retirement scheme
-    subject: CIML
+    title: 'Agenda Item 8.4: Bureau staff and retirement scheme'
     considerations: []
     actions:
     - type: notes
@@ -1091,8 +1061,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Personnel du Bureau et plan de Retraite
-    subject: CIML
+    title: 'Agenda Item 8.4: Bureau staff and retirement scheme'
     considerations: []
     actions:
     - type: notes
@@ -1103,6 +1072,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8.4'
 - identifier:
   - prefix: Conference
     number: 2004/8.5
@@ -1113,8 +1083,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Budget for the financial period 2005–2008
-    subject: CIML
+    title: 'Agenda Item 8.5: Budget for the financial period 2005–2008'
     considerations: []
     actions:
     - type: notes
@@ -1131,8 +1100,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Budget pour la période financière 2005-2008
-    subject: CIML
+    title: 'Agenda Item 8.5: Budget for the financial period 2005–2008'
     considerations: []
     actions:
     - type: notes
@@ -1143,6 +1111,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8.5'
 - identifier:
   - prefix: Conference
     number: 2004/8.6
@@ -1153,8 +1122,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Status of OIML Publications
-    subject: CIML
+    title: 'Agenda Item 8.6: Status of OIML Publications'
     considerations: []
     actions:
     - type: notes
@@ -1166,8 +1134,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Statut des Publications OIML
-    subject: CIML
+    title: 'Agenda Item 8.6: Status of OIML Publications'
     considerations: []
     actions:
     - type: notes
@@ -1180,6 +1147,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8.6'
 - identifier:
   - prefix: Conference
     number: 2004/9
@@ -1190,15 +1158,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other business
-    subject: CIML
+    title: 'Agenda Item 9: Other business'
     considerations: []
     actions: []
   - language_code: fra
-    title: Autres questions
-    subject: CIML
+    title: 'Agenda Item 9: Other business'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: Conference
     number: 2004/10
@@ -1209,8 +1176,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Closure
-    subject: CIML
+    title: 'Agenda Item 10: Closure'
     considerations: []
     actions:
     - type: notes
@@ -1221,10 +1187,10 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Cloture
-    subject: CIML
+    title: 'Agenda Item 10: Closure'
     considerations: []
     actions: []
+  agenda_item: '10'
 - identifier:
   - prefix: Conference
     number: 2004/10.1
@@ -1235,8 +1201,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Adoption des Décisions et Résolutions de la Conférence
-    subject: CIML
+    title: 'Agenda Item 10.1: Adoption of Decisions and Resolutions of the Conference'
     considerations: []
     actions:
     - type: notes
@@ -1248,6 +1213,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '10.1'
 - identifier:
   - prefix: Conference
     number: 2004/10.2
@@ -1258,8 +1224,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Date et lieu de la prochaine Conférence
-    subject: CIML
+    title: 'Agenda Item 10.2: Date and place of the next Conference'
     considerations: []
     actions:
     - type: notes
@@ -1272,3 +1237,4 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '10.2'

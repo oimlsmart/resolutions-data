@@ -19,6 +19,18 @@ const OUTPUT_DIR = path.resolve(__dirname, '../public/data');
 const RESOLUTIONS_FILE = path.join(OUTPUT_DIR, 'resolutions.json');
 const MEETINGS_FILE = path.join(OUTPUT_DIR, 'meetings.json');
 
+// Map a meeting YAML's `committee` field to one of the three OIML
+// body types: 'ciml', 'conference', 'dc'. The committee field is the
+// canonical signal because the edoxen Meeting schema is closed under
+// additionalProperties (we can't carry an OIML-specific sidecar field
+// without breaking validation).
+function bodyTypeFromCommittee(committee) {
+  const c = String(committee || '').toLowerCase()
+  if (c.includes('conference')) return 'conference'
+  if (c.includes('development council')) return 'dc'
+  return 'ciml'
+}
+
 // Derive the canonical URL slug for a meeting from its URN.
 //   urn:oiml:ciml:meeting:ciml-15        → ciml-15
 //   urn:oiml:conference:meeting:conf-13  → conf-13
@@ -105,7 +117,7 @@ function loadMeetingYamls() {
       city: parsed.city || '',
       country_code: parsed.country_code || '',
       year: parsed.date_range?.start ? String(parsed.date_range.start).substring(0, 4) : '',
-      body_type: parsed.committee?.includes('Conference') ? 'conference' : 'ciml',
+      body_type: bodyTypeFromCommittee(parsed.committee),
       doi: buildMeetingDoi(parsed, slug),
       resolution_count: 0,
       acclamation_count: 0,

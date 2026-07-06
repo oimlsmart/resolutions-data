@@ -24,7 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ADOPTION du COMPTE RENDU
+    title: 'Agenda Item 1: ADOPTION du COMPTE RENDU'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -35,6 +35,7 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1976/2
@@ -45,7 +46,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ADOPTION du RAPPORT FINANCIER pour 1975.
+    title: 'Agenda Item 2: ADOPTION du RAPPORT FINANCIER pour 1975.'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -57,6 +58,7 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1976/3
@@ -67,7 +69,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: EXAMEN de l'ORDRE du JOUR et de l'EMPLOI du TEMPS de la CONFÉRENCE.
+    title: 'Agenda Item 3: EXAMEN de l''ORDRE du JOUR et de l''EMPLOI du TEMPS de
+      la CONFÉRENCE.'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -78,6 +81,7 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1976/4
@@ -88,7 +92,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: EXAMEN de CERTAINS TRAVAUX DE LA CONFÉRENCE.
+    title: 'Agenda Item 4: EXAMEN de CERTAINS TRAVAUX DE LA CONFÉRENCE.'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -114,6 +118,7 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1976/6
@@ -124,8 +129,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: EXAMEN et MISE en APPLICATION des DÉCISIONS de la CONFÉRENCE. PROJET «
-      UNITÉS de MESURE LÉGALES  ».
+    title: 'Agenda Item 6: EXAMEN et MISE en APPLICATION des DÉCISIONS de la CONFÉRENCE.
+      PROJET « UNITÉS de MESURE LÉGALES  ».'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -139,6 +144,7 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1976/7
@@ -149,7 +155,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: QUESTIONS DIVERSES
+    title: 'Agenda Item 7: QUESTIONS DIVERSES'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -162,6 +168,7 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1976/8
@@ -172,7 +179,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: DATE et LIEU de la PROCHAINE RÉUNION — CLÔTURE
+    title: 'Agenda Item 8: DATE et LIEU de la PROCHAINE RÉUNION — CLÔTURE'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -185,3 +192,4 @@ decisions:
       date_effective:
         date: '1976-10-05'
         type: effective
+  agenda_item: '8'

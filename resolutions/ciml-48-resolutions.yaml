@@ -20,8 +20,7 @@ decisions:
   agenda_item: '1'
   localizations:
   - language_code: eng
-    title: Agenda item 1
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 47th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -32,8 +31,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 47th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -54,8 +52,7 @@ decisions:
   agenda_item: '2'
   localizations:
   - language_code: eng
-    title: Agenda item 2
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -66,8 +63,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 2 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -88,8 +84,7 @@ decisions:
   agenda_item: '4.1'
   localizations:
   - language_code: eng
-    title: Agenda item 4.1
-    subject: CIML
+    title: 'Agenda Item 4.1: Report on BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -100,8 +95,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 4.1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 4.1: Report on BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -122,8 +116,7 @@ decisions:
   agenda_item: '4.3'
   localizations:
   - language_code: eng
-    title: Agenda item 4.3
-    subject: CIML
+    title: 'Agenda Item 4.3: Revision of OIML B 7 Staff regulations'
     considerations: []
     actions:
     - type: approves
@@ -134,8 +127,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 4.3 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 4.3: Revision of OIML B 7 Staff regulations'
     considerations: []
     actions:
     - type: approves
@@ -156,9 +148,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Decides to renew the contract of Mr. Ian Dunmill, BIML Assistant Director,
-      for a
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations: []
     actions:
     - type: decides
@@ -170,9 +160,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Décide de renouveler le contrat de M. Ian Dunmill, Adjoint au Directeur
-      du BIML
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations: []
     actions:
     - type: decides
@@ -183,6 +171,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2013/6
@@ -193,9 +182,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Welcomes Colombia as a new Member State and Zambia as a re-instated Member
-      State
-    subject: CIML
+    title: 'Agenda Item 6: Financial matters'
     considerations: []
     actions:
     - type: welcomes
@@ -215,9 +202,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Accueille la Colombie comme nouvel État Membre et la Zambie comme État
-      Membre réintégré
-    subject: CIML
+    title: 'Agenda Item 6: Financial matters'
     considerations: []
     actions:
     - type: welcomes
@@ -237,6 +222,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2013/7
@@ -247,8 +233,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the 2012 accounts; and
-    subject: CIML
+    title: 'Agenda Item 7: Report on developing countries matters'
     considerations:
     - type: noting
       message: 'Noting the accounts for 2012 and the BIML Director''s comments;
@@ -280,8 +265,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Approuve les comptes de l'année 2012 et
-    subject: CIML
+    title: 'Agenda Item 7: Report on developing countries matters'
     considerations:
     - type: noting
       message: |
@@ -306,6 +290,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2013/8
@@ -316,9 +301,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Requests those Members with arrears to bring their situation up to date
-      as soon
-    subject: CIML
+    title: 'Agenda Item 8: Liaisons'
     considerations:
     - type: noting
       message: |
@@ -337,9 +320,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Demande aux dits Membres présentant des arriérés de régulariser leur situation
-      dès que possible.
-    subject: CIML
+    title: 'Agenda Item 8: Liaisons'
     considerations:
     - type: noting
       message: |
@@ -357,6 +338,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2013/9
@@ -367,9 +349,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Welcomes the proposal from its Member from China to reinstate a leadership
-      mechanism to
-    subject: CIML
+    title: 'Agenda Item 9: Technical activities'
     considerations:
     - type: noting
       message: 'Noting the report given by the BIML on its activities pertaining to
@@ -431,9 +411,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Accueille favorablement la proposition du Membre du CIML pour la Chine
-      de rétabir un
-    subject: CIML
+    title: 'Agenda Item 9: Technical activities'
     considerations:
     - type: noting
       message: 'Prenant note du rapport du BIML sur ses activités concernant des questions
@@ -498,6 +476,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2013/10
@@ -509,8 +488,8 @@ decisions:
   agenda_item: '9.1'
   localizations:
   - language_code: eng
-    title: Agenda item 9.1
-    subject: CIML
+    title: 'Agenda Item 9.1: Implementation of the revised B 6: Directives for OIML
+      technical work'
     considerations:
     - type: noting
       message: 'Noting the BIML report on the implementation of OIML B 6-1:2012 Directives
@@ -562,9 +541,8 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Approuve la révision de l'OIML B 6-1 Directives pour les travaux techniques
-      de l'OIML
-    subject: CIML
+    title: 'Agenda Item 9.1: Implementation of the revised B 6: Directives for OIML
+      technical work'
     considerations:
     - type: noting
       message: |
@@ -628,7 +606,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.3.1
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -647,7 +624,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.3.1 de l'ordre du jour
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -676,7 +652,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.3.2
-    subject: CIML
     considerations: []
     actions:
     - type: confirms
@@ -690,7 +665,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.3.2 de l'ordre du jour
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -715,7 +689,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.3.3
-    subject: CIML
     considerations: []
     actions:
     - type: confirms
@@ -730,7 +703,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.3.3 de l'ordre du jour
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -756,7 +728,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.3.4
-    subject: CIML
     considerations: []
     actions:
     - type: confirms
@@ -771,7 +742,6 @@ decisions:
         type: effective
   - language_code: fra
     title: "[Point 9.3.4 de l'ordre du jour]"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -790,8 +760,7 @@ decisions:
   agenda_item: '9.5'
   localizations:
   - language_code: eng
-    title: Agenda item 9.5
-    subject: CIML
+    title: 'Agenda Item 9.5: OIML Systems: the MAA'
     considerations:
     - type: noting
       message: 'Noting the oral report by its first Vice-President on the outcome
@@ -839,8 +808,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 9.5 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 9.5: OIML Systems: the MAA'
     considerations:
     - type: noting
       message: 'Prenant note du rapport oral de son premier Vice-Président concernant
@@ -900,7 +868,6 @@ decisions:
   localizations:
   - language_code: eng
     title: "[Agenda item 9.5]"
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its Resolution no. 2013/15;
@@ -934,7 +901,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant sa Résolution n° 2013/15 ;
@@ -969,6 +935,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2013/17
@@ -981,7 +948,6 @@ decisions:
   - language_code: eng
     title: Resolves that steps should be taken to ensure that, in future, there will
       be
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its decision on the implementation of the MAA at its 39th
@@ -1037,7 +1003,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant la décision qu''il a prise concernant l''application du
@@ -1094,6 +1059,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 2013/18
@@ -1105,8 +1071,7 @@ decisions:
   agenda_item: '10'
   localizations:
   - language_code: eng
-    title: Agenda item 10
-    subject: CIML
+    title: 'Agenda Item 10: Election of the CIML second Vice President'
     considerations: []
     actions:
     - type: elects
@@ -1118,8 +1083,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 10 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 10: Election of the CIML second Vice President'
     considerations: []
     actions:
     - type: elects
@@ -1142,7 +1106,6 @@ decisions:
   - language_code: eng
     title: Approves the revision of OIML R 100 Atomic absorption spectrometer systems
       for measuring metal
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1155,7 +1118,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 11 de l'ordre du jour
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1166,6 +1128,7 @@ decisions:
       date_effective:
         date: '2013-10-08'
         type: effective
+  agenda_item: '19'
 - identifier:
   - prefix: CIML
     number: 2013/20
@@ -1177,8 +1140,7 @@ decisions:
   agenda_item: '12'
   localizations:
   - language_code: eng
-    title: Agenda item 12
-    subject: CIML
+    title: 'Agenda Item 12: Awards'
     considerations: []
     actions:
     - type: notes
@@ -1187,7 +1149,7 @@ decisions:
         date: '2013-10-08'
         type: effective
   - language_code: fra
-    title: Point 12 de l'ordre du jour
+    title: 'Agenda Item 12: Awards'
     subject: Conférence OIML
     considerations: []
     actions:

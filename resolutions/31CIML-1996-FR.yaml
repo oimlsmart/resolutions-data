@@ -24,7 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 1 Situation générale
+    title: 'Agenda Item 5: PERSONNEL DU BIML'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -38,6 +38,7 @@ decisions:
       date_effective:
         date: '1996-11-04'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1996/5
@@ -48,7 +49,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 2 Indexation des salaires sur l'inflation
+    title: 'Agenda Item 5: PERSONNEL DU BIML'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -66,6 +67,7 @@ decisions:
       date_effective:
         date: '1996-11-04'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1996/5
@@ -76,7 +78,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 3 Nomination d'un Adjoint au Directeur
+    title: 'Agenda Item 5: PERSONNEL DU BIML'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -210,3 +212,4 @@ decisions:
       date_effective:
         date: '1996-11-04'
         type: effective
+  agenda_item: '5'

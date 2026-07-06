@@ -24,6 +24,11 @@
             :class="{ 'is-active': selectedBodyType === 'conference' }"
             @click="selectedBodyType = 'conference'"
           >{{ t('meetings.bodyConf') }}</button>
+          <button
+            class="std-chip"
+            :class="{ 'is-active': selectedBodyType === 'dc' }"
+            @click="selectedBodyType = 'dc'"
+          >{{ t('meetings.bodyDc') }}</button>
         </div>
       </div>
       <div class="std-filter__search-wrap">
@@ -217,6 +222,59 @@
             </section>
           </div>
         </section>
+
+        <!-- OIML Development Council -->
+        <section v-if="dcMeetings.length" class="body-section body-section--dc">
+          <header class="body-section__header">
+            <h2 class="body-section__title">
+              <span class="body-section__badge body-section__badge--dc">DC</span>
+              {{ t('meetings.bodyDc') }}
+            </h2>
+            <span class="body-section__count">{{ dcMeetings.reduce((s, d) => s + d.meetings.length, 0) }}</span>
+          </header>
+          <div class="decade-list">
+            <section v-for="decade in dcMeetings" :key="`dc-${decade.label}`" class="decade-block">
+              <div class="decade-header">
+                <h3 class="decade-title">{{ decade.label }}</h3>
+                <span class="decade-summary">{{ decade.meetings.length }} {{ t('meetings.title').toLowerCase() }} &middot; {{ decade.resCount }} {{ t('home.resolutionsLabel').toLowerCase() }}</span>
+              </div>
+              <div class="timeline-track">
+                <router-link
+                  v-for="m in decade.meetings"
+                  :key="m.meeting_slug"
+                  :to="r('meeting-detail', { meetingSlug: m.meeting_slug })"
+                  class="timeline-entry timeline-entry--dc"
+                >
+                  <span class="timeline-node timeline-node--dc"
+                    :class="{
+                      'node--small': m.resolution_count <= 5,
+                      'node--medium': m.resolution_count > 5 && m.resolution_count <= 15,
+                      'node--large': m.resolution_count > 15
+                    }"
+                  ></span>
+                  <span class="timeline-year">{{ m.year }}</span>
+                  <span class="timeline-venue">
+                    <span v-if="countryCodeToFlag(m.country_code)" class="timeline-flag">{{ countryCodeToFlag(m.country_code) }}</span>
+                    {{ venueForLangFn(m.city, m.country_code) || venueForLang(m.venue, lang) || t('meetings.virtual') }}
+                  </span>
+                  <span class="timeline-meta">
+                    <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
+                    <span v-if="m.meeting_date" class="meta-sep">&middot;</span>
+                    <span class="meta-count">{{ interpolate(t('meetings.resolutionsCount'), { count: m.resolution_count }) }}</span>
+                    <span
+                      v-if="m.languages && m.languages.length"
+                      class="meta-lang"
+                      :title="langAvailabilityTitle(m.languages)"
+                    >{{ langAvailabilityLabel(m.languages) }}</span>
+                  </span>
+                  <span class="timeline-arrow">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </span>
+                </router-link>
+              </div>
+            </section>
+          </div>
+        </section>
       </div>
     </div>
     
@@ -344,6 +402,9 @@ const cimlMeetings = computed(() =>
 )
 const conferenceMeetings = computed(() =>
   groupMeetingsByDecade(filteredMeetings.value.filter(m => m.body_type === 'conference'))
+)
+const dcMeetings = computed(() =>
+  groupMeetingsByDecade(filteredMeetings.value.filter(m => m.body_type === 'dc'))
 )
 
 

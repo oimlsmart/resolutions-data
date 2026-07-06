@@ -18,8 +18,7 @@ decisions:
   agenda_item: '1'
   localizations:
   - language_code: eng
-    title: Agenda item 1
-    subject: CIML
+    title: 'Agenda Item 1: Opening remarks and roll call'
     considerations: []
     actions:
     - type: thanks
@@ -44,8 +43,7 @@ decisions:
   agenda_item: '2'
   localizations:
   - language_code: eng
-    title: Agenda item 2
-    subject: CIML
+    title: 'Agenda Item 2: Adoption of the agenda'
     considerations: []
     actions:
     - type: approves
@@ -66,8 +64,7 @@ decisions:
   agenda_item: '3'
   localizations:
   - language_code: eng
-    title: Agenda item 3
-    subject: CIML
+    title: 'Agenda Item 3: Minutes of the 59th CIML Meeting'
     considerations:
     - type: noting
       message: 'Noting the comments made by its Members,
@@ -95,8 +92,7 @@ decisions:
   agenda_item: '4'
   localizations:
   - language_code: eng
-    title: Agenda item 4
-    subject: CIML
+    title: 'Agenda Item 4: Report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -117,8 +113,7 @@ decisions:
   agenda_item: '5'
   localizations:
   - language_code: eng
-    title: Agenda item 5
-    subject: CIML
+    title: 'Agenda Item 5: Report by the BIML Director on BIML matters and activities'
     considerations: []
     actions:
     - type: notes
@@ -139,8 +134,7 @@ decisions:
   agenda_item: '5'
   localizations:
   - language_code: eng
-    title: Agenda item 5
-    subject: CIML
+    title: 'Agenda Item 5: Report by the BIML Director on BIML matters and activities'
     considerations: []
     actions:
     - type: welcomes
@@ -161,8 +155,7 @@ decisions:
   agenda_item: '6.1'
   localizations:
   - language_code: eng
-    title: Agenda item 6.1
-    subject: CIML
+    title: 'Agenda Item 6.1: 2024 accounts'
     considerations:
     - type: noting
       message: 'Noting the accounts for 2024, the OIML budget summary, and the BIML
@@ -205,8 +198,7 @@ decisions:
   agenda_item: '6.2'
   localizations:
   - language_code: eng
-    title: Agenda item 6.2
-    subject: CIML
+    title: 'Agenda Item 6.2: Arrears of Member States and Corresponding Members'
     considerations:
     - type: noting
       message: |
@@ -235,8 +227,7 @@ decisions:
   agenda_item: '6.3'
   localizations:
   - language_code: eng
-    title: Agenda item 6.3
-    subject: CIML
+    title: 'Agenda Item 6.3: Budget forecast for 2025'
     considerations: []
     actions:
     - type: notes
@@ -258,8 +249,7 @@ decisions:
   agenda_item: '6.4'
   localizations:
   - language_code: eng
-    title: Agenda item 6.4
-    subject: CIML
+    title: 'Agenda Item 6.4: Member State and Corresponding Member classes and fees'
     considerations:
     - type: noting
       message: 'Noting the information provided by the BIML Director on Member State
@@ -297,8 +287,7 @@ decisions:
   agenda_item: '6.5'
   localizations:
   - language_code: eng
-    title: Agenda item 6.5
-    subject: CIML
+    title: 'Agenda Item 6.5: Proposed budget for the 2026–2029 financial period'
     considerations:
     - type: noting
       message: |
@@ -343,7 +332,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.1.1
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -374,7 +362,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.1.2
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the explanation provided about the Amendment to OIML R
@@ -405,7 +392,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.1.2
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -437,7 +423,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.1.3
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the explanation provided about the result of the Preliminary
@@ -470,7 +455,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.1.3
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -502,7 +486,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.2.1
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -526,9 +509,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the list of high priority publications given in 60th CIML Meeting
-      Document 7.3
-    subject: CIML
+    title: 'Agenda Item 18: Review and approval of draft CIML resolutions (session
+      3)'
     considerations:
     - type: noting
       message: 'Noting the report on the OIML technical work in CIML Meeting Document
@@ -555,6 +537,7 @@ decisions:
       date_effective:
         date: '2025-10-13'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: CIML
     number: 2025/19
@@ -566,8 +549,7 @@ decisions:
   agenda_item: '7.3'
   localizations:
   - language_code: eng
-    title: Agenda item 7.3
-    subject: CIML
+    title: 'Agenda Item 7.3: Other technical items for information and approval'
     considerations:
     - type: noting
       message: 'Noting the information in CIML Meeting Document 7.3 concerning the
@@ -599,8 +581,7 @@ decisions:
   agenda_item: '7.3'
   localizations:
   - language_code: eng
-    title: Agenda item 7.3
-    subject: CIML
+    title: 'Agenda Item 7.3: Other technical items for information and approval'
     considerations:
     - type: noting
       message: |
@@ -629,8 +610,7 @@ decisions:
   agenda_item: '7.3'
   localizations:
   - language_code: eng
-    title: Agenda item 7.3
-    subject: CIML
+    title: 'Agenda Item 7.3: Other technical items for information and approval'
     considerations:
     - type: noting
       message: |
@@ -658,8 +638,7 @@ decisions:
   agenda_item: '7.4'
   localizations:
   - language_code: eng
-    title: Agenda item 7.4
-    subject: CIML
+    title: 'Agenda Item 7.4: OIML publications and communications'
     considerations: []
     actions:
     - type: notes
@@ -718,7 +697,7 @@ decisions:
   agenda_item: '7.4'
   localizations:
   - language_code: eng
-    title: Agenda item 7.4
+    title: 'Agenda Item 7.4: OIML publications and communications'
     subject: OIML Conference
     considerations: []
     actions:
@@ -762,8 +741,7 @@ decisions:
   agenda_item: '8.1'
   localizations:
   - language_code: eng
-    title: Agenda item 8.1
-    subject: CIML
+    title: 'Agenda Item 8.1: Report by the OIML-CS MC Chairperson'
     considerations: []
     actions:
     - type: notes
@@ -793,8 +771,7 @@ decisions:
   agenda_item: '8.2'
   localizations:
   - language_code: eng
-    title: Agenda item 8.2
-    subject: CIML
+    title: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
     considerations:
     - type: noting
       message: |
@@ -831,8 +808,7 @@ decisions:
   agenda_item: '8.2'
   localizations:
   - language_code: eng
-    title: Agenda item 8.2
-    subject: CIML
+    title: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
     considerations:
     - type: noting
       message: 'Noting the recommendation from the OIML-CS Management Committee,
@@ -861,8 +837,7 @@ decisions:
   agenda_item: '8.2'
   localizations:
   - language_code: eng
-    title: Agenda item 8.2
-    subject: CIML
+    title: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
     considerations:
     - type: noting
       message: 'Noting the recommendation from the OIML-CS Management Committee,
@@ -893,8 +868,7 @@ decisions:
   agenda_item: '8.2'
   localizations:
   - language_code: eng
-    title: Agenda item 8.2
-    subject: CIML
+    title: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
     considerations: []
     actions:
     - type: notes
@@ -918,7 +892,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -947,7 +920,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.2
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling clause A.1.2 of OIML B 19:2023 Terms of Reference for the
@@ -989,7 +961,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 10.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1018,7 +989,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 10.2
-    subject: CIML
     considerations:
     - type: noting
       message: |
@@ -1049,7 +1019,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 10.2
-    subject: CIML
     considerations:
     - type: noting
       message: |
@@ -1080,7 +1049,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 10.2
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the DTG''s recommendation in Annex A to 60th CIML Document
@@ -1110,8 +1078,7 @@ decisions:
   agenda_item: '14.1'
   localizations:
   - language_code: eng
-    title: Agenda item 14.1
-    subject: CIML
+    title: 'Agenda Item 14.1: Report by the RLMO Round Table Chairperson'
     considerations: []
     actions:
     - type: notes
@@ -1142,7 +1109,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Notes the report on OIML activities with organizations in liaison.
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1152,6 +1118,7 @@ decisions:
       date_effective:
         date: '2025-10-13'
         type: effective
+  agenda_item: '36'
 - identifier:
   - prefix: CIML
     number: 2025/37
@@ -1163,8 +1130,7 @@ decisions:
   agenda_item: '14.3'
   localizations:
   - language_code: eng
-    title: Agenda item 14.3
-    subject: CIML
+    title: 'Agenda Item 14.3: Updates by other organizations in liaison'
     considerations: []
     actions:
     - type: notes
@@ -1200,8 +1166,8 @@ decisions:
   agenda_item: '14.4'
   localizations:
   - language_code: eng
-    title: Agenda item 14.4
-    subject: CIML
+    title: 'Agenda Item 14.4: Cooperation with the United Nations Framework Convention
+      on Climate Change'
     considerations: []
     actions:
     - type: notes
@@ -1223,7 +1189,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1246,7 +1211,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.2
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1268,7 +1232,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.3
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1290,7 +1253,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.3
-    subject: CIML
     considerations: []
     actions:
     - type: appoints
@@ -1313,8 +1275,7 @@ decisions:
   agenda_item: '16.1'
   localizations:
   - language_code: eng
-    title: Agenda item 16.1
-    subject: CIML
+    title: 'Agenda Item 16.1: 61st CIML Meeting (2026)'
     considerations: []
     actions:
     - type: thanks
@@ -1353,8 +1314,7 @@ decisions:
   agenda_item: '16.2'
   localizations:
   - language_code: eng
-    title: Agenda item 16.2
-    subject: CIML
+    title: 'Agenda Item 16.2: 62nd CIML Meeting (2027)'
     considerations: []
     actions:
     - type: notes

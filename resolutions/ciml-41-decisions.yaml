@@ -19,8 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the Minutes of the 40th CIML Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 40th CIML Meeting'
     considerations: []
     actions:
     - type: notes
@@ -31,8 +30,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Approbation du Compte Rendu de la 40ème Réunion du CIML
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 40th CIML Meeting'
     considerations: []
     actions:
     - type: notes
@@ -42,6 +40,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2006/2
@@ -52,15 +51,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     considerations: []
     actions: []
   - language_code: fra
-    title: Etats Membres et Membres Correspondants
-    subject: CIML
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2006/2.1
@@ -71,8 +69,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Situation of certain Members
-    subject: CIML
+    title: 'Agenda Item 2.1: Situation of certain Members'
     considerations: []
     actions:
     - type: notes
@@ -86,8 +83,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Situation de certains Membres
-    subject: CIML
+    title: 'Agenda Item 2.1: Situation of certain Members'
     considerations: []
     actions:
     - type: notes
@@ -100,6 +96,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 2006/3
@@ -110,15 +107,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial matters
-    subject: CIML
+    title: 'Agenda Item 3: Financial matters'
     considerations: []
     actions: []
   - language_code: fra
-    title: Affaires financières
-    subject: CIML
+    title: 'Agenda Item 3: Financial matters'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2006/3.1
@@ -129,8 +125,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of the Auditor's report for 2005
-    subject: CIML
+    title: 'Agenda Item 3.1: Adoption of the Auditor’s report for 2005'
     considerations: []
     actions:
     - type: approves
@@ -143,8 +138,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Adoption du Rapport d'Audit pour 2005
-    subject: CIML
+    title: 'Agenda Item 3.1: Adoption of the Auditor’s report for 2005'
     considerations: []
     actions:
     - type: notes
@@ -156,6 +150,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 2006/3.2
@@ -166,8 +161,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Assets and liabilities as at 01/01/2005 and 31/12/2005
-    subject: CIML
+    title: 'Agenda Item 3.2: Assets and liabilities as at 01/01/2005 and at 01/01/2006'
     considerations: []
     actions:
     - type: notes
@@ -180,8 +174,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Actif et passif au 01/01/2005 et au 31/12/2005
-    subject: CIML
+    title: 'Agenda Item 3.2: Assets and liabilities as at 01/01/2005 and at 01/01/2006'
     considerations: []
     actions:
     - type: notes
@@ -193,6 +186,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 2006/3.3
@@ -203,8 +197,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial report for 2005 and estimates for 2006
-    subject: CIML
+    title: 'Agenda Item 3.3: Financial report for 2005 and estimates for 2006'
     considerations: []
     actions:
     - type: notes
@@ -227,8 +220,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Rapport financier pour 2005 et estimations pour 2006
-    subject: CIML
+    title: 'Agenda Item 3.3: Financial report for 2005 and estimates for 2006'
     considerations: []
     actions:
     - type: notes
@@ -251,6 +243,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '3.3'
 - identifier:
   - prefix: CIML
     number: 2006/3.4
@@ -261,8 +254,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Progress on the Pension Scheme
-    subject: CIML
+    title: 'Agenda Item 3.4: Progress on the Pension Scheme'
     considerations: []
     actions:
     - type: notes
@@ -277,8 +269,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Progrès concernant le Fond de Retraite
-    subject: CIML
+    title: 'Agenda Item 3.4: Progress on the Pension Scheme'
     considerations: []
     actions:
     - type: notes
@@ -293,6 +284,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '3.4'
 - identifier:
   - prefix: CIML
     number: 2006/4
@@ -303,8 +295,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: a (Additional item) Report on the Packaging Seminar
-    subject: CIML
+    title: 'Agenda Item 4: Presidential Council activities'
     considerations: []
     actions:
     - type: notes
@@ -318,8 +309,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: a (Point additionnel) Rapport sur le Séminaire sur les Préemballages
-    subject: CIML
+    title: 'Agenda Item 4: Presidential Council activities'
     considerations: []
     actions:
     - type: notes
@@ -333,6 +323,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2006/4.1
@@ -343,8 +334,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on Presidential Council activities
-    subject: CIML
+    title: 'Agenda Item 4.1: Report on Presidential Council activities'
     considerations: []
     actions:
     - type: notes
@@ -356,8 +346,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Rapport sur les activités du Conseil de la Présidence
-    subject: CIML
+    title: 'Agenda Item 4.1: Report on Presidential Council activities'
     considerations: []
     actions:
     - type: notes
@@ -368,6 +357,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '4.1'
 - identifier:
   - prefix: CIML
     number: 2006/4.2
@@ -378,8 +368,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Long Term Strategy and Action Plan
-    subject: CIML
+    title: 'Agenda Item 4.2: Long Term Strategy and Action Plan'
     considerations: []
     actions:
     - type: approves
@@ -393,8 +382,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Stratégie à long terme et Plan d'Action
-    subject: CIML
+    title: 'Agenda Item 4.2: Long Term Strategy and Action Plan'
     considerations: []
     actions:
     - type: notes
@@ -407,6 +395,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '4.2'
 - identifier:
   - prefix: CIML
     number: 2006/5
@@ -417,15 +406,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Developing Country activities
-    subject: CIML
+    title: 'Agenda Item 5: Developing Country activities'
     considerations: []
     actions: []
   - language_code: fra
-    title: Activités des Pays en Développement
-    subject: CIML
+    title: 'Agenda Item 5: Developing Country activities'
     considerations: []
     actions: []
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2006/5.1
@@ -436,8 +424,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on PWGDC activities
-    subject: CIML
+    title: 'Agenda Item 5.1: Report on PWGDC activities'
     considerations: []
     actions:
     - type: notes
@@ -459,8 +446,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Rapport sur les activités du PWGDC
-    subject: CIML
+    title: 'Agenda Item 5.1: Report on PWGDC activities'
     considerations: []
     actions:
     - type: notes
@@ -482,6 +468,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '5.1'
 - identifier:
   - prefix: CIML
     number: 2006/5.2
@@ -492,8 +479,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on JCDCMAS activities
-    subject: CIML
+    title: 'Agenda Item 5.2: Report on JCDCMAS activities'
     considerations: []
     actions:
     - type: notes
@@ -507,8 +493,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Rapport sur les activités du JCDCMAS
-    subject: CIML
+    title: 'Agenda Item 5.2: Report on JCDCMAS activities'
     considerations: []
     actions:
     - type: notes
@@ -522,6 +507,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '5.2'
 - identifier:
   - prefix: CIML
     number: 2006/6
@@ -532,15 +518,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Liaisons
-    subject: CIML
+    title: 'Agenda Item 6: Liaisons'
     considerations: []
     actions: []
   - language_code: fra
-    title: Liaisons
-    subject: CIML
+    title: 'Agenda Item 6: Liaisons'
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2006/6.1
@@ -551,8 +536,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Presentation by the Bureau on liaison activities
-    subject: CIML
+    title: 'Agenda Item 6.1: Presentation by the Bureau on liaison activities'
     considerations: []
     actions:
     - type: notes
@@ -594,8 +578,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Présentation par le Bureau des activités de liaison
-    subject: CIML
+    title: 'Agenda Item 6.1: Presentation by the Bureau on liaison activities'
     considerations: []
     actions:
     - type: notes
@@ -637,6 +620,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 2006/6.2
@@ -647,8 +631,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Updates by Liaison Organizations
-    subject: CIML
+    title: 'Agenda Item 6.2: Updates by Liaison Organizations'
     considerations: []
     actions:
     - type: notes
@@ -660,8 +643,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Informations des Organisations en Liaison
-    subject: CIML
+    title: 'Agenda Item 6.2: Updates by Liaison Organizations'
     considerations: []
     actions:
     - type: notes
@@ -672,6 +654,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 2006/6.3
@@ -682,8 +665,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Updates by RLMOs
-    subject: CIML
+    title: 'Agenda Item 6.3: Updates by RLMOs'
     considerations: []
     actions:
     - type: notes
@@ -695,8 +677,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Informations des RLMOs
-    subject: CIML
+    title: 'Agenda Item 6.3: Updates by RLMOs'
     considerations: []
     actions:
     - type: notes
@@ -708,6 +689,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '6.3'
 - identifier:
   - prefix: CIML
     number: 2006/7
@@ -718,8 +700,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BIML activities
-    subject: CIML
+    title: 'Agenda Item 7: BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -731,8 +712,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Activités du BIML
-    subject: CIML
+    title: 'Agenda Item 7: BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -743,6 +723,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2006/7.2
@@ -753,8 +734,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Communication, web site
-    subject: CIML
+    title: 'Agenda Item 7.2: Communication, web site'
     considerations: []
     actions:
     - type: notes
@@ -776,8 +756,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Communication,site web
-    subject: CIML
+    title: 'Agenda Item 7.2: Communication, web site'
     considerations: []
     actions:
     - type: notes
@@ -806,6 +785,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '7.2'
 - identifier:
   - prefix: CIML
     number: 2006/8
@@ -816,8 +796,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Technical activities
-    subject: CIML
+    title: 'Agenda Item 8: Technical activities'
     considerations: []
     actions:
     - type: notes
@@ -829,8 +808,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Activités techniques
-    subject: CIML
+    title: 'Agenda Item 8: Technical activities'
     considerations: []
     actions:
     - type: notes
@@ -841,6 +819,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2006/8.1
@@ -851,8 +830,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of International Recommendations and Documents
-    subject: CIML
+    title: 'Agenda Item 8.1: Approval of International Recommendations and Documents'
     considerations: []
     actions:
     - type: approves
@@ -863,8 +841,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Approbation de Recommandations Internationales et Documents Internationaux
-    subject: CIML
+    title: 'Agenda Item 8.1: Approval of International Recommendations and Documents'
     considerations: []
     actions:
     - type: notes
@@ -874,6 +851,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '8.1'
 - identifier:
   - prefix: CIML
     number: 2006/8.2
@@ -884,8 +862,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: a OIML Certificate System (new item)
-    subject: CIML
+    title: 'Agenda Item 8.2: Examination of the situation of certain TCs/SCs'
     considerations: []
     actions:
     - type: decides
@@ -913,8 +890,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: a Système de Certificats OIML (nouveau point)
-    subject: CIML
+    title: 'Agenda Item 8.2: Examination of the situation of certain TCs/SCs'
     considerations: []
     actions:
     - type: notes
@@ -941,6 +917,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '8.2'
 - identifier:
   - prefix: CIML
     number: 2006/8.3
@@ -951,8 +928,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: MAA
-    subject: CIML
+    title: 'Agenda Item 8.3: MAA'
     considerations: []
     actions:
     - type: notes
@@ -973,8 +949,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: MAA
-    subject: CIML
+    title: 'Agenda Item 8.3: MAA'
     considerations: []
     actions:
     - type: notes
@@ -994,6 +969,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '8.3'
 - identifier:
   - prefix: CIML
     number: 2006/8.4
@@ -1004,8 +980,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Progress in the revision of the Directives for Technical Work
-    subject: CIML
+    title: 'Agenda Item 8.4: Progress on the revision of the Directives'
     considerations: []
     actions:
     - type: notes
@@ -1019,8 +994,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Progression de la révision des Directives pour le Travail Technique
-    subject: CIML
+    title: 'Agenda Item 8.4: Progress on the revision of the Directives'
     considerations: []
     actions:
     - type: notes
@@ -1033,6 +1007,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '8.4'
 - identifier:
   - prefix: CIML
     number: 2006/8.5
@@ -1044,7 +1019,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Report of the Working Group on "Conformity to Type"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1067,7 +1041,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Rapport sur le Groupe de Travail "Conformité au Type"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1089,6 +1062,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '8.5'
 - identifier:
   - prefix: CIML
     number: 2006/9
@@ -1099,15 +1073,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Human resource matters
-    subject: CIML
+    title: 'Agenda Item 9: Human resource matters'
     considerations: []
     actions: []
   - language_code: fra
-    title: Ressources humaines
-    subject: CIML
+    title: 'Agenda Item 9: Human resource matters'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2006/9.1
@@ -1118,8 +1091,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the procedure for the election of the CIML President and Vice-Presidents
-    subject: CIML
+    title: 'Agenda Item 9.1: Approval of the Procedure for the election of the CIML
+      President and Vice-Presidents'
     considerations: []
     actions:
     - type: approves
@@ -1133,9 +1106,8 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Approbation de la procédure pour l'élection du Président et des Vice-Présidents
-      du CIML
-    subject: CIML
+    title: 'Agenda Item 9.1: Approval of the Procedure for the election of the CIML
+      President and Vice-Presidents'
     considerations: []
     actions:
     - type: notes
@@ -1149,6 +1121,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 2006/9.2
@@ -1159,8 +1132,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Election of the CIML Second Vice-President
-    subject: CIML
+    title: 'Agenda Item 9.2: Election of the CIML Second Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -1172,8 +1144,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Election du Second Vice-Président du CIML
-    subject: CIML
+    title: 'Agenda Item 9.2: Election of the CIML Second Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -1184,6 +1155,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 2006/9.3
@@ -1194,8 +1166,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Appointment of a new BIML Assistant Director
-    subject: CIML
+    title: 'Agenda Item 9.3: Appointment of a new Assistant Director'
     considerations: []
     actions:
     - type: notes
@@ -1208,8 +1179,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Nomination d'un nouvel Adjoint au Directeur au BIML
-    subject: CIML
+    title: 'Agenda Item 9.3: Appointment of a new Assistant Director'
     considerations: []
     actions:
     - type: notes
@@ -1221,6 +1191,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 2006/9.4
@@ -1231,8 +1202,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Dispute related to the dismissal of a BIML Secretary
-    subject: CIML
+    title: 'Agenda Item 9.4: Dispute related to the dismissal of a BIML Secretary'
     considerations: []
     actions:
     - type: notes
@@ -1244,8 +1214,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Différent relatif au licenciation d'une Secrétaire du BIML
-    subject: CIML
+    title: 'Agenda Item 9.4: Dispute related to the dismissal of a BIML Secretary'
     considerations: []
     actions:
     - type: notes
@@ -1256,6 +1225,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '9.4'
 - identifier:
   - prefix: CIML
     number: 2006/10
@@ -1266,15 +1236,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Future meetings
-    subject: CIML
+    title: 'Agenda Item 10: Future meetings'
     considerations: []
     actions: []
   - language_code: fra
-    title: Futures réunions
-    subject: CIML
+    title: 'Agenda Item 10: Future meetings'
     considerations: []
     actions: []
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2006/10.1
@@ -1286,7 +1255,6 @@ decisions:
   localizations:
   - language_code: eng
     title: 42nd CIML Meeting (2007)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1301,7 +1269,6 @@ decisions:
         type: effective
   - language_code: fra
     title: 42ème Réunion du CIML (2007)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1315,6 +1282,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '10.1'
 - identifier:
   - prefix: CIML
     number: 2006/10.2
@@ -1326,7 +1294,6 @@ decisions:
   localizations:
   - language_code: eng
     title: 43rd CIML Meeting and 13th Conference (2008)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1339,7 +1306,6 @@ decisions:
         type: effective
   - language_code: fra
     title: 43ème Réunion du CIML et 13ème Conférence (2008)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1350,6 +1316,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '10.2'
 - identifier:
   - prefix: CIML
     number: 2006/11
@@ -1360,8 +1327,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Awards
-    subject: CIML
+    title: 'Agenda Item 11: Awards'
     considerations: []
     actions:
     - type: decides
@@ -1373,8 +1339,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Distinctions
-    subject: CIML
+    title: 'Agenda Item 11: Awards'
     considerations: []
     actions:
     - type: notes
@@ -1386,6 +1351,7 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2006/12
@@ -1396,8 +1362,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other matters
-    subject: CIML
+    title: 'Agenda Item 12: Other matters'
     considerations: []
     actions:
     - type: notes
@@ -1410,8 +1375,7 @@ decisions:
         date: '2006-10-18'
         type: effective
   - language_code: fra
-    title: Divers
-    subject: CIML
+    title: 'Agenda Item 12: Other matters'
     considerations: []
     actions:
     - type: notes
@@ -1423,3 +1387,4 @@ decisions:
       date_effective:
         date: '2006-10-18'
         type: effective
+  agenda_item: '12'

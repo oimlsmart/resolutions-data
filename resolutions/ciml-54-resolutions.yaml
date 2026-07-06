@@ -19,9 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the minutes of the 53rd CIML Meeting with some minor editorial
-      corrections.
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -33,9 +31,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Approuve le compte-rendu de la $ 53^{\mathrm{ème}} $ Réunion du CIML avec
-      quelques corrections
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -46,6 +42,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2019/2
@@ -56,8 +53,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report given by its President
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -83,8 +79,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par son Président
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -103,6 +98,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2019/3
@@ -113,8 +109,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report given by the BIML Director, and
-    subject: CIML
+    title: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -133,8 +128,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le Directeur du BIML, et
-    subject: CIML
+    title: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -152,6 +146,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2019/4
@@ -162,9 +157,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report given by the BIML on the training courses relating to
-      OIML
-    subject: CIML
+    title: 'Agenda Item 4: BIML matters and activities'
     considerations: []
     actions:
     - type: notes
@@ -191,9 +184,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le BIML sur les sessions de formation
-      relatives
-    subject: CIML
+    title: 'Agenda Item 4: BIML matters and activities'
     considerations: []
     actions:
     - type: notes
@@ -220,6 +211,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2019/5
@@ -230,8 +222,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Welcomes Kyrgyzstan as a returning Corresponding Member.
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations: []
     actions:
     - type: welcomes
@@ -242,8 +233,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: "(Point 5 de l'ordre du jour)"
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations: []
     actions:
     - type: notes
@@ -251,6 +241,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2019/6
@@ -261,8 +252,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the 2018 accounts, and
-    subject: CIML
+    title: 'Agenda Item 6: Financial matters'
     considerations:
     - type: noting
       message: 'Noting the accounts for 2018 and the comments from its President and
@@ -296,9 +286,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note des comptes de l'année 2018 et des commentaires de son Président
-      et
-    subject: CIML
+    title: 'Agenda Item 6: Financial matters'
     considerations: []
     actions:
     - type: notes
@@ -323,6 +311,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2019/7
@@ -333,9 +322,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Instructs the BIML Director to implement effective measures to monitor
-      the budget
-    subject: CIML
+    title: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
     considerations:
     - type: noting
       message: 'Noting the accounts for 2018 and the comments from its President and
@@ -372,9 +359,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Charge le Directeur du BIML de mettre en œuvre des mesures efficaces de
-      suivi
-    subject: CIML
+    title: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
     considerations: []
     actions:
     - type: charges
@@ -409,6 +394,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2019/8
@@ -419,8 +405,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report on the budget forecast for 2019 given by the BIML Director
-    subject: CIML
+    title: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
+      (CEEMS)'
     considerations: []
     actions:
     - type: notes
@@ -431,9 +417,8 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport sur la réalisation du budget prévisionnel de l'année
-      2018, présenté
-    subject: CIML
+    title: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
+      (CEEMS)'
     considerations: []
     actions:
     - type: notes
@@ -443,6 +428,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2019/9
@@ -453,9 +439,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report given by the BIML Director, Encourages the BIML to continue
-      its
-    subject: CIML
+    title: 'Agenda Item 9: OIML Certification System (OIML-CS)'
     considerations: []
     actions:
     - type: notes
@@ -482,9 +466,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le Directeur du BIML, Encourage le BIML
-      à
-    subject: CIML
+    title: 'Agenda Item 9: OIML Certification System (OIML-CS)'
     considerations: []
     actions:
     - type: notes
@@ -510,6 +492,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2019/10
@@ -520,9 +503,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report on activities with organisations in liaison given by the
-      BIML.
-    subject: CIML
+    title: 'Agenda Item 10: OIML publications and projects'
     considerations: []
     actions:
     - type: notes
@@ -534,9 +515,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport sur les activités avec les organisations en liaison,
-      présenté par
-    subject: CIML
+    title: 'Agenda Item 10: OIML publications and projects'
     considerations: []
     actions:
     - type: notes
@@ -547,6 +526,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2019/11
@@ -557,8 +537,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report on the RLMO Round Table meeting given by its Chairperson
-    subject: CIML
+    title: 'Agenda Item 11: Election of the CIML Second Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -585,9 +564,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport sur la Table Ronde des organisations régionales de
-      métrologie légale
-    subject: CIML
+    title: 'Agenda Item 11: Election of the CIML Second Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -614,6 +591,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2019/12
@@ -624,8 +602,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report made by the BIPM
-    subject: CIML
+    title: 'Agenda Item 12: Presentation of OIML Awards'
     considerations: []
     actions:
     - type: notes
@@ -651,8 +628,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le BIPM
-    subject: CIML
+    title: 'Agenda Item 12: Presentation of OIML Awards'
     considerations: []
     actions:
     - type: notes
@@ -681,6 +657,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2019/13
@@ -691,9 +668,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Thanks Dr Rado Lapuh (Slovenia) for representing the OIML in the Consultative
-      Committee for
-    subject: CIML
+    title: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
     considerations: []
     actions:
     - type: thanks
@@ -723,9 +698,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Remercie le Dr Rado Lapuh (Slovénie) d'avoir représenté l'OIML au Comité
-      Consultatif des Unités
-    subject: CIML
+    title: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
     considerations: []
     actions:
     - type: thanks
@@ -754,6 +727,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2019/14
@@ -764,9 +738,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Notes the reports and presentations from the following organisations in
-      liaison: - CECIP, -'
-    subject: CIML
+    title: 'Agenda Item 14: Future meetings'
     considerations: []
     actions:
     - type: notes
@@ -789,9 +761,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: 'Prend note des rapports et présentations des organisations en liaison
-      suivantes : - CECIP'
-    subject: CIML
+    title: 'Agenda Item 14: Future meetings'
     considerations: []
     actions:
     - type: notes
@@ -812,6 +782,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 2019/15
@@ -822,8 +793,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report on the activities of the CEEMS Advisory Group
-    subject: CIML
+    title: 'Agenda Item 15: Other matters'
     considerations: []
     actions:
     - type: notes
@@ -842,9 +812,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Prend note du rapport sur les activités du Groupe Consultatif pour les
-      CEEMS
-    subject: CIML
+    title: 'Agenda Item 15: Other matters'
     considerations: []
     actions:
     - type: notes
@@ -863,6 +831,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 2019/16
@@ -873,9 +842,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Thanks Mr Pu Changcheng for his initiative in the establishment of the
-      CEEMS Advisory
-    subject: CIML
+    title: 'Agenda Item 16: Review of meeting resolutions'
     considerations:
     - type: noting
       message: 'Noting the recommendations of the CEEMS Advisory Group,
@@ -910,9 +877,7 @@ decisions:
         date: '2019-10-22'
         type: effective
   - language_code: fra
-    title: Remercie M. Pu Changcheng pour son initiative dans la création du Groupe
-      Consultatif pour
-    subject: CIML
+    title: 'Agenda Item 16: Review of meeting resolutions'
     considerations:
     - type: noting
       message: |
@@ -930,6 +895,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2019/17
@@ -942,7 +908,6 @@ decisions:
   - language_code: eng
     title: Requests the chairperson of the CEEMS Advisory Group to develop proposals
       for an appropriate
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the discussions in the CEEMS Advisory Group on the lack of
@@ -966,7 +931,6 @@ decisions:
   - language_code: fra
     title: Demande au président du Groupe Consultatif pour les CEEMS d'élaborer des
       propositions en vue
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note des discussions au sein du Groupe Consultatif pour les
@@ -987,6 +951,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 2019/18
@@ -999,7 +964,6 @@ decisions:
   - language_code: eng
     title: Thanks Dr Bobjoseph Mathew, Dr Peter Ulbig, and the BIML for having organised
       the
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1039,7 +1003,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Remercie le Dr Bobjoseph Mathew, le Dr Peter Ulbig et le BIML d'avoir organisé
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1076,6 +1039,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: CIML
     number: 2019/19
@@ -1088,7 +1052,6 @@ decisions:
   - language_code: eng
     title: Notes the report of the OIML Certification System (OIML-CS) Management
       Committee (MC) Chairperson, T…
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1107,7 +1070,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport du Président du Comité de Management du Système de
       Certification
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1150,6 +1112,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '19'
 - identifier:
   - prefix: CIML
     number: 2019/20
@@ -1162,7 +1125,6 @@ decisions:
   - language_code: eng
     title: Decides to accept the proposal to vote on the Final Draft Recommendation
       revision of
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the remarks made by its President,
@@ -1191,7 +1153,6 @@ decisions:
   - language_code: fra
     title: Décide d'accepter la proposition de voter sur le projet final de la Recommandation
       R
-    subject: CIML
     considerations: []
     actions:
     - type: decides
@@ -1202,6 +1163,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '20'
 - identifier:
   - prefix: CIML
     number: 2019/21
@@ -1214,7 +1176,6 @@ decisions:
   - language_code: eng
     title: 'Approves the following Final Draft Publications: - Revision of D31 General
       requirements for software…'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1240,7 +1201,6 @@ decisions:
   - language_code: fra
     title: 'Approuve les projets de publications finaux suivants : - Révision de la
       D 31'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1263,6 +1223,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '21'
 - identifier:
   - prefix: CIML
     number: 2019/22
@@ -1275,7 +1236,6 @@ decisions:
   - language_code: eng
     title: Approves as a new project, under the responsibility of OIML TC 5/SC 2,
       the
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1291,7 +1251,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 5/SC
       2 de
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1305,6 +1264,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '22'
 - identifier:
   - prefix: CIML
     number: 2019/23
@@ -1316,7 +1276,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Approves as a new project, under the responsibility of TC 6, a new publication
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1332,7 +1291,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 6, une
       nouvelle
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1345,6 +1303,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '23'
 - identifier:
   - prefix: CIML
     number: 2019/24
@@ -1357,7 +1316,6 @@ decisions:
   - language_code: eng
     title: Approves as a new project, under the responsibility of TC 17/SC 2, the
       revision
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1373,7 +1331,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
       2, la
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1386,6 +1343,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '24'
 - identifier:
   - prefix: CIML
     number: 2019/25
@@ -1397,7 +1355,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Approves as a new project, under the responsibility of TC 17/SC 5, a new
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1413,7 +1370,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
       5, une
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1427,6 +1383,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '25'
 - identifier:
   - prefix: CIML
     number: 2019/26
@@ -1438,7 +1395,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Decides to accept the proposal to vote on the project to revise B 11
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the remarks made by its President,
@@ -1468,7 +1424,6 @@ decisions:
   - language_code: fra
     title: Décide d'accepter la proposition de voter sur le projet de révision de
       la B
-    subject: CIML
     considerations: []
     actions:
     - type: decides
@@ -1479,6 +1434,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '26'
 - identifier:
   - prefix: CIML
     number: 2019/27
@@ -1491,7 +1447,6 @@ decisions:
   - language_code: eng
     title: Approves as a new project, under the responsibility of the BIML and the
       USA
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1507,7 +1462,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du BIML et
       des Etats-Unis
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1521,6 +1475,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '27'
 - identifier:
   - prefix: CIML
     number: 2019/28
@@ -1533,7 +1488,6 @@ decisions:
   - language_code: eng
     title: Approves the amended periodic review procedure detailed in Annex A of Addendum
       10.1.3.2 to
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the result of the vote on the 1CD of the Revision of B 6 Directives
@@ -1580,7 +1534,6 @@ decisions:
   - language_code: fra
     title: Approuve la procédure de révision périodique modifiée décrite dans l'Annexe
       A de l'Addendum 10.1.3.2
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note du résultat du vote sur le 1CD de la révision de la B
@@ -1626,6 +1579,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '28'
 - identifier:
   - prefix: CIML
     number: 2019/29
@@ -1638,7 +1592,6 @@ decisions:
   - language_code: eng
     title: Supports the criteria used to identify high priority publications and projects
       developed by Task
-    subject: CIML
     considerations: []
     actions:
     - type: supports
@@ -1655,7 +1608,6 @@ decisions:
   - language_code: fra
     title: Soutient les critères utilisés pour identifier les publications et projets
       hautement prioritaires él…
-    subject: CIML
     considerations: []
     actions:
     - type: endorses
@@ -1683,6 +1635,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '29'
 - identifier:
   - prefix: CIML
     number: 2019/30
@@ -1695,7 +1648,6 @@ decisions:
   - language_code: eng
     title: Supports the proposal of Task Group 2023 and the Presidential Council to
       identify "mentors"
-    subject: CIML
     considerations: []
     actions:
     - type: supports
@@ -1727,7 +1679,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Soutient la proposition du Groupe de Travail 2023 et du Conseil de la Présidence
-    subject: CIML
     considerations: []
     actions:
     - type: endorses
@@ -1758,6 +1709,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '30'
 - identifier:
   - prefix: CIML
     number: 2019/31
@@ -1769,7 +1721,6 @@ decisions:
   localizations:
   - language_code: eng
     title: "(Agenda item 11)"
-    subject: CIML
     considerations:
     - type: noting
       message: |
@@ -1786,7 +1737,6 @@ decisions:
         type: effective
   - language_code: fra
     title: "(Point 11 de l'ordre du jour)"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1794,6 +1744,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '31'
 - identifier:
   - prefix: CIML
     number: 2019/32
@@ -1805,7 +1756,6 @@ decisions:
   localizations:
   - language_code: eng
     title: "(Agenda item 12.1)"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1815,7 +1765,6 @@ decisions:
         type: effective
   - language_code: fra
     title: "(Point 12.1 de l'ordre du jour)"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1823,6 +1772,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '32'
 - identifier:
   - prefix: CIML
     number: 2019/33
@@ -1834,7 +1784,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Thanks Dr Yukinobu Miki for his contribution to the work of the OIML in
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1851,7 +1800,6 @@ decisions:
   - language_code: fra
     title: Remercie le Dr Yukinobu Miki pour sa contribution aux travaux de l'OIML
       dans ses
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1865,6 +1813,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '33'
 - identifier:
   - prefix: CIML
     number: 2019/34
@@ -1877,7 +1826,6 @@ decisions:
   - language_code: eng
     title: Thanks him for his contribution to the development of the OIML Certification
       System (OIML-CS)
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1891,7 +1839,6 @@ decisions:
         type: effective
   - language_code: fra
     title: "(Point 12.2 de l'ordre du jour)"
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1899,6 +1846,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '34'
 - identifier:
   - prefix: CIML
     number: 2019/35
@@ -1911,7 +1859,6 @@ decisions:
   - language_code: eng
     title: Thanks Mr Marcos Trevisan Vasconcellos (Brazil) for his presentation on
       behalf of Prof. Carlos
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1926,7 +1873,6 @@ decisions:
   - language_code: fra
     title: Remercie M. Marcos Trevisan Vasconcellos (Brésil) pour sa présentation
       au nom du professeur Carlos
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1938,6 +1884,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '35'
 - identifier:
   - prefix: CIML
     number: 2019/36
@@ -1950,7 +1897,6 @@ decisions:
   - language_code: eng
     title: Notes the information provided on the organisation of the 55th CIML Meeting
       and 16th
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1980,7 +1926,6 @@ decisions:
   - language_code: fra
     title: Prend note des informations fournies sur l'organisation de la 55eme Réunion
       du CIML et
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -2007,6 +1952,7 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '36'
 - identifier:
   - prefix: CIML
     number: 2019/37
@@ -2019,7 +1965,6 @@ decisions:
   - language_code: eng
     title: Notes the information provided on the organisation of the 56th CIML Meeting
       in 2021
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -2049,7 +1994,6 @@ decisions:
   - language_code: fra
     title: Prend note des informations fournies sur l'organisation de la 56ème Réunion
       du CIML en
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -2076,3 +2020,4 @@ decisions:
       date_effective:
         date: '2019-10-22'
         type: effective
+  agenda_item: '37'

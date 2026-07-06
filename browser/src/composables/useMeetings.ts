@@ -4,9 +4,11 @@ import type { Meeting, MeetingBodyType } from '../types/resolution'
 
 export type { Meeting, MeetingBodyType }
 
-/** Derive the OIML body (CIML vs Conference) from a canonical meeting slug. */
+/** Derive the OIML body (CIML, Conference, or Development Council) from a canonical meeting slug. */
 export function bodyTypeFromSlug(slug: string): MeetingBodyType {
-  return slug.startsWith('conference-') ? 'conference' : 'ciml'
+  if (slug.startsWith('conference-')) return 'conference'
+  if (slug.startsWith('dc-')) return 'dc'
+  return 'ciml'
 }
 
 export interface DecadeGroup {

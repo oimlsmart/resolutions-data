@@ -30,9 +30,10 @@ export function bodyTypeFromSourceFile(sourceFile) {
 // Each meeting gets a DOI under 10.63493/meetings/. The slug is the
 // canonical meeting slug derived from the meeting URN.
 export function buildMeetingDoi(_meta, slug) {
-  const m = String(slug).match(/^(ciml|conference)-(\d+)/);
+  const m = String(slug).match(/^(ciml|conference|dc)-(\d+)/);
   if (!m) return '';
-  const prefix = m[1] === 'conference' ? 'conf' : 'ciml';
+  const prefixMap = { ciml: 'ciml', conference: 'conf', dc: 'dc' };
+  const prefix = prefixMap[m[1]];
   return `10.63493/meetings/${prefix}${m[2]}`;
 }
 

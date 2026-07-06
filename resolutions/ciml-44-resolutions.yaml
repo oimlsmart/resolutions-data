@@ -19,8 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee instructed the CIML President and the BIML Director to prepare
-      a detailed
+    title: 'Agenda Item 1: Preliminary item: working language'
     subject: OIML Conference
     considerations: []
     actions:
@@ -34,7 +33,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a donné instruction au Président du CIML et au Directeur du BIML
+    title: 'Agenda Item 1: Preliminary item: working language'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -47,6 +46,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2009/2
@@ -57,8 +57,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approved the Minutes of the 43rd CIML Meeting with the following
-      modification
+    title: 'Agenda Item 2: Approval of the minutes of the 43rd CIML Meeting'
     subject: OIML Conference
     considerations: []
     actions:
@@ -72,7 +71,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a approuvé le Compte-rendu de la 43ème Réunion du CIML avec les
+    title: 'Agenda Item 2: Approval of the minutes of the 43rd CIML Meeting'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -85,6 +84,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2009/3
@@ -95,8 +95,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee expressed its appreciation for the good cooperation between
-      the Presidential Council a…
+    title: 'Agenda Item 3: Liaisons'
     subject: OIML Conference
     considerations: []
     actions:
@@ -110,8 +109,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a exprimé son appréciation pour la bonne coopération entre le
-      Conseil de
+    title: 'Agenda Item 3: Liaisons'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -132,6 +130,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2009/4
@@ -142,8 +141,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee expressed its appreciation for the continued cooperation
-      with ILAC and the IAF.
+    title: 'Agenda Item 4: Member States and Corresponding Members'
     subject: OIML Conference
     considerations: []
     actions:
@@ -161,8 +159,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a exprimé son appréciation pour la coopération continue avec
-      ILAC et IAF.
+    title: 'Agenda Item 4: Member States and Corresponding Members'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -180,6 +177,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2009/5
@@ -190,8 +188,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee instructed the Bureau to start a revision of the OIML/IEC
-      Memorandum of
+    title: 'Agenda Item 5: Presidential Council activities'
     subject: OIML Conference
     considerations: []
     actions:
@@ -205,8 +202,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a donné instruction au Bureau de commencer la révision de l'Accord
-      de
+    title: 'Agenda Item 5: Presidential Council activities'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -220,6 +216,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2009/5a
@@ -258,6 +255,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: 5a
 - identifier:
   - prefix: CIML
     number: 2009/6
@@ -268,8 +266,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee welcomed the Dominican Republic and the UEMOA $ ^{1} $ as
-      new
+    title: 'Agenda Item 6: Round Table on Metrological Control'
     subject: OIML Conference
     considerations: []
     actions:
@@ -292,8 +289,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a souhaité la bienvenue aux nouveaux Membres Correspondants que
-      sont la République
+    title: 'Agenda Item 6: Round Table on Metrological Control'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -315,6 +311,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2009/7
@@ -325,8 +322,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee requested Zambia to resume reimbursing its arrears and to
-      pay back all
+    title: 'Agenda Item 7: Report on the Seminar “Stakes and priorities of legal metrology
+      for trade”'
     subject: OIML Conference
     considerations: []
     actions:
@@ -339,7 +336,8 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a requis de la Zambie la reprise du paiement de ses arriérés
+    title: 'Agenda Item 7: Report on the Seminar “Stakes and priorities of legal metrology
+      for trade”'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -351,6 +349,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2009/8
@@ -361,7 +360,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee took note of the report given by its President.
+    title: 'Agenda Item 8: Activities of the Bureau'
     subject: OIML Conference
     considerations: []
     actions:
@@ -373,7 +372,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a pris note du rapport donné par son Président
+    title: 'Agenda Item 8: Activities of the Bureau'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -384,6 +383,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2009/9
@@ -394,7 +394,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee took note of the report on the activities of the Bureau.
+    title: 'Agenda Item 9: Financial matters'
     subject: OIML Conference
     considerations: []
     actions:
@@ -406,7 +406,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a pris note du rapport donné sur les activités du Bureau.
+    title: 'Agenda Item 9: Financial matters'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -417,6 +417,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2009/10
@@ -457,6 +458,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2009/11
@@ -500,6 +502,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2009/12
@@ -537,6 +540,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2009/13
@@ -547,7 +551,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee took note of the progress on the revision of part 1 of
+    title: 'Agenda Item 13: Future meetings'
     subject: OIML Conference
     considerations: []
     actions:
@@ -562,7 +566,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a pris note des progrès effectués dans la révision de la partie
+    title: 'Agenda Item 13: Future meetings'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -576,6 +580,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2009/14
@@ -586,8 +591,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee expressed its appreciation for the training provided to TC/SC
-      Secretariats and instruc…
+    title: 'Agenda Item 14: Other matters'
     subject: OIML Conference
     considerations: []
     actions:
@@ -601,8 +605,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a exprimé son appréciation pour la formation dispensée aux Secrétariats
-      des TC/SCs
+    title: 'Agenda Item 14: Other matters'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -615,6 +618,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 2009/15
@@ -625,7 +629,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approved the launching of an R 117 DoMC limited to fuel dispensers
+    title: 'Agenda Item 15: Decisions and Resolutions'
     subject: OIML Conference
     considerations: []
     actions:
@@ -639,8 +643,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: Le Comité a approuvé le lancement d'une DoMC R 117 limitée aux ensembles
-      de
+    title: 'Agenda Item 15: Decisions and Resolutions'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -654,6 +657,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 2009/16
@@ -664,8 +668,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'The Committee approved the following publications: - Amendment to R 138
-      Vessels for commercial'
+    title: 'Agenda Item 16: Closure'
     subject: OIML Conference
     considerations: []
     actions:
@@ -678,8 +681,7 @@ decisions:
         date: '2009-10-27'
         type: effective
   - language_code: fra
-    title: 'Le Comité a approuvé les publications suivantes: - Amendement à la R 138
-      Récipients'
+    title: 'Agenda Item 16: Closure'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -691,6 +693,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2009/16a
@@ -726,6 +729,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: 16a
 - identifier:
   - prefix: CIML
     number: 2009/17
@@ -766,6 +770,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 2009/18
@@ -805,6 +810,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: CIML
     number: 2009/19
@@ -848,6 +854,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '19'
 - identifier:
   - prefix: CIML
     number: 2009/20
@@ -895,6 +902,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '20'
 - identifier:
   - prefix: CIML
     number: 2009/21
@@ -933,6 +941,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '21'
 - identifier:
   - prefix: CIML
     number: 2009/22
@@ -986,6 +995,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '22'
 - identifier:
   - prefix: CIML
     number: 2009/23
@@ -1025,6 +1035,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '23'
 - identifier:
   - prefix: CIML
     number: 2009/24
@@ -1064,6 +1075,7 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '24'
 - identifier:
   - prefix: CIML
     number: 2009/25
@@ -1105,3 +1117,4 @@ decisions:
       date_effective:
         date: '2009-10-27'
         type: effective
+  agenda_item: '25'
