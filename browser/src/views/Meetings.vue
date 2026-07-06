@@ -150,6 +150,11 @@
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
                     <span v-if="m.meeting_date" class="meta-sep">&middot;</span>
                     <span class="meta-count">{{ interpolate(t('meetings.resolutionsCount'), { count: m.resolution_count }) }}</span>
+                    <span
+                      v-if="m.languages && m.languages.length"
+                      class="meta-lang"
+                      :title="langAvailabilityTitle(m.languages)"
+                    >{{ langAvailabilityLabel(m.languages) }}</span>
                   </span>
                   <span class="timeline-arrow">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -198,6 +203,11 @@
                     <span v-if="m.meeting_date" class="meta-date">{{ formatDateShort(m.meeting_date) }}</span>
                     <span v-if="m.meeting_date" class="meta-sep">&middot;</span>
                     <span class="meta-count">{{ interpolate(t('meetings.resolutionsCount'), { count: m.resolution_count }) }}</span>
+                    <span
+                      v-if="m.languages && m.languages.length"
+                      class="meta-lang"
+                      :title="langAvailabilityTitle(m.languages)"
+                    >{{ langAvailabilityLabel(m.languages) }}</span>
                   </span>
                   <span class="timeline-arrow">
                     <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
@@ -248,6 +258,20 @@ const selectedCountry = ref((route.query.country as string) || '')
 const selectedBodyType = ref((route.query.body as string) || '')
 const { t, lang } = useI18n()
 const venueForLangFn = (city: string, code: string) => venueForLang(city, code, lang.value)
+
+function langAvailabilityLabel(langs: string[]): string {
+  if (!langs || langs.length === 0) return ''
+  if (langs.length === 1) return langs[0].toUpperCase()
+  return langs.map(l => l.toUpperCase()).join('+')
+}
+
+function langAvailabilityTitle(langs: string[]): string {
+  if (!langs || langs.length === 0) return ''
+  if (langs.length === 1) {
+    return langs[0] === 'fr' ? 'Français seulement' : 'English only'
+  }
+  return 'English + Français'
+}
 
 onMounted(() => {
   loadData()
@@ -545,6 +569,22 @@ watch([searchQuery, selectedYear, selectedCountry], () => {
   color: var(--color-slate-600);
 }
 .dark .meta-count { color: var(--color-slate-300); }
+
+.meta-lang {
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.625rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--color-blue-accent);
+  padding: 0.0625rem 0.3125rem;
+  border-radius: 0.1875rem;
+  background: rgb(219 234 254 / 0.6);
+}
+.dark .meta-lang {
+  color: rgb(147 197 253);
+  background: rgb(30 58 138 / 0.4);
+}
 
 .timeline-arrow {
   color: var(--color-slate-300);

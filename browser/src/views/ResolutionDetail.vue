@@ -38,11 +38,11 @@
         <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.identifier || resolution.id }}</span>
         <router-link
           v-if="resolution.agenda_item && resolution.meeting_slug"
-          :to="{ name: 'meeting-detail', params: { lang: lang, meetingSlug: resolution.meeting_slug }, hash: `#agenda-${resolution.agenda_item}` }"
+          :to="{ name: 'meeting-detail', params: { lang: lang, meetingSlug: resolution.meeting_slug }, hash: `#agenda-${agendaLinkLabel}` }"
           class="std-page__badge std-page__badge--link badge-agenda-item"
           :title="resolution.agenda_item_urn"
         >
-          {{ t('meeting.agendaItem') }} {{ resolution.agenda_item }}
+          {{ t('meeting.agendaItem') }} {{ resolution.agenda_item }}{{ agendaLinkLabel !== resolution.agenda_item ? ` (${agendaLinkLabel})` : '' }}
         </router-link>
         <span v-else-if="resolution.agenda_item" class="std-page__badge badge-agenda-item">{{ t('meeting.agendaItem') }} {{ resolution.agenda_item }}</span>
         
@@ -314,7 +314,7 @@ const route = useRoute()
 const { resolutions, isLoaded, loadData } = useResolutions()
 const r = useLocalizedRoute()
 const { t, lang } = useI18n()
-const { getMeetingResolutions, loadData: loadMeetingsData, isLoaded: isMeetingsLoaded } = useMeetings()
+const { getMeetingResolutions, getMeeting, loadData: loadMeetingsData, isLoaded: isMeetingsLoaded } = useMeetings()
 
 const searchInput = ref('')
 const pageRef = ref<HTMLElement | null>(null)
@@ -451,6 +451,27 @@ watch([resolution, () => lang.value], () => {
   const fallback = available.includes(lang.value as 'en' | 'fr') ? lang.value as 'en' | 'fr' : (available[0] || 'en')
   activeLang.value = fallback
 }, { immediate: true })
+
+// Closest agenda item label that actually exists on the meeting page.
+// Resolutions reference sub-items like "14.2" but the meeting agenda
+// might only carry the parent "14". Walk the label up the hierarchy
+// ("14.2" → "14" → "") until we find a label that exists in the
+// meeting's agenda_items, then use it as the URL fragment.
+const agendaLinkLabel = computed(() => {
+  const res = resolution.value
+  if (!res || !res.agenda_item || !res.meeting_slug) return ''
+  const meeting = getMeeting(res.meeting_slug)
+  if (!meeting || !meeting.agenda_items || meeting.agenda_items.length === 0) return res.agenda_item
+  const labels = new Set(meeting.agenda_items.map((i: any) => String(i.label)))
+  let label = String(res.agenda_item)
+  while (label) {
+    if (labels.has(label)) return label
+    const idx = label.lastIndexOf('.')
+    if (idx <= 0) break
+    label = label.substring(0, idx)
+  }
+  return res.agenda_item
+})
 
 const meetingLinkLabel = computed(() => {
   const res = resolution.value

@@ -528,3 +528,13 @@ $defs:
     type: string
     description: "Edoxen::Enums::RECURRENCE_FREQ."
     enum: [secondly, minutely, hourly, daily, weekly, monthly, yearly]
+
+  ContactIdentifierKind:
+    type: string
+    description: "Edoxen::Enums::CONTACT_IDENTIFIER_KIND."
+    enum: [orcid, isni, wikidata, ror, ringgold, github, other]
+
+  ContactMethodKind:
+    type: string
+    description: "Edoxen::Enums::CONTACT_METHOD_KIND."
+    enum: [phone, mobile, fax, email, url, mail, pager, message, other]

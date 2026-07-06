@@ -91,6 +91,7 @@ export interface Meeting {
   doi: string
   resolution_count: number
   acclamation_count: number
+  languages: string[]
   urn: string
   virtual?: boolean
   committee?: string
