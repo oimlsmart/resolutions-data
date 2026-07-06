@@ -203,10 +203,9 @@ const meetingResolutions = computed(() => {
   return isLoaded.value ? getMeetingResolutions(meeting.value.meeting_slug, lang.value) : []
 })
 
-// Many auto-generated agenda items have title "Agenda item N" which
-// duplicates the label and adds no information. Detect that shape and
-// fall back to a localized "—" placeholder so the table doesn't show
-// the same string twice.
+// Some auto-generated agenda items in the early Bulletin scans (CIML
+// 4-14) still carry the placeholder title "Agenda item N" — surface
+// those as an em dash so the table doesn't echo the label column.
 function agendaItemTitle(item: { label: string; title?: string }): string {
   const t = (item.title || '').trim()
   if (!t) return '—'
