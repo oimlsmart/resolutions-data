@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 21st CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '1986-04-16'
-    end: '1986-04-18'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Paris, France
   city: FRPAR
   country_code: FR
-  language: en
   title_localized:
   - language_code: eng
     title: 21st CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-21
-resolutions:
-- identifier: CIML/1986/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1986/1
   doi: 10.63493/resolutions/ciml198601
   urn: urn:oiml:doc:ciml:resolution:1986-01
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: APPROVAL OF THE REPORT ON THE 20TH COMMITTEE MEETING
@@ -36,27 +32,31 @@ resolutions:
       message: 'The report is approved without modification.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/2
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/2
   doi: 10.63493/resolutions/ciml198602
   urn: urn:oiml:doc:ciml:resolution:1986-02
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: MEMBER STATES AND CORRESPONDING MEMBERS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1986/2.1
+- identifier:
+  - prefix: CIML
+    number: 1986/2.1
   doi: 10.63493/resolutions/ciml19862.1
   urn: urn:oiml:doc:ciml:resolution:1986-2.1
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: New accessions-Anticipated accessions
@@ -70,15 +70,17 @@ resolutions:
         and SAUDI ARABIA. Other countries intend to join as Corresponding Members.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/2.2
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/2.2
   doi: 10.63493/resolutions/ciml19862.2
   urn: urn:oiml:doc:ciml:resolution:1986-2.2
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of some Member States or Corresponding Members
@@ -94,27 +96,31 @@ resolutions:
         if they pay the amounts due.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/3
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/3
   doi: 10.63493/resolutions/ciml198603
   urn: urn:oiml:doc:ciml:resolution:1986-03
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: FINANCIAL SITUATION
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1986/3.1
+- identifier:
+  - prefix: CIML
+    number: 1986/3.1
   doi: 10.63493/resolutions/ciml19863.1
   urn: urn:oiml:doc:ciml:resolution:1986-3.1
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the accountant report for 1984
@@ -127,15 +133,17 @@ resolutions:
         to submit it to the 8th Conference.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/3.2
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/3.2
   doi: 10.63493/resolutions/ciml19863.2
   urn: urn:oiml:doc:ciml:resolution:1986-3.2
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the accountant report for 1985
@@ -148,15 +156,17 @@ resolutions:
         and to be adopted by the Committee in session.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/3.3
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/3.3
   doi: 10.63493/resolutions/ciml19863.3
   urn: urn:oiml:doc:ciml:resolution:1986-3.3
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the financial estimates for 1986
@@ -175,27 +185,31 @@ resolutions:
         greater than estimated by the Conference.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/4
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/4
   doi: 10.63493/resolutions/ciml198604
   urn: urn:oiml:doc:ciml:resolution:1986-04
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: BUREAU STAFF
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1986/4.1
+- identifier:
+  - prefix: CIML
+    number: 1986/4.1
   doi: 10.63493/resolutions/ciml19864.1
   urn: urn:oiml:doc:ciml:resolution:1986-4.1
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of posts for which contracts expire in the near future
@@ -208,15 +222,17 @@ resolutions:
         period of two years starting from the end of his current contract.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/4.2
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/4.2
   doi: 10.63493/resolutions/ciml19864.2
   urn: urn:oiml:doc:ciml:resolution:1986-4.2
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML staff regulations - General information and examination of individual
@@ -231,15 +247,17 @@ resolutions:
         regulations.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/4.3
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/4.3
   doi: 10.63493/resolutions/ciml19864.3
   urn: urn:oiml:doc:ciml:resolution:1986-4.3
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML retirement plan
@@ -253,15 +271,17 @@ resolutions:
         budget, and not into the retirement fund :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/5
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/5
   doi: 10.63493/resolutions/ciml198605
   urn: urn:oiml:doc:ciml:resolution:1986-05
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: IMPLEMENTATION OF THE DECISIONS OF THE 7th CONFERENCE
@@ -274,27 +294,31 @@ resolutions:
         their implementation is correctly carried out.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/6
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/6
   doi: 10.63493/resolutions/ciml198606
   urn: urn:oiml:doc:ciml:resolution:1986-06
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: PLANNING OF WORK
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1986/6.1
+- identifier:
+  - prefix: CIML
+    number: 1986/6.1
   doi: 10.63493/resolutions/ciml19866.1
   urn: urn:oiml:doc:ciml:resolution:1986-6.1
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: EXAMINATION OF THE 1985-1988 DRAFT WORK PROGRAMMES
@@ -306,15 +330,17 @@ resolutions:
         of the following Secretariats :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/6.2
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/6.2
   doi: 10.63493/resolutions/ciml19866.2
   urn: urn:oiml:doc:ciml:resolution:1986-6.2
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of the final work programmes
@@ -326,15 +352,17 @@ resolutions:
         resolution:
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/6.3
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/6.3
   doi: 10.63493/resolutions/ciml19866.3
   urn: urn:oiml:doc:ciml:resolution:1986-6.3
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Directives for future planning
@@ -346,27 +374,31 @@ resolutions:
         planning activities the Committee adopts the following resolution:
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/7
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/7
   doi: 10.63493/resolutions/ciml198607
   urn: urn:oiml:doc:ciml:resolution:1986-07
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: WORK OF SECRETARIATS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1986/7.1
+- identifier:
+  - prefix: CIML
+    number: 1986/7.1
   doi: 10.63493/resolutions/ciml19867.1
   urn: urn:oiml:doc:ciml:resolution:1986-7.1
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Examination of the state of progress of the work :'
@@ -377,15 +409,17 @@ resolutions:
       message: 'Mr. TURSKI presents in turn :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/7.2
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/7.2
   doi: 10.63493/resolutions/ciml19867.2
   urn: urn:oiml:doc:ciml:resolution:1986-7.2
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Provisional adoption of draft International Recommendations
@@ -399,15 +433,17 @@ resolutions:
         completed or improved.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/7.3
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/7.3
   doi: 10.63493/resolutions/ciml19867.3
   urn: urn:oiml:doc:ciml:resolution:1986-7.3
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Different types of OIML publications
@@ -420,15 +456,17 @@ resolutions:
         to the Committee. He presents a summary of this study with the following conclusions:
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/8
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/8
   doi: 10.63493/resolutions/ciml198608
   urn: urn:oiml:doc:ciml:resolution:1986-08
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: ROLE AND RESPONSIBILITY OF CIML MEMBERS
@@ -440,15 +478,17 @@ resolutions:
         published and will be distributed shortly after the Committee meeting.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/9
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/9
   doi: 10.63493/resolutions/ciml198609
   urn: urn:oiml:doc:ciml:resolution:1986-09
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: DEVELOPING COUNTRIES
@@ -461,15 +501,17 @@ resolutions:
         to give a summary of this report.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/10
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/10
   doi: 10.63493/resolutions/ciml198610
   urn: urn:oiml:doc:ciml:resolution:1986-10
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: RELATIONS WITH OTHER INTERNATIONAL INSTITUTIONS
@@ -478,15 +520,17 @@ resolutions:
     actions:
     - type: notes
       message: "## a) ISO TAG 4\n"
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/11
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/11
   doi: 10.63493/resolutions/ciml198611
   urn: urn:oiml:doc:ciml:resolution:1986-11
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML BULLETIN
@@ -498,15 +542,17 @@ resolutions:
         of the Bulletin :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/12
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/12
   doi: 10.63493/resolutions/ciml198612
   urn: urn:oiml:doc:ciml:resolution:1986-12
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML SEMINARS
@@ -523,27 +569,31 @@ resolutions:
         and was a great success.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/13
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/13
   doi: 10.63493/resolutions/ciml198613
   urn: urn:oiml:doc:ciml:resolution:1986-13
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML CERTIFICATION
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1986/13.1
+- identifier:
+  - prefix: CIML
+    number: 1986/13.1
   doi: 10.63493/resolutions/ciml198613.1
   urn: urn:oiml:doc:ciml:resolution:1986-13.1
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Various activities
@@ -561,15 +611,17 @@ resolutions:
         which could favor the eventual setting up of an OIML certification system.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/13.3
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/13.3
   doi: 10.63493/resolutions/ciml198613.3
   urn: urn:oiml:doc:ciml:resolution:1986-13.3
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: Directives for future activities
@@ -587,15 +639,17 @@ resolutions:
         to those of BIPM.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/14
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/14
   doi: 10.63493/resolutions/ciml198614
   urn: urn:oiml:doc:ciml:resolution:1986-14
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: REPORT ON ACTIVITY OF BIML
@@ -607,15 +661,17 @@ resolutions:
         1986 was distributed to the participants.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/15
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/15
   doi: 10.63493/resolutions/ciml198615
   urn: urn:oiml:doc:ciml:resolution:1986-15
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: PREPARATION OF THE 8TH CONFERENCE
@@ -634,15 +690,17 @@ resolutions:
         to the delegates and accompanying persons.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
-- identifier: CIML/1986/16
+      date_effective:
+        date: '1986-04-16'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1986/16
   doi: 10.63493/resolutions/ciml198616
   urn: urn:oiml:doc:ciml:resolution:1986-16
   dates:
-  - start: '1986-04-16'
-    kind: decision
+  - date: '1986-04-16'
+    type: decided
   localizations:
   - language_code: eng
     title: PREPARATION OF THE 22nd COMMITTEE MEETING
@@ -654,25 +712,25 @@ resolutions:
         hold the next Committee meeting in Paris, September 1987.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee indicates its agreement by acclamation and Messrs BIRKELAND
         and ISSAEV return to their places at the Presidential table.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: approves
       message: 'The Committee approved the report of the 20th CIML meeting without
         modification.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the anticipated accessions
         of new Member States and Corresponding Members, as well as on the situation
@@ -680,33 +738,33 @@ resolutions:
         part of the Organization because of non-payment of their subscriptions.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: approves
       message: 'The Committee approved the accountant report for 1984 and instructed
         its President and the Director of the Bureau to submit it to the Eighth Conference.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the accountant report for 1985 and instructed
         its President and the Director of the Bureau to submit it for approval during
         the 22nd CIML meeting.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the financial estimates for 1986.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee extended the contract of Mr PETIK, Assistant Director,
         for 2 years. In addition, it took note of the information concerning the replacement
@@ -714,40 +772,40 @@ resolutions:
         1987.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: decides
       message: 'The Committee decided :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: decides
       message: 'The Committee decided to modify the detailed rules of the retirement
         plan as follows:
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the implementation of the
         decisions of the Seventh Conference.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee provisionally adopted two draft International Recommendations
         :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Presidential Council to study the problems
         of different categories of OIML publications, on the basis of the proposals
@@ -755,113 +813,113 @@ resolutions:
         on the basis of the proposals presented by Mr PODGORSKI.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the publication of the brochure:
         《 Guide for CIML Members 》。
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report presented by the Chairman of
         the Development Council and approved the draft work program for 1986-1988.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the reports on the relations between OIML
         and various International and Regional Institutions and requested the Bureau
         to continue its activities in this field.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of and expressed its satisfaction with the
         report on the OIML Bulletin and encouraged the Bureau to continue its efforts.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of and expressed its satisfaction with the
         information on the technical seminar held in April 1985 and the intentions
         of the Bureau to organize another seminar in 1987.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee adopted the International Document "Guidelines for bi-
         and multilateral arrangements on the recognition of : test results - pattern
         approvals - verifications ".
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Pesidential Council to follow the developments
         in the field of certification, on the basis of studies carried out by SP 2-Sr
         4, and to report on this matter during the next CIML meeting.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the activities of the Bureau
         during the period October 1984 - March 1986.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report presented by the Delegation
         of Australia and the Bureau on the preparations for the Eighth Conference,
         which will take place in Sydney from 24 to 28 October 1988.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: decides
       message: 'The Committee decided that the 22nd meeting will take place in Paris,
         September 1987.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee re-elected for a 6-year period :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee elected for a 6-year period :
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective
     - type: notes
       message: 'The Committee nominated as Honorary Members : Mr. W. MUHE, Fed. Rep.
         of Germany Mr. H.W. LIERS, German Dem. Rep.
 
         '
-      dates:
-      - start: '1986-04-16'
-        kind: effective
+      date_effective:
+        date: '1986-04-16'
+        type: effective

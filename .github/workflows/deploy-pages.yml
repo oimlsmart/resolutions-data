@@ -35,10 +35,13 @@ jobs:
       - name: Validate resolution YAMLs (structural)
         run: ruby scripts/validate_yaml.rb
 
-      - name: Validate meeting YAMLs (edoxen schema)
+      - name: Validate meeting YAMLs (edoxen v2 schema)
         run: |
           bundle install
           bundle exec edoxen validate-meetings 'meetings/*.yaml'
+
+      - name: Validate resolution YAMLs (edoxen v2 schema)
+        run: bundle exec edoxen validate 'resolutions/*.yaml'
 
       - name: Cross-check schema enum parity
         run: bundle exec ruby scripts/check_schema_sync.rb

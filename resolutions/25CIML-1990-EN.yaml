@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 25th CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '1990-10-03'
-    end: '1990-10-05'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Oporto, Portugal
   city: PTOPO
   country_code: PT
-  language: en
   title_localized:
   - language_code: eng
     title: 25th CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-25
-resolutions:
-- identifier: CIML/1990/3
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1990/3
   doi: 10.63493/resolutions/ciml199003
   urn: urn:oiml:doc:ciml:resolution:1990-03
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Finance
@@ -36,15 +32,17 @@ resolutions:
       message: '3. 1. Approval of the Auditor''s report for 1989
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/4
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/4
   doi: 10.63493/resolutions/ciml199004
   urn: urn:oiml:doc:ciml:resolution:1990-04
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Staff of the Bureau
@@ -56,15 +54,17 @@ resolutions:
         in May 1991
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/5
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/5
   doi: 10.63493/resolutions/ciml199005
   urn: urn:oiml:doc:ciml:resolution:1990-05
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Certification
@@ -76,15 +76,17 @@ resolutions:
         Instruments"
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/6
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/6
   doi: 10.63493/resolutions/ciml199006
   urn: urn:oiml:doc:ciml:resolution:1990-06
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Working method of OIML Secretariats
@@ -96,15 +98,17 @@ resolutions:
         and Documents
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/7
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/7
   doi: 10.63493/resolutions/ciml199007
   urn: urn:oiml:doc:ciml:resolution:1990-07
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Work of the Secretariats
@@ -115,15 +119,17 @@ resolutions:
       message: '7. 1. State of progress of work
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/10
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/10
   doi: 10.63493/resolutions/ciml199010
   urn: urn:oiml:doc:ciml:resolution:1990-10
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML seminars
@@ -134,27 +140,31 @@ resolutions:
       message: '11. Report on the activities of BIML (October 1989-September 1990)
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/2
   doi: 10.63493/resolutions/ciml199002
   urn: urn:oiml:doc:ciml:resolution:1990-02
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: MEMBER STATES AND CORRESPONDING MEMBERS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1990/2.1
+- identifier:
+  - prefix: CIML
+    number: 1990/2.1
   doi: 10.63493/resolutions/ciml19902.1
   urn: urn:oiml:doc:ciml:resolution:1990-2.1
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: New accessions - Expected accessions
@@ -168,15 +178,17 @@ resolutions:
         possibility of joining OIML, though no more details were then available.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/2.2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/2.2
   doi: 10.63493/resolutions/ciml19902.2
   urn: urn:oiml:doc:ciml:resolution:1990-2.2
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: The situation of some Member States
@@ -200,27 +212,31 @@ resolutions:
         for OIML would be the following:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/3
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/3
   doi: 10.63493/resolutions/ciml199003
   urn: urn:oiml:doc:ciml:resolution:1990-03
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: FINANCE
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1990/3.1
+- identifier:
+  - prefix: CIML
+    number: 1990/3.1
   doi: 10.63493/resolutions/ciml19903.1
   urn: urn:oiml:doc:ciml:resolution:1990-3.1
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the auditor's report for 1989
@@ -231,15 +247,17 @@ resolutions:
       message: 'The auditor''s report for 1989 was approved without comment.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/3.2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/3.2
   doi: 10.63493/resolutions/ciml19903.2
   urn: urn:oiml:doc:ciml:resolution:1990-3.2
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: The financial position in 1990 and 1991
@@ -251,27 +269,31 @@ resolutions:
         1989 remained current, with the following modifications:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/4
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/4
   doi: 10.63493/resolutions/ciml199004
   urn: urn:oiml:doc:ciml:resolution:1990-04
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: STAFF OF THE BUREAU
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1990/4.1
+- identifier:
+  - prefix: CIML
+    number: 1990/4.1
   doi: 10.63493/resolutions/ciml19904.1
   urn: urn:oiml:doc:ciml:resolution:1990-4.1
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Replacement of an Assistant Director retiring from the Bureau in May 1991
@@ -297,15 +319,17 @@ resolutions:
         and the Director of the Bureau, to suit the convenience of either party.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/4.2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/4.2
   doi: 10.63493/resolutions/ciml19904.2
   urn: urn:oiml:doc:ciml:resolution:1990-4.2
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Staff members whose contracts expire before the end of 1992
@@ -319,15 +343,17 @@ resolutions:
         view.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/4.3
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/4.3
   doi: 10.63493/resolutions/ciml19904.3
   urn: urn:oiml:doc:ciml:resolution:1990-4.3
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Other business
@@ -338,15 +364,17 @@ resolutions:
       message: 'There was no other business concerning the staff of the Bureau.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/5
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/5
   doi: 10.63493/resolutions/ciml199005
   urn: urn:oiml:doc:ciml:resolution:1990-05
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: CERTIFICATION
@@ -359,15 +387,17 @@ resolutions:
         System for Measuring Instruments".
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/5.2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/5.2
   doi: 10.63493/resolutions/ciml19905.2
   urn: urn:oiml:doc:ciml:resolution:1990-5.2
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML International Recommendations applicable within the OIML Certificate
@@ -384,15 +414,17 @@ resolutions:
         reference to the criteria set out below:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/5.3
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/5.3
   doi: 10.63493/resolutions/ciml19905.3
   urn: urn:oiml:doc:ciml:resolution:1990-5.3
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Other actions necessary to the effective operation of the system
@@ -407,27 +439,31 @@ resolutions:
         to all the Member States with encouragement to act in like manner.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/6
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/6
   doi: 10.63493/resolutions/ciml199006
   urn: urn:oiml:doc:ciml:resolution:1990-06
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: WORKING METHOD OF OIML SECRETARIATS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1990/6.1
+- identifier:
+  - prefix: CIML
+    number: 1990/6.1
   doi: 10.63493/resolutions/ciml19906.1
   urn: urn:oiml:doc:ciml:resolution:1990-6.1
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Revision of the procedure for the drafting of International Recommendations
@@ -449,15 +485,17 @@ resolutions:
         (see Annex 2) for the consideration of the Committee.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/6.2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/6.2
   doi: 10.63493/resolutions/ciml19906.2
   urn: urn:oiml:doc:ciml:resolution:1990-6.2
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Standard contents of Recommendations
@@ -474,27 +512,31 @@ resolutions:
         by correspondence or at the next meeting.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/7
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/7
   doi: 10.63493/resolutions/ciml199007
   urn: urn:oiml:doc:ciml:resolution:1990-07
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: WORK OF THE SECRETARIATS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1990/7.1
+- identifier:
+  - prefix: CIML
+    number: 1990/7.1
   doi: 10.63493/resolutions/ciml19907.1
   urn: urn:oiml:doc:ciml:resolution:1990-7.1
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: State of progress of work
@@ -507,15 +549,17 @@ resolutions:
         Committee, and spare copies were available to anyone attending the meeting.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/7.2
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/7.2
   doi: 10.63493/resolutions/ciml19907.2
   urn: urn:oiml:doc:ciml:resolution:1990-7.2
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Particular Secretariats
@@ -526,15 +570,17 @@ resolutions:
       message: 'The BUREAU announced the following:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/7.3
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/7.3
   doi: 10.63493/resolutions/ciml19907.3
   urn: urn:oiml:doc:ciml:resolution:1990-7.3
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of International Recommendations
@@ -547,15 +593,17 @@ resolutions:
         and formal submission to the Ninth Conference:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/8
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/8
   doi: 10.63493/resolutions/ciml199008
   urn: urn:oiml:doc:ciml:resolution:1990-08
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: LONG-TERM POLICY OF THE ORGANIZATION
@@ -572,15 +620,17 @@ resolutions:
         subject.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/9
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/9
   doi: 10.63493/resolutions/ciml199009
   urn: urn:oiml:doc:ciml:resolution:1990-09
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: DEVELOPING COUNTRIES
@@ -597,15 +647,17 @@ resolutions:
         so.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/10
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/10
   doi: 10.63493/resolutions/ciml199010
   urn: urn:oiml:doc:ciml:resolution:1990-10
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML SEMINARS
@@ -620,15 +672,17 @@ resolutions:
         Committee Members concerned to make their proposals (subject and venue) known.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/11
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/11
   doi: 10.63493/resolutions/ciml199011
   urn: urn:oiml:doc:ciml:resolution:1990-11
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: REPORT ON THE ACTIVITIES OF BIML (OCTOBER 1989 TO SEPTEMBER 1990)
@@ -639,15 +693,17 @@ resolutions:
       message: 'The report was distributed to all present.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/12
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/12
   doi: 10.63493/resolutions/ciml199012
   urn: urn:oiml:doc:ciml:resolution:1990-12
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: ANY OTHER BUSINESS
@@ -658,15 +714,17 @@ resolutions:
       message: 'There was no other business.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
-- identifier: CIML/1990/13
+      date_effective:
+        date: '1990-10-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1990/13
   doi: 10.63493/resolutions/ciml199013
   urn: urn:oiml:doc:ciml:resolution:1990-13
   dates:
-  - start: '1990-10-03'
-    kind: decision
+  - date: '1990-10-03'
+    type: decided
   localizations:
   - language_code: eng
     title: DATE AND PLACE OF THE NEXT MEETING
@@ -678,27 +736,27 @@ resolutions:
         without modification.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of an address by Dr KHALED Y. AL KHALAF, CIML
         Member for Saudi Arabia, a new OIML Member State. The Committee also took
         note of the fact that there were no new accessions expected at present.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report by Prof KOCHSIEK, CIML Member
         for the Federal Republic of Germany, on the reunification of Germany, following
         which there is only one German Member State of OIML.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee also took note of information given orally about the
         situation of some Member States that are late in the payment of their contributions
@@ -706,17 +764,17 @@ resolutions:
         against them at present.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: approves
       message: 'The Committee approved the Auditor''s report for 1989 and instructed
         its President and the Director of the Bureau to submit it to the Ninth Conference.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee examined the financial situation of the Organisation
         for 1990 and took note of information given orally on the forseeable evolution
@@ -724,25 +782,25 @@ resolutions:
         following the accession of Saudi Arabia and the reunification of Germany.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee elected as Assistant Director, in place of Mr PETIK:
         Mr VISHENKOV, USSR, from 1st June 1991.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of information given orally on the situation
         of staff members whose contracts end before end 1992.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: approves
       message: 'The Committee approved the document "OIML Certificate System for Measuring
         Instruments" and instructed the Presidential Council and the Bureau to monitor
@@ -755,9 +813,9 @@ resolutions:
         in more detail.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Bureau to produce a brochure on the System,
         to prepare a final draft of the model certificate and to make proposals to
@@ -765,9 +823,9 @@ resolutions:
         the fee shall be 200 FRF.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report on International Recommendations
         which may be used within the OIML Certificate System and considered it possible
@@ -775,9 +833,9 @@ resolutions:
         from now on certificates with reference to the following International Recommendations:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: requests
       message: 'The Committee requested the Bureau and the Secretariats to proceed
         with the revision of the existing Recommendations to make them applicable
@@ -787,9 +845,9 @@ resolutions:
         the Committee might approve Recommendations thus revised.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of information on actions performed by certain
         CIML Members to make the OIML Certificate System better known and to promote
@@ -798,9 +856,9 @@ resolutions:
         actions may be performed in all Member States.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee also took note of information on the possibility of
         developing a computerized data base on OIML certificates; it judged that it
@@ -808,16 +866,16 @@ resolutions:
         and the Bureau to reflect on the usefulness of such a database.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee examined the following documents:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee judged unacceptable the point of the draft resolution
         6.1.a by which Pilot Secretariats would be abolished and the CIML would be
@@ -825,77 +883,77 @@ resolutions:
         provisions of the draft.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee highly appreciated the USA proposal on the general principles
         to be observed when revising the working method.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of the enquiry now being conducted on the
         draft of a Guide entitled "Drafting and presentation of OIML International
         Recommendations".
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of the document "State of progress of the
         work of OIML Secretariats".
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee considered the situations of some Secretariats and took
         the following decisions:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: approves
       message: 'The Committee approved for immediate publication, and then presentation
         to the Ninth Conference for formal sanction, the following International Recommendations:
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee accepted an accelerated process for approving revised
         Recommendations R 74 and R 76, which are expected to be submitted to the Twenty-sixth
         meeting in 1991.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of proposals made orally in relation to the
         long-term policy of the Organisation and instructed the Presidential Council
         to reflect on these matters and to report to the Committee in due time.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee invited its Members to contribute to the discussions
         about the longterm policy of OIML and to send their observations to the Bureau
         before the end of 1990 for transmission to the Presidential Council.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report on the organisation of training
         courses for agents of metrology services from developing countries in 1991.
@@ -908,31 +966,31 @@ resolutions:
         and in the actual conditions of their future work.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report on OIML technical seminars and
         requested its Members to make proposals to BIML for the organisation of a
         new seminar in 1992.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report of the activities of BIML for
         the period October 1989 - September 1990.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective
     - type: decides
       message: 'The Committee decided that its Twenty-sixth meeting will take place
         in Paris from 7th to 9th October 1991.
 
         '
-      dates:
-      - start: '1990-10-03'
-        kind: effective
+      date_effective:
+        date: '1990-10-03'
+        type: effective

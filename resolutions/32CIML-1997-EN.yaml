@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 32nd CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '1997-10-29'
-    end: '1997-10-31'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Rio de Janeiro, Brazil
   city: BRRIO
   country_code: BR
-  language: en
   title_localized:
   - language_code: eng
     title: 32nd CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-32
-resolutions:
-- identifier: CIML/1997/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1997/1
   doi: 10.63493/resolutions/ciml199701
   urn: urn:oiml:doc:ciml:resolution:1997-01
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the minutes of the $ 31^{st} $ CIML meeting
@@ -37,27 +33,31 @@ resolutions:
         comment.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/2
   doi: 10.63493/resolutions/ciml199702
   urn: urn:oiml:doc:ciml:resolution:1997-02
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/2.1
+- identifier:
+  - prefix: CIML
+    number: 1997/2.1
   doi: 10.63493/resolutions/ciml19972.1
   urn: urn:oiml:doc:ciml:resolution:1997-2.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: New Members - Expected accessions
@@ -70,15 +70,17 @@ resolutions:
         (South Africa and possibly some other) accessions.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/2.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/2.2
   doi: 10.63493/resolutions/ciml19972.2
   urn: urn:oiml:doc:ciml:resolution:1997-2.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Situation of certain Members
@@ -96,27 +98,31 @@ resolutions:
         paid their annual subscriptions for more than four years.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/3
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/3
   doi: 10.63493/resolutions/ciml199703
   urn: urn:oiml:doc:ciml:resolution:1997-03
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/3.1
+- identifier:
+  - prefix: CIML
+    number: 1997/3.1
   doi: 10.63493/resolutions/ciml19973.1
   urn: urn:oiml:doc:ciml:resolution:1997-3.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the auditor's report for 1996
@@ -129,15 +135,17 @@ resolutions:
         Conference.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/3.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/3.2
   doi: 10.63493/resolutions/ciml19973.2
   urn: urn:oiml:doc:ciml:resolution:1997-3.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the financial situation for 1997 and estimates for 1998
@@ -153,15 +161,17 @@ resolutions:
         not increase compared to 1996 and 1997.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/4
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/4
   doi: 10.63493/resolutions/ciml199704
   urn: urn:oiml:doc:ciml:resolution:1997-04
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: General information concerning the implementation of decisions taken by
@@ -174,15 +184,17 @@ resolutions:
         the progress made in the implementation of these decisions.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/4.1
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/4.1
   doi: 10.63493/resolutions/ciml19974.1
   urn: urn:oiml:doc:ciml:resolution:1997-4.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML long-term policy and the Birkeland study
@@ -195,15 +207,17 @@ resolutions:
         "Conditions and potential of
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/5
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/5
   doi: 10.63493/resolutions/ciml199705
   urn: urn:oiml:doc:ciml:resolution:1997-05
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Activities linked with accreditation and establishment of mutual confidence
@@ -219,15 +233,17 @@ resolutions:
         of the working group chaired by Mr. Chappell.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/6
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/6
   doi: 10.63493/resolutions/ciml199706
   urn: urn:oiml:doc:ciml:resolution:1997-06
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical committees and subcommittees
@@ -241,15 +257,17 @@ resolutions:
         OIML technical program and redefine priorities.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/6.1
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/6.1
   doi: 10.63493/resolutions/ciml19976.1
   urn: urn:oiml:doc:ciml:resolution:1997-6.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TCs/SCs
@@ -263,22 +281,24 @@ resolutions:
         TC 12 to start the revision of R 46 as soon as possible.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
+      date_effective:
+        date: '1997-10-29'
+        type: effective
     - type: notes
       message: 'The Committee also took note of proposals and comments from:
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/7
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/7
   doi: 10.63493/resolutions/ciml199707
   urn: urn:oiml:doc:ciml:resolution:1997-07
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of International Recommendations
@@ -292,27 +312,31 @@ resolutions:
         concerned, but that improvements
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/8
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/8
   doi: 10.63493/resolutions/ciml199708
   urn: urn:oiml:doc:ciml:resolution:1997-08
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Certificate System
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/8.1
+- identifier:
+  - prefix: CIML
+    number: 1997/8.1
   doi: 10.63493/resolutions/ciml19978.1
   urn: urn:oiml:doc:ciml:resolution:1997-8.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: General information regarding the operation of the System
@@ -328,15 +352,17 @@ resolutions:
         to regulations.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/8.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/8.2
   doi: 10.63493/resolutions/ciml19978.2
   urn: urn:oiml:doc:ciml:resolution:1997-8.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Revision of the paper governing the operation of the System
@@ -350,15 +376,17 @@ resolutions:
         years'' operation of the System.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/8.3
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/8.3
   doi: 10.63493/resolutions/ciml19978.3
   urn: urn:oiml:doc:ciml:resolution:1997-8.3
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: New Recommendations applicable within the System
@@ -371,27 +399,31 @@ resolutions:
         as soon as published.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/9
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/9
   doi: 10.63493/resolutions/ciml199709
   urn: urn:oiml:doc:ciml:resolution:1997-09
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons with other international or regional institutions
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/9.1
+- identifier:
+  - prefix: CIML
+    number: 1997/9.1
   doi: 10.63493/resolutions/ciml19979.1
   urn: urn:oiml:doc:ciml:resolution:1997-9.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: BIPM/OIML rapprochement and liaisons with ILAC
@@ -404,15 +436,17 @@ resolutions:
         ILAC also participated.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/9.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/9.2
   doi: 10.63493/resolutions/ciml19979.2
   urn: urn:oiml:doc:ciml:resolution:1997-9.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Cooperation within the recently established JCGM (Joint Committee for Guides
@@ -428,15 +462,17 @@ resolutions:
         in the JCGM working groups and the revision of the VIM should be clarified.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/9.3
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/9.3
   doi: 10.63493/resolutions/ciml19979.3
   urn: urn:oiml:doc:ciml:resolution:1997-9.3
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: World Trade Organization
@@ -449,15 +485,17 @@ resolutions:
         applied for the status of observer to be granted to OIML by the WTO.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/9.4
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/9.4
   doi: 10.63493/resolutions/ciml19979.4
   urn: urn:oiml:doc:ciml:resolution:1997-9.4
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Other liaisons
@@ -470,18 +508,18 @@ resolutions:
         de Metrologia (SIM) and the OIML.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
+      date_effective:
+        date: '1997-10-29'
+        type: effective
     - type: notes
       message: 'The Committee also took note of a report by Mr. Ramirez concerning
         Cuban activities for assisting certain Latin American countries in developing
         their metrological infrastructures and in training their technical staff.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
+      date_effective:
+        date: '1997-10-29'
+        type: effective
     - type: notes
       message: 'The Committee received views and proposals from Mr. Birch on behalf
         of the APLMF, with a view to developing and formalizing cooperation between
@@ -489,27 +527,31 @@ resolutions:
         of Corresponding Members in certain OIML activities.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/10
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/10
   doi: 10.63493/resolutions/ciml199710
   urn: urn:oiml:doc:ciml:resolution:1997-10
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Developing countries
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/10.1
+- identifier:
+  - prefix: CIML
+    number: 1997/10.1
   doi: 10.63493/resolutions/ciml199710.1
   urn: urn:oiml:doc:ciml:resolution:1997-10.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Information regarding the Development Council meeting of 29th October 1997
@@ -524,15 +566,17 @@ resolutions:
         he has accepted to act as Chairman of the Council until the next meeting.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/10.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/10.2
   doi: 10.63493/resolutions/ciml199710.2
   urn: urn:oiml:doc:ciml:resolution:1997-10.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Planning of an international Seminar to be held in Germany in cooperation
@@ -546,27 +590,31 @@ resolutions:
         in the organization of this Seminar.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/11
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/11
   doi: 10.63493/resolutions/ciml199711
   urn: urn:oiml:doc:ciml:resolution:1997-11
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML staff
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/11.1
+- identifier:
+  - prefix: CIML
+    number: 1997/11.1
   doi: 10.63493/resolutions/ciml199711.1
   urn: urn:oiml:doc:ciml:resolution:1997-11.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: General situation
@@ -578,15 +626,17 @@ resolutions:
         situation of BIML staff.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/11.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/11.2
   doi: 10.63493/resolutions/ciml199711.2
   urn: urn:oiml:doc:ciml:resolution:1997-11.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Appointment of an Assistant Director
@@ -599,15 +649,17 @@ resolutions:
         1998.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/12
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/12
   doi: 10.63493/resolutions/ciml199712
   urn: urn:oiml:doc:ciml:resolution:1997-12
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on BIML activities
@@ -622,27 +674,31 @@ resolutions:
         in order to assist the Bureau in these new tasks.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/13
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/13
   doi: 10.63493/resolutions/ciml199713
   urn: urn:oiml:doc:ciml:resolution:1997-13
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Other matters
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/13.1
+- identifier:
+  - prefix: CIML
+    number: 1997/13.1
   doi: 10.63493/resolutions/ciml199713.1
   urn: urn:oiml:doc:ciml:resolution:1997-13.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Bulletin
@@ -661,15 +717,17 @@ resolutions:
         opportunity of establishing a working group to assist the Bureau in this respect.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/13.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/13.2
   doi: 10.63493/resolutions/ciml199713.2
   urn: urn:oiml:doc:ciml:resolution:1997-13.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML on Internet (general information, meetings and proceedings, OIML certificates,
@@ -686,27 +744,31 @@ resolutions:
         group in order to assist the Bureau in this respect.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/14
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/14
   doi: 10.63493/resolutions/ciml199714
   urn: urn:oiml:doc:ciml:resolution:1997-14
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Future meetings
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1997/14.1
+- identifier:
+  - prefix: CIML
+    number: 1997/14.1
   doi: 10.63493/resolutions/ciml199714.1
   urn: urn:oiml:doc:ciml:resolution:1997-14.1
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: "$ 3 3^{r d} $ and $ 3 4^{t h} $ meetings of the CIML"
@@ -722,15 +784,17 @@ resolutions:
         in conjunction it.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/14.2
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/14.2
   doi: 10.63493/resolutions/ciml199714.2
   urn: urn:oiml:doc:ciml:resolution:1997-14.2
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Eleventh Conference
@@ -743,15 +807,17 @@ resolutions:
         years.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
-- identifier: CIML/1997/15
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1997/15
   doi: 10.63493/resolutions/ciml199715
   urn: urn:oiml:doc:ciml:resolution:1997-15
   dates:
-  - start: '1997-10-29'
-    kind: decision
+  - date: '1997-10-29'
+    type: decided
   localizations:
   - language_code: eng
     title: Closure
@@ -765,6 +831,6 @@ resolutions:
         and to all other persons involved for their perfect organization of the meeting.
 
         '
-      dates:
-      - start: '1997-10-29'
-        kind: effective
+      date_effective:
+        date: '1997-10-29'
+        type: effective

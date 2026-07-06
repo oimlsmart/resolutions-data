@@ -1,27 +1,21 @@
 ---
 metadata:
-  dates:
-  - start: '2021-10-20'
-    end: '2021-10-21'
-    kind: meeting
   source: OIML Conference Secretariat (BIML)
-  venue: Online meeting
-  city: ''
-  country_code: ''
-  language: en
   title_localized:
   - language_code: eng
     title: 16th OIML Conference — Resolutions (EN)
   - language_code: fra
     title: 16e Conférence OIML — Résolutions (FR)
   meeting_urn: urn:oiml:conference:meeting:conference-16
-resolutions:
-- identifier: Conference/2021/01
+decisions:
+- identifier:
+  - prefix: Conference
+    number: 2021/01
   doi: 10.63493/resolutions/conf202101
   urn: urn:oiml:doc:conf:resolution:16.01
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '2'
   localizations:
   - language_code: eng
@@ -34,15 +28,17 @@ resolutions:
         Metrology (OIML Conference).
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/02
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/02
   doi: 10.63493/resolutions/conf202102
   urn: urn:oiml:doc:conf:resolution:16.02
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '3'
   localizations:
   - language_code: eng
@@ -53,32 +49,34 @@ resolutions:
       message: 'Having regard to Article IX of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: elects
       message: 'Elects Dr Charles Ehrlich as President for the 16th OIML Conference,
         and
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: elects
       message: 'Elects Dr Roman Schwartz and Dr Bobjoseph Mathew as Vice-Presidents
         for the 16th OIML Conference.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/03
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/03
   doi: 10.63493/resolutions/conf202103
   urn: urn:oiml:doc:conf:resolution:16.03
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '4'
   localizations:
   - language_code: eng
@@ -91,23 +89,25 @@ resolutions:
         Committee of Legal Metrology (CIML Meeting), and
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: resolves
       message: 'Resolves that in-person and online participation in OIML Conferences
         is also considered to be equivalent.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/04
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/04
   doi: 10.63493/resolutions/conf202104
   urn: urn:oiml:doc:conf:resolution:16.04
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '5'
   localizations:
   - language_code: eng
@@ -119,15 +119,17 @@ resolutions:
       message: 'Approves the minutes of the 15th OIML Conference.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/05
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/05
   doi: 10.63493/resolutions/conf202105
   urn: urn:oiml:doc:conf:resolution:16.05
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '9'
   localizations:
   - language_code: eng
@@ -139,36 +141,36 @@ resolutions:
         OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Noting Resolutions 2017/06 of the 52nd CIML Meeting, 2018/05 of the
         53rd CIML Meeting, 2019/06 of the 54th CIML Meeting, 2020/08 of the 55th CIML
         Meeting, and CIML/2021/10 of the 56th CIML Meeting,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Noting that the budget was managed in conformity with the expenses
         necessary for carrying out the work of the Bureau and that the accuracy of
         the report has been certified by annual audits,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Noting that the respective functions assigned by the Convention to
         the President of the International Committee of Legal Metrology and to the
         Director of the International Bureau of Legal Metrology have been fulfilled,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: gives_discharge
       message: 'Gives its definitive discharge to the President of the Committee and
@@ -176,9 +178,9 @@ resolutions:
         years mentioned above.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Ordre du jour point 9
     subject: Conférence OIML
@@ -187,31 +189,33 @@ resolutions:
       message: |
         Vu l'article XXV, avant-dernier paragraphe, de la Convention OIML B 1:1968,
         Prenant acte des Résolutions 2017/06 de la 52ème Réunion du CIML, 2018/05 de la 53ème Réunion du CIML, 2019/06 de la 54ème Réunion du CIML, 2020/08 de la 55ème Réunion du CIML, et CIML/2021/10 de la 56ème Réunion du CIML,
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: |
         Notant que le budget a été géré en conformité avec les dépenses nécessaires à la réalisation des travaux du Bureau et que l'exactitude du rapport a été certifiée par des audits annuels,
         Constatant que les fonctions respective attribuées par la Convention au Président du Comité International de Métrologie Légale et au Directeur du Bureau International de Métrologie Légale ont été remplies,
         Donne sa décharge définitive au Président du Comité et au Directeur du Bureau pour leur gestion du budget pendant les années susmentionnées.
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: notes
       message: 'Ordre du jour point 9
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/06
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/06
   doi: 10.63493/resolutions/conf202106
   urn: urn:oiml:doc:conf:resolution:16.06
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '10.1'
   localizations:
   - language_code: eng
@@ -222,34 +226,34 @@ resolutions:
       message: 'Having regard to Article XXVI (1) of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: recalling
       message: 'Recalling the decision of the 12th OIML Conference in 2004, instructing
         the Committee to annually review the situation of those Member States that
         benefit from a lower contributory class,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: considering
       message: 'Considering the procedure for the classification of Member States
         as decided by the 40th CIML Meeting in 2005,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: endorses
       message: 'Endorses Resolution CIML/2021/13 of the 56th CIML Meeting.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Approuve la Résolution CIML/2021/13 de la 56ème Réunion du CIML.
     subject: Conférence OIML
@@ -258,40 +262,42 @@ resolutions:
       message: 'Vu l''article XXVI (1) de la Convention OIML B 1:1968,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: recalling
       message: 'Rappelant la décision de la 12ème Conférence de l''OIML en 2004, chargeant
         le Comité d''examiner annuellement la situation des États Membres qui bénéficient
         d''une classe de cotisation inférieure,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: considering
       message: 'Considérant la procédure de classification des États Membres telle
         que décidée par la 40ème Réunion du CIML en 2005,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la Résolution CIML/2021/13 de la 56ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/07
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/07
   doi: 10.63493/resolutions/conf202107
   urn: urn:oiml:doc:conf:resolution:16.07
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '10.1'
   localizations:
   - language_code: eng
@@ -305,9 +311,9 @@ resolutions:
         B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: endorses
       message: 'Endorses the principle described in Resolution CIML/2021/13 whereby
@@ -316,17 +322,17 @@ resolutions:
         Member State contribution for their applicable class in 2028, and
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: rescinds
       message: 'Rescinds Resolution 2008/15 of the 13th OIML Conference which set
         the annual Corresponding Member fee.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Approuve le principe décrit dans la Résolution CIML/2021/13 selon lequel
       les augmentations des cotis…
@@ -339,23 +345,25 @@ resolutions:
         XXVI (1) de la Convention OIML B 1:1968,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: approves
       message: |
         Approuve le principe décrit dans la Résolution CIML/2021/13 selon lequel les augmentations des cotisations annuelles des Membres Correspondants commenceront en 2024 et se poursuivront progressivement, dans le but d'atteindre 50 % de la cotisation annuelle d'un État Membre pour leur classe applicable en 2028, et
         Annule la Résolution 2008/15 de la 13ème Conférence de l'OIML qui fixait la cotisation annuelle des Membres Correspondants.
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/08
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/08
   doi: 10.63493/resolutions/conf202108
   urn: urn:oiml:doc:conf:resolution:16.08
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '10.2'
   localizations:
   - language_code: eng
@@ -367,36 +375,36 @@ resolutions:
         and Article XXVIII, second paragraph, of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Noting Resolution 2012/8 of the 14th OIML Conference, which states
         that changes in the classification of Member States takes place from the second
         year of the following financial period,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Noting the information contained in Resolution Conference/2021/06
         of the 16th OIML Conference, Noting Resolution CIML/2021/13 and CIML/2021/14
         of the 56th CIML Meeting,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: considering
       message: 'Considering that the total number of base contributory shares, taking
         into account the classification of Member States as reviewed in 2021, is 147
         for the year 2022 and 148 for the years 2023-2025,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: resolves
       message: |
@@ -427,9 +435,9 @@ resolutions:
         |===
         $ ^{*} $ BIML note 2022-05-25: Typographical error corrected from €2 800 to €2 880 to align with Conference Addendum 10.1.
         e) For the 2022-2025 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Ordre du jour point 10.2
     subject: Conférence OIML
@@ -439,25 +447,25 @@ resolutions:
         et l''article XXVIII, deuxième alinéa, de la Convention OIML B 1:1968,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Prenant note de la Résolution 2012/8 de la 14ème Conférence de l''OIML,
         qui stipule que les changements dans la classification des États Membres ont
         lieu à partir de la deuxième année de l''exercice financier suivant,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: |
         Prenant note des informations contenues dans la Résolution Conférence/2021/06 de la 16ème Conférence de l'OIML,
         Prenant acte des Résolutions CIML/2021/13 et CIML/2021/14 de la 56ème Réunion du CIML,
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: considering
       message: |
         Considérant que le nombre total de parts contributives de base, compte tenu du classement des États Membres tel que révisé en 2021, est de 147 pour l'année 2022 et de 148 pour les années 2023-2025,
@@ -491,23 +499,25 @@ resolutions:
         $ ^{*} $ Note du BIML au 2022-05-25 :
         Erreur typographique corrigée de €2 800 à €2 880 pour s'aligner sur l'Addendum 10.1 de la Conférence.
         e) Pour la période financière 2022-2025, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: notes
       message: 'Ordre du jour point 10.2
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/09
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/09
   doi: 10.63493/resolutions/conf202109
   urn: urn:oiml:doc:conf:resolution:16.09
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '10.3'
   localizations:
   - language_code: eng
@@ -518,17 +528,17 @@ resolutions:
       message: 'Recalling Resolution 2016/3 of the 15th OIML Conference,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: endorses
       message: 'Endorses Resolution CIML/2021/15 of the 56th CIML Meeting.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Approuve la Résolution CIML/2021/15 de la 56ème Réunion du CIML.
     subject: Conférence OIML
@@ -537,23 +547,25 @@ resolutions:
       message: 'Rappelant la Résolution 2016/3 de la 15ème Conférence de l''OIML,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la Résolution CIML/2021/15 de la 56ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/10
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/10
   doi: 10.63493/resolutions/conf202110
   urn: urn:oiml:doc:conf:resolution:16.10
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '12'
   localizations:
   - language_code: eng
@@ -565,18 +577,18 @@ resolutions:
         B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Noting the report on publications approved by the Committee since
         the 15th Conference in 2016 in Addendum 12 to the Working Document for the
         Conference,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves that the OIML publications listed in Addendum 12 to the Working
@@ -584,9 +596,9 @@ resolutions:
         of their obligation to implement OIML Recommendations as far as possible.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Décide que les publications de l'OIML énumérées dans l'Addendum 12 du Document
       de Travail
@@ -597,18 +609,18 @@ resolutions:
         OIML B 1:1968,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport sur les publications approuvées par le Comité
         depuis la 15ème Conférence en 2016 dans l''Addendum 12 au Document de Travail
         de la Conférence,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: decides
       message: 'Décide que les publications de l''OIML énumérées dans l''Addendum
@@ -617,15 +629,17 @@ resolutions:
         l''OIML autant que possible.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
-- identifier: Conference/2021/11
+      date_effective:
+        date: '2021-10-20'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2021/11
   doi: 10.63493/resolutions/conf202111
   urn: urn:oiml:doc:conf:resolution:16.11
   dates:
-  - start: '2021-10-20'
-    kind: decision
+  - date: '2021-10-20'
+    type: decided
   agenda_item: '14'
   localizations:
   - language_code: eng
@@ -636,35 +650,35 @@ resolutions:
       message: 'Having regard to Article X of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: considering
       message: 'Considering the standing practice to organise a Conference once every
         four years,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves to charge the Committee with organising the 17th OIML Conference
         in 2025, the venue and dates to be decided by the Committee, and
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: supports
       message: 'Supports the organisation of a joint OIML-BIPM event on the occasion
         of the 150th Anniversary of the Metre Convention and the 70th Anniversary
         of the OIML in 2025.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
   - language_code: fra
     title: Décide de charger le Comité d'organiser la 17ème Conférence OIML en 2025,
       le lieu
@@ -674,32 +688,32 @@ resolutions:
       message: 'Vu l''article X de la convention OIML B 1:1968,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: considering
       message: 'Considérant la pratique courante d''organiser une Conférence tous
         les quatre ans,
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     actions:
     - type: decides
       message: 'Décide de charger le Comité d''organiser la 17ème Conférence OIML
         en 2025, le lieu et les dates devant être décidés par le Comité, et
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective
     - type: endorses
       message: 'Soutient l''organisation d''un événement commun OIML-BIPM à l''occasion
         du 150ème Anniversaire de la Convention du Mètre et du 70ème Anniversaire
         de l''OIML en 2025.
 
         '
-      dates:
-      - start: '2021-10-20'
-        kind: effective
+      date_effective:
+        date: '2021-10-20'
+        type: effective

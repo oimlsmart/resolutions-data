@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 22nd CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '1987-09-02'
-    end: '1987-09-04'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Paris, France
   city: FRPAR
   country_code: FR
-  language: en
   title_localized:
   - language_code: eng
     title: 22nd CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-22
-resolutions:
-- identifier: CIML/1987/3
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1987/3
   doi: 10.63493/resolutions/ciml198703
   urn: urn:oiml:doc:ciml:resolution:1987-03
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Finance
@@ -36,15 +32,17 @@ resolutions:
       message: '3. 1. Approval of the Auditor''s Reports for 1985 and 1986
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/4
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/4
   doi: 10.63493/resolutions/ciml198704
   urn: urn:oiml:doc:ciml:resolution:1987-04
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: The Staff of the Bureau
@@ -56,15 +54,17 @@ resolutions:
         1988
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/5
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/5
   doi: 10.63493/resolutions/ciml198705
   urn: urn:oiml:doc:ciml:resolution:1987-05
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Work Planning
@@ -75,15 +75,17 @@ resolutions:
       message: '5. 1. Planning exercise for the period 1985 to 1988
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/7
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/7
   doi: 10.63493/resolutions/ciml198707
   urn: urn:oiml:doc:ciml:resolution:1987-07
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Certification
@@ -94,15 +96,17 @@ resolutions:
       message: '8. Preparations for the Eighth International Conference of Legal Metrology
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/9
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/9
   doi: 10.63493/resolutions/ciml198709
   urn: urn:oiml:doc:ciml:resolution:1987-09
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Developing Countries
@@ -113,15 +117,17 @@ resolutions:
       message: '10. Categories of OIML publications
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/1
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/1
   doi: 10.63493/resolutions/ciml198701
   urn: urn:oiml:doc:ciml:resolution:1987-01
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: APPROVAL OF THE MINUTES OF THE TWENTY-FIRST MEETING OF THE COMMITTEE
@@ -132,27 +138,31 @@ resolutions:
       message: 'The Minutes were approved with the following amendments :
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/2
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/2
   doi: 10.63493/resolutions/ciml198702
   urn: urn:oiml:doc:ciml:resolution:1987-02
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: MEMBER STATES AND CORRESPONDING MEMBERS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1987/2.1
+- identifier:
+  - prefix: CIML
+    number: 1987/2.1
   doi: 10.63493/resolutions/ciml19872.1
   urn: urn:oiml:doc:ciml:resolution:1987-2.1
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: New accessions ; expected accessions
@@ -164,15 +174,17 @@ resolutions:
         a Member State and of that of BARBADOS as a Corresponding Member.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/2.2
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/2.2
   doi: 10.63493/resolutions/ciml19872.2
   urn: urn:oiml:doc:ciml:resolution:1987-2.2
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: The situation of some Member States and Corresponding Members
@@ -184,27 +196,31 @@ resolutions:
         longer a Member State, because of her economic difficulties.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/3
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/3
   doi: 10.63493/resolutions/ciml198703
   urn: urn:oiml:doc:ciml:resolution:1987-03
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: FINANCE
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1987/3.1
+- identifier:
+  - prefix: CIML
+    number: 1987/3.1
   doi: 10.63493/resolutions/ciml19873.1
   urn: urn:oiml:doc:ciml:resolution:1987-3.1
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the Auditor's reports for 1985 and 1986
@@ -216,15 +232,17 @@ resolutions:
         and the Director of the Bureau to submit them to the Eighth Conference.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/3.2
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/3.2
   doi: 10.63493/resolutions/ciml19873.2
   urn: urn:oiml:doc:ciml:resolution:1987-3.2
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: The financial position in 1987 and 1988
@@ -241,15 +259,17 @@ resolutions:
         having paid their subscriptions for 1987 promptly.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/4
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/4
   doi: 10.63493/resolutions/ciml198704
   urn: urn:oiml:doc:ciml:resolution:1987-04
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: STAFF OF THE BUREAU
@@ -260,27 +280,31 @@ resolutions:
       message: 'The Committee :
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/5
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/5
   doi: 10.63493/resolutions/ciml198705
   urn: urn:oiml:doc:ciml:resolution:1987-05
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: WORK PLANNING
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1987/5.1
+- identifier:
+  - prefix: CIML
+    number: 1987/5.1
   doi: 10.63493/resolutions/ciml19875.1
   urn: urn:oiml:doc:ciml:resolution:1987-5.1
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Planning exercise for the period 1985 to 1988
@@ -300,15 +324,17 @@ resolutions:
         before the end of 1987.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/5.2
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/5.2
   doi: 10.63493/resolutions/ciml19875.2
   urn: urn:oiml:doc:ciml:resolution:1987-5.2
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Preparation of the plan for the period 1989 to 1992
@@ -329,27 +355,31 @@ resolutions:
         and comments put forward by some Committee Members.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/6
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/6
   doi: 10.63493/resolutions/ciml198706
   urn: urn:oiml:doc:ciml:resolution:1987-06
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: WORK OF THE SECRETARIATS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1987/6.1
+- identifier:
+  - prefix: CIML
+    number: 1987/6.1
   doi: 10.63493/resolutions/ciml19876.1
   urn: urn:oiml:doc:ciml:resolution:1987-6.1
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: State of progress of work
@@ -362,15 +392,17 @@ resolutions:
         to all participants. The paper aroused no comment.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/6.2
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/6.2
   doi: 10.63493/resolutions/ciml19876.2
   urn: urn:oiml:doc:ciml:resolution:1987-6.2
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Particular Secretariats (creation, abolition, assignment of responsibilities)
@@ -383,15 +415,17 @@ resolutions:
         decisions :
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/6.3
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/6.3
   doi: 10.63493/resolutions/ciml19876.3
   urn: urn:oiml:doc:ciml:resolution:1987-6.3
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Working method of OIML Secretariats
@@ -403,15 +437,17 @@ resolutions:
         Secretariats was now some years old and should therefore be well known and
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/7
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/7
   doi: 10.63493/resolutions/ciml198707
   urn: urn:oiml:doc:ciml:resolution:1987-07
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: CERTIFICATION
@@ -431,27 +467,31 @@ resolutions:
         to better rationalization of activity.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/8
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/8
   doi: 10.63493/resolutions/ciml198708
   urn: urn:oiml:doc:ciml:resolution:1987-08
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: PREPARATIONS FOR THE EIGHTH CONFERENCE
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1987/8.1
+- identifier:
+  - prefix: CIML
+    number: 1987/8.1
   doi: 10.63493/resolutions/ciml19878.1
   urn: urn:oiml:doc:ciml:resolution:1987-8.1
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Reports from the host country and from BIML on preparations for the Conference
@@ -466,27 +506,31 @@ resolutions:
         details.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/8.2
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/8.2
   doi: 10.63493/resolutions/ciml19878.2
   urn: urn:oiml:doc:ciml:resolution:1987-8.2
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference agenda
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1987/8.3
+- identifier:
+  - prefix: CIML
+    number: 1987/8.3
   doi: 10.63493/resolutions/ciml19878.3
   urn: urn:oiml:doc:ciml:resolution:1987-8.3
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: Preliminary budgetary proposals for the financial period 1989 to 1992
@@ -498,15 +542,17 @@ resolutions:
         which the Committee found generally acceptable.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/9
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/9
   doi: 10.63493/resolutions/ciml198709
   urn: urn:oiml:doc:ciml:resolution:1987-09
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: DEVELOPING COUNTRIES
@@ -518,15 +564,17 @@ resolutions:
         of the Committee which were of interest to developing countries:
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/10
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/10
   doi: 10.63493/resolutions/ciml198710
   urn: urn:oiml:doc:ciml:resolution:1987-10
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: CATEGORIES OF OIML PUBLICATIONS
@@ -547,15 +595,17 @@ resolutions:
         of existing Recommendations, reports, etc.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/11
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/11
   doi: 10.63493/resolutions/ciml198711
   urn: urn:oiml:doc:ciml:resolution:1987-11
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML SEMINARS
@@ -573,15 +623,17 @@ resolutions:
         of the proceedings had been published in the OIML Bulletin of September 1987.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/12
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/12
   doi: 10.63493/resolutions/ciml198712
   urn: urn:oiml:doc:ciml:resolution:1987-12
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: REPORT ON THE ACTIVITIES OF BIML
@@ -594,15 +646,17 @@ resolutions:
         meeting of the Committee in April 1986.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/13
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/13
   doi: 10.63493/resolutions/ciml198713
   urn: urn:oiml:doc:ciml:resolution:1987-13
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: LIAISON WITH OTHER INTERNATIONAL INSTITUTIONS
@@ -616,15 +670,17 @@ resolutions:
         at BIML.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
-- identifier: CIML/1987/14
+      date_effective:
+        date: '1987-09-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1987/14
   doi: 10.63493/resolutions/ciml198714
   urn: urn:oiml:doc:ciml:resolution:1987-14
   dates:
-  - start: '1987-09-02'
-    kind: decision
+  - date: '1987-09-02'
+    type: decided
   localizations:
   - language_code: eng
     title: TERMINOLOGY
@@ -636,66 +692,66 @@ resolutions:
         following modifications:
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the accessions of Portugal
         as Member Country and of Barbados as Corresponding Member, on the prospects
         of new accessions and on the situation of Venezuela.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: approves
       message: 'The Committee approved the auditor''s reports for 1985 and 1986 and
         instructed its President and the Director of the Bureau to submit them to
         the Eighth Conference.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the financial situation of
         the Organization for 1987 and of the estimates for 1988.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee :
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the planning exercise for
         the period 1985 to 1988.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the state of progress of the work of OIML
         Secretariats.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee noted the report of the Bureau and the information given
         by Members of the Committee on the application of Resolutions CIML 1986 —
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Bureau to develop, using a model already
         presented and taking into account comments made during the meeting, a draft
@@ -705,51 +761,51 @@ resolutions:
         for transmission to the Committee at its next meeting.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of reports submitted by the Committee Member
         for Australia and by the Bureau on preparations for the Eighth Conference.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of a draft agenda for the Eighth Conference.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of a draft budgetary proposal for 1989 to
         1992, and it suggested to the Bureau how some of the arguments developed in
         the draft might be improved.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the reports presented by the President
         of the Development Council and by the Bureau, expressed its appreciation of
         the actions
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the proposals relating to various categories
         of publications and instructed the Bureau to modify the « Working method of
         OIML Secretariats » accordingly.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on technical seminars and expressed
         its appreciation of this activity of the Bureau; it encouraged the Federal
@@ -759,35 +815,35 @@ resolutions:
         and verification, of special interest to developing countries, be organised.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report on the activities of the BIML
         during the period April 1986 - August 1987 and expressed its appreciation.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee noted reports on liaison between OIML and certain International
         Institutions and encouraged the Bureau and the working groups of OIML to continue
         their cooperative efforts.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee noted a report on the terminological work of OIML, expressed
         its agreement with the proposals submitted and instructed SP1 and the Bureau
         to report back on this subject at an appropriate time.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective
     - type: notes
       message: 'The Committee took note of the fact that Mr David E. EDGERLY was obliged
         by the application of Article XIII of the Convention to relinquish his responsibilities
@@ -795,6 +851,6 @@ resolutions:
         Committee of Legal Metrology.
 
         '
-      dates:
-      - start: '1987-09-02'
-        kind: effective
+      date_effective:
+        date: '1987-09-02'
+        type: effective

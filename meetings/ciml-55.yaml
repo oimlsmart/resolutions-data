@@ -1,28 +1,25 @@
 ---
-# Auto-updated by scripts/link_minutes_to_meetings.rb.
 identifier:
 - prefix: CIML
   number: '55'
 urn: urn:oiml:ciml:meeting:ciml-55
 type: plenary
 status: completed
-year: 2020
 ordinal: 55
 date_range:
   start: '2020-10-20'
   end: '2020-10-22'
 committee: International Committee of Legal Metrology (CIML)
 general_area: Online meeting
-virtual: true
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/55-ciml-resolutions-english.pdf
   format: pdf
   language_code: eng
-  kind: resolutions_pdf
+  kind: decisions_pdf
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/55-ciml-resolutions-french.pdf
   format: pdf
   language_code: fra
-  kind: resolutions_pdf
+  kind: decisions_pdf
 localizations:
 - language_code: eng
   script: Latn
@@ -34,9 +31,8 @@ localizations:
   general_area: Online meeting
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-55-resolutions
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-55-eng
   language_code: eng
   script: Latn
+visibility: public

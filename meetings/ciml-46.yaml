@@ -1,28 +1,25 @@
 ---
-# Auto-updated by scripts/link_minutes_to_meetings.rb.
 identifier:
 - prefix: CIML
   number: '46'
 urn: urn:oiml:ciml:meeting:ciml-46
 type: plenary
 status: completed
-year: 2011
 ordinal: 46
 date_range:
   start: '2011-10-11'
   end: '2011-10-14'
 committee: International Committee of Legal Metrology (CIML)
 general_area: Prague, Czech Republic
-virtual: false
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/46-ciml-resolutions-english.pdf
   format: pdf
   language_code: eng
-  kind: resolutions_pdf
+  kind: decisions_pdf
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/46-ciml-resolutions-french.pdf
   format: pdf
   language_code: fra
-  kind: resolutions_pdf
+  kind: decisions_pdf
 localizations:
 - language_code: eng
   script: Latn
@@ -34,11 +31,14 @@ localizations:
   general_area: Prague, Czech Republic
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-46-resolutions
 city: CZPRG
 country_code: CZ
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-46-fra
   language_code: fra
   script: Latn
+visibility: public
+venues:
+- kind: physical
+  unlocode: CZPRG
+  country_code: CZ

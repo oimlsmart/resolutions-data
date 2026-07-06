@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 31st CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1996-11-04'
-    end: '1996-11-08'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Vancouver, Canada
   city: CAVAN
   country_code: CA
-  language: fr
   title_localized:
   - language_code: fra
     title: 31st CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-31
-resolutions:
-- identifier: CIML/1996/5
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1996/5
   doi: 10.63493/resolutions/ciml199605
   urn: urn:oiml:doc:ciml:resolution:1996-05
   dates:
-  - start: '1996-11-04'
-    kind: decision
+  - date: '1996-11-04'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Situation générale
@@ -39,15 +35,17 @@ resolutions:
         années) il n''y a pas besoin de fournir beaucoup d''informations à ce sujet.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
-- identifier: CIML/1996/5
+      date_effective:
+        date: '1996-11-04'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1996/5
   doi: 10.63493/resolutions/ciml199605
   urn: urn:oiml:doc:ciml:resolution:1996-05
   dates:
-  - start: '1996-11-04'
-    kind: decision
+  - date: '1996-11-04'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Indexation des salaires sur l'inflation
@@ -65,15 +63,17 @@ resolutions:
         institutions internationales.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
-- identifier: CIML/1996/5
+      date_effective:
+        date: '1996-11-04'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1996/5
   doi: 10.63493/resolutions/ciml199605
   urn: urn:oiml:doc:ciml:resolution:1996-05
   dates:
-  - start: '1996-11-04'
-    kind: decision
+  - date: '1996-11-04'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Nomination d'un Adjoint au Directeur
@@ -86,72 +86,72 @@ resolutions:
         OIML.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité accepte un nouveau thème de travail pour le TC 9/SC 4 sur
         un schéma de hiérarchie pour les instruments de mesure de la masse volumique.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité accepte que, exceptionnellement, la responsabilité du TC
         8/SC 7 "Mesurage des gaz" soit attribuée à la Belgique et à la France.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé le compte rendu de sa 30ème réunion sans modification.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé le rapport comptable pour 1995 et a chargé son
         Président et le Directeur du Bureau de soumettre ce rapport à la Dixième Conférence.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a accepté les propositions de son Président relatives à
         l''organisation, à la présidence et à l''ordre du jour de la Dixième Conférence.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a décidé de l''application des Recommandations suivantes
         au Système de Certificats:
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''informations données par les Directeur du
         Bureau sur la situation générale du personnel du BIML et l''indexation des
         salaires sur le taux d''inflation.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a élu comme Adjoint au Directeur M. Attila Szilvassy, Hongrie.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note des décisions de la Dixième Conférence sur des
         sujets tels que les pays en développement, les liaisons avec d''autres institutions,
@@ -159,18 +159,18 @@ resolutions:
         le Directeur du Bureau de mener les actions nécessaires à leur mise en application.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note du rapport d''activité du BIML pour la période
         novembre 1995-octobre 1996 et a chargé le Bureau de publier ce rapport dans
         le Bulletin sous une forme appropriée.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''informations données par la délégation du
         Brésil et par le Directeur du BIML concernant les préparatifs de sa $32^{\mathrm{ème}}$
@@ -179,9 +179,9 @@ resolutions:
         de Développement OIML et d''un séminaire technique.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''informations données par la délégation Coréenne
         concernant les préparatifs de sa 33ème réunion qui se tiendra à Séoul durant
@@ -191,22 +191,22 @@ resolutions:
         de ILAC à Sydney.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a accepté un nouveau thème de travail pour le TC 9/SC 4
         sur un schéma de hiérarchie pour les instruments de mesure de la masse volumique.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective
     - type: notes
       message: 'Le Comité a accepté que la responsabilité du secrétariat du TC 8/SC
         7 soit attribuée conjointement à la Belgique et à la France.
 
         '
-      dates:
-      - start: '1996-11-04'
-        kind: effective
+      date_effective:
+        date: '1996-11-04'
+        type: effective

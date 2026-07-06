@@ -16,12 +16,12 @@ module ResolutionsData
     DIR  = File.join(ROOT, "resolutions")
 
     # Resolution-level (language-agnostic) required fields.
-    REQUIRED_RESOLUTION_FIELDS = %w[identifier dates].freeze
+    REQUIRED_RESOLUTION_FIELDS = %w[identifier].freeze
     # Each localization must carry at least a title.
     REQUIRED_LOCALIZATION_FIELDS = %w[language_code title].freeze
     # Metadata must carry either `title` (legacy single-language) or
     # `title_localized` (new merged-yaml form), plus dates/source.
-    REQUIRED_METADATA_FIELDS = %w[dates source venue].freeze
+    REQUIRED_METADATA_FIELDS = %w[source].freeze
 
     def self.run
       files = Dir.glob(File.join(DIR, "*.yaml")).sort
@@ -60,14 +60,14 @@ module ResolutionsData
           end
         end
 
-        ress = data["resolutions"]
-        unless ress.is_a?(Array)
-          warn "  RES FAIL   #{File.basename(f)}: resolutions is not an Array"
+        decisions = data["decisions"]
+        unless decisions.is_a?(Array)
+          warn "  RES FAIL   #{File.basename(f)}: decisions is not an Array"
           bad += 1
           next
         end
 
-        ress.each_with_index do |r, i|
+        decisions.each_with_index do |r, i|
           REQUIRED_RESOLUTION_FIELDS.each do |k|
             unless r.is_a?(Hash) && r.key?(k)
               warn "  RES FAIL   #{File.basename(f)}[#{i}]: missing #{k}"

@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2013-10-08'
-    end: '2013-10-10'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Ho Chi Minh City, Viet Nam
-  city: Ho Chi Minh City
   country_code: VN
-  language: en
   title_localized:
   - language_code: eng
     title: 48th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 48e réunion du CIML — Résolutions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-48
-resolutions:
-- identifier: CIML/2013/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2013/1
   doi: 10.63493/resolutions/ciml201301
   urn: urn:oiml:doc:ciml:resolution:2013-01
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '1'
   localizations:
   - language_code: eng
@@ -33,9 +28,9 @@ resolutions:
       message: 'Approves the minutes of the 47th CIML Meeting.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 1 de l'ordre du jour
     subject: CIML
@@ -45,15 +40,17 @@ resolutions:
       message: 'Approuve le compte rendu de la 47ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/2
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/2
   doi: 10.63493/resolutions/ciml201302
   urn: urn:oiml:doc:ciml:resolution:2013-02
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '2'
   localizations:
   - language_code: eng
@@ -65,9 +62,9 @@ resolutions:
       message: 'Notes the report given by its President.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 2 de l'ordre du jour
     subject: CIML
@@ -77,15 +74,17 @@ resolutions:
       message: 'Prend note du rapport fait par son Président.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/3
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/3
   doi: 10.63493/resolutions/ciml201303
   urn: urn:oiml:doc:ciml:resolution:2013-03
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '4.1'
   localizations:
   - language_code: eng
@@ -97,9 +96,9 @@ resolutions:
       message: 'Notes the report given by the BIML Director.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 4.1 de l'ordre du jour
     subject: CIML
@@ -109,15 +108,17 @@ resolutions:
       message: 'Prend note du rapport fait par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/4
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/4
   doi: 10.63493/resolutions/ciml201304
   urn: urn:oiml:doc:ciml:resolution:2013-04
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '4.3'
   localizations:
   - language_code: eng
@@ -129,9 +130,9 @@ resolutions:
       message: 'Approves the revision of OIML B 7 BIML Staff regulations.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 4.3 de l'ordre du jour
     subject: CIML
@@ -142,15 +143,17 @@ resolutions:
         du BIML.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/5
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/5
   doi: 10.63493/resolutions/ciml201305
   urn: urn:oiml:doc:ciml:resolution:2013-05
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Decides to renew the contract of Mr. Ian Dunmill, BIML Assistant Director,
@@ -163,9 +166,9 @@ resolutions:
         for a five-year term from 15 March 2014.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Décide de renouveler le contrat de M. Ian Dunmill, Adjoint au Directeur
       du BIML
@@ -177,15 +180,17 @@ resolutions:
         du BIML, pour une durée de cinq ans à compter du 15 mars 2014.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/6
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/6
   doi: 10.63493/resolutions/ciml201306
   urn: urn:oiml:doc:ciml:resolution:2013-06
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Welcomes Colombia as a new Member State and Zambia as a re-instated Member
@@ -198,17 +203,17 @@ resolutions:
         Member State;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: welcomes
       message: 'Welcomes Iraq, Uganda and Yemen as new Corresponding Members and Guinea,
         Korea (DPR) and Rwanda as re-instated Corresponding Members.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Accueille la Colombie comme nouvel État Membre et la Zambie comme État
       Membre réintégré
@@ -220,24 +225,26 @@ resolutions:
         État Membre réintégré ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: welcomes
       message: 'Accueille l''Iraq, l''Ouganda et le Yémen comme nouveaux Membres Correspondants
         et la Guinée, la République populaire démocratique de Corée et le Rwanda comme
         Membres Correspondants réintégrés.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/7
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/7
   doi: 10.63493/resolutions/ciml201307
   urn: urn:oiml:doc:ciml:resolution:2013-07
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the 2012 accounts; and
@@ -247,31 +254,31 @@ resolutions:
       message: 'Noting the accounts for 2012 and the BIML Director''s comments;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considering the external auditor''s approval of the 2012 accounts;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the 2012 accounts; and
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: instructs
       message: 'Instructs its President to present them to the 15th OIML Conference.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Approuve les comptes de l'année 2012 et
     subject: CIML
@@ -280,31 +287,33 @@ resolutions:
       message: |
         Prenant note des comptes de l'année 2012 et des commentaires du Directeur du BIML ;
         Compte tenu de l'approbation des comptes de l'année 2012 par l'auditeur externe ;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve les comptes de l''année 2012 et
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: charges
       message: 'Charge son Président de présenter lesdits comptes lors de la 15<sup>ème</sup>
         Conférence de l''OIML.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/8
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/8
   doi: 10.63493/resolutions/ciml201308
   urn: urn:oiml:doc:ciml:resolution:2013-08
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Requests those Members with arrears to bring their situation up to date
@@ -315,18 +324,18 @@ resolutions:
       message: |
         Noting the report given by the BIML Director;
         Encourages the BIML to continue its efforts to recover outstanding arrears of OIML Member States and Corresponding Members;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: requests
       message: 'Requests those Members with arrears to bring their situation up to
         date as soon as possible.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Demande aux dits Membres présentant des arriérés de régulariser leur situation
       dès que possible.
@@ -336,24 +345,26 @@ resolutions:
       message: |
         Prenant note du rapport fait par le Directeur du BIML ;
         Encourage le BIML à poursuivre ses efforts pour recouvrir les arriérés impayés des États Membres et des Membres Correspondants de I'OIML ;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: requests
       message: 'Demande aux dits Membres présentant des arriérés de régulariser leur
         situation dès que possible.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/9
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/9
   doi: 10.63493/resolutions/ciml201309
   urn: urn:oiml:doc:ciml:resolution:2013-09
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Welcomes the proposal from its Member from China to reinstate a leadership
@@ -365,50 +376,50 @@ resolutions:
         developing country matters;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: |
         Recalling its Resolution no. 7 of its 47th meeting (2012);
         Recognizing the importance of coordinating the various projects and initiatives promoted by the OIML, individual Member States and Corresponding Members, and other bodies with an interest in promoting the economic development of countries and economies with emerging metrology systems;
         Emphasizing the necessity to respond to the needs of countries and economies with emerging metrology systems in the design of the projects and initiatives promoted by the OIML;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: welcomes
       message: 'Welcomes the proposal from its Member from China to reinstate a leadership
         mechanism to provide guidance to the OIML on its activities in this area;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: decides
       message: |
         Decides to set up an advisory group for the time being, to carry out wide consultation, to seek additional suggestions and to build up links with other bodies which have a contribution to make;
         Invites Members who wish to participate in the proposed advisory group to contact the BIML in order to express their interest in being involved;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: requests
       message: 'Requests that the Regional Legal Metrology Organizations (RLMOs) at
         their Round Table Meeting on 11 October 2013 consider how existing initiatives
         can be coordinated with the work of such an advisory group;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: instructs
       message: 'Instructs the BIML to provide secretarial support, in conjunction
         with the staff which other Members allocate, for the proposed advisory group;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: requests
       message: 'Requests its Member from China to report to the 49th CIML Meeting
         on the activities of the advisory group and, if appropriate, to propose a
@@ -416,9 +427,9 @@ resolutions:
         of previous experiences of attempting such coordination.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Accueille favorablement la proposition du Membre du CIML pour la Chine
       de rétabir un
@@ -429,17 +440,17 @@ resolutions:
         liées aux pays en développement ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: |
         Rappelant la Résolution n° 7 de sa 47ème réunion (2012) ;
         Reconnaissant l'importance de coordonnner les divers projets et initiatives appuyés par l'OIML, les États Membres et les Membres Correspondants à titre individuel et d'autres organismes intéressés par la promotion du développement économique de pays et d'économies possédant des systèmes de métrologie récemment créés ;
         Soulignant la nécessité de répondre aux besoins de pays et d'économies possédant des systèmes de métrologie récemment créés en matière de conception des projets et initiatives appuyés par l'OIML ;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: welcomes
       message: 'Accueille favorablement la proposition du Membre du CIML pour la Chine
@@ -447,16 +458,16 @@ resolutions:
         sur ses activités dans ce domaine ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: decides
       message: |
         Décide de mettre en place, pour le moment, un groupe consultatif ayant pour tâche de mener une vaste consultation, de recueillir des suggestions supplémentaires et de développer des liens avec d'autres organismes ayant une contribution à apporter ;
         Invite les Membres qui souhaitent participer au groupe consultatif proposé de prendre contact avec le BIML pour lui faire part de leur intérêt à y être associé ;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: requests
       message: 'Demande que, à l''occasion de la Table ronde qu''elles tiendront le
         11 octobre 2013, les Organisations Régionales de Métrologie Légale (RLMO)
@@ -464,18 +475,18 @@ resolutions:
         les travaux de ce groupe consultatif ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: charges
       message: 'Charge le BIML de fournir, avec le concours du personnel affecté par
         d''autres Membres, le service de secrétariat nécessaire au groupe consultatif
         proposé ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: requests
       message: 'Demande au Membre du CIML pour la Chine de rendre compte des activités
         du groupe consultatif lors de la 49ème Réunion du CIML et, le cas échéant,
@@ -484,15 +495,17 @@ resolutions:
         cette coordination.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/10
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/10
   doi: 10.63493/resolutions/ciml201310
   urn: urn:oiml:doc:ciml:resolution:2013-10
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '9.1'
   localizations:
   - language_code: eng
@@ -504,17 +517,17 @@ resolutions:
         for OIML technical work;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: noting
       message: 'Noting the proposals from the ad hoc working group to further revise
         OIML B 6;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the revision of OIML B 6-1 Directives for OIML technical
@@ -522,32 +535,32 @@ resolutions:
         ad-hoc group under "Category A (editorial)";
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: thanks
       message: 'Thanks the ad-hoc working group for its work;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: resolves
       message: 'Resolves to disband the ad-hoc working group and to defer further
         work on B 6 until the CIML initiates a further round of discussion on it;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: instructs
       message: 'Instructs the BIML to keep on file the remaining suggestions to further
         amend B 6.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Approuve la révision de l'OIML B 6-1 Directives pour les travaux techniques
       de l'OIML
@@ -557,17 +570,17 @@ resolutions:
       message: |
         Prenant note du rapport du BIML concernant la mise en œuvre de I'OIML B 6-1:2012
         Directives pour les travaux techniques de I'OIML ;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: noting
       message: 'Prenant note des propositions du groupe de travail ad hoc de poursuivre
         la révision de l''OIML B 6 ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la révision de l''OIML B 6-1 Directives pour les travaux
@@ -576,39 +589,41 @@ resolutions:
         » ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: thanks
       message: 'Remercie le groupe de travail ad hoc pour ses travaux ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: decides
       message: 'Décide de dissoudre le groupe de travail ad hoc et de différer les
         travaux ultérieurs relatifs au B 6 jusqu''à ce que le CIML amorce un nouveau
         cycle de discussions à ce sujet ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: charges
       message: 'Charge le BIML de garder trace des suggestions restantes visant à
         apporter d''autres modifications au B 6.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/11
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/11
   doi: 10.63493/resolutions/ciml201311
   urn: urn:oiml:doc:ciml:resolution:2013-11
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: 9.3.1
   localizations:
   - language_code: eng
@@ -627,9 +642,9 @@ resolutions:
         - New OIML Recommendation Instruments for continuous measuring CO and $ \mathrm{N O_{x}} $ in stationary source emissions,
         - OIML D 11 General requirements for measuring instruments - Environmental conditions,
         - OIML B 14 Procedure for the election of the CIML President and Vice-Presidents.
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 9.3.1 de l'ordre du jour
     subject: CIML
@@ -646,15 +661,17 @@ resolutions:
         - Nouvelle Recommandation OIML Instruments pour le mesurage continu de CO et $ \mathrm{N O_{x}} $ dans les émissions de sources fixes,
         - OIML D 11 Exigences générales pour les instruments de mesure - Conditions environnementales,
         - OIML B 14 Procédure pour l'élection du Président et des Vice-Présidents du CIML.
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/12
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/12
   doi: 10.63493/resolutions/ciml201312
   urn: urn:oiml:doc:ciml:resolution:2013-12
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: 9.3.2
   localizations:
   - language_code: eng
@@ -668,9 +685,9 @@ resolutions:
         8:2004 Measurement standards. Choice, recognition, use, conservation and documentation.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 9.3.2 de l'ordre du jour
     subject: CIML
@@ -683,15 +700,17 @@ resolutions:
         utilisation, conservation et documentation.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/13
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/13
   doi: 10.63493/resolutions/ciml201313
   urn: urn:oiml:doc:ciml:resolution:2013-13
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: 9.3.3
   localizations:
   - language_code: eng
@@ -706,9 +725,9 @@ resolutions:
         expressed by some of its Members.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 9.3.3 de l'ordre du jour
     subject: CIML
@@ -722,15 +741,17 @@ resolutions:
         de ses Membres.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/14
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/14
   doi: 10.63493/resolutions/ciml201314
   urn: urn:oiml:doc:ciml:resolution:2013-14
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: 9.3.4
   localizations:
   - language_code: eng
@@ -745,9 +766,9 @@ resolutions:
         terms and definitions validated by the Project Group.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: "[Point 9.3.4 de l'ordre du jour]"
     subject: CIML
@@ -755,15 +776,17 @@ resolutions:
     actions:
     - type: notes
       message: "[Point 9.3.4 de l'ordre du jour]\n"
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/15
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/15
   doi: 10.63493/resolutions/ciml201315
   urn: urn:oiml:doc:ciml:resolution:2013-15
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '9.5'
   localizations:
   - language_code: eng
@@ -776,25 +799,25 @@ resolutions:
         (MAA);
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considering that there appears to be a high level of confidence in
         those areas where Declarations of Mutual Confidence (DoMCs) are in place;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: |
         Considering the conclusion of the seminar held on 7 October 2013 to review the operation of the MAA that there is a need to raise awareness of the MAA system among those not currently using it, in particular among potential Utilizing Participants;
         Urges its Members, the participants in the MAA and the BIML to actively promote the MAA among legal metrology authorities and measuring instrument manufacturers worldwide;
         Encourages its Members to draw to the attention of trade negotiators within their administrations the opportunities which OIML Recommendations and the MAA structures offer as means of reducing barriers to trade and the possibility they provide to enhance both bilateral and multilateral trade negotiations;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: instructs
       message: 'Instructs the BIML in its capacity as secretariat of the MAA Committees
@@ -804,17 +827,17 @@ resolutions:
         secretarial support to this working group;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: requests
       message: 'Requests its first Vice-President to chair this ad-hoc working group
         and to report on its activities to the 49th CIML Meeting.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
     subject: CIML
@@ -825,25 +848,25 @@ resolutions:
         d''Acceptation Mutuelle (MAA) de l''OIML ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considérant le niveau élevé de confiance qui semble exister dans les
         domaines où des Déclarations de Confiance mutuelle (DoMC) sont en place ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: |
         Considérant la conclusion du séminaire consacré à l'examen du fonctionnement du MAA qui s'est tenu le 7 octobre 2013 dans laquelle est énoncée la nécessité d'une sensibilisation accrue sur le système MAA auprès de ceux qui, actuellement, ne l'utilisent pas, en particulier les Participants Utilisateurs potentiels ;
         Encourage vivement ses Membres, les participants au MAA et le BIML à promouvoir activement le MAA auprès des autorités de métrologie légale et des fabricants d'instruments de mesurage dans le monde entier ;
         Encourage ses Membres à attirer l'attention des négociateurs commerciaux au sein de leurs administrations sur les perspectives qu'offrent les Recommandations OIML et les structures MAA de réduire les obstacles au commerce et la possibilité qu'elles procurent de favoriser les négociations commerciales aussi bilatérales que multilatérales ;
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: charges
       message: 'Charge le BIML en sa qualité de secrétariat des Comités sur la revue
@@ -854,24 +877,26 @@ resolutions:
         de travail ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: requests
       message: 'Demande à son premier Vice-Président d''assurer la présidence de ce
         groupe de travail ad hoc et de rendre compte de ses activités lors de la 49ème
         Réunion du CIML.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/16
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/16
   doi: 10.63493/resolutions/ciml201316
   urn: urn:oiml:doc:ciml:resolution:2013-16
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: "[Agenda item 9.5]"
@@ -881,9 +906,9 @@ resolutions:
       message: 'Recalling its Resolution no. 2013/15;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considering that the MAA''s Committees on Participation Review (CPR)
         decide on their own rules and procedures within the framework set by OIML
@@ -891,22 +916,22 @@ resolutions:
         evaluations and that TC 3/SC 5 is responsible for that Basic Publication;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: |
         Considering the conclusion of the MAA seminar that there is a need to review the structure and the operation of the CPRs;
         Urges the ad hoc group created by its Resolution no. 2013/15 to review with the CPRs their structure, rules and procedures governing the operation of the MAA, and the role of Utilizing Participants, with a view to increasing the efficiency of the operation of the MAA, and, if necessary, to amending their internal (MAA) documents accordingly and to suggesting to TC 3/SC 5 appropriate amendments to OIML Publication B 10.
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: notes
       message: "[Agenda item 9.5]\n"
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
     subject: CIML
@@ -915,9 +940,9 @@ resolutions:
       message: 'Rappelant sa Résolution n° 2013/15 ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considérant que les Comités sur la revue de participation (CPR) du
         MAA fixent eux-mêmes leurs règles et procédures dans le cadre défini dans
@@ -926,30 +951,32 @@ resolutions:
         de cette Publication de Base ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: |
         Considérant la conclusion du séminaire sur le MAA dans laquelle est énoncée la nécessité d'un examen de la structure et du fonctionnement des CPR ;
         Invite instamment le groupe ad hoc créé en application de sa Résolution n° 2013/15 à examiner la structure des CPR, les règles et les procédures qui régissent le fonctionnement du MAA et le rôle des Participants Utilisateurs, dans le but d'améliorer l'efficacité de fonctionnement du MAA et, si nécessaire, de modifier en conséquence leurs documents internes (MAA) documents et de soumettre des suggestions au TC 3/SC 5 en vue d'apporter des modifications pertinentes à la Publication OIML B 10.
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: notes
       message: 'Rappelant sa Résolution n° 2013/15 ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/17
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/17
   doi: 10.63493/resolutions/ciml201317
   urn: urn:oiml:doc:ciml:resolution:2013-17
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Resolves that steps should be taken to ensure that, in future, there will
@@ -961,18 +988,18 @@ resolutions:
         meeting (2004) under agenda item 6.3;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: 'Recalling Resolution no. MAA 2006-2 of its 41st meeting (2006) concerning
         a transition period ending 31 December 2008 in which both MAA certificates
         and Basic certificates may be issued;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: 'Recalling Resolution no. 20 of its 43rd meeting (2008), extending
         the transition period until such time that the Committee takes an express
@@ -980,16 +1007,16 @@ resolutions:
         maintaining the Basic Certificate System in parallel to the MAA;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: 'Recalling its Resolution no. 2013/15;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considering that for almost nine years now there exist de facto two
         OIML conformity assessment systems for OIML type evaluations: the OIML Basic
@@ -997,17 +1024,17 @@ resolutions:
         Basic Certificate System;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: resolves
       message: |
         Resolves that steps should be taken to ensure that, in future, there will be only one single certification system for OIML type evaluations, based on the principles of the MAA, and that, as a first step, the options for how such a single system may be organized, how the transition could take place and by what time schedule, should be investigated, taking into account the experiences of similar, well established certification systems;
         Urges the ad hoc group created in its Resolution no. 2013/15 to investigate such options and to make appropriate recommendations.
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
     subject: CIML
@@ -1017,9 +1044,9 @@ resolutions:
         MAA lors de sa 39ème Réunion (2004) au point 6.3 de l''ordre du jour ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: 'Rappelant la Résolution MAA 2006-2 adoptée lors de sa $41^{\mathrm{eme}}$
         Réunion (2006) concernant la fin, fixée au 31 décembre 2008, de la période
@@ -1027,9 +1054,9 @@ resolutions:
         dits « de Base » est encore autorisée ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: 'Rappelant la Résolution n° 20 de sa $ 43^{\mathrm{eme}} $ Réunion
         (2008), prolongeant la période de transition jusqu''à ce que le Comité décide
@@ -1038,16 +1065,16 @@ resolutions:
         en parallèle ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: recalling
       message: 'Rappelant sa Résolution n° 2013/15 ;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     - type: considering
       message: 'Considérant que, depuis maintenant près de neuf ans, existent de facto
         deux systèmes OIML d''évaluation de la conformité pour des évaluations de
@@ -1056,23 +1083,25 @@ resolutions:
         dits « de Base »;
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
     actions:
     - type: decides
       message: |
         Décide que des dispositions doivent être prises pour que n'existe plus à l'avenir qu'un seul et unique système de certification pour les évaluations de type de l'OIML reposant sur les principes du MAA et pour que soient, dans un premier temps, explorées les différentes options pouvant exister concernant la manière d'organiser ce système unique, la façon dont la transition se déroulerait et le calendrier correspondant, en tenant compte de l'expérience de systèmes de certification similaires et bien établis ;
         Invite instamment le groupe ad hoc créé en application de sa Résolution n° 2013/15 à explorer ces options et à formuler des recommandations pertinentes.
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/18
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/18
   doi: 10.63493/resolutions/ciml201318
   urn: urn:oiml:doc:ciml:resolution:2013-18
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '10'
   localizations:
   - language_code: eng
@@ -1085,9 +1114,9 @@ resolutions:
         for a six-year term.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 10 de l'ordre du jour
     subject: CIML
@@ -1098,15 +1127,17 @@ resolutions:
         Vice-Président pour un mandat de six ans.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/19
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/19
   doi: 10.63493/resolutions/ciml201319
   urn: urn:oiml:doc:ciml:resolution:2013-19
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the revision of OIML R 100 Atomic absorption spectrometer systems
@@ -1119,9 +1150,9 @@ resolutions:
         systems for measuring metal pollutants.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 11 de l'ordre du jour
     subject: CIML
@@ -1132,15 +1163,17 @@ resolutions:
         atomique pour la mesure des polluants métalliques.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
-- identifier: CIML/2013/20
+      date_effective:
+        date: '2013-10-08'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2013/20
   doi: 10.63493/resolutions/ciml201320
   urn: urn:oiml:doc:ciml:resolution:2013-20
   dates:
-  - start: '2013-10-08'
-    kind: decision
+  - date: '2013-10-08'
+    type: decided
   agenda_item: '12'
   localizations:
   - language_code: eng
@@ -1150,9 +1183,9 @@ resolutions:
     actions:
     - type: notes
       message: "[Agenda item 12]\n"
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective
   - language_code: fra
     title: Point 12 de l'ordre du jour
     subject: Conférence OIML
@@ -1165,6 +1198,6 @@ resolutions:
         les lieux de la 49ème Réunion.
 
         '
-      dates:
-      - start: '2013-10-08'
-        kind: effective
+      date_effective:
+        date: '2013-10-08'
+        type: effective

@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 35th CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '2000-10-09'
-    end: '2000-10-13'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: London, United Kingdom
   city: GBLON
   country_code: GB
-  language: en
   title_localized:
   - language_code: eng
     title: 35th CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-35
-resolutions:
-- identifier: CIML/2000/0
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2000/0
   doi: 10.63493/resolutions/ciml200000
   urn: urn:oiml:doc:ciml:resolution:2000-00
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Appointment of an Honorary Member of the Committee
@@ -37,15 +33,17 @@ resolutions:
         First Vice President and US Member as Honorary Member.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/1
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/1
   doi: 10.63493/resolutions/ciml200001
   urn: urn:oiml:doc:ciml:resolution:2000-01
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the minutes of the 34th CIML Meeting
@@ -57,15 +55,17 @@ resolutions:
         without modification.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/2
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/2
   doi: 10.63493/resolutions/ciml200002
   urn: urn:oiml:doc:ciml:resolution:2000-02
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
@@ -80,15 +80,17 @@ resolutions:
         the previous situation and expressed no comment concerning this list.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/3
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/3
   doi: 10.63493/resolutions/ciml200003
   urn: urn:oiml:doc:ciml:resolution:2000-03
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
@@ -100,15 +102,17 @@ resolutions:
         its President and the BIML Director to submit it to the Eleventh Conference.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/4
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/4
   doi: 10.63493/resolutions/ciml200004
   urn: urn:oiml:doc:ciml:resolution:2000-04
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Presidential Council activities
@@ -120,15 +124,17 @@ resolutions:
         the activities of the Presidential Council since the last CIML Meeting.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/5
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/5
   doi: 10.63493/resolutions/ciml200005
   urn: urn:oiml:doc:ciml:resolution:2000-05
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML activities
@@ -140,15 +146,17 @@ resolutions:
         Bureau since the last CIML Meeting.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/6
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/6
   doi: 10.63493/resolutions/ciml200006
   urn: urn:oiml:doc:ciml:resolution:2000-06
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -168,15 +176,17 @@ resolutions:
         to the development of a test report format for R 125.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/7
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/7
   doi: 10.63493/resolutions/ciml200007
   urn: urn:oiml:doc:ciml:resolution:2000-07
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Eleventh International Conference of Legal Metrology
@@ -191,15 +201,17 @@ resolutions:
         Africa) and Dr. Pákay (Hungary) as Conference Vice Presidents.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/8
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/8
   doi: 10.63493/resolutions/ciml200008
   urn: urn:oiml:doc:ciml:resolution:2000-08
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: CIML Presidency
@@ -211,23 +223,25 @@ resolutions:
         President for the next three years.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
+      date_effective:
+        date: '2000-10-09'
+        type: effective
     - type: notes
       message: 'The Committee elected Dr. Issaev (Russian Federation) as its Second
         Vice President for the next six years.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/9
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/9
   doi: 10.63493/resolutions/ciml200009
   urn: urn:oiml:doc:ciml:resolution:2000-09
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Director of the BIML
@@ -239,15 +253,17 @@ resolutions:
         of the BIML.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/10
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/10
   doi: 10.63493/resolutions/ciml200010
   urn: urn:oiml:doc:ciml:resolution:2000-10
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Eleventh International Conference of Legal Metrology
@@ -260,27 +276,31 @@ resolutions:
         their implementation and to report about this at the next CIML Meeting.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/11
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/11
   doi: 10.63493/resolutions/ciml200011
   urn: urn:oiml:doc:ciml:resolution:2000-11
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Future meetings
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2000/11.1
+- identifier:
+  - prefix: CIML
+    number: 2000/11.1
   doi: 10.63493/resolutions/ciml200011.1
   urn: urn:oiml:doc:ciml:resolution:2000-11.1
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: 36th CIML Meeting (2001)
@@ -292,15 +312,17 @@ resolutions:
         Moscow, Russian Federation, between 22 and 27 September 2001.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/11.2
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/11.2
   doi: 10.63493/resolutions/ciml200011.2
   urn: urn:oiml:doc:ciml:resolution:2000-11.2
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: 37th CIML Meeting (2002)
@@ -313,15 +335,17 @@ resolutions:
         this decision to be finalized during the $ 36^{\mathrm{th}} $ Meeting in 2001.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
-- identifier: CIML/2000/12
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2000/12
   doi: 10.63493/resolutions/ciml200012
   urn: urn:oiml:doc:ciml:resolution:2000-12
   dates:
-  - start: '2000-10-09'
-    kind: decision
+  - date: '2000-10-09'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of decisions
@@ -332,6 +356,6 @@ resolutions:
       message: 'The above-mentioned decisions were adopted.
 
         '
-      dates:
-      - start: '2000-10-09'
-        kind: effective
+      date_effective:
+        date: '2000-10-09'
+        type: effective

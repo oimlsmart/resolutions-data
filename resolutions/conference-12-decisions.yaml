@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2004-10-26'
-    end: '2004-10-29'
-    kind: meeting
   source: OIML Conference Secretariat (BIML)
-  venue: Berlin, Germany
-  city: Berlin
   country_code: DE
-  language: en
   title_localized:
   - language_code: eng
     title: 12th OIML Conference — Joint CIML-39 + DC Decisions (EN)
   - language_code: fra
     title: 12e Conférence OIML — Décisions (FR)
   meeting_urn: urn:oiml:conference:meeting:conference-12
-resolutions:
-- identifier: Conference/2004/1
+decisions:
+- identifier:
+  - prefix: Conference
+    number: 2004/1
   doi: 10.63493/resolutions/conf200401
   urn: urn:oiml:doc:conf:resolution:12.01
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Organization of the Meeting
@@ -40,15 +35,17 @@ resolutions:
         Intérimaire du CIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/1.1
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/1.1
   doi: 10.63493/resolutions/conf20041.1
   urn: urn:oiml:doc:conf:resolution:12.1.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference took note of opening and welcome addresses delivered by
@@ -60,15 +57,17 @@ resolutions:
       message: |
         Federal Ministry of Economics and Labour, Dr. Röhling, Pr. Göbel, President of the PTB, and Pr. Kochsiek,
               CIML Acting President.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/1.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/1.2
   doi: 10.63493/resolutions/conf20041.2
   urn: urn:oiml:doc:conf:resolution:12.1.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The roll of Delegates was called and it was found that 54 Member States
@@ -80,15 +79,17 @@ resolutions:
       message: 'statutory quorum of two-thirds was therefore reached.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/1.3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/1.3
   doi: 10.63493/resolutions/conf20041.3
   urn: urn:oiml:doc:conf:resolution:12.1.3
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Information concerning voting procedures during Conference sessions was
@@ -96,12 +97,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/1.4
+- identifier:
+  - prefix: Conference
+    number: 2004/1.4
   doi: 10.63493/resolutions/conf20041.4
   urn: urn:oiml:doc:conf:resolution:12.1.4
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference unanimously elected Dr. Röhling as Conference President
@@ -114,27 +117,31 @@ resolutions:
         as Conference Vice-Presidents.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/1.5
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/1.5
   doi: 10.63493/resolutions/conf20041.5
   urn: urn:oiml:doc:conf:resolution:12.1.5
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference adopted the proposed agenda without modification.
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/1.6
+- identifier:
+  - prefix: Conference
+    number: 2004/1.6
   doi: 10.63493/resolutions/conf20041.6
   urn: urn:oiml:doc:conf:resolution:12.1.6
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference established two Working Commissions, one for Financial Matters
@@ -146,27 +153,31 @@ resolutions:
       message: 'Work.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/1.7
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/1.7
   doi: 10.63493/resolutions/conf20041.7
   urn: urn:oiml:doc:conf:resolution:12.1.7
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference adopted the proposed schedule.
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/1.8
+- identifier:
+  - prefix: Conference
+    number: 2004/1.8
   doi: 10.63493/resolutions/conf20041.8
   urn: urn:oiml:doc:conf:resolution:12.1.8
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference approved the Minutes of the Eleventh Conference without
@@ -174,12 +185,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/1.9
+- identifier:
+  - prefix: Conference
+    number: 2004/1.9
   doi: 10.63493/resolutions/conf20041.9
   urn: urn:oiml:doc:conf:resolution:12.1.9
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference took note of a report presented by the President of the
@@ -192,15 +205,17 @@ resolutions:
         2001–2004.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/2
   doi: 10.63493/resolutions/conf200402
   urn: urn:oiml:doc:conf:resolution:12.02
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
@@ -212,12 +227,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/2.1
+- identifier:
+  - prefix: Conference
+    number: 2004/2.1
   doi: 10.63493/resolutions/conf20042.1
   urn: urn:oiml:doc:conf:resolution:12.2.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: New Members - Expected accessions
@@ -231,9 +248,9 @@ resolutions:
               subscriptions for over three years. The Conference noted that certain Corresponding Members were
               envisaging joining as Member States and that a number of countries/economies were expected to join as
               Corresponding Members.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Nouveaux Membres - Perspectives d'adhésions
     subject: CIML
@@ -249,15 +266,17 @@ resolutions:
         Correspondants.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/2.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/2.2
   doi: 10.63493/resolutions/conf20042.2
   urn: urn:oiml:doc:conf:resolution:12.2.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The situation of certain Members
@@ -270,9 +289,9 @@ resolutions:
               the requirements laid down by the Eleventh Conference.
               It was also noted that the situation of two Member States would first be examined by the Finance
               Commission, which would then report to the Conference under Item 8.2.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Situation de certains Membres
     subject: CIML
@@ -284,15 +303,17 @@ resolutions:
         Conférence.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/3
   doi: 10.63493/resolutions/conf200403
   urn: urn:oiml:doc:conf:resolution:12.03
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Long-term policy
@@ -304,12 +325,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/3.1
+- identifier:
+  - prefix: Conference
+    number: 2004/3.1
   doi: 10.63493/resolutions/conf20043.1
   urn: urn:oiml:doc:conf:resolution:12.3.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on actions carried out since the Eleventh Conference
@@ -320,9 +343,9 @@ resolutions:
       message: 'The Conference took note of a report presented by the BIML Director.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Rapport sur les actions réalisées depuis la Onzième Conférence
     subject: CIML
@@ -333,15 +356,17 @@ resolutions:
         du BIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/3.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/3.2
   doi: 10.63493/resolutions/conf20043.2
   urn: urn:oiml:doc:conf:resolution:12.3.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Guidelines for the period 2005–2008
@@ -355,9 +380,9 @@ resolutions:
               given in the report on activities delivered by the CIML Acting President. The Conference also noted that the
               Long-Term Policy and the Action Plan shall be revised under the supervision of the newly elected CIML
               President, and requested the CIML to monitor its implementation.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Lignes directrices pour la période 2005-2008
     subject: CIML
@@ -373,15 +398,17 @@ resolutions:
         nouvellement élu, et a demandé au CIML de veiller à sa mise en application.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/4
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/4
   doi: 10.63493/resolutions/conf200404
   urn: urn:oiml:doc:conf:resolution:12.04
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons with international and regional institutions
@@ -393,12 +420,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/4.1
+- identifier:
+  - prefix: Conference
+    number: 2004/4.1
   doi: 10.63493/resolutions/conf20044.1
   urn: urn:oiml:doc:conf:resolution:12.4.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on liaisons
@@ -409,9 +438,9 @@ resolutions:
       message: 'The Conference took note of a report presented by the BIML Director.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Rapport sur les liaisons
     subject: CIML
@@ -422,15 +451,17 @@ resolutions:
         du BIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/4.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/4.2
   doi: 10.63493/resolutions/conf20044.2
   urn: urn:oiml:doc:conf:resolution:12.4.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Addresses by Representatives of Institutions
@@ -449,9 +480,9 @@ resolutions:
               - SADCMEL, Mr. Carstens
               - CCE, DG Enterprise, Mrs. Höke
               - CECIP, Mr. Anthony.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Discours des Représentants des Institutions
     subject: CIML
@@ -462,15 +493,17 @@ resolutions:
         représentants de:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/4.3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/4.3
   doi: 10.63493/resolutions/conf20044.3
   urn: urn:oiml:doc:conf:resolution:12.4.3
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: The Conference took note of a report presented by the BIML Director concerning
@@ -484,15 +517,17 @@ resolutions:
               number of matters should be considered in order to globally improve OIML activities in fields connected
               with, for example, market surveillance, increased use of the work of other international or regional bodies,
               etc.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/5
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/5
   doi: 10.63493/resolutions/conf200405
   urn: urn:oiml:doc:conf:resolution:12.05
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Work of OIML Technical Committees and Subcommittees
@@ -504,12 +539,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/5.1
+- identifier:
+  - prefix: Conference
+    number: 2004/5.1
   doi: 10.63493/resolutions/conf20045.1
   urn: urn:oiml:doc:conf:resolution:12.5.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Work undertaken - State of progress
@@ -521,9 +558,9 @@ resolutions:
         The Conference took note of a report concerning the activities of OIML Technical Committees and
               Subcommittees and requested the CIML to continue to monitor the situation and to find solutions in order
               to ensure a better distribution of technical responsibilities amongst OIML Member States.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Travaux entrepris - État d'avancement
     subject: CIML
@@ -537,15 +574,17 @@ resolutions:
         de l''OIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/5.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/5.2
   doi: 10.63493/resolutions/conf20045.2
   urn: urn:oiml:doc:conf:resolution:12.5.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Implementation of Recommendations by OIML Members
@@ -560,9 +599,9 @@ resolutions:
               Member States that had not yet replied to the BIML inquiry were requested to do so urgently. The Conference
               encouraged the Bureau to convert this information and inquiries into a permanent interactive facility on the
               OIML web site.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Mise en application des Recommandations par les Membres de l'OIML
     subject: CIML
@@ -575,15 +614,17 @@ resolutions:
         faible taux de réponses, aucun rapport complet ne pouvait être donné.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/5.3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/5.3
   doi: 10.63493/resolutions/conf20045.3
   urn: urn:oiml:doc:conf:resolution:12.5.3
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Formal sanction of Recommendations already approved by the Committee in
@@ -598,9 +639,9 @@ resolutions:
               International Documents, without having to be sanctioned by the Conference.
               The Conference sanctioned those new or revised Recommendations already approved by the Committee in
               2001, 2002, 2003 and 2004.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Sanction officielle des Recommandations déjà approuvées par le Comité en
       2001, 2002, 2003 et 2004
@@ -615,15 +656,17 @@ resolutions:
         par la Conférence.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/5.4
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/5.4
   doi: 10.63493/resolutions/conf20045.4
   urn: urn:oiml:doc:conf:resolution:12.5.4
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Draft Recommendations directly presented for sanctioning by the Conference
@@ -634,9 +677,9 @@ resolutions:
       message: |
         The Conference sanctioned one new Recommendation Instruments for measuring the area of leathers (R 136).
               The Conference also decided to withdraw OIML Recommendations R 33 and R 62.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Projets de Recommandations présentés directement pour sanction par la Conférence
     subject: CIML
@@ -647,15 +690,17 @@ resolutions:
         de mesure de la surface des cuirs (R 136).
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/6
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/6
   doi: 10.63493/resolutions/conf200406
   urn: urn:oiml:doc:conf:resolution:12.06
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Certificate System for Measuring Instruments
@@ -667,12 +712,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/6.1
+- identifier:
+  - prefix: Conference
+    number: 2004/6.1
   doi: 10.63493/resolutions/conf20046.1
   urn: urn:oiml:doc:conf:resolution:12.6.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on the situation of the System
@@ -684,9 +731,9 @@ resolutions:
         The Conference took note of a report describing progress made with this activity since the establishment of
               the System in general and since the 11th Conference in particular, including the results of recent inquiries
               carried out among OIML Members and manufacturers.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Rapport sur la situation du Système
     subject: CIML
@@ -700,15 +747,17 @@ resolutions:
         de mesure.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/6.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/6.2
   doi: 10.63493/resolutions/conf20046.2
   urn: urn:oiml:doc:conf:resolution:12.6.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Mutual Acceptance Arrangement (MAA)
@@ -722,9 +771,9 @@ resolutions:
               The Conference took note of proposals concerning the operation of the MAA and of the Certificate System.
               The Conference instructed the Committee to take appropriate decisions on these proposals and to begin a
               revision of this document once experience has been gained following its implementation.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Arrangement d'Acceptation Mutuelle (MAA)
     subject: CIML
@@ -736,15 +785,17 @@ resolutions:
         entrerait en application en 2005.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/6.3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/6.3
   doi: 10.63493/resolutions/conf20046.3
   urn: urn:oiml:doc:conf:resolution:12.6.3
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Other developments
@@ -758,9 +809,9 @@ resolutions:
               System.
               The Conference confirmed the urgency of addressing the problem of conformity to type of measuring
               instruments.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Autres développements
     subject: CIML
@@ -773,15 +824,17 @@ resolutions:
         recommandés du Système.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/7
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/7
   doi: 10.63493/resolutions/conf200407
   urn: urn:oiml:doc:conf:resolution:12.07
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Developing Countries
@@ -793,12 +846,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/7.1
+- identifier:
+  - prefix: Conference
+    number: 2004/7.1
   doi: 10.63493/resolutions/conf20047.1
   urn: urn:oiml:doc:conf:resolution:12.7.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on activities for the period 2001–2004
@@ -811,9 +866,9 @@ resolutions:
               expressed its appreciation to the Chairperson for the work accomplished.
               The Conference noted in particular the report concerning the Forum: Metrology – Trade Facilitator held on 25
               October 2004 and expressed its appreciation to the German Authorities for having organized this event.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Rapport sur les activités de la période 2001-2004
     subject: CIML
@@ -825,15 +880,17 @@ resolutions:
         pour le travail accompli.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/7.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/7.2
   doi: 10.63493/resolutions/conf20047.2
   urn: urn:oiml:doc:conf:resolution:12.7.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Guidelines for future activity
@@ -851,9 +908,9 @@ resolutions:
               advisory body to the President of the Committee on aspects of the OIML’s work relating to Developing
               Countries.
               The Conference also decided to cease the activities of the current Development Council.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Directives pour l'activité à venir
     subject: CIML
@@ -868,15 +925,17 @@ resolutions:
         (PWGDC), créé pour remplacer le Conseil de Développement.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/8
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/8
   doi: 10.63493/resolutions/conf200408
   urn: urn:oiml:doc:conf:resolution:12.08
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Administrative and financial matters
@@ -888,12 +947,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/8.1
+- identifier:
+  - prefix: Conference
+    number: 2004/8.1
   doi: 10.63493/resolutions/conf20048.1
   urn: urn:oiml:doc:conf:resolution:12.8.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the management of the budget from 2000 to 2003 and the estimates
@@ -912,9 +973,9 @@ resolutions:
               fulfilled;
               GIVES ITS DEFINITIVE DISCHARGE to the President of the Committee and to the Director of the Bureau
               for their management of the budget during the years mentioned above.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Examen de la gestion du budget de 2000 à 2003 et estimations pour 2004
     subject: CIML
@@ -924,15 +985,17 @@ resolutions:
       message: 'La Conférence Internationale de Métrologie Légale,
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/8.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/8.2
   doi: 10.63493/resolutions/conf20048.2
   urn: urn:oiml:doc:conf:resolution:12.8.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Decisions related to the debts of certain countries
@@ -950,9 +1013,9 @@ resolutions:
               HAVING NOTED a report by the Director of the Bureau on the situation of certain Member States in arrears
               with their contributions,
               MAKES the following decisions:
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Décisions relatives aux dettes de certains pays
     subject: CIML
@@ -962,15 +1025,17 @@ resolutions:
       message: 'La Conférence a adopté la Résolution suivante:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/8.3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/8.3
   doi: 10.63493/resolutions/conf20048.3
   urn: urn:oiml:doc:conf:resolution:12.8.3
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Revision of the OIML Financial Regulations
@@ -982,9 +1047,9 @@ resolutions:
         established by the Committee.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Révision du Règlement Financier de l'OIML
     subject: CIML
@@ -995,15 +1060,17 @@ resolutions:
         tel qu''établi par le Comité.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/8.4
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/8.4
   doi: 10.63493/resolutions/conf20048.4
   urn: urn:oiml:doc:conf:resolution:12.8.4
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Bureau staff and Retirement scheme
@@ -1020,9 +1087,9 @@ resolutions:
               commitments must be recorded in the Organization’s accounts.
               The Conference instructed the CIML to undertake these studies and to report and make proposals to the
               Thirteenth Conference.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Personnel du Bureau et plan de Retraite
     subject: CIML
@@ -1033,15 +1100,17 @@ resolutions:
         BIML sur cette question.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/8.5
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/8.5
   doi: 10.63493/resolutions/conf20048.5
   urn: urn:oiml:doc:conf:resolution:12.8.5
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Budget for the financial period 2005–2008
@@ -1058,9 +1127,9 @@ resolutions:
               financial period beginning January 1, 2005 and ending December 31, 2008;
               APPROVES the fee structure and the budget for the Organization’s expenses annexed to these Decisions and
               Resolutions;
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Budget pour la période financière 2005-2008
     subject: CIML
@@ -1071,15 +1140,17 @@ resolutions:
         budgétaires dans leur ensemble et non comme composants séparés.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/8.6
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/8.6
   doi: 10.63493/resolutions/conf20048.6
   urn: urn:oiml:doc:conf:resolution:12.8.6
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Status of OIML Publications
@@ -1091,9 +1162,9 @@ resolutions:
         The Conference approved the proposal to make all OIML Publications, except those which are published
               jointly with other Organizations, available free of charge in electronic format on the OIML web site and to
               cease publishing them on paper.
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Statut des Publications OIML
     subject: CIML
@@ -1106,15 +1177,17 @@ resolutions:
         cesser leur publication sur papier.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/9
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/9
   doi: 10.63493/resolutions/conf200409
   urn: urn:oiml:doc:conf:resolution:12.09
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Other business
@@ -1126,12 +1199,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/10
+- identifier:
+  - prefix: Conference
+    number: 2004/10
   doi: 10.63493/resolutions/conf200410
   urn: urn:oiml:doc:conf:resolution:12.10
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Closure
@@ -1142,20 +1217,22 @@ resolutions:
       message: '10.1 Adoption of the Decisions and Resolutions of the Conference
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Cloture
     subject: CIML
     considerations: []
     actions: []
-- identifier: Conference/2004/10.1
+- identifier:
+  - prefix: Conference
+    number: 2004/10.1
   doi: 10.63493/resolutions/conf200410.1
   urn: urn:oiml:doc:conf:resolution:12.10.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: fra
     title: Adoption des Décisions et Résolutions de la Conférence
@@ -1168,15 +1245,17 @@ resolutions:
         fixé par la Convention était donc atteint.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: Conference/2004/10.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2004/10.2
   doi: 10.63493/resolutions/conf200410.2
   urn: urn:oiml:doc:conf:resolution:12.10.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: fra
     title: Date et lieu de la prochaine Conférence
@@ -1190,6 +1269,6 @@ resolutions:
         organiserait la Conférence en France.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective

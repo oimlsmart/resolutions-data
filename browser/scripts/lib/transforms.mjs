@@ -52,10 +52,23 @@ export function deriveDisplayTitle(res, acclamation) {
 // them. All records for the same logical resolution share the same
 // `identifier` and `id`.
 export function buildResolutionRecords(res, sourceFile, metadata) {
-  const identifier = String(res.identifier)
+  // identifier is now a StructuredIdentifier[] in v2 format:
+  // [{prefix: "CIML", number: "2009/1"}]. Reconstruct the display string.
+  const identArray = Array.isArray(res.identifier)
+    ? res.identifier
+    : [{ prefix: '', number: String(res.identifier || '') }]
+  const identifier = identArray.map(i => {
+    const num = i.number || ''
+    return i.prefix ? `${i.prefix}/${num}` : num
+  }).join(' / ')
+
   const acclamation = isAcclamation(identifier)
-  const datesInfo = metadata.dates || []
-  const meetingDate = datesInfo.length > 0 ? datesInfo[0].start : ''
+  // v2 metadata uses `date` (single string) or legacy `dates` (array).
+  // v2 decision-level dates use {date, type} instead of {start, kind}.
+  const datesInfo = metadata.dates || (metadata.date ? [{ start: metadata.date }] : [])
+  const meetingDate = datesInfo.length > 0
+    ? (datesInfo[0].date || datesInfo[0].start || '')
+    : ''
   const year = meetingDate ? meetingDate.substring(0, 4) : ''
   const id = identifier.replace(/\//g, '-')
   const localizations = res.localizations || []
@@ -65,14 +78,14 @@ export function buildResolutionRecords(res, sourceFile, metadata) {
     doi: res.doi || '',
     urn: res.urn || `${URN_BASE}:resolution:${identifier}`,
     year,
-    venue: metadata.venue || '',
+    venue: metadata.venue || metadata.general_area || '',
     city: metadata.city || '',
     country_code: metadata.country_code || '',
     source_file: sourceFile,
     source_title: '',
     meeting_date: meetingDate,
     is_acclamation: acclamation,
-    dates: res.dates || [],
+    dates: (res.dates || []).map(d => ({ start: d.date || d.start, kind: d.type || d.kind })),
     agenda_item: res.agenda_item || '',
   }
 
@@ -105,10 +118,26 @@ export function buildResolutionRecords(res, sourceFile, metadata) {
       || titleLocalized.find(t => t.language_code === 'eng')
       || titleLocalized[0]
     const sourceTitle = titleEntry?.title || defaultTitle
-    const actions = loc.actions || []
+    // Normalize v2 actions: convert date_effective back to dates[] for
+    // UI backward compat.
+    const rawActions = loc.actions || []
+    const actions = rawActions.map(a => {
+      if (a.date_effective && !a.dates) {
+        return { ...a, dates: [a.date_effective] }
+      }
+      return a
+    })
+    // Normalize v2 considerations similarly.
+    const rawCons = loc.considerations || []
+    const considerations = rawCons.map(c => {
+      if (c.date_effective && !c.dates) {
+        return { ...c, dates: [c.date_effective] }
+      }
+      return c
+    })
     const snippet = normalizeSnippet(
       (actions.length > 0 ? actions[0].message : '') ||
-      (loc.considerations && loc.considerations.length > 0 ? loc.considerations[0].message : '') ||
+      (considerations.length > 0 ? considerations[0].message : '') ||
       loc.title ||
       '',
     )
@@ -119,7 +148,7 @@ export function buildResolutionRecords(res, sourceFile, metadata) {
       title: loc.title || '',
       subject: loc.subject || '',
       actions,
-      considerations: loc.considerations || [],
+      considerations,
       approvals: loc.approvals || [],
       categories: res.categories || [],
       snippet,

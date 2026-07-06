@@ -1,19 +1,16 @@
 ---
-# Auto-updated by scripts/link_minutes_to_meetings.rb.
 identifier:
 - prefix: CIML
   number: '32'
 urn: urn:oiml:ciml:meeting:ciml-32
 type: plenary
 status: completed
-year: 1997
 ordinal: 32
 date_range:
   start: '1997-10-29'
   end: '1997-10-31'
 committee: International Committee of Legal Metrology (CIML)
 general_area: Rio de Janeiro, Brazil
-virtual: false
 source_urls: []
 localizations:
 - language_code: eng
@@ -22,11 +19,14 @@ localizations:
   general_area: Rio de Janeiro, Brazil
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-32-resolutions
 country_code: BR
 city: BRRIO
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-32-eng
   language_code: eng
   script: Latn
+visibility: public
+venues:
+- kind: physical
+  unlocode: BRRIO
+  country_code: BR

@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2012-10-01'
-    end: '2012-10-05'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Bucharest, Romania
-  city: Bucharest
   country_code: RO
-  language: en
   title_localized:
   - language_code: eng
     title: 47th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 47e réunion du CIML — Résolutions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-47
-resolutions:
-- identifier: CIML/2012/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2012/1
   doi: 10.63493/resolutions/ciml201201
   urn: urn:oiml:doc:ciml:resolution:2012-01
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Approves the minutes of the 46th CIML Meeting with the following amendment:
@@ -33,9 +28,9 @@ resolutions:
       message: |
         Approves the minutes of the 46th CIML Meeting with the following amendment:
         On page 24, section 3.2, first line of the final paragraph, replace "her husband" with: "Mr. Lagauterie".
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 1 de l'ordre du jour
     subject: Conférence OIML
@@ -46,15 +41,17 @@ resolutions:
         Approuve le compte rendu de la 46ème Réunion du CIML moyennant l'amendement suivant :
         À la page 24, section 3.2, première ligne du dernier paragraphe, remplacer « son mari » par :
         « M. Lagauterie ».
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/2
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/2
   doi: 10.63493/resolutions/ciml201202
   urn: urn:oiml:doc:ciml:resolution:2012-02
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee, Notes the report given by its President.
@@ -65,9 +62,9 @@ resolutions:
       message: 'The Committee, Notes the report given by its President.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 2 de l'ordre du jour
     subject: CIML
@@ -77,15 +74,17 @@ resolutions:
       message: 'Prend note du rapport fait par son Président.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/3
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/3
   doi: 10.63493/resolutions/ciml201203
   urn: urn:oiml:doc:ciml:resolution:2012-03
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report given by the BIML Director.
@@ -96,9 +95,9 @@ resolutions:
       message: 'Notes the report given by the BIML Director.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 4.1 de l'ordre du jour
     subject: CIML
@@ -108,15 +107,17 @@ resolutions:
       message: 'Prend note du rapport fait par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/4
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/4
   doi: 10.63493/resolutions/ciml201204
   urn: urn:oiml:doc:ciml:resolution:2012-04
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Welcomes Gambia, Liberia, Malawi, Mauritania, Namibia, Nigeria and Sierra
@@ -129,9 +130,9 @@ resolutions:
         Sierra Leone as new Corresponding Members.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 5 de l'ordre du jour
     subject: CIML
@@ -142,15 +143,17 @@ resolutions:
         le Nigeria et la Sierra Leone comme nouveaux Membres Correspondants.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/5
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/5
   doi: 10.63493/resolutions/ciml201205
   urn: urn:oiml:doc:ciml:resolution:2012-05
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the 2011 accounts, and
@@ -160,31 +163,31 @@ resolutions:
       message: 'Noting the accounts for 2011 and the BIML Director''s comments,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: 'Considering the external auditor''s approval of the 2011 accounts,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the 2011 accounts, and
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: instructs
       message: 'Instructs its President to present them to the 14th OIML Conference.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Approuve les comptes de l'année 2011, et
     subject: CIML
@@ -193,31 +196,33 @@ resolutions:
       message: |
         Prenant note des comptes de l'année 2011 et des commentaires du Directeur du BIML,
         Compte tenu de l'approbation des comptes de l'année 2011 par l'auditeur externe,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve les comptes de l''année 2011, et
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: charges
       message: 'Charge son Président de les présenter lors de la $ 1 4^{\mathrm{e
         m e}} $ Conférence de l''OIML.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/6
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/6
   doi: 10.63493/resolutions/ciml201206
   urn: urn:oiml:doc:ciml:resolution:2012-06
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Instructs its President to submit the draft to the 14th Conference for
@@ -230,9 +235,9 @@ resolutions:
         for adoption.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Charge son Président de soumettre le projet pour adoption à la 14ème Conférence.
     subject: CIML
@@ -243,15 +248,17 @@ resolutions:
         Conférence.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/7
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/7
   doi: 10.63493/resolutions/ciml201207
   urn: urn:oiml:doc:ciml:resolution:2012-07
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the BIML Director's proposal to allocate funding to support the
@@ -264,18 +271,18 @@ resolutions:
         the OIML activities aimed specifically at developing countries,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Requests the 14th Conference to take this Resolution into account
         when deciding the overall amount of credits necessary to cover the OIML''s
         operating expenses in the 2013-2016 financial period.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 6.6 de l'ordre du jour
     subject: CIML
@@ -287,9 +294,9 @@ resolutions:
         (b) Que les pays en développement ont accès à toutes les Recommandations et autres publications de l'OIML,
         (c) Que les pays en développement devraient recevoir davantage de soutien de la part de I'OIML par le biais d'activités de prise de conscience, d'activités destinées à l'obtention de financements par d'autres organisations internationales, à l'accès à des outils de formation actuellement en développement, à promouvoir la collaboration entre les Organisations Régionales de Métrologie Légale, et autres activités similaires,
         (d) L'OIML ne fournit pas d'aide directe aux pays en développement et ne finance aucun projet d'assistance technique dans quelque pays que ce soit ;
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la proposition du Directeur du BIML d''attribuer un financement
@@ -297,9 +304,9 @@ resolutions:
         développement,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Demande que la $ 1 4^{\mathrm{eme}} $ Conférence prenne cette Résolution
         en considération lors de sa décision du montant global des crédits nécessaires
@@ -307,15 +314,17 @@ resolutions:
         financier 2013-2016.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/8
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/8
   doi: 10.63493/resolutions/ciml201208
   urn: urn:oiml:doc:ciml:resolution:2012-08
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the BIML Director's proposal for policies and rules for the reimbursement
@@ -330,17 +339,17 @@ resolutions:
         related events,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: instructs
       message: 'Instructs the Bureau to publish these policies and rules as an OIML
         Basic Publication.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Approuve la proposition du Directeur du BIML relative aux politiques et
       règles de remboursement
@@ -354,23 +363,25 @@ resolutions:
         manifestations relatives à la métrologie légale,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: charges
       message: 'Charge le Bureau de publier lesdites politiques et règles en tant
         que Publication OIML de Base.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/9
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/9
   doi: 10.63493/resolutions/ciml201209
   urn: urn:oiml:doc:ciml:resolution:2012-09
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report given by the BIML Director, Encourages the BIML to continue
@@ -382,17 +393,17 @@ resolutions:
       message: |
         Notes the report given by the BIML Director,
         Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Requests those Members with arrears to bring their situation up to
         date as soon as possible.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 6.8 de l'ordre du jour
     subject: CIML
@@ -402,23 +413,25 @@ resolutions:
       message: |
         Prend note du rapport fait par le Directeur du BIML,
         Encourage le BIML à poursuivre ses efforts pour recouvrir les arriérés impayés de ses États Membres et Membres Correspondants,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Demande auxdits Membres présentant des arriérés de régulariser leur
         situation dès que possible.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/10
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/10
   doi: 10.63493/resolutions/ciml201210
   urn: urn:oiml:doc:ciml:resolution:2012-10
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves this budget, and
@@ -429,18 +442,18 @@ resolutions:
       message: 'Approves this budget, and
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Requests the 14th Conference to take this Resolution into account
         when deciding the overall amount of credits necessary to cover the OIML''s
         operating expenses in the 2013-2016 financial period.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Approuve ledit budget, et
     subject: CIML
@@ -450,24 +463,26 @@ resolutions:
       message: 'Approuve ledit budget, et
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Demande que la 14ème Conférence prenne cette Résolution en considération
         lors de sa décision du montant global des crédits nécessaires pour couvrir
         les frais de fonctionnement de I''OIML au cours de l''exercice financier 2013-2016.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/11
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/11
   doi: 10.63493/resolutions/ciml201211
   urn: urn:oiml:doc:ciml:resolution:2012-11
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report on developing countries given by the BIML.
@@ -478,9 +493,9 @@ resolutions:
       message: 'Notes the report on developing countries given by the BIML.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Prend note du rapport relatif aux pays en développement fourni par le BIML.
     subject: CIML
@@ -491,15 +506,17 @@ resolutions:
         le BIML.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/11a
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/11a
   doi: 10.63493/resolutions/ciml201211a
   urn: urn:oiml:doc:ciml:resolution:2012-11a
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Thanks its President and the BIML Director for the establishment of regular
@@ -510,33 +527,33 @@ resolutions:
       message: |
         Recalling Resolution no. 3 of its 44th meeting, Resolution no. 3 of its 45th meeting and Resolution no. 14 of its 46th meeting,
         Acknowledging the further intensification of the relationship between the OIML and the BIPM,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: 'Considering the ongoing exploration whether there would be an advantage
         if both organizations were to be collocated,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: thanks
       message: |
         Thanks its President and the BIML Director for the establishment of regular working contacts between the BIPM and the BIML Directors and staff,
         Discharges its President of presenting a report to the 14th Conference,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Requests its President to prepare a status report, with the assistance
         of certain CIML Members, for the 48th CIML Meeting.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Remercie son Président et le Directeur du BIML pour l'établissement de
       contacts de travail
@@ -546,39 +563,41 @@ resolutions:
       message: |
         Rappelant la Résolution n° 3 de sa 44 $ ^{\mathrm{eme}} $ Réunion, la Résolution n° 3 de sa 45 $ ^{\mathrm{eme}} $ Réunion et la Résolution n° 14 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
         Reconnaissant l'intensification renforcée de la relation entre l'OIML et le BIPM,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: 'Considérant l''exploration continue visant à savoir si la co-implantation
         des deux organisations serait un avantage,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: thanks
       message: |
         Remercie son Président et le Directeur du BIML pour l'établissement de contacts de travail réguliers entre les Directeurs et le personnel du BIPM et du BIML,
         Décharge son Président de présenter un rapport d'avancement à la 14ème Conférence,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: requests
       message: 'Demande à son Président de préparer un rapport d''avancement, avec
         l''aide de certains Membres du CIML, pour la 48ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/12
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/12
   doi: 10.63493/resolutions/ciml201212
   urn: urn:oiml:doc:ciml:resolution:2012-12
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Confirms that the rules set out in OIML B 6 shall only apply to
@@ -589,9 +608,9 @@ resolutions:
         of OIML B 6:2011 Directives for OIML technical work,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: confirms
       message: 'Confirms that the rules set out in OIML B 6 shall only apply to the
@@ -599,9 +618,9 @@ resolutions:
         so decides for a particular Basic Publication.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 9.1 de l'ordre du jour
     subject: CIML
@@ -610,21 +629,23 @@ resolutions:
       message: |
         Prenant note de la proposition du groupe de travail ad hoc traitant la révision de I'OIML B 6:2011 Directives pour le travail technique de I'OIML,
         Confirmme que les règles prévues dans l'OIML B 6 doivent s'appliquer au développement, à la révision ou aux amendements des Publications OIML de Base uniquement si le CIML en décide ainsi pour une Publication de Base donnée.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: notes
       message: "[Point 9.1a de l'ordre du jour]\n"
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/13
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/13
   doi: 10.63493/resolutions/ciml201213
   urn: urn:oiml:doc:ciml:resolution:2012-13
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Confirms that Corresponding Members may participate in the work of OIML
@@ -637,9 +658,9 @@ resolutions:
         OIML,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: confirms
       message: 'Confirms that Corresponding Members may participate in the work of
@@ -647,9 +668,9 @@ resolutions:
         (O-members) without any payment of additional fees.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives
       à la
@@ -659,9 +680,9 @@ resolutions:
       message: |
         Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives à la participation des Membres Correspondants au travail technique de l'OIML,
         Confirmme que les Membres Correspondants peuvent participer au travail des Comités Techniques, Sous-comités et Groupes de Projet de l'OIML en tant que Membres Observateurs (Membres-O) sans avoir à payer de droit supplémentaire.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: notes
       message: 'Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML
@@ -669,15 +690,17 @@ resolutions:
         de l''OIML,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/14
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/14
   doi: 10.63493/resolutions/ciml201214
   urn: urn:oiml:doc:ciml:resolution:2012-14
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Thanks the ad hoc working group chaired by its second Vice-President
@@ -687,25 +710,25 @@ resolutions:
       message: 'Recalling Resolution no. 23 of its 46th meeting,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: thanks
       message: 'Thanks the ad hoc working group chaired by its second Vice-President,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: approves
       message: 'Approves the revision of the Directives for OIML technical work (OIML
         B 6-1 and B 6-2), subject to any necessary editorial changes.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Remercie le groupe de travail ad hoc présidé par son second Vice-Président
     subject: CIML
@@ -714,31 +737,33 @@ resolutions:
       message: 'Rappelant la Résolution n° 23 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: thanks
       message: 'Remercie le groupe de travail ad hoc présidé par son second Vice-Président,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: approves
       message: 'Approuve la révision des Directives pour le travail technique de l''OIML
         (OIML B 6-1 et B 6-2), sous réserve de toute modification éditoriale nécessaire.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/15
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/15
   doi: 10.63493/resolutions/ciml201215
   urn: urn:oiml:doc:ciml:resolution:2012-15
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves as a new work project under TC 17/SC 7 Breath testers a revision
@@ -750,9 +775,9 @@ resolutions:
         of R 126:2012 Evidential breath analyzers.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Approuve en tant que nouveau projet de travail dans le cadre du TC 17/SC
     subject: CIML
@@ -763,15 +788,17 @@ resolutions:
         17/SC 7 Analyseurs d''air expiré une révision de la R 126:2012 Éthylomètres.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/16
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/16
   doi: 10.63493/resolutions/ciml201216
   urn: urn:oiml:doc:ciml:resolution:2012-16
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Approves the following Draft Publications: - Revision of OIML D1 Considerations
@@ -785,9 +812,9 @@ resolutions:
         - Revision of OIML D1 Considerations for a law on metrology,
         - Revision of OIML R 46 Electrical energy meters - Part 1: Metrological and technical requirements and Part 2: Metrological controls and performance tests,
         - Revision of OIML R 106-2 Automatic rail weighbridges - Part 2: Test report format.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: 'Approuve les Projets de Publications suivants : - Révision de l''OIML
       D 1 Considérations'
@@ -800,15 +827,17 @@ resolutions:
         - Révision de l'OIML D 1 Considérations pour une loi sur la métrologie
         - Révision de l'OIML R 46 Compteurs d'énergie électrique actifs - Partie 1 : Exigences métrologiques et techniques et Partie 2 : Contrôles métrologiques et essais de performance,
         - Révision de l'OIML R 106-2 Ponts-bascules ferroviaires à fonctionnement automatique – Partie 2 : Format du rapport d'essai.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/17
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/17
   doi: 10.63493/resolutions/ciml201217
   urn: urn:oiml:doc:ciml:resolution:2012-17
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   agenda_item: 9.3.3
   localizations:
   - language_code: eng
@@ -822,9 +851,9 @@ resolutions:
         for TC 3/SC 3 Reference materials.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 9.3.3 de l'ordre du jour
     subject: CIML
@@ -836,15 +865,17 @@ resolutions:
         nouveau projet de travail pour le TC 3/SC 3 Matériaux de référence.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/18
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/18
   doi: 10.63493/resolutions/ciml201218
   urn: urn:oiml:doc:ciml:resolution:2012-18
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   agenda_item: 9.3.4
   localizations:
   - language_code: eng
@@ -857,9 +888,9 @@ resolutions:
         to R 137:2012 Gas meters.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 9.3.4 de l'ordre du jour
     subject: CIML
@@ -870,15 +901,17 @@ resolutions:
         8/SC 7 Comptage de gaz une révision de la R 137:2012 Compteurs de gaz.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/19
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/19
   doi: 10.63493/resolutions/ciml201219
   urn: urn:oiml:doc:ciml:resolution:2012-19
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Resolves: The draft revision of OIML R 126 Evidential breath analyzers
@@ -889,26 +922,26 @@ resolutions:
       message: 'Recalling Resolution no.17 of its 46th meeting,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: |
         Considering:
         (a) The draft revision of OIML R 126 Evidential breath analyzers received support from a majority of CIML Members in the preliminary ballot, but also received five negative votes, some of which contained objections requiring substantial changes to the draft,
         (b) After consultation with its members, the secretariat of TC 17/SC 7 did not see any possibility to prepare a further draft that would remove the objections expressed in the preliminary ballot,
         (c) The revised text is a substantial improvement on the current version of OIML R 126, even though it did not receive full consensus,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: resolves
       message: |
         Resolves:
         The draft revision of OIML R 126 Evidential breath analyzers is approved.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 9.3.1 de l'ordre du jour
     subject: CIML
@@ -917,32 +950,34 @@ resolutions:
       message: 'Rappelant la Résolution n° 17 de sa $ 4 6^{\mathrm{e m e}} $ Réunion,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: |
         Considérant :
         (a) La projet de révision de I'OIML R 126 Éthylomètres a reçu le soutien d'une majorité des Membres du CIML lors du vote préliminaire mais a également reçu cinq votes négatifs dont certains portaient des objections demandant d'importantes modifications au projet,
         (b) Après consultation auprès de ses membres, le secrétariat du TC 17/SC 7 n'a pas pu envisager de possibilité pour préparer un projet supplémentaire qui éliminerait les objections exprimées lors du vote préliminaire,
         (c) Le texte révisé représente une nette amélioration par rapport à la version actuelle de I'OIML R 126, bien qu'il n'ait pas reçu une approbation unanime,
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: decides
       message: |
         Décide que :
         Le projet de révision de I'OIML R 126 Ethylomètres est approuvé.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/20
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/20
   doi: 10.63493/resolutions/ciml201220
   urn: urn:oiml:doc:ciml:resolution:2012-20
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the proposal of the BIML for combining or withdrawing the projects
@@ -982,9 +1017,9 @@ resolutions:
         TC 13/p 4: Revision of R 104 Pure-tone audiometers,
         TC 13/p 5: Combined revision of R 58 Sound level meters and R 88 Integrating averaging sound level meters,
         TC 18/SC 4/p 1: Electrodes for electrocardiographs and electroencephalographs methods and means for verification.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: 'Approuve la proposition suivante du BIML visant à combiner ou retirer
       les projets '
@@ -1024,15 +1059,17 @@ resolutions:
         TC 13/p 4 : Révision de la R 104 Audiomètres à son pur,
         TC 13/p 5: Révision combinée de la R 58 Sonomètres et de la R 88 Sonomètres intégrateurs-moyenneurs,
         TC 18/SC 4/p 1 : Électrodes pour électrocardiographes et électroencéphalographes – méthodes et moyens de vérification.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/21
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/21
   doi: 10.63493/resolutions/ciml201221
   urn: urn:oiml:doc:ciml:resolution:2012-21
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Decides that the CIML shall proceed to vote on the Amendment to OIML B
@@ -1042,25 +1079,25 @@ resolutions:
       message: 'Recalling Resolution no. 21 of its 46th meeting,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: recalling
       message: 'Recalling that OIML B 6:2011 does not apply to Basic Publications,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: decides
       message: 'Decides that the CIML shall proceed to vote on the Amendment to OIML
         B 10:2012 in the current meeting under Agenda item 9.4.3.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Décide que le CIML doit procéder au vote sur l'Amendement à l'OIML B 10:2012
     subject: CIML
@@ -1069,17 +1106,17 @@ resolutions:
       message: 'Rappelant la Résolution n° 21 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: recalling
       message: 'Rappelant que I''OIML B 6:2011 ne s''applique pas aux Publications
         de Base,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: decides
       message: 'Décide que le CIML doit procéder au vote sur l''Amendement à l''OIML
@@ -1087,15 +1124,17 @@ resolutions:
         du jour.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/22
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/22
   doi: 10.63493/resolutions/ciml201222
   urn: urn:oiml:doc:ciml:resolution:2012-22
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the Draft Amendment to OIML B 10.
@@ -1108,17 +1147,17 @@ resolutions:
         Testing Laboratories (MTLs) under a DoMC,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the Draft Amendment to OIML B 10.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Approuve le Projet d'Amendement à I'OIML B 10.
     subject: CIML
@@ -1131,23 +1170,25 @@ resolutions:
         d''une DoMC,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve le Projet d''Amendement à I''OIML B 10.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/23
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/23
   doi: 10.63493/resolutions/ciml201223
   urn: urn:oiml:doc:ciml:resolution:2012-23
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the following text as the OIML statement on the new SI to be
@@ -1157,26 +1198,26 @@ resolutions:
       message: 'Recalling Resolution no. 25 of its 46th meeting,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: noting
       message: 'Noting the oral report by the chair of the OIML ad hoc Working Group
         New SI,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: 'Considering the comments received from its Members and Technical Committees
         TC 2, TC 9, TC 9/SC 3 and TC 11 on the proposed changes to the International
         System of Units (SI), currently being discussed,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: |
@@ -1184,24 +1225,24 @@ resolutions:
         "The OIML supports the CGPM's intention to revise the SI in order that it will continue to meet the needs of science, technology, and commerce in the 21st century.
         From the inquiry amongst the OIML Technical Committees TC2, TC9, TC9/SC3 and TC11, and the CIML Members, it is concluded that the new SI definitions are considered to have little to no impact on routine measurements of time, length, luminous intensity, electric current, temperature, amount of substance, and related derived SI quantities. A potential impact may be on accurate mass measurements using class E weights according to OIML R 111. The OIML considers the careful adherence to the 2010 recommendations of the CCM as fundamental for the redefinition of the kilogram in order to avoid potential negative impact on routine mass measurements.
         The OIML supports the intention of the CGPM to further improve formulations for the definitions of the SI base units so that the new SI remains understandable to all those who need it."
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: thanks
       message: 'Thanks the ad hoc Working Group for preparing the OIML statement.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: instructs
       message: 'Instructs the BIML Director to communicate the OIML statement to the
         BIPM.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
     subject: CIML
@@ -1210,26 +1251,26 @@ resolutions:
       message: 'Rappelant la Résolution n° 25 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport oral par le président du groupe de travail
         ad hoc Nouveau SI de I''OIML,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: considering
       message: 'Considérant les remarques formulées par ses Membres et par les Comités
         Techniques TC 2, TC 9, TC 9/SC 3 et TC 11 au sujet des propositions de modifications
         du Système International des Unités (SI), actuellement en discussion,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: approves
       message: |
@@ -1237,31 +1278,33 @@ resolutions:
         « L'OIML soutient l'intention de la CGPM de réviser le SI afin que celui-ci continue de satisfaire aux besoins de la science, la technologie et du commerce au XXIème siècle.
         En se basant sur les interrogations des Comités Techniques de l'OIML TC 2, TC 9, TC 9/SC 3 et TC 11 et des Membres du CIML, il a été conclu que les définitions du nouveau SI sont considérées comme ayant un impact faible à nul sur les mesures régulières de temps, longueur, intensité lumineuse, courant électrique, température, quantité de substance et les quantités dérivées du SI y afférentes. Un impact potentiel pourrait avoir lieu sur les mesurages exacts de masse en utilisant des poids de classe E conformément à l'OIML R 111. Afin d'éviter tout impact négatif potentiel sur les mesurages de masse de routine, l'OIML estime que, pour la redéfinition du kilogramme, il est fondamental de suivre attentivement les recommandations du CCM de 2010.
         L'OIML soutient l'intention de la CGPM d'améliorer davantage les formulations des définitions des unités de base du SI afin que le nouveau SI demeure compréhensible à tous ceux qui en ont besoin. »
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: thanks
       message: 'Remercie le Groupe de Travail ad hoc pour sa préparation de la déclaration
         de l''OIML.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     - type: charges
       message: 'Charge le Directeur du BIML de communiquer la déclaration de l''OIML
         au BIPM.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/24
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/24
   doi: 10.63493/resolutions/ciml201224
   urn: urn:oiml:doc:ciml:resolution:2012-24
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Noting the procedure for the selection of candidates to a vacant Vice-President
@@ -1272,18 +1315,18 @@ resolutions:
       message: |
         Noting the procedure for the selection of candidates to a vacant Vice-President post in B 14,
         Selects Dr. Roman Schwartz as its first Vice-President for the remaining period of his term.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the procedure for the selection of candidates to a vacant Vice-President
         post in B 14,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Prenant note de la procédure de sélection de candidats à un poste vacant
       de
@@ -1293,24 +1336,26 @@ resolutions:
       message: |
         Prenant note de la procédure de sélection de candidats à un poste vacant de Vice-Président dans le B 14,
         Sélectionne le Dr. Roman Schwartz comme son premier Vice-Président pour la période restante de son mandat.
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
     actions:
     - type: notes
       message: 'Prenant note de la procédure de sélection de candidats à un poste
         vacant de Vice-Président dans le B 14,
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
-- identifier: CIML/2012/25
+      date_effective:
+        date: '2012-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2012/25
   doi: 10.63493/resolutions/ciml201225
   urn: urn:oiml:doc:ciml:resolution:2012-25
   dates:
-  - start: '2012-10-01'
-    kind: decision
+  - date: '2012-10-01'
+    type: decided
   localizations:
   - language_code: eng
     title: Thanks the Vietnamese delegation for the presentation on the venue of its
@@ -1323,9 +1368,9 @@ resolutions:
         of its 48th meeting.
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective
   - language_code: fra
     title: Remercie la délégation vietnamienne pour sa présentation sur les lieux
       de la 48ème Réunion
@@ -1337,6 +1382,6 @@ resolutions:
         de la 48ème Réunion
 
         '
-      dates:
-      - start: '2012-10-01'
-        kind: effective
+      date_effective:
+        date: '2012-10-01'
+        type: effective

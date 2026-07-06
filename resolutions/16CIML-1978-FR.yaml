@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 16th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1978-06-19'
-    end: '1978-06-21'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Paris, France
   city: FRPAR
   country_code: FR
-  language: fr
   title_localized:
   - language_code: fra
     title: 16th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-16
-resolutions:
-- identifier: CIML/1978/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1978/1
   doi: 10.63493/resolutions/ciml197801
   urn: urn:oiml:doc:ciml:resolution:1978-01
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: OBJET
@@ -37,15 +33,17 @@ resolutions:
         développement (dénommé ci-après le Conseil).
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/2
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/2
   doi: 10.63493/resolutions/ciml197802
   urn: urn:oiml:doc:ciml:resolution:1978-02
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: STATUT et MANDAT
@@ -57,15 +55,17 @@ resolutions:
         dirigeantes de l''Organisation.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/3
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/3
   doi: 10.63493/resolutions/ciml197803
   urn: urn:oiml:doc:ciml:resolution:1978-03
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: COMPOSITION
@@ -77,15 +77,17 @@ resolutions:
         et de Pays industrialisés.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/4
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/4
   doi: 10.63493/resolutions/ciml197804
   urn: urn:oiml:doc:ciml:resolution:1978-04
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: FONCTIONNEMENT
@@ -97,15 +99,17 @@ resolutions:
         de réunions tenues en principe annuellement.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/5
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/5
   doi: 10.63493/resolutions/ciml197805
   urn: urn:oiml:doc:ciml:resolution:1978-05
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: DISPOSITIONS FINANCIERES
@@ -119,15 +123,17 @@ resolutions:
         et de séjour de trois de ceux-ci à l''occasion de chaque réunion.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/6
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/6
   doi: 10.63493/resolutions/ciml197806
   urn: urn:oiml:doc:ciml:resolution:1978-06
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: DISPOSITION TRANSITOIRE
@@ -140,9 +146,9 @@ resolutions:
         soient des employés de ce Service.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité rappelle d''autre part que la désignation de ces représentants
         est laissée au libre choix des Membres du CIML et que ces représentants «
@@ -152,16 +158,16 @@ resolutions:
         de toutes personnalités dont l''aide leur paraît opportune ». (*)
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité constate qu''en raison des niveaux très divers de développement
         de leurs Services nationaux de métrologie, les EtatsMembres de l''OIML n''ont
@@ -169,9 +175,9 @@ resolutions:
         techniques qui leur sont proposés.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité demande de plus que les Secrétariats de l''OIML, à l''occasion
         de la révision systématique des Recommandations dont ils sont responsables,
@@ -180,23 +186,23 @@ resolutions:
         ultérieurement en mesure d''étudier et de critiquer les dites Recommandations.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité a pris des décisions concernant la création, la suppression
         et l''attribution de Secrétariats Pilotes et/ou Rapporteurs. Ces décisions
@@ -204,45 +210,47 @@ resolutions:
         » (*).
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité s''est félicité de constater que la Résolution de la Conférence
         a été suivie.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité a adopté les Documents Internationaux :
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité décide la création d''un groupe ad hoc chargé d''étudier
         le problème de l''établissement de la marque de conformité.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/1
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/1
   doi: 10.63493/resolutions/ciml197801
   urn: urn:oiml:doc:ciml:resolution:1978-01
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: OBJET
@@ -254,15 +262,17 @@ resolutions:
         développement (dénommé ci-après le Conseil).
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/2
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/2
   doi: 10.63493/resolutions/ciml197802
   urn: urn:oiml:doc:ciml:resolution:1978-02
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: STATUT et MANDAT
@@ -274,15 +284,17 @@ resolutions:
         dirigeantes de l''Organisation.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/3
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/3
   doi: 10.63493/resolutions/ciml197803
   urn: urn:oiml:doc:ciml:resolution:1978-03
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: COMPOSITION
@@ -294,15 +306,17 @@ resolutions:
         et de Pays industrialisés.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/4
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/4
   doi: 10.63493/resolutions/ciml197804
   urn: urn:oiml:doc:ciml:resolution:1978-04
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: FONCTIONNEMENT
@@ -314,15 +328,17 @@ resolutions:
         de réunions tenues en principe annuellement.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/5
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/5
   doi: 10.63493/resolutions/ciml197805
   urn: urn:oiml:doc:ciml:resolution:1978-05
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: DISPOSITIONS FINANCIERES
@@ -336,15 +352,17 @@ resolutions:
         et de séjour de trois de ceux-ci à l''occasion de chaque réunion.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
-- identifier: CIML/1978/6
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1978/6
   doi: 10.63493/resolutions/ciml197806
   urn: urn:oiml:doc:ciml:resolution:1978-06
   dates:
-  - start: '1978-06-19'
-    kind: decision
+  - date: '1978-06-19'
+    type: decided
   localizations:
   - language_code: fra
     title: DISPOSITION TRANSITOIRE
@@ -355,25 +373,25 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité déclare que cette phrase signifie que ces représentants
         agissent en tant qu''experts du Service sans qu''il soit nécessaire qu''ils
         soient des employés de ce Service.
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective
     - type: notes
       message: 'Le Comité rappelle d''autre part que la désignation de ces représentants
         est laissée au libre choix des Membres du CIML et que ces représentants «
@@ -383,6 +401,6 @@ resolutions:
         de toutes personalités dont l''aide leur paraît opportune ».
 
         '
-      dates:
-      - start: '1978-06-19'
-        kind: effective
+      date_effective:
+        date: '1978-06-19'
+        type: effective

@@ -1,24 +1,20 @@
 ---
 metadata:
-  dates:
-  - start: '2025-10-14'
-    kind: meeting
   source: OIML Conference Secretariat (BIML)
-  venue: Paris, France
-  city: Paris
   country_code: FR
-  language: en
   title_localized:
   - language_code: eng
     title: 17th OIML Conference — Resolutions (EN)
   meeting_urn: urn:oiml:conference:meeting:conference-17
-resolutions:
-- identifier: Conference/2025/01
+decisions:
+- identifier:
+  - prefix: Conference
+    number: 2025/01
   doi: 10.63493/resolutions/conf202501
   urn: urn:oiml:doc:conf:resolution:17.01
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '2'
   localizations:
   - language_code: eng
@@ -31,15 +27,17 @@ resolutions:
         Metrology (OIML Conference).
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/02
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/02
   doi: 10.63493/resolutions/conf202502
   urn: urn:oiml:doc:conf:resolution:17.02
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '3'
   localizations:
   - language_code: eng
@@ -50,9 +48,9 @@ resolutions:
       message: 'Having regard to Article IX of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: elects
       message: 'Elects His Excellency Fahad M. Al Ruwaily (Ambassador of the Kingdom
@@ -60,23 +58,25 @@ resolutions:
         and
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: elects
       message: 'Elects Ms Renée Hansson and Dr Bobjoseph Mathew as Vice-Presidents
         for the 17th OIML Conference.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/03
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/03
   doi: 10.63493/resolutions/conf202503
   urn: urn:oiml:doc:conf:resolution:17.03
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '4'
   localizations:
   - language_code: eng
@@ -88,15 +88,17 @@ resolutions:
       message: 'Approves the minutes of the 16th OIML Conference (2021).
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/04
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/04
   doi: 10.63493/resolutions/conf202504
   urn: urn:oiml:doc:conf:resolution:17.04
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '8'
   localizations:
   - language_code: eng
@@ -108,36 +110,36 @@ resolutions:
         OIML Convention,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting Resolutions CIML/2022/10 of the 57th CIML Meeting, CIML/2023/10
         of the 58th CIML Meeting, CIML/2024/08 of the 59th CIML Meeting, and CIML/2025/07
         of the 60th CIML Meeting,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting that the budget was managed in conformity with the expenses
         necessary for carrying out the work of the Bureau and that the accuracy of
         the report has been certified by annual audits,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting that the respective functions assigned by the Convention to
         the President of the International Committee of Legal Metrology and to the
         Director of the International Bureau of Legal Metrology have been fulfilled,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: gives_discharge
       message: 'Gives its definitive discharge to the President of the Committee and
@@ -145,15 +147,17 @@ resolutions:
         years mentioned above.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/05
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/05
   doi: 10.63493/resolutions/conf202505
   urn: urn:oiml:doc:conf:resolution:17.05
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '9.1'
   localizations:
   - language_code: eng
@@ -164,9 +168,9 @@ resolutions:
       message: 'Having regard to Article XXVI (1) of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: recalling
       message: 'Recalling Resolution 8 of the 14th OIML Conference (2012) that the
         classification of Member States shall be reviewed in the final year of a financial
@@ -174,31 +178,33 @@ resolutions:
         following financial period,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: considering
       message: 'Considering the procedure for the classification of Member States
         as decided by the 40th CIML Meeting (2005),
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: endorses
       message: 'Endorses Resolution CIML/2025/10 of the 60th CIML Meeting.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/06
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/06
   doi: 10.63493/resolutions/conf202506
   urn: urn:oiml:doc:conf:resolution:17.06
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '9.1'
   localizations:
   - language_code: eng
@@ -213,24 +219,26 @@ resolutions:
         % of the annual Member State contribution for their applicable class in 2028,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: reaffirms
       message: 'Re-affirms its endorsement of Resolution CIML/2021/13 of the 56th
         CIML Meeting.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/07
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/07
   doi: 10.63493/resolutions/conf202507
   urn: urn:oiml:doc:conf:resolution:17.07
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '9.1'
   localizations:
   - language_code: eng
@@ -242,43 +250,43 @@ resolutions:
         and Article XXVIII, second paragraph, of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting Resolution 2012/08 of the 14th OIML Conference, which states
         that changes in the classification of Member States take place from the second
         year of the following financial period,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting the information contained in Resolution Conference/2025/06
         of the 17th Conference,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting Resolutions CIML/2025/10 and CIML/2025/11 of the 60th CIML
         Meeting,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: considering
       message: 'Considering that the total number of base contributory shares, taking
         into account the classification of Member States as reviewed in 2025, is 150
         for the year 2026 and 161 for the years 2027, 2028 and 2029,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: resolves
       message: |
@@ -302,15 +310,17 @@ resolutions:
         | 4 | €31120 | €42920 | €59200 | €59200
         |===
         e) For the 2026-2029 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/08
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/08
   doi: 10.63493/resolutions/conf202508
   urn: urn:oiml:doc:conf:resolution:17.08
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '9.2'
   localizations:
   - language_code: eng
@@ -321,16 +331,16 @@ resolutions:
       message: 'Recalling Resolution Conference 2021/09 of the 16th OIML Conference,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting the information contained in 17th Conference Document 6,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves that, from the surplus resulting from the 2022-2025 financial
@@ -338,24 +348,26 @@ resolutions:
         the OIML.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: resolves
       message: 'Resolves that any remaining surplus from the 2022-2025 financial period
         be used in the 2026-2029 financial period to advance and accelerate projects
         of high importance to the Organization.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/09
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/09
   doi: 10.63493/resolutions/conf202509
   urn: urn:oiml:doc:conf:resolution:17.09
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '10'
   localizations:
   - language_code: eng
@@ -367,17 +379,17 @@ resolutions:
         B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: noting
       message: 'Noting the report on publications approved by the Committee since
         the 16th Conference (2021) in Conference Document 10,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves that the OIML publications listed in Conference Document
@@ -385,15 +397,17 @@ resolutions:
         implement OIML Recommendations as far as possible.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/10
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/10
   doi: 10.63493/resolutions/conf202510
   urn: urn:oiml:doc:conf:resolution:17.10
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '12'
   localizations:
   - language_code: eng
@@ -404,32 +418,34 @@ resolutions:
       message: 'Having regard to Article X of OIML B 1:1968 OIML Convention,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     - type: considering
       message: 'Considering the standing practice to organize a Conference once every
         four years,
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves to charge the Committee with organizing the 18th OIML Conference
         in 2029, the venue and dates to be decided by the Committee.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
-- identifier: Conference/2025/11
+      date_effective:
+        date: '2025-10-14'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2025/11
   doi: 10.63493/resolutions/conf202511
   urn: urn:oiml:doc:conf:resolution:17.11
   dates:
-  - start: '2025-10-14'
-    kind: decision
+  - date: '2025-10-14'
+    type: decided
   agenda_item: '13'
   localizations:
   - language_code: eng
@@ -443,6 +459,6 @@ resolutions:
         17th OIML Conference.
 
         '
-      dates:
-      - start: '2025-10-14'
-        kind: effective
+      date_effective:
+        date: '2025-10-14'
+        type: effective

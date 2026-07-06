@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2009-10-27'
-    end: '2009-10-30'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Mombasa, Kenya
-  city: Mombasa
   country_code: KE
-  language: en
   title_localized:
   - language_code: eng
     title: 44th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 44e réunion du CIML — Résolutions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-44
-resolutions:
-- identifier: CIML/2009/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2009/1
   doi: 10.63493/resolutions/ciml200901
   urn: urn:oiml:doc:ciml:resolution:2009-01
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee instructed the CIML President and the BIML Director to prepare
@@ -35,9 +30,9 @@ resolutions:
         for approval at the 14th Conference in 2012.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a donné instruction au Président du CIML et au Directeur du BIML
     subject: Conférence OIML
@@ -49,15 +44,17 @@ resolutions:
         l''anglais et de la soumettre à l''approbation de la 14ème Conférence en 2012.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/2
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/2
   doi: 10.63493/resolutions/ciml200902
   urn: urn:oiml:doc:ciml:resolution:2009-02
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee approved the Minutes of the 43rd CIML Meeting with the following
@@ -71,9 +68,9 @@ resolutions:
         "and France".
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a approuvé le Compte-rendu de la 43ème Réunion du CIML avec les
     subject: Conférence OIML
@@ -85,15 +82,17 @@ resolutions:
         "et la France".
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/3
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/3
   doi: 10.63493/resolutions/ciml200903
   urn: urn:oiml:doc:ciml:resolution:2009-03
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee expressed its appreciation for the good cooperation between
@@ -107,9 +106,9 @@ resolutions:
         the BIML and the BIPM.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a exprimé son appréciation pour la bonne coopération entre le
       Conseil de
@@ -122,23 +121,25 @@ resolutions:
         le BIPM.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
     - type: requests
       message: |
         Le Comité a demandé au Directeur du Bureau de préparer un projet de rapport sur le rapprochement, de manière à informer les Etats Membres des deux Organisations sur ce sujet et afin d'encourager davantage de discussion durant la 45ème Réunion du CIML. Ce rapport doit être principalement de nature stratégique et doit prendre en compte le point de vue des parties prenantes des deux Organisations, tout comme tenir compte des commentaires reçus de la part des Membres du CIML.
         Ce rapport sera discuté avec le Directeur du BIPM.
         Le Comité recommande que ce rapport soit adressé par les deux Directeurs à tous les Etats Membres.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/4
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/4
   doi: 10.63493/resolutions/ciml200904
   urn: urn:oiml:doc:ciml:resolution:2009-04
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee expressed its appreciation for the continued cooperation
@@ -156,9 +157,9 @@ resolutions:
         in the OIML Systems in accreditation or peer assessment wherever appropriate.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a exprimé son appréciation pour la coopération continue avec
       ILAC et IAF.
@@ -176,15 +177,17 @@ resolutions:
         OIML, lorsque cela est approprié.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/5
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/5
   doi: 10.63493/resolutions/ciml200905
   urn: urn:oiml:doc:ciml:resolution:2009-05
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee instructed the Bureau to start a revision of the OIML/IEC
@@ -198,9 +201,9 @@ resolutions:
         that followed for the revision of the OIML/ISO MoU.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a donné instruction au Bureau de commencer la révision de l'Accord
       de
@@ -214,15 +217,17 @@ resolutions:
         OIML/ISO.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/5a
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/5a
   doi: 10.63493/resolutions/ciml20095a
   urn: urn:oiml:doc:ciml:resolution:2009-5a
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee instructed the Bureau to circulate the "Table of correspondence
@@ -235,9 +240,9 @@ resolutions:
         between OIML and ISO TCs" to OIML Technical Secretariats.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a donné instruction au Bureau de faire circuler aux Secrétariats
       Techniques de
@@ -250,15 +255,17 @@ resolutions:
         TCs ISO".
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/6
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/6
   doi: 10.63493/resolutions/ciml200906
   urn: urn:oiml:doc:ciml:resolution:2009-06
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee welcomed the Dominican Republic and the UEMOA $ ^{1} $ as
@@ -271,9 +278,9 @@ resolutions:
         $ as new Corresponding Members.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
     - type: instructs
       message: 'The Committee instructed its President and the Bureau to continue
         to raise the level of awareness of the advantages of OIML Membership, in order
@@ -281,9 +288,9 @@ resolutions:
         Metrology System.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a souhaité la bienvenue aux nouveaux Membres Correspondants que
       sont la République
@@ -295,9 +302,9 @@ resolutions:
         que sont la République Dominicaine et l''UEMOA $ ^{1} $ .
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
     - type: instructs
       message: 'Le Comité a donné instruction à son Président et au Bureau de continuer
         d''élever le niveau de prise de conscience des avantages à être Membre de
@@ -305,15 +312,17 @@ resolutions:
         de Métrologie Légale.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/7
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/7
   doi: 10.63493/resolutions/ciml200907
   urn: urn:oiml:doc:ciml:resolution:2009-07
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee requested Zambia to resume reimbursing its arrears and to
@@ -326,9 +335,9 @@ resolutions:
         to pay back all its arrears as soon as possible.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a requis de la Zambie la reprise du paiement de ses arriérés
     subject: Conférence OIML
@@ -339,15 +348,17 @@ resolutions:
         et de les rembourser aussi vite que possible.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/8
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/8
   doi: 10.63493/resolutions/ciml200908
   urn: urn:oiml:doc:ciml:resolution:2009-08
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the report given by its President.
@@ -358,9 +369,9 @@ resolutions:
       message: 'The Committee took note of the report given by its President.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a pris note du rapport donné par son Président
     subject: Conférence OIML
@@ -370,15 +381,17 @@ resolutions:
       message: 'Le Comité a pris note du rapport donné par son Président
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/9
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/9
   doi: 10.63493/resolutions/ciml200909
   urn: urn:oiml:doc:ciml:resolution:2009-09
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the report on the activities of the Bureau.
@@ -389,9 +402,9 @@ resolutions:
       message: 'The Committee took note of the report on the activities of the Bureau.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a pris note du rapport donné sur les activités du Bureau.
     subject: Conférence OIML
@@ -401,15 +414,17 @@ resolutions:
       message: 'Le Comité a pris note du rapport donné sur les activités du Bureau.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/10
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/10
   doi: 10.63493/resolutions/ciml200910
   urn: urn:oiml:doc:ciml:resolution:2009-10
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee asked that further work be carried out to establish the best
@@ -425,9 +440,9 @@ resolutions:
         the Fourteenth Conference in 2012 for approval.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a demandé que des recherches supplémentaires soient effectuées
       afin d'établiir le meilleur
@@ -439,15 +454,17 @@ resolutions:
         Le Comité a demandé que des recherches supplémentaires soient effectuées afin d'établiir le meilleur moyen de présenter le passif du Système de Retraite OIML, vu les obligations des Etats Membres, dans le but de proposer une nouvelle règle à inclure dans un projet de révision du Règlement Financier de l'OIML (B 8) à soumettre pour approbation par la Quatorzième Conférence en 2012.
         Attendant la décision sur cette nouvelle règle, le Comité n'a pas approuvé les "Comptes du BIML pour l'Année 2008".
         Le Comité a accepté dans un même temps que la règle d'enregistrement dans la comptabilité OIML des Provisions du Système de Retraite, telle qu'utilisée pour préparer les comptes 2008, soit également utilisée pour compiler le projet des comptes pour l'année 2009.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/11
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/11
   doi: 10.63493/resolutions/ciml200911
   urn: urn:oiml:doc:ciml:resolution:2009-11
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the oral information about the report on the
@@ -463,9 +480,9 @@ resolutions:
         of actions taken.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a pris note de l'information orale sur le rapport portant sur
       la
@@ -480,15 +497,17 @@ resolutions:
         le suivi des actions résultantes.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/12
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/12
   doi: 10.63493/resolutions/ciml200912
   urn: urn:oiml:doc:ciml:resolution:2009-12
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the report on Developing Country activities
@@ -501,9 +520,9 @@ resolutions:
         and expressed its thanks to the Facilitator for Developing Countries.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a pris note du rapport donné sur les activités des Pays en
     subject: Conférence OIML
@@ -515,15 +534,17 @@ resolutions:
         de Pays en Développement.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/13
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/13
   doi: 10.63493/resolutions/ciml200913
   urn: urn:oiml:doc:ciml:resolution:2009-13
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the progress on the revision of part 1 of
@@ -537,9 +558,9 @@ resolutions:
         CIML at its meeting in 2010 for approval.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a pris note des progrès effectués dans la révision de la partie
     subject: Conférence OIML
@@ -552,15 +573,17 @@ resolutions:
         pour approbation par le CIML lors de sa réunion en 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/14
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/14
   doi: 10.63493/resolutions/ciml200914
   urn: urn:oiml:doc:ciml:resolution:2009-14
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee expressed its appreciation for the training provided to TC/SC
@@ -574,9 +597,9 @@ resolutions:
         and templates for use by the TC/SC Secretariats.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a exprimé son appréciation pour la formation dispensée aux Secrétariats
       des TC/SCs
@@ -589,15 +612,17 @@ resolutions:
         de formats et modèles à l''usage des Secrétariats des TC/SCs.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/15
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/15
   doi: 10.63493/resolutions/ciml200915
   urn: urn:oiml:doc:ciml:resolution:2009-15
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee approved the launching of an R 117 DoMC limited to fuel dispensers
@@ -610,9 +635,9 @@ resolutions:
         of OIML R 117-1 edition 2007 as additional requirements.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a approuvé le lancement d'une DoMC R 117 limitée aux ensembles
       de
@@ -626,15 +651,17 @@ resolutions:
         additionnelles.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/16
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/16
   doi: 10.63493/resolutions/ciml200916
   urn: urn:oiml:doc:ciml:resolution:2009-16
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: 'The Committee approved the following publications: - Amendment to R 138
@@ -647,9 +674,9 @@ resolutions:
         The Committee approved the following publications:
         - Amendment to R 138 Vessels for commercial transactions;
         - R 143 Instruments for the continuous measurement of $ SO_{2} $ in stationary source emissions.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: 'Le Comité a approuvé les publications suivantes: - Amendement à la R 138
       Récipients'
@@ -661,15 +688,17 @@ resolutions:
         Le Comité a approuvé les publications suivantes:
         - Amendement à la R 138 Récipients pour transactions commerciales;
         - R 143 Instruments pour le mesurage continu de $ SO_{2} $ dans les émissions de sources fixes.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/16a
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/16a
   doi: 10.63493/resolutions/ciml200916a
   urn: urn:oiml:doc:ciml:resolution:2009-16a
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee approved the proposal to submit the DR of the following publication
@@ -681,9 +710,9 @@ resolutions:
       message: |
         The Committee approved the proposal to submit the DR of the following publication to direct CIML online approval:
         - Revision of R 106-1 Automatic rail-weighbridges. Part 1: Metrological and technical requirements - Tests.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a approuvé la proposition de soumettre à une approbation directe
       en ligne
@@ -694,15 +723,17 @@ resolutions:
       message: |
         Le Comité a approuvé la proposition de soumettre à une approbation directe en ligne par le CIML, le DR de la publication suivante:
         - Révision de la R 106-1 Ponts-bascules ferroviaires à fonctionnement automatique. Partie 1: Exigences métrologiques et techniques - Essais
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/17
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/17
   doi: 10.63493/resolutions/ciml200917
   urn: urn:oiml:doc:ciml:resolution:2009-17
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the confirmation of the following publications
@@ -713,9 +744,9 @@ resolutions:
       message: 'The Committee took note of the confirmation of the following publications:
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: 'Le Comité a pris note de la confirmation des publications suivantes: R14
       Saccharimètres polarimétriq…'
@@ -732,15 +763,17 @@ resolutions:
         R 75-3 Compteurs d'énergie thermique. Partie 3: Format du rapport d'essai;
         R 84 Thermomètres à résistance de platine, de cuivre, et de nickel (à usages techniques et commerciaux);
         R 124 Réfractomètres pour la mesure de la teneur en sucre des mouts de raisin.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/18
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/18
   doi: 10.63493/resolutions/ciml200918
   urn: urn:oiml:doc:ciml:resolution:2009-18
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: 'The Committee approved the withdrawal of the following publications: R
@@ -754,9 +787,9 @@ resolutions:
         R 70 Determination of intrinsic and hysteresis errors of gas analyzers;
         R 73 Requirements concerning pure gases CO, $ CO_{2}, $ $ CH_{4}, $ $ H_{2}, $ $ O_{2}, $ $ N_{2} $ and Ar intended for the preparation of reference gas mixtures;
         D7 The evaluation of flow standards and facilities used for testing water meters.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: 'Le Comité a approuvé le retrait des publications suivantes: R 70 Determination
       des erreurs'
@@ -769,15 +802,17 @@ resolutions:
         R 70 Determination des erreurs de base et d'hystérésis des analyseurs de gaz;
         R 73 Prescriptions pour les gaz purs CO, $ \mathrm{C O}_{2}, $ $ \mathrm{C H}_{4} $ H2, $ \mathrm{O}_{2}, $ $ \mathrm{N}_{2} $ et Ar destinés à la préparation des mélanges de gaz de référence;
         D 7 Evaluation des étalons de débitmétrie et des dispositifs utilisés pour l'essai des compteurs d'eau.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/19
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/19
   doi: 10.63493/resolutions/ciml200919
   urn: urn:oiml:doc:ciml:resolution:2009-19
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: 'The Committee approved the following new work items: - TC 3/SC 5: Revision
@@ -793,9 +828,9 @@ resolutions:
         - TC 6: New publication on methods to determine the actual quantity of product in prepackages (drained weight, etc.) in collaboration with WELMEC WG 6;
         - TC 8: Revision of R 63 Petroleum measurement tables;
         - TC 8: Revision of R 119 Pipe provers for testing of measuring systems for liquids other than water.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: 'Le Comité a approuvé les nouveaux sujets de travail suivants: - TC 3/SC
       5'
@@ -810,15 +845,17 @@ resolutions:
         - TC 6: Nouvelle publication sur les méthodes pour déterminer la quantité réelle de produit contenue dans un préemballage (poids égoutté, etc.) en collaboration avec le Groupe de Travail 6 de WELMEC;
         - TC 8: Révision de la R 63 Tables de mesure du pétrole;
         - TC 8: Révision de la R 119 Tubes étalons pour l'essai des ensembles de mesurage de liquides autres que l'eau.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/20
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/20
   doi: 10.63493/resolutions/ciml200920
   urn: urn:oiml:doc:ciml:resolution:2009-20
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee noted that the outcome of the periodic review by TC 8 on
@@ -836,9 +873,9 @@ resolutions:
         The Committee, therefore:
         - requests the secretariat of TC 8 to submit to the Bureau listings of updated references for these publications; and
         - instructs the Bureau to publish the lists of updated references and updated versions of these publications.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a noté que le résultat de la revue périodique du TC 8
     subject: Conférence OIML
@@ -855,15 +892,17 @@ resolutions:
         Aussi, le Comité:
         - a requis du Secrétariat du TC 8 de soumettre au Bureau les listes des références de ces publications mises à jour; et
         - a instruit le Bureau de publier ces listes de références mises à jour ainsi que les versions mises à jour de ces publications.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/21
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/21
   doi: 10.63493/resolutions/ciml200921
   urn: urn:oiml:doc:ciml:resolution:2009-21
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee took note of the information given on the election of a President
@@ -876,9 +915,9 @@ resolutions:
         must be sent to the Bureau at the latest by the end of May 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a pris note des informations fournies relatives à l'élection
       du Président, devant
@@ -891,15 +930,17 @@ resolutions:
         les candidatures devaient être adressées au Bureau au plus tard fin mai 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/22
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/22
   doi: 10.63493/resolutions/ciml200922
   urn: urn:oiml:doc:ciml:resolution:2009-22
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee noted that the term of the BIML Director will expire at the
@@ -911,18 +952,18 @@ resolutions:
         at the end of 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
     - type: decides
       message: 'The Committee decided to advertise the position of Director of BIML
         in 2010 with the aim of either appointing a new Director or reappointing the
         present Director.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a noté que le terme du contrat du Directeur du BIML arriverait
     subject: Conférence OIML
@@ -933,24 +974,26 @@ resolutions:
         à échéance à la fin de l''année 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
     - type: decides
       message: 'Le Comité a décidé de passer une annonce, en 2010, concernant le poste
         de Directeur du BIML dans le but soit de nommer un nouveau Directeur, soit
         de renommer le Directeur actuel.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/23
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/23
   doi: 10.63493/resolutions/ciml200923
   urn: urn:oiml:doc:ciml:resolution:2009-23
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee thanked the USA for its presentation on the venue of the
@@ -964,9 +1007,9 @@ resolutions:
         September 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a remercié les Etats-Unis pour leur présentation sur l'organisation
       de la 45ème
@@ -979,15 +1022,17 @@ resolutions:
         du 20 au 24 septembre 2010.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/24
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/24
   doi: 10.63493/resolutions/ciml200924
   urn: urn:oiml:doc:ciml:resolution:2009-24
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: The Committee thanked the Czech Republic for inviting the Committee to
@@ -1001,9 +1046,9 @@ resolutions:
         invitation.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: Le Comité a remercié la République Tchèque pour leur invitation à tenir
       la 46ème
@@ -1016,15 +1061,17 @@ resolutions:
         cette invitation.
 
         '
-      dates:
-      - start: '2009-10-27'
-        kind: effective
-- identifier: CIML/2009/25
+      date_effective:
+        date: '2009-10-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2009/25
   doi: 10.63493/resolutions/ciml200925
   urn: urn:oiml:doc:ciml:resolution:2009-25
   dates:
-  - start: '2009-10-27'
-    kind: decision
+  - date: '2009-10-27'
+    type: decided
   localizations:
   - language_code: eng
     title: 'The Committee noted that: - the increasing importance of prepackaged foods
@@ -1039,9 +1086,9 @@ resolutions:
         - developing country exports are particularly disadvantaged by having to conform to a multiplicity of international requirements; and
         - the review of the longstanding OIML R 79 arising from the World Wine Trade Group Labeling Agreement and the 2006 OIML seminar on prepackaging have not resulted in an exemption for wine labeling.
         The Committee recommended that CIML Members bring this resolution to the attention of their national WTO-TBT enquiry point.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective
   - language_code: fra
     title: 'Le Comité a noté que: - l''importance croissante des aliments et boissons
       préemballés dans'
@@ -1055,6 +1102,6 @@ resolutions:
         - les exportations des pays en développement sont particulièrement désavantagées d'avoir à être conformes à une multiplicité d'exigences internationales; et
         - la revue de l'ancienne OIML R 79 émanant de l'Accord du Groupe Mondial du Commerce du Vin et le Séminaire OIML 2006 sur les préemballés n'ont pas abouti à une dispense d'étiquetage pour le vin.
         Le Comité a recommandé que les Membres du CIML portent cette Résolution à l'attention de leur point d'information national OMC-OTC.
-      dates:
-      - start: '2009-10-27'
-        kind: effective
+      date_effective:
+        date: '2009-10-27'
+        type: effective

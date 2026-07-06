@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 19th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1983-05-03'
-    end: '1983-05-05'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Copenhagen, Denmark
   city: DKCPH
   country_code: DK
-  language: fr
   title_localized:
   - language_code: fra
     title: 19th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-19
-resolutions:
-- identifier: CIML/1983/3
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1983/3
   doi: 10.63493/resolutions/ciml198303
   urn: urn:oiml:doc:ciml:resolution:1983-03
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Situation financière
@@ -36,15 +32,17 @@ resolutions:
       message: '3. 1. Adoption des rapports comptables pour 1981 et 1982
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/4
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/4
   doi: 10.63493/resolutions/ciml198304
   urn: urn:oiml:doc:ciml:resolution:1983-04
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Personnel du Bureau
@@ -55,15 +53,17 @@ resolutions:
       message: '4. 1. Examen des postes devenant vacants dans un proche avenir
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/6
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/6
   doi: 10.63493/resolutions/ciml198306
   urn: urn:oiml:doc:ciml:resolution:1983-06
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Travaux des Secrétariats
@@ -74,15 +74,17 @@ resolutions:
       message: '6. 1. Examen de l''état d''avancement des travaux
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/7
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/7
   doi: 10.63493/resolutions/ciml198307
   urn: urn:oiml:doc:ciml:resolution:1983-07
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Secrétariats Pilotes et Rapporteurs
@@ -93,15 +95,17 @@ resolutions:
       message: '7. 1. Examen de la situation de certains Secrétariats
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/1
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/1
   doi: 10.63493/resolutions/ciml198301
   urn: urn:oiml:doc:ciml:resolution:1983-01
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION DU COMPTE RENDU DE LA 18ème REUNION DU COMITE
@@ -112,27 +116,31 @@ resolutions:
       message: 'Ce compte rendu est adopté avec les corrections suivantes :
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/2
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/2
   doi: 10.63493/resolutions/ciml198302
   urn: urn:oiml:doc:ciml:resolution:1983-02
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: ETATS MEMBRES ET MEMBRES CORRESPONDANTS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1983/2.1
+- identifier:
+  - prefix: CIML
+    number: 1983/2.1
   doi: 10.63493/resolutions/ciml19832.1
   urn: urn:oiml:doc:ciml:resolution:1983-2.1
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Nouvelles adhésions, perspectives d'adhésions
@@ -145,15 +153,17 @@ resolutions:
         pays ont récemment contacté le BIML en vue de leur éventuelle adhésion.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/2.2
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/2.2
   doi: 10.63493/resolutions/ciml19832.2
   urn: urn:oiml:doc:ciml:resolution:1983-2.2
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen éventuel de la situation de certains Etats Membres
@@ -164,27 +174,31 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/3
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/3
   doi: 10.63493/resolutions/ciml198303
   urn: urn:oiml:doc:ciml:resolution:1983-03
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: SITUATION FINANCIERE
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1983/3.1
+- identifier:
+  - prefix: CIML
+    number: 1983/3.1
   doi: 10.63493/resolutions/ciml19833.1
   urn: urn:oiml:doc:ciml:resolution:1983-3.1
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Adoption des rapports comptables pour 1981 et 1982
@@ -197,15 +211,17 @@ resolutions:
         judicieux
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/3.2
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/3.2
   doi: 10.63493/resolutions/ciml19833.2
   urn: urn:oiml:doc:ciml:resolution:1983-3.2
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen des estimations financières pour 1983
@@ -222,15 +238,17 @@ resolutions:
         étant compensée par une augmentation des recettes.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/3.3
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/3.3
   doi: 10.63493/resolutions/ciml19833.3
   urn: urn:oiml:doc:ciml:resolution:1983-3.3
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Note sur le Franc-Or
@@ -242,15 +260,17 @@ resolutions:
         Bureau à ce sujet.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/3.4
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/3.4
   doi: 10.63493/resolutions/ciml19833.4
   urn: urn:oiml:doc:ciml:resolution:1983-3.4
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Note sur le Fonds de Réserve de l'OIML
@@ -261,27 +281,31 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/4
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/4
   doi: 10.63493/resolutions/ciml198304
   urn: urn:oiml:doc:ciml:resolution:1983-04
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: PERSONNEL DU BUREAU
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1983/4.1
+- identifier:
+  - prefix: CIML
+    number: 1983/4.1
   doi: 10.63493/resolutions/ciml19834.1
   urn: urn:oiml:doc:ciml:resolution:1983-4.1
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen des postes devenant vacants dans un proche avenir
@@ -293,9 +317,9 @@ resolutions:
         de son présent contrat, le contrat de M. THULIN, Adjoint au Directeur.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité prend connaissance de l''expertise en question qui montre
         qu''effectivement, le coût du système de retraite ne devrait pas entraîner
@@ -304,29 +328,31 @@ resolutions:
         être répartie sur les années 1993-2009 selon un barème à définir.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité adopte en conséquence la Résolution suivante :
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/5
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/5
   doi: 10.63493/resolutions/ciml198305
   urn: urn:oiml:doc:ciml:resolution:1983-05
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: POLITIQUE A LONG TERME DE L'ORGANISATION ET PLANIFICATION DES TRAVAUX
@@ -337,15 +363,17 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/6.1
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/6.1
   doi: 10.63493/resolutions/ciml19836.1
   urn: urn:oiml:doc:ciml:resolution:1983-6.1
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de l'état d'avancement des travaux
@@ -359,15 +387,17 @@ resolutions:
         Internationaux susceptibles d''être adoptés et publiés d''ici fin 1984.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/6.2
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/6.2
   doi: 10.63493/resolutions/ciml19836.2
   urn: urn:oiml:doc:ciml:resolution:1983-6.2
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Adoption, à titre provisoire, de projets de Recommandations Internationales
@@ -381,15 +411,17 @@ resolutions:
         par la 7ème Conférence.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/6.3
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/6.3
   doi: 10.63493/resolutions/ciml19836.3
   urn: urn:oiml:doc:ciml:resolution:1983-6.3
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Mode de travail des Secrétariats de l'OIML
@@ -406,15 +438,17 @@ resolutions:
         ne portera pas la mention « provisoire »).
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/6.4
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/6.4
   doi: 10.63493/resolutions/ciml19836.4
   urn: urn:oiml:doc:ciml:resolution:1983-6.4
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Problèmes linguistiques relatifs aux Recommendations Internationales et
@@ -429,27 +463,31 @@ resolutions:
         recommandé, ou facultatif des prescriptions métrologiques.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/7
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/7
   doi: 10.63493/resolutions/ciml198307
   urn: urn:oiml:doc:ciml:resolution:1983-07
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: SECRETARIATS PILOTES ET RAPPORTEURS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1983/7.1
+- identifier:
+  - prefix: CIML
+    number: 1983/7.1
   doi: 10.63493/resolutions/ciml19837.1
   urn: urn:oiml:doc:ciml:resolution:1983-7.1
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation de certains Secrétariats
@@ -458,15 +496,17 @@ resolutions:
     actions:
     - type: notes
       message: "## a) SP 5 « Mesure des volumes de liquides »\n"
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/7.2
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/7.2
   doi: 10.63493/resolutions/ciml19837.2
   urn: urn:oiml:doc:ciml:resolution:1983-7.2
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Suppression de certains Secrétariats
@@ -482,15 +522,17 @@ resolutions:
         présentent les sujets en question.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/7.3
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/7.3
   doi: 10.63493/resolutions/ciml19837.3
   urn: urn:oiml:doc:ciml:resolution:1983-7.3
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: Mise en activité de nouveaux Secrétariats
@@ -504,15 +546,17 @@ resolutions:
         du SP 4-Sr 2 (mesures matérialisées de longueur).
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/8
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/8
   doi: 10.63493/resolutions/ciml198308
   urn: urn:oiml:doc:ciml:resolution:1983-08
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: SYSTEME DE CERTIFICATION OIML
@@ -523,15 +567,17 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/9
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/9
   doi: 10.63493/resolutions/ciml198309
   urn: urn:oiml:doc:ciml:resolution:1983-09
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: RELATIONS AVEC D'AUTRES INSTITUTIONS INTERNATIONALES
@@ -544,15 +590,17 @@ resolutions:
         relatifs à ce sujet sont soumis aux présentes discussions.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/10
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/10
   doi: 10.63493/resolutions/ciml198310
   urn: urn:oiml:doc:ciml:resolution:1983-10
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: PAYS EN DEVELOPEMENT
@@ -568,15 +616,17 @@ resolutions:
         dispose.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/11
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/11
   doi: 10.63493/resolutions/ciml198311
   urn: urn:oiml:doc:ciml:resolution:1983-11
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: SEMINAIRES OIML
@@ -593,15 +643,17 @@ resolutions:
         des grosses quantités de produits.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/12
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/12
   doi: 10.63493/resolutions/ciml198312
   urn: urn:oiml:doc:ciml:resolution:1983-12
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: RAPPORT D'ACTIVITE DU BIML
@@ -613,15 +665,17 @@ resolutions:
         aux participants.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/13
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/13
   doi: 10.63493/resolutions/ciml198313
   urn: urn:oiml:doc:ciml:resolution:1983-13
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: PREPARATION DE LA 7ème CONFERENCE INTERNATIONALE DE METROLOGIE LEGALE
@@ -635,15 +689,17 @@ resolutions:
         avec des fiches de participation en vue des réservations d''hôtel.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/14
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/14
   doi: 10.63493/resolutions/ciml198314
   urn: urn:oiml:doc:ciml:resolution:1983-14
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: QUESTIONS DIVERSES
@@ -660,15 +716,17 @@ resolutions:
         et qu''en particulier les articles en langue française font défaut.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/15
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/15
   doi: 10.63493/resolutions/ciml198315
   urn: urn:oiml:doc:ciml:resolution:1983-15
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: ELECTION DU DEUXIEME VICE-PRESIDENT DU COMITE
@@ -682,15 +740,17 @@ resolutions:
         W. MÜHE, représentant de la République Fédérale d''Allemagne.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
-- identifier: CIML/1983/16
+      date_effective:
+        date: '1983-05-03'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1983/16
   doi: 10.63493/resolutions/ciml198316
   urn: urn:oiml:doc:ciml:resolution:1983-16
   dates:
-  - start: '1983-05-03'
-    kind: decision
+  - date: '1983-05-03'
+    type: decided
   localizations:
   - language_code: fra
     title: CLOTURE
@@ -702,25 +762,25 @@ resolutions:
         les modifications rédactionnelles mentionnées ci-avant.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a adopté les rapports comptables pour 1981 et 1982 et a
         chargé son Président et le Directeur du Bureau de les présenter à la Septième
         Conférence.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note des informations du Bureau sur les estimations
         financières, le problème du franc-or, etc. et a donné des instructions au
@@ -728,48 +788,48 @@ resolutions:
         à la Septième Conférence.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''informations, documents et propositions concernant
         divers aspects des travaux des Secrétariats de l''OIML ; les instructions
         appropriées ont été données au Bureau.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a adopté, à titre provisoire, les deux projets de Recommandations
         Internationales suivants :
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a attribué aux USA la responsabilité des Secrétariats Rapporteurs
         :
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''examiner quelle pourrait être l''activité
         de l''OIML en ce qui concerne les grandeurs électriques d''une part, les grandeurs
         photométriques et radiométriques d''autre part.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective
     - type: notes
       message: 'Le Comité a élu comme second Vice-Président, le Prof. Dr. Ing. W.
         MUHE, Membre du CIML, République Fédérale d''Allemagne.
 
         '
-      dates:
-      - start: '1983-05-03'
-        kind: effective
+      date_effective:
+        date: '1983-05-03'
+        type: effective

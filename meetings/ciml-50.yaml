@@ -1,28 +1,25 @@
 ---
-# Auto-updated by scripts/link_minutes_to_meetings.rb.
 identifier:
 - prefix: CIML
   number: '50'
 urn: urn:oiml:ciml:meeting:ciml-50
 type: plenary
 status: completed
-year: 2015
 ordinal: 50
 date_range:
   start: '2015-10-20'
   end: '2015-10-22'
 committee: International Committee of Legal Metrology (CIML)
 general_area: Arcachon, France
-virtual: false
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/50-ciml-resolutions-english.pdf
   format: pdf
   language_code: eng
-  kind: resolutions_pdf
+  kind: decisions_pdf
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/50-ciml-resolutions-french.pdf
   format: pdf
   language_code: fra
-  kind: resolutions_pdf
+  kind: decisions_pdf
 localizations:
 - language_code: eng
   script: Latn
@@ -34,11 +31,14 @@ localizations:
   general_area: Arcachon, France
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-50-resolutions
 city: FRARC
 country_code: FR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-50-fra
   language_code: fra
   script: Latn
+visibility: public
+venues:
+- kind: physical
+  unlocode: FRARC
+  country_code: FR

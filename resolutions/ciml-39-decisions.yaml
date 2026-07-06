@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2004-10-26'
-    end: '2004-10-29'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Berlin, Germany
-  city: Berlin
   country_code: DE
-  language: en
   title_localized:
   - language_code: eng
     title: 39th CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 39e réunion du CIML — Décisions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-39
-resolutions:
-- identifier: CIML/2004/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2004/1
   doi: 10.63493/resolutions/ciml200401
   urn: urn:oiml:doc:ciml:resolution:2004-01
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the minutes of the 38th CIML Meeting
@@ -32,9 +27,9 @@ resolutions:
       message: 'The Committee approved the minutes of its 38th Meeting without modification.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Relation entre les DoMC et l'ancien Système de Certificats OIML
     subject: CIML
@@ -50,15 +45,17 @@ resolutions:
         du Système de Certificats OIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/2
   doi: 10.63493/resolutions/ciml200402
   urn: urn:oiml:doc:ciml:resolution:2004-02
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
@@ -76,15 +73,17 @@ resolutions:
         janvier 2005.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/2.1
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/2.1
   doi: 10.63493/resolutions/ciml20042.1
   urn: urn:oiml:doc:ciml:resolution:2004-2.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Situation of certain Members
@@ -96,24 +95,26 @@ resolutions:
         States, following the decisions made at the 38th CIML Meeting.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee noted that a number of countries were in the process
         of, or were envisaging joining the Organization as Member States or as Corresponding
         Members.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/3
   doi: 10.63493/resolutions/ciml200403
   urn: urn:oiml:doc:ciml:resolution:2004-03
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
@@ -125,9 +126,9 @@ resolutions:
         requested its Acting President and the BIML Director to submit it to the Conference.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Questions Financières
     subject: CIML
@@ -138,15 +139,17 @@ resolutions:
         à son Président Intérimaire et au Directeur du BIML de le présenter à la Conférence.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/3.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/3.2
   doi: 10.63493/resolutions/ciml20043.2
   urn: urn:oiml:doc:ciml:resolution:2004-3.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Draft Revision of the OIML Financial Regulations
@@ -158,9 +161,9 @@ resolutions:
         and instructed its Acting President to submit it to the Conference.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Projet de Révision du Règlement Financier de l'OIML
     subject: CIML
@@ -171,15 +174,17 @@ resolutions:
         de l''OIML et a chargé son Président Intérimaire de le présenter à la Conférence.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/4
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/4
   doi: 10.63493/resolutions/ciml200404
   urn: urn:oiml:doc:ciml:resolution:2004-04
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Presidential Council activities
@@ -191,9 +196,9 @@ resolutions:
         the activities of the Presidential Council since the last CIML Meeting.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Activités du Conseil de la Présidence
     subject: CIML
@@ -205,15 +210,17 @@ resolutions:
         Réunion du CIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/5
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/5
   doi: 10.63493/resolutions/ciml200405
   urn: urn:oiml:doc:ciml:resolution:2004-05
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML activities
@@ -225,9 +232,9 @@ resolutions:
         Bureau since the last CIML Meeting.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Activités du BIML
     subject: CIML
@@ -238,15 +245,17 @@ resolutions:
         depuis la dernière Réunion du CIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/6
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/6
   doi: 10.63493/resolutions/ciml200406
   urn: urn:oiml:doc:ciml:resolution:2004-06
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -258,12 +267,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2004/6.1
+- identifier:
+  - prefix: CIML
+    number: 2004/6.1
   doi: 10.63493/resolutions/ciml20046.1
   urn: urn:oiml:doc:ciml:resolution:2004-6.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of International Documents
@@ -274,18 +285,18 @@ resolutions:
       message: 'The Committee approved the following International Document:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee took note that the following International Documents
         and one Test Report Format had been approved by CIML postal vote since the
         38th CIML Meeting and that the BIML would proceed with their publication:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Approbation de Documents Internationaux
     subject: CIML
@@ -295,24 +306,26 @@ resolutions:
       message: 'Le Comité a approuvé le Document International suivant:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a constaté que les Documents Internationaux suivants et
         un Format de Rapport d''Essai avaient été approuvés par le CIML par vote postal
         depuis la 38ème Réunion du CIML et que le BIML procéderait à leur publication:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/6.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/6.2
   doi: 10.63493/resolutions/ciml20046.2
   urn: urn:oiml:doc:ciml:resolution:2004-6.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TCs/SCs
@@ -324,17 +337,17 @@ resolutions:
         of certain Technical Committees and Subcommittees.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: approves
       message: 'The Committee approved the proposal to allocate the Secretariat of
         TC 6 to South Africa and TC 9/SC 3 to Germany.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee noted firstly that the Secretariats of TC 8/SC 2 and
         TC 10/SC 3 were still vacant, and secondly that Germany wished to relinquish
@@ -342,16 +355,16 @@ resolutions:
         for the Secretariats of these technical bodies.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: approves
       message: 'The Committee approved two new working projects:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: sets
       message: 'The Committee set the deadline for issuing Certificates according
         to the 1996 edition of R 61 to 31 December 2005 and requested Issuing Authorities
@@ -360,9 +373,9 @@ resolutions:
         published and the publication of R 61-2 (2004) was imminent.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Examen de la situation de certains TC/SC
     subject: CIML
@@ -373,17 +386,17 @@ resolutions:
         de certains Comités Techniques et SousComités.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé la proposition d''attribuer le Secrétariat du
         TC 6 à l''Afrique du sud et celui du TC 9/SC 3 à l''Allemagne.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a constaté premièrement que les Secrétariats du TC 8/SC
         2 et du TC 10/SC 3 étaient encore vacants, et deuxièmement que l''Allemagne
@@ -392,16 +405,16 @@ resolutions:
         techniques.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé deux nouveaux projets de travail:
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a fixé la date limite pour la délivrance des Certificats
         d''après l''édition 1996 de la R 61 au 31 décembre 2005 et a demandé aux Autorités
@@ -411,15 +424,17 @@ resolutions:
         était imminente.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/6.3
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/6.3
   doi: 10.63493/resolutions/ciml20046.3
   urn: urn:oiml:doc:ciml:resolution:2004-6.3
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Implementation of the MAA
@@ -431,25 +446,25 @@ resolutions:
         24 October, and approved the proposed decisions annexed to these decisions.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: instructs
       message: 'The Committee instructed TC 3/SC 5 and the Bureau to start a revision
         of B 3 and B 10 after some experience of the MAA had been gained.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee took note of the draft schedule for the implementation
         of the MAA.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Application du MAA
     subject: CIML
@@ -460,31 +475,33 @@ resolutions:
         24 octobre, et a approuvé les décisions proposées annexées aux présentes décisions.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le TC 3/SC 5 et le Bureau de commencer une révision
         du B 3 et du B 10 après avoir acquis une certaine expérience sur le MAA.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un projet de programme pour l''application
         du MAA.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/6.4
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/6.4
   doi: 10.63493/resolutions/ciml20046.4
   urn: urn:oiml:doc:ciml:resolution:2004-6.4
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Other decisions related to the OIML Certificate System
@@ -497,9 +514,9 @@ resolutions:
         so that these Certificates may be published on the OIML web site.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Autres décisions liées au Système de Certificats OIML
     subject: CIML
@@ -512,15 +529,17 @@ resolutions:
         diffusés sur le site Internet de l''OIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/6.5
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/6.5
   doi: 10.63493/resolutions/ciml20046.5
   urn: urn:oiml:doc:ciml:resolution:2004-6.5
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Miscellaneous
@@ -533,9 +552,9 @@ resolutions:
         Committees and Subcommittees.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Divers
     subject: CIML
@@ -547,15 +566,17 @@ resolutions:
         Techniques et Sous-comités de l''OIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/7
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/7
   doi: 10.63493/resolutions/ciml200407
   urn: urn:oiml:doc:ciml:resolution:2004-07
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Developing Countries
@@ -568,18 +589,18 @@ resolutions:
         the Bureau to organize the following-up of this Forum.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report given by Mr. Magaña on the activities
         and future of the OIML Development Council and expressed its utmost appreciation
         for the contributions of its Chairperson, Mrs. Annabi.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee noted that OIML work on Developing Country matters could
         be more efficiently managed by the Permanent Working Group on Developing Countries
@@ -587,9 +608,9 @@ resolutions:
         Council.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Pays en Développement
     subject: CIML
@@ -601,18 +622,18 @@ resolutions:
         chargé le Bureau d''organiser les suites de ce Forum.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un rapport présenté par M. Magaña sur les
         activités du Conseil de Développement de l''OIML et a exprimé sa plus grande
         satisfaction pour les contributions de sa Présidente, Mme Annabi.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'Le Comité a considéré que le travail de l''OIML sur les questions
         relatives aux Pays en Développement pouvait être géré plus efficacement par
@@ -620,15 +641,17 @@ resolutions:
         par la 38ème Réunion du CIML; le PWGDC devrait remplacer le Conseil de Développement.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/8
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/8
   doi: 10.63493/resolutions/ciml200408
   urn: urn:oiml:doc:ciml:resolution:2004-08
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Coordination with the RLMOs
@@ -640,9 +663,9 @@ resolutions:
         to continue to liaise closely with RLMOs.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Coordination avec les Organisations Régionales de Métrologie Légale
     subject: CIML
@@ -654,15 +677,17 @@ resolutions:
         Légale.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/9
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/9
   doi: 10.63493/resolutions/ciml200409
   urn: urn:oiml:doc:ciml:resolution:2004-09
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Twelfth International Conference of Legal Metrology
@@ -676,9 +701,9 @@ resolutions:
         as Conference Vice-Presidents.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Douzième Conférence Internationale de Métrologie Légale
     subject: CIML
@@ -692,15 +717,17 @@ resolutions:
         de la Conférence.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/10
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/10
   doi: 10.63493/resolutions/ciml200410
   urn: urn:oiml:doc:ciml:resolution:2004-10
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: CIML Presidency
@@ -712,9 +739,9 @@ resolutions:
         as its President for the next six years.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Présidence du CIML
     subject: CIML
@@ -725,15 +752,17 @@ resolutions:
         comme Président du CIML pour les six prochaines années.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/11
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/11
   doi: 10.63493/resolutions/ciml200411
   urn: urn:oiml:doc:ciml:resolution:2004-11
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Twelfth International Conference of Legal Metrology
@@ -746,9 +775,9 @@ resolutions:
         to monitor their implementation and to report back at the next CIML Meeting.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Douzième Conférence Internationale de Métrologie Légale
     subject: CIML
@@ -761,15 +790,17 @@ resolutions:
         prochaine Réunion du CIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/12
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/12
   doi: 10.63493/resolutions/ciml200412
   urn: urn:oiml:doc:ciml:resolution:2004-12
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Future meetings
@@ -781,12 +812,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2004/12.1
+- identifier:
+  - prefix: CIML
+    number: 2004/12.1
   doi: 10.63493/resolutions/ciml200412.1
   urn: urn:oiml:doc:ciml:resolution:2004-12.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: 40th CIML Meeting (2005)
@@ -801,9 +834,9 @@ resolutions:
         of the OIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
     - type: notes
       message: 'The Committee also noted that legal metrology sessions would be organized
         by the Bureau during the International Metrology Congress and that the Bureau
@@ -811,9 +844,9 @@ resolutions:
         and Corresponding Member to attend this Congress.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: 40ème Réunion du CIML (2005)
     subject: CIML
@@ -827,15 +860,17 @@ resolutions:
         50ème Anniversaire de l''OIML.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/12.2
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/12.2
   doi: 10.63493/resolutions/ciml200412.2
   urn: urn:oiml:doc:ciml:resolution:2004-12.2
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: 41st CIML Meeting (2006)
@@ -847,9 +882,9 @@ resolutions:
         CIML Meeting and expressed its thanks to Mr. Carstens for this invitation.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: 41ème Réunion du CIML (2006)
     subject: CIML
@@ -861,15 +896,17 @@ resolutions:
         cette invitation.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/13
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/13
   doi: 10.63493/resolutions/ciml200413
   urn: urn:oiml:doc:ciml:resolution:2004-13
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Other matters
@@ -881,12 +918,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2004/13.1
+- identifier:
+  - prefix: CIML
+    number: 2004/13.1
   doi: 10.63493/resolutions/ciml200413.1
   urn: urn:oiml:doc:ciml:resolution:2004-13.1
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Director of the BIML
@@ -898,9 +937,9 @@ resolutions:
         Director and Assistant Directors.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Directeur du BIML
     subject: CIML
@@ -911,15 +950,17 @@ resolutions:
         et des Adjoints au Directeur.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
-- identifier: CIML/2004/14
+      date_effective:
+        date: '2004-10-26'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2004/14
   doi: 10.63493/resolutions/ciml200414
   urn: urn:oiml:doc:ciml:resolution:2004-14
   dates:
-  - start: '2004-10-26'
-    kind: decision
+  - date: '2004-10-26'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of decisions
@@ -930,9 +971,9 @@ resolutions:
       message: 'The above-mentioned decisions were adopted.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective
   - language_code: fra
     title: Adoption des décisions
     subject: CIML
@@ -942,6 +983,6 @@ resolutions:
       message: 'Les décisions mentionnées ci-dessus ont été adoptées.
 
         '
-      dates:
-      - start: '2004-10-26'
-        kind: effective
+      date_effective:
+        date: '2004-10-26'
+        type: effective

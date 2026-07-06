@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2016-10-19'
-    end: '2016-10-20'
-    kind: meeting
   source: OIML Conference Secretariat (BIML)
-  venue: Strasbourg, France
-  city: Strasbourg
   country_code: FR
-  language: en
   title_localized:
   - language_code: eng
     title: 15th OIML Conference — Resolutions (EN)
   - language_code: fra
     title: 15e Conférence OIML — Résolutions (FR)
   meeting_urn: urn:oiml:conference:meeting:conference-15
-resolutions:
-- identifier: Conference/2016/1
+decisions:
+- identifier:
+  - prefix: Conference
+    number: 2016/1
   doi: 10.63493/resolutions/conf201601
   urn: urn:oiml:doc:conf:resolution:15.01
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the minutes of the 14th Conference in 2012.
@@ -32,9 +27,9 @@ resolutions:
       message: 'Approves the minutes of the 14th Conference in 2012.
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: Approuve le compte rendu de la $ 1 4^{\mathrm{\text{ème}}} $ Conférence
       en 2012.
@@ -46,15 +41,17 @@ resolutions:
         en 2012.
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/2
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/2
   doi: 10.63493/resolutions/conf201602
   urn: urn:oiml:doc:conf:resolution:15.02
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: Resolves
@@ -64,26 +61,26 @@ resolutions:
       message: 'Having regard to Article XXV, final paragraph, of the Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: resolves
       message: |
         Resolves:
         a) The budget surpluses (net results) from the 2013-2016 financial period shall be added to the reserve funds;
         b) During the financial period 2017-2020,the increase in the reserve funds mentioned in a) above should be made available to provide time-limited support to secretariats and conveners in developing their capability,in particular through training,to deliver the technical work of the OIML.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: instructs
       message: 'Instructs the Director to prepare budgets to be presented to the CIML
         for the years 2017,2018,2019 and 2020 which reflect this expenditure.
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: 'Décide que '
     subject: Conférence OIML
@@ -92,32 +89,34 @@ resolutions:
       message: 'Vu le dernier paragraphe de l''Article XXV de la Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: decides
       message: |
         Décide que :
         a) Les excédents budgétaires (résultats nets) de l'exercice financier 2013-2016 doivent être ajoutés aux fonds de réserve ;
         b) Durant l'exercice financier 2017-2020, l'augmentation des fonds de réserve mentionnés en a) ci-dessus devrait être utilisée pour apporter aux secrétariats et aux responsables des groupes un soutien limité dans le temps visant à développer leurs capacités à réaliser le travail technique de l'OIML, notamment par des actions de formation.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: charges
       message: 'Charge le Directeur de préparer des budgets à présenter au CIML pour
         les années 2017, 2018, 2019 et 2020 faisant apparaître ces dépenses.
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/3
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/3
   doi: 10.63493/resolutions/conf201603
   urn: urn:oiml:doc:conf:resolution:15.03
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: Requests the Committee to consider the policy it should adopt towards the
@@ -129,9 +128,9 @@ resolutions:
         to its operations,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: requests
       message: 'Requests the Committee to consider the policy it should adopt towards
@@ -139,9 +138,9 @@ resolutions:
         be used, and to report on its recommendations to the 16th Conference in 2020.
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: Demande au Comité d'examiner la politique qu'il devrait adopter en ce qui
       concerne le
@@ -152,9 +151,9 @@ resolutions:
         de l''organisation,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: requests
       message: 'Demande au Comité d''examiner la politique qu''il devrait adopter
@@ -163,15 +162,17 @@ resolutions:
         à la 16ème Conférence en 2020.
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/4
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/4
   doi: 10.63493/resolutions/conf201604
   urn: urn:oiml:doc:conf:resolution:15.04
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Resolves: The audited accounts for 2012, 2013, 2014 and 2015 are hereby
@@ -182,24 +183,24 @@ resolutions:
       message: 'Having regard to Article XXV, penultimate paragraph, of the Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Noting CIML Resolutions nos. 2013/7, 2014/6, 2015/5 and 2016/6,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: resolves
       message: |
         Resolves:
         The audited accounts for 2012, 2013, 2014 and 2015 are hereby approved. The CIML President and the BIML Director are finally discharged for the financial management during these years.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: 'Décide que : Les comptes audités pour 2012, 2013, 2014 et 2015 sont à'
     subject: Conférence OIML
@@ -208,31 +209,33 @@ resolutions:
       message: 'Vu l''avant-dernier paragraphe de l''Article XXV de la Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Prenant note des Résolutions du CIML n $ ^{o s} $ 2013/7,2014/6,2015/5
         et 2016/6,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: decides
       message: |
         Décide que :
         Les comptes audités pour 2012, 2013, 2014 et 2015 sont à présent approuvés. Le Président du CIML et le Directeur du BIML sont définitivement déchargés de leur gestion financière desdites années.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/5
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/5
   doi: 10.63493/resolutions/conf201605
   urn: urn:oiml:doc:conf:resolution:15.05
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Resolves: The OIML publications listed in the report in Annex D are hereby
@@ -244,25 +247,25 @@ resolutions:
         Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Noting the report on publications approved by the Committee since
         the 14th Conference in 2012 in Annex D,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: resolves
       message: |
         Resolves:
         The OIML publications listed in the report in Annex D are hereby sanctioned. Member States are reminded of their obligation to implement OIML Recommendations as far as possible.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: 'Décide que : Les publications de l''OIML listées dans le rapport en Annexe
       D'
@@ -273,32 +276,34 @@ resolutions:
         l''Article VIII de la Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport sur les publications approuvées par le Comité
         depuis la 14ème Conférence en 2012 figurant en Annexe D,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: decides
       message: |
         Décide que :
         Les publications de l'OIML listées dans le rapport en Annexe D sont à présent sanctionnées.
         Il est rappelé aux États Membres qu'ils ont l'obligation de mettre en œuvre les Recommandations de l'OIML dans la mesure du possible.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/6
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/6
   doi: 10.63493/resolutions/conf201606
   urn: urn:oiml:doc:conf:resolution:15.06
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: Resolves
@@ -309,16 +314,16 @@ resolutions:
         and Article XXVIII, second paragraph of the Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Noting Resolution no. 2016/10 of the 51st CIML Meeting,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: considering
       message: 'Considering that the total number of base contributory shares, taking
         into account the classification of Member States as reviewed in 2016, is 144
@@ -326,9 +331,9 @@ resolutions:
         the remaining years of the 2017-2020 financial period,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: resolves
       message: |
@@ -337,9 +342,9 @@ resolutions:
         b) The annual base contributory share for the 2017-2020 financial period is €14 000. This results in a total contribution for a Member State classified according to Article XXVI (1) of the Convention in Class 1, Class 2, Class 3 or Class 4 of €56 000, €112 000, €224 000 or $ \epsilon $448 000, respectively;
         c) In the case of the admission of a Member State during the financial period, the overall amount of credits mentioned in a) above is increased by the contributory share of that Member State, calculated from its classification and the base contributory share, proportionate to the period from its admission to the expiry of the financial period;
         d) For the 2017-2020 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: 'Décide que '
     subject: Conférence OIML
@@ -349,17 +354,17 @@ resolutions:
         et le second paragraphe de l''Article XXVIII de la Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Prenant note de la Résolution n $ ^{\circ} $ 2016/10 de la 51 $ ^{\mathrm{e
         m e}} $ Réunion du CIML,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: considering
       message: 'Considérant que le nombre total de parts contributives de base, en
         prenant en considération la classification des États Membres tel que révisée
@@ -367,9 +372,9 @@ resolutions:
         États Membres, de 146 pour les années suivantes de l''exercice financier 2017-2020,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: decides
       message: |
@@ -378,15 +383,17 @@ resolutions:
         b) La part annuelle contributive de base pour l'exercice financier 2017-2020 est de 14 000 euros. Cela entraîne une contribution annuelle totale pour un État Membre classifié conformément à l'Article XXVI (1) de la Convention en Classe 1, Classe 2, Classe 3 ou Classe 4 de 56 000 euros, 112 000 euros, 224 000 euros or 448 000 euros, respectivement ;
         c) En cas d'admission d'un État Membre au cours de l'exercice financier, le montant global de crédits mentionné en a) ci-dessus, est augmenté par la part contributive dudit État Membre, calculée à partir de sa classification et de la part contributive de base, proportionnellement à la période allant de son admission jusqu'à la fin de l'exercice financier ;
         d) Pour l'exercice financier 2017-2020, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/7
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/7
   doi: 10.63493/resolutions/conf201607
   urn: urn:oiml:doc:conf:resolution:15.07
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: Resolves
@@ -396,17 +403,17 @@ resolutions:
       message: 'Having regard to Article XIII of the Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Noting the discussions at the 50th CIML Meeting in 2015 and its Resolution
         no. 2015/19,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: resolves
       message: |
@@ -414,9 +421,9 @@ resolutions:
         a) If the Bureau has been notified that the designated representative of a Member State no longer satisfies the conditions for membership of the Committee and the Member State has not yet designated a new representative, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee;
         b) If the designated representative of a Member State has not responded to any communication from the Bureau for more than six months and the Bureau has made all reasonably possible attempts to contact the designated representative, the Bureau shall seek confirmation from the Member State as to the status of its representative in the Committee, according to a procedure decided by the Committee;
         c) If it is not possible, within a reasonable period of time to be decided by the Committee, to obtain confirmation from the Member State as to the status of its representative in the Committee, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: Décide que
     subject: Conférence OIML
@@ -425,16 +432,16 @@ resolutions:
       message: 'Vu l''Article XIII de la Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: noting
       message: 'Prenant note des discussions de la $ 5 0^{\mathrm{\mathrm
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: decides
       message: |
@@ -442,15 +449,17 @@ resolutions:
         a) Si le Bureau a été informé que le représentant désigné d'un État Membre ne remplit plus les conditions d'appartenance au Comité et que l'État Membre n'a pas encore désigné un nouveau représentant, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité ;
         b) Si le représentant désigné d'un État Membre n'a répondu à aucune communication du Bureau depuis plus de six mois et si le Bureau a fait toutes les tentatives raisonnablement possibles pour contacter le représentant désigné, le Bureau devra chercher la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, selon une procédure décidée par le Comité ;
         c) S'il n'est pas possible, dans un délai raisonnable à fixer par le Comité, d'obtenir la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité.
-      dates:
-      - start: '2016-10-19'
-        kind: effective
-- identifier: Conference/2016/8
+      date_effective:
+        date: '2016-10-19'
+        type: effective
+- identifier:
+  - prefix: Conference
+    number: 2016/8
   doi: 10.63493/resolutions/conf201608
   urn: urn:oiml:doc:conf:resolution:15.08
   dates:
-  - start: '2016-10-19'
-    kind: decision
+  - date: '2016-10-19'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Resolves: The Committee is hereby charged to organize the 16th Conference
@@ -461,17 +470,17 @@ resolutions:
       message: 'Having regard to Article X of the Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: considering
       message: 'Considering the standing practice to organize a Conference once every
         four years,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: resolves
       message: |
@@ -487,9 +496,9 @@ resolutions:
         - approved by the CIML at its 48th Meeting (2013), 49th Meeting (2014) and 50th Meeting (2015), or
         - submitted to the 51st CIML Meeting (2016) for approval.
         2013
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: approves
       message: |
         Approved at the 48th CIML Meeting (Resolutions 2013/11 and 2013/19)
@@ -502,9 +511,9 @@ resolutions:
         - R 100 Atomic absorption spectrometer systems for measuring metal pollutants
         - D 11 General requirements for measuring instruments - Environmental conditions
         - V1 International vocabulary of terms in legal metrology (VIML)
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: approves
       message: |
         Approved at the 49th CIML Meeting (Resolution 2014/15)
@@ -528,9 +537,9 @@ resolutions:
         - Amd R 137-1 Gas meters - Part 1: Metrological and technical requirements
         - Amd R 137-2 Gas meters - Part 2: Metrological controls and performance tests
         2015
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: approves
       message: |
         Approved at the 50th CIML Meeting (Resolution 2015/14)
@@ -544,9 +553,9 @@ resolutions:
         - R 87 Quantity of product in prepackages
         - New R Protein measuring instruments for cereal grains and oilseeds
         - New R Standard blackbody radiator for the temperature range from $ - 5 0 \, ^ {\circ} C $ to $ 2 5 0 0 \, ^ {\circ} C $
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
   - language_code: fra
     title: 'Décide que : Le Comité est à présent chargé d''organiser la 16eme Conférence
       en'
@@ -556,17 +565,17 @@ resolutions:
       message: 'Vu l''Article X de la Convention,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     - type: considering
       message: 'Considérant la pratique actuelle de tenir une Conférence tous les
         quatre ans,
 
         '
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective
     actions:
     - type: decides
       message: |
@@ -623,6 +632,6 @@ resolutions:
         - Nouvelle R Instruments de mesure utilisés pour la détermination des protéines dans les grains
         - et les oléagineux
         - Nouvelle R Radiateur étalon à corps noir pour l'étendue de température de $ - 5 0 \mathrm {^o C} $ à $ 2 5 0 0 \mathrm {^o C} $
-      dates:
-      - start: '2016-10-19'
-        kind: effective
+      date_effective:
+        date: '2016-10-19'
+        type: effective

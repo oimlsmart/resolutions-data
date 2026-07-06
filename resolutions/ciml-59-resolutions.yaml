@@ -1,25 +1,19 @@
 ---
 metadata:
-  dates:
-  - start: '2024-10-22'
-    end: '2024-10-24'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Online meeting
-  city: ''
-  country_code: ''
-  language: en
   title_localized:
   - language_code: eng
     title: 59th CIML Meeting — Resolutions (EN)
   meeting_urn: urn:oiml:ciml:meeting:ciml-59
-resolutions:
-- identifier: CIML/2024/06
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2024/06
   doi: 10.63493/resolutions/ciml202406
   urn: urn:oiml:doc:ciml:resolution:2024-06
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '6'
   localizations:
   - language_code: eng
@@ -31,29 +25,31 @@ resolutions:
       message: 'Welcomes Djibouti as a new Corresponding Member,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: welcomes
       message: 'Welcomes Burkina Faso as a returning Corresponding Member, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: welcomes
       message: 'Welcomes Zimbabwe as a returning Corresponding Member.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/07
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/07
   doi: 10.63493/resolutions/ciml202407
   urn: urn:oiml:doc:ciml:resolution:2024-07
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '7.1'
   localizations:
   - language_code: eng
@@ -66,15 +62,17 @@ resolutions:
         income for 2023, 2024, and 2025 given in 59th CIML Meeting Document 7.1.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/08
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/08
   doi: 10.63493/resolutions/ciml202408
   urn: urn:oiml:doc:ciml:resolution:2024-08
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '7.2'
   localizations:
   - language_code: eng
@@ -86,37 +84,39 @@ resolutions:
         Director''s comments,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: considering
       message: 'Considering the external auditor''s report on the 2023 accounts,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the 2023 accounts, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: instructs
       message: 'Instructs its President to present them to the 17th OIML Conference.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/09
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/09
   doi: 10.63493/resolutions/ciml202409
   urn: urn:oiml:doc:ciml:resolution:2024-09
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '7.2'
   localizations:
   - language_code: eng
@@ -129,24 +129,26 @@ resolutions:
         auditor),
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the extension of this appointment for two additional calendar
         years.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/10
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/10
   doi: 10.63493/resolutions/ciml202410
   urn: urn:oiml:doc:ciml:resolution:2024-10
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '7.3'
   localizations:
   - language_code: eng
@@ -158,23 +160,25 @@ resolutions:
       message: |
         Notes the report given by the BIML Director,
         Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: requests
       message: 'Requests those Members with arrears to bring their situation up to
         date as soon as possible.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/11
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/11
   doi: 10.63493/resolutions/ciml202411
   urn: urn:oiml:doc:ciml:resolution:2024-11
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '7.4'
   localizations:
   - language_code: eng
@@ -187,15 +191,17 @@ resolutions:
         Director.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/12
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/12
   doi: 10.63493/resolutions/ciml202412
   urn: urn:oiml:doc:ciml:resolution:2024-12
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '7.5'
   localizations:
   - language_code: eng
@@ -207,32 +213,34 @@ resolutions:
       message: 'Notes the report of the internal financial audit team,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Mrs Renée Hansson and Dr Charles Ehrlich for conducting the
         financial audit and producing the report,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: acknowledges
       message: 'Acknowledges the conclusions of the report and supports the recommendations
         contained therein, and Requests that its President and the BIML Director ensure
         the implementation of these recommendations.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/13
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/13
   doi: 10.63493/resolutions/ciml202413
   urn: urn:oiml:doc:ciml:resolution:2024-13
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.1
   localizations:
   - language_code: eng
@@ -243,23 +251,25 @@ resolutions:
       message: |
         Noting the proposal from the OIML-CS Management Committee,
         Reconfirms R 50:2014 Continuous totalizing automatic weighing instruments (belt weighers).
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the proposal from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/14
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/14
   doi: 10.63493/resolutions/ciml202414
   urn: urn:oiml:doc:ciml:resolution:2024-14
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.2
   localizations:
   - language_code: eng
@@ -270,23 +280,25 @@ resolutions:
       message: |
         Noting the proposal from the OIML-CS Management Committee,
         Reconfirms R 99:2008 Instruments for measuring vehicle exhaust emissions.
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the proposal from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/15
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/15
   doi: 10.63493/resolutions/ciml202415
   urn: urn:oiml:doc:ciml:resolution:2024-15
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.3
   localizations:
   - language_code: eng
@@ -297,23 +309,25 @@ resolutions:
       message: |
         Noting the proposal from the OIML-CS Management Committee,
         Reconfirms R 106:2011 Automatic rail-weighbridges.
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the proposal from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/16
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/16
   doi: 10.63493/resolutions/ciml202416
   urn: urn:oiml:doc:ciml:resolution:2024-16
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.4
   localizations:
   - language_code: eng
@@ -324,23 +338,25 @@ resolutions:
       message: |
         Noting the proposal from the OIML-CS Management Committee,
         Reconfirms R 107:2007 Discontinuous totalizing automatic weighing instruments (totalizing hopper weighers).
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the proposal from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/17
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/17
   doi: 10.63493/resolutions/ciml202417
   urn: urn:oiml:doc:ciml:resolution:2024-17
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.5
   localizations:
   - language_code: eng
@@ -351,40 +367,42 @@ resolutions:
       message: 'Noting comments from its Members,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the revision of R 49:2013 Water meters for cold potable water
         and hot water,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: welcomes
       message: 'Welcomes the close cooperation with ISO to ensure full harmonisation
         between OIML R 49 and the corresponding ISO standard, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks the Project Group convener and members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/18
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/18
   doi: 10.63493/resolutions/ciml202418
   urn: urn:oiml:doc:ciml:resolution:2024-18
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.6
   localizations:
   - language_code: eng
@@ -396,15 +414,17 @@ resolutions:
       message: 'Approves the revision of B 20:2019 Rules for the use of OIML logos.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/19
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/19
   doi: 10.63493/resolutions/ciml202419
   urn: urn:oiml:doc:ciml:resolution:2024-19
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: 11.1.7
   localizations:
   - language_code: eng
@@ -415,23 +435,25 @@ resolutions:
       message: 'Noting the clarifications requested by its Members,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: approves
       message: 'Approves Amendment 2 to B 7:2013 BIML Staff regulations.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/20
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/20
   doi: 10.63493/resolutions/ciml202420
   urn: urn:oiml:doc:ciml:resolution:2024-20
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '11.2'
   localizations:
   - language_code: eng
@@ -442,24 +464,26 @@ resolutions:
       message: |
         Noting that no proposals for new work projects were put forward for approval at the 59th CIML Meeting,
         Encourages its Members to consider the need for new work projects and submit proposals for approval at the 60th CIML Meeting.
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: notes
       message: 'Noting that no proposals for new work projects were put forward for
         approval at the 59th CIML Meeting,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/21
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/21
   doi: 10.63493/resolutions/ciml202421
   urn: urn:oiml:doc:ciml:resolution:2024-21
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '11.3'
   localizations:
   - language_code: eng
@@ -470,16 +494,16 @@ resolutions:
       message: 'Noting the report on the OIML technical work,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: noting
       message: 'Noting comments from its Members,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the list of high priority publications given in 59th CIML
@@ -487,15 +511,17 @@ resolutions:
         in 59th CIML Meeting Document 11.3.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/22
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/22
   doi: 10.63493/resolutions/ciml202422
   urn: urn:oiml:doc:ciml:resolution:2024-22
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '11.4'
   localizations:
   - language_code: eng
@@ -507,15 +533,17 @@ resolutions:
       message: |
         Notes the report on the current status of OIML activities on e-Learning and other online training,
         Encourages Members to collaborate on this activity by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/23
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/23
   doi: 10.63493/resolutions/ciml202423
   urn: urn:oiml:doc:ciml:resolution:2024-23
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '11.5'
   localizations:
   - language_code: eng
@@ -528,30 +556,32 @@ resolutions:
         of the OIML Bulletin,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors for recent editions, those who have already offered to be Mentors for future editions, and all the contributing authors,
         Encourages Members to nominate themselves as Mentors for key topics of future editions,
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks the BIML Editor, Mr Chris Pulham, for his support in the promotion
         of the OIML Bulletin, and Confirms its continued support for the OIML Bulletin.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/24
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/24
   doi: 10.63493/resolutions/ciml202424
   urn: urn:oiml:doc:ciml:resolution:2024-24
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '12.1'
   localizations:
   - language_code: eng
@@ -564,31 +594,33 @@ resolutions:
         Management Committee (MC) Chairperson,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Mr Marc Schmidt for serving as Acting OIML-CS MC Chairperson,
         and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks the members of the OIML-CS MC, Review Committee, Maintenance
         Group and Working Groups for their work.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/25
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/25
   doi: 10.63493/resolutions/ciml202425
   urn: urn:oiml:doc:ciml:resolution:2024-25
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '12.2'
   localizations:
   - language_code: eng
@@ -599,24 +631,26 @@ resolutions:
       message: 'Noting the recommendation from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr Marc Schmidt as OIML-CS Management Committee Chairperson
         for a three-year term with effect from 1 January 2025.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/26
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/26
   doi: 10.63493/resolutions/ciml202426
   urn: urn:oiml:doc:ciml:resolution:2024-26
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '12.2'
   localizations:
   - language_code: eng
@@ -627,24 +661,26 @@ resolutions:
       message: 'Noting the recommendation from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Ms Katharina Gierschke as OIML-CS Management Committee Deputy
         Chairperson for a three-year term with effect from 1 January 2025.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/27
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/27
   doi: 10.63493/resolutions/ciml202427
   urn: urn:oiml:doc:ciml:resolution:2024-27
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '13.1'
   localizations:
   - language_code: eng
@@ -656,29 +692,31 @@ resolutions:
       message: 'Notes the report of the CEEMS Advisory Group (AG) Chairperson,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Mr Jaco Marneweck for serving as CEEMS AG Chairperson, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks the members of the CEEMS AG for their work.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/28
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/28
   doi: 10.63493/resolutions/ciml202428
   urn: urn:oiml:doc:ciml:resolution:2024-28
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '13.2'
   localizations:
   - language_code: eng
@@ -691,32 +729,34 @@ resolutions:
         with Emerging Metrology Systems (CEEMS),
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: noting
       message: 'Noting the nomination of a candidate from the CEEMS Advisory Group
         (AG) for the position of CEEMS AG Vice-Chairperson,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr Ashutosh Agarwal as CEEMS AG Vice-Chairperson for a three-year
         term with immediate effect.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/29
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/29
   doi: 10.63493/resolutions/ciml202429
   urn: urn:oiml:doc:ciml:resolution:2024-29
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '14.1'
   localizations:
   - language_code: eng
@@ -728,30 +768,32 @@ resolutions:
       message: 'Notes the report of the OIML Digitalisation Task Group (DTG) Chairperson,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Dr Sascha Eichstadt for serving as DTG Chairperson, and Dr
         Yang Ping for serving as Deputy Chairperson,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: |
         Thanks the members of the DTG and its Subcommittees for their work, and
         Encourages its Members to support the DTG by making experts and other resources available to implement future recommendations put forward by the DTG.
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/30
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/30
   doi: 10.63493/resolutions/ciml202430
   urn: urn:oiml:doc:ciml:resolution:2024-30
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '14.2'
   localizations:
   - language_code: eng
@@ -765,23 +807,25 @@ resolutions:
         items for the DTG, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks the members of the DTG and the DTG Steering Committee for their
         work in developing the DTG Roadmap.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/31
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/31
   doi: 10.63493/resolutions/ciml202431
   urn: urn:oiml:doc:ciml:resolution:2024-31
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '14.2'
   localizations:
   - language_code: eng
@@ -794,31 +838,33 @@ resolutions:
         "Smart OIML documents",
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: welcomes
       message: 'Welcomes the strong collaboration of the DTG Subcommittee with ISO
         and the IEC on machine-readable standards and standardisation, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: approves
       message: 'Approves the proposal to align the digitalisation of the OIML''s technical
         work and publications with the corresponding developments in ISO and the IEC.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/32
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/32
   doi: 10.63493/resolutions/ciml202432
   urn: urn:oiml:doc:ciml:resolution:2024-32
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '14.2'
   localizations:
   - language_code: eng
@@ -831,32 +877,34 @@ resolutions:
         "e-Learning",
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: welcomes
       message: 'Welcomes the provision of e-Learning material on digitalisation and
         digital transformation in legal metrology on the OIML platform, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: approves
       message: 'Approves the general concept for an initial course on fundamental
         principles of digitalisation as outlined in 59th CIML Meeting Document 14.2
         and in the report by the DTG Chairperson.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/33
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/33
   doi: 10.63493/resolutions/ciml202433
   urn: urn:oiml:doc:ciml:resolution:2024-33
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '18.1'
   localizations:
   - language_code: eng
@@ -871,31 +919,33 @@ resolutions:
         collaboration amongst the RLMOs,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Dr Charles Ehrlich for serving as RLMO Round Table Chairperson,
         and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks the CIML Member for Colombia, Mr Pedro Pérez Vargas, for taking
         over as the new Chairperson of the RLMO Round Table.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/34
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/34
   doi: 10.63493/resolutions/ciml202434
   urn: urn:oiml:doc:ciml:resolution:2024-34
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '18.2'
   localizations:
   - language_code: eng
@@ -907,15 +957,17 @@ resolutions:
       message: 'Notes the report on OIML activities with organisations in liaison.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/35
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/35
   doi: 10.63493/resolutions/ciml202435
   urn: urn:oiml:doc:ciml:resolution:2024-35
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '18.2'
   localizations:
   - language_code: eng
@@ -927,32 +979,34 @@ resolutions:
         Measurement,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: requests
       message: 'Requests Dr Charles Ehrlich to represent the OIML on the Consultative
         Committee for Units (CCU), and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Dr Rado Lapuh (Slovenia) for having represented the OIML on
         the CCU in recent years.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/36
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/36
   doi: 10.63493/resolutions/ciml202436
   urn: urn:oiml:doc:ciml:resolution:2024-36
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '18.3'
   localizations:
   - language_code: eng
@@ -964,31 +1018,33 @@ resolutions:
       message: 'Notes the written reports provided by organisations in liaison,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks their representatives for providing this information to the
         Committee, and
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks Samuel Schmidt (CECIP) and Rob Knake (ILAC) for their presentations
         to the Committee.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/37
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/37
   doi: 10.63493/resolutions/ciml202437
   urn: urn:oiml:doc:ciml:resolution:2024-37
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '18.4'
   localizations:
   - language_code: eng
@@ -1001,9 +1057,9 @@ resolutions:
         of climate change in legal metrology activities,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: requests
       message: 'Requests the BIML to complete the procedures necessary for the OIML
@@ -1011,22 +1067,24 @@ resolutions:
         on Climate Change (UNFCCC),
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: requests
       message: |
         Requests the BIML to continue to engage with other stakeholders in the field of climate change, and
         Encourages its Members to promote the use of legal metrology as an important tool in climate change mitigation and in the energy transition.
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/38
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/38
   doi: 10.63493/resolutions/ciml202438
   urn: urn:oiml:doc:ciml:resolution:2024-38
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '19.1'
   localizations:
   - language_code: eng
@@ -1038,15 +1096,17 @@ resolutions:
       message: 'Congratulates this year''s recipients of an OIML Medal,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/39
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/39
   doi: 10.63493/resolutions/ciml202439
   urn: urn:oiml:doc:ciml:resolution:2024-39
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '19.2'
   localizations:
   - language_code: eng
@@ -1058,15 +1118,17 @@ resolutions:
       message: 'Congratulates this year''s recipients of an OIML Letter of Appreciation,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/40
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/40
   doi: 10.63493/resolutions/ciml202440
   urn: urn:oiml:doc:ciml:resolution:2024-40
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '20.1'
   localizations:
   - language_code: eng
@@ -1077,40 +1139,42 @@ resolutions:
       message: |
         Noting the result of the secret ballot on the host for these meetings,
         Selects Saudi Arabia to host the meetings, and
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: notes
       message: 'Notes the information provided on the organisation of the 60th CIML
         Meeting and 17th OIML Conference in 2025,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: thanks
       message: 'Thanks India and Saudi Arabia for their invitations to host the 60th
         CIML Meeting and 17th OIML Conference in 2025,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     - type: instructs
       message: 'Instructs the Bureau to make the necessary arrangements to organise
         the 60th CIML Meeting and 17th OIML Conference in 2025.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
-- identifier: CIML/2024/41
+      date_effective:
+        date: '2024-10-22'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2024/41
   doi: 10.63493/resolutions/ciml202441
   urn: urn:oiml:doc:ciml:resolution:2024-41
   dates:
-  - start: '2024-10-22'
-    kind: decision
+  - date: '2024-10-22'
+    type: decided
   agenda_item: '20.3'
   localizations:
   - language_code: eng
@@ -1122,14 +1186,14 @@ resolutions:
         Meeting in 2026,
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
     actions:
     - type: confirms
       message: 'Confirms the decision expressed in its Resolution CIML/2023/41.
 
         '
-      dates:
-      - start: '2024-10-22'
-        kind: effective
+      date_effective:
+        date: '2024-10-22'
+        type: effective
