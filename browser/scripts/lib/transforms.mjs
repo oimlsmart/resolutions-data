@@ -40,6 +40,23 @@ export function isAcclamation(identifier) {
   return String(identifier).includes('-acclaim-')
 }
 
+// HTML id for an agenda item on the meeting detail page. Used as the
+// URL fragment target so resolution pages can deep-link to the item.
+// Dots in labels (e.g. "9.2") are valid in id attributes but break
+// jQuery-style CSS selectors; we keep the dot since we only use the id
+// as a URL fragment anchor.
+export function agendaItemAnchor(label) {
+  return label ? `agenda-${label}` : ''
+}
+
+// Canonical URN for an agenda item, scoped under the meeting URN.
+//   urn:oiml:conference:meeting:conference-17 + "13"
+//     → urn:oiml:conference:meeting:conference-17:agenda:13
+export function agendaItemUrn(meetingUrn, label) {
+  if (!meetingUrn || !label) return ''
+  return `${meetingUrn}:agenda:${label}`
+}
+
 export function deriveDisplayTitle(res, acclamation) {
   if (res.title) return res.title
   if (acclamation && res.actions && res.actions.length > 0) return 'Acclamation'
@@ -87,6 +104,7 @@ export function buildResolutionRecords(res, sourceFile, metadata) {
     is_acclamation: acclamation,
     dates: (res.dates || []).map(d => ({ start: d.date || d.start, kind: d.type || d.kind })),
     agenda_item: res.agenda_item || '',
+    agenda_item_urn: agendaItemUrn(metadata.meeting_urn, res.agenda_item),
   }
 
   // Pick the meeting collection title from metadata.title_localized[]

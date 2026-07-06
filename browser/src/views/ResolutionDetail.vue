@@ -36,7 +36,15 @@
       <div class="std-page__meta res-detail-meta">
         <span v-if="resolution.is_acclamation" class="std-page__badge res-detail-badge--acclamation">Acclamation</span>
         <span v-else-if="resolution.id" class="std-page__badge font-mono badge-id">{{ resolution.identifier || resolution.id }}</span>
-        <span v-if="resolution.agenda_item" class="std-page__badge badge-agenda-item">{{ t('meeting.agendaItem') }} {{ resolution.agenda_item }}</span>
+        <router-link
+          v-if="resolution.agenda_item && resolution.meeting_slug"
+          :to="{ name: 'meeting-detail', params: { lang: lang, meetingSlug: resolution.meeting_slug }, hash: `#agenda-${resolution.agenda_item}` }"
+          class="std-page__badge std-page__badge--link badge-agenda-item"
+          :title="resolution.agenda_item_urn"
+        >
+          {{ t('meeting.agendaItem') }} {{ resolution.agenda_item }}
+        </router-link>
+        <span v-else-if="resolution.agenda_item" class="std-page__badge badge-agenda-item">{{ t('meeting.agendaItem') }} {{ resolution.agenda_item }}</span>
         
         <router-link
           v-if="resolution.meeting_slug"

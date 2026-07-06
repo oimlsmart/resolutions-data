@@ -55,6 +55,7 @@ export interface Resolution {
   urn?: string
   meeting_urn?: string
   agenda_item?: string
+  agenda_item_urn?: string
 }
 
 export type MeetingBodyType = 'ciml' | 'conference'
@@ -103,4 +104,5 @@ export interface AgendaItem {
   kind: string
   title: string
   outcome: string
+  urn?: string
 }

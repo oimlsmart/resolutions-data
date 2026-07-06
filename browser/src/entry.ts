@@ -6,7 +6,27 @@ import './assets/main.css'
 
 export const createApp = ViteSSG(
   App,
-  { routes, base: import.meta.env.BASE_URL },
+  {
+    routes,
+    base: import.meta.env.BASE_URL,
+    scrollBehavior(to, _from, savedPosition) {
+      if (to.hash) {
+        // Wait for the next tick so the target view has mounted.
+        return new Promise((resolve) => {
+          setTimeout(() => {
+            const el = document.querySelector(to.hash)
+            if (el) {
+              resolve({ el, behavior: 'smooth', top: 80 })
+            } else {
+              resolve({ top: 0 })
+            }
+          }, 100)
+        })
+      }
+      if (savedPosition) return savedPosition
+      return { top: 0 }
+    },
+  },
   async () => {
     if (import.meta.env.SSR) {
       const { readFileSync } = await import('node:fs')

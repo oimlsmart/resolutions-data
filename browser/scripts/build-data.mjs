@@ -6,6 +6,7 @@ import {
   buildResolutionRecords,
   buildMeetingDoi,
   sortResolutions,
+  agendaItemUrn,
 } from './lib/transforms.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -39,14 +40,18 @@ function sourceFileFromResolutionRefUrn(urn) {
   return m ? m[1] : null;
 }
 
-// Read agendas/<slug>.yaml and return the items array. Returns [] if
-// no agenda file exists.
-function loadAgendaItems(slug) {
+// Read agendas/<slug>.yaml and return the items array, each enriched
+// with a `urn` derived from the meeting URN. Returns [] if no agenda
+// file exists.
+function loadAgendaItems(slug, meetingUrn) {
   const agendaPath = path.join(AGENDAS_DIR, `${slug}.yaml`);
   if (!fs.existsSync(agendaPath)) return [];
   try {
     const data = yaml.load(fs.readFileSync(agendaPath, 'utf8'));
-    return data?.items || [];
+    return (data?.items || []).map(item => ({
+      ...item,
+      urn: agendaItemUrn(meetingUrn, item.label),
+    }));
   } catch {
     return [];
   }
@@ -91,7 +96,7 @@ function loadMeetingYamls() {
         language_code: m.language_code,
       })),
       resolution_ref: parsed.resolution_refs || [],
-      agenda_items: loadAgendaItems(slug),
+      agenda_items: loadAgendaItems(slug, parsed.urn),
       // Per-meeting metadata; the first resolution YAML we encounter
       // for this meeting will fill in source_title/venue/date/city/...
       source_title: localizations[0]?.title || '',
