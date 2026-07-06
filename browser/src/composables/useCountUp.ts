@@ -1,7 +1,11 @@
 import { ref, watch, type Ref, onUnmounted } from 'vue'
 
 export function useCountUp(target: Ref<number> | number, isReady: Ref<boolean>, duration: number = 1500) {
-  const current = ref(0)
+  // During SSR (no requestAnimationFrame) the animation never runs, so
+  // seed `current` with the target value to avoid rendering "0" in the
+  // SSG'd HTML.
+  const initialTarget = typeof target === 'number' ? target : target.value
+  const current = ref(isReady.value ? initialTarget : 0)
   let startTime: number | null = null
   let animationFrame: number | null = null
 

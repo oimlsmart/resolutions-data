@@ -1,4 +1,4 @@
-import { computed, onMounted, ref, type ComputedRef, type Ref } from 'vue'
+import { computed, ref, onMounted, type ComputedRef, type Ref } from 'vue'
 import { useResolutions } from './useResolutions'
 import type { Meeting, MeetingBodyType } from '../types/resolution'
 
@@ -15,6 +15,13 @@ export interface DecadeGroup {
   accCount: number
   meetings: Meeting[]
 }
+
+// Module-level store so all callers of useMeetings() share the same
+// meetings list. Without this, every component that calls
+// useMeetings() would get its own empty ref and the SSG-rendered
+// meetings page would always show "0 meetings".
+const meetings = ref<Meeting[]>([]) as Ref<Meeting[]>
+let meetingsLoaded = false
 
 export function groupMeetingsByDecade(meetings: Meeting[]): DecadeGroup[] {
   const decades: Record<string, { meetings: Meeting[]; resCount: number; accCount: number }> = {}
@@ -44,14 +51,6 @@ export function groupMeetingsByDecade(meetings: Meeting[]): DecadeGroup[] {
 export function useMeetings() {
   const { resolutions, isLoaded, loadData } = useResolutions()
 
-  // The canonical meetings list is loaded from /data/meetings.json so
-  // that meetings with zero resolutions (skeleton-only, e.g. CIML 4-14
-  // for which we have no Bulletin scans) still appear in the listing.
-  // The source of truth is meetings/*.yaml, not the resolution
-  // collection.
-  const meetings = ref<Meeting[]>([]) as Ref<Meeting[]>
-  let meetingsLoaded = false
-
   async function loadMeetings() {
     if (meetingsLoaded) return
     meetingsLoaded = true
@@ -61,6 +60,14 @@ export function useMeetings() {
     } catch (e) {
       console.error('Failed to load meetings.json', e)
     }
+  }
+
+  // SSR / SSG entry hook: pre-populate the meetings store from a
+  // server-side file read so the rendered HTML includes the meetings
+  // list (otherwise SSG emits "0 meetings" / empty-state).
+  function setMeetings(data: Meeting[]) {
+    meetings.value = data
+    meetingsLoaded = true
   }
 
   const allMeetings: ComputedRef<Meeting[]> = computed(() => meetings.value)
@@ -103,5 +110,6 @@ export function useMeetings() {
     meetings: allMeetings,
     getMeeting,
     getMeetingResolutions,
+    setMeetings,
   }
 }
