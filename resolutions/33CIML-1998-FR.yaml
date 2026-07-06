@@ -24,8 +24,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION DU CIML
-    subject: CIML
+    title: 'Agenda Item 1: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION
+      DU CIML'
     considerations: []
     actions:
     - type: notes
@@ -36,6 +36,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1998/2
@@ -46,10 +47,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
-    subject: CIML
+    title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1998/2.1
@@ -60,8 +61,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Nouveaux membres - Adhésions attendues
-    subject: CIML
+    title: 'Agenda Item 2.1: Nouveaux membres - Adhésions attendues'
     considerations: []
     actions:
     - type: notes
@@ -77,6 +77,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 1998/2.2
@@ -87,8 +88,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Situation de certains Membres
-    subject: CIML
+    title: 'Agenda Item 2.2: Situation de certains Membres'
     considerations: []
     actions:
     - type: notes
@@ -105,6 +105,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1998/2.3
@@ -115,9 +116,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Propositions visant à accroître la participation des Membres Correspondants
-      à certaines activités de…
-    subject: CIML
+    title: 'Agenda Item 2.3: Propositions visant à accroître la participation des
+      Membres Correspondants à certaines activités de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -132,6 +132,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '2.3'
 - identifier:
   - prefix: CIML
     number: 1998/3
@@ -142,10 +143,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: QUESTIONS FINANCIÈRES
-    subject: CIML
+    title: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1998/3.1
@@ -156,8 +157,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Adoption du rapport comptable pour 1997
-    subject: CIML
+    title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1997'
     considerations: []
     actions:
     - type: notes
@@ -169,6 +169,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 1998/3.2
@@ -179,8 +180,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de la situation financiere pour 1998
-    subject: CIML
+    title: 'Agenda Item 3.2: Examen de la situation financiere pour 1998'
     considerations: []
     actions:
     - type: notes
@@ -191,6 +191,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 1998/3.3
@@ -201,8 +202,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen des budgets pour 1999 et 2000
-    subject: CIML
+    title: 'Agenda Item 3.3: Examen des budgets pour 1999 et 2000'
     considerations: []
     actions:
     - type: notes
@@ -218,6 +218,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '3.3'
 - identifier:
   - prefix: CIML
     number: 1998/4
@@ -228,10 +229,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: POLITIQUE À LONG TERME DE L'OIML
-    subject: CIML
+    title: 'Agenda Item 4: POLITIQUE À LONG TERME DE L''OIML'
     considerations: []
     actions: []
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1998/4.1
@@ -242,9 +243,9 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Informations sur le Séminaire International le Rôle de la Métrologie dans
-      le Développement Économiqu…
-    subject: CIML
+    title: 'Agenda Item 4.1: Informations sur le Séminaire International le Rôle de
+      la Métrologie dans le Développement Économique et Social (Braunschweig, juin
+      1998) et son éventuel impact sur la politique à long terme de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -261,6 +262,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '4.1'
 - identifier:
   - prefix: CIML
     number: 1998/4.2
@@ -271,8 +273,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Le Rapport Birkeland
-    subject: CIML
+    title: 'Agenda Item 4.2: Le Rapport Birkeland'
     considerations: []
     actions:
     - type: notes
@@ -283,6 +284,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '4.2'
 - identifier:
   - prefix: CIML
     number: 1998/5
@@ -293,10 +295,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: PAYS EN DEVELOPEMENT
-    subject: CIML
+    title: 'Agenda Item 5: PAYS EN DEVELOPEMENT'
     considerations: []
     actions: []
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1998/5.1
@@ -307,11 +309,12 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Informations sur les résultats du Séminaire International de Braunschweig
-      et sur la réunion du Conse…
-    subject: CIML
+    title: 'Agenda Item 5.1: Informations sur les résultats du Séminaire International
+      de Braunschweig et sur la réunion du Conseil de Développement de l''OIML tenue
+      le 28 octobre 1998, et'
     considerations: []
     actions: []
+  agenda_item: '5.1'
 - identifier:
   - prefix: CIML
     number: 1998/5.2
@@ -322,8 +325,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de propositions du Conseil de Développement
-    subject: CIML
+    title: 'Agenda Item 5.2: Examen de propositions du Conseil de Développement'
     considerations: []
     actions:
     - type: notes
@@ -335,6 +337,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '5.2'
 - identifier:
   - prefix: CIML
     number: 1998/6
@@ -345,10 +348,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES
-    subject: CIML
+    title: 'Agenda Item 6: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES'
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1998/6.1
@@ -359,8 +362,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: BIPM et ILAC
-    subject: CIML
+    title: 'Agenda Item 6.1: BIPM et ILAC'
     considerations: []
     actions:
     - type: notes
@@ -381,6 +383,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 1998/6.2
@@ -391,8 +394,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: JCGM
-    subject: CIML
+    title: 'Agenda Item 6.2: JCGM'
     considerations: []
     actions:
     - type: notes
@@ -409,6 +411,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 1998/6.3
@@ -419,8 +422,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: OMC
-    subject: CIML
+    title: 'Agenda Item 6.3: OMC'
     considerations: []
     actions:
     - type: notes
@@ -433,6 +435,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '6.3'
 - identifier:
   - prefix: CIML
     number: 1998/6.4
@@ -443,8 +446,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Autres
-    subject: CIML
+    title: 'Agenda Item 6.4: Autres'
     considerations: []
     actions:
     - type: notes
@@ -459,6 +461,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 1998/7
@@ -469,9 +472,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS D'ESSAI, À L'ACCRÉDITATION,
-      etc.
-    subject: CIML
+    title: 'Agenda Item 7: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS
+      D''ESSAI, À L''ACCRÉDITATION, etc.'
     considerations: []
     actions:
     - type: notes
@@ -489,6 +491,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1998/8
@@ -499,10 +502,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ACTIVITÉS TECHNIQUES
-    subject: CIML
+    title: 'Agenda Item 8: ACTIVITÉS TECHNIQUES'
     considerations: []
     actions: []
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1998/8.1
@@ -513,8 +516,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de la situation de certains TC/SC
-    subject: CIML
+    title: 'Agenda Item 8.1: Examen de la situation de certains TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -527,6 +529,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '8.1'
 - identifier:
   - prefix: CIML
     number: 1998/8.2
@@ -537,8 +540,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Approbation de Recommandations Internationales
-    subject: CIML
+    title: 'Agenda Item 8.2: Approbation de Recommandations Internationales'
     considerations: []
     actions:
     - type: notes
@@ -568,6 +570,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '8.2'
 - identifier:
   - prefix: CIML
     number: 1998/8.3
@@ -578,9 +581,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Disponibilité des Publications OIML sur papier, sur support électronique
-      et via Internet
-    subject: CIML
+    title: 'Agenda Item 8.3: Disponibilité des Publications OIML sur papier, sur support
+      électronique et via Internet'
     considerations: []
     actions:
     - type: notes
@@ -601,6 +603,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '8.3'
 - identifier:
   - prefix: CIML
     number: 1998/9
@@ -611,10 +614,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SYSTÈME DE CERTIFICATS OIML
-    subject: CIML
+    title: 'Agenda Item 9: SYSTÈME DE CERTIFICATS OIML'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1998/9.1
@@ -625,10 +628,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Informations sur le fonctionnement du Système
-    subject: CIML
+    title: 'Agenda Item 9.1: Informations sur le fonctionnement du Système'
     considerations: []
     actions: []
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 1998/9.2
@@ -639,10 +642,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Développements du Système
-    subject: CIML
+    title: 'Agenda Item 9.2: Développements du Système'
     considerations: []
     actions: []
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 1998/9.3
@@ -653,8 +656,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Nouvelles Recommandations applicables au Système
-    subject: CIML
+    title: 'Agenda Item 9.3: Nouvelles Recommandations applicables au Système'
     considerations: []
     actions:
     - type: notes
@@ -664,6 +666,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 1998/10
@@ -674,8 +677,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: RAPPORT SUR LES ACTIVITÉS DU BIML
-    subject: CIML
+    title: 'Agenda Item 10: RAPPORT SUR LES ACTIVITÉS DU BIML'
     considerations: []
     actions:
     - type: notes
@@ -687,6 +689,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1998/11
@@ -697,10 +700,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: AUTRES QUESTIONS
-    subject: CIML
+    title: 'Agenda Item 11: AUTRES QUESTIONS'
     considerations: []
     actions: []
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1998/11.1
@@ -711,8 +714,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Vice-Président du CIML
-    subject: CIML
+    title: 'Agenda Item 11.1: Vice-Président du CIML'
     considerations: []
     actions:
     - type: notes
@@ -723,6 +725,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.1'
 - identifier:
   - prefix: CIML
     number: 1998/11.2
@@ -733,8 +736,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Directeur du BIML
-    subject: CIML
+    title: 'Agenda Item 11.2: Directeur du BIML'
     considerations: []
     actions:
     - type: notes
@@ -746,6 +748,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.2'
 - identifier:
   - prefix: CIML
     number: 1998/11.3
@@ -756,8 +759,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Adjoint au Directeur du BIML
-    subject: CIML
+    title: 'Agenda Item 11.3: Adjoint au Directeur du BIML'
     considerations: []
     actions:
     - type: notes
@@ -770,6 +772,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.3'
 - identifier:
   - prefix: CIML
     number: 1998/11.4
@@ -780,8 +783,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Demandes de l'APLMF
-    subject: CIML
+    title: 'Agenda Item 11.4: Demandes de l''APLMF'
     considerations: []
     actions:
     - type: notes
@@ -791,6 +793,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.4'
 - identifier:
   - prefix: CIML
     number: 1998/11.5
@@ -801,8 +804,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Séminaire technique
-    subject: CIML
+    title: 'Agenda Item 11.5: Séminaire technique'
     considerations: []
     actions:
     - type: notes
@@ -815,6 +817,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.5'
 - identifier:
   - prefix: CIML
     number: 1998/12
@@ -825,10 +828,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: FUTURES RÉUNIONS
-    subject: CIML
+    title: 'Agenda Item 12: FUTURES RÉUNIONS'
     considerations: []
     actions: []
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1998/12.1
@@ -839,8 +842,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 34ème Réunion du CIML (1999)
-    subject: CIML
+    title: 'Agenda Item 12.1: 34ème Réunion du CIML (1999)'
     considerations: []
     actions:
     - type: notes
@@ -858,6 +860,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '12.1'
 - identifier:
   - prefix: CIML
     number: 1998/12.2
@@ -868,8 +871,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 35ème Réunion du CIML et Onzième Conférence de l'OIML (2000)
-    subject: CIML
+    title: 'Agenda Item 12.2: 35ème Réunion du CIML et Onzième Conférence de l''OIML
+      (2000)'
     considerations: []
     actions:
     - type: notes
@@ -884,6 +887,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '12.2'
 - identifier:
   - prefix: CIML
     number: 1998/12.3
@@ -894,8 +898,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 36ème Réunion du CIML (2001)
-    subject: CIML
+    title: 'Agenda Item 12.3: 36ème Réunion du CIML (2001)'
     considerations: []
     actions:
     - type: notes
@@ -912,6 +915,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '12.3'
 - identifier:
   - prefix: CIML
     number: 1998/13
@@ -922,8 +926,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ADOPTION DES DÉCISIONS
-    subject: CIML
+    title: 'Agenda Item 13: ADOPTION DES DÉCISIONS'
     considerations: []
     actions:
     - type: notes
@@ -934,6 +937,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 1998/1
@@ -944,8 +948,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: APPROBATION DU COMPTE RENDU DE LA 32'EME RÉUNION DU CIML
-    subject: CIML
+    title: 'Agenda Item 1: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION
+      DU CIML'
     considerations: []
     actions:
     - type: notes
@@ -955,6 +959,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1998/2
@@ -965,10 +970,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
-    subject: CIML
+    title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1998/2.1
@@ -979,8 +984,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Nouveaux Membres - Adhésions attendues
-    subject: CIML
+    title: 'Agenda Item 2.1: Nouveaux membres - Adhésions attendues'
     considerations: []
     actions:
     - type: notes
@@ -993,6 +997,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 1998/2.2
@@ -1003,8 +1008,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Situation de certains Membres
-    subject: CIML
+    title: 'Agenda Item 2.2: Situation de certains Membres'
     considerations: []
     actions:
     - type: notes
@@ -1021,6 +1025,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1998/2.3
@@ -1031,9 +1036,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Propositions visant à accroître la participation des Membres Correspondants
-      à certaines activités de…
-    subject: CIML
+    title: 'Agenda Item 2.3: Propositions visant à accroître la participation des
+      Membres Correspondants à certaines activités de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -1050,6 +1054,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '2.3'
 - identifier:
   - prefix: CIML
     number: 1998/3
@@ -1060,10 +1065,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SITUATION FINANCIÈRE
-    subject: CIML
+    title: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1998/3.1
@@ -1074,8 +1079,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Approbation du rapport comptable pour 1997
-    subject: CIML
+    title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1997'
     considerations: []
     actions:
     - type: notes
@@ -1086,6 +1090,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 1998/3.2
@@ -1096,8 +1101,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de la situation financière pour 1998
-    subject: CIML
+    title: 'Agenda Item 3.2: Examen de la situation financiere pour 1998'
     considerations: []
     actions:
     - type: notes
@@ -1108,6 +1112,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 1998/3.3
@@ -1118,8 +1123,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen des budgets pour 1999 et 2000
-    subject: CIML
+    title: 'Agenda Item 3.3: Examen des budgets pour 1999 et 2000'
     considerations: []
     actions:
     - type: notes
@@ -1131,6 +1135,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '3.3'
 - identifier:
   - prefix: CIML
     number: 1998/4
@@ -1141,8 +1146,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: POLITIQUE À LONG TERME DE L'OIML
-    subject: CIML
+    title: 'Agenda Item 4: POLITIQUE À LONG TERME DE L''OIML'
     considerations: []
     actions:
     - type: notes
@@ -1153,6 +1157,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1998/4.2
@@ -1163,8 +1168,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: L'Étude Birkeland
-    subject: CIML
+    title: 'Agenda Item 4.2: Le Rapport Birkeland'
     considerations: []
     actions:
     - type: notes
@@ -1183,6 +1187,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '4.2'
 - identifier:
   - prefix: CIML
     number: 1998/5
@@ -1193,10 +1198,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: PAYS EN DÉVELOPEMENT
-    subject: CIML
+    title: 'Agenda Item 5: PAYS EN DEVELOPEMENT'
     considerations: []
     actions: []
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1998/5.1
@@ -1207,9 +1212,9 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Informations sur les résultats du Séminaire International de Braunschweig
-      et sur la réunion du Conse…
-    subject: CIML
+    title: 'Agenda Item 5.1: Informations sur les résultats du Séminaire International
+      de Braunschweig et sur la réunion du Conseil de Développement de l''OIML tenue
+      le 28 octobre 1998, et'
     considerations: []
     actions:
     - type: notes
@@ -1221,6 +1226,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '5.1'
 - identifier:
   - prefix: CIML
     number: 1998/5.2
@@ -1231,8 +1237,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de propositions en provenance du Conseil de Développement
-    subject: CIML
+    title: 'Agenda Item 5.2: Examen de propositions du Conseil de Développement'
     considerations: []
     actions:
     - type: notes
@@ -1248,6 +1253,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '5.2'
 - identifier:
   - prefix: CIML
     number: 1998/6
@@ -1258,8 +1264,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: LIAISONS AVEC DES INSTITUTIONS INTERNATIONALES ET RÉGIONALES
-    subject: CIML
+    title: 'Agenda Item 6: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES'
     considerations: []
     actions:
     - type: notes
@@ -1269,6 +1274,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1998/6.4
@@ -1279,8 +1285,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Autres
-    subject: CIML
+    title: 'Agenda Item 6.4: Autres'
     considerations: []
     actions:
     - type: notes
@@ -1292,6 +1297,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 1998/7
@@ -1302,9 +1308,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS D'ESSAIS, À
-      L'ACCRÉDITATION, ETC.
-    subject: CIML
+    title: 'Agenda Item 7: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS
+      D''ESSAI, À L''ACCRÉDITATION, etc.'
     considerations: []
     actions:
     - type: notes
@@ -1327,6 +1332,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1998/8
@@ -1337,10 +1343,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ACTIVITÉS TECHNIQUES
-    subject: CIML
+    title: 'Agenda Item 8: ACTIVITÉS TECHNIQUES'
     considerations: []
     actions: []
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1998/8.1
@@ -1351,8 +1357,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de la situation de certains TC/SC
-    subject: CIML
+    title: 'Agenda Item 8.1: Examen de la situation de certains TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -1372,6 +1377,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '8.1'
 - identifier:
   - prefix: CIML
     number: 1998/8.2
@@ -1382,8 +1388,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Approbation de Recommandations Internationales
-    subject: CIML
+    title: 'Agenda Item 8.2: Approbation de Recommandations Internationales'
     considerations: []
     actions:
     - type: notes
@@ -1393,6 +1398,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '8.2'
 - identifier:
   - prefix: CIML
     number: 1998/8.3
@@ -1403,9 +1409,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Disponibilité des Publications OIML sur papier, sur support électronique
-      et via Internet
-    subject: CIML
+    title: 'Agenda Item 8.3: Disponibilité des Publications OIML sur papier, sur support
+      électronique et via Internet'
     considerations: []
     actions:
     - type: notes
@@ -1418,6 +1423,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '8.3'
 - identifier:
   - prefix: CIML
     number: 1998/9
@@ -1428,10 +1434,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SYSTEME DE CERTIFICATS OIML
-    subject: CIML
+    title: 'Agenda Item 9: SYSTÈME DE CERTIFICATS OIML'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1998/9.1
@@ -1442,10 +1448,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Informations sur le fonctionnement du Système
-    subject: CIML
+    title: 'Agenda Item 9.1: Informations sur le fonctionnement du Système'
     considerations: []
     actions: []
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 1998/9.2
@@ -1456,8 +1462,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Développements du Système
-    subject: CIML
+    title: 'Agenda Item 9.2: Développements du Système'
     considerations: []
     actions:
     - type: notes
@@ -1470,6 +1475,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 1998/9.3
@@ -1480,8 +1486,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Nouvelles Recommandations applicables au Système
-    subject: CIML
+    title: 'Agenda Item 9.3: Nouvelles Recommandations applicables au Système'
     considerations: []
     actions:
     - type: notes
@@ -1492,6 +1497,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 1998/10
@@ -1502,8 +1508,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: RAPPORT SUR LES ACTIVITÉS DU BIML
-    subject: CIML
+    title: 'Agenda Item 10: RAPPORT SUR LES ACTIVITÉS DU BIML'
     considerations: []
     actions:
     - type: notes
@@ -1515,6 +1520,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1998/11
@@ -1525,10 +1531,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: AUTRES QUESTIONS
-    subject: CIML
+    title: 'Agenda Item 11: AUTRES QUESTIONS'
     considerations: []
     actions: []
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1998/11.1
@@ -1539,8 +1545,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Vice-Président du CIML
-    subject: CIML
+    title: 'Agenda Item 11.1: Vice-Président du CIML'
     considerations: []
     actions:
     - type: notes
@@ -1551,6 +1556,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.1'
 - identifier:
   - prefix: CIML
     number: 1998/11.2
@@ -1561,8 +1567,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Directeur du BIML
-    subject: CIML
+    title: 'Agenda Item 11.2: Directeur du BIML'
     considerations: []
     actions:
     - type: notes
@@ -1573,6 +1578,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.2'
 - identifier:
   - prefix: CIML
     number: 1998/11.3
@@ -1583,8 +1589,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Adjoint au Directeur du BIML
-    subject: CIML
+    title: 'Agenda Item 11.3: Adjoint au Directeur du BIML'
     considerations: []
     actions:
     - type: notes
@@ -1595,6 +1600,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.3'
 - identifier:
   - prefix: CIML
     number: 1998/11.4
@@ -1605,8 +1611,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Demandes de l'APLMF
-    subject: CIML
+    title: 'Agenda Item 11.4: Demandes de l''APLMF'
     considerations: []
     actions:
     - type: notes
@@ -1626,6 +1631,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.4'
 - identifier:
   - prefix: CIML
     number: 1998/11.5
@@ -1636,8 +1642,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Séminaire technique
-    subject: CIML
+    title: 'Agenda Item 11.5: Séminaire technique'
     considerations: []
     actions:
     - type: notes
@@ -1648,6 +1653,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '11.5'
 - identifier:
   - prefix: CIML
     number: 1998/12
@@ -1658,10 +1664,10 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: FUTURES RÉUNIONS
-    subject: CIML
+    title: 'Agenda Item 12: FUTURES RÉUNIONS'
     considerations: []
     actions: []
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1998/12.1
@@ -1672,8 +1678,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 34ème réunion du CIML (1999)
-    subject: CIML
+    title: 'Agenda Item 12.1: 34ème Réunion du CIML (1999)'
     considerations: []
     actions:
     - type: notes
@@ -1685,6 +1690,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '12.1'
 - identifier:
   - prefix: CIML
     number: 1998/12.2
@@ -1695,8 +1701,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 35ème réunion du CIML et Onzième Conférence de l'OIML (2000)
-    subject: CIML
+    title: 'Agenda Item 12.2: 35ème Réunion du CIML et Onzième Conférence de l''OIML
+      (2000)'
     considerations: []
     actions:
     - type: notes
@@ -1708,6 +1714,7 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '12.2'
 - identifier:
   - prefix: CIML
     number: 1998/12.3
@@ -1718,8 +1725,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 36ème réunion du CIML (2001)
-    subject: CIML
+    title: 'Agenda Item 12.3: 36ème Réunion du CIML (2001)'
     considerations: []
     actions:
     - type: notes
@@ -1730,3 +1736,4 @@ decisions:
       date_effective:
         date: '1998-10-28'
         type: effective
+  agenda_item: '12.3'

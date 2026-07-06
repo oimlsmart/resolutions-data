@@ -19,8 +19,7 @@ decisions:
   agenda_item: '2'
   localizations:
   - language_code: eng
-    title: Agenda item 2
-    subject: CIML
+    title: 'Agenda Item 2: Adoption of the agenda'
     considerations: []
     actions:
     - type: approves
@@ -31,8 +30,7 @@ decisions:
         date: '2021-10-19'
         type: effective
   - language_code: fra
-    title: Approuve l'ordre du jour de la 56ème Réunion du CIML.
-    subject: CIML
+    title: 'Agenda Item 2: Adoption of the agenda'
     considerations: []
     actions:
     - type: approves
@@ -53,8 +51,7 @@ decisions:
   agenda_item: '3'
   localizations:
   - language_code: eng
-    title: Agenda item 3
-    subject: CIML
+    title: 'Agenda Item 3: Minutes of the 55th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -65,8 +62,7 @@ decisions:
         date: '2021-10-19'
         type: effective
   - language_code: fra
-    title: Approuve le compte rendu de la 55ème Réunion du CIML.
-    subject: CIML
+    title: 'Agenda Item 3: Minutes of the 55th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -88,7 +84,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 4.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -108,7 +103,6 @@ decisions:
   - language_code: fra
     title: Prend note des informations fournies sur l'élection d'un Président qui
       aura lieu en 2022
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -130,7 +124,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 4.2
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its resolution 2020/1,
@@ -167,7 +160,6 @@ decisions:
   - language_code: fra
     title: Décide que la participation en personne et en ligne à toutes les réunions
       de
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant sa Résolution 2020/1,
@@ -213,7 +205,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 4.3
-    subject: CIML
     considerations:
     - type: recalling
       message: |
@@ -236,7 +227,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Ordre du jour point 4.3
-    subject: CIML
     considerations:
     - type: recalling
       message: |
@@ -266,7 +256,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 4.3
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its Resolution 2020/6,
@@ -304,7 +293,6 @@ decisions:
   - language_code: fra
     title: Demande au Président du CIML de faire rapport sur toute proposition en
       temps voulu.
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant sa résolution 2020/6,
@@ -404,8 +392,7 @@ decisions:
   agenda_item: '5'
   localizations:
   - language_code: eng
-    title: Agenda item 5
-    subject: CIML
+    title: 'Agenda Item 5: Report by the BIML Director on BIML matters and activities'
     considerations: []
     actions:
     - type: notes
@@ -416,8 +403,7 @@ decisions:
         date: '2021-10-19'
         type: effective
   - language_code: fra
-    title: Prend note du rapport présenté par le Directeur du BIML.
-    subject: CIML
+    title: 'Agenda Item 5: Report by the BIML Director on BIML matters and activities'
     considerations: []
     actions:
     - type: notes
@@ -438,8 +424,8 @@ decisions:
   agenda_item: '6'
   localizations:
   - language_code: eng
-    title: Agenda item 6
-    subject: CIML
+    title: 'Agenda Item 6: Discussion on the renewal of the contract of Paul Dixon,
+      BIML Assistant Director'
     considerations:
     - type: having_regard_to
       message: 'Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations,
@@ -483,9 +469,8 @@ decisions:
         date: '2021-10-19'
         type: effective
   - language_code: fra
-    title: Décide de ne pas nommer de comité de sélection spécifié dans la section
-      3
-    subject: CIML
+    title: 'Agenda Item 6: Discussion on the renewal of the contract of Paul Dixon,
+      BIML Assistant Director'
     considerations:
     - type: having_regard_to
       message: 'Vu la section 7.2.2 de l''OIML B 7:2013 Statuts du Personnel du BIML,
@@ -540,7 +525,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.1
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the accounts for 2020 and the BIML Director''s comments,
@@ -573,7 +557,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Prend note des comptes pour 2020 et des commentaires du Directeur du BIML
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considérant le rapport de l''auditeur externe sur les comptes 2020,
@@ -617,7 +600,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.2
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -638,7 +620,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport présenté par le Directeur du BIML, Encourage le BIML
       à
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -668,7 +649,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.3
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -682,7 +662,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport sur les prévisions budgétaires pour 2021 présenté
       par le Directeur
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -705,7 +684,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.4
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the comments from its Members,
@@ -744,7 +722,6 @@ decisions:
   - language_code: fra
     title: Prend note des informations fournies par le Directeur du BIML sur les classes
       et
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note des commentaires de ses Membres,
@@ -793,7 +770,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.5
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -821,7 +797,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Approuve ce budget, et
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -853,7 +828,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 7.6
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling Resolution no. 2016/3 of the 15th International Conference
@@ -896,7 +870,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport sur la politique du Fonds de Réserve Opérationnelle
       de l'OIML
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant la Résolution n° 2016/3 de la 15ème Conférence Internationale
@@ -948,7 +921,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.1.1
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering the remarks made by its President,
@@ -969,7 +941,6 @@ decisions:
   - language_code: fra
     title: Décide d'accepter la proposition de voter sur le Projet final de mise à
       jour
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considérant les remarques faites par son Président,
@@ -1000,7 +971,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.1.1
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1020,7 +990,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Approuve le Projet final de mise à jour de la R 60 Réglementation métrologique
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1051,7 +1020,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.1.2
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1072,7 +1040,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Approuve le Projet final de révision de la R 126 Éthylomètres, et
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1102,7 +1069,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.1
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1118,7 +1084,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité de la Table
       Ronde RLMO
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1144,7 +1109,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.2
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1160,7 +1124,6 @@ decisions:
   - language_code: fra
     title: Approuve comme nouveau projet, sous la responsabilité du TC 8/SC 5, la
       révision de
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1185,7 +1148,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.3
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1201,7 +1163,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 1, la
       mise
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1226,7 +1187,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.4
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1243,7 +1203,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
       1, une
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1286,7 +1245,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
       1, un
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1313,7 +1271,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.6
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1329,7 +1286,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 12, un
       nouveau
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1354,7 +1310,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.7
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1370,7 +1325,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
       2, une
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1395,7 +1349,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.8
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1411,7 +1364,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
       2, une
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1436,7 +1388,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.9
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1452,7 +1403,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
       1, la
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1477,7 +1427,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.1.2.10
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1493,7 +1442,6 @@ decisions:
   - language_code: fra
     title: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
       1, la
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1518,7 +1466,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.2
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the report on the OIML technical work,
@@ -1547,7 +1494,6 @@ decisions:
   - language_code: fra
     title: Approuve la liste des projets hautement prioritaires telle que présentée
       par le BIML, et
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note du rapport sur les travaux techniques de l''OIML,
@@ -1585,7 +1531,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 10.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1607,7 +1552,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport du Président du Comité de Management (MC) du Système
       de
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1638,7 +1582,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 10.2
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the recommendations from the OIML Certification System (OIML-CS)
@@ -1683,7 +1626,6 @@ decisions:
   - language_code: fra
     title: Approuve l'utilisation de la norme ISO/CEI 17020 (avec des exigences supplémentaires)
       par les Autori…
-    subject: CIML
     considerations:
     - type: noting
       message: 'Notant les recommandations du Comité de Management (MC) du Système
@@ -1738,7 +1680,7 @@ decisions:
   agenda_item: '11'
   localizations:
   - language_code: eng
-    title: Agenda item 11
+    title: 'Agenda Item 11: Report by the CEEMS Advisory Group Chairperson'
     subject: OIML Conference
     considerations: []
     actions:
@@ -1765,8 +1707,7 @@ decisions:
         date: '2021-10-19'
         type: effective
   - language_code: fra
-    title: Prend note du rapport sur les activités du Groupe Consultatif du CEEMS,
-      Se félicite
+    title: 'Agenda Item 11: Report by the CEEMS Advisory Group Chairperson'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -1796,7 +1737,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1809,7 +1749,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport sur les réunions de la Table Ronde des Organisations
       Régionales
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1832,7 +1771,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.2
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1846,7 +1784,6 @@ decisions:
   - language_code: fra
     title: Prend note du rapport sur les activités avec les organisations en liaison
       donné par
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1869,7 +1806,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 15.3
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1890,7 +1826,6 @@ decisions:
   - language_code: fra
     title: Prend note des rapports écrits présentés par les organisations en liaison,
       et Remercie leurs
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1914,7 +1849,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 16.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1926,7 +1860,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Ordre du jour point 16.1
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1948,7 +1881,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 16.2
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1960,7 +1892,6 @@ decisions:
         type: effective
   - language_code: fra
     title: pour sa contribution aux travaux de l'OIML.
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1982,7 +1913,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 16.3
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -1995,7 +1925,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Ordre du jour point 16.3
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -2017,7 +1946,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 16.4
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -2031,7 +1959,6 @@ decisions:
   - language_code: fra
     title: Remercie le Dr Rifan Ardianto, représentant l'Indonésie, Lauréat du prix
       OIML CEEMS 2020, pour
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -2054,7 +1981,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 17.1
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its Resolution 2020/33,
@@ -2083,7 +2009,6 @@ decisions:
   - language_code: fra
     title: Remercie la République Populaire de Chine d'avoir confirmé son invitation
       à accueillir la 57ème
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant sa résolution 2020/33,
@@ -2121,7 +2046,6 @@ decisions:
   - language_code: eng
     title: Recalling Resolution Conference/2021/11 of the 16th International Conference
       on Legal Metrology, Not…
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling Resolution Conference/2021/11 of the 16th International
@@ -2148,7 +2072,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Demande à son Président de rendre compte de tout progrès en temps voulu.
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant la résolution Conférence/2021/11 de la 16ème Conférence
@@ -2174,3 +2097,4 @@ decisions:
       date_effective:
         date: '2021-10-22'
         type: effective
+  agenda_item: '41'

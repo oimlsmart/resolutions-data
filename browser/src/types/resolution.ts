@@ -58,7 +58,7 @@ export interface Resolution {
   agenda_item_urn?: string
 }
 
-export type MeetingBodyType = 'ciml' | 'conference'
+export type MeetingBodyType = 'ciml' | 'conference' | 'dc'
 
 export interface MeetingLocalization {
   language_code: string

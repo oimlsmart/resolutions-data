@@ -19,8 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the minutes of the 38th CIML Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 38th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -31,8 +30,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Relation entre les DoMC et l'ancien Système de Certificats OIML
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 38th CIML Meeting'
     considerations: []
     actions:
     - type: notes
@@ -48,6 +46,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2004/2
@@ -58,13 +57,11 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     considerations: []
     actions: []
   - language_code: fra
-    title: Dispositions finales
-    subject: CIML
+    title: 'Agenda Item 2: Member States and Corresponding Members'
     considerations: []
     actions:
     - type: notes
@@ -76,6 +73,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2004/2.1
@@ -87,7 +85,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Situation of certain Members
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -107,6 +104,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 2004/3
@@ -117,8 +115,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial matters
-    subject: CIML
+    title: 'Agenda Item 3: Financial matters'
     considerations: []
     actions:
     - type: approves
@@ -130,8 +127,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Questions Financières
-    subject: CIML
+    title: 'Agenda Item 3: Financial matters'
     considerations: []
     actions:
     - type: notes
@@ -142,6 +138,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2004/3.2
@@ -153,7 +150,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Draft Revision of the OIML Financial Regulations
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -166,7 +162,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Projet de Révision du Règlement Financier de l'OIML
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -177,6 +172,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 2004/4
@@ -187,8 +183,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Presidential Council activities
-    subject: CIML
+    title: 'Agenda Item 4: Presidential Council activities'
     considerations: []
     actions:
     - type: notes
@@ -200,8 +195,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Activités du Conseil de la Présidence
-    subject: CIML
+    title: 'Agenda Item 4: Presidential Council activities'
     considerations: []
     actions:
     - type: notes
@@ -213,6 +207,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2004/5
@@ -223,8 +218,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BIML activities
-    subject: CIML
+    title: 'Agenda Item 5: BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -236,8 +230,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Activités du BIML
-    subject: CIML
+    title: 'Agenda Item 5: BIML activities'
     considerations: []
     actions:
     - type: notes
@@ -248,6 +241,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2004/6
@@ -258,15 +252,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Technical activities
-    subject: CIML
+    title: 'Agenda Item 6: Technical activities'
     considerations: []
     actions: []
   - language_code: fra
-    title: Activités techniques
-    subject: CIML
+    title: 'Agenda Item 6: Technical activities'
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2004/6.1
@@ -278,7 +271,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Approval of International Documents
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -299,7 +291,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Approbation de Documents Internationaux
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -318,6 +309,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 2004/6.2
@@ -329,7 +321,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TCs/SCs
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -378,7 +369,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Examen de la situation de certains TC/SC
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -427,6 +417,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 2004/6.3
@@ -438,7 +429,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Implementation of the MAA
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -467,7 +457,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Application du MAA
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -494,6 +483,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.3'
 - identifier:
   - prefix: CIML
     number: 2004/6.4
@@ -505,7 +495,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Other decisions related to the OIML Certificate System
-    subject: CIML
     considerations: []
     actions:
     - type: decides
@@ -519,7 +508,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Autres décisions liées au Système de Certificats OIML
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -532,6 +520,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 2004/6.5
@@ -543,7 +532,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Miscellaneous
-    subject: CIML
     considerations: []
     actions:
     - type: wishes
@@ -557,7 +545,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Divers
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -569,6 +556,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '6.5'
 - identifier:
   - prefix: CIML
     number: 2004/7
@@ -579,8 +567,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Developing Countries
-    subject: CIML
+    title: 'Agenda Item 7: Developing Countries'
     considerations: []
     actions:
     - type: notes
@@ -612,8 +599,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Pays en Développement
-    subject: CIML
+    title: 'Agenda Item 7: Developing Countries'
     considerations: []
     actions:
     - type: notes
@@ -644,6 +630,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2004/8
@@ -654,8 +641,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Coordination with the RLMOs
-    subject: CIML
+    title: 'Agenda Item 8: Coordination with RLMOs'
     considerations: []
     actions:
     - type: instructs
@@ -667,8 +653,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Coordination avec les Organisations Régionales de Métrologie Légale
-    subject: CIML
+    title: 'Agenda Item 8: Coordination with RLMOs'
     considerations: []
     actions:
     - type: notes
@@ -680,6 +665,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2004/9
@@ -690,8 +676,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Twelfth International Conference of Legal Metrology
-    subject: CIML
+    title: 'Agenda Item 9: Twelfth International Legal Metrology Conference: Agenda
+      and program'
     considerations: []
     actions:
     - type: endorses
@@ -705,8 +691,8 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Douzième Conférence Internationale de Métrologie Légale
-    subject: CIML
+    title: 'Agenda Item 9: Twelfth International Legal Metrology Conference: Agenda
+      and program'
     considerations: []
     actions:
     - type: notes
@@ -720,6 +706,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2004/10
@@ -730,8 +717,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: CIML Presidency
-    subject: CIML
+    title: 'Agenda Item 10: Election of the CIML President and First Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -743,8 +729,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Présidence du CIML
-    subject: CIML
+    title: 'Agenda Item 10: Election of the CIML President and First Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -755,6 +740,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2004/11
@@ -765,8 +751,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Twelfth International Conference of Legal Metrology
-    subject: CIML
+    title: 'Agenda Item 11: Twelfth International Legal Metrology Conference'
     considerations: []
     actions:
     - type: notes
@@ -779,8 +764,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Douzième Conférence Internationale de Métrologie Légale
-    subject: CIML
+    title: 'Agenda Item 11: Twelfth International Legal Metrology Conference'
     considerations: []
     actions:
     - type: notes
@@ -793,6 +777,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2004/12
@@ -803,15 +788,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Future meetings
-    subject: CIML
+    title: 'Agenda Item 12: Future meetings'
     considerations: []
     actions: []
   - language_code: fra
-    title: Futures réunions
-    subject: CIML
+    title: 'Agenda Item 12: Future meetings'
     considerations: []
     actions: []
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2004/12.1
@@ -823,7 +807,6 @@ decisions:
   localizations:
   - language_code: eng
     title: 40th CIML Meeting (2005)
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -849,7 +832,6 @@ decisions:
         type: effective
   - language_code: fra
     title: 40ème Réunion du CIML (2005)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -863,6 +845,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '12.1'
 - identifier:
   - prefix: CIML
     number: 2004/12.2
@@ -874,7 +857,6 @@ decisions:
   localizations:
   - language_code: eng
     title: 41st CIML Meeting (2006)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -887,7 +869,6 @@ decisions:
         type: effective
   - language_code: fra
     title: 41ème Réunion du CIML (2006)
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -899,6 +880,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '12.2'
 - identifier:
   - prefix: CIML
     number: 2004/13
@@ -909,15 +891,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other matters
-    subject: CIML
+    title: 'Agenda Item 13: Other matters'
     considerations: []
     actions: []
   - language_code: fra
-    title: Autres questions
-    subject: CIML
+    title: 'Agenda Item 13: Other matters'
     considerations: []
     actions: []
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2004/13.1
@@ -929,7 +910,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Director of the BIML
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -942,7 +922,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Directeur du BIML
-    subject: CIML
     considerations: []
     actions:
     - type: notes
@@ -953,6 +932,7 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '13.1'
 - identifier:
   - prefix: CIML
     number: 2004/14
@@ -963,8 +943,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of decisions
-    subject: CIML
+    title: 'Agenda Item 14: Adoption of decisions'
     considerations: []
     actions:
     - type: notes
@@ -975,8 +954,7 @@ decisions:
         date: '2004-10-26'
         type: effective
   - language_code: fra
-    title: Adoption des décisions
-    subject: CIML
+    title: 'Agenda Item 14: Adoption of decisions'
     considerations: []
     actions:
     - type: notes
@@ -986,3 +964,4 @@ decisions:
       date_effective:
         date: '2004-10-26'
         type: effective
+  agenda_item: '14'

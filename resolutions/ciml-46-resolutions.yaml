@@ -19,8 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approves the minutes of the 45th CIML Meeting with the following
-      modifications
+    title: 'Agenda Item 1: Approval of the minutes of the 45th CIML Meeting'
     subject: OIML Conference
     considerations: []
     actions:
@@ -35,8 +34,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité approuve le compte rendu de la $ 4 5^{\mathrm{eme}} $ Réunion
-      du
+    title: 'Agenda Item 1: Approval of the minutes of the 45th CIML Meeting'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -50,6 +48,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2011/2
@@ -60,7 +59,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee notes the report given by its President.
+    title: 'Agenda Item 2: Report by the CIML President'
     subject: OIML Conference
     considerations: []
     actions:
@@ -72,7 +71,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité prend note du rapport fait par son Président.
+    title: 'Agenda Item 2: Report by the CIML President'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -83,6 +82,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2011/3
@@ -93,8 +93,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee notes the general report given by the BIML Director and his
-      report
+    title: 'Agenda Item 3: BIML activities'
     subject: OIML Conference
     considerations: []
     actions:
@@ -109,7 +108,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité prend note du rapport général fait par le Directeur du BIML et
+    title: 'Agenda Item 3: BIML activities'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -123,6 +122,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2011/4
@@ -133,8 +133,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee decides to renew the contract of Willem Kool, BIML Assistant
-      Director, for
+    title: 'Agenda Item 4: Financial matters'
     subject: OIML Conference
     considerations: []
     actions:
@@ -147,8 +146,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité décide de renouveler le contrat de Willem KOOL, Adjoint au Directeur
-      du
+    title: 'Agenda Item 4: Financial matters'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -161,6 +159,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2011/5
@@ -171,9 +170,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Instructs its President and the BIML Director to continue to work diligently
-      to resolve
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations:
     - type: noting
       message: |
@@ -193,8 +190,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Prenant note du rapport de son Président et du Directeur du BIML sur les
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations:
     - type: noting
       message: |
@@ -213,6 +209,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2011/6
@@ -223,8 +220,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the 2010 accounts, and
-    subject: CIML
+    title: 'Agenda Item 6: Developing countries'
     considerations:
     - type: noting
       message: 'Noting the accounts for the year 2010 and the BIML Director''s comments,
@@ -256,9 +252,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Approuve les comptes de l'année 2010, et Donne instruction à son Président
-      de les
-    subject: CIML
+    title: 'Agenda Item 6: Developing countries'
     considerations:
     - type: noting
       message: |
@@ -275,6 +269,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2011/7
@@ -285,8 +280,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Resolves
-    subject: CIML
+    title: 'Agenda Item 7: Liaisons'
     considerations:
     - type: recalling
       message: 'Recalling its Resolution "CIML 1975-IXc" establishing the BIML Translation
@@ -329,8 +323,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: 'Décide '
-    subject: CIML
+    title: 'Agenda Item 7: Liaisons'
     considerations:
     - type: recalling
       message: 'Rappelant sa résolution « CIML 1975-IXc » établissant le Centre de
@@ -366,6 +359,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2011/8
@@ -376,7 +370,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee welcomes Zimbabwe and Georgia as new Corresponding Members.
+    title: 'Agenda Item 8: Report on cooperation between the BIML and the BIPM'
     subject: OIML Conference
     considerations: []
     actions:
@@ -388,8 +382,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité souhaite la bienvenue au Zimbabwe et à la Géorgie, nouveaux Membres
-      Correspondants.
+    title: 'Agenda Item 8: Report on cooperation between the BIML and the BIPM'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -401,6 +394,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2011/9
@@ -411,9 +405,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report of Eberhard Seiler as the Facilitator on Developing Country
-      matters and
-    subject: CIML
+    title: 'Agenda Item 9: Discussion of the future strategic direction of the OIML'
     considerations: []
     actions:
     - type: notes
@@ -424,9 +416,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Prend note du rapport d'Eberhard SEILER en qualité de Facilitateur chargé
-      des questions liées
-    subject: CIML
+    title: 'Agenda Item 9: Discussion of the future strategic direction of the OIML'
     considerations: []
     actions:
     - type: notes
@@ -438,6 +428,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2011/10
@@ -448,8 +439,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the Memorandum of Understanding with the IEC
-    subject: CIML
+    title: 'Agenda Item 10: Technical activities'
     considerations: []
     actions:
     - type: approves
@@ -468,9 +458,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Approuve le Protocole d'accord avec la Commission Electrotechnique Internationale
-      (CEI), Donne instr…
-    subject: CIML
+    title: 'Agenda Item 10: Technical activities'
     considerations: []
     actions:
     - type: approves
@@ -481,6 +469,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2011/11
@@ -491,9 +480,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Welcomes the prospective establishment of a liaison with the Consumer Policy
-      Committee of ISO
-    subject: CIML
+    title: 'Agenda Item 11: Awards'
     considerations: []
     actions:
     - type: welcomes
@@ -514,9 +501,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Se félicite de la perspective de l'établissement de relations avec le Comité
-      pour la
-    subject: CIML
+    title: 'Agenda Item 11: Awards'
     considerations: []
     actions:
     - type: notes
@@ -528,6 +513,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2011/12
@@ -538,7 +524,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee notes the reports of the BIPM, of ILAC and the IAF, and
+    title: 'Agenda Item 12: Preparations for the 13th Conference (2012)'
     subject: OIML Conference
     considerations: []
     actions:
@@ -552,8 +538,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité prend note des rapports du Bureau International des Poids et
-      Mesures (BIPM)
+    title: 'Agenda Item 12: Preparations for the 13th Conference (2012)'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -568,6 +553,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2011/13
@@ -578,9 +564,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Instructs the Bureau to pursue those recommendations and report on the
-      progress at its
-    subject: CIML
+    title: 'Agenda Item 13: Other matters'
     considerations:
     - type: noting
       message: |
@@ -598,9 +582,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Prenant note du rapport verbal et de l'exposé effectué par le Docteur Pavel
-      NEYEZHMAKOV
-    subject: CIML
+    title: 'Agenda Item 13: Other matters'
     considerations:
     - type: noting
       message: |
@@ -622,6 +604,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2011/14
@@ -632,9 +615,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Acknowledges the new collaboration era at all levels between the OIML and
-      the BIPM
-    subject: CIML
+    title: 'Agenda Item 14: CIML vote on Resolutions'
     considerations: []
     actions:
     - type: acknowledges
@@ -665,8 +646,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Approuve le rapport provisoire rédigé par son Président sortant avec l'aide
-      de certains Membres
+    title: 'Agenda Item 14: CIML vote on Resolutions'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -688,6 +668,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 2011/15
@@ -698,8 +679,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee approves the revision of publication OIML B 15 OIML Strategy,
-      with the
+    title: 'Agenda Item 15: Future meetings'
     subject: OIML Conference
     considerations: []
     actions:
@@ -720,8 +700,7 @@ decisions:
         date: '2011-10-11'
         type: effective
   - language_code: fra
-    title: Le Comité approuve la révision de la publication OIML B 15 OIML Strategy
-      (Stratégie
+    title: 'Agenda Item 15: Future meetings'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -734,6 +713,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 2011/16
@@ -769,6 +749,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2011/17
@@ -807,6 +788,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 2011/18
@@ -844,6 +826,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: CIML
     number: 2011/19
@@ -856,7 +839,6 @@ decisions:
   - language_code: eng
     title: 'Approves the following Draft Basic Publications: - Revision of OIML B
       3 OIML Basic'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -870,7 +852,6 @@ decisions:
   - language_code: fra
     title: 'Approuve les projets de Publications de Base suivants : - Révision de
       l''OIML B3'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -881,6 +862,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '19'
 - identifier:
   - prefix: CIML
     number: 2011/20
@@ -893,7 +875,6 @@ decisions:
   - language_code: eng
     title: Decides that Issuing Participants may request the registration of Manufacturers'
       Testing Laboratorie…
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the report of TC 3/SC 5 on the issue of the acceptance of manufacturers''
@@ -926,7 +907,6 @@ decisions:
   - language_code: fra
     title: Décide que les Participants Emetteurs peuvent demander l'enregistrement
       des laboratoires d'essai des…
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note du rapport du TC 3/SC 5 sur la question de l''acceptation
@@ -960,6 +940,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '20'
 - identifier:
   - prefix: CIML
     number: 2011/21
@@ -971,7 +952,6 @@ decisions:
   localizations:
   - language_code: eng
     title: 'Approves as a new work item for OIML TC 3/SC 5: - the amendment'
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its Resolution no.20,
@@ -1014,6 +994,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '21'
 - identifier:
   - prefix: CIML
     number: 2011/22
@@ -1026,7 +1007,6 @@ decisions:
   - language_code: eng
     title: Approves the establishment of a new Subcommittee of TC 3, to be titled
       "Conformity
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling its Resolutions no.15 and no.19 of its 45th Meeting,
@@ -1073,7 +1053,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Prend note du rapport écrit du Séminaire sur la « Conformité au Type »
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant les Résolutions n° 15 et n° 19 de sa 45ème Réunion,
@@ -1118,6 +1097,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '22'
 - identifier:
   - prefix: CIML
     number: 2011/23
@@ -1130,7 +1110,6 @@ decisions:
   - language_code: eng
     title: Approves, subject to re-titling the proposed "working groups" as "Project
       Groups" and other necessar…
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1170,7 +1149,6 @@ decisions:
   - language_code: fra
     title: Approuve, à condition de renommer les « Groupes de travail » proposés «
       Groupes
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1189,6 +1167,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '23'
 - identifier:
   - prefix: CIML
     number: 2011/24
@@ -1200,7 +1179,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Resolves
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the development of the 3rd edition of the International Vocabulary
@@ -1258,7 +1236,6 @@ decisions:
         type: effective
   - language_code: fra
     title: 'Décide que '
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note de l''élaboration de la 3ème édition du Vocabulaire international
@@ -1308,6 +1285,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '24'
 - identifier:
   - prefix: CIML
     number: 2011/25
@@ -1320,7 +1298,6 @@ decisions:
   - language_code: eng
     title: Thanks Dr. Arnold Leitner for representing the OIML in the CCU (Consultative
       Committee of
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1342,7 +1319,6 @@ decisions:
   - language_code: fra
     title: Remercie le Dr. Arnold LEITNER d'avoir représenté l'OIML au sein du CCU
       (Comité consultatif
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1352,6 +1328,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '25'
 - identifier:
   - prefix: CIML
     number: 2011/26
@@ -1364,7 +1341,6 @@ decisions:
   - language_code: eng
     title: Resolves to request the 14th OIML Conference to approve the following interpretation,
       applicable to
-    subject: CIML
     considerations:
     - type: considering
       message: |
@@ -1392,7 +1368,6 @@ decisions:
         type: effective
   - language_code: fra
     title: 'Considérant '
-    subject: CIML
     considerations:
     - type: considering
       message: |
@@ -1419,6 +1394,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '26'
 - identifier:
   - prefix: CIML
     number: 2011/27
@@ -1431,7 +1407,6 @@ decisions:
   - language_code: eng
     title: Instructs the BIML Director to review relevant past decisions and to draft
       a proposal
-    subject: CIML
     considerations:
     - type: considering
       message: 'Considering that there appears to be no comprehensive policy on the
@@ -1464,7 +1439,6 @@ decisions:
   - language_code: fra
     title: Demande à son Président de présenter la proposition à la 14eme Conférence
       en vue
-    subject: CIML
     considerations: []
     actions:
     - type: requests
@@ -1475,6 +1449,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '27'
 - identifier:
   - prefix: CIML
     number: 2011/28
@@ -1537,6 +1512,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '28'
 - identifier:
   - prefix: CIML
     number: 2011/29
@@ -1574,6 +1550,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '29'
 - identifier:
   - prefix: CIML
     number: 2011/30
@@ -1614,6 +1591,7 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '30'
 - identifier:
   - prefix: CIML
     number: 2011/31
@@ -1650,3 +1628,4 @@ decisions:
       date_effective:
         date: '2011-10-11'
         type: effective
+  agenda_item: '31'

@@ -19,8 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the Minutes of the $ 3 7^{\mathrm{th}} $ CIML Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Approbation du compte rendu de la 37ème Réunion du CIML'
     considerations: []
     actions:
     - type: notes
@@ -32,8 +31,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Approbation du compte rendu de la 37ème Réunion du CIML
-    subject: CIML
+    title: 'Agenda Item 1: Approbation du compte rendu de la 37ème Réunion du CIML'
     considerations: []
     actions:
     - type: notes
@@ -44,6 +42,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2003/2
@@ -54,9 +53,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Implementation of the Decisions and Resolutions of the $ 3 7^{th} $ CIML
-      Meeting
-    subject: CIML
+    title: 'Agenda Item 2: Mise en application des Décisions et Résolutions de la
+      37ème Réunion du CIML'
     considerations: []
     actions:
     - type: notes
@@ -68,9 +66,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Mise en application des Décisions et Résolutions de la 37ème Réunion du
-      CIML
-    subject: CIML
+    title: 'Agenda Item 2: Mise en application des Décisions et Résolutions de la
+      37ème Réunion du CIML'
     considerations: []
     actions:
     - type: notes
@@ -82,6 +79,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2003/3
@@ -92,8 +90,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 3: États Membres et Membres Correspondants'
     considerations: []
     actions:
     - type: decides
@@ -105,8 +102,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: États Membres et Membres Correspondants
-    subject: CIML
+    title: 'Agenda Item 3: États Membres et Membres Correspondants'
     considerations: []
     actions:
     - type: notes
@@ -117,6 +113,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2003/4
@@ -127,8 +124,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on Presidential Council activities
-    subject: CIML
+    title: 'Agenda Item 4: Rapport sur les activités du Conseil de la Présidence'
     considerations: []
     actions:
     - type: notes
@@ -140,8 +136,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Rapport sur les activités du Conseil de la Présidence
-    subject: CIML
+    title: 'Agenda Item 4: Rapport sur les activités du Conseil de la Présidence'
     considerations: []
     actions:
     - type: notes
@@ -152,6 +147,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2003/6
@@ -162,15 +158,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial matters
-    subject: CIML
+    title: 'Agenda Item 6: Questions financières'
     considerations: []
     actions: []
   - language_code: fra
-    title: Questions financières
-    subject: CIML
+    title: 'Agenda Item 6: Questions financières'
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2003/6.1
@@ -181,8 +176,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of the Auditor's Report for 2002
-    subject: CIML
+    title: 'Agenda Item 6.1: Adoption du Rapport Comptable pour 2002'
     considerations: []
     actions:
     - type: notes
@@ -195,8 +189,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Adoption du Rapport Comptable pour 2002
-    subject: CIML
+    title: 'Agenda Item 6.1: Adoption du Rapport Comptable pour 2002'
     considerations: []
     actions:
     - type: notes
@@ -208,6 +201,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 2003/6.2
@@ -218,8 +212,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Realization of the 2002 budget and estimates for 2003
-    subject: CIML
+    title: 'Agenda Item 6.2: Réalisation du budget 2002 et estimations pour 2003'
     considerations: []
     actions:
     - type: notes
@@ -231,8 +224,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Réalisation du budget 2002 et estimations pour 2003
-    subject: CIML
+    title: 'Agenda Item 6.2: Réalisation du budget 2002 et estimations pour 2003'
     considerations: []
     actions:
     - type: notes
@@ -243,6 +235,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 2003/6.3
@@ -253,8 +246,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Preliminary proposal for the 2005-2008 budget
-    subject: CIML
+    title: 'Agenda Item 6.3: Proposition préliminaire pour le budget 2005-2008'
     considerations: []
     actions:
     - type: notes
@@ -268,8 +260,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Proposition préliminaire pour le budget 2005-2008
-    subject: CIML
+    title: 'Agenda Item 6.3: Proposition préliminaire pour le budget 2005-2008'
     considerations: []
     actions:
     - type: notes
@@ -283,6 +274,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '6.3'
 - identifier:
   - prefix: CIML
     number: 2003/6.4
@@ -293,8 +285,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Progress on the revision of the Financial Regulations of the OIML
-    subject: CIML
+    title: 'Agenda Item 6.4: Progrès concernant la révision du Règlement Financier
+      de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -309,8 +301,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Progrès concernant la révision du Règlement Financier de l'OIML
-    subject: CIML
+    title: 'Agenda Item 6.4: Progrès concernant la révision du Règlement Financier
+      de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -324,6 +316,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 2003/7
@@ -334,15 +327,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The situation at the BIML
-    subject: CIML
+    title: 'Agenda Item 7: Situation au BIML'
     considerations: []
     actions: []
   - language_code: fra
-    title: Situation au BIML
-    subject: CIML
+    title: 'Agenda Item 7: Situation au BIML'
     considerations: []
     actions: []
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2003/7.1
@@ -353,8 +345,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Draft Revision of the Staff Regulations
-    subject: CIML
+    title: 'Agenda Item 7.1: Projet de Révision des Statuts du Personnel'
     considerations: []
     actions:
     - type: notes
@@ -368,8 +359,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Projet de Révision des Statuts du Personnel
-    subject: CIML
+    title: 'Agenda Item 7.1: Projet de Révision des Statuts du Personnel'
     considerations: []
     actions:
     - type: notes
@@ -382,6 +372,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '7.1'
 - identifier:
   - prefix: CIML
     number: 2003/7.2
@@ -392,8 +383,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BIML Staff
-    subject: CIML
+    title: 'Agenda Item 7.2: Personnel du BIML'
     considerations: []
     actions:
     - type: approves
@@ -405,8 +395,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Personnel du BIML
-    subject: CIML
+    title: 'Agenda Item 7.2: Personnel du BIML'
     considerations: []
     actions:
     - type: notes
@@ -418,6 +407,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '7.2'
 - identifier:
   - prefix: CIML
     number: 2003/7.3
@@ -428,8 +418,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BIML activities
-    subject: CIML
+    title: 'Agenda Item 7.3: Activités du BIML'
     considerations: []
     actions:
     - type: notes
@@ -441,8 +430,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Activités du BIML
-    subject: CIML
+    title: 'Agenda Item 7.3: Activités du BIML'
     considerations: []
     actions:
     - type: notes
@@ -453,6 +441,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '7.3'
 - identifier:
   - prefix: CIML
     number: 2003/7.4
@@ -463,8 +452,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Progress in the use of the internet and e-mail
-    subject: CIML
+    title: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
+      électronique'
     considerations: []
     actions:
     - type: notes
@@ -479,8 +468,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Progrès dans l'utilisation d'internet et du courrier électronique
-    subject: CIML
+    title: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
+      électronique'
     considerations: []
     actions:
     - type: notes
@@ -494,6 +483,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '7.4'
 - identifier:
   - prefix: CIML
     number: 2003/8
@@ -504,8 +494,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: OIML Action Plan implementation and revision
-    subject: CIML
+    title: 'Agenda Item 8: Application et révision du Plan d''Action de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -519,8 +508,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Application et révision du Plan d'Action de l'OIML
-    subject: CIML
+    title: 'Agenda Item 8: Application et révision du Plan d''Action de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -540,6 +528,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2003/9
@@ -550,15 +539,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Technical activities
-    subject: CIML
+    title: 'Agenda Item 9: Activités techniques'
     considerations: []
     actions: []
   - language_code: fra
-    title: Activités techniques
-    subject: CIML
+    title: 'Agenda Item 9: Activités techniques'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2003/9.1
@@ -569,8 +557,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Work program of TCs/SCs
-    subject: CIML
+    title: 'Agenda Item 9.1: Programme de travail des TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -595,8 +582,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Programme de travail des TC/SC
-    subject: CIML
+    title: 'Agenda Item 9.1: Programme de travail des TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -621,6 +607,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 2003/9.2
@@ -631,8 +618,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the situation of certain TCs/SCs
-    subject: CIML
+    title: 'Agenda Item 9.2: Examen de la situation de certains TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -657,8 +643,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Examen de la situation de certains TC/SC
-    subject: CIML
+    title: 'Agenda Item 9.2: Examen de la situation de certains TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -683,6 +668,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 2003/9.3
@@ -693,8 +679,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Acceleration of technical activities
-    subject: CIML
+    title: 'Agenda Item 9.3: Accélération des activités techniques'
     considerations: []
     actions:
     - type: notes
@@ -723,8 +708,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Accélération des activités techniques
-    subject: CIML
+    title: 'Agenda Item 9.3: Accélération des activités techniques'
     considerations: []
     actions:
     - type: notes
@@ -752,6 +736,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 2003/9.4
@@ -762,8 +747,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Non-conclusive results of postal ballots
-    subject: CIML
+    title: 'Agenda Item 9.4: Résultats non concluants des votes par correspondance'
     considerations: []
     actions:
     - type: notes
@@ -777,8 +761,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Résultats non concluants des votes par correspondance
-    subject: CIML
+    title: 'Agenda Item 9.4: Résultats non concluants des votes par correspondance'
     considerations: []
     actions:
     - type: notes
@@ -792,6 +775,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '9.4'
 - identifier:
   - prefix: CIML
     number: 2003/9.5
@@ -802,8 +786,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of draft Recommendations and Documents
-    subject: CIML
+    title: 'Agenda Item 9.5: Approbation des projets de Recommandations et de Documents'
     considerations: []
     actions:
     - type: approves
@@ -814,8 +797,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Approbation des projets de Recommandations et de Documents
-    subject: CIML
+    title: 'Agenda Item 9.5: Approbation des projets de Recommandations et de Documents'
     considerations: []
     actions:
     - type: notes
@@ -826,6 +808,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '9.5'
 - identifier:
   - prefix: CIML
     number: 2003/10
@@ -836,8 +819,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Mutual Acceptance Arrangement (MAA) and Checklists
-    subject: CIML
+    title: 'Agenda Item 10: Arrangement d''Acceptation Mutuelle (MAA) et Listes de
+      Contrôle'
     considerations: []
     actions:
     - type: notes
@@ -864,8 +847,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Arrangement d'Acceptation Mutuelle (MAA) et Listes de Contrôle
-    subject: CIML
+    title: 'Agenda Item 10: Arrangement d''Acceptation Mutuelle (MAA) et Listes de
+      Contrôle'
     considerations: []
     actions:
     - type: notes
@@ -892,6 +875,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2003/11
@@ -902,15 +886,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: OIML Certificate System for Measuring Instruments
-    subject: CIML
+    title: 'Agenda Item 11: Système de Certificats OIML pour les Instruments de Mesure'
     considerations: []
     actions: []
   - language_code: fra
-    title: Système de Certificats OIML pour les Instruments de Mesure
-    subject: CIML
+    title: 'Agenda Item 11: Système de Certificats OIML pour les Instruments de Mesure'
     considerations: []
     actions: []
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2003/11.1
@@ -921,8 +904,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: General information
-    subject: CIML
+    title: 'Agenda Item 11.1: Informations générales'
     considerations: []
     actions:
     - type: notes
@@ -935,8 +917,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Informations générales
-    subject: CIML
+    title: 'Agenda Item 11.1: Informations générales'
     considerations: []
     actions:
     - type: notes
@@ -948,6 +929,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '11.1'
 - identifier:
   - prefix: CIML
     number: 2003/11.2
@@ -958,8 +940,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New Recommendations applicable within the System
-    subject: CIML
+    title: 'Agenda Item 11.2: Nouvelles Recommandations applicables dans le cadre
+      du Système'
     considerations: []
     actions:
     - type: decides
@@ -991,8 +973,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Nouvelles Recommandations applicables dans le cadre du Système
-    subject: CIML
+    title: 'Agenda Item 11.2: Nouvelles Recommandations applicables dans le cadre
+      du Système'
     considerations: []
     actions:
     - type: notes
@@ -1024,6 +1006,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '11.2'
 - identifier:
   - prefix: CIML
     number: 2003/11.3
@@ -1034,8 +1017,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Follow-up to the revision of P1 OIML Certificate System for Measuring Instruments
-    subject: CIML
+    title: 'Agenda Item 11.3: Suivi de la révision du P1 Système de Certificats OIML
+      pour les Instruments de Mesure'
     considerations: []
     actions:
     - type: notes
@@ -1059,9 +1042,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Suivi de la révision du P1 Système de Certificats OIML pour les Instruments
-      de Mesure
-    subject: CIML
+    title: 'Agenda Item 11.3: Suivi de la révision du P1 Système de Certificats OIML
+      pour les Instruments de Mesure'
     considerations: []
     actions:
     - type: notes
@@ -1084,6 +1066,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '11.3'
 - identifier:
   - prefix: CIML
     number: 2003/12
@@ -1094,15 +1077,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Evolutions - General procedures of the OIML
-    subject: CIML
+    title: 'Agenda Item 12: Évolutions - Procédures générales de l''OIML'
     considerations: []
     actions: []
   - language_code: fra
-    title: Évolutions - Procédures générales de l'OIML
-    subject: CIML
+    title: 'Agenda Item 12: Évolutions - Procédures générales de l''OIML'
     considerations: []
     actions: []
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2003/12.1
@@ -1113,8 +1095,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Revision of the Directives for Technical Work
-    subject: CIML
+    title: 'Agenda Item 12.1: Révision des Directives pour les Travaux Techniques'
     considerations: []
     actions:
     - type: notes
@@ -1131,8 +1112,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Révision des Directives pour les Travaux Techniques
-    subject: CIML
+    title: 'Agenda Item 12.1: Révision des Directives pour les Travaux Techniques'
     considerations: []
     actions:
     - type: notes
@@ -1148,6 +1128,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '12.1'
 - identifier:
   - prefix: CIML
     number: 2003/12.2
@@ -1158,8 +1139,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Translation and distribution of OIML Publications
-    subject: CIML
+    title: 'Agenda Item 12.2: Traduction et diffusion des Publications OIML'
     considerations: []
     actions:
     - type: notes
@@ -1172,8 +1152,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Traduction et diffusion des Publications OIML
-    subject: CIML
+    title: 'Agenda Item 12.2: Traduction et diffusion des Publications OIML'
     considerations: []
     actions:
     - type: notes
@@ -1185,6 +1164,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '12.2'
 - identifier:
   - prefix: CIML
     number: 2003/12.3
@@ -1195,8 +1175,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Draft Guide on the status of OIML Documents and Publications
-    subject: CIML
+    title: 'Agenda Item 12.3: Projet de Guide sur le statut des Documents et Publications
+      OIML'
     considerations: []
     actions:
     - type: notes
@@ -1210,8 +1190,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Projet de Guide sur le statut des Documents et Publications OIML
-    subject: CIML
+    title: 'Agenda Item 12.3: Projet de Guide sur le statut des Documents et Publications
+      OIML'
     considerations: []
     actions:
     - type: notes
@@ -1225,6 +1205,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '12.3'
 - identifier:
   - prefix: CIML
     number: 2003/13
@@ -1235,8 +1216,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Study on The Benefit of Legal Metrology for the Economy and Society
-    subject: CIML
+    title: 'Agenda Item 13: Étude sur Les Bénéfices apportés par la Métrologie Légale
+      dans l''Économie et la Société'
     considerations: []
     actions:
     - type: notes
@@ -1260,8 +1241,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Étude sur Le Bénéfice de la Métrologie Légale pour l'Économie et la Société
-    subject: CIML
+    title: 'Agenda Item 13: Étude sur Les Bénéfices apportés par la Métrologie Légale
+      dans l''Économie et la Société'
     considerations: []
     actions:
     - type: notes
@@ -1284,6 +1265,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2003/14
@@ -1294,15 +1276,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on the Development Council
-    subject: CIML
+    title: 'Agenda Item 14: Rapport sur le Conseil de Développement'
     considerations: []
     actions: []
   - language_code: fra
-    title: Rapport sur le Conseil de Développement
-    subject: CIML
+    title: 'Agenda Item 14: Rapport sur le Conseil de Développement'
     considerations: []
     actions: []
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 2003/14.1
@@ -1313,8 +1294,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Task Group on Developing Countries
-    subject: CIML
+    title: 'Agenda Item 14.1: Groupe de travail sur les Pays en Développement'
     considerations: []
     actions:
     - type: notes
@@ -1337,8 +1317,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Groupe de travail sur les Pays en Développement
-    subject: CIML
+    title: 'Agenda Item 14.1: Groupe de travail sur les Pays en Développement'
     considerations: []
     actions:
     - type: notes
@@ -1360,6 +1339,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '14.1'
 - identifier:
   - prefix: CIML
     number: 2003/14.2
@@ -1370,8 +1350,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other developing country activities
-    subject: CIML
+    title: 'Agenda Item 14.2: Autres activités relatives aux pays en développement'
     considerations: []
     actions:
     - type: notes
@@ -1385,8 +1364,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Autres activités relatives aux pays en développement
-    subject: CIML
+    title: 'Agenda Item 14.2: Autres activités relatives aux pays en développement'
     considerations: []
     actions:
     - type: notes
@@ -1399,6 +1377,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '14.2'
 - identifier:
   - prefix: CIML
     number: 2003/14.3
@@ -1409,8 +1388,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: JCDCMAS
-    subject: CIML
+    title: 'Agenda Item 14.3: JCDCMAS'
     considerations: []
     actions:
     - type: notes
@@ -1435,8 +1413,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: JCDCMAS
-    subject: CIML
+    title: 'Agenda Item 14.3: JCDCMAS'
     considerations: []
     actions:
     - type: notes
@@ -1460,6 +1437,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '14.3'
 - identifier:
   - prefix: CIML
     number: 2003/15
@@ -1470,15 +1448,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Liaisons with international and regional institutions
-    subject: CIML
+    title: 'Agenda Item 15: Liaisons avec les institutions internationales et régionales'
     considerations: []
     actions: []
   - language_code: fra
-    title: Liaisons avec les institutions internationales et régionales
-    subject: CIML
+    title: 'Agenda Item 15: Liaisons avec les institutions internationales et régionales'
     considerations: []
     actions: []
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 2003/15.1
@@ -1489,8 +1466,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Metre Convention, ILAC, ISO, WTO, etc.
-    subject: CIML
+    title: 'Agenda Item 15.1: Convention du Mètre, ILAC, ISO, OMC, etc.'
     considerations: []
     actions:
     - type: notes
@@ -1510,8 +1486,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Convention du Mètre, ILAC, ISO, OMC, etc.
-    subject: CIML
+    title: 'Agenda Item 15.1: Convention du Mètre, ILAC, ISO, OMC, etc.'
     considerations: []
     actions:
     - type: notes
@@ -1530,6 +1505,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '15.1'
 - identifier:
   - prefix: CIML
     number: 2003/15.2
@@ -1540,8 +1516,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Draft policy paper on the liaisons with other organizations
-    subject: CIML
+    title: 'Agenda Item 15.2: Projet de Document de politique générale sur les liaisons
+      avec les autres organisations'
     considerations: []
     actions:
     - type: notes
@@ -1554,9 +1530,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Projet de Document de politique générale sur les liaisons avec les autres
-      organisations
-    subject: CIML
+    title: 'Agenda Item 15.2: Projet de Document de politique générale sur les liaisons
+      avec les autres organisations'
     considerations: []
     actions:
     - type: notes
@@ -1569,6 +1544,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '15.2'
 - identifier:
   - prefix: CIML
     number: 2003/15.3
@@ -1579,8 +1555,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Reports from Regional Legal Metrology Organizations (RLMOs)
-    subject: CIML
+    title: 'Agenda Item 15.3: Rapports des Organisations Régionales de Métrologie
+      Légale (RLMO)'
     considerations: []
     actions:
     - type: notes
@@ -1595,8 +1571,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Rapports des Organisations Régionales de Métrologie Légale (ORML)
-    subject: CIML
+    title: 'Agenda Item 15.3: Rapports des Organisations Régionales de Métrologie
+      Légale (RLMO)'
     considerations: []
     actions:
     - type: notes
@@ -1610,6 +1586,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '15.3'
 - identifier:
   - prefix: CIML
     number: 2003/15.4
@@ -1620,9 +1597,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Draft policy paper on coordination with Regional Legal Metrology Organizations
-      (RLMOs)
-    subject: CIML
+    title: 'Agenda Item 15.4: Projet de document de politique générale sur la coordination
+      avec les Organisations Régionales de Métrologie Légale (RLMO)'
     considerations: []
     actions:
     - type: notes
@@ -1637,9 +1613,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Projet de document de politique générale sur la coordination avec les Organisations
-      Régionales de Mé…
-    subject: CIML
+    title: 'Agenda Item 15.4: Projet de document de politique générale sur la coordination
+      avec les Organisations Régionales de Métrologie Légale (RLMO)'
     considerations: []
     actions:
     - type: notes
@@ -1654,6 +1629,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '15.4'
 - identifier:
   - prefix: CIML
     number: 2003/16
@@ -1664,8 +1640,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Election of the CIML President
-    subject: CIML
+    title: 'Agenda Item 16: Élection du Président du CIML'
     considerations: []
     actions:
     - type: notes
@@ -1680,8 +1655,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Élection du Président du CIML
-    subject: CIML
+    title: 'Agenda Item 16: Élection du Président du CIML'
     considerations: []
     actions:
     - type: notes
@@ -1695,6 +1669,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2003/17
@@ -1705,15 +1680,14 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Future meetings
-    subject: CIML
+    title: 'Agenda Item 17: Prochaines réunions'
     considerations: []
     actions: []
   - language_code: fra
-    title: Prochaines réunions
-    subject: CIML
+    title: 'Agenda Item 17: Prochaines réunions'
     considerations: []
     actions: []
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 2003/17.1
@@ -1724,9 +1698,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: "$ 3 9^{th} $ CIML Meeting and $ 1 2^{th} $ International Conference on
-      Legal Metrology (Berlin, 2004…"
-    subject: CIML
+    title: 'Agenda Item 17.1: 39ème Réunion du CIML et 12ème Conférence Internationale
+      de Métrologie Légale (Berlin, 2004)'
     considerations: []
     actions:
     - type: notes
@@ -1741,9 +1714,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: 39ème Réunion du CIML et 12ème Conférence Internationale de Métrologie
-      Légale (Berlin, 2004)
-    subject: CIML
+    title: 'Agenda Item 17.1: 39ème Réunion du CIML et 12ème Conférence Internationale
+      de Métrologie Légale (Berlin, 2004)'
     considerations: []
     actions:
     - type: notes
@@ -1757,6 +1729,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '17.1'
 - identifier:
   - prefix: CIML
     number: 2003/17.2
@@ -1767,9 +1740,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: "$ 4 0^{th} $ CIML Meeting and $ 5 0^{th} $ Anniversary of the OIML (France,
-      2005)"
-    subject: CIML
+    title: 'Agenda Item 17.2: 40ème Réunion du CIML et 50ème Anniversaire de l''OIML
+      (France, 2005)'
     considerations: []
     actions:
     - type: notes
@@ -1792,8 +1764,8 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: 40ème Réunion du CIML et 50ème Anniversaire de l'OIML (France, 2005)
-    subject: CIML
+    title: 'Agenda Item 17.2: 40ème Réunion du CIML et 50ème Anniversaire de l''OIML
+      (France, 2005)'
     considerations: []
     actions:
     - type: notes
@@ -1814,6 +1786,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '17.2'
 - identifier:
   - prefix: CIML
     number: 2003/17.3
@@ -1824,8 +1797,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Further meetings
-    subject: CIML
+    title: 'Agenda Item 17.3: Autres réunions'
     considerations: []
     actions:
     - type: notes
@@ -1838,8 +1810,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Autres réunions
-    subject: CIML
+    title: 'Agenda Item 17.3: Autres réunions'
     considerations: []
     actions:
     - type: notes
@@ -1851,6 +1822,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '17.3'
 - identifier:
   - prefix: CIML
     number: 2003/18
@@ -1861,8 +1833,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other matters
-    subject: CIML
+    title: 'Agenda Item 18: Autres questions'
     considerations: []
     actions:
     - type: notes
@@ -1874,8 +1845,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Autres questions
-    subject: CIML
+    title: 'Agenda Item 18: Autres questions'
     considerations: []
     actions:
     - type: notes
@@ -1887,6 +1857,7 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: CIML
     number: 2003/19
@@ -1897,8 +1868,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of decisions
-    subject: CIML
+    title: 'Agenda Item 19: Adoption des décisions'
     considerations: []
     actions:
     - type: notes
@@ -1909,8 +1879,7 @@ decisions:
         date: '2003-11-05'
         type: effective
   - language_code: fra
-    title: Adoption des décisions
-    subject: CIML
+    title: 'Agenda Item 19: Adoption des décisions'
     considerations: []
     actions:
     - type: notes
@@ -1920,3 +1889,4 @@ decisions:
       date_effective:
         date: '2003-11-05'
         type: effective
+  agenda_item: '19'

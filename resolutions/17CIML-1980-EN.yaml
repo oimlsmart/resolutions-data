@@ -24,8 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE
-    subject: CIML
+    title: 'Agenda Item 1: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE'
     considerations: []
     actions:
     - type: notes
@@ -35,6 +34,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1980/2
@@ -45,10 +45,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: FINANCIAL SITUATION
-    subject: CIML
+    title: 'Agenda Item 2: FINANCIAL SITUATION'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1980/2.1
@@ -59,8 +59,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the Accountants' Reports for 1978 and 1979
-    subject: CIML
+    title: 'Agenda Item 2.1: Approval of the Accountants'' Reports for 1978 and 1979'
     considerations: []
     actions:
     - type: notes
@@ -70,6 +69,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 1980/2.2
@@ -80,8 +80,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the draft "Financial Code"
-    subject: CIML
+    title: 'Agenda Item 2.2: Examination of the draft "Financial Code"'
     considerations: []
     actions:
     - type: notes
@@ -93,6 +92,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1980/3
@@ -103,10 +103,11 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF THE CONFERENCE
-    subject: CIML
+    title: 'Agenda Item 3: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF
+      THE CONFERENCE'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1980/3.1
@@ -117,8 +118,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Scale of salaries for BIML staff
-    subject: CIML
+    title: 'Agenda Item 3.1: Scale of salaries for BIML staff'
     considerations: []
     actions:
     - type: notes
@@ -131,6 +131,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 1980/4
@@ -141,9 +142,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY OF THE CONFERENCE
-      ORGANIZATION OF THE SESS…
-    subject: CIML
+    title: 'Agenda Item 4: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY
+      OF THE CONFERENCE ORGANIZATION OF THE SESSION'
     considerations: []
     actions:
     - type: notes
@@ -154,6 +154,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1980/5
@@ -164,10 +165,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE
-    subject: CIML
+    title: 'Agenda Item 5: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE'
     considerations: []
     actions: []
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1980/5.1
@@ -178,8 +179,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Amendment of the Convention
-    subject: CIML
+    title: 'Agenda Item 5.1: Amendment of the Convention'
     considerations: []
     actions:
     - type: notes
@@ -191,6 +191,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '5.1'
 - identifier:
   - prefix: CIML
     number: 1980/6
@@ -201,10 +202,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS
-    subject: CIML
+    title: 'Agenda Item 6: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS'
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1980/6.1
@@ -215,8 +216,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: SP 25 - Developing Countries
-    subject: CIML
+    title: 'Agenda Item 6.1: SP 25 - Developing Countries'
     considerations: []
     actions:
     - type: notes
@@ -228,6 +228,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 1980/6.2
@@ -238,8 +239,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: SP 17 - Measurement of pollutants
-    subject: CIML
+    title: 'Agenda Item 6.2: SP 17 - Measurement of pollutants'
     considerations: []
     actions:
     - type: notes
@@ -254,6 +254,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 1980/6.3
@@ -264,8 +265,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: SP 20 - Prepackaged products
-    subject: CIML
+    title: 'Agenda Item 6.3: SP 20 - Prepackaged products'
     considerations: []
     actions:
     - type: notes
@@ -278,6 +278,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '6.3'
 - identifier:
   - prefix: CIML
     number: 1980/6.4
@@ -288,8 +289,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Creation of a new Secretariat for explosimeters.
-    subject: CIML
+    title: 'Agenda Item 6.4: Creation of a new Secretariat for explosimeters.'
     considerations: []
     actions:
     - type: notes
@@ -304,6 +304,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 1980/6.5
@@ -314,8 +315,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Reorganization of SP 18 (Food products).
-    subject: CIML
+    title: 'Agenda Item 6.5: Reorganization of SP 18 (Food products).'
     considerations: []
     actions:
     - type: notes
@@ -327,6 +327,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '6.5'
 - identifier:
   - prefix: CIML
     number: 1980/6.6
@@ -337,8 +338,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BIML proposal concerning the state of progress with certain activities
-    subject: CIML
+    title: 'Agenda Item 6.6: BIML proposal concerning the state of progress with certain
+      activities'
     considerations: []
     actions:
     - type: notes
@@ -353,6 +354,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '6.6'
 - identifier:
   - prefix: CIML
     number: 1980/7
@@ -363,10 +365,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS
-    subject: CIML
+    title: 'Agenda Item 7: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS'
     considerations: []
     actions: []
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1980/7.1
@@ -377,8 +379,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New adoption procedures and new appellation
-    subject: CIML
+    title: 'Agenda Item 7.1: New adoption procedures and new appellation'
     considerations: []
     actions:
     - type: notes
@@ -390,6 +391,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '7.1'
 - identifier:
   - prefix: CIML
     number: 1980/8
@@ -400,8 +402,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BUREAU PERSONNEL
-    subject: CIML
+    title: 'Agenda Item 8: BUREAU PERSONNEL'
     considerations: []
     actions:
     - type: notes
@@ -422,6 +423,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1980/9
@@ -432,10 +434,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
-    subject: CIML
+    title: 'Agenda Item 9: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1980/9.1
@@ -446,8 +448,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Composition of Reporting Secretariats
-    subject: CIML
+    title: 'Agenda Item 9.1: Composition of Reporting Secretariats'
     considerations: []
     actions:
     - type: notes
@@ -461,6 +462,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 1980/9.2
@@ -471,8 +473,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Development Council (Financial Code)
-    subject: CIML
+    title: 'Agenda Item 9.2: Development Council (Financial Code)'
     considerations: []
     actions:
     - type: notes
@@ -486,6 +487,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 1980/9.3
@@ -496,8 +498,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on the work of the "OIML Mark" ad hoc group
-    subject: CIML
+    title: 'Agenda Item 9.3: Report on the work of the "OIML Mark" ad hoc group'
     considerations: []
     actions:
     - type: notes
@@ -507,6 +508,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 1980/10
@@ -517,8 +519,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: ORGANIZATION OF TECHNICAL SEMINARS
-    subject: CIML
+    title: 'Agenda Item 10: ORGANIZATION OF TECHNICAL SEMINARS'
     considerations: []
     actions:
     - type: notes
@@ -532,6 +533,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1980/11
@@ -542,8 +544,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: OIML LOGO
-    subject: CIML
+    title: 'Agenda Item 11: OIML LOGO'
     considerations: []
     actions:
     - type: notes
@@ -555,6 +556,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1980/12
@@ -565,8 +567,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL
-    subject: CIML
+    title: 'Agenda Item 12: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL'
     considerations: []
     actions:
     - type: notes
@@ -578,6 +579,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1980/13
@@ -588,8 +590,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: REPORT ON BIML ACTIVITIES
-    subject: CIML
+    title: 'Agenda Item 13: REPORT ON BIML ACTIVITIES'
     considerations: []
     actions:
     - type: notes
@@ -600,6 +601,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 1980/14
@@ -610,8 +612,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: ANY OTHER BUSINESS
-    subject: CIML
+    title: 'Agenda Item 14: ANY OTHER BUSINESS'
     considerations: []
     actions:
     - type: notes
@@ -628,6 +629,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 1980/15
@@ -638,8 +640,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: DATE AND PLACE OF THE NEXT MEETING
-    subject: CIML
+    title: 'Agenda Item 15: DATE AND PLACE OF THE NEXT MEETING'
     considerations: []
     actions:
     - type: notes
@@ -652,6 +653,7 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 1980/16
@@ -662,8 +664,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY
-    subject: CIML
+    title: 'Agenda Item 16: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY'
     considerations: []
     actions:
     - type: notes
@@ -757,3 +758,4 @@ decisions:
       date_effective:
         date: '1980-06-16'
         type: effective
+  agenda_item: '16'

@@ -24,8 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Appointment of an Honorary Member of the Committee
-    subject: CIML
+    title: 'Agenda Item 0: Nomination d''un Membre d''Honneur du Comité'
     considerations: []
     actions:
     - type: notes
@@ -36,6 +35,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '0'
 - identifier:
   - prefix: CIML
     number: 2000/1
@@ -46,8 +46,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the minutes of the 34th CIML Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Approbation du compte rendu de la 34ème Réunion du CIML'
     considerations: []
     actions:
     - type: approves
@@ -58,6 +57,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2000/2
@@ -68,8 +68,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 2: États Membres et Membres Correspondants'
     considerations: []
     actions:
     - type: notes
@@ -83,6 +82,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2000/3
@@ -93,8 +93,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial matters
-    subject: CIML
+    title: 'Agenda Item 3: Questions financières'
     considerations: []
     actions:
     - type: approves
@@ -105,6 +104,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2000/4
@@ -115,8 +115,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Presidential Council activities
-    subject: CIML
+    title: 'Agenda Item 4: Activités du Conseil de la Présidence'
     considerations: []
     actions:
     - type: notes
@@ -127,6 +126,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2000/5
@@ -137,8 +137,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: BIML activities
-    subject: CIML
+    title: 'Agenda Item 5: Activités du BIML'
     considerations: []
     actions:
     - type: notes
@@ -149,6 +148,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2000/6
@@ -159,8 +159,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Technical activities
-    subject: CIML
+    title: 'Agenda Item 6: Activités techniques'
     considerations: []
     actions:
     - type: notes
@@ -179,6 +178,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2000/7
@@ -189,8 +189,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Eleventh International Conference of Legal Metrology
-    subject: CIML
+    title: 'Agenda Item 7: Onzième Conférence Internationale de Métrologie Légale
+      Ordre du jour et programme'
     considerations: []
     actions:
     - type: endorses
@@ -204,6 +204,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2000/8
@@ -214,8 +215,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: CIML Presidency
-    subject: CIML
+    title: 'Agenda Item 8: Présidence du CIML'
     considerations: []
     actions:
     - type: notes
@@ -234,6 +234,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2000/9
@@ -244,8 +245,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Director of the BIML
-    subject: CIML
+    title: 'Agenda Item 9: Directeur du BIML'
     considerations: []
     actions:
     - type: notes
@@ -256,6 +256,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2000/10
@@ -266,8 +267,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Eleventh International Conference of Legal Metrology
-    subject: CIML
+    title: 'Agenda Item 10: Onzième Conférence Internationale de Métrologie Légale'
     considerations: []
     actions:
     - type: notes
@@ -279,6 +279,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2000/11
@@ -289,10 +290,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Future meetings
-    subject: CIML
+    title: 'Agenda Item 11: Futures réunions'
     considerations: []
     actions: []
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2000/11.1
@@ -303,8 +304,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 36th CIML Meeting (2001)
-    subject: CIML
+    title: 'Agenda Item 11.1: 36ème Réunion du CIML (2001)'
     considerations: []
     actions:
     - type: decides
@@ -315,6 +315,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '11.1'
 - identifier:
   - prefix: CIML
     number: 2000/11.2
@@ -325,8 +326,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 37th CIML Meeting (2002)
-    subject: CIML
+    title: 'Agenda Item 11.2: 37ème Réunion du CIML (2002)'
     considerations: []
     actions:
     - type: notes
@@ -338,6 +338,7 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '11.2'
 - identifier:
   - prefix: CIML
     number: 2000/12
@@ -348,8 +349,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of decisions
-    subject: CIML
+    title: 'Agenda Item 12: Adoption des décisions'
     considerations: []
     actions:
     - type: notes
@@ -359,3 +359,4 @@ decisions:
       date_effective:
         date: '2000-10-09'
         type: effective
+  agenda_item: '12'

@@ -19,9 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Approves the minutes of the 46th CIML Meeting with the following amendment:
-      On page'
-    subject: CIML
+    title: 'Agenda Item 1: Approval of the minutes of the 46th CIML Meeting'
     considerations: []
     actions:
     - type: approves
@@ -32,7 +30,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 1 de l'ordre du jour
+    title: 'Agenda Item 1: Approval of the minutes of the 46th CIML Meeting'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -44,6 +42,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 2012/2
@@ -54,7 +53,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Committee, Notes the report given by its President.
+    title: 'Agenda Item 2: General report by the CIML President'
     subject: OIML Conference
     considerations: []
     actions:
@@ -66,8 +65,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 2 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 2: General report by the CIML President'
     considerations: []
     actions:
     - type: notes
@@ -77,6 +75,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2012/3
@@ -87,8 +86,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report given by the BIML Director.
-    subject: CIML
+    title: 'Agenda Item 3: Presentations by the candidates for CIML first Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -99,8 +97,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 4.1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 3: Presentations by the candidates for CIML first Vice-President'
     considerations: []
     actions:
     - type: notes
@@ -110,6 +107,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 2012/4
@@ -120,9 +118,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Welcomes Gambia, Liberia, Malawi, Mauritania, Namibia, Nigeria and Sierra
-      Leone as new Corresponding…
-    subject: CIML
+    title: 'Agenda Item 4: BIML activities'
     considerations: []
     actions:
     - type: welcomes
@@ -134,8 +130,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 5 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 4: BIML activities'
     considerations: []
     actions:
     - type: welcomes
@@ -146,6 +141,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 2012/5
@@ -156,8 +152,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the 2011 accounts, and
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations:
     - type: noting
       message: 'Noting the accounts for 2011 and the BIML Director''s comments,
@@ -189,8 +184,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Approuve les comptes de l'année 2011, et
-    subject: CIML
+    title: 'Agenda Item 5: Member States and Corresponding Members'
     considerations:
     - type: noting
       message: |
@@ -215,6 +209,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 2012/6
@@ -225,9 +220,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Instructs its President to submit the draft to the 14th Conference for
-      adoption.
-    subject: CIML
+    title: 'Agenda Item 6: Financial matters'
     considerations: []
     actions:
     - type: instructs
@@ -239,8 +232,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Charge son Président de soumettre le projet pour adoption à la 14ème Conférence.
-    subject: CIML
+    title: 'Agenda Item 6: Financial matters'
     considerations: []
     actions:
     - type: charges
@@ -251,6 +243,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2012/7
@@ -261,9 +254,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the BIML Director's proposal to allocate funding to support the
-      OIML activities aimed
-    subject: CIML
+    title: 'Agenda Item 7: Report on Developing Countries'
     considerations: []
     actions:
     - type: approves
@@ -284,8 +275,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 6.6 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 7: Report on Developing Countries'
     considerations:
     - type: considering
       message: |
@@ -317,6 +307,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2012/8
@@ -327,9 +318,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves the BIML Director's proposal for policies and rules for the reimbursement
-      of travel
-    subject: CIML
+    title: 'Agenda Item 8: Liaisons'
     considerations: []
     actions:
     - type: approves
@@ -351,9 +340,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Approuve la proposition du Directeur du BIML relative aux politiques et
-      règles de remboursement
-    subject: CIML
+    title: 'Agenda Item 8: Liaisons'
     considerations: []
     actions:
     - type: approves
@@ -374,6 +361,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 2012/9
@@ -384,9 +372,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report given by the BIML Director, Encourages the BIML to continue
-      its
-    subject: CIML
+    title: 'Agenda Item 9: Technical activities'
     considerations: []
     actions:
     - type: notes
@@ -405,8 +391,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 6.8 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 9: Technical activities'
     considerations: []
     actions:
     - type: notes
@@ -424,6 +409,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 2012/10
@@ -434,8 +420,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves this budget, and
-    subject: CIML
+    title: 'Agenda Item 10: Preparation of the 14th Conference'
     considerations: []
     actions:
     - type: approves
@@ -455,8 +440,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Approuve ledit budget, et
-    subject: CIML
+    title: 'Agenda Item 10: Preparation of the 14th Conference'
     considerations: []
     actions:
     - type: approves
@@ -475,6 +459,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 2012/11
@@ -485,8 +470,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Notes the report on developing countries given by the BIML.
-    subject: CIML
+    title: 'Agenda Item 11: Review of the Resolutions of the 14th Conference'
     considerations: []
     actions:
     - type: notes
@@ -497,8 +481,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Prend note du rapport relatif aux pays en développement fourni par le BIML.
-    subject: CIML
+    title: 'Agenda Item 11: Review of the Resolutions of the 14th Conference'
     considerations: []
     actions:
     - type: notes
@@ -509,6 +492,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2012/11a
@@ -521,7 +505,6 @@ decisions:
   - language_code: eng
     title: Thanks its President and the BIML Director for the establishment of regular
       working contacts
-    subject: CIML
     considerations:
     - type: recalling
       message: |
@@ -557,7 +540,6 @@ decisions:
   - language_code: fra
     title: Remercie son Président et le Directeur du BIML pour l'établissement de
       contacts de travail
-    subject: CIML
     considerations:
     - type: recalling
       message: |
@@ -590,6 +572,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: 11a
 - identifier:
   - prefix: CIML
     number: 2012/12
@@ -600,8 +583,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Confirms that the rules set out in OIML B 6 shall only apply to
-    subject: CIML
+    title: 'Agenda Item 12: Election of the CIML first Vice-President'
     considerations:
     - type: noting
       message: 'Noting the proposal from the ad hoc working group on the revision
@@ -622,8 +604,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Point 9.1 de l'ordre du jour
-    subject: CIML
+    title: 'Agenda Item 12: Election of the CIML first Vice-President'
     considerations:
     - type: noting
       message: |
@@ -638,6 +619,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 2012/13
@@ -648,9 +630,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Confirms that Corresponding Members may participate in the work of OIML
-      Technical Committees, Subcom…
-    subject: CIML
+    title: 'Agenda Item 13: Awards'
     considerations:
     - type: recalling
       message: 'Recalling its discussions at the 33rd and 34th CIML Meetings on the
@@ -672,9 +652,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives
-      à la
-    subject: CIML
+    title: 'Agenda Item 13: Awards'
     considerations:
     - type: recalling
       message: |
@@ -693,6 +671,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 2012/14
@@ -703,8 +682,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Thanks the ad hoc working group chaired by its second Vice-President
-    subject: CIML
+    title: 'Agenda Item 14: Future meetings'
     considerations:
     - type: recalling
       message: 'Recalling Resolution no. 23 of its 46th meeting,
@@ -730,8 +708,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Remercie le groupe de travail ad hoc présidé par son second Vice-Président
-    subject: CIML
+    title: 'Agenda Item 14: Future meetings'
     considerations:
     - type: recalling
       message: 'Rappelant la Résolution n° 23 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
@@ -756,6 +733,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 2012/15
@@ -766,8 +744,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approves as a new work project under TC 17/SC 7 Breath testers a revision
-    subject: CIML
+    title: 'Agenda Item 15: Vote on Meeting Resolutions'
     considerations: []
     actions:
     - type: approves
@@ -779,8 +756,7 @@ decisions:
         date: '2012-10-01'
         type: effective
   - language_code: fra
-    title: Approuve en tant que nouveau projet de travail dans le cadre du TC 17/SC
-    subject: CIML
+    title: 'Agenda Item 15: Vote on Meeting Resolutions'
     considerations: []
     actions:
     - type: approves
@@ -791,6 +767,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 2012/16
@@ -803,7 +780,6 @@ decisions:
   - language_code: eng
     title: 'Approves the following Draft Publications: - Revision of OIML D1 Considerations
       for a law'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -818,7 +794,6 @@ decisions:
   - language_code: fra
     title: 'Approuve les Projets de Publications suivants : - Révision de l''OIML
       D 1 Considérations'
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -830,6 +805,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 2012/17
@@ -842,7 +818,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.3.3
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -856,7 +831,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.3.3 de l'ordre du jour
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -880,7 +854,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Agenda item 9.3.4
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -893,7 +866,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.3.4 de l'ordre du jour
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -916,7 +888,6 @@ decisions:
   - language_code: eng
     title: 'Resolves: The draft revision of OIML R 126 Evidential breath analyzers
       is approved.'
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling Resolution no.17 of its 46th meeting,
@@ -944,7 +915,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.3.1 de l'ordre du jour
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant la Résolution n° 17 de sa $ 4 6^{\mathrm{e m e}} $ Réunion,
@@ -970,6 +940,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '19'
 - identifier:
   - prefix: CIML
     number: 2012/20
@@ -982,7 +953,6 @@ decisions:
   - language_code: eng
     title: Approves the proposal of the BIML for combining or withdrawing the projects
       as follows
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1023,7 +993,6 @@ decisions:
   - language_code: fra
     title: 'Approuve la proposition suivante du BIML visant à combiner ou retirer
       les projets '
-    subject: CIML
     considerations: []
     actions:
     - type: approves
@@ -1062,6 +1031,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '20'
 - identifier:
   - prefix: CIML
     number: 2012/21
@@ -1073,7 +1043,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Decides that the CIML shall proceed to vote on the Amendment to OIML B
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling Resolution no. 21 of its 46th meeting,
@@ -1100,7 +1069,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Décide que le CIML doit procéder au vote sur l'Amendement à l'OIML B 10:2012
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant la Résolution n° 21 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
@@ -1127,6 +1095,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '21'
 - identifier:
   - prefix: CIML
     number: 2012/22
@@ -1138,7 +1107,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Approves the Draft Amendment to OIML B 10.
-    subject: CIML
     considerations:
     - type: noting
       message: 'Noting the approval by TC 3/SC 5 of the Draft Amendment to OIML B
@@ -1160,7 +1128,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Approuve le Projet d'Amendement à I'OIML B 10.
-    subject: CIML
     considerations:
     - type: noting
       message: 'Prenant note de l''approbation par le TC 3/SC 5 du Projet d''Amendement
@@ -1181,6 +1148,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '22'
 - identifier:
   - prefix: CIML
     number: 2012/23
@@ -1192,7 +1160,6 @@ decisions:
   localizations:
   - language_code: eng
     title: Approves the following text as the OIML statement on the new SI to be
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Recalling Resolution no. 25 of its 46th meeting,
@@ -1245,7 +1212,6 @@ decisions:
         type: effective
   - language_code: fra
     title: Point 9.5 de l'ordre du jour
-    subject: CIML
     considerations:
     - type: recalling
       message: 'Rappelant la Résolution n° 25 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
@@ -1297,6 +1263,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '23'
 - identifier:
   - prefix: CIML
     number: 2012/24
@@ -1309,7 +1276,6 @@ decisions:
   - language_code: eng
     title: Noting the procedure for the selection of candidates to a vacant Vice-President
       post in
-    subject: CIML
     considerations:
     - type: noting
       message: |
@@ -1330,7 +1296,6 @@ decisions:
   - language_code: fra
     title: Prenant note de la procédure de sélection de candidats à un poste vacant
       de
-    subject: CIML
     considerations:
     - type: noting
       message: |
@@ -1348,6 +1313,7 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '24'
 - identifier:
   - prefix: CIML
     number: 2012/25
@@ -1360,7 +1326,6 @@ decisions:
   - language_code: eng
     title: Thanks the Vietnamese delegation for the presentation on the venue of its
       48th meeting.
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1374,7 +1339,6 @@ decisions:
   - language_code: fra
     title: Remercie la délégation vietnamienne pour sa présentation sur les lieux
       de la 48ème Réunion
-    subject: CIML
     considerations: []
     actions:
     - type: thanks
@@ -1385,3 +1349,4 @@ decisions:
       date_effective:
         date: '2012-10-01'
         type: effective
+  agenda_item: '25'

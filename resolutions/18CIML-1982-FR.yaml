@@ -24,7 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Situation Financière
+    title: 'Agenda Item 3: Situation Financière'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -35,6 +35,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1982/4
@@ -45,7 +46,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Personnel du Bureau
+    title: 'Agenda Item 4: Personnel du Bureau'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -56,6 +57,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1982/6
@@ -66,7 +68,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Secrétariats Pilotes et Rapporteurs
+    title: 'Agenda Item 6: Secrétariats Pilotes et Rapporteurs'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -78,6 +80,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1982/7
@@ -88,7 +91,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Interaction OIML-Etats Membres
+    title: 'Agenda Item 7: Interaction OIML-Etats Membres'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -100,6 +103,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1982/8
@@ -110,7 +114,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Système de Certification OIML (Marque OIML)
+    title: 'Agenda Item 8: Système de Certification OIML (Marque OIML)'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -121,6 +125,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1982/1
@@ -131,7 +136,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ADOPTION DU COMPTE RENDU
+    title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -142,6 +147,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1982/2
@@ -152,10 +158,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ETATS MEMBRES ET MEMBRES CORRESPONDANTS
+    title: 'Agenda Item 2: ETATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1982/2.1
@@ -166,7 +173,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Nouvelles adhésions. Perspectives de nouvelles adhésions
+    title: 'Agenda Item 2.1: Nouvelles adhésions. Perspectives de nouvelles adhésions'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -187,6 +194,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 1982/2.2
@@ -197,7 +205,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de la situation de certains Etats Membres
+    title: 'Agenda Item 2.2: Examen de la situation de certains Etats Membres'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -211,6 +219,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1982/2.3
@@ -221,8 +230,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 'Membres Correspondants : mise en application de la Résolution de la 6e
-      Conférence sur l''institution …'
+    title: 'Agenda Item 2.3: Membres Correspondants : mise en application de la Résolution
+      de la 6e Conférence sur l''institution d''un abonnement forfaitaire'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -235,6 +244,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '2.3'
 - identifier:
   - prefix: CIML
     number: 1982/3
@@ -245,10 +255,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SITUATION FINANCIERE
+    title: 'Agenda Item 3: Situation Financière'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1982/3.1
@@ -259,7 +270,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Adoption du Rapport Comptable pour 1980
+    title: 'Agenda Item 3.1: Adoption du Rapport Comptable pour 1980'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -271,6 +282,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 1982/3.2
@@ -281,7 +293,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de la situation financière pour 1981 et estimation pour 1982
+    title: 'Agenda Item 3.2: Examen de la situation financière pour 1981 et estimation
+      pour 1982'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -299,6 +312,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 1982/3.3
@@ -309,8 +323,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de l'éventualité d'une convocation d'une session extraordinaire
-      de la Conférence
+    title: 'Agenda Item 3.3: Examen de l''éventualité d''une convocation d''une session
+      extraordinaire de la Conférence'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -322,6 +336,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '3.3'
 - identifier:
   - prefix: CIML
     number: 1982/4
@@ -332,10 +347,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: PERSONNEL DU BUREAU
+    title: 'Agenda Item 4: Personnel du Bureau'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1982/4.1
@@ -346,7 +362,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen des postes devenant vacants dans un proche avenir
+    title: 'Agenda Item 4.1: Examen des postes devenant vacants dans un proche avenir'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -358,6 +374,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '4.1'
 - identifier:
   - prefix: CIML
     number: 1982/4.2
@@ -368,7 +385,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Examen de l'expertise comptable sur la caisse de retraite
+    title: 'Agenda Item 4.2: Examen de l''expertise comptable sur la caisse de retraite'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -380,6 +397,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '4.2'
 - identifier:
   - prefix: CIML
     number: 1982/5
@@ -390,10 +408,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ORGANES CONSTITUTIFS DE L'OIML
+    title: 'Agenda Item 5: ORGANES CONSTITUTIFS DE L''OIML'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1982/5.1
@@ -404,7 +423,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Création de « Commissions Spécialisées »
+    title: 'Agenda Item 5.1: Création de « Commissions Spécialisées »'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -419,6 +438,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '5.1'
 - identifier:
   - prefix: CIML
     number: 1982/6
@@ -429,10 +449,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SECRETARIATS PILOTES ET RAPPORTEURS
+    title: 'Agenda Item 6: Secrétariats Pilotes et Rapporteurs'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1982/6.1
@@ -443,8 +464,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: a) Mode de Travail des Secrétariats - Caractère spécifique des Recommandations
-      et Documents
+    title: 'Agenda Item 6.1: a) Mode de Travail des Secrétariats - Caractère spécifique
+      des Recommandations et Documents'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -457,6 +478,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 1982/6.1
@@ -467,7 +489,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: b) Planification des travaux
+    title: 'Agenda Item 6.1: a) Mode de Travail des Secrétariats - Caractère spécifique
+      des Recommandations et Documents'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -478,6 +501,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 1982/6.2
@@ -488,7 +512,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Création de nouveaux Secrétariats
+    title: 'Agenda Item 6.2: Création de nouveaux Secrétariats'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -523,6 +547,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 1982/6.4
@@ -533,8 +558,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Utilisation par les Secrétariats des résultats des travaux d'autres Institutions
-      Internationales
+    title: 'Agenda Item 6.4: Utilisation par les Secrétariats des résultats des travaux
+      d''autres Institutions Internationales'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -552,6 +577,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 1982/6.5
@@ -562,7 +588,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Etat d'avancement des travaux des Secrétariats
+    title: 'Agenda Item 6.5: Etat d''avancement des travaux des Secrétariats'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -574,6 +600,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6.5'
 - identifier:
   - prefix: CIML
     number: 1982/6.6
@@ -584,7 +611,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Adoption des Documents Internationaux
+    title: 'Agenda Item 6.6: Adoption des Documents Internationaux'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -597,6 +624,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '6.6'
 - identifier:
   - prefix: CIML
     number: 1982/7
@@ -607,10 +635,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: INTERACTION OIML ETATS MEMBRES
+    title: 'Agenda Item 7: Interaction OIML-Etats Membres'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1982/7.1
@@ -621,8 +650,8 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: 'Participation des Etats Membres aux travaux des Secrétariats : Services
-      de métrologie, autres organe…'
+    title: 'Agenda Item 7.1: Participation des Etats Membres aux travaux des Secrétariats
+      : Services de métrologie, autres organes administratifs, industrie.'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -634,6 +663,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '7.1'
 - identifier:
   - prefix: CIML
     number: 1982/8
@@ -644,10 +674,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SYSTEME DE CERTIFICATION OIML (Marque OIML)
+    title: 'Agenda Item 8: Système de Certification OIML (Marque OIML)'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1982/8.1
@@ -658,7 +689,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Discussion des conclusions du groupe ad hoc
+    title: 'Agenda Item 8.1: Discussion des conclusions du groupe ad hoc'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -671,6 +702,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '8.1'
 - identifier:
   - prefix: CIML
     number: 1982/9
@@ -681,10 +713,11 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: RELATIONS AVEC LES INSTITUTIONS INTERNATIONALES
+    title: 'Agenda Item 9: RELATIONS AVEC LES INSTITUTIONS INTERNATIONALES'
     subject: "(The CIML)"
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1982/9.1
@@ -695,7 +728,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Organes de la Convention du Mètre
+    title: 'Agenda Item 9.1: Organes de la Convention du Mètre'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -706,6 +739,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 1982/9.2
@@ -716,7 +750,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: ISO.
+    title: 'Agenda Item 9.2: ISO.'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -727,6 +761,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 1982/9.3
@@ -737,7 +772,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: CEI.
+    title: 'Agenda Item 9.3: CEI.'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -750,6 +785,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 1982/9.4
@@ -760,7 +796,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Autres Institutions
+    title: 'Agenda Item 9.4: Autres Institutions'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -776,6 +812,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '9.4'
 - identifier:
   - prefix: CIML
     number: 1982/9.5
@@ -786,7 +823,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: Groupes de travail mixtes
+    title: 'Agenda Item 9.5: Groupes de travail mixtes'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -800,6 +837,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '9.5'
 - identifier:
   - prefix: CIML
     number: 1982/10
@@ -810,7 +848,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: PAYS EN DEVELOPEMENT
+    title: 'Agenda Item 10: PAYS EN DEVELOPEMENT'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -822,6 +860,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1982/11
@@ -832,7 +871,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: SEMINAIRES
+    title: 'Agenda Item 11: SEMINAIRES'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -846,6 +885,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1982/12
@@ -856,7 +896,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: LOGO (sigle)
+    title: 'Agenda Item 12: LOGO (sigle)'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -868,6 +908,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1982/13
@@ -878,7 +919,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: BULLETIN OIML
+    title: 'Agenda Item 13: BULLETIN OIML'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -892,6 +933,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 1982/14
@@ -902,7 +944,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: RAPPORT D'ACTIVITE
+    title: 'Agenda Item 14: RAPPORT D''ACTIVITE'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -914,6 +956,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 1982/15
@@ -924,7 +967,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: PROCHAINES REUNIONS
+    title: 'Agenda Item 15: PROCHAINES REUNIONS'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -946,6 +989,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 1982/16
@@ -956,7 +1000,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: AUTRES QUESTIONS
+    title: 'Agenda Item 16: AUTRES QUESTIONS'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -969,6 +1013,7 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 1982/17
@@ -979,7 +1024,7 @@ decisions:
     type: decided
   localizations:
   - language_code: fra
-    title: CLOTURE
+    title: 'Agenda Item 17: CLOTURE'
     subject: "(The CIML)"
     considerations: []
     actions:
@@ -1193,3 +1238,4 @@ decisions:
       date_effective:
         date: '1982-03-24'
         type: effective
+  agenda_item: '17'

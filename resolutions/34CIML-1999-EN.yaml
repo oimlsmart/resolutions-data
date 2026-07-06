@@ -24,8 +24,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the minutes of the $ 3 3 ^{r d} $ CIML Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Approbation du compte rendu de la 33ème réunion du CIML'
     considerations: []
     actions:
     - type: notes
@@ -36,6 +35,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1999/2
@@ -46,10 +46,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 2: États Membres et Membres Correspondants'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1999/2.1
@@ -60,8 +60,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New Members - Expected accessions
-    subject: CIML
+    title: 'Agenda Item 2.1: Nouveaux Membres - Adhésions attendues'
     considerations: []
     actions:
     - type: notes
@@ -76,6 +75,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 1999/2.2
@@ -86,8 +86,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Situation of certain Members
-    subject: CIML
+    title: 'Agenda Item 2.2: Situation de certains Membres'
     considerations: []
     actions:
     - type: notes
@@ -102,6 +101,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1999/2.3
@@ -112,9 +112,9 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Implementation of the decision made by the Committee at its $ 33^{\mathrm{rd}}
-      $ Meeting concerning …
-    subject: CIML
+    title: 'Agenda Item 2.3: Mise en application des décisions du Comité lors de sa
+      33ème réunion concernant la participation accrue des Membres Correspondants
+      dans certaines activités de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -125,6 +125,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '2.3'
 - identifier:
   - prefix: CIML
     number: 1999/3
@@ -135,10 +136,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial matters
-    subject: CIML
+    title: 'Agenda Item 3: Questions financières'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1999/3.1
@@ -149,8 +150,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of the Auditor's report for 1998
-    subject: CIML
+    title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1998'
     considerations: []
     actions:
     - type: notes
@@ -160,6 +160,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 1999/3.2
@@ -170,8 +171,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the financial situation for 1999
-    subject: CIML
+    title: 'Agenda Item 3.2: Examen de la situation financière pour 1999'
     considerations: []
     actions:
     - type: notes
@@ -186,6 +186,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 1999/3.3
@@ -196,8 +197,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Budget for the year 2000
-    subject: CIML
+    title: 'Agenda Item 3.3: Budget pour l''année 2000'
     considerations: []
     actions:
     - type: notes
@@ -212,6 +212,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '3.3'
 - identifier:
   - prefix: CIML
     number: 1999/4
@@ -222,8 +223,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: CIML Presidency
-    subject: CIML
+    title: 'Agenda Item 4: Présidence du CIML'
     considerations: []
     actions:
     - type: notes
@@ -235,6 +235,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1999/5
@@ -245,8 +246,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Director of the Bureau
-    subject: CIML
+    title: 'Agenda Item 5: Directeur du Bureau'
     considerations: []
     actions:
     - type: notes
@@ -258,6 +258,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1999/6
@@ -268,9 +269,9 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'OIML Long-term policy: implementation of the decisions made by the Committee
-      at its $ 33 ^{rd} $ Mee…'
-    subject: CIML
+    title: 'Agenda Item 6: Politique à long terme de l''OIML: mise en application
+      des décisions prises par le Comité à sa 33ème réunion en ce qui concerne les
+      retombées du Séminaire International de Braunschweig et du rapport Birkeland'
     considerations: []
     actions:
     - type: notes
@@ -285,6 +286,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1999/7
@@ -295,8 +297,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on the activities of the Presidential Council
-    subject: CIML
+    title: 'Agenda Item 7: Rapport sur les activités du Conseil de la Présidence'
     considerations: []
     actions:
     - type: notes
@@ -315,6 +316,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1999/8
@@ -325,8 +327,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Development Council
-    subject: CIML
+    title: 'Agenda Item 8: Conseil de Développement'
     considerations: []
     actions:
     - type: notes
@@ -336,6 +337,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1999/9
@@ -346,10 +348,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Liaisons with international and regional organizations
-    subject: CIML
+    title: 'Agenda Item 9: Liaisons avec les organisations internationales et régionales'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1999/9.1
@@ -360,8 +362,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: World Trade Organization (WTO)
-    subject: CIML
+    title: 'Agenda Item 9.1: Organisation Mondiale du Commerce (OMC)'
     considerations: []
     actions:
     - type: notes
@@ -381,6 +382,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 1999/9.2
@@ -391,8 +393,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Standardization organizations (in particular: ISO, IEC, UN/ECE)'
-    subject: CIML
+    title: 'Agenda Item 9.2: Organisations de normalisation (en particulier: ISO,
+      CEI, CEE/NU)'
     considerations: []
     actions:
     - type: notes
@@ -412,6 +414,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 1999/9.3
@@ -422,8 +425,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Accreditation organizations (in particular: ILAC and IAF)'
-    subject: CIML
+    title: 'Agenda Item 9.3: Organisations d''accréditation (en particulier: ILAC
+      et IAF)'
     considerations: []
     actions:
     - type: notes
@@ -437,6 +440,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 1999/9.4
@@ -447,8 +451,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Regional Legal Metrology Organizations (RLMO's)
-    subject: CIML
+    title: 'Agenda Item 9.4: Organisations régionales de métrologie légale'
     considerations: []
     actions:
     - type: notes
@@ -461,6 +464,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.4'
 - identifier:
   - prefix: CIML
     number: 1999/9.5
@@ -471,9 +475,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Regional organizations having activities connected with legal metrology
-      (in particular: European Com…'
-    subject: CIML
+    title: 'Agenda Item 9.5: Organisations régionales ayant des activités liées à
+      la métrologie légale (en particulier: Commission Européenne et CEN/CENELEC)'
     considerations: []
     actions:
     - type: notes
@@ -506,6 +509,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.5'
 - identifier:
   - prefix: CIML
     number: 1999/9.6
@@ -516,8 +520,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Others (BIPM, WHO, ...)
-    subject: CIML
+    title: 'Agenda Item 9.6: Autres (BIPM, OMS,...)'
     considerations: []
     actions:
     - type: notes
@@ -534,6 +537,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.6'
 - identifier:
   - prefix: CIML
     number: 1999/10
@@ -544,9 +548,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Activities linked with mutual recognition of test results, accreditation,
-      etc.
-    subject: CIML
+    title: 'Agenda Item 10: Activités liées à la reconnaissance mutuelle des résultats
+      d''essais, à l''accréditation, etc.'
     considerations: []
     actions:
     - type: notes
@@ -565,6 +568,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1999/11
@@ -575,8 +579,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Technical activities
-    subject: CIML
+    title: 'Agenda Item 11: Activités techniques'
     considerations: []
     actions:
     - type: notes
@@ -594,6 +597,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1999/11.1
@@ -604,8 +608,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Work program of OIML TC's/SC's
-    subject: CIML
+    title: 'Agenda Item 11.1: Programme de travail des TC/SC de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -615,6 +618,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.1'
 - identifier:
   - prefix: CIML
     number: 1999/11.2
@@ -625,8 +629,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the situation of certain TC's and SC's
-    subject: CIML
+    title: 'Agenda Item 11.2: Examen de la situation de certains TC/SC'
     considerations: []
     actions:
     - type: notes
@@ -637,6 +640,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.2'
 - identifier:
   - prefix: CIML
     number: 1999/11.3
@@ -647,8 +651,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of draft Recommendations
-    subject: CIML
+    title: 'Agenda Item 11.3: Approbation des projets de Recommandations'
     considerations: []
     actions:
     - type: notes
@@ -659,6 +662,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.3'
 - identifier:
   - prefix: CIML
     number: 1999/11.4
@@ -669,9 +673,9 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Availability of OIML publications on paper, electronic media and via Internet;
-      use of Internet withi…
-    subject: CIML
+    title: 'Agenda Item 11.4: Disponibilité des publications OIML sur format papier,
+      sur support électronique et via Internet; utilisation d''Internet au sein de
+      l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -683,6 +687,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.4'
 - identifier:
   - prefix: CIML
     number: 1999/12
@@ -693,10 +698,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: OIML Certificate System
-    subject: CIML
+    title: 'Agenda Item 12: Système de Certificats OIML'
     considerations: []
     actions: []
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1999/12.1
@@ -707,8 +712,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: General information
-    subject: CIML
+    title: 'Agenda Item 12.1: Informations générales'
     considerations: []
     actions:
     - type: notes
@@ -724,6 +728,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '12.1'
 - identifier:
   - prefix: CIML
     number: 1999/12.2
@@ -734,8 +739,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New Recommendations applicable within the System
-    subject: CIML
+    title: 'Agenda Item 12.2: Nouvelles Recommandations applicables au Système'
     considerations: []
     actions:
     - type: notes
@@ -752,6 +756,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '12.2'
 - identifier:
   - prefix: CIML
     number: 1999/13
@@ -762,10 +767,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Preparations for the Eleventh Conference
-    subject: CIML
+    title: 'Agenda Item 13: Préparations pour la Onzième Conférence'
     considerations: []
     actions: []
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 1999/13.1
@@ -776,8 +781,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Information concerning the organization of the Conference
-    subject: CIML
+    title: 'Agenda Item 13.1: Informations relatives à l''organisation de la Conférence'
     considerations: []
     actions:
     - type: notes
@@ -789,6 +793,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '13.1'
 - identifier:
   - prefix: CIML
     number: 1999/13.2
@@ -799,8 +804,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Proposed agenda
-    subject: CIML
+    title: 'Agenda Item 13.2: Ordre du jour proposé'
     considerations: []
     actions:
     - type: notes
@@ -817,6 +821,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '13.2'
 - identifier:
   - prefix: CIML
     number: 1999/13.3
@@ -827,9 +832,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of a preliminary proposal for the 2001-2004 budget taking into
-      consideration BIML staff …
-    subject: CIML
+    title: 'Agenda Item 13.3: Examen d''une proposition préliminaire pour le budget
+      2001-2004 en tenant compte des besoins en personnel du BIML pour cette période'
     considerations: []
     actions:
     - type: notes
@@ -847,6 +851,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '13.3'
 - identifier:
   - prefix: CIML
     number: 1999/14
@@ -857,8 +862,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on BIML activities
-    subject: CIML
+    title: 'Agenda Item 14: Rapport sur les activités du BIML'
     considerations: []
     actions:
     - type: notes
@@ -869,6 +873,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 1999/15
@@ -879,10 +884,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Future Meetings
-    subject: CIML
+    title: 'Agenda Item 15: Futures réunions'
     considerations: []
     actions: []
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 1999/15.1
@@ -893,8 +898,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 35th CIML Meeting (2000)
-    subject: CIML
+    title: 'Agenda Item 15.1: 35ème réunion du CIML (2000)'
     considerations: []
     actions:
     - type: notes
@@ -905,6 +909,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '15.1'
 - identifier:
   - prefix: CIML
     number: 1999/15.2
@@ -915,8 +920,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 36th CIML Meeting (2001)
-    subject: CIML
+    title: 'Agenda Item 15.2: 36ème réunion du CIML (2001)'
     considerations: []
     actions:
     - type: notes
@@ -928,6 +932,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '15.2'
 - identifier:
   - prefix: CIML
     number: 1999/16
@@ -938,8 +943,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other matters
-    subject: CIML
+    title: 'Agenda Item 16: Autres questions'
     considerations: []
     actions:
     - type: notes
@@ -952,6 +956,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: CIML
     number: 1999/17
@@ -962,8 +967,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of decisions
-    subject: CIML
+    title: 'Agenda Item 17: Adoption des décisions'
     considerations: []
     actions:
     - type: notes
@@ -985,6 +989,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: CIML
     number: 1999/1
@@ -995,8 +1000,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of the minutes of the $ 3 3 ^{r d} $ CIML Meeting
-    subject: CIML
+    title: 'Agenda Item 1: Approbation du compte rendu de la 33ème réunion du CIML'
     considerations: []
     actions:
     - type: notes
@@ -1007,6 +1011,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: CIML
     number: 1999/2
@@ -1017,10 +1022,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Member States and Corresponding Members
-    subject: CIML
+    title: 'Agenda Item 2: États Membres et Membres Correspondants'
     considerations: []
     actions: []
+  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1999/2.1
@@ -1031,8 +1036,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New Members - Expected accessions
-    subject: CIML
+    title: 'Agenda Item 2.1: Nouveaux Membres - Adhésions attendues'
     considerations: []
     actions:
     - type: notes
@@ -1045,6 +1049,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '2.1'
 - identifier:
   - prefix: CIML
     number: 1999/2.2
@@ -1055,8 +1060,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Situation of certain Members
-    subject: CIML
+    title: 'Agenda Item 2.2: Situation de certains Membres'
     considerations: []
     actions:
     - type: notes
@@ -1068,6 +1072,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1999/2.3
@@ -1078,9 +1083,9 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Implementation of the decision made by the Committee at its $ 33^{\mathrm{rd}}
-      $ Meeting concerning …
-    subject: CIML
+    title: 'Agenda Item 2.3: Mise en application des décisions du Comité lors de sa
+      33ème réunion concernant la participation accrue des Membres Correspondants
+      dans certaines activités de l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -1092,6 +1097,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '2.3'
 - identifier:
   - prefix: CIML
     number: 1999/3
@@ -1102,10 +1108,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Financial matters
-    subject: CIML
+    title: 'Agenda Item 3: Questions financières'
     considerations: []
     actions: []
+  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1999/3.1
@@ -1116,8 +1122,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Adoption of the Auditor's report for 1998
-    subject: CIML
+    title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1998'
     considerations: []
     actions:
     - type: approves
@@ -1127,6 +1132,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '3.1'
 - identifier:
   - prefix: CIML
     number: 1999/3.2
@@ -1137,8 +1143,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the financial situation for 1999
-    subject: CIML
+    title: 'Agenda Item 3.2: Examen de la situation financière pour 1999'
     considerations: []
     actions:
     - type: notes
@@ -1150,6 +1155,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '3.2'
 - identifier:
   - prefix: CIML
     number: 1999/3.3
@@ -1160,8 +1166,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Budget for the year 2000
-    subject: CIML
+    title: 'Agenda Item 3.3: Budget pour l''année 2000'
     considerations: []
     actions:
     - type: notes
@@ -1173,6 +1178,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '3.3'
 - identifier:
   - prefix: CIML
     number: 1999/4
@@ -1183,8 +1189,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: CIML Presidency
-    subject: CIML
+    title: 'Agenda Item 4: Présidence du CIML'
     considerations: []
     actions:
     - type: notes
@@ -1197,6 +1202,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1999/5
@@ -1207,8 +1213,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Director of the Bureau
-    subject: CIML
+    title: 'Agenda Item 5: Directeur du Bureau'
     considerations: []
     actions:
     - type: approves
@@ -1221,6 +1226,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1999/6
@@ -1231,9 +1237,9 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'OIML Long-term policy: implementation of the decisions made by the Committee
-      at its $ 33 ^{rd} $ Mee…'
-    subject: CIML
+    title: 'Agenda Item 6: Politique à long terme de l''OIML: mise en application
+      des décisions prises par le Comité à sa 33ème réunion en ce qui concerne les
+      retombées du Séminaire International de Braunschweig et du rapport Birkeland'
     considerations: []
     actions:
     - type: notes
@@ -1245,6 +1251,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1999/7
@@ -1255,8 +1262,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on the activities of the Presidential Council
-    subject: CIML
+    title: 'Agenda Item 7: Rapport sur les activités du Conseil de la Présidence'
     considerations: []
     actions:
     - type: endorses
@@ -1268,6 +1274,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1999/8
@@ -1278,8 +1285,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Development Council
-    subject: CIML
+    title: 'Agenda Item 8: Conseil de Développement'
     considerations: []
     actions:
     - type: notes
@@ -1289,6 +1295,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1999/8.2
@@ -1299,8 +1306,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Work program of the Development Council
-    subject: CIML
+    title: 'Agenda Item 8.2: Programme de travail du Conseil de Développement'
     considerations: []
     actions:
     - type: notes
@@ -1313,6 +1319,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '8.2'
 - identifier:
   - prefix: CIML
     number: 1999/8.3
@@ -1323,8 +1330,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Liaisons with relevant international and regional organizations
-    subject: CIML
+    title: 'Agenda Item 8.3: Liaisons avec les organisations internationales et régionales
+      concernées'
     considerations: []
     actions:
     - type: notes
@@ -1336,6 +1343,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '8.3'
 - identifier:
   - prefix: CIML
     number: 1999/9
@@ -1346,10 +1354,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Liaisons with international and regional organizations
-    subject: CIML
+    title: 'Agenda Item 9: Liaisons avec les organisations internationales et régionales'
     considerations: []
     actions: []
+  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1999/9.1
@@ -1360,8 +1368,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: World Trade Organization (WTO)
-    subject: CIML
+    title: 'Agenda Item 9.1: Organisation Mondiale du Commerce (OMC)'
     considerations: []
     actions:
     - type: notes
@@ -1376,6 +1383,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.1'
 - identifier:
   - prefix: CIML
     number: 1999/9.2
@@ -1386,8 +1394,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Standardization organizations (in particular: ISO, IEC, UN/ECE)'
-    subject: CIML
+    title: 'Agenda Item 9.2: Organisations de normalisation (en particulier: ISO,
+      CEI, CEE/NU)'
     considerations: []
     actions:
     - type: notes
@@ -1398,6 +1406,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.2'
 - identifier:
   - prefix: CIML
     number: 1999/9.3
@@ -1408,8 +1417,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Accreditation organizations (in particular: ILAC and IAF)'
-    subject: CIML
+    title: 'Agenda Item 9.3: Organisations d''accréditation (en particulier: ILAC
+      et IAF)'
     considerations: []
     actions:
     - type: notes
@@ -1420,6 +1429,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.3'
 - identifier:
   - prefix: CIML
     number: 1999/9.4
@@ -1430,8 +1440,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Regional Legal Metrology Organizations (RLMO's)
-    subject: CIML
+    title: 'Agenda Item 9.4: Organisations régionales de métrologie légale'
     considerations: []
     actions:
     - type: notes
@@ -1446,6 +1455,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.4'
 - identifier:
   - prefix: CIML
     number: 1999/9.5
@@ -1456,9 +1466,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 'Regional organizations having activities connected with legal metrology
-      (in particular: European Com…'
-    subject: CIML
+    title: 'Agenda Item 9.5: Organisations régionales ayant des activités liées à
+      la métrologie légale (en particulier: Commission Européenne et CEN/CENELEC)'
     considerations: []
     actions:
     - type: notes
@@ -1484,6 +1493,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.5'
 - identifier:
   - prefix: CIML
     number: 1999/9.6
@@ -1494,8 +1504,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Others (BIPM, WHO, ...)
-    subject: CIML
+    title: 'Agenda Item 9.6: Autres (BIPM, OMS,...)'
     considerations: []
     actions:
     - type: notes
@@ -1507,6 +1516,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '9.6'
 - identifier:
   - prefix: CIML
     number: 1999/10
@@ -1517,9 +1527,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Activities linked with mutual recognition of test results, accreditation,
-      etc.
-    subject: CIML
+    title: 'Agenda Item 10: Activités liées à la reconnaissance mutuelle des résultats
+      d''essais, à l''accréditation, etc.'
     considerations: []
     actions:
     - type: notes
@@ -1535,6 +1544,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1999/11
@@ -1545,8 +1555,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Technical activities
-    subject: CIML
+    title: 'Agenda Item 11: Activités techniques'
     considerations: []
     actions:
     - type: approves
@@ -1563,6 +1572,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1999/11.2
@@ -1573,8 +1583,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of the situation of certain TC's and SC's
-    subject: CIML
+    title: 'Agenda Item 11.2: Examen de la situation de certains TC/SC'
     considerations: []
     actions:
     - type: approves
@@ -1584,6 +1593,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.2'
 - identifier:
   - prefix: CIML
     number: 1999/11.3
@@ -1594,8 +1604,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Approval of draft Recommendations
-    subject: CIML
+    title: 'Agenda Item 11.3: Approbation des projets de Recommandations'
     considerations: []
     actions:
     - type: approves
@@ -1605,6 +1614,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.3'
 - identifier:
   - prefix: CIML
     number: 1999/11.4
@@ -1615,9 +1625,9 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Availability of OIML publications on paper, electronic media and via Internet;
-      use of Internet withi…
-    subject: CIML
+    title: 'Agenda Item 11.4: Disponibilité des publications OIML sur format papier,
+      sur support électronique et via Internet; utilisation d''Internet au sein de
+      l''OIML'
     considerations: []
     actions:
     - type: notes
@@ -1627,6 +1637,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '11.4'
 - identifier:
   - prefix: CIML
     number: 1999/12
@@ -1637,10 +1648,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: OIML Certificate System
-    subject: CIML
+    title: 'Agenda Item 12: Système de Certificats OIML'
     considerations: []
     actions: []
+  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1999/12.1
@@ -1651,8 +1662,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: General information
-    subject: CIML
+    title: 'Agenda Item 12.1: Informations générales'
     considerations: []
     actions:
     - type: notes
@@ -1662,6 +1672,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '12.1'
 - identifier:
   - prefix: CIML
     number: 1999/12.2
@@ -1672,8 +1683,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: New Recommendations applicable within the System
-    subject: CIML
+    title: 'Agenda Item 12.2: Nouvelles Recommandations applicables au Système'
     considerations: []
     actions:
     - type: decides
@@ -1686,6 +1696,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '12.2'
 - identifier:
   - prefix: CIML
     number: 1999/13
@@ -1696,10 +1707,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Preparations for the Eleventh Conference
-    subject: CIML
+    title: 'Agenda Item 13: Préparations pour la Onzième Conférence'
     considerations: []
     actions: []
+  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 1999/13.1
@@ -1710,8 +1721,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Information concerning the organization of the Conference
-    subject: CIML
+    title: 'Agenda Item 13.1: Informations relatives à l''organisation de la Conférence'
     considerations: []
     actions:
     - type: notes
@@ -1722,6 +1732,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '13.1'
 - identifier:
   - prefix: CIML
     number: 1999/13.2
@@ -1732,8 +1743,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Proposed agenda
-    subject: CIML
+    title: 'Agenda Item 13.2: Ordre du jour proposé'
     considerations: []
     actions:
     - type: notes
@@ -1747,6 +1757,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '13.2'
 - identifier:
   - prefix: CIML
     number: 1999/13.3
@@ -1757,9 +1768,8 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Examination of a preliminary proposal for the 2001-2004 budget taking into
-      consideration BIML staff …
-    subject: CIML
+    title: 'Agenda Item 13.3: Examen d''une proposition préliminaire pour le budget
+      2001-2004 en tenant compte des besoins en personnel du BIML pour cette période'
     considerations: []
     actions:
     - type: notes
@@ -1773,6 +1783,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '13.3'
 - identifier:
   - prefix: CIML
     number: 1999/14
@@ -1783,8 +1794,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Report on BIML activities
-    subject: CIML
+    title: 'Agenda Item 14: Rapport sur les activités du BIML'
     considerations: []
     actions:
     - type: notes
@@ -1794,6 +1804,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 1999/15
@@ -1804,10 +1815,10 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Future Meetings
-    subject: CIML
+    title: 'Agenda Item 15: Futures réunions'
     considerations: []
     actions: []
+  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 1999/15.1
@@ -1818,8 +1829,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 35th CIML Meeting (2000)
-    subject: CIML
+    title: 'Agenda Item 15.1: 35ème réunion du CIML (2000)'
     considerations: []
     actions:
     - type: notes
@@ -1830,6 +1840,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '15.1'
 - identifier:
   - prefix: CIML
     number: 1999/15.2
@@ -1840,8 +1851,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: 36th CIML Meeting (2001)
-    subject: CIML
+    title: 'Agenda Item 15.2: 36ème réunion du CIML (2001)'
     considerations: []
     actions:
     - type: notes
@@ -1854,6 +1864,7 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '15.2'
 - identifier:
   - prefix: CIML
     number: 1999/16
@@ -1864,8 +1875,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: Other matters
-    subject: CIML
+    title: 'Agenda Item 16: Autres questions'
     considerations: []
     actions:
     - type: notes
@@ -1877,3 +1887,4 @@ decisions:
       date_effective:
         date: '1999-10-06'
         type: effective
+  agenda_item: '16'

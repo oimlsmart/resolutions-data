@@ -19,8 +19,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference made the recommendation that CIML Members update, in a timely
-      manner, the
+    title: 'Agenda Item 1: Approval of the minutes of the 12th Conference'
     subject: OIML Conference
     considerations: []
     actions:
@@ -33,8 +32,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence recommande aux Membres du CIML de régulièrement tenir à jour
-      les données
+    title: 'Agenda Item 1: Approval of the minutes of the 12th Conference'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -47,6 +45,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '1'
 - identifier:
   - prefix: Conference
     number: 2008/2
@@ -57,8 +56,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference made the recommendation that CIML Members make their regulatory
-      requirements availabl…
+    title: 'Agenda Item 2: Report on CIML and BIML activities'
     subject: OIML Conference
     considerations: []
     actions:
@@ -73,8 +71,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence recommande aux Membres du CIML de mettre à disposition du
-      public leurs
+    title: 'Agenda Item 2: Report on CIML and BIML activities'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -88,6 +85,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '2'
 - identifier:
   - prefix: Conference
     number: 2008/3
@@ -98,8 +96,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference made the recommendation that CIML Members complete the inquiry
-      on the implementation
+    title: 'Agenda Item 3: Presentations given by Liaisons'
     subject: OIML Conference
     considerations: []
     actions:
@@ -115,8 +112,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence recommande aux Membres du CIML de remplir l'enquête sur la
-      mise en
+    title: 'Agenda Item 3: Presentations given by Liaisons'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -131,6 +127,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '3'
 - identifier:
   - prefix: Conference
     number: 2008/4
@@ -141,8 +138,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference made the recommendation to CIML Members to keep other National
-      Departments informed
+    title: 'Agenda Item 4: Technical work'
     subject: OIML Conference
     considerations: []
     actions:
@@ -156,8 +152,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence recommande aux Membres du CIML de tenir informés, les autres
-      départements ministériels
+    title: 'Agenda Item 4: Technical work'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -170,6 +165,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '4'
 - identifier:
   - prefix: Conference
     number: 2008/4a
@@ -208,6 +204,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: 4a
 - identifier:
   - prefix: Conference
     number: 2008/4b
@@ -252,6 +249,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: 4b
 - identifier:
   - prefix: Conference
     number: 2008/5
@@ -262,8 +260,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference sanctioned the following publications previously approved
-      by the Committee and made t…
+    title: 'Agenda Item 5: Presentation of the Strategic Plan'
     subject: OIML Conference
     considerations: []
     actions:
@@ -277,8 +274,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence sanctionne les publications suivantes antérieurement approuvées
-      par le Comité et recom…
+    title: 'Agenda Item 5: Presentation of the Strategic Plan'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -291,6 +287,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '5'
 - identifier:
   - prefix: Conference
     number: 2008/6
@@ -301,8 +298,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference sanctioned the following publications and made the recommendation
-      that Member States …
+    title: 'Agenda Item 6: Report on Developing Country issues'
     subject: OIML Conference
     considerations: []
     actions:
@@ -316,8 +312,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence sanctionne les publications suivantes et recommande aux Etats
-      Membres de les utiliser
+    title: 'Agenda Item 6: Report on Developing Country issues'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -330,6 +325,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '6'
 - identifier:
   - prefix: Conference
     number: 2008/6a
@@ -369,6 +365,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: 6a
 - identifier:
   - prefix: Conference
     number: 2008/7
@@ -379,7 +376,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference sanctioned the withdrawal of the following publications
+    title: 'Agenda Item 7: Financial issues'
     subject: OIML Conference
     considerations: []
     actions:
@@ -391,7 +388,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence sanctionne le retrait des Publications suivantes
+    title: 'Agenda Item 7: Financial issues'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -402,6 +399,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '7'
 - identifier:
   - prefix: Conference
     number: 2008/8
@@ -412,8 +410,7 @@ decisions:
     type: decided
   localizations:
   - language_code: eng
-    title: The Conference made the encouragement to Member States to actively participate
-      in the development
+    title: 'Agenda Item 8: Membership'
     subject: OIML Conference
     considerations: []
     actions:
@@ -427,8 +424,7 @@ decisions:
         date: '2008-10-29'
         type: effective
   - language_code: fra
-    title: La Conférence encourage les Etats Membres à participer activement au développement
-      et à la
+    title: 'Agenda Item 8: Membership'
     subject: Conférence OIML
     considerations: []
     actions:
@@ -441,6 +437,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '8'
 - identifier:
   - prefix: Conference
     number: 2008/9
@@ -482,6 +479,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '9'
 - identifier:
   - prefix: Conference
     number: 2008/10
@@ -524,6 +522,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '10'
 - identifier:
   - prefix: Conference
     number: 2008/11
@@ -563,6 +562,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '11'
 - identifier:
   - prefix: Conference
     number: 2008/12
@@ -604,6 +604,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '12'
 - identifier:
   - prefix: Conference
     number: 2008/13
@@ -669,6 +670,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '13'
 - identifier:
   - prefix: Conference
     number: 2008/14
@@ -706,6 +708,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '14'
 - identifier:
   - prefix: Conference
     number: 2008/15
@@ -743,6 +746,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '15'
 - identifier:
   - prefix: Conference
     number: 2008/16
@@ -780,6 +784,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '16'
 - identifier:
   - prefix: Conference
     number: 2008/17
@@ -823,6 +828,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '17'
 - identifier:
   - prefix: Conference
     number: 2008/18
@@ -880,6 +886,7 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '18'
 - identifier:
   - prefix: Conference
     number: 2008/19
@@ -915,3 +922,4 @@ decisions:
       date_effective:
         date: '2008-10-29'
         type: effective
+  agenda_item: '19'
