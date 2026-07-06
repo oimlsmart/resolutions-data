@@ -88,16 +88,6 @@
             {{ t('committee.scope') }}
           </p>
         </div>
-        
-        <div>
-          <h4 class="site-footer__heading">{{ t('footer.committee') }}</h4>
-          <ul class="site-footer__facts">
-            <li><strong>{{ t('footer.secretariat') }}</strong> {{ committee.secretariat }}</li>
-            <li><strong>{{ t('footer.established') }}</strong> {{ committee.established }}</li>
-            <li><strong>{{ t('footer.memberStates') }}</strong> {{ committee.memberStates }}</li>
-            <li><strong>{{ t('footer.correspondingMembers') }}</strong> {{ committee.correspondingMembers }}</li>
-          </ul>
-        </div>
 
         <div>
           <h4 class="site-footer__heading">{{ t('footer.explore') }}</h4>
