@@ -6,43 +6,203 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-34
 status: final
 items:
+- label: '1'
+  kind: numbered
+  title: Approbation du compte rendu de la 33ème réunion du CIML
+  outcome: discussed
 - label: '2'
   kind: numbered
-  title: 1 Nouveaux Membres - Adhésions attendues
+  title: États Membres et Membres Correspondants
+  outcome: discussed
+- label: '2.1'
+  kind: numbered
+  title: Nouveaux Membres - Adhésions attendues
+  outcome: discussed
+- label: '2.2'
+  kind: numbered
+  title: Situation de certains Membres
+  outcome: discussed
+- label: '2.3'
+  kind: numbered
+  title: Mise en application des décisions du Comité lors de sa 33ème réunion concernant
+    la participation accrue des Membres Correspondants dans certaines activités de
+    l'OIML
   outcome: discussed
 - label: '3'
   kind: numbered
-  title: 1 Adoption du rapport comptable pour 1998
+  title: Questions financières
+  outcome: discussed
+- label: '3.1'
+  kind: numbered
+  title: Adoption du rapport comptable pour 1998
   outcome: adopted
+- label: '3.2'
+  kind: numbered
+  title: Examen de la situation financière pour 1999
+  outcome: discussed
+- label: '3.3'
+  kind: numbered
+  title: Budget pour l'année 2000
+  outcome: discussed
+- label: '4'
+  kind: numbered
+  title: Présidence du CIML
+  outcome: discussed
+- label: '5'
+  kind: numbered
+  title: Directeur du Bureau
+  outcome: discussed
+- label: '6'
+  kind: numbered
+  title: 'Politique à long terme de l''OIML: mise en application des décisions prises
+    par le Comité à sa 33ème réunion en ce qui concerne les retombées du Séminaire
+    International de Braunschweig et du rapport Birkeland'
+  outcome: discussed
+- label: '7'
+  kind: numbered
+  title: Rapport sur les activités du Conseil de la Présidence
+  outcome: discussed
 - label: '8'
   kind: numbered
-  title: 2 Programme de travail du Conseil de Développement
+  title: Conseil de Développement
+  outcome: discussed
+- label: '8.2'
+  kind: numbered
+  title: Programme de travail du Conseil de Développement
+  outcome: discussed
+- label: '8.3'
+  kind: numbered
+  title: Liaisons avec les organisations internationales et régionales concernées
   outcome: discussed
 - label: '9'
   kind: numbered
-  title: 1 Organisation Mondiale du Commerce (OMC)
+  title: Liaisons avec les organisations internationales et régionales
+  outcome: discussed
+- label: '9.1'
+  kind: numbered
+  title: Organisation Mondiale du Commerce (OMC)
+  outcome: discussed
+- label: '9.2'
+  kind: numbered
+  title: 'Organisations de normalisation (en particulier: ISO, CEI, CEE/NU)'
+  outcome: discussed
+- label: '9.3'
+  kind: numbered
+  title: 'Organisations d''accréditation (en particulier: ILAC et IAF)'
+  outcome: discussed
+- label: '9.4'
+  kind: numbered
+  title: Organisations régionales de métrologie légale
+  outcome: discussed
+- label: '9.5'
+  kind: numbered
+  title: 'Organisations régionales ayant des activités liées à la métrologie légale
+    (en particulier: Commission Européenne et CEN/CENELEC)'
+  outcome: discussed
+- label: '9.6'
+  kind: numbered
+  title: Autres (BIPM, OMS,...)
+  outcome: discussed
+- label: '10'
+  kind: numbered
+  title: Activités liées à la reconnaissance mutuelle des résultats d'essais, à l'accréditation,
+    etc.
   outcome: discussed
 - label: '11'
   kind: numbered
-  title: 1 Programme de travail des TC/SC de l'OIML
+  title: Activités techniques
   outcome: discussed
 - label: '11.1'
   kind: numbered
-  title: 1 Etablissement de nouveaux sous-comités et de leurs programmes de travail
+  title: Programme de travail des TC/SC de l'OIML
+  outcome: discussed
+- label: 11.1.1
+  kind: numbered
+  title: Etablissement de nouveaux sous-comités et de leurs programmes de travail
+  outcome: discussed
+- label: 11.1.2
+  kind: numbered
+  title: Nouveaux thèmes de travail proposés par les TC et SC
+  outcome: discussed
+- label: 11.1.3
+  kind: numbered
+  title: Développements au sein du TC 3/SC 4
   outcome: discussed
 - label: '11.2'
   kind: numbered
-  title: 1 TC et SC vacants
+  title: Examen de la situation de certains TC/SC
+  outcome: discussed
+- label: 11.2.1
+  kind: numbered
+  title: TC et SC vacants
+  outcome: discussed
+- label: 11.2.2
+  kind: numbered
+  title: Attribution/transfert de responsabilité
+  outcome: discussed
+- label: 11.2.3
+  kind: numbered
+  title: Propositions pour les activités techniques urgentes et futures
+  outcome: discussed
+- label: '11.3'
+  kind: numbered
+  title: Approbation des projets de Recommandations
+  outcome: discussed
+- label: '11.4'
+  kind: numbered
+  title: Disponibilité des publications OIML sur format papier, sur support électronique
+    et via Internet; utilisation d'Internet au sein de l'OIML
   outcome: discussed
 - label: '12'
   kind: numbered
-  title: 1 Informations générales
+  title: Système de Certificats OIML
+  outcome: discussed
+- label: '12.1'
+  kind: numbered
+  title: Informations générales
+  outcome: discussed
+- label: '12.2'
+  kind: numbered
+  title: Nouvelles Recommandations applicables au Système
   outcome: discussed
 - label: '13'
   kind: numbered
-  title: 1 Informations relatives à l'organisation de la Conférence
+  title: Préparations pour la Onzième Conférence
+  outcome: discussed
+- label: '13.1'
+  kind: numbered
+  title: Informations relatives à l'organisation de la Conférence
+  outcome: discussed
+- label: '13.2'
+  kind: numbered
+  title: Ordre du jour proposé
+  outcome: discussed
+- label: '13.3'
+  kind: numbered
+  title: Examen d'une proposition préliminaire pour le budget 2001-2004 en tenant
+    compte des besoins en personnel du BIML pour cette période
+  outcome: discussed
+- label: '14'
+  kind: numbered
+  title: Rapport sur les activités du BIML
   outcome: discussed
 - label: '15'
   kind: numbered
-  title: 1 35ème réunion du CIML (2000)
+  title: Futures réunions
   outcome: discussed
+- label: '15.1'
+  kind: numbered
+  title: 35ème réunion du CIML (2000)
+  outcome: discussed
+- label: '15.2'
+  kind: numbered
+  title: 36ème réunion du CIML (2001)
+  outcome: discussed
+- label: '16'
+  kind: numbered
+  title: Autres questions
+  outcome: discussed
+- label: '17'
+  kind: numbered
+  title: Adoption des décisions
+  outcome: adopted

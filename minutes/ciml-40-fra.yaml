@@ -7,8 +7,17 @@ urn: urn:oiml:ciml:minutes:ciml-40-fra
 language_code: fra
 script: Latn
 sections:
+- number: '1'
+  title: Approbation du Compte Rendu de la 39eme Réunion du CIML
+  narrative: |2+
+
+    Le Compte Rendu de la 39eme Réunion du CIML a été approuvé sans modification.
+
 - number: '2'
-  title: 1 Situation de certains Membres
+  title: États Membres et Membres Correspondants
+  narrative: "\n"
+- number: '2.1'
+  title: Situation de certains Membres
   narrative: |2+
 
     Le CIML a pris note de l'engagement de la République démocratique populaire de Corée et de la Zambie à payer leurs arriérés conformément à un calendrier convenu.
@@ -35,16 +44,17 @@ sections:
 
     Le CIML a accepté de classer la Turquie, qui vient de devenir État Membre de l'OIML, en Classe 2 et non en Classe 3. Le classement de ce pays doit être revu chaque année en fonction des décisions et résolutions de la 39ème Réunion du CIML.
 
-    ## 3 Questions financières
-
 - number: '3'
-  title: 1 Adoption du Rapport d'audit de 2004
+  title: Questions financières
+  narrative: "\n"
+- number: '3.1'
+  title: Adoption du Rapport d'audit de 2004
   narrative: |2+
 
     Le Comité a approuvé le Rapport d'audit de 2004 et a demandé à son Président et au Directeur du BIML de le présenter lors de la Treizième Conférence.
 
-- number: '3.1'
-  title: 1 Report on the new Pension System
+- number: 3.1.1
+  title: Report on the new Pension System
   narrative: |2+
 
     Mr. Magaña informed Members that a review of the OIML Pension Fund had been requested. The pension arrangements formed part of the Staff Regulations, which set out the rights of certain
@@ -91,22 +101,86 @@ sections:
 
     Mr. Johnston concluded this item by informing Members that the questions of pensions and loans were ongoing and there would be a further report the following year.
 
+- number: '3.2'
+  title: Actif et passif au 01.01.2005
+  narrative: |2+
+
+    Le Comité a pris note d'un rapport fourni par le Directeur du BIML relatif au Système de Retraite de l'OIML et a chargé son Président et le Directeur du Bureau de continuer à étudier les évolutions potentielles du Système, par comparaison avec d'autres systèmes existants dans des organisations similaires et de présenter ses conclusions à ce sujet lors de la 41ème Réunion du CIML en 2006.
+
+    Le Comité a pris note d'un exposé du Directeur du BIML concernant l'estimation de l'actif et du passif conformément aux nouvelles règles de comptabilité prescrites par le nouveau Règlement Financier.
+
+    Le Comité a pris note qu'en tenant compte de l'évaluation du Fonds de Retraite, le Fonds de Réserve serait fortement réduit.
+
+    Le Comité a chargé son Président d'examiner les conditions et procédures relatives aux prêts personnels aux Membres du Personnel du BIML et de présenter ses conclusions lors de la $ 4 1 ^{ème} $ Réunion du CIML en 2006.
+
+- number: '3.3'
+  title: Informations concernant la mise en œuvre du nouveau Règlement Financier
+  narrative: |2+
+
+    Le Comité a pris note d'un exposé du Directeur du BIML concernant la mise en œuvre du nouveau Règlement Financier. Il a été noté que les détails de la transition entre le précédent système de comptabilité et le nouveau doivent être évalués par l'expert-comptable extérieur et présentés lors de la 41eme Réunion du CIML en 2006.
+
+    Il a également été noté que les charges découlant de l'évaluation du Système de Retraite augmenteront les coûts du personnel. Le Comité a chargé le Directeur du BIML, sous la supervision du Président du CIML, de prendre toutes les mesures nécessaires pour maintenir l'équilibre des comptes et conserver les Fonds de Réserve à un niveau acceptable au cours de cette période.
+
 - number: '4'
-  title: 1 Rapport relatif aux activités du Conseil de la Présidence
+  title: Activités du Conseil de la Présidence
+  narrative: "\n"
+- number: '4.1'
+  title: Rapport relatif aux activités du Conseil de la Présidence
   narrative: |2+
 
     Le Comité a pris note d'un rapport de son Président concernant les activités du Conseil de la Présidence depuis la 39ème Réunion du CIML.
 
+- number: '4.2'
+  title: Stratégie à Long Terme et Plan d'Action
+  narrative: |2+
+
+    Le Comité a discuté de la Stratégie et du Plan d'Action et a exprimé des remarques à ce sujet. Il est demandé aux Membres du CIML d'envoyer au Président et au Bureau leurs remarques supplémentaires avant la fin du mois de juillet 2005.
+
+    Le Comité a chargé son Président et le Bureau de faire circuler ces projets, modifiés selon les remarques exprimées, pour qu'ils soient approuvés par correspondance avant la fin de l'année 2005.
+
 - number: '5'
-  title: 1 Rapport relatif aux activités du PWGDC
+  title: Activités des Pays en Développement
+  narrative: "\n"
+- number: '5.1'
+  title: Rapport relatif aux activités du PWGDC
   narrative: |2+
 
     Le Comité a pris note d'un rapport remis par le Docteur Seiler concernant les activités du Groupe de Travail Permanent sur les Pays en Développement et a exprimé ses remerciements au Docteur Seiler pour l'efficacité de sa présidence.
 
     Le Comité a exprimé ses remerciements aux Membres du Groupe de Travail Permanent pour leur implication dans ce travail et pour les responsabilités qu'ils ont endossées.
 
+- number: '5.2'
+  title: Rapport relatif aux activités du JCDCMAS
+  narrative: |2+
+
+    Le Comité a pris note d'un rapport présenté par M. Dunmill concernant les activités du Comité Commun pour la Coordination de l'Assistance Technique aux Pays en Développement, présidé en 2005 par le Bureau.
+
 - number: '6'
-  title: 2 Informations de la part les Organisations de Liaison
+  title: Liaisons
+  narrative: |2+
+
+    6. 1 Exposé du Bureau concernant les activités de liaison
+
+    Le Comité a pris note d'un exposé effectué par le Directeur du BIML concernant les activités de liaison.
+
+- number: '6.1'
+  title: Presentation by the Bureau on liaison activities
+  narrative: |2+
+
+    Mr. Magaña informed Members that the Bureau had had a period of intensive activity with a number of liaisons. He wished to highlight especially the World Trade Organization; BIML staff had attended all the TBT Committee meetings of this organization, in addition to several workshops organized by the TBT Committee every year. More information on TBT activities would be put on the web site, in information letters, etc., as time on the present occasion was limited. The OIML was well recognized by the TBT Committee and cooperation was good.
+
+    Much work was done in common with standardization organizations, and most Technical Committees and Subcommittees had tight liaisons with ISO, the IEC and so on.
+
+    There were also very privileged liaisons and good relationships with the BIPM and ILAC; information about the annual tripartite meetings between these organizations had been sent to Members. The Bureau had frequent meetings with colleagues from the BIPM for informal discussions on a number of issues including administrative matters, ideas for joint activities, etc. Members had received information about the joint work with the BIPM in connection with Developing Countries.
+
+    A talk would be given the following day by the new ILAC contact person Mr. Patrick Reposeur Assistant Director of COFRAC, the French accreditation body; since he was based in Paris it was
+
+    easy to arrange meetings with him. This was a very active and efficient liaison and there had already been a couple of meetings with him concerning the MAA.
+
+    The annual meetings of all the Regional Legal Metrology Organizations had been attended by an OIML representative, either the President or one of the Vice-Presidents of the CIML, the BIML Director or one of the BIML Assistant Directors. In this way they could inform CIML Members of recent developments, give advice and listen to their needs and expectations.
+
+- number: '6.2'
+  title: Informations de la part les Organisations de Liaison
   narrative: |2+
 
     Le Comité a pris note des informations fournies par les organisations en liaison suivantes au sujet de leurs activités et a remercié leurs représentants :
@@ -127,36 +201,179 @@ sections:
 
     GSO Dr. Bin Fahad
 
+- number: '6.3'
+  title: Informations de la part les RLMO
+  narrative: |2+
+
+    Le Comité a pris note des informations fournies par les Organisations Régionales de Métrologie Légale (RLMO) au sujet de leurs activités et a remercié leurs représentants :
+
+    APLMF Dr. Ooiwa
+
+    COOMET ... M. Zhagora
+
+    EMLMF ... M. Lagauterie
+
+    SADCMEL M. Carstens
+
+    SIM Dr. Ehrlich
+
+    SWPLMF ... M. Vadei
+
+    WELMEC ... M. Freistetter
+
 - number: '7'
-  title: 1 Organisation du Bureau
+  title: Activités du BIML
+  narrative: "\n"
+- number: '7.1'
+  title: Organisation du Bureau
   narrative: |2+
 
     Le Comité a pris note d'un exposé du Directeur du BIML concernant l'organisation et les activités du Bureau. Il a été noté qu'un Membre du Personnel du BIML a pris la décision de quitter le BIML d'ici la fin de l'année 2004 ; un candidat approprié sera promptement recruté.
 
+- number: '7.2'
+  title: Communication, site Internet
+  narrative: |2+
+
+    Le Comité a pris note d'un exposé de M. Pulham concernant la production des Publications de I'OIML, les activités visant à améliorer la communication et le site Internet de I'OIML.
+
+    Le Comité a exprimé ses remerciements pour les résultats présentés et a encouragé le Bureau à poursuivre en ce sens. En particulier, un nouveau Dépliant OIML a été présenté : celui-ci décrit l'Organisation, son rôle et ses structures. Le BIML propose de rendre le Dépliant gratuit pour tous les Membres afin de promouvoir la métrologie légale dans leur pays.
+
+- number: '7.3'
+  title: Rapport relatif aux activités du BIML et programme de travail en 2005
+  narrative: |2+
+
+    Le Comité a pris note d'un exposé effectué par le Directeur du BIML sur le programme de travail du Bureau en 2005, basé sur le Document de Stratégie et le Plan d'Action présentés au cours de la Réunion.
+
 - number: '8'
-  title: 1 Approbation de Documents et Recommandations Internationaux
+  title: Activités techniques
+  narrative: |2+
+
+    Le Comité a pris note d'un exposé de M. Szilvássy concernant la situation générale des activités techniques de I'OIML, en particulier les projets de Recommandations à approuver et la situation de certains TC/SC.
+
+- number: '8.1'
+  title: Approbation de Documents et Recommandations Internationaux
   narrative: |2+
 
     Étant donné que le nombre de voix reçues pour les deux projets actuels soumis à un vote (révision des R 51 et R 134-1) était trop faible et que le nombre de remarques et de voix négatives reçues pour la R 134-1 ne permettaient pas de prendre une décision, le Comité a chargé le Secrétariat du TC 9/SC 2 de rédiger les Projets de Recommandations finales, en tenant compte des remarques reçues et a chargé le Bureau de procéder à un vote par correspondance du CIML sur ces deux projets.
 
     Le Comité a décidé que la même procédure de vote par correspondance du CIML s'appliquera à la DR de la révision de la R 39, publiée sur le site Internet juste avant la Réunion du CIML pour un vote en ligne.
 
+- number: '8.2'
+  title: Examen de la situation de certains TC/SC
+  narrative: |2+
+
+    Le Comité a décidé :
+
+    - de dissoudre et abandonner le travail du TC 10/SC 6 Jauges de contraintes ;
+
+    - de fusionner le TC 8/SC 1 Mesurage statique de volume avec le TC 8/SC 2 Mesurage statique de masse sous le Co-secrétariat de l'Autriche et de l'Allemagne sous le nom TC 8/SC 1 Mesurage statique de masse et de volume, et de dissoudre le TC 8/SC 2 ;
+
+    - d'attribuer le Secrétariat du TC 10/SC 3 Baromètres à la Chine ;
+
+    - de retirer les projets de travail suivants :
+
+    - TC 7/SC 1 : p 1 révision R 30 Mesures de longueur à bouts plans (cales à bouts plans ou cales-étalons),
+
+    - TC 10/SC 4 : p 2 Exigences relatives aux instruments de mesure de force destinés à la vérification des machines d'essai de matériaux en faveur de l'utilisation de la norme ISO 376,
+
+    - TC 17/SC 6 : p 1 Procédure d'étalonnage pour méthanomètres de mines et p 2 Procédure d'étalonnage d'alertes de gaz ou vapeurs combustibles.
+
+    Le Comité a approuvé la proposition du TC 3/SC 5 visant, d'une part, à utiliser les Guides en application de la norme ISO 17025 et du Guide 65 rédigé par le CPR, relatif aux R 60 et R 76 en tant que premier Projet de Travail et, d'autre part, à poursuivre en suivant les Directives relatives au Travail Technique.
+
+    Le Comité a autorisé le Bureau, en partenariat avec le Secrétariat du TC 4 (Slovaquie), à décider avec l'ILAC de la meilleure façon de publier la publication commune de la révision du D 10.
+
+    Le Comité a chargé le Bureau d'organiser une réunion avec les Secrétariats des TC 8/SC 7 et TC 8/SC 8 afin de redéfinir la portée des projets de ces Sous-Comités de manière à éviter tout chevauchement inutile, éliminer toute redondance, divergence et duplication des tâches.
+
+- number: '8.3'
+  title: MAA
+  narrative: |2+
+
+    Le Comité a pris note d'un rapport présenté par Mme Gaucher, Chef de Projet de MAA au BIML, indiquant les progrès de la mise en œuvre du MAA, ainsi que les résultats de la première Réunion du CPR.
+
+    Il est attendu vingt-et-un participants aux deux premières Déclarations de Confiance Mutuelle (DoMC) relatives aux Cellules de pesée et aux Instruments de pesage à fonctionnement non automatique. Parmi ces participants, huit devraient être des Participants délivrant des certificats (Issuing Participants).
+
+    Le CPR a proposé quelques clarifications et modifications concernant la Publication OIML B 10-1 qui doit être soumise au vote du CIML.
+
+    Le Comité a demandé au Bureau de présenter les propositions du CPR - modifiées conformément aux remarques formulées lors de la présente Réunion du CIML, et accompagnées d'une note explicative détaillée - au CIML pour un vote par correspondance avant la fin de l'année 2005. Les propositions soumises au vote concernent les points suivants :
+
+    - les signataires d'une DoMC ;
+
+    - la constitution d'un CPR pour plus d'une DoMC ;
+
+    - les règles de vote du CPR ;
+
+    - l'admission de nouveaux participants après la signature d'une DoMC ; et
+
+    - les cotisations pour les évaluations par les pairs.
+
+- number: '8.4'
+  title: Progrès concernant la révision des Directives
+  narrative: |2+
+
+    Le Comité a pris note que le Bureau entamera la révision des Directives relatives au Travail Technique avant la fin de l'année 2005 et a indiqué que ce travail doit être considéré comme étant de haute priorité. Cette révision devrait simplifier les procédures et permettre l'utilisation de technologies de l'information afin d'accélérer le travail de manière significative.
+
 - number: '9'
-  title: 1 Élection du Premier Vice-Président du CIML
+  title: Questions relatives aux ressources humaines
+  narrative: "\n"
+- number: '9.1'
+  title: Élection du Premier Vice-Président du CIML
   narrative: |2+
 
     Le Comité a élu Premier Vice-Président M. Stuart Carstens, d'Afrique du Sud. Il entrera en fonction immédiatement. Le Comité a également décidé que le Professeur Kochsiek demeurera Vice-Président jusqu'à la 41ème Réunion du CIML en 2006.
 
     Le Comité a chargé le Président du CIML de rédiger un projet de procédure pour l'élection des Président et Vice-Président du CIML. Cette procédure doit être soumise à un vote par correspondance du CIML afin d'être applicable lors de la 41ème Réunion du CIML.
 
+- number: '9.2'
+  title: Prolongation du contrat du Directeur du BIML
+  narrative: |2+
+
+    Sur proposition du Président du CIML, le Comité a approuvé le renouvellement du contrat de M. Magaña comme Directeur du BIML du 1<sup>er</sup> janvier 2006 au 31 décembre 2010.
+
+- number: '9.3'
+  title: Nomination d'un nouvel Adjoint au Directeur en 2007
+  narrative: |2+
+
+    Le Comité a approuvé la liste proposée de membres du Comité de Sélection qui suit :
+
+    M. Johnston,
+
+    Pr. Kochsiek,
+
+    Dr. Ehrlich,
+
+    M. Carstens,
+
+    M. Harvey,
+
+    M. Magaña.
+
 - number: '10'
-  title: 1 41 $ ^{\mathrm{e m e}} $ Réunion du CIML (2006)
+  title: Réunions à venir
+  narrative: "\n"
+- number: '10.1'
+  title: 41 $ ^{\mathrm{e m e}} $ Réunion du CIML (2006)
   narrative: |2+
 
     Le Comité a pris note d'un exposé effectué par l'Afrique du Sud concernant l'organisation de la 41ème Réunion du CIML au Cap en octobre 2006 et a remercié le gouvernement sud-africain et le Membre sud-africain du CIML pour leur invitation, dont l'acceptation a été confirmée par le Comité.
 
+- number: '10.2'
+  title: "$ 4 2^{\\mathrm{e m e}} $ Réunion du CIML (2007)"
+  narrative: |2
+
+    Le Comité a pris note que la République populaire de Chine songeait à inviter le CIML à tenir sa 42ème Réunion en Chine au mois d'octobre 2007. Une décision sera prise lors de la 41ème Réunion du CIML.
+- number: '10.3'
+  title: 13th Conference and 43rd CIML Meeting (2008)
+  narrative: |2+
+
+    Mr. Johnston said that an expression of interest had been received from Australia. He invited Mr. Harvey to speak.
+
+    Mr. Harvey limited himself to cordially inviting the CIML to Australia in 2008 for the Conference and CIML Meeting, adding that no firm arrangements could or had been made yet.
+
 - number: '11'
-  title: 1 Awards and Letters of Appreciation
+  title: Other matters
+  narrative: "\n"
+- number: '11.1'
+  title: Awards and Letters of Appreciation
   narrative: |2+
 
     Mr. Johnston wished to say a few words on the subject of OIML Awards, of which there were three types:
@@ -225,7 +442,9 @@ sections:
 
     Mr. Köhler wished to thank the President and the OIML for the Award in the name of Richard Davis and it would be a pleasure to hand it over to him upon resuming work in the laboratory.
 
-    ## 12 Closure
+- number: '12'
+  title: Closure
+  narrative: |2+
 
     Mr. Johnston closed the 40th CIML Meeting and thanked all delegates for attending, wishing them a pleasant stay in France. He also expressed his thanks to the organizers of the International Metrology Congress, who had taken care of many administrative arrangements including for the CIML Meeting, and finally thanked the BIML Director and Staff for their role in making the event a success.
 
@@ -294,39 +513,5 @@ sections:
     ## Approval of the Agenda
 
     The draft agenda (Version 3 dated 2005.04.19) was approved without modification.
-
-    ## 1 Approval of the Minutes of the 39th CIML Meeting
-
-    The Minutes of the 39th CIML Meeting were approved without modification.
-
-    2 Member States and Corresponding Members
-
-    2. 1 Situation of certain Members
-
-    The CIML noted the commitment of the DPR Korea and Zambia to pay their arrears according to an agreed schedule.
-
-    The CIML approved the following rule for the reduction of the contributory classes of certain Member States according to their Gross National Income per capita:
-
-    According to its Gross National Income per capita, a country may be declassified:
-
-    - by one class for lower middle income countries whose Gross National Income per capita is greater than twice that of low income countries;
-
-    - by two classes for lower middle income countries whose Gross National Income per capita is lower than twice that of low income countries;
-
-    - by three classes for low income countries.
-
-    <div align="center">
-
-    The CIML took note of a report given by the BIML Director concerning the contributory classes of six Member States, which would be reclassified as follows according to the above rules:
-
-    </div>
-
-    <table border="1"><tr><td>Member State</td><td>Present class</td><td>Application of the rule</td><td>Comment(World Bank 2003 data)</td></tr><tr><td>Brazil</td><td>2</td><td>3</td><td>GNI per capita=2710USD</td></tr><tr><td>Indonesia</td><td>1</td><td>2</td><td>GNI per capita=810USD</td></tr><tr><td>Rep. Korea</td><td>2</td><td>3</td><td>47.9 million inhabitants</td></tr><tr><td>Poland</td><td>1</td><td>2</td><td>GNI per capita=5270USD</td></tr><tr><td>Saudi Arabia</td><td>1</td><td>2</td><td>22.5 million inhabitants</td></tr><tr><td>Spain</td><td>2</td><td>3</td><td>41.1 million inhabitants</td></tr></table>
-
-    Members shall send their comments on these envisaged reclassifications to the CIML President before end of July 2005. Once these comments have been received and analyzed, the CIML President shall submit a decision to the CIML for postal approval.
-
-    The CIML accepted to classify Turkey, which had just become an OIML Member State, in Class 2 instead of Class 3. This country's classification shall be reviewed annually in line with the decisions and resolutions of the 39th CIML Meeting.
-
-    ## 3 Financial matters
 
 ...
