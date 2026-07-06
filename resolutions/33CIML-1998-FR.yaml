@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 33rd CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1998-10-28'
-    end: '1998-10-30'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Seoul, Republic of Korea
   city: KRSEL
   country_code: KR
-  language: fr
   title_localized:
   - language_code: fra
     title: 33rd CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-33
-resolutions:
-- identifier: CIML/1998/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1998/1
   doi: 10.63493/resolutions/ciml199801
   urn: urn:oiml:doc:ciml:resolution:1998-01
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION DU CIML
@@ -37,27 +33,31 @@ resolutions:
         de Métrologie Légale a été approuvé sans modification.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/2
   doi: 10.63493/resolutions/ciml199802
   urn: urn:oiml:doc:ciml:resolution:1998-02
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/2.1
+- identifier:
+  - prefix: CIML
+    number: 1998/2.1
   doi: 10.63493/resolutions/ciml19982.1
   urn: urn:oiml:doc:ciml:resolution:1998-2.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Nouveaux membres - Adhésions attendues
@@ -74,15 +74,17 @@ resolutions:
         adhésion devrait devenir effective en 1999.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/2.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/2.2
   doi: 10.63493/resolutions/ciml19982.2
   urn: urn:oiml:doc:ciml:resolution:1998-2.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Situation de certains Membres
@@ -100,15 +102,17 @@ resolutions:
         de la Convention, considérés comme démissionnaires.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/2.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/2.3
   doi: 10.63493/resolutions/ciml19982.3
   urn: urn:oiml:doc:ciml:resolution:1998-2.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Propositions visant à accroître la participation des Membres Correspondants
@@ -125,27 +129,31 @@ resolutions:
         de l''OIML et aux séminaires techniques.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/3
   doi: 10.63493/resolutions/ciml199803
   urn: urn:oiml:doc:ciml:resolution:1998-03
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: QUESTIONS FINANCIÈRES
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/3.1
+- identifier:
+  - prefix: CIML
+    number: 1998/3.1
   doi: 10.63493/resolutions/ciml19983.1
   urn: urn:oiml:doc:ciml:resolution:1998-3.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Adoption du rapport comptable pour 1997
@@ -158,15 +166,17 @@ resolutions:
         à la Onzième Conférence.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/3.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/3.2
   doi: 10.63493/resolutions/ciml19983.2
   urn: urn:oiml:doc:ciml:resolution:1998-3.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation financiere pour 1998
@@ -178,15 +188,17 @@ resolutions:
         suivantes:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/3.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/3.3
   doi: 10.63493/resolutions/ciml19983.3
   urn: urn:oiml:doc:ciml:resolution:1998-3.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen des budgets pour 1999 et 2000
@@ -203,27 +215,31 @@ resolutions:
         par an.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/4
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/4
   doi: 10.63493/resolutions/ciml199804
   urn: urn:oiml:doc:ciml:resolution:1998-04
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: POLITIQUE À LONG TERME DE L'OIML
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/4.1
+- identifier:
+  - prefix: CIML
+    number: 1998/4.1
   doi: 10.63493/resolutions/ciml19984.1
   urn: urn:oiml:doc:ciml:resolution:1998-4.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Informations sur le Séminaire International le Rôle de la Métrologie dans
@@ -242,15 +258,17 @@ resolutions:
         communauté de métrologie qui a déjà créé les bases métrologiques du
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/4.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/4.2
   doi: 10.63493/resolutions/ciml19984.2
   urn: urn:oiml:doc:ciml:resolution:1998-4.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Le Rapport Birkeland
@@ -262,27 +280,31 @@ resolutions:
         séparément.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/5
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/5
   doi: 10.63493/resolutions/ciml199805
   urn: urn:oiml:doc:ciml:resolution:1998-05
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: PAYS EN DEVELOPEMENT
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/5.1
+- identifier:
+  - prefix: CIML
+    number: 1998/5.1
   doi: 10.63493/resolutions/ciml19985.1
   urn: urn:oiml:doc:ciml:resolution:1998-5.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Informations sur les résultats du Séminaire International de Braunschweig
@@ -290,12 +312,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/5.2
+- identifier:
+  - prefix: CIML
+    number: 1998/5.2
   doi: 10.63493/resolutions/ciml19985.2
   urn: urn:oiml:doc:ciml:resolution:1998-5.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de propositions du Conseil de Développement
@@ -308,27 +332,31 @@ resolutions:
         de l''OIML jusqu''à la réunion du 28 octobre 1998.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/6
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/6
   doi: 10.63493/resolutions/ciml199806
   urn: urn:oiml:doc:ciml:resolution:1998-06
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/6.1
+- identifier:
+  - prefix: CIML
+    number: 1998/6.1
   doi: 10.63493/resolutions/ciml19986.1
   urn: urn:oiml:doc:ciml:resolution:1998-6.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: BIPM et ILAC
@@ -350,15 +378,17 @@ resolutions:
         pour ce type d''action commune.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/6.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/6.2
   doi: 10.63493/resolutions/ciml19986.2
   urn: urn:oiml:doc:ciml:resolution:1998-6.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: JCGM
@@ -376,15 +406,17 @@ resolutions:
         au BIML. Les activités principales actuelles sont:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/6.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/6.3
   doi: 10.63493/resolutions/ciml19986.3
   urn: urn:oiml:doc:ciml:resolution:1998-6.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: OMC
@@ -398,15 +430,17 @@ resolutions:
         du comité TBT.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/6.4
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/6.4
   doi: 10.63493/resolutions/ciml19986.4
   urn: urn:oiml:doc:ciml:resolution:1998-6.4
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Autres
@@ -422,15 +456,17 @@ resolutions:
         de la métrologie.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/7
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/7
   doi: 10.63493/resolutions/ciml199807
   urn: urn:oiml:doc:ciml:resolution:1998-07
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS D'ESSAI, À L'ACCRÉDITATION,
@@ -450,27 +486,31 @@ resolutions:
         sont conformes aux modèles.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/8
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/8
   doi: 10.63493/resolutions/ciml199808
   urn: urn:oiml:doc:ciml:resolution:1998-08
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ACTIVITÉS TECHNIQUES
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/8.1
+- identifier:
+  - prefix: CIML
+    number: 1998/8.1
   doi: 10.63493/resolutions/ciml19988.1
   urn: urn:oiml:doc:ciml:resolution:1998-8.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation de certains TC/SC
@@ -484,15 +524,17 @@ resolutions:
         les points clés de l''activité technique de certains TC/SC de l''OIML.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/8.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/8.2
   doi: 10.63493/resolutions/ciml19988.2
   urn: urn:oiml:doc:ciml:resolution:1998-8.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Approbation de Recommandations Internationales
@@ -523,15 +565,17 @@ resolutions:
         de contacter l''ISO à ce sujet.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/8.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/8.3
   doi: 10.63493/resolutions/ciml19988.3
   urn: urn:oiml:doc:ciml:resolution:1998-8.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Disponibilité des Publications OIML sur papier, sur support électronique
@@ -554,51 +598,59 @@ resolutions:
         annuelles des Membres.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/9
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/9
   doi: 10.63493/resolutions/ciml199809
   urn: urn:oiml:doc:ciml:resolution:1998-09
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: SYSTÈME DE CERTIFICATS OIML
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/9.1
+- identifier:
+  - prefix: CIML
+    number: 1998/9.1
   doi: 10.63493/resolutions/ciml19989.1
   urn: urn:oiml:doc:ciml:resolution:1998-9.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Informations sur le fonctionnement du Système
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/9.2
+- identifier:
+  - prefix: CIML
+    number: 1998/9.2
   doi: 10.63493/resolutions/ciml19989.2
   urn: urn:oiml:doc:ciml:resolution:1998-9.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Développements du Système
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/9.3
+- identifier:
+  - prefix: CIML
+    number: 1998/9.3
   doi: 10.63493/resolutions/ciml19989.3
   urn: urn:oiml:doc:ciml:resolution:1998-9.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Nouvelles Recommandations applicables au Système
@@ -609,15 +661,17 @@ resolutions:
       message: 'Le Comité accepte cette proposition.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/10
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/10
   doi: 10.63493/resolutions/ciml199810
   urn: urn:oiml:doc:ciml:resolution:1998-10
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: RAPPORT SUR LES ACTIVITÉS DU BIML
@@ -630,27 +684,31 @@ resolutions:
         dans le Bulletin OIML de janvier 1999.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11
   doi: 10.63493/resolutions/ciml199811
   urn: urn:oiml:doc:ciml:resolution:1998-11
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: AUTRES QUESTIONS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/11.1
+- identifier:
+  - prefix: CIML
+    number: 1998/11.1
   doi: 10.63493/resolutions/ciml199811.1
   urn: urn:oiml:doc:ciml:resolution:1998-11.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Vice-Président du CIML
@@ -662,15 +720,17 @@ resolutions:
         pour un nouveau mandat expirant fin 2003.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.2
   doi: 10.63493/resolutions/ciml199811.2
   urn: urn:oiml:doc:ciml:resolution:1998-11.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Directeur du BIML
@@ -683,15 +743,17 @@ resolutions:
         de la future politique d''orientation de l''Organisation.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.3
   doi: 10.63493/resolutions/ciml199811.3
   urn: urn:oiml:doc:ciml:resolution:1998-11.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Adjoint au Directeur du BIML
@@ -705,15 +767,17 @@ resolutions:
         M. Bennett, le profil du candidat 1997 Ian Dunmill convenant bien au poste.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.4
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.4
   doi: 10.63493/resolutions/ciml199811.4
   urn: urn:oiml:doc:ciml:resolution:1998-11.4
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Demandes de l'APLMF
@@ -724,15 +788,17 @@ resolutions:
       message: 'M. Birch demande au CIML de considérer les points suivants:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.5
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.5
   doi: 10.63493/resolutions/ciml199811.5
   urn: urn:oiml:doc:ciml:resolution:1998-11.5
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Séminaire technique
@@ -746,27 +812,31 @@ resolutions:
         Cette idée est accueillie avec beaucoup d''enthousiasme.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/12
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/12
   doi: 10.63493/resolutions/ciml199812
   urn: urn:oiml:doc:ciml:resolution:1998-12
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: FUTURES RÉUNIONS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/12.1
+- identifier:
+  - prefix: CIML
+    number: 1998/12.1
   doi: 10.63493/resolutions/ciml199812.1
   urn: urn:oiml:doc:ciml:resolution:1998-12.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: 34ème Réunion du CIML (1999)
@@ -785,15 +855,17 @@ resolutions:
         de siècle.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/12.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/12.2
   doi: 10.63493/resolutions/ciml199812.2
   urn: urn:oiml:doc:ciml:resolution:1998-12.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: 35ème Réunion du CIML et Onzième Conférence de l'OIML (2000)
@@ -809,15 +881,17 @@ resolutions:
         possible que d''ici six mois si le Comité accepte sa proposition.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/12.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/12.3
   doi: 10.63493/resolutions/ciml199812.3
   urn: urn:oiml:doc:ciml:resolution:1998-12.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: 36ème Réunion du CIML (2001)
@@ -835,15 +909,17 @@ resolutions:
         pour sa réunion en 2001.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/13
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/13
   doi: 10.63493/resolutions/ciml199813
   urn: urn:oiml:doc:ciml:resolution:1998-13
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION DES DÉCISIONS
@@ -855,15 +931,17 @@ resolutions:
         les résultats de ces votes sont donnés en point 8.2 des Décisions ci-dessous.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/1
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/1
   doi: 10.63493/resolutions/ciml199801
   urn: urn:oiml:doc:ciml:resolution:1998-01
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: APPROBATION DU COMPTE RENDU DE LA 32'EME RÉUNION DU CIML
@@ -874,27 +952,31 @@ resolutions:
       message: 'Le compte rendu de la 32ème réunion du CIML a été approuvé sans commentaires.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/2
   doi: 10.63493/resolutions/ciml199802
   urn: urn:oiml:doc:ciml:resolution:1998-02
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/2.1
+- identifier:
+  - prefix: CIML
+    number: 1998/2.1
   doi: 10.63493/resolutions/ciml19982.1
   urn: urn:oiml:doc:ciml:resolution:1998-2.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Nouveaux Membres - Adhésions attendues
@@ -908,15 +990,17 @@ resolutions:
         concerne le déroulement de l''adhésion de la Croatie comme État Membre.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/2.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/2.2
   doi: 10.63493/resolutions/ciml19982.2
   urn: urn:oiml:doc:ciml:resolution:1998-2.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Situation de certains Membres
@@ -934,15 +1018,17 @@ resolutions:
         pour n''avoir pas payé leurs abonnements annuels pendant plus de quatre années.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/2.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/2.3
   doi: 10.63493/resolutions/ciml19982.3
   urn: urn:oiml:doc:ciml:resolution:1998-2.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Propositions visant à accroître la participation des Membres Correspondants
@@ -961,27 +1047,31 @@ resolutions:
         pendant la réunion, de préparer les modalités de cette participation accrue.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/3
   doi: 10.63493/resolutions/ciml199803
   urn: urn:oiml:doc:ciml:resolution:1998-03
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: SITUATION FINANCIÈRE
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/3.1
+- identifier:
+  - prefix: CIML
+    number: 1998/3.1
   doi: 10.63493/resolutions/ciml19983.1
   urn: urn:oiml:doc:ciml:resolution:1998-3.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Approbation du rapport comptable pour 1997
@@ -993,15 +1083,17 @@ resolutions:
         son Président et au Directeur du Bureau de le soumettre à la Onzième Conférence.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/3.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/3.2
   doi: 10.63493/resolutions/ciml19983.2
   urn: urn:oiml:doc:ciml:resolution:1998-3.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation financière pour 1998
@@ -1013,15 +1105,17 @@ resolutions:
         financière actuelle de l''Organisation, qui est satisfaisante.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/3.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/3.3
   doi: 10.63493/resolutions/ciml19983.3
   urn: urn:oiml:doc:ciml:resolution:1998-3.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen des budgets pour 1999 et 2000
@@ -1034,15 +1128,17 @@ resolutions:
         1996-1998.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/4
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/4
   doi: 10.63493/resolutions/ciml199804
   urn: urn:oiml:doc:ciml:resolution:1998-04
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: POLITIQUE À LONG TERME DE L'OIML
@@ -1054,15 +1150,17 @@ resolutions:
         M. Kochsiek.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/4.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/4.2
   doi: 10.63493/resolutions/ciml19984.2
   urn: urn:oiml:doc:ciml:resolution:1998-4.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: L'Étude Birkeland
@@ -1075,34 +1173,38 @@ resolutions:
         de ses Membres au sujet de ces recommandations.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
+      date_effective:
+        date: '1998-10-28'
+        type: effective
     - type: notes
       message: 'Le Comité a décidé que:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/5
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/5
   doi: 10.63493/resolutions/ciml199805
   urn: urn:oiml:doc:ciml:resolution:1998-05
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: PAYS EN DÉVELOPEMENT
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/5.1
+- identifier:
+  - prefix: CIML
+    number: 1998/5.1
   doi: 10.63493/resolutions/ciml19985.1
   urn: urn:oiml:doc:ciml:resolution:1998-5.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Informations sur les résultats du Séminaire International de Braunschweig
@@ -1116,15 +1218,17 @@ resolutions:
         Annabi, nouvellement élue Présidente.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/5.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/5.2
   doi: 10.63493/resolutions/ciml19985.2
   urn: urn:oiml:doc:ciml:resolution:1998-5.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de propositions en provenance du Conseil de Développement
@@ -1141,15 +1245,17 @@ resolutions:
         pour approbation définitive.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/6
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/6
   doi: 10.63493/resolutions/ciml199806
   urn: urn:oiml:doc:ciml:resolution:1998-06
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: LIAISONS AVEC DES INSTITUTIONS INTERNATIONALES ET RÉGIONALES
@@ -1160,15 +1266,17 @@ resolutions:
       message: '6. 1 BIPM et ILAC
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/6.4
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/6.4
   doi: 10.63493/resolutions/ciml19986.4
   urn: urn:oiml:doc:ciml:resolution:1998-6.4
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Autres
@@ -1181,15 +1289,17 @@ resolutions:
         institutions internationales et régionales suivantes:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/7
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/7
   doi: 10.63493/resolutions/ciml199807
   urn: urn:oiml:doc:ciml:resolution:1998-07
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS D'ESSAIS, À
@@ -1214,27 +1324,31 @@ resolutions:
         etc.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/8
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/8
   doi: 10.63493/resolutions/ciml199808
   urn: urn:oiml:doc:ciml:resolution:1998-08
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: ACTIVITÉS TECHNIQUES
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/8.1
+- identifier:
+  - prefix: CIML
+    number: 1998/8.1
   doi: 10.63493/resolutions/ciml19988.1
   urn: urn:oiml:doc:ciml:resolution:1998-8.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation de certains TC/SC
@@ -1255,15 +1369,17 @@ resolutions:
         le Comité a décidé:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/8.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/8.2
   doi: 10.63493/resolutions/ciml19988.2
   urn: urn:oiml:doc:ciml:resolution:1998-8.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Approbation de Recommandations Internationales
@@ -1274,15 +1390,17 @@ resolutions:
       message: 'Le Comité a approuvé les projets de Recommandations suivants:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/8.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/8.3
   doi: 10.63493/resolutions/ciml19988.3
   urn: urn:oiml:doc:ciml:resolution:1998-8.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Disponibilité des Publications OIML sur papier, sur support électronique
@@ -1297,39 +1415,45 @@ resolutions:
         des publications OIML devrait également être examinées.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/9
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/9
   doi: 10.63493/resolutions/ciml199809
   urn: urn:oiml:doc:ciml:resolution:1998-09
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: SYSTEME DE CERTIFICATS OIML
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/9.1
+- identifier:
+  - prefix: CIML
+    number: 1998/9.1
   doi: 10.63493/resolutions/ciml19989.1
   urn: urn:oiml:doc:ciml:resolution:1998-9.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Informations sur le fonctionnement du Système
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/9.2
+- identifier:
+  - prefix: CIML
+    number: 1998/9.2
   doi: 10.63493/resolutions/ciml19989.2
   urn: urn:oiml:doc:ciml:resolution:1998-9.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Développements du Système
@@ -1343,15 +1467,17 @@ resolutions:
         des règles de fonctionnement du Système.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/9.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/9.3
   doi: 10.63493/resolutions/ciml19989.3
   urn: urn:oiml:doc:ciml:resolution:1998-9.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Nouvelles Recommandations applicables au Système
@@ -1363,15 +1489,17 @@ resolutions:
         applicables au Système de Certificats OIML:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/10
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/10
   doi: 10.63493/resolutions/ciml199810
   urn: urn:oiml:doc:ciml:resolution:1998-10
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: RAPPORT SUR LES ACTIVITÉS DU BIML
@@ -1384,27 +1512,31 @@ resolutions:
         une forme appropriée dans le Bulletin OIML.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11
   doi: 10.63493/resolutions/ciml199811
   urn: urn:oiml:doc:ciml:resolution:1998-11
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: AUTRES QUESTIONS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/11.1
+- identifier:
+  - prefix: CIML
+    number: 1998/11.1
   doi: 10.63493/resolutions/ciml199811.1
   urn: urn:oiml:doc:ciml:resolution:1998-11.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Vice-Président du CIML
@@ -1416,15 +1548,17 @@ resolutions:
         du CIML pour un nouveau mandat se terminant à la fin de 2003.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.2
   doi: 10.63493/resolutions/ciml199811.2
   urn: urn:oiml:doc:ciml:resolution:1998-11.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Directeur du BIML
@@ -1436,15 +1570,17 @@ resolutions:
         selon laquelle le Conseil de Présidence examinera la situation en temps opportun.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.3
   doi: 10.63493/resolutions/ciml199811.3
   urn: urn:oiml:doc:ciml:resolution:1998-11.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Adjoint au Directeur du BIML
@@ -1456,15 +1592,17 @@ resolutions:
         du BIML.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.4
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.4
   doi: 10.63493/resolutions/ciml199811.4
   urn: urn:oiml:doc:ciml:resolution:1998-11.4
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Demandes de l'APLMF
@@ -1476,24 +1614,26 @@ resolutions:
         Asia-Pacific Legal Metrology Forum, relatives:
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
+      date_effective:
+        date: '1998-10-28'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au Bureau de transmettre ces propositions aux
         TC/SC concernés pour prise en considération, ou au Conseil de Présidence,
         comme approprié.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/11.5
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/11.5
   doi: 10.63493/resolutions/ciml199811.5
   urn: urn:oiml:doc:ciml:resolution:1998-11.5
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: Séminaire technique
@@ -1505,27 +1645,31 @@ resolutions:
         Magana visant à l''organisation d''un séminaire sur les logiciels en 1999.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/12
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/12
   doi: 10.63493/resolutions/ciml199812
   urn: urn:oiml:doc:ciml:resolution:1998-12
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: FUTURES RÉUNIONS
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1998/12.1
+- identifier:
+  - prefix: CIML
+    number: 1998/12.1
   doi: 10.63493/resolutions/ciml199812.1
   urn: urn:oiml:doc:ciml:resolution:1998-12.1
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: 34ème réunion du CIML (1999)
@@ -1538,15 +1682,17 @@ resolutions:
         planifiées (CGPM, ILAC, etc.).
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/12.2
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/12.2
   doi: 10.63493/resolutions/ciml199812.2
   urn: urn:oiml:doc:ciml:resolution:1998-12.2
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: 35ème réunion du CIML et Onzième Conférence de l'OIML (2000)
@@ -1559,15 +1705,17 @@ resolutions:
         en 2000.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
-- identifier: CIML/1998/12.3
+      date_effective:
+        date: '1998-10-28'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1998/12.3
   doi: 10.63493/resolutions/ciml199812.3
   urn: urn:oiml:doc:ciml:resolution:1998-12.3
   dates:
-  - start: '1998-10-28'
-    kind: decision
+  - date: '1998-10-28'
+    type: decided
   localizations:
   - language_code: fra
     title: 36ème réunion du CIML (2001)
@@ -1579,6 +1727,6 @@ resolutions:
         en 2001 en Fédération de Russie, ou en alternative en Australie.
 
         '
-      dates:
-      - start: '1998-10-28'
-        kind: effective
+      date_effective:
+        date: '1998-10-28'
+        type: effective

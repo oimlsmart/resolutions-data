@@ -3,25 +3,23 @@ identifier:
 - prefix: OIML Conference
   number: '14'
 urn: urn:oiml:conference:meeting:conference-14
-type: conference_session
+type: conference
 status: completed
-year: 2012
 ordinal: 14
 date_range:
   start: '2012-10-03'
   end: '2012-10-04'
 committee: International Conference of Legal Metrology
 general_area: Bucharest, Romania
-virtual: false
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/14-conf-resolutions-english.pdf
   format: pdf
   language_code: eng
-  kind: resolutions_pdf
+  kind: decisions_pdf
 - ref: https://www.oiml.org/fr/structure/conference/pdf/14-conf-resolutions-french.pdf
   format: pdf
   language_code: fra
-  kind: resolutions_pdf
+  kind: decisions_pdf
 localizations:
 - language_code: eng
   script: Latn
@@ -33,7 +31,10 @@ localizations:
   general_area: Bucharest, Romania
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:conference:resolution-collection:conference-14-resolutions
 city: ROBUH
 country_code: RO
+visibility: public
+venues:
+- kind: physical
+  unlocode: ROBUH
+  country_code: RO

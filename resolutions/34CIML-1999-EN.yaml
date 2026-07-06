@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 34th CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '1999-10-06'
-    end: '1999-10-08'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Tunis, Tunisia
   city: TNTUN
   country_code: TN
-  language: en
   title_localized:
   - language_code: eng
     title: 34th CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-34
-resolutions:
-- identifier: CIML/1999/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1999/1
   doi: 10.63493/resolutions/ciml199901
   urn: urn:oiml:doc:ciml:resolution:1999-01
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the minutes of the $ 3 3 ^{r d} $ CIML Meeting
@@ -37,27 +33,31 @@ resolutions:
         modification.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/2.1
+- identifier:
+  - prefix: CIML
+    number: 1999/2.1
   doi: 10.63493/resolutions/ciml19992.1
   urn: urn:oiml:doc:ciml:resolution:1999-2.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: New Members - Expected accessions
@@ -73,15 +73,17 @@ resolutions:
         since the last CIML Meeting.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2.2
   doi: 10.63493/resolutions/ciml19992.2
   urn: urn:oiml:doc:ciml:resolution:1999-2.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Situation of certain Members
@@ -97,15 +99,17 @@ resolutions:
         be initiated at this time but decisions should be made at the next Conference.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2.3
   doi: 10.63493/resolutions/ciml19992.3
   urn: urn:oiml:doc:ciml:resolution:1999-2.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Implementation of the decision made by the Committee at its $ 33^{\mathrm{rd}}
@@ -118,27 +122,31 @@ resolutions:
         by the Committee at its $ 33^{\mathrm{rd}} $ Meeting.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/3.1
+- identifier:
+  - prefix: CIML
+    number: 1999/3.1
   doi: 10.63493/resolutions/ciml19993.1
   urn: urn:oiml:doc:ciml:resolution:1999-3.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of the Auditor's report for 1998
@@ -149,15 +157,17 @@ resolutions:
       message: 'The Auditor''s report for 1998 was adopted without comment.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3.2
   doi: 10.63493/resolutions/ciml19993.2
   urn: urn:oiml:doc:ciml:resolution:1999-3.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the financial situation for 1999
@@ -173,15 +183,17 @@ resolutions:
         the 1999 contributions were paid on time.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3.3
   doi: 10.63493/resolutions/ciml19993.3
   urn: urn:oiml:doc:ciml:resolution:1999-3.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Budget for the year 2000
@@ -197,15 +209,17 @@ resolutions:
         there were no additional Member States) in the contributions, should be maintained.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/4
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/4
   doi: 10.63493/resolutions/ciml199904
   urn: urn:oiml:doc:ciml:resolution:1999-04
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: CIML Presidency
@@ -218,15 +232,17 @@ resolutions:
         by Vice-President Chappell and by President Faber are given below.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/5
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/5
   doi: 10.63493/resolutions/ciml199905
   urn: urn:oiml:doc:ciml:resolution:1999-05
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Director of the Bureau
@@ -239,15 +255,17 @@ resolutions:
         by President Faber is given below.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/6
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/6
   doi: 10.63493/resolutions/ciml199906
   urn: urn:oiml:doc:ciml:resolution:1999-06
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'OIML Long-term policy: implementation of the decisions made by the Committee
@@ -264,15 +282,17 @@ resolutions:
         Council before being submitted to the Committee for examination and approval.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/7
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/7
   doi: 10.63493/resolutions/ciml199907
   urn: urn:oiml:doc:ciml:resolution:1999-07
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on the activities of the Presidential Council
@@ -292,15 +312,17 @@ resolutions:
         circumstances, of the CIML President.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/8
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/8
   doi: 10.63493/resolutions/ciml199908
   urn: urn:oiml:doc:ciml:resolution:1999-08
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Development Council
@@ -311,27 +333,31 @@ resolutions:
       message: '8. 1 Report on the Development Council meeting of October 5,1999
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons with international and regional organizations
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/9.1
+- identifier:
+  - prefix: CIML
+    number: 1999/9.1
   doi: 10.63493/resolutions/ciml19999.1
   urn: urn:oiml:doc:ciml:resolution:1999-9.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: World Trade Organization (WTO)
@@ -352,15 +378,17 @@ resolutions:
         assist the WTO in reaching its goals.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.2
   doi: 10.63493/resolutions/ciml19999.2
   urn: urn:oiml:doc:ciml:resolution:1999-9.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Standardization organizations (in particular: ISO, IEC, UN/ECE)'
@@ -381,15 +409,17 @@ resolutions:
         the situation as soon as possible.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.3
   doi: 10.63493/resolutions/ciml19999.3
   urn: urn:oiml:doc:ciml:resolution:1999-9.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Accreditation organizations (in particular: ILAC and IAF)'
@@ -404,15 +434,17 @@ resolutions:
         1999 in Rio.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.4
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.4
   doi: 10.63493/resolutions/ciml19999.4
   urn: urn:oiml:doc:ciml:resolution:1999-9.4
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Regional Legal Metrology Organizations (RLMO's)
@@ -426,15 +458,17 @@ resolutions:
         their presentations to matters of specific interest for the CIML.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.5
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.5
   doi: 10.63493/resolutions/ciml19999.5
   urn: urn:oiml:doc:ciml:resolution:1999-9.5
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Regional organizations having activities connected with legal metrology
@@ -469,15 +503,17 @@ resolutions:
         as reproduced in the relevant Normative Document.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.6
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.6
   doi: 10.63493/resolutions/ciml19999.6
   urn: urn:oiml:doc:ciml:resolution:1999-9.6
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Others (BIPM, WHO, ...)
@@ -495,15 +531,17 @@ resolutions:
         therefore the intent of the BIML to reestablish contact with the WHO.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/10
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/10
   doi: 10.63493/resolutions/ciml199910
   urn: urn:oiml:doc:ciml:resolution:1999-10
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Activities linked with mutual recognition of test results, accreditation,
@@ -524,15 +562,17 @@ resolutions:
         that on measurement uncertainty in legal metrology.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -551,15 +591,17 @@ resolutions:
         that discussions should conclude in formal decisions to be made by the Committee.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.1
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.1
   doi: 10.63493/resolutions/ciml199911.1
   urn: urn:oiml:doc:ciml:resolution:1999-11.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Work program of OIML TC's/SC's
@@ -570,15 +612,17 @@ resolutions:
       message: 'The Committee accepted the proposals from:
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TC's and SC's
@@ -590,15 +634,17 @@ resolutions:
         be transferred from TC 7/SC 1 to TC 7.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.3
   doi: 10.63493/resolutions/ciml199911.3
   urn: urn:oiml:doc:ciml:resolution:1999-11.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of draft Recommendations
@@ -610,15 +656,17 @@ resolutions:
         approval by the Committee.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.4
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.4
   doi: 10.63493/resolutions/ciml199911.4
   urn: urn:oiml:doc:ciml:resolution:1999-11.4
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Availability of OIML publications on paper, electronic media and via Internet;
@@ -632,27 +680,31 @@ resolutions:
         information concerning the recent developments of the OIML web site.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12
   doi: 10.63493/resolutions/ciml199912
   urn: urn:oiml:doc:ciml:resolution:1999-12
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Certificate System
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/12.1
+- identifier:
+  - prefix: CIML
+    number: 1999/12.1
   doi: 10.63493/resolutions/ciml199912.1
   urn: urn:oiml:doc:ciml:resolution:1999-12.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: General information
@@ -669,15 +721,17 @@ resolutions:
         the various topics under this item.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12.2
   doi: 10.63493/resolutions/ciml199912.2
   urn: urn:oiml:doc:ciml:resolution:1999-12.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: New Recommendations applicable within the System
@@ -695,27 +749,31 @@ resolutions:
         of the Annex.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Preparations for the Eleventh Conference
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/13.1
+- identifier:
+  - prefix: CIML
+    number: 1999/13.1
   doi: 10.63493/resolutions/ciml199913.1
   urn: urn:oiml:doc:ciml:resolution:1999-13.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Information concerning the organization of the Conference
@@ -728,15 +786,17 @@ resolutions:
         week 9-13 October 2000. The chosen venue was the
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13.2
   doi: 10.63493/resolutions/ciml199913.2
   urn: urn:oiml:doc:ciml:resolution:1999-13.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Proposed agenda
@@ -754,15 +814,17 @@ resolutions:
         1999.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13.3
   doi: 10.63493/resolutions/ciml199913.3
   urn: urn:oiml:doc:ciml:resolution:1999-13.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of a preliminary proposal for the 2001-2004 budget taking into
@@ -782,15 +844,17 @@ resolutions:
         not later than March 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/14
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/14
   doi: 10.63493/resolutions/ciml199914
   urn: urn:oiml:doc:ciml:resolution:1999-14
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on BIML activities
@@ -802,27 +866,31 @@ resolutions:
         in the January 2000 issue of the OIML Bulletin.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15
   doi: 10.63493/resolutions/ciml199915
   urn: urn:oiml:doc:ciml:resolution:1999-15
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Future Meetings
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/15.1
+- identifier:
+  - prefix: CIML
+    number: 1999/15.1
   doi: 10.63493/resolutions/ciml199915.1
   urn: urn:oiml:doc:ciml:resolution:1999-15.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 35th CIML Meeting (2000)
@@ -834,15 +902,17 @@ resolutions:
         be held in London in October 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15.2
   doi: 10.63493/resolutions/ciml199915.2
   urn: urn:oiml:doc:ciml:resolution:1999-15.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 36th CIML Meeting (2001)
@@ -855,15 +925,17 @@ resolutions:
         having yet been given), from Australia and, very recently, from Israel.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/16
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/16
   doi: 10.63493/resolutions/ciml199916
   urn: urn:oiml:doc:ciml:resolution:1999-16
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Other matters
@@ -877,15 +949,17 @@ resolutions:
         aspects. A copy of the declarations was made available to all participants.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/17
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/17
   doi: 10.63493/resolutions/ciml199917
   urn: urn:oiml:doc:ciml:resolution:1999-17
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of decisions
@@ -898,9 +972,9 @@ resolutions:
         of the International Committee of Legal Metrology.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'The Committee took note that 48 (out of 56) Member States were present
         or represented and that the quorum of three-quarters was therefore reached;
@@ -908,15 +982,17 @@ resolutions:
         as well as five Corresponding Members, were present.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/1
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/1
   doi: 10.63493/resolutions/ciml199901
   urn: urn:oiml:doc:ciml:resolution:1999-01
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the minutes of the $ 3 3 ^{r d} $ CIML Meeting
@@ -928,27 +1004,31 @@ resolutions:
         without modification.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/2.1
+- identifier:
+  - prefix: CIML
+    number: 1999/2.1
   doi: 10.63493/resolutions/ciml19992.1
   urn: urn:oiml:doc:ciml:resolution:1999-2.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: New Members - Expected accessions
@@ -962,15 +1042,17 @@ resolutions:
         on possible accessions during the coming year.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2.2
   doi: 10.63493/resolutions/ciml19992.2
   urn: urn:oiml:doc:ciml:resolution:1999-2.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Situation of certain Members
@@ -983,15 +1065,17 @@ resolutions:
         of their dues but that no action should be initiated before the next meeting.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2.3
   doi: 10.63493/resolutions/ciml19992.3
   urn: urn:oiml:doc:ciml:resolution:1999-2.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Implementation of the decision made by the Committee at its $ 33^{\mathrm{rd}}
@@ -1005,27 +1089,31 @@ resolutions:
         and SC''s.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/3.1
+- identifier:
+  - prefix: CIML
+    number: 1999/3.1
   doi: 10.63493/resolutions/ciml19993.1
   urn: urn:oiml:doc:ciml:resolution:1999-3.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of the Auditor's report for 1998
@@ -1036,15 +1124,17 @@ resolutions:
       message: 'The Committee approved the Auditor''s report for 1998 without comment.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3.2
   doi: 10.63493/resolutions/ciml19993.2
   urn: urn:oiml:doc:ciml:resolution:1999-3.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the financial situation for 1999
@@ -1057,15 +1147,17 @@ resolutions:
         the decisions of the Tenth Conference.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3.3
   doi: 10.63493/resolutions/ciml19993.3
   urn: urn:oiml:doc:ciml:resolution:1999-3.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Budget for the year 2000
@@ -1078,15 +1170,17 @@ resolutions:
         maintained.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/4
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/4
   doi: 10.63493/resolutions/ciml199904
   urn: urn:oiml:doc:ciml:resolution:1999-04
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: CIML Presidency
@@ -1100,15 +1194,17 @@ resolutions:
         known in writing to Vice-President Chappell before June 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/5
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/5
   doi: 10.63493/resolutions/ciml199905
   urn: urn:oiml:doc:ciml:resolution:1999-05
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Director of the Bureau
@@ -1122,15 +1218,17 @@ resolutions:
         at the time when the new Director is appointed.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/6
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/6
   doi: 10.63493/resolutions/ciml199906
   urn: urn:oiml:doc:ciml:resolution:1999-06
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'OIML Long-term policy: implementation of the decisions made by the Committee
@@ -1144,15 +1242,17 @@ resolutions:
         of which the BIML has taken note.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/7
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/7
   doi: 10.63493/resolutions/ciml199907
   urn: urn:oiml:doc:ciml:resolution:1999-07
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on the activities of the Presidential Council
@@ -1165,15 +1265,17 @@ resolutions:
         and the way in which Council deliberations will be reported to the Committee.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/8
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/8
   doi: 10.63493/resolutions/ciml199908
   urn: urn:oiml:doc:ciml:resolution:1999-08
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Development Council
@@ -1184,15 +1286,17 @@ resolutions:
       message: '8. 1 Report on the Development Council meeting of October 5,1999
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/8.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/8.2
   doi: 10.63493/resolutions/ciml19998.2
   urn: urn:oiml:doc:ciml:resolution:1999-8.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Work program of the Development Council
@@ -1206,15 +1310,17 @@ resolutions:
         for the work already accomplished and endorsed the resolutions of the meeting.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/8.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/8.3
   doi: 10.63493/resolutions/ciml19998.3
   urn: urn:oiml:doc:ciml:resolution:1999-8.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons with relevant international and regional organizations
@@ -1227,27 +1333,31 @@ resolutions:
         organizations.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons with international and regional organizations
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/9.1
+- identifier:
+  - prefix: CIML
+    number: 1999/9.1
   doi: 10.63493/resolutions/ciml19999.1
   urn: urn:oiml:doc:ciml:resolution:1999-9.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: World Trade Organization (WTO)
@@ -1263,15 +1373,17 @@ resolutions:
         barriers to trade.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.2
   doi: 10.63493/resolutions/ciml19999.2
   urn: urn:oiml:doc:ciml:resolution:1999-9.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Standardization organizations (in particular: ISO, IEC, UN/ECE)'
@@ -1283,15 +1395,17 @@ resolutions:
         cooperation with ISO, IEC and UN/ECE.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.3
   doi: 10.63493/resolutions/ciml19999.3
   urn: urn:oiml:doc:ciml:resolution:1999-9.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Accreditation organizations (in particular: ILAC and IAF)'
@@ -1303,15 +1417,17 @@ resolutions:
         cooperation with ILAC and IAF.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.4
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.4
   doi: 10.63493/resolutions/ciml19999.4
   urn: urn:oiml:doc:ciml:resolution:1999-9.4
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Regional Legal Metrology Organizations (RLMO's)
@@ -1327,15 +1443,17 @@ resolutions:
         and papers on equipment revised and reissued as quickly as possible.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.5
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.5
   doi: 10.63493/resolutions/ciml19999.5
   urn: urn:oiml:doc:ciml:resolution:1999-9.5
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Regional organizations having activities connected with legal metrology
@@ -1354,24 +1472,26 @@ resolutions:
         that the creation of regional technical barriers to trade will be avoided.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'The Committee was informed that a meeting between the BIML Director
         and the Secretary General of CEN and that of CENELEC was expected to be held
         soon.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9.6
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9.6
   doi: 10.63493/resolutions/ciml19999.6
   urn: urn:oiml:doc:ciml:resolution:1999-9.6
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Others (BIPM, WHO, ...)
@@ -1384,15 +1504,17 @@ resolutions:
         the next CGPM in Paris in the week following this CIML Meeting.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/10
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/10
   doi: 10.63493/resolutions/ciml199910
   urn: urn:oiml:doc:ciml:resolution:1999-10
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Activities linked with mutual recognition of test results, accreditation,
@@ -1410,15 +1532,17 @@ resolutions:
         for packagers.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -1429,22 +1553,24 @@ resolutions:
       message: 'The Committee approved these proposals.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: approves
       message: 'The Committee approved these proposals.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TC's and SC's
@@ -1455,15 +1581,17 @@ resolutions:
       message: 'The Committee approved these proposals.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.3
   doi: 10.63493/resolutions/ciml199911.3
   urn: urn:oiml:doc:ciml:resolution:1999-11.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of draft Recommendations
@@ -1474,15 +1602,17 @@ resolutions:
       message: 'The Committee approved the following draft international Recommendations:
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.4
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.4
   doi: 10.63493/resolutions/ciml199911.4
   urn: urn:oiml:doc:ciml:resolution:1999-11.4
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Availability of OIML publications on paper, electronic media and via Internet;
@@ -1494,27 +1624,31 @@ resolutions:
       message: 'The Committee took note of information on this topic.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12
   doi: 10.63493/resolutions/ciml199912
   urn: urn:oiml:doc:ciml:resolution:1999-12
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Certificate System
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/12.1
+- identifier:
+  - prefix: CIML
+    number: 1999/12.1
   doi: 10.63493/resolutions/ciml199912.1
   urn: urn:oiml:doc:ciml:resolution:1999-12.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: General information
@@ -1525,15 +1659,17 @@ resolutions:
       message: 'The Committee took note of information on this topic.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12.2
   doi: 10.63493/resolutions/ciml199912.2
   urn: urn:oiml:doc:ciml:resolution:1999-12.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: New Recommendations applicable within the System
@@ -1547,27 +1683,31 @@ resolutions:
         Recommendation published.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Preparations for the Eleventh Conference
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/13.1
+- identifier:
+  - prefix: CIML
+    number: 1999/13.1
   doi: 10.63493/resolutions/ciml199913.1
   urn: urn:oiml:doc:ciml:resolution:1999-13.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Information concerning the organization of the Conference
@@ -1579,15 +1719,17 @@ resolutions:
         preparations for the Eleventh Conference.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13.2
   doi: 10.63493/resolutions/ciml199913.2
   urn: urn:oiml:doc:ciml:resolution:1999-13.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Proposed agenda
@@ -1602,15 +1744,17 @@ resolutions:
         possibility of its being an open Round Table.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13.3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13.3
   doi: 10.63493/resolutions/ciml199913.3
   urn: urn:oiml:doc:ciml:resolution:1999-13.3
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of a preliminary proposal for the 2001-2004 budget taking into
@@ -1626,15 +1770,17 @@ resolutions:
         Members by the end of February 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/14
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/14
   doi: 10.63493/resolutions/ciml199914
   urn: urn:oiml:doc:ciml:resolution:1999-14
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on BIML activities
@@ -1645,27 +1791,31 @@ resolutions:
       message: 'The Committee took note of a report distributed by the Bureau.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15
   doi: 10.63493/resolutions/ciml199915
   urn: urn:oiml:doc:ciml:resolution:1999-15
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Future Meetings
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/1999/15.1
+- identifier:
+  - prefix: CIML
+    number: 1999/15.1
   doi: 10.63493/resolutions/ciml199915.1
   urn: urn:oiml:doc:ciml:resolution:1999-15.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 35th CIML Meeting (2000)
@@ -1677,15 +1827,17 @@ resolutions:
         Conference.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15.2
   doi: 10.63493/resolutions/ciml199915.2
   urn: urn:oiml:doc:ciml:resolution:1999-15.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: 36th CIML Meeting (2001)
@@ -1699,15 +1851,17 @@ resolutions:
         Meeting.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/16
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/16
   doi: 10.63493/resolutions/ciml199916
   urn: urn:oiml:doc:ciml:resolution:1999-16
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: eng
     title: Other matters
@@ -1720,6 +1874,6 @@ resolutions:
         of metrology in France.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective

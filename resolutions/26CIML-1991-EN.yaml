@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 26th CIML Meeting — Minutes (EN, Bulletin)
-  dates:
-  - start: '1991-10-07'
-    end: '1991-10-09'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Paris, France
   city: FRPAR
   country_code: FR
-  language: en
   title_localized:
   - language_code: eng
     title: 26th CIML Meeting — Minutes (EN, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-26
-resolutions:
-- identifier: CIML/1991/2
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1991/2
   doi: 10.63493/resolutions/ciml199102
   urn: urn:oiml:doc:ciml:resolution:1991-02
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 New members - Prospective new members
@@ -43,15 +39,17 @@ resolutions:
         in becoming a Corresponding Member.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/2
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/2
   doi: 10.63493/resolutions/ciml199102
   urn: urn:oiml:doc:ciml:resolution:1991-02
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 The situations of some Member States
@@ -68,15 +66,17 @@ resolutions:
         membership of OIML.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/3
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/3
   doi: 10.63493/resolutions/ciml199103
   urn: urn:oiml:doc:ciml:resolution:1991-03
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 Approval of the auditor's report for 1990
@@ -87,15 +87,17 @@ resolutions:
       message: 'The auditor''s report was approved without comment.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/3
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/3
   doi: 10.63493/resolutions/ciml199103
   urn: urn:oiml:doc:ciml:resolution:1991-03
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 The financial situation for 1991 and 1992
@@ -111,15 +113,17 @@ resolutions:
         in 1988.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/4
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/4
   doi: 10.63493/resolutions/ciml199104
   urn: urn:oiml:doc:ciml:resolution:1991-04
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 Replacement of a Director's Assistant retiring from the Bureau in September
@@ -133,15 +137,17 @@ resolutions:
         Three Member States had put forward four candidates for the post:
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/4
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/4
   doi: 10.63493/resolutions/ciml199104
   urn: urn:oiml:doc:ciml:resolution:1991-04
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 Other matters
@@ -157,15 +163,17 @@ resolutions:
         certain English-speaking Member States with a view to seeking candidates.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/5
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/5
   doi: 10.63493/resolutions/ciml199105
   urn: urn:oiml:doc:ciml:resolution:1991-05
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 Operation of the OIML Certificate System
@@ -180,15 +188,17 @@ resolutions:
         it under way:
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/5
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/5
   doi: 10.63493/resolutions/ciml199105
   urn: urn:oiml:doc:ciml:resolution:1991-05
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 Recommendations to which the System is applicable
@@ -203,15 +213,17 @@ resolutions:
         needed were developed or revised quickly.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/5
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/5
   doi: 10.63493/resolutions/ciml199105
   urn: urn:oiml:doc:ciml:resolution:1991-05
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 3 The evolution of the System in the years to come
@@ -228,15 +240,17 @@ resolutions:
         the Committee at its next meeting.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/6
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/6
   doi: 10.63493/resolutions/ciml199106
   urn: urn:oiml:doc:ciml:resolution:1991-06
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 Procedures for the technical work of OIML
@@ -261,15 +275,17 @@ resolutions:
         to start again practically from scratch.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/6
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/6
   doi: 10.63493/resolutions/ciml199106
   urn: urn:oiml:doc:ciml:resolution:1991-06
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 Drafting and presentation of OIML International Recommendations
@@ -285,15 +301,17 @@ resolutions:
         into use straight away.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/6
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/6
   doi: 10.63493/resolutions/ciml199106
   urn: urn:oiml:doc:ciml:resolution:1991-06
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 3 New structures to be established in application of the procedures
@@ -309,15 +327,17 @@ resolutions:
         of existing Recommendations.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/7
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/7
   doi: 10.63493/resolutions/ciml199107
   urn: urn:oiml:doc:ciml:resolution:1991-07
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 State of progress of work
@@ -330,27 +350,31 @@ resolutions:
         1991.09.30, had been distributed for the information of those present.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/7
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/7
   doi: 10.63493/resolutions/ciml199107
   urn: urn:oiml:doc:ciml:resolution:1991-07
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 Particular secretariats
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1991/7.2
+- identifier:
+  - prefix: CIML
+    number: 1991/7.2
   doi: 10.63493/resolutions/ciml19917.2
   urn: urn:oiml:doc:ciml:resolution:1991-7.2
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: a Vacant secretariats
@@ -364,15 +388,17 @@ resolutions:
         to divest themselves of those responsibilities.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/7.2
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/7.2
   doi: 10.63493/resolutions/ciml19917.2
   urn: urn:oiml:doc:ciml:resolution:1991-7.2
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: b The situation of one secretariat
@@ -391,15 +417,17 @@ resolutions:
         particular whether to confirm or cancel R 54, until its next meeting.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/7
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/7
   doi: 10.63493/resolutions/ciml199107
   urn: urn:oiml:doc:ciml:resolution:1991-07
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 3 Adoption of International Recommendations
@@ -415,15 +443,17 @@ resolutions:
         should be sent out in the spring of 1992.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/14
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/14
   doi: 10.63493/resolutions/ciml199114
   urn: urn:oiml:doc:ciml:resolution:1991-14
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 1 OIML Bulletin
@@ -440,15 +470,17 @@ resolutions:
         the same small group of countries.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/14
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/14
   doi: 10.63493/resolutions/ciml199114
   urn: urn:oiml:doc:ciml:resolution:1991-14
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 2 Instituting a world metrology day
@@ -465,15 +497,17 @@ resolutions:
         whether at national level or internationally.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
-- identifier: CIML/1991/14
+      date_effective:
+        date: '1991-10-07'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1991/14
   doi: 10.63493/resolutions/ciml199114
   urn: urn:oiml:doc:ciml:resolution:1991-14
   dates:
-  - start: '1991-10-07'
-    kind: decision
+  - date: '1991-10-07'
+    type: decided
   localizations:
   - language_code: eng
     title: 3 Relations between OIML and the industries manufacturing measuring instruments
@@ -493,34 +527,34 @@ resolutions:
         be a brake on innovation and impede progress.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee accepted Germany''s invitation to hold its twenty-eighth
         meeting in Berlin in 1993.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: approves
       message: 'The Committee approved the minutes of the Twenty-fifth CIML meeting
         without modification.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of the interest shown by certain countries
         in joining OIML as Member States or Corresponding Members (South Africa, Argentina,
         Mexico) or to rejoin OIML (Iran).
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of information given orally about the situation
         of a Member State that was in arrears in its contributions to OIML. Because
@@ -529,93 +563,93 @@ resolutions:
         be taken for the time being.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: approves
       message: 'The Committee approved the Auditor''s report for 1990 and instructed
         its President and the Director of the Bureau to submit it to the Ninth Conference.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee considered the financial situation of the Organisation
         in 1991 and took note of a forecast of the likely expenditure in 1992, given
         orally.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee elected as Assistant Director, in place of Mr Thulin:
         Mr P. DEGAVRE, Belgium, from 1st October 1992.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of some general information about the current
         and future employment of staff at the Bureau.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee received the information provided by the BIML on the
         production and distribution of literature and information on the OIML Certificate
         System, including the use of the Bulletin to provide such information periodically.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee also received information provided by certain Members
         of the Committee on the application of the System at the national level (informing
         manufacturers concerned, appointment of issuing authorities, etc.).
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee was then informed of the forthcoming issue of the first
         OIML Certificates (with regard to the revised R 76).
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee received reports from some of its Members on the revision
         of existing Recommendations relative to their applicability to the System.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee also took note of opinions expressed by some of its
         Members on the priorities to be observed in the development of Recommendations
         to which the System should be applicable.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of opinions expressed by some of its Members
         on the possible ways in which the System might develop.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee expressed its agreement that the System should continue
         to operate in its present form until the next meeting of the Committee, at
@@ -623,9 +657,9 @@ resolutions:
         texts on which the System is based.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of the generally favourable opinion expressed
         by its Members on the third draft "Procedures for the technical work of OIML".
@@ -633,18 +667,18 @@ resolutions:
         the need to review the text before it would be approved.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee also took note of the need to revise the "Guide for
         members of CIML", and instructed the Bureau to proceed to this revision under
         the guidance of the Presidential Council.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: decides
       message: 'The Committee decided that the draft "Guide to the drafting and presentation
         of OIML International Recommendations" could be considered as approved and
@@ -653,35 +687,35 @@ resolutions:
         to contribute in writing in the near future.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Bureau to invite comments and to proceed
         to final drafting and publication.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of the generally favourable opinions expressed
         by its Members on a preliminary proposal for the new work structures to be
         established for the application of the new procedures.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee asked its Members to send their comments on this proposal
         to the Bureau before 1991.12.31 so that a report might be submitted to the
         Presidential Council.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee was aware that the new structures would have to be in
         place for 1993.1.1 and that consequently the question of the division of the
@@ -689,26 +723,26 @@ resolutions:
         original proposal) would have to be resolved in sufficient time.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of the document "State of progress of the
         work of OIML Secretariats" and of information on the comparison between the
         actual state of progress and the forecasts in the work programme for 1989-1992.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee allocated the responsibility of vacant Secretariats
         as follows:
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of information on the work of the Secretariat
         SP 30-Sr 1 "pH-metry et ionometry" and on the discrepancies between Recommendation
@@ -717,17 +751,17 @@ resolutions:
         its next meeting.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: approves
       message: 'The Committee approved for immediate publication, and then presentation
         to the Ninth Conference for formal sanction, the following International Recommendations:
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of oral reports on the relations between OIML
         and various institutions: bodies of the Metre Convention, ISO and IEC (in
@@ -735,9 +769,9 @@ resolutions:
         European bodies.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report on the organization by Germany
         and BIML of a training course on verification of weighing instruments for
@@ -745,66 +779,66 @@ resolutions:
         Council budget.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee agreed that BIML participate again in a second similar
         course that Germany will organize in 1992 and that the travel expenses of
         two trainees be paid by OIML.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee also took note of information on courses organized by
         Germany and Cuba.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took not of information on the preparations for a technical
         seminar on instruments for the measurement of air pollution, which will take
         place in Switzerland in 1992.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of the report of the activities of BIML for
         the period from October 1990 to September 1991.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee elected as Vice-President: Prof. M. KOCHSIEK, Germany.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of information on the preparations for the
         Ninth Conference in Greece and agreed in the proposed dates (first week of
         November 1992).
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of information on the OIML Bulletin.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of a proposal from Rumania to organize a "World
         Metrology Day". The Committee considered that any decision on this matter
@@ -812,26 +846,26 @@ resolutions:
         could be promoted at the national level.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee took note of a letter from CECIP (European Committee
         of Manufacturers of Weighing Instruments).
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: thanks
       message: 'The Committee expressed its appreciation of the intention of manufacturers
         who are members of CECIP to urge their national authorities to implement OIML
         Recommendations in national regulations quickly.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee recalled that on several occasions it had requested
         its Members to associate manufacturers closely in the technical work of OIML,
@@ -840,9 +874,9 @@ resolutions:
         technical work of OIML.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee then recalled that the OIML working policy clearly aims
         at issuing Recommendations worded in terms of metrological performances to
@@ -850,23 +884,23 @@ resolutions:
         could impede innovation in the field.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: decides
       message: 'The Committee decided that its Twenty-seventh meeting will take place
         in Greece, at the beginning of November 1992, on the occasion of the Ninth
         Conference.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective
     - type: notes
       message: 'The Committee also accepted the invitation from Germany to hold the
         Twenty-eighth meeting in Berlin in 1993.
 
         '
-      dates:
-      - start: '1991-10-07'
-        kind: effective
+      date_effective:
+        date: '1991-10-07'
+        type: effective

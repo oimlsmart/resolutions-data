@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 24th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1989-09-27'
-    end: '1989-09-29'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Paris, France
   city: FRPAR
   country_code: FR
-  language: fr
   title_localized:
   - language_code: fra
     title: 24th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-24
-resolutions:
-- identifier: CIML/1989/7
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1989/7
   doi: 10.63493/resolutions/ciml198907
   urn: urn:oiml:doc:ciml:resolution:1989-07
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Travaux des Secrétariats
@@ -36,15 +32,17 @@ resolutions:
       message: '7. 1. Examen de l''état d''avancement des travaux
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/1
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/1
   doi: 10.63493/resolutions/ciml198901
   urn: urn:oiml:doc:ciml:resolution:1989-01
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION DU COMPTE RENDU DE LA 23e REUNION DU COMITE
@@ -55,27 +53,31 @@ resolutions:
       message: 'Ce compte rendu est adopté sans modification
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/2
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/2
   doi: 10.63493/resolutions/ciml198902
   urn: urn:oiml:doc:ciml:resolution:1989-02
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: ETATS MEMBRES ET MEMBRES CORRESPONDANTS
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1989/2.1
+- identifier:
+  - prefix: CIML
+    number: 1989/2.1
   doi: 10.63493/resolutions/ciml19892.1
   urn: urn:oiml:doc:ciml:resolution:1989-2.1
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Nouvelles adhésions Perspectives d'adhésions
@@ -92,15 +94,17 @@ resolutions:
         l''OIML.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/2.2
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/2.2
   doi: 10.63493/resolutions/ciml19892.2
   urn: urn:oiml:doc:ciml:resolution:1989-2.2
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation de certains Etats Membres
@@ -117,27 +121,31 @@ resolutions:
         Président du Comité sera informé en temps utile du résultat de ces contacts.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/3
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/3
   doi: 10.63493/resolutions/ciml198903
   urn: urn:oiml:doc:ciml:resolution:1989-03
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: SITUATION FINANCIERE
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1989/3.1
+- identifier:
+  - prefix: CIML
+    number: 1989/3.1
   doi: 10.63493/resolutions/ciml19893.1
   urn: urn:oiml:doc:ciml:resolution:1989-3.1
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Adoption du rapport comptable pour 1988
@@ -149,15 +157,17 @@ resolutions:
         du Bureau de le présenter à la Neuvième Conférence.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/3.2
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/3.2
   doi: 10.63493/resolutions/ciml19893.2
   urn: urn:oiml:doc:ciml:resolution:1989-3.2
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Examen de la situation financière pour 1989 et 1990
@@ -175,15 +185,17 @@ resolutions:
         au grenier) ont été engagés et sont en voie d''achèvement.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/4
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/4
   doi: 10.63493/resolutions/ciml198904
   urn: urn:oiml:doc:ciml:resolution:1989-04
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: PERSONNEL DU BUREAU
@@ -197,15 +209,17 @@ resolutions:
         en 1991 et 1992.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/4.2
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/4.2
   doi: 10.63493/resolutions/ciml19894.2
   urn: urn:oiml:doc:ciml:resolution:1989-4.2
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Autres questions.
@@ -216,15 +230,17 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/5
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/5
   doi: 10.63493/resolutions/ciml198905
   urn: urn:oiml:doc:ciml:resolution:1989-05
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: MISE EN APPLICATION DES DECISIONS DE LA HUITIEME CONFERENCE
@@ -238,15 +254,17 @@ resolutions:
         en particulier les sujets suivants:
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/6
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/6
   doi: 10.63493/resolutions/ciml198906
   urn: urn:oiml:doc:ciml:resolution:1989-06
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: CERTIFICATION
@@ -261,22 +279,24 @@ resolutions:
         Comité.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/6.2
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/6.2
   doi: 10.63493/resolutions/ciml19896.2
   urn: urn:oiml:doc:ciml:resolution:1989-6.2
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Actions nécessaires au bon fonctionnement du système
@@ -288,15 +308,17 @@ resolutions:
         point de départ le mémorandum établi par M. KOCHSIEK.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/7
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/7
   doi: 10.63493/resolutions/ciml198907
   urn: urn:oiml:doc:ciml:resolution:1989-07
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: TRAVAUX DES SECRETARIATS
@@ -307,15 +329,17 @@ resolutions:
       message: '7. 1. Examen de l''état d''avancement des travaux
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/7.3
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/7.3
   doi: 10.63493/resolutions/ciml19897.3
   urn: urn:oiml:doc:ciml:resolution:1989-7.3
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Mode de travail des Secrétariats de l'OIML
@@ -324,15 +348,17 @@ resolutions:
     actions:
     - type: notes
       message: "## a) Informations sur la révision du Mode de travail\n"
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/7.4
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/7.4
   doi: 10.63493/resolutions/ciml19897.4
   urn: urn:oiml:doc:ciml:resolution:1989-7.4
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Adoption de Recommandations Internationales
@@ -349,15 +375,17 @@ resolutions:
         certificats OIML que compte tenu de l''accélération des progrès de la technique.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/8
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/8
   doi: 10.63493/resolutions/ciml198908
   urn: urn:oiml:doc:ciml:resolution:1989-08
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: POLITIQUE A LONG TERME DE L'ORGANISATION
@@ -368,15 +396,17 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/9
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/9
   doi: 10.63493/resolutions/ciml198909
   urn: urn:oiml:doc:ciml:resolution:1989-09
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: PAYS EN DEVELOPEMENT
@@ -390,15 +420,17 @@ resolutions:
         et l''équipement des laboratoires de métrologie et d''essai.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/10
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/10
   doi: 10.63493/resolutions/ciml198910
   urn: urn:oiml:doc:ciml:resolution:1989-10
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: SEMINAIRES OIML
@@ -410,15 +442,17 @@ resolutions:
         sur le pesage, qui aura lieu à la PTB, à Braunschweig, en mai 1990.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/11
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/11
   doi: 10.63493/resolutions/ciml198911
   urn: urn:oiml:doc:ciml:resolution:1989-11
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: RAPPORT D'ACTIVITE DU BIML
@@ -430,27 +464,31 @@ resolutions:
         distribué aux participants.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/12
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/12
   doi: 10.63493/resolutions/ciml198912
   urn: urn:oiml:doc:ciml:resolution:1989-12
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: QUESTIONS DIVERSES
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1989/12.1
+- identifier:
+  - prefix: CIML
+    number: 1989/12.1
   doi: 10.63493/resolutions/ciml198912.1
   urn: urn:oiml:doc:ciml:resolution:1989-12.1
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Bulletin de l'OIML
@@ -464,15 +502,17 @@ resolutions:
         Cette idée
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/12.2
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/12.2
   doi: 10.63493/resolutions/ciml198912.2
   urn: urn:oiml:doc:ciml:resolution:1989-12.2
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: Autres questions
@@ -486,15 +526,17 @@ resolutions:
         à la Neuvième Conférence.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
-- identifier: CIML/1989/13
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1989/13
   doi: 10.63493/resolutions/ciml198913
   urn: urn:oiml:doc:ciml:resolution:1989-13
   dates:
-  - start: '1989-09-27'
-    kind: decision
+  - date: '1989-09-27'
+    type: decided
   localizations:
   - language_code: fra
     title: DATE ET LIEU DE LA PROCHAINE REUNION
@@ -507,17 +549,17 @@ resolutions:
         de s''occuper des réservations d''hôtel le plus vite possible.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a adopté le compte rendu de sa vingt-troisième réunion sans
         modification.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris connaissance du rapport sur l''adhésion, comme Membres
         Correspondants, des Seychelles, de la Malaisie, du Mexique et du Sénégal;
@@ -526,64 +568,64 @@ resolutions:
         paiement de leurs contributions.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a adopté le rapport comptable pour 1988 et a chargé son
         Président et le Directeur du Bureau de le soumettre à la Neuvième Conférence.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a renouvelé pour une période de cinq ans, à compter du 1er
         janvier 1991, le contrat du Directeur du Bureau.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note du rapport sur les changements qui se produiront
         dans la composition du personnel du Bureau au cours des trois prochaines années.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un rapport sur la mise en application des
         décisions de la Huitième Conférence.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale,
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a insisté sur la nécessité de revoir le "Mode de travail
         des Secrétariats de l''OIML" afin en particulier qu''un modèle normalisé de
         Recommandation soit donné comme guide aux Secrétariats.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a également conseillé à ses Membres de s''efforcer de prendre
         en considération, pour les approbations de modèle nationales, les essais effectués
@@ -591,17 +633,17 @@ resolutions:
         de l''OIML.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note de l''état d''avancement des travaux des Secrétariats
         de l''OIML.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''établir les listes définitives des
         membres-P et membres-O de ces Secrétariats et d''informer les institutions
@@ -609,9 +651,9 @@ resolutions:
         travaux.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''entreprendre, sous la direction du
         Conseil de la Présidence, une révision radicale du "Mode de travail des Secrétariats
@@ -620,17 +662,17 @@ resolutions:
         sur les Directives communes de l''ISO et de la CEI, édition 1989.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au Bureau que le projet de révision soit distribué
         aux Membres du CIML en vue de sa discussion à la prochaine réunion.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité constatant que, pour certains Secrétariats, le déroulement
         du travail est géné par le fait que certains membres-P ne participent pas
@@ -640,24 +682,24 @@ resolutions:
         certains de pouvoir remplir leurs devoirs.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé les trois Recommandations Internationales suivantes:
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a rappelé au Bureau que ces Recommandations devaient néanmoins
         être présentées à la Neuvième Conférence pour sanction.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''étudier soigneusement les diverses
         propositions et déclarations présentées en séance (en particulier sur les
@@ -667,9 +709,9 @@ resolutions:
         et de transmettre ces informations au Conseil de la Présidence pour examen.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a également encouragé ses Membres, en particulier ceux responsables
         de Secrétariats Rapporteurs traitant d''instruments qui pourraient entrer
@@ -679,18 +721,18 @@ resolutions:
         être appliqués uniformément.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note du rapport sur la réunion du Conseil de Développement
         et le séminaire sur la planification et l''équipement de laboratoires de métrologie
         et d''essais.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a donné son accord pour que le budget prévu par la Conférence
         pour la réunion du Conseil de Développement de 1991 soit utilisé pour faciliter
@@ -699,55 +741,55 @@ resolutions:
         être organisé par un Etat Membre en 1991.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''examiner immédiatement les possibilités
         d''organiser ce cours.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note des informations sur la préparation d''un séminaire
         technique qui se tiendra en 1990.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note du rapport d''activité du BIML pour la période
         octobre 1988 - septembre 1989.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note de la décision du Comité International des Poids
         et Mesures de ne pas donner suite à l''idée de créer un journal international
         de métrologie publié sous l''égide des deux Comités.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note de l''invitation de Cuba à tenir la Dixième
         Conférence en 1996 dans ce pays.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective
     - type: notes
       message: 'Le Comité a accepté l''invitation du Portugal à tenir sa prochaine
         réunion à Lisbonne les 3, 4 et 5 octobre 1990.
 
         '
-      dates:
-      - start: '1989-09-27'
-        kind: effective
+      date_effective:
+        date: '1989-09-27'
+        type: effective

@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2007-10-24'
-    end: '2007-10-26'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Shanghai, P.R. China
-  city: Shanghai
   country_code: CN
-  language: en
   title_localized:
   - language_code: eng
     title: 42nd CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 42e réunion du CIML — Décisions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-42
-resolutions:
-- identifier: CIML/2007/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2007/1
   doi: 10.63493/resolutions/ciml200701
   urn: urn:oiml:doc:ciml:resolution:2007-01
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the minutes of the 41st CIML Meeting
@@ -33,9 +28,9 @@ resolutions:
         modification.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Approbation du Compte Rendu de la 41<sup>ème</sup> Réunion du CIML
     subject: CIML
@@ -46,15 +41,17 @@ resolutions:
         y apporter de modification.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/2
   doi: 10.63493/resolutions/ciml200702
   urn: urn:oiml:doc:ciml:resolution:2007-02
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
@@ -66,12 +63,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/2.1
+- identifier:
+  - prefix: CIML
+    number: 2007/2.1
   doi: 10.63493/resolutions/ciml20072.1
   urn: urn:oiml:doc:ciml:resolution:2007-2.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Situation of certain Members
@@ -83,9 +82,9 @@ resolutions:
         Arab Emirates and Sudan) had joined the OIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Situation de certains Membres
     subject: CIML
@@ -96,15 +95,17 @@ resolutions:
         supplémentaires (les Émirats Arabes Unis et le Soudan).
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/3
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/3
   doi: 10.63493/resolutions/ciml200703
   urn: urn:oiml:doc:ciml:resolution:2007-03
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
@@ -116,12 +117,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/3.1
+- identifier:
+  - prefix: CIML
+    number: 2007/3.1
   doi: 10.63493/resolutions/ciml20073.1
   urn: urn:oiml:doc:ciml:resolution:2007-3.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of the Auditor's report for 2006
@@ -134,9 +137,9 @@ resolutions:
         in 2008.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Adoption du Rapport d'audit de 2006
     subject: CIML
@@ -148,22 +151,24 @@ resolutions:
         en 2008.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le comité a pris note du rapport rendu par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/3.3
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/3.3
   doi: 10.63493/resolutions/ciml20073.3
   urn: urn:oiml:doc:ciml:resolution:2007-3.3
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial report for 2006 and estimates for 2007
@@ -174,15 +179,17 @@ resolutions:
       message: 'The Committee took note of the report given by the BIML Director.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/3.4
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/3.4
   doi: 10.63493/resolutions/ciml20073.4
   urn: urn:oiml:doc:ciml:resolution:2007-3.4
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Elements for the 2009-2012 budget
@@ -196,9 +203,9 @@ resolutions:
         send to the Bureau no later than 31 December 2007.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Éléments du budget 2009-2012
     subject: CIML
@@ -211,15 +218,17 @@ resolutions:
         invités à envoyer au Bureau avant le 31 décembre 2007.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/3.5
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/3.5
   doi: 10.63493/resolutions/ciml20073.5
   urn: urn:oiml:doc:ciml:resolution:2007-3.5
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Pension scheme
@@ -233,9 +242,9 @@ resolutions:
         at its 43rd Meeting.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Système de retraite
     subject: CIML
@@ -248,15 +257,17 @@ resolutions:
         du CIML lors de sa 43ème Réunion.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/4
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/4
   doi: 10.63493/resolutions/ciml200704
   urn: urn:oiml:doc:ciml:resolution:2007-04
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Presidential Council activities
@@ -268,12 +279,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/4.1
+- identifier:
+  - prefix: CIML
+    number: 2007/4.1
   doi: 10.63493/resolutions/ciml20074.1
   urn: urn:oiml:doc:ciml:resolution:2007-4.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on Presidential Council activities
@@ -284,9 +297,9 @@ resolutions:
       message: 'The Committee took note of an oral report presented by the CIML President.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Rapport relatif aux activités du Conseil de la Présidence
     subject: CIML
@@ -297,15 +310,17 @@ resolutions:
         du CIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/4.2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/4.2
   doi: 10.63493/resolutions/ciml20074.2
   urn: urn:oiml:doc:ciml:resolution:2007-4.2
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Long Term Strategy and
@@ -317,12 +332,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/4.3
+- identifier:
+  - prefix: CIML
+    number: 2007/4.3
   doi: 10.63493/resolutions/ciml20074.3
   urn: urn:oiml:doc:ciml:resolution:2007-4.3
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Action Plan
@@ -336,9 +353,9 @@ resolutions:
         Members no later than 31 December 2007.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Plan d'Action
     subject: CIML
@@ -351,15 +368,17 @@ resolutions:
         qui pourront être envoyées par les Membres du CIML avant le 31 décembre 2007.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/5
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/5
   doi: 10.63493/resolutions/ciml200705
   urn: urn:oiml:doc:ciml:resolution:2007-05
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Developing Country activities
@@ -371,12 +390,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/5.1
+- identifier:
+  - prefix: CIML
+    number: 2007/5.1
   doi: 10.63493/resolutions/ciml20075.1
   urn: urn:oiml:doc:ciml:resolution:2007-5.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on PWGDC and JCDCMAS activities
@@ -391,9 +412,9 @@ resolutions:
         CIML for approval.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Rapport relatif aux activités du PWGDC et du JCDCMAS
     subject: CIML
@@ -407,15 +428,17 @@ resolutions:
         sera soumise à l''approbation du CIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/5.2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/5.2
   doi: 10.63493/resolutions/ciml20075.2
   urn: urn:oiml:doc:ciml:resolution:2007-5.2
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on the D1 Seminar
@@ -427,9 +450,9 @@ resolutions:
         23 and expressed its thanks to Dr. Seiler for organizing and chairing it.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Rapport relatif au Séminaire D 1
     subject: CIML
@@ -441,15 +464,17 @@ resolutions:
         organisé et présidé.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/6
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/6
   doi: 10.63493/resolutions/ciml200706
   urn: urn:oiml:doc:ciml:resolution:2007-06
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons
@@ -461,12 +486,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/6.1
+- identifier:
+  - prefix: CIML
+    number: 2007/6.1
   doi: 10.63493/resolutions/ciml20076.1
   urn: urn:oiml:doc:ciml:resolution:2007-6.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Presentation by the Bureau on liaison activities and joint actions
@@ -479,17 +506,17 @@ resolutions:
         to sign the extension of the existing ILAC-OIML MoU to also include the IAF.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'The Committee asked the CIML President to monitor and update, if necessary,
         the joint working programs with the BIPM, ILAC and IAF.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Exposé par le Bureau concernant les activités en liaison et les actions
       communes
@@ -503,24 +530,26 @@ resolutions:
         afin d''inclure également l''IAF.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au Président du CIML de surveiller et mettre à
         jour si nécessaire les programmes de travail communs avec le BIPM, l''ILAC
         et l''IAF.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/6.2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/6.2
   doi: 10.63493/resolutions/ciml20076.2
   urn: urn:oiml:doc:ciml:resolution:2007-6.2
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Updates by Liaison Organizations
@@ -531,9 +560,9 @@ resolutions:
       message: 'The Committee took note of a presentation given by Mr. Stoll, CECIP.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Rapports par les Organisations en Liaison
     subject: CIML
@@ -543,15 +572,17 @@ resolutions:
       message: 'Le Comité a pris notre d''un exposé de M. Stoll du CECIP.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/6.3
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/6.3
   doi: 10.63493/resolutions/ciml20076.3
   urn: urn:oiml:doc:ciml:resolution:2007-6.3
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on the RLMO Round Table and Conformity to Type Working Group
@@ -565,25 +596,25 @@ resolutions:
         chaired by Mr. Carstens.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Bureau to:
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report given by the BIML Director on
         the CTT WG and instructed the BIML to draw up draft terms of reference for
         a study on conformity to type.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Rapport concernant la Table Ronde des RLMO et le Groupe de Travail sur
       la Conformité au Type
@@ -598,9 +629,9 @@ resolutions:
         sur les ressources de financement, présidé par M. Carstens.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un rapport présenté par le Directeur du BIML
         concernant le Groupe de Travail sur la Conformité au Type et a chargé le BIML
@@ -608,15 +639,17 @@ resolutions:
         au type.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/6.4
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/6.4
   doi: 10.63493/resolutions/ciml20076.4
   urn: urn:oiml:doc:ciml:resolution:2007-6.4
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: MID Tables
@@ -631,9 +664,9 @@ resolutions:
         as soon as a Recommendation reaches DR status.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Tableaux de la MID (directive européenne sur les instruments de mesure)
     subject: CIML
@@ -647,15 +680,17 @@ resolutions:
         de la MID dès qu''une Recommandation reçoit le statut de DR (Draft Recommendation).
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/7
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/7
   doi: 10.63493/resolutions/ciml200707
   urn: urn:oiml:doc:ciml:resolution:2007-07
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML activities
@@ -667,12 +702,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/7.1
+- identifier:
+  - prefix: CIML
+    number: 2007/7.1
   doi: 10.63493/resolutions/ciml20077.1
   urn: urn:oiml:doc:ciml:resolution:2007-7.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on BIML activities for 2006-2007
@@ -683,9 +720,9 @@ resolutions:
       message: 'The Committee took note of a report given by the BIML Director.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Rapport sur les activités du BIML en 2006-2007
     subject: CIML
@@ -695,15 +732,17 @@ resolutions:
       message: 'Le Comité a pris note d''un rapport présenté par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/7.2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/7.2
   doi: 10.63493/resolutions/ciml20077.2
   urn: urn:oiml:doc:ciml:resolution:2007-7.2
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Communication, web site
@@ -717,18 +756,18 @@ resolutions:
         domain.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'The Committee reiterated its request to CIML Members to make extensive
         and timely use of the online facilities for voting and commenting on drafts,
         and updating information.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Communication, site Internet
     subject: CIML
@@ -741,24 +780,26 @@ resolutions:
         dans ce domaine.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le Comité a réitéré sa demande aux Membres du CIML d''utiliser largement
         et régulièrement le site Internet pour voter sur les projets, y apporter des
         remarques et mettre à jour leurs informations.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/8
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/8
   doi: 10.63493/resolutions/ciml200708
   urn: urn:oiml:doc:ciml:resolution:2007-08
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -770,12 +811,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/8.1
+- identifier:
+  - prefix: CIML
+    number: 2007/8.1
   doi: 10.63493/resolutions/ciml20078.1
   urn: urn:oiml:doc:ciml:resolution:2007-8.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of International Recommendations and Documents
@@ -786,9 +829,9 @@ resolutions:
       message: 'The Committee approved the following Publications:
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Approbation des Documents et Recommandations Internationaux
     subject: CIML
@@ -796,15 +839,17 @@ resolutions:
     actions:
     - type: notes
       message: "## Le Comité a approuvé les Publications suivantes :\n"
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/8.2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/8.2
   doi: 10.63493/resolutions/ciml20078.2
   urn: urn:oiml:doc:ciml:resolution:2007-8.2
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Proposals regarding TC/SC work
@@ -815,9 +860,9 @@ resolutions:
       message: 'The Committee approved:
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Proposition concernant le travail des TC/SC
     subject: CIML
@@ -827,15 +872,17 @@ resolutions:
       message: 'Le Comité a approuvé :
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/8.3
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/8.3
   doi: 10.63493/resolutions/ciml20078.3
   urn: urn:oiml:doc:ciml:resolution:2007-8.3
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: MAA
@@ -847,25 +894,25 @@ resolutions:
         of the MAA implementation.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'The Committee strongly encouraged Member States and Corresponding
         Members to participate in the DoMCs.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: instructs
       message: 'The Committee instructed TC 3/SC 5 to take account of comments expressed
         during the Meeting in the revision of B3 and B10.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: MAA
     subject: CIML
@@ -876,31 +923,33 @@ resolutions:
         l''avancée de la mise en œuvre de la MAA.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le Comité a encouragé fortement les États Membres et les Membres Correspondants
         à participer aux DoMC.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le TC 3/SC 5 de prendre en compte les remarques
         exprimées au cours de la Réunion qui concernent la révision des B 3 et B 10.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/8.4
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/8.4
   doi: 10.63493/resolutions/ciml20078.4
   urn: urn:oiml:doc:ciml:resolution:2007-8.4
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Nature of OIML Publications and the Guide for CIML Members
@@ -912,9 +961,9 @@ resolutions:
         the two Guides:
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Nature des Publications de l'OIML et Guide pour les Membres du CIML
     subject: CIML
@@ -925,15 +974,17 @@ resolutions:
         aux deux Guides :
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/8.5
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/8.5
   doi: 10.63493/resolutions/ciml20078.5
   urn: urn:oiml:doc:ciml:resolution:2007-8.5
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Progress on the revision of the Directives
@@ -945,9 +996,9 @@ resolutions:
         in the revision of the Directives for Technical Work.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Avancée concernant la révision des Directives
     subject: CIML
@@ -958,15 +1009,17 @@ resolutions:
         l''avancée de la révision des Directives pour les travaux techniques de l''OIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/8.6
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/8.6
   doi: 10.63493/resolutions/ciml20078.6
   urn: urn:oiml:doc:ciml:resolution:2007-8.6
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Training sessions for OIML TC/SC Secretariats
@@ -980,9 +1033,9 @@ resolutions:
         Members.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Sessions de formation pour les Secrétariats TC/SC de l'OIML
     subject: CIML
@@ -995,15 +1048,17 @@ resolutions:
         sessions de formation d''une journée à organiser par les Membres du CIML.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/9
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/9
   doi: 10.63493/resolutions/ciml200709
   urn: urn:oiml:doc:ciml:resolution:2007-09
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Human resource matters
@@ -1015,12 +1070,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/9.1
+- identifier:
+  - prefix: CIML
+    number: 2007/9.1
   doi: 10.63493/resolutions/ciml20079.1
   urn: urn:oiml:doc:ciml:resolution:2007-9.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Dispute related to the dismissal of a BIML Secretary
@@ -1032,18 +1089,18 @@ resolutions:
         a dispute concerning a dismissal.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Bureau to undertake a review of the legal
         aspects of the BIML Staff Regulations with the assistance of a competent legal
         counsel.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Litige relatif au licenciement d'un Secrétaire du BIML
     subject: CIML
@@ -1054,24 +1111,26 @@ resolutions:
         sur un litige relatif à un licenciement.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''entreprendre un examen des aspects
         juridiques du Règlement du Personnel du BIML en se faisant aider par un conseiller
         juridique compétent.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/10
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/10
   doi: 10.63493/resolutions/ciml200710
   urn: urn:oiml:doc:ciml:resolution:2007-10
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Future meetings
@@ -1083,12 +1142,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2007/10.1
+- identifier:
+  - prefix: CIML
+    number: 2007/10.1
   doi: 10.63493/resolutions/ciml200710.1
   urn: urn:oiml:doc:ciml:resolution:2007-10.1
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: 13th Conference and 43rd CIML Meeting (2008)
@@ -1100,9 +1161,9 @@ resolutions:
         the 13th Conference and 43rd CIML Meeting will be held in Sydney in 2008.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: "$ 1 3^{\\mathrm{\\mathrm"
     subject: CIML
@@ -1114,15 +1175,17 @@ resolutions:
         en 2008.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/10.2
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/10.2
   doi: 10.63493/resolutions/ciml200710.2
   urn: urn:oiml:doc:ciml:resolution:2007-10.2
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: 44th CIML Meeting (2009)
@@ -1134,9 +1197,9 @@ resolutions:
         Meeting in 2009, and accepted.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: "$ 4 4^{\\mathrm{e m e}} $ Réunion du CIML (2009)"
     subject: CIML
@@ -1147,15 +1210,17 @@ resolutions:
         Réunion du CIML en 2009, et I''a acceptée.
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
-- identifier: CIML/2007/12
+      date_effective:
+        date: '2007-10-24'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2007/12
   doi: 10.63493/resolutions/ciml200712
   urn: urn:oiml:doc:ciml:resolution:2007-12
   dates:
-  - start: '2007-10-24'
-    kind: decision
+  - date: '2007-10-24'
+    type: decided
   localizations:
   - language_code: eng
     title: Awards
@@ -1167,9 +1232,9 @@ resolutions:
         of their outstanding contribution to legal metrology:
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective
   - language_code: fra
     title: Récompenses
     subject: CIML
@@ -1180,6 +1245,6 @@ resolutions:
         leur importante contribution à la métrologie légale :
 
         '
-      dates:
-      - start: '2007-10-24'
-        kind: effective
+      date_effective:
+        date: '2007-10-24'
+        type: effective

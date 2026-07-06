@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 15th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1976-10-05'
-    end: '1976-10-12'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Paris, France
   city: FRPAR
   country_code: FR
-  language: fr
   title_localized:
   - language_code: fra
     title: 15th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-15
-resolutions:
-- identifier: CIML/1976/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1976/1
   doi: 10.63493/resolutions/ciml197601
   urn: urn:oiml:doc:ciml:resolution:1976-01
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION du COMPTE RENDU
@@ -36,15 +32,17 @@ resolutions:
       message: 'de la QUATORZIÈME RÉUNION du COMITÉ.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
-- identifier: CIML/1976/2
+      date_effective:
+        date: '1976-10-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1976/2
   doi: 10.63493/resolutions/ciml197602
   urn: urn:oiml:doc:ciml:resolution:1976-02
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION du RAPPORT FINANCIER pour 1975.
@@ -56,15 +54,17 @@ resolutions:
         la Conférence.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
-- identifier: CIML/1976/3
+      date_effective:
+        date: '1976-10-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1976/3
   doi: 10.63493/resolutions/ciml197603
   urn: urn:oiml:doc:ciml:resolution:1976-03
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: EXAMEN de l'ORDRE du JOUR et de l'EMPLOI du TEMPS de la CONFÉRENCE.
@@ -75,15 +75,17 @@ resolutions:
       message: 'PRÉSIDENCE de la CONFÉRENCE.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
-- identifier: CIML/1976/4
+      date_effective:
+        date: '1976-10-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1976/4
   doi: 10.63493/resolutions/ciml197604
   urn: urn:oiml:doc:ciml:resolution:1976-04
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: EXAMEN de CERTAINS TRAVAUX DE LA CONFÉRENCE.
@@ -97,9 +99,9 @@ resolutions:
         de la première réunion du Secrétariat.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
+      date_effective:
+        date: '1976-10-05'
+        type: effective
     - type: notes
       message: 'Le Comité accueille favorablement une proposition de la Pologne relative
         à la création de Secrétariats-rapporteurs traitant de terminologie dans le
@@ -109,15 +111,17 @@ resolutions:
         lesquels certains États ont indiqué leur éventuelle candidature.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
-- identifier: CIML/1976/6
+      date_effective:
+        date: '1976-10-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1976/6
   doi: 10.63493/resolutions/ciml197606
   urn: urn:oiml:doc:ciml:resolution:1976-06
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: EXAMEN et MISE en APPLICATION des DÉCISIONS de la CONFÉRENCE. PROJET «
@@ -132,15 +136,17 @@ resolutions:
         dans une éventuelle décision qu''il pourrait prendre à ce sujet.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
-- identifier: CIML/1976/7
+      date_effective:
+        date: '1976-10-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1976/7
   doi: 10.63493/resolutions/ciml197607
   urn: urn:oiml:doc:ciml:resolution:1976-07
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: QUESTIONS DIVERSES
@@ -153,15 +159,17 @@ resolutions:
         la langue anglaise dans les travaux de l''OIML.
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
-- identifier: CIML/1976/8
+      date_effective:
+        date: '1976-10-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1976/8
   doi: 10.63493/resolutions/ciml197608
   urn: urn:oiml:doc:ciml:resolution:1976-08
   dates:
-  - start: '1976-10-05'
-    kind: decision
+  - date: '1976-10-05'
+    type: decided
   localizations:
   - language_code: fra
     title: DATE et LIEU de la PROCHAINE RÉUNION — CLÔTURE
@@ -174,6 +182,6 @@ resolutions:
         (*) (automne 1977).
 
         '
-      dates:
-      - start: '1976-10-05'
-        kind: effective
+      date_effective:
+        date: '1976-10-05'
+        type: effective

@@ -143,7 +143,7 @@ function main() {
       continue;
     }
 
-    if (!parsed || !parsed.resolutions) continue;
+    if (!parsed || !parsed.decisions) continue;
 
     const source_file = file.replace(/\.ya?ml$/, '');
     const metadata = parsed.metadata || {};
@@ -191,7 +191,7 @@ function main() {
     // merged YAMLs already collapse EN+FR into localizations[], so one
     // record per identifier is the natural count.
     if (!meeting._seenIdentifiers) meeting._seenIdentifiers = new Set();
-    for (const res of parsed.resolutions) {
+    for (const res of parsed.decisions) {
       const records = buildResolutionRecords(res, source_file, metadata);
       for (const record of records) {
         record.meeting_slug = meetingSlug;

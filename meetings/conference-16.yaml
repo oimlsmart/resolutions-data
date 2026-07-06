@@ -3,25 +3,23 @@ identifier:
 - prefix: OIML Conference
   number: '16'
 urn: urn:oiml:conference:meeting:conference-16
-type: conference_session
+type: conference
 status: completed
-year: 2021
 ordinal: 16
 date_range:
   start: '2021-10-20'
   end: '2021-10-21'
 committee: International Conference of Legal Metrology
 general_area: Online meeting
-virtual: true
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/16-conf-resolutions-english.pdf
   format: pdf
   language_code: eng
-  kind: resolutions_pdf
+  kind: decisions_pdf
 - ref: https://www.oiml.org/fr/structure/conference/pdf/16-conf-resolutions-french.pdf
   format: pdf
   language_code: fra
-  kind: resolutions_pdf
+  kind: decisions_pdf
 localizations:
 - language_code: eng
   script: Latn
@@ -33,5 +31,4 @@ localizations:
   general_area: Online meeting
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:conference:resolution-collection:conference-16-resolutions
+visibility: public

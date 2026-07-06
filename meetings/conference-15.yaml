@@ -3,25 +3,23 @@ identifier:
 - prefix: OIML Conference
   number: '15'
 urn: urn:oiml:conference:meeting:conference-15
-type: conference_session
+type: conference
 status: completed
-year: 2016
 ordinal: 15
 date_range:
   start: '2016-10-19'
   end: '2016-10-20'
 committee: International Conference of Legal Metrology
 general_area: Strasbourg, France
-virtual: false
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/15-conf-resolutions-english.pdf
   format: pdf
   language_code: eng
-  kind: resolutions_pdf
+  kind: decisions_pdf
 - ref: https://www.oiml.org/fr/structure/conference/pdf/15-conf-resolutions-french.pdf
   format: pdf
   language_code: fra
-  kind: resolutions_pdf
+  kind: decisions_pdf
 localizations:
 - language_code: eng
   script: Latn
@@ -33,7 +31,10 @@ localizations:
   general_area: Strasbourg, France
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:conference:resolution-collection:conference-15-resolutions
 city: FRSTR
 country_code: FR
+visibility: public
+venues:
+- kind: physical
+  unlocode: FRSTR
+  country_code: FR

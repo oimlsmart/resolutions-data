@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 34th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1999-10-06'
-    end: '1999-10-08'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Tunis, Tunisia
   city: TNTUN
   country_code: TN
-  language: fr
   title_localized:
   - language_code: fra
     title: 34th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-34
-resolutions:
-- identifier: CIML/1999/2
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Nouveaux Membres - Adhésions attendues
@@ -41,15 +37,17 @@ resolutions:
         de trois ans) depuis la dernière réunion du CIML.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Situation de certains Membres
@@ -66,15 +64,17 @@ resolutions:
         mais des décisions devront être prises à l''occasion de la prochaine Conférence.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Mise en application des décisions du Comité lors de sa 33ème réunion
@@ -87,15 +87,17 @@ resolutions:
         par le Comité lors de sa 33ème réunion.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Adoption du rapport comptable pour 1998
@@ -106,15 +108,17 @@ resolutions:
       message: 'Le rapport comptable pour 1998 a été adopté sans commentaire.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation financière pour 1999
@@ -131,15 +135,17 @@ resolutions:
         terme.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Budget pour l'année 2000
@@ -156,15 +162,17 @@ resolutions:
         des contributions.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Organisation Mondiale du Commerce (OMC)
@@ -185,15 +193,17 @@ resolutions:
         l''OMC à atteindre ses objectifs.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: '2 Organisations de normalisation (en particulier: ISO, CEI, CEE/NU)'
@@ -214,15 +224,17 @@ resolutions:
         . Athané indique qu''il essaiera de clarifier la situation dès que possible.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: '3 Organisations d''accréditation (en particulier: ILAC et IAF)'
@@ -237,15 +249,17 @@ resolutions:
         Octobre 1999 à Rio.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Organisations régionales de métrologie légale
@@ -259,15 +273,17 @@ resolutions:
         limitent leurs présentations aux questions d''intérêt spécifique pour le CIML.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: '5 Organisations régionales ayant des activités liées à la métrologie légale
@@ -303,15 +319,17 @@ resolutions:
         dans le Document Normatif approprié.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 6 Autres (BIPM, OMS,...)
@@ -330,27 +348,31 @@ resolutions:
         rétablir le contact avec l''OMS.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Programme de travail des TC/SC de l'OIML
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1999/11.1
+- identifier:
+  - prefix: CIML
+    number: 1999/11.1
   doi: 10.63493/resolutions/ciml199911.1
   urn: urn:oiml:doc:ciml:resolution:1999-11.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Etablissement de nouveaux sous-comités et de leurs programmes de travail
@@ -362,15 +384,17 @@ resolutions:
         ionisantes) en deux sous-comités, le Comité accepte la création du:
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.1
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.1
   doi: 10.63493/resolutions/ciml199911.1
   urn: urn:oiml:doc:ciml:resolution:1999-11.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Nouveaux thèmes de travail proposés par les TC et SC
@@ -381,15 +405,17 @@ resolutions:
       message: 'Le Comité accepte les propositions du:
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.1
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.1
   doi: 10.63493/resolutions/ciml199911.1
   urn: urn:oiml:doc:ciml:resolution:1999-11.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Développements au sein du TC 3/SC 4
@@ -402,27 +428,31 @@ resolutions:
         de travail.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation de certains TC/SC
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1999/11.2
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 TC et SC vacants
@@ -438,15 +468,17 @@ resolutions:
         pour ce TC.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Attribution/transfert de responsabilité
@@ -458,15 +490,17 @@ resolutions:
         35 soit transférée du TC 7/SC 1 au TC 7.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Propositions pour les activités techniques urgentes et futures
@@ -482,15 +516,17 @@ resolutions:
         question devra être considérée ultérieurement.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Approbation des projets de Recommandations
@@ -502,15 +538,17 @@ resolutions:
         l''approbation du Comité.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Disponibilité des publications OIML sur format papier, sur support électronique
@@ -524,15 +562,17 @@ resolutions:
         informations relatives aux récents développements du site Internet de l''OIML.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12
   doi: 10.63493/resolutions/ciml199912
   urn: urn:oiml:doc:ciml:resolution:1999-12
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Informations générales
@@ -549,15 +589,17 @@ resolutions:
         les divers sujets sous ce point.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12
   doi: 10.63493/resolutions/ciml199912
   urn: urn:oiml:doc:ciml:resolution:1999-12
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Nouvelles Recommandations applicables au Système
@@ -576,15 +618,17 @@ resolutions:
         de l''Annexe.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Informations relatives à l'organisation de la Conférence
@@ -597,15 +641,17 @@ resolutions:
         durant la semaine du 9 au 13 octobre 2000. Le lieu
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Ordre du jour proposé
@@ -623,15 +669,17 @@ resolutions:
         CIML avant la fin de 1999.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Examen d'une proposition préliminaire pour le budget 2001-2004 en tenant
@@ -651,15 +699,17 @@ resolutions:
         au plus tard en mars 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15
   doi: 10.63493/resolutions/ciml199915
   urn: urn:oiml:doc:ciml:resolution:1999-15
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 35ème réunion du CIML (2000)
@@ -671,15 +721,17 @@ resolutions:
         se tiendra à Londres en octobre 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15
   doi: 10.63493/resolutions/ciml199915
   urn: urn:oiml:doc:ciml:resolution:1999-15
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 36ème réunion du CIML (2001)
@@ -692,9 +744,9 @@ resolutions:
         du Comité International de Métrologie Légale.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note que 48 sur 56 des États Membres étaient présents
         ou représentés et que le quorum des trois-quarts était en conséquence atteint;
@@ -702,15 +754,17 @@ resolutions:
         ainsi que cinq Membres Correspondants étaient présents.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Nouveaux Membres - Adhésions attendues
@@ -724,15 +778,17 @@ resolutions:
         note d''informations sur des adhésions eventuelles pour la prochaine année.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Situation de certains Membres
@@ -746,15 +802,17 @@ resolutions:
         être engagée avant la prochaine réunion.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/2
   doi: 10.63493/resolutions/ciml199902
   urn: urn:oiml:doc:ciml:resolution:1999-02
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Mise en application des décisions du Comité lors de sa 33ème réunion
@@ -768,15 +826,17 @@ resolutions:
         techniques et sous-comités de l''OIML.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Adoption du rapport comptable pour 1998
@@ -787,15 +847,17 @@ resolutions:
       message: 'Le Comité a approuvé le rapport comptable pour 1998 sans commentaires.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation financière pour 1999
@@ -808,15 +870,17 @@ resolutions:
         été faites à la fin de 1998 et avec les décisions de la Dixième Conférence.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/3
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/3
   doi: 10.63493/resolutions/ciml199903
   urn: urn:oiml:doc:ciml:resolution:1999-03
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Budget pour l'année 2000
@@ -829,9 +893,9 @@ resolutions:
         la Dixième Conférence pour l''an 2000 est maintenu.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a exprimé l''opinion qu''il n''y aurait pas de problème
         pour que M. Faber soit réélu à la prochaine réunion du Comité mais a considéré
@@ -840,18 +904,18 @@ resolutions:
         juin 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a examiné un plan d''actions destiné à mettre en application
         les décisions de sa 33ème réunion et l''a adopté avec un certain nombre de
         modifications dont le BIML a pris note.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a apporté son soutien aux conclusions d''un rapport de son
         Président en ce qui concerne les objectifs et la composition du Conseil de
@@ -859,15 +923,17 @@ resolutions:
         au Comité.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/8
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/8
   doi: 10.63493/resolutions/ciml199908
   urn: urn:oiml:doc:ciml:resolution:1999-08
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Programme de travail du Conseil de Développement
@@ -882,15 +948,17 @@ resolutions:
         de la réunion.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/8
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/8
   doi: 10.63493/resolutions/ciml199908
   urn: urn:oiml:doc:ciml:resolution:1999-08
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Liaisons avec les organisations internationales et régionales concernées
@@ -903,15 +971,17 @@ resolutions:
         et régionales.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Organisation Mondiale du Commerce (OMC)
@@ -928,15 +998,17 @@ resolutions:
         techniques au commerce.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: '2 Organisations de normalisation (en particulier: ISO, CEI, CEE/NU)'
@@ -949,15 +1021,17 @@ resolutions:
         des Nations Unies.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: '3 Organisations d''accréditation (en particulier: ILAC et IAF)'
@@ -969,15 +1043,17 @@ resolutions:
         la coopération avec ILAC et IAF.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Organisations régionales de métrologie légale
@@ -994,15 +1070,17 @@ resolutions:
         révisés et republiés aussi rapidement que possible.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: '5 Organisations régionales ayant des activités liées à la métrologie légale
@@ -1022,23 +1100,25 @@ resolutions:
         régionales au commerce soit évitée.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a été informé qu''une réunion entre le Directeur du BIML
         et le Secrétaire Général du CEN et celui du CENELEC devrait se tenir prochainement.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/9
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/9
   doi: 10.63493/resolutions/ciml199909
   urn: urn:oiml:doc:ciml:resolution:1999-09
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 6 Autres (BIPM, OMS, ...)
@@ -1055,22 +1135,24 @@ resolutions:
         la R 87) et l''éventuelle création d''une marque OIML pour les emballeurs.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé ces propositions.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.1
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.1
   doi: 10.63493/resolutions/ciml199911.1
   urn: urn:oiml:doc:ciml:resolution:1999-11.1
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Nouveaux thèmes de travail proposés par les TC et SC
@@ -1081,27 +1163,31 @@ resolutions:
       message: 'Le Comité a approuvé ces propositions.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation de certains TC/SC
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/1999/11.2
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 TC et SC vacants
@@ -1111,15 +1197,17 @@ resolutions:
     - type: notes
       message: "- TC 13: le Comité a pris note que le Royaume-Uni considérait la possibilité
         de se porter volontaire pour le secrétariat de ce TC;\n"
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Attribution/transfert de responsabilité
@@ -1130,15 +1218,17 @@ resolutions:
       message: 'Le Comité a approuvé ces propositions.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11.2
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11.2
   doi: 10.63493/resolutions/ciml199911.2
   urn: urn:oiml:doc:ciml:resolution:1999-11.2
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Propositions pour les activités techniques futures et urgentes
@@ -1150,15 +1240,17 @@ resolutions:
         a décidé de créer deux sous-comités au sein du TC 5 (pour lequel une nouvelle
         désignation devra être trouvée) - SC 1 sur les Instruments électroniques (Pays-Bas)
         et le SC 2 sur les Logiciels (Allemagne et France);\n"
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Approbation des projets de Recommandations
@@ -1170,15 +1262,17 @@ resolutions:
         suivants:
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/11
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/11
   doi: 10.63493/resolutions/ciml199911
   urn: urn:oiml:doc:ciml:resolution:1999-11
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Disponibilité des publications OIML sur format papier, sur support électronique
@@ -1190,15 +1284,17 @@ resolutions:
       message: 'Le Comité a pris note d''informations à ce sujet.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12
   doi: 10.63493/resolutions/ciml199912
   urn: urn:oiml:doc:ciml:resolution:1999-12
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Informations générales
@@ -1209,15 +1305,17 @@ resolutions:
       message: 'Le Comité a pris note d''informations à ce sujet.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/12
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/12
   doi: 10.63493/resolutions/ciml199912
   urn: urn:oiml:doc:ciml:resolution:1999-12
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Nouvelles Recommandations applicables au Système
@@ -1231,15 +1329,17 @@ resolutions:
         et la Recommandation complète publiée.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Informations relatives à l'organisation de la Conférence
@@ -1251,15 +1351,17 @@ resolutions:
         les préparatifs de la Onzième Conférence.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Ordre du jour proposé
@@ -1275,15 +1377,17 @@ resolutions:
         ait un caractère ouvert.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/13
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/13
   doi: 10.63493/resolutions/ciml199913
   urn: urn:oiml:doc:ciml:resolution:1999-13
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Examen d'une proposition préliminaire pour le budget 2001-2004 en tenant
@@ -1299,22 +1403,24 @@ resolutions:
         et envoyé à tous les Membres de l''OIML avant fin février 2000.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un rapport distribué par le Bureau.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15
   doi: 10.63493/resolutions/ciml199915
   urn: urn:oiml:doc:ciml:resolution:1999-15
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 35ème réunion du CIML (2000)
@@ -1325,15 +1431,17 @@ resolutions:
       message: 'Cette réunion se tiendra à Londres conjointement à la Onzième Conférence.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
-- identifier: CIML/1999/15
+      date_effective:
+        date: '1999-10-06'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1999/15
   doi: 10.63493/resolutions/ciml199915
   urn: urn:oiml:doc:ciml:resolution:1999-15
   dates:
-  - start: '1999-10-06'
-    kind: decision
+  - date: '1999-10-06'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 36ème réunion du CIML (2001)
@@ -1346,6 +1454,6 @@ resolutions:
         sujet du développement de la métrologie en France.
 
         '
-      dates:
-      - start: '1999-10-06'
-        kind: effective
+      date_effective:
+        date: '1999-10-06'
+        type: effective

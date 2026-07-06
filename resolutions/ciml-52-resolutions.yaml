@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2017-10-10'
-    end: '2017-10-12'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Cartagena de Indias, Colombia
-  city: Cartagena de Indias
   country_code: CO
-  language: en
   title_localized:
   - language_code: eng
     title: 52nd CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 52e réunion du CIML — Résolutions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-52
-resolutions:
-- identifier: CIML/2017/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2017/1
   doi: 10.63493/resolutions/ciml201701
   urn: urn:oiml:doc:ciml:resolution:2017-01
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the minutes of the 51st CIML Meeting.
@@ -32,9 +27,9 @@ resolutions:
       message: 'Approves the minutes of the 51st CIML Meeting.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve le compte rendu de la 51ème Réunion du CIML.
     subject: CIML
@@ -44,15 +39,17 @@ resolutions:
       message: 'Approuve le compte rendu de la 51ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/2
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/2
   doi: 10.63493/resolutions/ciml201702
   urn: urn:oiml:doc:ciml:resolution:2017-02
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report given by its President.
@@ -63,9 +60,9 @@ resolutions:
       message: 'Notes the report given by its President.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport présenté par son Président.
     subject: CIML
@@ -75,15 +72,17 @@ resolutions:
       message: 'Prend note du rapport présenté par son Président.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/3
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/3
   doi: 10.63493/resolutions/ciml201703
   urn: urn:oiml:doc:ciml:resolution:2017-03
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Resolves to advertise the position of BIML Director in 2017 with the aim
@@ -95,42 +94,42 @@ resolutions:
         Procedure for the appointment of the BIML Director and Assistant Directors,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considering that the term of appointment of the BIML Director expires
         on 31 December 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the comments made by its Members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves to advertise the position of BIML Director in 2017 with the
         aim of appointing a new Director at its 53rd Meeting in 2018, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Requests its President to assemble, according to B 13:2004 Procedure
         for the appointment of the BIML Director and Assistant Directors, a Selection
         Committee in consultation with the Presidential Council.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Décide de publier le poste de Directeur du BIML en 2017 dans le but
     subject: CIML
@@ -141,48 +140,50 @@ resolutions:
         BIML,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considérant que le mandat du Directeur du BIML prend fin le 31 décembre
         2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note des commentaires de ses Membres,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Décide de publier le poste de Directeur du BIML en 2017 dans le but
         de nommer un nouveau Directeur à sa 53ème Réunion en 2018, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Demande à son Président de réunir, conformément au B 13: 2004 Procédure
         pour la désignation du Directeur et des Adjoints au Directeur du BIML, un
         Comité de Sélection en consultation avec le Conseil de la Présidence.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/4
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/4
   doi: 10.63493/resolutions/ciml201704
   urn: urn:oiml:doc:ciml:resolution:2017-04
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report given by the BIML Director on the activities of the Bureau.
@@ -194,9 +195,9 @@ resolutions:
         Bureau.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport du Directeur du BIML sur les activités du Bureau.
     subject: CIML
@@ -206,15 +207,17 @@ resolutions:
       message: 'Prend note du rapport du Directeur du BIML sur les activités du Bureau.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/5
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/5
   doi: 10.63493/resolutions/ciml201705
   urn: urn:oiml:doc:ciml:resolution:2017-05
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Welcomes Cambodia as a new Member State
@@ -225,16 +228,16 @@ resolutions:
       message: 'Welcomes Cambodia as a new Member State,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: welcomes
       message: 'Welcomes Bolivia, Ecuador and Philippines as new Corresponding Members.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Accueille le Cambodge comme nouvel État Membre
     subject: CIML
@@ -244,23 +247,25 @@ resolutions:
       message: 'Accueille le Cambodge comme nouvel État Membre,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: welcomes
       message: 'Accueille la Bolivie, l''Équateur et les Philippines comme nouveaux
         Membres Correspondants.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/6
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/6
   doi: 10.63493/resolutions/ciml201706
   urn: urn:oiml:doc:ciml:resolution:2017-06
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the 2016 accounts, and
@@ -270,31 +275,31 @@ resolutions:
       message: 'Noting the accounts for 2016 and the BIML Director''s comments,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considering the external auditor''s approval of the 2016 accounts,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the 2016 accounts, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: instructs
       message: 'Instructs its President to present them to the 16th OIML Conference.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve les comptes de l'année 2016, et
     subject: CIML
@@ -303,31 +308,33 @@ resolutions:
       message: |
         Prenant note des comptes de l'année 2016 et des commentaires du Directeur du BIML,
         Compte tenu de l'approbation des comptes de l'année 2016 par l'auditeur externe,
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve les comptes de l''année 2016, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: charges
       message: 'Charge son Président de présenter lesdits comptes à la 16ème Conférence
         de l''OIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/7
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/7
   doi: 10.63493/resolutions/ciml201707
   urn: urn:oiml:doc:ciml:resolution:2017-07
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report on the budget surplus for the 2013-2016 budget period
@@ -340,9 +347,9 @@ resolutions:
         given by the BIML Director.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport sur l'excédent budgétaire pour la période de l'exercice
       budgétaire 2013-2016
@@ -354,15 +361,17 @@ resolutions:
         l''exercice budgétaire 2013-2016 présenté par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/8
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/8
   doi: 10.63493/resolutions/ciml201708
   urn: urn:oiml:doc:ciml:resolution:2017-08
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report given by the BIML Director, Encourages the BIML to continue
@@ -374,16 +383,16 @@ resolutions:
       message: |
         Notes the report given by the BIML Director,
         Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members,
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: |
         Requests those Members with arrears to bring their situation up to date as soon as possible, and
         Reminds Member States of their obligation under Article XXVI of the Convention which states inter alia "Contributions shall be paid at the beginning of the year to the Director of the Bureau."
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport du Directeur du BIML, Encourage le BIML à poursuivre
       ses
@@ -394,22 +403,24 @@ resolutions:
       message: |
         Prend note du rapport du Directeur du BIML,
         Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés de ses États Membres et de ses Membres Correspondants,
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: |
         Demande aux Membres ayant des arriérés de mettre leur situation à jour dès que possible, et
         Rappelle aux États Membres l'obligation qui leur incombe au titre de l'Article XXVI de la Convention, qui stipule notamment que "les Contributions doivent être versées en début d'année au Directeur du Bureau".
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/9
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/9
   doi: 10.63493/resolutions/ciml201709
   urn: urn:oiml:doc:ciml:resolution:2017-09
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report on the budget forecast for 2017 given by the BIML Director.
@@ -421,9 +432,9 @@ resolutions:
         Director.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport sur la réalisation du budget prévisionnel de l'année
       2017 donné
@@ -435,15 +446,17 @@ resolutions:
         l''année 2017 donné par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/10
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/10
   doi: 10.63493/resolutions/ciml201710
   urn: urn:oiml:doc:ciml:resolution:2017-10
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the reports made by liaison organizations, and
@@ -454,17 +467,17 @@ resolutions:
       message: 'Notes the reports made by liaison organizations, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: thanks
       message: 'Thanks their representatives for providing this information to the
         Committee.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note des rapports établis par les organisations en liaison, et
     subject: CIML
@@ -475,22 +488,24 @@ resolutions:
         et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: thanks
       message: 'Remercie leurs représentants d''avoir fourni ces informations au Comité.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/11
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/11
   doi: 10.63493/resolutions/ciml201711
   urn: urn:oiml:doc:ciml:resolution:2017-11
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the oral report on the activities of the Advisory Group, and
@@ -503,25 +518,25 @@ resolutions:
         countries and economies with emerging metrology systems,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: 'Notes the oral report on the activities of the Advisory Group, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: confirms
       message: 'Confirmsthe outcome of the Advisory Group meeting held on 9 October
         2017 as presented by Mr. Peter Mason.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport oral sur les activités du Groupe Consultatif, et
       Confirmme les
@@ -535,23 +550,25 @@ resolutions:
         est émergeant,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: |
         Prend note du rapport oral sur les activités du Groupe Consultatif, et
         Confirmme les résultats de la réunion du Groupe Consultatif du 9 octobre 2017 présentée par M. Peter Mason.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/12
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/12
   doi: 10.63493/resolutions/ciml201712
   urn: urn:oiml:doc:ciml:resolution:2017-12
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the report on activities in connection with CEEMS matters given by
@@ -564,9 +581,9 @@ resolutions:
         by the BIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport sur les activités liées aux questions du CEEMS données
       par
@@ -578,15 +595,17 @@ resolutions:
         données par le BIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/13
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/13
   doi: 10.63493/resolutions/ciml201713
   urn: urn:oiml:doc:ciml:resolution:2017-13
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the oral report given by the BIML on the special fund for CEEMS-related
@@ -598,9 +617,9 @@ resolutions:
         activities.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note du rapport oral présenté par le BIML sur le fond spécial pour
     subject: CIML
@@ -611,15 +630,17 @@ resolutions:
         pour les activités liées au CEEMS.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/14
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/14
   doi: 10.63493/resolutions/ciml201714
   urn: urn:oiml:doc:ciml:resolution:2017-14
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the Final Draft Basic Publication B 19 Terms of Reference for
@@ -630,9 +651,9 @@ resolutions:
       message: 'Noting the comments made by its Members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the Final Draft Basic Publication B 19 Terms of Reference
@@ -640,9 +661,9 @@ resolutions:
         Emerging Metrology Systems (CEEMS).
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve le Projet Final de Publication de Base B 19 Termes de référence
       pour
@@ -652,9 +673,9 @@ resolutions:
       message: 'Prenant note des commentaires de ses Membres,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve le Projet Final de Publication de Base B 19 Termes de référence
@@ -662,15 +683,17 @@ resolutions:
         dont le système de métrologie est émergeant (CEEMS).
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/15
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/15
   doi: 10.63493/resolutions/ciml201715
   urn: urn:oiml:doc:ciml:resolution:2017-15
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Appoints Mr. Peter Mason as the Vice-chairperson of the Advisory Group
@@ -682,34 +705,34 @@ resolutions:
         for the position of AG Vicechairperson,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: having_regard_to
       message: 'Having regard to clause 2 of B 19 Terms of Reference for the Advisory
         Group on matters concerning Countries and Economies with Emerging Metrology
         Systems (CEEMS),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the comments made by its Members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr. Peter Mason as the Vice-chairperson of the Advisory Group
         for a three-year term.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: "(Point 11.4 de l'ordre du jour)"
     subject: CIML
@@ -719,37 +742,39 @@ resolutions:
         CEEMS pour le poste de Vice-Président de l''AG,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: having_regard_to
       message: 'Vu l''article 2 du document B 19 Termes de Référence pour le Groupe
         Consultatif sur les questions concernant les pays et économies dont le système
         de métrologie est émergeant (CEEMS),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: |
         Prenant note des commentaires de ses Membres,
         Nomme Mr. Peter Mason Vice-Président du Groupe Consultatif pour un mandat de trois ans.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Point 11.4 de l'ordre du jour)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/16
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/16
   doi: 10.63493/resolutions/ciml201716
   urn: urn:oiml:doc:ciml:resolution:2017-16
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Thanks the Project Group, the Drafting Teams, and the convener of the Project
@@ -760,26 +785,26 @@ resolutions:
       message: 'Noting the comments made by its Members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: thanks
       message: 'Thanks the Project Group, the Drafting Teams, and the convener of
         the Project Group,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: approves
       message: 'Approves the Final Draft revision of OIML B 6 Directives for OIML
         technical work, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Requests the Presidential Council to evaluate, after an appropriate
         period (3-5 years) and in the light of experience gained, how well the Directives
@@ -788,9 +813,9 @@ resolutions:
         to the CIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Remercie le Groupe de Projet, les Équipes de Rédaction, et le responsable
       du Groupe
@@ -800,26 +825,26 @@ resolutions:
       message: 'Prenant note des commentaires de ses Membres,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: thanks
       message: 'Remercie le Groupe de Projet, les Équipes de Rédaction, et le responsable
         du Groupe de Projet,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: approves
       message: 'Approuve le Projet Final de la révision de l''OIML B 6 Directives
         pour les travaux techniques de l''OIML, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Demande au Conseil de la Présidence d''évaluer, après une période
         appropriée (3-5 ans) et à la lumière de l''expérience acquise, dans quelle
@@ -828,15 +853,17 @@ resolutions:
         l''augmentation de la participation) et de rendre compte au CIML.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/17
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/17
   doi: 10.63493/resolutions/ciml201717
   urn: urn:oiml:doc:ciml:resolution:2017-17
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Confirms that the rules set out in OIML B6 shall only apply to the
@@ -848,17 +875,17 @@ resolutions:
         convener of the Project Group,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the comments made by its Members on the note prepared by the
         convener of the Project Group,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: confirms
       message: 'Confirms that the rules set out in OIML B6 shall only apply to the
@@ -866,18 +893,18 @@ resolutions:
         so decides for a particular Basic Publication,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Requests that any future proposals for the development, revision or
         amendment of OIML Basic Publications should take the form of a project proposal
         submitted to the Committee for approval,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: |
         Requests that such proposals set out clearly
@@ -885,9 +912,9 @@ resolutions:
         - the arrangements for appointing members of a Project Group to supervise the development,
         - the timetable to be followed by the project, which should allow for timely consultation by the project convener with the entire project group on all substantive matters, and should include the various stages of decision-making by the Project Group and by the CIML, and
         - the voting and administrative arrangements, which should follow the provisions of B 6-1 as closely as possible.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Demande que toute future proposition d'élaboration, de révision ou de modification
       des Publications …
@@ -899,16 +926,16 @@ resolutions:
         recommandations du responsable du Groupe de Projet,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: |
         Prenant note des commentaires de ses Membres sur la note préparée par le responsable du Groupe de Projet,
         Confirmme que les règles énoncées dans l'OIML B 6 ne s'appliquent à l'élaboration, la révision ou la modification des Publications de Base de l'OIML que si le CIML en décide ainsi pour une Publication de Base spécifique,
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: requests
       message: 'Demande que toute future proposition d''élaboration, de révision ou
@@ -916,9 +943,9 @@ resolutions:
         proposition de projet soumise à l''approbation du Comité,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: |
         Demande que de telles propositions établissent clairement
@@ -926,15 +953,17 @@ resolutions:
         - les modalités de nomination des membres du Groupe de Projet chargé de superviser l'élaboration,
         - le calendrier de déroulement du projet, qui devrait permettre une consultation en temps voulu par le responsable du projet de l'ensemble du groupe de projet sur toutes les questions de fond, et devrait inclure les différentes étapes de la prise de décision par le Groupe de Projet et par le CIML, et
         - les modalités de vote et d'administration, qui devraient suivre les dispositions du B 6-1 aussi fidèlement que possible.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/18
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/18
   doi: 10.63493/resolutions/ciml201718
   urn: urn:oiml:doc:ciml:resolution:2017-18
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves the Final Draft revision of OIML B18 Framework for the OIML Certification
@@ -945,26 +974,26 @@ resolutions:
       message: 'Recalling its Resolution no. 2016/17,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the report of the Chairperson of the provisional Management
         Committee (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the Final Draft revision of OIML B18 Framework for the OIML
         Certification System (OIML-CS).
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve le Projet Final de la révision de l'OIML B 18 Cadre pour le
     subject: CIML
@@ -973,32 +1002,34 @@ resolutions:
       message: 'Rappelant sa Résolution no. 2016/17,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport du Président du Comité de Gestion provisoire
         (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve le Projet Final de la révision de l''OIML B 18 Cadre pour
         le Système de Certification OIML (OIML-CS).
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/19
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/19
   doi: 10.63493/resolutions/ciml201719
   urn: urn:oiml:doc:ciml:resolution:2017-19
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Instructs the prMC to continue to take appropriate actions so that the
@@ -1009,35 +1040,35 @@ resolutions:
       message: 'Recalling its Resolution no. 2016/17,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the report of the Chairperson of the provisional Management
         Committee (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: instructs
       message: 'Instructs the prMC to continue to take appropriate actions so that
         the OIML-CS may become operational on 1 January 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Decides that the OIML Basic Certificate System and the OIML Mutual
         Acceptance Arrangement will cease to operate on 31 December 2017 and that
         the OIML-CS will become operational on 1 January 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Decides to withdraw OIML B 3:2011 OIML Basic Certificate System for
         OIML Type Evaluation of Measuring Instruments and OIML B 10:2011 (Amd. 2012)
@@ -1045,16 +1076,16 @@ resolutions:
         31 December 2017,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: instructs
       message: |
         Instructs the BIML to continue to operate the existing Basic and MAA systems until 31 December 2017, and
         Encourages all participants in the existing Basic and MAA systems to fulfil their obligations until 31 December 2017.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Charge le prMC de continuer à prendre les mesures appropriées pour que
       l'OIML-CS puisse
@@ -1064,35 +1095,35 @@ resolutions:
       message: 'Rappelant sa Résolution no. 2016/17,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport du Président du Comité de Gestion provisoire
         (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: charges
       message: 'Charge le prMC de continuer à prendre les mesures appropriées pour
         que l''OIML-CS puisse devenir opérationnel le 1er janvier 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Décide que le Système de Certificats de Base OIML et l''Accord d''Acceptation
         Mutuelle OIML cesseront de fonctionner le 31 décembre 2017 et que l''OIML-CS
         deviendra opérationnel le 1er janvier 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Décide de retirer l''OIML B 3:2011 Système de Certificats OIML dit
         "de Base" pour l''évaluation de type des Instruments de Mesure et l''OIML
@@ -1100,22 +1131,24 @@ resolutions:
         les Évaluations de Type OIML au 31 décembre 2017,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: charges
       message: |
         Charge le BIML de continuer à faire fonctionner les systèmes de Base et MAA jusqu'au 31 décembre 2017, et
         Encourage tous les participants des systèmes de Base et MAA existants à remplir leurs obligations jusqu'au 31 décembre 2017.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/20
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/20
   doi: 10.63493/resolutions/ciml201720
   urn: urn:oiml:doc:ciml:resolution:2017-20
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Decides that on 1 January 2018 the categories of measuring instruments
@@ -1126,17 +1159,17 @@ resolutions:
       message: 'Recalling its Resolution no. 2017/19,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the report of the Chairperson of the provisional Management
         Committee (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Decides that on 1 January 2018 the categories of measuring instruments
@@ -1147,18 +1180,18 @@ resolutions:
         the OIML-CS in Scheme B,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Decides that the categories of measuring instruments covered by OIML
         R 46, OIML R 49, OIML R 51, OIML R 117 and OIML R 137 transition from Scheme
         B to Scheme A on 1 January 2019, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Decides that the categories of measuring instrument covered by OIML
         R 21, OIML R 50, OIML R 61, OIML R 75, OIML R 85, OIML R 99, OIML R 106, OIML
@@ -1166,9 +1199,9 @@ resolutions:
         A on 1 January 2020.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Décide qu'au 1er janvier 2018 les catégories des instruments de mesure
       couvertes par l'OIML
@@ -1178,17 +1211,17 @@ resolutions:
       message: 'Rappelant sa Résolution no. 2017/19,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport du Président du Comité de Gestion provisoire
         (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Décide qu''au 1er janvier 2018 les catégories des instruments de mesure
@@ -1200,18 +1233,18 @@ resolutions:
         dans le Schéma B de l''OIML-CS,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Décide que les catégories des instruments de mesure couvertes par
         l''OIML R 46, l''OIML R 49, l''OIML R 51, l''OIML R 117 et l''OIML R 137 passeront
         du Schéma B au Schéma A le 1er janvier 2019, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Décide que les catégories des instruments de mesure couvertes par
         l''OIML R 21, l''OIML R 50, l''OIML R 61, l''OIML R 75, l''OIML R 85, l''OIML
@@ -1219,15 +1252,17 @@ resolutions:
         139 passeront du Schéma B au Schéma A le 1er janvier 2020.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/21
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/21
   doi: 10.63493/resolutions/ciml201721
   urn: urn:oiml:doc:ciml:resolution:2017-21
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Thanks the Chair and members of the prMC for their work, Disbands the provisional
@@ -1237,33 +1272,33 @@ resolutions:
       message: 'Recalling its Resolution no. 2017/19,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the report of the Chairperson of the provisional Management
         Committee (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: thanks
       message: |
         Thanks the Chair and members of the prMC for their work,
         Disbands the provisional Management Committee (prMC) on 31 December 2017,
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Decides to establish a Management Committee (MC) effective from 1
         January 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Requests CIML Members of OIML Member States that intend to have at
         least one Issuing Authority or Utilizer to take appropriate actions to designate
@@ -1271,9 +1306,9 @@ resolutions:
         Document OD-01,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Requests Representatives of OIML Corresponding Member Countries that
         intend to have at least one Associate to take appropriate actions to designate
@@ -1281,26 +1316,26 @@ resolutions:
         Document OD-01,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: instructs
       message: 'Instructs the BIML to appoint an Executive Secretary for the OIML-CS,
         and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: instructs
       message: 'Instructs the BIML to inform the secretariats of respective OIML TCs/SCs
         and representatives of Organizations in Liaison that they may designate representatives
         to participate in the MC (as observers).
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Remercie le Président et les membres du prMC pour leur travail, Dissout
       le Comité
@@ -1310,32 +1345,32 @@ resolutions:
       message: 'Rappelant sa Résolution no. 2017/19,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport du Président du Comité de Gestion provisoire
         (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: thanks
       message: |
         Remercie le Président et les membres du prMC pour leur travail,
         Dissout le Comité de Gestion provisoire (prMC) avec effet au 31 décembre 2017,
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: decides
       message: 'Décide de créer un Comité de Gestion (CM) à compter de janvier 2018,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Demande aux Membres du CIML des États Membres de l''OIML qui ont l''intention
         d''avoir au moins une Autorité de Délivrance ou un Utilisateur de prendre
@@ -1343,9 +1378,9 @@ resolutions:
         conformément à la section 4.2.1 du Document Opérationnel OD-01 de l''OIML,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Demande aux représentants des Membres Correspondants de l''OIML qui
         ont l''intention d''avoir au moins un Associé de prendre les mesures appropriées
@@ -1353,31 +1388,33 @@ resolutions:
         4.2.2 du Document Opérationnel OD-01 de l''OIML,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: charges
       message: 'Charge le BIML de nommer un Secrétaire Exécutif pour l''OIML-CS, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: charges
       message: 'Charge le BIML d''informer les secrétariats respectifs des TCs/SCs
         de l''OIML et les représentants des Organisations en Liaison qu''ils peuvent
         désigner des représentants pour participer au CM (en tant qu''observateurs).
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/22
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/22
   doi: 10.63493/resolutions/ciml201722
   urn: urn:oiml:doc:ciml:resolution:2017-22
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Appoints Mr. Cock Oosterman as MC Chairperson and Mr. Bill Loizides as
@@ -1389,33 +1426,33 @@ resolutions:
         of Management Committee (MC) Chairperson and Deputy Chairperson,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: having_regard_to
       message: 'Having regard to section 4.2.5 of OIML-CS Operational Document OD-01
         Edition 1,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the comments made by its members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr. Cock Oosterman as MC Chairperson and Mr. Bill Loizides
         as MC Deputy Chairperson.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: "(Point 14.3 de l'ordre du jour)"
     subject: CIML
@@ -1425,35 +1462,37 @@ resolutions:
         de Président et de Vice-Président du Comité de Gestion (MC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note des commentaires de ses membres,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: having_regard_to
       message: |
         Vu la section 4.2.5 du Document Opérationnel OD-01 Edition 1 de l'OIML-CS,
         Nomme Mr. Cock Oosterman comme Président du MC et Mr. Bill Loizides comme Vice- Président du MC.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Point 14.3 de l'ordre du jour)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/23
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/23
   doi: 10.63493/resolutions/ciml201723
   urn: urn:oiml:doc:ciml:resolution:2017-23
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Appoints Mrs. Corinne Lagauterie, Mr. Thomas Madzivhe, Mr. Sergey Golubev
@@ -1465,24 +1504,24 @@ resolutions:
         Committee (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: having_regard_to
       message: 'Having regard to section 4.2 of OIML-CS Procedural Document PD-01
         Edition 1,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the comments made by its members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mrs. Corinne Lagauterie, Mr. Thomas Madzivhe, Mr. Sergey
@@ -1490,9 +1529,9 @@ resolutions:
         Dr. Roman Schwartz as BoA Chairperson.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: "(Point 14.4 de l'ordre du jour)"
     subject: CIML
@@ -1502,35 +1541,37 @@ resolutions:
         (prMC),
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: having_regard_to
       message: 'Vu la section 4.2 du Document de Procédure PD-01 Edition 1 de l''OIML-CS,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: |
         Prenant note des commentaires de ses membres,
         Nomme Mme. Corinne Lagauterie, Mr. Thomas Madzivhe, Mr. Sergey Golubev and Dr. Yukinobu Miki comme membres de la Chambre des Recours (BoA) et Dr. Roman Schwartz comme Président du BoA.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Point 14.4 de l'ordre du jour)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/24
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/24
   doi: 10.63493/resolutions/ciml201724
   urn: urn:oiml:doc:ciml:resolution:2017-24
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves as a new project under the responsibility of the BIML, the development
@@ -1545,9 +1586,9 @@ resolutions:
         14.5 to the working document for this meeting.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve en tant que nouveau projet sous la responsabilité du BIML, l'élaboration
       d'une nouvelle
@@ -1561,15 +1602,17 @@ resolutions:
         de projet figurant à l''Addendum 14.5 au document de travail pour cette réunion.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/25
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/25
   doi: 10.63493/resolutions/ciml201725
   urn: urn:oiml:doc:ciml:resolution:2017-25
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: 'Approves the following Final Draft Recommendations: - Revision of R 60
@@ -1583,9 +1626,9 @@ resolutions:
         - Revision of R 60 Metrological regulation for load cells;
         - Revision of R 61 Automatic gravimetric filling instruments;
         - Revision of R 80 Road and rail tankers with level gauging.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: 'Approuve les Projets Finaux de Recommandations suivants: - Révision de
       la R 60 Réglementation'
@@ -1598,15 +1641,17 @@ resolutions:
         - Révision de la R 60 Réglementation métrologique des cellules de pesée;
         - Révision de la R 61 Doseuses pondérales à fonctionnement automatique;
         - Révision de la R 80 Camions et wagons citernes avec mesurage de niveau.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/26
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/26
   doi: 10.63493/resolutions/ciml201726
   urn: urn:oiml:doc:ciml:resolution:2017-26
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Requests its President to approve the publication of this Final Draft,
@@ -1619,26 +1664,26 @@ resolutions:
         as amended,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: requests
       message: 'Requests its President to approve the publication of this Final Draft,
         as amended, as an OIML Guide and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Requests the secretariat of OIML TC 3/SC 4 to make a proposal to the
         53rd CIML Meeting concerning the further improvement of this publication.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Demande à son Président d'approuver la publication de ce Projet Final,
       tel que modifié
@@ -1650,33 +1695,35 @@ resolutions:
         d''échantillonnage, tel que modifié,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: requests
       message: 'Demande à son Président d''approuver la publication de ce Projet Final,
         tel que modifié, en tant que Guide de l''OIML, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: requests
       message: 'Demande au secrétariat de l''OIML TC 3/SC 4 de faire une proposition
         à la 53ème Réunion du CIML concernant la poursuite de l''amélioration de cette
         publication.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/27
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/27
   doi: 10.63493/resolutions/ciml201727
   urn: urn:oiml:doc:ciml:resolution:2017-27
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves as a new project, under the responsibility of the CEEMS Advisory
@@ -1691,9 +1738,9 @@ resolutions:
         15.1.2.1 to the working document for this meeting.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve comme nouveau projet, sous la responsabilité du Groupe Consultatif
       du CEEMS, la révision
@@ -1707,15 +1754,17 @@ resolutions:
         15.1.2.1 au document de travail pour cette réunion.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/28
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/28
   doi: 10.63493/resolutions/ciml201728
   urn: urn:oiml:doc:ciml:resolution:2017-28
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Approves as a new project in TC 2 Units of measurement the revision of
@@ -1730,9 +1779,9 @@ resolutions:
         the CGPM.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Approuve en tant que nouveau projet dans TC 2 Unités de mesure, la révision
     subject: CIML
@@ -1746,15 +1795,17 @@ resolutions:
         correspondante à la CGPM.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/29
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/29
   doi: 10.63493/resolutions/ciml201729
   urn: urn:oiml:doc:ciml:resolution:2017-29
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: "(Agenda Item 15.4)"
@@ -1764,15 +1815,15 @@ resolutions:
       message: |
         Noting the oral report on developments in the Consultative Committee for Units,
         Recalls and reconfirms resolution no.23 of its 47th Meeting in 2012.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Agenda Item 15.4)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: "(Point 15.4 de l'ordre du jour)"
     subject: CIML
@@ -1781,21 +1832,23 @@ resolutions:
       message: |
         Prenant note du rapport oral sur l'évolution de la situation au sein du Comité Consultatif pour les Unités,
         Rappelle et confirme la Résolution no. 23 de sa 47ème Réunion en 2012.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Point 15.4 de l'ordre du jour)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/30
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/30
   doi: 10.63493/resolutions/ciml201730
   urn: urn:oiml:doc:ciml:resolution:2017-30
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: "(Agenda Item 16)"
@@ -1805,15 +1858,15 @@ resolutions:
       message: |
         Noting the procedure for the election of the CIML President in OIML B 14:2013,
         Selects Dr. Roman Schwartz as its President for a six-year term with immediate effect.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Agenda Item 16)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: "(Point 16 de l'ordre du jour)"
     subject: CIML
@@ -1822,21 +1875,23 @@ resolutions:
       message: |
         Prenant note de la procédure pour l'élection du Président du CIML dans l'OIML B 14:2013,
         Choisit Dr. Roman Schwartz comme Président pour un mandat de six ans avec effet immédiat.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Point 16 de l'ordre du jour)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/31
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/31
   doi: 10.63493/resolutions/ciml201731
   urn: urn:oiml:doc:ciml:resolution:2017-31
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Appoints Mr. Paul Dixon as BIML Assistant Director.
@@ -1847,32 +1902,32 @@ resolutions:
         of the BIML Director and Assistant Directors,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the report by the Chairperson of the Selection Committee established
         under Resolution 2016/4 of the 51st CIML Meeting,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Noting the comments made by its Members,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr. Paul Dixon as BIML Assistant Director.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: "(Point 17 de l'ordre du jour)"
     subject: CIML
@@ -1882,36 +1937,38 @@ resolutions:
         du Directeur et des Adjoints au Directeur du BIML,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: 'Prenant note du rapport du Président du Comité de Sélection établi
         en vertu de la Résolution 2016/4 de la 51ème Réunion du CIML,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: |
         Prenant note des commentaires de ses Membres,
         Nomme M. Paul Dixon au poste d'Adjoint au directeur du BIML.
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: notes
       message: "(Point 17 de l'ordre du jour)\n"
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/32
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/32
   doi: 10.63493/resolutions/ciml201732
   urn: urn:oiml:doc:ciml:resolution:2017-32
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Resolves not to appoint a Selection Committee under section 3 of OIML B
@@ -1924,40 +1981,40 @@ resolutions:
         Procedure for the appointment of the BIML Director and Assistant Directors,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considering that the term of appointment of Mr. Ian Dunmill, BIML
         Assistant Director, expires on 15 March 2019,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considering the proposal made by its President and Vice-Presidents,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: |
         Noting the comments made by its Members,
         Expresses its expectation that it will resolve to renew the appointment of Mr. Ian Dunmill as BIML Assistant Director for a fixed term of up to five years at its meeting in 2018, and
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves not to appoint a Selection Committee under section 3 of OIML
         B 13:2004.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Décide de ne pas nommer un Comité de Sélection en vertu de l'article 3
     subject: CIML
@@ -1969,46 +2026,48 @@ resolutions:
         BIML,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considérant que le mandat de Mr. Ian Dunmill, Adjoint au Directeur
         du BIML, expire le 15 mars 2019,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: considering
       message: 'Considérant la proposition de son Président et de ses Vice-Présidents,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: noting
       message: |
         Prenant note des commentaires de ses Membres,
         Exprime son souhait de prendre, lors de sa réunion de 2018, la résolution de renouveler la nomination de Mr. Ian Dunmill au poste d'Adjoint au Directeur du BIML pour un mandat d'une durée maximale de cinq ans, et
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Décide de ne pas nommer un Comité de Sélection en vertu de l''article
         3 de l''OIML B 13:2004.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/33
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/33
   doi: 10.63493/resolutions/ciml201733
   urn: urn:oiml:doc:ciml:resolution:2017-33
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Thanks Mr. Francis Mutibo, representing the Institute of Trade Standards
@@ -2029,9 +2088,9 @@ resolutions:
         Director of Enforcement Division, Ministry of Domestic Trade, Co-operatives and Consumerism
         - Haji Ibrahim Bin Hamzah
         Chairman Executive, Metrology Corporation Malaysia Sdn. Bhd. (MCM)
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Remercie M. Francis Mutibo, représentant de l'Institut de l'Administration
       des Normes Commerciales d…
@@ -2051,15 +2110,17 @@ resolutions:
         Directeur de la Division de l'Application de la loi, Ministère du Commerce Intérieur, des Coopératives et de la Consommation
         - Haji Ibrahim Bin Hamzah
         Président Exécutif, Corporation de la Métrologie de Malaisie Sdn. Bhd. (MCM)
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/34
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/34
   doi: 10.63493/resolutions/ciml201734
   urn: urn:oiml:doc:ciml:resolution:2017-34
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Decides to award Mr. Peter Mason the title of Member of Honor, in recognition
@@ -2070,9 +2131,9 @@ resolutions:
         government service, and thus resign as the CIML Member for the United Kingdom,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Decides to award Mr. Peter Mason the title of Member of Honor, in
@@ -2080,9 +2141,9 @@ resolutions:
         effect on his resignation from the Committee.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Décide d'attribuer à Mr. Peter Mason le titre de Membre d'Honneur, en reconnaissance
       de
@@ -2094,9 +2155,9 @@ resolutions:
         pour le Royaume-Uni,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Décide d''attribuer à Mr. Peter Mason le titre de Membre d''Honneur,
@@ -2104,15 +2165,17 @@ resolutions:
         avec prise d''effet dès sa démission du Comité.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/35
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/35
   doi: 10.63493/resolutions/ciml201735
   urn: urn:oiml:doc:ciml:resolution:2017-35
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Decides to award Mr. Alan Johnston the title of Member of Honor, in recognition
@@ -2123,9 +2186,9 @@ resolutions:
         government service, and thus resign as the Member for Canada,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Decides to award Mr. Alan Johnston the title of Member of Honor, in
@@ -2134,9 +2197,9 @@ resolutions:
         to take effect on his resignation from the Committee.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Décide d'attribuer à Mr. Alan Johnston le titre de Membre d'Honneur, en
       reconnaissance de
@@ -2147,9 +2210,9 @@ resolutions:
         du gouvernement Canadien et de démissionner de son poste de Membre du Canada,
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     actions:
     - type: decides
       message: 'Décide d''attribuer à Mr. Alan Johnston le titre de Membre d''Honneur,
@@ -2158,15 +2221,17 @@ resolutions:
         de la Présidence, avec prise d''effet dès sa démission du Comité.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
-- identifier: CIML/2017/36
+      date_effective:
+        date: '2017-10-10'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2017/36
   doi: 10.63493/resolutions/ciml201736
   urn: urn:oiml:doc:ciml:resolution:2017-36
   dates:
-  - start: '2017-10-10'
-    kind: decision
+  - date: '2017-10-10'
+    type: decided
   localizations:
   - language_code: eng
     title: Notes the additional information provided on the organization of the 53rd
@@ -2179,17 +2244,17 @@ resolutions:
         53rd CIML Meeting in Hamburg, Germany in 2018, and
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: instructs
       message: 'Instructs the Bureau to make the necessary arrangements to organize
         the 53rd CIML Meeting in 2018.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
   - language_code: fra
     title: Prend note des informations complémentaires fournies sur l'organisation
       de la 53ème Réunion du CIML
@@ -2201,14 +2266,14 @@ resolutions:
         de la 53ème Réunion du CIML à Hambourg en Allemagne en 2018, et
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective
     - type: charges
       message: 'Charge le Bureau de prendre les dispositions nécessaires pour organiser
         la 53ème Réunion du CIML en 2018.
 
         '
-      dates:
-      - start: '2017-10-10'
-        kind: effective
+      date_effective:
+        date: '2017-10-10'
+        type: effective

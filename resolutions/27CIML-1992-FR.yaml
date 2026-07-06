@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 27th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '1992-11-02'
-    end: '1992-11-06'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Vouliagmeni, Greece
   city: GRVOU
   country_code: GR
-  language: fr
   title_localized:
   - language_code: fra
     title: 27th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-27
-resolutions:
-- identifier: CIML/1992/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 1992/1
   doi: 10.63493/resolutions/ciml199201
   urn: urn:oiml:doc:ciml:resolution:1992-01
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION DU COMPTE RENDU DE LA VINGT-SIXIÈME RÉUNION DU COMITÉ
@@ -36,15 +32,17 @@ resolutions:
       message: 'Ce compte rendu est adopté sans modifications.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/2
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/2
   doi: 10.63493/resolutions/ciml199202
   urn: urn:oiml:doc:ciml:resolution:1992-02
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: ADOPTION DU RAPPORT COMPTABLE POUR 1991 ET AUTRES QUESTIONS FINANCIÈRES
@@ -60,15 +58,17 @@ resolutions:
         financière de l''OIML qui était très mauvaise à la fin de 1991.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/3
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/3
   doi: 10.63493/resolutions/ciml199203
   urn: urn:oiml:doc:ciml:resolution:1992-03
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: 'NEUVIÈME CONFÉRENCE: ORGANISATION GÉNÉRALE - PRÉSIDENCE - ORDRE DU JOUR'
@@ -81,15 +81,17 @@ resolutions:
         de M. BIRKELAND de proposer à la Conférence d''élire:
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/4
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/4
   doi: 10.63493/resolutions/ciml199204
   urn: urn:oiml:doc:ciml:resolution:1992-04
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES DE L'OIML
@@ -105,15 +107,17 @@ resolutions:
         profondes de l''OIML.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/4.1
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/4.1
   doi: 10.63493/resolutions/ciml19924.1
   urn: urn:oiml:doc:ciml:resolution:1992-4.1
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: 'Résultats de la consultation sur le 4e projet "Directives pour les travaux
@@ -128,15 +132,17 @@ resolutions:
         nécessaire d''en faire un ultime examen avant sa publication.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/4.2
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/4.2
   doi: 10.63493/resolutions/ciml19924.2
   urn: urn:oiml:doc:ciml:resolution:1992-4.2
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: Résultats de la consultation sur la liste des thèmes de travail et leur
@@ -152,15 +158,17 @@ resolutions:
         définitive car quelques thèmes
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/5
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/5
   doi: 10.63493/resolutions/ciml199205
   urn: urn:oiml:doc:ciml:resolution:1992-05
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: 'CERTIFICATION: RECOMMANDATIONS APPLICABLES AU SYSTEME DE CERTIFICATS'
@@ -181,15 +189,17 @@ resolutions:
         Système.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/6
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/6
   doi: 10.63493/resolutions/ciml199206
   urn: urn:oiml:doc:ciml:resolution:1992-06
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: PRÉSIDENCE DU COMITÉ INTERNATIONAL DE MÉTROLOGIE LÉGALE
@@ -200,15 +210,17 @@ resolutions:
       message: 'Le Comité International de Métrologie Légale
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/7
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/7
   doi: 10.63493/resolutions/ciml199207
   urn: urn:oiml:doc:ciml:resolution:1992-07
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: MISE EN APPLICATION DES DÉCISIONS DE LA NEUVIÈME CONFÉRENCE
@@ -220,15 +232,17 @@ resolutions:
         des actions de la part du Comité:
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/8
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/8
   doi: 10.63493/resolutions/ciml199208
   urn: urn:oiml:doc:ciml:resolution:1992-08
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: RAPPORT D'ACTIVITÉ DU BIML
@@ -240,15 +254,17 @@ resolutions:
         1992 est distribué aux participants pour information.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/9
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/9
   doi: 10.63493/resolutions/ciml199209
   urn: urn:oiml:doc:ciml:resolution:1992-09
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: SIGNE DÉCIMAL DANS LES PUBLICATIONS OIML
@@ -260,15 +276,17 @@ resolutions:
         que l''on aboutisse à une conclusion.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/10
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/10
   doi: 10.63493/resolutions/ciml199210
   urn: urn:oiml:doc:ciml:resolution:1992-10
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: DATE ET LIEU DE LA PROCHAINE RÉUNION
@@ -280,26 +298,26 @@ resolutions:
         modifications.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé le rapport comptable pour 1991 et a chargé le
         Président du CIML et le Directeur du BIML de soumettre ce rapport à la Neuvième
         Conférence.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a également pris note d''informations du BIML sur la situation
         financière de l''Organisation.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a été informé d''une demande de la Russie d''être placée
         dans une classe de contribution inférieure à celle que lui assigne sa population;
@@ -308,17 +326,17 @@ resolutions:
         cette demande en temps utile pour examen par le Comité à sa prochaine réunion.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a donné son accord aux propositions du Président du CIML
         sur l''organisation, la présidence et l''ordre du jour de la Neuvième Conférence.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note des résultats de l''enquête par correspondance
         relative au projet susmentionné et de la décision du Président de considérer
@@ -326,15 +344,17 @@ resolutions:
         final de ce texte avant sa publication.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
-- identifier: CIML/1992/4.2
+      date_effective:
+        date: '1992-11-02'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 1992/4.2
   doi: 10.63493/resolutions/ciml19924.2
   urn: urn:oiml:doc:ciml:resolution:1992-4.2
   dates:
-  - start: '1992-11-02'
-    kind: decision
+  - date: '1992-11-02'
+    type: decided
   localizations:
   - language_code: fra
     title: Résultats de la consultation sur la liste des thèmes de travail et leur
@@ -347,17 +367,17 @@ resolutions:
         Membre responsable du secrétariat) s''étaient enregistrés comme Membres-P.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a repoussé à une date ultérieure l''attribution du secrétariat
         des comités techniques suivants:
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a noté qu''aucune nouvelle Recommandation ne pouvait à présent
         devenir applicable au Système de Certification OIML; il a demandé aux groupes
@@ -366,23 +386,23 @@ resolutions:
         dans les deux ou trois prochaines années.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a adopté la Résolution suivante:
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité International de Métrologie Légale
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a passé en revue les divers décisions de la Neuvième Conférence
         et a demandé à son Président de superviser leur mise en application par l''intermédiaire
@@ -390,25 +410,25 @@ resolutions:
         à la prochaine réunion du CIML.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note du rapport d''activité du BIML d''octobre 1991
         à octobre 1992.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a décidé de reporter la discussion sur ce sujet et de charger
         le TC 1 de son examen.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective
     - type: notes
       message: 'Le Comité a décidé de tenir sa vingt-huitième réunion à Berlin, à
         la suite de l''invitation du Vice-Président du CIML, Professeur M. Kochsiek,
@@ -416,6 +436,6 @@ resolutions:
         aussi rapidement que possible par le Membre du CIML Allemand et le BIML.
 
         '
-      dates:
-      - start: '1992-11-02'
-        kind: effective
+      date_effective:
+        date: '1992-11-02'
+        type: effective

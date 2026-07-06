@@ -1,27 +1,21 @@
 ---
 metadata:
-  dates:
-  - start: '2022-10-18'
-    end: '2022-10-20'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Online meeting
-  city: ''
-  country_code: ''
-  language: en
   title_localized:
   - language_code: eng
     title: 57th CIML Meeting — Resolutions (EN)
   - language_code: fra
     title: 57e réunion du CIML — Résolutions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-57
-resolutions:
-- identifier: CIML/2022/05
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2022/05
   doi: 10.63493/resolutions/ciml202205
   urn: urn:oiml:doc:ciml:resolution:2022-05
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '5'
   localizations:
   - language_code: eng
@@ -33,26 +27,26 @@ resolutions:
         B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considering the appointment of the CIML Second Vice-President as CIML
         President with effect from the 58th CIML Meeting planned for 2023, and therefore
         the need to elect a new CIML Second Vice President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considering that the CIML First Vice-President''s term of office comes
         to an end at the 59th CIML Meeting in 2024,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: instructs
       message: 'Instructs the Bureau to circulate a call for candidates for the position
@@ -61,9 +55,9 @@ resolutions:
         planned for 2023, with effect from that meeting,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: instructs
       message: 'Instructs the Bureau to circulate a call for candidates for the position
         of CIML First Vice-President with a deadline of 31 May 2023, with a view to
@@ -71,9 +65,9 @@ resolutions:
         in 2023, with effect from the 59th CIML Meeting planned for 2024.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 5 de l'ordre du jour
     subject: CIML
@@ -84,26 +78,26 @@ resolutions:
         du CIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considérant la nomination du Deuxième Vice-président du CIML en tant
         que Président du CIML à compter de la 58ème Réunion du CIML prévue en 2023,
         et donc la nécessité d''élire un nouveau Deuxième Vice-président du CIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considérant que le mandat du Premier Vice-président du CIML prend
         fin lors de la 59ème Réunion du CIML en 2024,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: charges
       message: 'Charge le Bureau de diffuser un appel à candidatures pour le poste
@@ -112,9 +106,9 @@ resolutions:
         Réunion du CIML prévue en 2023, avec effet à partir de cette réunion,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: charges
       message: 'Charge le Bureau de diffuser un appel à candidatures pour le poste
         de Premier Vice-président du CIML avec une date limite fixée au 31 mai 2023,
@@ -123,15 +117,17 @@ resolutions:
         Réunion du CIML prévue en 2024.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/06
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/06
   doi: 10.63493/resolutions/ciml202206
   urn: urn:oiml:doc:ciml:resolution:2022-06
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '6'
   localizations:
   - language_code: eng
@@ -143,9 +139,9 @@ resolutions:
       message: 'Notes the report given by the BIML Director.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 6 de l'ordre du jour
     subject: CIML
@@ -155,15 +151,17 @@ resolutions:
       message: 'Prend note du rapport présenté par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/07
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/07
   doi: 10.63493/resolutions/ciml202207
   urn: urn:oiml:doc:ciml:resolution:2022-07
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '7'
   localizations:
   - language_code: eng
@@ -175,25 +173,25 @@ resolutions:
         Procedure for the appointment of the BIML Director and Assistant Directors,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: having_regard_to
       message: |
         Having regard to its Resolution CIML/2021/09,
         Extends the contract of Mr Paul Dixon as BIML Assistant Director for a five-year term with effect from 1 January 2023.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Having regard to section 4, first bullet point, of OIML B 13:2004
         Procedure for the appointment of the BIML Director and Assistant Directors,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 7 de l'ordre du jour
     subject: CIML
@@ -203,31 +201,33 @@ resolutions:
         la désignation du Directeur et des Adjoints au Directeur du BIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: having_regard_to
       message: |
         Vu sa résolution CIML/2021/09,
         Prolonge le contrat de M. Paul Dixon en tant qu'Adjoint au Directeur du BIML pour une durée de cinq ans à compter du 1er janvier 2023.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Vu la section 4, premier point, de l''OIML B 13:2004 Procédure pour
         la désignation du Directeur et des Adjoints au Directeur du BIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/08
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/08
   doi: 10.63493/resolutions/ciml202208
   urn: urn:oiml:doc:ciml:resolution:2022-08
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '8'
   localizations:
   - language_code: eng
@@ -241,33 +241,33 @@ resolutions:
         Directors,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considering that the term of appointment of Mr Anthony Donnellan,
         BIML Director, expires on 31 December 2023,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: |
         Considering the proposal made by its President,
         Expresses its expectation that it will resolve to renew the appointment of Mr Anthony Donnellan as BIML Director for a fixed term of up to five years at its meeting in 2023, and
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves not to appoint the Selection Committee specified in section
         3 of OIML B 13:2004.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 8 de l'ordre du jour
     subject: CIML
@@ -279,39 +279,41 @@ resolutions:
         du BIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considérant que le mandat de M. Anthony Donnellan, Directeur du BIML,
         expire le 31 décembre 2023,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: |
         Considérant la proposition faite par son Président,
         Exprime l'espoir qu'elle décidera de renouveler la nomination de M. Anthony Donnellan en tant que Directeur du BIML pour un mandat fixe de cinq ans maximum lors de sa réunion en 2023, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: decides
       message: 'Décide de ne pas nommer le comité de sélection spécifié dans la section
         3 de l''OIML B 13:2004.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/09
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/09
   doi: 10.63493/resolutions/ciml202209
   urn: urn:oiml:doc:ciml:resolution:2022-09
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '9'
   localizations:
   - language_code: eng
@@ -325,33 +327,33 @@ resolutions:
         Directors,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considering that the term of appointment of Mr Ian Dunmill, BIML Assistant
         Director, expires on 14 March 2024,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: |
         Considering the proposal made by its President,
         Expresses its expectation that it will resolve to renew the appointment of Mr Ian Dunmill as BIML Assistant Director for a fixed term of up to five years at its meeting in 2023, and
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: resolves
       message: 'Resolves not to appoint the Selection Committee specified in section
         3 of OIML B 13:2004.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 9 de l'ordre du jour
     subject: CIML
@@ -363,39 +365,41 @@ resolutions:
         du BIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considérant que le mandat de M. Ian Dunmill, Adjoint au Directeur
         du BIML, expire le 14 mars 2024,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: |
         Considérant la proposition faite par son Président,
         Exprime l'espoir qu'elle décidera de renouveler la nomination de M. Ian Dunmill en tant qu'Adjoint au Directeur de BIML pour une durée déterminée de cinq ans maximum lors de sa réunion de 2023, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: decides
       message: 'Décide de ne pas nommer le comité de sélection spécifié dans la section
         3 de l''OIML B 13:2004.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/10
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/10
   doi: 10.63493/resolutions/ciml202210
   urn: urn:oiml:doc:ciml:resolution:2022-10
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '10.1'
   localizations:
   - language_code: eng
@@ -407,31 +411,31 @@ resolutions:
         Director''s comments,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considering the external auditor''s report on the 2021 accounts,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the 2021 accounts, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: instructs
       message: 'Instructs its President to present them to the 17th OIML Conference.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 10.1 de l'ordre du jour
     subject: CIML
@@ -441,37 +445,39 @@ resolutions:
         commentaires du Directeur du BIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considérant le rapport de l''auditeur externe sur les comptes 2021,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve les comptes 2021, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: charges
       message: 'Charge son Président de les présenter à la 17ème Conférence de l''OIML.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/11
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/11
   doi: 10.63493/resolutions/ciml202211
   urn: urn:oiml:doc:ciml:resolution:2022-11
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '10.2'
   localizations:
   - language_code: eng
@@ -483,17 +489,17 @@ resolutions:
       message: |
         Notes the report given by the BIML Director,
         Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: requests
       message: 'Requests those Members with arrears to bring their situation up to
         date as soon as possible.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 10.2 de l'ordre du jour
     subject: CIML
@@ -503,23 +509,25 @@ resolutions:
       message: |
         Prend note du rapport présenté par le Directeur du BIML,
         Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés de ses États Membres et de ses Membres Correspondants, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: requests
       message: 'Demande aux Membres ayant des arriérés de paiement de mettre à jour
         leur situation dans les meilleurs délais.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/12
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/12
   doi: 10.63493/resolutions/ciml202212
   urn: urn:oiml:doc:ciml:resolution:2022-12
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '10.3'
   localizations:
   - language_code: eng
@@ -532,9 +540,9 @@ resolutions:
         Director.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 10.3 de l'ordre du jour
     subject: CIML
@@ -545,15 +553,17 @@ resolutions:
         par le Directeur du BIML.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/13
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/13
   doi: 10.63493/resolutions/ciml202213
   urn: urn:oiml:doc:ciml:resolution:2022-13
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '10.4'
   localizations:
   - language_code: eng
@@ -565,26 +575,26 @@ resolutions:
       message: 'Notes the report of the internal financial audit team,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks Mrs Mairead Buckley and Dr Bobjoseph Mathew for conducting
         the financial audit and producing the report,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: acknowledges
       message: 'Acknowledges the conclusions of the report and supports the recommendations
         contained therein, and Requests that its President and the BIML Director ensure
         the implementation of these recommendations.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 10.4 de l'ordre du jour
     subject: CIML
@@ -594,30 +604,32 @@ resolutions:
       message: 'Prend note du rapport de l''équipe d''audit financier interne,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: |
         Remercie Mme Mairead Buckley et le Dr Bobjoseph Mathew pour avoir réalisé l'audit financier et produit le rapport,
         Prend acte des conclusions du rapport et soutient les recommandations qu'il contient, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: requests
       message: 'Demande à son Président et au Directeur du BIML de veiller à la mise
         en œuvre de ces recommandations.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/14
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/14
   doi: 10.63493/resolutions/ciml202214
   urn: urn:oiml:doc:ciml:resolution:2022-14
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '10.5'
   localizations:
   - language_code: eng
@@ -629,18 +641,18 @@ resolutions:
         as provided in Addendum 10.5a to the Working Document for the 57th CIML Meeting,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the revision of OIML B 8:2012 OIML Financial Regulations
         as provided in Addendum 10.5c to the Working Document for the 57th CIML Meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 10.5 de l'ordre du jour
     subject: CIML
@@ -651,9 +663,9 @@ resolutions:
         de la 57ème Réunion du CIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la révision de l''OIML B 8:2012 Règlement financier de l''OIML
@@ -661,15 +673,17 @@ resolutions:
         du CIML.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/15
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/15
   doi: 10.63493/resolutions/ciml202215
   urn: urn:oiml:doc:ciml:resolution:2022-15
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '10.5'
   localizations:
   - language_code: eng
@@ -680,17 +694,17 @@ resolutions:
       message: 'Having regard to Article 21.4 of OIML B 8:2012 OIML Financial Regulations,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the recommendation of the tender evaluation panel, as provided
         in Addendum 10.5a to the Working Document for the 57th CIML Meeting,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints L.G. Audit & Conseils as the OIML independent chartered accountant
@@ -700,9 +714,9 @@ resolutions:
         evaluated at the end of each of these defined periods.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 10.5 de l'ordre du jour
     subject: CIML
@@ -711,30 +725,32 @@ resolutions:
       message: 'Vu l''article 21.4 de l''OIML B 8:2012 Règlement financier de l''OIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: |
         Prenant note de la recommandation du jury d'évaluation des offres, telle qu'elle figure dans l'Addendum 10.5a du document de travail de la 57ème Réunion du CIML,
         Nomme L.G. Audit & Conseils en tant qu'expert-comptable indépendant (auditeur financier externe) de l'OIML pour deux années civiles à compter du 1er janvier 2023, avec la possibilité de prolonger cette nomination pour deux années civiles supplémentaires par tranches annuelles uniques, sous réserve d'une performance satisfaisante évaluée à la fin de chacune de ces périodes définies.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Vu l''article 21.4 de l''OIML B 8:2012 Règlement financier de l''OIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/16
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/16
   doi: 10.63493/resolutions/ciml202216
   urn: urn:oiml:doc:ciml:resolution:2022-16
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.1
   localizations:
   - language_code: eng
@@ -747,17 +763,17 @@ resolutions:
         of hierarchy schemes for measuring instruments, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the Project Group conveners and members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.1.1 de l'ordre du jour
     subject: CIML
@@ -768,23 +784,25 @@ resolutions:
         des schémas de hiérarchie des instruments de mesure, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie les responsables et les membres du Groupe de Projet pour
         leur travail dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/17
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/17
   doi: 10.63493/resolutions/ciml202217
   urn: urn:oiml:doc:ciml:resolution:2022-17
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.2
   localizations:
   - language_code: eng
@@ -795,17 +813,17 @@ resolutions:
       message: |
         Noting the proposal from the OIML-CS Management Committee,
         Reconfirms R 139:2018 Compressed gaseous fuel measuring systems for vehicles.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the proposal from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.1.2 de l'ordre du jour
     subject: CIML
@@ -814,23 +832,25 @@ resolutions:
       message: |
         Prenant note de la proposition du Comité de Management de l'OIML-CS,
         Reconfirmme la R 139:2018 Ensembles de mesurage de gaz compressé pour véhicules.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Prenant note de la proposition du Comité de Management de l''OIML-CS,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/18
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/18
   doi: 10.63493/resolutions/ciml202218
   urn: urn:oiml:doc:ciml:resolution:2022-18
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.3
   localizations:
   - language_code: eng
@@ -844,17 +864,17 @@ resolutions:
         used in testing laboratories, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the Project Group convener and members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.1.3 de l'ordre du jour
     subject: CIML
@@ -866,23 +886,25 @@ resolutions:
         utilisés dans les laboratoires d''essais, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie le responsable du Groupe de Projet et les membres pour leur
         travail dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/19
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/19
   doi: 10.63493/resolutions/ciml202219
   urn: urn:oiml:doc:ciml:resolution:2022-19
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.4
   localizations:
   - language_code: eng
@@ -895,17 +917,17 @@ resolutions:
         between the OIML and other bodies, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the RLMO RT Chairperson and members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Approuve le projet final de révision du B 12:2004 Document de politique
       générale sur
@@ -917,23 +939,25 @@ resolutions:
         générale sur les liaisons entre l''OIML et les autres organismes, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie le Président et les membres de la Table Ronde RLMO pour leur
         travail dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/20
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/20
   doi: 10.63493/resolutions/ciml202220
   urn: urn:oiml:doc:ciml:resolution:2022-20
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.5
   localizations:
   - language_code: eng
@@ -948,17 +972,17 @@ resolutions:
         and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the Project Group conveners and members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.1.5 de l'ordre du jour
     subject: CIML
@@ -971,23 +995,25 @@ resolutions:
         et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie les responsables et les membres du Groupe de Projet pour
         leur travail dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/21
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/21
   doi: 10.63493/resolutions/ciml202221
   urn: urn:oiml:doc:ciml:resolution:2022-21
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.6
   localizations:
   - language_code: eng
@@ -998,9 +1024,9 @@ resolutions:
       message: 'Considering the remarks made by its President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: decides
       message: 'Decides to accept the proposal to vote on the Final Draft New Document
@@ -1008,9 +1034,9 @@ resolutions:
         Authorities under the OIML Certification System at this meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.1.6 de l'ordre du jour
     subject: CIML
@@ -1019,9 +1045,9 @@ resolutions:
       message: 'Considérant les remarques faites par son Président,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: decides
       message: 'Décide d''accepter la proposition de voter sur le projet final de
@@ -1030,15 +1056,17 @@ resolutions:
         OIML lors de cette réunion.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/22
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/22
   doi: 10.63493/resolutions/ciml202222
   urn: urn:oiml:doc:ciml:resolution:2022-22
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.1.6
   localizations:
   - language_code: eng
@@ -1052,17 +1080,17 @@ resolutions:
         Certification System, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the Project Group convener and members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.1.6 de l'ordre du jour
     subject: CIML
@@ -1074,23 +1102,25 @@ resolutions:
         de Certification OIML, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie le responsable et les membres du Groupe de Projet pour leur
         travail dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/23
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/23
   doi: 10.63493/resolutions/ciml202223
   urn: urn:oiml:doc:ciml:resolution:2022-23
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.2.1
   localizations:
   - language_code: eng
@@ -1105,9 +1135,9 @@ resolutions:
         provided in Addendum 14.2.1 to the Working Document for this meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.2.1 de l'ordre du jour
     subject: CIML
@@ -1121,15 +1151,17 @@ resolutions:
         réunion.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/24
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/24
   doi: 10.63493/resolutions/ciml202224
   urn: urn:oiml:doc:ciml:resolution:2022-24
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.2.2
   localizations:
   - language_code: eng
@@ -1144,9 +1176,9 @@ resolutions:
         meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.2.2 de l'ordre du jour
     subject: CIML
@@ -1159,15 +1191,17 @@ resolutions:
         au document de travail de cette réunion.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/25
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/25
   doi: 10.63493/resolutions/ciml202225
   urn: urn:oiml:doc:ciml:resolution:2022-25
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.2.3
   localizations:
   - language_code: eng
@@ -1182,9 +1216,9 @@ resolutions:
         this meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.2.3 de l'ordre du jour
     subject: CIML
@@ -1197,15 +1231,17 @@ resolutions:
         de travail de cette réunion.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/26
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/26
   doi: 10.63493/resolutions/ciml202226
   urn: urn:oiml:doc:ciml:resolution:2022-26
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: 14.2.4
   localizations:
   - language_code: eng
@@ -1217,9 +1253,9 @@ resolutions:
       message: |
         Approves as a new project, under the responsibility of the BIML, the revision of OIML B 6:2019 Directives for OIML technical work - Part 1: Structures and procedures for the development of OIML publications, and Part 2: Guide to the drafting and presentation of OIML publications, to be conducted as specified in the project proposal provided in Addendum 14.2.4 to the Working Document for this meeting, and
         Encourages the Project Group to conduct the second stage of this revision in close association with the OIML Digitalisation Task Group.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.2.4 de l'ordre du jour
     subject: CIML
@@ -1229,15 +1265,17 @@ resolutions:
       message: |
         Approuve comme nouveau projet, sous la responsabilité du BIML, la révision de l'OIML B 6:2019 Directives pour les travaux techniques de l'OIML. Partie 1: Structures et procédures pour le développement des publications de l'OIML, et Partie 2: Guide pour la rédaction et la présentation des publications de l'OIML, à réaliser comme spécifié dans la proposition de projet fournie dans l'Addendum 14.2.4 au document de travail de cette réunion, et
         Encourage le Groupe de Projet à mener la deuxième étape de cette révision en étroite collaboration avec le Groupe de Travail OIML sur la Numérisation.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/27
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/27
   doi: 10.63493/resolutions/ciml202227
   urn: urn:oiml:doc:ciml:resolution:2022-27
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '14.3'
   localizations:
   - language_code: eng
@@ -1248,26 +1286,26 @@ resolutions:
       message: 'Noting the report on the OIML technical work,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the list of high priority projects as presented in Addendum
         14.3 to the Working Document for this meeting, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: approves
       message: 'Approves the list of high priority publications as presented in Addendum
         14.3 to the Working Document for this meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.3 de l'ordre du jour
     subject: CIML
@@ -1276,32 +1314,34 @@ resolutions:
       message: 'Prenant note du rapport sur les travaux techniques de l''OIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la liste des projets hautement prioritaires telle que présentée
         dans l''Addendum 14.3 au document de travail de la présente réunion, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: approves
       message: 'Approuve la liste des publications de haute priorité telle que présentée
         dans l''Addendum 14.3 au document de travail de la présente réunion.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/28
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/28
   doi: 10.63493/resolutions/ciml202228
   urn: urn:oiml:doc:ciml:resolution:2022-28
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '14.3'
   localizations:
   - language_code: eng
@@ -1314,18 +1354,18 @@ resolutions:
         OIML G 22:2022 Electric vehicle supply equipment,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: thanks
       message: 'Thanks the convener and the members of the Project Group for their
         work.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.3 de l'ordre du jour
     subject: CIML
@@ -1336,24 +1376,26 @@ resolutions:
         l''OIML G 22:2022 Systèmes d''alimentation pour véhicules électriques,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: thanks
       message: 'Remercie le responsable et les membres du Groupe de Projet pour leur
         travail.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/29
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/29
   doi: 10.63493/resolutions/ciml202229
   urn: urn:oiml:doc:ciml:resolution:2022-29
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '14.3'
   localizations:
   - language_code: eng
@@ -1364,9 +1406,9 @@ resolutions:
       message: |
         Noting the information provided in Addendum 14.3 to the Working Document for this meeting concerning the Project Groups established at the 56th CIML Meeting under TC 18/SC 1 and TC 18/SC 2,
         Encourages Members to consider participating in this work to enable progress to be made on these important projects.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Noting the information provided in Addendum 14.3 to the Working Document
@@ -1374,9 +1416,9 @@ resolutions:
         Meeting under TC 18/SC 1 and TC 18/SC 2,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.3 de l'ordre du jour
     subject: CIML
@@ -1385,9 +1427,9 @@ resolutions:
       message: |
         Prenant note des informations fournies dans l'Addendum 14.3 au document de travail de la présente réunion concernant les groupes de projet établis lors de la 56ème Réunion du CIML dans le cadre des TC 18/SC 1 et TC 18/SC 2,
         Encourage les membres à envisager de participer à ces travaux afin de permettre l'avancement de ces projets importants.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Prenant note des informations fournies dans l''Addendum 14.3 au document
@@ -1396,15 +1438,17 @@ resolutions:
         2,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/30
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/30
   doi: 10.63493/resolutions/ciml202230
   urn: urn:oiml:doc:ciml:resolution:2022-30
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '14.4'
   localizations:
   - language_code: eng
@@ -1417,16 +1461,16 @@ resolutions:
         and other online training,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: welcomes
       message: |
         Welcomes the collaboration with the BIPM on the development of an e-Learning course and other supporting materials relating to OIML D 1:2020 National metrology systems - Developing the institutional and legislative framework, and
         Encourages Members to collaborate on e-Learning activities by providing information on material that is available online, by making suggestions for topics of future e-Learning and training, and by making respective resources available as far as possible.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.4 de l'ordre du jour
     subject: CIML
@@ -1437,15 +1481,17 @@ resolutions:
         Prend note du rapport sur l'état actuel des activités de l'OIML en matière d'e-Learning et autres formations en ligne,
         Se félicite de la collaboration avec le BIPM pour la mise au point d'un cours d'apprentissage en ligne et d'autres supports relatifs au OIML D 1:2020 Systèmes de métrologie nationaux - Développement du cadre institutionnel et législatif, et
         Encourage les Membres à collaborer aux activités d'apprentissage en ligne en fournissant des informations sur le matériel disponible en ligne, en faisant des suggestions sur les sujets d'apprentissage et de formation en ligne futurs, et en rendant les ressources respective disponibles dans la mesure du possible.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/31
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/31
   doi: 10.63493/resolutions/ciml202231
   urn: urn:oiml:doc:ciml:resolution:2022-31
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '14.5'
   localizations:
   - language_code: eng
@@ -1458,23 +1504,23 @@ resolutions:
         OIML Bulletin,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: |
         Thanks those individuals who have been Mentors for recent editions, and those who have already offered to be Mentors for future editions,
         Encourages Members to come forward as Mentors for key topics of future editions, and
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: renews
       message: 'Renews its support for the OIML Bulletin.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 14.5 de l'ordre du jour
     subject: CIML
@@ -1485,15 +1531,17 @@ resolutions:
         Remercie les personnes qui ont été Mentors pour les éditions récentes, et celles qui ont déjà offert d'être Mentors pour les éditions futures,
         Encourage les Membres à se proposer comme Mentors pour les sujets clés des éditions futures, et Renouvelle son soutien au Bulletin OIML
         Renouvelle son soutien au Bulletin OIML.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/32
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/32
   doi: 10.63493/resolutions/ciml202232
   urn: urn:oiml:doc:ciml:resolution:2022-32
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '15.1'
   localizations:
   - language_code: eng
@@ -1506,17 +1554,17 @@ resolutions:
         Committee (MC) Chairperson, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the members of the OIML-CS MC, Review Committee, Maintenance
         Group and Working Groups for their work.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 15.1 de l'ordre du jour
     subject: CIML
@@ -1527,23 +1575,25 @@ resolutions:
         Système de Certification de 1''OIML (OIML-CS), et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie les membres du MC de l''OIML-CS, du Comité de Révision, du
         Groupe de Maintenance et des Groupes de Travail pour leur travail.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/33
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/33
   doi: 10.63493/resolutions/ciml202233
   urn: urn:oiml:doc:ciml:resolution:2022-33
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '15.2'
   localizations:
   - language_code: eng
@@ -1554,26 +1604,26 @@ resolutions:
       message: 'Noting the recommendation from the OIML-CS Management Committee,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the Final Draft revision of OIML B 18:2018 Framework for
         the OIML Certification System (OIML-CS), and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the OIML-CS Management Committee and Maintenance Group for
         their work in completing this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 15.2 de l'ordre du jour
     subject: CIML
@@ -1582,32 +1632,34 @@ resolutions:
       message: 'Prenant note de la recommandation du Comité de Management de l''OIML-CS,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve le projet final de révision de l''OIML B 18:2018 Cadre pour
         le Système de Certification OIML (OIML-CS), et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie le Comité de Management et le Groupe de Maintenance de l''OIML-CS
         pour leur travail dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/34
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/34
   doi: 10.63493/resolutions/ciml202234
   urn: urn:oiml:doc:ciml:resolution:2022-34
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.1'
   localizations:
   - language_code: eng
@@ -1620,41 +1672,41 @@ resolutions:
         with Emerging Metrology Systems (CEEMS),
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the nomination of a candidate from the CEEMS Advisory Group
         (AG) for the position of CEEMS AG Chairperson,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the information provided by the CEEMS AG Chairperson,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr Jaco Marneweck as CEEMS AG Chairperson for a three-year
         term with effect from 1 January 2023, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks Mr Peter Mason for his leadership of the CEEMS AG during his
         three years as its Chairperson.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Remercie M. Peter Mason pour sa direction du CEEMS AG pendant les trois
       années
@@ -1666,39 +1718,41 @@ resolutions:
         et économies dont le système de métrologie est émergeant (CEEMS),
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Notant la nomination d''un candidat du Groupe Consultatif des CEEMS
         (AG) au poste de Président du CEEMS AG,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: |
         Prenant note des informations fournies par le Président du CEEMS AG,
         Nomme M. Jaco Marneweck au poste de Président du CEEMS AG pour un mandat de trois ans prenant effet le 1er janvier 2023, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: thanks
       message: 'Remercie M. Peter Mason pour sa direction du CEEMS AG pendant les
         trois années où il en a été le Président.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/35
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/35
   doi: 10.63493/resolutions/ciml202235
   urn: urn:oiml:doc:ciml:resolution:2022-35
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.1'
   localizations:
   - language_code: eng
@@ -1711,41 +1765,41 @@ resolutions:
         with Emerging Metrology Systems (CEEMS),
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the nomination of a candidate from the CEEMS Advisory Group
         (AG) for the position of CEEMS AG Vice-Chairperson,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the information provided by the CEEMS AG Chairperson,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Mr HAN Jianping as CEEMS AG Vice-Chairperson for a three-year
         term with immediate effect, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks Dr Peter Ulbig for his work as Vice-Chairperson of the CEEMS
         AG during the period 2019- 2021.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 16.1 de l'ordre du jour
     subject: CIML
@@ -1756,39 +1810,41 @@ resolutions:
         et économies dont le système de métrologie est émergeant (CEEMS),
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Notant la nomination d''un candidat du Groupe Consultatif des CEEMS
         (AG) au poste de Vice-président du CEEMS AG,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: |
         Prenant note des informations fournies par le Président du CEEMS AG,
         Nomme M. HAN Jianping en tant que Vice-président du CEEMS AG pour un mandat de trois ans avec effet immédiat, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: thanks
       message: 'Remercie le Dr Peter Ulbig pour son travail en tant que Vice-président
         du CEEMS AG pendant la période 2019-2021.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/36
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/36
   doi: 10.63493/resolutions/ciml202236
   urn: urn:oiml:doc:ciml:resolution:2022-36
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.2'
   localizations:
   - language_code: eng
@@ -1800,16 +1856,16 @@ resolutions:
       message: |
         Notes the report on the activities of the CEEMS Advisory Group (AG),
         Encourages Members to join the CEEMS AG, and
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks members of the CEEMS AG for their work.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 16.2 de l'ordre du jour
     subject: CIML
@@ -1819,22 +1875,24 @@ resolutions:
       message: |
         Prend note du rapport sur les activités du Groupe Consultatif des CEEMS (AG),
         Encourage les Membres à adhérer au CEEMS AG, et
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie les membres du CEEMS AG pour leur travail.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/37
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/37
   doi: 10.63493/resolutions/ciml202237
   urn: urn:oiml:doc:ciml:resolution:2022-37
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.3'
   localizations:
   - language_code: eng
@@ -1845,9 +1903,9 @@ resolutions:
       message: 'Considering the remarks made by its President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: decides
       message: 'Decides to accept the proposal to vote on the Final Draft revision
@@ -1855,9 +1913,9 @@ resolutions:
         Countries and Economies with Emerging Metrology Systems (CEEMS) at this meeting.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 16.3 de l'ordre du jour
     subject: CIML
@@ -1866,9 +1924,9 @@ resolutions:
       message: 'Considérant les remarques faites par son Président,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: decides
       message: 'Décide d''accepter la proposition de voter sur le projet final de
@@ -1877,15 +1935,17 @@ resolutions:
         est émergeant (CEEMS) lors de cette réunion.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/38
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/38
   doi: 10.63493/resolutions/ciml202238
   urn: urn:oiml:doc:ciml:resolution:2022-38
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.3'
   localizations:
   - language_code: eng
@@ -1899,17 +1959,17 @@ resolutions:
         Emerging Metrology Systems (CEEMS), and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the CEEMS Advisory Group members for their work in completing
         this project.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 16.3 de l'ordre du jour
     subject: CIML
@@ -1921,23 +1981,25 @@ resolutions:
         dont le système de métrologie est émergeant (CEEMS), et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie les membres du Groupe Consultatif des CEEMS pour leur travail
         dans la réalisation de ce projet.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/39
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/39
   doi: 10.63493/resolutions/ciml202239
   urn: urn:oiml:doc:ciml:resolution:2022-39
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.3'
   localizations:
   - language_code: eng
@@ -1949,9 +2011,9 @@ resolutions:
       message: |
         Welcomes the intention of the CIML President to approve the document Guide to the use of online technology for conducting CEEMS activities in a post-COVID world as an OIML Guide, and
         Encourages the BIML, the CEEMS Advisory Group, the OIML Digitalisation Task Group, CIML Members, and Corresponding Member Representatives to take note of its recommendations.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 16.3 de l'ordre du jour
     subject: CIML
@@ -1963,15 +2025,17 @@ resolutions:
         des CEEMS dans un monde post-COVID comme Guide OIML, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/40
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/40
   doi: 10.63493/resolutions/ciml202240
   urn: urn:oiml:doc:ciml:resolution:2022-40
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '16.3'
   localizations:
   - language_code: eng
@@ -1984,9 +2048,9 @@ resolutions:
         Welcomes the restarting of the work of the CEEMS/p 1 Project Group on the revision of OIML D 14:2004 Training and qualification of legal metrology personnel,
         Encourages Members to participate in this Project Group, and
         Encourages Members of the Project Group to respond to the survey being conducted as an initial phase of this work.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 16.3 de l'ordre du jour
     subject: CIML
@@ -1998,15 +2062,17 @@ resolutions:
         de métrologie légale,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/41
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/41
   doi: 10.63493/resolutions/ciml202241
   urn: urn:oiml:doc:ciml:resolution:2022-41
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '17.1'
   localizations:
   - language_code: eng
@@ -2017,25 +2083,25 @@ resolutions:
       message: 'Recalling its resolution CIML/2021/07,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the information provided by its President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Dr Sascha Eichstadt as OIML Digitalisation Task Group Chairperson
         for a three-year term with immediate effect.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 17.1 de l'ordre du jour
     subject: CIML
@@ -2045,23 +2111,25 @@ resolutions:
         Rappelant sa résolution CIML/2021/07,
         Prenant acte des informations fournies par son Président,
         Nomme le Dr Sascha Eichstädt comme Président du Groupe de Travail OIML sur la Numérisation pour un mandat de trois ans avec effet immédiat.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Rappelant sa résolution CIML/2021/07,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/42
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/42
   doi: 10.63493/resolutions/ciml202242
   urn: urn:oiml:doc:ciml:resolution:2022-42
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '17.1'
   localizations:
   - language_code: eng
@@ -2072,25 +2140,25 @@ resolutions:
       message: 'Recalling its resolution CIML/2021/07,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: noting
       message: 'Noting the information provided by its President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: appoints
       message: 'Appoints Dr Ping Yang as OIML Digitalisation Task Group Deputy Chairperson
         for a three-year term with immediate effect.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 17.1 de l'ordre du jour
     subject: CIML
@@ -2100,23 +2168,25 @@ resolutions:
         Rappelant sa résolution CIML/2021/07,
         Prenant acte des informations fournies par son Président,
         Nomme le Dr Ping Yang en tant que Vice-président du Groupe de Travail OIML sur la Numérisation pour un mandat de trois ans avec effet immédiat.
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: notes
       message: 'Rappelant sa résolution CIML/2021/07,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/43
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/43
   doi: 10.63493/resolutions/ciml202243
   urn: urn:oiml:doc:ciml:resolution:2022-43
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '17.3'
   localizations:
   - language_code: eng
@@ -2130,18 +2200,18 @@ resolutions:
         17.3 to the Working Document for the 57th CIML Meeting, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: instructs
       message: 'Instructs the BIML to assist the OIML DTG chairperson in finalising
         the Terms of Reference and to publish them in an appropriate place on the
         OIML website.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Approuve le projet de mandat du Groupe de Travail OIML sur la Numérisation
       (DTG
@@ -2154,24 +2224,26 @@ resolutions:
         l''Addendum 17.3 au document de travail de la 57ème Réunion du CIML, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: charges
       message: 'Charge le BIML d''aider le Président du DTG de l''OIML à finaliser
         les termes de référence et de les publier à un endroit approprié sur le site
         web de l''OIML.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/44
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/44
   doi: 10.63493/resolutions/ciml202244
   urn: urn:oiml:doc:ciml:resolution:2022-44
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '21.1'
   localizations:
   - language_code: eng
@@ -2183,9 +2255,9 @@ resolutions:
       message: 'Notes the report on the RLMO Round Table meeting given by its Chairperson.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 21.1 de l'ordre du jour
     subject: CIML
@@ -2196,15 +2268,17 @@ resolutions:
         Régionales de Métrologie Légale (RLMO), présenté par son président.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/45
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/45
   doi: 10.63493/resolutions/ciml202245
   urn: urn:oiml:doc:ciml:resolution:2022-45
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '21.2'
   localizations:
   - language_code: eng
@@ -2216,9 +2290,9 @@ resolutions:
       message: 'Notes the report on OIML activities with organisations in liaison.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 21.2 de l'ordre du jour
     subject: CIML
@@ -2229,15 +2303,17 @@ resolutions:
         en liaison.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/46
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/46
   doi: 10.63493/resolutions/ciml202246
   urn: urn:oiml:doc:ciml:resolution:2022-46
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '21.2'
   localizations:
   - language_code: eng
@@ -2249,41 +2325,41 @@ resolutions:
         provided in item 3.2.2 of Addendum 21.2 to the Working Document for this meeting,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considering the proposal by its President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approves the nomination of Dr Agnieszka Zon (Poland) to replace Dr
         Jerzy Borzyminski (Poland) as one of the OIML representatives in JCGM-WG2:VIM,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: requests
       message: 'Requests the BIML Director to inform the JCGM secretary of this decision,
         and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks Dr Jerzy Borzyminski for having represented the OIML in the
         JCGM-WG2:VIM.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 21.2 de l'ordre du jour
     subject: CIML
@@ -2294,16 +2370,16 @@ resolutions:
         de travail de la présente réunion,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: considering
       message: 'Considérant la proposition de son Président,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     actions:
     - type: approves
       message: 'Approuve la nomination du Dr Agnieszka Zon (Pologne) pour remplacer
@@ -2311,31 +2387,33 @@ resolutions:
         au JCGM-WG2:VIM,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: requests
       message: 'Demande au Directeur du BIML d''informer le secrétaire du JCGM de
         cette décision, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie le Dr Jerzy Borzyminski d''avoir représenté l''OIML au sein
         du JCGM-WG2:VIM.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/47
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/47
   doi: 10.63493/resolutions/ciml202247
   urn: urn:oiml:doc:ciml:resolution:2022-47
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '21.3'
   localizations:
   - language_code: eng
@@ -2347,17 +2425,17 @@ resolutions:
       message: 'Notes the reports and presentations by organisations in liaison, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks their representatives for providing this information to the
         Committee.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 21.3 de l'ordre du jour
     subject: CIML
@@ -2368,22 +2446,24 @@ resolutions:
         liaison, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie leurs représentants d''avoir fourni ces informations au Comité.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/48
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/48
   doi: 10.63493/resolutions/ciml202248
   urn: urn:oiml:doc:ciml:resolution:2022-48
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '22.1'
   localizations:
   - language_code: eng
@@ -2395,9 +2475,9 @@ resolutions:
       message: 'Congratulates this year''s recipient of an OIML Medal,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 22.1 de l'ordre du jour
     subject: CIML
@@ -2407,15 +2487,17 @@ resolutions:
       message: 'Félicite le destinataire de la médaille de l''OIML de cette année,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/49
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/49
   doi: 10.63493/resolutions/ciml202249
   urn: urn:oiml:doc:ciml:resolution:2022-49
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '22.2'
   localizations:
   - language_code: eng
@@ -2427,9 +2509,9 @@ resolutions:
       message: 'Congratulates this year''s recipients of an OIML Letter of Appreciation:
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 22.2 de l'ordre du jour
     subject: CIML
@@ -2440,15 +2522,17 @@ resolutions:
         de cette année :
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/50
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/50
   doi: 10.63493/resolutions/ciml202250
   urn: urn:oiml:doc:ciml:resolution:2022-50
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '22.3'
   localizations:
   - language_code: eng
@@ -2461,9 +2545,9 @@ resolutions:
         Bureau of Standards (GNBS).
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 22.3 de l'ordre du jour
     subject: CIML
@@ -2474,15 +2558,17 @@ resolutions:
         of Standards (GNBS).
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/51
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/51
   doi: 10.63493/resolutions/ciml202251
   urn: urn:oiml:doc:ciml:resolution:2022-51
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '23.1'
   localizations:
   - language_code: eng
@@ -2494,18 +2580,18 @@ resolutions:
       message: 'Notes the report provided by the CIML President,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: supports
       message: 'Supports taking into account the responses to the survey summarised
         in Addendum 23.1 to the Working Document for the 57th CIML Meeting when considering
         invitations for future CIML meetings.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 23.1 de l'ordre du jour
     subject: CIML
@@ -2515,24 +2601,26 @@ resolutions:
       message: 'Prend note du rapport fourni par le Président du CIML,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: endorses
       message: 'Soutient la prise en compte des réponses à l''enquête résumée dans
         l''Addendum 23.1 au document de travail de la 57ème Réunion du CIML lors de
         l''examen des invitations aux futures réunions du CIML.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
-- identifier: CIML/2022/52
+      date_effective:
+        date: '2022-10-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2022/52
   doi: 10.63493/resolutions/ciml202252
   urn: urn:oiml:doc:ciml:resolution:2022-52
   dates:
-  - start: '2022-10-18'
-    kind: decision
+  - date: '2022-10-18'
+    type: decided
   agenda_item: '23.2'
   localizations:
   - language_code: eng
@@ -2545,25 +2633,25 @@ resolutions:
         Meeting in 2023,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Thanks the Kingdom of Thailand for its invitation to host the 58th
         CIML Meeting in 2023, and
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: instructs
       message: 'Instructs the Bureau to make the necessary arrangements to organise
         the 58th CIML Meeting in 2023.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
   - language_code: fra
     title: Point 23.2 de l'ordre du jour
     subject: CIML
@@ -2574,22 +2662,22 @@ resolutions:
         Réunion du CIML en 2023,
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: thanks
       message: 'Remercie le Royaume de Thaïlande pour son invitation à accueillir
         la 58ème Réunion de la CIML en 2023, et
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective
     - type: charges
       message: 'Charge le Bureau de prendre les dispositions nécessaires pour organiser
         la 58ème Réunion du CIML en 2023.
 
         '
-      dates:
-      - start: '2022-10-18'
-        kind: effective
+      date_effective:
+        date: '2022-10-18'
+        type: effective

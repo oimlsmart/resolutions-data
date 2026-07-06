@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2003-11-05'
-    end: '2003-11-08'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Kyoto, Japan
-  city: Kyoto
   country_code: JP
-  language: en
   title_localized:
   - language_code: eng
     title: 38th CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 38e réunion du CIML — Décisions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-38
-resolutions:
-- identifier: CIML/2003/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2003/1
   doi: 10.63493/resolutions/ciml200301
   urn: urn:oiml:doc:ciml:resolution:2003-01
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the Minutes of the $ 3 7^{\mathrm{th}} $ CIML Meeting
@@ -33,9 +28,9 @@ resolutions:
         2002) were approved without modification.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Approbation du compte rendu de la 37ème Réunion du CIML
     subject: CIML
@@ -46,15 +41,17 @@ resolutions:
         a été approuvé sans modifications.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/2
   doi: 10.63493/resolutions/ciml200302
   urn: urn:oiml:doc:ciml:resolution:2003-02
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Implementation of the Decisions and Resolutions of the $ 3 7^{th} $ CIML
@@ -67,9 +64,9 @@ resolutions:
         and Resolutions were covered by the various items on the agenda.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Mise en application des Décisions et Résolutions de la 37ème Réunion du
       CIML
@@ -82,15 +79,17 @@ resolutions:
         du jour.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/3
   doi: 10.63493/resolutions/ciml200303
   urn: urn:oiml:doc:ciml:resolution:2003-03
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Member States and Corresponding Members
@@ -102,9 +101,9 @@ resolutions:
         its financial contribution to the Organization.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: États Membres et Membres Correspondants
     subject: CIML
@@ -115,15 +114,17 @@ resolutions:
         sa contribution financière à l''Organisation.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/4
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/4
   doi: 10.63493/resolutions/ciml200304
   urn: urn:oiml:doc:ciml:resolution:2003-04
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on Presidential Council activities
@@ -135,9 +136,9 @@ resolutions:
         on the activities of the Presidential Council.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Rapport sur les activités du Conseil de la Présidence
     subject: CIML
@@ -148,15 +149,17 @@ resolutions:
         du CIML sur les activités du Conseil de la Présidence.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/6
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/6
   doi: 10.63493/resolutions/ciml200306
   urn: urn:oiml:doc:ciml:resolution:2003-06
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
@@ -168,12 +171,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/6.1
+- identifier:
+  - prefix: CIML
+    number: 2003/6.1
   doi: 10.63493/resolutions/ciml20036.1
   urn: urn:oiml:doc:ciml:resolution:2003-6.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of the Auditor's Report for 2002
@@ -186,9 +191,9 @@ resolutions:
         Committee:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Adoption du Rapport Comptable pour 2002
     subject: CIML
@@ -200,15 +205,17 @@ resolutions:
         Comptable. Le Comité:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/6.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/6.2
   doi: 10.63493/resolutions/ciml20036.2
   urn: urn:oiml:doc:ciml:resolution:2003-6.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Realization of the 2002 budget and estimates for 2003
@@ -220,9 +227,9 @@ resolutions:
         on the realization of the 2002 budget and on the estimates for 2003.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Réalisation du budget 2002 et estimations pour 2003
     subject: CIML
@@ -233,15 +240,17 @@ resolutions:
         du BIML sur la réalisation du budget 2002 et sur les estimations pour 2003.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/6.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/6.3
   doi: 10.63493/resolutions/ciml20036.3
   urn: urn:oiml:doc:ciml:resolution:2003-6.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Preliminary proposal for the 2005-2008 budget
@@ -255,9 +264,9 @@ resolutions:
         prepare a proposal for the 2004 Conference, highlighting the distinction between:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Proposition préliminaire pour le budget 2005-2008
     subject: CIML
@@ -271,15 +280,17 @@ resolutions:
         la distinction entre:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/6.4
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/6.4
   doi: 10.63493/resolutions/ciml20036.4
   urn: urn:oiml:doc:ciml:resolution:2003-6.4
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Progress on the revision of the Financial Regulations of the OIML
@@ -294,9 +305,9 @@ resolutions:
         $ OIML Conference in 2004.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Progrès concernant la révision du Règlement Financier de l'OIML
     subject: CIML
@@ -310,15 +321,17 @@ resolutions:
         CIML et à la 12ème Conférence de l''OIML en 2004.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/7
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/7
   doi: 10.63493/resolutions/ciml200307
   urn: urn:oiml:doc:ciml:resolution:2003-07
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: The situation at the BIML
@@ -330,12 +343,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/7.1
+- identifier:
+  - prefix: CIML
+    number: 2003/7.1
   doi: 10.63493/resolutions/ciml20037.1
   urn: urn:oiml:doc:ciml:resolution:2003-7.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Draft Revision of the Staff Regulations
@@ -349,9 +364,9 @@ resolutions:
         which will come into force on 2004.01.01.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Projet de Révision des Statuts du Personnel
     subject: CIML
@@ -364,15 +379,17 @@ resolutions:
         qui entreront en vigueur le 2004.01.01.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/7.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/7.2
   doi: 10.63493/resolutions/ciml20037.2
   urn: urn:oiml:doc:ciml:resolution:2003-7.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML Staff
@@ -384,9 +401,9 @@ resolutions:
         as Assistant Director, for another five-year term starting in March 2004.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Personnel du BIML
     subject: CIML
@@ -398,15 +415,17 @@ resolutions:
         2004.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/7.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/7.3
   doi: 10.63493/resolutions/ciml20037.3
   urn: urn:oiml:doc:ciml:resolution:2003-7.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML activities
@@ -418,9 +437,9 @@ resolutions:
         BIML since the last Committee Meeting.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Activités du BIML
     subject: CIML
@@ -431,15 +450,17 @@ resolutions:
         la dernière Réunion du Comité.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/7.4
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/7.4
   doi: 10.63493/resolutions/ciml20037.4
   urn: urn:oiml:doc:ciml:resolution:2003-7.4
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Progress in the use of the internet and e-mail
@@ -454,9 +475,9 @@ resolutions:
         hence increase the efficiency of the Organization.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Progrès dans l'utilisation d'internet et du courrier électronique
     subject: CIML
@@ -470,15 +491,17 @@ resolutions:
         sur internet et à accroître ainsi l''efficacité de l''Organisation.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/8
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/8
   doi: 10.63493/resolutions/ciml200308
   urn: urn:oiml:doc:ciml:resolution:2003-08
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Action Plan implementation and revision
@@ -492,9 +515,9 @@ resolutions:
         approval with a deadline of 2003.12.31.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Application et révision du Plan d'Action de l'OIML
     subject: CIML
@@ -505,24 +528,26 @@ resolutions:
         concernant la révision en cours du Plan d''Action.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a décidé que cette Révision du Plan d''Action, couvrant
         la période 2004-2005, sera envoyée pour approbation par correspondance avec
         une date limite de vote fixée à 2003.12.31.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/9
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/9
   doi: 10.63493/resolutions/ciml200309
   urn: urn:oiml:doc:ciml:resolution:2003-09
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -534,12 +559,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/9.1
+- identifier:
+  - prefix: CIML
+    number: 2003/9.1
   doi: 10.63493/resolutions/ciml20039.1
   urn: urn:oiml:doc:ciml:resolution:2003-9.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Work program of TCs/SCs
@@ -556,17 +583,17 @@ resolutions:
         to accelerate OIML technical work as discussed under Item 9.3.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: approves
       message: 'The Committee approved the project as proposed by TC 18 on Ophthalmic
         instruments - Impression and applanation tonometer.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Programme de travail des TC/SC
     subject: CIML
@@ -583,23 +610,25 @@ resolutions:
         les travaux techniques de l''OIML comme traité au Point 9.3.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé le projet tel que proposé par le TC 18 sur les
         Instruments pour l''ophtalmologie - Tonomètre à empreinte et à applanation.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/9.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/9.2
   doi: 10.63493/resolutions/ciml20039.2
   urn: urn:oiml:doc:ciml:resolution:2003-9.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TCs/SCs
@@ -613,9 +642,9 @@ resolutions:
         to
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'The Committee took note of information given by the BIML on the generally
         unsatisfactory situation of CIML postal voting in 2003, and requested its
@@ -624,9 +653,9 @@ resolutions:
         drafts submitted.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Examen de la situation de certains TC/SC
     subject: CIML
@@ -639,9 +668,9 @@ resolutions:
         la France
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note des informations données par le BIML sur la
         situation généralement non satisfaisante du vote par correspondance des Membres
@@ -651,15 +680,17 @@ resolutions:
         soit réalisée en temps voulu.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/9.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/9.3
   doi: 10.63493/resolutions/ciml20039.3
   urn: urn:oiml:doc:ciml:resolution:2003-9.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Acceleration of technical activities
@@ -671,26 +702,26 @@ resolutions:
         "Acceleration of OIML technical work".
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the CIML Presidium Members and the BIML to
         start implementing the proposed actions, complemented with those put forward
         by CIML Members during discussion of this issue.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'The Committee also instructed the BIML to regularly report back at
         CIML Meetings on the measures taken and results achieved.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Accélération des activités techniques
     subject: CIML
@@ -701,32 +732,34 @@ resolutions:
         des travaux techniques de l''OIML".
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé les Membres du Présidium du CIML et le BIML de
         commencer à appliquer les actions proposées, complétées par celles émises
         par les Membres du CIML durant la discussion de ce point.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a aussi chargé le BIML de régulièrement présenter un rapport
         lors des Réunions du CIML sur les mesures prises et sur les résultats obtenus.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/9.4
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/9.4
   doi: 10.63493/resolutions/ciml20039.4
   urn: urn:oiml:doc:ciml:resolution:2003-9.4
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Non-conclusive results of postal ballots
@@ -740,9 +773,9 @@ resolutions:
         an insufficient number of votes have been received:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Résultats non concluants des votes par correspondance
     subject: CIML
@@ -756,15 +789,17 @@ resolutions:
         été recueillis:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/9.5
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/9.5
   doi: 10.63493/resolutions/ciml20039.5
   urn: urn:oiml:doc:ciml:resolution:2003-9.5
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of draft Recommendations and Documents
@@ -775,9 +810,9 @@ resolutions:
       message: 'The Committee approved the following draft Recommendations and Documents:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Approbation des projets de Recommandations et de Documents
     subject: CIML
@@ -788,15 +823,17 @@ resolutions:
         suivants:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/10
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/10
   doi: 10.63493/resolutions/ciml200310
   urn: urn:oiml:doc:ciml:resolution:2003-10
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Mutual Acceptance Arrangement (MAA) and Checklists
@@ -808,24 +845,24 @@ resolutions:
         and by the BIML Director on the progress on the above-mentioned documents.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: approves
       message: 'The Committee approved the MAA and:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: approves
       message: 'The Committee approved the "Checklists" document submitted for approval
         together with the MAA.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Arrangement d'Acceptation Mutuelle (MAA) et Listes de Contrôle
     subject: CIML
@@ -837,30 +874,32 @@ resolutions:
         ci-dessus.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé le MAA et:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé le document "Listes de Contrôle" soumis pour
         approbation avec le MAA.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/11
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/11
   doi: 10.63493/resolutions/ciml200311
   urn: urn:oiml:doc:ciml:resolution:2003-11
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: OIML Certificate System for Measuring Instruments
@@ -872,12 +911,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/11.1
+- identifier:
+  - prefix: CIML
+    number: 2003/11.1
   doi: 10.63493/resolutions/ciml200311.1
   urn: urn:oiml:doc:ciml:resolution:2003-11.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: General information
@@ -890,9 +931,9 @@ resolutions:
         with a special view to the recent publication of P1.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Informations générales
     subject: CIML
@@ -904,15 +945,17 @@ resolutions:
         visant en particulier la publication récente du P1.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/11.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/11.2
   doi: 10.63493/resolutions/ciml200311.2
   urn: urn:oiml:doc:ciml:resolution:2003-11.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: New Recommendations applicable within the System
@@ -924,18 +967,18 @@ resolutions:
         applicable within the System when published:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'The Committee also decided that the revised R 61-1 and R 61-2 will
         continue to be applicable within the System as soon as R 61-2 is published
         together with the revised R 61-1.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Secretariat of TC 9/SC 2 to urgently
         draw up a Supplement to R 61 on Certificate transformation requirements (in
@@ -944,9 +987,9 @@ resolutions:
         and arrange for its simultaneous postal approval by TC 9/SC 2 and the CIML.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Nouvelles Recommandations applicables dans le cadre du Système
     subject: CIML
@@ -957,18 +1000,18 @@ resolutions:
         applicables dans le cadre du Système dès leur publication:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a également décidé que les R 61-1 et R 61-2 révisées continueraient
         d''être applicables dans le cadre du Système dès que la R 61-2 sera publiée
         avec la R 61-1 révisée.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Secrétariat du TC 9/SC 2 de rédiger d''urgence
         un Supplément à R 61 sur les exigences pour la transformation des Certificats
@@ -978,15 +1021,17 @@ resolutions:
         simultanée par correspondance par le TC 9/SC 2 et le CIML.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/11.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/11.3
   doi: 10.63493/resolutions/ciml200311.3
   urn: urn:oiml:doc:ciml:resolution:2003-11.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Follow-up to the revision of P1 OIML Certificate System for Measuring Instruments
@@ -998,9 +1043,9 @@ resolutions:
         the revised P1 and instructed:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the BIML to carry out inquiries among OIML
         Members and among manufacturers and applicants who already possessed OIML
@@ -1010,9 +1055,9 @@ resolutions:
         of P1.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Suivi de la révision du P1 Système de Certificats OIML pour les Instruments
       de Mesure
@@ -1024,9 +1069,9 @@ resolutions:
         du P1 révisé et a chargé:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le BIML d''effectuer des enquêtes auprès des Membres
         OIML et des fabricants et demandeurs qui détiennent déjà des Certificats OIML,
@@ -1036,15 +1081,17 @@ resolutions:
         près les nouvelles dispositions du P 1.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/12
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/12
   doi: 10.63493/resolutions/ciml200312
   urn: urn:oiml:doc:ciml:resolution:2003-12
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Evolutions - General procedures of the OIML
@@ -1056,12 +1103,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/12.1
+- identifier:
+  - prefix: CIML
+    number: 2003/12.1
   doi: 10.63493/resolutions/ciml200312.1
   urn: urn:oiml:doc:ciml:resolution:2003-12.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Revision of the Directives for Technical Work
@@ -1078,9 +1127,9 @@ resolutions:
         to the CIML for approval as soon as possible.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Révision des Directives pour les Travaux Techniques
     subject: CIML
@@ -1096,15 +1145,17 @@ resolutions:
         Cette Révision devra être soumise à l''approbation du CIML dès que possible.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/12.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/12.2
   doi: 10.63493/resolutions/ciml200312.2
   urn: urn:oiml:doc:ciml:resolution:2003-12.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Translation and distribution of OIML Publications
@@ -1117,9 +1168,9 @@ resolutions:
         and approved this draft.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Traduction et diffusion des Publications OIML
     subject: CIML
@@ -1131,15 +1182,17 @@ resolutions:
         des Publications OIML, et a approuvé ce projet.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/12.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/12.3
   doi: 10.63493/resolutions/ciml200312.3
   urn: urn:oiml:doc:ciml:resolution:2003-12.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Draft Guide on the status of OIML Documents and Publications
@@ -1153,9 +1206,9 @@ resolutions:
         Members with a view to adopting it at the 39th CIML Meeting in 2004.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Projet de Guide sur le statut des Documents et Publications OIML
     subject: CIML
@@ -1169,15 +1222,17 @@ resolutions:
         CIML en 2004.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/13
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/13
   doi: 10.63493/resolutions/ciml200313
   urn: urn:oiml:doc:ciml:resolution:2003-13
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Study on The Benefit of Legal Metrology for the Economy and Society
@@ -1192,18 +1247,18 @@ resolutions:
         Mr. Birch would also be published in the OIML Bulletin.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the CIML President and the BIML to consider
         any complementary actions or studies which would appear appropriate with a
         view to raising the awareness of metrology and legal metrology.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Étude sur Le Bénéfice de la Métrologie Légale pour l'Économie et la Société
     subject: CIML
@@ -1217,24 +1272,26 @@ resolutions:
         résumé compilé par M. Birch sera également publié dans le Bulletin de l''OIML.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Président du CIML et le BIML de considérer toutes
         actions ou études complémentaires semblant appropriées pour accroître la sensibilisation
         à la métrologie et à la métrologie légale.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/14
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/14
   doi: 10.63493/resolutions/ciml200314
   urn: urn:oiml:doc:ciml:resolution:2003-14
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on the Development Council
@@ -1246,12 +1303,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/14.1
+- identifier:
+  - prefix: CIML
+    number: 2003/14.1
   doi: 10.63493/resolutions/ciml200314.1
   urn: urn:oiml:doc:ciml:resolution:2003-14.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Task Group on Developing Countries
@@ -1265,18 +1324,18 @@ resolutions:
         proposals made by the CIML President:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the CIML President and the BIML to draw up
         a proposal in time for the $ 1 2^{\mathrm{th}} $ Conference in 2004, complying
         with the conclusions of the Development Council Meeting.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Groupe de travail sur les Pays en Développement
     subject: CIML
@@ -1289,24 +1348,26 @@ resolutions:
         propositions suivantes faites par le Président du CIML:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Président du CIML et le BIML de rédiger une
         proposition à temps pour la 12ème Conférence en 2004, se conformant aux conclusions
         de la Réunion du Conseil de Développement.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/14.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/14.2
   doi: 10.63493/resolutions/ciml200314.2
   urn: urn:oiml:doc:ciml:resolution:2003-14.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Other developing country activities
@@ -1320,9 +1381,9 @@ resolutions:
         the last meeting.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Autres activités relatives aux pays en développement
     subject: CIML
@@ -1335,15 +1396,17 @@ resolutions:
         la dernière réunion.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/14.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/14.3
   doi: 10.63493/resolutions/ciml200314.3
   urn: urn:oiml:doc:ciml:resolution:2003-14.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: JCDCMAS
@@ -1358,9 +1421,9 @@ resolutions:
         Joint Committee.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'The Committee also took note of a report by the BIML on Regional Awareness
         Seminars which were organized jointly with the IEC under the aegis of the
@@ -1368,9 +1431,9 @@ resolutions:
         kind in other Regions.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: JCDCMAS
     subject: CIML
@@ -1384,9 +1447,9 @@ resolutions:
         et a approuvé les Termes de Référence de ce Comité Conjoint.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a aussi pris note d''un rapport du BIML sur des Séminaires
         Régionaux de Sensibilisation organisés conjointement avec la CEI sous l''égide
@@ -1394,15 +1457,17 @@ resolutions:
         du même type dans d''autres régions.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/15
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/15
   doi: 10.63493/resolutions/ciml200315
   urn: urn:oiml:doc:ciml:resolution:2003-15
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons with international and regional institutions
@@ -1414,12 +1479,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/15.1
+- identifier:
+  - prefix: CIML
+    number: 2003/15.1
   doi: 10.63493/resolutions/ciml200315.1
   urn: urn:oiml:doc:ciml:resolution:2003-15.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Metre Convention, ILAC, ISO, WTO, etc.
@@ -1431,17 +1498,17 @@ resolutions:
         on cooperation with the Metre Convention (BIPM/CIPM) and with ILAC.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'The Committee took note of a report given by ILAC and expressed its
         appreciation of the good cooperation between the OIML and this Organization.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Convention du Mètre, ILAC, ISO, OMC, etc.
     subject: CIML
@@ -1452,23 +1519,25 @@ resolutions:
         CIML, sur la coopération avec la Convention du Mètre (BIPM/CIPM) et avec ILAC.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un rapport donné par ILAC et a exprimé son
         appréciation pour la coopération fructueuse entre l''OIML et cette Organisation.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/15.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/15.2
   doi: 10.63493/resolutions/ciml200315.2
   urn: urn:oiml:doc:ciml:resolution:2003-15.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Draft policy paper on the liaisons with other organizations
@@ -1481,9 +1550,9 @@ resolutions:
         liaisons with other organizations. The Committee approved this policy paper.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Projet de Document de politique générale sur les liaisons avec les autres
       organisations
@@ -1497,15 +1566,17 @@ resolutions:
         organisations. Le Comité a approuvé ce document.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/15.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/15.3
   doi: 10.63493/resolutions/ciml200315.3
   urn: urn:oiml:doc:ciml:resolution:2003-15.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Reports from Regional Legal Metrology Organizations (RLMOs)
@@ -1520,9 +1591,9 @@ resolutions:
         of Africa.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Rapports des Organisations Régionales de Métrologie Légale (ORML)
     subject: CIML
@@ -1536,15 +1607,17 @@ resolutions:
         d''ORML dans cette région d''Afrique.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/15.4
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/15.4
   doi: 10.63493/resolutions/ciml200315.4
   urn: urn:oiml:doc:ciml:resolution:2003-15.4
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Draft policy paper on coordination with Regional Legal Metrology Organizations
@@ -1560,9 +1633,9 @@ resolutions:
         a formal framework for OIML cooperation with the RLMOs.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Projet de document de politique générale sur la coordination avec les Organisations
       Régionales de Mé…
@@ -1578,15 +1651,17 @@ resolutions:
         coopération de l''OIML avec les ORML.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/16
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/16
   doi: 10.63493/resolutions/ciml200316
   urn: urn:oiml:doc:ciml:resolution:2003-16
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Election of the CIML President
@@ -1601,9 +1676,9 @@ resolutions:
         of office.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Élection du Président du CIML
     subject: CIML
@@ -1617,15 +1692,17 @@ resolutions:
         tout son exercice.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/17
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/17
   doi: 10.63493/resolutions/ciml200317
   urn: urn:oiml:doc:ciml:resolution:2003-17
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Future meetings
@@ -1637,12 +1714,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2003/17.1
+- identifier:
+  - prefix: CIML
+    number: 2003/17.1
   doi: 10.63493/resolutions/ciml200317.1
   urn: urn:oiml:doc:ciml:resolution:2003-17.1
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: "$ 3 9^{th} $ CIML Meeting and $ 1 2^{th} $ International Conference on
@@ -1658,9 +1737,9 @@ resolutions:
         its warmest thanks to Germany for their invitation.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: 39ème Réunion du CIML et 12ème Conférence Internationale de Métrologie
       Légale (Berlin, 2004)
@@ -1675,15 +1754,17 @@ resolutions:
         les plus chaleureux à l''Allemagne pour son invitation.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/17.2
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/17.2
   doi: 10.63493/resolutions/ciml200317.2
   urn: urn:oiml:doc:ciml:resolution:2003-17.2
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: "$ 4 0^{th} $ CIML Meeting and $ 5 0^{th} $ Anniversary of the OIML (France,
@@ -1699,17 +1780,17 @@ resolutions:
         $ anniversary of the OIML.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'The Committee asked the BIML and the various TCs/SCs to avoid these
         dates when planning their own meetings.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: 40ème Réunion du CIML et 50ème Anniversaire de l'OIML (France, 2005)
     subject: CIML
@@ -1722,23 +1803,25 @@ resolutions:
         du 50ème anniversaire de l''OIML.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au BIML et aux divers TC/SC d''éviter ces dates
         lors de la planification de leurs propres réunions.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/17.3
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/17.3
   doi: 10.63493/resolutions/ciml200317.3
   urn: urn:oiml:doc:ciml:resolution:2003-17.3
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Further meetings
@@ -1751,9 +1834,9 @@ resolutions:
         Africa. This invitation would be confirmed in due course.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Autres réunions
     subject: CIML
@@ -1765,15 +1848,17 @@ resolutions:
         Cette invitation devra être confirmée en temps utile.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/18
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/18
   doi: 10.63493/resolutions/ciml200318
   urn: urn:oiml:doc:ciml:resolution:2003-18
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Other matters
@@ -1785,9 +1870,9 @@ resolutions:
         in recognition of their outstanding contribution to the work of the Organization:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Autres questions
     subject: CIML
@@ -1799,15 +1884,17 @@ resolutions:
         de l''Organisation:
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
-- identifier: CIML/2003/19
+      date_effective:
+        date: '2003-11-05'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2003/19
   doi: 10.63493/resolutions/ciml200319
   urn: urn:oiml:doc:ciml:resolution:2003-19
   dates:
-  - start: '2003-11-05'
-    kind: decision
+  - date: '2003-11-05'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of decisions
@@ -1818,9 +1905,9 @@ resolutions:
       message: 'The above Decisions and Resolutions were adopted by the Committee.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective
   - language_code: fra
     title: Adoption des décisions
     subject: CIML
@@ -1830,6 +1917,6 @@ resolutions:
       message: 'Les Décisions et Résolutions ci-dessus ont été adoptées par le Comité.
 
         '
-      dates:
-      - start: '2003-11-05'
-        kind: effective
+      date_effective:
+        date: '2003-11-05'
+        type: effective

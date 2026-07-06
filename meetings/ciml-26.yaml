@@ -1,19 +1,16 @@
 ---
-# Auto-updated by scripts/link_minutes_to_meetings.rb.
 identifier:
 - prefix: CIML
   number: '26'
 urn: urn:oiml:ciml:meeting:ciml-26
 type: plenary
 status: completed
-year: 1991
 ordinal: 26
 date_range:
   start: '1991-10-07'
   end: '1991-10-09'
 committee: International Committee of Legal Metrology (CIML)
 general_area: Paris, France
-virtual: false
 source_urls: []
 localizations:
 - language_code: eng
@@ -22,11 +19,14 @@ localizations:
   general_area: Paris, France
 agenda:
   status: final
-resolution_refs:
-- urn:oiml:ciml:resolution-collection:ciml-26-resolutions
 country_code: FR
 city: FRPAR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-26-eng
   language_code: eng
   script: Latn
+visibility: public
+venues:
+- kind: physical
+  unlocode: FRPAR
+  country_code: FR

@@ -1,27 +1,22 @@
 ---
 metadata:
-  dates:
-  - start: '2005-06-18'
-    end: '2005-06-20'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Lyon, France
-  city: Lyon
   country_code: FR
-  language: en
   title_localized:
   - language_code: eng
     title: 40th CIML Meeting — Decisions (EN)
   - language_code: fra
     title: 40e réunion du CIML — Décisions (FR)
   meeting_urn: urn:oiml:ciml:meeting:ciml-40
-resolutions:
-- identifier: CIML/2005/1
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2005/1
   doi: 10.63493/resolutions/ciml200501
   urn: urn:oiml:doc:ciml:resolution:2005-01
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of the Minutes of the 39th CIML Meeting
@@ -32,9 +27,9 @@ resolutions:
       message: 'The Minutes of the 39th CIML Meeting were approved without modification.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Approbation du Compte Rendu de la 39eme Réunion du CIML
     subject: CIML
@@ -44,27 +39,31 @@ resolutions:
       message: 'Le Compte Rendu de la 39eme Réunion du CIML a été approuvé sans modification.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/2
   doi: 10.63493/resolutions/ciml200502
   urn: urn:oiml:doc:ciml:resolution:2005-02
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: fra
     title: États Membres et Membres Correspondants
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/2.1
+- identifier:
+  - prefix: CIML
+    number: 2005/2.1
   doi: 10.63493/resolutions/ciml20052.1
   urn: urn:oiml:doc:ciml:resolution:2005-2.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: fra
     title: Situation de certains Membres
@@ -77,15 +76,17 @@ resolutions:
         calendrier convenu.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/3
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/3
   doi: 10.63493/resolutions/ciml200503
   urn: urn:oiml:doc:ciml:resolution:2005-03
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Financial matters
@@ -97,12 +98,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/3.1
+- identifier:
+  - prefix: CIML
+    number: 2005/3.1
   doi: 10.63493/resolutions/ciml20053.1
   urn: urn:oiml:doc:ciml:resolution:2005-3.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Adoption of the Auditor's report for 2004
@@ -114,9 +117,9 @@ resolutions:
         its President and the BIML Director to submit it to the Thirteenth Conference.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Adoption du Rapport d'audit de 2004
     subject: CIML
@@ -127,15 +130,17 @@ resolutions:
         Président et au Directeur du BIML de le présenter lors de la Treizième Conférence.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/3.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/3.2
   doi: 10.63493/resolutions/ciml20053.2
   urn: urn:oiml:doc:ciml:resolution:2005-3.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Assets and liabilities as at 2005.01.01
@@ -150,35 +155,35 @@ resolutions:
         the 41st CIML Meeting in 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'The Committee took note of a presentation given by the BIML Director
         concerning the estimation of the assets and liabilities according to the new
         accountancy rules laid down by the new Financial Regulations.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'The Committee noted that taking account of the evaluation of the Pension
         Fund, the Reserve Fund would be significantly reduced.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: instructs
       message: 'The Committee instructed its President to examine the conditions and
         procedures related to personal loans to BIML Staff Members and to report back
         at the 41st CIML Meeting in 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Actif et passif au 01.01.2005
     subject: CIML
@@ -193,41 +198,43 @@ resolutions:
         du CIML en 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un exposé du Directeur du BIML concernant
         l''estimation de l''actif et du passif conformément aux nouvelles règles de
         comptabilité prescrites par le nouveau Règlement Financier.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note qu''en tenant compte de l''évaluation du Fonds
         de Retraite, le Fonds de Réserve serait fortement réduit.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé son Président d''examiner les conditions et procédures
         relatives aux prêts personnels aux Membres du Personnel du BIML et de présenter
         ses conclusions lors de la $ 4 1 ^{ème} $ Réunion du CIML en 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/3.3
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/3.3
   doi: 10.63493/resolutions/ciml20053.3
   urn: urn:oiml:doc:ciml:resolution:2005-3.3
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Information on the implementation of the new Financial Regulations
@@ -242,9 +249,9 @@ resolutions:
         41st CIML Meeting in 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Informations concernant la mise en œuvre du nouveau Règlement Financier
     subject: CIML
@@ -258,15 +265,17 @@ resolutions:
         la 41eme Réunion du CIML en 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/4
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/4
   doi: 10.63493/resolutions/ciml200504
   urn: urn:oiml:doc:ciml:resolution:2005-04
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Presidential Council activities
@@ -278,12 +287,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/4.1
+- identifier:
+  - prefix: CIML
+    number: 2005/4.1
   doi: 10.63493/resolutions/ciml20054.1
   urn: urn:oiml:doc:ciml:resolution:2005-4.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on Presidential Council activities
@@ -295,9 +306,9 @@ resolutions:
         the activities of the Presidential Council since the 39th CIML Meeting.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Rapport relatif aux activités du Conseil de la Présidence
     subject: CIML
@@ -308,15 +319,17 @@ resolutions:
         activités du Conseil de la Présidence depuis la 39ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/4.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/4.2
   doi: 10.63493/resolutions/ciml20054.2
   urn: urn:oiml:doc:ciml:resolution:2005-4.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Long Term Strategy and Action Plan
@@ -329,18 +342,18 @@ resolutions:
         the President and to the Bureau by the end of July 2005.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: instructs
       message: 'The Committee instructed its President and the Bureau to circulate
         these drafts, amended in line with the comments expressed, for postal approval
         before the end of 2005.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Stratégie à Long Terme et Plan d'Action
     subject: CIML
@@ -353,24 +366,26 @@ resolutions:
         de juillet 2005.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé son Président et le Bureau de faire circuler ces
         projets, modifiés selon les remarques exprimées, pour qu''ils soient approuvés
         par correspondance avant la fin de l''année 2005.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/5
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/5
   doi: 10.63493/resolutions/ciml200505
   urn: urn:oiml:doc:ciml:resolution:2005-05
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Developing Country activities
@@ -382,12 +397,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/5.1
+- identifier:
+  - prefix: CIML
+    number: 2005/5.1
   doi: 10.63493/resolutions/ciml20055.1
   urn: urn:oiml:doc:ciml:resolution:2005-5.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on PWGDC activities
@@ -400,18 +417,18 @@ resolutions:
         to Dr. Seiler for his efficient chairmanship.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'The Committee expressed its thanks to the Members of the Permanent
         Working Group for their involvement in this work and for the responsibilities
         that they have undertaken.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Rapport relatif aux activités du PWGDC
     subject: CIML
@@ -424,24 +441,26 @@ resolutions:
         présidence.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a exprimé ses remerciements aux Membres du Groupe de Travail
         Permanent pour leur implication dans ce travail et pour les responsabilités
         qu''ils ont endossées.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/5.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/5.2
   doi: 10.63493/resolutions/ciml20055.2
   urn: urn:oiml:doc:ciml:resolution:2005-5.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on JCDCMAS activities
@@ -454,9 +473,9 @@ resolutions:
         Countries, chaired in 2005 by the Bureau.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Rapport relatif aux activités du JCDCMAS
     subject: CIML
@@ -468,15 +487,17 @@ resolutions:
         aux Pays en Développement, présidé en 2005 par le Bureau.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/6
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/6
   doi: 10.63493/resolutions/ciml200506
   urn: urn:oiml:doc:ciml:resolution:2005-06
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Liaisons
@@ -493,15 +514,17 @@ resolutions:
         concernant les activités de liaison.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/6.1
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/6.1
   doi: 10.63493/resolutions/ciml20056.1
   urn: urn:oiml:doc:ciml:resolution:2005-6.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Presentation by the Bureau on liaison activities
@@ -513,15 +536,17 @@ resolutions:
         concerning liaison activities.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/6.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/6.2
   doi: 10.63493/resolutions/ciml20056.2
   urn: urn:oiml:doc:ciml:resolution:2005-6.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Updates by Liaison Organizations
@@ -533,9 +558,9 @@ resolutions:
         organizations concerning their activities and thanked their representatives:
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Informations de la part les Organisations de Liaison
     subject: CIML
@@ -547,15 +572,17 @@ resolutions:
         :
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/6.3
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/6.3
   doi: 10.63493/resolutions/ciml20056.3
   urn: urn:oiml:doc:ciml:resolution:2005-6.3
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Updates by RLMOs
@@ -567,9 +594,9 @@ resolutions:
         Organizations concerning their activities and thanked their representatives:
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Informations de la part les RLMO
     subject: CIML
@@ -581,15 +608,17 @@ resolutions:
         leurs représentants :
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/7
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/7
   doi: 10.63493/resolutions/ciml200507
   urn: urn:oiml:doc:ciml:resolution:2005-07
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: BIML activities
@@ -601,12 +630,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/7.1
+- identifier:
+  - prefix: CIML
+    number: 2005/7.1
   doi: 10.63493/resolutions/ciml20057.1
   urn: urn:oiml:doc:ciml:resolution:2005-7.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Organization of the Bureau
@@ -620,9 +651,9 @@ resolutions:
         suitable candidate would be recruited shortly.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Organisation du Bureau
     subject: CIML
@@ -635,15 +666,17 @@ resolutions:
         2004 ; un candidat approprié sera promptement recruté.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/7.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/7.2
   doi: 10.63493/resolutions/ciml20057.2
   urn: urn:oiml:doc:ciml:resolution:2005-7.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Communication, web site
@@ -656,9 +689,9 @@ resolutions:
         and the OIML web site.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'The Committee expressed its high appreciation of the achievements
         presented and encouraged the Bureau to continue this development. In particular,
@@ -667,9 +700,9 @@ resolutions:
         to all Members to promote legal metrology in their countries.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Communication, site Internet
     subject: CIML
@@ -681,9 +714,9 @@ resolutions:
         et le site Internet de I''OIML.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a exprimé ses remerciements pour les résultats présentés
         et a encouragé le Bureau à poursuivre en ce sens. En particulier, un nouveau
@@ -692,15 +725,17 @@ resolutions:
         Membres afin de promouvoir la métrologie légale dans leur pays.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/7.3
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/7.3
   doi: 10.63493/resolutions/ciml20057.3
   urn: urn:oiml:doc:ciml:resolution:2005-7.3
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Report on BIML activities and work program for 2005
@@ -713,9 +748,9 @@ resolutions:
         and Action Plan presented during the Meeting.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Rapport relatif aux activités du BIML et programme de travail en 2005
     subject: CIML
@@ -727,15 +762,17 @@ resolutions:
         et le Plan d''Action présentés au cours de la Réunion.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/8
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/8
   doi: 10.63493/resolutions/ciml200508
   urn: urn:oiml:doc:ciml:resolution:2005-08
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Technical activities
@@ -748,9 +785,9 @@ resolutions:
         of Recommendations to be approved and the situation of certain TCs/SCs.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Activités techniques
     subject: CIML
@@ -762,15 +799,17 @@ resolutions:
         Recommandations à approuver et la situation de certains TC/SC.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/8.1
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/8.1
   doi: 10.63493/resolutions/ciml20058.1
   urn: urn:oiml:doc:ciml:resolution:2005-8.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Approval of International Recommendations and Documents
@@ -783,9 +822,9 @@ resolutions:
         prior to the CIML Meeting for on-line postal ballot.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Approbation de Documents et Recommandations Internationaux
     subject: CIML
@@ -797,15 +836,17 @@ resolutions:
         Internet juste avant la Réunion du CIML pour un vote en ligne.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/8.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/8.2
   doi: 10.63493/resolutions/ciml20058.2
   urn: urn:oiml:doc:ciml:resolution:2005-8.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Examination of the situation of certain TCs/SCs
@@ -816,9 +857,9 @@ resolutions:
       message: 'The Committee decided:
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: approves
       message: 'The Committee approved the proposal from TC 3/SC 5 to use the Guides
         for the application of ISO 17025 and Guide 65 drawn up by the CPR on R 60
@@ -826,18 +867,18 @@ resolutions:
         for Technical Work.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'The Committee authorized the Bureau, together with the TC 4 Secretariat
         (Slovakia), to decide together with ILAC on the best way of publishing the
         joint publication of the revised D 10.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the Bureau to organize a meeting with the
         Secretariats of TC 8/SC 7 and TC 8/SC 8 and to redefine the scope of these
@@ -845,9 +886,9 @@ resolutions:
         redundancies, discrepancies and duplication of work.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Examen de la situation de certains TC/SC
     subject: CIML
@@ -857,9 +898,9 @@ resolutions:
       message: 'Le Comité a décidé :
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé la proposition du TC 3/SC 5 visant, d''une part,
         à utiliser les Guides en application de la norme ISO 17025 et du Guide 65
@@ -868,18 +909,18 @@ resolutions:
         au Travail Technique.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a autorisé le Bureau, en partenariat avec le Secrétariat
         du TC 4 (Slovaquie), à décider avec l''ILAC de la meilleure façon de publier
         la publication commune de la révision du D 10.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau d''organiser une réunion avec les Secrétariats
         des TC 8/SC 7 et TC 8/SC 8 afin de redéfinir la portée des projets de ces
@@ -887,15 +928,17 @@ resolutions:
         redondance, divergence et duplication des tâches.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/8.3
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/8.3
   doi: 10.63493/resolutions/ciml20058.3
   urn: urn:oiml:doc:ciml:resolution:2005-8.3
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: MAA
@@ -908,9 +951,9 @@ resolutions:
         the MAA and the outcome of the first CPR Meeting.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'The Committee asked the Bureau to submit the CPR proposals, amended
         according to the comments made at this CIML Meeting and accompanied by a detailed
@@ -918,9 +961,9 @@ resolutions:
         The proposals to be voted on are related to the following issues:
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: MAA
     subject: CIML
@@ -932,9 +975,9 @@ resolutions:
         ainsi que les résultats de la première Réunion du CPR.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au Bureau de présenter les propositions du CPR
         - modifiées conformément aux remarques formulées lors de la présente Réunion
@@ -943,15 +986,17 @@ resolutions:
         soumises au vote concernent les points suivants :
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/8.4
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/8.4
   doi: 10.63493/resolutions/ciml20058.4
   urn: urn:oiml:doc:ciml:resolution:2005-8.4
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Progress in the revision of the Directives
@@ -966,9 +1011,9 @@ resolutions:
         accelerate the work.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Progrès concernant la révision des Directives
     subject: CIML
@@ -982,15 +1027,17 @@ resolutions:
         de l''information afin d''accélérer le travail de manière significative.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/9
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/9
   doi: 10.63493/resolutions/ciml200509
   urn: urn:oiml:doc:ciml:resolution:2005-09
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Human resource matters
@@ -1002,12 +1049,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/9.1
+- identifier:
+  - prefix: CIML
+    number: 2005/9.1
   doi: 10.63493/resolutions/ciml20059.1
   urn: urn:oiml:doc:ciml:resolution:2005-9.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Election of the CIML First Vice-President
@@ -1021,9 +1070,9 @@ resolutions:
         in 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: instructs
       message: 'The Committee instructed the CIML President to draw up a draft procedure
         for the election of the CIML President and Vice President. This procedure
@@ -1031,9 +1080,9 @@ resolutions:
         41st CIML Meeting.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Élection du Premier Vice-Président du CIML
     subject: CIML
@@ -1046,9 +1095,9 @@ resolutions:
         du CIML en 2006.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Président du CIML de rédiger un projet de procédure
         pour l''élection des Président et Vice-Président du CIML. Cette procédure
@@ -1056,15 +1105,17 @@ resolutions:
         lors de la 41ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/9.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/9.2
   doi: 10.63493/resolutions/ciml20059.2
   urn: urn:oiml:doc:ciml:resolution:2005-9.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Extension of the contract of the BIML Director
@@ -1077,9 +1128,9 @@ resolutions:
         to 31 December 2010.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Prolongation du contrat du Directeur du BIML
     subject: CIML
@@ -1091,15 +1142,17 @@ resolutions:
         2006 au 31 décembre 2010.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/9.3
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/9.3
   doi: 10.63493/resolutions/ciml20059.3
   urn: urn:oiml:doc:ciml:resolution:2005-9.3
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Appointment of a new Assistant Director in 2007
@@ -1111,9 +1164,9 @@ resolutions:
         Committee as follows:
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: Nomination d'un nouvel Adjoint au Directeur en 2007
     subject: CIML
@@ -1124,15 +1177,17 @@ resolutions:
         qui suit :
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/10
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/10
   doi: 10.63493/resolutions/ciml200510
   urn: urn:oiml:doc:ciml:resolution:2005-10
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: Future meetings
@@ -1144,12 +1199,14 @@ resolutions:
     subject: CIML
     considerations: []
     actions: []
-- identifier: CIML/2005/10.1
+- identifier:
+  - prefix: CIML
+    number: 2005/10.1
   doi: 10.63493/resolutions/ciml200510.1
   urn: urn:oiml:doc:ciml:resolution:2005-10.1
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: 41st CIML Meeting (2006)
@@ -1163,9 +1220,9 @@ resolutions:
         their invitation, which was confirmed as accepted by the Committee.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: 41 $ ^{\mathrm{e m e}} $ Réunion du CIML (2006)
     subject: CIML
@@ -1178,15 +1235,17 @@ resolutions:
         pour leur invitation, dont l''acceptation a été confirmée par le Comité.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
-- identifier: CIML/2005/10.2
+      date_effective:
+        date: '2005-06-18'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2005/10.2
   doi: 10.63493/resolutions/ciml200510.2
   urn: urn:oiml:doc:ciml:resolution:2005-10.2
   dates:
-  - start: '2005-06-18'
-    kind: decision
+  - date: '2005-06-18'
+    type: decided
   localizations:
   - language_code: eng
     title: 42nd CIML Meeting (2007)
@@ -1199,9 +1258,9 @@ resolutions:
         will be taken at the $ 41^{\mathrm{st}} $ CIML Meeting.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective
   - language_code: fra
     title: "$ 4 2^{\\mathrm{e m e}} $ Réunion du CIML (2007)"
     subject: CIML
@@ -1213,6 +1272,6 @@ resolutions:
         Une décision sera prise lors de la 41ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2005-06-18'
-        kind: effective
+      date_effective:
+        date: '2005-06-18'
+        type: effective

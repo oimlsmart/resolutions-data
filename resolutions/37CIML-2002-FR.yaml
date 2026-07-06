@@ -6,26 +6,22 @@
 ---
 metadata:
   title: 37th CIML Meeting — Minutes (FR, Bulletin)
-  dates:
-  - start: '2002-10-01'
-    end: '2002-10-04'
-    kind: meeting
   source: OIML CIML Secretariat (BIML)
-  venue: Saint-Jean-de-Luz, France
   city: FRSJL
   country_code: FR
-  language: fr
   title_localized:
   - language_code: fra
     title: 37th CIML Meeting — Minutes (FR, Bulletin)
   meeting_urn: urn:oiml:ciml:meeting:ciml-37
-resolutions:
-- identifier: CIML/2002/4
+decisions:
+- identifier:
+  - prefix: CIML
+    number: 2002/4
   doi: 10.63493/resolutions/ciml200204
   urn: urn:oiml:doc:ciml:resolution:2002-04
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Nouveaux Membres - Adhésions attendues
@@ -37,15 +33,17 @@ resolutions:
         niveau de l''appartenance à l''OIML:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/4
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/4
   doi: 10.63493/resolutions/ciml200204
   urn: urn:oiml:doc:ciml:resolution:2002-04
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Situation de certains Membres
@@ -58,15 +56,17 @@ resolutions:
         de pays qui n''étaient pas à jour dans le paiement de leurs cotisations.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/5
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/5
   doi: 10.63493/resolutions/ciml200205
   urn: urn:oiml:doc:ciml:resolution:2002-05
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Adoption du rapport de l'expert comptable pour 2001
@@ -79,15 +79,17 @@ resolutions:
         qu''aucun commentaire n''a été reçu par le Bureau.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/5
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/5
   doi: 10.63493/resolutions/ciml200205
   urn: urn:oiml:doc:ciml:resolution:2002-05
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation financiere pour 2002 et 2003
@@ -104,15 +106,17 @@ resolutions:
         était aussi raisonnablement bas, et stable.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/5
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/5
   doi: 10.63493/resolutions/ciml200205
   urn: urn:oiml:doc:ciml:resolution:2002-05
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Analyse des coûts de fonctionnement du BIML
@@ -131,15 +135,17 @@ resolutions:
         dun cabinet indépendant de comptables et également du Conseil de la Présidence.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Modification des Statuts du Personnel
@@ -155,15 +161,17 @@ resolutions:
         les soumettre au CIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Personnel du BIML
@@ -176,15 +184,17 @@ resolutions:
         du Personnel du Bureau depuis la dernière Réunion du Comité:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Activités du BIML
@@ -197,15 +207,17 @@ resolutions:
         Réunion du Comité. Il a commenté certaines de ces activités:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Progrès dans l'utilisation d'Internet et du courrier électronique
@@ -214,27 +226,31 @@ resolutions:
     actions:
     - type: notes
       message: "## M. Faber a demandé à M. Magaña d'introduire ce point.\n"
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/8
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Programme de travail des TC/SC
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/2002/8
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation de certains TC/SC
@@ -249,15 +265,17 @@ resolutions:
         plus tard.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/8
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Accélération du travail technique
@@ -297,15 +315,17 @@ resolutions:
         cas en étroite coopération avec les organismes concernés.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/8
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Approbation des projets de Recommandations
@@ -317,15 +337,17 @@ resolutions:
         de vote tels qu''indiqués ci-dessous:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/9
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/9
   doi: 10.63493/resolutions/ciml200209
   urn: urn:oiml:doc:ciml:resolution:2002-09
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Informations générales
@@ -347,15 +369,17 @@ resolutions:
         le chiffre de 260.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/9
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/9
   doi: 10.63493/resolutions/ciml200209
   urn: urn:oiml:doc:ciml:resolution:2002-09
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Nouvelles Recommandations applicables dans le Système
@@ -371,15 +395,17 @@ resolutions:
         et seraient publiés.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/9
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/9
   doi: 10.63493/resolutions/ciml200209
   urn: urn:oiml:doc:ciml:resolution:2002-09
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Plans pour les développements futurs
@@ -393,15 +419,17 @@ resolutions:
         1999-2002.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Arrangement d'Acceptation Mutuelle (MAA)
@@ -416,15 +444,17 @@ resolutions:
         de présenter l''état actuel du travail sur cette question.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Documents Horizontaux
@@ -448,15 +478,17 @@ resolutions:
         afin de clarifier leur emploi et leur mode d''approbation.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Rapport sur l'étude Les Bénéfices apportés par la Métrologie Légale dans
@@ -475,15 +507,17 @@ resolutions:
         une analyse rudimentaire des coûts et bénéfices pour la métrologie.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Examen préliminaire sur les résultats du Seminaire Que Sera la Métrologie
@@ -498,15 +532,17 @@ resolutions:
         légale. Il faudrait considérer la possibilité de tenir un
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/11
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/11
   doi: 10.63493/resolutions/ciml200211
   urn: urn:oiml:doc:ciml:resolution:2002-11
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Présentation des programmes de la Banque Mondiale
@@ -522,15 +558,17 @@ resolutions:
         diffusées, peut-être par le Bulletin OIML et/ou le site Internet.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/11
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/11
   doi: 10.63493/resolutions/ciml200211
   urn: urn:oiml:doc:ciml:resolution:2002-11
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Activités du Conseil de Développement, plan d'action et évolutions possibles
@@ -549,15 +587,17 @@ resolutions:
         1er Octobre 2002.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/12
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/12
   doi: 10.63493/resolutions/ciml200212
   urn: urn:oiml:doc:ciml:resolution:2002-12
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Organisations Régionales de Métrologie Légale (LRMO)
@@ -576,15 +616,17 @@ resolutions:
         de politique générale.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/12
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/12
   doi: 10.63493/resolutions/ciml200212
   urn: urn:oiml:doc:ciml:resolution:2002-12
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Autres institutions (Convention du Mètre, ILAC, ISO, OMC, etc.)
@@ -600,15 +642,17 @@ resolutions:
         M. Kovalevsky, M. Moscati, M. Van Koughnett, M. Kaarls, M. Quinn et M. Wallard.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/12
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/12
   doi: 10.63493/resolutions/ciml200212
   urn: urn:oiml:doc:ciml:resolution:2002-12
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Information sur les développements en métrologie légale dans les Régions
@@ -626,15 +670,17 @@ resolutions:
         l''examen de cette requête.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/14
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/14
   doi: 10.63493/resolutions/ciml200214
   urn: urn:oiml:doc:ciml:resolution:2002-14
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)
@@ -646,15 +692,17 @@ resolutions:
         remercié M. Tanaka pour sa présentation.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/14
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/14
   doi: 10.63493/resolutions/ciml200214
   urn: urn:oiml:doc:ciml:resolution:2002-14
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e m e}} $
@@ -667,15 +715,17 @@ resolutions:
         M. Kochsiek pour l''invitation.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/14
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/14
   doi: 10.63493/resolutions/ciml200214
   urn: urn:oiml:doc:ciml:resolution:2002-14
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)
@@ -687,15 +737,17 @@ resolutions:
         du CIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/4
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/4
   doi: 10.63493/resolutions/ciml200204
   urn: urn:oiml:doc:ciml:resolution:2002-04
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Nouveaux Membres - Adhésions attendues
@@ -708,15 +760,17 @@ resolutions:
         les adhésions attendues. Deux changements dans les adhésions ont été signalés:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/4
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/4
   doi: 10.63493/resolutions/ciml200204
   urn: urn:oiml:doc:ciml:resolution:2002-04
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Situation de certains Membres
@@ -729,15 +783,17 @@ resolutions:
         demandé par le CIML lors de sa 36ème Réunion:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/5
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/5
   doi: 10.63493/resolutions/ciml200205
   urn: urn:oiml:doc:ciml:resolution:2002-05
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Adoption du Rapport Comptable pour 2001
@@ -750,15 +806,17 @@ resolutions:
         12ème Conférence.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/5
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/5
   doi: 10.63493/resolutions/ciml200205
   urn: urn:oiml:doc:ciml:resolution:2002-05
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation financière pour 2002 et 2003
@@ -771,23 +829,25 @@ resolutions:
         était conforme aux décisions de la 11ème Conférence.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a également noté les informations fournies par le Bureau
         pour l''année 2003.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/5
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/5
   doi: 10.63493/resolutions/ciml200205
   urn: urn:oiml:doc:ciml:resolution:2002-05
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Analyse des coûts de fonctionnement du BIML
@@ -799,23 +859,25 @@ resolutions:
         les nouveaux plans comptables puissent être approuvés par la 12ème Conférence.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''un rapport présenté par son Président concernant
         les activités du Conseil de la Présidence depuis octobre 2001.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Amendements aux Statuts du Personnel
@@ -830,15 +892,17 @@ resolutions:
         approbation.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Personnel du BIML
@@ -851,15 +915,17 @@ resolutions:
         ainsi les effectifs au niveau de ceux de l''année 2000.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Activités du BIML
@@ -873,15 +939,17 @@ resolutions:
         OIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/7
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/7
   doi: 10.63493/resolutions/ciml200207
   urn: urn:oiml:doc:ciml:resolution:2002-07
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Progrès dans l'utilisation d'Internet et du courrier électronique
@@ -897,27 +965,31 @@ resolutions:
         de travail plus modernes.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/8
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Programme de travail des TC/SC
     subject: "(The CIML)"
     considerations: []
     actions: []
-- identifier: CIML/2002/8
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Examen de la situation de certains TC/SC
@@ -932,16 +1004,16 @@ resolutions:
         indiqués comme projets de haute priorité et prioritaires.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé les projets suivants tels que proposés par:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au TC 4 et au TC 3/SC 1 de procéder à une enquête
         commune visant à définir lequel d''entre eux serait chargé du nouveau projet
@@ -949,18 +1021,18 @@ resolutions:
         de mesure soumis au contrôle légal proposé par le TC 4.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a attribué le Secrétariat du TC 5 (encore vacant) à la Slovénie,
         qui s''est déclarée volontaire pour assumer la responsabilité de ce Comité
         Technique.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a créé un nouveau Sous-comité Technique TC 17/SC 8 Instruments
         pour l''analyse qualitative des produits agricoles, en a attribué le Secrétariat
@@ -968,23 +1040,25 @@ resolutions:
         de mesure utilisés pour la détermination des protéines dans les grains.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau et le TC 3 d''accélérer le travail sur
         la révision de OIML D 1 Loi de métrologie.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/8
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Accélération des travaux techniques
@@ -1000,15 +1074,17 @@ resolutions:
         le Bureau de présenter un rapport lors de la 38ème Réunion du CIML à ce sujet.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/8
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/8
   doi: 10.63493/resolutions/ciml200208
   urn: urn:oiml:doc:ciml:resolution:2002-08
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Adoption des projets de Recommandations et de Documents
@@ -1019,9 +1095,9 @@ resolutions:
       message: 'Le Comité a approuvé les projets de Recommandations suivants:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a approuvé la proposition du BIML d''approuver la Révision
         de la R 111 Poids des classes $ E_{1}, $ $ E_{2}, $ $ F_{1}, $ $ F_{2}, $
@@ -1029,15 +1105,17 @@ resolutions:
         du CIML dès que le projet de Recommandation final sera disponible.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/9
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/9
   doi: 10.63493/resolutions/ciml200209
   urn: urn:oiml:doc:ciml:resolution:2002-09
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Informations générales
@@ -1051,15 +1129,17 @@ resolutions:
         concernant cette situation.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/9
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/9
   doi: 10.63493/resolutions/ciml200209
   urn: urn:oiml:doc:ciml:resolution:2002-09
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Nouvelles Recommandations applicables au Système
@@ -1071,24 +1151,26 @@ resolutions:
         au Système dès sa publication:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a également décidé que les Recommandations suivantes deviendraient
         applicables au Système dès que les Formats de Rapport d''Essai associés seront
         approuvés par vote par correspondance du CIML et publiés:
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/9
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/9
   doi: 10.63493/resolutions/ciml200209
   urn: urn:oiml:doc:ciml:resolution:2002-09
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Plans pour les développements futurs
@@ -1104,32 +1186,34 @@ resolutions:
         de mesure lors de
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a aussi demandé au Bureau d''inclure de nouvelles dispositions
         conformément à la révision des Directives OIML pour les Travaux Techniques
         - Partie 2.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au TC 3/SC 5 de commencer à travailler sur une
         extension du Système à la certification des instruments de mesure individuels.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Arrangement d'acceptation mutuelle (MAA)
@@ -1146,15 +1230,17 @@ resolutions:
         approprié, d''autres moyens ad-hoc pour un soutien maximal.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Documents horizontaux
@@ -1169,15 +1255,17 @@ resolutions:
         CIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Rapport sur l'étude Les Bénéfices de la Métrologie Légale pour l'Économie
@@ -1191,15 +1279,17 @@ resolutions:
         sur Les Bénéfices de la Métrologie Légale pour l''Économie et pour la Société.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/10
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/10
   doi: 10.63493/resolutions/ciml200210
   urn: urn:oiml:doc:ciml:resolution:2002-10
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 4 Examen préliminaire des résultats du Seminaire Métrologie Légale en 2020
@@ -1212,33 +1302,35 @@ resolutions:
         concernant les activités du
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Président et le Bureau de prendre en compte
         les propositions faites par le Groupe de Travail pour établir un programme
         de travail détaillé qui serait intégré au Plan d''Action OIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a demandé au Groupe de Travail de développer des propositions
         pour une nouvelle structure du Conseil de Développement qui puisse être approuvée
         par la 12ème Conférence.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/12
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/12
   doi: 10.63493/resolutions/ciml200212
   urn: urn:oiml:doc:ciml:resolution:2002-12
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 Organisations Régionales de Métrologie Légale (RLMO)
@@ -1253,15 +1345,17 @@ resolutions:
         à la 38ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/12
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/12
   doi: 10.63493/resolutions/ciml200212
   urn: urn:oiml:doc:ciml:resolution:2002-12
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 Autres institutions (Convention du Mètre, ILAC, ISO, OMC, etc.)
@@ -1273,18 +1367,18 @@ resolutions:
         ce qui concerne les contacts avec la Convention du Mètre et ILAC.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a chargé le Bureau de publier les comptes-rendus des réunions
         tenues en particulier avec le BIPM et ILAC dans la Page des Membres du site
         Internet de l''OIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note d''informations fournies par le Directeur du
         BIML concernant un document de politique générale actuellement en cours de
@@ -1293,9 +1387,9 @@ resolutions:
         de ce document pour approbation à la 38ème Réunion du CIML.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note avec grand intérêt d''une présentation faite
         par Mme Liu, Secrétaire du Comité TBT de l''OMC. Le Comité a chargé le Bureau
@@ -1303,15 +1397,17 @@ resolutions:
         but d''organiser des séminaires au niveau régional.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/12
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/12
   doi: 10.63493/resolutions/ciml200212
   urn: urn:oiml:doc:ciml:resolution:2002-12
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 Informations sur les activités de métrologie légale dans les Régions
@@ -1324,9 +1420,9 @@ resolutions:
         de leurs régions.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
     - type: notes
       message: 'Le Comité a pris note des informations fournies par son Président
         en ce qui concerne l''élection d''un nouveau Président qui aura lieu lors
@@ -1336,15 +1432,17 @@ resolutions:
         décision.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/14
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/14
   doi: 10.63493/resolutions/ciml200214
   urn: urn:oiml:doc:ciml:resolution:2002-14
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 1 $ 38^{\mathrm{ème}} $ Réunion du CIML (2003)
@@ -1358,15 +1456,17 @@ resolutions:
         les délégués japonais.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/14
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/14
   doi: 10.63493/resolutions/ciml200214
   urn: urn:oiml:doc:ciml:resolution:2002-14
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 2 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e m e}} $
@@ -1380,15 +1480,17 @@ resolutions:
         de l''Allemagne à tenir ces réunions.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
-- identifier: CIML/2002/14
+      date_effective:
+        date: '2002-10-01'
+        type: effective
+- identifier:
+  - prefix: CIML
+    number: 2002/14
   doi: 10.63493/resolutions/ciml200214
   urn: urn:oiml:doc:ciml:resolution:2002-14
   dates:
-  - start: '2002-10-01'
-    kind: decision
+  - date: '2002-10-01'
+    type: decided
   localizations:
   - language_code: fra
     title: 3 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)
@@ -1400,6 +1502,6 @@ resolutions:
         cette réunion à Paris à l''occasion du 50ème anniversaire de l''Organisation.
 
         '
-      dates:
-      - start: '2002-10-01'
-        kind: effective
+      date_effective:
+        date: '2002-10-01'
+        type: effective
