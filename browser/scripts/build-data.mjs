@@ -109,6 +109,7 @@ function loadMeetingYamls() {
       doi: buildMeetingDoi(parsed, slug),
       resolution_count: 0,
       acclamation_count: 0,
+      languages: [],
     });
   }
   return bySlug;
@@ -195,7 +196,7 @@ function main() {
     // count reflects logical resolutions (not one-per-language). The
     // merged YAMLs already collapse EN+FR into localizations[], so one
     // record per identifier is the natural count.
-    if (!meeting._seenIdentifiers) meeting._seenIdentifiers = new Set();
+    if (!meeting._seenIdentifiers) meeting._seenIdentifiers = new Map();
     for (const res of parsed.decisions) {
       const records = buildResolutionRecords(res, source_file, metadata);
       for (const record of records) {
@@ -204,17 +205,29 @@ function main() {
         allResolutions.push(record);
       }
       const key = records[0]?.identifier || records[0]?.id;
-      if (key && !meeting._seenIdentifiers.has(key)) {
-        meeting._seenIdentifiers.add(key);
-        meeting.resolution_count++;
-        if (records[0]?.is_acclamation) meeting.acclamation_count++;
+      if (key) {
+        if (!meeting._seenIdentifiers.has(key)) {
+          meeting._seenIdentifiers.set(key, { langs: new Set(), isAcclamation: !!records[0]?.is_acclamation });
+        }
+        for (const rec of records) {
+          if (rec.language) meeting._seenIdentifiers.get(key).langs.add(rec.language);
+        }
       }
     }
   }
 
-  // Strip the temporary identifier-tracking set before serialising.
-  for (const m of meetingsBySlug.values()) {
-    delete m._seenIdentifiers;
+  // Compute per-meeting totals + language availability.
+  for (const meeting of meetingsBySlug.values()) {
+    const idents = meeting._seenIdentifiers || new Map();
+    meeting.resolution_count = idents.size;
+    meeting.acclamation_count = 0;
+    const langs = new Set();
+    for (const info of idents.values()) {
+      if (info.isAcclamation) meeting.acclamation_count++;
+      for (const l of info.langs) langs.add(l);
+    }
+    meeting.languages = Array.from(langs).sort();
+    delete meeting._seenIdentifiers;
   }
 
   allResolutions.sort(sortResolutions);
