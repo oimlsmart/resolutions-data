@@ -73,7 +73,7 @@
         <a v-if="resolution.group_id" :href="`/groups/${resolution.group_id}/`" class="std-page__badge std-page__badge--link badge-group">{{ resolution.group_id.toUpperCase() }}</a>
       </div>
 
-      <h1 v-if="resolution.title" class="std-page__title res-detail-title">{{ resolution.title }}</h1>
+      <h1 v-if="resolution.title" class="std-page__title res-detail-title">{{ displayTitle }}</h1>
 
       <p v-if="displaySourceTitle" class="res-detail-subtitle">
         {{ displaySourceTitle }}
@@ -417,6 +417,20 @@ const secondaryResolution = computed(() => {
 const resolution = computed(() => primaryResolution.value)
 
 // Translate the parenthesised placeholder subjects ("(The CIML)" /
+// Resolution title for display. Strips the redundant "Agenda Item N: "
+// prefix when an agenda badge is already shown next to the title
+// (otherwise the user sees the same fact twice — once in the badge,
+// once in the title).
+const displayTitle = computed(() => {
+  const raw = resolution.value?.title || ''
+  if (!raw) return ''
+  if (resolution.value?.agenda_item && raw.startsWith('Agenda Item ')) {
+    const colonIdx = raw.indexOf(':')
+    if (colonIdx > 0) return raw.substring(colonIdx + 1).trim()
+  }
+  return raw
+})
+
 // "(The Conference)") to the active UI language. Real subject strings
 // (e.g. "CIML", "OIML Conference") are displayed verbatim.
 const displaySubject = computed(() => {

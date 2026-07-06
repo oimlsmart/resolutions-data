@@ -2,9 +2,11 @@
 
 module Oiml
   module ResolutionsData
-    autoload :BodyType,         "oiml/resolutions_data/body_type"
-    autoload :IdentifierParser, "oiml/resolutions_data/identifier_parser"
-    autoload :Version,          "oiml/resolutions_data/version"
+    autoload :AgendaBuilder,            "oiml/resolutions_data/agenda_builder"
+    autoload :BodyType,                 "oiml/resolutions_data/body_type"
+    autoload :DecisionCollectionBuilder, "oiml/resolutions_data/decision_collection_builder"
+    autoload :IdentifierParser,         "oiml/resolutions_data/identifier_parser"
+    autoload :Version,                  "oiml/resolutions_data/version"
 
     module Ocr
       autoload :MarkdownReader, "oiml/resolutions_data/ocr/markdown_reader"
