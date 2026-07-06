@@ -279,7 +279,10 @@ def extract_sections(md)
 
   # Match either Arabic (## N <title> or ## N.M <title>) or Roman
   # (## I — <title>, ## IV b — <title>, ...) section headers.
-  header_re = /\A##\s+(\d{1,2}(?:\.\d{1,2})?(?:\.\d+)?(?:\s+[a-z])?|[IVX]+(?:\s+[a-z])?)\s*[\.\-—–]\s*(.*)\z/
+  # Separator may be punctuation (., -, em/en dash) OR whitespace —
+  # some Bulletins use "## 1 ADOPTION DU COMPTE RENDU" with no
+  # punctuation between number and title.
+  header_re = /\A##\s+(\d{1,2}(?:\.\d{1,2})?(?:\.\d+)?(?:\s+[a-z])?|[IVX]+(?:\s+[a-z])?)\s*(?:[\.\-—–]\s*|\s+)(.*)\z/
 
   lines.each do |line|
     if (m = line.match(header_re))
@@ -314,10 +317,15 @@ Dir.glob(File.join(RAW_DIR, "*.json")).sort.each do |path|
   # Skip Conference minutes (they are OIML Conference, not CIML, and our
   # ciml-N-{lang} filename scheme doesn't apply). Detection: cover mentions
   # "International Conference on Legal Metrology" or "Conférence …
-  # Métrologie Légale" before any CIML ordinal pattern.
-  next if /International Conference on Legal Metrology|Conf[ée]rence Internationale de M[ée]trologie/i.match?(head)
+  # Métrologie Légale" AS THE DOCUMENT'S TITLE (not as a passing
+  # reference). CIML minutes routinely mention "...co-located with the
+  # Nth Conference..." in their narrative — that's not a Conference doc.
+  # Only skip when no CIML ordinal can be detected.
+  is_conf_doc = /International Conference on Legal Metrology|Conf[ée]rence Internationale de M[ée]trologie/i.match?(head)
+  ciml_ord = detect_meeting_ordinal(head)
+  next if is_conf_doc && ciml_ord.nil?
 
-  ordinal = detect_meeting_ordinal(head)
+  ordinal = ciml_ord
   lang = detect_language(head)
   next unless ordinal
 

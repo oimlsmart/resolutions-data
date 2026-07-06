@@ -6,31 +6,127 @@ identifier:
 urn: urn:oiml:ciml:meeting:ciml-29
 status: final
 items:
+- label: '1'
+  kind: numbered
+  title: ADOPTION DU COMPTE RENDU DE LA VINGT-HUITIEME REUNION DU COMITE
+  outcome: adopted
 - label: '2'
   kind: numbered
-  title: 1 Nouveaux Membres - Perspectives d'adhésions
+  title: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
+  outcome: discussed
+- label: '2.1'
+  kind: numbered
+  title: Nouveaux Membres - Perspectives d'adhésions
+  outcome: discussed
+- label: '2.2'
+  kind: numbered
+  title: Situation de certains Membres - si approprié
   outcome: discussed
 - label: '3'
   kind: numbered
-  title: 1 Adoption du rapport comptable pour 1993
+  title: SITUATION FINANCIERE
+  outcome: discussed
+- label: '3.1'
+  kind: numbered
+  title: Adoption du rapport comptable pour 1993
   outcome: adopted
+- label: '3.2'
+  kind: numbered
+  title: Examen de la situation financiere pour 1994
+  outcome: discussed
 - label: '4'
   kind: numbered
-  title: 1 Rapport sur l'établissement définitif des TC et SC
+  title: COMITÉS TECHNIQUES ET SOUS-COMITÉS
+  outcome: discussed
+- label: '4.1'
+  kind: numbered
+  title: Rapport sur l'établissement définitif des TC et SC
+  outcome: discussed
+- label: '5'
+  kind: numbered
+  title: APPROBATION DE RECOMMANDATIONS INTERNATIONALES ET D'ANNEXES À DES RECOMMANDATIONS
   outcome: discussed
 - label: '6'
   kind: numbered
-  title: 1 Situation actuelle du Système de Certificats OIML
+  title: CERTIFICATION
+  outcome: discussed
+- label: '6.1'
+  kind: numbered
+  title: Situation actuelle du Système de Certificats OIML
+  outcome: discussed
+- label: '6.2'
+  kind: numbered
+  title: Nouvelles Recommandations pouvant être appliquées au Système
+  outcome: discussed
+- label: '6.3'
+  kind: numbered
+  title: Evolution du Système
+  outcome: discussed
+- label: '6.4'
+  kind: numbered
+  title: Séminaire sur la certification OIML
+  outcome: discussed
+- label: '7'
+  kind: numbered
+  title: POLITIQUE À LONG TERME
+  outcome: discussed
+- label: '8'
+  kind: numbered
+  title: LIAISONS AVEC D'AUTRES ORGANISATIONS
   outcome: discussed
 - label: '9'
   kind: numbered
-  title: 2 Activités futures
+  title: PAYS EN DEVELOPEMENT
+  outcome: discussed
+- label: '9.2'
+  kind: numbered
+  title: Activités futures
   outcome: discussed
 - label: '10'
   kind: numbered
-  title: 1 Bulletin
+  title: COMMUNICATIONS OIML
+  outcome: discussed
+- label: '10.1'
+  kind: numbered
+  title: Bulletin
+  outcome: discussed
+- label: '10.2'
+  kind: numbered
+  title: Brochure d'information générale
+  outcome: discussed
+- label: '11'
+  kind: numbered
+  title: RAPPORT SUR LES ACTIVITES DU BIML (OCTOBRE 1993-SEPTEMBRE 1994)
+  outcome: discussed
+- label: '12'
+  kind: numbered
+  title: INFORMATISATION DU TRAVAIL DU BIML
+  outcome: discussed
+- label: '13'
+  kind: numbered
+  title: PROCHAIN SEMINAIRE TECHNIQUE OIML SUR LES INSTRUMENTS DE PESAGE
+  outcome: discussed
+- label: '14'
+  kind: numbered
+  title: PROCHAINES REUNIONS DU CIML ET DE LA CONFÉRENCE
   outcome: discussed
 - label: '15'
   kind: numbered
-  title: 1 Élection du Président du Comité International de Métrologie Légale
+  title: PRÉSIDENCE ET VICE-PRÉSIDENCE DU COMITÉ INTERNATIONAL DE MÉTROLOGIE LÉGALE
+  outcome: discussed
+- label: '15.1'
+  kind: numbered
+  title: Élection du Président du Comité International de Métrologie Légale
+  outcome: discussed
+- label: '15.2'
+  kind: numbered
+  title: Election d'un Vice-Président du Comité International de Métrologie Légale
+  outcome: discussed
+- label: '16'
+  kind: numbered
+  title: AUTRES QUESTIONS
+  outcome: discussed
+- label: '17'
+  kind: numbered
+  title: DECISIONS ET RESOLUTIONS
   outcome: discussed
