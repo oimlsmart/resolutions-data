@@ -104,7 +104,7 @@ function loadMeetingYamls() {
       venue: parsed.general_area || '',
       city: parsed.city || '',
       country_code: parsed.country_code || '',
-      year: parsed.year ? String(parsed.year) : '',
+      year: parsed.date_range?.start ? String(parsed.date_range.start).substring(0, 4) : '',
       body_type: parsed.committee?.includes('Conference') ? 'conference' : 'ciml',
       doi: buildMeetingDoi(parsed, slug),
       resolution_count: 0,
