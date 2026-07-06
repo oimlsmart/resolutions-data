@@ -154,7 +154,7 @@ R 36 Verification of indenters for hardness testing machines
 
 R 37 Verification of hardness testing machines (Brinell system)
 
-R38 Verification of hardness testing machines (Vickers system)
+R 38 Verification of hardness testing machines (Vickers system)
 
 R 39 Rockwell hardness machines
 
