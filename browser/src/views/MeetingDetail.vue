@@ -75,17 +75,35 @@
       <!-- Agenda section -->
       <div v-if="meeting.agenda_items && meeting.agenda_items.length > 0" class="section-meta animate-up" style="--nth: 2">
         <h2 class="section-meta-title">{{ t('meeting.agenda') }}</h2>
-        <div class="agenda-list">
-          <div
-            v-for="item in meeting.agenda_items"
-            :key="item.label"
-            :id="`agenda-${item.label}`"
-            class="agenda-item"
-          >
-            <span class="agenda-item__label font-mono">{{ item.label }}</span>
-            <span class="agenda-item__title">{{ item.title }}</span>
-            <span v-if="item.outcome === 'resolved'" class="agenda-item__badge">{{ t('meeting.agendaResolved') }}</span>
-          </div>
+        <div class="agenda-table-wrap">
+          <table class="agenda-table">
+            <thead>
+              <tr>
+                <th scope="col" class="agenda-table__th agenda-table__th--seq">{{ t('meeting.agendaItemSeq') }}</th>
+                <th scope="col" class="agenda-table__th agenda-table__th--title">{{ t('meeting.agendaItemTitle') }}</th>
+                <th scope="col" class="agenda-table__th agenda-table__th--outcome">{{ t('meeting.agendaItemOutcome') }}</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                v-for="item in meeting.agenda_items"
+                :key="item.label"
+                :id="`agenda-${item.label}`"
+                class="agenda-table__row"
+                :title="item.urn"
+              >
+                <td class="agenda-table__td agenda-table__td--seq font-mono">{{ item.label }}</td>
+                <td class="agenda-table__td agenda-table__td--title">{{ agendaItemTitle(item) }}</td>
+                <td class="agenda-table__td agenda-table__td--outcome">
+                  <span
+                    v-if="item.outcome"
+                    class="agenda-outcome"
+                    :class="`agenda-outcome--${item.outcome}`"
+                  >{{ t(`meeting.agendaOutcome.${item.outcome}`) }}</span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div>
 
@@ -184,6 +202,17 @@ const meetingResolutions = computed(() => {
   if (!meeting.value) return []
   return isLoaded.value ? getMeetingResolutions(meeting.value.meeting_slug, lang.value) : []
 })
+
+// Many auto-generated agenda items have title "Agenda item N" which
+// duplicates the label and adds no information. Detect that shape and
+// fall back to a localized "—" placeholder so the table doesn't show
+// the same string twice.
+function agendaItemTitle(item: { label: string; title?: string }): string {
+  const t = (item.title || '').trim()
+  if (!t) return '—'
+  if (/^agenda item\s+/i.test(t)) return '—'
+  return t
+}
 </script>
 
 <style scoped>
@@ -267,6 +296,132 @@ const meetingResolutions = computed(() => {
   color: var(--color-slate-800);
 }
 .dark .section-meta-title { color: var(--color-slate-200); }
+
+.agenda-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--color-slate-200);
+  border-radius: 0.375rem;
+  background: var(--color-surface, white);
+}
+.dark .agenda-table-wrap {
+  border-color: var(--color-slate-800);
+  background: rgb(15 23 42 / 0.4);
+}
+
+.agenda-table {
+  width: 100%;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+.agenda-table__th {
+  padding: 0.5rem 0.75rem;
+  text-align: left;
+  font-family: ui-monospace, 'SF Mono', Menlo, monospace;
+  font-size: 0.6875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--color-slate-500);
+  border-bottom: 1px solid var(--color-slate-300);
+  white-space: nowrap;
+}
+.dark .agenda-table__th {
+  color: var(--color-slate-400);
+  border-bottom-color: var(--color-slate-700);
+}
+.agenda-table__th--seq { width: 4.5rem; }
+.agenda-table__th--outcome { width: 8rem; }
+
+.agenda-table__row:hover {
+  background: var(--color-slate-50);
+}
+.dark .agenda-table__row:hover {
+  background: rgba(30, 41, 59, 0.5);
+}
+
+.agenda-table__td {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  vertical-align: top;
+  border-bottom: 1px solid var(--color-slate-100);
+}
+.dark .agenda-table__td {
+  border-bottom-color: var(--color-slate-800);
+}
+.agenda-table__row:last-child .agenda-table__td {
+  border-bottom: 0;
+}
+
+.agenda-table__td--seq {
+  font-variant-numeric: tabular-nums;
+  color: var(--color-blue-accent);
+  white-space: nowrap;
+}
+
+.agenda-table__td--title {
+  color: var(--color-slate-900);
+  word-wrap: break-word;
+  overflow-wrap: anywhere;
+}
+.dark .agenda-table__td--title { color: white; }
+
+.agenda-table__td--outcome { text-align: left; }
+
+.agenda-outcome {
+  display: inline-block;
+  padding: 0.125rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  background: var(--color-slate-100);
+  color: var(--color-slate-700);
+}
+.dark .agenda-outcome {
+  background: var(--color-slate-800);
+  color: var(--color-slate-300);
+}
+.agenda-outcome--resolved,
+.agenda-outcome--adopted {
+  background: rgb(220 252 231);
+  color: rgb(22 101 52);
+}
+.dark .agenda-outcome--resolved,
+.dark .agenda-outcome--adopted {
+  background: rgb(20 83 45 / 0.4);
+  color: rgb(187 247 208);
+}
+.agenda-outcome--discussed {
+  background: rgb(241 245 249);
+  color: rgb(51 65 85);
+}
+.dark .agenda-outcome--discussed {
+  background: rgb(30 41 59 / 0.6);
+  color: rgb(203 213 225);
+}
+.agenda-outcome--deferred,
+.agenda-outcome--withdrawn,
+.agenda-outcome--negatived {
+  background: rgb(254 226 226);
+  color: rgb(153 27 27);
+}
+.dark .agenda-outcome--deferred,
+.dark .agenda-outcome--withdrawn,
+.dark .agenda-outcome--negatived {
+  background: rgb(127 29 29 / 0.4);
+  color: rgb(254 202 202);
+}
+
+@media (max-width: 640px) {
+  .agenda-table__th,
+  .agenda-table__td { padding: 0.4rem 0.5rem; font-size: 0.75rem; }
+  .agenda-table__th--seq,
+  .agenda-table__td--seq { width: 3rem; }
+  .agenda-table__th--outcome,
+  .agenda-table__td--outcome { width: 5rem; }
+}
 
 .meeting-card {
   transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.3s cubic-bezier(0.16, 1, 0.3, 1), border-color 0.3s;
