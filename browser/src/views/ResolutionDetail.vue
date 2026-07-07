@@ -306,7 +306,7 @@ import { getActionColor } from '../data/actionTypes'
 import { formatActionType } from '../data/actionTypes'
 import { formatDate } from '../utils/format'
 import { venueForLang } from '../data/venues'
-import { useClipboard } from '../composables/useClipboard'
+import { useClipboard } from '@edoxen/vue'
 import { useLocalizedRoute } from '../composables/useLocalizedRoute'
 
 const router = useRouter()

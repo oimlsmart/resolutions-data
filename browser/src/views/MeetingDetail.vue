@@ -149,7 +149,7 @@ import { countryCodeToFlag } from '../data/countryFlags'
 import { venueForLang } from '../data/venues'
 import { useI18n } from '../composables/useI18n'
 import { formatDate } from '../utils/format'
-import { useClipboard } from '../composables/useClipboard'
+import { useClipboard } from '@edoxen/vue'
 import { useLocalizedRoute } from '../composables/useLocalizedRoute'
 
 const route = useRoute()
