@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/16CIML-1978-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/16CIML-1978-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:16CIML-1978-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-16
 # Language: fr
 ---
 metadata:
-  title: 16th CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: FRPAR
-  country_code: FR
   title_localized:
   - language_code: fra
     title: 16th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: FRPAR
+  country_code: FR
   meeting_urn: urn:oiml:ciml:meeting:ciml-16
 decisions:
 - identifier:
@@ -19,388 +18,324 @@ decisions:
     number: 1978/1
   doi: 10.63493/resolutions/ciml197801
   urn: urn:oiml:doc:ciml:resolution:1978-01
+  agenda_item: '1'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU'
-    considerations: []
     actions:
     - type: notes
-      message: 'Il est créé à titre expérimental, au sein de l''OIML, un Conseil de
-        développement (dénommé ci-après le Conseil).
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '1'
+      message: Il est créé à titre expérimental, au sein de l'OIML, un Conseil de
+        développement (dénommé ci-après le Conseil).
 - identifier:
   - prefix: CIML
     number: 1978/2
   doi: 10.63493/resolutions/ciml197802
   urn: urn:oiml:doc:ciml:resolution:1978-02
+  agenda_item: '2'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 2: SITUATION GENERALE DE L''ORGANISATION'
-    considerations: []
     actions:
     - type: notes
-      message: '2. 1. Le Conseil a le statut d''un Organe consultatif auprès des instances
-        dirigeantes de l''Organisation.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '2'
+      message: 2. 1. Le Conseil a le statut d'un Organe consultatif auprès des instances
+        dirigeantes de l'Organisation.
 - identifier:
   - prefix: CIML
     number: 1978/3
   doi: 10.63493/resolutions/ciml197803
   urn: urn:oiml:doc:ciml:resolution:1978-03
+  agenda_item: '3'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 3: SITUATION FINANCIERE'
-    considerations: []
     actions:
     - type: notes
-      message: '3. 1. Le Conseil se compose de représentants de Pays en voie de développement
-        et de Pays industrialisés.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '3'
+      message: 3. 1. Le Conseil se compose de représentants de Pays en voie de développement
+        et de Pays industrialisés.
 - identifier:
   - prefix: CIML
     number: 1978/4
   doi: 10.63493/resolutions/ciml197804
   urn: urn:oiml:doc:ciml:resolution:1978-04
+  agenda_item: '4'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 4: PERSONNEL DU BUREAU'
-    considerations: []
     actions:
     - type: notes
-      message: '4. 1. Le Conseil délibère, soit par correspondance, soit au cours
-        de réunions tenues en principe annuellement.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '4'
+      message: 4. 1. Le Conseil délibère, soit par correspondance, soit au cours de
+        réunions tenues en principe annuellement.
 - identifier:
   - prefix: CIML
     number: 1978/5
   doi: 10.63493/resolutions/ciml197805
   urn: urn:oiml:doc:ciml:resolution:1978-05
+  agenda_item: '5'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 5: SECRETARIATS PILOTES ET RAPPORTEURS'
-    considerations: []
     actions:
     - type: notes
-      message: '5. 1. Dans l''optique de favoriser la participation effective aux
-        travaux de ce Conseil du plus possible de ses membres en provenance des Pays
-        en voie de développement, l''Organisation prend en charge les frais de voyage
-        et de séjour de trois de ceux-ci à l''occasion de chaque réunion.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '5'
+      message: 5. 1. Dans l'optique de favoriser la participation effective aux travaux
+        de ce Conseil du plus possible de ses membres en provenance des Pays en voie
+        de développement, l'Organisation prend en charge les frais de voyage et de
+        séjour de trois de ceux-ci à l'occasion de chaque réunion.
 - identifier:
   - prefix: CIML
     number: 1978/6
   doi: 10.63493/resolutions/ciml197806
   urn: urn:oiml:doc:ciml:resolution:1978-06
+  agenda_item: '6'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 6: MODE DE TRAVAIL DES SECRETARIATS DE L''OIML'
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité déclare que cette phrase signifie que ces représentants
-        agissent entant qu''experts du Service sans qu''il soit nécessaire qu''ils
-        soient des employés de ce Service.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité déclare que cette phrase signifie que ces représentants agissent
+        entant qu'experts du Service sans qu'il soit nécessaire qu'ils soient des
+        employés de ce Service.
     - type: notes
-      message: 'Le Comité rappelle d''autre part que la désignation de ces représentants
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+      message: Le Comité rappelle d'autre part que la désignation de ces représentants
         est laissée au libre choix des Membres du CIML et que ces représentants «
         doivent exprimer non seulement les opinions de ce Service mais aussi celles
-        de tous les organismes qui, dans leur pays, s''occupent de ces questions »
+        de tous les organismes qui, dans leur pays, s'occupent de ces questions »
         et que « lors des réunions ils peuvent être accompagnés, avec voix consultative,
-        de toutes personnalités dont l''aide leur paraît opportune ». (*)
-
-        '
+        de toutes personnalités dont l'aide leur paraît opportune ». (*)
+    - type: notes
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité International de Métrologie Légale
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-    - type: notes
-      message: 'Le Comité constate qu''en raison des niveaux très divers de développement
-        de leurs Services nationaux de métrologie, les EtatsMembres de l''OIML n''ont
-        pas tous les mêmes possibilités d''étudier et de juger les projets de Recommandations
+      message: Le Comité constate qu'en raison des niveaux très divers de développement
+        de leurs Services nationaux de métrologie, les EtatsMembres de l'OIML n'ont
+        pas tous les mêmes possibilités d'étudier et de juger les projets de Recommandations
         techniques qui leur sont proposés.
-
-        '
+    - type: notes
       date_effective:
         date: '1978-06-19'
         type: effective
-    - type: notes
-      message: 'Le Comité demande de plus que les Secrétariats de l''OIML, à l''occasion
+      message: Le Comité demande de plus que les Secrétariats de l'OIML, à l'occasion
         de la révision systématique des Recommandations dont ils sont responsables,
         tiennent le plus grand compte des observations qui seront formulées par des
         pays qui, ayant initialement fait confiance aux auteurs des projets, seraient
-        ultérieurement en mesure d''étudier et de critiquer les dites Recommandations.
-
-        '
+        ultérieurement en mesure d'étudier et de critiquer les dites Recommandations.
+    - type: notes
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité International de Métrologie Légale,
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité International de Métrologie Légale,
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris des décisions concernant la création, la suppression
-        et l''attribution de Secrétariats Pilotes et/ou Rapporteurs. Ces décisions
-        apparaîtront dans la prochaine édition de la « Liste des Secrétariats de l''OIML
+      message: Le Comité a pris des décisions concernant la création, la suppression
+        et l'attribution de Secrétariats Pilotes et/ou Rapporteurs. Ces décisions
+        apparaîtront dans la prochaine édition de la « Liste des Secrétariats de l'OIML
         » (*).
-
-        '
+    - type: notes
       date_effective:
         date: '1978-06-19'
         type: effective
-    - type: notes
-      message: 'Le Comité s''est félicité de constater que la Résolution de la Conférence
+      message: Le Comité s'est félicité de constater que la Résolution de la Conférence
         a été suivie.
-
-        '
-      date_effective:
-        date: '1978-06-19'
-        type: effective
     - type: notes
-      message: 'Le Comité a adopté les Documents Internationaux :
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: 'Le Comité a adopté les Documents Internationaux :'
     - type: notes
-      message: 'Le Comité décide la création d''un groupe ad hoc chargé d''étudier
-        le problème de l''établissement de la marque de conformité.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité décide la création d'un groupe ad hoc chargé d'étudier le
+        problème de l'établissement de la marque de conformité.
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '6'
+      message: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1978/1
   doi: 10.63493/resolutions/ciml197801
   urn: urn:oiml:doc:ciml:resolution:1978-01
+  agenda_item: '1'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU'
-    considerations: []
     actions:
     - type: notes
-      message: 'Il est créé à titre expérimental, au sein de l''OIML, un Conseil de
-        développement (dénommé ci-après le Conseil).
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '1'
+      message: Il est créé à titre expérimental, au sein de l'OIML, un Conseil de
+        développement (dénommé ci-après le Conseil).
 - identifier:
   - prefix: CIML
     number: 1978/2
   doi: 10.63493/resolutions/ciml197802
   urn: urn:oiml:doc:ciml:resolution:1978-02
+  agenda_item: '2'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 2: SITUATION GENERALE DE L''ORGANISATION'
-    considerations: []
     actions:
     - type: notes
-      message: '2. 1. Le Conseil a le statut d''un Organe consultatif auprès des instances
-        dirigeantes de l''Organisation.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '2'
+      message: 2. 1. Le Conseil a le statut d'un Organe consultatif auprès des instances
+        dirigeantes de l'Organisation.
 - identifier:
   - prefix: CIML
     number: 1978/3
   doi: 10.63493/resolutions/ciml197803
   urn: urn:oiml:doc:ciml:resolution:1978-03
+  agenda_item: '3'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 3: SITUATION FINANCIERE'
-    considerations: []
     actions:
     - type: notes
-      message: '3. 1. Le Conseil se compose de représentants de Pays en voie de développement
-        et de Pays industrialisés.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '3'
+      message: 3. 1. Le Conseil se compose de représentants de Pays en voie de développement
+        et de Pays industrialisés.
 - identifier:
   - prefix: CIML
     number: 1978/4
   doi: 10.63493/resolutions/ciml197804
   urn: urn:oiml:doc:ciml:resolution:1978-04
+  agenda_item: '4'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 4: PERSONNEL DU BUREAU'
-    considerations: []
     actions:
     - type: notes
-      message: '4. 1. Le Conseil délibère, soit par correspondance, soit au cours
-        de réunions tenues en principe annuellement.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '4'
+      message: 4. 1. Le Conseil délibère, soit par correspondance, soit au cours de
+        réunions tenues en principe annuellement.
 - identifier:
   - prefix: CIML
     number: 1978/5
   doi: 10.63493/resolutions/ciml197805
   urn: urn:oiml:doc:ciml:resolution:1978-05
+  agenda_item: '5'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 5: SECRETARIATS PILOTES ET RAPPORTEURS'
-    considerations: []
     actions:
     - type: notes
-      message: '5. 1. Dans l''optique de favoriser la participation effective aux
-        travaux de ce Conseil du plus possible de ses membres en provenance des Pays
-        en voie de développement, l''Organisation prend en charge les frais de voyage
-        et de séjour de trois de ceux-ci à l''occasion de chaque réunion.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
-  agenda_item: '5'
+      message: 5. 1. Dans l'optique de favoriser la participation effective aux travaux
+        de ce Conseil du plus possible de ses membres en provenance des Pays en voie
+        de développement, l'Organisation prend en charge les frais de voyage et de
+        séjour de trois de ceux-ci à l'occasion de chaque réunion.
 - identifier:
   - prefix: CIML
     number: 1978/6
   doi: 10.63493/resolutions/ciml197806
   urn: urn:oiml:doc:ciml:resolution:1978-06
+  agenda_item: '6'
   dates:
   - date: '1978-06-19'
     type: decided
   localizations:
   - language_code: fra
     title: 'Agenda Item 6: MODE DE TRAVAIL DES SECRETARIATS DE L''OIML'
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité International de Métrologie Légale,
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité International de Métrologie Légale,
     - type: notes
-      message: 'Le Comité déclare que cette phrase signifie que ces représentants
-        agissent en tant qu''experts du Service sans qu''il soit nécessaire qu''ils
-        soient des employés de ce Service.
-
-        '
       date_effective:
         date: '1978-06-19'
         type: effective
+      message: Le Comité déclare que cette phrase signifie que ces représentants agissent
+        en tant qu'experts du Service sans qu'il soit nécessaire qu'ils soient des
+        employés de ce Service.
     - type: notes
-      message: 'Le Comité rappelle d''autre part que la désignation de ces représentants
+      date_effective:
+        date: '1978-06-19'
+        type: effective
+      message: Le Comité rappelle d'autre part que la désignation de ces représentants
         est laissée au libre choix des Membres du CIML et que ces représentants «
         doivent exprimer non seulement les opinions de ce Service mais aussi celles
-        de tous les organismes qui, dans leur pays, s''occupent de ces questions »
+        de tous les organismes qui, dans leur pays, s'occupent de ces questions »
         et que « lors des réunions ils peuvent être accompagnés, avec voix consultative,
-        de toutes personalités dont l''aide leur paraît opportune ».
-
-        '
-      date_effective:
-        date: '1978-06-19'
-        type: effective
-  agenda_item: '6'
+        de toutes personalités dont l'aide leur paraît opportune ».

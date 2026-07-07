@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/29CIML-1994-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/29CIML-1994-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:29CIML-1994-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-29
 # Language: fr
 ---
 metadata:
-  title: 29th CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: FRPAR
-  country_code: FR
   title_localized:
   - language_code: fra
     title: 29th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: FRPAR
+  country_code: FR
   meeting_urn: urn:oiml:ciml:meeting:ciml-29
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 1994/2
   doi: 10.63493/resolutions/ciml199402
   urn: urn:oiml:doc:ciml:resolution:1994-02
+  agenda_item: '2'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -26,27 +26,24 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané rappelle l''adhésion comme État Membre de la République
-        de Bélarus; il mentionne également les très récentes adhésions de l''Ex-République
-        Yougoslave de Macédoine comme État Membre, et de Singapour et du Vietnam comme
-        Membres Correspondants. Il ajoute que des pays comme le Kazakhstan, le Luxembourg,
-        le Mexique, l''Afrique du Sud et l''Ukraine sont susceptibles d''adhérer à
-        l''OIML comme États Membres dans un ou deux ans, et que beaucoup de petits
-        pays ou pays en développement pourraient devenir Membres Correspondants.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '2'
+      message: M. Athané rappelle l'adhésion comme État Membre de la République de
+        Bélarus; il mentionne également les très récentes adhésions de l'Ex-République
+        Yougoslave de Macédoine comme État Membre, et de Singapour et du Vietnam comme
+        Membres Correspondants. Il ajoute que des pays comme le Kazakhstan, le Luxembourg,
+        le Mexique, l'Afrique du Sud et l'Ukraine sont susceptibles d'adhérer à l'OIML
+        comme États Membres dans un ou deux ans, et que beaucoup de petits pays ou
+        pays en développement pourraient devenir Membres Correspondants.
 - identifier:
   - prefix: CIML
     number: 1994/2
   doi: 10.63493/resolutions/ciml199402
   urn: urn:oiml:doc:ciml:resolution:1994-02
+  agenda_item: '2'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -54,21 +51,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Il n''y a pas d''information à donner à ce sujet.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '2'
+      message: Il n'y a pas d'information à donner à ce sujet.
 - identifier:
   - prefix: CIML
     number: 1994/3
   doi: 10.63493/resolutions/ciml199403
   urn: urn:oiml:doc:ciml:resolution:1994-03
+  agenda_item: '3'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -76,23 +70,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: SITUATION FINANCIERE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le rapport comptable pour 1993 est approuvé sans commentaire. Le Comité
+      date_effective:
+        date: '1994-10-12'
+        type: effective
+      message: Le rapport comptable pour 1993 est approuvé sans commentaire. Le Comité
         charge son Président et le Directeur du Bureau de le présenter à la Dixième
         Conférence.
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1994/3
   doi: 10.63493/resolutions/ciml199403
   urn: urn:oiml:doc:ciml:resolution:1994-03
+  agenda_item: '3'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -100,33 +91,30 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: SITUATION FINANCIERE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané rappelle la décision du CIML en 1993 de diminuer annuellement
-        le budget de l''OIML de 100 000 Francs-or (la moitié pour les dépenses de
-        personnel et l''autre moitié pour les crédits à mettre en réserve) afin de
-        compenser la diminution du nombre total de parts contributives. Il indique
-        que les estimations de dépenses pour 1994, faites sur la base de ce budget
-        diminué, devraient être suivies. Des dépenses exceptionnelles comme la réfection
-        du siège de l''Organisation et l''achat d''équipements informatiques, qui
-        avaient été différés en 1992 et 1993, ont été rendu possibles en 1994 grâce
-        à la très satisfaisante situation financière actuelle de l''Organisation.
-        M. Athané ajoute que les recettes pourraient être même supérieures à celles
-        qui étaient attendues par suite de l''adhésion de deux États Membres et de
-        deux Membres Correspondants et grâce à des recettes en augmentation résultant
-        principalement des ventes de publications et des abonnements au Bulletin.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '3'
+      message: M. Athané rappelle la décision du CIML en 1993 de diminuer annuellement
+        le budget de l'OIML de 100 000 Francs-or (la moitié pour les dépenses de personnel
+        et l'autre moitié pour les crédits à mettre en réserve) afin de compenser
+        la diminution du nombre total de parts contributives. Il indique que les estimations
+        de dépenses pour 1994, faites sur la base de ce budget diminué, devraient
+        être suivies. Des dépenses exceptionnelles comme la réfection du siège de
+        l'Organisation et l'achat d'équipements informatiques, qui avaient été différés
+        en 1992 et 1993, ont été rendu possibles en 1994 grâce à la très satisfaisante
+        situation financière actuelle de l'Organisation. M. Athané ajoute que les
+        recettes pourraient être même supérieures à celles qui étaient attendues par
+        suite de l'adhésion de deux États Membres et de deux Membres Correspondants
+        et grâce à des recettes en augmentation résultant principalement des ventes
+        de publications et des abonnements au Bulletin.
 - identifier:
   - prefix: CIML
     number: 1994/4
   doi: 10.63493/resolutions/ciml199404
   urn: urn:oiml:doc:ciml:resolution:1994-04
+  agenda_item: '4'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -134,67 +122,38 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: COMITÉS TECHNIQUES ET SOUS-COMITÉS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a chargé les secrétariats des TC et SC d''examiner attentivement
-        les thèmes dont ils sont responsables et de faire rapport par l''intermédiaire
+      date_effective:
+        date: '1994-10-12'
+        type: effective
+      message: Le Comité a chargé les secrétariats des TC et SC d'examiner attentivement
+        les thèmes dont ils sont responsables et de faire rapport par l'intermédiaire
         du Bureau sur la nécessité de les maintenir ou de les supprimer.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a également demandé à ses Membres d''examiner la participation
+      message: Le Comité a également demandé à ses Membres d'examiner la participation
         de leur pays en tant que Membre-P ou O des TC et SC, en particulier pour ceux
-        dont le nombre de Membres-P est actuellement insuffisant, et de tenter d''identifier
-        les organismes nationaux susceptibles d''avoir un intérêt à participer aux
-        activités techniques de l''OIMLau nom des services nationaux de métrologie
+        dont le nombre de Membres-P est actuellement insuffisant, et de tenter d'identifier
+        les organismes nationaux susceptibles d'avoir un intérêt à participer aux
+        activités techniques de l'OIMLau nom des services nationaux de métrologie
         légale.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé le Bureau de distribuer largement les documents
+      message: Le Comité a chargé le Bureau de distribuer largement les documents
         concernant les TC et SC OI ML aux États Membres et à toutes les organisations
-        internationales ou régionales susceptibles d''être intéressées à établir des
+        internationales ou régionales susceptibles d'être intéressées à établir des
         liaisons avec les TC et SC OI ML.
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
-  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1994/6
   doi: 10.63493/resolutions/ciml199406
   urn: urn:oiml:doc:ciml:resolution:1994-06
-  dates:
-  - date: '1994-10-12'
-    type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6: CERTIFICATION'
-    subject: "(The CIML)"
-    considerations: []
-    actions:
-    - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
   agenda_item: '6'
-- identifier:
-  - prefix: CIML
-    number: 1994/6
-  doi: 10.63493/resolutions/ciml199406
-  urn: urn:oiml:doc:ciml:resolution:1994-06
   dates:
   - date: '1994-10-12'
     type: decided
@@ -202,21 +161,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6: CERTIFICATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '6'
+      message: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1994/6
   doi: 10.63493/resolutions/ciml199406
   urn: urn:oiml:doc:ciml:resolution:1994-06
+  agenda_item: '6'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -224,21 +180,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6: CERTIFICATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '6'
+      message: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1994/6
   doi: 10.63493/resolutions/ciml199406
   urn: urn:oiml:doc:ciml:resolution:1994-06
+  agenda_item: '6'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -246,49 +199,59 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6: CERTIFICATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a approuvé dans son principe le document en trois modules
+      date_effective:
+        date: '1994-10-12'
+        type: effective
+      message: Le Comité International de Métrologie Légale
+- identifier:
+  - prefix: CIML
+    number: 1994/6
+  doi: 10.63493/resolutions/ciml199406
+  urn: urn:oiml:doc:ciml:resolution:1994-06
+  agenda_item: '6'
+  dates:
+  - date: '1994-10-12'
+    type: decided
+  localizations:
+  - language_code: fra
+    title: 'Agenda Item 6: CERTIFICATION'
+    subject: "(The CIML)"
+    actions:
+    - type: notes
+      date_effective:
+        date: '1994-10-12'
+        type: effective
+      message: Le Comité a approuvé dans son principe le document en trois modules
         sur la politique à long terme développé par le Conseil de la Présidence, son
         groupe de rédaction, et le BIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a demandé à ses Membres d''envoyer au BIML leurs commentaires
+      message: Le Comité a demandé à ses Membres d'envoyer au BIML leurs commentaires
         définitifs concernant ces trois modules avant fin 1994.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé le groupe de rédaction du Conseil de la Présidence
+      message: Le Comité a chargé le groupe de rédaction du Conseil de la Présidence
         et le BIML de réviser et de mettre au point ces textes, en tenant compte des
         commentaires exprimés avant, pendant, et après sa 29ème réunion.
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
     - type: notes
-      message: 'Le Comité a chargé le Conseil de la Présidence de superviser la publication
-        par le BIML du document de politique de l''OIML ainsi que sa diffusion auprès
-        des États Membres, des Membres Correspondants, et des institutions en liaison.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '6'
+      message: Le Comité a chargé le Conseil de la Présidence de superviser la publication
+        par le BIML du document de politique de l'OIML ainsi que sa diffusion auprès
+        des États Membres, des Membres Correspondants, et des institutions en liaison.
 - identifier:
   - prefix: CIML
     number: 1994/9
   doi: 10.63493/resolutions/ciml199409
   urn: urn:oiml:doc:ciml:resolution:1994-09
+  agenda_item: '9'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -296,73 +259,61 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9: PAYS EN DEVELOPEMENT'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a pris note d''un rapport présenté par Mr M. Benkirane,
-        Président du Conseil de Développement de l''OIML, sur la réunion du Conseil
-        qui s''est tenue les 10-11 octobre 1994 à Paris, et comprenant les sujets
-        tels que les cours de formation et l''aide technique fournie par certains
-        Membres de l''OIML, un questionnaire sur la situation de la métrologie légale
-        dans les pays en développement, et la coopération régionale.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'un rapport présenté par Mr M. Benkirane, Président
+        du Conseil de Développement de l'OIML, sur la réunion du Conseil qui s'est
+        tenue les 10-11 octobre 1994 à Paris, et comprenant les sujets tels que les
+        cours de formation et l'aide technique fournie par certains Membres de l'OIML,
+        un questionnaire sur la situation de la métrologie légale dans les pays en
+        développement, et la coopération régionale.
     - type: notes
-      message: 'Le Comité a accepté l''invitation de la République Populaire de Chine
+      date_effective:
+        date: '1994-10-12'
+        type: effective
+      message: Le Comité a accepté l'invitation de la République Populaire de Chine
         de tenir un symposium sur les activités métrologiques dans les pays en développement,
         conjointement à la prochaine réunion du Conseil de Développement et à la 30ème
         réunion du CIML prévues pour les 23-27 octobre 1995 à Pékin. Le Comité a approuvé
         le fait que le symposium porte sur des sujets à caractère politique, y compris
-        l''importance économique de la métrologie légale. Le Comité a demandé au BIML
+        l'importance économique de la métrologie légale. Le Comité a demandé au BIML
         de faire tous les efforts possibles pour impliquer les organismes économiques
-        internationaux tels que la Banque Mondiale, l''Organisation Mondiale du Commerce,
-        le PNUD, et l''ONUDI dans le symposium.
-
-        '
+        internationaux tels que la Banque Mondiale, l'Organisation Mondiale du Commerce,
+        le PNUD, et l'ONUDI dans le symposium.
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a noté qu''un soutien financier (dans les limites des décisions
+      message: Le Comité a noté qu'un soutien financier (dans les limites des décisions
         de la 9ème Conférence) sera apporté pour aider certains pays membres à participer
         au symposium et à la réunion du Conseil de Développement. Le Comité a également
         demandé au BIML de poursuivre sa recherche de financement du symposium auprès
         des autres organisations internationales, régionales et nationales concernées.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a noté les changements qui se sont produits dans le domaine
-        de la métrologie légale tels qu''identifiés dans le projet de document sur
-        la politique à long terme de l''OIML. La plupart de ces changements, en particulier
+      message: Le Comité a noté les changements qui se sont produits dans le domaine
+        de la métrologie légale tels qu'identifiés dans le projet de document sur
+        la politique à long terme de l'OIML. La plupart de ces changements, en particulier
         ceux relatifs aux structures institutionnelles, au rôle des gouvernements,
-        et au champ d''application de la métrologie légale sont de toute première
-        importance pour les pays qui mettent en place leurs services de métrologie
-        légale.
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
+        et au champ d'application de la métrologie légale sont de toute première importance
+        pour les pays qui mettent en place leurs services de métrologie légale.
     - type: notes
-      message: 'Le Comité a noté que la présidence des groupes de travail du Conseil
-        de Développement était assumée comme suit:
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '9'
+      message: 'Le Comité a noté que la présidence des groupes de travail du Conseil
+        de Développement était assumée comme suit:'
 - identifier:
   - prefix: CIML
     number: 1994/10
   doi: 10.63493/resolutions/ciml199410
   urn: urn:oiml:doc:ciml:resolution:1994-10
+  agenda_item: '10'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -370,23 +321,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: COMMUNICATIONS OIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1994-10-12'
+        type: effective
       message: 'M. Degavre et Melle French donnent une information concernant les
         développements du nouveau Bulletin OIML qui a maintenant exactement un an,
-        en reprenant les aspects suivants:
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
-  agenda_item: '10'
+        en reprenant les aspects suivants:'
 - identifier:
   - prefix: CIML
     number: 1994/10
   doi: 10.63493/resolutions/ciml199410
   urn: urn:oiml:doc:ciml:resolution:1994-10
+  agenda_item: '10'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -394,31 +342,28 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: COMMUNICATIONS OIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Melle French donne une information concernant le développement de
-        cette brochure, dont le texte définitif devrait être soumis au Conseil de
-        Présidence en janvier-février 1995 pour approbation, en même temps que l''approbation
-        du texte définitif de la politique à long terme de l''OIML. La brochure devrait
-        être alors publiée avec l''aide d''un graphiste professionnel, avec des illustrations
-        basées sur les propositions reçues d''un certain nombre de Membres du CIML.
-        La publication définitive est prévue pour le printemps 1995, pour un coût
-        approximatif de 100 000 FRF pour 5 000 exemplaires. Pour permettre à tous
-        les Membres du CIML d''exprimer leurs points de vue, Melle French distribue
-        un projet de texte aux Membres du CIML à qui il est demandé d''envoyer leurs
-        commentaires au BIML avant le 4 novembre 1994.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '10'
+      message: Melle French donne une information concernant le développement de cette
+        brochure, dont le texte définitif devrait être soumis au Conseil de Présidence
+        en janvier-février 1995 pour approbation, en même temps que l'approbation
+        du texte définitif de la politique à long terme de l'OIML. La brochure devrait
+        être alors publiée avec l'aide d'un graphiste professionnel, avec des illustrations
+        basées sur les propositions reçues d'un certain nombre de Membres du CIML.
+        La publication définitive est prévue pour le printemps 1995, pour un coût
+        approximatif de 100 000 FRF pour 5 000 exemplaires. Pour permettre à tous
+        les Membres du CIML d'exprimer leurs points de vue, Melle French distribue
+        un projet de texte aux Membres du CIML à qui il est demandé d'envoyer leurs
+        commentaires au BIML avant le 4 novembre 1994.
 - identifier:
   - prefix: CIML
     number: 1994/15
   doi: 10.63493/resolutions/ciml199415
   urn: urn:oiml:doc:ciml:resolution:1994-15
+  agenda_item: '15'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -427,24 +372,21 @@ decisions:
     title: 'Agenda Item 15: PRÉSIDENCE ET VICE-PRÉSIDENCE DU COMITÉ INTERNATIONAL
       DE MÉTROLOGIE LÉGALE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1994-10-12'
+        type: effective
       message: 'M. Birkeland introduit les quatre candidats à la Présidence du CIML:
         MM. Bennett (Royaume-Uni), Faber (Pays-Bas), Issaev (Fédération de Russie)
         et Kochsiek (Allemagne). Il donne alors la parole aux candidats afin qu''ils
-        puissent expliquer pourquoi ils sont intéressés à devenir Président du CIML.
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
-  agenda_item: '15'
+        puissent expliquer pourquoi ils sont intéressés à devenir Président du CIML.'
 - identifier:
   - prefix: CIML
     number: 1994/15
   doi: 10.63493/resolutions/ciml199415
   urn: urn:oiml:doc:ciml:resolution:1994-15
+  agenda_item: '15'
   dates:
   - date: '1994-10-12'
     type: decided
@@ -453,377 +395,292 @@ decisions:
     title: 'Agenda Item 15: PRÉSIDENCE ET VICE-PRÉSIDENCE DU COMITÉ INTERNATIONAL
       DE MÉTROLOGIE LÉGALE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a réelu à l''unanimité M. Samuel E. Chappell comme Vice-Président
+      date_effective:
+        date: '1994-10-12'
+        type: effective
+      message: Le Comité a réelu à l'unanimité M. Samuel E. Chappell comme Vice-Président
         pour un mandat de six ans.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''une information donnée par M. Kusakin, Membre
+      message: Le Comité a pris note d'une information donnée par M. Kusakin, Membre
         du CIML pour la République de Bélarus, concernant les activités métrologiques
-        de ce nouvel État Membre de l''OIML.
-
-        '
+        de ce nouvel État Membre de l'OIML.
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a également pris note d''une proposition de la délégation
+      message: Le Comité a également pris note d'une proposition de la délégation
         du Brésil visant à demander aux Membres du CIML qui souhaitent inviter une
-        réunion du CIML ou de la Conférence de l''OIML, d''en informer les autres
-        Membres par écrit au moins deux mois avant que la décision ne soit prise,
-        et a approuvé cette proposition.
-
-        '
+        réunion du CIML ou de la Conférence de l'OIML, d'en informer les autres Membres
+        par écrit au moins deux mois avant que la décision ne soit prise, et a approuvé
+        cette proposition.
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité adopte les résolutions et les décisions prises en fonction
-        des différents points de l''ordre du jour. Les décisions et résolutions sont
+      message: Le Comité adopte les résolutions et les décisions prises en fonction
+        des différents points de l'ordre du jour. Les décisions et résolutions sont
         reproduites à la fin de ce compte rendu.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a approuvé le compte rendu de sa vingt-huitième réunion sans
+        modification.
     - type: notes
-      message: 'Le Comité a approuvé le compte rendu de sa vingt-huitième réunion
-        sans modification.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note des adhésions pour 1994 de la République de Bélarus
+        et de l'exRépublique Yougoslave de Macédoine comme nouveaux États Membres
+        de l'OIML et de Singapour et du Vietnam comme Membres Correspondants.
     - type: notes
-      message: 'Le Comité a pris note des adhésions pour 1994 de la République de
-        Bélarus et de l''exRépublique Yougoslave de Macédoine comme nouveaux États
-        Membres de l''OIML et de Singapour et du Vietnam comme Membres Correspondants.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a également pris note des perspectives d'adhésions.
     - type: notes
-      message: 'Le Comité a également pris note des perspectives d''adhésions.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a approuvé le rapport comptable pour 1993 et a chargé le
+      message: Le Comité a approuvé le rapport comptable pour 1993 et a chargé le
         Président du CIML et le Directeur du BIML de soumettre ce rapport à la Dixième
         Conférence.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'informations du BIML sur la situation financière
+        de l'Organisation en 1994.
     - type: notes
-      message: 'Le Comité a pris note d''informations du BIML sur la situation financière
-        de l''Organisation en 1994.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport concernant l''établissement définitif
+      message: Le Comité a pris note d'un rapport concernant l'établissement définitif
         des TC et SC et de documents afférents (liste, composition, responsabilités
-        pour les travaux techniques, état d''avancement des travaux, et liaisons externes).
-
-        '
+        pour les travaux techniques, état d'avancement des travaux, et liaisons externes).
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé les secrétariats des TC et SC d''examiner attentivement
-        les thèmes dont ils sont responsables et de faire rapport par l''intermédiaire
+      message: Le Comité a chargé les secrétariats des TC et SC d'examiner attentivement
+        les thèmes dont ils sont responsables et de faire rapport par l'intermédiaire
         du Bureau sur la nécessité de les maintenir ou de les supprimer.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a également demandé à ses Membres d''examiner la participation
+      message: Le Comité a également demandé à ses Membres d'examiner la participation
         de leur pays en tant que Membre-P ou O des TC et SC, en particulier pour ceux
-        dont le nombre de Membres-P est actuellement insuffisant, et de tenter d''identifier
-        les organismes nationaux susceptibles d''avoir un intérêt à participer aux
-        activités techniques de l''OIML au nom des services nationaux de métrologie
+        dont le nombre de Membres-P est actuellement insuffisant, et de tenter d'identifier
+        les organismes nationaux susceptibles d'avoir un intérêt à participer aux
+        activités techniques de l'OIML au nom des services nationaux de métrologie
         légale.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé le Bureau de distribuer largement les documents
+      message: Le Comité a chargé le Bureau de distribuer largement les documents
         concernant les TC et SC OIML aux États Membres et à toutes les organisations
-        internationales ou régionales susceptibles d''être intéressées à établir des
+        internationales ou régionales susceptibles d'être intéressées à établir des
         liaisons avec les TC et SC OIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: 'Le Comité a approuvé les projets suivants:'
     - type: notes
-      message: 'Le Comité a approuvé les projets suivants:
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a approuvé les résolutions suivantes.
     - type: notes
-      message: 'Le Comité a approuvé les résolutions suivantes.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité International de Métrologie Légale
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité International de Métrologie Légale
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité International de Métrologie Légale
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé le BIML d''étudier la possibilité d''organiser,
-        en 1995 ou 1996, un séminaire sur la mise en application et le développement
+      message: Le Comité a chargé le BIML d'étudier la possibilité d'organiser, en
+        1995 ou 1996, un séminaire sur la mise en application et le développement
         du Système de Certificats OIML, en coopération étroite avec le TAG $ _{cert}
         $ .
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a demandé à ses Membres de présenter leurs propositions concernant
+        l'organisation de ce séminaire au BIML avant fin 1994.
     - type: notes
-      message: 'Le Comité a demandé à ses Membres de présenter leurs propositions
-        concernant l''organisation de ce séminaire au BIML avant fin 1994.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a approuvé dans son principe le document en trois modules
+      message: Le Comité a approuvé dans son principe le document en trois modules
         sur la politique à long terme développé par le Conseil de la Présidence, son
         groupe de rédaction, et le BIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a demandé à ses Membres d''envoyer au BIML leurs commentaires
+      message: Le Comité a demandé à ses Membres d'envoyer au BIML leurs commentaires
         définitifs concernant ces trois modules avant fin 1994.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé le groupe de rédaction du Conseil de la Présidence
+      message: Le Comité a chargé le groupe de rédaction du Conseil de la Présidence
         et le BIML de réviser et de mettre au point ces textes, en tenant compte des
         commentaires exprimés avant, pendant, et après sa 29ème réunion.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a chargé le Conseil de la Présidence de superviser la publication
-        par le BIML du document de politique de l''OIML ainsi que sa diffusion auprès
+      message: Le Comité a chargé le Conseil de la Présidence de superviser la publication
+        par le BIML du document de politique de l'OIML ainsi que sa diffusion auprès
         des États Membres, des Membres Correspondants, et des institutions en liaison.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'un rapport du BIML concernant les liaisons
+        entre l'OIML et certaines organisations internationales et régionales.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport du BIML concernant les liaisons
-        entre l''OIML et certaines organisations internationales et régionales.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a discuté de la situation de ISO/TAG 4 et demandé au BIML
-        d''entrer en rapport avec le secrétariat de ISO/TAG 4 pour confirmer l''intérêt
-        de l''OIML dans l''application des décisions prises lors la dernière réunion
+      message: Le Comité a discuté de la situation de ISO/TAG 4 et demandé au BIML
+        d'entrer en rapport avec le secrétariat de ISO/TAG 4 pour confirmer l'intérêt
+        de l'OIML dans l'application des décisions prises lors la dernière réunion
         de ISO/TAG 4.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'un rapport présenté par Mr M. Benkirane, Président
+        du Conseil de Développement de l'OIML, sur la réunion du Conseil qui s'est
+        tenue les 10-11 octobre 1994 à Paris, et comprenant les sujets tels que les
+        cours de formation et l'aide technique fournie par certains Membres de l'OIML,
+        un questionnaire sur la situation de la métrologie légale dans les pays en
+        développement, et la coopération régionale.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport présenté par Mr M. Benkirane,
-        Président du Conseil de Développement de l''OIML, sur la réunion du Conseil
-        qui s''est tenue les 10-11 octobre 1994 à Paris, et comprenant les sujets
-        tels que les cours de formation et l''aide technique fournie par certains
-        Membres de l''OIML, un questionnaire sur la situation de la métrologie légale
-        dans les pays en développement, et la coopération régionale.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a accepté l''invitation de la République Populaire de Chine
+      message: Le Comité a accepté l'invitation de la République Populaire de Chine
         de tenir un symposium sur les activités métrologiques dans les pays en développement,
         conjointement à la prochaine réunion du Conseil de Développement et à la 30me
         réunion du CIML prévues pour les 23-27 octobre 1995 à Pékin. Le Comité a approuvé
         le fait que ce symposium porte sur des sujets à caractère politique, y compris
-        l''importance économique de la métrologie légale. Le Comité a demandé au BIML
+        l'importance économique de la métrologie légale. Le Comité a demandé au BIML
         de faire tous les efforts possibles pour impliquer les organismes économiques
-        internationaux tels que la Banque Mondiale, l''Organisation Mondiale du Commerce,
-        le PNUD, et l''ONUDI dans le symposium.
-
-        '
+        internationaux tels que la Banque Mondiale, l'Organisation Mondiale du Commerce,
+        le PNUD, et l'ONUDI dans le symposium.
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a noté qu''un soutien financier (dans les limites des décisions
+      message: Le Comité a noté qu'un soutien financier (dans les limites des décisions
         de la 9me Conférence) sera apporté pour aider certains pays membres à participer
         au symposium et à la réunion du Conseil de Développement. Le Comité a également
         demandé au BIML de poursuivre sa recherche de financement du symposium auprès
         des autres organisations internationales, régionales et nationales concernées.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a noté les changements qui se sont produits dans le domaine
-        de la métrologie légale tels qu''identifiés dans le projet de document sur
-        la politique à long terme de l''OIML. La plupart de ces changements, en particulier
+      message: Le Comité a noté les changements qui se sont produits dans le domaine
+        de la métrologie légale tels qu'identifiés dans le projet de document sur
+        la politique à long terme de l'OIML. La plupart de ces changements, en particulier
         ceux relatifs aux structures institutionnelles, au rôle des gouvernements,
-        et au champ d''application de la métrologie légale sont de toute première
-        importance pour les pays qui mettent en place leurs services de métrologie
-        légale.
-
-        '
+        et au champ d'application de la métrologie légale sont de toute première importance
+        pour les pays qui mettent en place leurs services de métrologie légale.
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
       message: 'Le Comité a noté que la présidence des groupes de travail du Conseil
-        de Développement était assumée comme suit:
-
-        '
+        de Développement était assumée comme suit:'
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a exprimé son appréciation pour le nouveau format du Bulletin
+      message: Le Comité a exprimé son appréciation pour le nouveau format du Bulletin
         OIML et a demandé à ses Membres de contribuer activement à sa réalisation
-        par l''envoi au Bureau d''articles techniques et informatifs.
-
-        '
+        par l'envoi au Bureau d'articles techniques et informatifs.
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a aussi pris note d''informations concernant le développement
-        d''une brochure d''information générale sur l''OIML. Le Comité a demandé à
-        ses Membres de faire part au BIML de leurs avis sur le projet de texte pour
-        la brochure avant le 4 novembre 1994 et a chargé le Conseil de la Présidence
+      message: Le Comité a aussi pris note d'informations concernant le développement
+        d'une brochure d'information générale sur l'OIML. Le Comité a demandé à ses
+        Membres de faire part au BIML de leurs avis sur le projet de texte pour la
+        brochure avant le 4 novembre 1994 et a chargé le Conseil de la Présidence
         de superviser la mise au point et la publication de la brochure par le BIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'un rapport sur les activités du BIML pour la
+        période susmentionnée et a demandé au BIML de publier l'information sous une
+        forme appropriée dans le Bulletin.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport sur les activités du BIML pour
-        la période susmentionnée et a demandé au BIML de publier l''information sous
-        une forme appropriée dans le Bulletin.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'un rapport du BIML à ce sujet.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport du BIML à ce sujet.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport concernant les préparatifs pour
+      message: Le Comité a pris note d'un rapport concernant les préparatifs pour
         un séminaire technique sur les instruments de pesage, qui doit être organisé
         par le BIML en septembre 1995 conjointement à une réunion WELMEC.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
+      message: Le Comité a pris note d'informations présentées par la Délégation chinoise
+        et le BIML concernant les préparatifs pour la 30ème réunion du CIML, qui doit
+        se tenir à Pékin les 25-27 octobre 1995 (consécutivement au symposium pour
+        les pays en développement des 23-24 octobre).
     - type: notes
-      message: 'Le Comité a pris note d''informations présentées par la Délégation
-        chinoise et le BIML concernant les préparatifs pour la 30ème réunion du CIML,
-        qui doit se tenir à Pékin les 25-27 octobre 1995 (consécutivement au symposium
-        pour les pays en développement des 23-24 octobre).
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a élu M. G.J. Faber, Membre du CIML pour les Pays-Bas, en
+      message: Le Comité a élu M. G.J. Faber, Membre du CIML pour les Pays-Bas, en
         tant que Président du CIML pour un mandat de six ans.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a réélu Dr Chappell, Membre du CIML pour les USA, en tant
+      message: Le Comité a réélu Dr Chappell, Membre du CIML pour les USA, en tant
         que premier Vice-Président du CIML pour un mandat de six ans.
-
-        '
+    - type: notes
       date_effective:
         date: '1994-10-12'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''informations données par M. Kusakin, Membre
+      message: Le Comité a pris note d'informations données par M. Kusakin, Membre
         du CIML pour la République de Bélarus, sur les activités métrologiques de
-        ce nouvel État Membre de l''OIML.
-
-        '
-      date_effective:
-        date: '1994-10-12'
-        type: effective
+        ce nouvel État Membre de l'OIML.
     - type: notes
-      message: 'Le Comité a pris note d''une déclaration de son Président nouvellement
-        elu, M. Faber, relative à ses vues sur l''avenir de l''OIML.
-
-        '
       date_effective:
         date: '1994-10-12'
         type: effective
-  agenda_item: '15'
+      message: Le Comité a pris note d'une déclaration de son Président nouvellement
+        elu, M. Faber, relative à ses vues sur l'avenir de l'OIML.

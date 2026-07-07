@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/18CIML-1982-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/18CIML-1982-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:18CIML-1982-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-18
 # Language: fr
 ---
 metadata:
-  title: 18th CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: FRPAR
-  country_code: FR
   title_localized:
   - language_code: fra
     title: 18th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: FRPAR
+  country_code: FR
   meeting_urn: urn:oiml:ciml:meeting:ciml-18
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 1982/3
   doi: 10.63493/resolutions/ciml198203
   urn: urn:oiml:doc:ciml:resolution:1982-03
+  agenda_item: '3'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -26,21 +26,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: Situation Financière'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '3. 1. Adoption du Rapport Comptable pour 1980
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '3'
+      message: 3. 1. Adoption du Rapport Comptable pour 1980
 - identifier:
   - prefix: CIML
     number: 1982/4
   doi: 10.63493/resolutions/ciml198204
   urn: urn:oiml:doc:ciml:resolution:1982-04
+  agenda_item: '4'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -48,21 +45,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: Personnel du Bureau'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '4. 1. Examen des postes devenant vacants dans un proche avenir
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '4'
+      message: 4. 1. Examen des postes devenant vacants dans un proche avenir
 - identifier:
   - prefix: CIML
     number: 1982/6
   doi: 10.63493/resolutions/ciml198206
   urn: urn:oiml:doc:ciml:resolution:1982-06
+  agenda_item: '6'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -70,22 +64,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6: Secrétariats Pilotes et Rapporteurs'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '6. 1.a) Mode de Travail des Secrétariats - Caractère spécifique des
-        Recommandations et Documents
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '6'
+      message: 6. 1.a) Mode de Travail des Secrétariats - Caractère spécifique des
+        Recommandations et Documents
 - identifier:
   - prefix: CIML
     number: 1982/7
   doi: 10.63493/resolutions/ciml198207
   urn: urn:oiml:doc:ciml:resolution:1982-07
+  agenda_item: '7'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -93,22 +84,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7: Interaction OIML-Etats Membres'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '7. 1. Participation des Etats Membres aux travaux des Secrétariats
-        : Services de métrologie, autres organes administratifs, industrie
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '7'
+      message: '7. 1. Participation des Etats Membres aux travaux des Secrétariats
+        : Services de métrologie, autres organes administratifs, industrie'
 - identifier:
   - prefix: CIML
     number: 1982/8
   doi: 10.63493/resolutions/ciml198208
   urn: urn:oiml:doc:ciml:resolution:1982-08
+  agenda_item: '8'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -116,21 +104,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 8: Système de Certification OIML (Marque OIML)'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '8. 1. Discussion des conclusions du groupe ad hoc
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '8'
+      message: 8. 1. Discussion des conclusions du groupe ad hoc
 - identifier:
   - prefix: CIML
     number: 1982/1
   doi: 10.63493/resolutions/ciml198201
   urn: urn:oiml:doc:ciml:resolution:1982-01
+  agenda_item: '1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -138,21 +123,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'DE LA DIX-SEPTIEME REUNION DU COMITE
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '1'
+      message: DE LA DIX-SEPTIEME REUNION DU COMITE
 - identifier:
   - prefix: CIML
     number: 1982/2
   doi: 10.63493/resolutions/ciml198202
   urn: urn:oiml:doc:ciml:resolution:1982-02
+  agenda_item: '2'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -160,14 +142,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ETATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1982/2.1
   doi: 10.63493/resolutions/ciml19822.1
   urn: urn:oiml:doc:ciml:resolution:1982-2.1
+  agenda_item: '2.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -175,31 +155,28 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2.1: Nouvelles adhésions. Perspectives de nouvelles adhésions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. BIRKELAND réitère ses souhaits de bienvenue à M. KNAPP, représentant
-        du Canada, qui prend la parole pour transmettre les salutations du Ministre
-        de la Consommation et des Corporations du Canada, ainsi que des fonctionnaires
-        canadiens de la branche « métrologie légale ». Il explique les raisons qui
-        ont conduit le Gouvernement du Canada à adhérer à l''OIML et décrit l''organisation
-        de la métrologie légale au Canada. Celle-ci est en pleine expansion et une
-        réorganisation est en cours, en application d''une nouvelle législation. M.
-        KNAPP conclut en assurant ses collègues que, progressivement, le Canada prendra
-        une part active aux travaux de l''OIML et que cette participation concernera
-        non seulement la branche « métrologie légale » qu''il dirige, mais également
-        certains autres ministères intéressés par les travaux de Secrétariats de l''OIML.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '2.1'
+      message: M. BIRKELAND réitère ses souhaits de bienvenue à M. KNAPP, représentant
+        du Canada, qui prend la parole pour transmettre les salutations du Ministre
+        de la Consommation et des Corporations du Canada, ainsi que des fonctionnaires
+        canadiens de la branche « métrologie légale ». Il explique les raisons qui
+        ont conduit le Gouvernement du Canada à adhérer à l'OIML et décrit l'organisation
+        de la métrologie légale au Canada. Celle-ci est en pleine expansion et une
+        réorganisation est en cours, en application d'une nouvelle législation. M.
+        KNAPP conclut en assurant ses collègues que, progressivement, le Canada prendra
+        une part active aux travaux de l'OIML et que cette participation concernera
+        non seulement la branche « métrologie légale » qu'il dirige, mais également
+        certains autres ministères intéressés par les travaux de Secrétariats de l'OIML.
 - identifier:
   - prefix: CIML
     number: 1982/2.2
   doi: 10.63493/resolutions/ciml19822.2
   urn: urn:oiml:doc:ciml:resolution:1982-2.2
+  agenda_item: '2.2'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -207,24 +184,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2.2: Examen de la situation de certains Etats Membres'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Sur leur demande, le Comité accepte que la République Populaire Démocratique
-        de Corée et la Pologne paient, à partir de 1983, une contribution correspondant
-        à la Classe 1, et ce, jusqu''à ce que leur situation économique ou monétaire
-        leur permette de repasser dans la Classe 2 qui correspond à leur population.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '2.2'
+      message: Sur leur demande, le Comité accepte que la République Populaire Démocratique
+        de Corée et la Pologne paient, à partir de 1983, une contribution correspondant
+        à la Classe 1, et ce, jusqu'à ce que leur situation économique ou monétaire
+        leur permette de repasser dans la Classe 2 qui correspond à leur population.
 - identifier:
   - prefix: CIML
     number: 1982/2.3
   doi: 10.63493/resolutions/ciml19822.3
   urn: urn:oiml:doc:ciml:resolution:1982-2.3
+  agenda_item: '2.3'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -233,23 +207,20 @@ decisions:
     title: 'Agenda Item 2.3: Membres Correspondants : mise en application de la Résolution
       de la 6e Conférence sur l''institution d''un abonnement forfaitaire'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité demande au Bureau de refaire le point sur ce sujet lors
-        de sa prochaine réunion en mai 1983, au cours de laquelle sera examinée la
-        situation des correspondants ne pouvant pas s''acquitter de leur abonnement.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '2.3'
+      message: Le Comité demande au Bureau de refaire le point sur ce sujet lors de
+        sa prochaine réunion en mai 1983, au cours de laquelle sera examinée la situation
+        des correspondants ne pouvant pas s'acquitter de leur abonnement.
 - identifier:
   - prefix: CIML
     number: 1982/3
   doi: 10.63493/resolutions/ciml198203
   urn: urn:oiml:doc:ciml:resolution:1982-03
+  agenda_item: '3'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -257,14 +228,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: Situation Financière'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1982/3.1
   doi: 10.63493/resolutions/ciml19823.1
   urn: urn:oiml:doc:ciml:resolution:1982-3.1
+  agenda_item: '3.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -272,22 +241,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3.1: Adoption du Rapport Comptable pour 1980'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Ce Rapport est adopté et le Comité charge le Bureau de le présenter
-        à la prochaine Conférence pour quitus.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '3.1'
+      message: Ce Rapport est adopté et le Comité charge le Bureau de le présenter
+        à la prochaine Conférence pour quitus.
 - identifier:
   - prefix: CIML
     number: 1982/3.2
   doi: 10.63493/resolutions/ciml19823.2
   urn: urn:oiml:doc:ciml:resolution:1982-3.2
+  agenda_item: '3.2'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -296,28 +262,25 @@ decisions:
     title: 'Agenda Item 3.2: Examen de la situation financière pour 1981 et estimation
       pour 1982'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité examine, à titre d''information provisoire, le Rapport Comptable
-        pour 1981 qui sera soumis à son adoption à sa prochaine réunion. Il ressort
-        de ce Rapport que les dépenses effectuées en 1981 sont relativement proches
-        (à 1 % pres) des dépenses autorisées par la dernière Conférence, bien que
-        les chiffres d''inflation en France aient été sensiblement supérieurs aux
-        prévisions (14 % au lieu de 12 %). M. ATHANE explique que cela a été dû en
-        partie à la mise en œuvre d''un programme d''économies très sévère, conformément
-        à la demande de la dernière Conférence.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '3.2'
+      message: Le Comité examine, à titre d'information provisoire, le Rapport Comptable
+        pour 1981 qui sera soumis à son adoption à sa prochaine réunion. Il ressort
+        de ce Rapport que les dépenses effectuées en 1981 sont relativement proches
+        (à 1 % pres) des dépenses autorisées par la dernière Conférence, bien que
+        les chiffres d'inflation en France aient été sensiblement supérieurs aux prévisions
+        (14 % au lieu de 12 %). M. ATHANE explique que cela a été dû en partie à la
+        mise en œuvre d'un programme d'économies très sévère, conformément à la demande
+        de la dernière Conférence.
 - identifier:
   - prefix: CIML
     number: 1982/3.3
   doi: 10.63493/resolutions/ciml19823.3
   urn: urn:oiml:doc:ciml:resolution:1982-3.3
+  agenda_item: '3.3'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -326,22 +289,19 @@ decisions:
     title: 'Agenda Item 3.3: Examen de l''éventualité d''une convocation d''une session
       extraordinaire de la Conférence'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'A la suite des discussions qui ont eu lieu, l''assemblée adopte à
-        l''unanimité la résolution ci-après :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '3.3'
+      message: 'A la suite des discussions qui ont eu lieu, l''assemblée adopte à
+        l''unanimité la résolution ci-après :'
 - identifier:
   - prefix: CIML
     number: 1982/4
   doi: 10.63493/resolutions/ciml198204
   urn: urn:oiml:doc:ciml:resolution:1982-04
+  agenda_item: '4'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -349,14 +309,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: Personnel du Bureau'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1982/4.1
   doi: 10.63493/resolutions/ciml19824.1
   urn: urn:oiml:doc:ciml:resolution:1982-4.1
+  agenda_item: '4.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -364,22 +322,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4.1: Examen des postes devenant vacants dans un proche avenir'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'L''Assemblée adopte à l''unanimité la résolution suivante, présentée
-        par M. ATHANE :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '4.1'
+      message: 'L''Assemblée adopte à l''unanimité la résolution suivante, présentée
+        par M. ATHANE :'
 - identifier:
   - prefix: CIML
     number: 1982/4.2
   doi: 10.63493/resolutions/ciml19824.2
   urn: urn:oiml:doc:ciml:resolution:1982-4.2
+  agenda_item: '4.2'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -387,22 +342,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4.2: Examen de l''expertise comptable sur la caisse de retraite'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'La présentation de cette expertise est reportée à la prochaine réunion
-        du Comité, pour transmission à la 7e Conférence.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '4.2'
+      message: La présentation de cette expertise est reportée à la prochaine réunion
+        du Comité, pour transmission à la 7e Conférence.
 - identifier:
   - prefix: CIML
     number: 1982/5
   doi: 10.63493/resolutions/ciml198205
   urn: urn:oiml:doc:ciml:resolution:1982-05
+  agenda_item: '5'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -410,14 +362,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: ORGANES CONSTITUTIFS DE L''OIML'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1982/5.1
   doi: 10.63493/resolutions/ciml19825.1
   urn: urn:oiml:doc:ciml:resolution:1982-5.1
+  agenda_item: '5.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -425,25 +375,22 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5.1: Création de « Commissions Spécialisées »'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Président rappelle que des propositions visant à étudier l''opportunité
-        de créer quatre commissions spécialisées ont été présentées au Comité. On
-        trouvera aux points 6.1. et 8. respectivement les discussions relatives aux
-        Commissions chargées de la planification et coordination des travaux d''une
-        part, du système de certification OIML d''autre part.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '5.1'
+      message: Le Président rappelle que des propositions visant à étudier l'opportunité
+        de créer quatre commissions spécialisées ont été présentées au Comité. On
+        trouvera aux points 6.1. et 8. respectivement les discussions relatives aux
+        Commissions chargées de la planification et coordination des travaux d'une
+        part, du système de certification OIML d'autre part.
 - identifier:
   - prefix: CIML
     number: 1982/6
   doi: 10.63493/resolutions/ciml198206
   urn: urn:oiml:doc:ciml:resolution:1982-06
+  agenda_item: '6'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -451,14 +398,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6: Secrétariats Pilotes et Rapporteurs'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1982/6.1
   doi: 10.63493/resolutions/ciml19826.1
   urn: urn:oiml:doc:ciml:resolution:1982-6.1
+  agenda_item: '6.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -467,23 +412,20 @@ decisions:
     title: 'Agenda Item 6.1: a) Mode de Travail des Secrétariats - Caractère spécifique
       des Recommandations et Documents'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Il est rappelé que le Bureau, pour mettre en application certaines
-        décisions récentes de la Conférence et du Comité et pour tenir compte de l''expérience
+      date_effective:
+        date: '1982-03-24'
+        type: effective
+      message: Il est rappelé que le Bureau, pour mettre en application certaines
+        décisions récentes de la Conférence et du Comité et pour tenir compte de l'expérience
         acquise au cours des cinq ou six dernières années dans le fonctionement des
-
-        '
-      date_effective:
-        date: '1982-03-24'
-        type: effective
-  agenda_item: '6.1'
 - identifier:
   - prefix: CIML
     number: 1982/6.1
   doi: 10.63493/resolutions/ciml19826.1
   urn: urn:oiml:doc:ciml:resolution:1982-6.1
+  agenda_item: '6.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -492,21 +434,18 @@ decisions:
     title: 'Agenda Item 6.1: a) Mode de Travail des Secrétariats - Caractère spécifique
       des Recommandations et Documents'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '6.1'
+      message: 'Le Comité International de Métrologie Légale :'
 - identifier:
   - prefix: CIML
     number: 1982/6.2
   doi: 10.63493/resolutions/ciml19826.2
   urn: urn:oiml:doc:ciml:resolution:1982-6.2
+  agenda_item: '6.2'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -514,45 +453,37 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6.2: Création de nouveaux Secrétariats'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité jusqu''à présent n''avait pas jugé opportun de créer un
-        Secrétariat s''occupant d''un point de vue général des dispositifs électroniques,
-        préférant laisser les divers Secrétariats Rapporteurs s''occuper le cas échéant
-        des dispositifs électroniques pouvant entrer dans les instruments placés sous
-        leur responsabilité.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité jusqu'à présent n'avait pas jugé opportun de créer un Secrétariat
+        s'occupant d'un point de vue général des dispositifs électroniques, préférant
+        laisser les divers Secrétariats Rapporteurs s'occuper le cas échéant des dispositifs
+        électroniques pouvant entrer dans les instruments placés sous leur responsabilité.
     - type: notes
-      message: 'Le Comité a également recommandé que ce Secrétariat commence ses travaux
+      date_effective:
+        date: '1982-03-24'
+        type: effective
+      message: Le Comité a également recommandé que ce Secrétariat commence ses travaux
         le plus vite possible, et ne retarde pas les travaux en cours dans le cadre
         du SP 7- Sr 2 (Electronique dans les instruments de pesage).
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
       message: 'Le Comité donne son accord pour la mise sur pied de ce nouveau Secrétariat
         Rapporteur mais, à la demande de certains participants, les points importants
         suivants devront être clairement élucidés : définition d''un système de mesurage
         (M. PERLSTAIN); liaison avec le nouveau Secrétariat sur l''électronique, car
-        de
-
-        '
-      date_effective:
-        date: '1982-03-24'
-        type: effective
-  agenda_item: '6.2'
+        de'
 - identifier:
   - prefix: CIML
     number: 1982/6.4
   doi: 10.63493/resolutions/ciml19826.4
   urn: urn:oiml:doc:ciml:resolution:1982-6.4
+  agenda_item: '6.4'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -561,28 +492,25 @@ decisions:
     title: 'Agenda Item 6.4: Utilisation par les Secrétariats des résultats des travaux
       d''autres Institutions Internationales'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'L''Assemblée exprime son accord vis-à-vis du document élaboré par
-        le Bureau et demande qu''il soit introduit comme annexe au « Mode de Travail
-        » sous réserve de quelques améliorations ou corrections suggérées par MM.
-        ISSAEV et EDGERLY (en particulier sur la marche à suivre en cas de révision
-        de la Norme de départ). De plus, à la demande de M. PODGORSKI, la nécessité
-        qu''il y a à recourir chaque fois que possible à des travaux internationaux
-        déjà publiés doit figurer comme un principe important au point 5 de ce « Mode
-        de Travail ».
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '6.4'
+      message: L'Assemblée exprime son accord vis-à-vis du document élaboré par le
+        Bureau et demande qu'il soit introduit comme annexe au « Mode de Travail »
+        sous réserve de quelques améliorations ou corrections suggérées par MM. ISSAEV
+        et EDGERLY (en particulier sur la marche à suivre en cas de révision de la
+        Norme de départ). De plus, à la demande de M. PODGORSKI, la nécessité qu'il
+        y a à recourir chaque fois que possible à des travaux internationaux déjà
+        publiés doit figurer comme un principe important au point 5 de ce « Mode de
+        Travail ».
 - identifier:
   - prefix: CIML
     number: 1982/6.5
   doi: 10.63493/resolutions/ciml19826.5
   urn: urn:oiml:doc:ciml:resolution:1982-6.5
+  agenda_item: '6.5'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -590,22 +518,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6.5: Etat d''avancement des travaux des Secrétariats'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Une édition à jour du document « Etat d''avancement » dont la présentation
-        a été améliorée par rapport aux éditions précédentes, est distribuée aux participants.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '6.5'
+      message: Une édition à jour du document « Etat d'avancement » dont la présentation
+        a été améliorée par rapport aux éditions précédentes, est distribuée aux participants.
 - identifier:
   - prefix: CIML
     number: 1982/6.6
   doi: 10.63493/resolutions/ciml19826.6
   urn: urn:oiml:doc:ciml:resolution:1982-6.6
+  agenda_item: '6.6'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -613,23 +538,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6.6: Adoption des Documents Internationaux'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Bureau fait le point sur la mise en application, très satisfaisante,
-        des nouvelles modalités d''adoption des Documents Internationaux, telles qu''elles
-        avaient été décidées par le Comité en 1980.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '6.6'
+      message: Le Bureau fait le point sur la mise en application, très satisfaisante,
+        des nouvelles modalités d'adoption des Documents Internationaux, telles qu'elles
+        avaient été décidées par le Comité en 1980.
 - identifier:
   - prefix: CIML
     number: 1982/7
   doi: 10.63493/resolutions/ciml198207
   urn: urn:oiml:doc:ciml:resolution:1982-07
+  agenda_item: '7'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -637,14 +559,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7: Interaction OIML-Etats Membres'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1982/7.1
   doi: 10.63493/resolutions/ciml19827.1
   urn: urn:oiml:doc:ciml:resolution:1982-7.1
+  agenda_item: '7.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -653,22 +573,19 @@ decisions:
     title: 'Agenda Item 7.1: Participation des Etats Membres aux travaux des Secrétariats
       : Services de métrologie, autres organes administratifs, industrie.'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le rapport présenté par le Bureau à ce sujet n''appelle de remarques
-        qu''en ce qui concerne la participation de l''Industrie aux travaux des Secrétariats.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '7.1'
+      message: Le rapport présenté par le Bureau à ce sujet n'appelle de remarques
+        qu'en ce qui concerne la participation de l'Industrie aux travaux des Secrétariats.
 - identifier:
   - prefix: CIML
     number: 1982/8
   doi: 10.63493/resolutions/ciml198208
   urn: urn:oiml:doc:ciml:resolution:1982-08
+  agenda_item: '8'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -676,14 +593,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 8: Système de Certification OIML (Marque OIML)'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1982/8.1
   doi: 10.63493/resolutions/ciml19828.1
   urn: urn:oiml:doc:ciml:resolution:1982-8.1
+  agenda_item: '8.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -691,23 +606,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 8.1: Discussion des conclusions du groupe ad hoc'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. PETIK résume les propositions formulées par le groupe ad hoc, à
-        l''issue de sa troisième réunion. En présentant ces propositions, le Bureau
-        avait posé aux Etats-Membres les deux questions suivantes :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '8.1'
+      message: 'M. PETIK résume les propositions formulées par le groupe ad hoc, à
+        l''issue de sa troisième réunion. En présentant ces propositions, le Bureau
+        avait posé aux Etats-Membres les deux questions suivantes :'
 - identifier:
   - prefix: CIML
     number: 1982/9
   doi: 10.63493/resolutions/ciml198209
   urn: urn:oiml:doc:ciml:resolution:1982-09
+  agenda_item: '9'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -715,14 +627,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9: RELATIONS AVEC LES INSTITUTIONS INTERNATIONALES'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1982/9.1
   doi: 10.63493/resolutions/ciml19829.1
   urn: urn:oiml:doc:ciml:resolution:1982-9.1
+  agenda_item: '9.1'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -730,21 +640,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9.1: Organes de la Convention du Mètre'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '9.1'
+      message: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1982/9.2
   doi: 10.63493/resolutions/ciml19829.2
   urn: urn:oiml:doc:ciml:resolution:1982-9.2
+  agenda_item: '9.2'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -752,21 +659,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9.2: ISO.'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Bureau résume et complète les informations écrites établies.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '9.2'
+      message: Le Bureau résume et complète les informations écrites établies.
 - identifier:
   - prefix: CIML
     number: 1982/9.3
   doi: 10.63493/resolutions/ciml19829.3
   urn: urn:oiml:doc:ciml:resolution:1982-9.3
+  agenda_item: '9.3'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -774,23 +678,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9.3: CEI.'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Bureau rappelle les décisions qui ont été prises par la CEI et
-        l''OIML en ce qui concerne la répartition des tâches dans le domaine des dispositifs
-        électroniques.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '9.3'
+      message: Le Bureau rappelle les décisions qui ont été prises par la CEI et l'OIML
+        en ce qui concerne la répartition des tâches dans le domaine des dispositifs
+        électroniques.
 - identifier:
   - prefix: CIML
     number: 1982/9.4
   doi: 10.63493/resolutions/ciml19829.4
   urn: urn:oiml:doc:ciml:resolution:1982-9.4
+  agenda_item: '9.4'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -798,26 +699,23 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9.4: Autres Institutions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Bureau évoque brièvement les liaisons existant entre l''OIML et
-        diverses institutions internationales, dont le Système Interaméricain de Métrologie
-        (avec lequel la collaboration peut se poursuivre de manière pratique, sans
-        qu''un accord officiel soit actuellement nécessaire), l''IMEKO (en particulier
-        son TC11 sur les pays en développement), ILAC, la Commission Economique pour
-        l''Europe.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '9.4'
+      message: Le Bureau évoque brièvement les liaisons existant entre l'OIML et diverses
+        institutions internationales, dont le Système Interaméricain de Métrologie
+        (avec lequel la collaboration peut se poursuivre de manière pratique, sans
+        qu'un accord officiel soit actuellement nécessaire), l'IMEKO (en particulier
+        son TC11 sur les pays en développement), ILAC, la Commission Economique pour
+        l'Europe.
 - identifier:
   - prefix: CIML
     number: 1982/9.5
   doi: 10.63493/resolutions/ciml19829.5
   urn: urn:oiml:doc:ciml:resolution:1982-9.5
+  agenda_item: '9.5'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -825,24 +723,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9.5: Groupes de travail mixtes'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. TURSKI fait le point sur le travail du groupe mixte BIPM-CEI-ISO-OIML
-        chargé d''élaborer le Vocabulaire International de Métrologie et indique qu''il
-        est prévu que le projet sera soumis à ces quatre organisations pendant la
-        première moitié de 1983.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '9.5'
+      message: M. TURSKI fait le point sur le travail du groupe mixte BIPM-CEI-ISO-OIML
+        chargé d'élaborer le Vocabulaire International de Métrologie et indique qu'il
+        est prévu que le projet sera soumis à ces quatre organisations pendant la
+        première moitié de 1983.
 - identifier:
   - prefix: CIML
     number: 1982/10
   doi: 10.63493/resolutions/ciml198210
   urn: urn:oiml:doc:ciml:resolution:1982-10
+  agenda_item: '10'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -850,22 +745,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: PAYS EN DEVELOPEMENT'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. SOUCH, qui a présidé la réunion du Conseil de Développement tenue
-        juste avant la session du Comité, en résume les principales conclusions :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '10'
+      message: 'M. SOUCH, qui a présidé la réunion du Conseil de Développement tenue
+        juste avant la session du Comité, en résume les principales conclusions :'
 - identifier:
   - prefix: CIML
     number: 1982/11
   doi: 10.63493/resolutions/ciml198211
   urn: urn:oiml:doc:ciml:resolution:1982-11
+  agenda_item: '11'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -873,24 +765,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 11: SEMINAIRES'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. THULIN rappelle les résultats du premier séminaire, organisé en
-        Suède, sur l''électronique. Le Comité est d''accord pour qu''un deuxième séminaire
-        sur les contrôles statistiques des produits préemballés soit organisé en 1983,
-        si possible en liaison avec le Secrétariat Pilote SP 20.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '11'
+      message: M. THULIN rappelle les résultats du premier séminaire, organisé en
+        Suède, sur l'électronique. Le Comité est d'accord pour qu'un deuxième séminaire
+        sur les contrôles statistiques des produits préemballés soit organisé en 1983,
+        si possible en liaison avec le Secrétariat Pilote SP 20.
 - identifier:
   - prefix: CIML
     number: 1982/12
   doi: 10.63493/resolutions/ciml198212
   urn: urn:oiml:doc:ciml:resolution:1982-12
+  agenda_item: '12'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -898,22 +787,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 12: LOGO (sigle)'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. THULIN montre le logo adopté, dans sa forme définitive, et indique
-        qu''il sera introduit progressivement là où cela est approprié.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '12'
+      message: M. THULIN montre le logo adopté, dans sa forme définitive, et indique
+        qu'il sera introduit progressivement là où cela est approprié.
 - identifier:
   - prefix: CIML
     number: 1982/13
   doi: 10.63493/resolutions/ciml198213
   urn: urn:oiml:doc:ciml:resolution:1982-13
+  agenda_item: '13'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -921,24 +807,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 13: BULLETIN OIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. THULIN indique les modifications visant à améliorer le Bulletin
-        tant dans son aspect (format, papier) que dans son contenu (résumés systématiques,
-        informations bilingues). Il regrette de ne pas avoir beaucoup d''articles
-        techniques à publier et fait un appel dans ce sens aux Membres du Comité.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '13'
+      message: M. THULIN indique les modifications visant à améliorer le Bulletin
+        tant dans son aspect (format, papier) que dans son contenu (résumés systématiques,
+        informations bilingues). Il regrette de ne pas avoir beaucoup d'articles techniques
+        à publier et fait un appel dans ce sens aux Membres du Comité.
 - identifier:
   - prefix: CIML
     number: 1982/14
   doi: 10.63493/resolutions/ciml198214
   urn: urn:oiml:doc:ciml:resolution:1982-14
+  agenda_item: '14'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -946,22 +829,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 14: RAPPORT D''ACTIVITE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Un rapport sur l''activité du Bureau, de juillet 1980 à février 1982,
-        est distribué aux participants.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '14'
+      message: Un rapport sur l'activité du Bureau, de juillet 1980 à février 1982,
+        est distribué aux participants.
 - identifier:
   - prefix: CIML
     number: 1982/15
   doi: 10.63493/resolutions/ciml198215
   urn: urn:oiml:doc:ciml:resolution:1982-15
+  agenda_item: '15'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -969,32 +849,27 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 15: PROCHAINES REUNIONS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité accepte l''invitation présentée par M. REPSTORFF HOLTVEG
-        de tenir sa 19e réunion à Copenhague, les 3, 4 et 5 mai 1983, à l''occasion
-        du tricentenaire de la loi danoise sur les poids et mesures.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité accepte l'invitation présentée par M. REPSTORFF HOLTVEG de
+        tenir sa 19e réunion à Copenhague, les 3, 4 et 5 mai 1983, à l'occasion du
+        tricentenaire de la loi danoise sur les poids et mesures.
     - type: notes
-      message: 'Le Comité accepte l''invitation présentée par M. KIVALO de tenir la
+      date_effective:
+        date: '1982-03-24'
+        type: effective
+      message: Le Comité accepte l'invitation présentée par M. KIVALO de tenir la
         7e Conférence Internationale de Métrologie Légale, et la 20e réunion du Comité,
         à Helsinki en octobre 1984.
-
-        '
-      date_effective:
-        date: '1982-03-24'
-        type: effective
-  agenda_item: '15'
 - identifier:
   - prefix: CIML
     number: 1982/16
   doi: 10.63493/resolutions/ciml198216
   urn: urn:oiml:doc:ciml:resolution:1982-16
+  agenda_item: '16'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -1002,23 +877,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 16: AUTRES QUESTIONS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'A la demande de M. ISSAEV, le Comité charge son Président d''adresser
-        au Docteur McCOUBREY l''expression de sa gratitude pour l''action qu''il a
-        menée au sein du Comité.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '16'
+      message: A la demande de M. ISSAEV, le Comité charge son Président d'adresser
+        au Docteur McCOUBREY l'expression de sa gratitude pour l'action qu'il a menée
+        au sein du Comité.
 - identifier:
   - prefix: CIML
     number: 1982/17
   doi: 10.63493/resolutions/ciml198217
   urn: urn:oiml:doc:ciml:resolution:1982-17
+  agenda_item: '17'
   dates:
   - date: '1982-03-24'
     type: decided
@@ -1026,216 +898,163 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 17: CLOTURE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a adopté le compte rendu de sa 17e réunion.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité a adopté le compte rendu de sa 17e réunion.
     - type: notes
-      message: 'Le Comité a accepté les demandes de déclassement de la République
-        Populaire Démocratique de Corée et de la Pologne.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité a accepté les demandes de déclassement de la République Populaire
+        Démocratique de Corée et de la Pologne.
     - type: notes
-      message: 'Le Comité a demandé au Bureau de refaire le point sur la situation
-        des Membres Correspondants (paiement de l''abonnement forfaitaire) pour la
+      date_effective:
+        date: '1982-03-24'
+        type: effective
+      message: Le Comité a demandé au Bureau de refaire le point sur la situation
+        des Membres Correspondants (paiement de l'abonnement forfaitaire) pour la
         prochaine réunion en mai 1983.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité a adopté le rapport comptable pour 1980 et a chargé le Bureau
+      message: Le Comité a adopté le rapport comptable pour 1980 et a chargé le Bureau
         de le présenter à la prochaine Conférence.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris connaissance d''une déclaration du Gouvernement Italien
-        et a demandé au Bureau d''introduire certaines modifications dans la présentation
+      message: Le Comité a pris connaissance d'une déclaration du Gouvernement Italien
+        et a demandé au Bureau d'introduire certaines modifications dans la présentation
         des documents financiers.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité a exprimé son accord de principe vis-à-vis du projet de révision
+        du « Mode de travail des Secrétariats de l'OIML », présenté par le Bureau,
+        sous réserve d'un certain nombre de modifications indiquées en séance.
     - type: notes
-      message: 'Le Comité a exprimé son accord de principe vis-à-vis du projet de
-        révision du « Mode de travail des Secrétariats de l''OIML », présenté par
-        le Bureau, sous réserve d''un certain nombre de modifications indiquées en
-        séance.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: 'Le Comité International de Métrologie Légale :'
     - type: notes
-      message: 'Le Comité International de Métrologie Légale :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité a décidé de ne pas instituer de Secrétariat Rapoprteur spécial
+      message: Le Comité a décidé de ne pas instituer de Secrétariat Rapoprteur spécial
         pour le mesurage de la pollution sonore.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
       message: 'Le Comité a institué deux Secrétariats Rapporteurs : l''un sur les
         dispositifs électroniques associés aux instruments de mesurage (responsable
         Pays-Bas), l''autre sur la métrologie des systèmes de mesurage (responsable
-        U.R.S.S.).
-
-        '
+        U.R.S.S.).'
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité a décidé de reporter à sa prochaine session l'examen de la
+        proposition visant à instituer un Secrétariat Rapporteur sur le contrôle de
+        la compétence des laboratoires médicaux.
     - type: notes
-      message: 'Le Comité a décidé de reporter à sa prochaine session l''examen de
-        la proposition visant à instituer un Secrétariat Rapporteur sur le contrôle
-        de la compétence des laboratoires médicaux.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: 'Le Comité a décidé la suppression des Secrétariats suivants :'
     - type: notes
-      message: 'Le Comité a décidé la suppression des Secrétariats suivants :
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
       message: 'Le Comité a classé comme thèmes ultérieurs de travail les études des
-        Secrétaiats Rapporteurs suivants :
-
-        '
+        Secrétaiats Rapporteurs suivants :'
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité a transféré du SP 30 au SP 6 le Secrétariat Rapporteur sur
+      message: Le Comité a transféré du SP 30 au SP 6 le Secrétariat Rapporteur sur
         la calorimétrie des gaz.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
       message: 'Le Comité a attribué aux Etats-Unis d''Amérique le Secrétariat Rapporteur
-        SP 20- Sr 1 : contenu informatif de l''étiquetage.
-
-        '
+        SP 20- Sr 1 : contenu informatif de l''étiquetage.'
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité a chargé le Bureau d'introduire certaines améliorations dans
+        la
     - type: notes
-      message: 'Le Comité a chargé le Bureau d''introduire certaines améliorations
-        dans la
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité a exprimé son accord vis-à-vis du document élaboré par le
+        Bureau, relatif à l'utilisation par les Secrétariats de l'OIML des résultats
+        des travaux d'autres institutions internationales, et a chargé le Bureau de
+        l'introduire sous forme d'annexe au « Mode de travail ».
     - type: notes
-      message: 'Le Comité a exprimé son accord vis-à-vis du document élaboré par le
-        Bureau, relatif à l''utilisation par les Secrétariats de l''OIML des résultats
-        des travaux d''autres institutions internationales, et a chargé le Bureau
-        de l''introduire sous forme d''annexe au « Mode de travail ».
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité réaffirme sa déclaration de 1978 relative à la participation
+        de représentants de l'industrie aux réunions des Secrétariats de l'OIML.
     - type: notes
-      message: 'Le Comité réaffirme sa déclaration de 1978 relative à la participation
-        de représentants de l''industrie aux réunions des Secrétariats de l''OIML.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité estime que les travaux sur l'institution d'un système de
+        certification OIML doivent se poursuivre au niveau du groupe ad hoc qui reçoit
+        des directives pour la suite de son travail.
     - type: notes
-      message: 'Le Comité estime que les travaux sur l''institution d''un système
-        de certification OIML doivent se poursuivre au niveau du groupe ad hoc qui
-        reçoit des directives pour la suite de son travail.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité charge le Bureau de poursuivre son étude sur la spécification
+      message: Le Comité charge le Bureau de poursuivre son étude sur la spécification
         des mots « masse » et « poids ».
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
+      message: Le Comité prend acte d'une déclaration de Mr RAMÓN DARIAS RODÉS, Ministre
+        Président du Comité de normalisation de Cuba, présentant les décisions prises
+        lors de la Conférence du Mouvement des Pays non-alignés et autres Pays en
+        développement, en ce qui concerne la Métrologie et la Normalisation.
     - type: notes
-      message: 'Le Comité prend acte d''une déclaration de Mr RAMÓN DARIAS RODÉS,
-        Ministre Président du Comité de normalisation de Cuba, présentant les décisions
-        prises lors de la Conférence du Mouvement des Pays non-alignés et autres Pays
-        en développement, en ce qui concerne la Métrologie et la Normalisation.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité prend acte du rapport sur la réunion du Conseil de Développement
+      message: Le Comité prend acte du rapport sur la réunion du Conseil de Développement
         et charge le Bureau de poursuivre ses activités conformément aux décisions
         prises.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité exprime son accord pour que le Bureau organise en 1983 un
+      message: Le Comité exprime son accord pour que le Bureau organise en 1983 un
         séminaire sur les contrôles statistiques des produits préemballés.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité décide que sa 19e réunion se tiendra à Copenhague du 3 au
+      message: Le Comité décide que sa 19e réunion se tiendra à Copenhague du 3 au
         5 mai 1983.
-
-        '
+    - type: notes
       date_effective:
         date: '1982-03-24'
         type: effective
-    - type: notes
-      message: 'Le Comité décide que sa 20e réunion et la 7e Conférence Internationale
+      message: Le Comité décide que sa 20e réunion et la 7e Conférence Internationale
         de Metrologie Légale auront lieu à Helsinki en octobre 1984.
-
-        '
-      date_effective:
-        date: '1982-03-24'
-        type: effective
     - type: notes
-      message: 'Le Comité charge son Président d''adresser au Dr A.O. McCOUBREY, ancien
-        Vice-président, l''expression de sa gratitude.
-
-        '
       date_effective:
         date: '1982-03-24'
         type: effective
-  agenda_item: '17'
+      message: Le Comité charge son Président d'adresser au Dr A.O. McCOUBREY, ancien
+        Vice-président, l'expression de sa gratitude.

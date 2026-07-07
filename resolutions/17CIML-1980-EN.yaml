@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/17CIML-1980-EN.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/17CIML-1980-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:17CIML-1980-EN
+# Meeting URN: urn:oiml:ciml:meeting:ciml-17
 # Language: en
 ---
 metadata:
-  title: 17th CIML Meeting — Minutes (EN, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: USWAS
-  country_code: US
   title_localized:
   - language_code: eng
     title: 17th CIML Meeting — Minutes (EN, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: USWAS
+  country_code: US
   meeting_urn: urn:oiml:ciml:meeting:ciml-17
 decisions:
 - identifier:
@@ -19,85 +18,75 @@ decisions:
     number: 1980/1
   doi: 10.63493/resolutions/ciml198001
   urn: urn:oiml:doc:ciml:resolution:1980-01
+  agenda_item: '1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 1: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE'
-    considerations: []
     actions:
     - type: notes
-      message: 'The minutes were approved without modification.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '1'
+      message: The minutes were approved without modification.
 - identifier:
   - prefix: CIML
     number: 1980/2
   doi: 10.63493/resolutions/ciml198002
   urn: urn:oiml:doc:ciml:resolution:1980-02
+  agenda_item: '2'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2: FINANCIAL SITUATION'
-    considerations: []
-    actions: []
-  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1980/2.1
   doi: 10.63493/resolutions/ciml19802.1
   urn: urn:oiml:doc:ciml:resolution:1980-2.1
+  agenda_item: '2.1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2.1: Approval of the Accountants'' Reports for 1978 and 1979'
-    considerations: []
     actions:
     - type: notes
-      message: 'These reports were adopted, prior to their presentation to the Conference.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '2.1'
+      message: These reports were adopted, prior to their presentation to the Conference.
 - identifier:
   - prefix: CIML
     number: 1980/2.2
   doi: 10.63493/resolutions/ciml19802.2
   urn: urn:oiml:doc:ciml:resolution:1980-2.2
+  agenda_item: '2.2'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2.2: Examination of the draft "Financial Code"'
-    considerations: []
     actions:
     - type: notes
-      message: 'It was recalled that the Committee had adopted, in 1962 and in accordance
-        with Article XXVII of the Convention, a "Financial Code" which was subsequently
-        found to be difficult to apply in all its details.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '2.2'
+      message: It was recalled that the Committee had adopted, in 1962 and in accordance
+        with Article XXVII of the Convention, a "Financial Code" which was subsequently
+        found to be difficult to apply in all its details.
 - identifier:
   - prefix: CIML
     number: 1980/3
   doi: 10.63493/resolutions/ciml198003
   urn: urn:oiml:doc:ciml:resolution:1980-03
+  agenda_item: '3'
   dates:
   - date: '1980-06-16'
     type: decided
@@ -105,38 +94,33 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 3: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF
       THE CONFERENCE'
-    considerations: []
-    actions: []
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1980/3.1
   doi: 10.63493/resolutions/ciml19803.1
   urn: urn:oiml:doc:ciml:resolution:1980-3.1
+  agenda_item: '3.1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 3.1: Scale of salaries for BIML staff'
-    considerations: []
     actions:
     - type: notes
-      message: 'The last modification to the scale of salaries for BIML staff was
-        made in July 1975, in order to realign the progression of salaries for BIML
-        staff, both with those of personnel employed by the International Bureau of
-        Weights and Measures (BIPM) and by the French Administration.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '3.1'
+      message: The last modification to the scale of salaries for BIML staff was made
+        in July 1975, in order to realign the progression of salaries for BIML staff,
+        both with those of personnel employed by the International Bureau of Weights
+        and Measures (BIPM) and by the French Administration.
 - identifier:
   - prefix: CIML
     number: 1980/4
   doi: 10.63493/resolutions/ciml198004
   urn: urn:oiml:doc:ciml:resolution:1980-04
+  agenda_item: '4'
   dates:
   - date: '1980-06-16'
     type: decided
@@ -144,195 +128,170 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 4: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY
       OF THE CONFERENCE ORGANIZATION OF THE SESSION'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee expressed its agreement on the proposed agenda and time
-        table for the Conference.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '4'
+      message: The Committee expressed its agreement on the proposed agenda and time
+        table for the Conference.
 - identifier:
   - prefix: CIML
     number: 1980/5
   doi: 10.63493/resolutions/ciml198005
   urn: urn:oiml:doc:ciml:resolution:1980-05
+  agenda_item: '5'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 5: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE'
-    considerations: []
-    actions: []
-  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1980/5.1
   doi: 10.63493/resolutions/ciml19805.1
   urn: urn:oiml:doc:ciml:resolution:1980-5.1
+  agenda_item: '5.1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 5.1: Amendment of the Convention'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee expressed its agreement for a draft resolution to be
-        presented for examination by the Conference, whereby the Convention should
-        not be modified for the present.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '5.1'
+      message: The Committee expressed its agreement for a draft resolution to be
+        presented for examination by the Conference, whereby the Convention should
+        not be modified for the present.
 - identifier:
   - prefix: CIML
     number: 1980/6
   doi: 10.63493/resolutions/ciml198006
   urn: urn:oiml:doc:ciml:resolution:1980-06
+  agenda_item: '6'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS'
-    considerations: []
-    actions: []
-  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 1980/6.1
   doi: 10.63493/resolutions/ciml19806.1
   urn: urn:oiml:doc:ciml:resolution:1980-6.1
+  agenda_item: '6.1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6.1: SP 25 - Developing Countries'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee expressed its agreement in principle with the proposals
-        of the BIML, which could be studied in greater detail at the next meeting
-        of the Development Council.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '6.1'
+      message: The Committee expressed its agreement in principle with the proposals
+        of the BIML, which could be studied in greater detail at the next meeting
+        of the Development Council.
 - identifier:
   - prefix: CIML
     number: 1980/6.2
   doi: 10.63493/resolutions/ciml19806.2
   urn: urn:oiml:doc:ciml:resolution:1980-6.2
+  agenda_item: '6.2'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6.2: SP 17 - Measurement of pollutants'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee expressed its agreement in principle concerning the
-        creation of the five proposed Reporting Secretariats. It agreed that responsibility
+      date_effective:
+        date: '1980-06-16'
+        type: effective
+      message: The Committee expressed its agreement in principle concerning the creation
+        of the five proposed Reporting Secretariats. It agreed that responsibility
         for Sr 1 and Sr 3 should be taken over by the Federal Republic of Germany
         and United Kingdom (subject to confirmation), respectively. It charged the
         U.S.A. with organizing the first meeting of this Pilot Secretariat in 1981,
         to settle all problems of detail and ensure rapid commencement of the work.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '6.2'
 - identifier:
   - prefix: CIML
     number: 1980/6.3
   doi: 10.63493/resolutions/ciml19806.3
   urn: urn:oiml:doc:ciml:resolution:1980-6.3
+  agenda_item: '6.3'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6.3: SP 20 - Prepackaged products'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee expressed its agreement in principle with this proposal,
-        and thanked Mr PERLSTAIN for taking over responsibility for Reporting Secretariat
-        N which in fact would be identical to Secretariat SP 2-Sr 5 "Sample testing",
-        for which Switzerland is already responsible.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '6.3'
+      message: The Committee expressed its agreement in principle with this proposal,
+        and thanked Mr PERLSTAIN for taking over responsibility for Reporting Secretariat
+        N which in fact would be identical to Secretariat SP 2-Sr 5 "Sample testing",
+        for which Switzerland is already responsible.
 - identifier:
   - prefix: CIML
     number: 1980/6.4
   doi: 10.63493/resolutions/ciml19806.4
   urn: urn:oiml:doc:ciml:resolution:1980-6.4
+  agenda_item: '6.4'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6.4: Creation of a new Secretariat for explosimeters.'
-    considerations: []
     actions:
     - type: notes
-      message: 'This Reporting Secretariat, created on the proposal of France, and
+      date_effective:
+        date: '1980-06-16'
+        type: effective
+      message: This Reporting Secretariat, created on the proposal of France, and
         for which France is responsible, comes under Pilot Secretariat 30. France
         was requested to carry out work in this field, which could be undertaken by
         the ISO, IEC or other institutions. A certain number of CIML members expressed
         their interest in princi in collaboration with this Reporting Secretariat,
         subject to confirmation by their respective national administrations.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '6.4'
 - identifier:
   - prefix: CIML
     number: 1980/6.5
   doi: 10.63493/resolutions/ciml19806.5
   urn: urn:oiml:doc:ciml:resolution:1980-6.5
+  agenda_item: '6.5'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6.5: Reorganization of SP 18 (Food products).'
-    considerations: []
     actions:
     - type: notes
-      message: 'The BIML indicated that this reorganization was still being discussed
-        by Franc the Federal Republic of Germany and the United Kingdom, and that
-        proposals would be presented to the Committee at a later date.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '6.5'
+      message: The BIML indicated that this reorganization was still being discussed
+        by Franc the Federal Republic of Germany and the United Kingdom, and that
+        proposals would be presented to the Committee at a later date.
 - identifier:
   - prefix: CIML
     number: 1980/6.6
   doi: 10.63493/resolutions/ciml19806.6
   urn: urn:oiml:doc:ciml:resolution:1980-6.6
+  agenda_item: '6.6'
   dates:
   - date: '1980-06-16'
     type: decided
@@ -340,283 +299,249 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 6.6: BIML proposal concerning the state of progress with certain
       activities'
-    considerations: []
     actions:
     - type: notes
-      message: 'Mr THULIN presented an analysis covering the activities of certain
+      date_effective:
+        date: '1980-06-16'
+        type: effective
+      message: Mr THULIN presented an analysis covering the activities of certain
         Secretariat the work of which should be accelerated as far as possible, due
         to the particular importance of same. Generally, this concerns relatively
         new metrological subjects for which national regulations have not yet been
         established in many cases, altho many metrology services are beginning to
         work on these questions.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '6.6'
 - identifier:
   - prefix: CIML
     number: 1980/7
   doi: 10.63493/resolutions/ciml198007
   urn: urn:oiml:doc:ciml:resolution:1980-07
+  agenda_item: '7'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 7: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS'
-    considerations: []
-    actions: []
-  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 1980/7.1
   doi: 10.63493/resolutions/ciml19807.1
   urn: urn:oiml:doc:ciml:resolution:1980-7.1
+  agenda_item: '7.1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 7.1: New adoption procedures and new appellation'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee expressed its agreement with proposals put forward by
-        the BIML, aimed at simplifying and accelerating the procedure for adoption
-        of international documents. The new procedure is as follows:
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '7.1'
+      message: 'The Committee expressed its agreement with proposals put forward by
+        the BIML, aimed at simplifying and accelerating the procedure for adoption
+        of international documents. The new procedure is as follows:'
 - identifier:
   - prefix: CIML
     number: 1980/8
   doi: 10.63493/resolutions/ciml198008
   urn: urn:oiml:doc:ciml:resolution:1980-08
+  agenda_item: '8'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 8: BUREAU PERSONNEL'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee set up a Commission for the purpose of examining the
-        following candidatures, for the posts of Assistant Director and Engineer :
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
+      message: 'The Committee set up a Commission for the purpose of examining the
+        following candidatures, for the posts of Assistant Director and Engineer :'
     - type: notes
-      message: 'The Committee then adopted the following two draft resolutions presented
+      date_effective:
+        date: '1980-06-16'
+        type: effective
+      message: The Committee then adopted the following two draft resolutions presented
         by the Commission, by secret vote. The first draft was adopted by 29 votes
         in favour and 2 blank votes, and the second by 27 votes in favour, 1 vote
         against and 2 abstentions.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1980/9
   doi: 10.63493/resolutions/ciml198009
   urn: urn:oiml:doc:ciml:resolution:1980-09
+  agenda_item: '9'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE'
-    considerations: []
-    actions: []
-  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1980/9.1
   doi: 10.63493/resolutions/ciml19809.1
   urn: urn:oiml:doc:ciml:resolution:1980-9.1
+  agenda_item: '9.1'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9.1: Composition of Reporting Secretariats'
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1980-06-16'
+        type: effective
       message: 'Following the decision of the Conference concerning the creation of
         "collaborator-observers", the Bureau was charged with pursuing investigations
         in connection with the enrolment of Member States in this new category, and
         with publishing a new version of the document : "Composition of OIML Reporting
-        Secretariats", early in 1981.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '9.1'
+        Secretariats", early in 1981.'
 - identifier:
   - prefix: CIML
     number: 1980/9.2
   doi: 10.63493/resolutions/ciml19809.2
   urn: urn:oiml:doc:ciml:resolution:1980-9.2
+  agenda_item: '9.2'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9.2: Development Council (Financial Code)'
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1980-06-16'
+        type: effective
       message: 'Following the adoption by the Conference, of a resolution concerning
         the creation, and terms of reference of the Development Council, the Committee
         adopts in principle the draft regulation, concerning the attribution of OIML
         financial aid for "participation in the meetings of the Development Council",
-        as follows:
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '9.2'
+        as follows:'
 - identifier:
   - prefix: CIML
     number: 1980/9.3
   doi: 10.63493/resolutions/ciml19809.3
   urn: urn:oiml:doc:ciml:resolution:1980-9.3
+  agenda_item: '9.3'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9.3: Report on the work of the "OIML Mark" ad hoc group'
-    considerations: []
     actions:
     - type: notes
-      message: 'This report was presented to the Conference
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '9.3'
+      message: This report was presented to the Conference
 - identifier:
   - prefix: CIML
     number: 1980/10
   doi: 10.63493/resolutions/ciml198010
   urn: urn:oiml:doc:ciml:resolution:1980-10
+  agenda_item: '10'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 10: ORGANIZATION OF TECHNICAL SEMINARS'
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1980-06-16'
+        type: effective
       message: 'Mr THULIN summarized the general content of the report, issued following
         an investigation carried out early in 1980, which showed that many Member
         States are interested in the proposal made by the BIML, concerning attempts
         to organize technical seminars on a certain number of subjects, the more important
-        of which are as follows:
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '10'
+        of which are as follows:'
 - identifier:
   - prefix: CIML
     number: 1980/11
   doi: 10.63493/resolutions/ciml198011
   urn: urn:oiml:doc:ciml:resolution:1980-11
+  agenda_item: '11'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11: OIML LOGO'
-    considerations: []
     actions:
     - type: notes
-      message: 'Mr THULIN summarized the results of an investigation conducted by
-        the BIM concerning a representative logo for the Organization, which could
-        be used on letter headings, the cover of published documents, etc..
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '11'
+      message: Mr THULIN summarized the results of an investigation conducted by the
+        BIM concerning a representative logo for the Organization, which could be
+        used on letter headings, the cover of published documents, etc..
 - identifier:
   - prefix: CIML
     number: 1980/12
   doi: 10.63493/resolutions/ciml198012
   urn: urn:oiml:doc:ciml:resolution:1980-12
+  agenda_item: '12'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 12: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL'
-    considerations: []
     actions:
     - type: notes
-      message: 'The investigation conducted by the BIML is being pursued, and it is
-        anticipated that the results of same will be published early in 1981, possibly
-        in temporary form prior to publication in more detail.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '12'
+      message: The investigation conducted by the BIML is being pursued, and it is
+        anticipated that the results of same will be published early in 1981, possibly
+        in temporary form prior to publication in more detail.
 - identifier:
   - prefix: CIML
     number: 1980/13
   doi: 10.63493/resolutions/ciml198013
   urn: urn:oiml:doc:ciml:resolution:1980-13
+  agenda_item: '13'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 13: REPORT ON BIML ACTIVITIES'
-    considerations: []
     actions:
     - type: notes
-      message: 'A report summarizing the main points of BIML activity since the last
-        meeting of the Committee in June 1978, was distributed to the participants.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '13'
+      message: A report summarizing the main points of BIML activity since the last
+        meeting of the Committee in June 1978, was distributed to the participants.
 - identifier:
   - prefix: CIML
     number: 1980/14
   doi: 10.63493/resolutions/ciml198014
   urn: urn:oiml:doc:ciml:resolution:1980-14
+  agenda_item: '14'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 14: ANY OTHER BUSINESS'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Bureau presented a short report on the utilization of the English
+      date_effective:
+        date: '1980-06-16'
+        type: effective
+      message: The Bureau presented a short report on the utilization of the English
         language, and the Committee expressed no objections to the plan, to be operated
         on an experimental basis for a period of two years, whereby the relatively
         modest overheads, resulting from the preparation of documents by the BIML
@@ -624,138 +549,106 @@ decisions:
         of the OIML, provided that special translation work, executed at the request
         of certain Member States concerned, will continue to be covered by the special
         budget of the Translation Centre.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
-  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 1980/15
   doi: 10.63493/resolutions/ciml198015
   urn: urn:oiml:doc:ciml:resolution:1980-15
+  agenda_item: '15'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 15: DATE AND PLACE OF THE NEXT MEETING'
-    considerations: []
     actions:
     - type: notes
-      message: 'Certain Members of the Committee had advised the BIML of their intention
-        to invite the Committee to meet in their countries at a later date, and it
-        was decided to await firm proposals, before establishing the calendar for
-        the next meetings $ ^{*} $
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '15'
+      message: Certain Members of the Committee had advised the BIML of their intention
+        to invite the Committee to meet in their countries at a later date, and it
+        was decided to await firm proposals, before establishing the calendar for
+        the next meetings $ ^{*} $
 - identifier:
   - prefix: CIML
     number: 1980/16
   doi: 10.63493/resolutions/ciml198016
   urn: urn:oiml:doc:ciml:resolution:1980-16
+  agenda_item: '16'
   dates:
   - date: '1980-06-16'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 16: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee has adopted the report of its sixteenth meeting.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
+      message: The Committee has adopted the report of its sixteenth meeting.
     - type: notes
-      message: 'The Committee has adopted the accountants reports for 1978 and 1979
+      date_effective:
+        date: '1980-06-16'
+        type: effective
+      message: The Committee has adopted the accountants reports for 1978 and 1979
         as well as the draft "Financial Code".
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
+      message: The Committee has adopted a new scale of salaries of the BIML staff.
     - type: notes
-      message: 'The Committee has adopted a new scale of salaries of the BIML staff.
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee has accepted the draft general working plan presented
+      message: The Committee has accepted the draft general working plan presented
         by the U.S.A. and reproduced hereafter, asking the Pilot Secretariat for meeting
         as quickly as possible in order to fix the detailed working programme.
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee has accepted the draft general working plan presented
+      message: The Committee has accepted the draft general working plan presented
         by the U.S.A. and reproduced hereafter.
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee has accepted the creation of Secretariat SP 30-Sr 12
+      message: The Committee has accepted the creation of Secretariat SP 30-Sr 12
         "Explosimeters" on the responsibility of France.
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee has accepted a proposal from the Bureau relating to
-        a simplification of the mode of acceptance of International Documents and
-        has requested the Bureau to study the possibility of modifying the denomination
+      message: The Committee has accepted a proposal from the Bureau relating to a
+        simplification of the mode of acceptance of International Documents and has
+        requested the Bureau to study the possibility of modifying the denomination
         of these Documents.
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee has adopted the draft International Document "Installation
+      message: The Committee has adopted the draft International Document "Installation
         and storage conditions for cold water meters".
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee has adopted for your guidance the Code hereafter relating
+      message: The Committee has adopted for your guidance the Code hereafter relating
         to allocation of OIML financial aid for the participation in the meetings
         of the Development Council.
-
-        '
+    - type: notes
       date_effective:
         date: '1980-06-16'
         type: effective
-    - type: notes
-      message: 'The Committee agreed that the Bureau continues its efforts in view
+      message: The Committee agreed that the Bureau continues its efforts in view
         of organizing, if possible in 1981, a first technical seminary, on one of
         the subjects to which all Member States have given priority.
-
-        '
-      date_effective:
-        date: '1980-06-16'
-        type: effective
     - type: notes
-      message: 'The Committee has elected, for a six years period, as President and
-        first and second Vice-presidents :
-
-        '
       date_effective:
         date: '1980-06-16'
         type: effective
-  agenda_item: '16'
+      message: 'The Committee has elected, for a six years period, as President and
+        first and second Vice-presidents :'

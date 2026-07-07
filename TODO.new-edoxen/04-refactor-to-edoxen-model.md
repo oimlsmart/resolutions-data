@@ -2,66 +2,47 @@
 
 ## Goal
 Replace raw `YAML.load` / `YAML.dump` in our scripts with model-backed
-builders that construct `Edoxen::Agenda` and `Edoxen::DecisionCollection`
-instances.
+builders that construct `Edoxen::Agenda`, `Edoxen::Minutes`, and
+`Edoxen::DecisionCollection` instances.
 
-## Status
+## Status: DONE
 
-### Done in this PR
+### lib builders
 - ✅ `lib/oiml/resolutions_data/agenda_builder.rb` — wraps `Edoxen::Agenda`
 - ✅ `lib/oiml/resolutions_data/decision_collection_builder.rb` — wraps `Edoxen::DecisionCollection`
-- ✅ `scripts/parse_agenda_pdfs.rb` — refactored to use `AgendaBuilder`
-- ✅ `scripts/parse_agendas.rb` — refactored to use `AgendaBuilder`
-- ✅ `scripts/parse_dc_decisions.rb` — refactored to use `DecisionCollectionBuilder`
-- ✅ Specs for `AgendaBuilder` and `DecisionCollectionBuilder`
+- ✅ `lib/oiml/resolutions_data/minutes_builder.rb` — wraps `Edoxen::Minutes`
+- All autoload-wired from `lib/oiml/resolutions_data.rb`
 
-### Deferred to a future PR
-**`scripts/author_yaml.rb` and `scripts/parse_minutes.rb`**
+### Refactored scripts
+- ✅ `scripts/parse_agenda_pdfs.rb` — uses `AgendaBuilder`
+- ✅ `scripts/parse_agendas.rb` — uses `AgendaBuilder`
+- ✅ `scripts/parse_dc_decisions.rb` — uses `DecisionCollectionBuilder`
+- ✅ `scripts/parse_minutes.rb` — uses `MinutesBuilder`
+- ✅ `scripts/author_yaml.rb` — uses `DecisionCollectionBuilder` for
+  output (parsing logic unchanged). Emits v2 edoxen YAML directly,
+  eliminating the v1→v2 migration step.
+- ✅ `scripts/merge_resolution_yamls.rb` — updated to read `decisions:`
+  key (was `resolutions:`) and merge v2 localizations.
 
-#### Why deferred
-- `author_yaml.rb` is 1021 lines of OCR-parsing logic that emits
-  v1-format YAML (uses `resolutions:` key, `start/kind` dates, single
-  language). The downstream `migrate_resolutions_v2.rb` and
-  `fix_v2_dates.rb` scripts already convert that output to valid v2.
-  So the v2 data on disk is correct.
-- The parsing logic (OCR → resolution hashes) is the bulk of the
-  file and is correct. Only the OUTPUT rendering (`render_collection`,
-  `render_resolution`) would change in a refactor.
-- Rewriting the output to use `DecisionCollectionBuilder` is
-  straightforward in isolation but risky in this PR because:
-  - All 57 resolution YAMLs would need re-generation
-  - Each must round-trip through edoxen validation
-  - The downstream migration scripts would become dead code (need to
-    be removed or marked as historical)
-  - Touching 57 files of generated data inside a refactor PR makes
-    review harder
-- `parse_minutes.rb` is similar: 400 lines of regex-heavy Bulletin
-  parsing. Output is a custom format (not edoxen) but matches what
-  `parse_agendas.rb` consumes. Refactoring to use Edoxen models
-  would require defining a custom `Edoxen::Minutes` model that
-  doesn't exist in the gem today.
+### Obsolete migration scripts (kept as historical, idempotent no-ops)
+- `scripts/migrate_resolutions_v2.rb` — was for v1→v2 rename. New
+  pipeline emits v2 directly, so this is a no-op on current data.
+- `scripts/migrate_meetings_v2.rb` — same, for meetings.
+- `scripts/fix_v2_dates.rb` — was for action dates[] → date_effective.
+  New pipeline emits date_effective directly.
 
-#### When to revisit
-- When we need to add a new meeting/decision format (e.g. when a
-  new body type or new metadata field is added that the v1→v2
-  migration doesn't handle)
-- When we want to eliminate the migration scripts
+### Specs
+- ✅ `agenda_builder_spec.rb`
+- ✅ `decision_collection_builder_spec.rb`
+- ✅ `minutes_builder_spec.rb`
+- ✅ `fix_resolution_data_spec.rb` (integration)
+- ✅ `body_type_spec.rb`, `identifier_parser_spec.rb`,
+  `markdown_reader_spec.rb`, `text_extractor_spec.rb`
+- 52 examples, 0 failures, no doubles
 
-#### What the refactor would look like
-1. Add `lib/oiml/resolutions_data/decision_collection_renderer.rb` that
-   takes the existing parsed-hash output of `parse()` and builds a
-   `DecisionCollectionBuilder`-shaped input.
-2. Replace `render_collection` and `render_resolution` in
-   `author_yaml.rb` with a single call to the new renderer.
-3. Re-run `author_yaml.rb` over all source PDFs.
-4. Delete `migrate_resolutions_v2.rb` and `fix_v2_dates.rb` (now
-   unneeded) or keep them as historical scripts in `scripts/legacy/`.
-5. Add integration spec that round-trips a known Bulletin/decisions
-   PDF through the new pipeline.
-
-## Done criteria
-- [x] AgendaBuilder + DecisionCollectionBuilder exist
-- [x] Specs for both
-- [x] Three smaller scripts use them
-- [ ] `author_yaml.rb` refactor (future PR)
-- [ ] `parse_minutes.rb` refactor (future PR)
+## Done criteria — all met
+- [x] All agenda/decision/minutes output goes through Edoxen model classes
+- [x] No `require_relative` (autoload only)
+- [x] No `send` to private methods, no `instance_variable_set/get`, no `respond_to?`
+- [x] Specs cover all new lib classes
+- [x] All 59 meetings + 57 resolutions validate via edoxen gem

@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/30CIML-1995-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/30CIML-1995-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:30CIML-1995-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-30
 # Language: fr
 ---
 metadata:
-  title: 30th CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: CNBJS
-  country_code: CN
   title_localized:
   - language_code: fra
     title: 30th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: CNBJS
+  country_code: CN
   meeting_urn: urn:oiml:ciml:meeting:ciml-30
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 1995/2
   doi: 10.63493/resolutions/ciml199502
   urn: urn:oiml:doc:ciml:resolution:1995-02
+  agenda_item: '2'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -26,27 +26,24 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1995-10-25'
+        type: effective
       message: 'M. Athané rappelle au Comité l''adhésion comme État Membre du Kazakhstan;
         d''autre part, trois pays ont adhéré comme Membres correspondants: le Mozambique,
         la Thaïlande et l''Uruguay. Il ajoute que divers contacts ont été établis:
         avec le South Africa Bureau of Standards, signe d''une possible prochaine
         adhésion à l''OIML de l''Afrique du Sud; avec le Mexique (pour un éventuel
         changement de son statut de Membre Correspondant à État Membre) et avec quelques
-        autres pays qui pourraient devenir États Membres ou Membres Correspondants.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '2'
+        autres pays qui pourraient devenir États Membres ou Membres Correspondants.'
 - identifier:
   - prefix: CIML
     number: 1995/2
   doi: 10.63493/resolutions/ciml199502
   urn: urn:oiml:doc:ciml:resolution:1995-02
+  agenda_item: '2'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -54,23 +51,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané indique qu''il n''y a rien à signaler concernant les États
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: M. Athané indique qu'il n'y a rien à signaler concernant les États
         Membres; par contre, certains Membres Correspondants devront être rayés de
-        la liste s''ils ne s''acquittent pas rapidement de leurs arriérés.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '2'
+        la liste s'ils ne s'acquittent pas rapidement de leurs arriérés.
 - identifier:
   - prefix: CIML
     number: 1995/2
   doi: 10.63493/resolutions/ciml199502
   urn: urn:oiml:doc:ciml:resolution:1995-02
+  agenda_item: '2'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -78,32 +72,29 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané rappelle que l''Iran a décidé de quitter l''OIML en 1979
-        sans s''être acquitté de ses contributions de 1978 et de 1979. Maintenant,
-        l''Iran envisage de rétablir sa participation mais en souhaitant être exempté
-        du règlement de ces arriérés et de tous droits supplémentaires, en dehors
-        de sa contribution normale à partir du moment où il serait admis à nouveau
-        comme État Membre de l''OIML. M. Athané ajoute qu''il a mené une enquête parmi
-        les Membres du CIML et que les réponses montrent que tout en étant favorables
-        à la réadmission de l''Iran comme État Membre, un certain nombre de Membres
-        sont d''avis que la Convention doit être strictement appliquée, c''est-à-dire,
-        que l''Iran devrait payer ses arriérés pour 1978-1979, plus un droit d''entrée.
-        Concernant la classe de contribution de l''Iran, l''avis général est que ce
-        pays pourrait être placé pro-
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-  agenda_item: '2'
+      message: M. Athané rappelle que l'Iran a décidé de quitter l'OIML en 1979 sans
+        s'être acquitté de ses contributions de 1978 et de 1979. Maintenant, l'Iran
+        envisage de rétablir sa participation mais en souhaitant être exempté du règlement
+        de ces arriérés et de tous droits supplémentaires, en dehors de sa contribution
+        normale à partir du moment où il serait admis à nouveau comme État Membre
+        de l'OIML. M. Athané ajoute qu'il a mené une enquête parmi les Membres du
+        CIML et que les réponses montrent que tout en étant favorables à la réadmission
+        de l'Iran comme État Membre, un certain nombre de Membres sont d'avis que
+        la Convention doit être strictement appliquée, c'est-à-dire, que l'Iran devrait
+        payer ses arriérés pour 1978-1979, plus un droit d'entrée. Concernant la classe
+        de contribution de l'Iran, l'avis général est que ce pays pourrait être placé
+        pro-
 - identifier:
   - prefix: CIML
     number: 1995/3
   doi: 10.63493/resolutions/ciml199503
   urn: urn:oiml:doc:ciml:resolution:1995-03
+  agenda_item: '3'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -111,23 +102,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le rapport comptable pour 1994 est approuvé sans commentaire. Le Comité
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le rapport comptable pour 1994 est approuvé sans commentaire. Le Comité
         charge son Président et le Directeur du Bureau de présenter ce rapport à la
         Dixième Conférence.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1995/3
   doi: 10.63493/resolutions/ciml199503
   urn: urn:oiml:doc:ciml:resolution:1995-03
+  agenda_item: '3'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -135,30 +123,27 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané rappelle que les estimations financières pour 1995 ont été
-        envoyées aux Membres du CIML à la fin de 1994 et indique que, pour l''instant,
-        il n''y a rien à ajouter à ces estimations, mis à part le fait que certaines
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: M. Athané rappelle que les estimations financières pour 1995 ont été
+        envoyées aux Membres du CIML à la fin de 1994 et indique que, pour l'instant,
+        il n'y a rien à ajouter à ces estimations, mis à part le fait que certaines
         dépenses (par exemple, la publication du document de politique à long terme
-        et de la brochure générale d''information), qui n''avaient pas été estimées
-        précisément à la fin de 1995, ont été effectuées en cours d''année; le Président
+        et de la brochure générale d'information), qui n'avaient pas été estimées
+        précisément à la fin de 1995, ont été effectuées en cours d'année; le Président
         du CIML et son Conseil ont été cependant tenus informés de ces dépenses avant
         leur engagement; il est aussi fait remarquer que ces dépenses sont compensées
         par des recettes supplémentaires (par exemple, les contributions des nouveaux
         États Membres).
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1995/4
   doi: 10.63493/resolutions/ciml199504
   urn: urn:oiml:doc:ciml:resolution:1995-04
+  agenda_item: '4'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -166,22 +151,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: PERSONNEL DU BUREAU'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité renouvelle le contrat du Directeur du Bureau pour une période
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le Comité renouvelle le contrat du Directeur du Bureau pour une période
         de cinq ans à compter du 1er janvier 1996.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1995/4
   doi: 10.63493/resolutions/ciml199504
   urn: urn:oiml:doc:ciml:resolution:1995-04
+  agenda_item: '4'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -189,24 +171,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: PERSONNEL DU BUREAU'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité prolonge le contrat de M. Vichenkov, Adjoint au Directeur,
-        pour une période de dix-huit mois, c''est-à-dire jusqu''au 30 novembre 1997,
-        et note qu''un nouvel Adjoint au Directeur devra être élu lors de la 31e réunion
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le Comité prolonge le contrat de M. Vichenkov, Adjoint au Directeur,
+        pour une période de dix-huit mois, c'est-à-dire jusqu'au 30 novembre 1997,
+        et note qu'un nouvel Adjoint au Directeur devra être élu lors de la 31e réunion
         du CIML.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '4'
 - identifier:
   - prefix: CIML
     number: 1995/4
   doi: 10.63493/resolutions/ciml199504
   urn: urn:oiml:doc:ciml:resolution:1995-04
+  agenda_item: '4'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -214,25 +193,22 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: PERSONNEL DU BUREAU'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité accepte cette proposition comme mesure provisoire et, suivant
-        une proposition de M. Chappell, demande au Directeur du Bureau de s''enquérir
-        de l''existence d''autres indices, afin d''examiner les solutions adoptées
-        par d''autres institutions internationales, et d''en faire rapport lors d''une
-        prochaine réunion.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-  agenda_item: '4'
+      message: Le Comité accepte cette proposition comme mesure provisoire et, suivant
+        une proposition de M. Chappell, demande au Directeur du Bureau de s'enquérir
+        de l'existence d'autres indices, afin d'examiner les solutions adoptées par
+        d'autres institutions internationales, et d'en faire rapport lors d'une prochaine
+        réunion.
 - identifier:
   - prefix: CIML
     number: 1995/5
   doi: 10.63493/resolutions/ciml199505
   urn: urn:oiml:doc:ciml:resolution:1995-05
+  agenda_item: '5'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -240,39 +216,35 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: COMITÉS TECHNIQUES ET SOUS-COMITÉS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Chappell, responsable du suivi des activités techniques pour le
-        compte du Conseil de Présidence, présente un rapport d''activité des comités
-        techniques et souscomités. Il fait remarquer que le passage de l''ancienne
-        structure (Secrétariats Pilotes et Rapporteurs) à celle actuelle s''est opéré
-        avec succès et n''a pas ralenti significativement le déroulement du travail,
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: M. Chappell, responsable du suivi des activités techniques pour le
+        compte du Conseil de Présidence, présente un rapport d'activité des comités
+        techniques et souscomités. Il fait remarquer que le passage de l'ancienne
+        structure (Secrétariats Pilotes et Rapporteurs) à celle actuelle s'est opéré
+        avec succès et n'a pas ralenti significativement le déroulement du travail,
         et ajoute que les nouvelles procédures ont apporté une amélioration appréciable
-        en permettant de se préoccuper des priorités et d''eliminer des thèmes de
-        travail qui n''étaient pas, ou plus, d''intérêt pour la majorité des États
-        Membres. Le BIML a été en mesure de participer à presque toutes les réunions
-        inaugurales des nouveaux TC/SC et cela a permis une application correcte immédiate
-        des Directives pour les travaux techniques. Concernant ces Directives, M.
-        Chappell indique qu''elles ont généralement amélioré les conditions d''exercice
-        des responsabilités des secrétariats des TC/SC. Il convient également de noter
-        que les travaux qui n''ont pas été achevés avant la mise en place de la nouvelle
-        structure, ont été poursuivis de manière adéquate. Le volume global de travail
-        est satisfaisant, comme le montre le nombre de projets approuvés par le CIML
-        en 1994. Cela s''est d''ailleurs traduit par une sérieuse surcharge de travail
-        pour le BIML qui poursuit encore le travail de publication de tous ces nouveaux
-        textes.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '5'
+        en permettant de se préoccuper des priorités et d'eliminer des thèmes de travail
+        qui n'étaient pas, ou plus, d'intérêt pour la majorité des États Membres.
+        Le BIML a été en mesure de participer à presque toutes les réunions inaugurales
+        des nouveaux TC/SC et cela a permis une application correcte immédiate des
+        Directives pour les travaux techniques. Concernant ces Directives, M. Chappell
+        indique qu'elles ont généralement amélioré les conditions d'exercice des responsabilités
+        des secrétariats des TC/SC. Il convient également de noter que les travaux
+        qui n'ont pas été achevés avant la mise en place de la nouvelle structure,
+        ont été poursuivis de manière adéquate. Le volume global de travail est satisfaisant,
+        comme le montre le nombre de projets approuvés par le CIML en 1994. Cela s'est
+        d'ailleurs traduit par une sérieuse surcharge de travail pour le BIML qui
+        poursuit encore le travail de publication de tous ces nouveaux textes.
 - identifier:
   - prefix: CIML
     number: 1995/5
   doi: 10.63493/resolutions/ciml199505
   urn: urn:oiml:doc:ciml:resolution:1995-05
+  agenda_item: '5'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -280,25 +252,22 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: COMITÉS TECHNIQUES ET SOUS-COMITÉS'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Chappell indique qu''un amendement mineur aux Directives est soumis
-        à l''approbation du CIML par le Conseil de Présidence. Cet amendement qui
-        consiste à confier au BIML plutot qu''aux secrétariats des TC/SC la responsabilité
-        de la distribution des rapports annuels à tous les pays et institutions concernés,
-        est accepté par le CIML.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-  agenda_item: '5'
+      message: M. Chappell indique qu'un amendement mineur aux Directives est soumis
+        à l'approbation du CIML par le Conseil de Présidence. Cet amendement qui consiste
+        à confier au BIML plutot qu'aux secrétariats des TC/SC la responsabilité de
+        la distribution des rapports annuels à tous les pays et institutions concernés,
+        est accepté par le CIML.
 - identifier:
   - prefix: CIML
     number: 1995/7
   doi: 10.63493/resolutions/ciml199507
   urn: urn:oiml:doc:ciml:resolution:1995-07
+  agenda_item: '7'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -306,23 +275,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7: CERTIFICATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1995-10-25'
+        type: effective
       message: 'M. Kochsiek indique que la création de ce groupe technique consultatif
         (TAG) a abouti rapidement et qu''une première réunion est prévue début 1996.
-        L''activité devrait se concentrer sur les thèmes suivants:
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '7'
+        L''activité devrait se concentrer sur les thèmes suivants:'
 - identifier:
   - prefix: CIML
     number: 1995/7
   doi: 10.63493/resolutions/ciml199507
   urn: urn:oiml:doc:ciml:resolution:1995-07
+  agenda_item: '7'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -330,47 +296,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7: CERTIFICATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-  agenda_item: '7'
+      message: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1995/8
   doi: 10.63493/resolutions/ciml199508
   urn: urn:oiml:doc:ciml:resolution:1995-08
-  dates:
-  - date: '1995-10-25'
-    type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: DOCUMENT DE POLITIQUE A LONG TERME ET BROCHURE D''INFORMATION
-      GÉNÉRALE'
-    subject: "(The CIML)"
-    considerations: []
-    actions:
-    - type: notes
-      message: 'M. Athané donne des informations concernant la publication et la diffusion
-        de ces documents, et rappelle au Comité qu''un rapport financier a déjà été
-        envoyé à tous les Membres du CIML. Il ajoute qu''un petit prospectus donnant
-        des informations de base sur l''OIML sera préparé en 1996.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
   agenda_item: '8'
-- identifier:
-  - prefix: CIML
-    number: 1995/8
-  doi: 10.63493/resolutions/ciml199508
-  urn: urn:oiml:doc:ciml:resolution:1995-08
   dates:
   - date: '1995-10-25'
     type: decided
@@ -379,24 +316,44 @@ decisions:
     title: 'Agenda Item 8: DOCUMENT DE POLITIQUE A LONG TERME ET BROCHURE D''INFORMATION
       GÉNÉRALE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité exprime sa satisfaction pour le travail réalisé par le Bureau.
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: M. Athané donne des informations concernant la publication et la diffusion
+        de ces documents, et rappelle au Comité qu'un rapport financier a déjà été
+        envoyé à tous les Membres du CIML. Il ajoute qu'un petit prospectus donnant
+        des informations de base sur l'OIML sera préparé en 1996.
+- identifier:
+  - prefix: CIML
+    number: 1995/8
+  doi: 10.63493/resolutions/ciml199508
+  urn: urn:oiml:doc:ciml:resolution:1995-08
+  agenda_item: '8'
+  dates:
+  - date: '1995-10-25'
+    type: decided
+  localizations:
+  - language_code: fra
+    title: 'Agenda Item 8: DOCUMENT DE POLITIQUE A LONG TERME ET BROCHURE D''INFORMATION
+      GÉNÉRALE'
+    subject: "(The CIML)"
+    actions:
+    - type: notes
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le Comité exprime sa satisfaction pour le travail réalisé par le Bureau.
         Plusieurs Membres du CIML indiquent que des traductions dans leurs langues
         nationales du document de politique à long terme étaient disponibles ou en
         cours de préparation.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1995/10
   doi: 10.63493/resolutions/ciml199510
   urn: urn:oiml:doc:ciml:resolution:1995-10
+  agenda_item: '10'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -404,9 +361,11 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: PAYS EN DÉVELOPEMENT'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1995-10-25'
+        type: effective
       message: 'M. Kochsiek, responsable du suivi des activités de développement au
         nom du Conseil de Présidence, donne un rapport sur le premier Symposium OIML
         sur les activités métrologiques dans les pays en développement, organisé par
@@ -414,18 +373,13 @@ decisions:
         de 34 pays. Vingt-trois conférences ont été dispensées sur quatre thèmes:
         (i) sujets de politique générale; (ii) services métrologiques nationaux; (iii)
         coopération en métrologie aux niveaux national, régional, et international;
-        et (iv) sujets de métrologie légale (formation, traçabilité, etc.).
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '10'
+        et (iv) sujets de métrologie légale (formation, traçabilité, etc.).'
 - identifier:
   - prefix: CIML
     number: 1995/10
   doi: 10.63493/resolutions/ciml199510
   urn: urn:oiml:doc:ciml:resolution:1995-10
+  agenda_item: '10'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -433,24 +387,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: PAYS EN DÉVELOPEMENT'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Benkirane, Président du Conseil de Développement de l''OIML, fait
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: M. Benkirane, Président du Conseil de Développement de l'OIML, fait
         le rapport de cette réunion tenue la demie-journée suivant le Symposium. En
         conclusion de cette réunion, un bilan détaillé a été soumis au Comité, qui
-        l''a approuvé.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
-  agenda_item: '10'
+        l'a approuvé.
 - identifier:
   - prefix: CIML
     number: 1995/10
   doi: 10.63493/resolutions/ciml199510
   urn: urn:oiml:doc:ciml:resolution:1995-10
+  agenda_item: '10'
   dates:
   - date: '1995-10-25'
     type: decided
@@ -458,136 +409,92 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: PAYS EN DÉVELOPEMENT'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité prend note de rapports présentés par MM. Kochsiek et Benkirane
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le Comité prend note de rapports présentés par MM. Kochsiek et Benkirane
         sur le SYMPOSIUM OIML SUR LES ACTIVITÉS MÉTROLOGIQUES DANS LES PAYS EN DÉVELOPEMENT
         et sur la réunion du CONSEIL DE DÉVELOPEMENT tenus du 23 au 25 octobre 1995
         à Pékin.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité exprime son appréciation pour les activités effectuées par
-        le BIML et par le Bureau d''État de Supervision Technique de Chine pour l''organisation
-        du Symposium qui s''est focalisé sur les questions politiques et stratégiques
+      message: Le Comité exprime son appréciation pour les activités effectuées par
+        le BIML et par le Bureau d'État de Supervision Technique de Chine pour l'organisation
+        du Symposium qui s'est focalisé sur les questions politiques et stratégiques
         liées à la métrologie légale, ses aspects économiques, la coopération internationale
-        et l''aide aux pays dans l''établissement et le développement de services
-        nationaux de métrologie.
-
-        '
+        et l'aide aux pays dans l'établissement et le développement de services nationaux
+        de métrologie.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité exprime ses remerciements à tous les Membres de l'OIML et
+        institutions en liaison qui ont apporté leur contribution au Symposium.
     - type: notes
-      message: 'Le Comité exprime ses remerciements à tous les Membres de l''OIML
-        et institutions en liaison qui ont apporté leur contribution au Symposium.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité prend également note des actions diverses menées en 1995
+      message: Le Comité prend également note des actions diverses menées en 1995
         en faveur des pays en développement, y compris un atelier de formation DÉTERMINATION
-        DU VOLUME DES RÉSERVOIRS DE STOCKAGE FIXES organisé par l''Allemagne avec
-        la participation du BIML, le séminaire de formation LA MÉTROLOGIE AU SERVICE
+        DU VOLUME DES RÉSERVOIRS DE STOCKAGE FIXES organisé par l'Allemagne avec la
+        participation du BIML, le séminaire de formation LA MÉTROLOGIE AU SERVICE
         DU DÉVELOPPEMENT ÉCONOMIQUE co-organisé par la France, la CEE/ONU, la Commission
-        de l''Union Européenne et l''OIML, un cours de formation en métrologie légale
+        de l'Union Européenne et l'OIML, un cours de formation en métrologie légale
         tenu à Cuba, et autres actions de soutien au programme du Conseil de Développement
-        de l''OIML.
-
-        '
+        de l'OIML.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité demande au BIML et au Conseil de Développement de poursuivre
+      message: Le Comité demande au BIML et au Conseil de Développement de poursuivre
         leurs activités en matière de métrologie légale, en particulier en encourageant
-        l''organisation de cours et de séminaires de formation, en organisant la disponibilité
+        l'organisation de cours et de séminaires de formation, en organisant la disponibilité
         de manuels, brochures et autres moyens de formation, en distribuant des informations
         sur les soutiens techniques et financiers auxquels peuvent recourir les pays
         en développement, et en maintenant des contacts avec les institutions internationales
-        et régionales concernées. L''utilisation de nouveaux moyens d''information
-        et de formation, par exemple, les bases de données à accès direct ou les CD-ROM
+        et régionales concernées. L'utilisation de nouveaux moyens d'information et
+        de formation, par exemple, les bases de données à accès direct ou les CD-ROM
         et CD-ROM interactifs, devraient être pris en considération et le BIML est
         invité à étudier, en liaison avec les TC/SC appropriés et le Conseil de Développement,
-        la possibilité d''utiliser ces moyens afin d''accroître la disponibilité de
-        matériaux d''information et de formation pour tous les pays.
-
-        '
+        la possibilité d'utiliser ces moyens afin d'accroître la disponibilité de
+        matériaux d'information et de formation pour tous les pays.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité exprime son appréciation pour les activités effectuées sous
+      message: Le Comité exprime son appréciation pour les activités effectuées sous
         le leadership de M. Benkirane, Maroc, Président du Conseil de Développement
         de 1988 à 1995.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité prend note de l''élection de M. Putera, Membre du CIML pour
-        l''Indonésie, en tant que Président du Conseil de Développement pour la période
+      message: Le Comité prend note de l'élection de M. Putera, Membre du CIML pour
+        l'Indonésie, en tant que Président du Conseil de Développement pour la période
         1995-1997.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
     - type: notes
-      message: 'Le Comité prend note d''un rapport sur les activités du BIML, dont
-        un résumé sera publié dans le numéro d''avril 1996 du Bulletin OIML.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité prend note d'un rapport sur les activités du BIML, dont un
+        résumé sera publié dans le numéro d'avril 1996 du Bulletin OIML.
     - type: notes
-      message: 'Le Comité ne voit pas d''objection à ce que le logo déjà utilisé pour
-        le Bulletin, la brochure d''information générale et le document de politique
-        à long terme, le soit aussi à l''avenir dans toutes les publications OIML.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-  agenda_item: '10'
+      message: Le Comité ne voit pas d'objection à ce que le logo déjà utilisé pour
+        le Bulletin, la brochure d'information générale et le document de politique
+        à long terme, le soit aussi à l'avenir dans toutes les publications OIML.
 - identifier:
   - prefix: CIML
     number: 1995/14
   doi: 10.63493/resolutions/ciml199514
   urn: urn:oiml:doc:ciml:resolution:1995-14
-  dates:
-  - date: '1995-10-25'
-    type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 14: PRÉPARATIFS DE LA DIXIÈME CONFÉRENCE INTERNATIONALE DE
-      MÉTROLOGIE LÉGALE'
-    subject: "(The CIML)"
-    considerations: []
-    actions:
-    - type: notes
-      message: 'M. Johnston donne des informations concernant les préparatifs pour
-        la Dixième Conférence qu''il est prévu de tenir à Vancouver, du 4 au 8 novembre
-        1996. Une réunion du CIML sera organisée conjointement à la Conférence.
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
   agenda_item: '14'
-- identifier:
-  - prefix: CIML
-    number: 1995/14
-  doi: 10.63493/resolutions/ciml199514
-  urn: urn:oiml:doc:ciml:resolution:1995-14
   dates:
   - date: '1995-10-25'
     type: decided
@@ -596,368 +503,310 @@ decisions:
     title: 'Agenda Item 14: PRÉPARATIFS DE LA DIXIÈME CONFÉRENCE INTERNATIONALE DE
       MÉTROLOGIE LÉGALE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité adopte des résolutions et prend des décisions sur les différents
-        points de l''ordre du jour. Ces décisions et résolutions sont reproduites
-        à la fin de ce compte rendu.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: M. Johnston donne des informations concernant les préparatifs pour
+        la Dixième Conférence qu'il est prévu de tenir à Vancouver, du 4 au 8 novembre
+        1996. Une réunion du CIML sera organisée conjointement à la Conférence.
+- identifier:
+  - prefix: CIML
+    number: 1995/14
+  doi: 10.63493/resolutions/ciml199514
+  urn: urn:oiml:doc:ciml:resolution:1995-14
+  agenda_item: '14'
+  dates:
+  - date: '1995-10-25'
+    type: decided
+  localizations:
+  - language_code: fra
+    title: 'Agenda Item 14: PRÉPARATIFS DE LA DIXIÈME CONFÉRENCE INTERNATIONALE DE
+      MÉTROLOGIE LÉGALE'
+    subject: "(The CIML)"
+    actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité adopte des résolutions et prend des décisions sur les différents
+        points de l'ordre du jour. Ces décisions et résolutions sont reproduites à
+        la fin de ce compte rendu.
     - type: notes
-      message: 'Le Comité a approuvé le compte rendu de sa vingt-neuvième réunion
-        sans modification.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité International de Métrologie Légale
     - type: notes
-      message: 'Le Comité a pris note de l''adhésion, en 1995, du Kazakhstan comme
-        nouvel Etat Membre de l''OIML, et du Mozambique, de la Thaïlande et de l''Uruguay
-        comme nouveaux Membres Correspondants, et a accueilli la délégation de Macédoine
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le Comité a approuvé le compte rendu de sa vingt-neuvième réunion sans
+        modification.
+    - type: notes
+      date_effective:
+        date: '1995-10-25'
+        type: effective
+      message: Le Comité a pris note de l'adhésion, en 1995, du Kazakhstan comme nouvel
+        Etat Membre de l'OIML, et du Mozambique, de la Thaïlande et de l'Uruguay comme
+        nouveaux Membres Correspondants, et a accueilli la délégation de Macédoine
         pour sa première participation à une réunion du CIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a également pris note d''informations concernant les adhésions
+      message: Le Comité a également pris note d'informations concernant les adhésions
         attendues et la possibilité pour certains Membres Correspondants qui sont
-        maintenant très en retard dans le paiement de leur abonnement à l''OIML, d''être
+        maintenant très en retard dans le paiement de leur abonnement à l'OIML, d'être
         supprimés de la liste des Correspondants.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a approuvé le rapport comptable pour 1994 et chargé le Président
+      message: Le Comité a approuvé le rapport comptable pour 1994 et chargé le Président
         du CIML et le Directeur du BIML de le soumettre à la Dixième Conférence.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité a pris note d'informations sur la situation financière de
+        l'Organisation en 1995; il a demandé aux Etats Membres en retard dans le paiement
+        de leur contribution à l'OIML de payer leur dû aussi rapidement que possible.
     - type: notes
-      message: 'Le Comité a pris note d''informations sur la situation financière
-        de l''Organisation en 1995; il a demandé aux Etats Membres en retard dans
-        le paiement de leur contribution à l''OIML de payer leur dû aussi rapidement
-        que possible.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a renouvelé le contrat du Directeur du BIML pour une période
+      message: Le Comité a renouvelé le contrat du Directeur du BIML pour une période
         de 5 ans à compter du 1er janvier 1996.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité a prolongé le contrat de M. Vichenkov, Adjoint au Directeur,
+        pour une période de dix- huit mois, c'est-à-dire jusqu'au 30 novembre 1997.
     - type: notes
-      message: 'Le Comité a prolongé le contrat de M. Vichenkov, Adjoint au Directeur,
-        pour une période de dix- huit mois, c''est-à-dire jusqu''au 30 novembre 1997.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du fait qu''un nouvel Adjoint au Directeur sera
+      message: Le Comité a pris note du fait qu'un nouvel Adjoint au Directeur sera
         élu lors de la 31e réunion du CIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a accepté, comme mesure temporaire, la proposition du Directeur
-        du BIML d''indexer les salaires des agents du BIML sur l''indice officiel
-        des prix calculé par l''Institut de la Statistique et des Études Économiques
-        (INSEE) en remplacement de l''ancien indice OCDE, les règles pratiques d''indexation
+      message: Le Comité a accepté, comme mesure temporaire, la proposition du Directeur
+        du BIML d'indexer les salaires des agents du BIML sur l'indice officiel des
+        prix calculé par l'Institut de la Statistique et des Études Économiques (INSEE)
+        en remplacement de l'ancien indice OCDE, les règles pratiques d'indexation
         restant les mêmes. Le Comité a demandé au Directeur du BIML de rechercher
-        l''existence d''autres indices, d''examiner les solutions adoptées par d''autres
-        institutions internationales, et de faire rapport à ce sujet lors d''une prochaine
+        l'existence d'autres indices, d'examiner les solutions adoptées par d'autres
+        institutions internationales, et de faire rapport à ce sujet lors d'une prochaine
         réunion.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité a pris note d'un rapport présenté par le Vice-Président Chappell
+        sur les travaux des comités techniques et sous-comités OIML et a remarqué
+        avec satisfaction que, pour la plupart d'entre eux, les TC et SC fonctionnent
+        correctement et en conformité avec les Directives pour les travaux techniques.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport présenté par le Vice-Président
-        Chappell sur les travaux des comités techniques et sous-comités OIML et a
-        remarqué avec satisfaction que, pour la plupart d''entre eux, les TC et SC
-        fonctionnent correctement et en conformité avec les Directives pour les travaux
-        techniques.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a aussi demandé aux secrétariats des TC/SC de faire de leur
+      message: Le Comité a aussi demandé aux secrétariats des TC/SC de faire de leur
         mieux pour développer les liaisons externes afin de pouvoir prendre en considération,
-        chaque fois que cela est approprié, les travaux d''institutions internationales
-        dans l''élaboration des Recommandations et Documents internationaux de l''OIML.
-
-        '
+        chaque fois que cela est approprié, les travaux d'institutions internationales
+        dans l'élaboration des Recommandations et Documents internationaux de l'OIML.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: 'Le Comité a approuvé les projets suivants:'
     - type: notes
-      message: 'Le Comité a approuvé les projets suivants:
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'le Comité a décidé que, en dépit du soutien que ces projets avaient
-        reçu d''une large majorité de Membres de l''OIML lors de la consultation par
-        correspondance, leur approbation devait être retardée d''un an afin de permettre
+      message: le Comité a décidé que, en dépit du soutien que ces projets avaient
+        reçu d'une large majorité de Membres de l'OIML lors de la consultation par
+        correspondance, leur approbation devait être retardée d'un an afin de permettre
         à OIML TC 13 de résoudre des questions importantes soulevées en particulier
-        par les délégations du Royaume-Uni et des Etats-Unis d''Amérique.
-
-        '
+        par les délégations du Royaume-Uni et des Etats-Unis d'Amérique.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du rapport présenté par le Vice-Président Kochsiek
+      message: Le Comité a pris note du rapport présenté par le Vice-Président Kochsiek
         sur les progrès des activités OIML de certification.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: 'Le Comité a adopté les résolutions suivantes:'
     - type: notes
-      message: 'Le Comité a adopté les résolutions suivantes:
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''informations sur l''élaboration, l''impression
+      message: Le Comité a pris note d'informations sur l'élaboration, l'impression
         et la distribution du document de politique à long terme et de la brochure
-        d''information générale, au sujet desquels le CIML a exprimé son appréciation.
-        Le Comité a aussi pris note du fait que le Bureau a l''intention de produire
-        un prospectus informatif sur l''OIML.
-
-        '
+        d'information générale, au sujet desquels le CIML a exprimé son appréciation.
+        Le Comité a aussi pris note du fait que le Bureau a l'intention de produire
+        un prospectus informatif sur l'OIML.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''informations sur la prochaine réunion ISO/TAG
+      message: Le Comité a pris note d'informations sur la prochaine réunion ISO/TAG
         4. Le Comité a aussi pris note du fait que les relations avec ILAC seront
         réexaminées par le Conseil de Présidence, qui étudiera également la politique
-        générale régissant les liaisons entre l''OIML et les organisations régionales
-        de métrologie légale, ainsi que la question des officiers régionaux de l''OIML.
-
-        '
+        générale régissant les liaisons entre l'OIML et les organisations régionales
+        de métrologie légale, ainsi que la question des officiers régionaux de l'OIML.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note de rapports présentés par MM. Kochsiek et Benkirane
+      message: Le Comité a pris note de rapports présentés par MM. Kochsiek et Benkirane
         sur le Symposium OIML sur les activités métrologiques dans les pays en développement
         et sur la réunion du Conseil de Développement tenus du 23 au 25 octobre 1995
         à Pékin.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a exprimé son appréciation pour les activités effectuées
-        par le BIML et par le Bureau d''État de Supervision Technique de Chine pour
-        l''organisation du Symposium qui s''est focalisé sur les questions politiques
+      message: Le Comité a exprimé son appréciation pour les activités effectuées
+        par le BIML et par le Bureau d'État de Supervision Technique de Chine pour
+        l'organisation du Symposium qui s'est focalisé sur les questions politiques
         et stratégiques liées à la métrologie légale, ses aspects économiques, la
-        coopération internationale et l''aide aux pays dans l''établissement et le
-        développement de services nationaux de métrologie.
-
-        '
+        coopération internationale et l'aide aux pays dans l'établissement et le développement
+        de services nationaux de métrologie.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a exprimé ses remerciements à tous les Membres de l''OIML
+      message: Le Comité a exprimé ses remerciements à tous les Membres de l'OIML
         et institutions en liaison qui ont apporté leur contribution au Symposium.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a également pris note des actions diverses menées en 1995
+      message: Le Comité a également pris note des actions diverses menées en 1995
         en faveur des pays en développement, y compris un atelier de formation DETERMINATION
-        DES VOLUMES DES RESERVOIRS DE STOCKAGE FIXES organisé par l''Allemagne avec
+        DES VOLUMES DES RESERVOIRS DE STOCKAGE FIXES organisé par l'Allemagne avec
         la participation du BIML, le séminaire de formation LA METROLOGIE AU SERVICE
         DU DEVELOPPEMENT ECONOMIQUE co-organisé par la France, la CEE/ONU, la Commission
-        de l''Union Européenne et l''OIML, un cours de formation en métrologie légale
+        de l'Union Européenne et l'OIML, un cours de formation en métrologie légale
         tenu à Cuba, et autres actions de soutien au programme du Conseil de Développement
-        de l''OIML.
-
-        '
+        de l'OIML.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a demandé au BIML et au Conseil de Développement de poursuivre
+      message: Le Comité a demandé au BIML et au Conseil de Développement de poursuivre
         leurs activités en matière de métrologie légale, en particulier en encourageant
-        l''organisation de cours et de séminaires de formation, en organisant la disponibilité
+        l'organisation de cours et de séminaires de formation, en organisant la disponibilité
         de manuels, brochures et autres moyens de formation, en distribuant des informations
         sur les soutiens techniques et financiers auxquels peuvent recourir les pays
         en développement, et en maintenant des contacts avec les institutions internationales
-        et régionales concernées. L''utilisation de nouveaux moyens d''information
-        et de formation, par exemple, les bases de données à accès direct ou les CD-ROM
+        et régionales concernées. L'utilisation de nouveaux moyens d'information et
+        de formation, par exemple, les bases de données à accès direct ou les CD-ROM
         et CD-ROM interactifs, devraient être pris en considération et le BIML est
         invité à étudier, en liaison avec les TC/SC appropriés et le Conseil de Développement,
-        la possibilité d''utiliser ces moyens afin d''accroître la disponibilité de
-        matériaux d''information et de formation pour tous les pays.
-
-        '
+        la possibilité d'utiliser ces moyens afin d'accroître la disponibilité de
+        matériaux d'information et de formation pour tous les pays.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a exprimé son appréciation pour les activités effectuées
+      message: Le Comité a exprimé son appréciation pour les activités effectuées
         sous le leadership de M. Benkirane, Maroc, Président du Conseil de Développement
         de 1988 à 1995.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité a pris note de l'élection de M. Putera, Membre du CIML pour
+        l'Indonésie, en tant que Président du Conseil de Développement pour la période
+        1995-1997.
     - type: notes
-      message: 'Le Comité a pris note de l''élection de M. Putera, Membre du CIML
-        pour l''Indonésie, en tant que Président du Conseil de Développement pour
-        la période 1995-1997.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du rapport sur les activités du BIML pour la
+      message: Le Comité a pris note du rapport sur les activités du BIML pour la
         période octobre 1994 - septembre 1995 et a demandé au BIML de publier un résumé
         de ce rapport dans le Bulletin OIML sous une forme appropriée.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du rapport sur le séminaire OIML sur le pesage
+      message: Le Comité a pris note du rapport sur le séminaire OIML sur le pesage
         et a exprimé son appréciation pour les rôles joués par Dr Bennett, Président
         du séminaire, les membres du comité de sélection, et le BIML, pour le succès
         de ce séminaire.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a exprimé son accord pour que le BIML continue d''inviter,
-        aux futurs séminaires, des constructeurs et des représentants d''organismes
+      message: Le Comité a exprimé son accord pour que le BIML continue d'inviter,
+        aux futurs séminaires, des constructeurs et des représentants d'organismes
         intéressés autres que les services de métrologie légale et institutions en
-        liaison, pourvu qu''un équilibre financier raisonnable soit atteint.
-
-        '
+        liaison, pourvu qu'un équilibre financier raisonnable soit atteint.
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité a exprimé son accord pour que le BIML utilise, aussitôt que
+        possible, le nouveau logo sur les publications OIML, en-tête de papier à lettre,
+        etc.
     - type: notes
-      message: 'Le Comité a exprimé son accord pour que le BIML utilise, aussitôt
-        que possible, le nouveau logo sur les publications OIML, en-tête de papier
-        à lettre, etc.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport de M. Johnston, Membre du CIML
-        pour le Canada, sur la préparation de la Dixième Conférence et de la 31e réunion
+      message: Le Comité a pris note d'un rapport de M. Johnston, Membre du CIML pour
+        le Canada, sur la préparation de la Dixième Conférence et de la 31e réunion
         du CIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité a donné son soutien à la proposition du Directeur du BIML
+        de limiter à 4 % l'augmentation annuelle du budget pour la période 1997-2000,
+        soit 2 % pour l'inflation et 2 % pour les augmentations obligatoires résultant
+        de l'ancienneté du personnel, du renouvellement de l'équipement, etc. et de
+        l'alimentation du fond de retraite.
     - type: notes
-      message: 'Le Comité a donné son soutien à la proposition du Directeur du BIML
-        de limiter à 4 % l''augmentation annuelle du budget pour la période 1997-2000,
-        soit 2 % pour l''inflation et 2 % pour les augmentations obligatoires résultant
-        de l''ancienneté du personnel, du renouvellement de l''équipement, etc. et
-        de l''alimentation du fond de retraite.
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
       message: 'Le Comité a accepté les invitations des délégations du Brésil et de
-        la Rép. de Corée à tenir:
-
-        '
+        la Rép. de Corée à tenir:'
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
-      message: 'Le Comité a aussi pris note du fait qu''il serait nécessaire de tenir
+      message: Le Comité a aussi pris note du fait qu'il serait nécessaire de tenir
         une réunion du CIML ou de la Conférence en 1999 à Paris, en liaison avec la
-        CGPM, en vue d''un examen éventuel du progrès des discussions sur le rapprochement
+        CGPM, en vue d'un examen éventuel du progrès des discussions sur le rapprochement
         ou la fusion BIPM/OIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: 'Le Comité a adopté la résolution suivante:'
     - type: notes
-      message: 'Le Comité a adopté la résolution suivante:
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
+      message: Le Comité International de Métrologie Légale
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-    - type: notes
       message: 'Le Comité a exprimé son appréciation au Dr Bennett, Membre du CIML
         pour le Royaume-Uni, qui a présidé à la table ronde sur la CONFIANCE DANS
-        LES APPROBATIONS DE MODÈLE et a adopté la résolution suivante:
-
-        '
-      date_effective:
-        date: '1995-10-25'
-        type: effective
+        LES APPROBATIONS DE MODÈLE et a adopté la résolution suivante:'
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1995-10-25'
         type: effective
-  agenda_item: '14'
+      message: Le Comité International de Métrologie Légale

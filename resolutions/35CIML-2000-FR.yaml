@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/35CIML-2000-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/35CIML-2000-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:35CIML-2000-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-35
 # Language: fr
 ---
 metadata:
-  title: 35th CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: GBLON
-  country_code: GB
   title_localized:
   - language_code: fra
     title: 35th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: GBLON
+  country_code: GB
   meeting_urn: urn:oiml:ciml:meeting:ciml-35
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 2000/11
   doi: 10.63493/resolutions/ciml200011
   urn: urn:oiml:doc:ciml:resolution:2000-11
+  agenda_item: '11'
   dates:
   - date: '2000-10-09'
     type: decided
@@ -26,24 +26,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 11: Futures réunions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Issaev confirme que le Comité est invité à tenir sa prochaine réunion
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: M. Issaev confirme que le Comité est invité à tenir sa prochaine réunion
         à Moscou entre le 22 et le 27 septembre 2001. Cette invitation est acceptée
         et le Comité demande à son Président et au BIML de commencer les préparatifs
         en temps voulu en étroite coopération avec le pays hôte.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
-  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2000/11
   doi: 10.63493/resolutions/ciml200011
   urn: urn:oiml:doc:ciml:resolution:2000-11
+  agenda_item: '11'
   dates:
   - date: '2000-10-09'
     type: decided
@@ -51,128 +48,101 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 11: Futures réunions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a pris note d''une allocution d''ouverture de son Président.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
+      message: Le Comité a pris note d'une allocution d'ouverture de son Président.
     - type: notes
-      message: 'Le Comité a approuvé le projet d''ordre du jour ODJ 2 sans modifications.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
+      message: Le Comité a approuvé le projet d'ordre du jour ODJ 2 sans modifications.
     - type: notes
-      message: 'Le Comité a nommé à l''unanimité Dr. Sam Chappell, ancien Premier
-        Vice-Président et Membre du CIML pour les USA, Membre d''Honneur.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
+      message: Le Comité a nommé à l'unanimité Dr. Sam Chappell, ancien Premier Vice-Président
+        et Membre du CIML pour les USA, Membre d'Honneur.
     - type: notes
-      message: 'Le Comité a approuvé le compte rendu de sa 34ème réunion sans modifications.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
+      message: Le Comité a approuvé le compte rendu de sa 34ème réunion sans modifications.
     - type: notes
-      message: 'Le Comité a pris note d''une liste donnant la population et la classe
-        de contribution de chaque État Membre, avec l''indication de ceux d''entre
-        eux qui bénéficient d''une classe de contribution plus basse que celle assignée
-        par leur population. Le Comité a pris note du fait qu''il n''y avait pas de
-        changements par rapport à la situation antérieure et n''a pas exprimé de commentaires
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: Le Comité a pris note d'une liste donnant la population et la classe
+        de contribution de chaque État Membre, avec l'indication de ceux d'entre eux
+        qui bénéficient d'une classe de contribution plus basse que celle assignée
+        par leur population. Le Comité a pris note du fait qu'il n'y avait pas de
+        changements par rapport à la situation antérieure et n'a pas exprimé de commentaires
         au sujet de cette liste.
-
-        '
+    - type: notes
       date_effective:
         date: '2000-10-09'
         type: effective
-    - type: notes
-      message: 'Le Comité a approuvé le rapport comptable pour 1999 et a demandé à
+      message: Le Comité a approuvé le rapport comptable pour 1999 et a demandé à
         son Président et au Directeur du BIML de le soumettre à la Onzième Conférence.
-
-        '
+    - type: notes
       date_effective:
         date: '2000-10-09'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport de son Président relatif aux activités
+      message: Le Comité a pris note d'un rapport de son Président relatif aux activités
         du Conseil de la Présidence depuis la dernière réunion du CIML.
-
-        '
+    - type: notes
       date_effective:
         date: '2000-10-09'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''un rapport décrivant les activités du BIML
+      message: Le Comité a pris note d'un rapport décrivant les activités du BIML
         depuis la dernière réunion du CIML.
-
-        '
+    - type: notes
       date_effective:
         date: '2000-10-09'
         type: effective
+      message: Le Comité a pris note d'un rapport du BIML décrivant la situation de
+        certains Comités Techniques et Sous-Comités. Le Comité a noté qu'il n'y avait
+        pas de nécessité que le secrétariat du TC 5 soit attribué à un État Membre
+        mais qu'au contraire le TC 13 ne devrait pas rester sans secrétariat. Le Comité
+        a aussi accepté que sous TC 16/SC 1 les activités sur les Instruments de mesure
+        des gaz d'échappement des véhicules soient poursuivies par les Pays-Bas alors
+        que les trois autres thèmes de travail seront de la responsabilité de la Fédération
+        de Russie. Enfin, le Comité a noté que la Fédération de Russie pourrait être
+        intéressée par le TC 8/SC 2 à condition que le travail se limite à l'élaboration
+        du format de rapport d'essai pour la R 125.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport du BIML décrivant la situation
-        de certains Comités Techniques et Sous-Comités. Le Comité a noté qu''il n''y
-        avait pas de nécessité que le secrétariat du TC 5 soit attribué à un État
-        Membre mais qu''au contraire le TC 13 ne devrait pas rester sans secrétariat.
-        Le Comité a aussi accepté que sous TC 16/SC 1 les activités sur les Instruments
-        de mesure des gaz d''échappement des véhicules soient poursuivies par les
-        Pays-Bas alors que les trois autres thèmes de travail seront de la responsabilité
-        de la Fédération de Russie. Enfin, le Comité a noté que la Fédération de Russie
-        pourrait être intéressée par le TC 8/SC 2 à condition que le travail se limite
-        à l''élaboration du format de rapport d''essai pour la R 125.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-    - type: notes
-      message: 'Le Comité a élu Mr. Faber (Pays-Bas) pour continuer comme Président
+      message: Le Comité a élu Mr. Faber (Pays-Bas) pour continuer comme Président
         pour les trois prochaines années.
-
-        '
+    - type: notes
       date_effective:
         date: '2000-10-09'
         type: effective
-    - type: notes
-      message: 'Le Comité a élu Dr. Issaev (Fédération de Russie) comme Second Vice-Président
+      message: Le Comité a élu Dr. Issaev (Fédération de Russie) comme Second Vice-Président
         pour les six prochaines années.
-
-        '
+    - type: notes
       date_effective:
         date: '2000-10-09'
         type: effective
+      message: Le Comité a nommé M. Magana (France) comme futur Directeur du BIML.
     - type: notes
-      message: 'Le Comité a nommé M. Magana (France) comme futur Directeur du BIML.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note des décisions de la Conférence et a demandé
-        à son Président, au Présidium et au Conseil de la Présidence d''en surveiller
+      message: Le Comité a pris note des décisions de la Conférence et a demandé à
+        son Président, au Présidium et au Conseil de la Présidence d'en surveiller
         la mise en application et de faire rapport à ce sujet à la prochaine réunion
         du CIML.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
-  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2000/11
   doi: 10.63493/resolutions/ciml200011
   urn: urn:oiml:doc:ciml:resolution:2000-11
+  agenda_item: '11'
   dates:
   - date: '2000-10-09'
     type: decided
@@ -180,22 +150,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 11: Futures réunions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a décidé de tenir sa 36ème réunion à Moscou, Fédération
-        de Russie, entre le 22 et le 27 septembre 2001.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '11'
+      message: Le Comité a décidé de tenir sa 36ème réunion à Moscou, Fédération de
+        Russie, entre le 22 et le 27 septembre 2001.
 - identifier:
   - prefix: CIML
     number: 2000/11
   doi: 10.63493/resolutions/ciml200011
   urn: urn:oiml:doc:ciml:resolution:2000-11
+  agenda_item: '11'
   dates:
   - date: '2000-10-09'
     type: decided
@@ -203,15 +170,11 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 11: Futures réunions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité a noté qu''Israël était en mesure de confirmer son invitation
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: Le Comité a noté qu'Israël était en mesure de confirmer son invitation
         à tenir la 37ème réunion du CIML en 2002 (dates exactes à fixer), la décision
         devant être rendue finale lors de la 36ème réunion en 2001.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
-  agenda_item: '11'

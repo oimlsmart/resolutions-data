@@ -98,6 +98,7 @@ module Oiml
       def build_consideration(c)
         require "edoxen"
         params = { message: c["message"] }
+        params[:type] = c["type"] if c["type"]
         params[:date_effective] = Edoxen::DecisionDate.new(date: c["date_effective"]["date"], type: c["date_effective"]["type"]) if c["date_effective"]
         Edoxen::Consideration.new(params)
       end

@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/31CIML-1996-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/31CIML-1996-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:31CIML-1996-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-31
 # Language: fr
 ---
 metadata:
-  title: 31st CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: CAVAN
-  country_code: CA
   title_localized:
   - language_code: fra
     title: 31st CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: CAVAN
+  country_code: CA
   meeting_urn: urn:oiml:ciml:meeting:ciml-31
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 1996/5
   doi: 10.63493/resolutions/ciml199605
   urn: urn:oiml:doc:ciml:resolution:1996-05
+  agenda_item: '5'
   dates:
   - date: '1996-11-04'
     type: decided
@@ -26,24 +26,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: PERSONNEL DU BIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané indique qu''il avait eu l''intention de parler de ce sujet
-        dans le cadre d''une fusion prévisible avec le BIPM. Cependant, étant donné
-        que cette fusion n''est plus possible (au moins pour les cinq ou dix prochaines
-        années) il n''y a pas besoin de fournir beaucoup d''informations à ce sujet.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
-  agenda_item: '5'
+      message: M. Athané indique qu'il avait eu l'intention de parler de ce sujet
+        dans le cadre d'une fusion prévisible avec le BIPM. Cependant, étant donné
+        que cette fusion n'est plus possible (au moins pour les cinq ou dix prochaines
+        années) il n'y a pas besoin de fournir beaucoup d'informations à ce sujet.
 - identifier:
   - prefix: CIML
     number: 1996/5
   doi: 10.63493/resolutions/ciml199605
   urn: urn:oiml:doc:ciml:resolution:1996-05
+  agenda_item: '5'
   dates:
   - date: '1996-11-04'
     type: decided
@@ -51,28 +48,24 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: PERSONNEL DU BIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. Athané rappelle aux participants que, en 1995, le Comité avait
-        accepté que l''indice français de l''INSEE représentatif du coût de la vie
-        en France soit utilisé pour l''indexation des salaires sur le taux d''inflation
-        étant donné que l''OCDE ne fournissait plus gratuitement son propre indice
-        aux institutions internationales ayant leur siège en France. M. Athané ajoute
-        que cette décision est temporaire puisque le Comité lui a demandé d''examiner
-        d''autres possibilités à la lumière de ce qui avait été décidé au sein d''autres
-        institutions internationales.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
-  agenda_item: '5'
+      message: M. Athané rappelle aux participants que, en 1995, le Comité avait accepté
+        que l'indice français de l'INSEE représentatif du coût de la vie en France
+        soit utilisé pour l'indexation des salaires sur le taux d'inflation étant
+        donné que l'OCDE ne fournissait plus gratuitement son propre indice aux institutions
+        internationales ayant leur siège en France. M. Athané ajoute que cette décision
+        est temporaire puisque le Comité lui a demandé d'examiner d'autres possibilités
+        à la lumière de ce qui avait été décidé au sein d'autres institutions internationales.
 - identifier:
   - prefix: CIML
     number: 1996/5
   doi: 10.63493/resolutions/ciml199605
   urn: urn:oiml:doc:ciml:resolution:1996-05
+  agenda_item: '5'
   dates:
   - date: '1996-11-04'
     type: decided
@@ -80,136 +73,104 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: PERSONNEL DU BIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité prend note d''un rapport sur l''activité du BIML de novembre
-        1995 à octobre 1996 et demande au Bureau d''en publier un résumé dans le Bulletin
+      date_effective:
+        date: '1996-11-04'
+        type: effective
+      message: Le Comité prend note d'un rapport sur l'activité du BIML de novembre
+        1995 à octobre 1996 et demande au Bureau d'en publier un résumé dans le Bulletin
         OIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité accepte un nouveau thème de travail pour le TC 9/SC 4 sur
+      message: Le Comité accepte un nouveau thème de travail pour le TC 9/SC 4 sur
         un schéma de hiérarchie pour les instruments de mesure de la masse volumique.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité accepte que, exceptionnellement, la responsabilité du TC
+      message: Le Comité accepte que, exceptionnellement, la responsabilité du TC
         8/SC 7 "Mesurage des gaz" soit attribuée à la Belgique et à la France.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
+      message: Le Comité a approuvé le compte rendu de sa 30ème réunion sans modification.
     - type: notes
-      message: 'Le Comité a approuvé le compte rendu de sa 30ème réunion sans modification.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité a approuvé le rapport comptable pour 1995 et a chargé son
+      message: Le Comité a approuvé le rapport comptable pour 1995 et a chargé son
         Président et le Directeur du Bureau de soumettre ce rapport à la Dixième Conférence.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
+      message: Le Comité a accepté les propositions de son Président relatives à l'organisation,
+        à la présidence et à l'ordre du jour de la Dixième Conférence.
     - type: notes
-      message: 'Le Comité a accepté les propositions de son Président relatives à
-        l''organisation, à la présidence et à l''ordre du jour de la Dixième Conférence.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
       message: 'Le Comité a décidé de l''application des Recommandations suivantes
-        au Système de Certificats:
-
-        '
+        au Système de Certificats:'
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
+      message: Le Comité a pris note d'informations données par les Directeur du Bureau
+        sur la situation générale du personnel du BIML et l'indexation des salaires
+        sur le taux d'inflation.
     - type: notes
-      message: 'Le Comité a pris note d''informations données par les Directeur du
-        Bureau sur la situation générale du personnel du BIML et l''indexation des
-        salaires sur le taux d''inflation.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
+      message: Le Comité a élu comme Adjoint au Directeur M. Attila Szilvassy, Hongrie.
     - type: notes
-      message: 'Le Comité a élu comme Adjoint au Directeur M. Attila Szilvassy, Hongrie.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note des décisions de la Dixième Conférence sur des
-        sujets tels que les pays en développement, les liaisons avec d''autres institutions,
+      message: Le Comité a pris note des décisions de la Dixième Conférence sur des
+        sujets tels que les pays en développement, les liaisons avec d'autres institutions,
         la politique à long terme ou la certification, et a chargé son Président et
         le Directeur du Bureau de mener les actions nécessaires à leur mise en application.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du rapport d''activité du BIML pour la période
+      message: Le Comité a pris note du rapport d'activité du BIML pour la période
         novembre 1995-octobre 1996 et a chargé le Bureau de publier ce rapport dans
         le Bulletin sous une forme appropriée.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''informations données par la délégation du
-        Brésil et par le Directeur du BIML concernant les préparatifs de sa $32^{\mathrm{ème}}$
+      message: Le Comité a pris note d'informations données par la délégation du Brésil
+        et par le Directeur du BIML concernant les préparatifs de sa $32^{\mathrm{ème}}$
         réunion qui se tiendra à Rio dans la semaine du 1997.10.27-31, en liaison
         avec une réunion du SIM (Sistema Interamericano de Metrologia), du Conseil
-        de Développement OIML et d''un séminaire technique.
-
-        '
+        de Développement OIML et d'un séminaire technique.
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note d''informations données par la délégation Coréenne
+      message: Le Comité a pris note d'informations données par la délégation Coréenne
         concernant les préparatifs de sa 33ème réunion qui se tiendra à Séoul durant
-        la deuxième quinzaine d''octobre 1998 ou au début de novembre 1998, en liaison
-        avec une réunion de l''APLMF et autres réunions. Il a été souligné que les
+        la deuxième quinzaine d'octobre 1998 ou au début de novembre 1998, en liaison
+        avec une réunion de l'APLMF et autres réunions. Il a été souligné que les
         dates devraient être choisies en tenant compte de celle de la prochaine réunion
         de ILAC à Sydney.
-
-        '
+    - type: notes
       date_effective:
         date: '1996-11-04'
         type: effective
+      message: Le Comité a accepté un nouveau thème de travail pour le TC 9/SC 4 sur
+        un schéma de hiérarchie pour les instruments de mesure de la masse volumique.
     - type: notes
-      message: 'Le Comité a accepté un nouveau thème de travail pour le TC 9/SC 4
-        sur un schéma de hiérarchie pour les instruments de mesure de la masse volumique.
-
-        '
       date_effective:
         date: '1996-11-04'
         type: effective
-    - type: notes
-      message: 'Le Comité a accepté que la responsabilité du secrétariat du TC 8/SC
+      message: Le Comité a accepté que la responsabilité du secrétariat du TC 8/SC
         7 soit attribuée conjointement à la Belgique et à la France.
-
-        '
-      date_effective:
-        date: '1996-11-04'
-        type: effective
-  agenda_item: '5'
