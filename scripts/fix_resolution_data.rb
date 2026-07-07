@@ -165,11 +165,26 @@ module ResolutionsData
         return changed if title.empty?
         return changed if title =~ ALREADY_FORMATTED_RE
 
-        agenda_title = agenda_item ? agenda_titles[agenda_item] : nil
+        agenda_title = agenda_item ? lookup_agenda_title(agenda_item, agenda_titles) : nil
         return changed unless agenda_title
 
         loc["title"] = "Agenda Item #{agenda_item}: #{agenda_title}"
         true | changed
+      end
+
+      # Look up an agenda title by exact label, walking the parent
+      # hierarchy on miss (e.g. "14.2" → "14"). This matches the
+      # ResolutionDetail.vue deeplink fallback behaviour.
+      def lookup_agenda_title(label, agenda_titles)
+        return nil unless label
+        l = label.to_s
+        until l.empty?
+          return agenda_titles[l] if agenda_titles.key?(l)
+          idx = l.rindex(".")
+          break unless idx
+          l = l[0...idx]
+        end
+        agenda_titles[label.to_s]
       end
 
       def subject_matches_body?(subject, body)
