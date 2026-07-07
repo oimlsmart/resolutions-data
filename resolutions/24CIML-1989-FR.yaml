@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/24CIML-1989-FR.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/24CIML-1989-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:24CIML-1989-FR
+# Meeting URN: urn:oiml:ciml:meeting:ciml-24
 # Language: fr
 ---
 metadata:
-  title: 24th CIML Meeting — Minutes (FR, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: FRPAR
-  country_code: FR
   title_localized:
   - language_code: fra
     title: 24th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: FRPAR
+  country_code: FR
   meeting_urn: urn:oiml:ciml:meeting:ciml-24
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 1989/7
   doi: 10.63493/resolutions/ciml198907
   urn: urn:oiml:doc:ciml:resolution:1989-07
+  agenda_item: '7'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -26,21 +26,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7: Travaux des Secrétariats'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '7. 1. Examen de l''état d''avancement des travaux
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '7'
+      message: 7. 1. Examen de l'état d'avancement des travaux
 - identifier:
   - prefix: CIML
     number: 1989/1
   doi: 10.63493/resolutions/ciml198901
   urn: urn:oiml:doc:ciml:resolution:1989-01
+  agenda_item: '1'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -48,21 +45,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU DE LA 23e REUNION DU COMITE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Ce compte rendu est adopté sans modification
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '1'
+      message: Ce compte rendu est adopté sans modification
 - identifier:
   - prefix: CIML
     number: 1989/2
   doi: 10.63493/resolutions/ciml198902
   urn: urn:oiml:doc:ciml:resolution:1989-02
+  agenda_item: '2'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -70,14 +64,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2: ETATS MEMBRES ET MEMBRES CORRESPONDANTS'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1989/2.1
   doi: 10.63493/resolutions/ciml19892.1
   urn: urn:oiml:doc:ciml:resolution:1989-2.1
+  agenda_item: '2.1'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -85,27 +77,24 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2.1: Nouvelles adhésions Perspectives d''adhésions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
+      date_effective:
+        date: '1989-09-27'
+        type: effective
       message: 'M. ATHANÉ rappelle que quatre Etats ont adhéré comme Membres Correspondants
         depuis la dernière réunion du Comité: la Malaisie, le Mexique, le Sénégal
         et les Seychelles. Il est probable que d''autres adhésions de Correspondants
         auront lieu dans le proche futur. En ce qui concerne les prévisions d''adhésions
         comme Etats Membres, rien de définitif ne peut être mentionné mais des pays
         comme l''Arabie Saoudite et le Mexique sont intéressés par une adhésion à
-        l''OIML.
-
-        '
-      date_effective:
-        date: '1989-09-27'
-        type: effective
-  agenda_item: '2.1'
+        l''OIML.'
 - identifier:
   - prefix: CIML
     number: 1989/2.2
   doi: 10.63493/resolutions/ciml19892.2
   urn: urn:oiml:doc:ciml:resolution:1989-2.2
+  agenda_item: '2.2'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -113,27 +102,24 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 2.2: Examen de la situation de certains Etats Membres'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. ATHANÉ rappelle que la Guinée a été déclarée démissionnaire d''office,
-        n''ayant pas réglé ses contributions pendant plus de trois années consécutives.
-        Le Kenya et la Roumanie commencent à présenter un retard inquiétant dans leurs
-        paiements et un nouveau, et peut-être ultime, contact sera pris avec les Autorités
-        de ces deux pays qui pourraient être considérés comme démissionnaires d''office
-        si au moins une partie de leurs arriérés n''était pas payée rapidement. Le
-        Président du Comité sera informé en temps utile du résultat de ces contacts.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '2.2'
+      message: M. ATHANÉ rappelle que la Guinée a été déclarée démissionnaire d'office,
+        n'ayant pas réglé ses contributions pendant plus de trois années consécutives.
+        Le Kenya et la Roumanie commencent à présenter un retard inquiétant dans leurs
+        paiements et un nouveau, et peut-être ultime, contact sera pris avec les Autorités
+        de ces deux pays qui pourraient être considérés comme démissionnaires d'office
+        si au moins une partie de leurs arriérés n'était pas payée rapidement. Le
+        Président du Comité sera informé en temps utile du résultat de ces contacts.
 - identifier:
   - prefix: CIML
     number: 1989/3
   doi: 10.63493/resolutions/ciml198903
   urn: urn:oiml:doc:ciml:resolution:1989-03
+  agenda_item: '3'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -141,14 +127,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3: SITUATION FINANCIERE'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1989/3.1
   doi: 10.63493/resolutions/ciml19893.1
   urn: urn:oiml:doc:ciml:resolution:1989-3.1
+  agenda_item: '3.1'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -156,22 +140,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1988'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Ce rapport est adopté et le Comité charge son Président et le Directeur
-        du Bureau de le présenter à la Neuvième Conférence.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '3.1'
+      message: Ce rapport est adopté et le Comité charge son Président et le Directeur
+        du Bureau de le présenter à la Neuvième Conférence.
 - identifier:
   - prefix: CIML
     number: 1989/3.2
   doi: 10.63493/resolutions/ciml19893.2
   urn: urn:oiml:doc:ciml:resolution:1989-3.2
+  agenda_item: '3.2'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -179,28 +160,25 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 3.2: Examen de la situation financière pour 1989 et 1990'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. ATHANÉ rappelle qu''il a proposé au Comité, fin 1988, de ne pas
-        suivre exactement les décisions de la Conférence en ce qui concerne les crédits
-        exceptionnels nécessaires à la rénovation du siège de l''Organisation, mais
-        de faire le maximum de ces travaux en 1989, le paiement se faisant en partie
-        par prélèvement sur le fond de réserve. Aucune objection n''ayant été émise,
-        les travaux de transformation du deuxième étage (création de 2 bureaux indépendants
-        et d''une salle de conférence bien aménagée, ainsi que d''un accès permanent
-        au grenier) ont été engagés et sont en voie d''achèvement.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '3.2'
+      message: M. ATHANÉ rappelle qu'il a proposé au Comité, fin 1988, de ne pas suivre
+        exactement les décisions de la Conférence en ce qui concerne les crédits exceptionnels
+        nécessaires à la rénovation du siège de l'Organisation, mais de faire le maximum
+        de ces travaux en 1989, le paiement se faisant en partie par prélèvement sur
+        le fond de réserve. Aucune objection n'ayant été émise, les travaux de transformation
+        du deuxième étage (création de 2 bureaux indépendants et d'une salle de conférence
+        bien aménagée, ainsi que d'un accès permanent au grenier) ont été engagés
+        et sont en voie d'achèvement.
 - identifier:
   - prefix: CIML
     number: 1989/4
   doi: 10.63493/resolutions/ciml198904
   urn: urn:oiml:doc:ciml:resolution:1989-04
+  agenda_item: '4'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -208,24 +186,20 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4: PERSONNEL DU BUREAU'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité prend par ailleurs connaissance d''informations sur les
-        prévisions de modifications en ce qui concerne certains agents du Bureau,
-        en particulier les deux Adjointes au Directeur, qui prendront leur retraite
-        en 1991 et 1992.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '4'
+      message: Le Comité prend par ailleurs connaissance d'informations sur les prévisions
+        de modifications en ce qui concerne certains agents du Bureau, en particulier
+        les deux Adjointes au Directeur, qui prendront leur retraite en 1991 et 1992.
 - identifier:
   - prefix: CIML
     number: 1989/4.2
   doi: 10.63493/resolutions/ciml19894.2
   urn: urn:oiml:doc:ciml:resolution:1989-4.2
+  agenda_item: '4.2'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -233,21 +207,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 4.2: Autres questions.'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '4.2'
+      message: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1989/5
   doi: 10.63493/resolutions/ciml198905
   urn: urn:oiml:doc:ciml:resolution:1989-05
+  agenda_item: '5'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -255,24 +226,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 5: MISE EN APPLICATION DES DECISIONS DE LA HUITIEME CONFERENCE'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. ATHANÉ rappelle les différentes décisions de la Huitième Conférence
-        et mentionne soit les actions déjà entreprises pour leur mise en application,
-        soit ce qui va être fait, dans un futur proche, à cet effet. Ces actions concernent
-        en particulier les sujets suivants:
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '5'
+      message: 'M. ATHANÉ rappelle les différentes décisions de la Huitième Conférence
+        et mentionne soit les actions déjà entreprises pour leur mise en application,
+        soit ce qui va être fait, dans un futur proche, à cet effet. Ces actions concernent
+        en particulier les sujets suivants:'
 - identifier:
   - prefix: CIML
     number: 1989/6
   doi: 10.63493/resolutions/ciml198906
   urn: urn:oiml:doc:ciml:resolution:1989-06
+  agenda_item: '6'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -280,32 +248,27 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6: CERTIFICATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité avait ensuite chargé le Secrétariat Rapporteur SP 2-Sr 4,
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+      message: Le Comité avait ensuite chargé le Secrétariat Rapporteur SP 2-Sr 4,
         dont le Bureau est responsable, de préparer ces règles détaillées, sous le
         contrôle du Conseil de la Présidence. Un 1er avant-projet a ainsi été établi,
-        suivi d''un 2e avant-projet soumis aux commentaires et votes des Membres du
+        suivi d'un 2e avant-projet soumis aux commentaires et votes des Membres du
         Comité.
-
-        '
-      date_effective:
-        date: '1989-09-27'
-        type: effective
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '6'
+      message: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1989/6.2
   doi: 10.63493/resolutions/ciml19896.2
   urn: urn:oiml:doc:ciml:resolution:1989-6.2
+  agenda_item: '6.2'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -313,22 +276,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 6.2: Actions nécessaires au bon fonctionnement du système'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. BIRKELAND propose que les discussions sur ce sujet prennent comme
-        point de départ le mémorandum établi par M. KOCHSIEK.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '6.2'
+      message: M. BIRKELAND propose que les discussions sur ce sujet prennent comme
+        point de départ le mémorandum établi par M. KOCHSIEK.
 - identifier:
   - prefix: CIML
     number: 1989/7
   doi: 10.63493/resolutions/ciml198907
   urn: urn:oiml:doc:ciml:resolution:1989-07
+  agenda_item: '7'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -336,21 +296,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7: Travaux des Secrétariats'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: '7. 1. Examen de l''état d''avancement des travaux
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '7'
+      message: 7. 1. Examen de l'état d'avancement des travaux
 - identifier:
   - prefix: CIML
     number: 1989/7.3
   doi: 10.63493/resolutions/ciml19897.3
   urn: urn:oiml:doc:ciml:resolution:1989-7.3
+  agenda_item: '7.3'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -358,19 +315,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7.3: Mode de travail des Secrétariats de l''OIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: "## a) Informations sur la révision du Mode de travail\n"
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '7.3'
+      message: "## a) Informations sur la révision du Mode de travail"
 - identifier:
   - prefix: CIML
     number: 1989/7.4
   doi: 10.63493/resolutions/ciml19897.4
   urn: urn:oiml:doc:ciml:resolution:1989-7.4
+  agenda_item: '7.4'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -378,27 +334,24 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 7.4: Adoption de Recommandations Internationales'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. BIRKELAND rappelle que, pour la première fois, le Comité va adopter,
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+      message: M. BIRKELAND rappelle que, pour la première fois, le Comité va adopter,
         au nom de la Conférence, des Recommandations qui seront définitivement publiées,
         la Conférence se contentant de confirmer cette adoption par une sanction a
         posteriori. Cela va permettre de publier et de mettre en application des Recommandations
         dans les plus brefs délais après leur mise au point par les Secrétariats responsables;
-        cette accélération est nécessaire aussi bien dans l''optique du système de
-        certificats OIML que compte tenu de l''accélération des progrès de la technique.
-
-        '
-      date_effective:
-        date: '1989-09-27'
-        type: effective
-  agenda_item: '7.4'
+        cette accélération est nécessaire aussi bien dans l'optique du système de
+        certificats OIML que compte tenu de l'accélération des progrès de la technique.
 - identifier:
   - prefix: CIML
     number: 1989/8
   doi: 10.63493/resolutions/ciml198908
   urn: urn:oiml:doc:ciml:resolution:1989-08
+  agenda_item: '8'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -406,21 +359,18 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 8: POLITIQUE A LONG TERME DE L''ORGANISATION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité International de Métrologie Légale
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '8'
+      message: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1989/9
   doi: 10.63493/resolutions/ciml198909
   urn: urn:oiml:doc:ciml:resolution:1989-09
+  agenda_item: '9'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -428,24 +378,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 9: PAYS EN DEVELOPEMENT'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. BENKIRANE, Président du Conseil de Développement, donne un résumé
-        des rapports présentés et des discussions tenues lors de la réunion du Conseil,
-        le mardi 26 septembre, réunion précédée d''un séminaire sur la planification
-        et l''équipement des laboratoires de métrologie et d''essai.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '9'
+      message: M. BENKIRANE, Président du Conseil de Développement, donne un résumé
+        des rapports présentés et des discussions tenues lors de la réunion du Conseil,
+        le mardi 26 septembre, réunion précédée d'un séminaire sur la planification
+        et l'équipement des laboratoires de métrologie et d'essai.
 - identifier:
   - prefix: CIML
     number: 1989/10
   doi: 10.63493/resolutions/ciml198910
   urn: urn:oiml:doc:ciml:resolution:1989-10
+  agenda_item: '10'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -453,22 +400,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 10: SEMINAIRES OIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. THULIN informe le Comité de la préparation d''un séminaire technique
-        sur le pesage, qui aura lieu à la PTB, à Braunschweig, en mai 1990.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '10'
+      message: M. THULIN informe le Comité de la préparation d'un séminaire technique
+        sur le pesage, qui aura lieu à la PTB, à Braunschweig, en mai 1990.
 - identifier:
   - prefix: CIML
     number: 1989/11
   doi: 10.63493/resolutions/ciml198911
   urn: urn:oiml:doc:ciml:resolution:1989-11
+  agenda_item: '11'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -476,22 +420,19 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 11: RAPPORT D''ACTIVITE DU BIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Un rapport écrit couvrant la période octobre 1988-septembre 1989 est
-        distribué aux participants.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '11'
+      message: Un rapport écrit couvrant la période octobre 1988-septembre 1989 est
+        distribué aux participants.
 - identifier:
   - prefix: CIML
     number: 1989/12
   doi: 10.63493/resolutions/ciml198912
   urn: urn:oiml:doc:ciml:resolution:1989-12
+  agenda_item: '12'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -499,14 +440,12 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 12: QUESTIONS DIVERSES'
     subject: "(The CIML)"
-    considerations: []
-    actions: []
-  agenda_item: '12'
 - identifier:
   - prefix: CIML
     number: 1989/12.1
   doi: 10.63493/resolutions/ciml198912.1
   urn: urn:oiml:doc:ciml:resolution:1989-12.1
+  agenda_item: '12.1'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -514,24 +453,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 12.1: Bulletin de l''OIML'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'M. ATHANÉ indique que le Comité International des Poids et Mesures
-        n''a pas accepté l''idée de créer un journal international de métrologie scientifique
-        et pratique, publié sous l''égide commune des deux Comités Internationaux.
-        Cette idée
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '12.1'
+      message: M. ATHANÉ indique que le Comité International des Poids et Mesures
+        n'a pas accepté l'idée de créer un journal international de métrologie scientifique
+        et pratique, publié sous l'égide commune des deux Comités Internationaux.
+        Cette idée
 - identifier:
   - prefix: CIML
     number: 1989/12.2
   doi: 10.63493/resolutions/ciml198912.2
   urn: urn:oiml:doc:ciml:resolution:1989-12.2
+  agenda_item: '12.2'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -539,24 +475,21 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 12.2: Autres questions'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'a) M. REVUELTA FORMOSO transmet au Comité une invitation de Cuba de
-        tenir la Dixième Conférence dans ce pays. M. BIRKELAND le remercie et indique
-        que le Comité prend note de cette invitation, la décision revenant bien sûr
-        à la Neuvième Conférence.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '12.2'
+      message: a) M. REVUELTA FORMOSO transmet au Comité une invitation de Cuba de
+        tenir la Dixième Conférence dans ce pays. M. BIRKELAND le remercie et indique
+        que le Comité prend note de cette invitation, la décision revenant bien sûr
+        à la Neuvième Conférence.
 - identifier:
   - prefix: CIML
     number: 1989/13
   doi: 10.63493/resolutions/ciml198913
   urn: urn:oiml:doc:ciml:resolution:1989-13
+  agenda_item: '13'
   dates:
   - date: '1989-09-27'
     type: decided
@@ -564,256 +497,197 @@ decisions:
   - language_code: fra
     title: 'Agenda Item 13: DATE ET LIEU DE LA PROCHAINE REUNION'
     subject: "(The CIML)"
-    considerations: []
     actions:
     - type: notes
-      message: 'Le Comité donne son accord et M. CRUZ indique que les informations
+      date_effective:
+        date: '1989-09-27'
+        type: effective
+      message: Le Comité donne son accord et M. CRUZ indique que les informations
         détaillées seront envoyées très prochainement. Il insiste sur la nécessité
-        de s''occuper des réservations d''hôtel le plus vite possible.
-
-        '
+        de s'occuper des réservations d'hôtel le plus vite possible.
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a adopté le compte rendu de sa vingt-troisième réunion sans
+      message: Le Comité a adopté le compte rendu de sa vingt-troisième réunion sans
         modification.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris connaissance du rapport sur l''adhésion, comme Membres
+      message: Le Comité a pris connaissance du rapport sur l'adhésion, comme Membres
         Correspondants, des Seychelles, de la Malaisie, du Mexique et du Sénégal;
-        il a également pris connaissance du rapport sur l''exclusion de la Guinée
-        ainsi que sur la situation de certains Etats Membres très en retard dans le
-        paiement de leurs contributions.
-
-        '
+        il a également pris connaissance du rapport sur l'exclusion de la Guinée ainsi
+        que sur la situation de certains Etats Membres très en retard dans le paiement
+        de leurs contributions.
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a adopté le rapport comptable pour 1988 et a chargé son Président
+        et le Directeur du Bureau de le soumettre à la Neuvième Conférence.
     - type: notes
-      message: 'Le Comité a adopté le rapport comptable pour 1988 et a chargé son
-        Président et le Directeur du Bureau de le soumettre à la Neuvième Conférence.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a renouvelé pour une période de cinq ans, à compter du 1er
+      message: Le Comité a renouvelé pour une période de cinq ans, à compter du 1er
         janvier 1991, le contrat du Directeur du Bureau.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du rapport sur les changements qui se produiront
+      message: Le Comité a pris note du rapport sur les changements qui se produiront
         dans la composition du personnel du Bureau au cours des trois prochaines années.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité International de Métrologie Légale,
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a pris note d'un rapport sur la mise en application des décisions
+        de la Huitième Conférence.
     - type: notes
-      message: 'Le Comité a pris note d''un rapport sur la mise en application des
-        décisions de la Huitième Conférence.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité International de Métrologie Légale,
     - type: notes
-      message: 'Le Comité International de Métrologie Légale,
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a insisté sur la nécessité de revoir le "Mode de travail
-        des Secrétariats de l''OIML" afin en particulier qu''un modèle normalisé de
+      message: Le Comité a insisté sur la nécessité de revoir le "Mode de travail
+        des Secrétariats de l'OIML" afin en particulier qu'un modèle normalisé de
         Recommandation soit donné comme guide aux Secrétariats.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a également conseillé à ses Membres de s''efforcer de prendre
+      message: Le Comité a également conseillé à ses Membres de s'efforcer de prendre
         en considération, pour les approbations de modèle nationales, les essais effectués
-        dans d''autres pays dans la mesure où ceux-ci sont conformes aux exigences
-        de l''OIML.
-
-        '
+        dans d'autres pays dans la mesure où ceux-ci sont conformes aux exigences
+        de l'OIML.
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a pris note de l'état d'avancement des travaux des Secrétariats
+        de l'OIML.
     - type: notes
-      message: 'Le Comité a pris note de l''état d''avancement des travaux des Secrétariats
-        de l''OIML.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a chargé le Bureau d'établir les listes définitives des membres-P
+        et membres-O de ces Secrétariats et d'informer les institutions internationales
+        éventuellement intéressées en vue de leur participation aux travaux.
     - type: notes
-      message: 'Le Comité a chargé le Bureau d''établir les listes définitives des
-        membres-P et membres-O de ces Secrétariats et d''informer les institutions
-        internationales éventuellement intéressées en vue de leur participation aux
-        travaux.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a chargé le Bureau d'entreprendre, sous la direction du Conseil
+        de la Présidence, une révision radicale du "Mode de travail des Secrétariats
+        de l'OIML", en tenant compte des propositions présentées en séance et en l'alignant,
+        lorsque cela est pratique et conforme aux buts de l'Organisation, sur les
+        Directives communes de l'ISO et de la CEI, édition 1989.
     - type: notes
-      message: 'Le Comité a chargé le Bureau d''entreprendre, sous la direction du
-        Conseil de la Présidence, une révision radicale du "Mode de travail des Secrétariats
-        de l''OIML", en tenant compte des propositions présentées en séance et en
-        l''alignant, lorsque cela est pratique et conforme aux buts de l''Organisation,
-        sur les Directives communes de l''ISO et de la CEI, édition 1989.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a demandé au Bureau que le projet de révision soit distribué
+      message: Le Comité a demandé au Bureau que le projet de révision soit distribué
         aux Membres du CIML en vue de sa discussion à la prochaine réunion.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité constatant que, pour certains Secrétariats, le déroulement
+      message: Le Comité constatant que, pour certains Secrétariats, le déroulement
         du travail est géné par le fait que certains membres-P ne participent pas
         activement aux travaux, a recommandé à tous les Etats Membres de revoir soigneusement
         leur statut de participation aux différents groupes de travail et à ne pas
-        hésiter à abandonner leur statut de membre-P chaque fois qu''ils ne sont pas
+        hésiter à abandonner leur statut de membre-P chaque fois qu'ils ne sont pas
         certains de pouvoir remplir leurs devoirs.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: 'Le Comité a approuvé les trois Recommandations Internationales suivantes:'
     - type: notes
-      message: 'Le Comité a approuvé les trois Recommandations Internationales suivantes:
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a rappelé au Bureau que ces Recommandations devaient néanmoins
+      message: Le Comité a rappelé au Bureau que ces Recommandations devaient néanmoins
         être présentées à la Neuvième Conférence pour sanction.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a chargé le Bureau d'étudier soigneusement les diverses propositions
+        et déclarations présentées en séance (en particulier sur les intercomparaisons
+        et essais probatoires, sur les accords bi- ou multilatéraux de reconnaissance
+        de résultats d'essais et sur les conditions de création d'un climat de confiance
+        propre à faciliter ces reconnaissances mutuelles) et de transmettre ces informations
+        au Conseil de la Présidence pour examen.
     - type: notes
-      message: 'Le Comité a chargé le Bureau d''étudier soigneusement les diverses
-        propositions et déclarations présentées en séance (en particulier sur les
-        intercomparaisons et essais probatoires, sur les accords bi- ou multilatéraux
-        de reconnaissance de résultats d''essais et sur les conditions de création
-        d''un climat de confiance propre à faciliter ces reconnaissances mutuelles)
-        et de transmettre ces informations au Conseil de la Présidence pour examen.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a également encouragé ses Membres, en particulier ceux responsables
+        de Secrétariats Rapporteurs traitant d'instruments qui pourraient entrer dans
+        le champ d'application du Système de Certificats OIML, à s'assurer, au moyen
+        d'intercomparaisons et d'essais probatoires, que les essais décrits dans les
+        Recommandations internationales concernées sont valables et peuvent être appliqués
+        uniformément.
     - type: notes
-      message: 'Le Comité a également encouragé ses Membres, en particulier ceux responsables
-        de Secrétariats Rapporteurs traitant d''instruments qui pourraient entrer
-        dans le champ d''application du Système de Certificats OIML, à s''assurer,
-        au moyen d''intercomparaisons et d''essais probatoires, que les essais décrits
-        dans les Recommandations internationales concernées sont valables et peuvent
-        être appliqués uniformément.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a pris note du rapport sur la réunion du Conseil de Développement
+        et le séminaire sur la planification et l'équipement de laboratoires de métrologie
+        et d'essais.
     - type: notes
-      message: 'Le Comité a pris note du rapport sur la réunion du Conseil de Développement
-        et le séminaire sur la planification et l''équipement de laboratoires de métrologie
-        et d''essais.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a donné son accord pour que le budget prévu par la Conférence
+      message: Le Comité a donné son accord pour que le budget prévu par la Conférence
         pour la réunion du Conseil de Développement de 1991 soit utilisé pour faciliter
-        la participation d''Agents de Services de métrologie légale de pays en développement
-        à un cours de formation, d''une durée d''environ deux semaines, qui pourrait
+        la participation d'Agents de Services de métrologie légale de pays en développement
+        à un cours de formation, d'une durée d'environ deux semaines, qui pourrait
         être organisé par un Etat Membre en 1991.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a chargé le Bureau d'examiner immédiatement les possibilités
+        d'organiser ce cours.
     - type: notes
-      message: 'Le Comité a chargé le Bureau d''examiner immédiatement les possibilités
-        d''organiser ce cours.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note des informations sur la préparation d''un séminaire
+      message: Le Comité a pris note des informations sur la préparation d'un séminaire
         technique qui se tiendra en 1990.
-
-        '
+    - type: notes
       date_effective:
         date: '1989-09-27'
         type: effective
-    - type: notes
-      message: 'Le Comité a pris note du rapport d''activité du BIML pour la période
+      message: Le Comité a pris note du rapport d'activité du BIML pour la période
         octobre 1988 - septembre 1989.
-
-        '
-      date_effective:
-        date: '1989-09-27'
-        type: effective
     - type: notes
-      message: 'Le Comité a pris note de la décision du Comité International des Poids
-        et Mesures de ne pas donner suite à l''idée de créer un journal international
-        de métrologie publié sous l''égide des deux Comités.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a pris note de la décision du Comité International des Poids
+        et Mesures de ne pas donner suite à l'idée de créer un journal international
+        de métrologie publié sous l'égide des deux Comités.
     - type: notes
-      message: 'Le Comité a pris note de l''invitation de Cuba à tenir la Dixième
-        Conférence en 1996 dans ce pays.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
+      message: Le Comité a pris note de l'invitation de Cuba à tenir la Dixième Conférence
+        en 1996 dans ce pays.
     - type: notes
-      message: 'Le Comité a accepté l''invitation du Portugal à tenir sa prochaine
-        réunion à Lisbonne les 3, 4 et 5 octobre 1990.
-
-        '
       date_effective:
         date: '1989-09-27'
         type: effective
-  agenda_item: '13'
+      message: Le Comité a accepté l'invitation du Portugal à tenir sa prochaine réunion
+        à Lisbonne les 3, 4 et 5 octobre 1990.

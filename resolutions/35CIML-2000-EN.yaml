@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/35CIML-2000-EN.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/35CIML-2000-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:35CIML-2000-EN
+# Meeting URN: urn:oiml:ciml:meeting:ciml-35
 # Language: en
 ---
 metadata:
-  title: 35th CIML Meeting — Minutes (EN, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: GBLON
-  country_code: GB
   title_localized:
   - language_code: eng
     title: 35th CIML Meeting — Minutes (EN, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: GBLON
+  country_code: GB
   meeting_urn: urn:oiml:ciml:meeting:ciml-35
 decisions:
 - identifier:
@@ -19,151 +18,136 @@ decisions:
     number: 2000/0
   doi: 10.63493/resolutions/ciml200000
   urn: urn:oiml:doc:ciml:resolution:2000-00
+  agenda_item: '0'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 0: Nomination d''un Membre d''Honneur du Comité'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee unanimously appointed Dr. Sam Chappell, the former CIML
-        First Vice President and US Member as Honorary Member.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '0'
+      message: The Committee unanimously appointed Dr. Sam Chappell, the former CIML
+        First Vice President and US Member as Honorary Member.
 - identifier:
   - prefix: CIML
     number: 2000/1
   doi: 10.63493/resolutions/ciml200001
   urn: urn:oiml:doc:ciml:resolution:2000-01
+  agenda_item: '1'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 1: Approbation du compte rendu de la 34ème Réunion du CIML'
-    considerations: []
     actions:
     - type: approves
-      message: 'The Committee approved the minutes of its $ 3 4^{\mathrm{th}} $ Meeting
-        without modification.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '1'
+      message: The Committee approved the minutes of its $ 3 4^{\mathrm{th}} $ Meeting
+        without modification.
 - identifier:
   - prefix: CIML
     number: 2000/2
   doi: 10.63493/resolutions/ciml200002
   urn: urn:oiml:doc:ciml:resolution:2000-02
+  agenda_item: '2'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2: États Membres et Membres Correspondants'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a list giving the population and the contributory
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: The Committee took note of a list giving the population and the contributory
         class for each Member State, with an indication of those Member States benefiting
         from a lower contributory class than that assigned by the population. The
         Committee took note of the fact that there were no changes in relation to
         the previous situation and expressed no comment concerning this list.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
-  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 2000/3
   doi: 10.63493/resolutions/ciml200003
   urn: urn:oiml:doc:ciml:resolution:2000-03
+  agenda_item: '3'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 3: Questions financières'
-    considerations: []
     actions:
     - type: approves
-      message: 'The Committee approved the Auditor''s report for 1999 and requested
-        its President and the BIML Director to submit it to the Eleventh Conference.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '3'
+      message: The Committee approved the Auditor's report for 1999 and requested
+        its President and the BIML Director to submit it to the Eleventh Conference.
 - identifier:
   - prefix: CIML
     number: 2000/4
   doi: 10.63493/resolutions/ciml200004
   urn: urn:oiml:doc:ciml:resolution:2000-04
+  agenda_item: '4'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 4: Activités du Conseil de la Présidence'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report from its President concerning
-        the activities of the Presidential Council since the last CIML Meeting.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '4'
+      message: The Committee took note of a report from its President concerning the
+        activities of the Presidential Council since the last CIML Meeting.
 - identifier:
   - prefix: CIML
     number: 2000/5
   doi: 10.63493/resolutions/ciml200005
   urn: urn:oiml:doc:ciml:resolution:2000-05
+  agenda_item: '5'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 5: Activités du BIML'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report describing the activities of the
-        Bureau since the last CIML Meeting.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '5'
+      message: The Committee took note of a report describing the activities of the
+        Bureau since the last CIML Meeting.
 - identifier:
   - prefix: CIML
     number: 2000/6
   doi: 10.63493/resolutions/ciml200006
   urn: urn:oiml:doc:ciml:resolution:2000-06
+  agenda_item: '6'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6: Activités techniques'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report from the BIML describing the situation
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: The Committee took note of a report from the BIML describing the situation
         of certain Technical Committees and Subcommittees. Whilst the Committee noted
         that there was no need for the TC 5 secretariat to be allocated to a Member
         State, it did note that TC 13 should not remain without a secretariat. The
@@ -173,17 +157,12 @@ decisions:
         Finally, the Committee noted that the Russian Federation might be interested
         in taking over responsibility for TC 8/SC 2, provided that work was limited
         to the development of a test report format for R 125.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
-  agenda_item: '6'
 - identifier:
   - prefix: CIML
     number: 2000/7
   doi: 10.63493/resolutions/ciml200007
   urn: urn:oiml:doc:ciml:resolution:2000-07
+  agenda_item: '7'
   dates:
   - date: '2000-10-09'
     type: decided
@@ -191,172 +170,146 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 7: Onzième Conférence Internationale de Métrologie Légale
       Ordre du jour et programme'
-    considerations: []
     actions:
     - type: endorses
-      message: 'The Committee endorsed the draft agenda and program for the Conference.
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: The Committee endorsed the draft agenda and program for the Conference.
         It noted that Dr. Foster, Director for Innovation Services at the Department
         of Trade and Industry of the United Kingdom, would act as Conference Chairman
         and approved the proposal from the CIML President to nominate Mr. Beard (South
         Africa) and Dr. Pákay (Hungary) as Conference Vice Presidents.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
-  agenda_item: '7'
 - identifier:
   - prefix: CIML
     number: 2000/8
   doi: 10.63493/resolutions/ciml200008
   urn: urn:oiml:doc:ciml:resolution:2000-08
+  agenda_item: '8'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 8: Présidence du CIML'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee elected Mr. Faber (The Netherlands) to continue as its
+      date_effective:
+        date: '2000-10-09'
+        type: effective
+      message: The Committee elected Mr. Faber (The Netherlands) to continue as its
         President for the next three years.
-
-        '
-      date_effective:
-        date: '2000-10-09'
-        type: effective
     - type: notes
-      message: 'The Committee elected Dr. Issaev (Russian Federation) as its Second
-        Vice President for the next six years.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '8'
+      message: The Committee elected Dr. Issaev (Russian Federation) as its Second
+        Vice President for the next six years.
 - identifier:
   - prefix: CIML
     number: 2000/9
   doi: 10.63493/resolutions/ciml200009
   urn: urn:oiml:doc:ciml:resolution:2000-09
+  agenda_item: '9'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9: Directeur du BIML'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee appointed Mr. Magana (France) as the future Director
-        of the BIML.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '9'
+      message: The Committee appointed Mr. Magana (France) as the future Director
+        of the BIML.
 - identifier:
   - prefix: CIML
     number: 2000/10
   doi: 10.63493/resolutions/ciml200010
   urn: urn:oiml:doc:ciml:resolution:2000-10
+  agenda_item: '10'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 10: Onzième Conférence Internationale de Métrologie Légale'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of the decisions made by the Conference and
-        requested its President, the Presidium and the Presidential Council to monitor
-        their implementation and to report about this at the next CIML Meeting.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '10'
+      message: The Committee took note of the decisions made by the Conference and
+        requested its President, the Presidium and the Presidential Council to monitor
+        their implementation and to report about this at the next CIML Meeting.
 - identifier:
   - prefix: CIML
     number: 2000/11
   doi: 10.63493/resolutions/ciml200011
   urn: urn:oiml:doc:ciml:resolution:2000-11
+  agenda_item: '11'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11: Futures réunions'
-    considerations: []
-    actions: []
-  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 2000/11.1
   doi: 10.63493/resolutions/ciml200011.1
   urn: urn:oiml:doc:ciml:resolution:2000-11.1
+  agenda_item: '11.1'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11.1: 36ème Réunion du CIML (2001)'
-    considerations: []
     actions:
     - type: decides
-      message: 'The Committee decided to hold its $ 36^{\mathrm{th}} $ Meeting in
-        Moscow, Russian Federation, between 22 and 27 September 2001.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '11.1'
+      message: The Committee decided to hold its $ 36^{\mathrm{th}} $ Meeting in Moscow,
+        Russian Federation, between 22 and 27 September 2001.
 - identifier:
   - prefix: CIML
     number: 2000/11.2
   doi: 10.63493/resolutions/ciml200011.2
   urn: urn:oiml:doc:ciml:resolution:2000-11.2
+  agenda_item: '11.2'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11.2: 37ème Réunion du CIML (2002)'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee noted that Israel was in a position to confirm its invitation
-        to hold the $ 37^{\mathrm{th}} $ CIML Meeting in 2002 (exact dates to be advised),
-        this decision to be finalized during the $ 36^{\mathrm{th}} $ Meeting in 2001.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '11.2'
+      message: The Committee noted that Israel was in a position to confirm its invitation
+        to hold the $ 37^{\mathrm{th}} $ CIML Meeting in 2002 (exact dates to be advised),
+        this decision to be finalized during the $ 36^{\mathrm{th}} $ Meeting in 2001.
 - identifier:
   - prefix: CIML
     number: 2000/12
   doi: 10.63493/resolutions/ciml200012
   urn: urn:oiml:doc:ciml:resolution:2000-12
+  agenda_item: '12'
   dates:
   - date: '2000-10-09'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 12: Adoption des décisions'
-    considerations: []
     actions:
     - type: notes
-      message: 'The above-mentioned decisions were adopted.
-
-        '
       date_effective:
         date: '2000-10-09'
         type: effective
-  agenda_item: '12'
+      message: The above-mentioned decisions were adopted.

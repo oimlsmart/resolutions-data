@@ -1,12 +1,12 @@
 ---
 metadata:
-  source: OIML Conference Secretariat (BIML)
-  country_code: AU
   title_localized:
   - language_code: eng
     title: 13th OIML Conference — Resolutions (EN)
   - language_code: fra
     title: 13e Conférence OIML — Résolutions (FR)
+  source: OIML Conference Secretariat (BIML)
+  country_code: AU
   meeting_urn: urn:oiml:conference:meeting:conference-13
 decisions:
 - identifier:
@@ -14,6 +14,7 @@ decisions:
     number: 2008/1
   doi: 10.63493/resolutions/conf200801
   urn: urn:oiml:doc:conf:resolution:13.01
+  agenda_item: '1'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -21,36 +22,30 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 1: Approval of the minutes of the 12th Conference'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference made the recommendation that CIML Members update, in
-        a timely manner, the data related to their country in the OIML online database.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference made the recommendation that CIML Members update, in
+        a timely manner, the data related to their country in the OIML online database.
   - language_code: fra
     title: 'Agenda Item 1: Approval of the minutes of the 12th Conference'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence recommande aux Membres du CIML de régulièrement tenir
-        à jour les données relatives à leur pays sur la base de données en ligne de
-        l''OIML.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '1'
+      message: La Conférence recommande aux Membres du CIML de régulièrement tenir
+        à jour les données relatives à leur pays sur la base de données en ligne de
+        l'OIML.
 - identifier:
   - prefix: Conference
     number: 2008/2
   doi: 10.63493/resolutions/conf200802
   urn: urn:oiml:doc:conf:resolution:13.02
+  agenda_item: '2'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -58,39 +53,33 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 2: Report on CIML and BIML activities'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference made the recommendation that CIML Members make their
-        regulatory requirements available to the public on the internet and that they
-        update their Member''s data on the OIML web site with links to these national
-        web sites.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference made the recommendation that CIML Members make their
+        regulatory requirements available to the public on the internet and that they
+        update their Member's data on the OIML web site with links to these national
+        web sites.
   - language_code: fra
     title: 'Agenda Item 2: Report on CIML and BIML activities'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence recommande aux Membres du CIML de mettre à disposition
-        du public leurs exigences réglementaires sur internet, et de mettre à jour
-        leurs "données Membres" sur le site internet de l''OIML en fournissant les
-        liens pointant vers ces sites internet nationaux.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '2'
+      message: La Conférence recommande aux Membres du CIML de mettre à disposition
+        du public leurs exigences réglementaires sur internet, et de mettre à jour
+        leurs "données Membres" sur le site internet de l'OIML en fournissant les
+        liens pointant vers ces sites internet nationaux.
 - identifier:
   - prefix: Conference
     number: 2008/3
   doi: 10.63493/resolutions/conf200803
   urn: urn:oiml:doc:conf:resolution:13.03
+  agenda_item: '3'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -98,41 +87,34 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 3: Presentations given by Liaisons'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference made the recommendation that CIML Members complete
-        the inquiry on the implementation of OIML Recommendations as accurately as
-        possible and as soon as possible, and further made the recommendation that
-        Member States update it each time a new or revised National Regulation is
-        adopted.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference made the recommendation that CIML Members complete the
+        inquiry on the implementation of OIML Recommendations as accurately as possible
+        and as soon as possible, and further made the recommendation that Member States
+        update it each time a new or revised National Regulation is adopted.
   - language_code: fra
     title: 'Agenda Item 3: Presentations given by Liaisons'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence recommande aux Membres du CIML de remplir l''enquête
-        sur la mise en application des Recommandations de l''OIML de façon aussi précise
-        que possible et dans les meilleurs délais, et de plus recommande aux Etats
-        Membres de mettre celle-ci à jour chaque fois qu''une Recommandation de l''OIML
-        nouvelle ou révisée est adoptée.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '3'
+      message: La Conférence recommande aux Membres du CIML de remplir l'enquête sur
+        la mise en application des Recommandations de l'OIML de façon aussi précise
+        que possible et dans les meilleurs délais, et de plus recommande aux Etats
+        Membres de mettre celle-ci à jour chaque fois qu'une Recommandation de l'OIML
+        nouvelle ou révisée est adoptée.
 - identifier:
   - prefix: Conference
     number: 2008/4
   doi: 10.63493/resolutions/conf200804
   urn: urn:oiml:doc:conf:resolution:13.04
+  agenda_item: '4'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -140,37 +122,31 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 4: Technical work'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference made the recommendation to CIML Members to keep other
-        National Departments informed of OIML work, and to invite them to contribute
-        to this work.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference made the recommendation to CIML Members to keep other
+        National Departments informed of OIML work, and to invite them to contribute
+        to this work.
   - language_code: fra
     title: 'Agenda Item 4: Technical work'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence recommande aux Membres du CIML de tenir informés, les
-        autres départements ministériels de leur pays, des travaux de l''OIML et de
-        les inviter à participer à ces travaux.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '4'
+      message: La Conférence recommande aux Membres du CIML de tenir informés, les
+        autres départements ministériels de leur pays, des travaux de l'OIML et de
+        les inviter à participer à ces travaux.
 - identifier:
   - prefix: Conference
     number: 2008/4a
   doi: 10.63493/resolutions/conf20084a
   urn: urn:oiml:doc:conf:resolution:13.4a
+  agenda_item: 4a
   dates:
   - date: '2008-10-29'
     type: decided
@@ -179,37 +155,33 @@ decisions:
     title: The Conference took note of the comments made concerning the possibility
       of a rapprochement
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference took note of the comments made concerning the possibility
-        of a rapprochement with the BIPM. It instructed the Committee and the BIML
-        to further study this issue and to continue strengthening the cooperation
-        with the BIPM.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference took note of the comments made concerning the possibility
+        of a rapprochement with the BIPM. It instructed the Committee and the BIML
+        to further study this issue and to continue strengthening the cooperation
+        with the BIPM.
   - language_code: fra
     title: La Conférence a pris note des commentaires exprimés concernant la possibilité
       d'un rapprochement ave…
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: |
-        La Conférence a pris note des commentaires exprimés concernant la possibilité d'un rapprochement avec le BIPM. Elle donne instruction au Comité et au BIML de poursuivre l'étude de ce sujet et de continuer à renforcer la coopération avec le BIPM.
-        Les Etats Membres sont priés d'adresser leurs commentaires et propositions au BIML d'ici fin 2008 de sorte qu'un résumé de ces contributions puisse être discuté au Conseil de la Présidence en Mars 2009.
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: 4a
+      message: |-
+        La Conférence a pris note des commentaires exprimés concernant la possibilité d'un rapprochement avec le BIPM. Elle donne instruction au Comité et au BIML de poursuivre l'étude de ce sujet et de continuer à renforcer la coopération avec le BIPM.
+        Les Etats Membres sont priés d'adresser leurs commentaires et propositions au BIML d'ici fin 2008 de sorte qu'un résumé de ces contributions puisse être discuté au Conseil de la Présidence en Mars 2009.
 - identifier:
   - prefix: Conference
     number: 2008/4b
   doi: 10.63493/resolutions/conf20084b
   urn: urn:oiml:doc:conf:resolution:13.4b
+  agenda_item: 4b
   dates:
   - date: '2008-10-29'
     type: decided
@@ -218,43 +190,37 @@ decisions:
     title: In order to better assist developing countries, the Conference considered
       it desirable that Publicat…
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'In order to better assist developing countries, the Conference considered
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: In order to better assist developing countries, the Conference considered
         it desirable that Publication D 1 Elements for a law on metrology be revised
         to take account of the latest developments in world trade, such as conformity
         assessment, certification and globalization. The Conference instructed the
         Committee to start a revision of Publication D 1.
-
-        '
-      date_effective:
-        date: '2008-10-29'
-        type: effective
   - language_code: fra
     title: Afin de mieux aider les pays en développement, la Conférence a considéré
       souhaitable que
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'Afin de mieux aider les pays en développement, la Conférence a considéré
-        souhaitable que la publication D 1 Eléments pour une Loi de Métrologie soit
-        révisée afin de prendre en compte les derniers développements dans le commerce
-        international, tels que l''évaluation de conformité, la certification et la
-        globalisation. La Conférence donne instruction au Comité d''entreprendre la
-        révision de la Publication D 1.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: 4b
+      message: Afin de mieux aider les pays en développement, la Conférence a considéré
+        souhaitable que la publication D 1 Eléments pour une Loi de Métrologie soit
+        révisée afin de prendre en compte les derniers développements dans le commerce
+        international, tels que l'évaluation de conformité, la certification et la
+        globalisation. La Conférence donne instruction au Comité d'entreprendre la
+        révision de la Publication D 1.
 - identifier:
   - prefix: Conference
     number: 2008/5
   doi: 10.63493/resolutions/conf200805
   urn: urn:oiml:doc:conf:resolution:13.05
+  agenda_item: '5'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -262,37 +228,31 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 5: Presentation of the Strategic Plan'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference sanctioned the following publications previously approved
-        by the Committee and made the recommendation that Member States use them as
-        the basis for their national regulations as far as possible:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'The Conference sanctioned the following publications previously approved
+        by the Committee and made the recommendation that Member States use them as
+        the basis for their national regulations as far as possible:'
   - language_code: fra
     title: 'Agenda Item 5: Presentation of the Strategic Plan'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence sanctionne les publications suivantes antérieurement
-        approuvées par le Comité et recommande aux Etats Membres de les utiliser dans
-        la mesure du possible, comme base de leurs réglementations nationales:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '5'
+      message: 'La Conférence sanctionne les publications suivantes antérieurement
+        approuvées par le Comité et recommande aux Etats Membres de les utiliser dans
+        la mesure du possible, comme base de leurs réglementations nationales:'
 - identifier:
   - prefix: Conference
     number: 2008/6
   doi: 10.63493/resolutions/conf200806
   urn: urn:oiml:doc:conf:resolution:13.06
+  agenda_item: '6'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -300,37 +260,31 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 6: Report on Developing Country issues'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference sanctioned the following publications and made the
-        recommendation that Member States use them as the basis for their national
-        regulations as far as possible:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'The Conference sanctioned the following publications and made the
+        recommendation that Member States use them as the basis for their national
+        regulations as far as possible:'
   - language_code: fra
     title: 'Agenda Item 6: Report on Developing Country issues'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence sanctionne les publications suivantes et recommande
-        aux Etats Membres de les utiliser dans la mesure du possible, comme base de
-        leurs réglementations nationales:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '6'
+      message: 'La Conférence sanctionne les publications suivantes et recommande
+        aux Etats Membres de les utiliser dans la mesure du possible, comme base de
+        leurs réglementations nationales:'
 - identifier:
   - prefix: Conference
     number: 2008/6a
   doi: 10.63493/resolutions/conf20086a
   urn: urn:oiml:doc:conf:resolution:13.6a
+  agenda_item: 6a
   dates:
   - date: '2008-10-29'
     type: decided
@@ -339,38 +293,34 @@ decisions:
     title: The Conference instructed the Committee to start the revision of these
       Publications.
     subject: OIML Conference
-    considerations: []
     actions:
     - type: instructs
-      message: 'The Conference instructed the Committee to start the revision of these
-        Publications.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference instructed the Committee to start the revision of these
+        Publications.
   - language_code: fra
     title: La Conférence prend note des commentaires émis par certains Etats Membres
       concernant la nécessité
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: |
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: |-
         La Conférence prend note des commentaires émis par certains Etats Membres concernant la nécessité de réviser aussi tôt que possible les Publications suivantes:
         R 71:2008 Reservoirs de stockage fixes. Prescriptions générales
         R 85:2008 Jaugeurs automatiques pour le mesurage des niveaux de liquide dans les réservoirs de stockage fixes
         R 139:2007 Ensembles de mesurage de gaz compressé pour vehicules
         La Conférence donne instruction au Comité de commencer la révision de ces Publications.
-      date_effective:
-        date: '2008-10-29'
-        type: effective
-  agenda_item: 6a
 - identifier:
   - prefix: Conference
     number: 2008/7
   doi: 10.63493/resolutions/conf200807
   urn: urn:oiml:doc:conf:resolution:13.07
+  agenda_item: '7'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -378,33 +328,27 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 7: Financial issues'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference sanctioned the withdrawal of the following publications:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'The Conference sanctioned the withdrawal of the following publications:'
   - language_code: fra
     title: 'Agenda Item 7: Financial issues'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence sanctionne le retrait des Publications suivantes:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '7'
+      message: 'La Conférence sanctionne le retrait des Publications suivantes:'
 - identifier:
   - prefix: Conference
     number: 2008/8
   doi: 10.63493/resolutions/conf200808
   urn: urn:oiml:doc:conf:resolution:13.08
+  agenda_item: '8'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -412,37 +356,31 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 8: Membership'
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference made the encouragement to Member States to actively
-        participate in the development and revision of OIML mutual acceptance and
-        recognition systems with a view to making them acceptable in their countries.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference made the encouragement to Member States to actively
+        participate in the development and revision of OIML mutual acceptance and
+        recognition systems with a view to making them acceptable in their countries.
   - language_code: fra
     title: 'Agenda Item 8: Membership'
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence encourage les Etats Membres à participer activement
-        au développement et à la révision des systèmes OIML d''acceptation et de reconnaissance
-        mutuelles en vue de les mettre en œuvre dans leurs pays.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '8'
+      message: La Conférence encourage les Etats Membres à participer activement au
+        développement et à la révision des systèmes OIML d'acceptation et de reconnaissance
+        mutuelles en vue de les mettre en œuvre dans leurs pays.
 - identifier:
   - prefix: Conference
     number: 2008/9
   doi: 10.63493/resolutions/conf200809
   urn: urn:oiml:doc:conf:resolution:13.09
+  agenda_item: '9'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -451,40 +389,34 @@ decisions:
     title: The Conference made the encouragement to Member States to participate in
       existing OIML mutual
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference made the encouragement to Member States to participate
-        in existing OIML mutual acceptance and recognition systems and to actively
-        promote them to all concerned parties such as manufacturers and users of measuring
-        instruments.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference made the encouragement to Member States to participate
+        in existing OIML mutual acceptance and recognition systems and to actively
+        promote them to all concerned parties such as manufacturers and users of measuring
+        instruments.
   - language_code: fra
     title: La Conférence encourage les Etats Membres à participer aux systèmes existants
       d'acceptation et de
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence encourage les Etats Membres à participer aux systèmes
-        existants d''acceptation et de reconnaissance mutuels et à les promouvoir
-        activement auprès de toutes les parties concernées telles que les fabricants
-        et les utilisateurs d''instruments de mesure.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '9'
+      message: La Conférence encourage les Etats Membres à participer aux systèmes
+        existants d'acceptation et de reconnaissance mutuels et à les promouvoir activement
+        auprès de toutes les parties concernées telles que les fabricants et les utilisateurs
+        d'instruments de mesure.
 - identifier:
   - prefix: Conference
     number: 2008/10
   doi: 10.63493/resolutions/conf200810
   urn: urn:oiml:doc:conf:resolution:13.10
+  agenda_item: '10'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -493,41 +425,35 @@ decisions:
     title: The Conference approved the Strategic Plan and instructed the Committee
       to implement it and
     subject: OIML Conference
-    considerations: []
     actions:
     - type: approves
-      message: 'The Conference approved the Strategic Plan and instructed the Committee
-        to implement it and to report on the progress in its implementation at the
-        14th Conference. It requested the Committee to take account of the comments
-        made by the Conference for the update of this plan.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference approved the Strategic Plan and instructed the Committee
+        to implement it and to report on the progress in its implementation at the
+        14th Conference. It requested the Committee to take account of the comments
+        made by the Conference for the update of this plan.
   - language_code: fra
     title: La Conférence approuve le Plan Stratégique et donne instruction au Comité
       de le mettre
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: approves
-      message: 'La Conférence approuve le Plan Stratégique et donne instruction au
-        Comité de le mettre en oeuvre et de rendre compte sur le progrès de sa mise
-        en œuvre lors de la 14ème Conférence. Elle demande au Comité qu''il prenne
-        en compte les remarques faites par la Conférence pour la mise à jour de ce
-        plan.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '10'
+      message: La Conférence approuve le Plan Stratégique et donne instruction au
+        Comité de le mettre en oeuvre et de rendre compte sur le progrès de sa mise
+        en œuvre lors de la 14ème Conférence. Elle demande au Comité qu'il prenne
+        en compte les remarques faites par la Conférence pour la mise à jour de ce
+        plan.
 - identifier:
   - prefix: Conference
     number: 2008/11
   doi: 10.63493/resolutions/conf200811
   urn: urn:oiml:doc:conf:resolution:13.11
+  agenda_item: '11'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -536,38 +462,32 @@ decisions:
     title: The Conference dissolved the Permanent Working Group on Developing Countries
       and thanked its members
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference dissolved the Permanent Working Group on Developing
-        Countries and thanked its members for their valuable advice and contribution
-        to the OIML''s work on developing countries.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference dissolved the Permanent Working Group on Developing
+        Countries and thanked its members for their valuable advice and contribution
+        to the OIML's work on developing countries.
   - language_code: fra
     title: La Conférence dissout le Groupe de Travail Permanent sur les Pays en Développement
       et
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence dissout le Groupe de Travail Permanent sur les Pays
-        en Développement et remercie ses membres pour leurs conseils et contributions
-        aux travaux de l''OIML sur les Pays en Développement.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '11'
+      message: La Conférence dissout le Groupe de Travail Permanent sur les Pays en
+        Développement et remercie ses membres pour leurs conseils et contributions
+        aux travaux de l'OIML sur les Pays en Développement.
 - identifier:
   - prefix: Conference
     number: 2008/12
   doi: 10.63493/resolutions/conf200812
   urn: urn:oiml:doc:conf:resolution:13.12
+  agenda_item: '12'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -576,40 +496,34 @@ decisions:
     title: The Conference established the unsalaried position of "Facilitator on developing
       country matters", r…
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The Conference established the unsalaried position of "Facilitator
-        on developing country matters", responsible to the CIML President and asked
-        the BIML to provide such support, within its budget, as may be necessary to
-        this Facilitator.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The Conference established the unsalaried position of "Facilitator
+        on developing country matters", responsible to the CIML President and asked
+        the BIML to provide such support, within its budget, as may be necessary to
+        this Facilitator.
   - language_code: fra
     title: La Conférence établit le poste bénévole de "Facilitateur pour les questions
       de Pays en
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La Conférence établit le poste bénévole de "Facilitateur pour les
-        questions de Pays en Développement", sous la responsabilité du Président du
-        Comité, et demande au BIML de fournir le soutien nécessaire à ce Facilitateur,
-        dans la mesure de son budget.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '12'
+      message: La Conférence établit le poste bénévole de "Facilitateur pour les questions
+        de Pays en Développement", sous la responsabilité du Président du Comité,
+        et demande au BIML de fournir le soutien nécessaire à ce Facilitateur, dans
+        la mesure de son budget.
 - identifier:
   - prefix: Conference
     number: 2008/13
   doi: 10.63493/resolutions/conf200813
   urn: urn:oiml:doc:conf:resolution:13.13
+  agenda_item: '13'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -619,63 +533,55 @@ decisions:
     subject: OIML Conference
     considerations:
     - type: noting
-      message: 'NOTING that the budget was managed in conformity with the expenses
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: NOTING that the budget was managed in conformity with the expenses
         necessary for carrying out the work of the Bureau and that the accuracy of
         the report has been certified by annual audits;
-
-        '
+    - type: noting
       date_effective:
         date: '2008-10-29'
         type: effective
-    - type: noting
-      message: |
+      message: |-
         NOTING that the respective functions assigned by the Convention to the President of the International Committee of Legal Metrology and to the Director of the International Bureau of Legal Metrology have been fulfilled;
         GAVE ITS DEFINITIVE DISCHARGE to the President of the Committee and to the Director of the Bureau for their management of the budget during the years mentioned above.
-      date_effective:
-        date: '2008-10-29'
-        type: effective
     actions:
     - type: notes
-      message: 'The International Conference of Legal Metrology,
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: The International Conference of Legal Metrology,
   - language_code: fra
     title: La Conférence Internationale de Métrologie Légale
     subject: Conférence OIML
     considerations:
     - type: noting
-      message: 'NOTANT que le budget a été géré conformément aux dépenses nécessaires
-        pour mener à bien les tâches du Bureau, et que l''exactitude des rapports
-        a été certifiée par des audits annuels;
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: NOTANT que le budget a été géré conformément aux dépenses nécessaires
+        pour mener à bien les tâches du Bureau, et que l'exactitude des rapports a
+        été certifiée par des audits annuels;
     - type: noting
-      message: |
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: |-
         NOTANT que les fonctions respectives assignées par la Convention au Président du Comité International de Métrologie Légale et au Directeur du Bureau International de Métrologie Légale ont été remplies;
         DONNE SA DÉCHARGE DÉFINITIVE au Président du Comité et au Directeur du Bureau pour leur gestion du budget durant les exercices comptables mentionnés ci-dessus.
-      date_effective:
-        date: '2008-10-29'
-        type: effective
     actions:
     - type: notes
-      message: 'La Conférence Internationale de Métrologie Légale,
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '13'
+      message: La Conférence Internationale de Métrologie Légale,
 - identifier:
   - prefix: Conference
     number: 2008/14
   doi: 10.63493/resolutions/conf200814
   urn: urn:oiml:doc:conf:resolution:13.14
+  agenda_item: '14'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -684,36 +590,30 @@ decisions:
     title: The base contributory share for Member States for the financial period
       2009-2012 shall be
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The base contributory share for Member States for the financial period
-        2009-2012 shall be as follows:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'The base contributory share for Member States for the financial period
+        2009-2012 shall be as follows:'
   - language_code: fra
     title: La part contributive de base des Etats Membres pour la période financière
       2009-2012 sera
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'La part contributive de base des Etats Membres pour la période financière
-        2009-2012 sera la suivante:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '14'
+      message: 'La part contributive de base des Etats Membres pour la période financière
+        2009-2012 sera la suivante:'
 - identifier:
   - prefix: Conference
     number: 2008/15
   doi: 10.63493/resolutions/conf200815
   urn: urn:oiml:doc:conf:resolution:13.15
+  agenda_item: '15'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -722,36 +622,30 @@ decisions:
     title: Corresponding Member fees for the financial period 2009-2012 shall be as
       follows
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'Corresponding Member fees for the financial period 2009-2012 shall
-        be as follows:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'Corresponding Member fees for the financial period 2009-2012 shall
+        be as follows:'
   - language_code: fra
     title: Les droits de Membre Correspondant pour la période financière 2009-2012
       seront les suivants
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'Les droits de Membre Correspondant pour la période financière 2009-2012
-        seront les suivants:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '15'
+      message: 'Les droits de Membre Correspondant pour la période financière 2009-2012
+        seront les suivants:'
 - identifier:
   - prefix: Conference
     number: 2008/16
   doi: 10.63493/resolutions/conf200816
   urn: urn:oiml:doc:conf:resolution:13.16
+  agenda_item: '16'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -760,36 +654,30 @@ decisions:
     title: The tariffs of the other OIML products or services for the financial period
       2009-2012
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'The tariffs of the other OIML products or services for the financial
-        period 2009-2012 shall be as follows:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'The tariffs of the other OIML products or services for the financial
+        period 2009-2012 shall be as follows:'
   - language_code: fra
     title: Les tarifs des autres produits ou services de l'OIML pendant la période
       financière 2009-2012
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'Les tarifs des autres produits ou services de l''OIML pendant la période
-        financière 2009-2012 seront les suivants:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '16'
+      message: 'Les tarifs des autres produits ou services de l''OIML pendant la période
+        financière 2009-2012 seront les suivants:'
 - identifier:
   - prefix: Conference
     number: 2008/17
   doi: 10.63493/resolutions/conf200817
   urn: urn:oiml:doc:conf:resolution:13.17
+  agenda_item: '17'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -798,42 +686,36 @@ decisions:
     title: Should the economic conditions result in a critical financial situation
       for the OIML and
     subject: OIML Conference
-    considerations: []
     actions:
     - type: notes
-      message: 'Should the economic conditions result in a critical financial situation
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: Should the economic conditions result in a critical financial situation
         for the OIML and after having taken all necessary measures to reduce costs,
         the President of the Committee shall report on the measures taken and may
         propose that the Committee asks Member States for an exceptional voluntary
         additional contribution.
-
-        '
-      date_effective:
-        date: '2008-10-29'
-        type: effective
   - language_code: fra
     title: Dans l'éventualité où les conditions économiques engendreraient une situation
       financière critique po…
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: notes
-      message: 'Dans l''éventualité où les conditions économiques engendreraient une
-        situation financière critique pour l''OIML, le Président du Comité devra rendre
-        compte des mesures prises et pourra proposer que le Comité demande aux Etats
-        Membres une contribution volontaire additionnelle exceptionnelle, après avoir
-        pris au préalable toutes les mesures nécessaires pour réduire les coûts.
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '17'
+      message: Dans l'éventualité où les conditions économiques engendreraient une
+        situation financière critique pour l'OIML, le Président du Comité devra rendre
+        compte des mesures prises et pourra proposer que le Comité demande aux Etats
+        Membres une contribution volontaire additionnelle exceptionnelle, après avoir
+        pris au préalable toutes les mesures nécessaires pour réduire les coûts.
 - identifier:
   - prefix: Conference
     number: 2008/18
   doi: 10.63493/resolutions/conf200818
   urn: urn:oiml:doc:conf:resolution:13.18
+  agenda_item: '18'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -844,54 +726,50 @@ decisions:
     subject: OIML Conference
     considerations:
     - type: considering
-      message: |
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: |-
         Considering that the provisions of IPSAS (International Public Sector Accounting Standards) concerning pensions are not yet defined, the Conference instructed the CIML President:
         to appoint an expert specialized in international public sector accountancy as the OIML external auditor;
         - to elaborate with this expert the appropriate amendments to be made to the OIML Financial Regulations, in particular regarding pensions; and
         - with the support of this expert, to take the appropriate provisional decisions concerning the OIML accountancy and the OIML Pension System.
-      date_effective:
-        date: '2008-10-29'
-        type: effective
     actions:
     - type: notes
-      message: 'Considering that the provisions of IPSAS (International Public Sector
-        Accounting Standards) concerning pensions are not yet defined, the Conference
-        instructed the CIML President:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: 'Considering that the provisions of IPSAS (International Public Sector
+        Accounting Standards) concerning pensions are not yet defined, the Conference
+        instructed the CIML President:'
   - language_code: fra
     title: Considérant que les dispositions des normes IPSAS (normes comptables internationales
       pour le secteur…
     subject: Conférence OIML
     considerations:
     - type: considering
-      message: |
+      date_effective:
+        date: '2008-10-29'
+        type: effective
+      message: |-
         Considérant que les dispositions des normes IPSAS (normes comptables internationales pour le secteur public) concernant les retraites, ne sont pas encore définies, la Conférence donne instruction au Président du CIML:
         - de nommer un expert spécialisé dans la comptabilité du secteur public international en tant qu'auditeur externe de l'OIML,
         - d'élaborer avec cet expert les amendements nécessaires à apporter au Règlement Financier de l'OIML, plus particulièrement pour les retraites, et
         - avec le soutien de cet expert, de prendre les décisions provisoires appropriées concernant la comptabilité et le système de retraite de l'OIML.
-      date_effective:
-        date: '2008-10-29'
-        type: effective
     actions:
     - type: notes
-      message: 'Considérant que les dispositions des normes IPSAS (normes comptables
-        internationales pour le secteur public) concernant les retraites, ne sont
-        pas encore définies, la Conférence donne instruction au Président du CIML:
-
-        '
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '18'
+      message: 'Considérant que les dispositions des normes IPSAS (normes comptables
+        internationales pour le secteur public) concernant les retraites, ne sont
+        pas encore définies, la Conférence donne instruction au Président du CIML:'
 - identifier:
   - prefix: Conference
     number: 2008/19
   doi: 10.63493/resolutions/conf200819
   urn: urn:oiml:doc:conf:resolution:13.19
+  agenda_item: '19'
   dates:
   - date: '2008-10-29'
     type: decided
@@ -900,26 +778,23 @@ decisions:
     title: The Conference instructed the Committee to elaborate a procedure to implement
       Article XXIX, second
     subject: OIML Conference
-    considerations: []
     actions:
     - type: instructs
-      message: |
-        The Conference instructed the Committee to elaborate a procedure to implement Article XXIX, second paragraph, of the Convention, related to resignation and readmission of Members to be submitted to the next Conference.
-        The Conference granted Cameroon a delay of six months to make the payment of a significant part of its arrears.
       date_effective:
         date: '2008-10-29'
         type: effective
+      message: |-
+        The Conference instructed the Committee to elaborate a procedure to implement Article XXIX, second paragraph, of the Convention, related to resignation and readmission of Members to be submitted to the next Conference.
+        The Conference granted Cameroon a delay of six months to make the payment of a significant part of its arrears.
   - language_code: fra
     title: La Conférence a donné instruction au Comité d'élaborer une procédure de
       mise en oeuvre
     subject: Conférence OIML
-    considerations: []
     actions:
     - type: instructs
-      message: |
-        La Conférence a donné instruction au Comité d'élaborer une procédure de mise en oeuvre du second paragraphe de l'Article XXIX de la Convention, relatif à la radiation et à la réadmission des Membres, afin de la soumettre à la prochaine Conférence.
-        La Conférence a accordé au Cameroun un délai de six mois pour procéder au paiement d'une partie significative de ses arriérés.
       date_effective:
         date: '2008-10-29'
         type: effective
-  agenda_item: '19'
+      message: |-
+        La Conférence a donné instruction au Comité d'élaborer une procédure de mise en oeuvre du second paragraphe de l'Article XXIX de la Convention, relatif à la radiation et à la réadmission des Membres, afin de la soumettre à la prochaine Conférence.
+        La Conférence a accordé au Cameroun un délai de six mois pour procéder au paiement d'une partie significative de ses arriérés.

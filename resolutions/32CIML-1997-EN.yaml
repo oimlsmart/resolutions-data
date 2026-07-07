@@ -1,17 +1,16 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
 # Auto-generated from reference-docs/ocr/md/32CIML-1997-EN.md by scripts/author_yaml.rb
 # Source PDF: reference-docs/ciml/32CIML-1997-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:32CIML-1997-EN
+# Meeting URN: urn:oiml:ciml:meeting:ciml-32
 # Language: en
 ---
 metadata:
-  title: 32nd CIML Meeting — Minutes (EN, Bulletin)
-  source: OIML CIML Secretariat (BIML)
-  city: BRRIO
-  country_code: BR
   title_localized:
   - language_code: eng
     title: 32nd CIML Meeting — Minutes (EN, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: BRRIO
+  country_code: BR
   meeting_urn: urn:oiml:ciml:meeting:ciml-32
 decisions:
 - identifier:
@@ -19,6 +18,7 @@ decisions:
     number: 1997/1
   doi: 10.63493/resolutions/ciml199701
   urn: urn:oiml:doc:ciml:resolution:1997-01
+  agenda_item: '1'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -26,124 +26,108 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 1: APPROVAL OF THE MINUTES OF THE $ 31^{\mathrm{ST}} $ CIML
       MEETING'
-    considerations: []
     actions:
     - type: notes
-      message: 'The minutes of the 31 $ ^{st} $ CIML meeting were approved without
-        comment.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '1'
+      message: The minutes of the 31 $ ^{st} $ CIML meeting were approved without
+        comment.
 - identifier:
   - prefix: CIML
     number: 1997/2
   doi: 10.63493/resolutions/ciml199702
   urn: urn:oiml:doc:ciml:resolution:1997-02
+  agenda_item: '2'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2: MEMBER STATES AND CORRESPONDING MEMBERS'
-    considerations: []
-    actions: []
-  agenda_item: '2'
 - identifier:
   - prefix: CIML
     number: 1997/2.1
   doi: 10.63493/resolutions/ciml19972.1
   urn: urn:oiml:doc:ciml:resolution:1997-2.1
+  agenda_item: '2.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2.1: New Members - Expected accessions'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of information from the Bureau concerning
-        new (Argentina, Bosnia and Herzegovina, Estonia and Ukraine) and expected
-        (South Africa and possibly some other) accessions.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '2.1'
+      message: The Committee took note of information from the Bureau concerning new
+        (Argentina, Bosnia and Herzegovina, Estonia and Ukraine) and expected (South
+        Africa and possibly some other) accessions.
 - identifier:
   - prefix: CIML
     number: 1997/2.2
   doi: 10.63493/resolutions/ciml19972.2
   urn: urn:oiml:doc:ciml:resolution:1997-2.2
+  agenda_item: '2.2'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 2.2: Situation of certain Members'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of information from the Bureau concerning
-        the situation of certain Member States which were late in the payment of their
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee took note of information from the Bureau concerning the
+        situation of certain Member States which were late in the payment of their
         contributions to the OIML; the Committee expressed its satisfaction for the
         fact that, at this time, the unpaid contributions of these Member States remained
         within acceptable limits. However, it urged them to do their utmost to pay
         their arrears as soon as possible. The Committee also took note of the fact
         that Burkina Faso had been delisted as a Corresponding Member for not having
         paid their annual subscriptions for more than four years.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
-  agenda_item: '2.2'
 - identifier:
   - prefix: CIML
     number: 1997/3
   doi: 10.63493/resolutions/ciml199703
   urn: urn:oiml:doc:ciml:resolution:1997-03
+  agenda_item: '3'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 3: FINANCIAL MATTERS'
-    considerations: []
-    actions: []
-  agenda_item: '3'
 - identifier:
   - prefix: CIML
     number: 1997/3.1
   doi: 10.63493/resolutions/ciml19973.1
   urn: urn:oiml:doc:ciml:resolution:1997-3.1
+  agenda_item: '3.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 3.1: Adoption of the auditor''s report for 1996'
-    considerations: []
     actions:
     - type: approves
-      message: 'The Committee approved the auditor''s report for 1996 and requested
-        its President and the Director of the Bureau to submit it to the Eleventh
-        Conference.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '3.1'
+      message: The Committee approved the auditor's report for 1996 and requested
+        its President and the Director of the Bureau to submit it to the Eleventh
+        Conference.
 - identifier:
   - prefix: CIML
     number: 1997/3.2
   doi: 10.63493/resolutions/ciml19973.2
   urn: urn:oiml:doc:ciml:resolution:1997-3.2
+  agenda_item: '3.2'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -151,26 +135,23 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 3.2: Examination of the financial situation for 1997 and estimates
       for 1998'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning the present
-        financial situation of the Organization which was quite satisfactory although
-        it could be expected that, for specific reasons, 1997 expenses would exceed
-        the budget voted by the Tenth Conference. The Committee also expressed its
-        satisfaction for the fact that Member States'' 1998 contributions will practically
-        not increase compared to 1996 and 1997.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '3.2'
+      message: The Committee took note of a report by the Bureau concerning the present
+        financial situation of the Organization which was quite satisfactory although
+        it could be expected that, for specific reasons, 1997 expenses would exceed
+        the budget voted by the Tenth Conference. The Committee also expressed its
+        satisfaction for the fact that Member States' 1998 contributions will practically
+        not increase compared to 1996 and 1997.
 - identifier:
   - prefix: CIML
     number: 1997/4
   doi: 10.63493/resolutions/ciml199704
   urn: urn:oiml:doc:ciml:resolution:1997-04
+  agenda_item: '4'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -178,45 +159,39 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 4: GENERAL INFORMATION CONCERNING THE IMPLEMENTATION OF DECISIONS
       MADE AT THE TENTH CONFERENCE'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of general information from the Bureau concerning
-        the progress made in the implementation of these decisions.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '4'
+      message: The Committee took note of general information from the Bureau concerning
+        the progress made in the implementation of these decisions.
 - identifier:
   - prefix: CIML
     number: 1997/4.1
   doi: 10.63493/resolutions/ciml19974.1
   urn: urn:oiml:doc:ciml:resolution:1997-4.1
+  agenda_item: '4.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 4.1: The OIML long-term policy and the Birkeland study'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note with deep interest of information delivered
-        by its Immediate Past President concerning the progress made in a study on
-        "Conditions and potential of
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '4.1'
+      message: The Committee took note with deep interest of information delivered
+        by its Immediate Past President concerning the progress made in a study on
+        "Conditions and potential of
 - identifier:
   - prefix: CIML
     number: 1997/5
   doi: 10.63493/resolutions/ciml199705
   urn: urn:oiml:doc:ciml:resolution:1997-05
+  agenda_item: '5'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -224,144 +199,125 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 5: ACTIVITIES LINKED WITH ACCREDITATION AND ESTABLISHMENT
       OF MUTUAL CONFIDENCE REGARDING LEGAL METROLOGY ACTIVITIES WITHIN THE OIML MEMBERS'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by Vice-President Chappell concerning
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee took note of a report by Vice-President Chappell concerning
         the activity of the working group on accreditation established following the
         Tenth Conference. The Committee also took note of comments and proposals from
         certain participants, and in general endorsed the objectives and work program
         of the working group chaired by Mr. Chappell.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
-  agenda_item: '5'
 - identifier:
   - prefix: CIML
     number: 1997/6
   doi: 10.63493/resolutions/ciml199706
   urn: urn:oiml:doc:ciml:resolution:1997-06
+  agenda_item: '6'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6: TECHNICAL COMMITTEES AND SUBCOMMITTEES'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by Vice-President Chappell concerning
-        the general situation of the OIML technical committees and subcommittees and
-        agreed that a small working group should be set up in order to reexamine the
-        OIML technical program and redefine priorities.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '6'
+      message: The Committee took note of a report by Vice-President Chappell concerning
+        the general situation of the OIML technical committees and subcommittees and
+        agreed that a small working group should be set up in order to reexamine the
+        OIML technical program and redefine priorities.
 - identifier:
   - prefix: CIML
     number: 1997/6.1
   doi: 10.63493/resolutions/ciml19976.1
   urn: urn:oiml:doc:ciml:resolution:1997-6.1
+  agenda_item: '6.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 6.1: Examination of the situation of certain TCs/SCs'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee agreed with a proposal from Germany and the Bureau to
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee agreed with a proposal from Germany and the Bureau to
         withdraw R 46 on electricity meters from the list of available publications
         owing to divergences with the relevant IEC International Standard, and requested
         TC 12 to start the revision of R 46 as soon as possible.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
     - type: notes
-      message: 'The Committee also took note of proposals and comments from:
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '6.1'
+      message: 'The Committee also took note of proposals and comments from:'
 - identifier:
   - prefix: CIML
     number: 1997/7
   doi: 10.63493/resolutions/ciml199707
   urn: urn:oiml:doc:ciml:resolution:1997-07
+  agenda_item: '7'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 7: APPROVAL OF INTERNATIONAL RECOMMENDATIONS'
-    considerations: []
     actions:
     - type: notes
-      message: 'Vice-President Chappell indicated that the five draft Recommendations
-        which were submitted for approval by the Committee had all been the subject
-        of very serious studies by the secretariats and members of the working groups
-        concerned, but that improvements
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '7'
+      message: Vice-President Chappell indicated that the five draft Recommendations
+        which were submitted for approval by the Committee had all been the subject
+        of very serious studies by the secretariats and members of the working groups
+        concerned, but that improvements
 - identifier:
   - prefix: CIML
     number: 1997/8
   doi: 10.63493/resolutions/ciml199708
   urn: urn:oiml:doc:ciml:resolution:1997-08
+  agenda_item: '8'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 8: OIML CERTIFICATE SYSTEM'
-    considerations: []
-    actions: []
-  agenda_item: '8'
 - identifier:
   - prefix: CIML
     number: 1997/8.1
   doi: 10.63493/resolutions/ciml19978.1
   urn: urn:oiml:doc:ciml:resolution:1997-8.1
+  agenda_item: '8.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 8.1: General information regarding the operation of the System'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report concerning the present situation
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee took note of a report concerning the present situation
         of the System. It was suggested that CIML Members and the BIML should do their
         utmost to inform manufacturers and other interested parties about the existence
         of the System and the "added value" which may result from OIML certificates,
         in particular in fields where measuring instruments are usually not subject
         to regulations.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
-  agenda_item: '8.1'
 - identifier:
   - prefix: CIML
     number: 1997/8.2
   doi: 10.63493/resolutions/ciml19978.2
   urn: urn:oiml:doc:ciml:resolution:1997-8.2
+  agenda_item: '8.2'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -369,84 +325,73 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 8.2: Revision of the paper governing the operation of the
       System'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning the revision
-        of the paper governing the operation of the System, as a result of both the
-        discussions within the TAG $ _{cert} $ and the experience gained from five
-        years'' operation of the System.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '8.2'
+      message: The Committee took note of a report by the Bureau concerning the revision
+        of the paper governing the operation of the System, as a result of both the
+        discussions within the TAG $ _{cert} $ and the experience gained from five
+        years' operation of the System.
 - identifier:
   - prefix: CIML
     number: 1997/8.3
   doi: 10.63493/resolutions/ciml19978.3
   urn: urn:oiml:doc:ciml:resolution:1997-8.3
+  agenda_item: '8.3'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 8.3: New Recommendations applicable within the System'
-    considerations: []
     actions:
     - type: decides
-      message: 'The Committee decided that the two Recommendations on level gauges
-        and evidential breath analyzers would become applicable within the System
-        as soon as published.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '8.3'
+      message: The Committee decided that the two Recommendations on level gauges
+        and evidential breath analyzers would become applicable within the System
+        as soon as published.
 - identifier:
   - prefix: CIML
     number: 1997/9
   doi: 10.63493/resolutions/ciml199709
   urn: urn:oiml:doc:ciml:resolution:1997-09
+  agenda_item: '9'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9: LIAISONS WITH OTHER INTERNATIONAL OR REGIONAL INSTITUTIONS'
-    considerations: []
-    actions: []
-  agenda_item: '9'
 - identifier:
   - prefix: CIML
     number: 1997/9.1
   doi: 10.63493/resolutions/ciml19979.1
   urn: urn:oiml:doc:ciml:resolution:1997-9.1
+  agenda_item: '9.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9.1: BIPM/OIML rapprochement and liaisons with ILAC'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by President Faber concerning
-        the last BIPM/OIML joint meeting held in February 1997, during a part of which
-        ILAC also participated.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '9.1'
+      message: The Committee took note of a report by President Faber concerning the
+        last BIPM/OIML joint meeting held in February 1997, during a part of which
+        ILAC also participated.
 - identifier:
   - prefix: CIML
     number: 1997/9.2
   doi: 10.63493/resolutions/ciml19979.2
   urn: urn:oiml:doc:ciml:resolution:1997-9.2
+  agenda_item: '9.2'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -454,104 +399,89 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 9.2: Cooperation within the recently established JCGM (Joint
       Committee for Guides on Metrology), successor to ISO/TAG 4'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of information from the Bureau concerning
-        the establishment of this Joint Committee and concluded that the proposed
-        Charter was generally acceptable although, as pointed out by Messrs. Chappell
-        and Birch, certain aspects concerning for example the participation of OIML
-        in the JCGM working groups and the revision of the VIM should be clarified.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '9.2'
+      message: The Committee took note of information from the Bureau concerning the
+        establishment of this Joint Committee and concluded that the proposed Charter
+        was generally acceptable although, as pointed out by Messrs. Chappell and
+        Birch, certain aspects concerning for example the participation of OIML in
+        the JCGM working groups and the revision of the VIM should be clarified.
 - identifier:
   - prefix: CIML
     number: 1997/9.3
   doi: 10.63493/resolutions/ciml19979.3
   urn: urn:oiml:doc:ciml:resolution:1997-9.3
+  agenda_item: '9.3'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9.3: World Trade Organization'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning the initial
-        contacts between OIML and the WTO, including the fact that the Bureau had
-        applied for the status of observer to be granted to OIML by the WTO.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '9.3'
+      message: The Committee took note of a report by the Bureau concerning the initial
+        contacts between OIML and the WTO, including the fact that the Bureau had
+        applied for the status of observer to be granted to OIML by the WTO.
 - identifier:
   - prefix: CIML
     number: 1997/9.4
   doi: 10.63493/resolutions/ciml19979.4
   urn: urn:oiml:doc:ciml:resolution:1997-9.4
+  agenda_item: '9.4'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 9.4: Other liaisons (see also Item 10.2)'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by Vice-President Kochsiek concerning
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee took note of a report by Vice-President Kochsiek concerning
         the signature of a memorandum of cooperation between the Sistema Interamericano
         de Metrologia (SIM) and the OIML.
-
-        '
+    - type: notes
       date_effective:
         date: '1997-10-29'
         type: effective
-    - type: notes
-      message: 'The Committee also took note of a report by Mr. Ramirez concerning
+      message: The Committee also took note of a report by Mr. Ramirez concerning
         Cuban activities for assisting certain Latin American countries in developing
         their metrological infrastructures and in training their technical staff.
-
-        '
+    - type: notes
       date_effective:
         date: '1997-10-29'
         type: effective
-    - type: notes
-      message: 'The Committee received views and proposals from Mr. Birch on behalf
+      message: The Committee received views and proposals from Mr. Birch on behalf
         of the APLMF, with a view to developing and formalizing cooperation between
         the OIML and regional legal metrology bodies and increasing the participation
         of Corresponding Members in certain OIML activities.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
-  agenda_item: '9.4'
 - identifier:
   - prefix: CIML
     number: 1997/10
   doi: 10.63493/resolutions/ciml199710
   urn: urn:oiml:doc:ciml:resolution:1997-10
+  agenda_item: '10'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 10: DEVELOPING COUNTRIES'
-    considerations: []
-    actions: []
-  agenda_item: '10'
 - identifier:
   - prefix: CIML
     number: 1997/10.1
   doi: 10.63493/resolutions/ciml199710.1
   urn: urn:oiml:doc:ciml:resolution:1997-10.1
+  agenda_item: '10.1'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -559,25 +489,22 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 10.1: Information regarding the Development Council meeting
       of $ 2 9^{\mathrm{th}} $ October 1997'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee received a written report and additional information
-        concerning this matter from Vice-President Kochsiek. The Committee endorsed
-        Vice-President Kochsiek''s views concerning the activities of the Development
-        Council for the forthcoming year and expressed its appreciation for the fact
-        he has accepted to act as Chairman of the Council until the next meeting.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '10.1'
+      message: The Committee received a written report and additional information
+        concerning this matter from Vice-President Kochsiek. The Committee endorsed
+        Vice-President Kochsiek's views concerning the activities of the Development
+        Council for the forthcoming year and expressed its appreciation for the fact
+        he has accepted to act as Chairman of the Council until the next meeting.
 - identifier:
   - prefix: CIML
     number: 1997/10.2
   doi: 10.63493/resolutions/ciml199710.2
   urn: urn:oiml:doc:ciml:resolution:1997-10.2
+  agenda_item: '10.2'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -585,131 +512,117 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 10.2: Planning of an international Seminar to be held in Germany
       in cooperation with the BIPM, IMEKO and PTB'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of information from Vice-President Kochsiek
-        and from the Bureau and accepted the Bureau''s proposals concerning OIML participation
-        in the organization of this Seminar.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '10.2'
+      message: The Committee took note of information from Vice-President Kochsiek
+        and from the Bureau and accepted the Bureau's proposals concerning OIML participation
+        in the organization of this Seminar.
 - identifier:
   - prefix: CIML
     number: 1997/11
   doi: 10.63493/resolutions/ciml199711
   urn: urn:oiml:doc:ciml:resolution:1997-11
+  agenda_item: '11'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11: BIML STAFF'
-    considerations: []
-    actions: []
-  agenda_item: '11'
 - identifier:
   - prefix: CIML
     number: 1997/11.1
   doi: 10.63493/resolutions/ciml199711.1
   urn: urn:oiml:doc:ciml:resolution:1997-11.1
+  agenda_item: '11.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11.1: General situation'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning the general
-        situation of BIML staff.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '11.1'
+      message: The Committee took note of a report by the Bureau concerning the general
+        situation of BIML staff.
 - identifier:
   - prefix: CIML
     number: 1997/11.2
   doi: 10.63493/resolutions/ciml199711.2
   urn: urn:oiml:doc:ciml:resolution:1997-11.2
+  agenda_item: '11.2'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 11.2: Appointment of an Assistant Director'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee appointed Ms. Nathalie Dupuis-Desormeaux as Assistant
-        Director, who will take up duty as soon as possible after 1 $ ^{st} $ January
-        1998.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '11.2'
+      message: The Committee appointed Ms. Nathalie Dupuis-Desormeaux as Assistant
+        Director, who will take up duty as soon as possible after 1 $ ^{st} $ January
+        1998.
 - identifier:
   - prefix: CIML
     number: 1997/12
   doi: 10.63493/resolutions/ciml199712
   urn: urn:oiml:doc:ciml:resolution:1997-12
+  agenda_item: '12'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 12: REPORT ON BIML ACTIVITIES'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning BIML
-        activities since its last meeting and expressed its satisfaction for the work
-        accomplished, in particular for initiatives taken in certain new fields (Internet,
-        communication, etc.). It requested its President to set up a working group
-        in order to assist the Bureau in these new tasks.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '12'
+      message: The Committee took note of a report by the Bureau concerning BIML activities
+        since its last meeting and expressed its satisfaction for the work accomplished,
+        in particular for initiatives taken in certain new fields (Internet, communication,
+        etc.). It requested its President to set up a working group in order to assist
+        the Bureau in these new tasks.
 - identifier:
   - prefix: CIML
     number: 1997/13
   doi: 10.63493/resolutions/ciml199713
   urn: urn:oiml:doc:ciml:resolution:1997-13
+  agenda_item: '13'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 13: OTHER MATTERS'
-    considerations: []
-    actions: []
-  agenda_item: '13'
 - identifier:
   - prefix: CIML
     number: 1997/13.1
   doi: 10.63493/resolutions/ciml199713.1
   urn: urn:oiml:doc:ciml:resolution:1997-13.1
+  agenda_item: '13.1'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 13.1: OIML Bulletin'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning the OIML
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee took note of a report by the Bureau concerning the OIML
         Bulletin and reaffirmed the essential role of the Bulletin as a liaison and
         communication tool among OIML Members and indeed all those worldwide who have
         an interest in legal metrology activities. Therefore, the Committee urged
@@ -718,17 +631,12 @@ decisions:
         announcements of metrological events, new books on metrology, etc., for publication
         in the Bulletin. The Committee also requested its President to examine the
         opportunity of establishing a working group to assist the Bureau in this respect.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
-  agenda_item: '13.1'
 - identifier:
   - prefix: CIML
     number: 1997/13.2
   doi: 10.63493/resolutions/ciml199713.2
   urn: urn:oiml:doc:ciml:resolution:1997-13.2
+  agenda_item: '13.2'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -736,40 +644,35 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 13.2: OIML on Internet (general information, meetings and
       proceedings, OIML certificates, OIML publications, etc.)'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of a report by the Bureau concerning the possibility
+      date_effective:
+        date: '1997-10-29'
+        type: effective
+      message: The Committee took note of a report by the Bureau concerning the possibility
         of making information on OIML available through Internet and encouraged the
         Bureau to work in this direction. Concerning the availability on Internet
         of OIML International Recommendations and Documents and related juridical
         and economic aspects, the Committee requested its President to set up a working
         group in order to assist the Bureau in this respect.
-
-        '
-      date_effective:
-        date: '1997-10-29'
-        type: effective
-  agenda_item: '13.2'
 - identifier:
   - prefix: CIML
     number: 1997/14
   doi: 10.63493/resolutions/ciml199714
   urn: urn:oiml:doc:ciml:resolution:1997-14
+  agenda_item: '14'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 14: FUTURE MEETINGS'
-    considerations: []
-    actions: []
-  agenda_item: '14'
 - identifier:
   - prefix: CIML
     number: 1997/14.1
   doi: 10.63493/resolutions/ciml199714.1
   urn: urn:oiml:doc:ciml:resolution:1997-14.1
+  agenda_item: '14.1'
   dates:
   - date: '1997-10-29'
     type: decided
@@ -777,65 +680,54 @@ decisions:
   - language_code: eng
     title: 'Agenda Item 14.1: $ 3 3^{\mathrm{r d}} $ and $ 3 4^{\mathrm{t h}} $ meetings
       of the CIML'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of information given by the Delegation of
-        the Republic of Korea concerning the preparations for the $ 33^{rd} $ CIML
-        meeting and expressed its satisfaction. The Committee noted that this meeting
-        will be held during the week following the ILAC meeting in Sydney, and that
-        an APLMF meeting and possibly other OIML meetings or workshops will be organized
-        in conjunction it.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '14.1'
+      message: The Committee took note of information given by the Delegation of the
+        Republic of Korea concerning the preparations for the $ 33^{rd} $ CIML meeting
+        and expressed its satisfaction. The Committee noted that this meeting will
+        be held during the week following the ILAC meeting in Sydney, and that an
+        APLMF meeting and possibly other OIML meetings or workshops will be organized
+        in conjunction it.
 - identifier:
   - prefix: CIML
     number: 1997/14.2
   doi: 10.63493/resolutions/ciml199714.2
   urn: urn:oiml:doc:ciml:resolution:1997-14.2
+  agenda_item: '14.2'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 14.2: Eleventh Conference'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee noted that the Eleventh Conference might be held in
-        the year 2000 in Paris, a final decision having to be made within one or two
-        years.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '14.2'
+      message: The Committee noted that the Eleventh Conference might be held in the
+        year 2000 in Paris, a final decision having to be made within one or two years.
 - identifier:
   - prefix: CIML
     number: 1997/15
   doi: 10.63493/resolutions/ciml199715
   urn: urn:oiml:doc:ciml:resolution:1997-15
+  agenda_item: '15'
   dates:
   - date: '1997-10-29'
     type: decided
   localizations:
   - language_code: eng
     title: 'Agenda Item 15: CLOSURE'
-    considerations: []
     actions:
     - type: notes
-      message: 'The Committee took note of closing remarks by Mr. J.C.C. Bueno, President
-        of INMETRO, and Mr. G.J. Faber, President of the CIML, and expressed its deep
-        appreciation to INMETRO, to Mr. R.L. de Lima Guimarães, CIML Member for Brazil,
-        and to all other persons involved for their perfect organization of the meeting.
-
-        '
       date_effective:
         date: '1997-10-29'
         type: effective
-  agenda_item: '15'
+      message: The Committee took note of closing remarks by Mr. J.C.C. Bueno, President
+        of INMETRO, and Mr. G.J. Faber, President of the CIML, and expressed its deep
+        appreciation to INMETRO, to Mr. R.L. de Lima Guimarães, CIML Member for Brazil,
+        and to all other persons involved for their perfect organization of the meeting.

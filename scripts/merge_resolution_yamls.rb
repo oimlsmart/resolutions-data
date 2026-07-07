@@ -1,9 +1,9 @@
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Merge per-language resolution YAMLs into one Edoxen-shaped YAML per
-# meeting, with each resolution carrying parallel `localizations[]`
-# entries (eng + fra when both are available).
+# Merge per-language decision YAMLs (v2 edoxen format) into one
+# DecisionCollection YAML per meeting, with each decision carrying
+# parallel `localizations[]` entries (eng + fra when both available).
 #
 # Input (one YAML per (meeting, language)):
 #   resolutions/ciml-44-resolutions-en.yaml
@@ -17,8 +17,8 @@
 #           title: "44th CIML Meeting — Resolutions (EN)"
 #         - language_code: fra
 #           title: "44e réunion du CIML — Résolutions (FR)"
-#     resolutions:
-#       - identifier: CIML/2009/1
+#     decisions:
+#       - identifier: [{prefix: CIML, number: 2009/1}]
 #         urn: ...
 #         doi: ...
 #         localizations:
@@ -47,16 +47,12 @@ def split_collection_slug(filename)
   if base =~ /\A(.*)-(en|fr)\z/
     [$1, $2 == "en" ? "eng" : "fra"]
   else
-    # Single-language Bulletin files (e.g. 15CIML-1976-FR) — keep the
-    # filename as the slug; language is derived from the FR/EN suffix
-    # that's already part of the slug, not a separate -en/-fr tail.
     [base, nil]
   end
 end
 
 def lang_for_collection(slug, lang_suffix)
   return lang_suffix if lang_suffix
-  # Bulletin-style slug like 15CIML-1976-FR or 17CIML-1980-EN.
   case slug
   when /-FR\z/ then "fra"
   when /-EN\z/ then "eng"
@@ -64,15 +60,8 @@ def lang_for_collection(slug, lang_suffix)
   end
 end
 
-# Group files by collection slug. Each collection may have one or two
-# language files.
 files = Dir.glob(File.join(DIR, "*.yaml")).reject { |p| File.basename(p).start_with?("_") }
 
-# Partition files into:
-#   per_lang: filenames ending in -en/-fr (these are input to the merge)
-#   already_merged: filenames WITHOUT the -en/-fr suffix (either a
-#     prior merge output, or a single-language Bulletin file like
-#     15CIML-1976-FR whose slug's trailing -FR is the document language)
 per_lang_files = []
 already_merged_files = []
 files.each do |path|
@@ -84,7 +73,6 @@ files.each do |path|
   end
 end
 
-# Group per-lang files by collection slug.
 by_collection = Hash.new { |h, k| h[k] = { files: [], langs: [] } }
 per_lang_files.each do |path|
   slug, lang_suffix = split_collection_slug(path)
@@ -95,46 +83,41 @@ end
 
 merged_count = 0
 
-# First: convert already-merged single-lang files to the localizations[]
-# shape if they haven't been already. Idempotent.
+# Already-merged single-lang files: ensure they carry localizations[].
+# Idempotent — no-op if the data is already in the localizations shape.
 already_merged_files.each do |path|
   raw = File.read(path)
   parts = raw.split(/^---\s*$/, 3)
   next if parts.size < 2
 
   preamble = parts[0].to_s
-  body = parts[1]
-  data = YAML.safe_load(body, permitted_classes: [Date, Time, DateTime]) || {}
+  data = YAML.safe_load(parts[1], permitted_classes: [Date, Time, DateTime]) || {}
 
-  meta = data["metadata"] ||= {}
-  unless meta["title_localized"]
-    title_loc = []
-    if meta["title"]
-      lang_code = lang_for_collection(File.basename(path, ".yaml"), nil)
-      title_loc << { "language_code" => lang_code, "title" => meta["title"] }
-    end
-    meta["title_localized"] = title_loc if title_loc.any?
-  end
+  decisions = data["decisions"] || data["resolutions"] || []
+  next if decisions.empty?
 
-  res_list = data["resolutions"] || []
   lang_code = lang_for_collection(File.basename(path, ".yaml"), nil)
-  res_list.each do |res|
+  needs_migration = decisions.any? { |d| !d["localizations"] || d["localizations"].empty? }
+  next unless needs_migration
+
+  decisions.each do |res|
     next if res["localizations"]&.any?
-    loc = {
-      "language_code" => lang_code,
-      "title" => res.delete("title"),
-    }
+    loc = { "language_code" => lang_code }
+    loc["title"] = res.delete("title") if res["title"]
     loc["subject"] = res.delete("subject") if res["subject"]
-    loc["considerations"] = res.delete("considerations") if res["considerations"]
-    loc["actions"] = res.delete("actions") if res["actions"]
-    loc["approvals"] = res.delete("approvals") if res["approvals"]
+    loc["considerations"] = res.delete("considerations") || []
+    loc["actions"] = res.delete("actions") || []
+    loc["approvals"] = res.delete("approvals") || []
     res["localizations"] = [loc]
   end
+
+  data["decisions"] = decisions
+  data.delete("resolutions")
 
   File.write(path, "#{preamble}---\n#{YAML.dump(data).sub(/\A---\s*\n/, "")}")
 end
 
-# Then: merge per-lang files into one collection per slug.
+# Merge per-lang files into one collection per slug.
 by_collection.each do |slug, info|
   parsed = info[:files].map do |path|
     raw = File.read(path)
@@ -143,42 +126,38 @@ by_collection.each do |slug, info|
     [path, data]
   end
 
-  # Build a merged metadata block: take the first file's metadata as
-  # the base, replace `title` with `title_localized[]`.
   base_path, base_data = parsed.first
   base_meta = base_data["metadata"] || {}
-  merged_meta = base_meta.reject { |k, _| k == "title" }
+  merged_meta = base_meta.dup
   title_loc = parsed.map do |(path, data)|
     meta = data["metadata"] || {}
     slug_for_lang, lang_suffix = split_collection_slug(path)
     lang_code = lang_for_collection(slug_for_lang, lang_suffix)
-    { "language_code" => lang_code, "title" => meta["title"] || "" }
+    { "language_code" => lang_code, "title" => (meta["title_localized"] && meta["title_localized"].first && meta["title_localized"].first["title"]) || meta["title"] || "" }
   end
   merged_meta["title_localized"] = title_loc
+  merged_meta.delete("title")
 
-  # Index resolutions by identifier for each language.
+  # Index decisions by identifier for each language.
   by_lang = {}
   parsed.each do |(path, data)|
     slug_for_lang, lang_suffix = split_collection_slug(path)
     lang_code = lang_for_collection(slug_for_lang, lang_suffix)
     by_lang[lang_code] = {}
-    (data["resolutions"] || []).each do |res|
-      # identifier in our YAMLs is a string ("CIML/2009/1"), not the
-      # schema's StructuredIdentifier array.
-      key = res["identifier"].is_a?(Array) \
-        ? res["identifier"].map { |i| i["id"] || i }.join("/")
-        : res["identifier"].to_s
+    decisions = data["decisions"] || data["resolutions"] || []
+    decisions.each do |res|
+      ident = res["identifier"]
+      key = ident.is_a?(Array) \
+        ? ident.map { |i| i.is_a?(Hash) ? "#{i['prefix']}/#{i['number']}" : i.to_s }.join(" / ")
+        : ident.to_s
       key = res["urn"] || key if key.empty?
       by_lang[lang_code][key] = res
     end
   end
 
-  # Union of all identifiers across languages.
   all_keys = by_lang.values.map(&:keys).flatten.uniq
 
-  merged_resolutions = all_keys.map do |key|
-    # Pick the first language's record as the base for language-agnostic
-    # fields (identifier, doi, urn, dates, agenda_item).
+  merged_decisions = all_keys.map do |key|
     base_res = nil
     localizations = []
     by_lang.each do |lang_code, hash|
@@ -187,37 +166,34 @@ by_collection.each do |slug, info|
 
       unless base_res
         base_res = res.dup
-        base_res.delete("title")
-        base_res.delete("subject")
-        base_res.delete("considerations")
-        base_res.delete("actions")
-        base_res.delete("approvals")
+        base_res.delete("localizations")
       end
 
-      loc = { "language_code" => lang_code }
-      loc["title"] = res["title"] if res["title"]
-      loc["subject"] = res["subject"] if res["subject"]
-      loc["considerations"] = res["considerations"] if res["considerations"]
-      loc["actions"] = res["actions"] if res["actions"]
-      loc["approvals"] = res["approvals"] if res["approvals"]
+      loc = res["localizations"]&.find { |l| l["language_code"] == lang_code }
+      unless loc
+        loc = { "language_code" => lang_code }
+        loc["title"] = res["title"] if res["title"]
+        loc["subject"] = res["subject"] if res["subject"]
+        loc["considerations"] = res["considerations"] || []
+        loc["actions"] = res["actions"] || []
+        loc["approvals"] = res["approvals"] || []
+      end
       localizations << loc
     end
     next unless base_res
 
-    # Preserve original identifier order (eng before fra where possible).
     ordered_locs = localizations.sort_by { |l| l["language_code"] == "eng" ? 0 : 1 }
     base_res["localizations"] = ordered_locs
     base_res
   end.compact
 
-  # Sort resolutions by their identifier when possible.
-  merged_resolutions.sort_by! do |res|
-    s = res["identifier"].is_a?(Array) \
-      ? res["identifier"].map { |i| i["id"] || i }.join("/")
-      : res["identifier"].to_s
-    # CIML/2009/1 → [2009, 1]; CIML/2009/9.2 → [2009, 9.2]
-    if s =~ %r{\A(?:CIML|Conference)/(\d+)/(.+)\z}
-      [$1.to_i, $2.split(".").map { |x| x.to_i }]
+  merged_decisions.sort_by! do |res|
+    ident = res["identifier"]
+    s = ident.is_a?(Array) \
+      ? ident.map { |i| i.is_a?(Hash) ? "#{i['prefix']}/#{i['number']}" : i.to_s }.join("/")
+      : ident.to_s
+    if s =~ %r{\A(?:CIML|Conference|DC)/(\d+)/(.+)\z}
+      [$1.to_i, $2.split(".").map { |x| x.to_f }]
     else
       [9999, [s]]
     end
@@ -225,18 +201,17 @@ by_collection.each do |slug, info|
 
   merged = {
     "metadata" => merged_meta,
-    "resolutions" => merged_resolutions,
+    "decisions" => merged_decisions,
   }
 
   out_path = File.join(DIR, "#{slug}.yaml")
   preamble = "---\n# Merged by scripts/merge_resolution_yamls.rb from:\n#   #{info[:files].map { |p| File.basename(p) }.join(', ')}\n"
   File.write(out_path, preamble + YAML.dump(merged).sub(/\A---\s*\n/, ""))
 
-  # Delete the per-language source files.
   info[:files].each { |p| File.delete(p) if File.exist?(p) && p != out_path }
 
   merged_count += 1
-  puts "  merged → #{slug}.yaml (#{merged_resolutions.size} resolutions)"
+  puts "  merged → #{slug}.yaml (#{merged_decisions.size} decisions)"
 end
 
 puts "Merged into #{merged_count} YAML file(s)."

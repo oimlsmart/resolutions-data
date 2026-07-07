@@ -14,6 +14,9 @@
 require "yaml"
 require "fileutils"
 require "digest"
+require "edoxen"
+$LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
+require "oiml/resolutions_data"
 
 module ResolutionsData
   module Author
@@ -901,89 +904,113 @@ module ResolutionsData
       seq.to_s
     end
 
+    # Render the full DecisionCollection YAML for one language. Uses
+    # Oiml::ResolutionsData::DecisionCollectionBuilder so the output is
+    # a proper Edoxen model instance, serialized via the gem. The
+    # legacy v1 emitter (render_resolution / render_action_like /
+    # yaml_escape / inline dates_yaml) is gone — every decision carries
+    # one Localization keyed to `lang`, and the downstream merge step
+    # (merge_resolution_yamls.rb) folds the per-language files into the
+    # final localizations[] shape.
     def self.render_collection(src, out_slug, lang, resolutions)
       kind     = src["kind"]
-      number   = src["kind"] == "ciml" ? src["meeting"] : src["session"]
-      body     = src["kind"] == "ciml" ? "CIML Meeting" : "OIML Conference"
-      urn_kind = src["kind"] == "ciml" ? "ciml" : "conference"
+      number   = (src["kind"] == "ciml") ? src["meeting"] : src["session"]
+      body     = (src["kind"] == "ciml") ? "CIML Meeting" : "OIML Conference"
+      urn_kind = (src["kind"] == "ciml") ? "ciml" : "conference"
       if src["lang"] == "bilingual"
         ord = number_to_ordinal(number, lang)
-        title = lang == :fr ? "Résolutions #{ord} #{body} (#{src['year']})" : "Resolutions of the #{ord} #{body} (#{src['year']})"
+        title = (lang == :fr) ? "Résolutions #{ord} #{body} (#{src['year']})" : "Resolutions of the #{ord} #{body} (#{src['year']})"
       else
         title = src["title"].to_s
       end
-      venue = src["venue"]
+
+      # meeting_urn references the canonical meeting slug (ciml-44 /
+      # conference-12 / dc-1-2004), not the per-file slug which can
+      # carry a -decisions-en / -resolutions-fr suffix.
+      canonical_slug = src["kind"] == "ciml" ? "ciml-#{number}" : "conference-#{number}"
+      meeting_urn = "urn:oiml:#{urn_kind}:meeting:#{canonical_slug}"
+      lang_code = (lang == :fr) ? "fra" : "eng"
+
+      # v2 schema requires city to be a UN/LOCODE pattern (e.g. "DEBER")
+      # and country_code to be ISO 3166-1 alpha-2. Older manifest entries
+      # carry city names ("Berlin") instead of codes; skip those rather
+      # than fail validation. The meeting YAML carries the canonical codes.
+      metadata = {
+        "source"       => "OIML #{kind == 'ciml' ? 'CIML' : 'Conference'} Secretariat (BIML)",
+        "meeting_urn"  => meeting_urn,
+        "title_localized" => [{
+          "language_code" => lang_code,
+          "title"         => title,
+        }],
+      }
+      city_code = src["city"].to_s
+      country = src["country_code"].to_s
+      metadata["city"] = city_code if city_code =~ /\A[A-Z]{2}[A-Z0-9]{3}\z/
+      metadata["country_code"] = country if country =~ /\A[A-Z]{2}\z/
+      builder = Oiml::ResolutionsData::DecisionCollectionBuilder.new(metadata: metadata)
 
       date_start = src["date_start"] || "#{src['year']}-01-01"
-      date_end   = src["date_end"]   || date_start
-      dates_yaml = if date_start == date_end
-        "  dates:\n  - start: '#{date_start}'\n    kind: meeting"
-      else
-        "  dates:\n  - start: '#{date_start}'\n    end: '#{date_end}'\n    kind: meeting"
-      end
+      resolutions.each { |r| builder.add_decision(**decision_kwargs(r, lang_code, date_start)) }
 
-      <<~YAML
-        # yaml-language-server: $schema=#{SCHEMA_URL}
-        # Auto-generated from reference-docs/ocr/md/#{src['slug']}.md by scripts/author_yaml.rb
-        # Source PDF: #{source_pdf_path(src)}
-        # Meeting URN: urn:oiml:#{urn_kind}:meeting:#{out_slug}
-        # Language: #{lang}
-        ---
-        metadata:
-          title: #{yaml_escape(title)}
-        #{dates_yaml}
-          source: OIML #{kind == 'ciml' ? 'CIML' : 'Conference'} Secretariat (BIML)
-          venue: #{yaml_escape(venue)}
-          city: #{yaml_escape(src['city'].to_s)}
-          country_code: #{yaml_escape(src['country_code'].to_s)}
-          language: #{lang}
-        resolutions:
-      YAML
-        .concat(resolutions.map { |r| render_resolution(r) }.join("\n"))
+      header = [
+        "# yaml-language-server: $schema=#{SCHEMA_URL}",
+        "# Auto-generated from reference-docs/ocr/md/#{src['slug']}.md by scripts/author_yaml.rb",
+        "# Source PDF: #{source_pdf_path(src)}",
+        "# Meeting URN: #{meeting_urn}",
+        "# Language: #{lang}",
+      ].join("\n")
+      yaml = builder.to_yaml.sub(/\A---\s*\n/, "").lstrip
+      "#{header}\n---\n#{yaml}"
     end
 
-    def self.render_resolution(r)
-      indent = "  "
-      lines = []
-      lines << "#{indent}- identifier: #{yaml_escape(r['identifier'])}"
-      lines << "#{indent}  doi: #{yaml_escape(r['doi'])}" if r["doi"]
-      lines << "#{indent}  urn: #{yaml_escape(r['urn'])}" if r["urn"]
-      lines << "#{indent}  subject: #{yaml_escape(r['subject'])}"
-      lines << "#{indent}  title: #{yaml_escape(r['title'])}"
-      lines << "#{indent}  dates:"
-      r["dates"].each do |d|
-        lines << "#{indent}  - start: '#{d['start']}'"
-        lines << "#{indent}    kind: #{d['kind']}"
+    # Convert one parsed resolution hash into the kwargs shape that
+    # DecisionCollectionBuilder#add_decision expects.
+    def self.decision_kwargs(r, lang_code, default_date)
+      identifier = Oiml::ResolutionsData::IdentifierParser.parse(r["identifier"])
+      prefix = identifier ? identifier.prefix : "CIML"
+      number = identifier ? identifier.number : r["identifier"]
+
+      agenda_label = identifier ? identifier.agenda_label : nil
+
+      decision_dates = (r["dates"] || []).map do |d|
+        { "date" => d["start"], "type" => d["kind"] == "decision" ? "decided" : (d["kind"] || "decided") }
       end
-      lines << "#{indent}  agenda_item: '#{r['agenda_item']}'" if r["agenda_item"]
-      if r["considerations"].any?
-        lines << "#{indent}  considerations:"
-        r["considerations"].each { |c| lines << render_action_like(c, indent + "  ") }
-      else
-        lines << "#{indent}  considerations: []"
-      end
-      if r["actions"].any?
-        lines << "#{indent}  actions:"
-        r["actions"].each { |a| lines << render_action_like(a, indent + "  ") }
-      else
-        lines << "#{indent}  actions: []"
-      end
-      lines.join("\n")
+      decision_dates = [{ "date" => default_date, "type" => "decided" }] if decision_dates.empty?
+
+      actions = (r["actions"] || []).map { |a| action_hash(a) }
+      considerations = (r["considerations"] || []).map { |c| action_hash(c) }
+
+      {
+        identifier: [{ "prefix" => prefix, "number" => number }],
+        doi: r["doi"],
+        urn: r["urn"],
+        agenda_item: agenda_label,
+        dates: decision_dates,
+        localizations: [{
+          "language_code" => lang_code,
+          "title" => r["title"],
+          "subject" => r["subject"],
+          "considerations" => considerations,
+          "actions" => actions,
+          "approvals" => [],
+        }],
+      }
     end
 
-    def self.render_action_like(entry, indent)
-      out = []
-      out << "#{indent}- type: #{entry['type']}"
-      out << "#{indent}  message: |"
-      entry["message"].to_s.split("\n").each do |line|
-        out << "#{indent}    #{line}"
+    # Convert one parsed action/consideration hash into the shape the
+    # builder expects. The v1 parser carried `dates: [{start, kind}]`;
+    # v2 collapses that to a single `date_effective: {date, type}`.
+    # If the parser didn't classify a type (common for considerations
+    # in older PDFs), default to a valid enum value.
+    def self.action_hash(entry)
+      h = { "type" => entry["type"] || "considering", "message" => entry["message"] }
+      if entry["dates"] && entry["dates"].any?
+        d = entry["dates"].first
+        kind = d["kind"]
+        kind = "decided" if kind == "decision"
+        h["date_effective"] = { "date" => d["start"], "type" => kind || "effective" }
       end
-      out << "#{indent}  dates:"
-      entry["dates"].each do |d|
-        out << "#{indent}  - start: '#{d['start']}'"
-        out << "#{indent}    kind: #{d['kind']}"
-      end
-      out.join("\n")
+      h
     end
 
     def self.source_pdf_path(src)
@@ -1007,13 +1034,6 @@ module ResolutionsData
               end
         "#{n}#{suf}"
       end
-    end
-
-    def self.yaml_escape(s)
-      s = s.to_s
-      # Quote if it contains special chars
-      return s if s =~ /\A[A-Za-z0-9 _\-\/\.\(\)']+\.?\z/ && !(s =~ /\A\d/)
-      s.inspect.gsub(/\A"|"\z/, '"')
     end
   end
 end
