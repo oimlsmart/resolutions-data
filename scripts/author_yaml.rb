@@ -970,7 +970,11 @@ module ResolutionsData
       prefix = identifier ? identifier.prefix : "CIML"
       number = identifier ? identifier.number : r["identifier"]
 
-      agenda_label = identifier ? identifier.agenda_label : nil
+      # Prefer the parser's extracted agenda_item (from the resolution
+      # body text: "Agenda item 14.2"). Fall back to deriving it from
+      # the identifier number for resolutions where the body didn't
+      # carry an explicit agenda marker.
+      agenda_item = r["agenda_item"] || (identifier ? identifier.agenda_label : nil)
 
       decision_dates = (r["dates"] || []).map do |d|
         { "date" => d["start"], "type" => d["kind"] == "decision" ? "decided" : (d["kind"] || "decided") }
@@ -984,7 +988,7 @@ module ResolutionsData
         identifier: [{ "prefix" => prefix, "number" => number }],
         doi: r["doi"],
         urn: r["urn"],
-        agenda_item: agenda_label,
+        agenda_item: agenda_item,
         dates: decision_dates,
         localizations: [{
           "language_code" => lang_code,
