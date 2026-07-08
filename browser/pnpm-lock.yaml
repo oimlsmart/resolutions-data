@@ -11,15 +11,15 @@ importers:
       '@asciidoctor/core':
         specifier: ^3.0.4
         version: 3.0.4
+      '@edoxen/edoxen':
+        specifier: file:../../../edoxen/edoxen-js/packages/edoxen
+        version: file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0)
       '@edoxen/vue':
         specifier: file:../../../edoxen/edoxen-js/packages/edoxen-vue
-        version: file:../../../edoxen/edoxen-js/packages/edoxen-vue(edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0))(vue@3.5.39(typescript@5.9.3))
+        version: file:../../../edoxen/edoxen-js/packages/edoxen-vue(@edoxen/edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0))(vue@3.5.39(typescript@5.9.3))
       '@unhead/vue':
         specifier: ^3.1.4
         version: 3.1.7(esbuild@0.28.1)(lightningcss@1.32.0)(rollup@4.62.2)(typescript@5.9.3)(vite@6.4.3(@types/node@22.20.0)(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.48.0))(vue@3.5.39(typescript@5.9.3))
-      edoxen:
-        specifier: file:../../../edoxen/edoxen-js/packages/edoxen
-        version: file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0)
       flexsearch:
         specifier: ^0.7.31
         version: 0.7.43
@@ -176,10 +176,24 @@ packages:
     peerDependencies:
       devframe: 0.5.4
 
+  '@edoxen/edoxen@file:../../../edoxen/edoxen-js/packages/edoxen':
+    resolution: {directory: ../../../edoxen/edoxen-js/packages/edoxen, type: directory}
+    engines: {node: '>=20'}
+    hasBin: true
+    peerDependencies:
+      ajv: ^8.17.0
+      flexsearch: ^0.7.31
+      js-yaml: ^4.1.0
+    peerDependenciesMeta:
+      ajv:
+        optional: true
+      flexsearch:
+        optional: true
+
   '@edoxen/vue@file:../../../edoxen/edoxen-js/packages/edoxen-vue':
     resolution: {directory: ../../../edoxen/edoxen-js/packages/edoxen-vue, type: directory}
     peerDependencies:
-      edoxen: workspace:*
+      '@edoxen/edoxen': ^0.1.1
       vue: ^3.5
 
   '@emnapi/core@1.10.0':
@@ -1413,20 +1427,6 @@ packages:
     engines: {node: '>=14'}
     hasBin: true
 
-  edoxen@file:../../../edoxen/edoxen-js/packages/edoxen:
-    resolution: {directory: ../../../edoxen/edoxen-js/packages/edoxen, type: directory}
-    engines: {node: '>=20'}
-    hasBin: true
-    peerDependencies:
-      ajv: ^8.17.0
-      flexsearch: ^0.7.31
-      js-yaml: ^4.1.0
-    peerDependenciesMeta:
-      ajv:
-        optional: true
-      flexsearch:
-        optional: true
-
   emoji-regex@8.0.0:
     resolution: {integrity: sha512-MSjYzcWNOA0ewAHpz0MxpYFvwg6yjy1NG3xteoqz644VCo/RPgnr1/GGt+ic3iJTzQ8Eu3TdM14SawnVUmGE6A==}
 
@@ -2319,9 +2319,17 @@ snapshots:
       - vite
       - webpack
 
-  '@edoxen/vue@file:../../../edoxen/edoxen-js/packages/edoxen-vue(edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0))(vue@3.5.39(typescript@5.9.3))':
+  '@edoxen/edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0)':
     dependencies:
-      edoxen: file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0)
+      '@asciidoctor/core': 4.0.2
+      esbuild: 0.28.1
+      js-yaml: 4.3.0
+    optionalDependencies:
+      flexsearch: 0.7.43
+
+  '@edoxen/vue@file:../../../edoxen/edoxen-js/packages/edoxen-vue(@edoxen/edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0))(vue@3.5.39(typescript@5.9.3))':
+    dependencies:
+      '@edoxen/edoxen': file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0)
       vue: 3.5.39(typescript@5.9.3)
 
   '@emnapi/core@1.10.0':
@@ -3277,14 +3285,6 @@ snapshots:
       commander: 10.0.1
       minimatch: 9.0.9
       semver: 7.8.5
-
-  edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0):
-    dependencies:
-      '@asciidoctor/core': 4.0.2
-      esbuild: 0.28.1
-      js-yaml: 4.3.0
-    optionalDependencies:
-      flexsearch: 0.7.43
 
   emoji-regex@8.0.0: {}
 
