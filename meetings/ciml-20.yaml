@@ -10,23 +10,142 @@ date_range:
   start: '1984-10-01'
   end: '1984-10-05'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Helsinki, Finland
+general_area:
+- spelling: eng
+  value: Helsinki, Finland
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 20th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Helsinki, Finland
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '20'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROVAL OF THE REPORT ON THE 19th COMMITTEE MEETING
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROVAL OF THE ACCOUNTANT REPORT FOR 1983 AND OTHER FINANCIAL INFORMATION
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE DETAILED DRAFT REGULATIONS FOR THE OIML RETIREMENT
+        PLAN
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF PROPOSALS OF THE PRESIDENTIAL COUNCIL CONCERNING LONG-TERM
+        PLANNING OF OIML WORK, AND THE ROLE AND RESPONSIBILITIES OF CIML MEMBERS
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'SEVENTH CONFERENCE : ORGANIZATION OF THE MEETING, CHAIRMANSHIP, AGENDA'
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE SITUATION OF SOME SECRETARIATS
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP5 (volumes of liquids)
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP13 (electricity)
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Photometry and radiometry
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP 17-Sr 3 (radioactive pollution)
+    outcome: discussed
+  - label: '7.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP 2-Sr 4 (recognition of metrological controls)
+    outcome: discussed
+  - label: '7.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Suppression of certain Secretariats
+    outcome: discussed
+  - label: '7.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP 2-Sr 6 and SP 7-Sr 2
+    outcome: discussed
+  - label: '7.8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Recalibration intervals of measurement standards and standard devices
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: REPORT ON ACTIVITY OF BIML
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OTHER QUESTIONS
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Collaboration ARSO-OIML
+    outcome: discussed
+  - label: '10'
+    kind: closing
+    title:
+    - spelling: eng
+      value: DATE AND PLACE OF THE NEXT CIML MEETING
+    outcome: discussed
 country_code: FI
 city: FIHEL
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-20-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FIHEL
   country_code: FI
+title:
+- spelling: eng
+  value: 20th International Committee of Legal Metrology (CIML)

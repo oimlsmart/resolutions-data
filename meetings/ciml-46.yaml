@@ -10,35 +10,306 @@ date_range:
   start: '2011-10-11'
   end: '2011-10-14'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Prague, Czech Republic
+general_area:
+- spelling: eng
+  value: Prague, Czech Republic
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/46-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/46-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 46th CIML Meeting — Resolutions (EN)
-  general_area: Prague, Czech Republic
-- language_code: fra
-  script: Latn
-  title: 46e réunion du CIML — Résolutions (FR)
-  general_area: Prague, Czech Republic
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '46'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Addendum 0.4
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 11–14 October 2011, Prague, Czech Republic
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Changing of the President – Roll call – Approval of
+        the Agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 45th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General report
+    outcome: discussed
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Director’s report on BIML Staff matters
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML vote on the renewal of the contract of Willem Kool, BIML Assistant
+        Director
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Director’s comments on the 2010 accounts
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Director’s comments on the management audit
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML approval of the 2010 accounts
+    outcome: adopted
+  - label: '4.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Pension System
+    outcome: discussed
+  - label: '4.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML Translation Center
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New Member States and Corresponding Members and perspectives
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Outstanding arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing countries
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the Facilitator on Developing Country matters
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on Developing Countries
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentations by liaison organizations
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the Round Table with Regional Bodies
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on cooperation between the BIML and the BIPM
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Discussion of the future strategic direction of the OIML
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for information
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for approval
+    outcome: discussed
+  - label: '10.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certificate System, MAA, and other future Systems
+    outcome: discussed
+  - label: '10.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Conformity to Type (CTT)
+    outcome: discussed
+  - label: '10.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of the Directives for Technical Work
+    outcome: discussed
+  - label: '10.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Use of the VIM and the GUM in OIML technical publications
+    outcome: discussed
+  - label: '10.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The new SI and the impact on legal metrology
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preparations for the 13th Conference (2012)
+    outcome: discussed
+  - label: '12.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preparation of the 2013-2016 budget
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal to render the OIML Bulletin free of charge
+    outcome: discussed
+  - label: '13.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Terms of Reference for the Presidential Council
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML vote on Resolutions
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '15.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 2012 CIML Meeting and 14th OIML Conference
+    outcome: discussed
+  - label: '15.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 2013 CIML Meeting
+    outcome: discussed
 city: CZPRG
 country_code: CZ
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-46-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: CZPRG
   country_code: CZ
+title:
+- spelling: eng
+  value: 46th International Committee of Legal Metrology (CIML)

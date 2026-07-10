@@ -10,27 +10,97 @@ date_range:
   start: '2016-10-19'
   end: '2016-10-20'
 committee: International Conference of Legal Metrology
-general_area: Strasbourg, France
+general_area:
+- spelling: eng
+  value: Strasbourg, France
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/15-conf-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/conference/pdf/15-conf-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 15th OIML Conference — Resolutions (EN)
-  general_area: Strasbourg, France
-- language_code: fra
-  script: Latn
-  title: 15e Conférence OIML — Résolutions (FR)
-  general_area: Strasbourg, France
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: OIML Conference
+    number: '15'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Strasbourg, France – 19 and 20 October 2016
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Roll call – Approval of the agenda
+    outcome: adopted
+  - label: c
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the Conference President and Vice-Presidents
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 14th Conference
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the CIML (2013–2016)
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the BIML (2013–2016)
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the 2013–2016 financial period
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the accounts for 2012, 2013, 2014 and 2015
+    outcome: adopted
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Sanctioning of OIML publications
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States’ contributory classes and the base contributory share for
+        2017–2020
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget for the 2017–2020 financial period
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the situation of Member States in arrears
+    outcome: discussed
 city: FRSTR
 country_code: FR
 visibility: public
@@ -38,3 +108,6 @@ venues:
 - kind: physical
   unlocode: FRSTR
   country_code: FR
+title:
+- spelling: eng
+  value: 15th International Conference of Legal Metrology

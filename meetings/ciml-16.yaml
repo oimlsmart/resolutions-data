@@ -10,23 +10,98 @@ date_range:
   start: '1978-06-19'
   end: '1978-06-21'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Paris, France
+general_area:
+- spelling: eng
+  value: Paris, France
 source_urls: []
-localizations:
-- language_code: fra
-  script: Latn
-  title: 16th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Paris, France
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '16'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION DU COMPTE RENDU
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SITUATION GENERALE DE L'ORGANISATION
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SITUATION FINANCIERE
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PERSONNEL DU BUREAU
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SECRETARIATS PILOTES ET RAPPORTEURS
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MODE DE TRAVAIL DES SECRETARIATS DE L'OIML
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: TRAVAUX DES SECRETARIATS
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MARQUE OIML
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RELATIONS AVEC LES INSTITUTIONS INTERNATIONALES
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PAYS EN VOIE DE DEVELOPEMENT
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: AUTRES QUESTIONS
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PROCHAINES REUNIONS
+    outcome: discussed
 country_code: FR
 city: FRPAR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-16-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRPAR
   country_code: FR
+title:
+- spelling: eng
+  value: 16th International Committee of Legal Metrology (CIML)

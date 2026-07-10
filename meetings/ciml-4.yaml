@@ -6,13 +6,900 @@ urn: urn:oiml:ciml:meeting:ciml-4
 type: plenary
 status: completed
 ordinal: 4
-localizations:
-- language_code: fra
-  script: Latn
-  title: 4th CIML Meeting (skeleton from minutes)
-  general_area: ''
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-4-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
+title:
+- spelling: eng
+  value: 4th Meeting
+agenda:
+  identifier:
+  - prefix: CIML
+    number: '4'
+  status: final
+  items:
+  - label: '0'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Basic terms
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 48th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General report by the CIML President
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains Membres
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains Etats Membres
+    outcome: discussed
+  - label: '2.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member State contributions and arrears
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML matters
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on BIML activities
+    outcome: discussed
+  - label: 3.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapprochement with the BIPM
+    outcome: discussed
+  - label: 3.1.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other liaisons
+    outcome: discussed
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress with the new OIML website
+    outcome: discussed
+  - label: 3.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIPM
+    outcome: discussed
+  - label: 3.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ILAC/IAF
+    outcome: discussed
+  - label: 3.2.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: IEC
+    outcome: discussed
+  - label: 3.2.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CECIP
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML vote on the renewal of the contract of Willem Kool, BIML Assistant
+        Director
+    outcome: discussed
+  - label: '3.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: UNIDO
+    outcome: discussed
+  - label: '3.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Codex Alimentarius
+    outcome: discussed
+  - label: '3.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: WTO
+    outcome: discussed
+  - label: '3.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other organizations
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: 4 a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: "(Point additionnel) Rapport sur le Séminaire sur les Préemballages"
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on BIML activities
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress with the new OIML website
+    outcome: discussed
+  - label: 4.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preliminary item
+    outcome: discussed
+  - label: 4.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Candidacies for CIML Vice-President
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of OIML B 7 BIML Staff regulations
+    outcome: discussed
+  - label: '4.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of an Assistant Director
+    outcome: discussed
+  - label: '4.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML Translation Center
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the 2013 accounts
+    outcome: adopted
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Management of the Translation Center
+    outcome: discussed
+  - label: 5.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Request of Guinea for re-admission
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renovation of the BIML building
+    outcome: discussed
+  - label: '5.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Forecast budget realization 2014
+    outcome: discussed
+  - label: '5.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Outstanding arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '5.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RLMOs
+    outcome: discussed
+  - label: '5.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Others
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on developing countries matters
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities in liaison with other international organizations
+    outcome: discussed
+  - label: 6.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Directives for the Technical Work
+    outcome: discussed
+  - label: 6.1.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Working Groups
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Advisory group on countries and economies with emerging metrology systems
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Special project aimed at developing countries
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Modeling: Benefits of legal metrology'
+    outcome: discussed
+  - label: '6.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Outstanding arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '6.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for a special fund for developing countries
+    outcome: discussed
+  - label: '6.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Travel expenses for CIML Members of Honor and invited guests
+    outcome: discussed
+  - label: '6.8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Outstanding arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '6.9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the proposed budget for the 2013-2016 financial period
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the cooperation with the BIPM
+    outcome: discussed
+  - label: 7.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The WTO TBT Committee
+    outcome: discussed
+  - label: 7.1.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ISO and IEC
+    outcome: discussed
+  - label: 7.1.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ISO/DEVCO
+    outcome: discussed
+  - label: 7.1.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ISO/CASCO
+    outcome: discussed
+  - label: 7.1.5
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ISO/COPOLCO
+    outcome: discussed
+  - label: 7.1.6
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ILAC and the IAF
+    outcome: discussed
+  - label: 7.1.7
+    kind: numbered
+    title:
+    - spelling: eng
+      value: UNECE
+    outcome: discussed
+  - label: 7.1.8
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Codex Alimentarius
+    outcome: discussed
+  - label: 7.1.9
+    kind: numbered
+    title:
+    - spelling: eng
+      value: UNIDO
+    outcome: discussed
+  - label: 7.1.10
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DCMAS Network
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on liaison activities
+    outcome: discussed
+  - label: 7.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the BIPM (See Annex 1)
+    outcome: discussed
+  - label: 7.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ILAC/IAF presentation (See Annex 2)
+    outcome: discussed
+  - label: 7.2.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CECIP presentation (See Annex 3)
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Reports from / presentations by Liaison Organizations
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information regarding the RLMO Round Table
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Implementation of the revised B 6: Directives for OIML technical work'
+    outcome: discussed
+  - label: 8.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 8.1.3 Confirmation of publications
+    outcome: discussed
+  - label: 8.1.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'TC15/SC2: Update of publications'
+    outcome: discussed
+  - label: 8.1.5
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Training of TC/SC Secretariats
+    outcome: discussed
+  - label: 8.1.6
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML participation in the JCGM
+    outcome: discussed
+  - label: 8.1.7
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Seminar on Conformity to Type to be held in 2011
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for information
+    outcome: discussed
+  - label: 8.2 a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Système de Certificats OIML (nouveau point)
+    outcome: discussed
+  - label: 8.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New or revised publications
+    outcome: discussed
+  - label: 8.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New work items
+    outcome: discussed
+  - label: 8.2.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New Technical Committees/Subcommittees
+    outcome: discussed
+  - label: 8.2.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Allocation of Secretariats
+    outcome: discussed
+  - label: 8.2.5
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Withdrawal of a project
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for approval
+    outcome: adopted
+  - label: 8.3.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of Final Draft Recommendations and Documents
+    outcome: adopted
+  - label: 8.3.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Approval of a new project in TC 8/SC 3: Dynamic volume and mass measurement
+        (liquids other than water)'
+    outcome: adopted
+  - label: 8.3.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of a new project in TC 8/SC 7, Gas metering to revise R 140
+        Measuring systems for gaseous fuel
+    outcome: adopted
+  - label: 8.3.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: On behalf of the IEC by Mr. Denis Chew
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'OIML Systems: the Basic Certificate System'
+    outcome: discussed
+  - label: '8.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'OIML Systems: the MAA'
+    outcome: discussed
+  - label: '8.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Implementation of the revised B 6: Directives for OIML technical work'
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for information
+    outcome: discussed
+  - label: 9.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of OIML V1 International vocabulary of terms in legal metrology
+    outcome: discussed
+  - label: 9.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Status of TC 6 work project p1 OIML Certificate system for prepackages
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for approval
+    outcome: adopted
+  - label: 9.3.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of Final Draft Recommendations and Documents
+    outcome: adopted
+  - label: 9.3.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for a new project in TC4 Measurement standards and calibration
+        and verification devices
+    outcome: discussed
+  - label: 9.3.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for a new project in TC 6 Prepackaged products
+    outcome: discussed
+  - label: 9.3.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for a new project in OIML TC 1 Terminology
+    outcome: discussed
+  - label: 9.3.5
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for a new work project under TC 17/SC 7 Breath testers
+    outcome: discussed
+  - label: 9.3.6
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for combining or withdrawing projects
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'OIML Systems: the Basic Certificate System'
+    outcome: discussed
+  - label: 9.4.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Amendment to OIML B 10
+    outcome: discussed
+  - label: '9.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'OIML Systems: the MAA'
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the CIML Second Vice-President
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of the draft agenda for the 14th Conference
+    outcome: discussed
+  - label: 10.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of OIML R 100
+    outcome: discussed
+  - label: 10.1.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML R 35-3 (Test report format) Material measures of length for general
+        use
+    outcome: discussed
+  - label: 10.1.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Co-secretariats
+    outcome: discussed
+  - label: 10.1.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Certification system for quantity declaration in pre-packages
+    outcome: discussed
+  - label: 10.1.5
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information on the status of the revision of OIML D1 Law on Metrology
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nominations for the Presidency of the 14th Conference
+    outcome: discussed
+  - label: 10.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Draft Recommendation OIML R 35-2
+    outcome: discussed
+  - label: 10.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Draft Revision of OIML R 126 Evidential breath analyzers
+    outcome: discussed
+  - label: 10.2.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Draft Revision of OIML R 137-1 and OIML R 137-2 Gas meters
+    outcome: discussed
+  - label: 10.2.4
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Change of secretariat of TC 8 Measurement of quantities of fluids
+    outcome: discussed
+  - label: '10.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certificate System, MAA and other future Systems
+    outcome: discussed
+  - label: 10.3.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information on the operation of the OIML Certificate System and the MAA
+    outcome: discussed
+  - label: 10.3.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the revision of OIML B 3 and OIML B 10
+    outcome: adopted
+  - label: 10.3.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML TC 3/SC 5 proposal for a CIML Resolution on the acceptance of manufacturers'
+        test results within the MAA
+    outcome: discussed
+  - label: '10.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Conformity to Type (CTT)
+    outcome: discussed
+  - label: '10.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of the Directives for Technical Work
+    outcome: discussed
+  - label: '10.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Use of the VIM in OIML technical publications
+    outcome: discussed
+  - label: '10.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The new SI and the impact on legal metrology
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General
+    outcome: discussed
+  - label: 11.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of the Directives
+    outcome: discussed
+  - label: 11.1.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Training for TCs/SCs
+    outcome: discussed
+  - label: 11.1.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Smart Meters Seminar
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certificate System and the MAA
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Publications submitted to the CIML for approval
+    outcome: adopted
+  - label: '11.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: TC/SC items for information
+    outcome: discussed
+  - label: '11.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: TC/SC items for approval
+    outcome: adopted
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards
+    outcome: discussed
+  - label: '12.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML interpretation of the OIML Convention (OIML B1)-Article XVII - use
+        of the term "colleague"
+    outcome: discussed
+  - label: '12.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Term of the contract of the BIML Director
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 49th CIML Meeting (2014)
+    outcome: discussed
+  - label: '13.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 50th CIML Meeting (2015)
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of meeting resolutions
+    outcome: adopted
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 48th CIML Meeting (2013)
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 49th CIML Meeting (2014)
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Vote on meeting resolutions
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Closure
+    outcome: discussed
+  - label: '52'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Members were therefore present or represented. Mr. Kool reminded delegates
+        that:'
+    outcome: discussed

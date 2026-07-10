@@ -10,35 +10,118 @@ date_range:
   start: '2010-09-21'
   end: '2010-09-24'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Orlando, USA
+general_area:
+- spelling: eng
+  value: Orlando, USA
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/45-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/45-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 45th CIML Meeting — Resolutions (EN)
-  general_area: Orlando, USA
-- language_code: fra
-  script: Latn
-  title: 45e réunion du CIML — Résolutions (FR)
-  general_area: Orlando, USA
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '45'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 21–24 September 2010, Orlando (FL), USA
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Roll call – Approval of the Agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 44th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report of the CIML President
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML Presidency
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing countries
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Human resource matters
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards and other matters
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
 city: USORL
 country_code: US
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-45-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: USORL
   country_code: US
+title:
+- spelling: eng
+  value: 45th International Committee of Legal Metrology (CIML)

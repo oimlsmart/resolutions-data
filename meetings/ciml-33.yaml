@@ -10,23 +10,279 @@ date_range:
   start: '1998-10-28'
   end: '1998-10-30'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Seoul, Republic of Korea
+general_area:
+- spelling: eng
+  value: Seoul, Republic of Korea
 source_urls: []
-localizations:
-- language_code: fra
-  script: Latn
-  title: 33rd CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Seoul, Republic of Korea
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '33'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION DU CIML
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux membres - Adhésions attendues
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains Membres
+    outcome: discussed
+  - label: '2.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Propositions visant à accroître la participation des Membres Correspondants
+        à certaines activités de l'OIML
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: QUESTIONS FINANCIÈRES
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption du rapport comptable pour 1997
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation financiere pour 1998
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen des budgets pour 1999 et 2000
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: POLITIQUE À LONG TERME DE L'OIML
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations sur le Séminaire International le Rôle de la Métrologie
+        dans le Développement Économique et Social (Braunschweig, juin 1998) et son
+        éventuel impact sur la politique à long terme de l'OIML
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Le Rapport Birkeland
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PAYS EN DEVELOPEMENT
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations sur les résultats du Séminaire International de Braunschweig
+        et sur la réunion du Conseil de Développement de l'OIML tenue le 28 octobre
+        1998, et
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de propositions du Conseil de Développement
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIPM et ILAC
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: JCGM
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OMC
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS D'ESSAI, À
+        L'ACCRÉDITATION, etc.
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ACTIVITÉS TECHNIQUES
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains TC/SC
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation de Recommandations Internationales
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Disponibilité des Publications OIML sur papier, sur support électronique
+        et via Internet
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SYSTÈME DE CERTIFICATS OIML
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations sur le fonctionnement du Système
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Développements du Système
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouvelles Recommandations applicables au Système
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RAPPORT SUR LES ACTIVITÉS DU BIML
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: AUTRES QUESTIONS
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Vice-Président du CIML
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Directeur du BIML
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adjoint au Directeur du BIML
+    outcome: discussed
+  - label: '11.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Demandes de l'APLMF
+    outcome: discussed
+  - label: '11.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Séminaire technique
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: FUTURES RÉUNIONS
+    outcome: discussed
+  - label: '12.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 34ème Réunion du CIML (1999)
+    outcome: discussed
+  - label: '12.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 35ème Réunion du CIML et Onzième Conférence de l'OIML (2000)
+    outcome: discussed
+  - label: '12.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 36ème Réunion du CIML (2001)
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION DES DÉCISIONS
+    outcome: adopted
 country_code: KR
 city: KRSEL
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-33-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: KRSEL
   country_code: KR
+title:
+- spelling: eng
+  value: 33th International Committee of Legal Metrology (CIML)

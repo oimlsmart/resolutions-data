@@ -10,27 +10,117 @@ date_range:
   start: '2000-10-09'
   end: '2000-10-13'
 committee: International Committee of Legal Metrology (CIML)
-general_area: London, United Kingdom
+general_area:
+- spelling: eng
+  value: London, United Kingdom
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 35th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: London, United Kingdom
-- language_code: fra
-  script: Latn
-  title: 35th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: London, United Kingdom
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '35'
   status: final
+  items:
+  - label: '0'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nomination d'un Membre d'Honneur du Comité
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation du compte rendu de la 34ème Réunion du CIML
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: États Membres et Membres Correspondants
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Questions financières
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités du Conseil de la Présidence
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités du BIML
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités techniques
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Onzième Conférence Internationale de Métrologie Légale Ordre du jour
+        et programme
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Présidence du CIML
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Directeur du BIML
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Onzième Conférence Internationale de Métrologie Légale
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Futures réunions
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 36ème Réunion du CIML (2001)
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 37ème Réunion du CIML (2002)
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption des décisions
+    outcome: adopted
 country_code: GB
 city: GBLON
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-35-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: GBLON
   country_code: GB
+title:
+- spelling: eng
+  value: 35th International Committee of Legal Metrology (CIML)

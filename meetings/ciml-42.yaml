@@ -10,38 +10,306 @@ date_range:
   start: '2007-10-24'
   end: '2007-10-26'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Shanghai, P.R. China
+general_area:
+- spelling: eng
+  value: Shanghai, P.R. China
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/42-ciml-decisions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/42-ciml-decisions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 42nd CIML Meeting — Decisions (EN)
-  general_area: Shanghai, P.R. China
-- language_code: fra
-  script: Latn
-  title: 42e réunion du CIML — Décisions (FR)
-  general_area: Shanghai, P.R. China
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '42'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 1st Session, 24 October 2007, 09:00 – 12:30
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening address
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll-call – Quorum
+    outcome: discussed
+  - label: d
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the agenda                                                           To
+        be voted on immediately
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 41st CIML Meeting                          To
+        be voted on immediately
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members                                   Oral
+        report
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation of certain Members                                        No
+        decision to make
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the Auditor’s report for 2006                            To
+        be voted on (Item 11)
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Assets and liabilities as at 01/01/2006 and at 01/01/2007
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial report for 2006 and estimates for 2007
+    outcome: discussed
+  - label: '3.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Elements for the 2009 – 2012 budget                                 To
+        be voted on (Item 11)
+    outcome: discussed
+  - label: '3.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Pension scheme                                                      Written
+        report
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presidential Council activities
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on Presidential Council activities                            Oral
+        report
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Long Term Strategy                                                   Written
+        report
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Action Plan                                                          To
+        be voted on (Item 11)
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing Country activities
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing Country activities (continued)
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on PWGDC and JCDCMAS activities                               Written
+        report
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the D 1 Seminar                                            Oral
+        report
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the Bureau on liaison activities and joint actions   Written
+        report
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by Liaison Organizations                                     Written
+        report + short update
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the RLMO Workshop                                          Oral
+        report
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MID Tables                                                           Oral
+        report
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on BIML activities for 2006-2007                               Written
+        report
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Communication, web site                                               Oral
+        report
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Intl. Recommendations and Documents to be approved                       To
+        be voted on (Item 11)
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the situation of certain TCs/SCs                          To
+        be voted on (Item 11)
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MAA                                                                      Written
+        report
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nature of OIML Publications and the Guide for CIML Members               Oral
+        report
+    outcome: discussed
+  - label: '8.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress on the revision of the Directives                               Oral
+        report
+    outcome: discussed
+  - label: '8.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Training sessions for OIML TC/SC Secretariats                            Oral
+        report
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Human resource matters
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Decisions and Resolutions
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
 city: CNSHA
 country_code: CN
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-42-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 - urn: urn:oiml:ciml:minutes:ciml-42-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: CNSHA
   country_code: CN
+title:
+- spelling: eng
+  value: 42th International Committee of Legal Metrology (CIML)

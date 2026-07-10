@@ -10,23 +10,219 @@ date_range:
   start: '1986-04-16'
   end: '1986-04-18'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Paris, France
+general_area:
+- spelling: eng
+  value: Paris, France
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 21st CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Paris, France
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '21'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROVAL OF THE REPORT ON THE 20TH COMMITTEE MEETING
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MEMBER STATES AND CORRESPONDING MEMBERS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New accessions-Anticipated accessions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the situation of some Member States or Corresponding Members
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: FINANCIAL SITUATION
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the accountant report for 1984
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the accountant report for 1985
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the financial estimates for 1986
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BUREAU STAFF
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of posts for which contracts expire in the near future
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML staff regulations - General information and examination of individual
+        cases
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML retirement plan
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE 7th CONFERENCE
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PLANNING OF WORK
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE 1985-1988 DRAFT WORK PROGRAMMES
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the final work programmes
+    outcome: adopted
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Directives for future planning
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: WORK OF SECRETARIATS
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Examination of the state of progress of the work :'
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Provisional adoption of draft International Recommendations
+    outcome: adopted
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Different types of OIML publications
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ROLE AND RESPONSIBILITY OF CIML MEMBERS
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DEVELOPING COUNTRIES
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RELATIONS WITH OTHER INTERNATIONAL INSTITUTIONS
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML BULLETIN
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML SEMINARS
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML CERTIFICATION
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Various activities
+    outcome: discussed
+  - label: '13.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Directives for future activities
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: REPORT ON ACTIVITY OF BIML
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PREPARATION OF THE 8TH CONFERENCE
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PREPARATION OF THE 22nd COMMITTEE MEETING
+    outcome: discussed
 country_code: FR
 city: FRPAR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-21-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRPAR
   country_code: FR
+title:
+- spelling: eng
+  value: 21th International Committee of Legal Metrology (CIML)

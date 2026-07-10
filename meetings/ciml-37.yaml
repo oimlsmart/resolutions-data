@@ -10,27 +10,296 @@ date_range:
   start: '2002-10-01'
   end: '2002-10-04'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Saint-Jean-de-Luz, France
+general_area:
+- spelling: eng
+  value: Saint-Jean-de-Luz, France
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 37th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Saint-Jean-de-Luz, France
-- language_code: fra
-  script: Latn
-  title: 37th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Saint-Jean-de-Luz, France
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '37'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation du compte rendu de la 36ème Réunion du CIML
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mise en oeuvre des Décisions et Résolutions de la 11ème Conférence et
+        de la 36ème Réunion du CIML
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mise en oeuvre du Plan d'Action 1999-2002 + 2003-2004 et derniere extension
+        jusqu'à la fin de 2004
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: États Membres et Membres Correspondants
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux Membres - Adhésions attendues
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains Membres
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Questions financières
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption du rapport de l'expert comptable pour 2001
+    outcome: adopted
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation financiere pour 2002 et 2003
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Analyse des coûts de fonctionnement du BIML
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités du Conseil de la Présidence
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation du BIML
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Modification des Statuts du Personnel
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Personnel du BIML
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités du BIML
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progrès dans l'utilisation d'Internet et du courrier électronique
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités techniques
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Programme de travail des TC/SC
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains TC/SC
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Accélération du travail technique
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation des projets de Recommandations
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Système de Certificats OIML pour les Instruments de Mesure
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations générales
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouvelles Recommandations applicables dans le Système
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Plans pour les développements futurs
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Evolutions
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Arrangement d'Acceptation Mutuelle (MAA)
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Documents Horizontaux
+    outcome: discussed
+  - label: '10.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur l'étude Les Bénéfices apportés par la Métrologie Légale dans
+        l'Economie et la Société
+    outcome: discussed
+  - label: '10.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen préliminaire sur les résultats du Seminaire Que Sera la Métrologie
+        Légale en 2020 ?
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur le Conseil de Développement - Voir compte rendu séparé
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Présentation des programmes de la Banque Mondiale
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités du Conseil de Développement, plan d'action et évolutions possibles
+        de ses structures
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons avec les Institutions Régionales et Internationales
+    outcome: discussed
+  - label: '12.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organisations Régionales de Métrologie Légale (LRMO)
+    outcome: discussed
+  - label: '12.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres institutions (Convention du Mètre, ILAC, ISO, OMC, etc.)
+    outcome: discussed
+  - label: '12.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information sur les développements en métrologie légale dans les Régions
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election du Président du CIML, 2003
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Réunions futures
+    outcome: discussed
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e m e}} $
+        Conférence (2004)
+    outcome: discussed
+  - label: '14.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres questions
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption des décisions
+    outcome: adopted
 country_code: FR
 city: FRSJL
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-37-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRSJL
   country_code: FR
+title:
+- spelling: eng
+  value: 37th International Committee of Legal Metrology (CIML)

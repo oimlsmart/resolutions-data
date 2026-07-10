@@ -10,35 +10,172 @@ date_range:
   start: '2023-10-17'
   end: '2023-10-19'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Chiang Mai, Thailand
+general_area:
+- spelling: eng
+  value: Chiang Mai, Thailand
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/58-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/58-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 58th CIML Meeting — Resolutions (EN)
-  general_area: Chiang Mai, Thailand
-- language_code: fra
-  script: Latn
-  title: 58e réunion du CIML — Résolutions (FR)
-  general_area: Chiang Mai, Thailand
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '58'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Chiang Mai, Thailand
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 17–19 October 2023
+    outcome: discussed
+  - label: '1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening remarks and roll call
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the agenda
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 57th CIML Meeting
+    outcome: adopted
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CIML First Vice-President (2024–2030)
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the candidate for CIML Second Vice-President (2023–2029)
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on BIML matters and activities
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of Mr Anthony Donnellan, BIML Director
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of Mr Ian Dunmill, BIML Assistant Director
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML publications and technical activities
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CEEMS Advisory Group (CEEMS AG)
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Digitalisation Task Group (OIML DTG)
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: International cooperation
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election and decisions on the renewal of contracts (secret ballots)
+    outcome: discussed
+  - label: '17'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Awards
+    outcome: discussed
+  - label: '18'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 59th CIML Meeting
+    outcome: discussed
+  - label: '19'
+    kind: aob
+    title:
+    - spelling: eng
+      value: Any other business
+    outcome: discussed
+  - label: '20'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of draft CIML resolutions
+    outcome: adopted
+  - label: '21'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Closing remarks
+    outcome: discussed
 city: THCNM
 country_code: TH
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-58-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: THCNM
   country_code: TH
+title:
+- spelling: eng
+  value: 58th International Committee of Legal Metrology (CIML)

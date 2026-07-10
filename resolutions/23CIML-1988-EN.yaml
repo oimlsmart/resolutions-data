@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/23CIML-1988-EN.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/23CIML-1988-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-23
-# Language: en
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 23rd CIML Meeting — Minutes (EN, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: AUSYD
   country_code: AU
   meeting_urn: urn:oiml:ciml:meeting:ciml-23
+  title:
+  - spelling: eng
+    value: 23rd CIML Meeting — Minutes (EN, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,16 +17,18 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: MINUTES OF THE 22nd MEETING OF THE COMMITTEE AND RECONSIDERATION
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: MINUTES OF THE 22nd MEETING OF THE COMMITTEE AND RECONSIDERATION
       OF THE MINUTES OF THE 21ST MEETING'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The minutes of the 22nd meeting of the Committee were approved without
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The minutes of the 22nd meeting of the Committee were approved without
         modification.
 - identifier:
   - prefix: CIML
@@ -42,15 +39,17 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: AUDITOR''S REPORT FOR 1987 AND OTHER FINANCIAL MATTERS'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: a. The Committee approved the Auditor's report for 1987 and instructed
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: AUDITOR''S REPORT FOR 1987 AND OTHER FINANCIAL MATTERS'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: a. The Committee approved the Auditor's report for 1987 and instructed
         its President and the Director of the Bureau to submit it to the Eighth Conference.
 - identifier:
   - prefix: CIML
@@ -61,21 +60,23 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: EIGHTH CONFERENCE: ORGANIZATION OF THE SESSIONS, PRESIDENCY,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: EIGHTH CONFERENCE: ORGANIZATION OF THE SESSIONS, PRESIDENCY,
       AGENDA'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee accepted proposals from its President relating to the
-        organization of the Eighth Conference. It also agreed to nominate respectively
-        Mr RICHARDS, Chairman of the National Standards Commission (Australia), and
-        Mr LEWISH (Austria) and Mr PUTERA (Indonesia), for the Presidency and the
-        vice-Presidencies of the Conference. These nominations were proposed by Mr
-        BIRCH and Mr BIRKELAND respectively.
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee accepted proposals from its President relating to the organization
+        of the Eighth Conference. It also agreed to nominate respectively Mr RICHARDS,
+        Chairman of the National Standards Commission (Australia), and Mr LEWISH (Austria)
+        and Mr PUTERA (Indonesia), for the Presidency and the vice-Presidencies of
+        the Conference. These nominations were proposed by Mr BIRCH and Mr BIRKELAND
+        respectively.
 - identifier:
   - prefix: CIML
     number: 1988/4
@@ -85,15 +86,17 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: WORK PROGRAMMES FOR 1989-1992 AND PRIORITY CRITERIA'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: Mr BIRKELAND first made the remark that the draft work programmes were
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: WORK PROGRAMMES FOR 1989-1992 AND PRIORITY CRITERIA'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND first made the remark that the draft work programmes were
         prepared by the Pilot Secretariats and Reporting Secretariats, and sent to
         the
 - identifier:
@@ -105,15 +108,17 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: CERTIFICATION'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: a. Discussions prior to the meeting of the Conference
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: CERTIFICATION'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: a. Discussions prior to the meeting of the Conference
 - identifier:
   - prefix: CIML
     number: 1988/6
@@ -123,15 +128,17 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: THE SITUATION OF CERTAIN SECRETARIATS'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: Mr ATHANE presented a number of proposals from Member States to disband
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: THE SITUATION OF CERTAIN SECRETARIATS'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE presented a number of proposals from Member States to disband
         existing Reporting Secretariats (because they had completed their work, or
         because their field of work had been subsumed into the work programme of another
         Secretariat, or because the subjects concerned were of low interest or were
@@ -146,16 +153,18 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: REPORT ON THE ACTIVITIES OF BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee took note of the report on the activities of BIML for
-        the period September 1987 to October 1988.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: REPORT ON THE ACTIVITIES OF BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of the report on the activities of BIML for the
+        period September 1987 to October 1988.
 - identifier:
   - prefix: CIML
     number: 1988/8
@@ -165,15 +174,17 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: VICE-PRESIDENCY OF THE COMMITTEE'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: 'The Committee unanimously elected for a six year period:'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: VICE-PRESIDENCY OF THE COMMITTEE'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee unanimously elected for a six year period:'
 - identifier:
   - prefix: CIML
     number: 1988/9
@@ -183,18 +194,20 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: IMPLEMENTATION OF THE DECISIONS OF THE EIGHTH CONFERENCE'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: In application of a decision by the Conference under item 5 of its
-        agenda, the Committee charged the Bureau with transcribing the discussions
-        under that item and sending the text as soon as possible to the Members of
-        CIML, to be considered by the Presidential Council and then by the Committee.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: IMPLEMENTATION OF THE DECISIONS OF THE EIGHTH CONFERENCE'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: In application of a decision by the Conference under item 5 of its agenda,
+        the Committee charged the Bureau with transcribing the discussions under that
+        item and sending the text as soon as possible to the Members of CIML, to be
+        considered by the Presidential Council and then by the Committee.
 - identifier:
   - prefix: CIML
     number: 1988/10
@@ -204,15 +217,17 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: ANY OTHER BUSINESS'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: There was no other business.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: ANY OTHER BUSINESS'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: There was no other business.
 - identifier:
   - prefix: CIML
     number: 1988/11
@@ -222,54 +237,43 @@ decisions:
   dates:
   - date: '1988-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11: DATE AND PLACE FOR THE NEXT MEETING'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: 'The Committee accepted the proposals concerning the organization of
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11: DATE AND PLACE FOR THE NEXT MEETING'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee accepted the proposals concerning the organization of
         the Eighth Conference: presidency, agenda, time table, etc.'
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee adopted the work programmes for 1989-1992 submitted by
+    - spelling: eng
+      value: The Committee adopted the work programmes for 1989-1992 submitted by
         the Pilot and Reporting Secretariats and by the Bureau. It instructed the
         Secretariats to follow these programmes as closely as possible and charged
         the Presidential Council with examining periodically the progress of the work
         and reporting to the Committee at each of its sessions.
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee considered that the priority criteria submitted by the
+    - spelling: eng
+      value: The Committee considered that the priority criteria submitted by the
         Bureau were appropriate as a basis for the setting up of the work programmes
         for 1989-1992.
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee took note of the report on the activities of the BIML
-        during the period September 1987 - October 1988.
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: 'The Committee elected :'
-    - type: notes
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee examined the decisions of the Eighth Conference in view
+    - spelling: eng
+      value: The Committee took note of the report on the activities of the BIML during
+        the period September 1987 - October 1988.
+    - spelling: eng
+      value: 'The Committee elected :'
+    - spelling: eng
+      value: The Committee examined the decisions of the Eighth Conference in view
         of their implementation.
-    - type: decides
-      date_effective:
-        date: '1988-10-24'
-        type: effective
-      message: The Committee decided to hold its 24th meeting in Paris during the
-        last week of September 1989 in connection with a commemoration of the Bicentenary
+  - type: decides
+    date_effective:
+      date: '1988-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee decided to hold its 24th meeting in Paris during the last
+        week of September 1989 in connection with a commemoration of the Bicentenary
         of the creation of the Metric System organized by the French government and
         a meeting of the International Committee of Weights and Measures.

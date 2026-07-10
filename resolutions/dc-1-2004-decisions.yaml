@@ -1,14 +1,14 @@
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 1st OIML Development Council — Decisions (EN)
-  - language_code: fra
-    title: 1er Conseil de Développement de l'OIML — Décisions (FR)
   source: OIML Development Council
   city: DEBER
   country_code: DE
   meeting_urn: urn:oiml:dc:meeting:dc-1-2004
+  title:
+  - spelling: eng
+    value: 1st OIML Development Council — Decisions (EN)
+  - spelling: fra
+    value: 1er Conseil de Développement de l'OIML — Décisions (FR)
 decisions:
 - identifier:
   - prefix: DC
@@ -19,28 +19,26 @@ decisions:
   dates:
   - date: '2004-10-25'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: Report and discussion on the meeting of the OIML Permanent
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: Report and discussion on the meeting of the OIML Permanent
       Working Group on Developing Countries (24 October 2004)'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: 'The Development Council thanked Mr Seiler and his colleagues for the
+  - spelling: fra
+    value: 'Agenda Item 1: Report and discussion on the meeting of the OIML Permanent
+      Working Group on Developing Countries (24 October 2004)'
+  actions:
+  - type: resolution
+    date_effective:
+      date: '2004-10-25'
+      type: decided
+    message:
+    - spelling: eng
+      value: 'The Development Council thanked Mr Seiler and his colleagues for the
         excellent organization of the Forum: Metrology – Trade facilitator, which
         had taken place earlier in the day.'
-  - language_code: fra
-    title: 'Agenda Item 1: Report and discussion on the meeting of the OIML Permanent
-      Working Group on Developing Countries (24 October 2004)'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: 'Le Conseil de Développement a remercié M. Seiler et ses collègues
-        pour l’excellente organisation du Forum: Métrologie – Facilitateur de Commerce,
+    - spelling: fra
+      value: 'Le Conseil de Développement a remercié M. Seiler et ses collègues pour
+        l’excellente organisation du Forum: Métrologie – Facilitateur de Commerce,
         qui s’était tenu en début de journée.'
 - identifier:
   - prefix: DC
@@ -51,30 +49,28 @@ decisions:
   dates:
   - date: '2004-10-25'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: Report and discussion on the Forum: Metrology-Trade Facilitator
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: Report and discussion on the Forum: Metrology-Trade Facilitator
       (25 October 2004)'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: The Development Council noted Mr Seiler’s report on the meeting of
-        the Permanent Working Group on Developing Countries (PWGDC), which was held
-        on 24 October 2004, and endorsed the PWGDC’s proposals.
-  - language_code: fra
-    title: 'Agenda Item 2: Report and discussion on the Forum: Metrology-Trade Facilitator
+  - spelling: fra
+    value: 'Agenda Item 2: Report and discussion on the Forum: Metrology-Trade Facilitator
       (25 October 2004)'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: Le Conseil de Développement a pris note du rapport de M. Seiler en
-        ce qui concerne la réunion du Groupe de Travail Permanent sur les Pays en
-        Développement (PWGDC) qui s’était tenue le 24 octobre 2004, et a approuvé
-        les propositions du PWGDC.
+  actions:
+  - type: resolution
+    date_effective:
+      date: '2004-10-25'
+      type: decided
+    message:
+    - spelling: eng
+      value: The Development Council noted Mr Seiler’s report on the meeting of the
+        Permanent Working Group on Developing Countries (PWGDC), which was held on
+        24 October 2004, and endorsed the PWGDC’s proposals.
+    - spelling: fra
+      value: Le Conseil de Développement a pris note du rapport de M. Seiler en ce
+        qui concerne la réunion du Groupe de Travail Permanent sur les Pays en Développement
+        (PWGDC) qui s’était tenue le 24 octobre 2004, et a approuvé les propositions
+        du PWGDC.
 - identifier:
   - prefix: DC
     number: 2004/3
@@ -84,28 +80,26 @@ decisions:
   dates:
   - date: '2004-10-25'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Proposals relating to the OIML Development Council'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: 'The Development Council, considering that the organization of the
-        OIML’s work on developing countries is being more effectively handled by the
-        PWGDC, proposed to the Committee that: - The tasks allocated to the Development
-        Council by decision of the 6th International Conference of Legal Metrology
-        in 1980 should be transferred to the PWGDC; and - The existing Development
-        Council should cease to exist.'
-  - language_code: fra
-    title: 'Agenda Item 3: Proposals relating to the OIML Development Council'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: 'Le Conseil de Développement, considérant que l’organisation du travail
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Proposals relating to the OIML Development Council'
+  - spelling: fra
+    value: 'Agenda Item 3: Proposals relating to the OIML Development Council'
+  actions:
+  - type: resolution
+    date_effective:
+      date: '2004-10-25'
+      type: decided
+    message:
+    - spelling: eng
+      value: 'The Development Council, considering that the organization of the OIML’s
+        work on developing countries is being more effectively handled by the PWGDC,
+        proposed to the Committee that: - The tasks allocated to the Development Council
+        by decision of the 6th International Conference of Legal Metrology in 1980
+        should be transferred to the PWGDC; and - The existing Development Council
+        should cease to exist.'
+    - spelling: fra
+      value: 'Le Conseil de Développement, considérant que l’organisation du travail
         de l’OIML relatif aux pays en développement est gérée plus efficacement par
         le PWGDC, a proposé au Comité que: - Les tâches attribuées au Conseil de Développement
         sur décision de la 6ème Conférence Internationale de Métrologie Légale en
@@ -120,24 +114,22 @@ decisions:
   dates:
   - date: '2004-10-25'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: Other matters'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: The Development Council expressed its appreciation to Mrs Annabi for
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: Other matters'
+  - spelling: fra
+    value: 'Agenda Item 4: Other matters'
+  actions:
+  - type: resolution
+    date_effective:
+      date: '2004-10-25'
+      type: decided
+    message:
+    - spelling: eng
+      value: The Development Council expressed its appreciation to Mrs Annabi for
         her contribution to the OIML’s work on developing countries during her tenure
         as its Chairperson since 1998.                               ! – 30 –
-  - language_code: fra
-    title: 'Agenda Item 4: Other matters'
-    actions:
-    - type: resolution
-      date_effective:
-        date: '2004-10-25'
-        type: decided
-      message: Le Conseil de Développement a exprimé sa satisfaction à Mme Annabi
-        pour sa contribution au travail de l’OIML relatif aux pays en développement
-        pendant ses fonctions de Présidente depuis 1998.           ! – 31 –
+    - spelling: fra
+      value: Le Conseil de Développement a exprimé sa satisfaction à Mme Annabi pour
+        sa contribution au travail de l’OIML relatif aux pays en développement pendant
+        ses fonctions de Présidente depuis 1998.           ! – 31 –

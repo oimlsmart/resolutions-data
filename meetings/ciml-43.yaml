@@ -10,35 +10,112 @@ date_range:
   start: '2008-10-28'
   end: '2008-10-31'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Sydney, Australia
+general_area:
+- spelling: eng
+  value: Sydney, Australia
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/43-ciml-resolutions-bilingual.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/43-ciml-resolutions-bilingual.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 43rd CIML Meeting — Resolutions (EN)
-  general_area: Sydney, Australia
-- language_code: fra
-  script: Latn
-  title: 43e réunion du CIML — Résolutions (FR)
-  general_area: Sydney, Australia
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '43'
   status: final
+  items:
+  - label: a
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll call
+    outcome: discussed
+  - label: c
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the Agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 42nd CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presidential Council activities
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing Countries activities
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Human resources matters
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Conference Agenda
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
 city: AUSYD
 country_code: AU
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-43-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: AUSYD
   country_code: AU
+title:
+- spelling: eng
+  value: 43th International Committee of Legal Metrology (CIML)

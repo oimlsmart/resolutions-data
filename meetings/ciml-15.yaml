@@ -10,23 +10,118 @@ date_range:
   start: '1976-10-05'
   end: '1976-10-12'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Paris, France
+general_area:
+- spelling: eng
+  value: Paris, France
 source_urls: []
-localizations:
-- language_code: fra
-  script: Latn
-  title: 15th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Paris, France
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '15'
   status: final
+  items:
+  - label: IV e
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de la République Dominicaine.
+    outcome: discussed
+  - label: V c
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Secrétariats vacants.
+    outcome: discussed
+  - label: V b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Plan de travail des Secrétariats-Pilotes 5 (Mesure des volumes de liquides)
+        et 17 (Mesure des pollutions).
+    outcome: discussed
+  - label: V a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Dispositifs électroniques.
+    outcome: discussed
+  - label: IV b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Conseil de Développement.
+    outcome: discussed
+  - label: IV c
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Population des États-membres.
+    outcome: discussed
+  - label: IV d
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Projet « Unités de Mesure Légales » .
+    outcome: discussed
+  - label: IV f
+    kind: numbered
+    title:
+    - spelling: eng
+      value: État d'avancement de certains travaux.
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION du COMPTE RENDU
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION du RAPPORT FINANCIER pour 1975.
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMEN de l'ORDRE du JOUR et de l'EMPLOI du TEMPS de la CONFÉRENCE.
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMEN de CERTAINS TRAVAUX DE LA CONFÉRENCE.
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMEN et MISE en APPLICATION des DÉCISIONS de la CONFÉRENCE. PROJET
+        « UNITÉS de MESURE LÉGALES  ».
+    outcome: discussed
+  - label: '7'
+    kind: aob
+    title:
+    - spelling: eng
+      value: QUESTIONS DIVERSES
+    outcome: discussed
+  - label: '8'
+    kind: closing
+    title:
+    - spelling: eng
+      value: DATE et LIEU de la PROCHAINE RÉUNION — CLÔTURE
+    outcome: discussed
 country_code: FR
 city: FRPAR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-15-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRPAR
   country_code: FR
+title:
+- spelling: eng
+  value: 15th International Committee of Legal Metrology (CIML)

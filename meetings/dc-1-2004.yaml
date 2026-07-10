@@ -10,31 +10,72 @@ date_range:
   start: '2004-10-25'
   end: '2004-10-25'
 committee: OIML Development Council
-general_area: Berlin, Germany
+general_area:
+- spelling: eng
+  value: Berlin, Germany
 source_urls:
 - ref: https://berlin.oiml.org/docs_general/agenda_dc.pdf
   format: pdf
-  language_code: eng
   kind: agenda_pdf
+  spelling: eng
 - ref: https://www.oiml.org/en/structure/conference/pdf/2004-oimldc-decisions-en.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/en/structure/conference/pdf/2004-oimldc-decisions-fr.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 1st OIML Development Council — Decisions (EN)
-  general_area: Berlin, Germany
-- language_code: fra
-  script: Latn
-  title: 1er Conseil de Développement de l'OIML — Décisions (FR)
-  general_area: Berlin, Allemagne
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: OIML Development Council
+    number: '1'
   status: final
+  items:
+  - label: a
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Roll call
+    outcome: discussed
+  - label: c
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report and discussion on the meeting of the OIML Permanent Working Group
+        on Developing Countries (24 October 2004)
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Report and discussion on the Forum: Metrology-Trade Facilitator (25
+        October 2004)'
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposals relating to the OIML Development Council
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
 city: DEBER
 country_code: DE
 visibility: public
@@ -42,3 +83,6 @@ venues:
 - kind: physical
   unlocode: DEBER
   country_code: DE
+title:
+- spelling: eng
+  value: 1th OIML Development Council

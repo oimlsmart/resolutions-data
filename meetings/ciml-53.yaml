@@ -10,35 +10,238 @@ date_range:
   start: '2018-10-09'
   end: '2018-10-12'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Hamburg, Germany
+general_area:
+- spelling: eng
+  value: Hamburg, Germany
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/53-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/53-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 53rd CIML Meeting — Resolutions (EN)
-  general_area: Hamburg, Germany
-- language_code: fra
-  script: Latn
-  title: 53e réunion du CIML — Résolutions (FR)
-  general_area: Hamburg, Germany
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '53'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Hamburg, Germany
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: '09–12 October 2018'
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Roll call – Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval by the CIML of the minutes of the 52nd CIML Meeting
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General report by the CIML President
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the candidates for CIML First Vice-President
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Recruitment of the new BIML Director
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the Selection Committee Chairperson
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the selected candidate
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Discussion by the CIML
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of Mr. Ian Dunmill, BIML Assistant Director
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on BIML activities
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on Member States and Corresponding Members
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on financial matters
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval by the CIML of the 2017 accounts
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Discussion by the CIML regarding the appointment of the financial auditor
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Overview of the arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on the 2018 budget forecast
+    outcome: discussed
+  - label: '8.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Initial discussions on budget surplus and status of Corresponding Members
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the RLMO Round Table Chairperson
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on activities with organizations in liaison
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by organizations in liaison
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Signature of Memoranda of Understanding
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Countries and Economies with Emerging Metrology Systems (CEEMS)
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election by the CIML of the CIML First Vice-President
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Decision by the CIML on the appointment of the new BIML Director
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Decision by the CIML on the renewal of the contract of Mr. Ian Dunmill,
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation of OIML Awards
+    outcome: discussed
+  - label: '17'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '18'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '19'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of meeting resolutions
+    outcome: discussed
 city: DEHAM
 country_code: DE
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-53-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: DEHAM
   country_code: DE
+title:
+- spelling: eng
+  value: 53th International Committee of Legal Metrology (CIML)

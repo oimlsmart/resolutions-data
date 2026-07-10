@@ -10,35 +10,226 @@ date_range:
   start: '2019-10-22'
   end: '2019-10-25'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Bratislava, Slovak Republic
+general_area:
+- spelling: eng
+  value: Bratislava, Slovak Republic
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/54-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/54-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 54th CIML Meeting — Resolutions (EN)
-  general_area: Bratislava, Slovak Republic
-- language_code: fra
-  script: Latn
-  title: 54e réunion du CIML — Résolutions (FR)
-  general_area: Bratislava, Slovak Republic
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '54'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Bratislava, Slovakia
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 22–25 October 2019
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Roll call – Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 53rd CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General report by the CIML President
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the candidates for CIML Second Vice-President
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML matters and activities
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on training activities
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the 2018 accounts
+    outcome: adopted
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Forecast budget realization for 2019
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons and Regional Legal Metrology Organizations (RLMOs)
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on activities with organizations in liaison
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the RLMO Round Table Chairperson
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Update by the Bureau International des Poids et Mesures (BIPM)
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Update on the work of the Consultative Committee for Units (CCU)
+    outcome: discussed
+  - label: '7.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by other organizations in liaison
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Countries and Economies with Emerging Metrology Systems (CEEMS)
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CEEMS Advisory Group Chairperson
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on activities in connection with CEEMS matters
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the OIML-CS Management Committee Chairperson
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML publications and projects
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the CIML Second Vice-President
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation of OIML Awards
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preparation of the 16th International Conference (2020)
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of meeting resolutions
+    outcome: discussed
 city: SKBTS
 country_code: SK
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-54-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: SKBTS
   country_code: SK
+title:
+- spelling: eng
+  value: 54th International Committee of Legal Metrology (CIML)

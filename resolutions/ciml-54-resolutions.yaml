@@ -1,13 +1,13 @@
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 54th CIML Meeting — Resolutions (EN)
-  - language_code: fra
-    title: 54e réunion du CIML — Résolutions (FR)
   source: OIML CIML Secretariat (BIML)
   country_code: SK
   meeting_urn: urn:oiml:ciml:meeting:ciml-54
+  title:
+  - spelling: eng
+    value: 54th CIML Meeting — Resolutions (EN)
+  - spelling: fra
+    value: 54e réunion du CIML — Résolutions (FR)
 decisions:
 - identifier:
   - prefix: CIML
@@ -18,24 +18,22 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves the minutes of the 53rd CIML Meeting with some minor editorial
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
+  - spelling: fra
+    value: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the minutes of the 53rd CIML Meeting with some minor editorial
         corrections.
-  - language_code: fra
-    title: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve le compte-rendu de la $ 53^{\mathrm{ème}} $ Réunion du CIML
+    - spelling: fra
+      value: Approuve le compte-rendu de la $ 53^{\mathrm{ème}} $ Réunion du CIML
         avec quelques corrections rédactionnelles mineures.
 - identifier:
   - prefix: CIML
@@ -46,41 +44,40 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: General report by the CIML President'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report given by its President,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks the members of Task Group 2023 and the Presidential Council
-        for their work, and
-    - type: supports
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Supports the proposals put forward by its President in his report.
-  - language_code: fra
-    title: 'Agenda Item 2: General report by the CIML President'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport présenté par son Président,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie les membres du Groupe de Travail 2023 et du Conseil de la
-        Présidence pour leur travail, et Soutient les propositions présentées par
-        son Président dans son rapport.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: General report by the CIML President'
+  - spelling: fra
+    value: 'Agenda Item 2: General report by the CIML President'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report given by its President,
+    - spelling: fra
+      value: Prend note du rapport présenté par son Président,
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks the members of Task Group 2023 and the Presidential Council for
+        their work, and
+    - spelling: fra
+      value: Remercie les membres du Groupe de Travail 2023 et du Conseil de la Présidence
+        pour leur travail, et Soutient les propositions présentées par son Président
+        dans son rapport.
+  - type: supports
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Supports the proposals put forward by its President in his report.
 - identifier:
   - prefix: CIML
     number: 2019/3
@@ -90,35 +87,31 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report given by the BIML Director, and
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks the BIML Director for providing his report in English and in
-        French.
-  - language_code: fra
-    title: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport présenté par le Directeur du BIML, et
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie le Directeur du BIML d'avoir fourni son rapport en anglais
-        et en français.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
+  - spelling: fra
+    value: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report given by the BIML Director, and
+    - spelling: fra
+      value: Prend note du rapport présenté par le Directeur du BIML, et
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks the BIML Director for providing his report in English and in French.
+    - spelling: fra
+      value: Remercie le Directeur du BIML d'avoir fourni son rapport en anglais et
+        en français.
 - identifier:
   - prefix: CIML
     number: 2019/4
@@ -128,52 +121,48 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: BIML matters and activities'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report given by the BIML on the training courses relating
-        to OIML technical work delivered since the 53rd CIML Meeting,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
-        Thanks the BIML for organising the training, and thanks the participants for their efforts to harmonise the technical work of the Organisation,
-        Encourages the BIML to continue to support technical training activities in the future as financial provisions allow, and
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests the BIML to examine the effect the training has on the conduct
-        of OIML technical work.
-  - language_code: fra
-    title: 'Agenda Item 4: BIML matters and activities'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport présenté par le BIML sur les sessions de formation
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: BIML matters and activities'
+  - spelling: fra
+    value: 'Agenda Item 4: BIML matters and activities'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report given by the BIML on the training courses relating to
+        OIML technical work delivered since the 53rd CIML Meeting,
+    - spelling: fra
+      value: Prend note du rapport présenté par le BIML sur les sessions de formation
         relatives aux travaux techniques de l'OIML organisées depuis la 53ème Réunion
         du CIML,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Thanks the BIML for organising the training, and thanks the participants for their efforts to harmonise the technical work of the Organisation,
+        Encourages the BIML to continue to support technical training activities in the future as financial provisions allow, and
+    - spelling: fra
+      value: |-
         Remercie le BIML d'avoir organisé la formation et les participants pour leurs efforts en vue d'harmoniser les travaux techniques de l'Organisation,
         Encourage le BIML à continuer de soutenir les activités de formation technique à l'avenir, dans la mesure où les dispositions financières le permettent, et
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande au BIML d'examiner l'effet de la formation sur la conduite
-        des travaux techniques de l'OIML.
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests the BIML to examine the effect the training has on the conduct
+        of OIML technical work.
+    - spelling: fra
+      value: Demande au BIML d'examiner l'effet de la formation sur la conduite des
+        travaux techniques de l'OIML.
 - identifier:
   - prefix: CIML
     number: 2019/5
@@ -183,23 +172,26 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Member States and Corresponding Members'
-    actions:
-    - type: welcomes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Welcomes Kyrgyzstan as a returning Corresponding Member.
-  - language_code: fra
-    title: 'Agenda Item 5: Member States and Corresponding Members'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: "(Point 5 de l'ordre du jour)"
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Member States and Corresponding Members'
+  - spelling: fra
+    value: 'Agenda Item 5: Member States and Corresponding Members'
+  actions:
+  - type: welcomes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Welcomes Kyrgyzstan as a returning Corresponding Member.
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: "(Point 5 de l'ordre du jour)"
 - identifier:
   - prefix: CIML
     number: 2019/6
@@ -209,54 +201,62 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: Financial matters'
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Noting the accounts for 2018 and the comments from its President and
-        from the BIML Director,
-    - type: considering
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Considering the external auditor's approval of the 2018 accounts,
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves the 2018 accounts, and
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Instructs its President to present them to the 16th OIML Conference
-        in 2020.
-  - language_code: fra
-    title: 'Agenda Item 6: Financial matters'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: Financial matters'
+  - spelling: fra
+    value: 'Agenda Item 6: Financial matters'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the 2018 accounts, and
+    - spelling: fra
+      value: Approuve les comptes de l'année 2018, et
+  - type: instructs
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs its President to present them to the 16th OIML Conference in
+        2020.
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Prend note des comptes de l'année 2018 et des commentaires de son Président et du Directeur du BIML,
         Compte tenu de l'approbation des comptes de l'année 2018 par l'auditeur externe,
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve les comptes de l'année 2018, et
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge son Président de présenter lesdits comptes lors de la 16ème
-        Conférence de l'OIML en 2020.
+  - type: charges
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Charge son Président de présenter lesdits comptes lors de la 16ème Conférence
+        de l'OIML en 2020.
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2018 and the comments from its President and
+        from the BIML Director,
+  - type: considering
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's approval of the 2018 accounts,
 - identifier:
   - prefix: CIML
     number: 2019/7
@@ -266,63 +266,53 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Noting the accounts for 2018 and the comments from its President and
-        from the BIML Director,
-    actions:
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Instructs the BIML Director to implement effective measures to monitor
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
+  - spelling: fra
+    value: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
+  actions:
+  - type: instructs
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs the BIML Director to implement effective measures to monitor
         the budget,
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Instructs the BIML Director to investigate alternative revenue streams
+    - spelling: eng
+      value: Instructs the BIML Director to investigate alternative revenue streams
         with a view to increasing the income of the Organisation,
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Instructs the BIML Director to continue to examine an appropriate level
+    - spelling: eng
+      value: Instructs the BIML Director to continue to examine an appropriate level
         for the OIML's reserves, and Instructs the BIML Director to present information
         on these to the 55th CIML Meeting in 2020.
-  - language_code: fra
-    title: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
-    actions:
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge le Directeur du BIML de mettre en œuvre des mesures efficaces
+  - type: charges
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Charge le Directeur du BIML de mettre en œuvre des mesures efficaces
         de suivi du budget,
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge le Directeur du BIML d'étudier d'autres sources de recettes
-        en vue d'accroître les revenus de l'Organisation,
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge le Directeur du BIML de continuer à examiner un niveau approprié
+    - spelling: fra
+      value: Charge le Directeur du BIML d'étudier d'autres sources de recettes en
+        vue d'accroître les revenus de l'Organisation,
+    - spelling: fra
+      value: Charge le Directeur du BIML de continuer à examiner un niveau approprié
         pour les réserves de l'OIML, et
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge le Directeur du BIML de présenter des informations à ce sujet
+    - spelling: fra
+      value: Charge le Directeur du BIML de présenter des informations à ce sujet
         lors de la 55ème Réunion du CIML en 2020.
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2018 and the comments from its President and
+        from the BIML Director,
 - identifier:
   - prefix: CIML
     number: 2019/8
@@ -332,27 +322,25 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
       (CEEMS)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
+      (CEEMS)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Notes the report on the budget forecast for 2019 given by the BIML Director, and
         Expresses its appreciation to the BIML Director for his efforts in bringing the budget under control within a short space of time.
-  - language_code: fra
-    title: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
-      (CEEMS)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: |-
         Prend note du rapport sur la réalisation du budget prévisionnel de l'année 2018, présenté par le Directeur du BIML, et
         Exprime son appréciation au Directeur du BIML pour les efforts qu'il a déployés pour maîtriser le budget en peu de temps.
 - identifier:
@@ -364,50 +352,41 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: OIML Certification System (OIML-CS)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: OIML Certification System (OIML-CS)'
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certification System (OIML-CS)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Notes the report given by the BIML Director,
         Encourages the BIML to continue its efforts to recover outstanding arrears and to consider additional mechanisms for prompt payment by Member States and Corresponding Members,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests those Member States and Corresponding Members with arrears
-        to bring their situation up to date as soon as possible, and
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests Member States and Corresponding Members to ensure prompt payment
-        of membership fees.
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certification System (OIML-CS)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: |-
         Prend note du rapport présenté par le Directeur du BIML,
         Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés impayés et à envisager de nouveaux mécanismes pour encourager les Etats Membres et les Membres Correspondants à effectuer un règlement rapide,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande aux Etats Membres et aux Membres Correspondants présentant
-        des arriérés de régulariser leur situation dès que possible, et
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande aux Etats Membres et aux Membres Correspondants d'assurer le
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests those Member States and Corresponding Members with arrears to
+        bring their situation up to date as soon as possible, and
+    - spelling: eng
+      value: Requests Member States and Corresponding Members to ensure prompt payment
+        of membership fees.
+    - spelling: fra
+      value: Demande aux Etats Membres et aux Membres Correspondants présentant des
+        arriérés de régulariser leur situation dès que possible, et
+    - spelling: fra
+      value: Demande aux Etats Membres et aux Membres Correspondants d'assurer le
         règlement rapide des cotisations.
 - identifier:
   - prefix: CIML
@@ -418,24 +397,22 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: OIML publications and projects'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report on activities with organisations in liaison given
-        by the BIML.
-  - language_code: fra
-    title: 'Agenda Item 10: OIML publications and projects'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport sur les activités avec les organisations en liaison,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: OIML publications and projects'
+  - spelling: fra
+    value: 'Agenda Item 10: OIML publications and projects'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report on activities with organisations in liaison given by
+        the BIML.
+    - spelling: fra
+      value: Prend note du rapport sur les activités avec les organisations en liaison,
         présenté par le BIML.
 - identifier:
   - prefix: CIML
@@ -446,48 +423,39 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11: Election of the CIML Second Vice-President'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report on the RLMO Round Table meeting given by its Chairperson,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks Dr Yukinobu Miki for his work as Chairperson of the RLMO Round
-        Table, and
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks the CIML First Vice-President, Dr Charles Ehrlich, for taking
-        over as Chairperson of the RLMO Round Table.
-  - language_code: fra
-    title: 'Agenda Item 11: Election of the CIML Second Vice-President'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport sur la Table Ronde des organisations régionales
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11: Election of the CIML Second Vice-President'
+  - spelling: fra
+    value: 'Agenda Item 11: Election of the CIML Second Vice-President'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report on the RLMO Round Table meeting given by its Chairperson,
+    - spelling: fra
+      value: Prend note du rapport sur la Table Ronde des organisations régionales
         de métrologie légale (RLMO) présenté par son Président,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie le Dr Yukinobu Miki pour son travail en tant que Président
-        de la Table Ronde des RLMO, et
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie le Premier Vice-Président du CIML, le Dr Charles Ehrlich,
-        pour avoir pris la suite en tant que Président de la Table Ronde des RLMO.
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks Dr Yukinobu Miki for his work as Chairperson of the RLMO Round
+        Table, and
+    - spelling: eng
+      value: Thanks the CIML First Vice-President, Dr Charles Ehrlich, for taking
+        over as Chairperson of the RLMO Round Table.
+    - spelling: fra
+      value: Remercie le Dr Yukinobu Miki pour son travail en tant que Président de
+        la Table Ronde des RLMO, et
+    - spelling: fra
+      value: Remercie le Premier Vice-Président du CIML, le Dr Charles Ehrlich, pour
+        avoir pris la suite en tant que Président de la Table Ronde des RLMO.
 - identifier:
   - prefix: CIML
     number: 2019/12
@@ -497,48 +465,49 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12: Presentation of OIML Awards'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report made by the BIPM,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks its Director, Dr Martin Milton, for providing this information
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12: Presentation of OIML Awards'
+  - spelling: fra
+    value: 'Agenda Item 12: Presentation of OIML Awards'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report made by the BIPM,
+    - spelling: fra
+      value: Prend note du rapport présenté par le BIPM,
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks its Director, Dr Martin Milton, for providing this information
         to the Committee, and
-    - type: supports
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: Remercie son Directeur, le Dr Martin Milton, d'avoir fourni ces informations
+        au Comité, et
+  - type: supports
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Supports a stronger cooperation between the OIML and the BIPM through a joint task group to explore opportunities for closer cooperation towards the development of a common vision and a common concept of metrology as a key element of quality infrastructure.
         (Agenda item 7.4)
-  - language_code: fra
-    title: 'Agenda Item 12: Presentation of OIML Awards'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport présenté par le BIPM,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie son Directeur, le Dr Martin Milton, d'avoir fourni ces informations
-        au Comité, et
-    - type: endorses
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Soutient un reinforcement de la coopération entre l'OIML et le BIPM
-        par le biais d'un Groupe de Travail Conjoint chargé d'étudier des perspectives
+  - type: endorses
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Soutient un reinforcement de la coopération entre l'OIML et le BIPM par
+        le biais d'un Groupe de Travail Conjoint chargé d'étudier des perspectives
         de coopération plus étroite en vue de l'élaboration d'une vision commune et
         d'un concept commun de la métrologie en tant qu'élément clé des infrastructures
         de qualité.
@@ -551,50 +520,46 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks Dr Rado Lapuh (Slovenia) for representing the OIML in the Consultative
+  title:
+  - spelling: eng
+    value: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
+  - spelling: fra
+    value: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks Dr Rado Lapuh (Slovenia) for representing the OIML in the Consultative
         Committee for Units (CCU) and for his written report,
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the oral report given by Ms Nataša Vukovič (Slovenia) on developments
+    - spelling: fra
+      value: Remercie le Dr Rado Lapuh (Slovénie) d'avoir représenté l'OIML au Comité
+        Consultatif des Unités (CCU) et pour son rapport écrit,
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the oral report given by Ms Nataša Vukovič (Slovenia) on developments
         in the CCU, and
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests OIML TC 2 to closely observe the ongoing discussions in the
+    - spelling: fra
+      value: Prend note du rapport verbal présenté par Mme Nataša Vukovič (Slovénie)
+        sur l'évolution de la situation au sein du CCU, et
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests OIML TC 2 to closely observe the ongoing discussions in the
         CCU on the definition of the term "unit", on angles, on dimensionless quantities,
         and on the SI in the digital world, and to facilitate a common OIML position,
         if possible.
-  - language_code: fra
-    title: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie le Dr Rado Lapuh (Slovénie) d'avoir représenté l'OIML au Comité
-        Consultatif des Unités (CCU) et pour son rapport écrit,
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport verbal présenté par Mme Nataša Vukovič (Slovénie)
-        sur l'évolution de la situation au sein du CCU, et
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande au TC 2 de l'OIML d'observer de près les discussions en cours
+    - spelling: fra
+      value: Demande au TC 2 de l'OIML d'observer de près les discussions en cours
         au sein du CCU sur la définition du terme « unité », sur les angles, sur les
         quantités sans dimension et sur le SI dans le monde numérique, et de faciliter,
         si possible, une position commune de l'OIML.
@@ -607,46 +572,42 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14: Future meetings'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14: Future meetings'
+  - spelling: fra
+    value: 'Agenda Item 14: Future meetings'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Notes the reports and presentations from the following organisations in liaison:
         - CECIP,
         - IAF,
         - ILAC,
         - OECD, and
         - UNIDO.
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks their representatives for providing this information to the
-        Committee.
-  - language_code: fra
-    title: 'Agenda Item 14: Future meetings'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: |-
         Prend note des rapports et présentations des organisations en liaison suivantes :
         - CECIP,
         - IAF,
         - ILAC,
         - OCDE, et
         - ONUDI.
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie leurs représentants d'avoir fourni ces informations au Comité.
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks their representatives for providing this information to the Committee.
+    - spelling: fra
+      value: Remercie leurs représentants d'avoir fourni ces informations au Comité.
 - identifier:
   - prefix: CIML
     number: 2019/15
@@ -656,37 +617,39 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 15: Other matters'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report on the activities of the CEEMS Advisory Group,
-    - type: welcomes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 15: Other matters'
+  - spelling: fra
+    value: 'Agenda Item 15: Other matters'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report on the activities of the CEEMS Advisory Group,
+    - spelling: fra
+      value: Prend note du rapport sur les activités du Groupe Consultatif pour les
+        CEEMS,
+  - type: welcomes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Welcomes the proposal to develop a scholarship scheme for leaders of tomorrow,
         Encourages Member States to explore opportunities for taking part in pilot projects by acting as hosts and sponsors, and
         Emphasises the importance of OIML D1 Considerations for a Law on Metrology and requests the appropriate Project Group to do all in its power to produce a Final Draft Document which can be adopted at the 55th CIML Meeting in 2020.
-  - language_code: fra
-    title: 'Agenda Item 15: Other matters'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport sur les activités du Groupe Consultatif pour
-        les CEEMS,
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Approuve la proposition d'élaborer un système de bourses d'études pour les dirigeants de demain,
         Encourage les Etats Membres à explorer les opportunités de prendre part à des projets pilotes en tant qu'organisateurs ou que sponsors, et
         Souligne l'importance de l'OIML D 1 Eléments pour une loi de métrologie et demande au Groupe de Projet concerné de tout mettre en œuvre pour produire un projet de document final susceptible d'être adopté lors de la 55ème Réunion du CIML en 2020.
@@ -699,51 +662,46 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 16: Review of meeting resolutions'
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Noting the recommendations of the CEEMS Advisory Group,
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks Mr Pu Changcheng for his initiative in the establishment of
-        the CEEMS Advisory Group, and for his leadership as its chairperson,
-    - type: appoints
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Appoints Mr Peter Mason as the chairperson of the CEEMS Advisory Group
+  title:
+  - spelling: eng
+    value: 'Agenda Item 16: Review of meeting resolutions'
+  - spelling: fra
+    value: 'Agenda Item 16: Review of meeting resolutions'
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks Mr Pu Changcheng for his initiative in the establishment of the
+        CEEMS Advisory Group, and for his leadership as its chairperson,
+    - spelling: fra
+      value: Remercie M. Pu Changcheng pour son initiative dans la création du Groupe
+        Consultatif pour les CEEMS et pour son leadership en tant que Président,
+  - type: appoints
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Appoints Mr Peter Mason as the chairperson of the CEEMS Advisory Group
         for a three-year term, and
-    - type: appoints
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Appoints Dr Peter Ulbig as vice-chairperson of the CEEMS Advisory Group
+    - spelling: eng
+      value: Appoints Dr Peter Ulbig as vice-chairperson of the CEEMS Advisory Group
         for a three-year term.
-  - language_code: fra
-    title: 'Agenda Item 16: Review of meeting resolutions'
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendations of the CEEMS Advisory Group,
+    - spelling: fra
+      value: |-
         Prenant note des recommandations du Groupe Consultatif pour les CEEMS,
         Nomme M. Peter Mason à la présidence du Groupe Consultatif pour les CEEMS pour une période de trois ans, et Nomme le Dr Peter Ulbig à la vice-présidence du Groupe Consultatif pour les CEEMS pour une période de trois ans.
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie M. Pu Changcheng pour son initiative dans la création du Groupe
-        Consultatif pour les CEEMS et pour son leadership en tant que Président,
 - identifier:
   - prefix: CIML
     number: 2019/17
@@ -753,45 +711,41 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Requests the chairperson of the CEEMS Advisory Group to develop proposals
+  title:
+  - spelling: eng
+    value: Requests the chairperson of the CEEMS Advisory Group to develop proposals
       for an appropriate
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Noting the discussions in the CEEMS Advisory Group on the lack of a
-        procedure for the selection of its chairperson,
-    actions:
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests the chairperson of the CEEMS Advisory Group to develop proposals
+  - spelling: fra
+    value: Demande au président du Groupe Consultatif pour les CEEMS d'élaborer des
+      propositions en vue
+  actions:
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests the chairperson of the CEEMS Advisory Group to develop proposals
         for an appropriate revision of OIML B 19 Terms of Reference for the Advisory
         Group on matters concerning Countries and Economies with Emerging Metrology
         Systems (CEEMS).
-  - language_code: fra
-    title: Demande au président du Groupe Consultatif pour les CEEMS d'élaborer des
-      propositions en vue
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prenant note des discussions au sein du Groupe Consultatif pour les
-        CEEMS concernant l'absence de procédure de sélection d'un président,
-    actions:
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande au président du Groupe Consultatif pour les CEEMS d'élaborer
+    - spelling: fra
+      value: Demande au président du Groupe Consultatif pour les CEEMS d'élaborer
         des propositions en vue d'une révision appropriée de la publication OIML B
         19 Termes de référence pour le Groupe Consultatif sur les questions concernant
         les pays et économies dont le système de métrologie est émergeant (CEEMS).
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the discussions in the CEEMS Advisory Group on the lack of a procedure
+        for the selection of its chairperson,
+    - spelling: fra
+      value: Prenant note des discussions au sein du Groupe Consultatif pour les CEEMS
+        concernant l'absence de procédure de sélection d'un président,
 - identifier:
   - prefix: CIML
     number: 2019/18
@@ -801,74 +755,68 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Thanks Dr Bobjoseph Mathew, Dr Peter Ulbig, and the BIML for having organised
+  title:
+  - spelling: eng
+    value: Thanks Dr Bobjoseph Mathew, Dr Peter Ulbig, and the BIML for having organised
       the
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks Dr Bobjoseph Mathew, Dr Peter Ulbig, and the BIML for having
-        organised the workshop on e-Learning which took place on Monday 21 October
-        2019,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: Remercie le Dr Bobjoseph Mathew, le Dr Peter Ulbig et le BIML d'avoir organisé
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks Dr Bobjoseph Mathew, Dr Peter Ulbig, and the BIML for having organised
+        the workshop on e-Learning which took place on Monday 21 October 2019,
+    - spelling: eng
+      value: |-
         Thanks Ms Dorina Nati (UNIDO) and Mr Phil Sorrell (New Zealand) for their excellent presentations at this workshop,
         Considers that the development of an e-Learning concept for the benefit of the legal metrology community and others should be a priority activity for the Organisation,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: Remercie le Dr Bobjoseph Mathew, le Dr Peter Ulbig et le BIML d'avoir
+        organisé l'atelier e-Learning qui a eu lieu le lundi 21 octobre 2019,
+    - spelling: fra
+      value: |-
+        Remercie Mme Dorina Nati (de l'ONUDI) et M. Phil Sorrell (Nouvelle Zélande) pour leurs excellentes presentations durant cet atelier,
+        Considère que le développement d'un concept d'apprentissage en ligne au profit de la communauté de la métrologie légale, entre autres, devrait être une activité prioritaire pour l'Organisation,
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Requests the CEEMS Advisory Group to establish one or more ad hoc working groups to develop, with the assistance of the Bureau, an e-Learning concept taking into account the following elements:
         1) a summary, analysis and prioritisation of the outcomes of the e-Learning seminar,
         2) the optimum means of capturing expert input from Technical Committees and Subcommittees in developing and maintaining high quality content,
         3) collaboration with other appropriate organisations,
         4) consideration of the appropriate platform and technology for the e-Learning concept,
         5) consideration of appropriate funding mechanisms and sources,
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Instructs the BIML Director to take into account this e-Learning concept
-        when preparing the budget for the 2021-2024 financial period.
-  - language_code: fra
-    title: Remercie le Dr Bobjoseph Mathew, le Dr Peter Ulbig et le BIML d'avoir organisé
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie le Dr Bobjoseph Mathew, le Dr Peter Ulbig et le BIML d'avoir
-        organisé l'atelier e-Learning qui a eu lieu le lundi 21 octobre 2019,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
-        Remercie Mme Dorina Nati (de l'ONUDI) et M. Phil Sorrell (Nouvelle Zélande) pour leurs excellentes presentations durant cet atelier,
-        Considère que le développement d'un concept d'apprentissage en ligne au profit de la communauté de la métrologie légale, entre autres, devrait être une activité prioritaire pour l'Organisation,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: |-
         Demande au Groupe Consultatif pour les CEEMS de mettre en place un ou plusieurs Groupes de Travail ad hoc afin d'élaborer, avec l'assistance du Bureau, un concept d'apprentissage en ligne tenant compte des éléments suivants :
         1) un résumé, une analyse et une hiérarchisation des résultats du séminaire d'apprentissage en ligne,
         2) les moyens optimaux de recueillir les avis d'experts des comités et sous-comités techniques pour élaborer et maintenir un contenu de haute qualité,
         3) la collaboration avec d'autres organisations appropriées,
         4) l'étude de la plateforme et de la technologie appropriées pour ce concept d'apprentissage en ligne,
         5) l'examen des mécanismes et des sources de financement appropriés,
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge le Directeur du BIML de prendre en compte ce concept d'apprentissage
+  - type: instructs
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs the BIML Director to take into account this e-Learning concept
+        when preparing the budget for the 2021-2024 financial period.
+  - type: charges
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Charge le Directeur du BIML de prendre en compte ce concept d'apprentissage
         en ligne lors de la préparation du budget de l'exercice 2021-2024.
 - identifier:
   - prefix: CIML
@@ -879,55 +827,51 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Notes the report of the OIML Certification System (OIML-CS) Management
+  title:
+  - spelling: eng
+    value: Notes the report of the OIML Certification System (OIML-CS) Management
       Committee (MC) Chairperson, T…
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the report of the OIML Certification System (OIML-CS) Management
+  - spelling: fra
+    value: Prend note du rapport du Président du Comité de Management du Système de
+      Certification
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the report of the OIML Certification System (OIML-CS) Management
         Committee (MC) Chairperson, Thanks the members of the MC, the Review Committee
         and the Maintenance Group for their work, Thanks Mr Cock Oosterman for having
         served as MC Chairperson since the launch of the OIML-CS, Requests CIML Members
         to promote the benefits of the OIML-CS to stakeholders in their country, and
         Requests OIML Issuing Authorities to promote the benefits of the OIML-CS to
         manufacturers in their country.
-  - language_code: fra
-    title: Prend note du rapport du Président du Comité de Management du Système de
-      Certification
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note du rapport du Président du Comité de Management du Système
+    - spelling: fra
+      value: Prend note du rapport du Président du Comité de Management du Système
         de Certification de l'OIML (OIML CS),
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie les membres du Comité de Management, du Comité de Révision
-        et du Groupe de Maintenance pour leur travail,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie M. Cock Oosterman d'avoir assuré la présidence du Comité de
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Remercie les membres du Comité de Management, du Comité de Révision et
+        du Groupe de Maintenance pour leur travail,
+    - spelling: fra
+      value: Remercie M. Cock Oosterman d'avoir assuré la présidence du Comité de
         Management depuis le lancement de l'OIML-CS,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande aux membres du CIML de promouvoir les avantages de l'OIML-CS
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Demande aux membres du CIML de promouvoir les avantages de l'OIML-CS
         auprès des parties prenantes dans leurs pays, et
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande aux Autorités de Délivrance de l'OIML de promouvoir les avantages
+    - spelling: fra
+      value: Demande aux Autorités de Délivrance de l'OIML de promouvoir les avantages
         de l'OIML-CS auprès des fabricants dans leurs pays.
 - identifier:
   - prefix: CIML
@@ -938,39 +882,36 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Decides to accept the proposal to vote on the Final Draft Recommendation
+  title:
+  - spelling: eng
+    value: Decides to accept the proposal to vote on the Final Draft Recommendation
       revision of
-    considerations:
-    - type: considering
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Considering the remarks made by its President,
-    - type: considering
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Considering the report by the USA on the status of the project to revise
-        R 117 Dynamic measuring instruments for liquids other than water,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Decides to accept the proposal to vote on the Final Draft Recommendation
-        revision of R 117 at this meeting.
-  - language_code: fra
-    title: Décide d'accepter la proposition de voter sur le projet final de la Recommandation
+  - spelling: fra
+    value: Décide d'accepter la proposition de voter sur le projet final de la Recommandation
       R
-    actions:
-    - type: decides
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Décide d'accepter la proposition de voter sur le projet final de la
-        Recommandation R 117 lors de cette réunion.
+  actions:
+  - type: decides
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides to accept the proposal to vote on the Final Draft Recommendation
+        revision of R 117 at this meeting.
+    - spelling: fra
+      value: Décide d'accepter la proposition de voter sur le projet final de la Recommandation
+        R 117 lors de cette réunion.
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the remarks made by its President,
+    - spelling: eng
+      value: Considering the report by the USA on the status of the project to revise
+        R 117 Dynamic measuring instruments for liquids other than water,
 - identifier:
   - prefix: CIML
     number: 2019/21
@@ -980,16 +921,21 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Approves the following Final Draft Publications: - Revision of D31 General
+  title:
+  - spelling: eng
+    value: 'Approves the following Final Draft Publications: - Revision of D31 General
       requirements for software…'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: 'Approuve les projets de publications finaux suivants : - Révision de la
+      D 31'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Approves the following Final Draft Publications:
         - Revision of D31 General requirements for software-controlled measuring instruments,
         - New Document Reference standard liquids (Newtonian viscosity standard for the calibration and verification of viscometers),
@@ -997,21 +943,8 @@ decisions:
         - New Basic Publication Rules for the use of OIML logos,
         - New Basic Publication Framework for OIML Training Centers and OIML Training Events,
         - Revision of R 117 Dynamic measuring instruments for liquids other than water,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks the relevant Project Group conveners and members for their work
-        in completing these projects.
-  - language_code: fra
-    title: 'Approuve les projets de publications finaux suivants : - Révision de la
-      D 31'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: |-
         Approuve les projets de publications finaux suivants :
         - Révision de la D 31 Exigences générales pour les instruments de mesure contrôlés par logiciel,
         - Nouveau Document Liquides de référence (étalon de viscosité newtonien pour l'étalonnage et la vérification des viscosimètres),
@@ -1019,12 +952,17 @@ decisions:
         - Nouvelle Publication de Base Règles pour l'utilisation des logos OIML,
         - Nouvelle Publication de Base Cadre pour les Centres de Formation OIML et les Evènements de Formation OIML,
         - Révision de la R 117 Ensembles de mesurage dynamique de liquides autres que l'eau,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie les organisateurs et les membres des différents Groupes de
-        Projet pour leur travail sur la réalisation de ces projets.
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks the relevant Project Group conveners and members for their work
+        in completing these projects.
+    - spelling: fra
+      value: Remercie les organisateurs et les membres des différents Groupes de Projet
+        pour leur travail sur la réalisation de ces projets.
 - identifier:
   - prefix: CIML
     number: 2019/22
@@ -1034,28 +972,26 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Approves as a new project, under the responsibility of OIML TC 5/SC 2,
+  title:
+  - spelling: eng
+    value: Approves as a new project, under the responsibility of OIML TC 5/SC 2,
       the
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves as a new project, under the responsibility of OIML TC 5/SC
-        2, the revision of D 31 General requirements for software controlled measuring
+  - spelling: fra
+    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 5/SC
+      2 de
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves as a new project, under the responsibility of OIML TC 5/SC 2,
+        the revision of D 31 General requirements for software controlled measuring
         instruments, to be conducted as specified in the project proposal provided
         in Addendum 10.1.2.1 to the Working Document for this meeting.
-  - language_code: fra
-    title: Approuve en tant que nouveau projet, sous la responsabilité du TC 5/SC
-      2 de
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve en tant que nouveau projet, sous la responsabilité du TC 5/SC
+    - spelling: fra
+      value: Approuve en tant que nouveau projet, sous la responsabilité du TC 5/SC
         2 de l'OIML, la révision de la D 31 Exigences générales pour les instruments
         de mesure contrôlés par logiciel, à conduire comme indiqué dans la proposition
         de projet figurant dans l'Addendum 10.1.2.1 au Document de Travail de la présente
@@ -1069,27 +1005,25 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Approves as a new project, under the responsibility of TC 6, a new publication
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves as a new project, under the responsibility of TC 6, a new
-        publication, provisionally titled R 87 prepackage template, to be conducted
-        as specified in the project proposal provided in Addendum 10.1.2.2 to the
-        Working Document for this meeting.
-  - language_code: fra
-    title: Approuve en tant que nouveau projet, sous la responsabilité du TC 6, une
+  title:
+  - spelling: eng
+    value: Approves as a new project, under the responsibility of TC 6, a new publication
+  - spelling: fra
+    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 6, une
       nouvelle
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve en tant que nouveau projet, sous la responsabilité du TC 6,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves as a new project, under the responsibility of TC 6, a new publication,
+        provisionally titled R 87 prepackage template, to be conducted as specified
+        in the project proposal provided in Addendum 10.1.2.2 to the Working Document
+        for this meeting.
+    - spelling: fra
+      value: Approuve en tant que nouveau projet, sous la responsabilité du TC 6,
         une nouvelle publication, provisoirement intitulée R 87 Feuille de relevés
         pour les préemballages, à conduire comme indiqué dans la proposition de projet
         figurant dans l'Addendum 10.1.2.2 au Document de Travail de la présente réunion.
@@ -1102,31 +1036,29 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Approves as a new project, under the responsibility of TC 17/SC 2, the
+  title:
+  - spelling: eng
+    value: Approves as a new project, under the responsibility of TC 17/SC 2, the
       revision
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: 'Approves as a new project, under the responsibility of TC 17/SC 2,
-        the revision of R 142 Automated refractometers: Methods and means of verification,
+  - spelling: fra
+    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
+      2, la
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Approves as a new project, under the responsibility of TC 17/SC 2, the
+        revision of R 142 Automated refractometers: Methods and means of verification,
         to be conducted as specified in the project proposal provided in Addendum
         10.1.2.3 to the Working Document for this meeting.'
-  - language_code: fra
-    title: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
-      2, la
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: 'Approuve en tant que nouveau projet, sous la responsabilité du TC
-        17/SC 2, la révision de la R 142 Réfractomètres automatiques : Méthodes et
-        moyens de vérification, à conduire comme indiqué dans la proposition de projet
-        figurant dans l''Addendum 10.1.2.3 au Document de Travail de la présente réunion.'
+    - spelling: fra
+      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
+        2, la révision de la R 142 Réfractomètres automatiques : Méthodes et moyens
+        de vérification, à conduire comme indiqué dans la proposition de projet figurant
+        dans l''Addendum 10.1.2.3 au Document de Travail de la présente réunion.'
 - identifier:
   - prefix: CIML
     number: 2019/25
@@ -1136,27 +1068,25 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Approves as a new project, under the responsibility of TC 17/SC 5, a new
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves as a new project, under the responsibility of TC 17/SC 5,
-        a new publication Rotary viscometers - Determination of dynamic viscosity
-        - Verification method, to be conducted as specified in the project proposal
-        provided in Addendum 10.1.2.4 to the Working Document for this meeting.
-  - language_code: fra
-    title: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
+  title:
+  - spelling: eng
+    value: Approves as a new project, under the responsibility of TC 17/SC 5, a new
+  - spelling: fra
+    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
       5, une
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves as a new project, under the responsibility of TC 17/SC 5, a
+        new publication Rotary viscometers - Determination of dynamic viscosity -
+        Verification method, to be conducted as specified in the project proposal
+        provided in Addendum 10.1.2.4 to the Working Document for this meeting.
+    - spelling: fra
+      value: Approuve en tant que nouveau projet, sous la responsabilité du TC 17/SC
         5, une nouvelle publication Viscosimètres rotatifs - Détermination de la viscosité
         dynamique - Méthode de vérification, à conduire comme indiqué dans la proposition
         de projet figurant dans l'Addendum 10.1.2.4 au Document de Travail de la présente
@@ -1170,39 +1100,36 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Decides to accept the proposal to vote on the project to revise B 11
-    considerations:
-    - type: considering
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Considering the remarks made by its President,
-    - type: considering
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Considering the report by the USA on the status of the project to revise
+  title:
+  - spelling: eng
+    value: Decides to accept the proposal to vote on the project to revise B 11
+  - spelling: fra
+    value: Décide d'accepter la proposition de voter sur le projet de révision de
+      la B
+  actions:
+  - type: decides
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides to accept the proposal to vote on the project to revise B 11
+        at this meeting.
+    - spelling: fra
+      value: Décide d'accepter la proposition de voter sur le projet de révision de
+        la B 11 durant cette réunion.
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the remarks made by its President,
+    - spelling: eng
+      value: Considering the report by the USA on the status of the project to revise
         B 11 Rules governing the translation, copyright and distribution of OIML Publications,
         and
-    actions:
-    - type: decides
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Decides to accept the proposal to vote on the project to revise B 11
-        at this meeting.
-  - language_code: fra
-    title: Décide d'accepter la proposition de voter sur le projet de révision de
-      la B
-    actions:
-    - type: decides
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Décide d'accepter la proposition de voter sur le projet de révision
-        de la B 11 durant cette réunion.
 - identifier:
   - prefix: CIML
     number: 2019/27
@@ -1212,30 +1139,28 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Approves as a new project, under the responsibility of the BIML and the
+  title:
+  - spelling: eng
+    value: Approves as a new project, under the responsibility of the BIML and the
       USA
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves as a new project, under the responsibility of the BIML and
-        the USA, the revision of B 11 Rules governing the translation, copyright and
-        distribution of OIML Publications, to be conducted as specified in the project
-        proposal provided in Additional Meeting Document 10.1.2.5.
-  - language_code: fra
-    title: Approuve en tant que nouveau projet, sous la responsabilité du BIML et
+  - spelling: fra
+    value: Approuve en tant que nouveau projet, sous la responsabilité du BIML et
       des Etats-Unis
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve en tant que nouveau projet, sous la responsabilité du BIML
-        et des Etats-Unis, la révision de la B 11 Règles relatives à la traduction,
-        aux droits d'auteur et à la distribution des Publications de I'OIML, à conduire
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves as a new project, under the responsibility of the BIML and the
+        USA, the revision of B 11 Rules governing the translation, copyright and distribution
+        of OIML Publications, to be conducted as specified in the project proposal
+        provided in Additional Meeting Document 10.1.2.5.
+    - spelling: fra
+      value: Approuve en tant que nouveau projet, sous la responsabilité du BIML et
+        des Etats-Unis, la révision de la B 11 Règles relatives à la traduction, aux
+        droits d'auteur et à la distribution des Publications de I'OIML, à conduire
         comme indiqué dans la proposition de projet figurant dans le document de séance
         supplémentaire 10.1.2.5.
 - identifier:
@@ -1247,79 +1172,57 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Approves the amended periodic review procedure detailed in Annex A of Addendum
+  title:
+  - spelling: eng
+    value: Approves the amended periodic review procedure detailed in Annex A of Addendum
       10.1.3.2 to
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Noting the result of the vote on the 1CD of the Revision of B 6 Directives
-        for OIML technical work,
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Noting the recommendation in Addendum 10.1.3.2 to the Working Document
-        for this meeting,
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves the amended periodic review procedure detailed in Annex A
-        of Addendum 10.1.3.2 to the Working Document for this meeting,
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves the inclusion of the revised text, detailed in Annex B as
-        amended during the meeting, together with the flowchart given in Annex C of
-        Addendum 10.1.3.2 to the Working Document for this meeting, in the Final Draft
-        Basic (FDB) Publication Revision of B 6-1 presented in 10.1.3.1, and
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approves the FDB Revision of B 6.
-  - language_code: fra
-    title: Approuve la procédure de révision périodique modifiée décrite dans l'Annexe
+  - spelling: fra
+    value: Approuve la procédure de révision périodique modifiée décrite dans l'Annexe
       A de l'Addendum 10.1.3.2
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prenant note du résultat du vote sur le 1CD de la révision de la B
-        6 Directives pour les travaux techniques de I'OIML,
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prenant note de la recommandation figurant dans l'Addendum 10.1.3.2
-        au Document de Travail de la présente réunion,
-    actions:
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve la procédure de révision périodique modifiée décrite dans
-        l'Annexe A de l'Addendum 10.1.3.2 au Document de Travail de la présente réunion,
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve l'inclusion, dans le projet final de la publication révisée
+  actions:
+  - type: approves
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the amended periodic review procedure detailed in Annex A of
+        Addendum 10.1.3.2 to the Working Document for this meeting,
+    - spelling: eng
+      value: Approves the inclusion of the revised text, detailed in Annex B as amended
+        during the meeting, together with the flowchart given in Annex C of Addendum
+        10.1.3.2 to the Working Document for this meeting, in the Final Draft Basic
+        (FDB) Publication Revision of B 6-1 presented in 10.1.3.1, and
+    - spelling: eng
+      value: Approves the FDB Revision of B 6.
+    - spelling: fra
+      value: Approuve la procédure de révision périodique modifiée décrite dans l'Annexe
+        A de l'Addendum 10.1.3.2 au Document de Travail de la présente réunion,
+    - spelling: fra
+      value: Approuve l'inclusion, dans le projet final de la publication révisée
         B 6-1 présentée en 10.1.3.1, du texte révisé décrit dans l'Annexe B, tel que
         modifié durant la réunion, ainsi que de l'organigramme figurant dans l'Annexe
         C de l'Addendum 10.1.3.2 au Document de Travail de la présente réunion, et
-    - type: approves
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Approuve le projet final de publication de la révision de la B 6.
+    - spelling: fra
+      value: Approuve le projet final de publication de la révision de la B 6.
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the result of the vote on the 1CD of the Revision of B 6 Directives
+        for OIML technical work,
+    - spelling: eng
+      value: Noting the recommendation in Addendum 10.1.3.2 to the Working Document
+        for this meeting,
+    - spelling: fra
+      value: Prenant note du résultat du vote sur le 1CD de la révision de la B 6
+        Directives pour les travaux techniques de I'OIML,
+    - spelling: fra
+      value: Prenant note de la recommandation figurant dans l'Addendum 10.1.3.2 au
+        Document de Travail de la présente réunion,
 - identifier:
   - prefix: CIML
     number: 2019/29
@@ -1329,41 +1232,43 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Supports the criteria used to identify high priority publications and projects
+  title:
+  - spelling: eng
+    value: Supports the criteria used to identify high priority publications and projects
       developed by Task
-    actions:
-    - type: supports
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Supports the criteria used to identify high priority publications and
+  - spelling: fra
+    value: Soutient les critères utilisés pour identifier les publications et projets
+      hautement prioritaires él…
+  actions:
+  - type: supports
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Supports the criteria used to identify high priority publications and
         projects developed by Task Group 2023, Supports the provisional lists of high
         priority publications and projects as presented at the Meeting, and Requests
         the Presidential Council and the BIML to review these and make proposals for
         approval at the 55th CIML Meeting in 2020.
-  - language_code: fra
-    title: Soutient les critères utilisés pour identifier les publications et projets
-      hautement prioritaires él…
-    actions:
-    - type: endorses
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Soutient les critères utilisés pour identifier les publications et
-        projets hautement prioritaires élaborés par le Groupe de Travail 2023,
-    - type: endorses
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Soutient les listes provisoires de publications et de projets hautement
+  - type: endorses
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Soutient les critères utilisés pour identifier les publications et projets
+        hautement prioritaires élaborés par le Groupe de Travail 2023,
+    - spelling: fra
+      value: Soutient les listes provisoires de publications et de projets hautement
         prioritaires présentées lors de la Réunion, et
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande au Conseil de la Présidence et au BIML de les examiner et de
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Demande au Conseil de la Présidence et au BIML de les examiner et de
         soumettre des propositions pour approbation lors de la 55eme Réunion du CIML
         en 2020.
 - identifier:
@@ -1375,57 +1280,53 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Supports the proposal of Task Group 2023 and the Presidential Council to
+  title:
+  - spelling: eng
+    value: Supports the proposal of Task Group 2023 and the Presidential Council to
       identify "mentors"
-    actions:
-    - type: supports
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Supports the proposal of Task Group 2023 and the Presidential Council
+  - spelling: fra
+    value: Soutient la proposition du Groupe de Travail 2023 et du Conseil de la Présidence
+  actions:
+  - type: supports
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Supports the proposal of Task Group 2023 and the Presidential Council
         to identify "mentors" for the OIML Bulletin, who will take responsibility
         for sustainably increasing the number of technical articles in the OIML Bulletin
         for the benefit of the legal metrology community, including legal metrology
         practitioners,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests CIML Members to consider becoming a "mentor" for the OIML
-        Bulletin, and
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Requests that CIML Members make any possible efforts in order that
-        more technical articles are submitted for publication in the OIML Bulletin.
-  - language_code: fra
-    title: Soutient la proposition du Groupe de Travail 2023 et du Conseil de la Présidence
-    actions:
-    - type: endorses
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Soutient la proposition du Groupe de Travail 2023 et du Conseil de
-        la Présidence d'identifier des « mentors » pour le Bulletin de l'OIML, qui
-        auront la responsabilité d'augmenter de manière durable le nombre d'articles
-        techniques dans le Bulletin de l'OIML au profit de la communauté de la métrologie
-        légale, y compris des praticiens de la métrologie légale,
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande aux Membres du CIML d'envisager de devenir un « mentor » pour
+  - type: requests
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests CIML Members to consider becoming a "mentor" for the OIML Bulletin,
+        and
+    - spelling: eng
+      value: Requests that CIML Members make any possible efforts in order that more
+        technical articles are submitted for publication in the OIML Bulletin.
+    - spelling: fra
+      value: Demande aux Membres du CIML d'envisager de devenir un « mentor » pour
         le Bulletin de l'OIML, et
-    - type: requests
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Demande aux Membres du CIML de faire de leur mieux afin qu'un plus
-        grand nombre d'articles techniques soient soumis pour publication dans le
-        Bulletin de l'OIML.
+    - spelling: fra
+      value: Demande aux Membres du CIML de faire de leur mieux afin qu'un plus grand
+        nombre d'articles techniques soient soumis pour publication dans le Bulletin
+        de l'OIML.
+  - type: endorses
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Soutient la proposition du Groupe de Travail 2023 et du Conseil de la
+        Présidence d'identifier des « mentors » pour le Bulletin de l'OIML, qui auront
+        la responsabilité d'augmenter de manière durable le nombre d'articles techniques
+        dans le Bulletin de l'OIML au profit de la communauté de la métrologie légale,
+        y compris des praticiens de la métrologie légale,
 - identifier:
   - prefix: CIML
     number: 2019/31
@@ -1435,31 +1336,31 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: "(Agenda item 11)"
-    considerations:
-    - type: noting
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: "(Agenda item 11)"
+  - spelling: fra
+    value: "(Point 11 de l'ordre du jour)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: "(Agenda item 11)"
+    - spelling: fra
+      value: "(Point 11 de l'ordre du jour)"
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Noting the procedure for the election of the CIML Second Vice-President in OIML B 14:2013,
         Selects Dr Bobjoseph Mathew (Switzerland) as its Second Vice-President for a six-year term with immediate effect.
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: "(Agenda item 11)"
-  - language_code: fra
-    title: "(Point 11 de l'ordre du jour)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: "(Point 11 de l'ordre du jour)"
 - identifier:
   - prefix: CIML
     number: 2019/32
@@ -1469,23 +1370,21 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: "(Agenda item 12.1)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: "(Agenda item 12.1)"
-  - language_code: fra
-    title: "(Point 12.1 de l'ordre du jour)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: "(Point 12.1 de l'ordre du jour)"
+  title:
+  - spelling: eng
+    value: "(Agenda item 12.1)"
+  - spelling: fra
+    value: "(Point 12.1 de l'ordre du jour)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: "(Agenda item 12.1)"
+    - spelling: fra
+      value: "(Point 12.1 de l'ordre du jour)"
 - identifier:
   - prefix: CIML
     number: 2019/33
@@ -1495,30 +1394,28 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Thanks Dr Yukinobu Miki for his contribution to the work of the OIML in
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: Thanks Dr Yukinobu Miki for his contribution to the work of the OIML in
+  - spelling: fra
+    value: Remercie le Dr Yukinobu Miki pour sa contribution aux travaux de l'OIML
+      dans ses
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Thanks Dr Yukinobu Miki for his contribution to the work of the OIML in his roles
         - as CIML Member for Japan since 2005,
         - as member of the Presidential Council since 2007,
         - as Second CIML Vice-President since 2013,
         - acting First Vice-President from 2017-2018, and
         - as Chairperson of the RLMO Round Table since 2014.
-  - language_code: fra
-    title: Remercie le Dr Yukinobu Miki pour sa contribution aux travaux de l'OIML
-      dans ses
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: |-
         Remercie le Dr Yukinobu Miki pour sa contribution aux travaux de l'OIML dans ses fonctions
         - de Membre du CIML pour le Japon depuis 2005,
         - de membre du Conseil de la Présidence depuis 2007,
@@ -1534,26 +1431,29 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Thanks him for his contribution to the development of the OIML Certification
+  title:
+  - spelling: eng
+    value: Thanks him for his contribution to the development of the OIML Certification
       System (OIML-CS)
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks him for his contribution to the development of the OIML Certification
+  - spelling: fra
+    value: "(Point 12.2 de l'ordre du jour)"
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks him for his contribution to the development of the OIML Certification
         System (OIML-CS) and as Chairperson of the Management Committee since the
         launch of the OIML-CS.
-  - language_code: fra
-    title: "(Point 12.2 de l'ordre du jour)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: "(Point 12.2 de l'ordre du jour)"
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: "(Point 12.2 de l'ordre du jour)"
 - identifier:
   - prefix: CIML
     number: 2019/35
@@ -1563,27 +1463,25 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Thanks Mr Marcos Trevisan Vasconcellos (Brazil) for his presentation on
+  title:
+  - spelling: eng
+    value: Thanks Mr Marcos Trevisan Vasconcellos (Brazil) for his presentation on
       behalf of Prof. Carlos
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks Mr Marcos Trevisan Vasconcellos (Brazil) for his presentation
+  - spelling: fra
+    value: Remercie M. Marcos Trevisan Vasconcellos (Brésil) pour sa présentation
+      au nom du professeur Carlos
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks Mr Marcos Trevisan Vasconcellos (Brazil) for his presentation
         on behalf of Prof. Carlos Augusto de Azevedo, winner of the 2018 OIML CEEMS
         Award.
-  - language_code: fra
-    title: Remercie M. Marcos Trevisan Vasconcellos (Brésil) pour sa présentation
-      au nom du professeur Carlos
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie M. Marcos Trevisan Vasconcellos (Brésil) pour sa présentation
+    - spelling: fra
+      value: Remercie M. Marcos Trevisan Vasconcellos (Brésil) pour sa présentation
         au nom du professeur Carlos Augusto de Azevedo, lauréat du Prix CEEMS de I'OIML
         en 2018.
 - identifier:
@@ -1595,50 +1493,51 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Notes the information provided on the organisation of the 55th CIML Meeting
+  title:
+  - spelling: eng
+    value: Notes the information provided on the organisation of the 55th CIML Meeting
       and 16th
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the information provided on the organisation of the 55th CIML
-        Meeting and 16th International Conference in 2020,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks the People's Republic of China for its invitation to host the
-        55th CIML Meeting and 16th International Conference in 2020, and
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Instructs the Bureau to make the necessary arrangements to organise
-        the 55th CIML Meeting and 16th International Conference in 2020.
-  - language_code: fra
-    title: Prend note des informations fournies sur l'organisation de la 55eme Réunion
+  - spelling: fra
+    value: Prend note des informations fournies sur l'organisation de la 55eme Réunion
       du CIML et
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note des informations fournies sur l'organisation de la 55eme
-        Réunion du CIML et de la 16eme Conférence Internationale en 2020,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie la République populaire de Chine pour son invitation à accueillir
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the information provided on the organisation of the 55th CIML Meeting
+        and 16th International Conference in 2020,
+    - spelling: fra
+      value: Prend note des informations fournies sur l'organisation de la 55eme Réunion
+        du CIML et de la 16eme Conférence Internationale en 2020,
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks the People's Republic of China for its invitation to host the
+        55th CIML Meeting and 16th International Conference in 2020, and
+    - spelling: fra
+      value: Remercie la République populaire de Chine pour son invitation à accueillir
         la 55ème Réunion du CIML et la 16ème Conférence Internationale en 2020, et
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Charge le Bureau de prendre les dispositions nécessaires pour organiser
+  - type: instructs
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs the Bureau to make the necessary arrangements to organise the
+        55th CIML Meeting and 16th International Conference in 2020.
+  - type: charges
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: Charge le Bureau de prendre les dispositions nécessaires pour organiser
         la 55ème Réunion du CIML et la 16ème Conférence Internationale en 2020.
 - identifier:
   - prefix: CIML
@@ -1649,52 +1548,53 @@ decisions:
   dates:
   - date: '2019-10-22'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Notes the information provided on the organisation of the 56th CIML Meeting
+  title:
+  - spelling: eng
+    value: Notes the information provided on the organisation of the 56th CIML Meeting
       in 2021
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Notes the information provided on the organisation of the 56th CIML
-        Meeting in 2021,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Thanks the Russian Federation for its invitation to host the 56th CIML
+  - spelling: fra
+    value: Prend note des informations fournies sur l'organisation de la 56ème Réunion
+      du CIML en
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the information provided on the organisation of the 56th CIML Meeting
+        in 2021,
+    - spelling: fra
+      value: Prend note des informations fournies sur l'organisation de la 56ème Réunion
+        du CIML en 2021,
+  - type: thanks
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Thanks the Russian Federation for its invitation to host the 56th CIML
         Meeting in 2021, and
-    - type: instructs
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+    - spelling: fra
+      value: Remercie la Fédération de Russie pour son invitation à accueillir la
+        56ème Réunion du CIML en 2021, et
+  - type: instructs
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Instructs the Bureau to make the necessary arrangements to organise the 56th CIML Meeting in 2021.
         ***
         **
-  - language_code: fra
-    title: Prend note des informations fournies sur l'organisation de la 56ème Réunion
-      du CIML en
-    actions:
-    - type: notes
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Prend note des informations fournies sur l'organisation de la 56ème
-        Réunion du CIML en 2021,
-    - type: thanks
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: Remercie la Fédération de Russie pour son invitation à accueillir la
-        56ème Réunion du CIML en 2021, et
-    - type: charges
-      date_effective:
-        date: '2019-10-22'
-        type: effective
-      message: |-
+  - type: charges
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Charge le Bureau de prendre les dispositions nécessaires pour organiser la 56ème Réunion du CIML en 2021.
         ***
         **

@@ -10,29 +10,161 @@ date_range:
   start: '2021-10-19'
   end: '2021-10-22'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Online meeting
+general_area:
+- spelling: eng
+  value: Online meeting
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/56-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/56-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 56th CIML Meeting — Resolutions (EN)
-  general_area: Online meeting
-- language_code: fra
-  script: Latn
-  title: 56e réunion du CIML — Résolutions (FR)
-  general_area: Online meeting
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '56'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 56th Meeting
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 18, 19 and 22 October 2021
+    outcome: discussed
+  - label: '1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening remarks and meeting protocol
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the agenda
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Minutes of the 55th CIML Meeting
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on BIML matters and activities
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Discussion on the renewal of the contract of Paul Dixon, BIML Assistant
+        Director
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of Draft CIML Resolutions (Session 1)
+    outcome: adopted
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML publications and technical activities
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CEEMS Advisory Group Chairperson
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preparation of the 16th Conference
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of Draft CIML Resolutions (Session 2)
+    outcome: adopted
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Follow-up from the 16th Conference
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: International cooperation
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Awards
+    outcome: discussed
+  - label: '17'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '18'
+    kind: aob
+    title:
+    - spelling: eng
+      value: Any other business
+    outcome: discussed
+  - label: '19'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of Draft CIML Resolutions (Session 3)
+    outcome: adopted
+  - label: '20'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Closing remarks
+    outcome: discussed
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-56-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
+title:
+- spelling: eng
+  value: 56th International Committee of Legal Metrology (CIML)

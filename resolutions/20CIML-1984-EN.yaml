@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/20CIML-1984-EN.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/20CIML-1984-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-20
-# Language: en
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 20th CIML Meeting — Minutes (EN, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: FIHEL
   country_code: FI
   meeting_urn: urn:oiml:ciml:meeting:ciml-20
+  title:
+  - spelling: eng
+    value: 20th CIML Meeting — Minutes (EN, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,16 +17,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: APPROVAL OF THE REPORT ON THE 19th COMMITTEE MEETING'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: 'This report is approved with the following amendment :'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: APPROVAL OF THE REPORT ON THE 19th COMMITTEE MEETING'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'This report is approved with the following amendment :'
 - identifier:
   - prefix: CIML
     number: 1984/2
@@ -41,18 +40,22 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: APPROVAL OF THE ACCOUNTANT REPORT FOR 1983 AND OTHER FINANCIAL
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: APPROVAL OF THE ACCOUNTANT REPORT FOR 1983 AND OTHER FINANCIAL
       INFORMATION'
-    subject: "(The CIML)"
-    actions:
-    - type: approves
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee approves the accountant report for 1983 and instructs
-        its President and the Director of the Bureau to submit it to the 7th Conference.
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: approves
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approves the accountant report for 1983 and instructs its
+        President and the Director of the Bureau to submit it to the 7th Conference.
 - identifier:
   - prefix: CIML
     number: 1984/3
@@ -62,23 +65,27 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: EXAMINATION OF THE DETAILED DRAFT REGULATIONS FOR THE OIML
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: EXAMINATION OF THE DETAILED DRAFT REGULATIONS FOR THE OIML
       RETIREMENT PLAN'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr BIRKELAND recalls that the principle of the creation of an OIML
-        retirement plan was the subject of a decision taken by the 6th Conference.
-        Subsequently, during its 19th meeting, the Committee has accepted the expert's
-        report on the cost of this retirement plan, which confirmed the estimates
-        presented to the 6th Conference. Complying with a request of the Committee,
-        the Bureau has then prepared a draft of the detailed rules of the retirement
-        plan, which was submitted to the meeting for study.
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND recalls that the principle of the creation of an OIML retirement
+        plan was the subject of a decision taken by the 6th Conference. Subsequently,
+        during its 19th meeting, the Committee has accepted the expert's report on
+        the cost of this retirement plan, which confirmed the estimates presented
+        to the 6th Conference. Complying with a request of the Committee, the Bureau
+        has then prepared a draft of the detailed rules of the retirement plan, which
+        was submitted to the meeting for study.
 - identifier:
   - prefix: CIML
     number: 1984/4
@@ -88,17 +95,21 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: EXAMINATION OF PROPOSALS OF THE PRESIDENTIAL COUNCIL CONCERNING
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: EXAMINATION OF PROPOSALS OF THE PRESIDENTIAL COUNCIL CONCERNING
       LONG-TERM PLANNING OF OIML WORK, AND THE ROLE AND RESPONSIBILITIES OF CIML MEMBERS'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr BIRKELAND presents the document on planning, elaborated by the Presidential
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND presents the document on planning, elaborated by the Presidential
         Council according to the decisions of the Committee (18th and 19th meetings)
         and distributed to Committee Members in June 1984.
 - identifier:
@@ -110,19 +121,23 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: SEVENTH CONFERENCE : ORGANIZATION OF THE MEETING, CHAIRMANSHIP,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: SEVENTH CONFERENCE : ORGANIZATION OF THE MEETING, CHAIRMANSHIP,
       AGENDA'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee adopts the drafts of the Agenda and of the timetable
-        presented by the Bureau as well as the proposals concerning the organization
-        of the meeting presented by Finland.
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee adopts the drafts of the Agenda and of the timetable presented
+        by the Bureau as well as the proposals concerning the organization of the
+        meeting presented by Finland.
 - identifier:
   - prefix: CIML
     number: 1984/6
@@ -132,16 +147,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr BIRKELAND gives a summary of the decisions of the Conference, ensures
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND gives a summary of the decisions of the Conference, ensures
         that there are no ambiguities and instructs the Bureau to ensure that they
         are implemented, as appropriate.
 - identifier:
@@ -153,10 +172,12 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: EXAMINATION OF THE SITUATION OF SOME SECRETARIATS'
-    subject: "(The CIML)"
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: EXAMINATION OF THE SITUATION OF SOME SECRETARIATS'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1984/7.1
@@ -166,16 +187,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.1: SP5 (volumes of liquids)'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee accepts the proposal presented by the Fed. Rep. of Germany,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.1: SP5 (volumes of liquids)'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee accepts the proposal presented by the Fed. Rep. of Germany,
         United States and France to split into two SP5, a part « static measurement
         » under the responsibility of France and a part « dynamic measurement » under
         that of the Fed. Rep. of Germany.
@@ -188,16 +213,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: SP13 (electricity)'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr THULIN presents a study prepared by the Bureau about the possible
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: SP13 (electricity)'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr THULIN presents a study prepared by the Bureau about the possible
         activity of this Pilot Secretariat in liaison with IEC work. For the majority
         of the subjects it would be ideal for OIML not to undertake any specific work
         but to influence the corresponding IEC work so that the IEC publications (which,
@@ -214,16 +243,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.3: Photometry and radiometry'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr. THULIN recalls that in April 1984 the Bureau carried out an enquiry
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.3: Photometry and radiometry'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. THULIN recalls that in April 1984 the Bureau carried out an enquiry
         in order to find out the interest shown by the Member States in these subjects;
         this enquiry included extracts from IEC and CIE $ ^{*} $ work programs.
 - identifier:
@@ -235,16 +268,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.4: SP 17-Sr 3 (radioactive pollution)'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr ATHANE points out that the United Kingdom having initially accepted
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.4: SP 17-Sr 3 (radioactive pollution)'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE points out that the United Kingdom having initially accepted
         responsibility for this Reporting Secretariat was obliged to abandon it; another
         candidate country must therefore be found.
 - identifier:
@@ -256,16 +293,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.5: SP 2-Sr 4 (recognition of metrological controls)'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: 'Mr BIRKELAND gives a summary of the discussions which took place during
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.5: SP 2-Sr 4 (recognition of metrological controls)'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr BIRKELAND gives a summary of the discussions which took place during
         the Conference and considers that it is not necessary to repeat them. In conclusion,
         the Committee adopts the following resolution:'
 - identifier:
@@ -277,17 +318,21 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.6: Suppression of certain Secretariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: 'Following the proposal of the Bureau and of the States concerned,
-        the Committee suppresses the following three Reporting Secretariats :'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.6: Suppression of certain Secretariats'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Following the proposal of the Bureau and of the States concerned, the
+        Committee suppresses the following three Reporting Secretariats :'
 - identifier:
   - prefix: CIML
     number: 1984/7.7
@@ -297,16 +342,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.7: SP 2-Sr 6 and SP 7-Sr 2'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr PETERSEN underlines the extreme urgency of the work of both these
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.7: SP 2-Sr 6 and SP 7-Sr 2'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr PETERSEN underlines the extreme urgency of the work of both these
         Secretariats and suggests that the Committee recognise this officially and
         requests the States concerned to give these subjects the highest priority;
         he proposes a draft resolution on this subject.
@@ -319,17 +368,21 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.8: Recalibration intervals of measurement standards and
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.8: Recalibration intervals of measurement standards and
       standard devices'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: Mr ATHANE states that the two documents prepared by the ILAC task Force
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE states that the two documents prepared by the ILAC task Force
         E were taken into consideration by OIML.
 - identifier:
   - prefix: CIML
@@ -340,16 +393,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: REPORT ON ACTIVITY OF BIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee took note of the report on the activity of BIML, presented
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: REPORT ON ACTIVITY OF BIML'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of the report on the activity of BIML, presented
         in writing.
 - identifier:
   - prefix: CIML
@@ -360,10 +417,12 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: OTHER QUESTIONS'
-    subject: "(The CIML)"
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: OTHER QUESTIONS'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1984/9.1
@@ -373,16 +432,20 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.1: Collaboration ARSO-OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: approves
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee approves this agreement and instructs its President to
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.1: Collaboration ARSO-OIML'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: approves
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approves this agreement and instructs its President to
         sign it.
 - identifier:
   - prefix: CIML
@@ -393,90 +456,68 @@ decisions:
   dates:
   - date: '1984-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: DATE AND PLACE OF THE NEXT CIML MEETING'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: 'The Committee adopted the report on its 19th meeting with the following
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: DATE AND PLACE OF THE NEXT CIML MEETING'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee adopted the report on its 19th meeting with the following
         modification:'
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee adopted the accountant report for 1983 and instructed
-        its President and the Director of the Bureau to submit it to the Seventh Conference.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee accepted the proposals of its President and the Finnish
+    - spelling: eng
+      value: The Committee adopted the accountant report for 1983 and instructed its
+        President and the Director of the Bureau to submit it to the Seventh Conference.
+    - spelling: eng
+      value: The Committee accepted the proposals of its President and the Finnish
         Delegation for the chairmanship of the Conference; the Committee also examined
         and accepted the draft agenda and the arrangements for the organization of
         the Conference.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee examined the decisions of the Conference and took the
-        necessary measures to implement them.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: 'The Committee divided the Pilot Secretariat SP5 as follows:'
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee took note of the BIML report on the measurement of electrical
+    - spelling: eng
+      value: The Committee examined the decisions of the Conference and took the necessary
+        measures to implement them.
+    - spelling: eng
+      value: 'The Committee divided the Pilot Secretariat SP5 as follows:'
+    - spelling: eng
+      value: The Committee took note of the BIML report on the measurement of electrical
         and magnetic quantities and requested the States concerned to consider the
         present situation of SP13 and to present appropriate proposals within the
         framework of the long-term planning.
-    - type: requests
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee requested the BIML to continue its investigation on the
-        opportunity for OIML to work in the field of photometry and radiometry.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee took note of the fact that SP17-Sr3 would remain inactive
+    - spelling: eng
+      value: The Committee took note of the fact that SP17-Sr3 would remain inactive
         until a country volunteers to assume responsibility.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: 'The Committee suppressed the following Reporting Secretariats :'
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee took note of the BIML report and requested Czechoslovakia,
+    - spelling: eng
+      value: 'The Committee suppressed the following Reporting Secretariats :'
+    - spelling: eng
+      value: The Committee took note of the BIML report and requested Czechoslovakia,
         responsible for SP 23, to study the advisability of creating a new Reporting
         Secretariat on recalibration intervals of standards, and to submit a proposal
         to the Committee at its next meeting.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee took note of the report on BIML activity, submitted in
+    - spelling: eng
+      value: The Committee took note of the report on BIML activity, submitted in
         writing.
-    - type: approves
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee approved the draft agreement on collaboration between
-        ARSO and OIML.
-    - type: notes
-      date_effective:
-        date: '1984-10-01'
-        type: effective
-      message: The Committee judged appropriate to hold its 21st Meeting in the spring
+    - spelling: eng
+      value: The Committee judged appropriate to hold its 21st Meeting in the spring
         of 1986, in Paris.
+  - type: requests
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee requested the BIML to continue its investigation on the
+        opportunity for OIML to work in the field of photometry and radiometry.
+  - type: approves
+    date_effective:
+      date: '1984-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approved the draft agreement on collaboration between ARSO
+        and OIML.

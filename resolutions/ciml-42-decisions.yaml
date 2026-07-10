@@ -1,13 +1,13 @@
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 42nd CIML Meeting — Decisions (EN)
-  - language_code: fra
-    title: 42e réunion du CIML — Décisions (FR)
   source: OIML CIML Secretariat (BIML)
   country_code: CN
   meeting_urn: urn:oiml:ciml:meeting:ciml-42
+  title:
+  - spelling: eng
+    value: 42nd CIML Meeting — Decisions (EN)
+  - spelling: fra
+    value: 42e réunion du CIML — Décisions (FR)
 decisions:
 - identifier:
   - prefix: CIML
@@ -18,26 +18,28 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: Approval of the minutes of the 41st CIML Meeting                          To
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: Approval of the minutes of the 41st CIML Meeting                          To
       be voted on immediately'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee approved the minutes of the 41st CIML Meeting without
-        modification.
-  - language_code: fra
-    title: 'Agenda Item 1: Approval of the minutes of the 41st CIML Meeting                          To
+  - spelling: fra
+    value: 'Agenda Item 1: Approval of the minutes of the 41st CIML Meeting                          To
       be voted on immediately'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a approuvé le Compte Rendu de la 41eme Réunion du CIML sans
+  actions:
+  - type: approves
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approved the minutes of the 41st CIML Meeting without modification.
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a approuvé le Compte Rendu de la 41eme Réunion du CIML sans
         y apporter de modification.
 - identifier:
   - prefix: CIML
@@ -48,12 +50,12 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: Member States and Corresponding Members                                   Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: Member States and Corresponding Members                                   Oral
       report'
-  - language_code: fra
-    title: 'Agenda Item 2: Member States and Corresponding Members                                   Oral
+  - spelling: fra
+    value: 'Agenda Item 2: Member States and Corresponding Members                                   Oral
       report'
 - identifier:
   - prefix: CIML
@@ -64,26 +66,24 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2.1: Situation of certain Members                                        No
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2.1: Situation of certain Members                                        No
       decision to make'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee noted that two additional Corresponding Members (United
+  - spelling: fra
+    value: 'Agenda Item 2.1: Situation of certain Members                                        No
+      decision to make'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee noted that two additional Corresponding Members (United
         Arab Emirates and Sudan) had joined the OIML.
-  - language_code: fra
-    title: 'Agenda Item 2.1: Situation of certain Members                                        No
-      decision to make'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note de l'adhésion à l'OIML de deux Membres Correspondants
+    - spelling: fra
+      value: Le Comité a pris note de l'adhésion à l'OIML de deux Membres Correspondants
         supplémentaires (les Émirats Arabes Unis et le Soudan).
 - identifier:
   - prefix: CIML
@@ -94,11 +94,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Financial matters'
-  - language_code: fra
-    title: 'Agenda Item 3: Financial matters'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Financial matters'
+  - spelling: fra
+    value: 'Agenda Item 3: Financial matters'
 - identifier:
   - prefix: CIML
     number: 2007/3.1
@@ -108,34 +108,33 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3.1: Adoption of the Auditor’s report for 2006                            To
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3.1: Adoption of the Auditor’s report for 2006                            To
       be voted on (Item 11)'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee approved the Auditor's report for 2006 and requested
-        its President and the BIML Director to submit it to the Thirteenth Conference
+  - spelling: fra
+    value: 'Agenda Item 3.1: Adoption of the Auditor’s report for 2006                            To
+      be voted on (Item 11)'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approved the Auditor's report for 2006 and requested its
+        President and the BIML Director to submit it to the Thirteenth Conference
         in 2008.
-  - language_code: fra
-    title: 'Agenda Item 3.1: Adoption of the Auditor’s report for 2006                            To
-      be voted on (Item 11)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a approuvé le Rapport d'audit de 2006 et a demandé à son
-        Président et au Directeur du BIML de le soumettre à la Treizième Conférence
-        en 2008.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le comité a pris note du rapport rendu par le Directeur du BIML.
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a approuvé le Rapport d'audit de 2006 et a demandé à son Président
+        et au Directeur du BIML de le soumettre à la Treizième Conférence en 2008.
+    - spelling: fra
+      value: Le comité a pris note du rapport rendu par le Directeur du BIML.
 - identifier:
   - prefix: CIML
     number: 2007/3.3
@@ -145,15 +144,17 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3.3: Financial report for 2006 and estimates for 2007'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of the report given by the BIML Director.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3.3: Financial report for 2006 and estimates for 2007'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of the report given by the BIML Director.
 - identifier:
   - prefix: CIML
     number: 2007/3.4
@@ -163,31 +164,34 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3.4: Elements for the 2009 – 2012 budget                                 To
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3.4: Elements for the 2009 – 2012 budget                                 To
       be voted on (Item 11)'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee approved the orientations presented by the Bureau and
-        instructed the Director to prepare a draft budget on these lines, taking account
-        of the comments expressed and of comments that Member States are invited to
-        send to the Bureau no later than 31 December 2007.
-  - language_code: fra
-    title: 'Agenda Item 3.4: Elements for the 2009 – 2012 budget                                 To
+  - spelling: fra
+    value: 'Agenda Item 3.4: Elements for the 2009 – 2012 budget                                 To
       be voted on (Item 11)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a approuvé les orientations présentées par le Bureau et a
-        chargé le Directeur de préparer un projet de budget pour celles-ci, en tenant
-        compte des remarques exprimées et des remarques que les États Membres sont
-        invités à envoyer au Bureau avant le 31 décembre 2007.
+  actions:
+  - type: approves
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approved the orientations presented by the Bureau and instructed
+        the Director to prepare a draft budget on these lines, taking account of the
+        comments expressed and of comments that Member States are invited to send
+        to the Bureau no later than 31 December 2007.
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a approuvé les orientations présentées par le Bureau et a chargé
+        le Directeur de préparer un projet de budget pour celles-ci, en tenant compte
+        des remarques exprimées et des remarques que les États Membres sont invités
+        à envoyer au Bureau avant le 31 décembre 2007.
 - identifier:
   - prefix: CIML
     number: 2007/3.5
@@ -197,29 +201,32 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3.5: Pension scheme                                                      Written
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3.5: Pension scheme                                                      Written
       report'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee approved the orientations proposed by the Director of
-        the Bureau and instructed him to prepare a draft revision of the OIML Staff
-        Regulations based on these orientations, to be submitted to the CIML for approval
-        at its 43rd Meeting.
-  - language_code: fra
-    title: 'Agenda Item 3.5: Pension scheme                                                      Written
+  - spelling: fra
+    value: 'Agenda Item 3.5: Pension scheme                                                      Written
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a approuvé les orientations proposées par le Directeur du
-        Bureau et l'a chargé de préparer un projet de révision du Règlement du Personnel
+  actions:
+  - type: approves
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approved the orientations proposed by the Director of the
+        Bureau and instructed him to prepare a draft revision of the OIML Staff Regulations
+        based on these orientations, to be submitted to the CIML for approval at its
+        43rd Meeting.
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a approuvé les orientations proposées par le Directeur du Bureau
+        et l'a chargé de préparer un projet de révision du Règlement du Personnel
         de l'OIML à partir de ces orientations ; le projet doit être soumis à l'approbation
         du CIML lors de sa 43ème Réunion.
 - identifier:
@@ -231,11 +238,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: Presidential Council activities'
-  - language_code: fra
-    title: 'Agenda Item 4: Presidential Council activities'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: Presidential Council activities'
+  - spelling: fra
+    value: 'Agenda Item 4: Presidential Council activities'
 - identifier:
   - prefix: CIML
     number: 2007/4.1
@@ -245,25 +252,23 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.1: Report on Presidential Council activities                            Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.1: Report on Presidential Council activities                            Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of an oral report presented by the CIML President.
-  - language_code: fra
-    title: 'Agenda Item 4.1: Report on Presidential Council activities                            Oral
+  - spelling: fra
+    value: 'Agenda Item 4.1: Report on Presidential Council activities                            Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport oral présenté par le Président du
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of an oral report presented by the CIML President.
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport oral présenté par le Président du
         CIML.
 - identifier:
   - prefix: CIML
@@ -274,12 +279,12 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.2: Long Term Strategy                                                   Written
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.2: Long Term Strategy                                                   Written
       report'
-  - language_code: fra
-    title: 'Agenda Item 4.2: Long Term Strategy                                                   Written
+  - spelling: fra
+    value: 'Agenda Item 4.2: Long Term Strategy                                                   Written
       report'
 - identifier:
   - prefix: CIML
@@ -290,28 +295,26 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.3: Action Plan                                                          To
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.3: Action Plan                                                          To
       be voted on (Item 11)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee examined the Action Plan and instructed the CIML President
+  - spelling: fra
+    value: 'Agenda Item 4.3: Action Plan                                                          To
+      be voted on (Item 11)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee examined the Action Plan and instructed the CIML President
         to finalize and approve it on its behalf, taking account of the comments made
         at this Meeting and of any further comments that could be sent in by CIML
         Members no later than 31 December 2007.
-  - language_code: fra
-    title: 'Agenda Item 4.3: Action Plan                                                          To
-      be voted on (Item 11)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a examiné le Plan d'Action et a chargé le Président du CIML
+    - spelling: fra
+      value: Le Comité a examiné le Plan d'Action et a chargé le Président du CIML
         de le finaliser et l'approuver en son nom, en tenant compte des remarques
         formulées lors de la présente Réunion, ainsi que des remarques supplémentaires
         qui pourront être envoyées par les Membres du CIML avant le 31 décembre 2007.
@@ -324,11 +327,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Developing Country activities (continued)'
-  - language_code: fra
-    title: 'Agenda Item 5: Developing Country activities (continued)'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Developing Country activities (continued)'
+  - spelling: fra
+    value: 'Agenda Item 5: Developing Country activities (continued)'
 - identifier:
   - prefix: CIML
     number: 2007/5.1
@@ -338,29 +341,27 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.1: Report on PWGDC and JCDCMAS activities                               Written
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.1: Report on PWGDC and JCDCMAS activities                               Written
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of presentations given by Mr. Dunmill and Dr.
+  - spelling: fra
+    value: 'Agenda Item 5.1: Report on PWGDC and JCDCMAS activities                               Written
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of presentations given by Mr. Dunmill and Dr.
         Seiler and instructed the Bureau to prepare, with Dr. Seiler, a procedure
         to identify and reward exemplary actions carried out by Developing Countries
         for the progress of legal metrology. This procedure will be submitted to the
         CIML for approval.
-  - language_code: fra
-    title: 'Agenda Item 5.1: Report on PWGDC and JCDCMAS activities                               Written
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note des exposés de M. Dunmill et du Docteur Seiler
+    - spelling: fra
+      value: Le Comité a pris note des exposés de M. Dunmill et du Docteur Seiler
         et a chargé le Bureau de préparer, avec le Docteur Seiler, une procédure visant
         à identifier et récompenser les actions exemplaires accomplies par les Pays
         en Développement pour l'avancée de la métrologie légale. Cette procédure sera
@@ -374,26 +375,24 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.2: Report on the D 1 Seminar                                            Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.2: Report on the D 1 Seminar                                            Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report on the Seminar held on Tuesday
-        23 and expressed its thanks to Dr. Seiler for organizing and chairing it.
-  - language_code: fra
-    title: 'Agenda Item 5.2: Report on the D 1 Seminar                                            Oral
+  - spelling: fra
+    value: 'Agenda Item 5.2: Report on the D 1 Seminar                                            Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport relatif au Séminaire qui s'est tenu
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report on the Seminar held on Tuesday 23
+        and expressed its thanks to Dr. Seiler for organizing and chairing it.
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport relatif au Séminaire qui s'est tenu
         le mardi 23 et a exprimé ses remerciements au Docteur Seiler pour l'avoir
         organisé et présidé.
 - identifier:
@@ -405,11 +404,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: Liaisons'
-  - language_code: fra
-    title: 'Agenda Item 6: Liaisons'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: Liaisons'
+  - spelling: fra
+    value: 'Agenda Item 6: Liaisons'
 - identifier:
   - prefix: CIML
     number: 2007/6.1
@@ -419,43 +418,34 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.1: Presentation by the Bureau on liaison activities and
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.1: Presentation by the Bureau on liaison activities and
       joint actions   Written report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by the BIML Director on Liaison
+  - spelling: fra
+    value: 'Agenda Item 6.1: Presentation by the Bureau on liaison activities and
+      joint actions   Written report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report given by the BIML Director on Liaison
         activities with other Organizations and instructed the CIML President to sign
         the extension of the existing ILAC-OIML MoU to also include the IAF.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee asked the CIML President to monitor and update, if necessary,
+    - spelling: eng
+      value: The Committee asked the CIML President to monitor and update, if necessary,
         the joint working programs with the BIPM, ILAC and IAF.
-  - language_code: fra
-    title: 'Agenda Item 6.1: Presentation by the Bureau on liaison activities and
-      joint actions   Written report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport donné par le Directeur du BIML sur
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport donné par le Directeur du BIML sur
         les Activités en liaison avec d'autres Organisations et a chargé le Président
         du CIML de signer la reconduction du MoU existant entre l'ILAC et l'OIML afin
         d'inclure également l'IAF.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a demandé au Président du CIML de surveiller et mettre à
-        jour si nécessaire les programmes de travail communs avec le BIPM, l'ILAC
-        et l'IAF.
+    - spelling: fra
+      value: Le Comité a demandé au Président du CIML de surveiller et mettre à jour
+        si nécessaire les programmes de travail communs avec le BIPM, l'ILAC et l'IAF.
 - identifier:
   - prefix: CIML
     number: 2007/6.2
@@ -465,25 +455,23 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.2: Updates by Liaison Organizations                                     Written
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.2: Updates by Liaison Organizations                                     Written
       report + short update'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a presentation given by Mr. Stoll, CECIP.
-  - language_code: fra
-    title: 'Agenda Item 6.2: Updates by Liaison Organizations                                     Written
+  - spelling: fra
+    value: 'Agenda Item 6.2: Updates by Liaison Organizations                                     Written
       report + short update'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris notre d'un exposé de M. Stoll du CECIP.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a presentation given by Mr. Stoll, CECIP.
+    - spelling: fra
+      value: Le Comité a pris notre d'un exposé de M. Stoll du CECIP.
 - identifier:
   - prefix: CIML
     number: 2007/6.3
@@ -493,52 +481,46 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.3: Report on the RLMO Workshop                                          Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.3: Report on the RLMO Workshop                                          Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by the BIML Director on the
+  - spelling: fra
+    value: 'Agenda Item 6.3: Report on the RLMO Workshop                                          Oral
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report given by the BIML Director on the
         RLMO Round Table, noted that presentations given by RLMOs were posted on the
         OIML web site and agreed to set up a working group on funding resources, chaired
         by Mr. Carstens.
-    - type: instructs
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'The Committee instructed the Bureau to:'
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by the BIML Director on the
+    - spelling: eng
+      value: The Committee took note of a report given by the BIML Director on the
         CTT WG and instructed the BIML to draw up draft terms of reference for a study
         on conformity to type.
-  - language_code: fra
-    title: 'Agenda Item 6.3: Report on the RLMO Workshop                                          Oral
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par le Directeur du BIML
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par le Directeur du BIML
         concernant la Table Ronde des organisations régionales de métrologie légale
         (RLMO), a noté que les exposés effectués par les RLMO ont été mis en ligne
         sur le site web de l'OIML et a accepté de mettre en place un groupe de travail
         sur les ressources de financement, présidé par M. Carstens.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par le Directeur du BIML
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par le Directeur du BIML
         concernant le Groupe de Travail sur la Conformité au Type et a chargé le BIML
         de rédiger un projet de termes de référence pour une étude sur la conformité
         au type.
+  - type: instructs
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee instructed the Bureau to:'
 - identifier:
   - prefix: CIML
     number: 2007/6.4
@@ -548,33 +530,31 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.4: MID Tables                                                           Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.4: MID Tables                                                           Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a presentation given by the BIML Director
+  - spelling: fra
+    value: 'Agenda Item 6.4: MID Tables                                                           Oral
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a presentation given by the BIML Director
         and instructed the Bureau to continue its cooperation with WELMEC on this
         issue, and requested the European participants of the appropriate TCs/SCs,
         to draw up the first draft tables of correspondence with the MID requirements
         as soon as a Recommendation reaches DR status.
-  - language_code: fra
-    title: 'Agenda Item 6.4: MID Tables                                                           Oral
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un exposé du Directeur du BIML et a chargé
-        le Bureau de continuer sa coopération avec WELMEC concernant ce point. Le
-        Comité a également demandé aux participants européens des TC/SC concernés
-        de rédiger les premiers projets de tableaux de correspondance avec les exigences
-        de la MID dès qu'une Recommandation reçoit le statut de DR (Draft Recommendation).
+    - spelling: fra
+      value: Le Comité a pris note d'un exposé du Directeur du BIML et a chargé le
+        Bureau de continuer sa coopération avec WELMEC concernant ce point. Le Comité
+        a également demandé aux participants européens des TC/SC concernés de rédiger
+        les premiers projets de tableaux de correspondance avec les exigences de la
+        MID dès qu'une Recommandation reçoit le statut de DR (Draft Recommendation).
 - identifier:
   - prefix: CIML
     number: 2007/7
@@ -584,11 +564,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: BIML activities'
-  - language_code: fra
-    title: 'Agenda Item 7: BIML activities'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: BIML activities'
+  - spelling: fra
+    value: 'Agenda Item 7: BIML activities'
 - identifier:
   - prefix: CIML
     number: 2007/7.1
@@ -598,25 +578,23 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.1: Report on BIML activities for 2006-2007                               Written
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.1: Report on BIML activities for 2006-2007                               Written
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by the BIML Director.
-  - language_code: fra
-    title: 'Agenda Item 7.1: Report on BIML activities for 2006-2007                               Written
+  - spelling: fra
+    value: 'Agenda Item 7.1: Report on BIML activities for 2006-2007                               Written
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par le Directeur du BIML.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report given by the BIML Director.
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par le Directeur du BIML.
 - identifier:
   - prefix: CIML
     number: 2007/7.2
@@ -626,43 +604,35 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: Communication, web site                                               Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: Communication, web site                                               Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a presentation given by Mr. Pulham, notably
+  - spelling: fra
+    value: 'Agenda Item 7.2: Communication, web site                                               Oral
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a presentation given by Mr. Pulham, notably
         concerning the advancement of joint BIPM-OIML projects, developments in the
         interactive parts of the web site, and future developments envisaged in this
         domain.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee reiterated its request to CIML Members to make extensive
+    - spelling: eng
+      value: The Committee reiterated its request to CIML Members to make extensive
         and timely use of the online facilities for voting and commenting on drafts,
         and updating information.
-  - language_code: fra
-    title: 'Agenda Item 7.2: Communication, web site                                               Oral
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un exposé effectué par M. Pulham, concernant
+    - spelling: fra
+      value: Le Comité a pris note d'un exposé effectué par M. Pulham, concernant
         notamment l'avancée des projets communs entre le BIPM et l'OIML, les développements
         des parties interactives du site Internet et les futurs développements envisagés
         dans ce domaine.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a réitéré sa demande aux Membres du CIML d'utiliser largement
+    - spelling: fra
+      value: Le Comité a réitéré sa demande aux Membres du CIML d'utiliser largement
         et régulièrement le site Internet pour voter sur les projets, y apporter des
         remarques et mettre à jour leurs informations.
 - identifier:
@@ -674,11 +644,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: Technical activities'
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: Technical activities'
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
 - identifier:
   - prefix: CIML
     number: 2007/8.1
@@ -688,25 +658,28 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.1: Intl. Recommendations and Documents to be approved                       To
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.1: Intl. Recommendations and Documents to be approved                       To
       be voted on (Item 11)'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'The Committee approved the following Publications:'
-  - language_code: fra
-    title: 'Agenda Item 8.1: Intl. Recommendations and Documents to be approved                       To
+  - spelling: fra
+    value: 'Agenda Item 8.1: Intl. Recommendations and Documents to be approved                       To
       be voted on (Item 11)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: "## Le Comité a approuvé les Publications suivantes :"
+  actions:
+  - type: approves
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee approved the following Publications:'
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: "## Le Comité a approuvé les Publications suivantes :"
 - identifier:
   - prefix: CIML
     number: 2007/8.2
@@ -716,25 +689,28 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.2: Examination of the situation of certain TCs/SCs                          To
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.2: Examination of the situation of certain TCs/SCs                          To
       be voted on (Item 11)'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'The Committee approved:'
-  - language_code: fra
-    title: 'Agenda Item 8.2: Examination of the situation of certain TCs/SCs                          To
+  - spelling: fra
+    value: 'Agenda Item 8.2: Examination of the situation of certain TCs/SCs                          To
       be voted on (Item 11)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'Le Comité a approuvé :'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee approved:'
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a approuvé :'
 - identifier:
   - prefix: CIML
     number: 2007/8.3
@@ -744,51 +720,42 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.3: MAA                                                                      Written
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.3: MAA                                                                      Written
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by Ms. Gaucher on the progress
+  - spelling: fra
+    value: 'Agenda Item 8.3: MAA                                                                      Written
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report given by Ms. Gaucher on the progress
         of the MAA implementation.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee strongly encouraged Member States and Corresponding Members
+    - spelling: eng
+      value: The Committee strongly encouraged Member States and Corresponding Members
         to participate in the DoMCs.
-    - type: instructs
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee instructed TC 3/SC 5 to take account of comments expressed
-        during the Meeting in the revision of B3 and B10.
-  - language_code: fra
-    title: 'Agenda Item 8.3: MAA                                                                      Written
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par Mme Gaucher concernant
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par Mme Gaucher concernant
         l'avancée de la mise en œuvre de la MAA.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a encouragé fortement les États Membres et les Membres Correspondants
+    - spelling: fra
+      value: Le Comité a encouragé fortement les États Membres et les Membres Correspondants
         à participer aux DoMC.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a chargé le TC 3/SC 5 de prendre en compte les remarques
-        exprimées au cours de la Réunion qui concernent la révision des B 3 et B 10.
+    - spelling: fra
+      value: Le Comité a chargé le TC 3/SC 5 de prendre en compte les remarques exprimées
+        au cours de la Réunion qui concernent la révision des B 3 et B 10.
+  - type: instructs
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed TC 3/SC 5 to take account of comments expressed
+        during the Meeting in the revision of B3 and B10.
 - identifier:
   - prefix: CIML
     number: 2007/8.4
@@ -798,26 +765,24 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.4: Nature of OIML Publications and the Guide for CIML Members               Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.4: Nature of OIML Publications and the Guide for CIML Members               Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'The Committee took note of a presentation given by Mr. Kool concerning
+  - spelling: fra
+    value: 'Agenda Item 8.4: Nature of OIML Publications and the Guide for CIML Members               Oral
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee took note of a presentation given by Mr. Kool concerning
         the two Guides:'
-  - language_code: fra
-    title: 'Agenda Item 8.4: Nature of OIML Publications and the Guide for CIML Members               Oral
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'Le Comité a pris note d''un exposé présenté par M. Kool ayant trait
+    - spelling: fra
+      value: 'Le Comité a pris note d''un exposé présenté par M. Kool ayant trait
         aux deux Guides :'
 - identifier:
   - prefix: CIML
@@ -828,26 +793,24 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.5: Progress on the revision of the Directives                               Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.5: Progress on the revision of the Directives                               Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by Mr. Dunmill on the progress
+  - spelling: fra
+    value: 'Agenda Item 8.5: Progress on the revision of the Directives                               Oral
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report given by Mr. Dunmill on the progress
         in the revision of the Directives for Technical Work.
-  - language_code: fra
-    title: 'Agenda Item 8.5: Progress on the revision of the Directives                               Oral
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par M. Dunmill concernant
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par M. Dunmill concernant
         l'avancée de la révision des Directives pour les travaux techniques de l'OIML.
 - identifier:
   - prefix: CIML
@@ -858,28 +821,26 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.6: Training sessions for OIML TC/SC Secretariats                            Oral
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.6: Training sessions for OIML TC/SC Secretariats                            Oral
       report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of information given by Ms. Gaucher on training
+  - spelling: fra
+    value: 'Agenda Item 8.6: Training sessions for OIML TC/SC Secretariats                            Oral
+      report'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information given by Ms. Gaucher on training
         sessions for those responsible for TC/SC Secretariats and on the development
         of training material for one-day training sessions to be organized by CIML
         Members.
-  - language_code: fra
-    title: 'Agenda Item 8.6: Training sessions for OIML TC/SC Secretariats                            Oral
-      report'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note des informations présentées par Mme Gaucher concernant
+    - spelling: fra
+      value: Le Comité a pris note des informations présentées par Mme Gaucher concernant
         d'une part, les sessions de formation des responsables des Secrétariats des
         TC/SC et d'autre part, le développement d'outils de formation pour des sessions
         de formation d'une journée à organiser par les Membres du CIML.
@@ -892,11 +853,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: Human resource matters'
-  - language_code: fra
-    title: 'Agenda Item 9: Human resource matters'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: Human resource matters'
+  - spelling: fra
+    value: 'Agenda Item 9: Human resource matters'
 - identifier:
   - prefix: CIML
     number: 2007/9.1
@@ -906,39 +867,36 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.1: Human resource matters'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee took note of a report given by the BIML Director on a
-        dispute concerning a dismissal.
-    - type: instructs
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee instructed the Bureau to undertake a review of the legal
-        aspects of the BIML Staff Regulations with the assistance of a competent legal
-        counsel.
-  - language_code: fra
-    title: 'Agenda Item 9.1: Human resource matters'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par le Directeur du BIML
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.1: Human resource matters'
+  - spelling: fra
+    value: 'Agenda Item 9.1: Human resource matters'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report given by the BIML Director on a dispute
+        concerning a dismissal.
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par le Directeur du BIML
         sur un litige relatif à un licenciement.
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a chargé le Bureau d'entreprendre un examen des aspects juridiques
+    - spelling: fra
+      value: Le Comité a chargé le Bureau d'entreprendre un examen des aspects juridiques
         du Règlement du Personnel du BIML en se faisant aider par un conseiller juridique
         compétent.
+  - type: instructs
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed the Bureau to undertake a review of the legal
+        aspects of the BIML Staff Regulations with the assistance of a competent legal
+        counsel.
 - identifier:
   - prefix: CIML
     number: 2007/10
@@ -948,11 +906,11 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: Future meetings'
-  - language_code: fra
-    title: 'Agenda Item 10: Future meetings'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: Future meetings'
+  - spelling: fra
+    value: 'Agenda Item 10: Future meetings'
 - identifier:
   - prefix: CIML
     number: 2007/10.1
@@ -962,26 +920,28 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.1: Future meetings'
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee thanked Australia for presenting the venue at which the
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.1: Future meetings'
+  - spelling: fra
+    value: 'Agenda Item 10.1: Future meetings'
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee thanked Australia for presenting the venue at which the
         13th Conference and 43rd CIML Meeting will be held in Sydney in 2008.
-  - language_code: fra
-    title: 'Agenda Item 10.1: Future meetings'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a remercié l'Australie pour sa présentation des lieux où
-        seront organisées la 13ème conférence et la 43ème Réunion du CIML à Sydney
-        en 2008.
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a remercié l'Australie pour sa présentation des lieux où seront
+        organisées la 13ème conférence et la 43ème Réunion du CIML à Sydney en 2008.
 - identifier:
   - prefix: CIML
     number: 2007/10.2
@@ -991,24 +951,27 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.2: Future meetings'
-    actions:
-    - type: thanks
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: The Committee thanked Kenya for its invitation to hold the 44th CIML
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.2: Future meetings'
+  - spelling: fra
+    value: 'Agenda Item 10.2: Future meetings'
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee thanked Kenya for its invitation to hold the 44th CIML
         Meeting in 2009, and accepted.
-  - language_code: fra
-    title: 'Agenda Item 10.2: Future meetings'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: Le Comité a remercié le Kenya pour son invitation à organiser la 44eme
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a remercié le Kenya pour son invitation à organiser la 44eme
         Réunion du CIML en 2009, et I'a acceptée.
 - identifier:
   - prefix: CIML
@@ -1019,22 +982,20 @@ decisions:
   dates:
   - date: '2007-10-24'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12: Awards'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'The Committee made Awards to the following individuals in recognition
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12: Awards'
+  - spelling: fra
+    value: 'Agenda Item 12: Awards'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2007-10-24'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee made Awards to the following individuals in recognition
         of their outstanding contribution to legal metrology:'
-  - language_code: fra
-    title: 'Agenda Item 12: Awards'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2007-10-24'
-        type: effective
-      message: 'Le Comité a récompensé les personnes suivantes en reconnaissance de
+    - spelling: fra
+      value: 'Le Comité a récompensé les personnes suivantes en reconnaissance de
         leur importante contribution à la métrologie légale :'

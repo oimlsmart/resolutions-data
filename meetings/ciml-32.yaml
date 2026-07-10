@@ -10,23 +10,249 @@ date_range:
   start: '1997-10-29'
   end: '1997-10-31'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Rio de Janeiro, Brazil
+general_area:
+- spelling: eng
+  value: Rio de Janeiro, Brazil
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 32nd CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Rio de Janeiro, Brazil
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '32'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROVAL OF THE MINUTES OF THE $ 31^{\mathrm{ST}} $ CIML MEETING
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MEMBER STATES AND CORRESPONDING MEMBERS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New Members - Expected accessions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation of certain Members
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: FINANCIAL MATTERS
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the auditor's report for 1996
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the financial situation for 1997 and estimates for 1998
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: GENERAL INFORMATION CONCERNING THE IMPLEMENTATION OF DECISIONS MADE AT
+        THE TENTH CONFERENCE
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The OIML long-term policy and the Birkeland study
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ACTIVITIES LINKED WITH ACCREDITATION AND ESTABLISHMENT OF MUTUAL CONFIDENCE
+        REGARDING LEGAL METROLOGY ACTIVITIES WITHIN THE OIML MEMBERS
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: TECHNICAL COMMITTEES AND SUBCOMMITTEES
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the situation of certain TCs/SCs
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROVAL OF INTERNATIONAL RECOMMENDATIONS
+    outcome: adopted
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML CERTIFICATE SYSTEM
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General information regarding the operation of the System
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of the paper governing the operation of the System
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New Recommendations applicable within the System
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: LIAISONS WITH OTHER INTERNATIONAL OR REGIONAL INSTITUTIONS
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIPM/OIML rapprochement and liaisons with ILAC
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Cooperation within the recently established JCGM (Joint Committee for
+        Guides on Metrology), successor to ISO/TAG 4
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: World Trade Organization
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other liaisons (see also Item 10.2)
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DEVELOPING COUNTRIES
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information regarding the Development Council meeting of $ 2 9^{\mathrm{th}}
+        $ October 1997
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Planning of an international Seminar to be held in Germany in cooperation
+        with the BIPM, IMEKO and PTB
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML STAFF
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General situation
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Appointment of an Assistant Director
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: REPORT ON BIML ACTIVITIES
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OTHER MATTERS
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Bulletin
+    outcome: discussed
+  - label: '13.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML on Internet (general information, meetings and proceedings, OIML
+        certificates, OIML publications, etc.)
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: FUTURE MEETINGS
+    outcome: discussed
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: "$ 3 3^{\\mathrm{r d}} $ and $ 3 4^{\\mathrm{t h}} $ meetings of the
+        CIML"
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Eleventh Conference
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CLOSURE
+    outcome: discussed
 country_code: BR
 city: BRRIO
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-32-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: BRRIO
   country_code: BR
+title:
+- spelling: eng
+  value: 32th International Committee of Legal Metrology (CIML)

@@ -10,23 +10,213 @@ date_range:
   start: '1991-10-07'
   end: '1991-10-09'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Paris, France
+general_area:
+- spelling: eng
+  value: Paris, France
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 26th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Paris, France
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '26'
   status: final
+  items:
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MEMBER STATES AND CORRESPONDING MEMBERS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New members - Prospective new members
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The situations of some Member States
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial situation
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the auditor's report for 1990
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The financial situation for 1991 and 1992
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Staff of the Bureau
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Replacement of a Director's Assistant retiring from the Bureau in September
+        1992
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Certification
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Operation of the OIML Certificate System
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Recommendations to which the System is applicable
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The evolution of the System in the years to come
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Procedures for the technical work of OIML
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Drafting and presentation of OIML International Recommendations
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New structures to be established in application of the procedures
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Work of the Secretariats
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: State of progress of work
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Particular secretariats
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of International Recommendations
+    outcome: adopted
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: LIAISON WITH SOME INTERNATIONAL INSTITUTIONS
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DEVELOPING COUNTRIES
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML SEMINARS
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ELECTION OF A VICE-PRESIDENT OF THE COMMITTEE
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PREPARATIONS FOR THE NINTH CONFERENCE
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Bulletin
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Instituting a world metrology day
+    outcome: discussed
+  - label: '14.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Relations between OIML and the industries manufacturing measuring instruments
+    outcome: discussed
+  - label: '15'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Date and place of next meeting
+    outcome: discussed
 country_code: FR
 city: FRPAR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-26-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRPAR
   country_code: FR
+title:
+- spelling: eng
+  value: 26th International Committee of Legal Metrology (CIML)

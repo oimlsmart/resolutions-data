@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/26CIML-1991-EN.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/26CIML-1991-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-26
-# Language: en
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 26th CIML Meeting — Minutes (EN, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: FRPAR
   country_code: FR
   meeting_urn: urn:oiml:ciml:meeting:ciml-26
+  title:
+  - spelling: eng
+    value: 26th CIML Meeting — Minutes (EN, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,16 +17,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: MEMBER STATES AND CORRESPONDING MEMBERS'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr ATHANE reminded Members that a delegation from the Republic of South
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: MEMBER STATES AND CORRESPONDING MEMBERS'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE reminded Members that a delegation from the Republic of South
         Africa had visited the Bureau to enquire about joining OIML, but since then
         there had been no further news from them. Iran had asked the bureau on what
         conditions she might rejoin. The Mexican delegation at the General Conference
@@ -48,22 +47,25 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: MEMBER STATES AND CORRESPONDING MEMBERS'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr ATHANE said that Cameroon was the only Member State that was in
-        arrears in its subscriptions to OIML by more than the three years allowed
-        by the Convention. However, as Mr NOUMSI had given his assurance that part
-        of the arrears would be paid quickly, no measures against that country were
-        called for. Mr ATHANE also indicated that he had contacted the Lebanese embassy
-        in Paris to ask it to consider its country's position with regard to its membership
-        of OIML.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: MEMBER STATES AND CORRESPONDING MEMBERS'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE said that Cameroon was the only Member State that was in arrears
+        in its subscriptions to OIML by more than the three years allowed by the Convention.
+        However, as Mr NOUMSI had given his assurance that part of the arrears would
+        be paid quickly, no measures against that country were called for. Mr ATHANE
+        also indicated that he had contacted the Lebanese embassy in Paris to ask
+        it to consider its country's position with regard to its membership of OIML.
 - identifier:
   - prefix: CIML
     number: 1991/3
@@ -73,16 +75,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Financial situation'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The auditor's report was approved without comment.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Financial situation'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The auditor's report was approved without comment.
 - identifier:
   - prefix: CIML
     number: 1991/3
@@ -92,17 +98,21 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Financial situation'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr ATHANE said that the financial estimates sent out at the end of
-        1990 remained current; in particular the rate of inflation in France was still
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Financial situation'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE said that the financial estimates sent out at the end of 1990
+        remained current; in particular the rate of inflation in France was still
         slightly below the figure of 3.5 % assumed in the estimates. He added that
         the estimates for 1992 would be sent to CIML Members in about two months and
         that they would be more or less in line with the budget voted by the Conference
@@ -116,16 +126,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: Staff of the Bureau'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'Mr BIRKELAND reminded Members that Mr Thulin would retire in September
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: Staff of the Bureau'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr BIRKELAND reminded Members that Mr Thulin would retire in September
         1992 and that the Committee would therefore have to appoint his successor.
         Three Member States had put forward four candidates for the post:'
 - identifier:
@@ -137,16 +151,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: Staff of the Bureau'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr ATHANE informed the Committee of the general staffing position in
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: Staff of the Bureau'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr ATHANE informed the Committee of the general staffing position in
         the Bureau, and in particular of the pending retirement of Mr Emerson in April
         1992; his successor would be appointed later by Mr Birkeland by agreement
         with Mr Athané (since only the nominations of the Director and his Assistants
@@ -161,20 +179,24 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Certification'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'Mr BIRKELAND stressed the importance of this subject for OIML and
-        the interest that the OIML System had already aroused among manufacturers
-        of measuring instruments, other international institutions, etc. At his request
-        Mr ATHANE spoke about what the Bureau had done to promote the System and get
-        it under way:'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Certification'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr BIRKELAND stressed the importance of this subject for OIML and the
+        interest that the OIML System had already aroused among manufacturers of measuring
+        instruments, other international institutions, etc. At his request Mr ATHANE
+        spoke about what the Bureau had done to promote the System and get it under
+        way:'
 - identifier:
   - prefix: CIML
     number: 1991/5
@@ -184,20 +206,24 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Certification'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'Mr BIRKELAND pointed out that this item covered in fact two items:
-        Recommendations in course of development or of revision to make them suitable
-        for use within the System, and the priorities that OIML would have to adopt
-        so that the Recommendations to which the application of the system was urgently
-        needed were developed or revised quickly.'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Certification'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr BIRKELAND pointed out that this item covered in fact two items: Recommendations
+        in course of development or of revision to make them suitable for use within
+        the System, and the priorities that OIML would have to adopt so that the Recommendations
+        to which the application of the system was urgently needed were developed
+        or revised quickly.'
 - identifier:
   - prefix: CIML
     number: 1991/5
@@ -207,16 +233,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Certification'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND, continuing the drift of his previous remarks, said that
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Certification'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND, continuing the drift of his previous remarks, said that
         many ideas about the future of the System had already been expressed and,
         as no one sought the floor, concluded the discussion with the proposal that
         the Committee acquire another year's experience before proceeding, if necessary,
@@ -232,16 +262,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND introduced the third draft of the Procedures for the technical
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND introduced the third draft of the Procedures for the technical
         work of OIML (part one of the Directives being developed) and made clear his
         intention to allow a wide discussion of the subject because of its extreme
         importance for OIML. The existing working methods were nearly twenty years
@@ -265,16 +299,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND indicated that the matter was independent of the Procedures
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND indicated that the matter was independent of the Procedures
         and that it had been the subject, at CIML's request, of preparatory work by
         the Bureau, discussions within the Presidential Council, followed by consultation
         of the Members of CIML, before arriving at the final draft submitted to CIML
@@ -289,16 +327,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND introduced the Bureau's preliminary proposal for the new
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: PROCEDURES AND STRUCTURES FOR THE TECHNICAL WORK OF OIML'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND introduced the Bureau's preliminary proposal for the new
         structures to be established in application of the future procedures, since
         it appeared that CIML was in agreement in principle with the procedures discussed
         under item 6.1. The Bureau's proposal consisted of a list of projects that
@@ -313,18 +355,22 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Work of the Secretariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND indicated that the paper entitled State of progress of
-        the work of OIML Secretariats, dated 1991.08.31 and brought up to date to
-        1991.09.30, had been distributed for the information of those present.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Work of the Secretariats'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND indicated that the paper entitled State of progress of the
+        work of OIML Secretariats, dated 1991.08.31 and brought up to date to 1991.09.30,
+        had been distributed for the information of those present.
 - identifier:
   - prefix: CIML
     number: 1991/7
@@ -334,10 +380,12 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Work of the Secretariats'
-    subject: "(The CIML)"
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Work of the Secretariats'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1991/7.2
@@ -347,16 +395,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: Particular secretariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND reminded the Committee that the Bureau had conducted an
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: Particular secretariats'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND reminded the Committee that the Bureau had conducted an
         enquiry to find candidates to take responsibility for the secretariats that
         had become vacant following requests by the countries formely responsible
         to divest themselves of those responsibilities.
@@ -369,16 +421,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: Particular secretariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr BIRKELAND reminded Members that the secretariat SP 30-Sr 1 should
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: Particular secretariats'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr BIRKELAND reminded Members that the secretariat SP 30-Sr 1 should
         have revised Recommendation R 54 on the pH scales of aqueous solutions to
         align it with the IUPAC Recommendation. However, the Recommendation not having
         yet been so revised despite repeated reminders from the Bureau, the latter
@@ -396,16 +452,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Work of the Secretariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee made no comment on the Bureau's proposals for the agenda
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Work of the Secretariats'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee made no comment on the Bureau's proposals for the agenda
         for the Conference or on the budget that could be submitted for the Conference's
         consideration. As regarded the budget, draft estimates would be sent officially
         to the Member States towards the end of 1991, seeking their comments so that
@@ -420,16 +480,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14: Other matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: Mr THULIN spoke about the Bulletin, for which he was responsible, and
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14: Other matters'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr THULIN spoke about the Bulletin, for which he was responsible, and
         his difficulties in obtaining technical articles other than papers given at
         various technical seminars, which had been the Bulletin's mainstay. He also
         pointed out that a great effort had been made to increase the amount of information
@@ -445,17 +509,21 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14: Other matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'Mr STOICHITOIU explained his reasons for the proposal: activities
-        such as standardization and "quality" all had their "world days", and metrology
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14: Other matters'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr STOICHITOIU explained his reasons for the proposal: activities such
+        as standardization and "quality" all had their "world days", and metrology
         suffered from not having one as well; such a day would enhance relations between
         manufacturers, test laboratories, control authorities and the public, and
         make every one more aware of metrology in general and legal metrology in particular;
@@ -470,16 +538,20 @@ decisions:
   dates:
   - date: '1991-10-07'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14: Other matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee noted the content of a letter from CECIP (Comité Européen
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14: Other matters'
+  subject:
+  - spelling: eng
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee noted the content of a letter from CECIP (Comité Européen
         des Constructeurs d'Instruments de Pesage - European committee of weighing-machine
         manufacturers), in which the European manufacturers indicated their intention
         to urge their national authorities to put OIML Recommendations into effect
@@ -489,293 +561,187 @@ decisions:
         that Recommendations be written in terms of the metrological performance to
         be achieved, and not to include design requirements, because the latter could
         be a brake on innovation and impede progress.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee accepted Germany's invitation to hold its twenty-eighth
+    - spelling: eng
+      value: The Committee accepted Germany's invitation to hold its twenty-eighth
         meeting in Berlin in 1993.
-    - type: approves
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee approved the minutes of the Twenty-fifth CIML meeting
-        without modification.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of the interest shown by certain countries
-        in joining OIML as Member States or Corresponding Members (South Africa, Argentina,
+    - spelling: eng
+      value: The Committee took note of the interest shown by certain countries in
+        joining OIML as Member States or Corresponding Members (South Africa, Argentina,
         Mexico) or to rejoin OIML (Iran).
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of information given orally about the situation
+    - spelling: eng
+      value: The Committee took note of information given orally about the situation
         of a Member State that was in arrears in its contributions to OIML. Because
         assurance had been given during the meeting that a part of the arrears would
         be paid quickly, the Committee did not think that measures against it should
         be taken for the time being.
-    - type: approves
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee approved the Auditor's report for 1990 and instructed
-        its President and the Director of the Bureau to submit it to the Ninth Conference.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee considered the financial situation of the Organisation
+    - spelling: eng
+      value: The Committee considered the financial situation of the Organisation
         in 1991 and took note of a forecast of the likely expenditure in 1992, given
         orally.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'The Committee elected as Assistant Director, in place of Mr Thulin:
+    - spelling: eng
+      value: 'The Committee elected as Assistant Director, in place of Mr Thulin:
         Mr P. DEGAVRE, Belgium, from 1st October 1992.'
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of some general information about the current
+    - spelling: eng
+      value: The Committee took note of some general information about the current
         and future employment of staff at the Bureau.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee received the information provided by the BIML on the
-        production and distribution of literature and information on the OIML Certificate
-        System, including the use of the Bulletin to provide such information periodically.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee also received information provided by certain Members
-        of the Committee on the application of the System at the national level (informing
+    - spelling: eng
+      value: The Committee received the information provided by the BIML on the production
+        and distribution of literature and information on the OIML Certificate System,
+        including the use of the Bulletin to provide such information periodically.
+    - spelling: eng
+      value: The Committee also received information provided by certain Members of
+        the Committee on the application of the System at the national level (informing
         manufacturers concerned, appointment of issuing authorities, etc.).
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee was then informed of the forthcoming issue of the first
+    - spelling: eng
+      value: The Committee was then informed of the forthcoming issue of the first
         OIML Certificates (with regard to the revised R 76).
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee received reports from some of its Members on the revision
+    - spelling: eng
+      value: The Committee received reports from some of its Members on the revision
         of existing Recommendations relative to their applicability to the System.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee also took note of opinions expressed by some of its Members
+    - spelling: eng
+      value: The Committee also took note of opinions expressed by some of its Members
         on the priorities to be observed in the development of Recommendations to
         which the System should be applicable.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of opinions expressed by some of its Members
+    - spelling: eng
+      value: The Committee took note of opinions expressed by some of its Members
         on the possible ways in which the System might develop.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee expressed its agreement that the System should continue
+    - spelling: eng
+      value: The Committee expressed its agreement that the System should continue
         to operate in its present form until the next meeting of the Committee, at
         which an ad hoc group could be established for the purpose of revising the
         texts on which the System is based.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of the generally favourable opinion expressed
+    - spelling: eng
+      value: The Committee took note of the generally favourable opinion expressed
         by its Members on the third draft "Procedures for the technical work of OIML".
         It noted, however, that the numerous comments expressed at the meeting showed
         the need to review the text before it would be approved.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee also took note of the need to revise the "Guide for members
+    - spelling: eng
+      value: The Committee also took note of the need to revise the "Guide for members
         of CIML", and instructed the Bureau to proceed to this revision under the
         guidance of the Presidential Council.
-    - type: decides
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee decided that the draft "Guide to the drafting and presentation
-        of OIML International Recommendations" could be considered as approved and
-        could be published after final editing to take account of comments made orally
-        at the meeting and additional comments that some Members of CIML would like
-        to contribute in writing in the near future.
-    - type: instructs
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee instructed the Bureau to invite comments and to proceed
-        to final drafting and publication.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of the generally favourable opinions expressed
+    - spelling: eng
+      value: The Committee took note of the generally favourable opinions expressed
         by its Members on a preliminary proposal for the new work structures to be
         established for the application of the new procedures.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee asked its Members to send their comments on this proposal
+    - spelling: eng
+      value: The Committee asked its Members to send their comments on this proposal
         to the Bureau before 1991.12.31 so that a report might be submitted to the
         Presidential Council.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee was aware that the new structures would have to be in
-        place for 1993.1.1 and that consequently the question of the division of the
-        Technical Committees into Subcommittees (not yet dealt with in the Bureau's
-        original proposal) would have to be resolved in sufficient time.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of the document "State of progress of the work
+    - spelling: eng
+      value: The Committee was aware that the new structures would have to be in place
+        for 1993.1.1 and that consequently the question of the division of the Technical
+        Committees into Subcommittees (not yet dealt with in the Bureau's original
+        proposal) would have to be resolved in sufficient time.
+    - spelling: eng
+      value: The Committee took note of the document "State of progress of the work
         of OIML Secretariats" and of information on the comparison between the actual
         state of progress and the forecasts in the work programme for 1989-1992.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'The Committee allocated the responsibility of vacant Secretariats
-        as follows:'
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of information on the work of the Secretariat
+    - spelling: eng
+      value: 'The Committee allocated the responsibility of vacant Secretariats as
+        follows:'
+    - spelling: eng
+      value: The Committee took note of information on the work of the Secretariat
         SP 30-Sr 1 "pH-metry et ionometry" and on the discrepancies between Recommendation
         R 54 and IUPAC recommendations. Since a meeting between OIML and IUPAC experts
         was planned the Committee decided to postpone the study of that matter to
         its next meeting.
-    - type: approves
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'The Committee approved for immediate publication, and then presentation
-        to the Ninth Conference for formal sanction, the following International Recommendations:'
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'The Committee took note of oral reports on the relations between OIML
+    - spelling: eng
+      value: 'The Committee took note of oral reports on the relations between OIML
         and various institutions: bodies of the Metre Convention, ISO and IEC (in
         particular, work of ISO/TAG 4 on vocabulary and uncertainties) and metrological
         European bodies.'
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of a report on the organization by Germany
-        and BIML of a training course on verification of weighing instruments for
-        which the travel expenses of four trainees were paid from the OIML Development
-        Council budget.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee agreed that BIML participate again in a second similar
+    - spelling: eng
+      value: The Committee took note of a report on the organization by Germany and
+        BIML of a training course on verification of weighing instruments for which
+        the travel expenses of four trainees were paid from the OIML Development Council
+        budget.
+    - spelling: eng
+      value: The Committee agreed that BIML participate again in a second similar
         course that Germany will organize in 1992 and that the travel expenses of
         two trainees be paid by OIML.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee also took note of information on courses organized by
-        Germany and Cuba.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took not of information on the preparations for a technical
+    - spelling: eng
+      value: The Committee also took note of information on courses organized by Germany
+        and Cuba.
+    - spelling: eng
+      value: The Committee took not of information on the preparations for a technical
         seminar on instruments for the measurement of air pollution, which will take
         place in Switzerland in 1992.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of the report of the activities of BIML for
-        the period from October 1990 to September 1991.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: 'The Committee elected as Vice-President: Prof. M. KOCHSIEK, Germany.'
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of information on the preparations for the
-        Ninth Conference in Greece and agreed in the proposed dates (first week of
-        November 1992).
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of information on the OIML Bulletin.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of a proposal from Rumania to organize a "World
+    - spelling: eng
+      value: The Committee took note of the report of the activities of BIML for the
+        period from October 1990 to September 1991.
+    - spelling: eng
+      value: 'The Committee elected as Vice-President: Prof. M. KOCHSIEK, Germany.'
+    - spelling: eng
+      value: The Committee took note of information on the preparations for the Ninth
+        Conference in Greece and agreed in the proposed dates (first week of November
+        1992).
+    - spelling: eng
+      value: The Committee took note of information on the OIML Bulletin.
+    - spelling: eng
+      value: The Committee took note of a proposal from Rumania to organize a "World
         Metrology Day". The Committee considered that any decision on this matter
         was premature and invited its Members to consider ways in which metrology
         could be promoted at the national level.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee took note of a letter from CECIP (European Committee
-        of Manufacturers of Weighing Instruments).
-    - type: thanks
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee expressed its appreciation of the intention of manufacturers
-        who are members of CECIP to urge their national authorities to implement OIML
-        Recommendations in national regulations quickly.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee recalled that on several occasions it had requested its
+    - spelling: eng
+      value: The Committee took note of a letter from CECIP (European Committee of
+        Manufacturers of Weighing Instruments).
+    - spelling: eng
+      value: The Committee recalled that on several occasions it had requested its
         Members to associate manufacturers closely in the technical work of OIML,
         as clearly specified in the "Guide for CIML Members", and requested that the
         need for such participation be expressed in the future directives for the
         technical work of OIML.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee then recalled that the OIML working policy clearly aims
+    - spelling: eng
+      value: The Committee then recalled that the OIML working policy clearly aims
         at issuing Recommendations worded in terms of metrological performances to
         be reached and test methods, but not in terms of design requirements which
         could impede innovation in the field.
-    - type: decides
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee decided that its Twenty-seventh meeting will take place
+    - spelling: eng
+      value: The Committee also accepted the invitation from Germany to hold the Twenty-eighth
+        meeting in Berlin in 1993.
+  - type: approves
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee approved the minutes of the Twenty-fifth CIML meeting without
+        modification.
+    - spelling: eng
+      value: The Committee approved the Auditor's report for 1990 and instructed its
+        President and the Director of the Bureau to submit it to the Ninth Conference.
+    - spelling: eng
+      value: 'The Committee approved for immediate publication, and then presentation
+        to the Ninth Conference for formal sanction, the following International Recommendations:'
+  - type: decides
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee decided that the draft "Guide to the drafting and presentation
+        of OIML International Recommendations" could be considered as approved and
+        could be published after final editing to take account of comments made orally
+        at the meeting and additional comments that some Members of CIML would like
+        to contribute in writing in the near future.
+    - spelling: eng
+      value: The Committee decided that its Twenty-seventh meeting will take place
         in Greece, at the beginning of November 1992, on the occasion of the Ninth
         Conference.
-    - type: notes
-      date_effective:
-        date: '1991-10-07'
-        type: effective
-      message: The Committee also accepted the invitation from Germany to hold the
-        Twenty-eighth meeting in Berlin in 1993.
+  - type: instructs
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed the Bureau to invite comments and to proceed
+        to final drafting and publication.
+  - type: thanks
+    date_effective:
+      date: '1991-10-07'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee expressed its appreciation of the intention of manufacturers
+        who are members of CECIP to urge their national authorities to implement OIML
+        Recommendations in national regulations quickly.

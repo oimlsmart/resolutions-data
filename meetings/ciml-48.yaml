@@ -10,35 +10,244 @@ date_range:
   start: '2013-10-08'
   end: '2013-10-10'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Ho Chi Minh City, Viet Nam
+general_area:
+- spelling: eng
+  value: Ho Chi Minh City, Viet Nam
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/48-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/48-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 48th CIML Meeting — Resolutions (EN)
-  general_area: Ho Chi Minh City, Viet Nam
-- language_code: fra
-  script: Latn
-  title: 48e réunion du CIML — Résolutions (FR)
-  general_area: Ho Chi Minh City, Viet Nam
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '48'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Ho Chi Minh City, Viet Nam
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 8–10 October 2013
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Roll call – Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 47th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General report by the CIML President
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentations by the candidates for CIML second Vice-President
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML matters
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on BIML activities
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress with the new OIML web site
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of OIML B 7 Staff regulations
+    outcome: discussed
+  - label: '4.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of an Assistant Director
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the 2012 accounts
+    outcome: adopted
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Management of the Translation Center
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renovation of the BIML building
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Forecast budget realization 2013
+    outcome: discussed
+  - label: '6.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Outstanding arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on developing countries matters
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the cooperation with the BIPM
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on liaison activities
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Reports from / presentations by liaison organizations
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information regarding the RLMO Round Table
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Implementation of the revised B 6: Directives for OIML technical work'
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for information
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for approval
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'OIML Systems: the Basic Certificate System'
+    outcome: discussed
+  - label: '9.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'OIML Systems: the MAA'
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the CIML second Vice President
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of meeting resolutions
+    outcome: adopted
 city: VNSGN
 country_code: VN
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-48-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: VNSGN
   country_code: VN
+title:
+- spelling: eng
+  value: 48th International Committee of Legal Metrology (CIML)

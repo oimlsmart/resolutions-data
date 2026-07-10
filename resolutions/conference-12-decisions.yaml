@@ -1,13 +1,13 @@
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 12th OIML Conference — Joint CIML-39 + DC Decisions (EN)
-  - language_code: fra
-    title: 12e Conférence OIML — Décisions (FR)
   source: OIML Conference Secretariat (BIML)
   country_code: DE
   meeting_urn: urn:oiml:conference:meeting:conference-12
+  title:
+  - spelling: eng
+    value: 12th OIML Conference — Joint CIML-39 + DC Decisions (EN)
+  - spelling: fra
+    value: 12e Conférence OIML — Décisions (FR)
 decisions:
 - identifier:
   - prefix: Conference
@@ -18,26 +18,24 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: Organization of the meeting'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 1. 1 The Conference took note of opening and welcome addresses delivered
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: Organization of the meeting'
+  - spelling: fra
+    value: 'Agenda Item 1: Organization of the meeting'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: 1. 1 The Conference took note of opening and welcome addresses delivered
         by Dr. Tacke, Vice-Minister of the Federal Ministry of Economics and Labour,
         Dr. Rohling, Pr. Gobel, President of the PTB, and Pr. Kochsiek, CIML Acting
         President.
-  - language_code: fra
-    title: 'Agenda Item 1: Organization of the meeting'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 1. 1 La Conférence a pris note des discours d'ouverture et de bienvenue
+    - spelling: fra
+      value: 1. 1 La Conférence a pris note des discours d'ouverture et de bienvenue
         prononcés par Dr. Tacke, Ministre délégué du "Federal Ministry of Economics
         and Labour", Dr. Röhling, Pr. Göbel, Président du PTB, et Pr. Kochsiek, Président
         Intérimaire du CIML.
@@ -50,11 +48,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: Member States and Corresponding Members'
-  - language_code: fra
-    title: 'Agenda Item 2: Member States and Corresponding Members'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: Member States and Corresponding Members'
+  - spelling: fra
+    value: 'Agenda Item 2: Member States and Corresponding Members'
 - identifier:
   - prefix: Conference
     number: 2004/2.1
@@ -64,28 +62,26 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2.1: New Members - Expected accessions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference noted that the number of OIML Members had significantly
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2.1: New Members - Expected accessions'
+  - spelling: fra
+    value: 'Agenda Item 2.1: New Members - Expected accessions'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference noted that the number of OIML Members had significantly
         increased since the Eleventh Conference, although a number of Corresponding
         Members had been delisted for not having paid their subscriptions for over
         three years. The Conference noted that certain Corresponding Members were
         envisaging joining as Member States and that a number of countries/economies
         were expected to join as Corresponding Members.
-  - language_code: fra
-    title: 'Agenda Item 2.1: New Members - Expected accessions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a constaté que le nombre de Membres de l'OIML avait significativement
+    - spelling: fra
+      value: La Conférence a constaté que le nombre de Membres de l'OIML avait significativement
         augmenté depuis la Onzième Conférence, malgré le fait que plusieurs Membres
         Correspondants avaient été radiés pour non paiement de leur contribution pendant
         plus de trois ans. La Conférence a pris note du fait que certains Membres
@@ -100,26 +96,24 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2.2: The situation of certain Members (see also Item 8.2)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference noted that Zambia had been struck off the list of Member
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2.2: The situation of certain Members (see also Item 8.2)'
+  - spelling: fra
+    value: 'Agenda Item 2.2: The situation of certain Members (see also Item 8.2)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference noted that Zambia had been struck off the list of Member
         States for not having complied with the requirements laid down by the Eleventh
         Conference.
-  - language_code: fra
-    title: 'Agenda Item 2.2: The situation of certain Members (see also Item 8.2)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a noté que la Zambie avait été radiée de la liste des
-        États Membres faute de s'être conformée aux obligations établies par la Onzième
+    - spelling: fra
+      value: La Conférence a noté que la Zambie avait été radiée de la liste des États
+        Membres faute de s'être conformée aux obligations établies par la Onzième
         Conférence.
 - identifier:
   - prefix: Conference
@@ -130,17 +124,19 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Long-term policy'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 3. 1 Report on actions carried out since the Eleventh Conference
-  - language_code: fra
-    title: 'Agenda Item 3: Long-term policy'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Long-term policy'
+  - spelling: fra
+    value: 'Agenda Item 3: Long-term policy'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: 3. 1 Report on actions carried out since the Eleventh Conference
 - identifier:
   - prefix: Conference
     number: 2004/3.1
@@ -150,16 +146,17 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.1: Report on actions carried out since the Eleventh Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport présenté par le Directeur du
-        BIML.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.1: Report on actions carried out since the Eleventh Conference'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport présenté par le Directeur du BIML.
 - identifier:
   - prefix: Conference
     number: 2004/3.2
@@ -169,32 +166,30 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3.2: Guidelines for the period 2005–2008'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference noted that most of the information concerning the actions
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3.2: Guidelines for the period 2005–2008'
+  - spelling: fra
+    value: 'Agenda Item 3.2: Guidelines for the period 2005–2008'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference noted that most of the information concerning the actions
         carried out since the Eleventh Conference, including the development of an
         Action Plan for 1999-2002 with extension to 2004, had been given in the report
         on activities delivered by the CIML Acting President. The Conference also
         noted that the Long-Term Policy and the Action Plan shall be revised under
         the supervision of the newly elected CIML President, and requested the CIML
         to monitor its implementation.
-  - language_code: fra
-    title: 'Agenda Item 3.2: Guidelines for the period 2005–2008'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a constaté que la plupart des informations relatives
-        aux actions réalisées depuis la Onzième Conférence, y compris l'élaboration
-        d'un Plan d'Action pour 1999-2002 avec prolongement jusqu'en 2004, avaient
-        été fournies dans le rapport sur les activités présenté par le Président Intérimaire
+    - spelling: fra
+      value: La Conférence a constaté que la plupart des informations relatives aux
+        actions réalisées depuis la Onzième Conférence, y compris l'élaboration d'un
+        Plan d'Action pour 1999-2002 avec prolongement jusqu'en 2004, avaient été
+        fournies dans le rapport sur les activités présenté par le Président Intérimaire
         du CIML. La Conférence a aussi constaté que la Politique à long terme et le
         Plan d'Action devaient être révisés sous le contrôle du Président du CIML
         nouvellement élu, et a demandé au CIML de veiller à sa mise en application.
@@ -207,11 +202,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: Liaisons with international and regional institutions'
-  - language_code: fra
-    title: 'Agenda Item 4: Liaisons with international and regional institutions'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: Liaisons with international and regional institutions'
+  - spelling: fra
+    value: 'Agenda Item 4: Liaisons with international and regional institutions'
 - identifier:
   - prefix: Conference
     number: 2004/4.1
@@ -221,24 +216,21 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.1: Report on liaisons'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of a report presented by the BIML Director.
-  - language_code: fra
-    title: 'Agenda Item 4.1: Report on liaisons'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport présenté par le Directeur du
-        BIML.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.1: Report on liaisons'
+  - spelling: fra
+    value: 'Agenda Item 4.1: Report on liaisons'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of a report presented by the BIML Director.
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport présenté par le Directeur du BIML.
 - identifier:
   - prefix: Conference
     number: 2004/4.2
@@ -248,25 +240,23 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.2: Addresses by Representatives of Institutions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 'The Conference also noted the reports presented by the representatives
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.2: Addresses by Representatives of Institutions'
+  - spelling: fra
+    value: 'Agenda Item 4.2: Addresses by Representatives of Institutions'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Conference also noted the reports presented by the representatives
         of:'
-  - language_code: fra
-    title: 'Agenda Item 4.2: Addresses by Representatives of Institutions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 'La Conférence a également pris note des rapports présentés par les
-        représentants de:'
+    - spelling: fra
+      value: 'La Conférence a également pris note des rapports présentés par les représentants
+        de:'
 - identifier:
   - prefix: Conference
     number: 2004/5
@@ -276,11 +266,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Work of OIML Technical Committees and Subcommittees'
-  - language_code: fra
-    title: 'Agenda Item 5: Work of OIML Technical Committees and Subcommittees'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Work of OIML Technical Committees and Subcommittees'
+  - spelling: fra
+    value: 'Agenda Item 5: Work of OIML Technical Committees and Subcommittees'
 - identifier:
   - prefix: Conference
     number: 2004/5.1
@@ -290,29 +280,27 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.1: Work undertaken - State of progress'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of a report concerning the activities of OIML
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.1: Work undertaken - State of progress'
+  - spelling: fra
+    value: 'Agenda Item 5.1: Work undertaken - State of progress'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of a report concerning the activities of OIML
         Technical Committees and Subcommittees and requested the CIML to continue
         to monitor the situation and to find solutions in order to ensure a better
         distribution of technical responsibilities amongst OIML Member States.
-  - language_code: fra
-    title: 'Agenda Item 5.1: Work undertaken - State of progress'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport concernant les activités des
-        Comités Techniques et Sous-comités de l'OIML et a demandé au CIML de continuer
-        à surveiller la situation et de trouver des solutions afin d'assurer une meilleure
-        répartition des responsabilités techniques parmi les États Membres de l'OIML.
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport concernant les activités des Comités
+        Techniques et Sous-comités de l'OIML et a demandé au CIML de continuer à surveiller
+        la situation et de trouver des solutions afin d'assurer une meilleure répartition
+        des responsabilités techniques parmi les États Membres de l'OIML.
 - identifier:
   - prefix: Conference
     number: 2004/5.2
@@ -322,26 +310,24 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.2: Implementation of Recommendations by OIML Members'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of information given by the Bureau concerning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.2: Implementation of Recommendations by OIML Members'
+  - spelling: fra
+    value: 'Agenda Item 5.2: Implementation of Recommendations by OIML Members'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of information given by the Bureau concerning
         the implementation of OIML Recommendations in national regulations or voluntary
         standards. It noted that due to the low level of responses, no comprehensive
         report could be given.
-  - language_code: fra
-    title: 'Agenda Item 5.2: Implementation of Recommendations by OIML Members'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'informations fournies par le Bureau concernant
+    - spelling: fra
+      value: La Conférence a pris note d'informations fournies par le Bureau concernant
         la mise en application des Recommandations OIML dans les réglementations nationales
         ou les normes d'application volontaire. Il a été constaté qu'en raison du
         faible taux de réponses, aucun rapport complet ne pouvait être donné.
@@ -354,29 +340,27 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.3: Formal sanction of Recommendations already approved by
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.3: Formal sanction of Recommendations already approved by
       the Committee in 2001, 2002 and 2003'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference decided that OIML Test Report Formats, which are of
-        an informative nature concerning their implementation in national regulations,
+  - spelling: fra
+    value: 'Agenda Item 5.3: Formal sanction of Recommendations already approved by
+      the Committee in 2001, 2002 and 2003'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference decided that OIML Test Report Formats, which are of an
+        informative nature concerning their implementation in national regulations,
         shall be approved by the CIML according to the rules applicable to International
         Documents, without having to be sanctioned by the Conference.
-  - language_code: fra
-    title: 'Agenda Item 5.3: Formal sanction of Recommendations already approved by
-      the Committee in 2001, 2002 and 2003'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a décidé que les Formats de Rapport d'Essai OIML, qui
-        sont de nature informative pour ce qui concerne leur application dans le cadre
+    - spelling: fra
+      value: La Conférence a décidé que les Formats de Rapport d'Essai OIML, qui sont
+        de nature informative pour ce qui concerne leur application dans le cadre
         des réglementations nationales, doivent être approuvés par le CIML selon les
         règles applicables aux Documents Internationaux, sans devoir être sanctionnés
         par la Conférence.
@@ -389,28 +373,26 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.4: Draft Recommendations directly presented for sanctioning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.4: Draft Recommendations directly presented for sanctioning
       by the Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference sanctioned one new Recommendation Instruments for measuring
+  - spelling: fra
+    value: 'Agenda Item 5.4: Draft Recommendations directly presented for sanctioning
+      by the Conference'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference sanctioned one new Recommendation Instruments for measuring
         the area of leathers (R 136). The Conference also decided to withdraw OIML
         Recommendations R 33 and R 62.
-  - language_code: fra
-    title: 'Agenda Item 5.4: Draft Recommendations directly presented for sanctioning
-      by the Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a sanctionné une nouvelle Recommandation Instruments
-        de mesure de la surface des cuirs (R 136).
+    - spelling: fra
+      value: La Conférence a sanctionné une nouvelle Recommandation Instruments de
+        mesure de la surface des cuirs (R 136).
 - identifier:
   - prefix: Conference
     number: 2004/6
@@ -420,11 +402,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: OIML Certification, Mutual Acceptance and/or Recognition'
-  - language_code: fra
-    title: 'Agenda Item 6: OIML Certification, Mutual Acceptance and/or Recognition'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: OIML Certification, Mutual Acceptance and/or Recognition'
+  - spelling: fra
+    value: 'Agenda Item 6: OIML Certification, Mutual Acceptance and/or Recognition'
 - identifier:
   - prefix: Conference
     number: 2004/6.1
@@ -434,26 +416,24 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.1: OIML Certificate System for Measuring Instruments'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of a report describing progress made with
-        this activity since the establishment of the System in general and since the
-        11th Conference in particular, including the results of recent inquiries carried
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.1: OIML Certificate System for Measuring Instruments'
+  - spelling: fra
+    value: 'Agenda Item 6.1: OIML Certificate System for Measuring Instruments'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of a report describing progress made with this
+        activity since the establishment of the System in general and since the 11th
+        Conference in particular, including the results of recent inquiries carried
         out among OIML Members and manufacturers.
-  - language_code: fra
-    title: 'Agenda Item 6.1: OIML Certificate System for Measuring Instruments'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport décrivant les progrès réalisés
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport décrivant les progrès réalisés
         dans le cadre de cette activité depuis la création du Système en général et
         depuis la Onzième Conférence en particulier, incluant les résultats des récentes
         enquêtes effectuées parmi les Membres de l'OIML et les fabricants d'instruments
@@ -467,25 +447,23 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.2: Mutual Acceptance Arrangement (MAA)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference expressed its appreciation to the CIML for the setting
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.2: Mutual Acceptance Arrangement (MAA)'
+  - spelling: fra
+    value: 'Agenda Item 6.2: Mutual Acceptance Arrangement (MAA)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference expressed its appreciation to the CIML for the setting
         up of the Mutual Acceptance Arrangement, and took note that this System will
         be implemented in 2005.
-  - language_code: fra
-    title: 'Agenda Item 6.2: Mutual Acceptance Arrangement (MAA)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a exprimé sa satisfaction pour la mise en place par le
+    - spelling: fra
+      value: La Conférence a exprimé sa satisfaction pour la mise en place par le
         CIML de l'Arrangement d'Acceptation Mutuelle, et a pris note que ce Système
         entrerait en application en 2005.
 - identifier:
@@ -497,28 +475,26 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6.3: Other developments'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of a report concerning the results of various
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6.3: Other developments'
+  - spelling: fra
+    value: 'Agenda Item 6.3: Other developments'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of a report concerning the results of various
         inquiries carried out by the BIML in order to ascertain the views of manufacturers
         and CIML Members concerning advisable developments of the System.
-  - language_code: fra
-    title: 'Agenda Item 6.3: Other developments'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport concernant les résultats de
-        diverses enquêtes effectuées par le BIML afin d'e prendre connaissance des
-        avis des fabricants et des Membres du CIML en ce qui concerne les développements
-        recommandés du Système.
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport concernant les résultats de diverses
+        enquêtes effectuées par le BIML afin d'e prendre connaissance des avis des
+        fabricants et des Membres du CIML en ce qui concerne les développements recommandés
+        du Système.
 - identifier:
   - prefix: Conference
     number: 2004/7
@@ -528,11 +504,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Developing Countries'
-  - language_code: fra
-    title: 'Agenda Item 7: Developing Countries'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Developing Countries'
+  - spelling: fra
+    value: 'Agenda Item 7: Developing Countries'
 - identifier:
   - prefix: Conference
     number: 2004/7.1
@@ -542,25 +518,23 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.1: Report on activities for the period 2001–2004'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of a report concerning the Development Council
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.1: Report on activities for the period 2001–2004'
+  - spelling: fra
+    value: 'Agenda Item 7.1: Report on activities for the period 2001–2004'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of a report concerning the Development Council
         meeting held on 25 October and expressed its appreciation to the Chairperson
         for the work accomplished.
-  - language_code: fra
-    title: 'Agenda Item 7.1: Report on activities for the period 2001–2004'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport concernant la réunion du Conseil
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport concernant la réunion du Conseil
         de Développement tenue le 25 octobre et a exprimé sa satisfaction à la Présidente
         pour le travail accompli.
 - identifier:
@@ -572,28 +546,26 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: Guidelines for future activities'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference noted the Committee's report that, notwithstanding Resolution
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: Guidelines for future activities'
+  - spelling: fra
+    value: 'Agenda Item 7.2: Guidelines for future activities'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference noted the Committee's report that, notwithstanding Resolution
         7.2 of the 6th International Conference of Legal Metrology which established
         the OIML Development Council, the OIML's work on Developing Country matters
         could be more efficiently managed by the establishment of a Permanent Working
         Group on Developing Countries (PWGDC), which would replace the Development
         Council.
-  - language_code: fra
-    title: 'Agenda Item 7.2: Guidelines for future activities'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note du rapport du Comité selon lequel, en dépit
+    - spelling: fra
+      value: La Conférence a pris note du rapport du Comité selon lequel, en dépit
         de la Résolution 7.2 de la 6ème Conférence Internationale de Métrologie Légale
         qui instituait le Conseil de Développement de l'OIML, le travail de l'OIML
         sur les questions relatives aux Pays en Développement pourrait être géré plus
@@ -608,11 +580,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: Administrative and financial matters'
-  - language_code: fra
-    title: 'Agenda Item 8: Administrative and financial matters'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: Administrative and financial matters'
+  - spelling: fra
+    value: 'Agenda Item 8: Administrative and financial matters'
 - identifier:
   - prefix: Conference
     number: 2004/8.1
@@ -622,25 +594,23 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.1: Examination of the management of the budget from 2001
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.1: Examination of the management of the budget from 2001
       to 2003 and the estimates for 2004'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The International Conference of Legal Metrology,
-  - language_code: fra
-    title: 'Agenda Item 8.1: Examination of the management of the budget from 2001
+  - spelling: fra
+    value: 'Agenda Item 8.1: Examination of the management of the budget from 2001
       to 2003 and the estimates for 2004'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence Internationale de Métrologie Légale,
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The International Conference of Legal Metrology,
+    - spelling: fra
+      value: La Conférence Internationale de Métrologie Légale,
 - identifier:
   - prefix: Conference
     number: 2004/8.2
@@ -650,23 +620,21 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.2: Decisions related to the debts of certain countries'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 'The Conference adopted the following Resolution:'
-  - language_code: fra
-    title: 'Agenda Item 8.2: Decisions related to the debts of certain countries'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: 'La Conférence a adopté la Résolution suivante:'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.2: Decisions related to the debts of certain countries'
+  - spelling: fra
+    value: 'Agenda Item 8.2: Decisions related to the debts of certain countries'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Conference adopted the following Resolution:'
+    - spelling: fra
+      value: 'La Conférence a adopté la Résolution suivante:'
 - identifier:
   - prefix: Conference
     number: 2004/8.3
@@ -676,24 +644,22 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.3: Revision of the OIML Financial Regulations'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference approved the revised OIML Financial Regulations as established
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.3: Revision of the OIML Financial Regulations'
+  - spelling: fra
+    value: 'Agenda Item 8.3: Revision of the OIML Financial Regulations'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference approved the revised OIML Financial Regulations as established
         by the Committee.
-  - language_code: fra
-    title: 'Agenda Item 8.3: Revision of the OIML Financial Regulations'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a approuvé le Règlement Financier de l'OIML révisé tel
+    - spelling: fra
+      value: La Conférence a approuvé le Règlement Financier de l'OIML révisé tel
         qu'établi par le Comité.
 - identifier:
   - prefix: Conference
@@ -704,24 +670,22 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.4: Bureau staff and retirement scheme'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference took note of a report given by the BIML Director on
-        this issue.
-  - language_code: fra
-    title: 'Agenda Item 8.4: Bureau staff and retirement scheme'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a pris note d'un rapport fourni par le Directeur du BIML
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.4: Bureau staff and retirement scheme'
+  - spelling: fra
+    value: 'Agenda Item 8.4: Bureau staff and retirement scheme'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference took note of a report given by the BIML Director on this
+        issue.
+    - spelling: fra
+      value: La Conférence a pris note d'un rapport fourni par le Directeur du BIML
         sur cette question.
 - identifier:
   - prefix: Conference
@@ -732,24 +696,22 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.5: Budget for the financial period 2005–2008'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference accepted (with one abstention) to consider the budgetary
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.5: Budget for the financial period 2005–2008'
+  - spelling: fra
+    value: 'Agenda Item 8.5: Budget for the financial period 2005–2008'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference accepted (with one abstention) to consider the budgetary
         proposals as a whole and not in separate components.
-  - language_code: fra
-    title: 'Agenda Item 8.5: Budget for the financial period 2005–2008'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a accepté (avec une abstention) de considérer les propositions
+    - spelling: fra
+      value: La Conférence a accepté (avec une abstention) de considérer les propositions
         budgétaires dans leur ensemble et non comme composants séparés.
 - identifier:
   - prefix: Conference
@@ -760,26 +722,24 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.6: Status of OIML Publications'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference approved the proposal to make all OIML Publications,
-        except those which are published jointly with other Organizations, available
-        free of charge in electronic format on the OIML web site and to cease publishing
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.6: Status of OIML Publications'
+  - spelling: fra
+    value: 'Agenda Item 8.6: Status of OIML Publications'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference approved the proposal to make all OIML Publications, except
+        those which are published jointly with other Organizations, available free
+        of charge in electronic format on the OIML web site and to cease publishing
         them on paper.
-  - language_code: fra
-    title: 'Agenda Item 8.6: Status of OIML Publications'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a approuvé la proposition de rendre toutes les Publications
+    - spelling: fra
+      value: La Conférence a approuvé la proposition de rendre toutes les Publications
         OIML, exceptées celles publiées en commun avec d'autres organisations, disponibles
         gratuitement sous forme électronique sur le site Internet de l'OIML et de
         cesser leur publication sur papier.
@@ -792,11 +752,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: Other business'
-  - language_code: fra
-    title: 'Agenda Item 9: Other business'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: Other business'
+  - spelling: fra
+    value: 'Agenda Item 9: Other business'
 - identifier:
   - prefix: Conference
     number: 2004/10
@@ -806,11 +766,11 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: Closure'
-  - language_code: fra
-    title: 'Agenda Item 10: Closure'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: Closure'
+  - spelling: fra
+    value: 'Agenda Item 10: Closure'
 - identifier:
   - prefix: Conference
     number: 2004/10.1
@@ -820,25 +780,23 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.1: Adoption of Decisions and Resolutions of the Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: A second roll call of delegates was called and it was found that 53
-        Member States were present; the statutory quorum of two-thirds as fixed by
-        the Convention was therefore reached.
-  - language_code: fra
-    title: 'Agenda Item 10.1: Adoption of Decisions and Resolutions of the Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: Après avoir procédé à un second appel des Délégués, il a été constaté
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.1: Adoption of Decisions and Resolutions of the Conference'
+  - spelling: fra
+    value: 'Agenda Item 10.1: Adoption of Decisions and Resolutions of the Conference'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: A second roll call of delegates was called and it was found that 53 Member
+        States were present; the statutory quorum of two-thirds as fixed by the Convention
+        was therefore reached.
+    - spelling: fra
+      value: Après avoir procédé à un second appel des Délégués, il a été constaté
         que 53 États Membres étaient présents; le quorum statutaire des deux tiers
         fixé par la Convention était donc atteint.
 - identifier:
@@ -850,26 +808,24 @@ decisions:
   dates:
   - date: '2004-10-26'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.2: Date and place of the next Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: The Conference decided that it would wait for a period of up to two
-        years, i.e. until 2006, to establish whether any Member State was willing
-        to host the Thirteenth Conference in 2008. If no Member State was forthcoming,
-        then the BIML would organize the Conference in France.
-  - language_code: fra
-    title: 'Agenda Item 10.2: Date and place of the next Conference'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2004-10-26'
-        type: effective
-      message: La Conférence a décidé d'attendre jusqu'à deux ans, c'est-à-dire jusqu'en
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.2: Date and place of the next Conference'
+  - spelling: fra
+    value: 'Agenda Item 10.2: Date and place of the next Conference'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2004-10-26'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Conference decided that it would wait for a period of up to two years,
+        i.e. until 2006, to establish whether any Member State was willing to host
+        the Thirteenth Conference in 2008. If no Member State was forthcoming, then
+        the BIML would organize the Conference in France.
+    - spelling: fra
+      value: La Conférence a décidé d'attendre jusqu'à deux ans, c'est-à-dire jusqu'en
         2006, une proposition d'un État Membre d'accueillir la Treizième Conférence
         en 2008. Si aucun État Membre n'y était disposé, alors le BIML organiserait
         la Conférence en France.

@@ -10,27 +10,339 @@ date_range:
   start: '2004-10-26'
   end: '2004-10-29'
 committee: International Conference of Legal Metrology
-general_area: Berlin, Germany
+general_area:
+- spelling: eng
+  value: Berlin, Germany
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/12-conf-39-ciml-dc-decisions.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/conference/pdf/12-conf-decisions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 12th OIML Conference — Joint CIML-39 + DC Decisions (EN)
-  general_area: Berlin, Germany
-- language_code: fra
-  script: Latn
-  title: 12e Conférence OIML — Décisions (FR)
-  general_area: Berlin, Germany
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: OIML Conference
+    number: '12'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PARIS, 12 OCTOBER 1955 - AMENDED IN 1968
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Twelfth International Legal
+    outcome: discussed
+  - label: c
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Metrology Conference
+    outcome: discussed
+  - label: d
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Berlin, 26–29 October 2004
+    outcome: discussed
+  - label: e
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DE MÉTROLOGIE LÉGALE
+    outcome: discussed
+  - label: f
+    kind: numbered
+    title:
+    - spelling: eng
+      value: TWELFTH INTERNATIONAL
+    outcome: discussed
+  - label: g
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CONFERENCE
+    outcome: discussed
+  - label: h
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BERLIN, 26–29 OCTOBER 2004
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organization of the meeting
+    outcome: discussed
+  - label: '1.1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening
+    outcome: discussed
+  - label: '1.2'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll-call - Verification of credentials - Quorum
+    outcome: discussed
+  - label: '1.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Voting procedures during Conference sessions
+    outcome: discussed
+  - label: '1.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the President and Vice-Presidents of the Conference
+    outcome: discussed
+  - label: '1.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the agenda
+    outcome: adopted
+  - label: '1.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Constitution of Working Commissions
+    outcome: discussed
+  - label: '1.7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Establishment of the schedule
+    outcome: discussed
+  - label: '1.8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the Eleventh Conference
+    outcome: adopted
+  - label: '1.9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on activities by the President of the International Committee
+        of Legal Metrology
+    outcome: discussed
+  - label: '1.10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Miscellaneous information
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New Members - Expected accessions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The situation of certain Members (see also Item 8.2)
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Long-term policy
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on actions carried out since the Eleventh Conference
+    outcome: discussed
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Guidelines for the period 2005–2008
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons with international and regional institutions
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on liaisons
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Addresses by Representatives of Institutions
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Discussions and conclusions
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Work of OIML Technical Committees and Subcommittees
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Work undertaken - State of progress
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Implementation of Recommendations by OIML Members
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Formal sanction of Recommendations already approved by the Committee
+        in 2001, 2002 and 2003
+    outcome: discussed
+  - label: '5.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Draft Recommendations directly presented for sanctioning by the Conference
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification, Mutual Acceptance and/or Recognition
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certificate System for Measuring Instruments
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mutual Acceptance Arrangement (MAA)
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other developments
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing Countries
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on activities for the period 2001–2004
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Guidelines for future activities
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Administrative and financial matters
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the management of the budget from 2001 to 2003 and the
+        estimates for 2004
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Decisions related to the debts of certain countries
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of the OIML Financial Regulations
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Bureau staff and retirement scheme
+    outcome: discussed
+  - label: '8.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget for the financial period 2005–2008
+    outcome: discussed
+  - label: '8.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Status of OIML Publications
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other business
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Closure
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of Decisions and Resolutions of the Conference
+    outcome: adopted
+  - label: '10.2'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Date and place of the next Conference
+    outcome: discussed
 city: DEBER
 country_code: DE
 visibility: public
@@ -38,3 +350,6 @@ venues:
 - kind: physical
   unlocode: DEBER
   country_code: DE
+title:
+- spelling: eng
+  value: 12th International Conference of Legal Metrology

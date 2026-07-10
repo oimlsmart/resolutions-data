@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/28CIML-1993-FR.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/28CIML-1993-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-28
-# Language: fr
 ---
 metadata:
-  title_localized:
-  - language_code: fra
-    title: 28th CIML Meeting — Minutes (FR, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: DEBER
   country_code: DE
   meeting_urn: urn:oiml:ciml:meeting:ciml-28
+  title:
+  - spelling: fra
+    value: 28th CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,25 +17,29 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. ATHANÉ rappelle l'adhésion comme État Membre de la République de
-        Slovénie, au début de 1993. Certains pays, en particulier des républiques
-        de l'ex-URSS, comme l'Ukraine ou la Biélorussie, envisagent d'adhérer à l'OIML;
-        deux Membres Correspondants, le Luxembourg et l'Islande, pourraient dans l'avir
-        décider de devenir États Membres; enfin, d'autres pays d'Amérique Latine et
-        d'Asie, se sont renseignés auprès du BIML sur les modalités d'adhésion comme
-        États Membres ou Membres Correspondants. M. ATHANÉ ajoute que le BIML reste
-        prudent dans ces contacts avec ces pays non membres et ne les encourage à
-        adhérer comme États Membres que s'ils en ont réellement la possibilité tant
-        financière que technique.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. ATHANÉ rappelle l'adhésion comme État Membre de la République de Slovénie,
+        au début de 1993. Certains pays, en particulier des républiques de l'ex-URSS,
+        comme l'Ukraine ou la Biélorussie, envisagent d'adhérer à l'OIML; deux Membres
+        Correspondants, le Luxembourg et l'Islande, pourraient dans l'avir décider
+        de devenir États Membres; enfin, d'autres pays d'Amérique Latine et d'Asie,
+        se sont renseignés auprès du BIML sur les modalités d'adhésion comme États
+        Membres ou Membres Correspondants. M. ATHANÉ ajoute que le BIML reste prudent
+        dans ces contacts avec ces pays non membres et ne les encourage à adhérer
+        comme États Membres que s'ils en ont réellement la possibilité tant financière
+        que technique.
 - identifier:
   - prefix: CIML
     number: 1993/2
@@ -50,16 +49,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. ATHANÉ indique tout d'abord que Liban, dont la participation à l'OIML
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. ATHANÉ indique tout d'abord que Liban, dont la participation à l'OIML
         avait été suspendue en 1992 en raison du non-paiement de ses contributions,
         semblait avoir décidé de réintégrer sa position d'État Membre et avait indiqué
         qu'il allait payer une partie de sa contribution pour 1993; la situation de
@@ -74,16 +77,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: SITUATION FINANCIÈRE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le rapport comptable pour 1992 est approuvé sans commentaire. Le Comité
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: SITUATION FINANCIÈRE'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le rapport comptable pour 1992 est approuvé sans commentaire. Le Comité
         charge son Président et le Directeur du BIML de le présenter à la Dixième
         Conférence.
 - identifier:
@@ -95,19 +102,23 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: SITUATION FINANCIÈRE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. ATHANÉ indique tout d'abord que les estimations de dépenses pour
-        1993 devraient, dans leurs grandes lignes, être à peu près suivies; certaines
-        dépenses spécifiques, comme le Bulletin, pourraient dépasser sensiblement
-        les prévisions mais, par
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: SITUATION FINANCIÈRE'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. ATHANÉ indique tout d'abord que les estimations de dépenses pour 1993
+        devraient, dans leurs grandes lignes, être à peu près suivies; certaines dépenses
+        spécifiques, comme le Bulletin, pourraient dépasser sensiblement les prévisions
+        mais, par
 - identifier:
   - prefix: CIML
     number: 1993/3
@@ -117,16 +128,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: SITUATION FINANCIÈRE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: SITUATION FINANCIÈRE'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1993/5
@@ -136,18 +151,22 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: NOUVELLES STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. ATHANÉ indique que les Directives pour les travaux techniques de
-        l'OIML, partie 1 relative aux structures et procédures, et partie 2 relative
-        à la rédaction et présentation des Recommandations et Documents OIML, approuvées
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: NOUVELLES STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. ATHANÉ indique que les Directives pour les travaux techniques de l'OIML,
+        partie 1 relative aux structures et procédures, et partie 2 relative à la
+        rédaction et présentation des Recommandations et Documents OIML, approuvées
         par le Comité en 1992 et 1991 respectivement, ont été très largement diffusées
         auprès de tous les États Membres. Une édition imprimée définitive est prévue
         pour 1994. Le Bureau s'est efforcé d'assister aux réunions de comités techniques
@@ -162,16 +181,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: NOUVELLES STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. VICHENKOV rappelle les actions du Bureau pour la mise en place des
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: NOUVELLES STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. VICHENKOV rappelle les actions du Bureau pour la mise en place des
         nouvelles structures par comités techniques et sous-comités. Les 18 comités
         techniques ont vu la responsabilité de leur secrétariat attribuée et les listes
         des membres-P et -O établies. En ce qui concerne les programmes de travail
@@ -185,16 +208,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: NOUVELLES STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. VICHENKOV indique qu'en ce qui concerne les sous-comités, un certain
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: NOUVELLES STRUCTURES ET PROCEDURES POUR LES TRAVAUX TECHNIQUES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. VICHENKOV indique qu'en ce qui concerne les sous-comités, un certain
         nombre de TC ont décidé de ne pas en établir; d'autres ont d'ores et déjà
         établi leurs sous-comités dont les secrétariats ont été attribués et la participation
         (membres-P et -O) établie; pour quelques autres comités techniques, la procédure
@@ -208,20 +235,24 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6: TRAVAUX TECHNIQUES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: M. ATHANÉ indique que, contrairement à ce qui avait été annoncé, un
-        état d'avancement des travaux des anciens secrétariats pilotes et rapporteurs
-        n'a pas été préparé par le Bureau; il a en effet été jugé préférable de ne
-        pas perdre de temps à réaliser un document rendu inutile par le remplacement
-        des secrétariats par les nouveaux comités techniques et sous-comités. Au contraire,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6: TRAVAUX TECHNIQUES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. ATHANÉ indique que, contrairement à ce qui avait été annoncé, un état
+        d'avancement des travaux des anciens secrétariats pilotes et rapporteurs n'a
+        pas été préparé par le Bureau; il a en effet été jugé préférable de ne pas
+        perdre de temps à réaliser un document rendu inutile par le remplacement des
+        secrétariats par les nouveaux comités techniques et sous-comités. Au contraire,
         un nouveau document présentant l'état d'avancement des travaux de ces comités
         techniques et sous-comités (développement des thèmes) sera préparé dès que
         les structures de tous les comités techniques auront été établies.
@@ -234,16 +265,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6: TRAVAUX TECHNIQUES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'M. ATHANÉ résume les résultats des enquêtes par correspondance conduites
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6: TRAVAUX TECHNIQUES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. ATHANÉ résume les résultats des enquêtes par correspondance conduites
         par le Bureau au sujet de sept projets de Recommandation soumis à l''approbation
         du Comité:'
 - identifier:
@@ -255,16 +290,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: CERTIFICATION'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: CERTIFICATION'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
 - identifier:
   - prefix: CIML
     number: 1993/7
@@ -274,16 +313,20 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: CERTIFICATION'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Bureau donne des informations sur les Recommandations qui pourraient
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: CERTIFICATION'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Bureau donne des informations sur les Recommandations qui pourraient
         rentrer dans le Système. En ce qui concerne les nouveaux textes que le Comité
         vient d''approuver, un problème se pose pour la Recommandation sur les poids;
         en effet, les anciennes Recommandations 1, 2 et 20 avaient été considérées
@@ -302,143 +345,88 @@ decisions:
   dates:
   - date: '1993-10-04'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: CERTIFICATION'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a tenu à exprimer son appréciation pour le travail accompli
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: CERTIFICATION'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1993-10-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
+    - spelling: fra
+      value: Le Comité a tenu à exprimer son appréciation pour le travail accompli
         sous la présidence de M. BENKIRANE et a noté sa réélection comme Président
         du Conseil de Développement pour les deux prochaines années.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité décide de tenir sa prochaine réunion à Paris, en octobre
-        1994, organisée par le BIML. Une réunion du Conseil de Développement se tiendra
+    - spelling: fra
+      value: Le Comité décide de tenir sa prochaine réunion à Paris, en octobre 1994,
+        organisée par le BIML. Une réunion du Conseil de Développement se tiendra
         au cours de la même semaine.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité accepte par ailleurs l'invitation de la Délégation de la
-        République Populaire de Chine de tenir la trentième réunion en 1995 à Pékin.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a approuvé le compte rendu de sa vingt-septième réunion sans
+    - spelling: fra
+      value: Le Comité accepte par ailleurs l'invitation de la Délégation de la République
+        Populaire de Chine de tenir la trentième réunion en 1995 à Pékin.
+    - spelling: fra
+      value: Le Comité a approuvé le compte rendu de sa vingt-septième réunion sans
         modification.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note de l'adhésion en 1993 de la Slovénie comme nouvel
+    - spelling: fra
+      value: Le Comité a pris note de l'adhésion en 1993 de la Slovénie comme nouvel
         Etat Membre de l'OIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a par ailleurs pris note des perspectives d'adhésions et
-        de l'éventuelle réadhésion du Liban à l'OIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a enfin adopté une Résolution relative à l'un des Etats Membres
+    - spelling: fra
+      value: Le Comité a par ailleurs pris note des perspectives d'adhésions et de
+        l'éventuelle réadhésion du Liban à l'OIML.
+    - spelling: fra
+      value: Le Comité a enfin adopté une Résolution relative à l'un des Etats Membres
         (voir point 3).
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a approuvé le rapport comptable pour 1992 et a chargé le
-        Président du CIML et le Directeur du BIML de soumettre ce rapport à la Dixième
-        Conférence.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a également pris note d'informations du BIML sur la situation
+    - spelling: fra
+      value: Le Comité a approuvé le rapport comptable pour 1992 et a chargé le Président
+        du CIML et le Directeur du BIML de soumettre ce rapport à la Dixième Conférence.
+    - spelling: fra
+      value: Le Comité a également pris note d'informations du BIML sur la situation
         financière de l'Organisation.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Comité a enfin adopté la Résolution suivante:'
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Comité a modifié la grille de salaire de l''Administrateur du BIML
+    - spelling: fra
+      value: 'Le Comité a enfin adopté la Résolution suivante:'
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
+    - spelling: fra
+      value: 'Le Comité a modifié la grille de salaire de l''Administrateur du BIML
         comme suit:'
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note du rapport du BIML sur la mise en application
-        des nouvelles directives pour les travaux techniques.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a également pris note d'informations sur l'établissement
-        des comités techniques (TC).
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Comité a enfin pris note d''informations sur l''établissement de
+    - spelling: fra
+      value: Le Comité a pris note du rapport du BIML sur la mise en application des
+        nouvelles directives pour les travaux techniques.
+    - spelling: fra
+      value: Le Comité a également pris note d'informations sur l'établissement des
+        comités techniques (TC).
+    - spelling: fra
+      value: 'Le Comité a enfin pris note d''informations sur l''établissement de
         sous-comités (SC) au sein de certains comités techniques et a pris les décisions
         suivantes:'
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Comité a noté qu''il est proposé qu''un certain nombre de TC ne
-        comprennent au départ aucun sous-comité et que le programme de travail soit
-        effectué directement par les TC: TC 1 Terminologie; TC 2 Unités de mesure;
-        TC 4 Étalons de mesurage, dispositifs d''etalonnage et de vérification; TC
-        5 Instruments électroniques; TC 6 Produits pre-emballés; TC 13 Instruments
-        de mesure pour l''acoustique et les vibrations; et TC 14 Instruments de mesure
-        utilisés en optique.'
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a noté les résultats de l'enquête postale du BIML sur certains
+    - spelling: fra
+      value: 'Le Comité a noté qu''il est proposé qu''un certain nombre de TC ne comprennent
+        au départ aucun sous-comité et que le programme de travail soit effectué directement
+        par les TC: TC 1 Terminologie; TC 2 Unités de mesure; TC 4 Étalons de mesurage,
+        dispositifs d''etalonnage et de vérification; TC 5 Instruments électroniques;
+        TC 6 Produits pre-emballés; TC 13 Instruments de mesure pour l''acoustique
+        et les vibrations; et TC 14 Instruments de mesure utilisés en optique.'
+    - spelling: fra
+      value: Le Comité a noté les résultats de l'enquête postale du BIML sur certains
         TC et a décidé l'établissement de sous-comités pour le TC 7 Instruments de
         mesure des longueurs et grandeurs associées, et le TC 8 Mesurage des quantités
         de liquides. En ce qui concerne le TC 7/SC 5, le Comité a approuvé la proposition
         de l'Australie de créer un nouveau thème de travail (p 1) pour les instruments
         de mesures dimensionnelles.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note des résultats provisoires relatifs à l'établissement
+    - spelling: fra
+      value: Le Comité a pris note des résultats provisoires relatifs à l'établissement
         de sous-comités au sein des TC 9 Instruments de mesure des masses et masses
         volumiques; TC 10 Instruments de mesure des pressions, forces et grandeurs
         associées; et TC 16 Instruments de mesure des polluants. Les résultats définitifs
         seront distribués dès que les enquêtes postales seront terminées.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a demandé aux secrétariats et aux membres-P des autres comités
+    - spelling: fra
+      value: Le Comité a demandé aux secrétariats et aux membres-P des autres comités
         techniques (TC 3 Contrôle métrologique; TC 11 Instruments de mesure de la
         température et grandeurs associées; TC 12 Instruments de mesure des grandeurs
         électriques; TC 15 Instruments de mesure pour rayonnements ionisants; TC 17
@@ -448,198 +436,117 @@ decisions:
         doit être terminé le plus rapidement possible de telle manière qu'un rapport
         sur l'établissement des structures de ces TC puisse être présenté à la prochaine
         réunion du Conseil de Présidence.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a recommandé que des accords entre les secrétariats des anciennes
+    - spelling: fra
+      value: Le Comité a recommandé que des accords entre les secrétariats des anciennes
         (SP-Sr) et des nouvelles (TC/SC) structures soient établis afin de faciliter
         une transition harmonieuse des travaux.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note qu'une version de l'état d'avancement des travaux
+    - spelling: fra
+      value: Le Comité a pris note qu'une version de l'état d'avancement des travaux
         des comités techniques et sous-comités sera établie par le BIML dès que l'ensemble
         des structures des comités techniques auront été fixées.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Comité a par ailleurs approuvé les Recommandations suivantes:'
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note que le Membre du CIML pour la Russie retirait
-        le projet de Recommandation "Liquides étalons de référence pour l'etalonnage
+    - spelling: fra
+      value: 'Le Comité a par ailleurs approuvé les Recommandations suivantes:'
+    - spelling: fra
+      value: Le Comité a pris note que le Membre du CIML pour la Russie retirait le
+        projet de Recommandation "Liquides étalons de référence pour l'etalonnage
         et la vérification des viscosimètres" pour réexamen par la Russie et les experts
         allemands avant d'être soumis à l'approbation du CIML lors de sa 29ème réunion.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité International de Métrologie Légale
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note d'un rapport de son Président sur la préparation
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport de son Président sur la préparation
         d'un document de politique à long terme de l'Organisation; le Comité a pris
         note que deux documents préliminaires ont été distribués aux participants
         de la réunion pour leur information personnelle et pour servir de base aux
         discussions; le Comité a également pris note des remarques exprimées par certains
         de ses Membres.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a demandé à ses Membres d'envoyer au BIML leurs opinions
-        concernant la politique à long terme avant fin 1993 pour qu'elles puissent
-        être étudiées par le Conseil de la Présidence afin d'aboutir à un ou plusieurs
-        projets courant 1994.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note d'informations données par le BIML relatives
-        à la future mise en place des liaisons techniques entre les comités et sous-comités
+    - spelling: fra
+      value: Le Comité a demandé à ses Membres d'envoyer au BIML leurs opinions concernant
+        la politique à long terme avant fin 1993 pour qu'elles puissent être étudiées
+        par le Conseil de la Présidence afin d'aboutir à un ou plusieurs projets courant
+        1994.
+    - spelling: fra
+      value: Le Comité a pris note d'informations données par le BIML relatives à
+        la future mise en place des liaisons techniques entre les comités et sous-comités
         techniques de l'OIML et les autres organisations régionales et internationales.
         Le Comité a également pris note d'informations concernant le groupe de travail
         ISO/TAG 4 et de la possibilité de créer un forum "interinstitutionnel" dans
         lequel les organisations ayant des activités métrologiques pourront développer
         la coopération entre elles.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par M. Benkirane, Président
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par M. Benkirane, Président
         du Conseil de Développement de l'OIML, sur la réunion du Conseil tenue les
         30 septembre-1er octobre 1993 à Berlin.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a exprimé sa satisfaction pour les diverses actions entreprises
+    - spelling: fra
+      value: Le Comité a exprimé sa satisfaction pour les diverses actions entreprises
         en faveur des pays en développement et en particulier pour les cours de formation
         organisés par l'Allemagne et par Cuba en coopération avec le BIML, pour une
         réunion consultative de certains membres du Conseil de Développement à l'occasion
         d'un symposium international à Cuba, et pour les efforts accrus du Président
         du Conseil et du BIML en vue de favoriser les développements dans ces pays.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: 'Le Comité a soutenu la proposition de Programme de Travail du Conseil
+    - spelling: fra
+      value: 'Le Comité a soutenu la proposition de Programme de Travail du Conseil
         de Développement pour la période 1993-1995, qui comprend:'
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a chargé le BIML d'étudier les possibilités d'organiser une
+    - spelling: fra
+      value: Le Comité a chargé le BIML d'étudier les possibilités d'organiser une
         conférence internationale sur les activités métrologiques des pays en développement.
         Cette conférence
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a chargé le Conseil de la Présidence de l'OIML de prendre
-        en considération les besoins et problèmes spécifiques des pays en développement
+    - spelling: fra
+      value: Le Comité a chargé le Conseil de la Présidence de l'OIML de prendre en
+        considération les besoins et problèmes spécifiques des pays en développement
         dans le domaine de la métrologie légale lors de la préparation d'un ou plusieurs
         documents sur la politique à long terme de l'OIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a aussi indiqué que la prochaine réunion du Conseil de Développement
+    - spelling: fra
+      value: Le Comité a aussi indiqué que la prochaine réunion du Conseil de Développement
         se tiendra en 1994 conjointement à la 29ème réunion du CIML. Le Comité a soutenu
         la recommandation du Conseil de Développement demandant que le support financier
         alloué au Conseil de Développement soit consacré à aider les pays membres
         à participer à cette réunion du Conseil de Développement.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a enfin noté la réélection de M. Benkirane, Membre du CIML
+    - spelling: fra
+      value: Le Comité a enfin noté la réélection de M. Benkirane, Membre du CIML
         pour le Maroc, en tant que Président du Conseil de Développement pour la période
         1993-1995 et a exprimé sa vive appréciation pour les actions de M. Benkirane.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note d'informations concernant le nouveau Bulletin
-        OIML, données par ses éditeurs, et a exprimé sa vive appréciation pour les
-        efforts faits pour rendre la publication plus attractive et accroître l'audience
-        de l'OIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a souligné l'importance d'une contribution active de la part
+    - spelling: fra
+      value: Le Comité a pris note d'informations concernant le nouveau Bulletin OIML,
+        données par ses éditeurs, et a exprimé sa vive appréciation pour les efforts
+        faits pour rendre la publication plus attractive et accroître l'audience de
+        l'OIML.
+    - spelling: fra
+      value: Le Comité a souligné l'importance d'une contribution active de la part
         des Membres du CIML pour les développements futurs du Bulletin OIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note des prévisions pour mener à terme le travail
-        d'élaboration d'une nouvelle brochure d'information générale sur l'OIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note que le BIML allait chercher les informations
-        relatives aux implications financières de la réalisation de la brochure auprès
-        de services professionnels.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a chargé les Membres du Comité d'envoyer au BIML toutes propositions
+    - spelling: fra
+      value: Le Comité a pris note des prévisions pour mener à terme le travail d'élaboration
+        d'une nouvelle brochure d'information générale sur l'OIML.
+    - spelling: fra
+      value: Le Comité a pris note que le BIML allait chercher les informations relatives
+        aux implications financières de la réalisation de la brochure auprès de services
+        professionnels.
+    - spelling: fra
+      value: Le Comité a chargé les Membres du Comité d'envoyer au BIML toutes propositions
         et/ou documents pouvant être inclus dans la brochure avant janvier 1994 et
         a pris note du fait que les propositions finales pour la brochure devront
         être présentées lors de la prochaine réunion du Conseil de la Présidence.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note du rapport sur les activités du BIML de novembre
+    - spelling: fra
+      value: Le Comité a pris note du rapport sur les activités du BIML de novembre
         1992 à septembre 1993 et a exprimé sa vive appréciation pour la façon dont
         était présenté ce rapport destiné aux Membres du CIML; le Comité a chargé
         le BIML de publier dans le Bulletin OIML l'information sur les activités du
         BIML de façon appropriée.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note d'une proposition du BIML d'organiser un séminaire
+    - spelling: fra
+      value: Le Comité a pris note d'une proposition du BIML d'organiser un séminaire
         technique sur les instruments de pesage ou les instruments médicaux fin 1994
         ou début 1995. Le Comité a demandé à ses Membres d'envoyer leurs suggestions
         au BIML dès que possible.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a décidé de tenir sa 29ème réunion à Paris en octobre 1994,
+    - spelling: fra
+      value: Le Comité a décidé de tenir sa 29ème réunion à Paris en octobre 1994,
         organisée par le BIML.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a accepté l'invitation de la R.P. de Chine de tenir la 30ème
+    - spelling: fra
+      value: Le Comité a accepté l'invitation de la R.P. de Chine de tenir la 30ème
         réunion du CIML à Pékin en 1995.
-    - type: notes
-      date_effective:
-        date: '1993-10-04'
-        type: effective
-      message: Le Comité a pris note de la confirmation de Cuba pour son invitation
+    - spelling: fra
+      value: Le Comité a pris note de la confirmation de Cuba pour son invitation
         à tenir la 10ème Conférence de l'OIML à La Havane en 1996.
