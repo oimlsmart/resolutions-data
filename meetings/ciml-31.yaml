@@ -10,23 +10,104 @@ date_range:
   start: '1996-11-04'
   end: '1996-11-08'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Vancouver, Canada
+general_area:
+- spelling: eng
+  value: Vancouver, Canada
 source_urls: []
-localizations:
-- language_code: fra
-  script: Latn
-  title: 31st CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Vancouver, Canada
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '31'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION DU COMPTE RENDU DE LA 30 $ ^{\mathrm{E M E}} $ RÉUNION DU CIML
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION DU RAPPORT COMPTABLE POUR 1995 ET AUTRES QUESTIONS FINANCIÈRES
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'DIXIÈME CONFÉRENCE: ORGANISATION GÉNÉRALE, PRÉSIDENCE ORDRE DU JOUR'
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RECOMMANDATIONS APPLICABLES AU SYSTEME DE CERTIFICATS
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PERSONNEL DU BIML
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation générale
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Indexation des salaires sur l'inflation
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nomination d'un Adjoint au Directeur
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MISE EN APPLICATION DES DÉCISIONS DE LA DIXIÈME CONFÉRENCE
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RAPPORT D'ACTIVITÉ DU BIML
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PROCHAINES RÉUNIONS
+    outcome: discussed
+  - label: '9'
+    kind: aob
+    title:
+    - spelling: eng
+      value: QUESTIONS DIVERSES
+    outcome: discussed
+  - label: '10'
+    kind: closing
+    title:
+    - spelling: eng
+      value: CLOTURE
+    outcome: discussed
 country_code: CA
 city: CAVAN
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-31-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: CAVAN
   country_code: CA
+title:
+- spelling: eng
+  value: 31th International Committee of Legal Metrology (CIML)

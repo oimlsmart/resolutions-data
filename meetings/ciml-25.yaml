@@ -10,23 +10,185 @@ date_range:
   start: '1990-10-03'
   end: '1990-10-05'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Oporto, Portugal
+general_area:
+- spelling: eng
+  value: Oporto, Portugal
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 25th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Oporto, Portugal
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '25'
   status: final
+  items:
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MEMBER STATES AND CORRESPONDING MEMBERS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New accessions - Expected accessions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The situation of some Member States
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Finance
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the auditor's report for 1989
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The financial position in 1990 and 1991
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Staff of the Bureau
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Replacement of an Assistant Director retiring from the Bureau in May
+        1991
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Staff members whose contracts expire before the end of 1992
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other business
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Certification
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML International Recommendations applicable within the OIML Certificate
+        System
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other actions necessary to the effective operation of the system
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Working method of OIML Secretariats
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of the procedure for the drafting of International Recommendations
+        and Documents
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Standard contents of Recommendations
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Work of the Secretariats
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: State of progress of work
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Particular Secretariats
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of International Recommendations
+    outcome: adopted
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: LONG-TERM POLICY OF THE ORGANIZATION
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DEVELOPING COUNTRIES
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML seminars
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: REPORT ON THE ACTIVITIES OF BIML (OCTOBER 1989 TO SEPTEMBER 1990)
+    outcome: discussed
+  - label: '12'
+    kind: aob
+    title:
+    - spelling: eng
+      value: ANY OTHER BUSINESS
+    outcome: discussed
+  - label: '13'
+    kind: closing
+    title:
+    - spelling: eng
+      value: DATE AND PLACE OF THE NEXT MEETING
+    outcome: discussed
 country_code: PT
 city: PTOPO
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-25-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: PTOPO
   country_code: PT
+title:
+- spelling: eng
+  value: 25th International Committee of Legal Metrology (CIML)

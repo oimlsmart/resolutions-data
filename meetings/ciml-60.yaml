@@ -10,27 +10,258 @@ date_range:
   start: '2025-10-13'
   end: '2025-10-15'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Paris, France
+general_area:
+- spelling: eng
+  value: Paris, France
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/60ciml_resolutions.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 60th CIML Meeting — Resolutions (EN)
-  general_area: Paris, France
+  spelling: eng
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '60'
   status: final
+  items:
+  - label: '1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening remarks and roll call
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the agenda
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Minutes of the 59th CIML Meeting
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on BIML matters and activities
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 2024 accounts
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget forecast for 2025
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member State and Corresponding Member classes and fees
+    outcome: discussed
+  - label: '6.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposed budget for the 2026–2029 financial period
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML publications and technical activities
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Publications for approval by the CIML
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Project proposals for approval by the CIML
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other technical items for information and approval
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML publications and communications
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the OIML-CS MC Chairperson
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Recommendations from the OIML-CS MC to the CIML
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CEEMS Advisory Group (CEEMS AG)
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Digitalization Task Group (OIML DTG)
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preparation of the 17th OIML Conference
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nominations for the Presidency of the 17th Conference
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of the draft agenda for the 17th Conference
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of draft CIML resolutions (sessions 1 and 2)
+    outcome: adopted
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of the Resolutions of the 17th Conference
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: International cooperation
+    outcome: discussed
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the RLMO Round Table Chairperson
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on OIML activities with organizations in liaison
+    outcome: discussed
+  - label: '14.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by other organizations in liaison
+    outcome: discussed
+  - label: '14.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Cooperation with the United Nations Framework Convention on Climate Change
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Awards
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '16.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 61st CIML Meeting (2026)
+    outcome: discussed
+  - label: '16.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 62nd CIML Meeting (2027)
+    outcome: discussed
+  - label: '17'
+    kind: aob
+    title:
+    - spelling: eng
+      value: Any other business
+    outcome: discussed
+  - label: '18'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of draft CIML resolutions (session 3)
+    outcome: adopted
+  - label: '19'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Closing remarks
+    outcome: discussed
 city: FRPAR
 country_code: FR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-60-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRPAR
   country_code: FR
+title:
+- spelling: eng
+  value: 60th International Committee of Legal Metrology (CIML)

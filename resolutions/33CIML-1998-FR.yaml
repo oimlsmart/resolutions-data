@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/33CIML-1998-FR.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/33CIML-1998-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-33
-# Language: fr
 ---
 metadata:
-  title_localized:
-  - language_code: fra
-    title: 33rd CIML Meeting — Minutes (FR, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: KRSEL
   country_code: KR
   meeting_urn: urn:oiml:ciml:meeting:ciml-33
+  title:
+  - spelling: fra
+    value: 33rd CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,16 +17,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 1: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION
+  title:
+  - spelling: fra
+    value: 'Agenda Item 1: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION
       DU CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le compte rendu de la Trente-Deuxième Réunion du Comité International
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le compte rendu de la Trente-Deuxième Réunion du Comité International
         de Métrologie Légale a été approuvé sans modification.
 - identifier:
   - prefix: CIML
@@ -42,9 +39,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
 - identifier:
   - prefix: CIML
     number: 1998/2.1
@@ -54,16 +51,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.1: Nouveaux membres - Adhésions attendues'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Athané rappelle aux Délégués que comme annoncé par le Président
-        Faber dans son allocution d'ouverture, la République d'Afrique du Sud a récemment
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.1: Nouveaux membres - Adhésions attendues'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané rappelle aux Délégués que comme annoncé par le Président Faber
+        dans son allocution d'ouverture, la République d'Afrique du Sud a récemment
         rejoint l'OIML en tant qu'État Membre de plein droit. Il fait part également
         de l'adhésion en tant que Membres Correspondants du Guatemala et de Madagascar.
         Concernant les adhésions attendues, M. Athané indique que la Croatie a engagé
@@ -78,15 +77,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.2: Situation de certains Membres'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Athané rappelle aux participants que trois Membres Correspondants
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.2: Situation de certains Membres'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané rappelle aux participants que trois Membres Correspondants
         (le Bénin, le Burkina Faso et le Ghana) ont été radiés pour n'avoir pas payé
         leur contribution annuelle durant plus de trois ans en dépit des lettres de
         rappel envoyées par le Bureau. Concernant les États Membres, M. Athané indique
@@ -103,16 +104,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.3: Propositions visant à accroître la participation des
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.3: Propositions visant à accroître la participation des
       Membres Correspondants à certaines activités de l''OIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Faber rappelle aux participants qu'à plusieurs occasions des discussions
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Faber rappelle aux participants qu'à plusieurs occasions des discussions
         ont eu lieu au sein du Comité et du Conseil de Présidence concernant l'opportunité
         d'augmenter la participation des Membres Correspondants aux activités de l'OIML,
         en plus des possibilités actuelles d'assister aux Conférences OIML comme observateurs
@@ -127,9 +130,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
 - identifier:
   - prefix: CIML
     number: 1998/3.1
@@ -139,15 +142,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1997'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le rapport comptable pour 1997 a été approuvé sans commentaire et le
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.1: Adoption du rapport comptable pour 1997'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le rapport comptable pour 1997 a été approuvé sans commentaire et le
         Comité a demandé à son Président et au Directeur du Bureau de le présenter
         à la Onzième Conférence.
 - identifier:
@@ -159,16 +164,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.2: Examen de la situation financiere pour 1998'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'M. Athané rapporte que cette situation est bonne pour les raisons
-        suivantes:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.2: Examen de la situation financiere pour 1998'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Athané rapporte que cette situation est bonne pour les raisons suivantes:'
 - identifier:
   - prefix: CIML
     number: 1998/3.3
@@ -178,15 +184,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.3: Examen des budgets pour 1999 et 2000'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Athané indique que le budget 1999 sera tel que voté par la Dixième
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.3: Examen des budgets pour 1999 et 2000'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané indique que le budget 1999 sera tel que voté par la Dixième
         Conférence, avec le total des contributions des États Membres en augmentation
         de 2,8 % comparé à 1998. Cependant, puisqu'il y a un État Membre de plus,
         les cotisations individuelles de chaque État Membre ne devraient augmenter
@@ -202,9 +210,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: POLITIQUE À LONG TERME DE L''OIML'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: POLITIQUE À LONG TERME DE L''OIML'
 - identifier:
   - prefix: CIML
     number: 1998/4.1
@@ -214,17 +222,19 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4.1: Informations sur le Séminaire International le Rôle de
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4.1: Informations sur le Séminaire International le Rôle de
       la Métrologie dans le Développement Économique et Social (Braunschweig, juin
       1998) et son éventuel impact sur la politique à long terme de l''OIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Kochsiek rapporte que plus de deux cent experts de quelques quatre-vingts
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Kochsiek rapporte que plus de deux cent experts de quelques quatre-vingts
         pays et dix-sept organisations internationales et régionales se sont réunis
         à Braunschweig en juin 1998 pour discuter du Rôle de la Métrologie dans le
         Développement Économique et Social. Le Séminaire était organisé par la PTB
@@ -241,16 +251,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4.2: Le Rapport Birkeland'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Une transcription intégrale des discussions à ce sujet est publiée
-        séparément.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4.2: Le Rapport Birkeland'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Une transcription intégrale des discussions à ce sujet est publiée séparément.
 - identifier:
   - prefix: CIML
     number: 1998/5
@@ -260,9 +271,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: PAYS EN DEVELOPEMENT'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: PAYS EN DEVELOPEMENT'
 - identifier:
   - prefix: CIML
     number: 1998/5.1
@@ -272,9 +283,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5.1: Informations sur les résultats du Séminaire International
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5.1: Informations sur les résultats du Séminaire International
       de Braunschweig et sur la réunion du Conseil de Développement de l''OIML tenue
       le 28 octobre 1998, et'
 - identifier:
@@ -286,15 +297,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5.2: Examen de propositions du Conseil de Développement'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Faber demande à M. Kochsiek de présenter un rapport sur ce point,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5.2: Examen de propositions du Conseil de Développement'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Faber demande à M. Kochsiek de présenter un rapport sur ce point,
         étant donné qu'il a tenu le rôle de Président du Conseil de Développement
         de l'OIML jusqu'à la réunion du 28 octobre 1998.
 - identifier:
@@ -306,9 +319,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES'
 - identifier:
   - prefix: CIML
     number: 1998/6.1
@@ -318,26 +331,28 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.1: BIPM et ILAC'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'M. Faber indique que les relations avec le BIPM sont bonnes, bien
-        que les discussions concernant un éventuel rapprochement soient maintenant
-        définitivement abandonnées. Cependant, la coopération se développe avec, par
-        exemple, la participation conjointe dans la planification du Séminaire de
-        Braunschweig. Il est à noter également que les réunions annuelles entre le
-        BIPM et l''OIML impliquent maintenant ILAC. En février 1998, l''OIML a suggéré
-        au BIPM et à ILAC d''adopter une "approche ciblée" comme définie dans le rapport
-        Birkeland: les trois Organisations se rencontreraient pour discuter d''une
-        question d''intérêt commun avec la participation d''experts de l''industrie
-        et d''utilisateurs, afin d''identifier ce qu''ils pourraient attendre des
-        trois Organisations; cependant, le BIPM ne manifeste pas d''intérêt particulier
-        pour ce type d''action commune.'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.1: BIPM et ILAC'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Faber indique que les relations avec le BIPM sont bonnes, bien que
+        les discussions concernant un éventuel rapprochement soient maintenant définitivement
+        abandonnées. Cependant, la coopération se développe avec, par exemple, la
+        participation conjointe dans la planification du Séminaire de Braunschweig.
+        Il est à noter également que les réunions annuelles entre le BIPM et l''OIML
+        impliquent maintenant ILAC. En février 1998, l''OIML a suggéré au BIPM et
+        à ILAC d''adopter une "approche ciblée" comme définie dans le rapport Birkeland:
+        les trois Organisations se rencontreraient pour discuter d''une question d''intérêt
+        commun avec la participation d''experts de l''industrie et d''utilisateurs,
+        afin d''identifier ce qu''ils pourraient attendre des trois Organisations;
+        cependant, le BIPM ne manifeste pas d''intérêt particulier pour ce type d''action
+        commune.'
 - identifier:
   - prefix: CIML
     number: 1998/6.2
@@ -347,20 +362,22 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.2: JCGM'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'M. Athané rappelle aux participants que le JCGM a été créé il y a
-        environ trois ans pour succéder à ISO/TAG 4. Le rôle de ce comité commun est
-        strictement limité à l''élaboration de guides sur la métrologie présentant
-        un intérêt pour les organisations membres - au nombre de huit maintenant (BIPM,
-        CEI, IFCC, ISO, IUPAC, IUPAP, OIML et très récemment ILAC). Le Président du
-        JCGM est Dr. Quinn, Directeur du BIPM, et le secrétariat est sous la responsabilité
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.2: JCGM'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Athané rappelle aux participants que le JCGM a été créé il y a environ
+        trois ans pour succéder à ISO/TAG 4. Le rôle de ce comité commun est strictement
+        limité à l''élaboration de guides sur la métrologie présentant un intérêt
+        pour les organisations membres - au nombre de huit maintenant (BIPM, CEI,
+        IFCC, ISO, IUPAC, IUPAP, OIML et très récemment ILAC). Le Président du JCGM
+        est Dr. Quinn, Directeur du BIPM, et le secrétariat est sous la responsabilité
         conjointe du BIPM et du BIML. La dernière réunion a eu lieu en novembre 1997
         au BIML. Les activités principales actuelles sont:'
 - identifier:
@@ -372,15 +389,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.3: OMC'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Athané confirme que l'OIML s'est vu accorder le statut d'Observateur
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.3: OMC'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané confirme que l'OIML s'est vu accorder le statut d'Observateur
         par le Comité chargé des barrières techniques au commerce (Comité TBT) de
         l'OMC et était maintenant systématiquement invité à assister aux réunions
         du comité TBT.
@@ -393,15 +412,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.4: Autres'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Dr. Imai donne une information concernant le prochain Congrès Mondial
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.4: Autres'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Dr. Imai donne une information concernant le prochain Congrès Mondial
         IMEKO prévu à Osaka en juin 1999 et invite les Membres du CIML à assister
         au Congrès et aux nombreuses réunions de TC et discussions de table ronde.
         Une session spéciale sur les systèmes de qualité et mesurages était aussi
@@ -416,21 +437,23 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS
       D''ESSAI, À L''ACCRÉDITATION, etc.'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Chappell donne une présentation détaillée et commence en notant
-        que lors des discussions sur le Rapport Birkeland, nombre de références ont
-        été faites à l'accréditation, sur la façon dont elle est liée au travail de
-        l'OIML et de quelle manière la confiance mutuelle peut mieux être établie.
-        L'un des objectifs est d'étabrir la confiance envers le Système de Certificats
-        OIML pour les Instruments de Mesure, de mettre en place une sorte de mécanisme
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Chappell donne une présentation détaillée et commence en notant que
+        lors des discussions sur le Rapport Birkeland, nombre de références ont été
+        faites à l'accréditation, sur la façon dont elle est liée au travail de l'OIML
+        et de quelle manière la confiance mutuelle peut mieux être établie. L'un des
+        objectifs est d'étabrir la confiance envers le Système de Certificats OIML
+        pour les Instruments de Mesure, de mettre en place une sorte de mécanisme
         pour la reconnaissance mutuelle ou multilatérale et l'utilisation des certificats
         OIML, et d'étabrir la confiance dans le fait que les instruments individuels
         sont conformes aux modèles.
@@ -443,9 +466,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: ACTIVITÉS TECHNIQUES'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: ACTIVITÉS TECHNIQUES'
 - identifier:
   - prefix: CIML
     number: 1998/8.1
@@ -455,15 +478,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8.1: Examen de la situation de certains TC/SC'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Chappell aborde ce point en mentionnant qu'il suit cette activité
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8.1: Examen de la situation de certains TC/SC'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Chappell aborde ce point en mentionnant qu'il suit cette activité
         en étroite collaboration avec M. Szilvássy du Bureau. Un rapport écrit ayant
         été distribué à tous les participants, il se contentera dans son rapport d'identifier
         les points clés de l'activité technique de certains TC/SC de l'OIML.
@@ -476,21 +501,23 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8.2: Approbation de Recommandations Internationales'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'M. Faber mentionne les six projets soumis pour approbation du CIML
-        et indique qu''il y a sans doute un problème pour l''un d''eux: le PR 4, la
-        révision de la R 65 Exigences pour les machines d''essai des matériaux en
-        traction et en compression pour lequel un travail parallèle est fait au sein
-        de l''ISO avec des risques de conflit. Cela est confirmé par M. Kochsiek qui
-        indique que son pays voterait contre ce projet. M. Athané indique qu''il s''agit
-        d''une question de principe: l''OIML devrait s''en tenir aux règles de coopération
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8.2: Approbation de Recommandations Internationales'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Faber mentionne les six projets soumis pour approbation du CIML et
+        indique qu''il y a sans doute un problème pour l''un d''eux: le PR 4, la révision
+        de la R 65 Exigences pour les machines d''essai des matériaux en traction
+        et en compression pour lequel un travail parallèle est fait au sein de l''ISO
+        avec des risques de conflit. Cela est confirmé par M. Kochsiek qui indique
+        que son pays voterait contre ce projet. M. Athané indique qu''il s''agit d''une
+        question de principe: l''OIML devrait s''en tenir aux règles de coopération
         acceptées par l''ISO, la CEI et l''OIML; en particulier, tout devrait être
         fait pour éliminer tout risque de divergence entre les Recommandations OIML
         et les Normes ISO et CEI. M. Chappell indique qu''il n''a pas reçu de réponse
@@ -514,17 +541,19 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8.3: Disponibilité des Publications OIML sur papier, sur support
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8.3: Disponibilité des Publications OIML sur papier, sur support
       électronique et via Internet'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Athané explique que l'OIML publie actuellement les Publications
-        OIML sur papier (avec un tirage de 500-700), sur disquette et, pour les Publications
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané explique que l'OIML publie actuellement les Publications OIML
+        sur papier (avec un tirage de 500-700), sur disquette et, pour les Publications
         récentes, sur Internet. Certains documents doivent être réimprimés après deux
         ou trois ans pour reconstituer les stocks, mais les frais marginaux de réimpression
         sont élevés et les frais totaux d'impression pour 1998 s'élèvent à environ
@@ -544,9 +573,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: SYSTÈME DE CERTIFICATS OIML'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: SYSTÈME DE CERTIFICATS OIML'
 - identifier:
   - prefix: CIML
     number: 1998/9.1
@@ -556,9 +585,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9.1: Informations sur le fonctionnement du Système'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9.1: Informations sur le fonctionnement du Système'
 - identifier:
   - prefix: CIML
     number: 1998/9.2
@@ -568,9 +597,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9.2: Développements du Système'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9.2: Développements du Système'
 - identifier:
   - prefix: CIML
     number: 1998/9.3
@@ -580,15 +609,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9.3: Nouvelles Recommandations applicables au Système'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité accepte cette proposition.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9.3: Nouvelles Recommandations applicables au Système'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité accepte cette proposition.
 - identifier:
   - prefix: CIML
     number: 1998/10
@@ -598,15 +629,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 10: RAPPORT SUR LES ACTIVITÉS DU BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Un rapport donnant les détails des activités du BIML depuis la réunion
+  title:
+  - spelling: fra
+    value: 'Agenda Item 10: RAPPORT SUR LES ACTIVITÉS DU BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Un rapport donnant les détails des activités du BIML depuis la réunion
         du CIML à Rio est distribué aux Délégués; M. Faber demande qu'il soit publié
         dans le Bulletin OIML de janvier 1999.
 - identifier:
@@ -618,9 +651,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11: AUTRES QUESTIONS'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11: AUTRES QUESTIONS'
 - identifier:
   - prefix: CIML
     number: 1998/11.1
@@ -630,15 +663,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.1: Vice-Président du CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a réélu à l'unanimité M. Kochsiek en tant que Vice-Président
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.1: Vice-Président du CIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a réélu à l'unanimité M. Kochsiek en tant que Vice-Président
         pour un nouveau mandat expirant fin 2003.
 - identifier:
   - prefix: CIML
@@ -649,15 +684,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.2: Directeur du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Faber informe le Comité que le Conseil de Présidence examinera la
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.2: Directeur du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Faber informe le Comité que le Conseil de Présidence examinera la
         situation du Directeur du BIML en temps utile, après examen approfondi de
         la future politique d'orientation de l'Organisation.
 - identifier:
@@ -669,15 +706,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.3: Adjoint au Directeur du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Faber explique aux délégués qu'il est urgent d'attribuer ce poste
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.3: Adjoint au Directeur du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Faber explique aux délégués qu'il est urgent d'attribuer ce poste
         (voir haut de page 15), en raison de l'énorme charge de travail du Bureau.
         Après discussion avec M. Athané et les deux Vice-Présidents, M. Faber a contacté
         M. Bennett, le profil du candidat 1997 Ian Dunmill convenant bien au poste.
@@ -690,15 +729,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.4: Demandes de l''APLMF'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'M. Birch demande au CIML de considérer les points suivants:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.4: Demandes de l''APLMF'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Birch demande au CIML de considérer les points suivants:'
 - identifier:
   - prefix: CIML
     number: 1998/11.5
@@ -708,15 +749,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.5: Séminaire technique'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Magana informe le Comité de son intention d'organiser un séminaire
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.5: Séminaire technique'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Magana informe le Comité de son intention d'organiser un séminaire
         sur les logiciels conjointement avec le BIML, qui se tiendrait en France à
         l'automne 1999. Il avisera les Membres de l'ordre du jour aussitôt que possible.
         Cette idée est accueillie avec beaucoup d'enthousiasme.
@@ -729,9 +772,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12: FUTURES RÉUNIONS'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12: FUTURES RÉUNIONS'
 - identifier:
   - prefix: CIML
     number: 1998/12.1
@@ -741,16 +784,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12.1: 34ème Réunion du CIML (1999)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Une proposition est reçue de la Tunisie pour accueillir la réunion
-        de 1999; Mme Annabi fait une présentation de son pays et invite chaleureusement
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12.1: 34ème Réunion du CIML (1999)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Une proposition est reçue de la Tunisie pour accueillir la réunion de
+        1999; Mme Annabi fait une présentation de son pays et invite chaleureusement
         le CIML à se réunir à Tunis. Elle indique que ce sera la première fois que
         le CIML se réunira dans un pays méditerranéen, et les autres pays en développement
         verront sans doute cela comme une opportunité de travailler ensemble pour
@@ -767,18 +812,20 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12.2: 35ème Réunion du CIML et Onzième Conférence de l''OIML
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12.2: 35ème Réunion du CIML et Onzième Conférence de l''OIML
       (2000)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Bennett rappelle aux participants qu'il avait été provisoirement
-        décidé à la Dixième Conférence que la Onzième Conférence se tiendrait à Paris,
-        à moins qu'un État Membre se propose de l'accueillir. Il indique que le Royaume-Uni
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Bennett rappelle aux participants qu'il avait été provisoirement décidé
+        à la Dixième Conférence que la Onzième Conférence se tiendrait à Paris, à
+        moins qu'un État Membre se propose de l'accueillir. Il indique que le Royaume-Uni
         espère être en mesure d'accueillir cet évènement à Londres sans pouvoir toutefois
         lancer une invitation définitive; la confirmation ne sera possible que d'ici
         six mois si le Comité accepte sa proposition.
@@ -791,15 +838,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12.3: 36ème Réunion du CIML (2001)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Issaev invite le CIML à Moscou pour sa réunion en 2001, sous réserve
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12.3: 36ème Réunion du CIML (2001)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Issaev invite le CIML à Moscou pour sa réunion en 2001, sous réserve
         de l'approbation officielle des autorités russes. M. Birch tente également
         d'obtenir l'autorisation des autorités australiennes pour tenir la réunion
         de 2001, bien qu'il croie que M. Issaev qui a déjà fait part de ses intentions
@@ -816,15 +865,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 13: ADOPTION DES DÉCISIONS'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: M. Athané procède d'abord aux votes sur les cinq Projets de Recommandations;
+  title:
+  - spelling: fra
+    value: 'Agenda Item 13: ADOPTION DES DÉCISIONS'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané procède d'abord aux votes sur les cinq Projets de Recommandations;
         les résultats de ces votes sont donnés en point 8.2 des Décisions ci-dessous.
 - identifier:
   - prefix: CIML
@@ -835,16 +886,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 1: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION
+  title:
+  - spelling: fra
+    value: 'Agenda Item 1: APPROBATION DU COMPTE RENDU DE LA 32$^{\text{EME}}$ RÉUNION
       DU CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le compte rendu de la 32ème réunion du CIML a été approuvé sans commentaires.
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le compte rendu de la 32ème réunion du CIML a été approuvé sans commentaires.
 - identifier:
   - prefix: CIML
     number: 1998/2
@@ -854,9 +907,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS'
 - identifier:
   - prefix: CIML
     number: 1998/2.1
@@ -866,15 +919,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.1: Nouveaux membres - Adhésions attendues'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note de l'adhésion de la République d'Afrique du Sud
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.1: Nouveaux membres - Adhésions attendues'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note de l'adhésion de la République d'Afrique du Sud
         comme État Membre et du Guatemala et de Madagascar comme Membres Correspondants.
         Le Comité a aussi pris note d'informations données par le Bureau en ce qui
         concerne le déroulement de l'adhésion de la Croatie comme État Membre.
@@ -887,16 +942,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.2: Situation de certains Membres'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'informations données par le Bureau au sujet
-        de la situation d'États Membres en retard dans le paiement de leurs cotisations
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.2: Situation de certains Membres'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations données par le Bureau au sujet de
+        la situation d'États Membres en retard dans le paiement de leurs cotisations
         à l'OIML. Le Comité a noté que trois de ces États Membres pourraient être
         radiés en 1999 si aucun paiement n'était rapidement reçu. Le Comité a demandé
         au Bureau de contacter d'urgence ces États Membres pour les inviter à faire
@@ -912,17 +969,19 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.3: Propositions visant à accroître la participation des
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.3: Propositions visant à accroître la participation des
       Membres Correspondants à certaines activités de l''OIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par le BIML au sujet de
-        la possibilité pour les Membres Correspondants de participer davantage à certaines
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par le BIML au sujet de la
+        possibilité pour les Membres Correspondants de participer davantage à certaines
         activités de l'OIML (c'est-à-dire assister aux réunions du CIML comme observateurs
         et s'enregistrer comme membres-O de certains comités techniques et sous-comités).
         Le Comité a décidé que cette possibilité devait être mise en application et
@@ -938,9 +997,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: QUESTIONS FINANCIÈRES'
 - identifier:
   - prefix: CIML
     number: 1998/3.1
@@ -950,16 +1009,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.1: Adoption du rapport comptable pour 1997'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a approuvé le rapport comptable pour 1997 et a demandé à
-        son Président et au Directeur du Bureau de le soumettre à la Onzième Conférence.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.1: Adoption du rapport comptable pour 1997'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a approuvé le rapport comptable pour 1997 et a demandé à son
+        Président et au Directeur du Bureau de le soumettre à la Onzième Conférence.
 - identifier:
   - prefix: CIML
     number: 1998/3.2
@@ -969,16 +1030,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.2: Examen de la situation financiere pour 1998'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport du Bureau relatif à la situation
-        financière actuelle de l'Organisation, qui est satisfaisante.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.2: Examen de la situation financiere pour 1998'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport du Bureau relatif à la situation financière
+        actuelle de l'Organisation, qui est satisfaisante.
 - identifier:
   - prefix: CIML
     number: 1998/3.3
@@ -988,15 +1051,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.3: Examen des budgets pour 1999 et 2000'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a exprimé sa satisfaction pour le fait que les cotisations
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.3: Examen des budgets pour 1999 et 2000'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a exprimé sa satisfaction pour le fait que les cotisations
         des États Membres pour 1999 n'augmenteront pratiquement pas par rapport à
         1996-1998.
 - identifier:
@@ -1008,15 +1073,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: POLITIQUE À LONG TERME DE L''OIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport à ce sujet présenté par son Vice-Président
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: POLITIQUE À LONG TERME DE L''OIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport à ce sujet présenté par son Vice-Président
         M. Kochsiek.
 - identifier:
   - prefix: CIML
@@ -1027,22 +1094,21 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4.2: Le Rapport Birkeland'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a examiné les diverses recommandations contenues dans l'Annexe
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4.2: Le Rapport Birkeland'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a examiné les diverses recommandations contenues dans l'Annexe
         II du rapport Birkeland et a pris note des commentaires exprimés par certains
         de ses Membres au sujet de ces recommandations.
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'Le Comité a décidé que:'
+    - spelling: fra
+      value: 'Le Comité a décidé que:'
 - identifier:
   - prefix: CIML
     number: 1998/5
@@ -1052,9 +1118,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: PAYS EN DEVELOPEMENT'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: PAYS EN DEVELOPEMENT'
 - identifier:
   - prefix: CIML
     number: 1998/5.1
@@ -1064,17 +1130,19 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5.1: Informations sur les résultats du Séminaire International
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5.1: Informations sur les résultats du Séminaire International
       de Braunschweig et sur la réunion du Conseil de Développement de l''OIML tenue
       le 28 octobre 1998, et'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'informations à ce sujet données par M. Kochsiek,
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations à ce sujet données par M. Kochsiek,
         Président p.i. du Conseil de Développement jusqu'en octobre 1998 et par Mme
         Annabi, nouvellement élue Présidente.
 - identifier:
@@ -1086,15 +1154,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5.2: Examen de propositions du Conseil de Développement'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport de Mme Annabi, Présidente du Conseil
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5.2: Examen de propositions du Conseil de Développement'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport de Mme Annabi, Présidente du Conseil
         de Développement, relatif au projet de plan d'action proposé au Conseil pour
         la période 1999-2000. Le Comité a noté que ce projet de plan d'action devait
         être amendé selon les commentaires reçus puis mis au point par la Présidente
@@ -1110,15 +1180,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 6. 1 BIPM et ILAC
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6: LIAISONS AVEC LES INSTITUTIONS INTERNATIONALES ET REGIONALES'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 6. 1 BIPM et ILAC
 - identifier:
   - prefix: CIML
     number: 1998/6.4
@@ -1128,15 +1200,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.4: Autres'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'Le Comité a pris note d''informations données par son Président, certains
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.4: Autres'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a pris note d''informations données par son Président, certains
         Membres du CIML et le Bureau au sujet de la coopération entre l''OIML et les
         institutions internationales et régionales suivantes:'
 - identifier:
@@ -1148,16 +1222,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: ACTIVITÉS LIÉES À LA RECONNAISSANCE MUTUELLE DES RÉSULTATS
       D''ESSAI, À L''ACCRÉDITATION, etc.'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport très complet de son Vice-Président
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport très complet de son Vice-Président
         S. Chappell qui dirige le groupe de travail ad-hoc sur l'accréditation. Le
         Comité a également pris note de points de vue et de propositions présentés
         par un certain nombre de Membres du CIML. Le Comité a souligné l'extrême importance
@@ -1179,9 +1255,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: ACTIVITÉS TECHNIQUES'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: ACTIVITÉS TECHNIQUES'
 - identifier:
   - prefix: CIML
     number: 1998/8.1
@@ -1191,15 +1267,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8.1: Examen de la situation de certains TC/SC'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'Le Comité a pris note d''un rapport de son Vice-Président S. Chappell
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8.1: Examen de la situation de certains TC/SC'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a pris note d''un rapport de son Vice-Président S. Chappell
         sur la situation de certains TC/SC et la situation générale des activités
         techniques de l''OIML. Le Comité a noté qu''un certain nombre d''actions devraient
         être entreprises prochainement par le Bureau en vue de clarifier la situation
@@ -1219,15 +1297,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8.2: Approbation de Recommandations Internationales'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'Le Comité a approuvé les projets de Recommandations suivants:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8.2: Approbation de Recommandations Internationales'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a approuvé les projets de Recommandations suivants:'
 - identifier:
   - prefix: CIML
     number: 1998/8.3
@@ -1237,19 +1317,21 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8.3: Disponibilité des Publications OIML sur papier, sur support
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8.3: Disponibilité des Publications OIML sur papier, sur support
       électronique et via Internet'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport du Bureau sur ce sujet et lui a
-        demandé de continuer à réfléchir au problème, de développer des propositions
-        et de les communiquer au Conseil de Présidence. Les questions de copyright
-        des publications OIML devrait également être examinées.
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport du Bureau sur ce sujet et lui a demandé
+        de continuer à réfléchir au problème, de développer des propositions et de
+        les communiquer au Conseil de Présidence. Les questions de copyright des publications
+        OIML devrait également être examinées.
 - identifier:
   - prefix: CIML
     number: 1998/9
@@ -1259,9 +1341,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: SYSTÈME DE CERTIFICATS OIML'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: SYSTÈME DE CERTIFICATS OIML'
 - identifier:
   - prefix: CIML
     number: 1998/9.1
@@ -1271,9 +1353,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9.1: Informations sur le fonctionnement du Système'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9.1: Informations sur le fonctionnement du Système'
 - identifier:
   - prefix: CIML
     number: 1998/9.2
@@ -1283,16 +1365,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9.2: Développements du Système'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'informations données par le Vice-Président
-        M. Kochsiek et par le Bureau sur la situation actuelle du Système de Certificats
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9.2: Développements du Système'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations données par le Vice-Président M.
+        Kochsiek et par le Bureau sur la situation actuelle du Système de Certificats
         OIML et sur les perspectives de développement futurs, y compris une révision
         des règles de fonctionnement du Système.
 - identifier:
@@ -1304,16 +1388,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9.3: Nouvelles Recommandations applicables au Système'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'Le Comité a décidé que les Recommandations suivantes deviendraient
-        applicables au Système de Certificats OIML:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9.3: Nouvelles Recommandations applicables au Système'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a décidé que les Recommandations suivantes deviendraient applicables
+        au Système de Certificats OIML:'
 - identifier:
   - prefix: CIML
     number: 1998/10
@@ -1323,15 +1409,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 10: RAPPORT SUR LES ACTIVITÉS DU BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'un rapport du Bureau relatif à ses activités
+  title:
+  - spelling: fra
+    value: 'Agenda Item 10: RAPPORT SUR LES ACTIVITÉS DU BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport du Bureau relatif à ses activités
         depuis la dernière réunion du CIML et a demandé au Bureau de le publier sous
         une forme appropriée dans le Bulletin OIML.
 - identifier:
@@ -1343,9 +1431,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11: AUTRES QUESTIONS'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11: AUTRES QUESTIONS'
 - identifier:
   - prefix: CIML
     number: 1998/11.1
@@ -1355,15 +1443,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.1: Vice-Président du CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a réélu à l'unanimité Prof. M. Kochsiek comme Vice-Président
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.1: Vice-Président du CIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a réélu à l'unanimité Prof. M. Kochsiek comme Vice-Président
         du CIML pour un nouveau mandat se terminant à la fin de 2003.
 - identifier:
   - prefix: CIML
@@ -1374,15 +1464,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.2: Directeur du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note d'une information donnée par son Président, selon
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.2: Directeur du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'une information donnée par son Président, selon
         laquelle le Conseil de Présidence examinera la situation en temps opportun.
 - identifier:
   - prefix: CIML
@@ -1393,15 +1485,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.3: Adjoint au Directeur du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a nommé M. Ian Dunmill, du Royaume Uni, Adjoint au Directeur
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.3: Adjoint au Directeur du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a nommé M. Ian Dunmill, du Royaume Uni, Adjoint au Directeur
         du BIML.
 - identifier:
   - prefix: CIML
@@ -1412,21 +1506,20 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.4: Demandes de l''APLMF'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: 'Le Comité a pris note de propositions de M. J. Birch, Animateur du
-        Asia-Pacific Legal Metrology Forum, relatives:'
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a demandé au Bureau de transmettre ces propositions aux TC/SC
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.4: Demandes de l''APLMF'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a pris note de propositions de M. J. Birch, Animateur du Asia-Pacific
+        Legal Metrology Forum, relatives:'
+    - spelling: fra
+      value: Le Comité a demandé au Bureau de transmettre ces propositions aux TC/SC
         concernés pour prise en considération, ou au Conseil de Présidence, comme
         approprié.
 - identifier:
@@ -1438,15 +1531,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11.5: Séminaire technique'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note avec un vif intérêt d'une proposition de M. Magana
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11.5: Séminaire technique'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note avec un vif intérêt d'une proposition de M. Magana
         visant à l'organisation d'un séminaire sur les logiciels en 1999.
 - identifier:
   - prefix: CIML
@@ -1457,9 +1552,9 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12: FUTURES RÉUNIONS'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12: FUTURES RÉUNIONS'
 - identifier:
   - prefix: CIML
     number: 1998/12.1
@@ -1469,15 +1564,17 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12.1: 34ème Réunion du CIML (1999)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a décidé de tenir sa 34ème réunion à Tunis, Tunisie, en 1999,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12.1: 34ème Réunion du CIML (1999)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a décidé de tenir sa 34ème réunion à Tunis, Tunisie, en 1999,
         à une date à fixer en tenant compte de celles d'autres réunions déjà planifiées
         (CGPM, ILAC, etc.).
 - identifier:
@@ -1489,16 +1586,18 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12.2: 35ème Réunion du CIML et Onzième Conférence de l''OIML
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12.2: 35ème Réunion du CIML et Onzième Conférence de l''OIML
       (2000)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a décidé que, sous réserve de confirmation, la 35ème réunion
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a décidé que, sous réserve de confirmation, la 35ème réunion
         du CIML et la Onzième Conférence de l'OIML se tiendraient au Royaume Uni en
         2000.
 - identifier:
@@ -1510,13 +1609,15 @@ decisions:
   dates:
   - date: '1998-10-28'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12.3: 36ème Réunion du CIML (2001)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '1998-10-28'
-        type: effective
-      message: Le Comité a pris note de la possibilité de tenir sa 36ème réunion en
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12.3: 36ème Réunion du CIML (2001)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '1998-10-28'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note de la possibilité de tenir sa 36ème réunion en
         2001 en Fédération de Russie, ou en alternative en Australie.

@@ -6,13 +6,40 @@ urn: urn:oiml:ciml:meeting:ciml-10
 type: plenary
 status: completed
 ordinal: 10
-localizations:
-- language_code: fra
-  script: Latn
-  title: 10th CIML Meeting (skeleton from minutes)
-  general_area: ''
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-10-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
+title:
+- spelling: eng
+  value: 10th Meeting
+agenda:
+  identifier:
+  - prefix: CIML
+    number: '10'
+  status: final
+  items:
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: "— Situation financière"
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: "— Personnel du Bureau"
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: "— Travaux des Secrétariats"
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: "— Secrétariats Pilotes et Rapporteurs"
+    outcome: discussed

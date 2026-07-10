@@ -1,13 +1,13 @@
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 14th OIML Conference — Resolutions (EN)
-  - language_code: fra
-    title: 14e Conférence OIML — Résolutions (FR)
   source: OIML Conference Secretariat (BIML)
   country_code: RO
   meeting_urn: urn:oiml:conference:meeting:conference-14
+  title:
+  - spelling: eng
+    value: 14th OIML Conference — Resolutions (EN)
+  - spelling: fra
+    value: 14e Conférence OIML — Résolutions (FR)
 decisions:
 - identifier:
   - prefix: Conference
@@ -18,34 +18,24 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2.2: The use of French and English'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XI of the OIML Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting Resolution no.1 of the 44th CIML Meeting and Resolution no.7
-        of the 46th CIML Meeting,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering that French is the official language of the Organization
-        and that, in practice English is the Organization's main working language,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2.2: The use of French and English'
+  - spelling: fra
+    value: 'Agenda Item 2.2: The use of French and English'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) Conference invitations, agendas, working documents, minutes and resolutions Committee resolutions, circulars to Committee Members, CIML President and BIML Director's reports to the Committee, OIML Recommendations, Documents and Basic Publications, and OIML budgets and financial reports shall be made available in French and in English;
         (b) The OIML web site shall be available in both English and French versions;
@@ -55,34 +45,13 @@ decisions:
         (f) Conferences and meetings of the Committee shall have simultaneous interpretation from French to English and from English to French;
         (g) On occasion, Conferences and meetings of the Committee may have interpretation to and from other languages, provided this is not funded from the Organization's regular budget;
         (h) All other meetings shall be conducted in English without interpretation provided by the Organization.
-  - language_code: fra
-    title: 'Agenda Item 2.2: The use of French and English'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu I'Article XI de la Convention de I'OIML,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de la Résolution n° 1 de la $ 4 4^{\mathrm{e m e}} $ Réunion
-        du CIML et de la Résolution n° 7 de la $ 4 4^{\mathrm{e m e}} $ Réunion du
-        CIML,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant que le français est la langue officielle de l'Organisation
-        et que, en pratique, l'anglais est la langue de travail principale de l'Organisation,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) Les invitations, ordres du jour, documents de travail, comptes-rendus et résolutions des Conférences, les résolutions du Comité, les circulaires aux Membres du Comité, les rapports du Président du CIML et du Directeur du BIML au Comité, les Recommandations, Documents et Publications de Base de l'OIML, ainsi que les budgets et rapports financiers de l'OIML doivent être rendus disponibles en français et en anglais ;
         (b) Le site web de l'OIML doit être rendu disponible en version anglaise et en version française ;
@@ -92,6 +61,39 @@ decisions:
         (f) Les Conférences et Réunions du Comité doivent recevoir une interprétation simultanée du français vers l'anglais et de l'anglais vers le français ;
         (g) À l'occasion, les Conférences et Réunions du Comité peuvent recevoir une interprétation de et vers d'autres langues, à condition que cela ne soit pas financé par le budget ordinaire de l'Organisation ;
         (h) Toutes les autres réunions doivent être menées en anglais sans que l'Organisation ne fournisse d'interprétation.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XI of the OIML Convention,
+    - spelling: fra
+      value: Vu I'Article XI de la Convention de I'OIML,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting Resolution no.1 of the 44th CIML Meeting and Resolution no.7 of
+        the 46th CIML Meeting,
+    - spelling: fra
+      value: Prenant note de la Résolution n° 1 de la $ 4 4^{\mathrm{e m e}} $ Réunion
+        du CIML et de la Résolution n° 7 de la $ 4 4^{\mathrm{e m e}} $ Réunion du
+        CIML,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that French is the official language of the Organization
+        and that, in practice English is the Organization's main working language,
+    - spelling: fra
+      value: Considérant que le français est la langue officielle de l'Organisation
+        et que, en pratique, l'anglais est la langue de travail principale de l'Organisation,
 - identifier:
   - prefix: Conference
     number: 2012/2
@@ -101,68 +103,70 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: Report on the work of the CIML (2009-2012)'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article IV, first paragraph (1), of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting the discussions in the 46th CIML Meeting on the issue of the
-        role of the "Facilitator on developing country matters",
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering that assistance to developing countries is specifically
-        addressed in the OIML Strategy (OIML B 15:2011) as being embedded in the regular
-        activities of the Organization,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: Report on the work of the CIML (2009-2012)'
+  - spelling: fra
+    value: 'Agenda Item 2: Report on the work of the CIML (2009-2012)'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The position of "Facilitator for developing country matters" is dissolved.
-  - language_code: fra
-    title: 'Agenda Item 2: Report on the work of the CIML (2009-2012)'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article IV, premier paragraphe (1), de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note des discussions de la 46ème Réunion du CIML relative au
-        rôle du « Facilitateur chargé des questions liées aux pays en développement
-        »,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant qu'une aide aux pays en développement est spécifiquement
-        traitée dans la Stratégie de l'OIML (OIML B 15:2011) comme faisant partie
-        des activités ordinaires de l'Organisation,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         La position du « Facilitateur chargé des questions liées aux pays en développement » est dissoute.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article IV, first paragraph (1), of the Convention,
+    - spelling: fra
+      value: Vu l'Article IV, premier paragraphe (1), de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the discussions in the 46th CIML Meeting on the issue of the role
+        of the "Facilitator on developing country matters",
+    - spelling: fra
+      value: Prenant note des discussions de la 46ème Réunion du CIML relative au
+        rôle du « Facilitateur chargé des questions liées aux pays en développement
+        »,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that assistance to developing countries is specifically addressed
+        in the OIML Strategy (OIML B 15:2011) as being embedded in the regular activities
+        of the Organization,
+    - spelling: fra
+      value: Considérant qu'une aide aux pays en développement est spécifiquement
+        traitée dans la Stratégie de l'OIML (OIML B 15:2011) comme faisant partie
+        des activités ordinaires de l'Organisation,
 - identifier:
   - prefix: Conference
     number: 2012/3
@@ -172,52 +176,55 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Report on the work of the BIML (2009-2012)'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XXVII of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting Resolution no. 6 of the 47th CIML Meeting,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Report on the work of the BIML (2009-2012)'
+  - spelling: fra
+    value: 'Agenda Item 3: Report on the work of the BIML (2009-2012)'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The revision of the OIML Financial Regulations (OIML B 8:2012) is sanctioned.
-  - language_code: fra
-    title: 'Agenda Item 3: Report on the work of the BIML (2009-2012)'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu I'Article XXVII de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de la Résolution n° 6 de la $ 4 7^{\mathrm{e m e}} $ Réunion
-        du CIML,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         La révision du Règlement Financier de l'OIML (OIML B 8:2012) est sanctionnée.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXVII of the Convention,
+    - spelling: fra
+      value: Vu I'Article XXVII de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting Resolution no. 6 of the 47th CIML Meeting,
+    - spelling: fra
+      value: Prenant note de la Résolution n° 6 de la $ 4 7^{\mathrm{e m e}} $ Réunion
+        du CIML,
 - identifier:
   - prefix: Conference
     number: 2012/4
@@ -227,41 +234,45 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: Report on the 2009-2012 financial period'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XXV, final paragraph, of the Convention,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: Report on the 2009-2012 financial period'
+  - spelling: fra
+    value: 'Agenda Item 4: Report on the 2009-2012 financial period'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The budget surpluses (net results) from the 2009-2012 financial period shall be kept in reserve.
-  - language_code: fra
-    title: 'Agenda Item 4: Report on the 2009-2012 financial period'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article XXV, dernier paragraphe, de la Convention,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         Les surplus du budget (résultats nets) de l'exercice 2009-2012 doivent être conservés en réserve.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXV, final paragraph, of the Convention,
+    - spelling: fra
+      value: Vu l'Article XXV, dernier paragraphe, de la Convention,
 - identifier:
   - prefix: Conference
     number: 2012/5
@@ -271,54 +282,57 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Approval of the accounts for 2008, 2009, 2010 and 2011'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XXV, penultimate paragraph, of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting Resolutions no.25 of the 45th CIML Meeting, no.6 of the 46th
-        CIML Meeting, and no.5 of the 47th CIML Meeting,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Approval of the accounts for 2008, 2009, 2010 and 2011'
+  - spelling: fra
+    value: 'Agenda Item 5: Approval of the accounts for 2008, 2009, 2010 and 2011'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The audited accounts for 2008, 2009, 2010 and 2011 are hereby approved. The CIML President and the BIML Director are finally discharged for their financial management during these years.
-  - language_code: fra
-    title: 'Agenda Item 5: Approval of the accounts for 2008, 2009, 2010 and 2011'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article XXV, avant-dernier paragraphe, de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note des Résolutions n° 25 de la 45 $ ^{\mathrm{eme}} $ Réunion
-        du CIML, n° 6 de la 46 $ ^{\mathrm{eme}} $ Réunion du CIML, et n° 5 de la
-        47 $ ^{\mathrm{eme}} $ Réunion du CIML,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         Les comptes examinés pour 2008, 2009, 2010 et 2011 sont à présent approuvés. Le Président du CIML et le Directeur du BIML sont définitivement déchargés de leur gestion financière desdites années.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXV, penultimate paragraph, of the Convention,
+    - spelling: fra
+      value: Vu l'Article XXV, avant-dernier paragraphe, de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting Resolutions no.25 of the 45th CIML Meeting, no.6 of the 46th CIML
+        Meeting, and no.5 of the 47th CIML Meeting,
+    - spelling: fra
+      value: Prenant note des Résolutions n° 25 de la 45 $ ^{\mathrm{eme}} $ Réunion
+        du CIML, n° 6 de la 46 $ ^{\mathrm{eme}} $ Réunion du CIML, et n° 5 de la
+        47 $ ^{\mathrm{eme}} $ Réunion du CIML,
 - identifier:
   - prefix: Conference
     number: 2012/6
@@ -328,28 +342,24 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: Sanctioning of OIML Recommendations'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article VIII, first and fifth paragraphs, of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting the decisions taken by the Committee since the 13th Conference
-        concerning the approval and withdrawal of OIML Recommendations and Documents,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: Sanctioning of OIML Recommendations'
+  - spelling: fra
+    value: 'Agenda Item 6: Sanctioning of OIML Recommendations'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) The following OIML Recommendations are hereby sanctioned. Member States are reminded of their obligation to implement these Recommendations as far as possible:
         - R 35-2:2011 Material measures of length for general use. Part 2: Test methods
@@ -371,28 +381,13 @@ decisions:
         - R 70 Determination of intrinsic and hysteresis errors of gas analyzers
         - R 73 Requirements concerning pure gases CO, $ CO_{2}, $ $ CH_{4}, $ $ H_{2}, $ $ O_{2}, $ $ N_{2} $ and Ar intended for the preparation of reference gas mixtures
         - D7 The evaluation of flow standards and facilities used for testing water meters
-  - language_code: fra
-    title: 'Agenda Item 6: Sanctioning of OIML Recommendations'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article VIII, premier et cinquième paragraphes, de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note des décisions prises par le Comité depuis la $ 1 3 ^{e
-        m e} $ Conférence concernant I'approbation et le retrait de Recommandations
-        et Documents de I'OIML,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) Les Recommandations OIML suivantes sont à présent sanctionnées. Il est rappelé aux États Membres leur obligation d'appliquer ces Recommandations autant que possible :
         - R 35-2:2011 Mesures matérialisées de longueur pour usages généraux. Partie 2 : Méthodes d'essai
@@ -416,6 +411,28 @@ decisions:
         - R 70 Détermination des erreurs de base et d'hystérésis des analyseurs de gaz
         - R 73 Prescriptions pour les gaz purs CO, $ \mathrm{C O_{2}} $ , $ \mathrm{C H_{4}} $ , $ \mathrm{H_{2}} $ , $ \mathrm{O_{2}} $ , $ \mathrm{N_{2}} $ et Ar destinés à la préparation des mélanges de gaz de référence
         - D 7 Évaluation des étalons de débit et des dispositifs utilisés pour l'essai des compteurs d'eau
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article VIII, first and fifth paragraphs, of the Convention,
+    - spelling: fra
+      value: Vu l'Article VIII, premier et cinquième paragraphes, de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the decisions taken by the Committee since the 13th Conference
+        concerning the approval and withdrawal of OIML Recommendations and Documents,
+    - spelling: fra
+      value: Prenant note des décisions prises par le Comité depuis la $ 1 3 ^{e m
+        e} $ Conférence concernant I'approbation et le retrait de Recommandations
+        et Documents de I'OIML,
 - identifier:
   - prefix: Conference
     number: 2012/7
@@ -425,55 +442,58 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Strategy of the OIML - Sanctioning of OIML B 15:2011'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article IV, first paragraph (1), of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting the approval by the Committee at its 46th Meeting of the OIML
-        Strategy in the form of a revision of OIML B 15, and the subsequent publication
-        of OIML B 15:2011,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Strategy of the OIML - Sanctioning of OIML B 15:2011'
+  - spelling: fra
+    value: 'Agenda Item 7: Strategy of the OIML - Sanctioning of OIML B 15:2011'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The OIML Strategy as laid down in OIML B 15:2011 is hereby sanctioned. The Committee is instructed to implement this strategy taking into account the budgetary resources.
-  - language_code: fra
-    title: 'Agenda Item 7: Strategy of the OIML - Sanctioning of OIML B 15:2011'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article IV, premier paragraphe (1), de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de l'approbation par le Comité lors de sa 46eme Réunion
-        de la Stratégie de I'OIML sous la forme d'une révision de I'OIML B 15 et la
-        publication ultérieure de OIML B 15:2011,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         La Stratégie de l'OIML tel qu'exposée dans l'OIML B 15:2011 est à présent sanctionnée. Le Comité est chargé d'appliquer ladite stratégie en prenant en considération les ressources budgétaires.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article IV, first paragraph (1), of the Convention,
+    - spelling: fra
+      value: Vu l'Article IV, premier paragraphe (1), de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the approval by the Committee at its 46th Meeting of the OIML
+        Strategy in the form of a revision of OIML B 15, and the subsequent publication
+        of OIML B 15:2011,
+    - spelling: fra
+      value: Prenant note de l'approbation par le Comité lors de sa 46eme Réunion
+        de la Stratégie de I'OIML sous la forme d'une révision de I'OIML B 15 et la
+        publication ultérieure de OIML B 15:2011,
 - identifier:
   - prefix: Conference
     number: 2012/8
@@ -483,69 +503,71 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: Member States'' contributory classes and the contributory
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: Member States'' contributory classes and the contributory
       share for 2013-2016'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XXVI (1) of the Convention,
-    - type: recalling
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Recalling the decision of the 12th Conference in 2004, instructing
-        the Committee to annually review the situation of those Member States that
-        benefit from a lower contributory class,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering the procedure for the classification of Member States as
-        decided by the Committee at its 40th Meeting in 2005,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: 'Agenda Item 8: Member States'' contributory classes and the contributory
+      share for 2013-2016'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The classification of Member States according to Article XXVI (1) of the Convention shall be reviewed in the final year of a financial period in order to determine the respective contributory shares of the Member States for the following financial period. The review shall be according to the method decided by the Committee at its 40th Meeting in 2005. However, any change in the classification of a Member State shall take effect from the second year of the following financial period.
-  - language_code: fra
-    title: 'Agenda Item 8: Member States'' contributory classes and the contributory
-      share for 2013-2016'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article XXVI (1) de la Convention,
-    - type: recalling
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Rappelant la décision de la $12^{\mathrm{eme}}$ Conférence en 2004,
-        chargeant le Comité de revoir chaque année la situation des États Membres
-        bénéficiant d'une classe de contribution inférieure,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant la procédure pour la classification des États Membres selon
-        la décision du Comité lors de sa $ 4 0^{\mathrm{ème}} $ Réunion en 2005,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         La classification des États Membres conformément à l'Article XXVI (1) de la Convention doit être revue au cours de la dernière année d'un exercice financier afin de déterminer les parts contributives respective des États Membres pour l'exercice financier suivant. La revue doit être faite conformément à la méthode décidée par le Comité lors de sa 40ème Réunion en 2005. Néanmoins, toute modification de classification d'un État Membre doit prendre effet à partir de la seconde année de l'exercice financier suivant.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXVI (1) of the Convention,
+    - spelling: fra
+      value: Vu l'Article XXVI (1) de la Convention,
+  - type: recalling
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling the decision of the 12th Conference in 2004, instructing the
+        Committee to annually review the situation of those Member States that benefit
+        from a lower contributory class,
+    - spelling: fra
+      value: Rappelant la décision de la $12^{\mathrm{eme}}$ Conférence en 2004, chargeant
+        le Comité de revoir chaque année la situation des États Membres bénéficiant
+        d'une classe de contribution inférieure,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the procedure for the classification of Member States as
+        decided by the Committee at its 40th Meeting in 2005,
+    - spelling: fra
+      value: Considérant la procédure pour la classification des États Membres selon
+        la décision du Comité lors de sa $ 4 0^{\mathrm{ème}} $ Réunion en 2005,
 - identifier:
   - prefix: Conference
     number: 2012/9
@@ -555,76 +577,78 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: Budget for the 2013-2016 financial period'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XXIV, first paragraph, Article XXVI (1), and
-        Article XXVIII, second paragraph, of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting Resolutions no.7 and no.10 of the 47th CIML Meeting,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering that the total number of base contributory shares, taking
-        into account the classification of Member States as reviewed in 2012, is 126
-        for the year 2013 and, after reclassification of some Member States, 138 for
-        the remaining years of the 2013-2016 financial period,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: Budget for the 2013-2016 financial period'
+  - spelling: fra
+    value: 'Agenda Item 9: Budget for the 2013-2016 financial period'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) The overall amount of credits, necessary to cover the Organization's operating expenses shall be €8278200 for the 2013-2016 financial period;
         (b) The annual base contributory share for the 2013-2016 financial period is $ \epsilon $14000. This results in an annual contribution for a Member State classified according to Article XXVI (1) of the Convention in Class 1, Class 2, Class 3 or Class 4 of $ \epsilon $14000, $ \epsilon $28000, $ \epsilon $56000 or $ \epsilon $112000, respectively,
         (c) In case of admission of a Member State during the financial period, the overall amount of credits mentioned in (a) is increased with the contributory share of that Member State, calculated from its classification and the base contributory share, proportionate to the period from its admission to the expiry of the financial period,
         (d) For the 2013-2016 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
-  - language_code: fra
-    title: 'Agenda Item 9: Budget for the 2013-2016 financial period'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article XXIV, premier paragraphe, l'Article XXVI (1), et l'Article
-        XXVIII, second paragraphe, de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note des Résolutions n° 7 et n° 10 de la 47ème Réunion du CIML,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant que le nombre total de parts contributives de base, prenant
-        en considération la classification des États Membres selon la révision de
-        2012, est de 126 pour l'année 2013, et, après reclassification de certains
-        États Membres, 138 pour les années suivantes de l'exercice financier 2013-2016,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) Le montant global des crédits nécessaires pour couvrir les frais de fonctionnement de I'Organisation est de 8 278 200 euros pour l'exercice financier 2013-2016,
         (b) La part annuelle contributive de base pour l'exercice financier 2013-2016 est de 14000 euros. Cela entraine une contribution annuelle pour un État Membre classifié
         conformément à l'Article XXVI (1) de la Convention en Classe 1, Classe 2, Classe 3 ou Classe 4 de 14000 euros, 28000 euros, 56000 euros ou 112000 euros respectivement,
         (c) En cas d'admission d'un État Membre au cours de l'exercice financier, le montant global de crédits mentionné en (a) est augmenté par la part contributive dudit État Membre, calculée à partir de sa classification et de la part contributive de base, proportionnellement à la période allant de son admission jusqu'à la fin de l'exercice financier,
         (d) Pour l'exercice financier 2013-2016, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXIV, first paragraph, Article XXVI (1), and
+        Article XXVIII, second paragraph, of the Convention,
+    - spelling: fra
+      value: Vu l'Article XXIV, premier paragraphe, l'Article XXVI (1), et l'Article
+        XXVIII, second paragraphe, de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting Resolutions no.7 and no.10 of the 47th CIML Meeting,
+    - spelling: fra
+      value: Prenant note des Résolutions n° 7 et n° 10 de la 47ème Réunion du CIML,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that the total number of base contributory shares, taking
+        into account the classification of Member States as reviewed in 2012, is 126
+        for the year 2013 and, after reclassification of some Member States, 138 for
+        the remaining years of the 2013-2016 financial period,
+    - spelling: fra
+      value: Considérant que le nombre total de parts contributives de base, prenant
+        en considération la classification des États Membres selon la révision de
+        2012, est de 126 pour l'année 2013, et, après reclassification de certains
+        États Membres, 138 pour les années suivantes de l'exercice financier 2013-2016,
 - identifier:
   - prefix: Conference
     number: 2012/10
@@ -634,51 +658,55 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: Examination of the situation of Member States in arrears'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
-        Having regard to Article XXIX of the Convention,
-        Desiring to clarify Article XXIX, first paragraph, of the Convention with respect to Member States which have not fully paid their annual contribution,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: Examination of the situation of Member States in arrears'
+  - spelling: fra
+    value: 'Agenda Item 10: Examination of the situation of Member States in arrears'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) A Member State which has not paid its annual contribution for three consecutive years shall automatically be considered as having resigned, according to Article XXIX, first paragraph, of the Convention;
         (b) A Member State which has not fully paid its annual contribution shall be automatically considered as having resigned when its accumulated arrears amount to the total of the last three years of contributions due;
         (c) A Member State in arrears will receive a final written warning at least six months before the accumulation of the three-year amount mentioned in (a) or (b). The warning will include a request to pay the full amount;
         (d) The provisions of (a), (b) and (c) apply accordingly to Corresponding Members with respect to annual Corresponding Member fees.
-  - language_code: fra
-    title: 'Agenda Item 10: Examination of the situation of Member States in arrears'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
-        Vu I'Article XXIX de la Convention,
-        Souhaitant clarifier l'Article XXIX, premier paragraphe, de la Convention en ce qui concerne les États Membres n'ayant pas intégralement réglé leur contribution annuelle,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) Un État Membre qui n'a pas réglé sa contribution annuelle pendant trois années consécutives doit être automatiquement considéré comme ayant démissionné, conformément à l'Article XXIX, premier paragraphe, de la Convention ;
         (b) Un État Membre qui n'a pas intégralement réglé sa contribution annuelle doit être automatiquement considéré comme ayant démissionné lorsque ses arriérés accumulés sont équivalents au total des trois dernières années de contributions dues ;
         (c) Un État Membre en arriéré recevra un avertissement final écrit au moins six mois avant l'accumulation du montant de trois ans mentionnée en (a) ou (b). L'avertissement incluera une demande de règlement total du montant ;
         (d) Les dispositions en (a), (b) et (c) s'appliquent également aux Membres Correspondants en ce qui concerne l'abonnement forfaitaire des Membres Correspondants.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Having regard to Article XXIX of the Convention,
+        Desiring to clarify Article XXIX, first paragraph, of the Convention with respect to Member States which have not fully paid their annual contribution,
+    - spelling: fra
+      value: |-
+        Vu I'Article XXIX de la Convention,
+        Souhaitant clarifier l'Article XXIX, premier paragraphe, de la Convention en ce qui concerne les États Membres n'ayant pas intégralement réglé leur contribution annuelle,
 - identifier:
   - prefix: Conference
     number: 2012/11
@@ -688,47 +716,51 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11: Interpretation of the OIML Convention'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
-        Having regard to Article XXX of the Convention,
-        Desiring to clarify Article XXX, second paragraph, of the Convention with respect to the readmission of Member States which have officially been regarded as having resigned,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11: Interpretation of the OIML Convention'
+  - spelling: fra
+    value: 'Agenda Item 11: Interpretation of the OIML Convention'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) A Member State which has officially been regarded as having resigned may be readmitted only after it has settled its unpaid contributions, the amount of which is calculated as the total contribution that the Member State would have had to pay over the last three years immediately prior to the year of readmission according to the classification of that Member State at the time of readmission;
         (b) The provisions in (a) apply accordingly to Corresponding Members with respect to Corresponding Member fees.
-  - language_code: fra
-    title: 'Agenda Item 11: Interpretation of the OIML Convention'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
-        Vu l'Article XXX de la Convention,
-        Souhaitant clarifier l'Article XXX, second paragraphe, de la Convention en ce qui concerne la réadmission des États Membres officiellement considérés comme ayant démissionné,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) Un État Membre qui est officiellement considéré comme ayant démissionné peut être réadmis uniquement après qu'il a réglé ses contributions impayées, dont le montant est calculé comme la contribution totale que l'État Membre aurait eu à payer au cours des trois dernières années immédiatement avant l'année de réadmission conformément à la classification dudit État Membre au moment de sa réadmission ;
         (b) Les dispositions en (a) s'appliquent également aux Membres Correspondants en ce qui concerne l'abonnement forfaitaire des Membres Correspondants.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Having regard to Article XXX of the Convention,
+        Desiring to clarify Article XXX, second paragraph, of the Convention with respect to the readmission of Member States which have officially been regarded as having resigned,
+    - spelling: fra
+      value: |-
+        Vu l'Article XXX de la Convention,
+        Souhaitant clarifier l'Article XXX, second paragraphe, de la Convention en ce qui concerne la réadmission des États Membres officiellement considérés comme ayant démissionné,
 - identifier:
   - prefix: Conference
     number: 2012/12
@@ -738,86 +770,86 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12: Date and venue of the next Conference'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Articles XXIX and XXX of the Convention,
-    - type: recalling
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Recalling its Resolutions no. 10 and no. 11, and Resolution no. 19
-        of the 13th Conference,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting Resolution no.27 of the 46th CIML Meeting and Resolution no.9
-        of the 47th CIML Meeting,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering that for some Member States, the OIML accounts show arrears
-        in excess of three years of membership contribution, but that these should
-        not have amounted to more than three years of membership contribution and
-        that the accounts need to be adjusted to rectify this situation,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12: Date and venue of the next Conference'
+  - spelling: fra
+    value: 'Agenda Item 12: Date and venue of the next Conference'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) Current Member States and Member States regarded as having resigned for which the OIML accounts show arrears in excess of three years of membership contribution shall have their arrears reduced to three years of membership contribution;
         (b) The reductions shall be accounted for in the 2012 accounts; any deficits resulting from these reductions shall be compensated by drawing from the reserve funds;
         (c) The provisions of (a) and (b) apply accordingly to Corresponding Members.
-  - language_code: fra
-    title: 'Agenda Item 12: Date and venue of the next Conference'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu les Articles XXIX et XXX de la Convention,
-    - type: recalling
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Rappelant ses Résolutions n° 10 et n° 11, et la Résolution n° 19 de
-        la 13<sup>ème</sup> Conférence,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de la résolution n° 27 de la 46 $ ^{\mathrm{eme}} $ Réunion
-        du CIML et de la Résolution n° 9 de la $ 47^{\mathrm{eme}} $ Réunion du CIML,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant que pour certains États Membres, les comptes de l'OIML
-        font apparaître des arriérés supérieurs à trois ans de contributions, mais
-        que ces arriérés n'auraient pas dû être totalisés au-delà de trois ans de
-        contributions et que les comptes doivent être ajustés afin de réctifier cette
-        situation,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) Les États Membres actuels et États Membres considérés comme ayant démissionné et pour lesquels les comptes de l'OIML indiquent des arriérés supérieurs à trois ans de contributions, doivent voir leurs arriérés réduits à trois ans de contributions ;
         (b) Ces réductions doivent être comptabilisées dans les comptes de 2012 ; tout déficit résultant desdites réductions doit être compensé en puisant dans les fonds de réserve ;
         (c) Les dispositions en (a) et (b) s'appliquent également aux Membres Correspondants.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Articles XXIX and XXX of the Convention,
+    - spelling: fra
+      value: Vu les Articles XXIX et XXX de la Convention,
+  - type: recalling
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolutions no. 10 and no. 11, and Resolution no. 19 of
+        the 13th Conference,
+    - spelling: fra
+      value: Rappelant ses Résolutions n° 10 et n° 11, et la Résolution n° 19 de la
+        13<sup>ème</sup> Conférence,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting Resolution no.27 of the 46th CIML Meeting and Resolution no.9
+        of the 47th CIML Meeting,
+    - spelling: fra
+      value: Prenant note de la résolution n° 27 de la 46 $ ^{\mathrm{eme}} $ Réunion
+        du CIML et de la Résolution n° 9 de la $ 47^{\mathrm{eme}} $ Réunion du CIML,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that for some Member States, the OIML accounts show arrears
+        in excess of three years of membership contribution, but that these should
+        not have amounted to more than three years of membership contribution and
+        that the accounts need to be adjusted to rectify this situation,
+    - spelling: fra
+      value: Considérant que pour certains États Membres, les comptes de l'OIML font
+        apparaître des arriérés supérieurs à trois ans de contributions, mais que
+        ces arriérés n'auraient pas dû être totalisés au-delà de trois ans de contributions
+        et que les comptes doivent être ajustés afin de réctifier cette situation,
 - identifier:
   - prefix: Conference
     number: 2012/13
@@ -827,55 +859,58 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Resolves: In the event of the absence, impediment, cessation of mandate,
+  title:
+  - spelling: eng
+    value: 'Resolves: In the event of the absence, impediment, cessation of mandate,
       resignation or death'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XV of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting the proposal from the CIML President following the discussions
-        at the 45th CIML Meeting and Resolution no.11 of the 45th CIML Meeting,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: Point 11.1 de l'ordre du jour
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         In the event of the absence, impediment, cessation of mandate, resignation or death of the first Vice-President, his duties shall be temporarily assumed by the second Vice-President.
-  - language_code: fra
-    title: Point 11.1 de l'ordre du jour
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article XV de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de la proposition du Président du CIML suite aux discussions
-        lors de la $ 4 5^{\mathrm{eme}} $ Réunion du CIML et la Résolution n° 11 de
-        la $ 4 5^{\mathrm{eme}} $ Réunion du CIML,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         En cas d'absence, empêchement, arrêt du mandat, démission ou décès du premier Vice-Président, ses devoirs doivent être temporairement assurés par le second Vice-Président.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XV of the Convention,
+    - spelling: fra
+      value: Vu l'Article XV de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the proposal from the CIML President following the discussions
+        at the 45th CIML Meeting and Resolution no.11 of the 45th CIML Meeting,
+    - spelling: fra
+      value: Prenant note de la proposition du Président du CIML suite aux discussions
+        lors de la $ 4 5^{\mathrm{eme}} $ Réunion du CIML et la Résolution n° 11 de
+        la $ 4 5^{\mathrm{eme}} $ Réunion du CIML,
 - identifier:
   - prefix: Conference
     number: 2012/14
@@ -885,67 +920,69 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Resolves: A ''colleague'' as mentioned in the first paragraph of Article
+  title:
+  - spelling: eng
+    value: 'Resolves: A ''colleague'' as mentioned in the first paragraph of Article
       XVII of the'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XVII of the Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting Resolution no. 26 of the 46th CIML Meeting,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering that the 1968 amendment of the Convention changed the membership
-        of the Committee from twenty experts designated by the Conference to one representative
-        per Member State,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: Point 11.2 de l'ordre du jour
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         A 'colleague' as mentioned in the first paragraph of Article XVII of the Convention may be: either another CIML Member or someone designated by the absent CIML Member to represent him/her. In the latter case, the representative shall be from the same government or administration as the absent CIML Member and may not represent other CIML Members, i.e. may not receive proxies from other CIML Members.
-  - language_code: fra
-    title: Point 11.2 de l'ordre du jour
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu I'Article XVII de la Convention,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de sa Résolution n° 26 de la 46 $ ^{\mathrm{e m e}} $
-        Réunion du CIML,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant que l'amendement de 1968 de la Convention a modifié la
-        composition du Comité, passant de vingt experts désignés par la Conférence
-        à un représentant par État Membre,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         Un « collègue », tel que mentionné au premier paragraphe de l'Article XVII de la Convention peut être : soit un autre Membre du CIML soit toute personne désignée par le Membre du CIML absent pour le représenter. Dans ce dernier cas, le représentant doit appartenir au même gouvernement ou à la même administration que le Membre du CIML absent et ne peut représenter d'autres Membres du CIML, c'est-à-dire ne peut recevoir de procuration de la part d'autres Membres du CIML.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XVII of the Convention,
+    - spelling: fra
+      value: Vu I'Article XVII de la Convention,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting Resolution no. 26 of the 46th CIML Meeting,
+    - spelling: fra
+      value: Prenant note de sa Résolution n° 26 de la 46 $ ^{\mathrm{e m e}} $ Réunion
+        du CIML,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that the 1968 amendment of the Convention changed the membership
+        of the Committee from twenty experts designated by the Conference to one representative
+        per Member State,
+    - spelling: fra
+      value: Considérant que l'amendement de 1968 de la Convention a modifié la composition
+        du Comité, passant de vingt experts désignés par la Conférence à un représentant
+        par État Membre,
 - identifier:
   - prefix: Conference
     number: 2012/15
@@ -955,55 +992,58 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Resolves: The Committee is hereby charged to organize the 15th Conference
+  title:
+  - spelling: eng
+    value: 'Resolves: The Committee is hereby charged to organize the 15th Conference
       in 2016, the'
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article X of the Convention,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considering the standing practice to organize a Conference once every
-        four years,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - spelling: fra
+    value: 'Décide que : Le Comité est à présent chargé d''organiser la 15ème Conférence
+      en'
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         The Committee is hereby charged to organize the 15th Conference in 2016, the venue and dates to be decided by the Committee.
-  - language_code: fra
-    title: 'Décide que : Le Comité est à présent chargé d''organiser la 15ème Conférence
-      en'
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu I'Article X de la Convention,
-    - type: considering
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Considérant la pratique actuelle de tenir une Conférence tous les quatre
-        ans,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         Le Comité est à présent chargé d'organiser la 15ème Conférence en 2016, le lieu et les dates étant à la décision du Comité.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article X of the Convention,
+    - spelling: fra
+      value: Vu I'Article X de la Convention,
+  - type: considering
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the standing practice to organize a Conference once every
+        four years,
+    - spelling: fra
+      value: Considérant la pratique actuelle de tenir une Conférence tous les quatre
+        ans,
 - identifier:
   - prefix: Conference
     number: 2012/16
@@ -1013,67 +1053,69 @@ decisions:
   dates:
   - date: '2012-10-03'
     type: decided
-  localizations:
-  - language_code: eng
-    title: Resolves
-    subject: OIML Conference
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Having regard to Article XXIX, second paragraph, of the Convention,
-    - type: recalling
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Recalling its Resolution no. 8,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Noting the request by Greece, dated 29 August 2012, to be reclassified
-        on the basis of the present financial difficulties and the size of its population,
-        which Greece indicates dropped below 10 million in 2011,
-    actions:
-    - type: resolves
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  title:
+  - spelling: eng
+    value: Resolves
+  - spelling: fra
+    value: 'Décide que '
+  subject:
+  - spelling: eng
+    value: OIML Conference
+  - spelling: fra
+    value: Conférence OIML
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
         Resolves:
         (a) The basis for the classification of Member States is, and remains, the figures provided by the World Bank,
         (b) The request from Greece is not considered to be supported with sufficient data to be able to examine the situation,
         (c) The request for a remission is therefore not approved.
-  - language_code: fra
-    title: 'Décide que '
-    subject: Conférence OIML
-    considerations:
-    - type: having_regard_to
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Vu l'Article XXIX, second paragraphe, de la Convention,
-    - type: recalling
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Rappelant sa Résolution n° 8,
-    - type: noting
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: Prenant note de la demande de la Grèce, en date du 29 août 2012, à
-        être reclassifiée en raison des difficultés financières actuelles et du volume
-        de sa population qui, selon les indications de la Grèce, est devenu inférieure
-        à 10 millions en 2011,
-    actions:
-    - type: decides
-      date_effective:
-        date: '2012-10-03'
-        type: effective
-      message: |-
+  - type: decides
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
         Décide que :
         (a) La reclassification des États Membres est basée et demeure basée sur les chiffres fournis par la Banque Mondiale,
         (b) La demande de la Grèce n'est pas considérée comme étant étayée par suffisamment de données pour permettre l'examen de la situation,
         (c) Le demande d'une remise est par conséquent rejetée.
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXIX, second paragraph, of the Convention,
+    - spelling: fra
+      value: Vu l'Article XXIX, second paragraphe, de la Convention,
+  - type: recalling
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution no. 8,
+    - spelling: fra
+      value: Rappelant sa Résolution n° 8,
+  - type: noting
+    date_effective:
+      date: '2012-10-03'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the request by Greece, dated 29 August 2012, to be reclassified
+        on the basis of the present financial difficulties and the size of its population,
+        which Greece indicates dropped below 10 million in 2011,
+    - spelling: fra
+      value: Prenant note de la demande de la Grèce, en date du 29 août 2012, à être
+        reclassifiée en raison des difficultés financières actuelles et du volume
+        de sa population qui, selon les indications de la Grèce, est devenu inférieure
+        à 10 millions en 2011,

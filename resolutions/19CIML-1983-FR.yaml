@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/19CIML-1983-FR.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/19CIML-1983-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-19
-# Language: fr
 ---
 metadata:
-  title_localized:
-  - language_code: fra
-    title: 19th CIML Meeting — Minutes (FR, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: DKCPH
   country_code: DK
   meeting_urn: urn:oiml:ciml:meeting:ciml-19
+  title:
+  - spelling: fra
+    value: 19th CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,16 +17,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: Situation financière'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 3. 1. Adoption des rapports comptables pour 1981 et 1982
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: Situation financière'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: 3. 1. Adoption des rapports comptables pour 1981 et 1982
 - identifier:
   - prefix: CIML
     number: 1983/4
@@ -41,16 +40,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: Personnel du Bureau'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 4. 1. Examen des postes devenant vacants dans un proche avenir
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: Personnel du Bureau'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: 4. 1. Examen des postes devenant vacants dans un proche avenir
 - identifier:
   - prefix: CIML
     number: 1983/6
@@ -60,16 +63,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6: Travaux des Secrétariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 6. 1. Examen de l'état d'avancement des travaux
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6: Travaux des Secrétariats'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: 6. 1. Examen de l'état d'avancement des travaux
 - identifier:
   - prefix: CIML
     number: 1983/7
@@ -79,16 +86,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: Secrétariats Pilotes et Rapporteurs'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 7. 1. Examen de la situation de certains Secrétariats
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: Secrétariats Pilotes et Rapporteurs'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: 7. 1. Examen de la situation de certains Secrétariats
 - identifier:
   - prefix: CIML
     number: 1983/1
@@ -98,16 +109,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 1: ADOPTION DU COMPTE RENDU DE LA 18ème REUNION DU COMITE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 'Ce compte rendu est adopté avec les corrections suivantes :'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 1: ADOPTION DU COMPTE RENDU DE LA 18ème REUNION DU COMITE'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Ce compte rendu est adopté avec les corrections suivantes :'
 - identifier:
   - prefix: CIML
     number: 1983/2
@@ -117,10 +132,12 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2: ETATS MEMBRES ET MEMBRES CORRESPONDANTS'
-    subject: "(The CIML)"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2: ETATS MEMBRES ET MEMBRES CORRESPONDANTS'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1983/2.1
@@ -130,17 +147,21 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.1: Nouvelles adhésions, perspectives d''adhésions'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: M. BIRKELAND rappelle l'adhésion, comme Etat Membre, du Kenya, et,
-        comme Correspondants, de Hong-Kong et du Koweit. M. ATHANE indique que quelques
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.1: Nouvelles adhésions, perspectives d''adhésions'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. BIRKELAND rappelle l'adhésion, comme Etat Membre, du Kenya, et, comme
+        Correspondants, de Hong-Kong et du Koweit. M. ATHANE indique que quelques
         pays ont récemment contacté le BIML en vue de leur éventuelle adhésion.
 - identifier:
   - prefix: CIML
@@ -151,16 +172,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 2.2: Examen éventuel de la situation de certains Etats Membres'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité International de Métrologie Légale,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 2.2: Examen éventuel de la situation de certains Etats Membres'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1983/3
@@ -170,10 +195,12 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3: Situation financière'
-    subject: "(The CIML)"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3: Situation financière'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1983/3.1
@@ -183,18 +210,21 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.1: Adoption des rapports comptables pour 1981 et 1982'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: M. DIXON, au nom de M. SOUCH, demande si, considérant le nombre non
-        négligeable d'Etats Membres en retard dans leur paiement, il ne serait pas
-        judicieux
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.1: Adoption des rapports comptables pour 1981 et 1982'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. DIXON, au nom de M. SOUCH, demande si, considérant le nombre non négligeable
+        d'Etats Membres en retard dans leur paiement, il ne serait pas judicieux
 - identifier:
   - prefix: CIML
     number: 1983/3.2
@@ -204,16 +234,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.2: Examen des estimations financières pour 1983'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: M. ATHANE rappelle que ces estimations ont été présentées aux Membres
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.2: Examen des estimations financières pour 1983'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. ATHANE rappelle que ces estimations ont été présentées aux Membres
         du Comité vers la fin de 1982, et complétées par des explications faisant
         suite à des questions de M. PETRY. Ces estimations étaient accompagnées d'un
         rappel des prévisions de recettes et autorisations de dépenses faites par
@@ -229,16 +263,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.3: Note sur le Franc-Or'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité prend note des informations données par le Directeur du Bureau
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.3: Note sur le Franc-Or'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité prend note des informations données par le Directeur du Bureau
         à ce sujet.
 - identifier:
   - prefix: CIML
@@ -249,16 +287,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 3.4: Note sur le Fonds de Réserve de l''OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité International de Métrologie Légale,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 3.4: Note sur le Fonds de Réserve de l''OIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1983/4
@@ -268,10 +310,12 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: Personnel du Bureau'
-    subject: "(The CIML)"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: Personnel du Bureau'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1983/4.1
@@ -281,36 +325,31 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4.1: Examen des postes devenant vacants dans un proche avenir'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité renouvelle pour une période de 5 années à compter de l'expiration
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4.1: Examen des postes devenant vacants dans un proche avenir'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité renouvelle pour une période de 5 années à compter de l'expiration
         de son présent contrat, le contrat de M. THULIN, Adjoint au Directeur.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité prend connaissance de l'expertise en question qui montre
-        qu'effectivement, le coût du système de retraite ne devrait pas entraîner
-        une augmentation du Budget de l'OIML supérieure en valeur relative à 10 %
-        (chiffre déjà présenté à la 6ème Conférence), cette augmentation de 10 % devant
-        être répartie sur les années 1993-2009 selon un barème à définir.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 'Le Comité adopte en conséquence la Résolution suivante :'
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité International de Métrologie Légale,
+    - spelling: fra
+      value: Le Comité prend connaissance de l'expertise en question qui montre qu'effectivement,
+        le coût du système de retraite ne devrait pas entraîner une augmentation du
+        Budget de l'OIML supérieure en valeur relative à 10 % (chiffre déjà présenté
+        à la 6ème Conférence), cette augmentation de 10 % devant être répartie sur
+        les années 1993-2009 selon un barème à définir.
+    - spelling: fra
+      value: 'Le Comité adopte en conséquence la Résolution suivante :'
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1983/5
@@ -320,17 +359,21 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: POLITIQUE A LONG TERME DE L''ORGANISATION ET PLANIFICATION
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: POLITIQUE A LONG TERME DE L''ORGANISATION ET PLANIFICATION
       DES TRAVAUX'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité International de Métrologie Légale,
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1983/6.1
@@ -340,16 +383,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.1: Examen de l''état d''avancement des travaux'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Une édition, à jour au 1er avril 1983, du document « Etat d'avancement
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.1: Examen de l''état d''avancement des travaux'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Une édition, à jour au 1er avril 1983, du document « Etat d'avancement
         des travaux des Secrétariats de l'OIML » est distribuée aux participants ;
         elle contient de plus une liste des projets de Recommandations et Documents
         Internationaux susceptibles d'être adoptés et publiés d'ici fin 1984.
@@ -362,17 +409,21 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.2: Adoption, à titre provisoire, de projets de Recommandations
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.2: Adoption, à titre provisoire, de projets de Recommandations
       Internationales'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Deux projets, relatifs aux « Sonomètres » et aux « Humidimètres pour
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Deux projets, relatifs aux « Sonomètres » et aux « Humidimètres pour
         grains de céréales et graines oléagineuses » sont présentés pour adoption
         à titre provisoire par le Comité, et publication, avant leur sanction définitive
         par la 7ème Conférence.
@@ -385,16 +436,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.3: Mode de travail des Secrétariats de l''OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Une version « provisoire » de ce document a été distribuée en octobre
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.3: Mode de travail des Secrétariats de l''OIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Une version « provisoire » de ce document a été distribuée en octobre
         1982, les paragraphes relatifs à la planification des travaux étant laissés
         en blanc. Etant donné que les problèmes de planification ne pourront être
         résolus avant quelques années, le Bureau est chargé de rééditer le document
@@ -410,17 +465,21 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 6.4: Problèmes linguistiques relatifs aux Recommendations
+  title:
+  - spelling: fra
+    value: 'Agenda Item 6.4: Problèmes linguistiques relatifs aux Recommendations
       Internationales et Documents Internationaux'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Bureau est chargé, en liaison avec les Etats francophones et anglophones,
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Bureau est chargé, en liaison avec les Etats francophones et anglophones,
         d'étudier la possibilité de mieux normaliser le langage utilisé dans les R.I.
         et D.I., en particulier en ce qui concerne le caractère obligatoire, recommandé,
         ou facultatif des prescriptions métrologiques.
@@ -433,10 +492,12 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: Secrétariats Pilotes et Rapporteurs'
-    subject: "(The CIML)"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: Secrétariats Pilotes et Rapporteurs'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1983/7.1
@@ -446,16 +507,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7.1: Examen de la situation de certains Secrétariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: "## a) SP 5 « Mesure des volumes de liquides »"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7.1: Examen de la situation de certains Secrétariats'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: "## a) SP 5 « Mesure des volumes de liquides »"
 - identifier:
   - prefix: CIML
     number: 1983/7.2
@@ -465,16 +530,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7.2: Suppression de certains Secrétariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: En janvier 1983, le Bureau a écrit à un certain nombre d'Etats responsables
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7.2: Suppression de certains Secrétariats'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: En janvier 1983, le Bureau a écrit à un certain nombre d'Etats responsables
         de Secrétariats Rapporteurs dont l'activité était, semble-t-il, assez réduite;
         le but de cette enquête était de savoir si des difficultés particulières empêchaient
         le déroulement des travaux, ou encore si une suppression des Secrétariats
@@ -489,19 +558,23 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7.3: Mise en activité de nouveaux Secrétariats'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: a) Il est rappelé au Comité qu'un Secrétariat sur le mesurage de la
-        surface des peaux (SP 4-Sr 6) a été mis en activité sous la responsabilité
-        de la Hongrie; par ailleurs la Belgique assume maintenant seule la responsabilité
-        du SP 4-Sr 2 (mesures matérialisées de longueur).
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7.3: Mise en activité de nouveaux Secrétariats'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: a) Il est rappelé au Comité qu'un Secrétariat sur le mesurage de la surface
+        des peaux (SP 4-Sr 6) a été mis en activité sous la responsabilité de la Hongrie;
+        par ailleurs la Belgique assume maintenant seule la responsabilité du SP 4-Sr
+        2 (mesures matérialisées de longueur).
 - identifier:
   - prefix: CIML
     number: 1983/8
@@ -511,16 +584,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: SYSTEME DE CERTIFICATION OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité International de Métrologie Légale,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: SYSTEME DE CERTIFICATION OIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale,
 - identifier:
   - prefix: CIML
     number: 1983/9
@@ -530,16 +607,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: RELATIONS AVEC D''AUTRES INSTITUTIONS INTERNATIONALES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Il est tout d'abord rappelé qu'un rapport complet sera présenté à la
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: RELATIONS AVEC D''AUTRES INSTITUTIONS INTERNATIONALES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Il est tout d'abord rappelé qu'un rapport complet sera présenté à la
         7e Conférence en octobre 1984, et que seuls quelques points particuliers relatifs
         à ce sujet sont soumis aux présentes discussions.
 - identifier:
@@ -551,16 +632,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 10: PAYS EN DEVELOPEMENT'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: M. THULIN indique que l'activité de l'OIML dans ce domaine est limitée
+  title:
+  - spelling: fra
+    value: 'Agenda Item 10: PAYS EN DEVELOPEMENT'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. THULIN indique que l'activité de l'OIML dans ce domaine est limitée
         par le manque de moyens financiers; en effet, les Agences spécialisées des
         Nations Unies n'ont que de très faibles possibilités; la coopération bilatérale
         est plus importante mais elle se fait, bien sûr, pratiquement sans participation
@@ -575,16 +660,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 11: SEMINAIRES OIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: M. THULIN indique que, après le succès du séminaire sur l'électronique,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 11: SEMINAIRES OIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. THULIN indique que, après le succès du séminaire sur l'électronique,
         un séminaire sur le contrôle des produits préemballés aura lieu à Berne, en
         juin 1983, sur invitation de M. PERLSTAIN. Ce séminaire sera suivi d'une réunion
         du SP 20. Pour le futur, il faut connaître l'opinion du Comité sur l'utilité
@@ -600,16 +689,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 12: RAPPORT D''ACTIVITE DU BIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Un rapport, couvrant la période mars 1982 - avril 1983, est distribué
+  title:
+  - spelling: fra
+    value: 'Agenda Item 12: RAPPORT D''ACTIVITE DU BIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Un rapport, couvrant la période mars 1982 - avril 1983, est distribué
         aux participants.
 - identifier:
   - prefix: CIML
@@ -620,17 +713,21 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 13: PREPARATION DE LA 7ème CONFERENCE INTERNATIONALE DE METROLOGIE
+  title:
+  - spelling: fra
+    value: 'Agenda Item 13: PREPARATION DE LA 7ème CONFERENCE INTERNATIONALE DE METROLOGIE
       LEGALE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Mme LAHTEENMAKI donne les informations détaillées sur la préparation
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Mme LAHTEENMAKI donne les informations détaillées sur la préparation
         de la 7ème Conférence conjointement à laquelle aura lieu la 20ème réunion
         du Comité. Le programme général a été établi et est distribué aux participants,
         avec des fiches de participation en vue des réservations d'hôtel.
@@ -643,16 +740,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 14: QUESTIONS DIVERSES'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 'M. THULIN indique qu''il finit de réaliser deux documents qui seront
+  title:
+  - spelling: fra
+    value: 'Agenda Item 14: QUESTIONS DIVERSES'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. THULIN indique qu''il finit de réaliser deux documents qui seront
         prochainement diffusés : une brochure descriptive des structures de la métrologie
         dans les Etats Membres et Correspondants de l''OIML (ou tout au moins ceux
         qui ont répondu au questionnaire) et un Index des articles publiés dans les
@@ -668,16 +769,20 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: ELECTION DU DEUXIEME VICE-PRESIDENT DU COMITE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Sur proposition de M. BIRKELAND, et à la suite de suggestions présentées
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: ELECTION DU DEUXIEME VICE-PRESIDENT DU COMITE'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Sur proposition de M. BIRKELAND, et à la suite de suggestions présentées
         par de nombreux Membres du CIML, le Comité International de Métrologie Légale
         désigne comme Deuxième Vice-Président, à l'unanimité, le Professeur Dr. Ing.
         W. MÜHE, représentant de la République Fédérale d'Allemagne.
@@ -690,65 +795,45 @@ decisions:
   dates:
   - date: '1983-05-03'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 16: CLOTURE'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité a adopté le compte rendu de la 18ème réunion du CIML avec
-        les modifications rédactionnelles mentionnées ci-avant.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité International de Métrologie Légale,
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité a adopté les rapports comptables pour 1981 et 1982 et a chargé
+  title:
+  - spelling: fra
+    value: 'Agenda Item 16: CLOTURE'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '1983-05-03'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a adopté le compte rendu de la 18ème réunion du CIML avec les
+        modifications rédactionnelles mentionnées ci-avant.
+    - spelling: fra
+      value: Le Comité International de Métrologie Légale,
+    - spelling: fra
+      value: Le Comité a adopté les rapports comptables pour 1981 et 1982 et a chargé
         son Président et le Directeur du Bureau de les présenter à la Septième Conférence.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité a pris note des informations du Bureau sur les estimations
+    - spelling: fra
+      value: Le Comité a pris note des informations du Bureau sur les estimations
         financières, le problème du franc-or, etc. et a donné des instructions au
         Directeur du Bureau en ce qui concerne la présentation des projets de budget
         à la Septième Conférence.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité a pris note d'informations, documents et propositions concernant
+    - spelling: fra
+      value: Le Comité a pris note d'informations, documents et propositions concernant
         divers aspects des travaux des Secrétariats de l'OIML ; les instructions appropriées
         ont été données au Bureau.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 'Le Comité a adopté, à titre provisoire, les deux projets de Recommandations
+    - spelling: fra
+      value: 'Le Comité a adopté, à titre provisoire, les deux projets de Recommandations
         Internationales suivants :'
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: 'Le Comité a attribué aux USA la responsabilité des Secrétariats Rapporteurs
+    - spelling: fra
+      value: 'Le Comité a attribué aux USA la responsabilité des Secrétariats Rapporteurs
         :'
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité a chargé le Bureau d'examiner quelle pourrait être l'activité
+    - spelling: fra
+      value: Le Comité a chargé le Bureau d'examiner quelle pourrait être l'activité
         de l'OIML en ce qui concerne les grandeurs électriques d'une part, les grandeurs
         photométriques et radiométriques d'autre part.
-    - type: notes
-      date_effective:
-        date: '1983-05-03'
-        type: effective
-      message: Le Comité a élu comme second Vice-Président, le Prof. Dr. Ing. W. MUHE,
+    - spelling: fra
+      value: Le Comité a élu comme second Vice-Président, le Prof. Dr. Ing. W. MUHE,
         Membre du CIML, République Fédérale d'Allemagne.

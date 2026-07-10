@@ -10,27 +10,322 @@ date_range:
   start: '1999-10-06'
   end: '1999-10-08'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Tunis, Tunisia
+general_area:
+- spelling: eng
+  value: Tunis, Tunisia
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 34th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Tunis, Tunisia
-- language_code: fra
-  script: Latn
-  title: 34th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Tunis, Tunisia
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '34'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation du compte rendu de la 33ème réunion du CIML
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: États Membres et Membres Correspondants
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux Membres - Adhésions attendues
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains Membres
+    outcome: discussed
+  - label: '2.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mise en application des décisions du Comité lors de sa 33ème réunion
+        concernant la participation accrue des Membres Correspondants dans certaines
+        activités de l'OIML
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Questions financières
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption du rapport comptable pour 1998
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation financière pour 1999
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget pour l'année 2000
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Présidence du CIML
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Directeur du Bureau
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Politique à long terme de l''OIML: mise en application des décisions
+        prises par le Comité à sa 33ème réunion en ce qui concerne les retombées du
+        Séminaire International de Braunschweig et du rapport Birkeland'
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur les activités du Conseil de la Présidence
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Conseil de Développement
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Programme de travail du Conseil de Développement
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons avec les organisations internationales et régionales concernées
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons avec les organisations internationales et régionales
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organisation Mondiale du Commerce (OMC)
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Organisations de normalisation (en particulier: ISO, CEI, CEE/NU)'
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Organisations d''accréditation (en particulier: ILAC et IAF)'
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organisations régionales de métrologie légale
+    outcome: discussed
+  - label: '9.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'Organisations régionales ayant des activités liées à la métrologie légale
+        (en particulier: Commission Européenne et CEN/CENELEC)'
+    outcome: discussed
+  - label: '9.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres (BIPM, OMS,...)
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités liées à la reconnaissance mutuelle des résultats d'essais,
+        à l'accréditation, etc.
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités techniques
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Programme de travail des TC/SC de l'OIML
+    outcome: discussed
+  - label: 11.1.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Etablissement de nouveaux sous-comités et de leurs programmes de travail
+    outcome: discussed
+  - label: 11.1.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux thèmes de travail proposés par les TC et SC
+    outcome: discussed
+  - label: 11.1.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Développements au sein du TC 3/SC 4
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains TC/SC
+    outcome: discussed
+  - label: 11.2.1
+    kind: numbered
+    title:
+    - spelling: eng
+      value: TC et SC vacants
+    outcome: discussed
+  - label: 11.2.2
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Attribution/transfert de responsabilité
+    outcome: discussed
+  - label: 11.2.3
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Propositions pour les activités techniques urgentes et futures
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation des projets de Recommandations
+    outcome: discussed
+  - label: '11.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Disponibilité des publications OIML sur format papier, sur support électronique
+        et via Internet; utilisation d'Internet au sein de l'OIML
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Système de Certificats OIML
+    outcome: discussed
+  - label: '12.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations générales
+    outcome: discussed
+  - label: '12.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouvelles Recommandations applicables au Système
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Préparations pour la Onzième Conférence
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations relatives à l'organisation de la Conférence
+    outcome: discussed
+  - label: '13.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Ordre du jour proposé
+    outcome: discussed
+  - label: '13.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen d'une proposition préliminaire pour le budget 2001-2004 en tenant
+        compte des besoins en personnel du BIML pour cette période
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur les activités du BIML
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Futures réunions
+    outcome: discussed
+  - label: '15.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 35ème réunion du CIML (2000)
+    outcome: discussed
+  - label: '15.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 36ème réunion du CIML (2001)
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres questions
+    outcome: discussed
+  - label: '17'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption des décisions
+    outcome: adopted
 country_code: TN
 city: TNTUN
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-34-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: TNTUN
   country_code: TN
+title:
+- spelling: eng
+  value: 34th International Committee of Legal Metrology (CIML)

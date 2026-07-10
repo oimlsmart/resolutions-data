@@ -10,38 +10,272 @@ date_range:
   start: '2006-10-18'
   end: '2006-10-20'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Cape Town, South Africa
+general_area:
+- spelling: eng
+  value: Cape Town, South Africa
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/41-ciml-decisions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/41-ciml-decisions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 41st CIML Meeting — Decisions (EN)
-  general_area: Cape Town, South Africa
-- language_code: fra
-  script: Latn
-  title: 41e réunion du CIML — Décisions (FR)
-  general_area: Cape Town, South Africa
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '41'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML 06 N° 312/JFM                                                                                  11
+        July 2006
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening address
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll-call - Quorum
+    outcome: discussed
+  - label: d
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 40th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation of certain Members
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the Auditor’s report for 2005
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Assets and liabilities as at 01/01/2005 and at 01/01/2006
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial report for 2005 and estimates for 2006
+    outcome: discussed
+  - label: '3.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress on the Pension Scheme
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presidential Council activities
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on Presidential Council activities
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Long Term Strategy and Action Plan
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing Country activities
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on PWGDC activities
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on JCDCMAS activities
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation by the Bureau on liaison activities
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by Liaison Organizations
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by RLMOs
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organization of the Bureau
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Communication, web site
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on BIML activities for 2005-2006
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of International Recommendations and Documents
+    outcome: adopted
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the situation of certain TCs/SCs
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MAA
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress on the revision of the Directives
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Human resource matters
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the Procedure for the election of the CIML President and
+        Vice-Presidents
+    outcome: adopted
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the CIML Second Vice-President
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Appointment of a new Assistant Director
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Dispute related to the dismissal of a BIML Secretary
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
 city: ZACPT
 country_code: ZA
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-41-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 - urn: urn:oiml:ciml:minutes:ciml-41-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: ZACPT
   country_code: ZA
+title:
+- spelling: eng
+  value: 41th International Committee of Legal Metrology (CIML)

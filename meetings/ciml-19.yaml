@@ -10,23 +10,207 @@ date_range:
   start: '1983-05-03'
   end: '1983-05-05'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Copenhagen, Denmark
+general_area:
+- spelling: eng
+  value: Copenhagen, Denmark
 source_urls: []
-localizations:
-- language_code: fra
-  script: Latn
-  title: 19th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Copenhagen, Denmark
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '19'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ADOPTION DU COMPTE RENDU DE LA 18ème REUNION DU COMITE
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ETATS MEMBRES ET MEMBRES CORRESPONDANTS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouvelles adhésions, perspectives d'adhésions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen éventuel de la situation de certains Etats Membres
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation financière
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption des rapports comptables pour 1981 et 1982
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen des estimations financières pour 1983
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Note sur le Franc-Or
+    outcome: discussed
+  - label: '3.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Note sur le Fonds de Réserve de l'OIML
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Personnel du Bureau
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen des postes devenant vacants dans un proche avenir
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: POLITIQUE A LONG TERME DE L'ORGANISATION ET PLANIFICATION DES TRAVAUX
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Travaux des Secrétariats
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de l'état d'avancement des travaux
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption, à titre provisoire, de projets de Recommandations Internationales
+    outcome: adopted
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mode de travail des Secrétariats de l'OIML
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Problèmes linguistiques relatifs aux Recommendations Internationales
+        et Documents Internationaux
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Secrétariats Pilotes et Rapporteurs
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains Secrétariats
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Suppression de certains Secrétariats
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mise en activité de nouveaux Secrétariats
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SYSTEME DE CERTIFICATION OIML
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RELATIONS AVEC D'AUTRES INSTITUTIONS INTERNATIONALES
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PAYS EN DEVELOPEMENT
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SEMINAIRES OIML
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RAPPORT D'ACTIVITE DU BIML
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PREPARATION DE LA 7ème CONFERENCE INTERNATIONALE DE METROLOGIE LEGALE
+    outcome: discussed
+  - label: '14'
+    kind: aob
+    title:
+    - spelling: eng
+      value: QUESTIONS DIVERSES
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ELECTION DU DEUXIEME VICE-PRESIDENT DU COMITE
+    outcome: discussed
+  - label: '16'
+    kind: closing
+    title:
+    - spelling: eng
+      value: CLOTURE
+    outcome: discussed
 country_code: DK
 city: DKCPH
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-19-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: DKCPH
   country_code: DK
+title:
+- spelling: eng
+  value: 19th International Committee of Legal Metrology (CIML)

@@ -10,35 +10,269 @@ date_range:
   start: '2015-10-20'
   end: '2015-10-22'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Arcachon, France
+general_area:
+- spelling: eng
+  value: Arcachon, France
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/50-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/50-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 50th CIML Meeting — Resolutions (EN)
-  general_area: Arcachon, France
-- language_code: fra
-  script: Latn
-  title: 50e réunion du CIML — Résolutions (FR)
-  general_area: Arcachon, France
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '50'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Arcachon, France
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 20–22 October 2015
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches – Roll call – Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 49th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: General report by the CIML President
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML matters
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on BIML activities
+    outcome: discussed
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progress with the new OIML website
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of Mr. Willem Kool, BIML Assistant Director
+    outcome: discussed
+  - label: '3.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Renewal of the contract of Mr. Stephen Patoray, BIML Director
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the 2014 accounts
+    outcome: adopted
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Management of the Translation Center
+    outcome: discussed
+  - label: '5.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Forecast budget realization 2015
+    outcome: discussed
+  - label: '5.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Outstanding arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on developing countries matters
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities in liaison with other international organizations
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Advisory group on countries and economies with emerging metrology systems
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Special project aimed at developing countries
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on liaison activities
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Reports from / presentations by Liaison Organizations
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Information regarding the RLMO Round Table
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of the report on experiences with B 6 concerning PG Workspaces
+        and other features
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposal for a new project to revise B 6
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for approval
+    outcome: discussed
+  - label: '8.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Items for information
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certificate System
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report of the ad hoc working group
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the OIML Certificate Systems
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Preparation of the 15th Conference (2016)
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Awards
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 51st CIML Meeting (2016)
+    outcome: discussed
+  - label: '13.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 52nd CIML Meeting (2017)
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of meeting resolutions
+    outcome: adopted
 city: FRARC
 country_code: FR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-50-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRARC
   country_code: FR
+title:
+- spelling: eng
+  value: 50th International Committee of Legal Metrology (CIML)

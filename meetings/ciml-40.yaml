@@ -10,35 +10,145 @@ date_range:
   start: '2005-06-18'
   end: '2005-06-20'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Lyon, France
+general_area:
+- spelling: eng
+  value: Lyon, France
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/40-ciml-decisions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/40-ciml-decisions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 40th CIML Meeting — Decisions (EN)
-  general_area: Lyon, France
-- language_code: fra
-  script: Latn
-  title: 40e réunion du CIML — Décisions (FR)
-  general_area: Lyon, France
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '40'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML 05 N° 300/JFM                                                                           19
+        April 2005
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening address
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: 'Roll-call - Quorum:   It is proposed that Decisions and Resolutions
+        be formally voted as a conclusion'
+    outcome: discussed
+  - label: d
+    kind: opening
+    title:
+    - spelling: eng
+      value: to each item on the Agenda; the roll-call would be established from the
+        check-in
+    outcome: discussed
+  - label: e
+    kind: opening
+    title:
+    - spelling: eng
+      value: lists and the quorum would be checked at each vote.
+    outcome: discussed
+  - label: f
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the agenda
+    outcome: adopted
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 39th CIML Meeting
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States and Corresponding Members
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presidential Council activities
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developing Country activities
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML activities
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical activities
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Human resource matters
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Closure
+    outcome: discussed
 city: FRLYS
 country_code: FR
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-40-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: FRLYS
   country_code: FR
+title:
+- spelling: eng
+  value: 40th International Committee of Legal Metrology (CIML)

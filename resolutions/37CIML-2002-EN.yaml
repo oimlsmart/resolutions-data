@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/37CIML-2002-EN.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/37CIML-2002-EN.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-37
-# Language: en
 ---
 metadata:
-  title_localized:
-  - language_code: eng
-    title: 37th CIML Meeting — Minutes (EN, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: FRSJL
   country_code: FR
   meeting_urn: urn:oiml:ciml:meeting:ciml-37
+  title:
+  - spelling: eng
+    value: 37th CIML Meeting — Minutes (EN, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,16 +17,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: Approbation du compte rendu de la 36ème Réunion du CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The minutes of the 36th CIML Meeting (distributed in February 2002)
-        were approved without modification. No comments had been received by the BIML.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: Approbation du compte rendu de la 36ème Réunion du CIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The minutes of the 36th CIML Meeting (distributed in February 2002) were
+        approved without modification. No comments had been received by the BIML.
 - identifier:
   - prefix: CIML
     number: 2002/2
@@ -41,17 +38,19 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: Mise en oeuvre des Décisions et Résolutions de la 11ème
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: Mise en oeuvre des Décisions et Résolutions de la 11ème
       Conférence et de la 36ème Réunion du CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber commented that most of the items in these documents were
-        on the agenda for the current CIML Meeting and would be covered over the four
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber commented that most of the items in these documents were on
+        the agenda for the current CIML Meeting and would be covered over the four
         days. In addition, Mr. Magaña had drawn up a table summarizing these decisions
         together with the item number under which each point would be covered. He
         therefore did not feel it was necessary to review each decision one by one.
@@ -65,16 +64,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Mise en oeuvre du Plan d''Action 1999-2002 + 2003-2004
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Mise en oeuvre du Plan d''Action 1999-2002 + 2003-2004
       et derniere extension jusqu''à la fin de 2004'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Mr. Magaña reminded Participants that a revised version of the Action
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr. Magaña reminded Participants that a revised version of the Action
         Plan had been distributed about one year ago with a view to its approval by
         the CIML. He explained that a number of key actions had already been completed,
         and then highlighted the main points of the Plan:'
@@ -87,9 +88,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: États Membres et Membres Correspondants'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: États Membres et Membres Correspondants'
 - identifier:
   - prefix: CIML
     number: 2002/4.1
@@ -99,16 +100,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.1: Nouveaux Membres - Adhésions attendues'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Mr. Magaña informed Participants of the following developments in
-        the OIML Membership:'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.1: Nouveaux Membres - Adhésions attendues'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr. Magaña informed Participants of the following developments in the
+        OIML Membership:'
 - identifier:
   - prefix: CIML
     number: 2002/4.2
@@ -118,15 +121,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.2: Situation de certains Membres'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The BIML Director reminded Participants that at the 36th CIML Meeting
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.2: Situation de certains Membres'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The BIML Director reminded Participants that at the 36th CIML Meeting
         in Moscow, the Committee had examined the situation of a certain number of
         countries that were not up to date in the payment of their contributions.
 - identifier:
@@ -138,9 +143,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Questions financières'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Questions financières'
 - identifier:
   - prefix: CIML
     number: 2002/5.1
@@ -150,15 +155,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.1: Adoption du rapport de l''expert comptable pour 2001'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber introduced this item by reminding Participants that the financial
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.1: Adoption du rapport de l''expert comptable pour 2001'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber introduced this item by reminding Participants that the financial
         report and other papers had been distributed in March 2002 and that no comments
         had been received by the Bureau.
 - identifier:
@@ -170,15 +177,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.2: Examen de la situation financiere pour 2002 et 2003'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Financial estimates had been distributed in January 2002. Mr. Magaña
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.2: Examen de la situation financiere pour 2002 et 2003'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Financial estimates had been distributed in January 2002. Mr. Magaña
         gave information that the Organization was globally on schedule with the budget
         and that objectives were being met - and would be met at the end of the period.
         The forecasts for 2003 were also scheduled to be in line with the budget,
@@ -193,18 +202,20 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.3: Analyse des coûts de fonctionnement du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Magaña began his presentation by informing Delegates that a new
-        model of accountancy system was currently being defined and evaluated with
-        a view to its application for the BIML accounts in the future. He explained
-        that the accounting system currently employed was essentially based on a "receipts
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.3: Analyse des coûts de fonctionnement du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Magaña began his presentation by informing Delegates that a new model
+        of accountancy system was currently being defined and evaluated with a view
+        to its application for the BIML accounts in the future. He explained that
+        the accounting system currently employed was essentially based on a "receipts
         - expenditures" principle, but was not based on any standardized method. However,
         it was for the Conference to decide on such a decision and he would make a
         detailed proposal for consideration in 2004. Prior to its being submitted
@@ -219,18 +230,20 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: Activités du Conseil de la Présidence'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber gave a report on Presidential Council activities over the
-        last year, but stressed that no item was discussed in the Council that was
-        not on the agenda of the present CIML Meeting. He welcomed the newest member
-        of the Council, Mrs. Judith Bennett (Australia) and went on to remind Participants
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: Activités du Conseil de la Présidence'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber gave a report on Presidential Council activities over the last
+        year, but stressed that no item was discussed in the Council that was not
+        on the agenda of the present CIML Meeting. He welcomed the newest member of
+        the Council, Mrs. Judith Bennett (Australia) and went on to remind Participants
         that the purpose of the Presidential Council was solely to advise the President
         by making recommendations; only the Committee could actually make decisions.
 - identifier:
@@ -242,9 +255,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Situation du BIML'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Situation du BIML'
 - identifier:
   - prefix: CIML
     number: 2002/7.1
@@ -254,15 +267,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.1: Modification des Statuts du Personnel'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber explained that from time to time it was necessary to update
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.1: Modification des Statuts du Personnel'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber explained that from time to time it was necessary to update
         and modernize the BIML Staff Regulations. Mr. Magaña had discussed this document
         with members of Staff and drawn up draft proposals to modify certain parts
         of the text; he had then presented these to the President and Presidential
@@ -276,15 +291,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: Personnel du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Mr. Faber asked Mr. Magaña to introduce this subject. The BIML Director
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: Personnel du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr. Faber asked Mr. Magaña to introduce this subject. The BIML Director
         informed Delegates that there had been two staff changes since the last Committee
         Meeting:'
 - identifier:
@@ -296,15 +313,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.3: Activités du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Mr. Magaña informed Participants that a written report had been distributed
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.3: Activités du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr. Magaña informed Participants that a written report had been distributed
         concerning the activities undertaken by the BIML since the last Committee
         Meeting. He commented on several of these activities:'
 - identifier:
@@ -316,16 +335,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
       électronique'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber asked Mr. Magaña to introduce this item.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber asked Mr. Magaña to introduce this item.
 - identifier:
   - prefix: CIML
     number: 2002/8
@@ -335,15 +356,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: Activités techniques'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: A written report drawn up by the BIML was distributed to Participants
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: Activités techniques'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: A written report drawn up by the BIML was distributed to Participants
         and commented by Mr. Issaev, responsible for following OIML technical activities
         as CIML Vice-President.
 - identifier:
@@ -355,16 +378,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.3: Accélération du travail technique'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'In his introduction, Mr. Faber said that he (together with Members
-        of the Presidential Council) were worried about the speed at which OIML technical
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.3: Accélération du travail technique'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'In his introduction, Mr. Faber said that he (together with Members of
+        the Presidential Council) were worried about the speed at which OIML technical
         work was advancing since this was, after all, the core activity of the Organization.
         It was not only about the slowness of developing new OIML documents but also
         about lagging behind in regular reviews and revisions of existing Recommendations
@@ -398,15 +423,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.4: Approbation des projets de Recommandations'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee approved two draft Recommendations with the voting results
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.4: Approbation des projets de Recommandations'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee approved two draft Recommendations with the voting results
         as indicated below:'
 - identifier:
   - prefix: CIML
@@ -417,15 +444,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: A written report prepared by the BIML was distributed to Participants
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: A written report prepared by the BIML was distributed to Participants
         and presented by Mr. Kochsiek who was responsible for following activities
         related to the OIML Certificate System as CIML Vice-President.
 - identifier:
@@ -437,15 +466,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.1: Informations générales'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: In his introductory remarks Mr. Kochsiek said that the OIML Certificate
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.1: Informations générales'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: In his introductory remarks Mr. Kochsiek said that the OIML Certificate
         System for Measuring Instruments ("the System") had made good progress over
         the last decade and the revised document OIML Certificate System for Measuring
         Instruments provided for its further development. He mentioned that the number
@@ -465,19 +496,21 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.2: Nouvelles Recommandations applicables dans le Système'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee also decided that two Recommendations, namely R 134
-        Automatic instruments for weighing road vehicles in motion. Part A: Total
-        vehicle weighing and R 49 Water meters for cold potable water would become
-        applicable within the System as soon as their Test Report Formats were approved
-        by CIML postal vote and published.'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.2: Nouvelles Recommandations applicables dans le Système'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee also decided that two Recommendations, namely R 134 Automatic
+        instruments for weighing road vehicles in motion. Part A: Total vehicle weighing
+        and R 49 Water meters for cold potable water would become applicable within
+        the System as soon as their Test Report Formats were approved by CIML postal
+        vote and published.'
 - identifier:
   - prefix: CIML
     number: 2002/9.3
@@ -487,17 +520,19 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.3: Plans pour les développements futurs'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Mr. Szilvassy reminded Delegates that a number of concrete actions
-        to be carried out in the near future for the development of the System had
-        already been included in the OIML Long-term Policy: 1999-2002 Action Plan.'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.3: Plans pour les développements futurs'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr. Szilvassy reminded Delegates that a number of concrete actions to
+        be carried out in the near future for the development of the System had already
+        been included in the OIML Long-term Policy: 1999-2002 Action Plan.'
 - identifier:
   - prefix: CIML
     number: 2002/10
@@ -507,9 +542,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: Evolutions'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: Evolutions'
 - identifier:
   - prefix: CIML
     number: 2002/10.1
@@ -519,15 +554,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.1: Arrangement d''Acceptation Mutuelle (MAA)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber introduced item 10.1 on the Mutual Acceptance Arrangement,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.1: Arrangement d''Acceptation Mutuelle (MAA)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber introduced item 10.1 on the Mutual Acceptance Arrangement,
         explaining that this was one of the most important items on the Agenda, and
         that he strongly believed that finalizing this document was essential for
         the future of the OIML. Mr. Faber asked Mr. Ehrlich to present the status
@@ -541,15 +578,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.2: Documents Horizontaux'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Magaña recalled that at the last CIML Meeting it had been decided
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.2: Documents Horizontaux'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Magaña recalled that at the last CIML Meeting it had been decided
         to develop a policy paper on horizontal documents. A first draft had been
         drawn up and discussed at the Presidential Council. This paper considered
         and tried to distinguish several kinds of documents. Some OIML publications,
@@ -571,22 +610,24 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.3: Rapport sur l''étude Les Bénéfices apportés par la Métrologie
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.3: Rapport sur l''étude Les Bénéfices apportés par la Métrologie
       Légale dans l''Economie et la Société'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Birch gave a detailed report on his Study The Benefits of Legal
-        Metrology for the Economy and Society which had been requested by the Presidential
-        Council. His work had consisted in looking at previous studies carried out
-        over the last years, and in reviewing them with the aim of extracting the
-        lessons learned from work already accomplished, and on this basis to come
-        up with a number of social and economic criteria which could be used in determining
-        resource allocation, to provide a rudimentary cost-benefits analysis for metrology.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Birch gave a detailed report on his Study The Benefits of Legal Metrology
+        for the Economy and Society which had been requested by the Presidential Council.
+        His work had consisted in looking at previous studies carried out over the
+        last years, and in reviewing them with the aim of extracting the lessons learned
+        from work already accomplished, and on this basis to come up with a number
+        of social and economic criteria which could be used in determining resource
+        allocation, to provide a rudimentary cost-benefits analysis for metrology.
 - identifier:
   - prefix: CIML
     number: 2002/10.4
@@ -596,16 +637,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.4: Examen préliminaire sur les résultats du Seminaire Que
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.4: Examen préliminaire sur les résultats du Seminaire Que
       Sera la Métrologie Légale en 2020 ?'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber expressed the sentiment that this Seminar had been a successful
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber expressed the sentiment that this Seminar had been a successful
         "experiment", and had been very positive. A large number of different ideas
         had been put forward covering many
 - identifier:
@@ -617,9 +660,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
       rendu séparé'
 - identifier:
   - prefix: CIML
@@ -630,15 +673,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11.1: Présentation des programmes de la Banque Mondiale'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Magaña reported that unfortunately Mr. Wilson of the World Bank,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11.1: Présentation des programmes de la Banque Mondiale'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Magaña reported that unfortunately Mr. Wilson of the World Bank,
         who had intended to come to this meeting, had been unable to attend at the
         last minute. He said that the BIML would continue its contacts with the World
         Bank and would ensure that all information which may be of interest to CIML
@@ -653,16 +698,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11.2: Activités du Conseil de Développement, plan d''action
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11.2: Activités du Conseil de Développement, plan d''action
       et évolutions possibles de ses structures'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Mr. Faber reported that following the last Development Council meeting
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Mr. Faber reported that following the last Development Council meeting
         in Moscow, he had decided to establish a small "Task Group" for developing
         country matters, with a double mission: to speed up the work and to make it
         more transparent, and secondly to examine the structure of the Development
@@ -678,9 +725,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
 - identifier:
   - prefix: CIML
     number: 2002/12.1
@@ -690,15 +737,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12.1: Organisations Régionales de Métrologie Légale (LRMO)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Magaña presented the status of work on relations with the RLMOs.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12.1: Organisations Régionales de Métrologie Légale (LRMO)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Magaña presented the status of work on relations with the RLMOs.
         At the last Committee Meeting, the Bureau had been asked to come up with a
         policy paper on this subject and had drawn up a first draft which was examined
         by the Presidential Council. A number of comments and amendments had to be
@@ -715,16 +764,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12.2: Autres institutions (Convention du Mètre, ILAC, ISO,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12.2: Autres institutions (Convention du Mètre, ILAC, ISO,
       OMC, etc.)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber informed the CIML of ongoing cooperation with the Metre Convention
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber informed the CIML of ongoing cooperation with the Metre Convention
         and ILAC. The annual meeting with these two organizations had been held on
         27 February 2002 at the BIPM and the OIML delegation was composed of Mr. Faber,
         Mr. Kochsiek, Mr. Issaev, Mr. Ehrlich and Mr. Magaña. Representing ILAC were
@@ -739,16 +790,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12.3: Information sur les développements en métrologie légale
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12.3: Information sur les développements en métrologie légale
       dans les Régions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Singyangwe presented activities in Botswana. There had been a workshop
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Singyangwe presented activities in Botswana. There had been a workshop
         under the auspices of the German Technical Cooperation, attended by representatives
         from SADC SQAM structures. This workshop reviewed PTB support to SADC SQAM
         structures. The representatives of SADCSTAN, SADCMET, SADCA and SADCMEL requested
@@ -764,15 +817,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 13: Election du Président du CIML, 2003'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber gave information concerning the election of the CIML President
+  title:
+  - spelling: eng
+    value: 'Agenda Item 13: Election du Président du CIML, 2003'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber gave information concerning the election of the CIML President
         which would take place in Kyoto in November 2003. He was eager to provide
         information as early as possible as this was a key event in the life of the
         Organization, together with the fact that a number of new CIML Members were
@@ -786,9 +841,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14: Réunions futures'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14: Réunions futures'
 - identifier:
   - prefix: CIML
     number: 2002/14.1
@@ -798,15 +853,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14.1: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee unanimously accepted the Japanese invitation and warmly
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14.1: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee unanimously accepted the Japanese invitation and warmly
         thanked Mr. Tanaka for his presentation.
 - identifier:
   - prefix: CIML
@@ -817,16 +874,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14.2: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14.2: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e
       m e}} $ Conférence (2004)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee unanimously accepted the German invitation and thanked
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee unanimously accepted the German invitation and thanked
         Mr. Kochsiek for the invitation.
 - identifier:
   - prefix: CIML
@@ -837,15 +896,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14.3: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: Mr. Faber reminded Participants that 2005 was the fiftieth anniversary
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14.3: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Mr. Faber reminded Participants that 2005 was the fiftieth anniversary
         of the OIML, and proposed to hold this special meeting in Paris.
 - identifier:
   - prefix: CIML
@@ -856,15 +917,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 15: Autres questions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'a) The Committee decided to make awards to three distinguished experts
+  title:
+  - spelling: eng
+    value: 'Agenda Item 15: Autres questions'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'a) The Committee decided to make awards to three distinguished experts
         who had greatly contributed to the work of the OIML:'
 - identifier:
   - prefix: CIML
@@ -875,15 +938,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 16: Adoption des décisions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee noted the opening address delivered by Mr. Gerard Faber,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 16: Adoption des décisions'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee noted the opening address delivered by Mr. Gerard Faber,
         CIML President.
 - identifier:
   - prefix: CIML
@@ -894,15 +959,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 1: Approbation du compte rendu de la 36ème Réunion du CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Minutes of the 36th CIML Meeting (Moscow, 2001) were approved without
+  title:
+  - spelling: eng
+    value: 'Agenda Item 1: Approbation du compte rendu de la 36ème Réunion du CIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Minutes of the 36th CIML Meeting (Moscow, 2001) were approved without
         modification.
 - identifier:
   - prefix: CIML
@@ -913,16 +980,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 2: Mise en oeuvre des Décisions et Résolutions de la 11ème
+  title:
+  - spelling: eng
+    value: 'Agenda Item 2: Mise en oeuvre des Décisions et Résolutions de la 11ème
       Conférence et de la 36ème Réunion du CIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The CIML President and BIML Director explained that all the Decisions
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The CIML President and BIML Director explained that all the Decisions
         and Resolutions were covered by the various items on the agenda; it was therefore
         not necessary to review them separately at this point in the meeting.
 - identifier:
@@ -934,16 +1003,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 3: Mise en oeuvre du Plan d''Action 1999-2002 + 2003-2004
+  title:
+  - spelling: eng
+    value: 'Agenda Item 3: Mise en oeuvre du Plan d''Action 1999-2002 + 2003-2004
       et derniere extension jusqu''à la fin de 2004'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The BIML Director reviewed the various points contained in the Action
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The BIML Director reviewed the various points contained in the Action
         Plan and reported on progress made over the past year. The Committee noted
         that these points had either already been implemented in a satisfactory manner
         or were to be considered by the CIML under the various items on its Agenda
@@ -957,9 +1028,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4: États Membres et Membres Correspondants'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4: États Membres et Membres Correspondants'
 - identifier:
   - prefix: CIML
     number: 2002/4.1
@@ -969,17 +1040,19 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.1: Nouveaux Membres - Adhésions attendues'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee noted information given by its President and by the
-        BIML Director concerning the current and expected membership. Two membership
-        changes were noted:'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.1: Nouveaux Membres - Adhésions attendues'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee noted information given by its President and by the BIML
+        Director concerning the current and expected membership. Two membership changes
+        were noted:'
 - identifier:
   - prefix: CIML
     number: 2002/4.2
@@ -989,15 +1062,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 4.2: Situation de certains Membres'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee noted information given by the BIML Director concerning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 4.2: Situation de certains Membres'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee noted information given by the BIML Director concerning
         the payment arrears situation of certain countries, as requested by the CIML
         at its 36th Meeting:'
 - identifier:
@@ -1009,9 +1084,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5: Questions financières'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5: Questions financières'
 - identifier:
   - prefix: CIML
     number: 2002/5.1
@@ -1021,17 +1096,19 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.1: Adoption du rapport de l''expert comptable pour 2001'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Auditor's Report for 2001 was adopted without comments and the
-        Committee instructed its President and the BIML Director to submit it to the
-        $ 1 2^{th} $ Conference.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.1: Adoption du rapport de l''expert comptable pour 2001'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Auditor's Report for 2001 was adopted without comments and the Committee
+        instructed its President and the BIML Director to submit it to the $ 1 2^{th}
+        $ Conference.
 - identifier:
   - prefix: CIML
     number: 2002/5.2
@@ -1041,22 +1118,21 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.2: Examen de la situation financiere pour 2002 et 2003'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the BIML concerning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.2: Examen de la situation financiere pour 2002 et 2003'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by the BIML concerning
         the financial situation of the Organization in 2002 and found that this situation
         was in line with the decisions of the $ 11^{th} $ Conference.
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee also noted information delivered by the Bureau concerning
+    - spelling: eng
+      value: The Committee also noted information delivered by the Bureau concerning
         2003.
 - identifier:
   - prefix: CIML
@@ -1067,15 +1143,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 5.3: Analyse des coûts de fonctionnement du BIML'
-    actions:
-    - type: instructs
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee instructed the Bureau to progress in this direction with
+  title:
+  - spelling: eng
+    value: 'Agenda Item 5.3: Analyse des coûts de fonctionnement du BIML'
+  actions:
+  - type: instructs
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed the Bureau to progress in this direction with
         a view to the new accountancy plans being endorsed by the $ 1 2^{th} $ Conference.
 - identifier:
   - prefix: CIML
@@ -1086,16 +1164,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 6: Activités du Conseil de la Présidence'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of a report by its President concerning the
-        activities of the Presidential Council since October 2001.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 6: Activités du Conseil de la Présidence'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report by its President concerning the activities
+        of the Presidential Council since October 2001.
 - identifier:
   - prefix: CIML
     number: 2002/7
@@ -1105,9 +1185,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7: Situation du BIML'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7: Situation du BIML'
 - identifier:
   - prefix: CIML
     number: 2002/7.1
@@ -1117,15 +1197,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.1: Modification des Statuts du Personnel'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the BIML Director
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.1: Modification des Statuts du Personnel'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by the BIML Director
         concerning the BIML Staff Regulations, currently under revision. The present
         draft would be amended in line with comments received and submitted to the
         CIML either by postal vote or at its 2003 Meeting for approval.
@@ -1138,15 +1220,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.2: Personnel du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the BIML Director
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.2: Personnel du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by the BIML Director
         concerning two new BIML Staff Members, bringing the number of BIML staff back
         to the level of the year 2000.
 - identifier:
@@ -1158,15 +1242,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.3: Activités du BIML'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of a report distributed by the Bureau concerning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.3: Activités du BIML'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of a report distributed by the Bureau concerning
         BIML activities from October 2001 through September 2002 and requested the
         Bureau to publish it in an appropriate format in the January 2003 issue of
         the OIML Bulletin.
@@ -1179,16 +1265,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
+  title:
+  - spelling: eng
+    value: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
       électronique'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: A live demonstration of the new OIML web site modules was given, notably
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: A live demonstration of the new OIML web site modules was given, notably
         concerning the possibility for Members to interact with the site directly.
         The Committee encouraged the Bureau to continue developing this technology
         which would ensure improved communication in the future and also lead to increasingly
@@ -1202,15 +1290,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8: Activités techniques'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 8. 1 Work program of TCs/SCs
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8: Activités techniques'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 8. 1 Work program of TCs/SCs
 - identifier:
   - prefix: CIML
     number: 2002/8.2
@@ -1220,53 +1310,55 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.2: Examen de la situation de certains TC/SC'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by Vice-President
-        Mr. Issaev and by the Bureau concerning OIML technical activities and, while
-        expressing its satisfaction for the work accomplished, requested the OIML
-        TCs and SCs to accelerate their work especially in the fields listed as high
-        priority and priority projects.
-    - type: approves
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee approved the following projects as proposed by:'
-    - type: requests
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee requested TC4 and TC 3/SC1 to provide for a common inquiry
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.2: Examen de la situation de certains TC/SC'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by Vice-President Mr.
+        Issaev and by the Bureau concerning OIML technical activities and, while expressing
+        its satisfaction for the work accomplished, requested the OIML TCs and SCs
+        to accelerate their work especially in the fields listed as high priority
+        and priority projects.
+    - spelling: eng
+      value: The Committee allocated the Secretariat of TC 5 (until now vacant) to
+        Slovenia, which had volunteered to assume responsibility for this Technical
+        Committee.
+    - spelling: eng
+      value: The Committee established a new Subcommittee TC 17/SC 8 Instruments for
+        quality analysis of agricultural products, allocated the Secretariat to Australia,
+        and approved its first work project on Measuring instruments used for protein
+        determination in grain.
+  - type: approves
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee approved the following projects as proposed by:'
+  - type: requests
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee requested TC4 and TC 3/SC1 to provide for a common inquiry
         to define which of them will undertake the new work project on Verification
         and inspection intervals of legally controlled measuring instruments proposed
         by TC4.
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee allocated the Secretariat of TC 5 (until now vacant)
-        to Slovenia, which had volunteered to assume responsibility for this Technical
-        Committee.
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee established a new Subcommittee TC 17/SC 8 Instruments
-        for quality analysis of agricultural products, allocated the Secretariat to
-        Australia, and approved its first work project on Measuring instruments used
-        for protein determination in grain.
-    - type: instructs
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee instructed the Bureau and TC 3 to accelerate the work
-        on the revision of OIMLD 1 Law on metrology.
+  - type: instructs
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed the Bureau and TC 3 to accelerate the work on
+        the revision of OIMLD 1 Law on metrology.
 - identifier:
   - prefix: CIML
     number: 2002/8.3
@@ -1276,15 +1368,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.3: Accélération du travail technique'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by its President concerning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.3: Accélération du travail technique'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by its President concerning
         the need to accelerate the technical work and of proposals put forward to
         achieve this. The Committee instructed the President, the Vice-Presidents
         and the Bureau to examine the possible measures to be taken with those Secretariats
@@ -1299,21 +1393,25 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 8.4: Approbation des projets de Recommandations'
-    actions:
-    - type: approves
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee approved the following draft Recommendations:'
-    - type: endorses
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee endorsed the BIML proposal to approve the Revision of
-        R 111 Weights of classes $ E_{1}, $ $ E_{2}, $ $ F_{1}, $ $ F_{2}, $ $ M_{1},
+  title:
+  - spelling: eng
+    value: 'Agenda Item 8.4: Approbation des projets de Recommandations'
+  actions:
+  - type: approves
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee approved the following draft Recommendations:'
+  - type: endorses
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee endorsed the BIML proposal to approve the Revision of R
+        111 Weights of classes $ E_{1}, $ $ E_{2}, $ $ F_{1}, $ $ F_{2}, $ $ M_{1},
         $ $ M_{1-2}, $ $ M_{2}, $ $ M_{2-3} $ and $ M_{3} $ by CIML postal vote as
         soon as the final DR is available.
 - identifier:
@@ -1325,9 +1423,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
 - identifier:
   - prefix: CIML
     number: 2002/9.1
@@ -1337,15 +1435,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.1: Informations générales'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of the information delivered by Vice-President
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.1: Informations générales'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of the information delivered by Vice-President
         Mr. Kochsiek and by the Bureau concerning the situation of the OIML Certificate
         System for Measuring Instruments and expressed its satisfaction with the situation.
 - identifier:
@@ -1357,21 +1457,25 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.2: Nouvelles Recommandations applicables dans le Système'
-    actions:
-    - type: decides
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee decided that the following Recommendation would be applicable
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.2: Nouvelles Recommandations applicables dans le Système'
+  actions:
+  - type: decides
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee decided that the following Recommendation would be applicable
         within the System when published:'
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'The Committee also decided that the following Recommendations would
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'The Committee also decided that the following Recommendations would
         be applicable within the System when the Test Report Formats are approved
         by CIML postal vote and published:'
 - identifier:
@@ -1383,30 +1487,31 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 9.3: Plans pour les développements futurs'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note that the revised document describing the operational
+  title:
+  - spelling: eng
+    value: 'Agenda Item 9.3: Plans pour les développements futurs'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note that the revised document describing the operational
         rules of the System will soon be published and requested the OIML Technical
         Bodies to include new provisions such as definitions, requirements, test methods
         and test report formats regarding
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee also requested the Bureau to include new provisions accordingly
+    - spelling: eng
+      value: The Committee also requested the Bureau to include new provisions accordingly
         in the revision of the OIML Directives for the Technical Work - Part 2.
-    - type: requests
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee requested TC 3/SC 5 to start working on an extension
-        of the System to certification of individual measuring instruments.
+  - type: requests
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee requested TC 3/SC 5 to start working on an extension of
+        the System to certification of individual measuring instruments.
 - identifier:
   - prefix: CIML
     number: 2002/10
@@ -1416,9 +1521,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10: Evolutions'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10: Evolutions'
 - identifier:
   - prefix: CIML
     number: 2002/10.1
@@ -1428,17 +1533,19 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.1: Arrangement d''Acceptation Mutuelle (MAA)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the Secretariat
-        of TC 3/SC 5 concerning the results of the ballot at SC level. This Draft
-        can now become a First Draft Document and be submitted to the CIML for consultation
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.1: Arrangement d''Acceptation Mutuelle (MAA)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by the Secretariat of
+        TC 3/SC 5 concerning the results of the ballot at SC level. This Draft can
+        now become a First Draft Document and be submitted to the CIML for consultation
         and comments. The Committee instructed the Bureau together with the USA CIML
         Member to organize a workshop to examine the comments received from CIML Members
         and to use, when appropriate, other ad-hoc means in order to obtain maximum
@@ -1452,15 +1559,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.2: Documents Horizontaux'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the BIML Director
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.2: Documents Horizontaux'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by the BIML Director
         concerning the ongoing development of a policy paper on horizontal documents.
         The Committee requested the Bureau to circulate it amongst CIML Members with
         a view to its approval at the 38th CIML Meeting.
@@ -1473,16 +1582,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.3: Rapport sur l''étude Les Bénéfices apportés par la Métrologie
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.3: Rapport sur l''étude Les Bénéfices apportés par la Métrologie
       Légale dans l''Economie et la Société'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by Honorary CIML Member
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by Honorary CIML Member
         Mr. Birch on the progress of the Study requested by the CIML President on
         The Benefits of Legal Metrology for the Economy and Society.
 - identifier:
@@ -1494,17 +1605,19 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 10.4: Examen préliminaire sur les résultats du Seminaire Que
+  title:
+  - spelling: eng
+    value: 'Agenda Item 10.4: Examen préliminaire sur les résultats du Seminaire Que
       Sera la Métrologie Légale en 2020 ?'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The CIML President presented the highlights of the Seminar held on
-        26-27 September 2002. The Committee instructed the Bureau to issue a communiqué
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The CIML President presented the highlights of the Seminar held on 26-27
+        September 2002. The Committee instructed the Bureau to issue a communiqué
         identifying the key points raised during the event and to distribute it to
         interested parties. The CIML agreed that other similar events could be held
         in the future. In addition, the Bureau was requested to distribute an "Evaluation
@@ -1518,30 +1631,36 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
+  title:
+  - spelling: eng
+    value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
       rendu séparé'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee congratulated Mrs. Annabi on her re-election as Development
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee congratulated Mrs. Annabi on her re-election as Development
         Council Chairperson and took note of a report delivered by her concerning
         Development Council activities
-    - type: instructs
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee instructed the President and the Bureau to take into
-        consideration the proposals made by the Task Group in establishing a detailed
-        work program which would be integrated into the OIML Action Plan.
-    - type: requests
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee requested the Task Group to develop proposals for a new
+  - type: instructs
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed the President and the Bureau to take into consideration
+        the proposals made by the Task Group in establishing a detailed work program
+        which would be integrated into the OIML Action Plan.
+  - type: requests
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee requested the Task Group to develop proposals for a new
         Development Council structure which may be approved by the $ 1 2^{th} $ Conference.
 - identifier:
   - prefix: CIML
@@ -1552,9 +1671,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
 - identifier:
   - prefix: CIML
     number: 2002/12.1
@@ -1564,15 +1683,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12.1: Organisations Régionales de Métrologie Légale (LRMO)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the BIML Director
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12.1: Organisations Régionales de Métrologie Légale (LRMO)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by the BIML Director
         concerning a policy paper currently under preparation dealing with the relations
         between the OIML and RLMOs. The Committee instructed the Bureau to submit
         the final version of this paper for approval at the 38th CIML Meeting.
@@ -1585,41 +1706,39 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12.2: Autres institutions (Convention du Mètre, ILAC, ISO,
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12.2: Autres institutions (Convention du Mètre, ILAC, ISO,
       OMC, etc.)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by its President concerning
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by its President concerning
         contacts with the Meter Convention and ILAC.
-    - type: instructs
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee instructed the Bureau to publish the minutes of meetings
-        held in particular with the BIPM and ILAC on the Members' Page of the OIML
-        web site.
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by the BIML Director
+    - spelling: eng
+      value: The Committee took note of information delivered by the BIML Director
         concerning a policy paper currently under preparation dealing with the relations
         between the OIML and other international, regional and national bodies, and
         instructed the Bureau to submit the final version of this paper for approval
         at the $ 38^{\mathrm{th}} $ CIML Meeting.
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note with great interest of a presentation given
-        by Mrs. Liu, Secretary of the WTO TBT Committee. The Committee instructed
-        the Bureau to pursue close cooperation with the WTO and in particular with
-        a view to organizing regional seminars.
+    - spelling: eng
+      value: The Committee took note with great interest of a presentation given by
+        Mrs. Liu, Secretary of the WTO TBT Committee. The Committee instructed the
+        Bureau to pursue close cooperation with the WTO and in particular with a view
+        to organizing regional seminars.
+  - type: instructs
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee instructed the Bureau to publish the minutes of meetings
+        held in particular with the BIPM and ILAC on the Members' Page of the OIML
+        web site.
 - identifier:
   - prefix: CIML
     number: 2002/12.3
@@ -1629,16 +1748,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 12.3: Information sur les développements en métrologie légale
+  title:
+  - spelling: eng
+    value: 'Agenda Item 12.3: Information sur les développements en métrologie légale
       dans les Régions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of presentations delivered by representatives
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of presentations delivered by representatives
         of WELMEC, APLMF, SADCMEL and the EMLMF on current developments within their
         regions.
 - identifier:
@@ -1650,15 +1771,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 13: Election du Président du CIML, 2003'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee took note of information delivered by its President concerning
+  title:
+  - spelling: eng
+    value: 'Agenda Item 13: Election du Président du CIML, 2003'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee took note of information delivered by its President concerning
         the election of a new President which will take place at the 38th CIML Meeting
         in 2003. The Committee decided that candidacies for this election will not
         be accepted after 31 January 2003 so that CIML Members have sufficient time
@@ -1672,9 +1795,9 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14: Réunions futures'
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14: Réunions futures'
 - identifier:
   - prefix: CIML
     number: 2002/14.1
@@ -1684,18 +1807,20 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14.1: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee was given a presentation by the Japanese delegation,
-        which had extended an invitation to host the 38th CIML Meeting in Kyoto in
-        November 2003. The Committee unanimously accepted this invitation and thanked
-        the Japanese representatives.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14.1: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee was given a presentation by the Japanese delegation, which
+        had extended an invitation to host the 38th CIML Meeting in Kyoto in November
+        2003. The Committee unanimously accepted this invitation and thanked the Japanese
+        representatives.
 - identifier:
   - prefix: CIML
     number: 2002/14.2
@@ -1705,16 +1830,18 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14.2: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14.2: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e
       m e}} $ Conférence (2004)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee noted that Israel's invitation was still open, but that
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee noted that Israel's invitation was still open, but that
         no date could yet be fixed. The Committee accepted Germany's invitation to
         host the above-mentioned events.
 - identifier:
@@ -1726,15 +1853,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 14.3: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The Committee accepted in principle the Bureau's intention to organize
+  title:
+  - spelling: eng
+    value: 'Agenda Item 14.3: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The Committee accepted in principle the Bureau's intention to organize
         this meeting in Paris on the occasion of the 50th anniversary of the Organization.
 - identifier:
   - prefix: CIML
@@ -1745,15 +1874,17 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 15: Autres questions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: 'Firstly, the Committee decided to make awards to three distinguished
+  title:
+  - spelling: eng
+    value: 'Agenda Item 15: Autres questions'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Firstly, the Committee decided to make awards to three distinguished
         experts who have greatly contributed to the work of the OIML:'
 - identifier:
   - prefix: CIML
@@ -1764,12 +1895,14 @@ decisions:
   dates:
   - date: '2002-10-01'
     type: decided
-  localizations:
-  - language_code: eng
-    title: 'Agenda Item 16: Adoption des décisions'
-    actions:
-    - type: notes
-      date_effective:
-        date: '2002-10-01'
-        type: effective
-      message: The above decisions and resolutions were adopted.
+  title:
+  - spelling: eng
+    value: 'Agenda Item 16: Adoption des décisions'
+  actions:
+  - type: notes
+    date_effective:
+      date: '2002-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: The above decisions and resolutions were adopted.

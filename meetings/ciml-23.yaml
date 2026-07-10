@@ -10,23 +10,93 @@ date_range:
   start: '1988-10-24'
   end: '1988-10-28'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Sydney, Australia
+general_area:
+- spelling: eng
+  value: Sydney, Australia
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 23rd CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Sydney, Australia
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '23'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: MINUTES OF THE 22nd MEETING OF THE COMMITTEE AND RECONSIDERATION OF THE
+        MINUTES OF THE 21ST MEETING
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: AUDITOR'S REPORT FOR 1987 AND OTHER FINANCIAL MATTERS
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 'EIGHTH CONFERENCE: ORGANIZATION OF THE SESSIONS, PRESIDENCY, AGENDA'
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: WORK PROGRAMMES FOR 1989-1992 AND PRIORITY CRITERIA
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CERTIFICATION
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: THE SITUATION OF CERTAIN SECRETARIATS
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: REPORT ON THE ACTIVITIES OF BIML
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: VICE-PRESIDENCY OF THE COMMITTEE
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE EIGHTH CONFERENCE
+    outcome: discussed
+  - label: '10'
+    kind: aob
+    title:
+    - spelling: eng
+      value: ANY OTHER BUSINESS
+    outcome: discussed
+  - label: '11'
+    kind: closing
+    title:
+    - spelling: eng
+      value: DATE AND PLACE FOR THE NEXT MEETING
+    outcome: discussed
 country_code: AU
 city: AUSYD
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-23-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: AUSYD
   country_code: AU
+title:
+- spelling: eng
+  value: 23th International Committee of Legal Metrology (CIML)

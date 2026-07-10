@@ -6,13 +6,358 @@ urn: urn:oiml:ciml:meeting:ciml-8
 type: plenary
 status: completed
 ordinal: 8
-localizations:
-- language_code: fra
-  script: Latn
-  title: 8th CIML Meeting (skeleton from minutes)
-  general_area: ''
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-8-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
+title:
+- spelling: eng
+  value: 8th Meeting
+agenda:
+  identifier:
+  - prefix: CIML
+    number: '8'
+  status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation du compte rendu de la 37ème Réunion du CIML
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Mise en application des Décisions et Résolutions de la 37ème Réunion
+        du CIML
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux Membres - Perspectives d'adhésions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains Membres - si approprié
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: États Membres et Membres Correspondants
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux Membres - Perspectives d'adhésions
+    outcome: discussed
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains Membres
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur les activités du Conseil de la Présidence
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur l'établissement définitif des TC et SC
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Présentation des candidats à la Présidence du CIML
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Questions financières
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption du Rapport Comptable pour 2002
+    outcome: adopted
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Réalisation du budget 2002 et estimations pour 2003
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposition préliminaire pour le budget 2005-2008
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progrès concernant la révision du Règlement Financier de l'OIML
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation au BIML
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Projet de Révision des Statuts du Personnel
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Personnel du BIML
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités du BIML
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Progrès dans l'utilisation d'Internet et du courrier électronique
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Application et révision du Plan d'Action de l'OIML
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activités techniques
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Programme de travail des TC/SC
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains TC/SC
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Accélération des activités techniques
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Résultats non concluants des votes par correspondance
+    outcome: discussed
+  - label: '9.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approbation des projets de Recommandations et de Documents
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Arrangement d'Acceptation Mutuelle (MAA) et Listes de Contrôle
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Bulletin
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Brochure d'information générale
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Système de Certificats OIML pour les Instruments de Mesure
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Informations générales
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouvelles Recommandations applicables dans le cadre du Système
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Suivi de la révision du P1 Système de Certificats OIML pour les Instruments
+        de Mesure
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Évolutions - Procédures générales de l'OIML
+    outcome: discussed
+  - label: '12.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Révision des Directives pour les Travaux Techniques
+    outcome: discussed
+  - label: '12.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Traduction et diffusion des Publications OIML
+    outcome: discussed
+  - label: '12.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Projet de Guide sur le statut des Documents et Publications OIML
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Étude sur Les Bénéfices apportés par la Métrologie Légale dans l'Économie
+        et la Société
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur le Conseil de Développement
+    outcome: discussed
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Groupe de travail sur les Pays en Développement
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres activités relatives aux pays en développement
+    outcome: discussed
+  - label: '14.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: JCDCMAS
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons avec les institutions internationales et régionales
+    outcome: discussed
+  - label: '15.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Convention du Mètre, ILAC, ISO, OMC, etc.
+    outcome: discussed
+  - label: '15.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Projet de Document de politique générale sur les liaisons avec les autres
+        organisations
+    outcome: discussed
+  - label: '15.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapports des Organisations Régionales de Métrologie Légale (RLMO)
+    outcome: discussed
+  - label: '15.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Projet de document de politique générale sur la coordination avec les
+        Organisations Régionales de Métrologie Légale (RLMO)
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Élection du Président du CIML
+    outcome: discussed
+  - label: '17'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Prochaines réunions
+    outcome: discussed
+  - label: '17.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 39ème Réunion du CIML et 12ème Conférence Internationale de Métrologie
+        Légale (Berlin, 2004)
+    outcome: discussed
+  - label: '17.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 40ème Réunion du CIML et 50ème Anniversaire de l'OIML (France, 2005)
+    outcome: discussed
+  - label: '17.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres réunions
+    outcome: discussed
+  - label: '18'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Autres questions
+    outcome: discussed
+  - label: '19'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption des décisions
+    outcome: adopted
+  - label: '20'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Cloture
+    outcome: discussed

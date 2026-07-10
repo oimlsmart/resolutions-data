@@ -10,29 +10,232 @@ date_range:
   start: '2020-10-20'
   end: '2020-10-22'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Online meeting
+general_area:
+- spelling: eng
+  value: Online meeting
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/55-ciml-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/55-ciml-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 55th CIML Meeting — Resolutions (EN)
-  general_area: Online meeting
-- language_code: fra
-  script: Latn
-  title: 55e réunion du CIML — Résolutions (FR)
-  general_area: Online meeting
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '55'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Online meeting
+    outcome: discussed
+  - label: b
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 20–22 October 2020
+    outcome: discussed
+  - label: '1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll call
+    outcome: discussed
+  - label: '2'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening remarks and meeting protocol
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Meeting protocol
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Application of conditions for CIML voting
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the agenda
+    outcome: adopted
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Minutes of the 54th CIML Meeting
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML Director on BIML matters and activities
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial matters
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 2019 accounts
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget forecast for 2020
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget for 2021
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Arrears of Member States and Corresponding Members
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML publications and technical activities
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Publications and project proposals
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other items for information and approval
+    outcome: discussed
+  - label: '8.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Key topics for the OIML Bulletin
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the OIML-CS Management Committee (MC) Acting Chairperson
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Appointment of the OIML-CS MC Chairperson
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Re-appointment of the OIML-CS MC Deputy Chairperson
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Recommendations from the OIML-CS MC to the CIML
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CEEMS Advisory Group Chairperson
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: International cooperation
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the RLMO Round Table Chairperson
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the BIML on activities with organisations in liaison
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Updates by other organisations in liaison
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Awards
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future meetings
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other matters
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of draft resolutions and meeting actions
+    outcome: discussed
+  - label: '16'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Closing remarks
+    outcome: discussed
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-55-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
+title:
+- spelling: eng
+  value: 55th International Committee of Legal Metrology (CIML)

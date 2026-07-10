@@ -10,27 +10,156 @@ date_range:
   start: '2008-10-29'
   end: '2008-10-31'
 committee: International Conference of Legal Metrology
-general_area: Sydney, Australia
+general_area:
+- spelling: eng
+  value: Sydney, Australia
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/13-conf-resolutions-bilingual.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/conference/pdf/13-conf-resolutions-bilingual.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 13th OIML Conference — Resolutions (EN)
-  general_area: Sydney, Australia
-- language_code: fra
-  script: Latn
-  title: 13e Conférence OIML — Résolutions (FR)
-  general_area: Sydney, Australia
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: OIML Conference
+    number: '13'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 13th Conference Agenda
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll call
+    outcome: discussed
+  - label: d
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the Conference President and Vice-President
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 12th Conference
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on CIML and BIML activities
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Actions stemming from Article I of the Convention
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Other actions
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentations given by Liaisons
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical work
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Sanctioning of Recommendations
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Acceptance / Recognition Systems
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Presentation of the Strategic Plan
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on Developing Country issues
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial issues
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the 2005 – 2008 financial period
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Future developments
+    outcome: discussed
+  - label: '7.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Needs for the 2009 – 2012 financial period
+    outcome: discussed
+  - label: '7.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: 2009 – 2012 budget of the OIML
+    outcome: discussed
+  - label: '7.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Financial estimates for the financial period 2009 – 2012
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Membership
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New membership category “Associate Member”
+    outcome: discussed
 city: AUSYD
 country_code: AU
 visibility: public
@@ -38,3 +167,6 @@ venues:
 - kind: physical
   unlocode: AUSYD
   country_code: AU
+title:
+- spelling: eng
+  value: 13th International Conference of Legal Metrology

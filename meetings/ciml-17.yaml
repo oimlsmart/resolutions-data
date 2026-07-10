@@ -10,23 +10,207 @@ date_range:
   start: '1980-06-16'
   end: '1980-06-20'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Washington, United States of America
+general_area:
+- spelling: eng
+  value: Washington, United States of America
 source_urls: []
-localizations:
-- language_code: eng
-  script: Latn
-  title: 17th CIML Meeting — Minutes (EN, Bulletin)
-  general_area: Washington, United States of America
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '17'
   status: final
+  items:
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: FINANCIAL SITUATION
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the Accountants' Reports for 1978 and 1979
+    outcome: adopted
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the draft "Financial Code"
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF THE CONFERENCE
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Scale of salaries for BIML staff
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY OF THE CONFERENCE
+        ORGANIZATION OF THE SESSION
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Amendment of the Convention
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS
+    outcome: discussed
+  - label: '6.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP 25 - Developing Countries
+    outcome: discussed
+  - label: '6.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP 17 - Measurement of pollutants
+    outcome: discussed
+  - label: '6.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SP 20 - Prepackaged products
+    outcome: discussed
+  - label: '6.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Creation of a new Secretariat for explosimeters.
+    outcome: discussed
+  - label: '6.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Reorganization of SP 18 (Food products).
+    outcome: discussed
+  - label: '6.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BIML proposal concerning the state of progress with certain activities
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: New adoption procedures and new appellation
+    outcome: adopted
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: BUREAU PERSONNEL
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Composition of Reporting Secretariats
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Development Council (Financial Code)
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the "OIML Mark" ad hoc group
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ORGANIZATION OF TECHNICAL SEMINARS
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML LOGO
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: REPORT ON BIML ACTIVITIES
+    outcome: discussed
+  - label: '14'
+    kind: aob
+    title:
+    - spelling: eng
+      value: ANY OTHER BUSINESS
+    outcome: discussed
+  - label: '15'
+    kind: closing
+    title:
+    - spelling: eng
+      value: DATE AND PLACE OF THE NEXT MEETING
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY
+    outcome: discussed
 country_code: US
 city: USWAS
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-17-eng
-  language_code: eng
-  script: Latn
+  spelling: eng-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: USWAS
   country_code: US
+title:
+- spelling: eng
+  value: 17th International Committee of Legal Metrology (CIML)

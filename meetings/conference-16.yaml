@@ -10,25 +10,188 @@ date_range:
   start: '2021-10-20'
   end: '2021-10-21'
 committee: International Conference of Legal Metrology
-general_area: Online meeting
+general_area:
+- spelling: eng
+  value: Online meeting
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/16-conf-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/conference/pdf/16-conf-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 16th OIML Conference — Resolutions (EN)
-  general_area: Online meeting
-- language_code: fra
-  script: Latn
-  title: 16e Conférence OIML — Résolutions (FR)
-  general_area: Online meeting
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: OIML Conference
+    number: '16'
   status: final
+  items:
+  - label: '1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening remarks and meeting protocol
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the agenda
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the Conference President and Vice-Presidents
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Confirmation that in-person and online participation in OIML meetings
+        is equivalent
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 15th Conference
+    outcome: adopted
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President for the period 2017–2021
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the 2017–2021 financial period
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Overview of Members in arrears and actions taken
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the accounts for 2016, 2017, 2018, 2019 and 2020
+    outcome: adopted
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget for the 2022–2025 financial period
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member State and Corresponding Member classes and fees
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposed budget for the 2022–2025 financial period
+    outcome: discussed
+  - label: '10.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Policy on the OIML Operating Reserve Fund
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of Draft Conference Resolutions (Session 1)
+    outcome: adopted
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Explanation of the voting procedure
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review of Draft Conference Resolutions from this session
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Online voting
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Sanctioning of OIML publications
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the OIML for the period 2017–2021
+    outcome: discussed
+  - label: '13.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organisation, management and staff of the BIML
+    outcome: discussed
+  - label: '13.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical work
+    outcome: discussed
+  - label: '13.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '13.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Countries and Economies with Emerging Metrology Systems (CEEMS)
+    outcome: discussed
+  - label: '13.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activities with organisations in liaison
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Date and venue of the next Conference
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of Draft Conference Resolutions (Session 2)
+    outcome: adopted
+  - label: '16'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Closing remarks
+    outcome: discussed
 visibility: public
+title:
+- spelling: eng
+  value: 16th International Conference of Legal Metrology

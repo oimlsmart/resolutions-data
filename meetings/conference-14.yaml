@@ -10,27 +10,198 @@ date_range:
   start: '2012-10-03'
   end: '2012-10-04'
 committee: International Conference of Legal Metrology
-general_area: Bucharest, Romania
+general_area:
+- spelling: eng
+  value: Bucharest, Romania
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/14-conf-resolutions-english.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
+  spelling: eng
 - ref: https://www.oiml.org/fr/structure/conference/pdf/14-conf-resolutions-french.pdf
   format: pdf
-  language_code: fra
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 14th OIML Conference — Resolutions (EN)
-  general_area: Bucharest, Romania
-- language_code: fra
-  script: Latn
-  title: 14e Conférence OIML — Résolutions (FR)
-  general_area: Bucharest, Romania
+  spelling: fra
 agenda:
+  identifier:
+  - prefix: OIML Conference
+    number: '14'
   status: final
+  items:
+  - label: a
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Bucharest, Romania
+    outcome: discussed
+  - label: b
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening speeches
+    outcome: discussed
+  - label: c
+    kind: opening
+    title:
+    - spelling: eng
+      value: Roll call
+    outcome: discussed
+  - label: d
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the Conference President and Vice-Presidents
+    outcome: discussed
+  - label: '1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the minutes of the 13th Conference
+    outcome: adopted
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the CIML (2009-2012)
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: The use of French and English
+    outcome: discussed
+  - label: '2.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Dissolution of the position of “Facilitator on developing country matters”
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the BIML (2009-2012)
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organization, management and staff of the BIML
+    outcome: discussed
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Liaisons with other organizations
+    outcome: discussed
+  - label: '3.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical work and management of OIML systems
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the 2009-2012 financial period
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Developments during the reporting period
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Revision of OIML B 8:2004 “OIML Financial regulations”
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Surpluses
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the accounts for 2008, 2009, 2010 and 2011
+    outcome: adopted
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Sanctioning of OIML Recommendations
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Strategy of the OIML - Sanctioning of OIML B 15:2011
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member States' contributory classes and the contributory share for 2013-2016
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget for the 2013-2016 financial period
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member State contribution
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Corresponding Member fee
+    outcome: discussed
+  - label: '9.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Tariffs for services provided by the OIML
+    outcome: discussed
+  - label: '9.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposed budget for the 2013-2016 financial period
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examination of the situation of Member States in arrears
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Interpretation of the OIML Convention
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Date and venue of the next Conference
+    outcome: discussed
 city: ROBUH
 country_code: RO
 visibility: public
@@ -38,3 +209,6 @@ venues:
 - kind: physical
   unlocode: ROBUH
   country_code: RO
+title:
+- spelling: eng
+  value: 14th International Conference of Legal Metrology

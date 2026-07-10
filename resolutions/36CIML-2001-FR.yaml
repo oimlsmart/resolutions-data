@@ -1,17 +1,12 @@
-# yaml-language-server: $schema=https://raw.githubusercontent.com/metanorma/edoxen/refs/heads/main/schema/edoxen.yaml
-# Auto-generated from reference-docs/ocr/md/36CIML-2001-FR.md by scripts/author_yaml.rb
-# Source PDF: reference-docs/ciml/36CIML-2001-FR.pdf
-# Meeting URN: urn:oiml:ciml:meeting:ciml-36
-# Language: fr
 ---
 metadata:
-  title_localized:
-  - language_code: fra
-    title: 36th CIML Meeting — Minutes (FR, Bulletin)
   source: OIML CIML Secretariat (BIML)
   city: RUMOW
   country_code: RU
   meeting_urn: urn:oiml:ciml:meeting:ciml-36
+  title:
+  - spelling: fra
+    value: 36th CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -22,18 +17,22 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: Member States and Corresponding Members'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: M. Athané rappelle aux participants qu'une information complète sur
-        la composition des Membres de l'OIML a été donnée par le Président du CIML
-        dans son allocution d'ouverture.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: Member States and Corresponding Members'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané rappelle aux participants qu'une information complète sur la
+        composition des Membres de l'OIML a été donnée par le Président du CIML dans
+        son allocution d'ouverture.
 - identifier:
   - prefix: CIML
     number: 2001/4
@@ -43,16 +42,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: Member States and Corresponding Members'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: "## a) États Membres ayant reçu des délais supplémentaires pour payer
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: Member States and Corresponding Members'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: "## a) États Membres ayant reçu des délais supplémentaires pour payer
         leurs arriérés"
 - identifier:
   - prefix: CIML
@@ -63,16 +66,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: Financial matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité adopte le rapport comptable pour 2000 et charge son Président
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: Financial matters'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité adopte le rapport comptable pour 2000 et charge son Président
         et le Directeur du BIML de le soumettre à la Douzième Conférence.
 - identifier:
   - prefix: CIML
@@ -83,19 +90,22 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: Financial matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: M. Athané indique que la situation financière de l'Organisation est
-        saine et que les dépenses et recettes 2001 seront très probablement conformes
-        aux décisions de la Onzième Conférence et aux estimations faites à la fin
-        de 2000.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: Financial matters'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Athané indique que la situation financière de l'Organisation est saine
+        et que les dépenses et recettes 2001 seront très probablement conformes aux
+        décisions de la Onzième Conférence et aux estimations faites à la fin de 2000.
 - identifier:
   - prefix: CIML
     number: 2001/7
@@ -105,16 +115,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: The situation at the BIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Un rapport écrit décrivant les activités du BIML d'octobre 2000 à septembre
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: The situation at the BIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Un rapport écrit décrivant les activités du BIML d'octobre 2000 à septembre
         2001 est distribué aux participants. Le Comité prend note de ce rapport et
         demande au Bureau de le publier sous une forme appropriée dans le numéro de
         janvier du Bulletin OIML.
@@ -127,10 +141,12 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
-    subject: "(The CIML)"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/8
@@ -140,18 +156,22 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Un rapport écrit préparé par le BIML est distribué aux participants
-        et est présenté par M. Issaev qui, en tant que Vice-Président du CIML, est
-        chargé de suivre les activités techniques de l'OIML.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Un rapport écrit préparé par le BIML est distribué aux participants et
+        est présenté par M. Issaev qui, en tant que Vice-Président du CIML, est chargé
+        de suivre les activités techniques de l'OIML.
 - identifier:
   - prefix: CIML
     number: 2001/8
@@ -161,16 +181,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
-    subject: "(The CIML)"
-    actions:
-    - type: approves
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité approuve les quatre projets de Recommandations qui avaient
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: approves
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité approuve les quatre projets de Recommandations qui avaient
         été préparés à cet effet avec les résultats de votes indiqués ci-dessous.
 - identifier:
   - prefix: CIML
@@ -181,16 +205,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: M. Magaña indique que le Bureau est en train de développer un certain
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Magaña indique que le Bureau est en train de développer un certain
         nombre d'outils et d'activités liés aux technologies de l'information et aux
         moyens électroniques et les mettre le plus possible en application dans les
         travaux de l'OIML. Cela accélèrera les travaux techniques de l'OIML, facilitera
@@ -207,16 +235,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: M. Kochsiek commence par un rappel de l'établissement du Système onze
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Kochsiek commence par un rappel de l'établissement du Système onze
         ou douze années auparavant, à un moment où certains Membres du CIML n'étaient
         pas en faveur de sa création et mettaient en question son utilité. Après presque
         dix ans de fonctionnement beaucoup de progrès ont été réalisés et de nombreux
@@ -230,16 +262,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Suite à une proposition de M. Kochsiek, le Comité décide que deux Recommandations
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Suite à une proposition de M. Kochsiek, le Comité décide que deux Recommandations
         nouvelle approuvées, à savoir R 16 sur les sphygmomanomètres et R 133 sur
         les thermomètres à liquide en verre deviendront applicables au Système aussitôt
         que publiées.
@@ -252,17 +288,21 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'M. Kochsiek rappelle aux participants que la révision du document
-        sur le Système de Certificats OIML pour les Instruments de Mesure a maintenant
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Kochsiek rappelle aux participants que la révision du document sur
+        le Système de Certificats OIML pour les Instruments de Mesure a maintenant
         atteint un stade bien avancé et sera très probablement approuvée et publiée
         en 2002. Selon ce document la portée du Système va être étendue dans deux
         directions: (i) la certification de types de modules et (ii) la certification
@@ -282,19 +322,23 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 13: Liaisons with international and regional institutions'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'M. Faber fait rapport sur une réunion des RLMO qui a été organisée
-        en liaison avec, mais non comme une partie de la 36ème Réunion du CIML. Le
-        rapport complet de cette réunion des RLMO est annexé au présent Compte Rendu
-        de la 36ème Réunion du CIML. Les conclusions de la réunion des RLMO sont présentées
+  title:
+  - spelling: fra
+    value: 'Agenda Item 13: Liaisons with international and regional institutions'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'M. Faber fait rapport sur une réunion des RLMO qui a été organisée en
+        liaison avec, mais non comme une partie de la 36ème Réunion du CIML. Le rapport
+        complet de cette réunion des RLMO est annexé au présent Compte Rendu de la
+        36ème Réunion du CIML. Les conclusions de la réunion des RLMO sont présentées
         au Comité qui, après quelques changements mineurs, les considère comme une
         base acceptable pour l''élaboration d''un document de politique de I''OIML.
         Les conclusions définitives sont les suivantes:'
@@ -307,16 +351,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 13: Liaisons with international and regional institutions'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: "## a) Convention du Mètre/ILAC/OIML"
+  title:
+  - spelling: fra
+    value: 'Agenda Item 13: Liaisons with international and regional institutions'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: "## a) Convention du Mètre/ILAC/OIML"
 - identifier:
   - prefix: CIML
     number: 2001/15
@@ -326,16 +374,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: Future meetings'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: M. Faber rappelle aux participants qu'à l'occasion de la 35ème réunion,
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: M. Faber rappelle aux participants qu'à l'occasion de la 35ème réunion,
         une invitation avait été reçue d'Israël. Cependant un certain nombre de pays
         ont indiqué qu'en raison de la situation présente ils ne seraient pas en mesure
         de participer à une réunion en Israël en 2002. M. Faber indique que les Autorités
@@ -352,16 +404,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: Future meetings'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité exprime sa gratitude à M. Tanaka pour cette invitation qui
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité exprime sa gratitude à M. Tanaka pour cette invitation qui
         est acceptée en principe, une décision définitive devant être prise lors de
         la 37ème Réunion.
 - identifier:
@@ -373,24 +429,25 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: Future meetings'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note des allocutions d'ouverture de M. Podufalov,
-        Directeur du Département de la Culture, de l'Éducation et de la Science, au
-        nom du Gouvernement de la Fédération de Russie, de M. Voronin, Président du
-        Gosstandart de Russie et de M. Faber, Président du CIML.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'Le Comité a pris note de la demande des États Unis de revoir l''action
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note des allocutions d'ouverture de M. Podufalov, Directeur
+        du Département de la Culture, de l'Éducation et de la Science, au nom du Gouvernement
+        de la Fédération de Russie, de M. Voronin, Président du Gosstandart de Russie
+        et de M. Faber, Président du CIML.
+    - spelling: fra
+      value: 'Le Comité a pris note de la demande des États Unis de revoir l''action
         D.5.7 et a décidé que celle-ci serait examinée en liaison avec le point 13.2
         de l''ordre du jour. De plus, le Comité a approuvé la Résolution suivante:'
 - identifier:
@@ -402,16 +459,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: Member States and Corresponding Members'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations données par son Président et par
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: Member States and Corresponding Members'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations données par son Président et par
         le BIML concernant le nombre actuel de Membres, ainsi que les adhésions futures.
 - identifier:
   - prefix: CIML
@@ -422,32 +483,30 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 4: Member States and Corresponding Members'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a noté avec satisfaction que cet État Membre a payé non seulement
+  title:
+  - spelling: fra
+    value: 'Agenda Item 4: Member States and Corresponding Members'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a noté avec satisfaction que cet État Membre a payé non seulement
         ses cotisations pour 2000 et pour 2001, mais a également commencé à payer
         ses arriérés pour 1996-1999.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a noté qu'une partie seulement de la cotisation pour 2000
-        de cet État Membre a été payée. Le Comité a fixé à ce pays la date limite
-        ultime de 2002.06.30 pour le paiement complet de ses cotisations pour 2000
-        et 2001, et a demandé au BIML de faire rapport sur ce point lors de la 37ème
-        réunion du CIML.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note de la situation de la République Islamique d'Iran,
+    - spelling: fra
+      value: Le Comité a noté qu'une partie seulement de la cotisation pour 2000 de
+        cet État Membre a été payée. Le Comité a fixé à ce pays la date limite ultime
+        de 2002.06.30 pour le paiement complet de ses cotisations pour 2000 et 2001,
+        et a demandé au BIML de faire rapport sur ce point lors de la 37ème réunion
+        du CIML.
+    - spelling: fra
+      value: Le Comité a pris note de la situation de la République Islamique d'Iran,
         de l'Italie et du Kazakhstan en ce qui concerne le paiement de leurs cotisations
         OIML. Le Comité a également noté les informations données par le Bureau concernant
         l'annonce faite par les Autorités italiennes du paiement imminent de la totalité
@@ -464,18 +523,22 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: Financial matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le rapport comptable pour 2000 a été adopté sans commentaires et le
-        Comité a chargé son Président et le Directeur du BIML de le soumettre à la
-        Douzième Conférence.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: Financial matters'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le rapport comptable pour 2000 a été adopté sans commentaires et le Comité
+        a chargé son Président et le Directeur du BIML de le soumettre à la Douzième
+        Conférence.
 - identifier:
   - prefix: CIML
     number: 2001/5
@@ -485,16 +548,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 5: Financial matters'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations fournies par le BIML concernant
+  title:
+  - spelling: fra
+    value: 'Agenda Item 5: Financial matters'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par le BIML concernant
         la situation financière de l'Organisation en 2001 et a considéré que cette
         situation était conforme aux décisions de la Onzième Conférence. Le Comité
         a également noté les informations fournies par le Bureau au sujet de l'année
@@ -503,11 +570,8 @@ decisions:
         organes constituent l'OIML et les prix de revient des produits et des services
         fournis par le BIML, et la nouvelle politique du Bureau en matière de fixation
         des prix et de vente des publications.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par son Président concernant
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par son Président concernant
         les activités du Conseil de la Présidence depuis octobre 2000.
 - identifier:
   - prefix: CIML
@@ -518,32 +582,30 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 7: The situation at the BIML'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'un rapport sur les activités du BIML d'octobre
+  title:
+  - spelling: fra
+    value: 'Agenda Item 7: The situation at the BIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport sur les activités du BIML d'octobre
         2000 à septembre 2001 et a demandé au Bureau de le publier sous un format
         approprié dans le numéro de janvier 2002 du Bulletin OIML.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations fournies par son Vice-Président
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par son Vice-Président
         M. Issaev et par le Bureau au sujet des activités techniques de l'OIML et,
         tout en exprimant sa satisfaction pour le travail accompli, a demandé aux
         TC/SC OIML d'accélérer leur travail dans les domaines indiqués comme projets
         de haute priorité et prioritaires selon le document approuvé à ce sujet.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'Le Comité a également noté:'
+    - spelling: fra
+      value: 'Le Comité a également noté:'
 - identifier:
   - prefix: CIML
     number: 2001/8
@@ -553,16 +615,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'Le Comité a approuvé les projets de Recommandations suivants:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a approuvé les projets de Recommandations suivants:'
 - identifier:
   - prefix: CIML
     number: 2001/8
@@ -572,16 +638,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 8: Technical activities'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations fournies par le BIML concernant
+  title:
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par le BIML concernant
         l'utilisation du courrier électronique et d'Internet dans le développement
         du travail technique de l'OIML et des remarques faites par certains Membres
         (communication utilisant soit le papier soit le courrier électronique; utilisation
@@ -600,16 +670,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations communiquées par son Vice-Président
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations communiquées par son Vice-Président
         M. Kochsiek et par le Bureau concernant la situation actuelle du Système de
         Certificats OIML et a exprimé sa satisfaction au sujet de cette situation.
 - identifier:
@@ -621,17 +695,21 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'Le Comité a décidé que les Recommandations suivantes deviendraient
-        applicables au Système dès leur publication:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a décidé que les Recommandations suivantes deviendraient applicables
+        au Système dès leur publication:'
 - identifier:
   - prefix: CIML
     number: 2001/9
@@ -641,16 +719,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations concernant la révision actuelle
+  title:
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'informations concernant la révision actuelle
         du document décrivant les règles de fonctionnement du Système et a conseillé
         vivement au TC 3/SC 5, sous la responsabilité commune des USA et du Bureau,
         de terminer cette révision d'urgence. Le Comité a noté que certaines questions
@@ -662,33 +744,24 @@ decisions:
         des Membres du CIML) étaient étroitement liés aux modes de fonctionnement
         du futur MAA (voir point 10 ci-après) et a demandé au TC 3/SC 5 d'eliminer
         les éventuelles divergences entre les deux documents.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations fournies par M. Ehrlich, États
-        Unis, et des remarques formulées par un certain nombre de Membres. Le Comité
-        a exprimé son appréciation pour les améliorations considérables introduites
-        dans le 8ème projet de comité. Il a aussi souligné l'urgence d'établir le
-        cadre dans lequel vont être mis en place les arrangements d'acceptation mutuelle
-        et a demandé au Secrétariat du TC 3/SC 5 de faire son maximum pour terminer
-        le travail en tenant compte à la fois des commentaires formulés durant la
-        réunion du CIML et de ceux envoyés par les membres du TC 3/SC 5 dans le cadre
-        de la consultation postale actuelle qui prend fin le 15 novembre 2001.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'informations fournies par M. Ehrlich, États
-        Unis, concernant le développement d'un document sur l'établissement d'une
-        marque IQ OIML, qui est maintenant distincte de la révision de la R 87. Le
-        Comité a également pris note des remarques formulées par certains Membres
-        et a encouragé le TC 6 à poursuivre activement son travail.
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par Mme Annabi, Présidente
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par M. Ehrlich, États Unis,
+        et des remarques formulées par un certain nombre de Membres. Le Comité a exprimé
+        son appréciation pour les améliorations considérables introduites dans le
+        8ème projet de comité. Il a aussi souligné l'urgence d'établir le cadre dans
+        lequel vont être mis en place les arrangements d'acceptation mutuelle et a
+        demandé au Secrétariat du TC 3/SC 5 de faire son maximum pour terminer le
+        travail en tenant compte à la fois des commentaires formulés durant la réunion
+        du CIML et de ceux envoyés par les membres du TC 3/SC 5 dans le cadre de la
+        consultation postale actuelle qui prend fin le 15 novembre 2001.
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par M. Ehrlich, États Unis,
+        concernant le développement d'un document sur l'établissement d'une marque
+        IQ OIML, qui est maintenant distincte de la révision de la R 87. Le Comité
+        a également pris note des remarques formulées par certains Membres et a encouragé
+        le TC 6 à poursuivre activement son travail.
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par Mme Annabi, Présidente
         du Conseil de Développement, concernant la réunion du 24 septembre 2001.
 - identifier:
   - prefix: CIML
@@ -699,16 +772,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 13: Liaisons with international and regional institutions'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note d'un rapport présenté par son Président concernant
+  title:
+  - spelling: fra
+    value: 'Agenda Item 13: Liaisons with international and regional institutions'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note d'un rapport présenté par son Président concernant
         la réunion du 25 septembre 2001 et des commentaires émis par certains Membres.
         Le Comité a noté avec intérêt qu'un document de politique générale serait
         prochainement élaboré par le Conseil de la Présidence et le Bureau concernant
@@ -722,16 +799,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 13: Liaisons with international and regional institutions'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: 'Le Comité a pris note:'
+  title:
+  - spelling: fra
+    value: 'Agenda Item 13: Liaisons with international and regional institutions'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Le Comité a pris note:'
 - identifier:
   - prefix: CIML
     number: 2001/15
@@ -741,18 +822,22 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: Future meetings'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a décidé de tenir sa 37ème réunion en France entre la fin
-        du mois de septembre et le début du mois d'octobre 2002, organisée par le
-        Bureau sous la supervision du Président du CIML et de son Conseil.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a décidé de tenir sa 37ème réunion en France entre la fin du
+        mois de septembre et le début du mois d'octobre 2002, organisée par le Bureau
+        sous la supervision du Président du CIML et de son Conseil.
 - identifier:
   - prefix: CIML
     number: 2001/15
@@ -762,16 +847,20 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: Future meetings'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a accepté en principe la proposition faite par le Japon de
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a accepté en principe la proposition faite par le Japon de
         tenir la 38ème réunion du CIML à Kyoto en 2003. Une décision définitive sera
         prise au cours de la 37ème réunion du CIML en France.
 - identifier:
@@ -783,15 +872,19 @@ decisions:
   dates:
   - date: '2001-09-25'
     type: decided
-  localizations:
-  - language_code: fra
-    title: 'Agenda Item 15: Future meetings'
-    subject: "(The CIML)"
-    actions:
-    - type: notes
-      date_effective:
-        date: '2001-09-25'
-        type: effective
-      message: Le Comité a pris note des invitations d'Israël (première option) et
-        de l'Allemagne (deuxième option) pour la tenue de la Douzième Conférence et
-        de la 39ème réunion du CIML en 2004.
+  title:
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
+  actions:
+  - type: notes
+    date_effective:
+      date: '2001-09-25'
+      type: effective
+    message:
+    - spelling: fra
+      value: Le Comité a pris note des invitations d'Israël (première option) et de
+        l'Allemagne (deuxième option) pour la tenue de la Douzième Conférence et de
+        la 39ème réunion du CIML en 2004.

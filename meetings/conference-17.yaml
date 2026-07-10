@@ -10,19 +10,158 @@ date_range:
   start: '2025-10-14'
   end: '2025-10-14'
 committee: International Conference of Legal Metrology
-general_area: Paris, France
+general_area:
+- spelling: eng
+  value: Paris, France
 source_urls:
 - ref: https://www.oiml.org/en/structure/conference/pdf/17conference_resolutions.pdf
   format: pdf
-  language_code: eng
   kind: decisions_pdf
-localizations:
-- language_code: eng
-  script: Latn
-  title: 17th OIML Conference — Resolutions (EN)
-  general_area: Paris, France
+  spelling: eng
 agenda:
+  identifier:
+  - prefix: OIML Conference
+    number: '17'
   status: final
+  items:
+  - label: '1'
+    kind: opening
+    title:
+    - spelling: eng
+      value: Opening remarks and roll call
+    outcome: discussed
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption of the agenda
+    outcome: adopted
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Election of the Conference President and Vice-Presidents
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Minutes of the 16th Conference
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report by the CIML President for the period 2022–2025
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the 2022–2025 financial period
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Overview of Members in arrears and actions taken
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Approval of the accounts for 2021, 2022, 2023, and 2024
+    outcome: adopted
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget for the 2026–2029 financial period
+    outcome: discussed
+  - label: '9.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Member State and Corresponding Member classes and fees
+    outcome: discussed
+  - label: '9.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Proposed budget for the 2026–2029 financial period
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Sanctioning of OIML publications
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Report on the work of the OIML for the period 2022–2025
+    outcome: discussed
+  - label: '11.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Organization, management and staff of the BIML
+    outcome: discussed
+  - label: '11.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Technical work
+    outcome: discussed
+  - label: '11.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: OIML Certification System (OIML-CS)
+    outcome: discussed
+  - label: '11.4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Countries and Economies with Emerging Metrology Systems (CEEMS)
+    outcome: discussed
+  - label: '11.5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Digitalization Task Group (DTG)
+    outcome: discussed
+  - label: '11.6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Activities with organizations in liaison
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Date and venue of the 18th Conference
+    outcome: discussed
+  - label: '13'
+    kind: aob
+    title:
+    - spelling: eng
+      value: Any other business
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Review and approval of Draft Conference Resolutions
+    outcome: adopted
+  - label: '15'
+    kind: closing
+    title:
+    - spelling: eng
+      value: Closing remarks
+    outcome: discussed
 city: FRPAR
 country_code: FR
 visibility: public
@@ -30,3 +169,6 @@ venues:
 - kind: physical
   unlocode: FRPAR
   country_code: FR
+title:
+- spelling: eng
+  value: 17th International Conference of Legal Metrology

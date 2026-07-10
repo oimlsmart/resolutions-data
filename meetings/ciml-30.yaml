@@ -10,23 +10,240 @@ date_range:
   start: '1995-10-25'
   end: '1995-10-27'
 committee: International Committee of Legal Metrology (CIML)
-general_area: Beijing, China
+general_area:
+- spelling: eng
+  value: Beijing, China
 source_urls: []
-localizations:
-- language_code: fra
-  script: Latn
-  title: 30th CIML Meeting — Minutes (FR, Bulletin)
-  general_area: Beijing, China
 agenda:
+  identifier:
+  - prefix: CIML
+    number: '30'
   status: final
+  items:
+  - label: '2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: ÉTATS MEMBRES ET MEMBRES CORRESPONDANTS
+    outcome: discussed
+  - label: '2.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouveaux Membres - Perspectives d'adhésions
+    outcome: discussed
+  - label: '2.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de certains membres
+    outcome: discussed
+  - label: '2.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Situation de l'Iran
+    outcome: discussed
+  - label: '3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: QUESTIONS FINANCIÈRES
+    outcome: discussed
+  - label: '3.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Adoption du rapport comptable pour 1994
+    outcome: adopted
+  - label: '3.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation financiere pour 1995
+    outcome: discussed
+  - label: '4'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PERSONNEL DU BUREAU
+    outcome: discussed
+  - label: '4.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Contrat de M. Athané, Directeur
+    outcome: discussed
+  - label: '4.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Contrat de M. Vichenkov, Adjoint au Directeur
+    outcome: discussed
+  - label: '4.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Indexation des salaires sur l'inflation
+    outcome: discussed
+  - label: '5'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: COMITÉS TECHNIQUES ET SOUS-COMITÉS
+    outcome: discussed
+  - label: '5.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Examen de la situation de certains TC/SC
+    outcome: discussed
+  - label: '5.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Amendement aux Directives pour les travaux techniques
+    outcome: discussed
+  - label: '6'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: APPROBATION DE RECOMMANDATIONS INTERNATIONALES ET D'ANNEXES A CERTAINES
+        RECOMMANDATIONS
+    outcome: discussed
+  - label: '7'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: CERTIFICATION
+    outcome: discussed
+  - label: '7.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur le TAG $ _{cert} $
+    outcome: discussed
+  - label: '7.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Nouvelles Recommandations pouvant être appliquées dans le cadre du Système
+        de Certificats OIML
+    outcome: discussed
+  - label: '8'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DOCUMENT DE POLITIQUE A LONG TERME ET BROCHURE D'INFORMATION GÉNÉRALE
+    outcome: discussed
+  - label: '8.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport de publication
+    outcome: discussed
+  - label: '8.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Commentaires
+    outcome: discussed
+  - label: '9'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: LIAISONS AVEC D'AUTRES ORGANISATIONS AUX NIVEAUX INTERNATIONAL ET RÉGIONAL
+    outcome: discussed
+  - label: '10'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PAYS EN DÉVELOPEMENT
+    outcome: discussed
+  - label: '10.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur le Symposium Activités métrologiques dans les pays en développement,
+        23-24 octobre 1995
+    outcome: discussed
+  - label: '10.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Rapport sur la réunion du Conseil de Développement du 25 octobre
+    outcome: discussed
+  - label: '10.3'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Discussions et décisions
+    outcome: discussed
+  - label: '11'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RAPPORT SUR LES ACTIVITÉS DU BIML (octobre 1994 - septembre 1995)
+    outcome: discussed
+  - label: '12'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: RAPPORT CONCERNANT LE SÉMINAIRE OIML, LE PESAGE A L'APPROCHE DE L'AN
+        2000, 13-15 septembre 1995
+    outcome: discussed
+  - label: '13'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: LOGO OIML
+    outcome: discussed
+  - label: '14'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PRÉPARATIFS DE LA DIXIÈME CONFÉRENCE INTERNATIONALE DE MÉTROLOGIE LÉGALE
+    outcome: discussed
+  - label: '14.1'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Généralités
+    outcome: discussed
+  - label: '14.2'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: Budget 1997-2000
+    outcome: discussed
+  - label: '15'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: PROCHAINES RÉUNIONS
+    outcome: discussed
+  - label: '16'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: AUTRES QUESTIONS
+    outcome: discussed
+  - label: '17'
+    kind: numbered
+    title:
+    - spelling: eng
+      value: DÉCISIONS ET RÉSOLUTIONS
+    outcome: discussed
 country_code: CN
 city: CNBJS
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-30-fra
-  language_code: fra
-  script: Latn
+  spelling: fra-Latn
 visibility: public
 venues:
 - kind: physical
   unlocode: CNBJS
   country_code: CN
+title:
+- spelling: eng
+  value: 30th International Committee of Legal Metrology (CIML)
