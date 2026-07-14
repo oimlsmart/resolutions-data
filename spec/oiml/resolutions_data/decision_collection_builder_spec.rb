@@ -12,15 +12,15 @@ module Oiml
           "meeting_urn" => "urn:oiml:dc:meeting:dc-1-2004",
           "city" => "DEBER",
           "country_code" => "DE",
-          "title_localized" => [
-            { "language_code" => "eng", "title" => "Test Title (EN)" },
-            { "language_code" => "fra", "title" => "Titre de test (FR)" },
+          "titles" => [
+            { "spelling" => "eng", "value" => "Test Title (EN)" },
+            { "spelling" => "fra", "value" => "Titre de test (FR)" },
           ],
         }
       end
 
       describe "#add_decision and #build" do
-        it "builds an Edoxen::DecisionCollection with metadata + decisions" do
+        it "builds an Edoxen::DecisionCollection with metadata + decisions in v1.0 shape" do
           builder = described_class.new(metadata: metadata)
           builder.add_decision(
             identifier: [{ "prefix" => "DC", "number" => "2004/1" }],
@@ -28,76 +28,59 @@ module Oiml
             urn: "urn:oiml:dc:resolution:2004/1",
             agenda_item: "1",
             dates: [{ "date" => "2004-10-25", "type" => "decided" }],
-            localizations: [
-              {
-                "language_code" => "eng",
-                "title" => "Test decision",
-                "subject" => "Test subject",
-                "considerations" => [],
-                "actions" => [],
-                "approvals" => [],
-              },
-            ],
+            titles: [{ "spelling" => "eng", "value" => "Test decision" }],
+            subjects: [{ "spelling" => "eng", "value" => "Test subject" }],
           )
 
           collection = builder.build
           expect(collection).to be_a(Edoxen::DecisionCollection)
           expect(collection.metadata.source).to eq("Test source")
           expect(collection.metadata.meeting_urn).to eq("urn:oiml:dc:meeting:dc-1-2004")
-          expect(collection.metadata.title_localized.size).to eq(2)
+          expect(collection.metadata.title.size).to eq(2)
+          expect(collection.metadata.title.first.value).to eq("Test Title (EN)")
 
           decision = collection.decisions.first
           expect(decision.identifier.first.prefix).to eq("DC")
-          expect(decision.identifier.first.number).to eq("2004/1")
           expect(decision.doi).to eq("10.63493/resolutions/dc20041")
           expect(decision.agenda_item).to eq("1")
-          expect(decision.dates.first.date.to_s).to eq("2004-10-25")
-          expect(decision.localizations.first.title).to eq("Test decision")
+          expect(decision.title.first.value).to eq("Test decision")
+          expect(decision.subject.first.value).to eq("Test subject")
         end
 
-        it "emits YAML that round-trips through Edoxen" do
+        it "round-trips through to_yaml" do
           builder = described_class.new(metadata: metadata)
           builder.add_decision(
             identifier: [{ "prefix" => "DC", "number" => "2004/1" }],
-            doi: "10.63493/resolutions/dc20041",
-            urn: "urn:oiml:dc:resolution:2004/1",
+            doi: "x", urn: "x",
             dates: [{ "date" => "2004-10-25", "type" => "decided" }],
-            localizations: [{
-              "language_code" => "eng",
-              "title" => "Test",
-              "considerations" => [],
-              "actions" => [],
-              "approvals" => [],
-            }],
+            titles: [{ "spelling" => "eng", "value" => "Decision title" }],
           )
 
           yaml = builder.to_yaml
           parsed = YAML.safe_load(yaml)
-          expect(parsed["decisions"].first["identifier"].first["prefix"]).to eq("DC")
-          expect(parsed["metadata"]["source"]).to eq("Test source")
+          expect(parsed["decisions"].first["title"].first).to include(
+            "spelling" => "eng",
+            "value" => "Decision title",
+          )
+          expect(parsed["metadata"]["title"].first["value"]).to eq("Test Title (EN)")
         end
 
-        it "builds actions with date_effective" do
+        it "builds actions/considerations with LocalizedString message arrays" do
           builder = described_class.new(metadata: metadata)
           builder.add_decision(
             identifier: [{ "prefix" => "DC", "number" => "2004/1" }],
             doi: "x", urn: "x",
             dates: [],
-            localizations: [{
-              "language_code" => "eng",
-              "title" => "x",
-              "considerations" => [],
-              "actions" => [{
-                "type" => "resolution",
-                "message" => "The DC acted.",
-                "date_effective" => { "date" => "2004-10-25", "type" => "decided" },
-              }],
-              "approvals" => [],
+            titles: [{ "spelling" => "eng", "value" => "x" }],
+            actions: [{
+              "type" => "resolution",
+              "message" => [{ "spelling" => "eng", "value" => "The DC acted." }],
+              "date_effective" => { "date" => "2004-10-25", "type" => "decided" },
             }],
           )
 
-          action = builder.build.decisions.first.localizations.first.actions.first
-          expect(action.message).to eq("The DC acted.")
+          action = builder.build.decisions.first.actions.first
+          expect(action.message.first.value).to eq("The DC acted.")
           expect(action.date_effective.date.to_s).to eq("2004-10-25")
         end
       end

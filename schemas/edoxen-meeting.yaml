@@ -538,3 +538,13 @@ $defs:
     type: string
     description: "Edoxen::Enums::CONTACT_METHOD_KIND."
     enum: [phone, mobile, fax, email, url, mail, pager, message, other]
+
+  StatementKind:
+    type: string
+    description: "Edoxen::Enums::STATEMENT_KIND."
+    enum: [statement, comment, standpoint]
+
+  DeclarationKind:
+    type: string
+    description: "Edoxen::Enums::DECLARATION_KIND."
+    enum: [conflict_of_interest, ipr]

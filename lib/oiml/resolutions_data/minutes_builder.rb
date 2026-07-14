@@ -2,29 +2,25 @@
 
 module Oiml
   module ResolutionsData
-    # Build an `Edoxen::Minutes` instance from extracted sections.
+    # Build an `Edoxen::Minutes` instance (v1.0 per-field shape).
     #
-    # Wraps the Edoxen::Minutes model so callers don't couple to it
-    # directly. Mirrors the AgendaBuilder / DecisionCollectionBuilder
-    # pattern.
+    # In v1.0:
+    #   - Minutes carries a single `spelling` (language+script) for the
+    #     whole document; no `language_code` / `script` field.
+    #   - MinutesSection.title and .narrative are LocalizedString[]
+    #     (one entry per language variant). For single-language minutes
+    #     we emit a single LocalizedString with the parent spelling.
     class MinutesBuilder
-      attr_reader :identifier, :urn, :language_code, :sections, :source_doc
+      attr_reader :identifier, :urn, :spelling, :sections, :source_doc
 
-      # identifier   — Array<Edoxen::StructuredIdentifier>
-      # urn          — full URN string
-      # language_code — "eng" / "fra" / ...
-      def initialize(identifier:, urn:, language_code:, source_doc: nil)
+      def initialize(identifier:, urn:, spelling:, source_doc: nil)
         @identifier = identifier
         @urn = urn
-        @language_code = language_code
+        @spelling = spelling
         @source_doc = source_doc
         @sections = []
       end
 
-      # Append a minutes section.
-      #   number   — agenda-item label ("1", "14.2", "IV e")
-      #   title    — section heading text
-      #   narrative — markdown body
       def add_section(number:, title:, narrative:)
         sections << {
           "number" => number.to_s,
@@ -39,8 +35,7 @@ module Oiml
         Edoxen::Minutes.new(
           identifier: identifier,
           urn: urn,
-          language_code: language_code,
-          script: "Latn",
+          spelling: spelling,
           source_doc: source_doc,
           sections: sections.map { |h| build_section(h) },
         )
@@ -56,8 +51,8 @@ module Oiml
         require "edoxen"
         Edoxen::MinutesSection.new(
           number: hash["number"],
-          title: hash["title"],
-          narrative: hash["narrative"],
+          title: [Edoxen::LocalizedString.new(spelling: spelling, value: hash["title"])],
+          narrative: [Edoxen::LocalizedString.new(spelling: spelling, value: hash["narrative"])],
         )
       end
     end

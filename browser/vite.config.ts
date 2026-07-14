@@ -32,7 +32,7 @@ function getPageData(route: string) {
 
 export default defineConfig({
   plugins: [vue(), yaml()],
-  base: '/resolutions-data/',
+  base: '/resolutions/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

@@ -106,10 +106,6 @@ packages:
     resolution: {integrity: sha512-41SDMi7iRRBViPe0L6VWFTe55bv6HEOJeRqMj5+E5wB1YPdUPuTucL4UAESPZM6OWmn4t/5qM5LusXomFUVwVQ==}
     engines: {node: '>=16', npm: '>=8'}
 
-  '@asciidoctor/core@4.0.2':
-    resolution: {integrity: sha512-Gucc/zEdsrWlwOr3mFLKecWRNTOtB62Z0Fm1KU5GphVlvvmIukqN2SFf1qJE1MSrXGHdlZnrvz4BDkekp9JUbQ==}
-    engines: {node: '>=20'}
-
   '@asciidoctor/opal-runtime@3.0.1':
     resolution: {integrity: sha512-iW7ACahOG0zZft4A/4CqDcc7JX+fWRNjV5tFAVkNCzwZD+EnFolPaUOPYt8jzadc0+Bgd80cQTtRMQnaaV1kkg==}
     engines: {node: '>=16'}
@@ -2252,8 +2248,6 @@ snapshots:
       '@asciidoctor/opal-runtime': 3.0.1
       unxhr: 1.2.0
 
-  '@asciidoctor/core@4.0.2': {}
-
   '@asciidoctor/opal-runtime@3.0.1':
     dependencies:
       glob: 8.1.0
@@ -2321,7 +2315,7 @@ snapshots:
 
   '@edoxen/edoxen@file:../../../edoxen/edoxen-js/packages/edoxen(flexsearch@0.7.43)(js-yaml@4.3.0)':
     dependencies:
-      '@asciidoctor/core': 4.0.2
+      '@asciidoctor/core': 3.0.4
       esbuild: 0.28.1
       js-yaml: 4.3.0
     optionalDependencies:

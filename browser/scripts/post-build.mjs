@@ -122,12 +122,12 @@ if (redirectCount > 0) {
 // the URL to /<lang>/...
 //
 // IMPORTANT: the redirect target must include the Vite base path
-// (/resolutions-data/) because these stubs are served from GitHub
+// (/resolutions/) because these stubs are served from GitHub
 // Pages under that sub-path, not from the domain root. Using bare
 // absolute paths like /en/about would redirect to
 // https://www.oimlsmart.org/en/about instead of
-// https://www.oimlsmart.org/resolutions-data/en/about.
-const BASE_PATH = '/resolutions-data';
+// https://www.oimlsmart.org/resolutions/en/about.
+const BASE_PATH = '/resolutions';
 function emitLangRedirect(dir, targetPath) {
   fs.mkdirSync(dir, { recursive: true })
   const base = BASE_PATH;

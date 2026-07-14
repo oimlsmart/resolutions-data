@@ -18,7 +18,7 @@ module ResolutionsData
 
   module Fetch
     RETRIES    = 3
-    USER_AGENT = "oiml-resolutions-data/1.0 (+archive)"
+    USER_AGENT = "oiml-resolutions/1.0 (+archive)"
 
     def self.run
       sources = YAML.load_file(MANIFEST)["sources"]

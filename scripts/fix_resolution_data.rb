@@ -1,25 +1,23 @@
+#!/usr/bin/env ruby
 # frozen_string_literal: true
 
-# Three related fixes across all resolutions/*.yaml:
+# Three related fixes applied directly to v1.0 Edoxen::DecisionCollection
+# model instances (no raw Hash manipulation):
 #
-# 1. Set `agenda_item: '<label>'` on every decision that doesn't
-#    already carry one. The label is derived from the trailing
-#    segment of the identifier number (e.g. "CIML/2025/14.2" → "14.2",
-#    "Conference/2004/9" → "9"). Acclamations are skipped.
+# 1. Set `agenda_item` on every Decision that doesn't carry one,
+#    derived from the trailing segment of the identifier number
+#    (e.g. "CIML/2025/14.2" → "14.2"). Acclamations skipped.
 #
-# 2. Remove `subject: CIML` from Conference/2004/* localizations (it
-#    was a parser mis-default). Also remove subject when it matches
-#    the meeting body name verbatim (subject should be a real topic,
-#    not a body echo).
+# 2. Strip a `subject` LocalizedString whose value merely echoes the
+#    meeting body name ("CIML", "Conference", "Development Council").
 #
-# 3. Rewrite titles in the form "Agenda Item <N>: <agenda_item_title>"
-#    by cross-referencing the decision's agenda_item with the meeting's
-#    agenda YAML. Skips:
-#      - decisions with no agenda_item (acclamations)
-#      - decisions whose agenda_item is not in the meeting agenda
-#      - titles that already start with "Agenda Item"
+# 3. Rewrite title LocalizedStrings from "<X>" or "Agenda item <X>"
+#    to "Agenda Item <X>: <agenda_item_title>" by cross-referencing
+#    the meeting's Agenda YAML.
 #
-# Idempotent: re-running after a successful pass produces zero changes.
+# Idempotent: re-running after a successful pass produces no further
+# changes. Set FIX_RESOLUTION_DATA_ROOT to override the repo root
+# (used by specs).
 
 require "yaml"
 $LOAD_PATH.unshift(File.expand_path("../lib", __dir__))
@@ -27,17 +25,11 @@ require "oiml/resolutions_data"
 
 module ResolutionsData
   module FixResolutionData
-    # Regex used to detect an already-formatted title (idempotency).
-    # The placeholder "Agenda item N" (no agenda-title suffix) is NOT
-    # considered formatted — we want to expand it to "Agenda Item N: <title>".
     ALREADY_FORMATTED_RE = /\AAgenda [Ii]tem\s[\d.]+:\s+\S/.freeze
 
     class << self
-      # Allow tests to override the root directory via FIX_RESOLUTION_DATA_ROOT
-      # environment variable. Production usage leaves this unset → defaults
-      # to the parent of scripts/.
       def root_dir
-        ENV["FIX_RESOLUTION_DATA_ROOT"] || File.expand_path("..", __dir__)
+        ENV["FIX_RESOLUTION_DATA_ROOT"] || File.expand_path("../..", __dir__)
       end
 
       def resolutions_dir
@@ -49,6 +41,7 @@ module ResolutionsData
       end
 
       def run
+        require "edoxen"
         changed_files = 0
         each_resolution_yaml do |path|
           changed = process_file(path)
@@ -58,30 +51,33 @@ module ResolutionsData
       end
 
       def process_file(path)
+        require "edoxen"
         raw = File.read(path)
         segments = raw.split(/^---\s*$/, 3)
         return false if segments.size < 2
 
         preamble = segments[0].to_s
-        data = YAML.safe_load(segments[1], permitted_classes: [Date, Time, DateTime]) || {}
-        meeting_slug = meeting_slug_from_metadata(data["metadata"])
-
+        collection = Edoxen::DecisionCollection.from_yaml(segments[1])
+        meeting_slug = meeting_slug_from_metadata(collection.metadata)
         agendas_by_label = load_agenda_titles(meeting_slug)
-        return false if agendas_by_label.nil? && data["metadata"].is_a?(Hash) && data["metadata"]["meeting_urn"]
+        body = body_from_source(collection.metadata&.source)
 
         changed = false
-        body = data["metadata"] && data["metadata"]["source"] ? body_from_source(data["metadata"]["source"]) : nil
-
-        (data["decisions"] || []).each do |decision|
+        collection.decisions.each do |decision|
           changed |= fix_decision(decision, agendas_by_label || {}, body)
         end
-
         return false unless changed
 
-        out = preamble + "---\n" + YAML.dump(data).sub(/\A---\s*\n/, "")
-        File.write(path, out)
+        # Preserve the preamble comments (schema URL, provenance, etc.)
+        # and write the mutated collection back.
+        File.write(path, preamble + "---\n" + collection.to_yaml.sub(/\A---\s*\n/, ""))
         true
+      rescue => e
+        warn "  FAIL #{File.basename(path)}: #{e.class}: #{e.message[0, 100]}"
+        false
       end
+
+      # ---- helpers ----
 
       def load_agenda_titles(meeting_slug)
         return nil unless meeting_slug
@@ -90,91 +86,102 @@ module ResolutionsData
 
         data = YAML.safe_load(File.read(path))
         titles = {}
-        (data && data["items"] || []).each do |item|
+        items = data && (data["items"] || (data["agenda"] && data["agenda"]["items"]))
+        items&.each do |item|
           label = item["label"].to_s
-          title = item["title"].to_s.strip
+          title = extract_agenda_item_title(item)
           next if label.empty? || title.empty?
           titles[label] = title
         end
         titles
       end
 
-      def each_resolution_yaml
-        Dir.glob(File.join(resolutions_dir, "*.yaml")).sort.each do |path|
-          next if File.basename(path).start_with?("_")
-          yield path
-        end
+      # Agenda items in v1.0 carry `title: [{spelling, value}]`. Older
+      # agendas might still have a plain string. Accept both.
+      def extract_agenda_item_title(item)
+        t = item["title"]
+        return "" unless t
+        return t.to_s if t.is_a?(String)
+        return t.first["value"].to_s if t.is_a?(Array) && t.first.is_a?(Hash)
+        ""
       end
 
       def meeting_slug_from_metadata(metadata)
-        return nil unless metadata.is_a?(Hash)
-        urn = metadata["meeting_urn"].to_s
-        return nil if urn.empty?
-        m = urn.match(/:meeting:([-\w]+)\z/)
+        return nil unless metadata&.meeting_urn
+        m = metadata.meeting_urn.match(/:meeting:([-\w]+)\z/)
         m ? m[1] : nil
       end
 
       def body_from_source(source)
-        s = String(source).downcase
+        s = String(source || "").downcase
         return "conference" if s.include?("conference")
         return "dc" if s.include?("development council")
         "ciml"
       end
 
       def fix_decision(decision, agenda_titles, body)
+        require "edoxen"
         changed = false
-        agenda_item = derive_agenda_item(decision)
-        if agenda_item && decision["agenda_item"].nil?
-          decision["agenda_item"] = agenda_item
-          changed = true
-        elsif decision["agenda_item"].nil?
-          agenda_item = nil
-        else
-          agenda_item = decision["agenda_item"]
+
+        # 1. agenda_item
+        if decision.agenda_item.nil? || decision.agenda_item.to_s.empty?
+          derived = derive_agenda_item(decision)
+          if derived
+            decision.agenda_item = derived
+            changed = true
+          end
+        end
+        agenda_item = decision.agenda_item&.to_s
+
+        # 2. subject echo strip
+        if decision.subject&.any?
+          original = decision.subject.dup
+          decision.subject = decision.subject.reject { |ls| subject_echoes_body?(ls.value, body) }
+          if decision.subject.size != original.size
+            decision.subject = [] if decision.subject.empty?
+            changed = true
+          end
         end
 
-        (decision["localizations"] || []).each do |loc|
-          changed |= fix_localization(loc, agenda_item, agenda_titles, body)
-        end
+        # 3. title rewrite
+        return changed unless agenda_item && decision.title&.any?
 
+        decision.title.each do |ls|
+          next if formatted?(ls.value)
+          agenda_title = lookup_agenda_title(agenda_item, agenda_titles)
+          next unless agenda_title
+          old = ls.value
+          ls.value = "Agenda Item #{agenda_item}: #{agenda_title}"
+          changed = true if ls.value != old
+        end
         changed
       end
 
       def derive_agenda_item(decision)
-        idents = decision["identifier"] || []
-        idents.each do |ident|
-          next unless ident.is_a?(Hash)
-          parsed = Oiml::ResolutionsData::IdentifierParser.parse("#{ident['prefix']}/#{ident['number']}")
+        decision.identifier.each do |ident|
+          parsed = Oiml::ResolutionsData::IdentifierParser.parse("#{ident.prefix}/#{ident.number}")
           next unless parsed
           return parsed.agenda_label
         end
         nil
       end
 
-      def fix_localization(loc, agenda_item, agenda_titles, body)
-        changed = false
-
-        if (subject = loc["subject"])
-          if subject == "CIML" || subject_matches_body?(subject, body)
-            loc.delete("subject")
-            changed = true
-          end
-        end
-
-        title = loc["title"].to_s
-        return changed if title.empty?
-        return changed if title =~ ALREADY_FORMATTED_RE
-
-        agenda_title = agenda_item ? lookup_agenda_title(agenda_item, agenda_titles) : nil
-        return changed unless agenda_title
-
-        loc["title"] = "Agenda Item #{agenda_item}: #{agenda_title}"
-        true | changed
+      def formatted?(value)
+        value.to_s =~ ALREADY_FORMATTED_RE
       end
 
-      # Look up an agenda title by exact label, walking the parent
-      # hierarchy on miss (e.g. "14.2" → "14"). This matches the
-      # ResolutionDetail.vue deeplink fallback behaviour.
+      def subject_echoes_body?(value, body)
+        # Always strip the legacy "CIML" subject — it was a parser
+        # mis-default that leaked into Conference/DC decisions.
+        return true if value.to_s == "CIML"
+        return false unless body
+        case body
+        when "conference" then value.to_s == "Conference"
+        when "dc" then value.to_s == "Development Council"
+        else false
+        end
+      end
+
       def lookup_agenda_title(label, agenda_titles)
         return nil unless label
         l = label.to_s
@@ -185,16 +192,6 @@ module ResolutionsData
           l = l[0...idx]
         end
         agenda_titles[label.to_s]
-      end
-
-      def subject_matches_body?(subject, body)
-        return false unless body
-        case body
-        when "conference" then subject.to_s == "Conference"
-        when "dc" then subject.to_s == "Development Council"
-        when "ciml" then subject.to_s == "CIML"
-        else false
-        end
       end
 
       def each_resolution_yaml
