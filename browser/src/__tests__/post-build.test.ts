@@ -4,8 +4,8 @@ import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 // Test that the post-build script generates redirect HTML stubs with the
-// correct Vite base path (/resolutions-data/) prepended. This is a
-// regression test for the bug where visiting /resolutions-data/ redirected
+// correct Vite base path (/resolutions/) prepended. This is a
+// regression test for the bug where visiting /resolutions/ redirected
 // to /en/ (a 404) because the base path was missing from the redirect URLs.
 
 const __filename = fileURLToPath(import.meta.url)
@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename)
 // the generated HTML files directly after running a minimal build.
 
 const TEMP_DIST = path.resolve(__dirname, '../../dist-test')
-const BASE_PATH = '/resolutions-data'
+const BASE_PATH = '/resolutions'
 
 describe('post-build redirect stubs', () => {
   beforeEach(() => {
@@ -94,7 +94,7 @@ describe('post-build redirect stubs', () => {
   it('redirect target never uses bare /en/ without base', () => {
     // This is the regression test for the site-outage bug: the old
     // redirect stubs used bare /en/ paths, causing visitors to
-    // https://www.oimlsmart.org/resolutions-data/ to be sent to
+    // https://www.oimlsmart.org/resolutions/ to be sent to
     // https://www.oimlsmart.org/en/ (a 404).
     for (const target of ['/', '/about', '/meetings/ciml-44', '/resolution/CIML-2009-9']) {
       const dir = path.join(TEMP_DIST, ...target.split('/').filter(Boolean))

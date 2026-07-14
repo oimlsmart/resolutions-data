@@ -75,20 +75,14 @@ module ResolutionsData
             end
           end
 
-          locs = r.is_a?(Hash) ? r["localizations"] : nil
-          unless locs.is_a?(Array) && !locs.empty?
-            warn "  RES FAIL   #{File.basename(f)}[#{i}]: missing localizations[]"
+          # v1.0 shape: per-field LocalizedString[] (title, subject,
+          # message, considering). The canonical schema check is
+          # `bundle exec edoxen validate`; this structural validator
+          # only ensures each decision carries at least one title.
+          unless r.is_a?(Hash) && r["title"].is_a?(Array) && !r["title"].empty?
+            warn "  RES FAIL   #{File.basename(f)}[#{i}]: missing title LocalizedString[]"
             bad += 1
             next
-          end
-
-          locs.each_with_index do |loc, li|
-            REQUIRED_LOCALIZATION_FIELDS.each do |k|
-              unless loc.is_a?(Hash) && loc.key?(k)
-                warn "  RES FAIL   #{File.basename(f)}[#{i}].localizations[#{li}]: missing #{k}"
-                bad += 1
-              end
-            end
           end
         end
       end

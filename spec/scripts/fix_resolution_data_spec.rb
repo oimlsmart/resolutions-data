@@ -7,12 +7,8 @@ require "yaml"
 require "open3"
 
 # Integration spec for scripts/fix_resolution_data.rb — verifies the
-# three fixes (agenda_item, subject, title format) and idempotency.
-#
-# The script reads its root directory from the FIX_RESOLUTION_DATA_ROOT
-# env var (falling back to the repo root). We point it at a temp dir,
-# write a synthetic resolution + agenda, run the script, and assert
-# the expected transformations.
+# three fixes (agenda_item, subject echo strip, title format) and
+# idempotency, against v1.0 per-field LocalizedString shape.
 RSpec.describe "fix_resolution_data integration" do
   let(:tmp_root) { Dir.mktmpdir }
   let(:resolutions_dir) { File.join(tmp_root, "resolutions") }
@@ -22,6 +18,8 @@ RSpec.describe "fix_resolution_data integration" do
     { "items" => [{ "label" => "9", "title" => "Other business" }] }.to_yaml
   end
 
+  # v1.0 shape: per-field LocalizedString arrays (title, subject); no
+  # localizations[] collection.
   let(:resolution_yaml) do
     <<~YAML
       ---
@@ -37,12 +35,13 @@ RSpec.describe "fix_resolution_data integration" do
         dates:
         - date: '2004-10-26'
           type: decided
-        localizations:
-        - language_code: eng
-          title: Other business
-          subject: CIML
-          considerations: []
-          actions: []
+        title:
+        - spelling: eng
+          value: Other business
+        subject:
+        - spelling: eng
+          value: CIML
+        actions: []
     YAML
   end
 
@@ -74,14 +73,17 @@ RSpec.describe "fix_resolution_data integration" do
     expect(reload_resolution["decisions"].first["agenda_item"]).to eq("9")
   end
 
-  it "removes the wrong subject" do
+  it "strips a subject that merely echoes the body name" do
     run_script
-    expect(reload_resolution["decisions"].first["localizations"].first.key?("subject")).to be(false)
+    subjects = reload_resolution["decisions"].first["subject"]
+    # Either nil (stripped because empty) or empty array.
+    expect(subjects.nil? || subjects&.empty?).to be(true)
   end
 
-  it "rewrites the title to include 'Agenda Item N: '" do
+  it "rewrites the title to 'Agenda Item N: <title>'" do
     run_script
-    expect(reload_resolution["decisions"].first["localizations"].first["title"]).to eq("Agenda Item 9: Other business")
+    title_ls = reload_resolution["decisions"].first["title"].first
+    expect(title_ls["value"]).to eq("Agenda Item 9: Other business")
   end
 
   it "is idempotent (running twice produces no further changes)" do

@@ -4,7 +4,7 @@ import path from 'node:path'
 
 const DIST = path.resolve(process.cwd(), 'dist')
 const PORT = 8080
-const BASE = '/resolutions-data'
+const BASE = '/resolutions'
 
 const MIME = {
   '.html': 'text/html',

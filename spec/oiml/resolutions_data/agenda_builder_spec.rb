@@ -19,7 +19,7 @@ module Oiml
           expect(agenda).to be_a(Edoxen::Agenda)
           expect(agenda.items.size).to eq(2)
           expect(agenda.items.first.label).to eq("1")
-          expect(agenda.items.first.title).to eq("Opening remarks and roll call")
+          expect(agenda.items.first.title.first.value).to eq("Opening remarks and roll call")
           expect(agenda.items.first.kind).to eq("opening")
           expect(agenda.items.last.outcome).to eq("adopted")
         end
@@ -55,11 +55,11 @@ module Oiml
           yaml = builder.to_yaml
 
           parsed = YAML.safe_load(yaml)
-          expect(parsed["items"].first).to include(
-            "label" => "1",
-            "title" => "First item",
-            "outcome" => "resolved",
-          )
+          item = parsed["items"].first
+          expect(item["label"]).to eq("1")
+          # v1.0: title is LocalizedString[]
+          expect(item["title"].first).to include("spelling" => "eng", "value" => "First item")
+          expect(item["outcome"]).to eq("resolved")
         end
       end
     end

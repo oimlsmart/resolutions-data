@@ -63,7 +63,7 @@ module Oiml
       def build_agenda_item(hash)
         Edoxen::AgendaItem.new(
           label: hash["label"].to_s,
-          title: hash["title"],
+          title: [Edoxen::LocalizedString.new(spelling: "eng", value: hash["title"])],
           kind: hash["kind"],
           outcome: hash["outcome"],
         )

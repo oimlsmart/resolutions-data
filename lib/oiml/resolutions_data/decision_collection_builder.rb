@@ -2,39 +2,54 @@
 
 module Oiml
   module ResolutionsData
-    # Build an `Edoxen::DecisionCollection` instance from per-decision
-    # hashes. Like AgendaBuilder, this isolates the Edoxen model API
-    # from the parsing scripts.
+    # Build an `Edoxen::DecisionCollection` instance in the v1.0
+    # per-field LocalizedString shape.
+    #
+    # v1.0 differences from v2.x:
+    # - No `localizations[]` collection on Decision.
+    # - Each translatable field (title, subject, message, considering)
+    #   is its own LocalizedString[] array.
+    # - Actions/considerations/approvals are top-level collections;
+    #   their `message` field is a LocalizedString[].
+    # - DecisionMetadata.title is a LocalizedString[] (no title_localized).
     class DecisionCollectionBuilder
       attr_reader :metadata, :decisions
 
-      # metadata: Hash with keys (all optional except source):
-      #   source          — String (e.g. "OIML Conference Secretariat")
-      #   meeting_urn     — String
-      #   city            — String (UN/LOCODE)
-      #   country_code    — String (ISO 3166-1 alpha-2)
-      #   title_localized — Array<Hash {language_code, title}>
+      # metadata: Hash with keys (all optional):
+      #   source       — String
+      #   meeting_urn  — String
+      #   city         — String (UN/LOCODE)
+      #   country_code — String (ISO alpha-2)
+      #   titles       — Array<Hash {spelling, value}>
       def initialize(metadata:)
         @metadata = metadata
         @decisions = []
       end
 
-      # Append a decision.
-      #   identifier      — Array<Hash {prefix, number}>
-      #   doi             — String
-      #   urn             — String
-      #   agenda_item     — String (label like "14.2")
-      #   dates           — Array<Hash {date, type}>
-      #   localizations   — Array<Hash {language_code, title, subject,
-      #                     considerations[], actions[], approvals[]}>
-      def add_decision(identifier:, doi:, urn:, agenda_item: nil, dates: [], localizations: [])
+      # Append a decision in v1.0 per-field shape.
+      #   identifier    — Array<Hash {prefix, number}>
+      #   doi, urn      — String
+      #   agenda_item   — String
+      #   dates         — Array<Hash {date, type}>
+      #   titles        — Array<Hash {spelling, value}> (per-field LocalizedString)
+      #   subjects      — Array<Hash {spelling, value}> (optional)
+      #   actions       — Array<Hash {type, message: [{spelling, value}], date_effective?}>
+      #   considerations — same shape as actions
+      #   approvals     — same shape as actions
+      def add_decision(identifier:, doi:, urn:, agenda_item: nil, dates: [],
+                       titles: [], subjects: [],
+                       actions: [], considerations: [], approvals: [])
         @decisions << {
           "identifier" => identifier,
           "doi" => doi,
           "urn" => urn,
           "agenda_item" => agenda_item,
           "dates" => dates,
-          "localizations" => localizations,
+          "titles" => titles,
+          "subjects" => subjects,
+          "actions" => actions,
+          "considerations" => considerations,
+          "approvals" => approvals,
         }
         self
       end
@@ -60,60 +75,52 @@ module Oiml
         m.meeting_urn = metadata["meeting_urn"] if metadata["meeting_urn"]
         m.city = metadata["city"] if metadata["city"]
         m.country_code = metadata["country_code"] if metadata["country_code"]
-        if metadata["title_localized"]
-          m.title_localized = metadata["title_localized"].map do |t|
-            Edoxen::Localization.new(
-              language_code: t["language_code"],
-              title: t["title"],
-            )
-          end
+        if metadata["titles"]&.any?
+          m.title = metadata["titles"].map { |t| build_localized_string(t) }
         end
         m
       end
 
-      def build_decision(hash)
+      def build_decision(h)
         require "edoxen"
-        Edoxen::Decision.new(
-          identifier: hash["identifier"].map { |i| Edoxen::StructuredIdentifier.new(prefix: i["prefix"], number: i["number"]) },
-          doi: hash["doi"],
-          urn: hash["urn"],
-          agenda_item: hash["agenda_item"]&.to_s,
-          dates: hash["dates"].map { |d| Edoxen::DecisionDate.new(date: d["date"], type: d["type"]) },
-          localizations: hash["localizations"].map { |loc| build_localization(loc) },
-        )
+        params = {
+          identifier: h["identifier"].map { |i| Edoxen::StructuredIdentifier.new(prefix: i["prefix"], number: i["number"]) },
+          doi: h["doi"],
+          urn: h["urn"],
+          dates: h["dates"].map { |d| Edoxen::DecisionDate.new(date: d["date"], type: d["type"]) },
+        }
+        params[:agenda_item] = h["agenda_item"]&.to_s if h["agenda_item"]
+        params[:title] = h["titles"].map { |t| build_localized_string(t) } if h["titles"]&.any?
+        params[:subject] = h["subjects"].map { |t| build_localized_string(t) } if h["subjects"]&.any?
+        params[:actions] = h["actions"].map { |a| build_action_like(a, Edoxen::Action) } if h["actions"]&.any?
+        params[:considerations] = h["considerations"].map { |c| build_action_like(c, Edoxen::Consideration) } if h["considerations"]&.any?
+        params[:approvals] = h["approvals"].map { |ap| build_action_like(ap, Edoxen::Approval) } if h["approvals"]&.any?
+        Edoxen::Decision.new(params)
       end
 
-      def build_localization(loc)
+      def build_localized_string(h)
         require "edoxen"
-        Edoxen::Localization.new(
-          language_code: loc["language_code"],
-          title: loc["title"],
-          subject: loc["subject"],
-          considerations: (loc["considerations"] || []).map { |c| build_consideration(c) },
-          actions: (loc["actions"] || []).map { |a| build_action(a) },
-          approvals: (loc["approvals"] || []).map { |ap| build_approval(ap) },
-        )
+        Edoxen::LocalizedString.new(spelling: h["spelling"], value: h["value"])
       end
 
-      def build_consideration(c)
+      # Build an Action / Consideration / Approval. In v1.0 the `message`
+      # field on each is a LocalizedString[].
+      def build_action_like(h, klass)
         require "edoxen"
-        params = { message: c["message"] }
-        params[:type] = c["type"] if c["type"]
-        params[:date_effective] = Edoxen::DecisionDate.new(date: c["date_effective"]["date"], type: c["date_effective"]["type"]) if c["date_effective"]
-        Edoxen::Consideration.new(params)
-      end
-
-      def build_action(a)
-        require "edoxen"
-        params = { message: a["message"] }
-        params[:type] = a["type"] if a["type"]
-        params[:date_effective] = Edoxen::DecisionDate.new(date: a["date_effective"]["date"], type: a["date_effective"]["type"]) if a["date_effective"]
-        Edoxen::Action.new(params)
-      end
-
-      def build_approval(ap)
-        require "edoxen"
-        Edoxen::Approval.new(message: ap["message"])
+        params = {}
+        params[:type] = h["type"] if h["type"]
+        if h["message"].is_a?(Array)
+          params[:message] = h["message"].map { |m| build_localized_string(m) }
+        elsif h["message"]
+          params[:message] = [Edoxen::LocalizedString.new(spelling: "eng", value: h["message"])]
+        end
+        if h["date_effective"]
+          params[:date_effective] = Edoxen::DecisionDate.new(
+            date: h["date_effective"]["date"],
+            type: h["date_effective"]["type"],
+          )
+        end
+        klass.new(params)
       end
     end
   end
