@@ -20,3 +20,6 @@ vendor/
 *.bak
 *.log
 Gemfile.lock
+
+# Root node_modules (scripts that need npm deps)
+node_modules/
