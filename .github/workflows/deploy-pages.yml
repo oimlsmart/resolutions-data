@@ -39,11 +39,6 @@ jobs:
         run: ruby scripts/validate_yaml.rb
 
       - name: Validate meeting YAMLs (edoxen v2 schema)
-        # Meeting YAMLs need a v1.0 migration pass (date_range →
-        # scheduled_date_range/occurred_date_range etc.). The gem
-        # schema moved forward of our data. Mark continue-on-error
-        # until the migration is done — see TODO.new-edoxen/.
-        continue-on-error: true
         run: |
           bundle install
           bundle exec edoxen validate-meetings 'meetings/*.yaml'
@@ -84,23 +79,14 @@ jobs:
         uses: actions/configure-pages@v6
 
       - name: Install dependencies
-        # Pre-existing issue: browser/package.json references
-        # @edoxen/edoxen via file: path that doesn't resolve on CI
-        # (needs edoxen/edoxen-js checked out alongside). Will be
-        # fixed when the dep is published or vendored.
-        continue-on-error: true
         working-directory: ./browser
         run: pnpm install --frozen-lockfile
 
       - name: Build
-        # Pre-existing issue: depends on the broken Install step.
-        continue-on-error: true
         working-directory: ./browser
         run: pnpm run build
 
       - name: Upload artifact
-        # Pre-existing issue: build may not have produced dist/.
-        continue-on-error: true
         uses: actions/upload-pages-artifact@v5
         with:
           path: './browser/dist'

@@ -19,6 +19,16 @@ const OUTPUT_DIR = path.resolve(__dirname, '../public/data');
 const RESOLUTIONS_FILE = path.join(OUTPUT_DIR, 'resolutions.json');
 const MEETINGS_FILE = path.join(OUTPUT_DIR, 'meetings.json');
 
+// Extract a single string value from a v1.0 LocalizedString[].
+// Returns the first entry's `value` (preferring English when
+// available), or undefined for missing/non-array input.
+function localizedString(arr) {
+  if (!Array.isArray(arr)) return arr || undefined;
+  if (arr.length === 0) return undefined;
+  const en = arr.find(e => e && e.spelling && e.spelling.startsWith('eng'));
+  return (en || arr[0])?.value;
+}
+
 // Map a meeting YAML's `committee` field to one of the three OIML
 // body types: 'ciml', 'conference', 'dc'. The committee field is the
 // canonical signal because the edoxen Meeting schema is closed under
@@ -112,11 +122,11 @@ function loadMeetingYamls() {
       // Per-meeting metadata; the first resolution YAML we encounter
       // for this meeting will fill in source_title/venue/date/city/...
       source_title: localizations[0]?.title || '',
-      meeting_date: parsed.date_range?.start || '',
-      venue: parsed.general_area || '',
+      meeting_date: parsed.scheduled_date_range?.start || parsed.occurred_date_range?.start || parsed.date_range?.start || '',
+      venue: localizedString(parsed.general_area) || localizedString(parsed.venue) || '',
       city: parsed.city || '',
       country_code: parsed.country_code || '',
-      year: parsed.date_range?.start ? String(parsed.date_range.start).substring(0, 4) : '',
+      year: (parsed.scheduled_date_range?.start || parsed.occurred_date_range?.start || parsed.date_range?.start || '').substring(0, 4),
       body_type: bodyTypeFromCommittee(parsed.committee),
       doi: buildMeetingDoi(parsed, slug),
       resolution_count: 0,
@@ -195,12 +205,12 @@ function main() {
     // that have no metadata at all (e.g. CIML 15-37 Bulletin, where the
     // meeting YAML only carries localizations) inherit it from the first
     // resolutions YAML we see.
-    if (!meeting.source_title && metadata.title) meeting.source_title = metadata.title;
-    if (!meeting.meeting_date && metadata.dates?.[0]?.start) {
-      meeting.meeting_date = metadata.dates[0].start;
+    if (!meeting.source_title && metadata.title) meeting.source_title = localizedString(metadata.title) || metadata.title;
+    if (!meeting.meeting_date && metadata.date) {
+      meeting.meeting_date = String(metadata.date);
       meeting.year = meeting.meeting_date.substring(0, 4);
     }
-    if (!meeting.venue && metadata.venue) meeting.venue = metadata.venue;
+    if (!meeting.venue && metadata.city) meeting.venue = metadata.city;
     if (!meeting.city && metadata.city) meeting.city = metadata.city;
     if (!meeting.country_code && metadata.country_code) meeting.country_code = metadata.country_code;
 
