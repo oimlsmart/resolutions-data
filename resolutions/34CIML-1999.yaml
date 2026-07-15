@@ -7,6 +7,8 @@ metadata:
   title:
   - spelling: eng
     value: 34th CIML Meeting — Minutes (EN, Bulletin)
+  - spelling: fra
+    value: 34th CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -41,6 +43,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 2: États Membres et Membres Correspondants'
+  - &1
+    spelling: fra
+    value: 'Agenda Item 2: États Membres et Membres Correspondants'
+  subject: &2
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/2.1
@@ -126,6 +134,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 3: Questions financières'
+  - &3
+    spelling: fra
+    value: 'Agenda Item 3: Questions financières'
+  subject: &4
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/3.1
@@ -308,6 +322,9 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 8: Conseil de Développement'
+  - &5
+    spelling: fra
+    value: 'Agenda Item 8: Conseil de Développement'
   actions:
   - type: notes
     date_effective:
@@ -316,6 +333,14 @@ decisions:
     message:
     - spelling: eng
       value: 8. 1 Report on the Development Council meeting of October 5,1999
+    - &6
+      spelling: fra
+      value: Le Comité a soutenu les vues de Mme Annabi en ce qui concerne la coopération
+        entre le Conseil de Développement de l'OIML et diverses organisations internationales
+        et régionales.
+  subject: &7
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/9
@@ -328,6 +353,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 9: Liaisons avec les organisations internationales et régionales'
+  - &8
+    spelling: fra
+    value: 'Agenda Item 9: Liaisons avec les organisations internationales et régionales'
+  subject: &9
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/9.1
@@ -550,6 +581,9 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 11: Activités techniques'
+  - &10
+    spelling: fra
+    value: 'Agenda Item 11: Activités techniques'
   actions:
   - type: notes
     date_effective:
@@ -566,6 +600,12 @@ decisions:
         and the same matter would be once more drawn to the attention of these secretariats.
         Concerning certain items listed below, Mr. Chappell reminded participants
         that discussions should conclude in formal decisions to be made by the Committee.
+    - &11
+      spelling: fra
+      value: Le Comité a pris note d'informations à ce sujet.
+  subject: &12
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/11.1
@@ -578,6 +618,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 11.1: Programme de travail des TC/SC de l''OIML'
+  - spelling: fra
+    value: 'Agenda Item 11.1: Programme de travail des TC/SC de l''OIML'
   actions:
   - type: notes
     date_effective:
@@ -586,6 +628,11 @@ decisions:
     message:
     - spelling: eng
       value: 'The Committee accepted the proposals from:'
+    - spelling: fra
+      value: Le Comité a approuvé ces propositions.
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/11.2
@@ -598,6 +645,9 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 11.2: Examen de la situation de certains TC/SC'
+  - &13
+    spelling: fra
+    value: 'Agenda Item 11.2: Examen de la situation de certains TC/SC'
   actions:
   - type: notes
     date_effective:
@@ -607,6 +657,15 @@ decisions:
     - spelling: eng
       value: The Committee accepted that responsibility for revising OIML R 35 be
         transferred from TC 7/SC 1 to TC 7.
+    - &14
+      spelling: fra
+      value: "- Etablissement d'un nouveau TC ou SC sur les logiciels: le Comité a
+        décidé de créer deux sous-comités au sein du TC 5 (pour lequel une nouvelle
+        désignation devra être trouvée) - SC 1 sur les Instruments électroniques (Pays-Bas)
+        et le SC 2 sur les Logiciels (Allemagne et France);"
+  subject: &15
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/11.3
@@ -664,6 +723,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 12: Système de Certificats OIML'
+  - &16
+    spelling: fra
+    value: 'Agenda Item 12: Système de Certificats OIML'
+  subject: &17
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/12.1
@@ -729,6 +794,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 13: Préparations pour la Onzième Conférence'
+  - &18
+    spelling: fra
+    value: 'Agenda Item 13: Préparations pour la Onzième Conférence'
+  subject: &19
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/13.1
@@ -839,6 +910,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 15: Futures réunions'
+  - &20
+    spelling: fra
+    value: 'Agenda Item 15: Futures réunions'
+  subject: &21
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 1999/15.1
@@ -965,6 +1042,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 2: États Membres et Membres Correspondants'
+  - *1
+  subject: *2
 - identifier:
   - prefix: CIML
     number: 1999/2.1
@@ -1046,6 +1125,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 3: Questions financières'
+  - *3
+  subject: *4
 - identifier:
   - prefix: CIML
     number: 1999/3.1
@@ -1214,6 +1295,7 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 8: Conseil de Développement'
+  - *5
   actions:
   - type: notes
     date_effective:
@@ -1222,6 +1304,8 @@ decisions:
     message:
     - spelling: eng
       value: 8. 1 Report on the Development Council meeting of October 5,1999
+    - *6
+  subject: *7
 - identifier:
   - prefix: CIML
     number: 1999/8.2
@@ -1279,6 +1363,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 9: Liaisons avec les organisations internationales et régionales'
+  - *8
+  subject: *9
 - identifier:
   - prefix: CIML
     number: 1999/9.1
@@ -1464,6 +1550,7 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 11: Activités techniques'
+  - *10
   actions:
   - type: approves
     date_effective:
@@ -1472,8 +1559,8 @@ decisions:
     message:
     - spelling: eng
       value: The Committee approved these proposals.
-    - spelling: eng
-      value: The Committee approved these proposals.
+    - *11
+  subject: *12
 - identifier:
   - prefix: CIML
     number: 1999/11.2
@@ -1486,6 +1573,7 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 11.2: Examen de la situation de certains TC/SC'
+  - *13
   actions:
   - type: approves
     date_effective:
@@ -1494,6 +1582,8 @@ decisions:
     message:
     - spelling: eng
       value: The Committee approved these proposals.
+    - *14
+  subject: *15
 - identifier:
   - prefix: CIML
     number: 1999/11.3
@@ -1548,6 +1638,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 12: Système de Certificats OIML'
+  - *16
+  subject: *17
 - identifier:
   - prefix: CIML
     number: 1999/12.1
@@ -1603,6 +1695,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 13: Préparations pour la Onzième Conférence'
+  - *18
+  subject: *19
 - identifier:
   - prefix: CIML
     number: 1999/13.1
@@ -1705,6 +1799,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 15: Futures réunions'
+  - *20
+  subject: *21
 - identifier:
   - prefix: CIML
     number: 1999/15.1

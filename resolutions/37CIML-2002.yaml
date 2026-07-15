@@ -7,6 +7,8 @@ metadata:
   title:
   - spelling: eng
     value: 37th CIML Meeting — Minutes (EN, Bulletin)
+  - spelling: fra
+    value: 37th CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -91,6 +93,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 4: États Membres et Membres Correspondants'
+  - &1
+    spelling: fra
+    value: 'Agenda Item 4: États Membres et Membres Correspondants'
+  subject: &2
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/4.1
@@ -146,6 +154,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 5: Questions financières'
+  - &3
+    spelling: fra
+    value: 'Agenda Item 5: Questions financières'
+  subject: &4
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/5.1
@@ -258,6 +272,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 7: Situation du BIML'
+  - &5
+    spelling: fra
+    value: 'Agenda Item 7: Situation du BIML'
+  subject: &6
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/7.1
@@ -359,6 +379,9 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 8: Activités techniques'
+  - &7
+    spelling: fra
+    value: 'Agenda Item 8: Activités techniques'
   actions:
   - type: notes
     date_effective:
@@ -369,6 +392,12 @@ decisions:
       value: A written report drawn up by the BIML was distributed to Participants
         and commented by Mr. Issaev, responsible for following OIML technical activities
         as CIML Vice-President.
+    - &8
+      spelling: fra
+      value: 'Le Comité a approuvé les projets de Recommandations suivants:'
+  subject: &9
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/8.3
@@ -447,6 +476,9 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
+  - &10
+    spelling: fra
+    value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
   actions:
   - type: notes
     date_effective:
@@ -457,6 +489,16 @@ decisions:
       value: A written report prepared by the BIML was distributed to Participants
         and presented by Mr. Kochsiek who was responsible for following activities
         related to the OIML Certificate System as CIML Vice-President.
+    - spelling: fra
+      value: Le Comité a pris note que le document révisé décrivant les règles de
+        fonctionnement du Système serait bientôt publié et a demandé aux organes techniques
+        de I'OIML d'inclure de nouvelles dispositions telles que les définitions,
+        les exigences, les méthodes d'essai et les formats de rapport d'essai traitant
+        des familles, modules et familles de modules des instruments de mesure lors
+        de
+  subject: &11
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/9.1
@@ -545,6 +587,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 10: Evolutions'
+  - &12
+    spelling: fra
+    value: 'Agenda Item 10: Evolutions'
+  subject: &13
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/10.1
@@ -664,6 +712,13 @@ decisions:
   - spelling: eng
     value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
       rendu séparé'
+  - &14
+    spelling: fra
+    value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
+      rendu séparé'
+  subject: &15
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/11.1
@@ -728,6 +783,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
+  - &16
+    spelling: fra
+    value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
+  subject: &17
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/12.1
@@ -844,6 +905,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 14: Réunions futures'
+  - &18
+    spelling: fra
+    value: 'Agenda Item 14: Réunions futures'
+  subject: &19
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/14.1
@@ -1031,6 +1098,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 4: États Membres et Membres Correspondants'
+  - *1
+  subject: *2
 - identifier:
   - prefix: CIML
     number: 2002/4.1
@@ -1087,6 +1156,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 5: Questions financières'
+  - *3
+  subject: *4
 - identifier:
   - prefix: CIML
     number: 2002/5.1
@@ -1188,6 +1259,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 7: Situation du BIML'
+  - *5
+  subject: *6
 - identifier:
   - prefix: CIML
     number: 2002/7.1
@@ -1293,6 +1366,7 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 8: Activités techniques'
+  - *7
   actions:
   - type: notes
     date_effective:
@@ -1301,6 +1375,8 @@ decisions:
     message:
     - spelling: eng
       value: 8. 1 Work program of TCs/SCs
+    - *8
+  subject: *9
 - identifier:
   - prefix: CIML
     number: 2002/8.2
@@ -1426,6 +1502,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
+  - *10
+  subject: *11
 - identifier:
   - prefix: CIML
     number: 2002/9.1
@@ -1524,6 +1602,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 10: Evolutions'
+  - *12
+  subject: *13
 - identifier:
   - prefix: CIML
     number: 2002/10.1
@@ -1635,6 +1715,7 @@ decisions:
   - spelling: eng
     value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
       rendu séparé'
+  - *14
   actions:
   - type: notes
     date_effective:
@@ -1645,6 +1726,15 @@ decisions:
       value: The Committee congratulated Mrs. Annabi on her re-election as Development
         Council Chairperson and took note of a report delivered by her concerning
         Development Council activities
+    - spelling: fra
+      value: 'M. Faber a rapporté que suite à la dernière Réunion du Conseil de Développement
+        à Moscou, il avait décidé de créer un petit "Groupe de Travail" pour les questions
+        liées aux pays en développement, avec une mission double: accélérer le travail
+        et le rendre plus transparent, et deuxième examiner la structure du Conseil
+        de Développement et faire des propositions pour le restructurer lors de la
+        Conférence en 2004. Il a ensuite demandé à Mme. Annabi de présenter un rapport
+        sur la Réunion du Conseil de Développement qui avait eu lieu le 1er Octobre
+        2002.'
   - type: instructs
     date_effective:
       date: '2002-10-01'
@@ -1662,6 +1752,7 @@ decisions:
     - spelling: eng
       value: The Committee requested the Task Group to develop proposals for a new
         Development Council structure which may be approved by the $ 1 2^{th} $ Conference.
+  subject: *15
 - identifier:
   - prefix: CIML
     number: 2002/12
@@ -1674,6 +1765,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
+  - *16
+  subject: *17
 - identifier:
   - prefix: CIML
     number: 2002/12.1
@@ -1798,6 +1891,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 14: Réunions futures'
+  - *18
+  subject: *19
 - identifier:
   - prefix: CIML
     number: 2002/14.1
