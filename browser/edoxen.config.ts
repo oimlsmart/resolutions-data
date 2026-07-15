@@ -5,6 +5,7 @@ export default defineConfig({
     title: 'OIML Resolutions',
     description: 'Resolutions of the International Organization of Legal Metrology (OIML).',
     url: 'https://www.oimlsmart.org/resolutions',
+    basePath: '/resolutions/',
   },
   data: {
     decisions: '../resolutions',
