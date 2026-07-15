@@ -8,6 +8,7 @@
 @import "./css/content-panel.css";
 @import "./css/typography.css";
 @import "./css/_patterns.css";
+@import "./css/component-styles.css";
 
 html {
   scroll-behavior: smooth;
@@ -95,4 +96,3 @@ h1, h2, h3, h4, h5, h6, .font-serif {
   opacity: 0;
   transform: translateY(10px);
 }
-
