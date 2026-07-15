@@ -4,6 +4,7 @@ import payloads from 'virtual:edoxen-payloads'
 import OimlLayout from '../../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
 import { loadMeetings } from '../../../utils/meetings.js'
+import { decisionsByMeetingUrn } from '../../../utils/decisions-by-meeting.js'
 
 export async function getStaticPaths() {
   const meetings = await loadMeetings()
@@ -21,14 +22,13 @@ const lang = Astro.params.lang ?? cfg.site.locale
 const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
 const title = safePickLocalizedValue(meeting.title, lang, meeting.urn ?? '')
 const agenda = meeting.agenda
-const allDecisions = payloads.decisionsList.items
-const meetingIdentifier = meeting.identifier?.[0]
-const linkedDecisions = meetingIdentifier
-  ? allDecisions.filter((d) => {
-      const decId = d.identifier || ''
-      return decId.includes(meetingIdentifier.prefix) && decId.includes(meetingIdentifier.number)
-    })
-  : []
+
+// Build meeting → decisions mapping
+const meetingMap = await decisionsByMeetingUrn()
+const decisionUrns = meetingMap.get(meeting.urn ?? '') ?? []
+const linkedDecisions = decisionUrns
+  .map((urn) => payloads.decisionByUrn[urn])
+  .filter(Boolean)
 ---
 
 <OimlLayout lang={lang} title={title}>
@@ -38,7 +38,7 @@ const linkedDecisions = meetingIdentifier
     <header class="std-page__header">
       <div class="std-page__meta">
         {meeting.body_type && <span class="std-page__badge">{meeting.body_type}</span>}
-        {meeting.scheduled_date_range?.start && <span class="std-page__badge">{meeting.scheduled_date_range.start}</span>}
+        {meeting.scheduled_date_range?.start && <span class="std-page__badge badge-date">{meeting.scheduled_date_range.start}</span>}
       </div>
       <h1 class="std-page__title">{title}</h1>
     </header>
@@ -88,8 +88,11 @@ const linkedDecisions = meetingIdentifier
         <div class="std-results">
           {linkedDecisions.map((d) => (
             <a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`} class="std-results__card">
-              <div class="std-results__name"><span>{d.identifier}</span></div>
+              <div class="std-results__name">
+                <span>{d.identifier?.[0]?.prefix}-{d.identifier?.[0]?.number}</span>
+              </div>
               <div class="std-results__title">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
+              {d.dates?.[0]?.date && <span class="std-results__badge badge-date">{d.dates[0].date}</span>}
             </a>
           ))}
         </div>
