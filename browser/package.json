@@ -11,9 +11,13 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.2.0",
     "@edoxen/browser": "^0.1.6",
-    "astro": "^5.0.0"
+    "astro": "^5.0.0",
+    "yaml": "^2.9.0"
   },
   "pnpm": {
-    "onlyBuiltDependencies": ["esbuild", "sharp"]
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "sharp"
+    ]
   }
 }

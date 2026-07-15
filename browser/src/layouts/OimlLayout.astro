@@ -1,0 +1,41 @@
+---
+import cfg from 'virtual:edoxen-config'
+import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../utils/url.js'
+import '../assets/main.css'
+
+interface Props {
+  lang?: string
+  title?: string
+}
+const { lang = cfg.site.locale, title } = Astro.props
+const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
+const pageTitle = title ? `${title} | ${cfg.site.title}` : cfg.site.title
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{pageTitle}</title>
+    <link rel="icon" type="image/svg+xml" href={`${prefix}favicon.svg`} />
+  </head>
+  <body>
+    <header id="nav-header" class="site-header">
+      <div class="site-header__inner">
+        <a href={prefix} class="site-header__logo">
+          <span class="site-header__logo-text">{cfg.site.title}</span>
+        </a>
+        <nav class="site-header__nav">
+          <a href={prefix} class="site-header__nav-link">{cfg.site.title}</a>
+          <a href={`${prefix}meetings`} class="site-header__nav-link">Meetings</a>
+          <a href={`${prefix}about`} class="site-header__nav-link">About</a>
+        </nav>
+      </div>
+    </header>
+    <main class="site-main">
+      <slot />
+    </main>
+    <slot name="head" />
+  </body>
+</html>

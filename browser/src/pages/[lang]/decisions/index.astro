@@ -1,0 +1,30 @@
+---
+import cfg from 'virtual:edoxen-config'
+import payloads from 'virtual:edoxen-payloads'
+import OimlLayout from '../../../layouts/OimlLayout.astro'
+import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
+
+export function getStaticPaths() {
+  return cfg.locales
+    .filter((l) => (l.routePrefix ?? '') !== '')
+    .map((l) => ({ params: { lang: l.code } }))
+}
+
+const lang = Astro.params.lang ?? cfg.site.locale
+const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
+const items = payloads.decisionsList.items
+---
+
+<OimlLayout lang={lang} title="Decisions">
+  <div class="res-page">
+    <h1>Decisions</h1>
+    <div class="std-results">
+      {items.map((d) => (
+        <a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`} class="std-results__card">
+          <div class="std-results__name"><span>{d.identifier}</span></div>
+          <div class="std-results__title">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
+        </a>
+      ))}
+    </div>
+  </div>
+</OimlLayout>

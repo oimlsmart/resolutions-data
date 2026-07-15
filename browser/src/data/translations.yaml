@@ -1,0 +1,338 @@
+# Bilingual UI strings (English / French).
+#
+# Add new keys here with both en and fr values. The useI18n
+# composable exposes t(key) which looks up by current language.
+translations:
+  about.aboutCommittee:
+    en: About the OIML
+    fr: À propos de l'OIML
+  about.actionTypes:
+    en: Action Types
+    fr: Types d'actions
+  about.actionTypesDesc:
+    en: Every resolution is composed of typed actions that categorize what the committee decided to do (e.g., requesting an action, approving a document, or thanking a host). This semantic typing allows for advanced filtering and analysis of the committee's historical activities.
+    fr: Chaque résolution est composée d'actions typées qui catégorisent la décision du comité (par exemple, demander une action, approuver un document ou remercier un hôte). Ce typage sémantique permet un filtrage et une analyse avancés des activités historiques du comité.
+  about.back:
+    en: Back
+    fr: Retour
+  about.committeeLinks:
+    en: Committee links
+    fr: Liens du comité
+  about.doiPattern:
+    en: DOI Pattern
+    fr: Schéma de DOI
+  about.edoxen:
+    en: Edoxen Format
+    fr: Format Edoxen
+  about.heroSubtitle:
+    en: A digital record of CIML Meeting and OIML Conference resolutions, 2004 to
+      today.
+    fr: Un registre numérique des résolutions des réunions du CIML et des Conférences
+      OIML, de 2004 à aujourd'hui.
+  about.heroTitle:
+    en: About This Archive
+    fr: À propos de cette archive
+  about.lifecycle:
+    en: Resolution Lifecycle
+    fr: Cycle de vie d'une résolution
+  about.technical:
+    en: Technical information
+    fr: Informations techniques
+  about.title:
+    en: About This Archive
+    fr: À propos de cette archive
+  about.statEstablished:
+    en: Established
+    fr: Fondée en
+  about.statMemberStates:
+    en: Member States
+    fr: États membres
+  about.statCorrespondingMembers:
+    en: Corresponding Members
+    fr: Membres correspondants
+  about.urnPattern:
+    en: URN Pattern
+    fr: Schéma d'URN
+  committee.name:
+    en: OIML
+    fr: OIML
+  committee.placeholderCiml:
+    en: (The CIML — subject not explicit in the source)
+    fr: (Le Comité — sujet non explicite dans le source)
+  committee.placeholderConference:
+    en: (The Conference — subject not explicit in the source)
+    fr: (La Conférence — sujet non explicite dans le source)
+  committee.scope:
+    en: Legal metrology — the practice and science of measurement that affects trade,
+      health, safety, and the environment.
+    fr: La métrologie légale — la pratique et la science de la mesure qui touche
+      au commerce, à la santé, à la sécurité et à l'environnement.
+  committee.tagline:
+    en: Resolutions of the CIML and the OIML Conference
+    fr: Résolutions du CIML et de la Conférence OIML
+  committee.title:
+    en: International Organization of Legal Metrology
+    fr: Organisation Internationale de Métrologie Légale
+  common.all:
+    en: All
+    fr: Tous
+  footer.back:
+    en: Back
+    fr: Retour
+  footer.committee:
+    en: Organization
+    fr: Organisation
+  footer.correspondingMembers:
+    en: 'Corresponding Members:'
+    fr: 'Membres correspondants :'
+  footer.established:
+    en: 'Established:'
+    fr: 'Fondée en :'
+  footer.explore:
+    en: Explore
+    fr: Explorer
+  footer.github:
+    en: GitHub
+    fr: GitHub
+  footer.linkedin:
+    en: LinkedIn
+    fr: LinkedIn
+  footer.linksCiml:
+    en: CIML Meetings
+    fr: Réunions du CIML
+  footer.linksConference:
+    en: Conferences
+    fr: Conférences
+  footer.linksBulletin:
+    en: OIML Bulletin
+    fr: Bulletin OIML
+  footer.links:
+    en: Links
+    fr: Liens
+  footer.memberStates:
+    en: 'Member States:'
+    fr: 'États membres :'
+  footer.memberStatesLink:
+    en: Member States
+    fr: États membres
+  footer.officialWebsite:
+    en: Official website
+    fr: Site officiel
+  footer.secretariat:
+    en: 'Secretariat:'
+    fr: 'Secrétariat :'
+  home.establishedLabel:
+    en: Established
+    fr: Fondée en
+  home.heroLine1:
+    en: Resolutions & Decisions
+    fr: Résolutions et décisions
+  home.heroLine2:
+    en: of the CIML & OIML Conference
+    fr: du CIML et de la Conférence OIML
+  home.loading:
+    en: Loading data...
+    fr: Chargement…
+  home.meetingsLabel:
+    en: Meetings
+    fr: Réunions
+  home.memberStatesLabel:
+    en: Member States
+    fr: États membres
+  home.resolutionsLabel:
+    en: Resolutions
+    fr: Résolutions
+  home.subtitle:
+    en: '{resolutions} resolutions from {meetings} meetings, spanning {earliest} to
+      {latest}.'
+    fr: '{resolutions} résolutions issues de {meetings} réunions, de {earliest} à
+      {latest}.'
+  home.tagline:
+    en: Resolutions of the CIML and the OIML Conference
+    fr: Résolutions du CIML et de la Conférence OIML
+  lang.en:
+    en: English
+    fr: Anglais
+  lang.fr:
+    en: French
+    fr: Français
+  lang.toggle:
+    en: Switch language
+    fr: Changer de langue
+  meeting.ciml:
+    en: CIML Meeting
+    fr: Réunion du CIML
+  meeting.agenda:
+    en: Agenda
+    fr: Ordre du jour
+  meeting.agendaResolved:
+    en: Resolved
+    fr: Résolu
+  meeting.agendaItem:
+    en: Agenda item
+    fr: Point de l'ordre du jour
+  meeting.agendaItemSeq:
+    en: Item
+    fr: Point
+  meeting.agendaItemTitle:
+    en: Title
+    fr: Titre
+  meeting.agendaItemOutcome:
+    en: Outcome
+    fr: Résultat
+  meeting.agendaOutcome.resolved:
+    en: Resolved
+    fr: Résolu
+  meeting.agendaOutcome.adopted:
+    en: Adopted
+    fr: Adopté
+  meeting.agendaOutcome.discussed:
+    en: Discussed
+    fr: Discuté
+  meeting.agendaOutcome.deferred:
+    en: Deferred
+    fr: Renvoyé
+  meeting.agendaOutcome.withdrawn:
+    en: Withdrawn
+    fr: Retiré
+  meeting.agendaOutcome.negatived:
+    en: Negatived
+    fr: Rejeté
+  meeting.conference:
+    en: OIML Conference
+    fr: Conférence OIML
+  meeting.meetingDoi:
+    en: Meeting DOI
+    fr: DOI de la réunion
+  meeting.meetingUrn:
+    en: Meeting URN
+    fr: URN de la réunion
+  meetings.back:
+    en: Back to Meetings
+    fr: Retour aux réunions
+  meetings.body:
+    en: Body
+    fr: Instance
+  meetings.bodyAll:
+    en: All
+    fr: Toutes
+  meetings.bodyCiml:
+    en: CIML Meetings
+    fr: Réunions du CIML
+  meetings.bodyConf:
+    en: OIML Conference
+    fr: Conférence OIML
+  meetings.bodyDc:
+    en: Development Council
+    fr: Conseil de Développement
+  meeting.dc:
+    en: OIML Development Council
+    fr: Conseil de Développement de l'OIML
+  meetings.count:
+    en: '{count} meetings'
+    fr: '{count} réunions'
+  meetings.country:
+    en: Country
+    fr: Pays
+  meetings.empty:
+    en: No meetings match the current filters.
+    fr: Aucune réunion ne correspond aux filtres.
+  meetings.emptyHint:
+    en: Try adjusting your search or year filter.
+    fr: Ajustez votre recherche ou le filtre d'année.
+  meetings.clearFilters:
+    en: Clear filters
+    fr: Réinitialiser les filtres
+  meetings.legendHost:
+    en: Host country
+    fr: Pays hôte
+  meetings.legendSize:
+    en: Node size = resolution count
+    fr: La taille du nœud = nombre de résolutions
+  meetings.legendVirtual:
+    en: Virtual meeting
+    fr: Réunion en ligne
+  meetings.resolutionsCount:
+    en: '{count} resolutions'
+    fr: '{count} résolutions'
+  meetings.searchPlaceholder:
+    en: Search meetings by venue or year…
+    fr: Rechercher par lieu ou année…
+  meetings.subtitle:
+    en: Browse resolutions by CIML meeting or OIML Conference.
+    fr: Parcourir les résolutions par réunion du CIML ou Conférence OIML.
+  meetings.title:
+    en: Meetings
+    fr: Réunions
+  meetings.virtual:
+    en: Virtual Meeting
+    fr: Réunion en ligne
+  meetings.year:
+    en: Year
+    fr: Année
+  nav.about:
+    en: About
+    fr: À propos
+  nav.meetings:
+    en: Meetings
+    fr: Réunions
+  nav.resolutions:
+    en: Resolutions
+    fr: Résolutions
+  resolution.actions:
+    en: Actions
+    fr: Actions
+  resolution.approval:
+    en: Approval
+    fr: Approbation
+  resolution.approvals:
+    en: Approvals
+    fr: Approbations
+  resolution.back:
+    en: Back to results
+    fr: Retour aux résultats
+  resolution.backHome:
+    en: Back to Home
+    fr: Retour à l'accueil
+  resolution.categories:
+    en: Categories
+    fr: Catégories
+  resolution.considerations:
+    en: Considerations
+    fr: Considérations
+  resolution.dates:
+    en: Dates
+    fr: Dates
+  resolution.effective:
+    en: Effective
+    fr: En vigueur
+  resolution.frenchVersion:
+    en: French version
+    fr: Version française
+  resolution.languageToggleLabel:
+    en: Language
+    fr: Langue
+  resolution.meetingNotFound:
+    en: Meeting not found
+    fr: Réunion introuvable
+  resolution.meetingNotFoundHint:
+    en: The meeting you are looking for does not exist.
+    fr: La réunion que vous cherchez n'existe pas.
+  resolution.next:
+    en: Next
+    fr: Suivante
+  resolution.previous:
+    en: Previous
+    fr: Précédente
+  resolution.related:
+    en: Related Resolutions
+    fr: Résolutions liées
+  resolution.subject:
+    en: Subject
+    fr: Sujet
+  search.placeholder:
+    en: Search resolutions…
+    fr: Rechercher des résolutions…
+  search.results:
+    en: '{count} resolutions'
+    fr: '{count} résolutions'

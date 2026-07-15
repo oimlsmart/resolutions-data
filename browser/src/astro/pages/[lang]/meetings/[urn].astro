@@ -1,0 +1,74 @@
+---
+import cfg from 'virtual:edoxen-config'
+import payloads from 'virtual:edoxen-payloads'
+import OimlLayout from '../../../layouts/OimlLayout.astro'
+import { pickLocalizedValue, urlPrefix } from '../../../i18n/index.js'
+
+export function getStaticPaths() {
+  const urns = Object.keys(payloads.meetingByUrn)
+  const nonDefault = cfg.locales.filter((l) => (l.routePrefix ?? '') !== '')
+  return urns.flatMap((urn) =>
+    nonDefault.map((loc) => ({
+      params: { lang: loc.code, urn },
+      props: { meeting: payloads.meetingByUrn[urn] },
+    })),
+  )
+}
+
+const { meeting } = Astro.props
+const lang = Astro.params.lang ?? cfg.site.locale
+const prefix = urlPrefix(cfg, lang)
+const title = pickLocalizedValue(meeting.title, lang, meeting.urn ?? '')
+const linkedDecisions = payloads.decisionsByMeetingUrn[meeting.urn ?? ''] ?? []
+const agenda = meeting.agenda
+---
+
+<OimlLayout lang={lang} title={title}>
+  <div class="res-page std-page">
+    <a href={`${prefix}meetings`} class="std-page__back">← Meetings</a>
+    <h1 class="std-page__title">{title}</h1>
+    <p><code>{meeting.urn}</code></p>
+
+    {meeting.scheduled_date_range && (
+      <section>
+        <h2>When</h2>
+        <p>{meeting.scheduled_date_range.start}{meeting.scheduled_date_range.end && ` – ${meeting.scheduled_date_range.end}`}</p>
+      </section>
+    )}
+
+    {meeting.city && (
+      <section>
+        <h2>Venue</h2>
+        <p>{meeting.city}{meeting.country_code ? `, ${meeting.country_code}` : ''}</p>
+      </section>
+    )}
+
+    {agenda && agenda.items && agenda.items.length > 0 && (
+      <section>
+        <h2>Agenda</h2>
+        <table class="agenda-table">
+          <thead><tr><th>Item</th><th>Title</th></tr></thead>
+          <tbody>
+            {agenda.items.map((item) => (
+              <tr id={`agenda-${item.label}`}>
+                <td>{item.label}</td>
+                <td>{pickLocalizedValue(item.title, lang)}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </section>
+    )}
+
+    {linkedDecisions.length > 0 && (
+      <section>
+        <h2>Decisions</h2>
+        <ul>
+          {linkedDecisions.map((d) => (
+            <li><a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`}>{pickLocalizedValue(d.title, lang, d.urn)}</a></li>
+          ))}
+        </ul>
+      </section>
+    )}
+  </div>
+</OimlLayout>

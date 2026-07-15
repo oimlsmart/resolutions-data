@@ -1,0 +1,39 @@
+---
+import cfg from 'virtual:edoxen-config'
+import payloads from 'virtual:edoxen-payloads'
+import OimlLayout from '../../layouts/OimlLayout.astro'
+import { pickLocalizedValue, urlPrefix } from '../../i18n/index.js'
+
+export function getStaticPaths() {
+  return cfg.locales
+    .filter((l) => (l.routePrefix ?? '') !== '')
+    .map((l) => ({ params: { lang: l.code } }))
+}
+
+const lang = Astro.params.lang ?? cfg.site.locale
+const prefix = urlPrefix(cfg, lang)
+const recentDecisions = payloads.decisionsList.items.slice(0, 10)
+const totalDecisions = payloads.decisionsList.items.length
+const totalMeetings = payloads.meetingsList.items.length
+---
+
+<OimlLayout lang={lang} title={cfg.site.title}>
+  <div class="res-page">
+    <header class="res-page__header">
+      <h1>{cfg.site.title}</h1>
+      <p>{totalDecisions} decisions from {totalMeetings} meetings.</p>
+    </header>
+
+    <div class="std-results">
+      {recentDecisions.map((d) => (
+        <a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`} class="std-results__card">
+          <div class="std-results__name">
+            <span>{d.identifier}</span>
+          </div>
+          <div class="std-results__title">{pickLocalizedValue(d.title, lang, d.urn)}</div>
+          {d.dates[0]?.date && <span class="std-results__badge">{d.dates[0].date}</span>}
+        </a>
+      ))}
+    </div>
+  </div>
+</OimlLayout>
