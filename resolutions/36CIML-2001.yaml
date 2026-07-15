@@ -7,6 +7,8 @@ metadata:
   title:
   - spelling: eng
     value: 36th CIML Meeting — Minutes (EN, Bulletin)
+  - spelling: fra
+    value: 36th CIML Meeting — Minutes (FR, Bulletin)
 decisions:
 - identifier:
   - prefix: CIML
@@ -87,6 +89,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 4: Member States and Corresponding Members'
+  - &1
+    spelling: fra
+    value: 'Agenda Item 4: Member States and Corresponding Members'
+  subject: &2
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/4.1
@@ -156,6 +164,12 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 5: Financial matters'
+  - &3
+    spelling: fra
+    value: 'Agenda Item 5: Financial matters'
+  subject: &4
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/5.1
@@ -238,6 +252,11 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 7: The situation at the BIML'
+  - spelling: fra
+    value: 'Agenda Item 7: The situation at the BIML'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/7.1
@@ -294,6 +313,8 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 8: Technical activities'
+  - spelling: fra
+    value: 'Agenda Item 8: Technical activities'
   actions:
   - type: notes
     date_effective:
@@ -306,8 +327,20 @@ decisions:
         its satisfaction for the work accomplished, requested the OIML TCs/SCs to
         accelerate their work in fields listed as high priority and priority projects
         according to the document approved in this connection.
-    - spelling: eng
-      value: 'The Committee also noted:'
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par le BIML concernant
+        l'utilisation du courrier électronique et d'Internet dans le développement
+        du travail technique de l'OIML et des remarques faites par certains Membres
+        (communication utilisant soit le papier soit le courrier électronique; utilisation
+        de CD-roms, harmonisation des équipements techniques permettant d'organiser
+        des vidéo-conférences, etc.). Le Comité a demandé au Bureau de donner une
+        première priorité à la révision des Directives pour les travaux techniques
+        et a vivement conseillé à ses Membres de développer au niveau national des
+        moyens de communication modernes, afin d'accélérer et de faciliter le travail
+        technique de l'OIML tout en diminuant les coûts de fonctionnement.
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/8.3
@@ -369,6 +402,11 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  - spelling: fra
+    value: 'Agenda Item 9: OIML Certificate System for Measuring Instruments'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/9.1
@@ -527,6 +565,11 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 13: Liaisons with international and regional institutions'
+  - spelling: fra
+    value: 'Agenda Item 13: Liaisons with international and regional institutions'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/13.1
@@ -606,6 +649,11 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 15: Future meetings'
+  - spelling: fra
+    value: 'Agenda Item 15: Future meetings'
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2001/15.1
@@ -795,6 +843,7 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 4: Member States and Corresponding Members'
+  - *1
   actions:
   - type: notes
     date_effective:
@@ -818,6 +867,11 @@ decisions:
         by pointing out the role of RLMOs in the implementation of OIML Recommendations
         and in the establishment of a global measurement system. RLMOs therefore need
         to interact.
+    - spelling: fra
+      value: Le Comité a noté avec satisfaction que cet État Membre a payé non seulement
+        ses cotisations pour 2000 et pour 2001, mais a également commencé à payer
+        ses arriérés pour 1996-1999.
+  subject: *2
 - identifier:
   - prefix: CIML
     number: 2001/5
@@ -830,6 +884,7 @@ decisions:
   title:
   - spelling: eng
     value: 'Agenda Item 5: Financial matters'
+  - *3
   actions:
   - type: notes
     date_effective:
@@ -842,6 +897,17 @@ decisions:
         the other hand, especially in connection with training. Regular meetings of
         the Development Council and RLMOs would probably be appropriate in order to
         identify and eliminate overlapping activities.
+    - spelling: fra
+      value: Le Comité a pris note d'informations fournies par le BIML concernant
+        la situation financière de l'Organisation en 2001 et a considéré que cette
+        situation était conforme aux décisions de la Onzième Conférence. Le Comité
+        a également noté les informations fournies par le Bureau au sujet de l'année
+        2002, notamment le passage à l'Euro, une nouvelle présentation des comptes
+        du BIML qui permettrait de mieux estimer les coûts de fonctionnement des différents
+        organes constituent l'OIML et les prix de revient des produits et des services
+        fournis par le BIML, et la nouvelle politique du Bureau en matière de fixation
+        des prix et de vente des publications.
+  subject: *4
 - identifier:
   - prefix: CIML
     number: 2001/6
