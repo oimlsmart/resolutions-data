@@ -4,47 +4,13 @@
   "version": "0.1.0",
   "type": "module",
   "scripts": {
-    "dev": "node scripts/build-data.mjs && vite",
-    "build": "node scripts/build-data.mjs && vue-tsc -b && vite-ssg build && node scripts/post-build.mjs",
-    "preview": "vite preview",
-    "test": "vitest run",
-    "test:watch": "vitest"
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   },
   "dependencies": {
-    "@asciidoctor/core": "^3.0.4",
-    "@edoxen/edoxen": "^0.2.0",
-    "@edoxen/vue": "^0.1.0",
-    "@unhead/vue": "^3.1.4",
-    "edoxen": "npm:@edoxen/edoxen@^0.2.0",
-    "flexsearch": "^0.7.31",
-    "vite-ssg": "^28.3.0",
-    "vue": "^3.5.0",
-    "vue-router": "^4.5.0"
-  },
-  "devDependencies": {
-    "@modyfi/vite-plugin-yaml": "^1.1.1",
-    "@tailwindcss/postcss": "^4.0.0",
-    "@tailwindcss/typography": "^0.5.15",
-    "@types/js-yaml": "^4.0.9",
-    "@types/node": "^22.0.0",
-    "@vitejs/plugin-vue": "^5.2.1",
-    "@vue/test-utils": "^2.4.11",
-    "happy-dom": "^20.10.6",
-    "js-yaml": "^4.1.0",
-    "postcss": "^8.4.0",
-    "tailwindcss": "^4.0.0",
-    "typescript": "^5.7.0",
-    "vite": "^6.0.0",
-    "vitest": "^4.1.9",
-    "vue-tsc": "^2.2.0"
-  },
-  "description": "Web browser for OIML CIML and Conference resolutions.",
-  "vitest": {
-    "globals": true,
-    "environment": "happy-dom",
-    "include": [
-      "src/**/*.test.ts",
-      "scripts/**/*.test.mjs"
-    ]
+    "@astrojs/sitemap": "^3.2.0",
+    "@edoxen/browser": "^0.1.6",
+    "astro": "^5.0.0"
   }
 }

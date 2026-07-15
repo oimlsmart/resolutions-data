@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Redirecting…</title>
+<script>
+(function () {
+  var saved = null;
+  try { saved = localStorage.getItem('oiml-lang'); } catch (e) {}
+  var nav = (navigator.language || '').toLowerCase();
+  var lang = (saved === 'fr' || saved === 'en') ? saved : (nav.indexOf('fr') === 0 ? 'fr' : 'en');
+  var target = '/resolutions' + '/' + lang + '/resolution/CIML-1986-4.1' + window.location.search + window.location.hash;
+  window.location.replace(target);
+})();
+</script>
+<meta http-equiv="refresh" content="0; url=/resolutions/en/resolution/CIML-1986-4.1">
+</head>
+<body>
+<p>Redirecting to <a href="/resolutions/en/resolution/CIML-1986-4.1">/resolutions/en/resolution/CIML-1986-4.1</a>.</p>
+</body>
+</html>

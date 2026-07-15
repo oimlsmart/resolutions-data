@@ -1,0 +1,1 @@
+function e(r){return r.toUpperCase().replace(/./g,t=>String.fromCodePoint(127397+t.charCodeAt(0)))}function o(r){if(!r)return"";const t=r.toUpperCase().trim();return t.length!==2||!/^[A-Z]{2}$/.test(t)?"":e(t)}export{o as c};
