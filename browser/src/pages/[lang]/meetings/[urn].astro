@@ -3,14 +3,15 @@ import cfg from 'virtual:edoxen-config'
 import payloads from 'virtual:edoxen-payloads'
 import OimlLayout from '../../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
+import { loadMeetings } from '../../../utils/meetings.js'
 
-export function getStaticPaths() {
-  const urns = Object.keys(payloads.meetingByUrn)
+export async function getStaticPaths() {
+  const meetings = await loadMeetings()
   const nonDefault = cfg.locales.filter((l) => (l.routePrefix ?? '') !== '')
-  return urns.flatMap((urn) =>
+  return meetings.flatMap((m) =>
     nonDefault.map((loc) => ({
-      params: { lang: loc.code, urn },
-      props: { meeting: payloads.meetingByUrn[urn] },
+      params: { lang: loc.code, urn: m.urn },
+      props: { meeting: m },
     })),
   )
 }
@@ -19,40 +20,61 @@ const { meeting } = Astro.props
 const lang = Astro.params.lang ?? cfg.site.locale
 const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
 const title = safePickLocalizedValue(meeting.title, lang, meeting.urn ?? '')
-const linkedDecisions = payloads.decisionsByMeetingUrn[meeting.urn ?? ''] ?? []
 const agenda = meeting.agenda
+const allDecisions = payloads.decisionsList.items
+const meetingIdentifier = meeting.identifier?.[0]
+const linkedDecisions = meetingIdentifier
+  ? allDecisions.filter((d) => {
+      const decId = d.identifier || ''
+      return decId.includes(meetingIdentifier.prefix) && decId.includes(meetingIdentifier.number)
+    })
+  : []
 ---
 
 <OimlLayout lang={lang} title={title}>
   <div class="res-page std-page">
-    <a href={`${prefix}meetings`} class="std-page__back">← Meetings</a>
-    <h1 class="std-page__title">{title}</h1>
-    <p><code>{meeting.urn}</code></p>
+    <a href={`${prefix}meetings`} class="std-page__back back-link">← Meetings</a>
+
+    <header class="std-page__header">
+      <div class="std-page__meta">
+        {meeting.body_type && <span class="std-page__badge">{meeting.body_type}</span>}
+        {meeting.scheduled_date_range?.start && <span class="std-page__badge">{meeting.scheduled_date_range.start}</span>}
+      </div>
+      <h1 class="std-page__title">{title}</h1>
+    </header>
+
+    {meeting.urn && (
+      <div class="urn-bar">
+        <span class="urn-label">URN</span>
+        <code class="urn-value">{meeting.urn}</code>
+      </div>
+    )}
 
     {meeting.scheduled_date_range && (
-      <section>
-        <h2>When</h2>
+      <section class="std-page__section">
+        <h2 class="section-title">When</h2>
         <p>{meeting.scheduled_date_range.start}{meeting.scheduled_date_range.end && ` – ${meeting.scheduled_date_range.end}`}</p>
       </section>
     )}
 
     {meeting.city && (
-      <section>
-        <h2>Venue</h2>
+      <section class="std-page__section">
+        <h2 class="section-title">Venue</h2>
         <p>{meeting.city}{meeting.country_code ? `, ${meeting.country_code}` : ''}</p>
       </section>
     )}
 
     {agenda && agenda.items && agenda.items.length > 0 && (
-      <section>
-        <h2>Agenda</h2>
+      <section class="std-page__section">
+        <h2 class="section-title">Agenda</h2>
         <table class="agenda-table">
-          <thead><tr><th>Item</th><th>Title</th></tr></thead>
+          <thead><tr><th>Item</th><th>Title</th><th>Outcome</th></tr></thead>
           <tbody>
             {agenda.items.map((item) => (
               <tr id={`agenda-${item.label}`}>
-                <td>{item.label}</td>
+                <td class="agenda-table__td--seq">{item.label}</td>
                 <td>{safePickLocalizedValue(item.title, lang)}</td>
+                <td>{item.outcome && <span class={`agenda-outcome agenda-outcome--${item.outcome}`}>{item.outcome}</span>}</td>
               </tr>
             ))}
           </tbody>
@@ -61,13 +83,16 @@ const agenda = meeting.agenda
     )}
 
     {linkedDecisions.length > 0 && (
-      <section>
-        <h2>Decisions</h2>
-        <ul>
+      <section class="std-page__section">
+        <h2 class="section-title">Decisions ({linkedDecisions.length})</h2>
+        <div class="std-results">
           {linkedDecisions.map((d) => (
-            <li><a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`}>{safePickLocalizedValue(d.title, lang, d.urn)}</a></li>
+            <a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`} class="std-results__card">
+              <div class="std-results__name"><span>{d.identifier}</span></div>
+              <div class="std-results__title">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
+            </a>
           ))}
-        </ul>
+        </div>
       </section>
     )}
   </div>

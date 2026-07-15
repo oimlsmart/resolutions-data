@@ -19,33 +19,120 @@ const { decision } = Astro.props
 const lang = Astro.params.lang ?? cfg.site.locale
 const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
 const title = safePickLocalizedValue(decision.title, lang, decision.urn ?? '')
+const subject = safePickLocalizedValue(decision.subject, lang)
+const considering = safePickLocalizedValue(decision.considering, lang)
 const actions = decision.actions ?? []
 const considerations = decision.considerations ?? []
+const approvals = decision.approvals ?? []
+const dates = decision.dates ?? []
+const meetingLink = payloads.meetingLinkByDecisionId[decision.identifier?.[0]?.prefix + '-' + decision.identifier?.[0]?.number]
+const linkedMeeting = meetingLink ? payloads.meetingByUrn[meetingLink.meetingUrn] : null
 ---
 
 <OimlLayout lang={lang} title={title}>
   <div class="res-page std-page">
-    <a href={`${prefix}decisions`} class="std-page__back">← Decisions</a>
-    <h1 class="std-page__title">{title}</h1>
-    <p><code>{decision.urn}</code></p>
+    <a href={`${prefix}decisions`} class="std-page__back back-link">← Decisions</a>
 
-    {actions.length > 0 && (
-      <section>
-        <h2>Actions</h2>
-        <ul>
-          {actions.map((a) => (
-            <li><strong>{a.type}</strong> {safePickLocalizedValue(a.message, lang)}</li>
+    <header class="std-page__header">
+      <div class="std-page__meta">
+        {decision.identifier[0] && (
+          <span class="std-page__badge font-mono badge-id">
+            {decision.identifier[0].prefix}/{decision.identifier[0].number}
+          </span>
+        )}
+        {decision.body_type && (
+          <span class="std-page__badge">{decision.body_type}</span>
+        )}
+        {linkedMeeting && (
+          <a href={`${prefix}meetings/${encodeURIComponent(linkedMeeting.urn)}`} class="std-page__badge std-page__badge--link">
+            {safePickLocalizedValue(linkedMeeting.title, lang, linkedMeeting.urn ?? '')}
+          </a>
+        )}
+        {dates[0]?.date && (
+          <span class="std-page__badge badge-date">{dates[0].date}</span>
+        )}
+      </div>
+      <h1 class="std-page__title">{title}</h1>
+      {subject && subject !== decision.urn && <p class="res-detail-subtitle">{subject}</p>}
+    </header>
+
+    {decision.urn && (
+      <div class="urn-bar">
+        <span class="urn-label">URN</span>
+        <code class="urn-value">{decision.urn}</code>
+      </div>
+    )}
+
+    {decision.doi && (
+      <div class="urn-bar doi-bar">
+        <span class="urn-label">DOI</span>
+        <a href={`https://doi.org/${decision.doi}`} class="urn-value urn-value--link" target="_blank" rel="noopener">{decision.doi}</a>
+      </div>
+    )}
+
+    {considering && (
+      <section class="std-page__section">
+        <h2 class="section-title">Considering</h2>
+        <p>{considering}</p>
+      </section>
+    )}
+
+    {considerations.length > 0 && (
+      <section class="std-page__section">
+        <h2 class="section-title">Considerations</h2>
+        <ul class="consideration-list">
+          {considerations.map((c) => (
+            <li class="consideration-item">
+              {c.kind && <span class="consideration-kind">{c.kind}</span>}
+              <span class="consideration-message">{safePickLocalizedValue(c.message, lang)}</span>
+            </li>
           ))}
         </ul>
       </section>
     )}
 
-    {considerations.length > 0 && (
-      <section>
-        <h2>Considerations</h2>
+    {actions.length > 0 && (
+      <section class="std-page__section">
+        <h2 class="section-title">Actions</h2>
+        <ul class="action-list">
+          {actions.map((a) => (
+            <li class="action-item">
+              {a.type && <span class="action-type">{a.type}</span>}
+              <div class="action-message">{safePickLocalizedValue(a.message, lang)}</div>
+            </li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {approvals.length > 0 && (
+      <section class="std-page__section">
+        <h2 class="section-title">Approvals</h2>
         <ul>
-          {considerations.map((c) => (
-            <li>{safePickLocalizedValue(c.message, lang)}</li>
+          {approvals.map((a) => (
+            <li>{a.degree}{a.body ? ` — ${a.body}` : ''}{a.date ? ` (${a.date})` : ''}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {dates.length > 0 && (
+      <section class="std-page__section">
+        <h2 class="section-title">Dates</h2>
+        <ul>
+          {dates.map((d) => (
+            <li><strong>{d.type}</strong>: {d.date}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    {(decision.urls ?? []).length > 0 && (
+      <section class="std-page__section">
+        <h2 class="section-title">Reference documents</h2>
+        <ul>
+          {(decision.urls ?? []).map((u) => (
+            <li><a href={u.ref}>{u.kind ?? 'document'}</a></li>
           ))}
         </ul>
       </section>
