@@ -44,7 +44,7 @@ const linkedMeeting = meetingLink ? payloads.meetingByUrn[meetingLink.meetingUrn
           <span class="std-page__badge">{decision.body_type}</span>
         )}
         {linkedMeeting && (
-          <a href={`${prefix}meetings/${encodeURIComponent(linkedMeeting.urn)}`} class="std-page__badge std-page__badge--link">
+          <a href={`${prefix}meetings/${linkedMeeting.urn}`} class="std-page__badge std-page__badge--link">
             {safePickLocalizedValue(linkedMeeting.title, lang, linkedMeeting.urn ?? '')}
           </a>
         )}

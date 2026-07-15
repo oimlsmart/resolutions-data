@@ -26,7 +26,7 @@ const meetings = await loadMeetings()
     ) : (
       <div class="std-results">
         {meetings.map((m) => (
-          <a href={`${prefix}meetings/${encodeURIComponent(m.urn)}`} class="std-results__card">
+          <a href={`${prefix}meetings/${m.urn}`} class="std-results__card">
             <div class="std-results__name">
               {m.body_type && <span class="std-results__badge">{m.body_type}</span>}
             </div>

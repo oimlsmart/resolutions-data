@@ -20,7 +20,7 @@ const items = payloads.decisionsList.items
     <h1>Decisions</h1>
     <div class="std-results">
       {items.map((d) => (
-        <a href={`${prefix}decisions/${encodeURIComponent(d.urn)}`} class="std-results__card">
+        <a href={`${prefix}decisions/${d.urn}`} class="std-results__card">
           <div class="std-results__name"><span>{d.identifier}</span></div>
           <div class="std-results__title">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
         </a>
