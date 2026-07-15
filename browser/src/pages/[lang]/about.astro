@@ -1,0 +1,20 @@
+---
+import cfg from 'virtual:edoxen-config'
+import OimlLayout from '../../layouts/OimlLayout.astro'
+import { urlPrefix, localePrefixOf } from '../../utils/url.js'
+
+export function getStaticPaths() {
+  return cfg.locales
+    .filter((l) => (l.routePrefix ?? '') !== '')
+    .map((l) => ({ params: { lang: l.code } }))
+}
+
+const lang = Astro.params.lang ?? cfg.site.locale
+---
+
+<OimlLayout lang={lang} title="About">
+  <div class="res-page">
+    <h1>About</h1>
+    <p>{cfg.site.description}</p>
+  </div>
+</OimlLayout>

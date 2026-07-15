@@ -11,7 +11,7 @@ export default defineConfig({
     decisions: '../resolutions',
   },
   locales: [
-    { code: 'en', label: 'English', routePrefix: '' },
+    { code: 'en', label: 'English', routePrefix: 'en' },
     { code: 'fr', label: 'Français', routePrefix: 'fr' },
   ],
   theme: {
