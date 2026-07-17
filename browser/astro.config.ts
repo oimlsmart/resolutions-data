@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config'
 import sitemap from '@astrojs/sitemap'
 import browser from '@edoxen/browser/integration'
+import tailwindcss from '@tailwindcss/vite'
 import cfg from './edoxen.config'
 
 export default defineConfig({
@@ -10,4 +11,9 @@ export default defineConfig({
     browser({ config: cfg, injectRoutes: false }),
     sitemap(),
   ],
+  vite: {
+    plugins: [
+      tailwindcss(),
+    ],
+  },
 })

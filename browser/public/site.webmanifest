@@ -1,7 +1,19 @@
 {
   "name": "OIML Resolutions",
-  "short_name": "OIML Resolutions",
+  "short_name": "OIML",
   "icons": [
+    {
+      "src": "assets/oiml-logo-icon-light.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/oiml-logo-icon-dark.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
     {
       "src": "web-app-manifest-192x192.png",
       "sizes": "192x192",
@@ -15,7 +27,7 @@
       "purpose": "maskable"
     }
   ],
-  "theme_color": "#ffffff",
+  "theme_color": "#004996",
   "background_color": "#ffffff",
   "display": "standalone"
 }

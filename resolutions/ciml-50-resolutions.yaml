@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: FR
-  meeting_urn: urn:oiml:ciml:meeting:ciml-50
   title:
   - spelling: eng
     value: 50th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 50e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: FR
+  meeting_urn: urn:oiml:ciml:meeting:ciml-50
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 49th CIML Meeting'
+    value: Approval of the minutes of the 49th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 49th CIML Meeting'
+    value: Approval of the minutes of the 49th CIML Meeting
   subject:
   - spelling: eng
     value: OIML Conference
@@ -52,9 +52,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   subject:
   - spelling: eng
     value: OIML Conference
@@ -79,9 +79,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: BIML matters'
+    value: BIML matters
   - spelling: fra
-    value: 'Agenda Item 3: BIML matters'
+    value: BIML matters
   subject:
   - spelling: eng
     value: OIML Conference
@@ -107,26 +107,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 4: Member States and Corresponding Members'
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Resolves not to appoint a Selection Committee under section 3 of OIML
-        B 13:2004.
-  - type: decides
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: Décide de ne pas désigner le Comité de sélection prévu au chapitre 3
-        du document OIML B 13:2004.
+    value: Member States and Corresponding Members
   considerations:
   - type: having_regard_to
     date_effective:
@@ -174,6 +157,23 @@ decisions:
       value: |-
         Prenant note des observations formulées par ses Membres,
         Indique qu'il envisage de renouveler le contrat de M. Willem Kool comme Adjoint au Directeur du BIML pour une durée déterminée de cinq ans au maximum lors de sa réunion en 2016, et
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Resolves not to appoint a Selection Committee under section 3 of OIML
+        B 13:2004.
+  - type: decides
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: Décide de ne pas désigner le Comité de sélection prévu au chapitre 3
+        du document OIML B 13:2004.
 - identifier:
   - prefix: CIML
     number: 2015/5
@@ -185,9 +185,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 5: Financial matters'
+    value: Financial matters
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution 2014/4,
+    - spelling: fra
+      value: Rappelant sa Résolution 2014/4,
   actions:
   - type: resolves
     date_effective:
@@ -205,16 +215,6 @@ decisions:
     - spelling: fra
       value: Décide de renouveler le contrat de M. Stephen Patoray, Directeur du BIML,
         pour une durée de trois ans à compter du $ 1^{\mathrm{er}} $ Janvier 2016.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution 2014/4,
-    - spelling: fra
-      value: Rappelant sa Résolution 2014/4,
 - identifier:
   - prefix: CIML
     number: 2015/6
@@ -226,9 +226,28 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Report on developing countries matters'
+    value: Report on developing countries matters
   - spelling: fra
-    value: 'Agenda Item 6: Report on developing countries matters'
+    value: Report on developing countries matters
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2014 and the BIML Director's comments,
+    - spelling: fra
+      value: |-
+        Prenant note des comptes de l'année 2014 et des observations du Directeur du BIML,
+        Compte tenu de l'approbation des comptes de l'année 2014 par l'auditeur externe,
+  - type: considering
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's approval of the 2014 accounts,
   actions:
   - type: approves
     date_effective:
@@ -254,25 +273,6 @@ decisions:
     - spelling: fra
       value: Charge son Président de présenter lesdits comptes lors de la $ 1 5^{\mathrm{e
         m e}} $ Conférence de l'OIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2014 and the BIML Director's comments,
-    - spelling: fra
-      value: |-
-        Prenant note des comptes de l'année 2014 et des observations du Directeur du BIML,
-        Compte tenu de l'approbation des comptes de l'année 2014 par l'auditeur externe,
-  - type: considering
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the external auditor's approval of the 2014 accounts,
 - identifier:
   - prefix: CIML
     number: 2015/7
@@ -284,21 +284,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Liaisons'
+    value: Liaisons
   - spelling: fra
-    value: 'Agenda Item 7: Liaisons'
-  actions:
-  - type: requests
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Requests those Members with arrears to bring their situation up to date
-        as soon as possible.
-    - spelling: fra
-      value: Demande auxdits Membres présentant des arriérés de régulariser leur situation
-        dès que possible.
+    value: Liaisons
   considerations:
   - type: noting
     date_effective:
@@ -313,6 +301,18 @@ decisions:
       value: |-
         Prenant note du rapport présenté par le Directeur du BIML,
         Encourage le Bureau à poursuivre ses efforts pour recouvrer les arriérés impayés des États Membres et des Membres Correspondants,
+  actions:
+  - type: requests
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests those Members with arrears to bring their situation up to date
+        as soon as possible.
+    - spelling: fra
+      value: Demande auxdits Membres présentant des arriérés de régulariser leur situation
+        dès que possible.
 - identifier:
   - prefix: CIML
     number: 2015/8
@@ -324,9 +324,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Technical activities'
+    value: Technical activities
   - spelling: fra
-    value: 'Agenda Item 8: Technical activities'
+    value: Technical activities
   actions:
   - type: notes
     date_effective:
@@ -351,19 +351,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: OIML Certificate System'
+    value: OIML Certificate System
   - spelling: fra
-    value: 'Agenda Item 9: OIML Certificate System'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Notes the oral report given on behalf the Chair of the advisory group.
-    - spelling: fra
-      value: Prend note du rapport oral présenté par le Président du groupe consultatif.
+    value: OIML Certificate System
   considerations:
   - type: recalling
     date_effective:
@@ -381,6 +371,16 @@ decisions:
         des suggestions et de développer des liens avec d'autres organismes intéressés
         par la promotion du développement économique de pays et d'économies dont le
         système de métrologie est émergent,
+  actions:
+  - type: notes
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the oral report given on behalf the Chair of the advisory group.
+    - spelling: fra
+      value: Prend note du rapport oral présenté par le Président du groupe consultatif.
 - identifier:
   - prefix: CIML
     number: 2015/10
@@ -392,9 +392,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Preparation of the 15th Conference (2016)'
+    value: Preparation of the 15th Conference (2016)
   - spelling: fra
-    value: 'Agenda Item 10: Preparation of the 15th Conference (2016)'
+    value: Preparation of the 15th Conference (2016)
   actions:
   - type: instructs
     date_effective:
@@ -535,9 +535,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Other matters'
+    value: Other matters
   - spelling: fra
-    value: 'Agenda Item 11: Other matters'
+    value: Other matters
   actions:
   - type: notes
     date_effective:
@@ -572,9 +572,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Awards'
+    value: Awards
   - spelling: fra
-    value: 'Agenda Item 12: Awards'
+    value: Awards
   actions:
   - type: notes
     date_effective:
@@ -599,9 +599,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 13: Future meetings'
+    value: Future meetings
   actions:
   - type: approves
     date_effective:
@@ -628,9 +628,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Approval of meeting resolutions'
+    value: Approval of meeting resolutions
   - spelling: fra
-    value: 'Agenda Item 14: Approval of meeting resolutions'
+    value: Approval of meeting resolutions
   actions:
   - type: approves
     date_effective:
@@ -728,6 +728,27 @@ decisions:
   - spelling: fra
     value: Approuve les principes d'un système de certification unique OIML (OIML-CS)
       et la proposition pour
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its resolutions nos. 2013/15, 2013/16, 2013/17 and 2014/18,
+    - spelling: fra
+      value: Rappelant ses résolutions n $ ^{\circ} $ 2013/15,2013/16,2013/17 et 2014/18,
+  - type: noting
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the report of the chair of the ad-hoc working group on the review
+        of the MAA (AHWG-MAA),
+    - spelling: fra
+      value: Prenant note du rapport du président du groupe de travail ad-hoc sur
+        la révision du MAA (AHWG-MAA),
   actions:
   - type: approves
     date_effective:
@@ -775,27 +796,6 @@ decisions:
       value: |-
         Charge le Bureau de continuer à faire fonctionner les systèmes de Base et MAA existants jusqu'à ce que le CIML approuve l'OIML-CS et que ce dernier devienne opérationnel,
         Encourage tous les participants aux systèmes de Base et MAA existants à remplir leurs obligations.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its resolutions nos. 2013/15, 2013/16, 2013/17 and 2014/18,
-    - spelling: fra
-      value: Rappelant ses résolutions n $ ^{\circ} $ 2013/15,2013/16,2013/17 et 2014/18,
-  - type: noting
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the report of the chair of the ad-hoc working group on the review
-        of the MAA (AHWG-MAA),
-    - spelling: fra
-      value: Prenant note du rapport du président du groupe de travail ad-hoc sur
-        la révision du MAA (AHWG-MAA),
 - identifier:
   - prefix: CIML
     number: 2015/18
@@ -812,6 +812,27 @@ decisions:
   - spelling: fra
     value: Décide de créer un Groupe Projet sur le système de certification (CSPG)
       pour préparer
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its resolution no. 2015/17,
+    - spelling: fra
+      value: Rappelant sa résolution n° 2015/17,
+  - type: considering
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the proposal of the ad-hoc working group on the review of
+        the MAA,
+    - spelling: fra
+      value: Considérant la proposition du groupe de travail ad-hoc sur la révision
+        du MAA,
   actions:
   - type: decides
     date_effective:
@@ -885,27 +906,6 @@ decisions:
       value: Charge le CSPG de travailler en conformité avec les procédures prévues
         dans les termes de référence proposés (AHWG-MAA-Doc-5, partie F de l'Addendum
         9.1 au document de travail de cette réunion),
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its resolution no. 2015/17,
-    - spelling: fra
-      value: Rappelant sa résolution n° 2015/17,
-  - type: considering
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the proposal of the ad-hoc working group on the review of
-        the MAA,
-    - spelling: fra
-      value: Considérant la proposition du groupe de travail ad-hoc sur la révision
-        du MAA,
 - identifier:
   - prefix: CIML
     number: 2015/19
@@ -922,29 +922,6 @@ decisions:
   - spelling: fra
     value: Décide de demander à la $ 1 5^{\mathrm{eme}} $ Conférence de l'OIML d'approuver
       la
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves to request the 15th OIML Conference to approve the following procedure, relevant to the fourth paragraph of Article XIII of the Convention:
-        a) if the designated representative of a Member State is known to no longer satisfy the conditions for membership of the Committee and the Member State has not yet designated a new representative, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee,
-        b) if the designated representative of a Member State has not responded to any communication from the Bureau for more than six months and the Bureau has made all reasonably possible attempts to contact the designated representative, the Bureau shall seek confirmation from the Member State as to the status of its representative in the Committee, according to a procedure decided by the Committee,
-        c) if it is not possible, within a reasonable period of time to be decided by the Committee, to obtain confirmation from the Member State as to the status of its representative in the Committee, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee.
-  - type: decides
-    date_effective:
-      date: '2015-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Décide de demander à la $ 1 5^{\mathrm{eme}} $ Conférence de l'OIML d'approuver la procédure suivante, se rapportant au quatrième alinéa de l'article XIII de la Convention :
-        a) s'il s'avère que le représentant désigné d'un État Membre ne remplit plus les conditions pour être Membre du Comité et que l'État Membre n'a pas encore désigné un nouveau représentant, cette personne ne doit plus être prise en compte lors de l'établissement du quorum pour les décisions du Comité,
-        b) si le représentant désigné d'un État Membre n'a répondu à aucune communication du Bureau pendant plus de six mois et que le Bureau a entrepris toutes les tentatives raisonnablement possibles pour contacter le représentant désigné, le Bureau doit demander confirmation à l'État Membre, du statut de son représentant au sein du Comité, selon une procédure décidée par le Comité,
-        c) s'il n'est pas possible, dans un délai raisonnable déterminé par le Comité, d'obtenir la confirmation de l'État Membre du statut de son représentant au sein du Comité, cette personne ne doit plus être prise en compte lors de l'établissement du quorum pour les décisions du Comité.
   considerations:
   - type: considering
     date_effective:
@@ -976,6 +953,29 @@ decisions:
         - il est parfois difficile de savoir si une personne désignée comme Membre du Comité remplit toujours les conditions pour être Membre, et qu'
         - il devient de plus en plus difficile d'atteindre le quorum pour les décisions du Comité,
         Estime que, si une personne désignée comme Membre du Comité ne remplit plus les conditions pour être Membre du Comité, cette personne cesse d'être un Membre du Comité pour les besoins de calcul du quorum,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves to request the 15th OIML Conference to approve the following procedure, relevant to the fourth paragraph of Article XIII of the Convention:
+        a) if the designated representative of a Member State is known to no longer satisfy the conditions for membership of the Committee and the Member State has not yet designated a new representative, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee,
+        b) if the designated representative of a Member State has not responded to any communication from the Bureau for more than six months and the Bureau has made all reasonably possible attempts to contact the designated representative, the Bureau shall seek confirmation from the Member State as to the status of its representative in the Committee, according to a procedure decided by the Committee,
+        c) if it is not possible, within a reasonable period of time to be decided by the Committee, to obtain confirmation from the Member State as to the status of its representative in the Committee, this person shall no longer be taken into account when establishing the quorum for decisions of the Committee.
+  - type: decides
+    date_effective:
+      date: '2015-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Décide de demander à la $ 1 5^{\mathrm{eme}} $ Conférence de l'OIML d'approuver la procédure suivante, se rapportant au quatrième alinéa de l'article XIII de la Convention :
+        a) s'il s'avère que le représentant désigné d'un État Membre ne remplit plus les conditions pour être Membre du Comité et que l'État Membre n'a pas encore désigné un nouveau représentant, cette personne ne doit plus être prise en compte lors de l'établissement du quorum pour les décisions du Comité,
+        b) si le représentant désigné d'un État Membre n'a répondu à aucune communication du Bureau pendant plus de six mois et que le Bureau a entrepris toutes les tentatives raisonnablement possibles pour contacter le représentant désigné, le Bureau doit demander confirmation à l'État Membre, du statut de son représentant au sein du Comité, selon une procédure décidée par le Comité,
+        c) s'il n'est pas possible, dans un délai raisonnable déterminé par le Comité, d'obtenir la confirmation de l'État Membre du statut de son représentant au sein du Comité, cette personne ne doit plus être prise en compte lors de l'établissement du quorum pour les décisions du Comité.
 - identifier:
   - prefix: CIML
     number: 2015/20

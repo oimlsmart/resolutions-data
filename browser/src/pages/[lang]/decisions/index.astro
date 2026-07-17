@@ -3,6 +3,7 @@ import cfg from 'virtual:edoxen-config'
 import payloads from 'virtual:edoxen-payloads'
 import OimlLayout from '../../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
+import { t } from '../../../utils/i18n.js'
 
 export function getStaticPaths() {
   return cfg.locales
@@ -13,18 +14,176 @@ export function getStaticPaths() {
 const lang = Astro.params.lang ?? cfg.site.locale
 const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
 const items = payloads.decisionsList.items
+
+function snippetOf(d: any): string {
+  const full = payloads.decisionByUrn[d.urn]
+  const firstAction = full?.actions?.[0]
+  if (!firstAction) return ''
+  return safePickLocalizedValue(firstAction.message, lang)
+}
+function firstActionTypeOf(d: any): string {
+  const full = payloads.decisionByUrn[d.urn]
+  return full?.actions?.[0]?.type ?? ''
+}
+
+const yearSet = new Set<string>()
+const bodySet = new Set<string>()
+for (const d of items) {
+  const y = d.dates?.[0]?.date?.slice(0, 4)
+  if (y) yearSet.add(y)
+  if (d.bodyType) bodySet.add(d.bodyType)
+}
+const years = [...yearSet].sort((a, b) => Number(b) - Number(a))
+const bodies = [...bodySet].sort()
 ---
 
-<OimlLayout lang={lang} title="Decisions">
-  <div class="res-page">
-    <h1>Decisions</h1>
-    <div class="std-results">
-      {items.map((d) => (
-        <a href={`${prefix}decisions/${d.urn}`} class="std-results__card">
-          <div class="std-results__name"><span>{d.identifier}</span></div>
-          <div class="std-results__title">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
-        </a>
-      ))}
+<OimlLayout lang={lang} title={t(lang, 'decisions.title')}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <header class="page-hero">
+      <h1 class="page-title">
+        {t(lang, 'decisions.title')}
+      </h1>
+      <p class="hero-subtitle">
+        {t(lang, 'decisions.subtitle')}
+      </p>
+    </header>
+
+    <div class="bg-paper-soft dark:bg-paper-raised border border-rule rounded-lg p-4 sm:p-5 mb-6">
+      <div class="w-full mb-3">
+        <input
+          type="search"
+          class="w-full px-4 py-3 text-sm bg-paper dark:bg-paper-deep border border-rule rounded-md text-ink placeholder:text-ink-muted focus:outline-none focus:border-accent focus:ring-4 focus:ring-accent-soft transition-colors"
+          placeholder={t(lang, 'search.placeholder')}
+          data-decisions-search
+          aria-label={t(lang, 'search.placeholder')}
+        />
+      </div>
+      <div class="flex items-center flex-wrap gap-2 mb-3">
+        <span class="text-[0.6875rem] font-bold uppercase tracking-widest text-ink-muted">{t(lang, 'search.year')}</span>
+        <div class="flex flex-wrap gap-1">
+          <button class="std-chip is-active px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-year="">{t(lang, 'common.all')}</button>
+          {years.map((y) => (
+            <button class="std-chip px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-year={y}>{y}</button>
+          ))}
+        </div>
+      </div>
+      {bodies.length > 1 && (
+        <div class="flex items-center flex-wrap gap-2 mb-3">
+          <span class="text-[0.6875rem] font-bold uppercase tracking-widest text-ink-muted">{t(lang, 'meetings.body')}</span>
+          <div class="flex flex-wrap gap-1">
+            <button class="std-chip is-active px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-body="">{t(lang, 'common.all')}</button>
+            {bodies.map((b) => (
+              <button class="std-chip px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-body={b}>{b}</button>
+            ))}
+          </div>
+        </div>
+      )}
+      <div class="text-xs text-ink-muted pt-2.5 mt-2 border-t border-dashed border-rule">
+        <span data-decisions-count>{t(lang, 'search.results', { count: items.length })}</span>
+      </div>
     </div>
+
+    <div class="grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(300px,1fr))]" data-decisions-results>
+      {items.map((d, index) => {
+        const title = d.title || safePickLocalizedValue(d.title, lang, d.urn)
+        const actionType = firstActionTypeOf(d)
+        const snippet = snippetOf(d)
+        const year = d.dates?.[0]?.date?.slice(0, 4) ?? ''
+        const bodyType = d.bodyType ?? ''
+        return (
+          <a
+            href={`${prefix}decisions/${d.urn}`}
+            class="std-results__card"
+            data-decision-card
+            data-card-year={year}
+            data-card-body={bodyType}
+            data-card-title={(title || '').toLowerCase()}
+          >
+            <div class="flex items-center justify-between gap-2">
+              <div class="flex items-center gap-2">
+                <span class="font-mono text-xs font-bold text-accent tracking-tight">{d.identifier}</span>
+                {actionType && (
+                  <span class="inline-flex items-center px-2 py-0.5 text-[0.5625rem] font-bold uppercase tracking-wider rounded-full bg-accent-soft text-accent border border-accent-soft">
+                    {actionType}
+                  </span>
+                )}
+              </div>
+              {year && (
+                <span class="font-mono text-xs font-bold text-ink-muted bg-paper-raised dark:bg-paper-deep px-2 py-0.5 rounded">
+                  {year}
+                </span>
+              )}
+            </div>
+            <div class="font-serif font-semibold text-base leading-snug text-ink line-clamp-2">{title}</div>
+            {snippet && <div class="text-xs leading-relaxed text-ink-soft line-clamp-3">{snippet}</div>}
+            {(bodyType || d.dates?.[0]?.date) && (
+              <div class="flex items-center justify-between gap-2 mt-auto pt-2.5 border-t border-dashed border-rule">
+                <div class="flex flex-wrap gap-1">
+                  {bodyType && (
+                    <span class="inline-flex items-center px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider rounded-full bg-accent-soft text-accent border border-accent-soft">{bodyType}</span>
+                  )}
+                  {d.dates?.[0]?.date && (
+                    <span class="inline-flex items-center px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider rounded-full bg-paper-raised dark:bg-paper-deep text-ink-soft border border-rule font-mono">{d.dates[0].date}</span>
+                  )}
+                </div>
+                <div class="card-hover-arrow inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent-soft text-accent transition-all">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </div>
+              </div>
+            )}
+          </a>
+        )
+      })}
+    </div>
+
+    <p class="hidden text-center py-12 text-ink-muted text-sm" data-decisions-empty>{t(lang, 'search.resultsEmpty')}</p>
   </div>
 </OimlLayout>
+
+<script>
+  (function () {
+    const root = document.querySelector('[data-decisions-search]')?.closest('.max-w-7xl')
+    if (!root) return
+    const input = root.querySelector('[data-decisions-search]') as HTMLInputElement | null
+    const chipsYear = root.querySelectorAll('[data-year]')
+    const chipsBody = root.querySelectorAll('[data-body]')
+    const cards = Array.from(root.querySelectorAll('[data-decision-card]')) as HTMLElement[]
+    const count = root.querySelector('[data-decisions-count]')
+    const empty = root.querySelector('[data-decisions-empty]') as HTMLElement | null
+    const total = cards.length
+    let activeYear = ''
+    let activeBody = ''
+    let query = ''
+
+    function toggleChip(list: NodeListOf<Element>, active: Element) {
+      list.forEach((c) => c.classList.toggle('is-active', c === active))
+    }
+    chipsYear.forEach((chip) => chip.addEventListener('click', () => {
+      toggleChip(chipsYear, chip)
+      activeYear = (chip as HTMLElement).dataset.year ?? ''
+      apply()
+    }))
+    chipsBody.forEach((chip) => chip.addEventListener('click', () => {
+      toggleChip(chipsBody, chip)
+      activeBody = (chip as HTMLElement).dataset.body ?? ''
+      apply()
+    }))
+    input?.addEventListener('input', () => {
+      query = input.value.trim().toLowerCase()
+      apply()
+    })
+    function apply() {
+      let shown = 0
+      for (const card of cards) {
+        const y = card.dataset.cardYear ?? ''
+        const b = card.dataset.cardBody ?? ''
+        const t = card.dataset.cardTitle ?? ''
+        const visible = (!activeYear || y === activeYear) && (!activeBody || b === activeBody) && (!query || t.includes(query))
+        card.classList.toggle('hidden', !visible)
+        if (visible) shown++
+      }
+      if (count) count.textContent = `${shown} / ${total}`
+      if (empty) empty.classList.toggle('hidden', shown === 0)
+    }
+  })()
+</script>

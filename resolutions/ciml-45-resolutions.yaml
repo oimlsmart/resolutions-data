@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: US
-  meeting_urn: urn:oiml:ciml:meeting:ciml-45
   title:
   - spelling: eng
     value: 45th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 45e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: US
+  meeting_urn: urn:oiml:ciml:meeting:ciml-45
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 44th CIML Meeting'
+    value: Approval of the minutes of the 44th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 44th CIML Meeting'
+    value: Approval of the minutes of the 44th CIML Meeting
   subject:
   - spelling: eng
     value: OIML Conference
@@ -55,9 +55,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Report of the CIML President'
+    value: Report of the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: Report of the CIML President'
+    value: Report of the CIML President
   subject:
   - spelling: eng
     value: OIML Conference
@@ -84,9 +84,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Liaisons'
+    value: Liaisons
   - spelling: fra
-    value: 'Agenda Item 3: Liaisons'
+    value: Liaisons
   subject:
   - spelling: eng
     value: OIML Conference
@@ -121,9 +121,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: CIML Presidency'
+    value: CIML Presidency
   - spelling: fra
-    value: 'Agenda Item 4: CIML Presidency'
+    value: CIML Presidency
   subject:
   - spelling: eng
     value: OIML Conference
@@ -170,9 +170,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   subject:
   - spelling: eng
     value: OIML Conference
@@ -219,9 +219,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Developing countries'
+    value: Developing countries
   - spelling: fra
-    value: 'Agenda Item 6: Developing countries'
+    value: Developing countries
   subject:
   - spelling: eng
     value: OIML Conference
@@ -255,9 +255,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: BIML activities'
+    value: BIML activities
   - spelling: fra
-    value: 'Agenda Item 7: BIML activities'
+    value: BIML activities
   subject:
   - spelling: eng
     value: OIML Conference
@@ -292,9 +292,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Technical activities'
+    value: Technical activities
   - spelling: fra
-    value: 'Agenda Item 8: Technical activities'
+    value: Technical activities
   subject:
   - spelling: eng
     value: OIML Conference
@@ -325,9 +325,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 9: Financial matters'
+    value: Financial matters
   subject:
   - spelling: eng
     value: OIML Conference
@@ -360,9 +360,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Human resource matters'
+    value: Human resource matters
   - spelling: fra
-    value: 'Agenda Item 10: Human resource matters'
+    value: Human resource matters
   subject:
   - spelling: eng
     value: OIML Conference
@@ -393,14 +393,38 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Awards and other matters'
+    value: Awards and other matters
   - spelling: fra
-    value: 'Agenda Item 11: Awards and other matters'
+    value: Awards and other matters
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that Article XV of the Convention calls for the election
+        of a President and a first and second Vice President and that, in case the
+        President is absent or incapable, the first Vice-President shall temporarily
+        assume the duties of the President, and
+    - spelling: eng
+      value: Considering that Article XV does not deal with the case that the first
+        Vice-President resigns or his mandate otherwise ceases before that of the
+        second Vice-President,
+    - spelling: fra
+      value: Considérant que l'Article XV de la Convention prévoit l'élection d'un
+        Président, d'un premier Vice-Président et d'un second Vice-Président et que,
+        dans l'éventualité où le Président est absent ou se trouve dans l'incapacité
+        d'exercer ses fonctions, le premier Vice-Président doit assurer temporairement
+        la Présidence, et
+    - spelling: fra
+      value: Considérant que l'Article XV ne prévoit pas que le premier Vice-Président
+        démissionne ou que son mandat expire avant celui du deuxième Vice-Président,
   actions:
   - type: decides
     date_effective:
@@ -435,30 +459,6 @@ decisions:
         la 14ème Conférence en 2012, sur l'interprétation de l'Article XV dans l'éventualité
         où la fonction de premier Vice-Président devient vacante et si le Président
         se trouve dans l'incapacité d'exercer ses fonctions.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering that Article XV of the Convention calls for the election
-        of a President and a first and second Vice President and that, in case the
-        President is absent or incapable, the first Vice-President shall temporarily
-        assume the duties of the President, and
-    - spelling: eng
-      value: Considering that Article XV does not deal with the case that the first
-        Vice-President resigns or his mandate otherwise ceases before that of the
-        second Vice-President,
-    - spelling: fra
-      value: Considérant que l'Article XV de la Convention prévoit l'élection d'un
-        Président, d'un premier Vice-Président et d'un second Vice-Président et que,
-        dans l'éventualité où le Président est absent ou se trouve dans l'incapacité
-        d'exercer ses fonctions, le premier Vice-Président doit assurer temporairement
-        la Présidence, et
-    - spelling: fra
-      value: Considérant que l'Article XV ne prévoit pas que le premier Vice-Président
-        démissionne ou que son mandat expire avant celui du deuxième Vice-Président,
 - identifier:
   - prefix: CIML
     number: 2010/12
@@ -470,9 +470,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 12: Future meetings'
+    value: Future meetings
   subject:
   - spelling: eng
     value: OIML Conference
@@ -625,6 +625,23 @@ decisions:
       direct
   - spelling: fra
     value: Prend note du rapport par le Bureau concernant le résultat du vote en ligne
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution No. 16a of the 44th CIML Meeting to submit the
+        Draft Revision of R 106-1 on automatic rail-weighbridges to direct CIML online
+        approval, and
+  - type: noting
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the report by the Bureau on the result of the online vote;
   actions:
   - type: decides
     date_effective:
@@ -645,23 +662,6 @@ decisions:
     - spelling: fra
       value: Prend note du rapport par le Bureau concernant le résultat du vote en
         ligne ;
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution No. 16a of the 44th CIML Meeting to submit the
-        Draft Revision of R 106-1 on automatic rail-weighbridges to direct CIML online
-        approval, and
-  - type: noting
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the report by the Bureau on the result of the online vote;
 - identifier:
   - prefix: CIML
     number: 2010/17
@@ -720,6 +720,29 @@ decisions:
   subject:
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting that the Draft Revision of OIML D 16 Principles of assurance of
+        metrological control had been submitted to the CIML for online ballot, but
+        that it did not receive sufficient support to be approved,
+    - spelling: fra
+      value: Prenant note que le Projet de Révision du OIML D 16 Principes d'assurance
+        du contrôle métrologique a été soumis à un vote en ligne par le CIML, mais
+        que celui-ci n'a pas recueilli suffisamment de suffrages pour être approuvé,
+  - type: considering
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the comments made by the Netherlands and Norway,
+    - spelling: fra
+      value: Considérant les commentaires exprimés par les Pays-Bas et la Norvège,
   actions:
   - type: requests
     date_effective:
@@ -748,29 +771,6 @@ decisions:
     - spelling: fra
       value: Charge le Bureau de soumettre ce Projet de Révision modifié à l'approbation
         directe en ligne par le CIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting that the Draft Revision of OIML D 16 Principles of assurance of
-        metrological control had been submitted to the CIML for online ballot, but
-        that it did not receive sufficient support to be approved,
-    - spelling: fra
-      value: Prenant note que le Projet de Révision du OIML D 16 Principes d'assurance
-        du contrôle métrologique a été soumis à un vote en ligne par le CIML, mais
-        que celui-ci n'a pas recueilli suffisamment de suffrages pour être approuvé,
-  - type: considering
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the comments made by the Netherlands and Norway,
-    - spelling: fra
-      value: Considérant les commentaires exprimés par les Pays-Bas et la Norvège,
 - identifier:
   - prefix: CIML
     number: 2010/19
@@ -787,6 +787,27 @@ decisions:
   - spelling: fra
     value: Décide qu'une telle prise de décision concernant les propositions doit
       être reportée à la
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the proposals by its Member for Australia for a new project
+        and a new (Sub)Committee on Conformity to Type (CTT), and
+    - spelling: eng
+      value: Considering the comments received during the consultation of the members
+        of the Presidential Council and the subsequent consultation of all CIML Members
+        and relevant liaison organizations,
+    - spelling: fra
+      value: Considérant les propositions émises par le Membre Australien en faveur
+        de la création d'un nouveau projet et d'un nouveau (Sous-) Comité sur la Conformité
+        au Type (CTT), et
+    - spelling: fra
+      value: Considérant les commentaires formulés lors de la consultation des membres
+        du Conseil de la Présidence, lors de la consultation ultérieure de l'ensemble
+        des Membres du CIML ainsi que des Organisations en liaison concernées,
   actions:
   - type: resolves
     date_effective:
@@ -825,27 +846,6 @@ decisions:
         électronique, présidé par le Membre Néo-zélandais, en lui fixant pour objectif
         l'élaboration du programme de ce séminaire, en tenant compte des questions
         soulevées et des commentaires exprimés.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the proposals by its Member for Australia for a new project
-        and a new (Sub)Committee on Conformity to Type (CTT), and
-    - spelling: eng
-      value: Considering the comments received during the consultation of the members
-        of the Presidential Council and the subsequent consultation of all CIML Members
-        and relevant liaison organizations,
-    - spelling: fra
-      value: Considérant les propositions émises par le Membre Australien en faveur
-        de la création d'un nouveau projet et d'un nouveau (Sous-) Comité sur la Conformité
-        au Type (CTT), et
-    - spelling: fra
-      value: Considérant les commentaires formulés lors de la consultation des membres
-        du Conseil de la Présidence, lors de la consultation ultérieure de l'ensemble
-        des Membres du CIML ainsi que des Organisations en liaison concernées,
 - identifier:
   - prefix: CIML
     number: 2010/20
@@ -983,31 +983,6 @@ decisions:
   - spelling: fra
     value: Charge le Bureau de procéder à la consultation de l'ensemble des Membres
       du CIML
-  actions:
-  - type: instructs
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Instructs the Bureau to consult all CIML Members by way of an inquiry
-        on their position with regard to specific issues, such as the structure of
-        the technical work, the proposed Technical Management Committee and the voting
-        procedures for the adoption of OIML Publications, with a view to preparing
-        a new Draft Revision, to be considered for adoption by the CIML at its 46th
-        Meeting.
-  - type: charges
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: fra
-      value: 'Charge le Bureau de procéder à la consultation de l''ensemble des Membres
-        du CIML par une enquête leur demandant de se déterminer sur des questions
-        spécifiques telles que : la structure du travail technique, le Comité de Gestion
-        Technique proposé, ainsi que les procédures de vote pour l''adoption des publications
-        de l''OIML, en vue de préparer un nouveau Projet de Révision, à soumettre
-        pour adoption lors de la 46ème Réunion du CIML.'
   considerations:
   - type: noting
     date_effective:
@@ -1038,6 +1013,31 @@ decisions:
     - spelling: fra
       value: Considérant les commentaires formulés par certains de ses Membres au
         sujet de projets ultérieurs de révision de OIML B 6-1,
+  actions:
+  - type: instructs
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs the Bureau to consult all CIML Members by way of an inquiry
+        on their position with regard to specific issues, such as the structure of
+        the technical work, the proposed Technical Management Committee and the voting
+        procedures for the adoption of OIML Publications, with a view to preparing
+        a new Draft Revision, to be considered for adoption by the CIML at its 46th
+        Meeting.
+  - type: charges
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Charge le Bureau de procéder à la consultation de l''ensemble des Membres
+        du CIML par une enquête leur demandant de se déterminer sur des questions
+        spécifiques telles que : la structure du travail technique, le Comité de Gestion
+        Technique proposé, ainsi que les procédures de vote pour l''adoption des publications
+        de l''OIML, en vue de préparer un nouveau Projet de Révision, à soumettre
+        pour adoption lors de la 46ème Réunion du CIML.'
 - identifier:
   - prefix: CIML
     number: 2010/25
@@ -1332,16 +1332,6 @@ decisions:
     value: Elects Dr. Grahame Harvey first Vice-President.
   - spelling: fra
     value: Elit le Dr. Grahame Harvey premier Vice-Président.
-  actions:
-  - type: elects
-    date_effective:
-      date: '2010-09-21'
-      type: effective
-    message:
-    - spelling: eng
-      value: Elects Dr. Grahame Harvey first Vice-President.
-    - spelling: fra
-      value: Elit le Dr. Grahame Harvey premier Vice-Président.
   considerations:
   - type: recalling
     date_effective:
@@ -1356,6 +1346,16 @@ decisions:
       value: |-
         Rappelant sa Résolution n° 11,
         Faisant suite à l'élection d'un nouveau Vice-Président,
+  actions:
+  - type: elects
+    date_effective:
+      date: '2010-09-21'
+      type: effective
+    message:
+    - spelling: eng
+      value: Elects Dr. Grahame Harvey first Vice-President.
+    - spelling: fra
+      value: Elit le Dr. Grahame Harvey premier Vice-Président.
 - identifier:
   - prefix: CIML
     number: 2010/31

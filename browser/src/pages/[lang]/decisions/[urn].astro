@@ -3,8 +3,11 @@ import cfg from 'virtual:edoxen-config'
 import payloads from 'virtual:edoxen-payloads'
 import OimlLayout from '../../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
+import { t } from '../../../utils/i18n.js'
+import { getActionColor, formatActionType } from '../../../utils/action-types.js'
+import { loadMeetingForDecision } from '../../../utils/decision-to-meeting.js'
 
-export function getStaticPaths() {
+export async function getStaticPaths() {
   const urns = Object.keys(payloads.decisionByUrn)
   const nonDefault = cfg.locales.filter((l) => (l.routePrefix ?? '') !== '')
   return urns.flatMap((urn) =>
@@ -25,117 +28,231 @@ const actions = decision.actions ?? []
 const considerations = decision.considerations ?? []
 const approvals = decision.approvals ?? []
 const dates = decision.dates ?? []
-const meetingLink = payloads.meetingLinkByDecisionId[decision.identifier?.[0]?.prefix + '-' + decision.identifier?.[0]?.number]
-const linkedMeeting = meetingLink ? payloads.meetingByUrn[meetingLink.meetingUrn] : null
+const refUrls = decision.urls ?? []
+const categories = decision.categories ?? []
+
+const identifier = decision.identifier?.[0]
+const linkedMeeting = decision.urn ? await loadMeetingForDecision(decision.urn) : null
+
+const agendaLabelRaw = decision.agenda_item ?? ''
+function findAgendaItem(label: string): any {
+  if (!linkedMeeting?.agenda?.items) return null
+  const items = linkedMeeting.agenda.items
+  const direct = items.find((it: any) => it.label === label)
+  if (direct) return direct
+  let l = label
+  while (l.includes('.')) {
+    l = l.split('.').slice(0, -1).join('.')
+    const parent = items.find((it: any) => it.label === l)
+    if (parent) return parent
+  }
+  return null
+}
+const agendaItem = agendaLabelRaw ? findAgendaItem(agendaLabelRaw) : null
+const agendaLabel = agendaItem?.label ?? agendaLabelRaw
+const agendaItemTitle = agendaItem ? safePickLocalizedValue(agendaItem.title, lang) : ''
+const agendaItemOutcome = agendaItem?.outcome ?? ''
+// Prefer the URN stored on the agenda item (data-driven); fall back to the
+// hierarchical derivation `urn:oiml:{body}:meeting:{slug}:agenda:{label}`.
+const agendaItemUrn = agendaItem?.urn
+  ?? (agendaLabel && linkedMeeting?.urn ? `${linkedMeeting.urn}:agenda:${agendaLabel}` : '')
+const agendaAnchor = agendaItemUrn
+  // RFC 8141 URNs are valid in URL fragments — the browser will scroll to
+  // the element whose `id` matches the agenda item URN.
+  ? `${prefix}meetings/${linkedMeeting?.urn}#${agendaItemUrn}`
+  : (agendaLabel && linkedMeeting?.urn ? `${prefix}meetings/${linkedMeeting.urn}#agenda-${agendaLabel}` : '')
+
+const dateTypeLabel = (type: string | undefined): string => {
+  if (!type) return ''
+  return t(lang, `resolution.dateType.${type}`) ?? type
+}
 ---
 
 <OimlLayout lang={lang} title={title}>
-  <div class="res-page std-page">
-    <a href={`${prefix}decisions`} class="std-page__back back-link">← Decisions</a>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <a href={`${prefix}decisions`} class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      {t(lang, 'decisions.title')}
+    </a>
 
-    <header class="std-page__header">
-      <div class="std-page__meta">
-        {decision.identifier[0] && (
-          <span class="std-page__badge font-mono badge-id">
-            {decision.identifier[0].prefix}/{decision.identifier[0].number}
+    <header class="detail-hero">
+      <div class="flex flex-wrap items-center gap-2 mb-5">
+        {identifier && (
+          <span class="hero-badge hero-badge--id">
+            {identifier.prefix}/{identifier.number}
           </span>
         )}
         {decision.body_type && (
-          <span class="std-page__badge">{decision.body_type}</span>
-        )}
-        {linkedMeeting && (
-          <a href={`${prefix}meetings/${linkedMeeting.urn}`} class="std-page__badge std-page__badge--link">
-            {safePickLocalizedValue(linkedMeeting.title, lang, linkedMeeting.urn ?? '')}
-          </a>
+          <span class="hero-badge">{decision.body_type}</span>
         )}
         {dates[0]?.date && (
-          <span class="std-page__badge badge-date">{dates[0].date}</span>
+          <span class="hero-badge hero-badge--date">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            {dates[0].date}
+          </span>
         )}
       </div>
-      <h1 class="std-page__title">{title}</h1>
-      {subject && subject !== decision.urn && <p class="res-detail-subtitle">{subject}</p>}
+      <h1 class="hero-title-sm">{title}</h1>
+      {subject && subject !== decision.urn && (
+        <p class="text-white/90 text-lg leading-relaxed">{subject}</p>
+      )}
+
+      {agendaLabel && linkedMeeting?.urn && (
+        <a href={agendaAnchor} class="mt-5 inline-flex items-center gap-2 px-3 py-2 rounded-md text-sm text-white no-underline transition-colors hover:bg-white/20"
+                                   style="background: rgb(255 255 255 / 0.10); border: 1px solid rgb(255 255 255 / 0.20); backdrop-filter: blur(10px);">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+          <span class="font-mono text-xs font-bold uppercase tracking-wider opacity-90">{t(lang, 'meeting.agendaItem')} {agendaLabelRaw}</span>
+          {agendaItemTitle && <span class="text-white/95 font-serif font-medium">{agendaItemTitle}</span>}
+          {agendaItemOutcome && (
+            <span class="ml-1 inline-flex items-center px-2 py-0.5 text-[0.5625rem] font-bold uppercase tracking-wider rounded-full bg-white/15 border border-white/30">
+              {t(lang, `meeting.agendaOutcome.${agendaItemOutcome}`)}
+            </span>
+          )}
+          <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="ml-1 opacity-80"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+        </a>
+      )}
+
+      {decision.urn && (
+        <div class="urn-bar" data-urn-bar>
+          <span class="urn-label">{t(lang, 'resolution.urn')}</span>
+          <code class="urn-value">{decision.urn}</code>
+          <button type="button" class="urn-copy-btn" data-urn-copy={decision.urn} aria-label="Copy URN">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          </button>
+        </div>
+      )}
+
+      {decision.doi && (
+        <div class="urn-bar doi-bar" data-doi-bar>
+          <span class="urn-label">{t(lang, 'resolution.doi')}</span>
+          <a href={`https://doi.org/${decision.doi}`} class="urn-value urn-value--link" target="_blank" rel="noopener">{decision.doi}</a>
+          <button type="button" class="urn-copy-btn" data-urn-copy={decision.doi} aria-label="Copy DOI">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          </button>
+        </div>
+      )}
     </header>
 
-    {decision.urn && (
-      <div class="urn-bar">
-        <span class="urn-label">URN</span>
-        <code class="urn-value">{decision.urn}</code>
-      </div>
-    )}
-
-    {decision.doi && (
-      <div class="urn-bar doi-bar">
-        <span class="urn-label">DOI</span>
-        <a href={`https://doi.org/${decision.doi}`} class="urn-value urn-value--link" target="_blank" rel="noopener">{decision.doi}</a>
-      </div>
-    )}
-
     {considering && (
-      <section class="std-page__section">
-        <h2 class="section-title">Considering</h2>
-        <p>{considering}</p>
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.considering')}</h2>
+        <p class="text-ink-soft leading-relaxed">{considering}</p>
       </section>
     )}
 
     {considerations.length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Considerations</h2>
-        <ul class="consideration-list">
-          {considerations.map((c) => (
-            <li class="consideration-item">
-              {c.kind && <span class="consideration-kind">{c.kind}</span>}
-              <span class="consideration-message">{safePickLocalizedValue(c.message, lang)}</span>
-            </li>
-          ))}
+      <section class="decision-primary-section mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.considerations')}</h2>
+        <ul class="flex flex-col gap-2.5 list-none p-0">
+          {considerations.map((c) => {
+            const color = c.kind ? getActionColor(c.kind) : null
+            return (
+              <li class="consideration-item">
+                {c.kind && (
+                  <span class="consideration-kind" style={`background:${color?.bg};color:${color?.text};`}>{formatActionType(c.kind, lang)}</span>
+                )}
+                <span class="flex-1 text-base leading-relaxed text-ink-soft">{safePickLocalizedValue(c.message, lang)}</span>
+              </li>
+            )
+          })}
         </ul>
       </section>
     )}
 
     {actions.length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Actions</h2>
-        <ul class="action-list">
-          {actions.map((a) => (
-            <li class="action-item">
-              {a.type && <span class="action-type">{a.type}</span>}
-              <div class="action-message">{safePickLocalizedValue(a.message, lang)}</div>
-            </li>
-          ))}
+      <section class="decision-primary-section mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.actions')}</h2>
+        <ul class="flex flex-col gap-2.5 list-none p-0">
+          {actions.map((a) => {
+            const color = a.type ? getActionColor(a.type) : null
+            return (
+              <li class="action-item" style={`border-left-color:${color?.bg ?? 'var(--color-brand-200)'};`}>
+                {a.type && (
+                  <span class="action-type" style={`background:${color?.bg};color:${color?.text};`}>{formatActionType(a.type, lang)}</span>
+                )}
+                <div class="flex-1 text-base leading-relaxed text-ink-soft">{safePickLocalizedValue(a.message, lang)}</div>
+              </li>
+            )
+          })}
         </ul>
       </section>
     )}
 
     {approvals.length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Approvals</h2>
-        <ul>
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.approvals')}</h2>
+        <ul class="flex flex-col gap-2 list-none p-0">
           {approvals.map((a) => (
-            <li>{a.degree}{a.body ? ` — ${a.body}` : ''}{a.date ? ` (${a.date})` : ''}</li>
+            <li class="approval-item">
+              <span class="font-bold text-accent capitalize">{a.degree}</span>
+              {a.body && <span class="ml-2">{a.body}</span>}
+              {a.date && <span class="ml-2 font-mono text-xs text-ink-muted">{a.date}</span>}
+            </li>
           ))}
         </ul>
       </section>
     )}
 
     {dates.length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Dates</h2>
-        <ul>
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.dates')}</h2>
+        <ul class="flex flex-col gap-2 list-none p-0">
           {dates.map((d) => (
-            <li><strong>{d.type}</strong>: {d.date}</li>
+            <li class="date-item">
+              <span class="font-semibold text-accent capitalize mr-2">{dateTypeLabel(d.type)}:</span>
+              <span class="font-mono">{d.date}</span>
+            </li>
           ))}
         </ul>
       </section>
     )}
 
-    {(decision.urls ?? []).length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Reference documents</h2>
-        <ul>
-          {(decision.urls ?? []).map((u) => (
-            <li><a href={u.ref}>{u.kind ?? 'document'}</a></li>
+    {categories.length > 0 && (
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.categories')}</h2>
+        <div class="flex flex-wrap gap-1.5">
+          {categories.map((c) => (
+            <span class="inline-flex px-2.5 py-1 text-xs font-medium bg-accent-soft text-accent border border-accent-soft rounded-full">{c}</span>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {refUrls.length > 0 && (
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'resolution.referenceDocuments')}</h2>
+        <ul class="flex flex-col gap-2 list-none p-0">
+          {refUrls.map((u) => (
+            <li class="reference-item">
+              <a href={u.ref} target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-accent hover:underline font-medium no-underline">
+                <span>{u.kind ?? t(lang, 'resolution.viewReferenceDocument')}</span>
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M17 7H8M17 7V16"/></svg>
+              </a>
+            </li>
           ))}
         </ul>
       </section>
     )}
   </div>
 </OimlLayout>
+
+<script>
+  (function () {
+    const buttons = document.querySelectorAll<HTMLButtonElement>('[data-urn-copy]')
+    if (!buttons.length) return
+    async function copy(text: string, btn: HTMLButtonElement) {
+      try { await navigator.clipboard.writeText(text) }
+      catch {
+        const ta = document.createElement('textarea')
+        ta.value = text
+        document.body.appendChild(ta)
+        ta.select()
+        document.execCommand('copy')
+        ta.remove()
+      }
+      btn.classList.add('urn-copy-btn--done')
+      setTimeout(() => btn.classList.remove('urn-copy-btn--done'), 1400)
+    }
+    buttons.forEach((btn) => btn.addEventListener('click', () => copy(btn.dataset.urnCopy ?? '', btn)))
+  })()
+</script>

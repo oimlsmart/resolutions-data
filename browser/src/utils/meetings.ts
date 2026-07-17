@@ -13,7 +13,13 @@ interface MeetingFile {
   readonly status?: string
   readonly committee?: string
   readonly agenda?: {
-    items?: readonly { label: string; title?: readonly { spelling: string; value: string }[]; kind?: string; outcome?: string }[]
+    items?: readonly {
+      urn?: string
+      label: string
+      title?: readonly { spelling: string; value: string }[]
+      kind?: string
+      outcome?: string
+    }[]
   }
 }
 

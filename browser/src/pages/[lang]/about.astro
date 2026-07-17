@@ -2,6 +2,11 @@
 import cfg from 'virtual:edoxen-config'
 import OimlLayout from '../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf } from '../../utils/url.js'
+import { t } from '../../utils/i18n.js'
+import { getActionColor, formatActionType, listActionTypes } from '../../utils/action-types.js'
+import { readFileSync } from 'node:fs'
+import { join } from 'node:path'
+import { parse } from 'yaml'
 
 export function getStaticPaths() {
   return cfg.locales
@@ -10,11 +15,211 @@ export function getStaticPaths() {
 }
 
 const lang = Astro.params.lang ?? cfg.site.locale
+const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
+const committeePath = join(process.cwd(), 'src', 'data', 'committee.yaml')
+const committee = parse(readFileSync(committeePath, 'utf-8'))
+const actionTypes = listActionTypes()
+const OIML_LINKS = {
+  oiml: 'https://www.oiml.org',
+  members: 'https://www.oiml.org/en/structure/members/memberslist_view?varMember=1',
+  github: 'https://github.com/oimlsmart',
+  linkedin: 'https://www.linkedin.com/company/organisation-internationale-de-métrologie-légale',
+}
 ---
 
-<OimlLayout lang={lang} title="About">
-  <div class="res-page">
-    <h1>About</h1>
-    <p>{cfg.site.description}</p>
+<OimlLayout lang={lang} title={t(lang, 'about.title')}>
+  <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <a href={prefix} class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      {t(lang, 'about.back')}
+    </a>
+
+    <header class="page-hero">
+      <h1 class="page-title">
+        {t(lang, 'about.heroTitle')}
+      </h1>
+      <p class="hero-subtitle">
+        {t(lang, 'about.heroSubtitle')}
+      </p>
+    </header>
+
+    <section class="mb-10">
+      <h2 class="section-title">{t(lang, 'about.actionTypes')}</h2>
+      <p class="text-ink-soft leading-relaxed mb-3">{t(lang, 'about.actionTypesDesc')}</p>
+      <p class="text-sm text-ink-muted mb-4">{t(lang, 'about.actionTypesList')}</p>
+      <div class="flex flex-wrap gap-2">
+        {actionTypes.map((type) => {
+          const color = getActionColor(type)
+          return (
+            <span
+              class="action-chip inline-flex items-center px-3 py-1 text-xs font-bold uppercase tracking-wider rounded-full"
+              style={`background:${color.bg};color:${color.text};`}
+            >
+              {formatActionType(type, lang)}
+            </span>
+          )
+        })}
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <h2 class="section-title">{t(lang, 'about.aboutCommittee')}</h2>
+      <div class="bg-paper-soft dark:bg-paper-raised border border-rule rounded-lg p-6">
+        <h3 class="font-serif text-xl font-bold text-ink dark:text-paper mb-2">{t(lang, 'committee.title')}</h3>
+        <p class="text-ink-soft leading-relaxed mb-6">{t(lang, 'committee.scope')}</p>
+
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
+          <div class="flex flex-col items-center text-center gap-1 p-4 bg-paper dark:bg-paper-deep rounded-md border border-rule">
+            <span class="font-serif font-bold text-3xl text-accent">{committee.established}</span>
+            <span class="text-xs uppercase tracking-widest font-semibold text-ink-muted">{t(lang, 'about.statEstablished')}</span>
+          </div>
+          <div class="flex flex-col items-center text-center gap-1 p-4 bg-paper dark:bg-paper-deep rounded-md border border-rule">
+            <span class="font-serif font-bold text-3xl text-accent">{committee.memberStates}</span>
+            <span class="text-xs uppercase tracking-widest font-semibold text-ink-muted">{t(lang, 'about.statMemberStates')}</span>
+          </div>
+          <div class="flex flex-col items-center text-center gap-1 p-4 bg-paper dark:bg-paper-deep rounded-md border border-rule">
+            <span class="font-serif font-bold text-3xl text-accent">{committee.correspondingMembers}</span>
+            <span class="text-xs uppercase tracking-widest font-semibold text-ink-muted">{t(lang, 'about.statCorrespondingMembers')}</span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap gap-3">
+          <a href={OIML_LINKS.oiml} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 text-sm font-medium text-accent border border-accent rounded hover:bg-accent-soft transition-colors no-underline">
+            {t(lang, 'footer.officialWebsite')}
+          </a>
+          <a href={OIML_LINKS.members} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 text-sm font-medium text-accent border border-accent rounded hover:bg-accent-soft transition-colors no-underline">
+            {t(lang, 'footer.memberStatesLink')}
+          </a>
+          <a href={OIML_LINKS.github} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 text-sm font-medium text-accent border border-accent rounded hover:bg-accent-soft transition-colors no-underline">
+            {t(lang, 'footer.github')}
+          </a>
+          <a href={OIML_LINKS.linkedin} target="_blank" rel="noopener noreferrer" class="inline-flex items-center px-4 py-2 text-sm font-medium text-accent border border-accent rounded hover:bg-accent-soft transition-colors no-underline">
+            {t(lang, 'footer.linkedin')}
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="mb-10">
+      <details class="bg-paper-soft dark:bg-paper-raised border border-rule rounded-lg p-4 sm:p-6">
+        <summary class="section-title cursor-pointer list-none">{t(lang, 'about.technical')}</summary>
+        <div class="mt-5 flex flex-col gap-6">
+          <div>
+            <h3 class="font-serif text-lg font-semibold text-accent mb-3">{t(lang, 'about.edoxen')}</h3>
+            <div class="pl-4 border-l-2 border-accent-soft">
+              <p class="text-ink-soft leading-relaxed mb-3">
+                {lang === 'fr'
+                  ? "Les résolutions de cette archive sont stockées dans des fichiers YAML en texte brut utilisant le format Edoxen. Cette représentation structurée garantit que les résolutions restent lisibles par l'humain tout en étant entièrement exploitables par machine."
+                  : 'Resolutions in this archive are stored in plain-text YAML files using the Edoxen format. This structured representation ensures resolutions remain human-readable while being entirely machine-parsable.'}
+              </p>
+              <pre class="bg-paper-deep dark:bg-paper border border-rule rounded p-4 overflow-x-auto text-xs font-mono text-ink-soft mb-3"><code>{`metadata:
+  title: Resolutions of the 17th OIML Conference
+  dates:
+  - start: '2024-10-18'
+    end:   '2024-10-25'
+  source: OIML Conference Secretariat (BIML)
+
+resolutions:
+- identifier: Conference/2025/01
+  title: Approves the agenda for the 17th Conference
+  actions:
+  - type: approves
+    message: Approves the agenda for the 17th International Conference`}</code></pre>
+              <p>
+                <a href="https://github.com/metanorma/edoxen" target="_blank" rel="noopener noreferrer" class="text-accent hover:underline">
+                  {lang === 'fr' ? "Voir le schéma Edoxen sur GitHub →" : 'View the Edoxen schema on GitHub →'}
+                </a>
+              </p>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-serif text-lg font-semibold text-accent mb-3">{t(lang, 'about.lifecycle')}</h3>
+            <div class="pl-4 border-l-2 border-accent-soft">
+              <p class="text-ink-soft leading-relaxed mb-3">
+                {lang === 'fr'
+                  ? "Chaque résolution suit un cycle structuré capturé via trois sections :"
+                  : 'Each resolution follows a structured lifecycle, captured through three sections:'}
+              </p>
+              <ol class="flex flex-col gap-3 list-none p-0">
+                <li class="flex gap-3">
+                  <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent text-white font-mono text-sm font-bold shrink-0">1</span>
+                  <div>
+                    <h4 class="font-serif text-base font-semibold text-ink dark:text-paper">{t(lang, 'resolution.considerations')}</h4>
+                    <p class="text-sm text-ink-soft leading-relaxed">
+                      {lang === 'fr'
+                        ? "Le contexte et les antécédents qui ont conduit à la résolution."
+                        : 'The context and background that led to the resolution.'}
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3">
+                  <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent text-white font-mono text-sm font-bold shrink-0">2</span>
+                  <div>
+                    <h4 class="font-serif text-base font-semibold text-ink dark:text-paper">{t(lang, 'resolution.actions')}</h4>
+                    <p class="text-sm text-ink-soft leading-relaxed">
+                      {lang === 'fr'
+                        ? "Les décisions elles-mêmes — ce que le comité a résolu de faire."
+                        : "The decisions themselves — what the committee resolved to do."}
+                    </p>
+                  </div>
+                </li>
+                <li class="flex gap-3">
+                  <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent text-white font-mono text-sm font-bold shrink-0">3</span>
+                  <div>
+                    <h4 class="font-serif text-base font-semibold text-ink dark:text-paper">{t(lang, 'resolution.approvals')}</h4>
+                    <p class="text-sm text-ink-soft leading-relaxed">
+                      {lang === 'fr'
+                        ? "Comment la résolution a été formellement adoptée."
+                        : 'How the resolution was formally adopted.'}
+                    </p>
+                  </div>
+                </li>
+              </ol>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-serif text-lg font-semibold text-accent mb-3">{t(lang, 'about.urnPattern')}</h3>
+            <div class="pl-4 border-l-2 border-accent-soft">
+              <p class="text-ink-soft leading-relaxed mb-3">
+                <code class="px-1.5 py-0.5 bg-accent-soft rounded font-mono text-xs">urn:oiml:doc:&lt;body&gt;:resolution:&lt;id&gt;</code>
+              </p>
+              <ul class="flex flex-col gap-2 list-none p-0">
+                <li class="text-sm text-ink-soft">
+                  <strong class="text-ink dark:text-paper">{lang === 'fr' ? 'CIML :' : 'CIML:'}</strong>{' '}
+                  <code class="font-mono text-xs px-1.5 py-0.5 bg-accent-soft rounded">urn:oiml:doc:ciml:resolution:&lt;year&gt;-&lt;seq&gt;</code>
+                  <span class="block mt-1 text-xs text-ink-muted ml-4">{lang === 'fr' ? 'Exemple :' : 'Example:'} <code class="font-mono">urn:oiml:doc:ciml:resolution:2025-44</code></span>
+                </li>
+                <li class="text-sm text-ink-soft">
+                  <strong class="text-ink dark:text-paper">{lang === 'fr' ? 'Conférence :' : 'Conference:'}</strong>{' '}
+                  <code class="font-mono text-xs px-1.5 py-0.5 bg-accent-soft rounded">urn:oiml:doc:conf:resolution:&lt;session&gt;.&lt;seq&gt;</code>
+                  <span class="block mt-1 text-xs text-ink-muted ml-4">{lang === 'fr' ? 'Exemple :' : 'Example:'} <code class="font-mono">urn:oiml:doc:conf:resolution:17.01</code></span>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div>
+            <h3 class="font-serif text-lg font-semibold text-accent mb-3">{t(lang, 'about.doiPattern')}</h3>
+            <div class="pl-4 border-l-2 border-accent-soft">
+              <p class="text-ink-soft leading-relaxed mb-3">
+                <code class="px-1.5 py-0.5 bg-accent-soft rounded font-mono text-xs">10.63493/resolutions/</code>
+              </p>
+              <ul class="flex flex-col gap-2 list-none p-0">
+                <li class="text-sm text-ink-soft">
+                  <strong>CIML:</strong>{' '}
+                  <code class="font-mono text-xs px-1.5 py-0.5 bg-accent-soft rounded">10.63493/resolutions/ciml&lt;YYYY&gt;&lt;NN&gt;</code>
+                </li>
+                <li class="text-sm text-ink-soft">
+                  <strong>{lang === 'fr' ? 'Conférence' : 'Conference'}:</strong>{' '}
+                  <code class="font-mono text-xs px-1.5 py-0.5 bg-accent-soft rounded">10.63493/resolutions/conf&lt;YYYY&gt;&lt;NN&gt;</code>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </details>
+    </section>
   </div>
 </OimlLayout>

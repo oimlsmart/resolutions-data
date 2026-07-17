@@ -1,14 +1,14 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  city: FRSJL
-  country_code: FR
-  meeting_urn: urn:oiml:ciml:meeting:ciml-37
   title:
   - spelling: eng
     value: 37th CIML Meeting — Minutes (EN, Bulletin)
   - spelling: fra
     value: 37th CIML Meeting — Minutes (FR, Bulletin)
+  source: OIML CIML Secretariat (BIML)
+  city: FRSJL
+  country_code: FR
+  meeting_urn: urn:oiml:ciml:meeting:ciml-37
 decisions:
 - identifier:
   - prefix: CIML
@@ -21,7 +21,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approbation du compte rendu de la 36ème Réunion du CIML'
+    value: Approbation du compte rendu de la 36ème Réunion du CIML
   actions:
   - type: notes
     date_effective:
@@ -42,8 +42,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Mise en oeuvre des Décisions et Résolutions de la 11ème
-      Conférence et de la 36ème Réunion du CIML'
+    value: Mise en oeuvre des Décisions et Résolutions de la 11ème Conférence et de
+      la 36ème Réunion du CIML
   actions:
   - type: notes
     date_effective:
@@ -68,8 +68,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Mise en oeuvre du Plan d''Action 1999-2002 + 2003-2004
-      et derniere extension jusqu''à la fin de 2004'
+    value: Mise en oeuvre du Plan d'Action 1999-2002 + 2003-2004 et derniere extension
+      jusqu'à la fin de 2004
   actions:
   - type: notes
     date_effective:
@@ -92,11 +92,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: États Membres et Membres Correspondants'
-  - &1
-    spelling: fra
-    value: 'Agenda Item 4: États Membres et Membres Correspondants'
-  subject: &2
+    value: États Membres et Membres Correspondants
+  - spelling: fra
+    value: États Membres et Membres Correspondants
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -110,7 +109,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4.1: Nouveaux Membres - Adhésions attendues'
+    value: Nouveaux Membres - Adhésions attendues
   actions:
   - type: notes
     date_effective:
@@ -131,7 +130,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4.2: Situation de certains Membres'
+    value: Situation de certains Membres
   actions:
   - type: notes
     date_effective:
@@ -153,11 +152,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Questions financières'
-  - &3
-    spelling: fra
-    value: 'Agenda Item 5: Questions financières'
-  subject: &4
+    value: Questions financières
+  - spelling: fra
+    value: Questions financières
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -171,7 +169,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.1: Adoption du rapport de l''expert comptable pour 2001'
+    value: Adoption du rapport de l'expert comptable pour 2001
   actions:
   - type: notes
     date_effective:
@@ -193,7 +191,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.2: Examen de la situation financiere pour 2002 et 2003'
+    value: Examen de la situation financiere pour 2002 et 2003
   actions:
   - type: notes
     date_effective:
@@ -218,7 +216,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.3: Analyse des coûts de fonctionnement du BIML'
+    value: Analyse des coûts de fonctionnement du BIML
   actions:
   - type: notes
     date_effective:
@@ -246,7 +244,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Activités du Conseil de la Présidence'
+    value: Activités du Conseil de la Présidence
   actions:
   - type: notes
     date_effective:
@@ -271,11 +269,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Situation du BIML'
-  - &5
-    spelling: fra
-    value: 'Agenda Item 7: Situation du BIML'
-  subject: &6
+    value: Situation du BIML
+  - spelling: fra
+    value: Situation du BIML
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -289,7 +286,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1: Modification des Statuts du Personnel'
+    value: Modification des Statuts du Personnel
   actions:
   - type: notes
     date_effective:
@@ -313,7 +310,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.2: Personnel du BIML'
+    value: Personnel du BIML
   actions:
   - type: notes
     date_effective:
@@ -335,7 +332,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.3: Activités du BIML'
+    value: Activités du BIML
   actions:
   - type: notes
     date_effective:
@@ -357,8 +354,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
-      électronique'
+    value: Progrès dans l'utilisation d'Internet et du courrier électronique
   actions:
   - type: notes
     date_effective:
@@ -378,10 +374,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Activités techniques'
-  - &7
-    spelling: fra
-    value: 'Agenda Item 8: Activités techniques'
+    value: Activités techniques
+  - spelling: fra
+    value: Activités techniques
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
   actions:
   - type: notes
     date_effective:
@@ -392,12 +390,8 @@ decisions:
       value: A written report drawn up by the BIML was distributed to Participants
         and commented by Mr. Issaev, responsible for following OIML technical activities
         as CIML Vice-President.
-    - &8
-      spelling: fra
+    - spelling: fra
       value: 'Le Comité a approuvé les projets de Recommandations suivants:'
-  subject: &9
-  - spelling: fra
-    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/8.3
@@ -409,7 +403,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.3: Accélération du travail technique'
+    value: Accélération du travail technique
   actions:
   - type: notes
     date_effective:
@@ -454,7 +448,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.4: Approbation des projets de Recommandations'
+    value: Approbation des projets de Recommandations
   actions:
   - type: approves
     date_effective:
@@ -475,10 +469,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
-  - &10
-    spelling: fra
-    value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
+    value: Système de Certificats OIML pour les Instruments de Mesure
+  - spelling: fra
+    value: Système de Certificats OIML pour les Instruments de Mesure
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
   actions:
   - type: notes
     date_effective:
@@ -496,9 +492,6 @@ decisions:
         les exigences, les méthodes d'essai et les formats de rapport d'essai traitant
         des familles, modules et familles de modules des instruments de mesure lors
         de
-  subject: &11
-  - spelling: fra
-    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/9.1
@@ -510,7 +503,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.1: Informations générales'
+    value: Informations générales
   actions:
   - type: notes
     date_effective:
@@ -540,7 +533,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.2: Nouvelles Recommandations applicables dans le Système'
+    value: Nouvelles Recommandations applicables dans le Système
   actions:
   - type: notes
     date_effective:
@@ -564,7 +557,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.3: Plans pour les développements futurs'
+    value: Plans pour les développements futurs
   actions:
   - type: notes
     date_effective:
@@ -586,11 +579,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Evolutions'
-  - &12
-    spelling: fra
-    value: 'Agenda Item 10: Evolutions'
-  subject: &13
+    value: Evolutions
+  - spelling: fra
+    value: Evolutions
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -604,7 +596,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.1: Arrangement d''Acceptation Mutuelle (MAA)'
+    value: Arrangement d'Acceptation Mutuelle (MAA)
   actions:
   - type: notes
     date_effective:
@@ -628,7 +620,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: Documents Horizontaux'
+    value: Documents Horizontaux
   actions:
   - type: notes
     date_effective:
@@ -660,8 +652,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.3: Rapport sur l''étude Les Bénéfices apportés par la Métrologie
-      Légale dans l''Economie et la Société'
+    value: Rapport sur l'étude Les Bénéfices apportés par la Métrologie Légale dans
+      l'Economie et la Société
   actions:
   - type: notes
     date_effective:
@@ -687,8 +679,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.4: Examen préliminaire sur les résultats du Seminaire Que
-      Sera la Métrologie Légale en 2020 ?'
+    value: Examen préliminaire sur les résultats du Seminaire Que Sera la Métrologie
+      Légale en 2020 ?
   actions:
   - type: notes
     date_effective:
@@ -710,13 +702,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
-      rendu séparé'
-  - &14
-    spelling: fra
-    value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
-      rendu séparé'
-  subject: &15
+    value: Rapport sur le Conseil de Développement - Voir compte rendu séparé
+  - spelling: fra
+    value: Rapport sur le Conseil de Développement - Voir compte rendu séparé
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -730,7 +719,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.1: Présentation des programmes de la Banque Mondiale'
+    value: Présentation des programmes de la Banque Mondiale
   actions:
   - type: notes
     date_effective:
@@ -755,8 +744,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.2: Activités du Conseil de Développement, plan d''action
-      et évolutions possibles de ses structures'
+    value: Activités du Conseil de Développement, plan d'action et évolutions possibles
+      de ses structures
   actions:
   - type: notes
     date_effective:
@@ -782,11 +771,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
-  - &16
-    spelling: fra
-    value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
-  subject: &17
+    value: Liaisons avec les Institutions Régionales et Internationales
+  - spelling: fra
+    value: Liaisons avec les Institutions Régionales et Internationales
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -800,7 +788,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.1: Organisations Régionales de Métrologie Légale (LRMO)'
+    value: Organisations Régionales de Métrologie Légale (LRMO)
   actions:
   - type: notes
     date_effective:
@@ -827,8 +815,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.2: Autres institutions (Convention du Mètre, ILAC, ISO,
-      OMC, etc.)'
+    value: Autres institutions (Convention du Mètre, ILAC, ISO, OMC, etc.)
   actions:
   - type: notes
     date_effective:
@@ -853,8 +840,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.3: Information sur les développements en métrologie légale
-      dans les Régions'
+    value: Information sur les développements en métrologie légale dans les Régions
   actions:
   - type: notes
     date_effective:
@@ -880,7 +866,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Election du Président du CIML, 2003'
+    value: Election du Président du CIML, 2003
   actions:
   - type: notes
     date_effective:
@@ -904,11 +890,10 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Réunions futures'
-  - &18
-    spelling: fra
-    value: 'Agenda Item 14: Réunions futures'
-  subject: &19
+    value: Réunions futures
+  - spelling: fra
+    value: Réunions futures
+  subject:
   - spelling: fra
     value: "(The CIML)"
 - identifier:
@@ -922,7 +907,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.1: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)'
+    value: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)
   actions:
   - type: notes
     date_effective:
@@ -943,8 +928,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.2: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e
-      m e}} $ Conférence (2004)'
+    value: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e m e}} $ Conférence
+      (2004)
   actions:
   - type: notes
     date_effective:
@@ -965,7 +950,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.3: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)'
+    value: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)
   actions:
   - type: notes
     date_effective:
@@ -986,7 +971,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15: Autres questions'
+    value: Autres questions
   actions:
   - type: notes
     date_effective:
@@ -1007,7 +992,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 16: Adoption des décisions'
+    value: Adoption des décisions
   actions:
   - type: notes
     date_effective:
@@ -1028,7 +1013,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approbation du compte rendu de la 36ème Réunion du CIML'
+    value: Approbation du compte rendu de la 36ème Réunion du CIML
   actions:
   - type: notes
     date_effective:
@@ -1049,8 +1034,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Mise en oeuvre des Décisions et Résolutions de la 11ème
-      Conférence et de la 36ème Réunion du CIML'
+    value: Mise en oeuvre des Décisions et Résolutions de la 11ème Conférence et de
+      la 36ème Réunion du CIML
   actions:
   - type: notes
     date_effective:
@@ -1072,8 +1057,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Mise en oeuvre du Plan d''Action 1999-2002 + 2003-2004
-      et derniere extension jusqu''à la fin de 2004'
+    value: Mise en oeuvre du Plan d'Action 1999-2002 + 2003-2004 et derniere extension
+      jusqu'à la fin de 2004
   actions:
   - type: notes
     date_effective:
@@ -1097,9 +1082,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: États Membres et Membres Correspondants'
-  - *1
-  subject: *2
+    value: États Membres et Membres Correspondants
+  - spelling: fra
+    value: États Membres et Membres Correspondants
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/4.1
@@ -1111,7 +1099,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4.1: Nouveaux Membres - Adhésions attendues'
+    value: Nouveaux Membres - Adhésions attendues
   actions:
   - type: notes
     date_effective:
@@ -1133,7 +1121,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4.2: Situation de certains Membres'
+    value: Situation de certains Membres
   actions:
   - type: notes
     date_effective:
@@ -1155,9 +1143,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Questions financières'
-  - *3
-  subject: *4
+    value: Questions financières
+  - spelling: fra
+    value: Questions financières
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/5.1
@@ -1169,7 +1160,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.1: Adoption du rapport de l''expert comptable pour 2001'
+    value: Adoption du rapport de l'expert comptable pour 2001
   actions:
   - type: notes
     date_effective:
@@ -1191,7 +1182,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.2: Examen de la situation financiere pour 2002 et 2003'
+    value: Examen de la situation financiere pour 2002 et 2003
   actions:
   - type: notes
     date_effective:
@@ -1216,7 +1207,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.3: Analyse des coûts de fonctionnement du BIML'
+    value: Analyse des coûts de fonctionnement du BIML
   actions:
   - type: instructs
     date_effective:
@@ -1237,7 +1228,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Activités du Conseil de la Présidence'
+    value: Activités du Conseil de la Présidence
   actions:
   - type: notes
     date_effective:
@@ -1258,9 +1249,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Situation du BIML'
-  - *5
-  subject: *6
+    value: Situation du BIML
+  - spelling: fra
+    value: Situation du BIML
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/7.1
@@ -1272,7 +1266,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1: Modification des Statuts du Personnel'
+    value: Modification des Statuts du Personnel
   actions:
   - type: notes
     date_effective:
@@ -1295,7 +1289,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.2: Personnel du BIML'
+    value: Personnel du BIML
   actions:
   - type: notes
     date_effective:
@@ -1317,7 +1311,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.3: Activités du BIML'
+    value: Activités du BIML
   actions:
   - type: notes
     date_effective:
@@ -1340,8 +1334,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.4: Progrès dans l''utilisation d''Internet et du courrier
-      électronique'
+    value: Progrès dans l'utilisation d'Internet et du courrier électronique
   actions:
   - type: notes
     date_effective:
@@ -1365,8 +1358,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Activités techniques'
-  - *7
+    value: Activités techniques
+  - spelling: fra
+    value: Activités techniques
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
   actions:
   - type: notes
     date_effective:
@@ -1375,8 +1372,8 @@ decisions:
     message:
     - spelling: eng
       value: 8. 1 Work program of TCs/SCs
-    - *8
-  subject: *9
+    - spelling: fra
+      value: 'Le Comité a approuvé les projets de Recommandations suivants:'
 - identifier:
   - prefix: CIML
     number: 2002/8.2
@@ -1388,7 +1385,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.2: Examen de la situation de certains TC/SC'
+    value: Examen de la situation de certains TC/SC
   actions:
   - type: notes
     date_effective:
@@ -1446,7 +1443,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.3: Accélération du travail technique'
+    value: Accélération du travail technique
   actions:
   - type: notes
     date_effective:
@@ -1471,7 +1468,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.4: Approbation des projets de Recommandations'
+    value: Approbation des projets de Recommandations
   actions:
   - type: approves
     date_effective:
@@ -1501,9 +1498,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Système de Certificats OIML pour les Instruments de Mesure'
-  - *10
-  subject: *11
+    value: Système de Certificats OIML pour les Instruments de Mesure
+  - spelling: fra
+    value: Système de Certificats OIML pour les Instruments de Mesure
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/9.1
@@ -1515,7 +1515,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.1: Informations générales'
+    value: Informations générales
   actions:
   - type: notes
     date_effective:
@@ -1537,7 +1537,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.2: Nouvelles Recommandations applicables dans le Système'
+    value: Nouvelles Recommandations applicables dans le Système
   actions:
   - type: decides
     date_effective:
@@ -1567,7 +1567,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.3: Plans pour les développements futurs'
+    value: Plans pour les développements futurs
   actions:
   - type: notes
     date_effective:
@@ -1601,9 +1601,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Evolutions'
-  - *12
-  subject: *13
+    value: Evolutions
+  - spelling: fra
+    value: Evolutions
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/10.1
@@ -1615,7 +1618,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.1: Arrangement d''Acceptation Mutuelle (MAA)'
+    value: Arrangement d'Acceptation Mutuelle (MAA)
   actions:
   - type: notes
     date_effective:
@@ -1641,7 +1644,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: Documents Horizontaux'
+    value: Documents Horizontaux
   actions:
   - type: notes
     date_effective:
@@ -1664,8 +1667,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.3: Rapport sur l''étude Les Bénéfices apportés par la Métrologie
-      Légale dans l''Economie et la Société'
+    value: Rapport sur l'étude Les Bénéfices apportés par la Métrologie Légale dans
+      l'Economie et la Société
   actions:
   - type: notes
     date_effective:
@@ -1687,8 +1690,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.4: Examen préliminaire sur les résultats du Seminaire Que
-      Sera la Métrologie Légale en 2020 ?'
+    value: Examen préliminaire sur les résultats du Seminaire Que Sera la Métrologie
+      Légale en 2020 ?
   actions:
   - type: notes
     date_effective:
@@ -1713,9 +1716,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Rapport sur le Conseil de Développement - Voir compte
-      rendu séparé'
-  - *14
+    value: Rapport sur le Conseil de Développement - Voir compte rendu séparé
+  - spelling: fra
+    value: Rapport sur le Conseil de Développement - Voir compte rendu séparé
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
   actions:
   - type: notes
     date_effective:
@@ -1752,7 +1758,6 @@ decisions:
     - spelling: eng
       value: The Committee requested the Task Group to develop proposals for a new
         Development Council structure which may be approved by the $ 1 2^{th} $ Conference.
-  subject: *15
 - identifier:
   - prefix: CIML
     number: 2002/12
@@ -1764,9 +1769,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Liaisons avec les Institutions Régionales et Internationales'
-  - *16
-  subject: *17
+    value: Liaisons avec les Institutions Régionales et Internationales
+  - spelling: fra
+    value: Liaisons avec les Institutions Régionales et Internationales
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/12.1
@@ -1778,7 +1786,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.1: Organisations Régionales de Métrologie Légale (LRMO)'
+    value: Organisations Régionales de Métrologie Légale (LRMO)
   actions:
   - type: notes
     date_effective:
@@ -1801,8 +1809,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.2: Autres institutions (Convention du Mètre, ILAC, ISO,
-      OMC, etc.)'
+    value: Autres institutions (Convention du Mètre, ILAC, ISO, OMC, etc.)
   actions:
   - type: notes
     date_effective:
@@ -1843,8 +1850,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.3: Information sur les développements en métrologie légale
-      dans les Régions'
+    value: Information sur les développements en métrologie légale dans les Régions
   actions:
   - type: notes
     date_effective:
@@ -1866,7 +1872,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Election du Président du CIML, 2003'
+    value: Election du Président du CIML, 2003
   actions:
   - type: notes
     date_effective:
@@ -1890,9 +1896,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Réunions futures'
-  - *18
-  subject: *19
+    value: Réunions futures
+  - spelling: fra
+    value: Réunions futures
+  subject:
+  - spelling: fra
+    value: "(The CIML)"
 - identifier:
   - prefix: CIML
     number: 2002/14.1
@@ -1904,7 +1913,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.1: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)'
+    value: 38 $ ^{\mathrm{e m e}} $ Réunion du CIML (2003)
   actions:
   - type: notes
     date_effective:
@@ -1927,8 +1936,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.2: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e
-      m e}} $ Conférence (2004)'
+    value: 39 $ ^{\mathrm{e m e}} $ Réunion du CIML et 12 $ ^{\mathrm{e m e}} $ Conférence
+      (2004)
   actions:
   - type: notes
     date_effective:
@@ -1950,7 +1959,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.3: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)'
+    value: 40 $ ^{\mathrm{e m e}} $ Réunion du CIML (2005)
   actions:
   - type: notes
     date_effective:
@@ -1971,7 +1980,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15: Autres questions'
+    value: Autres questions
   actions:
   - type: notes
     date_effective:
@@ -1992,7 +2001,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 16: Adoption des décisions'
+    value: Adoption des décisions
   actions:
   - type: notes
     date_effective:

@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: TH
-  meeting_urn: urn:oiml:ciml:meeting:ciml-58
   title:
   - spelling: eng
     value: 58th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 58e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: TH
+  meeting_urn: urn:oiml:ciml:meeting:ciml-58
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,24 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Presentation by the candidate for CIML Second Vice-President
-      (2023–2029)'
+    value: Presentation by the candidate for CIML Second Vice-President (2023–2029)
   - spelling: fra
-    value: 'Agenda Item 6: Presentation by the candidate for CIML Second Vice-President
-      (2023–2029)'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the procedure for the election of the CIML Vice-Presidents in
-        OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
-    - spelling: fra
-      value: Prenant note de la procédure pour l'élection des Vice-Présidents du CIML
-        dans OIML B 14:2013 Procédure pour l'élection du Président et des Vice-Présidents
-        du CIML,
+    value: Presentation by the candidate for CIML Second Vice-President (2023–2029)
   considerations:
   - type: noting
     date_effective:
@@ -52,6 +37,19 @@ decisions:
       value: |-
         Prenant note de la procédure pour l'élection des Vice-Présidents du CIML dans OIML B 14:2013 Procédure pour l'élection du Président et des Vice-Présidents du CIML,
         Choisit M. Bill Loizides comme Deuxième Vice-Président pour un mandat de six ans prenant effet immédiatement.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the procedure for the election of the CIML Vice-Presidents in
+        OIML B 14:2013 Procedure for the election of the CIML President and Vice-Presidents,
+    - spelling: fra
+      value: Prenant note de la procédure pour l'élection des Vice-Présidents du CIML
+        dans OIML B 14:2013 Procédure pour l'élection du Président et des Vice-Présidents
+        du CIML,
 - identifier:
   - prefix: CIML
     number: 2023/06
@@ -63,9 +61,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   - spelling: fra
-    value: 'Agenda Item 7: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   actions:
   - type: notes
     date_effective:
@@ -87,9 +85,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   - spelling: fra
-    value: 'Agenda Item 7: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   actions:
   - type: welcomes
     date_effective:
@@ -118,21 +116,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Renewal of the contract of Mr Anthony Donnellan, BIML Director'
+    value: Renewal of the contract of Mr Anthony Donnellan, BIML Director
   - spelling: fra
-    value: 'Agenda Item 8: Renewal of the contract of Mr Anthony Donnellan, BIML Director'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to section 4, first bullet point, of OIML B 13:2004 Procedure
-        for the appointment of the BIML Director and Assistant Directors,
-    - spelling: fra
-      value: Vu la section 4, premier point, de l'OIML B 13:2004 Procédure pour la
-        désignation du Directeur et des Adjoints au Directeur du BIML,
+    value: Renewal of the contract of Mr Anthony Donnellan, BIML Director
   considerations:
   - type: having_regard_to
     date_effective:
@@ -161,22 +147,6 @@ decisions:
       value: |-
         Noting the comments made by its Members,
         Extends the contract of Mr Anthony Donnellan as BIML Director for a five-year term with effect from 1 January 2024.
-- identifier:
-  - prefix: CIML
-    number: 2023/09
-  doi: 10.63493/resolutions/ciml202309
-  urn: urn:oiml:doc:ciml:resolution:2023-09
-  agenda_item: '9'
-  dates:
-  - date: '2023-10-17'
-    type: decided
-  title:
-  - spelling: eng
-    value: 'Agenda Item 9: Renewal of the contract of Mr Ian Dunmill, BIML Assistant
-      Director'
-  - spelling: fra
-    value: 'Agenda Item 9: Renewal of the contract of Mr Ian Dunmill, BIML Assistant
-      Director'
   actions:
   - type: notes
     date_effective:
@@ -189,6 +159,20 @@ decisions:
     - spelling: fra
       value: Vu la section 4, premier point, de l'OIML B 13:2004 Procédure pour la
         désignation du Directeur et des Adjoints au Directeur du BIML,
+- identifier:
+  - prefix: CIML
+    number: 2023/09
+  doi: 10.63493/resolutions/ciml202309
+  urn: urn:oiml:doc:ciml:resolution:2023-09
+  agenda_item: '9'
+  dates:
+  - date: '2023-10-17'
+    type: decided
+  title:
+  - spelling: eng
+    value: Renewal of the contract of Mr Ian Dunmill, BIML Assistant Director
+  - spelling: fra
+    value: Renewal of the contract of Mr Ian Dunmill, BIML Assistant Director
   considerations:
   - type: having_regard_to
     date_effective:
@@ -217,6 +201,18 @@ decisions:
       value: |-
         Noting the comments made by its Members,
         Extends the contract of Mr Ian Dunmill as BIML Assistant Director for a five-year term with effect from 15 March 2024.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to section 4, first bullet point, of OIML B 13:2004 Procedure
+        for the appointment of the BIML Director and Assistant Directors,
+    - spelling: fra
+      value: Vu la section 4, premier point, de l'OIML B 13:2004 Procédure pour la
+        désignation du Directeur et des Adjoints au Directeur du BIML,
 - identifier:
   - prefix: CIML
     number: 2023/10
@@ -228,9 +224,18 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.1: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 10.1: Financial matters'
+    value: Financial matters
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2022, the OIML budget summary, and the BIML Director's
+        comments, Considering the external auditor's report on the 2022 accounts,
   actions:
   - type: approves
     date_effective:
@@ -255,15 +260,6 @@ decisions:
     message:
     - spelling: fra
       value: Charge son Président de les présenter à la 17ème Conférence de l'OIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2022, the OIML budget summary, and the BIML Director's
-        comments, Considering the external auditor's report on the 2022 accounts,
 - identifier:
   - prefix: CIML
     number: 2023/11
@@ -275,9 +271,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 10.2: Financial matters'
+    value: Financial matters
   actions:
   - type: notes
     date_effective:
@@ -310,9 +306,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.3: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 10.3: Financial matters'
+    value: Financial matters
   actions:
   - type: notes
     date_effective:
@@ -335,9 +331,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.4: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 10.4: Financial matters'
+    value: Financial matters
   actions:
   - type: notes
     date_effective:
@@ -360,9 +356,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.1.1: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.1.1: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting comments from its Members,
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres,
   actions:
   - type: approves
     date_effective:
@@ -387,16 +393,6 @@ decisions:
     - spelling: fra
       value: Remercie le responsable et les membres du Groupe de Projet pour leur
         travail dans la réalisation de ce projet.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting comments from its Members,
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres,
 - identifier:
   - prefix: CIML
     number: 2023/15
@@ -408,9 +404,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.1.2: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.1.2: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting comments from its Members,
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres,
   actions:
   - type: approves
     date_effective:
@@ -440,16 +446,6 @@ decisions:
       value: |-
         Remercie le coordinateur et les membres du Groupe de Projet pour leur travail dans la réalisation de la première phase de ce projet, et
         Encourage le Groupe de Projet dans ses travaux futurs sur la deuxième phase de ce projet.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting comments from its Members,
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres,
 - identifier:
   - prefix: CIML
     number: 2023/16
@@ -461,9 +457,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.1.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.1.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting comments from its Members,
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres,
   actions:
   - type: approves
     date_effective:
@@ -483,16 +489,6 @@ decisions:
         version 3 (2023-10-18) au Document de Travail pour cette réunion, sous réserve
         d'une modification rédactionnelle mineure de la clause 3.2 de l'avant-projet
         final fournie dans l'Addendum 11.1.3.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting comments from its Members,
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres,
 - identifier:
   - prefix: CIML
     number: 2023/17
@@ -504,9 +500,17 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.1.4: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.1.4: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres,
   actions:
   - type: notes
     date_effective:
@@ -541,14 +545,6 @@ decisions:
         du CIML et les invités lors de leur présence à des événements OIML, tel que
         proposé dans l'Addendum 11.1.4 au Document de Travail pour cette réunion,
         ce travail devant être mené par le BIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres,
 - identifier:
   - prefix: CIML
     number: 2023/18
@@ -560,9 +556,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.2.1: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.2.1: OIML publications and technical activities'
+    value: OIML publications and technical activities
   actions:
   - type: approves
     date_effective:
@@ -590,9 +586,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.2.2: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.2.2: OIML publications and technical activities'
+    value: OIML publications and technical activities
   actions:
   - type: approves
     date_effective:
@@ -620,9 +616,21 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the report on the OIML technical work,
+    - spelling: eng
+      value: Noting comments from its Members,
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres,
   actions:
   - type: approves
     date_effective:
@@ -641,18 +649,6 @@ decisions:
     - spelling: fra
       value: Approuve la liste des publications hautement prioritaires figurant dans
         l'Addendum 11.3 au Document de Travail de la présente réunion.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the report on the OIML technical work,
-    - spelling: eng
-      value: Noting comments from its Members,
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres,
 - identifier:
   - prefix: CIML
     number: 2023/21
@@ -664,9 +660,18 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendation in Addendum 11.3 to the Working Document for
+        this meeting,
   actions:
   - type: approves
     date_effective:
@@ -680,15 +685,6 @@ decisions:
       value: 'Approuve l''annulation du projet TC 3/SC 4/p 2 Nouveau Document : Surveillance
         des compteurs d''utilité publique en service sur la base d''inspections par
         échantillonnage.'
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendation in Addendum 11.3 to the Working Document for
-        this meeting,
 - identifier:
   - prefix: CIML
     number: 2023/22
@@ -700,9 +696,31 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.3: OIML publications and technical activities'
+    value: OIML publications and technical activities
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting discussions on the project to revise OIML R 76 described in Addendum
+        11.3 to the Working Document for this meeting,
+    - spelling: eng
+      value: Noting comments from its Members,
+    - spelling: eng
+      value: Noting that France and Germany will continue to hold the co-secretariat
+        of TC 9/SC 1,
+    - spelling: fra
+      value: Notant les discussions sur le projet de révision de l'OIML R 76 décrit
+        dans l'Addendum 11.3 au Document de Travail de la présente réunion,
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres,
+    - spelling: fra
+      value: Notant que la France et l'Allemagne continueront à assurer le co-secrétariat
+        du TC 9/SC 1,
   actions:
   - type: thanks
     date_effective:
@@ -729,28 +747,6 @@ decisions:
       value: Approuve le transfert temporaire de la direction du projet TC 9/SC 1/p
         1 Révision de la R 76:2006 Instruments de pesage à fonctionnement non automatique
         au BIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting discussions on the project to revise OIML R 76 described in Addendum
-        11.3 to the Working Document for this meeting,
-    - spelling: eng
-      value: Noting comments from its Members,
-    - spelling: eng
-      value: Noting that France and Germany will continue to hold the co-secretariat
-        of TC 9/SC 1,
-    - spelling: fra
-      value: Notant les discussions sur le projet de révision de l'OIML R 76 décrit
-        dans l'Addendum 11.3 au Document de Travail de la présente réunion,
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres,
-    - spelling: fra
-      value: Notant que la France et l'Allemagne continueront à assurer le co-secrétariat
-        du TC 9/SC 1,
 - identifier:
   - prefix: CIML
     number: 2023/23
@@ -762,9 +758,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.4: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.4: OIML publications and technical activities'
+    value: OIML publications and technical activities
   actions:
   - type: notes
     date_effective:
@@ -801,9 +797,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.5: OIML publications and technical activities'
+    value: OIML publications and technical activities
   - spelling: fra
-    value: 'Agenda Item 11.5: OIML publications and technical activities'
+    value: OIML publications and technical activities
   actions:
   - type: notes
     date_effective:
@@ -877,9 +873,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.1: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   - spelling: fra
-    value: 'Agenda Item 12.1: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   actions:
   - type: notes
     date_effective:
@@ -915,9 +911,21 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.1: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   - spelling: fra
-    value: 'Agenda Item 12.1: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the report of the OIML-CS Management Committee Chairperson,
+    - spelling: fra
+      value: |-
+        Prenant note du rapport du Président du Comité de Management de l'OIML-CS,
+        Nomme le Dr. Bobjoseph Mathew président de la Commission de Recours de l'OIML-CS pour un mandat de trois ans prenant effet immédiatement, et
   actions:
   - type: appoints
     date_effective:
@@ -938,18 +946,6 @@ decisions:
     - spelling: fra
       value: Remercie le Dr. Roman Schwartz d'avoir accepté le rôle de président de
         la Commission de Recours de l'OIML-CS pour la période 2018-2023.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the report of the OIML-CS Management Committee Chairperson,
-    - spelling: fra
-      value: |-
-        Prenant note du rapport du Président du Comité de Management de l'OIML-CS,
-        Nomme le Dr. Bobjoseph Mathew président de la Commission de Recours de l'OIML-CS pour un mandat de trois ans prenant effet immédiatement, et
 - identifier:
   - prefix: CIML
     number: 2023/27
@@ -961,9 +957,17 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.2: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   - spelling: fra
-    value: 'Agenda Item 12.2: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendation from the OIML-CS Management Committee,
   actions:
   - type: appoints
     date_effective:
@@ -984,14 +988,6 @@ decisions:
     - spelling: fra
       value: Remercie M. Bill Loizides pour son travail en tant que Vice-Président
         du Comité de Management de l'OIML-CS pendant la période 2018-2023.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendation from the OIML-CS Management Committee,
 - identifier:
   - prefix: CIML
     number: 2023/28
@@ -1003,9 +999,26 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.2: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   - spelling: fra
-    value: 'Agenda Item 12.2: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting that the UK Government has taken the decision that Mr Mannie Panesar
+        will step down from the role of OIML-CS Management Committee Chairperson on
+        31 December 2023 at the end of his term,
+    - spelling: eng
+      value: Noting the recommendation from the OIML-CS Management Committee,
+    - spelling: fra
+      value: |-
+        Notant que le gouvernement britannique a pris la décision que M. Mannie Panesar se retirera du rôle de Président du Comité de Management de l'OIML-CS le 31 décembre 2023, à la fin de son mandat,
+        Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
+        Confirmme que le Vice-Président du Comité de Management de l'OIML-CS, M. Marc Schmidt, assumera le rôle de Président par intérim du Comité de Management de l'OIML-CS pour une période de 12 mois à compter du 1er janvier 2024,
   actions:
   - type: confirms
     date_effective:
@@ -1043,23 +1056,6 @@ decisions:
     - spelling: fra
       value: Décide de nommer un Président du Comité de Management de l'OIML-CS lors
         de sa 59ème Réunion en octobre 2024, et
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting that the UK Government has taken the decision that Mr Mannie Panesar
-        will step down from the role of OIML-CS Management Committee Chairperson on
-        31 December 2023 at the end of his term,
-    - spelling: eng
-      value: Noting the recommendation from the OIML-CS Management Committee,
-    - spelling: fra
-      value: |-
-        Notant que le gouvernement britannique a pris la décision que M. Mannie Panesar se retirera du rôle de Président du Comité de Management de l'OIML-CS le 31 décembre 2023, à la fin de son mandat,
-        Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
-        Confirmme que le Vice-Président du Comité de Management de l'OIML-CS, M. Marc Schmidt, assumera le rôle de Président par intérim du Comité de Management de l'OIML-CS pour une période de 12 mois à compter du 1er janvier 2024,
 - identifier:
   - prefix: CIML
     number: 2023/29
@@ -1071,19 +1067,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.2: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   - spelling: fra
-    value: 'Agenda Item 12.2: OIML Certification System (OIML-CS)'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendation from the OIML-CS Management Committee,
-    - spelling: fra
-      value: Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
+    value: OIML Certification System (OIML-CS)
   considerations:
   - type: noting
     date_effective:
@@ -1094,6 +1080,16 @@ decisions:
       value: |-
         Noting the recommendation from the OIML-CS Management Committee,
         Agrees to include OIML R 111:2004 Weights of classes $ E_{1}, $ $ E_{2}, $ $ F_{1}, $ $ F_{2}, $ $ M_{1}, $ $ M_{1-2}, $ $ M_{2}, $ $ M_{2-3} $ and $ M_{3} $ in the OIML-CS in Scheme B, with a transition to Scheme A after a period of two years.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendation from the OIML-CS Management Committee,
+    - spelling: fra
+      value: Prenant acte de la recommandation du Comité de Management de l'OIML-CS,
 - identifier:
   - prefix: CIML
     number: 2023/30
@@ -1105,9 +1101,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.1: International cooperation'
+    value: International cooperation
   - spelling: fra
-    value: 'Agenda Item 15.1: International cooperation'
+    value: International cooperation
   actions:
   - type: notes
     date_effective:
@@ -1129,9 +1125,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.2: International cooperation'
+    value: International cooperation
   - spelling: fra
-    value: 'Agenda Item 15.2: International cooperation'
+    value: International cooperation
   actions:
   - type: notes
     date_effective:
@@ -1154,9 +1150,24 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.2: International cooperation'
+    value: International cooperation
   - spelling: fra
-    value: 'Agenda Item 15.2: International cooperation'
+    value: International cooperation
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting its Resolution 2018/13 regarding the establishment of a Joint
+        OIML-IECEx Working Group (JWG),
+    - spelling: eng
+      value: Noting the report in Addendum 15.2 to the Working Document for this meeting,
+    - spelling: fra
+      value: |-
+        Prenant note de sa résolution 2018/13 concernant la création d'un Groupe de Travail conjoint OIML- IECEx (JWG),
+        Prenant acte du rapport figurant dans l'Addendum 15.2 au Document de Travail de la présente réunion,
   actions:
   - type: supports
     date_effective:
@@ -1185,21 +1196,6 @@ decisions:
     message:
     - spelling: fra
       value: Soutient la réactivation du JWG,
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting its Resolution 2018/13 regarding the establishment of a Joint
-        OIML-IECEx Working Group (JWG),
-    - spelling: eng
-      value: Noting the report in Addendum 15.2 to the Working Document for this meeting,
-    - spelling: fra
-      value: |-
-        Prenant note de sa résolution 2018/13 concernant la création d'un Groupe de Travail conjoint OIML- IECEx (JWG),
-        Prenant acte du rapport figurant dans l'Addendum 15.2 au Document de Travail de la présente réunion,
 - identifier:
   - prefix: CIML
     number: 2023/33
@@ -1211,9 +1207,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.3: International cooperation'
+    value: International cooperation
   - spelling: fra
-    value: 'Agenda Item 15.3: International cooperation'
+    value: International cooperation
   actions:
   - type: notes
     date_effective:
@@ -1250,9 +1246,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: OIML Digitalisation Task Group (OIML DTG)'
+    value: OIML Digitalisation Task Group (OIML DTG)
   - spelling: fra
-    value: 'Agenda Item 14: OIML Digitalisation Task Group (OIML DTG)'
+    value: OIML Digitalisation Task Group (OIML DTG)
   actions:
   - type: notes
     date_effective:
@@ -1317,9 +1313,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13.1: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   - spelling: fra
-    value: 'Agenda Item 13.1: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   actions:
   - type: notes
     date_effective:
@@ -1362,9 +1358,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13.2: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   - spelling: fra
-    value: 'Agenda Item 13.2: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   actions:
   - type: notes
     date_effective:
@@ -1411,9 +1407,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13.2: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   - spelling: fra
-    value: 'Agenda Item 13.2: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   actions:
   - type: notes
     date_effective:
@@ -1452,9 +1448,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 17.1: OIML Awards'
+    value: OIML Awards
   - spelling: fra
-    value: 'Agenda Item 17.1: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1476,9 +1472,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 17.1: OIML Awards'
+    value: OIML Awards
   - spelling: fra
-    value: 'Agenda Item 17.1: OIML Awards'
+    value: OIML Awards
   actions:
   - type: decides
     date_effective:
@@ -1503,9 +1499,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 17.2: OIML Awards'
+    value: OIML Awards
   - spelling: fra
-    value: 'Agenda Item 17.2: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1528,9 +1524,26 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 18: 59th CIML Meeting'
+    value: 59th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 18: 59th CIML Meeting'
+    value: 59th CIML Meeting
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2023-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the comments from its Members on environmental concerns,
+    - spelling: eng
+      value: Noting the possibility of holding its meetings in-person, online, or
+        in a hybrid manner,
+    - spelling: fra
+      value: Prenant note des commentaires de ses Membres sur les préoccupations environnementales,
+    - spelling: fra
+      value: |-
+        Notant la possibilité de tenir ses réunions en personne, en ligne ou de manière hybride,
+        Confirmme sa préférence pour les réunions en personne,
   actions:
   - type: confirms
     date_effective:
@@ -1568,20 +1581,3 @@ decisions:
       value: Décide que les propositions formelles pour accueillir la 59ème Réunion
         du CIML seront évaluées en fonction des critères approuvés contenus dans sa
         Résolution CIML/2022/51, et soumises au CIML pour approbation en ligne.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2023-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the comments from its Members on environmental concerns,
-    - spelling: eng
-      value: Noting the possibility of holding its meetings in-person, online, or
-        in a hybrid manner,
-    - spelling: fra
-      value: Prenant note des commentaires de ses Membres sur les préoccupations environnementales,
-    - spelling: fra
-      value: |-
-        Notant la possibilité de tenir ses réunions en personne, en ligne ou de manière hybride,
-        Confirmme sa préférence pour les réunions en personne,

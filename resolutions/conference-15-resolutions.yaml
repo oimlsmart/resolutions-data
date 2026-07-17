@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML Conference Secretariat (BIML)
-  country_code: FR
-  meeting_urn: urn:oiml:conference:meeting:conference-15
   title:
   - spelling: eng
     value: 15th OIML Conference — Resolutions (EN)
   - spelling: fra
     value: 15e Conférence OIML — Résolutions (FR)
+  source: OIML Conference Secretariat (BIML)
+  country_code: FR
+  meeting_urn: urn:oiml:conference:meeting:conference-15
 decisions:
 - identifier:
   - prefix: Conference
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 14th Conference'
+    value: Approval of the minutes of the 14th Conference
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 14th Conference'
+    value: Approval of the minutes of the 14th Conference
   subject:
   - spelling: eng
     value: OIML Conference
@@ -50,14 +50,24 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Report on the work of the CIML (2013–2016)'
+    value: Report on the work of the CIML (2013–2016)
   - spelling: fra
-    value: 'Agenda Item 2: Report on the work of the CIML (2013–2016)'
+    value: Report on the work of the CIML (2013–2016)
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XXV, final paragraph, of the Convention,
+    - spelling: fra
+      value: Vu le dernier paragraphe de l'Article XXV de la Convention,
   actions:
   - type: resolves
     date_effective:
@@ -95,16 +105,6 @@ decisions:
     - spelling: fra
       value: Charge le Directeur de préparer des budgets à présenter au CIML pour
         les années 2017, 2018, 2019 et 2020 faisant apparaître ces dépenses.
-  considerations:
-  - type: having_regard_to
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to Article XXV, final paragraph, of the Convention,
-    - spelling: fra
-      value: Vu le dernier paragraphe de l'Article XXV de la Convention,
 - identifier:
   - prefix: Conference
     number: 2016/3
@@ -116,14 +116,26 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Report on the work of the BIML (2013–2016)'
+    value: Report on the work of the BIML (2013–2016)
   - spelling: fra
-    value: 'Agenda Item 3: Report on the work of the BIML (2013–2016)'
+    value: Report on the work of the BIML (2013–2016)
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to its discussions on the levels of reserves appropriate
+        to its operations,
+    - spelling: fra
+      value: Vu ses discussions sur le niveau des réserves convenant au fonctionnement
+        de l'organisation,
   actions:
   - type: requests
     date_effective:
@@ -139,18 +151,6 @@ decisions:
         qui concerne le niveau du fond de réserve à long terme et les fins pour lesquelles
         il devrait être utilisé, et de soumettre un rapport sur ses recommandations
         à la 16ème Conférence en 2020.
-  considerations:
-  - type: having_regard_to
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to its discussions on the levels of reserves appropriate
-        to its operations,
-    - spelling: fra
-      value: Vu ses discussions sur le niveau des réserves convenant au fonctionnement
-        de l'organisation,
 - identifier:
   - prefix: Conference
     number: 2016/4
@@ -162,33 +162,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Report on the 2013–2016 financial period'
+    value: Report on the 2013–2016 financial period
   - spelling: fra
-    value: 'Agenda Item 4: Report on the 2013–2016 financial period'
+    value: Report on the 2013–2016 financial period
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves:
-        The audited accounts for 2012, 2013, 2014 and 2015 are hereby approved. The CIML President and the BIML Director are finally discharged for the financial management during these years.
-  - type: decides
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Décide que :
-        Les comptes audités pour 2012, 2013, 2014 et 2015 sont à présent approuvés. Le Président du CIML et le Directeur du BIML sont définitivement déchargés de leur gestion financière desdites années.
   considerations:
   - type: having_regard_to
     date_effective:
@@ -209,6 +190,25 @@ decisions:
     - spelling: fra
       value: Prenant note des Résolutions du CIML n $ ^{o s} $ 2013/7,2014/6,2015/5
         et 2016/6,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves:
+        The audited accounts for 2012, 2013, 2014 and 2015 are hereby approved. The CIML President and the BIML Director are finally discharged for the financial management during these years.
+  - type: decides
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Décide que :
+        Les comptes audités pour 2012, 2013, 2014 et 2015 sont à présent approuvés. Le Président du CIML et le Directeur du BIML sont définitivement déchargés de leur gestion financière desdites années.
 - identifier:
   - prefix: Conference
     number: 2016/5
@@ -220,34 +220,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Approval of the accounts for 2012, 2013, 2014 and 2015'
+    value: Approval of the accounts for 2012, 2013, 2014 and 2015
   - spelling: fra
-    value: 'Agenda Item 5: Approval of the accounts for 2012, 2013, 2014 and 2015'
+    value: Approval of the accounts for 2012, 2013, 2014 and 2015
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves:
-        The OIML publications listed in the report in Annex D are hereby sanctioned. Member States are reminded of their obligation to implement OIML Recommendations as far as possible.
-  - type: decides
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Décide que :
-        Les publications de l'OIML listées dans le rapport en Annexe D sont à présent sanctionnées.
-        Il est rappelé aux États Membres qu'ils ont l'obligation de mettre en œuvre les Recommandations de l'OIML dans la mesure du possible.
   considerations:
   - type: having_regard_to
     date_effective:
@@ -270,6 +250,26 @@ decisions:
     - spelling: fra
       value: Prenant note du rapport sur les publications approuvées par le Comité
         depuis la 14ème Conférence en 2012 figurant en Annexe D,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves:
+        The OIML publications listed in the report in Annex D are hereby sanctioned. Member States are reminded of their obligation to implement OIML Recommendations as far as possible.
+  - type: decides
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Décide que :
+        Les publications de l'OIML listées dans le rapport en Annexe D sont à présent sanctionnées.
+        Il est rappelé aux États Membres qu'ils ont l'obligation de mettre en œuvre les Recommandations de l'OIML dans la mesure du possible.
 - identifier:
   - prefix: Conference
     number: 2016/6
@@ -281,39 +281,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Sanctioning of OIML publications'
+    value: Sanctioning of OIML publications
   - spelling: fra
-    value: 'Agenda Item 6: Sanctioning of OIML publications'
+    value: Sanctioning of OIML publications
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves:
-        a) The overall amount of credits, necessary to cover the Organization's operating expenses shall be €8 827 000 for the 2017-2020 financial period;
-        b) The annual base contributory share for the 2017-2020 financial period is €14 000. This results in a total contribution for a Member State classified according to Article XXVI (1) of the Convention in Class 1, Class 2, Class 3 or Class 4 of €56 000, €112 000, €224 000 or $ \epsilon $448 000, respectively;
-        c) In the case of the admission of a Member State during the financial period, the overall amount of credits mentioned in a) above is increased by the contributory share of that Member State, calculated from its classification and the base contributory share, proportionate to the period from its admission to the expiry of the financial period;
-        d) For the 2017-2020 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
-  - type: decides
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Décide que :
-        a) Le montant global des crédits nécessaires pour couvrir les frais de fonctionnement de l'Organisation est de 8 827 000 euros pour l'exercice financier 2017-2020 ;
-        b) La part annuelle contributive de base pour l'exercice financier 2017-2020 est de 14 000 euros. Cela entraîne une contribution annuelle totale pour un État Membre classifié conformément à l'Article XXVI (1) de la Convention en Classe 1, Classe 2, Classe 3 ou Classe 4 de 56 000 euros, 112 000 euros, 224 000 euros or 448 000 euros, respectivement ;
-        c) En cas d'admission d'un État Membre au cours de l'exercice financier, le montant global de crédits mentionné en a) ci-dessus, est augmenté par la part contributive dudit État Membre, calculée à partir de sa classification et de la part contributive de base, proportionnellement à la période allant de son admission jusqu'à la fin de l'exercice financier ;
-        d) Pour l'exercice financier 2017-2020, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
   considerations:
   - type: having_regard_to
     date_effective:
@@ -351,6 +326,31 @@ decisions:
         en considération la classification des États Membres tel que révisée en 2016,
         est de 144 pour l'année 2017 et, après reclassification de certains États
         Membres, de 146 pour les années suivantes de l'exercice financier 2017-2020,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves:
+        a) The overall amount of credits, necessary to cover the Organization's operating expenses shall be €8 827 000 for the 2017-2020 financial period;
+        b) The annual base contributory share for the 2017-2020 financial period is €14 000. This results in a total contribution for a Member State classified according to Article XXVI (1) of the Convention in Class 1, Class 2, Class 3 or Class 4 of €56 000, €112 000, €224 000 or $ \epsilon $448 000, respectively;
+        c) In the case of the admission of a Member State during the financial period, the overall amount of credits mentioned in a) above is increased by the contributory share of that Member State, calculated from its classification and the base contributory share, proportionate to the period from its admission to the expiry of the financial period;
+        d) For the 2017-2020 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
+  - type: decides
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Décide que :
+        a) Le montant global des crédits nécessaires pour couvrir les frais de fonctionnement de l'Organisation est de 8 827 000 euros pour l'exercice financier 2017-2020 ;
+        b) La part annuelle contributive de base pour l'exercice financier 2017-2020 est de 14 000 euros. Cela entraîne une contribution annuelle totale pour un État Membre classifié conformément à l'Article XXVI (1) de la Convention en Classe 1, Classe 2, Classe 3 ou Classe 4 de 56 000 euros, 112 000 euros, 224 000 euros or 448 000 euros, respectivement ;
+        c) En cas d'admission d'un État Membre au cours de l'exercice financier, le montant global de crédits mentionné en a) ci-dessus, est augmenté par la part contributive dudit État Membre, calculée à partir de sa classification et de la part contributive de base, proportionnellement à la période allant de son admission jusqu'à la fin de l'exercice financier ;
+        d) Pour l'exercice financier 2017-2020, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
 - identifier:
   - prefix: Conference
     number: 2016/7
@@ -362,16 +362,36 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Member States’ contributory classes and the base contributory
-      share for 2017–2020'
+    value: Member States’ contributory classes and the base contributory share for
+      2017–2020
   - spelling: fra
-    value: 'Agenda Item 7: Member States’ contributory classes and the base contributory
-      share for 2017–2020'
+    value: Member States’ contributory classes and the base contributory share for
+      2017–2020
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article XIII of the Convention,
+    - spelling: fra
+      value: Vu l'Article XIII de la Convention,
+  - type: noting
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the discussions at the 50th CIML Meeting in 2015 and its Resolution
+        no. 2015/19,
+    - spelling: fra
+      value: Prenant note des discussions de la $ 5 0^{\mathrm{\mathrm
   actions:
   - type: resolves
     date_effective:
@@ -395,26 +415,6 @@ decisions:
         a) Si le Bureau a été informé que le représentant désigné d'un État Membre ne remplit plus les conditions d'appartenance au Comité et que l'État Membre n'a pas encore désigné un nouveau représentant, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité ;
         b) Si le représentant désigné d'un État Membre n'a répondu à aucune communication du Bureau depuis plus de six mois et si le Bureau a fait toutes les tentatives raisonnablement possibles pour contacter le représentant désigné, le Bureau devra chercher la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, selon une procédure décidée par le Comité ;
         c) S'il n'est pas possible, dans un délai raisonnable à fixer par le Comité, d'obtenir la confirmation de l'État Membre quant au statut de son représentant au sein du Comité, cette personne ne sera plus prise en considération lors de l'établissement du quorum pour les décisions du Comité.
-  considerations:
-  - type: having_regard_to
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to Article XIII of the Convention,
-    - spelling: fra
-      value: Vu l'Article XIII de la Convention,
-  - type: noting
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the discussions at the 50th CIML Meeting in 2015 and its Resolution
-        no. 2015/19,
-    - spelling: fra
-      value: Prenant note des discussions de la $ 5 0^{\mathrm{\mathrm
 - identifier:
   - prefix: Conference
     number: 2016/8
@@ -426,14 +426,35 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Budget for the 2017–2020 financial period'
+    value: Budget for the 2017–2020 financial period
   - spelling: fra
-    value: 'Agenda Item 8: Budget for the 2017–2020 financial period'
+    value: Budget for the 2017–2020 financial period
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article X of the Convention,
+    - spelling: fra
+      value: Vu l'Article X de la Convention,
+  - type: considering
+    date_effective:
+      date: '2016-10-19'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the standing practice to organize a Conference once every
+        four years,
+    - spelling: fra
+      value: Considérant la pratique actuelle de tenir une Conférence tous les quatre
+        ans,
   actions:
   - type: resolves
     date_effective:
@@ -567,24 +588,3 @@ decisions:
         - Nouvelle R Instruments de mesure utilisés pour la détermination des protéines dans les grains
         - et les oléagineux
         - Nouvelle R Radiateur étalon à corps noir pour l'étendue de température de $ - 5 0 \mathrm {^o C} $ à $ 2 5 0 0 \mathrm {^o C} $
-  considerations:
-  - type: having_regard_to
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to Article X of the Convention,
-    - spelling: fra
-      value: Vu l'Article X de la Convention,
-  - type: considering
-    date_effective:
-      date: '2016-10-19'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the standing practice to organize a Conference once every
-        four years,
-    - spelling: fra
-      value: Considérant la pratique actuelle de tenir une Conférence tous les quatre
-        ans,

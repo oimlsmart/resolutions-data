@@ -14,6 +14,15 @@ export function localePrefixOf(
   return rp ? `/${rp}` : ''
 }
 
+const LANG_ALIASES: Record<string, string[]> = {
+  en: ['en', 'eng', 'en-US', 'en-US'],
+  fr: ['fr', 'fra', 'fre', 'fr-FR', 'fr-CA'],
+}
+
+function normalizeLang(locale: string): string {
+  return locale.toLowerCase().split('-')[0]
+}
+
 export function safePickLocalizedValue(
   list: unknown,
   locale: string,
@@ -21,10 +30,13 @@ export function safePickLocalizedValue(
 ): string {
   if (typeof list === 'string') return list
   if (!Array.isArray(list) || list.length === 0) return fallback
-  const norm = locale.toLowerCase()
+  const norm = normalizeLang(locale)
+  const aliases = LANG_ALIASES[norm] ?? [norm]
   const entry = list.find((ls: any) => {
-    const sp = (ls?.spelling ?? '').toLowerCase()
-    return sp === norm || sp === norm || sp.startsWith(`${norm}-`)
+    const sp = normalizeLang(ls?.spelling ?? '')
+    return aliases.includes(sp)
   })
   return entry?.value ?? list[0]?.value ?? fallback
 }
+
+
