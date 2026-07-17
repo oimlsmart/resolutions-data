@@ -2,7 +2,9 @@
 import cfg from 'virtual:edoxen-config'
 import OimlLayout from '../../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
+import { t } from '../../../utils/i18n.js'
 import { loadMeetings } from '../../../utils/meetings.js'
+import { decisionsByMeetingUrn } from '../../../utils/decisions-by-meeting.js'
 
 export function getStaticPaths() {
   return cfg.locales
@@ -13,28 +15,188 @@ export function getStaticPaths() {
 const lang = Astro.params.lang ?? cfg.site.locale
 const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
 const meetings = await loadMeetings()
+const decisionMap = await decisionsByMeetingUrn()
+
+const bodyTypes = ['ciml', 'conference', 'dc'] as const
+const bodyLabels: Record<string, string> = { ciml: 'CIML', conference: 'CONF', dc: 'DC' }
+const bodyColors: Record<string, string> = { ciml: 'ciml', conference: 'conference', dc: 'dc' }
+
+function decadeOf(year: string | undefined): number {
+  if (!year) return 0
+  const y = parseInt(year.slice(0, 4))
+  return isNaN(y) ? 0 : Math.floor(y / 10) * 10
+}
+function meetingBody(m: any): string {
+  const c = (m.committee || m.body_type || '').toLowerCase()
+  if (c.includes('conference') || c.includes('conf')) return 'conference'
+  if (c.includes('development council') || c === 'dc') return 'dc'
+  return 'ciml'
+}
+function resolutionCount(m: any): number {
+  return decisionMap.get(m.urn ?? '')?.length ?? 0
+}
 ---
 
-<OimlLayout lang={lang} title="Meetings">
-  <div class="res-page">
-    <header class="res-page__header">
-      <h1>Meetings</h1>
+<OimlLayout lang={lang} title={t(lang, 'meetings.title')}>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <header class="page-hero">
+      <h1 class="page-title">
+        {t(lang, 'meetings.title')}
+      </h1>
+      <p class="hero-subtitle">
+        {t(lang, 'meetings.subtitle')}
+      </p>
     </header>
 
-    {meetings.length === 0 ? (
-      <p>No meetings found.</p>
-    ) : (
-      <div class="std-results">
-        {meetings.map((m) => (
-          <a href={`${prefix}meetings/${m.urn}`} class="std-results__card">
-            <div class="std-results__name">
-              {m.body_type && <span class="std-results__badge">{m.body_type}</span>}
-            </div>
-            <div class="std-results__title">{safePickLocalizedValue(m.title, lang, m.urn)}</div>
-            {m.scheduled_date_range?.start && <span class="std-results__badge">{m.scheduled_date_range.start}</span>}
-          </a>
-        ))}
+    <div class="bg-paper-soft dark:bg-paper-raised border border-rule rounded-lg p-4 sm:p-5 mb-6">
+      <div class="w-full mb-3">
+        <input
+          type="search"
+          class="w-full px-4 py-3 text-sm bg-paper dark:bg-paper-deep border border-rule rounded-md text-ink placeholder:text-ink-muted focus:outline-none focus:border-accent focus:ring-4 focus:ring-accent-soft transition-colors"
+          placeholder={t(lang, 'meetings.searchPlaceholder')}
+          data-meetings-search
+          aria-label={t(lang, 'meetings.searchPlaceholder')}
+        />
       </div>
-    )}
+      <div class="flex items-center flex-wrap gap-2">
+        <span class="text-[0.6875rem] font-bold uppercase tracking-widest text-ink-muted">{t(lang, 'meetings.body')}</span>
+        <div class="flex flex-wrap gap-1">
+          <button class="std-chip is-active px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-body="">{t(lang, 'common.all')}</button>
+          <button class="std-chip px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-body="ciml">{t(lang, 'meetings.bodyCiml')}</button>
+          <button class="std-chip px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-body="conference">{t(lang, 'meetings.bodyConf')}</button>
+          <button class="std-chip px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors hover:border-accent hover:text-accent" data-body="dc">{t(lang, 'meetings.bodyDc')}</button>
+        </div>
+      </div>
+      <div class="text-xs text-ink-muted pt-2.5 mt-3 border-t border-dashed border-rule">
+        <span data-meetings-count>{t(lang, 'meetings.count', { count: meetings.length })}</span>
+      </div>
+    </div>
+
+    <div class="flex flex-col gap-8" data-meetings-list>
+      {bodyTypes.map((bt) => {
+        const bodyMeetings = meetings.filter((m) => meetingBody(m) === bt)
+        if (bodyMeetings.length === 0) return null
+        const decades = new Map<number, any[]>()
+        bodyMeetings.forEach((m) => {
+          const year = m.scheduled_date_range?.start?.slice(0, 4) || ''
+          const d = decadeOf(year)
+          if (!decades.has(d)) decades.set(d, [])
+          decades.get(d)!.push(m)
+        })
+        const sortedDecades = [...decades.entries()].sort((a, b) => b[0] - a[0])
+        const accent = bt === 'conference' ? 'var(--color-teal)' : bt === 'dc' ? '#7c3aed' : 'var(--color-accent)'
+        return (
+          <section class="relative bg-paper-soft dark:bg-paper-raised border border-rule rounded-xl overflow-hidden p-6 lg:p-8"
+                   data-body-section={bt}
+                   style={`border-left: 4px solid ${accent};`}>
+            <header class="flex items-center justify-between gap-3 mb-6 pb-4 border-b border-rule">
+              <h2 class="flex items-center gap-3.5 font-serif text-2xl font-bold text-ink dark:text-paper tracking-tight m-0">
+                <span class="inline-flex items-center justify-center w-11 h-11 rounded-lg font-mono text-xs font-extrabold tracking-wider text-white"
+                      style={`background: ${accent}; box-shadow: 0 6px 16px -6px ${accent}80;`}>
+                  {bodyLabels[bt]}
+                </span>
+                {bt === 'ciml' ? t(lang, 'meetings.bodyCiml') : bt === 'conference' ? t(lang, 'meetings.bodyConf') : t(lang, 'meetings.bodyDc')}
+              </h2>
+              <span class="inline-flex items-center px-3.5 py-1.5 text-xs font-bold text-accent bg-accent-soft border border-accent-soft rounded-full">
+                {bodyMeetings.length}
+              </span>
+            </header>
+            <div class="flex flex-col gap-7">
+              {sortedDecades.map(([decade, decadeMeetings]) => (
+                <section data-decade-block>
+                  <div class="flex items-baseline gap-2.5 mb-4 pl-1">
+                    <h3 class="font-serif text-xl font-bold text-accent m-0 tracking-tight">{decade}s</h3>
+                    <span class="text-xs font-medium text-ink-muted">{t(lang, 'meetings.resolutionsCount', { count: decadeMeetings.length })}</span>
+                  </div>
+                  <div class="grid gap-3 [grid-template-columns:repeat(auto-fill,minmax(290px,1fr))]">
+                    {decadeMeetings.sort((a, b) => (b.scheduled_date_range?.start || '').localeCompare(a.scheduled_date_range?.start || '')).map((m) => {
+                      const year = m.scheduled_date_range?.start?.slice(0, 4) || ''
+                      const resCount = resolutionCount(m)
+                      const venue = safePickLocalizedValue(m.title, lang, m.urn)
+                      const sizeClass = resCount <= 5 ? 'w-2 h-2' : resCount <= 15 ? 'w-3 h-3' : 'w-4 h-4'
+                      return (
+                        <a
+                          href={`${prefix}meetings/${m.urn}`}
+                          class="timeline-entry"
+                          data-timeline-entry
+                          data-card-title={(venue || '').toLowerCase()}
+                          data-card-year={year}
+                        >
+                          <span class={`timeline-node ${sizeClass}`}
+                                style={`background: ${accent}; box-shadow: 0 0 0 4px ${accent}20;`}></span>
+                          <span class="col-start-2 row-start-1 font-mono text-base font-bold text-accent tracking-tight">{year}</span>
+                          <span class="col-start-2 row-start-2 font-serif text-sm font-medium text-ink-soft leading-snug line-clamp-2">{venue}</span>
+                          <span class="col-span-3 row-start-3 flex flex-wrap gap-x-3 gap-y-1 text-xs text-ink-muted mt-1 pt-2.5 border-t border-dashed border-rule">
+                            {m.scheduled_date_range?.start && <span class="meta-date">{m.scheduled_date_range.start}</span>}
+                            {resCount > 0 && <span class="meta-count font-bold text-accent">{t(lang, 'meetings.resolutionsCount', { count: resCount })}</span>}
+                          </span>
+                          <span class="timeline-arrow">
+                            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                          </span>
+                        </a>
+                      )
+                    })}
+                  </div>
+                </section>
+              ))}
+            </div>
+          </section>
+        )
+      })}
+    </div>
+    <p class="hidden text-center py-12 text-ink-muted text-sm" data-meetings-empty>{t(lang, 'meetings.empty')}</p>
   </div>
 </OimlLayout>
+
+<script>
+  (function () {
+    const root = document.querySelector('[data-meetings-search]')?.closest('.max-w-7xl')
+    if (!root) return
+    const input = root.querySelector('[data-meetings-search]') as HTMLInputElement | null
+    const chips = root.querySelectorAll('[data-body]')
+    const sections = Array.from(root.querySelectorAll<HTMLElement>('[data-body-section]'))
+    const entries = Array.from(root.querySelectorAll<HTMLElement>('[data-timeline-entry]'))
+    const decades = Array.from(root.querySelectorAll<HTMLElement>('[data-decade-block]'))
+    const count = root.querySelector('[data-meetings-count]')
+    const empty = root.querySelector('[data-meetings-empty]') as HTMLElement | null
+    const total = entries.length
+    let activeBody = ''
+    let query = ''
+
+    function toggleChip(list: NodeListOf<Element>, active: Element) {
+      list.forEach((c) => c.classList.toggle('is-active', c === active))
+    }
+    chips.forEach((chip) => chip.addEventListener('click', () => {
+      toggleChip(chips, chip)
+      activeBody = (chip as HTMLElement).dataset.body ?? ''
+      apply()
+    }))
+    input?.addEventListener('input', () => {
+      query = input.value.trim().toLowerCase()
+      apply()
+    })
+    function apply() {
+      let shown = 0
+      for (const entry of entries) {
+        const title = entry.dataset.cardTitle ?? ''
+        const okBody = !activeBody || entry.closest(`[data-body-section="${activeBody}"]`)
+        const okText = !query || title.includes(query)
+        const visible = !!okBody && okText
+        entry.classList.toggle('hidden', !visible)
+        if (visible) shown++
+      }
+      for (const decade of decades) {
+        const visibleEntries = decade.querySelectorAll<HTMLElement>('[data-timeline-entry]:not([style*="display: none"])')
+        decade.classList.toggle('hidden', visibleEntries.length === 0)
+      }
+      for (const section of sections) {
+        const body = section.dataset.bodySection ?? ''
+        const okBody = !activeBody || body === activeBody
+        const visibleDecades = section.querySelectorAll<HTMLElement>('[data-decade-block]:not([style*="display: none"])')
+        section.classList.toggle('hidden', !okBody || visibleDecades.length === 0)
+      }
+      if (count) count.textContent = `${shown} / ${total}`
+      if (empty) empty.classList.toggle('hidden', shown === 0)
+    }
+  })()
+</script>

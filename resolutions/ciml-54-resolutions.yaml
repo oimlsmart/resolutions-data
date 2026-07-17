@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: SK
-  meeting_urn: urn:oiml:ciml:meeting:ciml-54
   title:
   - spelling: eng
     value: 54th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 54e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: SK
+  meeting_urn: urn:oiml:ciml:meeting:ciml-54
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
+    value: Approval of the minutes of the 53rd CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 53rd CIML Meeting'
+    value: Approval of the minutes of the 53rd CIML Meeting
   actions:
   - type: approves
     date_effective:
@@ -46,9 +46,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   actions:
   - type: notes
     date_effective:
@@ -89,9 +89,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
+    value: Presentation by the candidates for CIML Second Vice-President
   - spelling: fra
-    value: 'Agenda Item 3: Presentation by the candidates for CIML Second Vice-President'
+    value: Presentation by the candidates for CIML Second Vice-President
   actions:
   - type: notes
     date_effective:
@@ -123,9 +123,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: BIML matters and activities'
+    value: BIML matters and activities
   - spelling: fra
-    value: 'Agenda Item 4: BIML matters and activities'
+    value: BIML matters and activities
   actions:
   - type: notes
     date_effective:
@@ -174,9 +174,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   actions:
   - type: welcomes
     date_effective:
@@ -203,9 +203,25 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 6: Financial matters'
+    value: Financial matters
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2018 and the comments from its President and
+        from the BIML Director,
+  - type: considering
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's approval of the 2018 accounts,
   actions:
   - type: approves
     date_effective:
@@ -241,22 +257,6 @@ decisions:
     - spelling: fra
       value: Charge son Président de présenter lesdits comptes lors de la 16ème Conférence
         de l'OIML en 2020.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2018 and the comments from its President and
-        from the BIML Director,
-  - type: considering
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the external auditor's approval of the 2018 accounts,
 - identifier:
   - prefix: CIML
     number: 2019/7
@@ -268,9 +268,18 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
+    value: Liaisons and Regional Legal Metrology Organizations (RLMOs)
   - spelling: fra
-    value: 'Agenda Item 7: Liaisons and Regional Legal Metrology Organizations (RLMOs)'
+    value: Liaisons and Regional Legal Metrology Organizations (RLMOs)
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2018 and the comments from its President and
+        from the BIML Director,
   actions:
   - type: instructs
     date_effective:
@@ -304,15 +313,6 @@ decisions:
     - spelling: fra
       value: Charge le Directeur du BIML de présenter des informations à ce sujet
         lors de la 55ème Réunion du CIML en 2020.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2018 and the comments from its President and
-        from the BIML Director,
 - identifier:
   - prefix: CIML
     number: 2019/8
@@ -324,11 +324,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
-      (CEEMS)'
+    value: Countries and Economies with Emerging Metrology Systems (CEEMS)
   - spelling: fra
-    value: 'Agenda Item 8: Countries and Economies with Emerging Metrology Systems
-      (CEEMS)'
+    value: Countries and Economies with Emerging Metrology Systems (CEEMS)
   actions:
   - type: notes
     date_effective:
@@ -354,9 +352,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   - spelling: fra
-    value: 'Agenda Item 9: OIML Certification System (OIML-CS)'
+    value: OIML Certification System (OIML-CS)
   actions:
   - type: notes
     date_effective:
@@ -399,9 +397,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: OIML publications and projects'
+    value: OIML publications and projects
   - spelling: fra
-    value: 'Agenda Item 10: OIML publications and projects'
+    value: OIML publications and projects
   actions:
   - type: notes
     date_effective:
@@ -425,9 +423,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Election of the CIML Second Vice-President'
+    value: Election of the CIML Second Vice-President
   - spelling: fra
-    value: 'Agenda Item 11: Election of the CIML Second Vice-President'
+    value: Election of the CIML Second Vice-President
   actions:
   - type: notes
     date_effective:
@@ -467,9 +465,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Presentation of OIML Awards'
+    value: Presentation of OIML Awards
   - spelling: fra
-    value: 'Agenda Item 12: Presentation of OIML Awards'
+    value: Presentation of OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -522,9 +520,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
+    value: Preparation of the 16th International Conference (2020)
   - spelling: fra
-    value: 'Agenda Item 13: Preparation of the 16th International Conference (2020)'
+    value: Preparation of the 16th International Conference (2020)
   actions:
   - type: thanks
     date_effective:
@@ -574,9 +572,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 14: Future meetings'
+    value: Future meetings
   actions:
   - type: notes
     date_effective:
@@ -619,9 +617,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15: Other matters'
+    value: Other matters
   - spelling: fra
-    value: 'Agenda Item 15: Other matters'
+    value: Other matters
   actions:
   - type: notes
     date_effective:
@@ -664,9 +662,21 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 16: Review of meeting resolutions'
+    value: Review of meeting resolutions
   - spelling: fra
-    value: 'Agenda Item 16: Review of meeting resolutions'
+    value: Review of meeting resolutions
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendations of the CEEMS Advisory Group,
+    - spelling: fra
+      value: |-
+        Prenant note des recommandations du Groupe Consultatif pour les CEEMS,
+        Nomme M. Peter Mason à la présidence du Groupe Consultatif pour les CEEMS pour une période de trois ans, et Nomme le Dr Peter Ulbig à la vice-présidence du Groupe Consultatif pour les CEEMS pour une période de trois ans.
   actions:
   - type: thanks
     date_effective:
@@ -690,18 +700,6 @@ decisions:
     - spelling: eng
       value: Appoints Dr Peter Ulbig as vice-chairperson of the CEEMS Advisory Group
         for a three-year term.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendations of the CEEMS Advisory Group,
-    - spelling: fra
-      value: |-
-        Prenant note des recommandations du Groupe Consultatif pour les CEEMS,
-        Nomme M. Peter Mason à la présidence du Groupe Consultatif pour les CEEMS pour une période de trois ans, et Nomme le Dr Peter Ulbig à la vice-présidence du Groupe Consultatif pour les CEEMS pour une période de trois ans.
 - identifier:
   - prefix: CIML
     number: 2019/17
@@ -718,6 +716,18 @@ decisions:
   - spelling: fra
     value: Demande au président du Groupe Consultatif pour les CEEMS d'élaborer des
       propositions en vue
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the discussions in the CEEMS Advisory Group on the lack of a procedure
+        for the selection of its chairperson,
+    - spelling: fra
+      value: Prenant note des discussions au sein du Groupe Consultatif pour les CEEMS
+        concernant l'absence de procédure de sélection d'un président,
   actions:
   - type: requests
     date_effective:
@@ -734,18 +744,6 @@ decisions:
         des propositions en vue d'une révision appropriée de la publication OIML B
         19 Termes de référence pour le Groupe Consultatif sur les questions concernant
         les pays et économies dont le système de métrologie est émergeant (CEEMS).
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the discussions in the CEEMS Advisory Group on the lack of a procedure
-        for the selection of its chairperson,
-    - spelling: fra
-      value: Prenant note des discussions au sein du Groupe Consultatif pour les CEEMS
-        concernant l'absence de procédure de sélection d'un président,
 - identifier:
   - prefix: CIML
     number: 2019/18
@@ -889,6 +887,17 @@ decisions:
   - spelling: fra
     value: Décide d'accepter la proposition de voter sur le projet final de la Recommandation
       R
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the remarks made by its President,
+    - spelling: eng
+      value: Considering the report by the USA on the status of the project to revise
+        R 117 Dynamic measuring instruments for liquids other than water,
   actions:
   - type: decides
     date_effective:
@@ -901,17 +910,6 @@ decisions:
     - spelling: fra
       value: Décide d'accepter la proposition de voter sur le projet final de la Recommandation
         R 117 lors de cette réunion.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the remarks made by its President,
-    - spelling: eng
-      value: Considering the report by the USA on the status of the project to revise
-        R 117 Dynamic measuring instruments for liquids other than water,
 - identifier:
   - prefix: CIML
     number: 2019/21
@@ -1106,18 +1104,6 @@ decisions:
   - spelling: fra
     value: Décide d'accepter la proposition de voter sur le projet de révision de
       la B
-  actions:
-  - type: decides
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Decides to accept the proposal to vote on the project to revise B 11
-        at this meeting.
-    - spelling: fra
-      value: Décide d'accepter la proposition de voter sur le projet de révision de
-        la B 11 durant cette réunion.
   considerations:
   - type: considering
     date_effective:
@@ -1130,6 +1116,18 @@ decisions:
       value: Considering the report by the USA on the status of the project to revise
         B 11 Rules governing the translation, copyright and distribution of OIML Publications,
         and
+  actions:
+  - type: decides
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides to accept the proposal to vote on the project to revise B 11
+        at this meeting.
+    - spelling: fra
+      value: Décide d'accepter la proposition de voter sur le projet de révision de
+        la B 11 durant cette réunion.
 - identifier:
   - prefix: CIML
     number: 2019/27
@@ -1179,6 +1177,24 @@ decisions:
   - spelling: fra
     value: Approuve la procédure de révision périodique modifiée décrite dans l'Annexe
       A de l'Addendum 10.1.3.2
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the result of the vote on the 1CD of the Revision of B 6 Directives
+        for OIML technical work,
+    - spelling: eng
+      value: Noting the recommendation in Addendum 10.1.3.2 to the Working Document
+        for this meeting,
+    - spelling: fra
+      value: Prenant note du résultat du vote sur le 1CD de la révision de la B 6
+        Directives pour les travaux techniques de I'OIML,
+    - spelling: fra
+      value: Prenant note de la recommandation figurant dans l'Addendum 10.1.3.2 au
+        Document de Travail de la présente réunion,
   actions:
   - type: approves
     date_effective:
@@ -1205,24 +1221,6 @@ decisions:
         C de l'Addendum 10.1.3.2 au Document de Travail de la présente réunion, et
     - spelling: fra
       value: Approuve le projet final de publication de la révision de la B 6.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the result of the vote on the 1CD of the Revision of B 6 Directives
-        for OIML technical work,
-    - spelling: eng
-      value: Noting the recommendation in Addendum 10.1.3.2 to the Working Document
-        for this meeting,
-    - spelling: fra
-      value: Prenant note du résultat du vote sur le 1CD de la révision de la B 6
-        Directives pour les travaux techniques de I'OIML,
-    - spelling: fra
-      value: Prenant note de la recommandation figurant dans l'Addendum 10.1.3.2 au
-        Document de Travail de la présente réunion,
 - identifier:
   - prefix: CIML
     number: 2019/29
@@ -1341,16 +1339,6 @@ decisions:
     value: "(Agenda item 11)"
   - spelling: fra
     value: "(Point 11 de l'ordre du jour)"
-  actions:
-  - type: notes
-    date_effective:
-      date: '2019-10-22'
-      type: effective
-    message:
-    - spelling: eng
-      value: "(Agenda item 11)"
-    - spelling: fra
-      value: "(Point 11 de l'ordre du jour)"
   considerations:
   - type: noting
     date_effective:
@@ -1361,6 +1349,16 @@ decisions:
       value: |-
         Noting the procedure for the election of the CIML Second Vice-President in OIML B 14:2013,
         Selects Dr Bobjoseph Mathew (Switzerland) as its Second Vice-President for a six-year term with immediate effect.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2019-10-22'
+      type: effective
+    message:
+    - spelling: eng
+      value: "(Agenda item 11)"
+    - spelling: fra
+      value: "(Point 11 de l'ordre du jour)"
 - identifier:
   - prefix: CIML
     number: 2019/32

@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: CZ
-  meeting_urn: urn:oiml:ciml:meeting:ciml-46
   title:
   - spelling: eng
     value: 46th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 46e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: CZ
+  meeting_urn: urn:oiml:ciml:meeting:ciml-46
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 45th CIML Meeting'
+    value: Approval of the minutes of the 45th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 45th CIML Meeting'
+    value: Approval of the minutes of the 45th CIML Meeting
   subject:
   - spelling: eng
     value: OIML Conference
@@ -59,9 +59,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Report by the CIML President'
+    value: Report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: Report by the CIML President'
+    value: Report by the CIML President
   subject:
   - spelling: eng
     value: OIML Conference
@@ -88,9 +88,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: BIML activities'
+    value: BIML activities
   - spelling: fra
-    value: 'Agenda Item 3: BIML activities'
+    value: BIML activities
   subject:
   - spelling: eng
     value: OIML Conference
@@ -123,9 +123,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 4: Financial matters'
+    value: Financial matters
   subject:
   - spelling: eng
     value: OIML Conference
@@ -155,9 +155,24 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Noting the report by its President and the BIML Director on the actions taken following the Management Audit conducted in February 2010,
+        Recognizing that considerable improvements in the management of the BIML and of the OIML budget have already been made,
+    - spelling: fra
+      value: |-
+        Prenant note du rapport de son Président et du Directeur du BIML sur les mesures prises à la suite de l'Audit de gestion réalisé en février 2010,
+        Reconnaissant que des améliorations considérables dans la gestion du BIML et du budget de I'OIML ont déjà été réalisées,
+        Donne instruction à son Président et au Directeur du BIML de continuer à s'efforcer de résoudre tous les points contenus dans l'Audit, de réaliser un nouvel audit en 2012 et de rendre compte de l'avancement de la présente résolution lors de la 47ème Réunion du CIML.
   actions:
   - type: instructs
     date_effective:
@@ -176,21 +191,6 @@ decisions:
     - spelling: fra
       value: Prenant note du rapport de son Président et du Directeur du BIML sur
         les mesures prises à la suite de l'Audit de gestion réalisé en février 2010,
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Noting the report by its President and the BIML Director on the actions taken following the Management Audit conducted in February 2010,
-        Recognizing that considerable improvements in the management of the BIML and of the OIML budget have already been made,
-    - spelling: fra
-      value: |-
-        Prenant note du rapport de son Président et du Directeur du BIML sur les mesures prises à la suite de l'Audit de gestion réalisé en février 2010,
-        Reconnaissant que des améliorations considérables dans la gestion du BIML et du budget de I'OIML ont déjà été réalisées,
-        Donne instruction à son Président et au Directeur du BIML de continuer à s'efforcer de résoudre tous les points contenus dans l'Audit, de réaliser un nouvel audit en 2012 et de rendre compte de l'avancement de la présente résolution lors de la 47ème Réunion du CIML.
 - identifier:
   - prefix: CIML
     number: 2011/6
@@ -202,28 +202,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Developing countries'
+    value: Developing countries
   - spelling: fra
-    value: 'Agenda Item 6: Developing countries'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves the 2010 accounts, and
-    - spelling: fra
-      value: |-
-        Approuve les comptes de l'année 2010, et
-        Donne instruction à son Président de les présenter lors de la 14<sup>ème</sup> Conférence de l'OIML.
-  - type: instructs
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Instructs its President to present them to the 14th OIML Conference.
+    value: Developing countries
   considerations:
   - type: noting
     date_effective:
@@ -243,6 +224,25 @@ decisions:
     message:
     - spelling: eng
       value: Considering the external auditor's approval of the 2010 accounts,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the 2010 accounts, and
+    - spelling: fra
+      value: |-
+        Approuve les comptes de l'année 2010, et
+        Donne instruction à son Président de les présenter lors de la 14<sup>ème</sup> Conférence de l'OIML.
+  - type: instructs
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs its President to present them to the 14th OIML Conference.
 - identifier:
   - prefix: CIML
     number: 2011/7
@@ -254,9 +254,42 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Liaisons'
+    value: Liaisons
   - spelling: fra
-    value: 'Agenda Item 7: Liaisons'
+    value: Liaisons
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution "CIML 1975-IXc" establishing the BIML Translation
+        Center,
+    - spelling: fra
+      value: Rappelant sa résolution « CIML 1975-IXc » établissant le Centre de traduction
+        du BIML,
+  - type: considering
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Considering
+        a) the original purpose of the BIML Translation Center, i.e. to make information contained in certain working documents and publications, available to non-French speaking Members,
+        b) that the BIML Translation Center is funded by voluntary subsidies made by certain Member States and that the use of these funds is restricted to the translation of documents from French to English,
+        c) the increased use of English as the working language of the Organization and consequently, the decrease in demand for translations into English, resulting in ever growing funds in the special account of the BIML Translation Center,
+        d) that it is considered necessary to make certain OIML Publications available in both English and French,
+        e) that, to increase the efficiency and effectiveness of the BIML, in particular regarding the dissemination of information to Members, it is desirable to make (historical) documents (Conference and Committee minutes and resolutions, OIML Bulletins, etc.) available in electronic format,
+    - spelling: fra
+      value: |-
+        Considérant :
+        a) L'objectif initial du Centre de traduction du BIML, à savoir rendre l'information contenue dans certains documents de travail et publications accessible aux Membres non francophones,
+        b) Que le Centre de traduction du BIML est financé par les subventions volontaires faites par certains États Membres et que l'utilisation de ces fonds est limitée à la traduction de documents du français vers l'anglais,
+        c) L'usage croissant de l'anglais comme langue de travail de l'Organisation et, par conséquent, la baisse du besoin de traductions vers l'anglais, ce qui a pour conséquence une accumulation continue des fonds dans le compte spécial du Centre de traduction du BIML,
+        d) Qu'il apparaît nécessaire de rendre disponibles certaines publications de l'OIML dans les deux langues : français et anglais,
+        e) Que, pour améliorer le fonctionnement et accroître l'efficacité du BIML, en particulier en ce qui concerne la diffusion de l'information à ses Membres, il est souhaitable de rendre les documents (historiques) (compte rendus et résolutions des Conférences et Comités, Bulletins de l'OIML, etc.) disponibles en format électronique,
   actions:
   - type: resolves
     date_effective:
@@ -298,39 +331,6 @@ decisions:
         a) continuer à gérer le Centre de traduction du BIML en prenant la présente Résolution en compte,
         b) rendre les documents traduits et convertis accessibles aux Membres dans un format électronique adéquat,
         c) rendre compte au Comité, tous les ans, du fonctionnement du Centre de traduction du BIML.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution "CIML 1975-IXc" establishing the BIML Translation
-        Center,
-    - spelling: fra
-      value: Rappelant sa résolution « CIML 1975-IXc » établissant le Centre de traduction
-        du BIML,
-  - type: considering
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Considering
-        a) the original purpose of the BIML Translation Center, i.e. to make information contained in certain working documents and publications, available to non-French speaking Members,
-        b) that the BIML Translation Center is funded by voluntary subsidies made by certain Member States and that the use of these funds is restricted to the translation of documents from French to English,
-        c) the increased use of English as the working language of the Organization and consequently, the decrease in demand for translations into English, resulting in ever growing funds in the special account of the BIML Translation Center,
-        d) that it is considered necessary to make certain OIML Publications available in both English and French,
-        e) that, to increase the efficiency and effectiveness of the BIML, in particular regarding the dissemination of information to Members, it is desirable to make (historical) documents (Conference and Committee minutes and resolutions, OIML Bulletins, etc.) available in electronic format,
-    - spelling: fra
-      value: |-
-        Considérant :
-        a) L'objectif initial du Centre de traduction du BIML, à savoir rendre l'information contenue dans certains documents de travail et publications accessible aux Membres non francophones,
-        b) Que le Centre de traduction du BIML est financé par les subventions volontaires faites par certains États Membres et que l'utilisation de ces fonds est limitée à la traduction de documents du français vers l'anglais,
-        c) L'usage croissant de l'anglais comme langue de travail de l'Organisation et, par conséquent, la baisse du besoin de traductions vers l'anglais, ce qui a pour conséquence une accumulation continue des fonds dans le compte spécial du Centre de traduction du BIML,
-        d) Qu'il apparaît nécessaire de rendre disponibles certaines publications de l'OIML dans les deux langues : français et anglais,
-        e) Que, pour améliorer le fonctionnement et accroître l'efficacité du BIML, en particulier en ce qui concerne la diffusion de l'information à ses Membres, il est souhaitable de rendre les documents (historiques) (compte rendus et résolutions des Conférences et Comités, Bulletins de l'OIML, etc.) disponibles en format électronique,
 - identifier:
   - prefix: CIML
     number: 2011/8
@@ -342,9 +342,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Report on cooperation between the BIML and the BIPM'
+    value: Report on cooperation between the BIML and the BIPM
   - spelling: fra
-    value: 'Agenda Item 8: Report on cooperation between the BIML and the BIPM'
+    value: Report on cooperation between the BIML and the BIPM
   subject:
   - spelling: eng
     value: OIML Conference
@@ -377,9 +377,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Discussion of the future strategic direction of the OIML'
+    value: Discussion of the future strategic direction of the OIML
   - spelling: fra
-    value: 'Agenda Item 9: Discussion of the future strategic direction of the OIML'
+    value: Discussion of the future strategic direction of the OIML
   actions:
   - type: notes
     date_effective:
@@ -407,9 +407,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Technical activities'
+    value: Technical activities
   - spelling: fra
-    value: 'Agenda Item 10: Technical activities'
+    value: Technical activities
   actions:
   - type: approves
     date_effective:
@@ -442,9 +442,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Awards'
+    value: Awards
   - spelling: fra
-    value: 'Agenda Item 11: Awards'
+    value: Awards
   actions:
   - type: welcomes
     date_effective:
@@ -483,9 +483,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Preparations for the 13th Conference (2012)'
+    value: Preparations for the 13th Conference (2012)
   - spelling: fra
-    value: 'Agenda Item 12: Preparations for the 13th Conference (2012)'
+    value: Preparations for the 13th Conference (2012)
   subject:
   - spelling: eng
     value: OIML Conference
@@ -518,9 +518,25 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Other matters'
+    value: Other matters
   - spelling: fra
-    value: 'Agenda Item 13: Other matters'
+    value: Other matters
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Noting the oral report and presentation given by Dr. Pavel Neyezhmakov, Head of the secretariat of COOMET, on the RLMO Round Table held on 11 October 2011,
+        Accepts the recommendations of the Round Table addressed to the OIML,
+    - spelling: fra
+      value: |-
+        Prenant note du rapport verbal et de l'exposé effectué par le Docteur Pavel NEYEZHMAKOV, Chef du secrétariat de COOMET (Euro-Asian Cooperation of National Metrology Institutions), lors de la Table Ronde RLMO (Regional Legal Metrology Organizations) qui s'est tenue le 11 octobre 2011,
+        Accepte les recommandations de la Table Ronde adressées à l'OIML,
+        Donne instruction au Bureau de suivre ces recommandations et de rendre compte de l'avancement de la présente résolution lors de la $ 4 7^{\mathrm{ème}} $ Réunion du CIML, et
+        Invite les Organisations régionales de métrologie légale (RLMO) à suivre les recommandations qui leur ont été adressées par la Table Ronde.
   actions:
   - type: instructs
     date_effective:
@@ -541,22 +557,6 @@ decisions:
         Pavel NEYEZHMAKOV, Chef du secrétariat de COOMET (Euro-Asian Cooperation of
         National Metrology Institutions), lors de la Table Ronde RLMO (Regional Legal
         Metrology Organizations) qui s'est tenue le 11 octobre 2011,
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Noting the oral report and presentation given by Dr. Pavel Neyezhmakov, Head of the secretariat of COOMET, on the RLMO Round Table held on 11 October 2011,
-        Accepts the recommendations of the Round Table addressed to the OIML,
-    - spelling: fra
-      value: |-
-        Prenant note du rapport verbal et de l'exposé effectué par le Docteur Pavel NEYEZHMAKOV, Chef du secrétariat de COOMET (Euro-Asian Cooperation of National Metrology Institutions), lors de la Table Ronde RLMO (Regional Legal Metrology Organizations) qui s'est tenue le 11 octobre 2011,
-        Accepte les recommandations de la Table Ronde adressées à l'OIML,
-        Donne instruction au Bureau de suivre ces recommandations et de rendre compte de l'avancement de la présente résolution lors de la $ 4 7^{\mathrm{ème}} $ Réunion du CIML, et
-        Invite les Organisations régionales de métrologie légale (RLMO) à suivre les recommandations qui leur ont été adressées par la Table Ronde.
 - identifier:
   - prefix: CIML
     number: 2011/14
@@ -568,9 +568,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: CIML vote on Resolutions'
+    value: CIML vote on Resolutions
   - spelling: fra
-    value: 'Agenda Item 14: CIML vote on Resolutions'
+    value: CIML vote on Resolutions
   subject:
   - spelling: fra
     value: Conférence OIML
@@ -621,9 +621,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 15: Future meetings'
+    value: Future meetings
   subject:
   - spelling: eng
     value: OIML Conference
@@ -811,28 +811,6 @@ decisions:
   - spelling: fra
     value: Décide que les Participants Emetteurs peuvent demander l'enregistrement
       des laboratoires d'essai des…
-  actions:
-  - type: decides
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Decides that Issuing Participants may request the registration of Manufacturers'
-        Testing Laboratories (MTLs) under a DoMC, provided that the conditions agreed
-        by TC 3/SC 5 and laid down in a respective amendment to, or revision of, OIML
-        B 10 are met, and that after this amendment to, or revision of, OIML B 10,
-        MAA Type Evaluation Reports that contain test results from MTLs may be accepted
-        by Participants on a voluntary basis.
-    - spelling: fra
-      value: Décide que les Participants Emetteurs peuvent demander l'enregistrement
-        des laboratoires d'essai des fabricants (MTL) dans le cadre d'une DoMC, dès
-        lors que sont remplies les conditions acceptées par le TC 3/SC 5 et fixées
-        dans un amendement respectif à, ou une révision correspondante de, l'OIML
-        B 10, et que, après ledit amendement à, ou ladite révision de, l'OIML B 10,
-        les rapports d'évaluation de type selon le MAA qui contiennent les résultats
-        d'essais des MTL peuvent être acceptés par les Participants sur la base du
-        volontariat.
   considerations:
   - type: noting
     date_effective:
@@ -855,6 +833,28 @@ decisions:
       value: Recalling its Resolution no. 20 at the 43rd CIML Meeting,
     - spelling: fra
       value: Rappelant sa Résolution n° 20 de la 43ème Réunion du CIML,
+  actions:
+  - type: decides
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides that Issuing Participants may request the registration of Manufacturers'
+        Testing Laboratories (MTLs) under a DoMC, provided that the conditions agreed
+        by TC 3/SC 5 and laid down in a respective amendment to, or revision of, OIML
+        B 10 are met, and that after this amendment to, or revision of, OIML B 10,
+        MAA Type Evaluation Reports that contain test results from MTLs may be accepted
+        by Participants on a voluntary basis.
+    - spelling: fra
+      value: Décide que les Participants Emetteurs peuvent demander l'enregistrement
+        des laboratoires d'essai des fabricants (MTL) dans le cadre d'une DoMC, dès
+        lors que sont remplies les conditions acceptées par le TC 3/SC 5 et fixées
+        dans un amendement respectif à, ou une révision correspondante de, l'OIML
+        B 10, et que, après ledit amendement à, ou ladite révision de, l'OIML B 10,
+        les rapports d'évaluation de type selon le MAA qui contiennent les résultats
+        d'essais des MTL peuvent être acceptés par les Participants sur la base du
+        volontariat.
 - identifier:
   - prefix: CIML
     number: 2011/21
@@ -872,6 +872,14 @@ decisions:
   subject:
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution no.20,
   actions:
   - type: approves
     date_effective:
@@ -899,14 +907,6 @@ decisions:
       value: |-
         Décide
         - Que l'enregistrement des MTL dans le cadre d'une DoMC demeure exclue du champ du MAA jusqu'à ce que ledit amendement à, ou ladite révision de l'OIML B 10 soit approuvé(e).
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution no.20,
 - identifier:
   - prefix: CIML
     number: 2011/22
@@ -922,6 +922,28 @@ decisions:
       "Conformity
   - spelling: fra
     value: Prend note du rapport écrit du Séminaire sur la « Conformité au Type »
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolutions no.15 and no.19 of its 45th Meeting,
+    - spelling: fra
+      value: Rappelant les Résolutions n° 15 et n° 19 de sa 45ème Réunion,
+  - type: noting
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the written report of the seminar on "Conformity to Type" held
+        in Utrecht, the Netherlands, on 29 and 30 June 2011,
+    - spelling: eng
+      value: Noting the oral report and presentation by the CIML Member for New Zealand,
+        Mr. Stephen O'Brien, on the outcome of the follow-up CTT Seminar held in Prague
+        on 10 October 2011,
   actions:
   - type: approves
     date_effective:
@@ -965,28 +987,6 @@ decisions:
       value: Prend note du rapport verbal et de l'exposé, par le Membre du CIML de
         la Nouvelle-Zélande, M. Stephen O'BRIEN, sur le résultat du Séminaire CTT
         de suivi qui s'est tenu à Prague, le 10 octobre 2011,
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolutions no.15 and no.19 of its 45th Meeting,
-    - spelling: fra
-      value: Rappelant les Résolutions n° 15 et n° 19 de sa 45ème Réunion,
-  - type: noting
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the written report of the seminar on "Conformity to Type" held
-        in Utrecht, the Netherlands, on 29 and 30 June 2011,
-    - spelling: eng
-      value: Noting the oral report and presentation by the CIML Member for New Zealand,
-        Mr. Stephen O'Brien, on the outcome of the follow-up CTT Seminar held in Prague
-        on 10 October 2011,
 - identifier:
   - prefix: CIML
     number: 2011/23
@@ -1064,38 +1064,6 @@ decisions:
     value: Resolves
   - spelling: fra
     value: 'Décide que '
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves
-        a) that new, and revisions of existing OIML Recommendations and Documents should apply the terminology and definitions of the VIM and the VIML without amendment,
-        b) that terms and definitions from international vocabularies from other fields (for instance statistics) may be adapted when the concept that they pertain to in legal metrology is different and that such conceptual differences should be explained in a note,
-        c) that when, in OIML Publications other than Recommendations and Documents, terms and definitions are used that differ from those in the VIM and the VIML, these differences should be indicated in notes, as appropriate,
-  - type: instructs
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Instructs the BIML to monitor the correct implementation of this Resolution
-        at all stages of the preparation of OIML Publications.
-  - type: decides
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Décide que :
-        a) les Recommandations et Documents actuels de l'OIML, qu'ils soient nouveaux ou fassent l'objet d'une révision, doivent appliquer la terminologie et les définitions du VIM et du VIML sans amendement,
-        b) des termes et définitions issus de lexiques internationaux relatifs à d'autres domaines (par exemple les statistiques) peuvent être adaptés lorsque la notion à laquelle ils se rapportent dans la métrologie légale est différente, les différences conceptuelles devant alors être développées dans une note explicative,
-        c) lorsque, dans les publications de l'OIML autres que les Recommandations et Documents, des termes et définitions utilisés différent de ceux du VIM et du VIML, les différences doivent, si nécessaire, être indiquées dans des notes explicatives,
-        Donne instruction au BIML de vérifier la bonne mise en application de cette Résolution à tous les stades de l'élaboration des publications de l'OIML.
   considerations:
   - type: noting
     date_effective:
@@ -1145,6 +1113,38 @@ decisions:
     - spelling: fra
       value: Considérant l'achèvement imminent de la révision du Vocabulaire international
         des termes de métrologie légale par le TC 1 de l'OIML,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves
+        a) that new, and revisions of existing OIML Recommendations and Documents should apply the terminology and definitions of the VIM and the VIML without amendment,
+        b) that terms and definitions from international vocabularies from other fields (for instance statistics) may be adapted when the concept that they pertain to in legal metrology is different and that such conceptual differences should be explained in a note,
+        c) that when, in OIML Publications other than Recommendations and Documents, terms and definitions are used that differ from those in the VIM and the VIML, these differences should be indicated in notes, as appropriate,
+  - type: instructs
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs the BIML to monitor the correct implementation of this Resolution
+        at all stages of the preparation of OIML Publications.
+  - type: decides
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Décide que :
+        a) les Recommandations et Documents actuels de l'OIML, qu'ils soient nouveaux ou fassent l'objet d'une révision, doivent appliquer la terminologie et les définitions du VIM et du VIML sans amendement,
+        b) des termes et définitions issus de lexiques internationaux relatifs à d'autres domaines (par exemple les statistiques) peuvent être adaptés lorsque la notion à laquelle ils se rapportent dans la métrologie légale est différente, les différences conceptuelles devant alors être développées dans une note explicative,
+        c) lorsque, dans les publications de l'OIML autres que les Recommandations et Documents, des termes et définitions utilisés différent de ceux du VIM et du VIML, les différences doivent, si nécessaire, être indiquées dans des notes explicatives,
+        Donne instruction au BIML de vérifier la bonne mise en application de cette Résolution à tous les stades de l'élaboration des publications de l'OIML.
 - identifier:
   - prefix: CIML
     number: 2011/25
@@ -1197,23 +1197,6 @@ decisions:
       applicable to
   - spelling: fra
     value: 'Considérant '
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves to request the 14th OIML Conference to approve the following interpretation, applicable to the first paragraph of Article XVII of the OIML Convention:
-        "A colleague' may be: either another CIML Member or someone designated by the absent CIML Member to represent him/her. In the latter case, the representative shall be from the same government or administration as the absent CIML Member and may not represent other CIML Members, i.e. may not receive proxies from other CIML Members".
-  - type: notes
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: fra
-      value: 'Considérant :'
   considerations:
   - type: considering
     date_effective:
@@ -1246,6 +1229,23 @@ decisions:
         Notant que l'article XIII de la Convention de l'OIML a été amendé en 1968, modifiant la composition du CIML, passant d'un maximum de 20 Membres, élus par la Conférence, à un représentant par Membre de l'OIML, désigné par son Gouvernement,
         Est d'avis qu'il peut quelquefois être plus approprié, pour un Membre du CIML qui est dans l'impossibilité d'assister à la Réunion du CIML, de déléguer sa voix à une personne de son propre Gouvernement ou de sa propre Administration, plutôt qu'à un autre Membre du CIML, Décide de soumettre à l'approbation de la $14^{\text{ème}}$ Conférence de l'OIML l'interprétation suivante s'appliquant au premier paragraphe de l'article XVII de la Convention de l'OIML :
         « Un "collègue" peut être : soit un autre Membre du CIML soit toute personne désignée par le Membre du CIML absent pour le représenter. Dans ce dernier cas, le représentant doit appartenir au même gouvernement ou à la même administration que le Membre du CIML absent et ne peut représenter d'autres Membres du CIML, c'est-à-dire ne peut recevoir de procuration de la part d'autres Membres du CIML. »
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves to request the 14th OIML Conference to approve the following interpretation, applicable to the first paragraph of Article XVII of the OIML Convention:
+        "A colleague' may be: either another CIML Member or someone designated by the absent CIML Member to represent him/her. In the latter case, the representative shall be from the same government or administration as the absent CIML Member and may not represent other CIML Members, i.e. may not receive proxies from other CIML Members".
+  - type: notes
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: fra
+      value: 'Considérant :'
 - identifier:
   - prefix: CIML
     number: 2011/27
@@ -1262,6 +1262,16 @@ decisions:
   - spelling: fra
     value: Demande à son Président de présenter la proposition à la 14eme Conférence
       en vue
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that there appears to be no comprehensive policy on the implementation
+        of Article XXIX of the OIML Convention concerning Member States which have
+        not paid their subscriptions for a number of years,
   actions:
   - type: instructs
     date_effective:
@@ -1284,16 +1294,6 @@ decisions:
     - spelling: fra
       value: Demande à son Président de présenter la proposition à la 14eme Conférence
         en vue de son approbation, et ce, après consultation des Membres du CIML.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering that there appears to be no comprehensive policy on the implementation
-        of Article XXIX of the OIML Convention concerning Member States which have
-        not paid their subscriptions for a number of years,
 - identifier:
   - prefix: CIML
     number: 2011/28
@@ -1314,18 +1314,6 @@ decisions:
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: requests
-    date_effective:
-      date: '2011-10-11'
-      type: effective
-    message:
-    - spelling: eng
-      value: Requests the 14th Conference to take account of this opinion in the budget
-        for the 2013-2016 budget period.
-    - spelling: fra
-      value: Demande à la 14ème Conférence de prendre cet avis en compte dans le budget
-        de la période budgétaire 2013-2016.
   considerations:
   - type: considering
     date_effective:
@@ -1352,6 +1340,18 @@ decisions:
         - le Bulletin de l'OIML doit devenir gratuit ;
         - que les versions numériques du Bulletin de l'OIML doivent être disponibles en téléchargement à partir du site Internet, et ce sans aucune restriction ;
         - que les exemplaires imprimés du Bulletin de l'OIML ne doivent être fournis qu'aux États Membres de l'OIML et aux Membres Correspondants,
+  actions:
+  - type: requests
+    date_effective:
+      date: '2011-10-11'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests the 14th Conference to take account of this opinion in the budget
+        for the 2013-2016 budget period.
+    - spelling: fra
+      value: Demande à la 14ème Conférence de prendre cet avis en compte dans le budget
+        de la période budgétaire 2013-2016.
 - identifier:
   - prefix: CIML
     number: 2011/29

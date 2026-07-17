@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML Conference Secretariat (BIML)
-  country_code: AU
-  meeting_urn: urn:oiml:conference:meeting:conference-13
   title:
   - spelling: eng
     value: 13th OIML Conference — Resolutions (EN)
   - spelling: fra
     value: 13e Conférence OIML — Résolutions (FR)
+  source: OIML Conference Secretariat (BIML)
+  country_code: AU
+  meeting_urn: urn:oiml:conference:meeting:conference-13
 decisions:
 - identifier:
   - prefix: Conference
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 12th Conference'
+    value: Approval of the minutes of the 12th Conference
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 12th Conference'
+    value: Approval of the minutes of the 12th Conference
   subject:
   - spelling: eng
     value: OIML Conference
@@ -52,9 +52,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Report on CIML and BIML activities'
+    value: Report on CIML and BIML activities
   - spelling: fra
-    value: 'Agenda Item 2: Report on CIML and BIML activities'
+    value: Report on CIML and BIML activities
   subject:
   - spelling: eng
     value: OIML Conference
@@ -87,9 +87,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Presentations given by Liaisons'
+    value: Presentations given by Liaisons
   - spelling: fra
-    value: 'Agenda Item 3: Presentations given by Liaisons'
+    value: Presentations given by Liaisons
   subject:
   - spelling: eng
     value: OIML Conference
@@ -123,9 +123,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Technical work'
+    value: Technical work
   - spelling: fra
-    value: 'Agenda Item 4: Technical work'
+    value: Technical work
   subject:
   - spelling: eng
     value: OIML Conference
@@ -232,9 +232,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Presentation of the Strategic Plan'
+    value: Presentation of the Strategic Plan
   - spelling: fra
-    value: 'Agenda Item 5: Presentation of the Strategic Plan'
+    value: Presentation of the Strategic Plan
   subject:
   - spelling: eng
     value: OIML Conference
@@ -265,9 +265,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Report on Developing Country issues'
+    value: Report on Developing Country issues
   - spelling: fra
-    value: 'Agenda Item 6: Report on Developing Country issues'
+    value: Report on Developing Country issues
   subject:
   - spelling: eng
     value: OIML Conference
@@ -340,9 +340,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Financial issues'
+    value: Financial issues
   - spelling: fra
-    value: 'Agenda Item 7: Financial issues'
+    value: Financial issues
   subject:
   - spelling: eng
     value: OIML Conference
@@ -369,9 +369,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Membership'
+    value: Membership
   - spelling: fra
-    value: 'Agenda Item 8: Membership'
+    value: Membership
   subject:
   - spelling: eng
     value: OIML Conference
@@ -556,16 +556,6 @@ decisions:
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: notes
-    date_effective:
-      date: '2008-10-29'
-      type: effective
-    message:
-    - spelling: eng
-      value: The International Conference of Legal Metrology,
-    - spelling: fra
-      value: La Conférence Internationale de Métrologie Légale,
   considerations:
   - type: noting
     date_effective:
@@ -588,6 +578,16 @@ decisions:
       value: |-
         NOTANT que les fonctions respectives assignées par la Convention au Président du Comité International de Métrologie Légale et au Directeur du Bureau International de Métrologie Légale ont été remplies;
         DONNE SA DÉCHARGE DÉFINITIVE au Président du Comité et au Directeur du Bureau pour leur gestion du budget durant les exercices comptables mentionnés ci-dessus.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2008-10-29'
+      type: effective
+    message:
+    - spelling: eng
+      value: The International Conference of Legal Metrology,
+    - spelling: fra
+      value: La Conférence Internationale de Métrologie Légale,
 - identifier:
   - prefix: Conference
     number: 2008/14
@@ -747,20 +747,6 @@ decisions:
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: notes
-    date_effective:
-      date: '2008-10-29'
-      type: effective
-    message:
-    - spelling: eng
-      value: 'Considering that the provisions of IPSAS (International Public Sector
-        Accounting Standards) concerning pensions are not yet defined, the Conference
-        instructed the CIML President:'
-    - spelling: fra
-      value: 'Considérant que les dispositions des normes IPSAS (normes comptables
-        internationales pour le secteur public) concernant les retraites, ne sont
-        pas encore définies, la Conférence donne instruction au Président du CIML:'
   considerations:
   - type: considering
     date_effective:
@@ -779,6 +765,20 @@ decisions:
         - de nommer un expert spécialisé dans la comptabilité du secteur public international en tant qu'auditeur externe de l'OIML,
         - d'élaborer avec cet expert les amendements nécessaires à apporter au Règlement Financier de l'OIML, plus particulièrement pour les retraites, et
         - avec le soutien de cet expert, de prendre les décisions provisoires appropriées concernant la comptabilité et le système de retraite de l'OIML.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2008-10-29'
+      type: effective
+    message:
+    - spelling: eng
+      value: 'Considering that the provisions of IPSAS (International Public Sector
+        Accounting Standards) concerning pensions are not yet defined, the Conference
+        instructed the CIML President:'
+    - spelling: fra
+      value: 'Considérant que les dispositions des normes IPSAS (normes comptables
+        internationales pour le secteur public) concernant les retraites, ne sont
+        pas encore définies, la Conférence donne instruction au Président du CIML:'
 - identifier:
   - prefix: Conference
     number: 2008/19

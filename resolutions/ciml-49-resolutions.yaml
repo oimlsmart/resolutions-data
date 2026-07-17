@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: NZ
-  meeting_urn: urn:oiml:ciml:meeting:ciml-49
   title:
   - spelling: eng
     value: 49th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 49e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: NZ
+  meeting_urn: urn:oiml:ciml:meeting:ciml-49
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 48th CIML Meeting'
+    value: Approval of the minutes of the 48th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 48th CIML Meeting'
+    value: Approval of the minutes of the 48th CIML Meeting
   actions:
   - type: approves
     date_effective:
@@ -44,9 +44,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   actions:
   - type: notes
     date_effective:
@@ -68,9 +68,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3.1: Report on BIML activities'
+    value: Report on BIML activities
   - spelling: fra
-    value: 'Agenda Item 3.1: Report on BIML activities'
+    value: Report on BIML activities
   actions:
   - type: notes
     date_effective:
@@ -94,26 +94,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 4: Member States and Corresponding Members'
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Resolves not to appoint a Selection Committee under section 3 of OIML
-        B 13:2004.
-  - type: decides
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: fra
-      value: Décide de ne pas désigner de Comité de Sélection tel que le prévoit la
-        section 3 de l'OIML B 13:2004.
+    value: Member States and Corresponding Members
   considerations:
   - type: having_regard_to
     date_effective:
@@ -160,6 +143,23 @@ decisions:
       value: |-
         Prenant note des observations formulées par ses Membres,
         Indique qu'il prévoit de décider le renouvellement de l'engagement du Directeur du BIML pour une durée déterminée de cinq ans au maximum lors de sa réunion en 2015, et
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Resolves not to appoint a Selection Committee under section 3 of OIML
+        B 13:2004.
+  - type: decides
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: Décide de ne pas désigner de Comité de Sélection tel que le prévoit la
+        section 3 de l'OIML B 13:2004.
 - identifier:
   - prefix: CIML
     number: 2014/5
@@ -171,9 +171,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 5: Financial matters'
+    value: Financial matters
   actions:
   - type: welcomes
     date_effective:
@@ -199,9 +199,28 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Report on developing countries matters'
+    value: Report on developing countries matters
   - spelling: fra
-    value: 'Agenda Item 6: Report on developing countries matters'
+    value: Report on developing countries matters
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2013 and the BIML Director's comments,
+    - spelling: fra
+      value: |-
+        Prenant note des comptes de l'année 2013 et des observations du Directeur du BIML,
+        Compte tenu de l'approbation des comptes de l'année 2013 par l'auditeur externe,
+  - type: considering
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's approval of the 2013 accounts,
   actions:
   - type: approves
     date_effective:
@@ -227,25 +246,6 @@ decisions:
     - spelling: fra
       value: Charge son Président de présenter lesdits comptes lors de la 15ème Conférence
         de l'OIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2013 and the BIML Director's comments,
-    - spelling: fra
-      value: |-
-        Prenant note des comptes de l'année 2013 et des observations du Directeur du BIML,
-        Compte tenu de l'approbation des comptes de l'année 2013 par l'auditeur externe,
-  - type: considering
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the external auditor's approval of the 2013 accounts,
 - identifier:
   - prefix: CIML
     number: 2014/7
@@ -257,25 +257,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.1: Approval of the 2013 accounts'
+    value: Approval of the 2013 accounts
   - spelling: fra
-    value: 'Agenda Item 5.1: Approval of the 2013 accounts'
-  actions:
-  - type: appoints
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Appoints "LG Audits & Conseils" as the independent chartered accountant
-        of the Organization for a four-year term from 1 January 2015.
-  - type: notes
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: fra
-      value: "[Point 5.1bis de l'ordre du jour]"
+    value: Approval of the 2013 accounts
   considerations:
   - type: having_regard_to
     date_effective:
@@ -296,6 +280,22 @@ decisions:
     message:
     - spelling: eng
       value: Following the recommendation of the Director,
+  actions:
+  - type: appoints
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Appoints "LG Audits & Conseils" as the independent chartered accountant
+        of the Organization for a four-year term from 1 January 2015.
+  - type: notes
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: fra
+      value: "[Point 5.1bis de l'ordre du jour]"
 - identifier:
   - prefix: CIML
     number: 2014/8
@@ -307,11 +307,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5.5: Outstanding arrears of Member States and Corresponding
-      Members'
+    value: Outstanding arrears of Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 5.5: Outstanding arrears of Member States and Corresponding
-      Members'
+    value: Outstanding arrears of Member States and Corresponding Members
   actions:
   - type: notes
     date_effective:
@@ -348,9 +346,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Preparation of the 15th Conference (2016)'
+    value: Preparation of the 15th Conference (2016)
   - spelling: fra
-    value: 'Agenda Item 9: Preparation of the 15th Conference (2016)'
+    value: Preparation of the 15th Conference (2016)
   actions:
   - type: notes
     date_effective:
@@ -378,19 +376,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Other matters'
+    value: Other matters
   - spelling: fra
-    value: 'Agenda Item 10: Other matters'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Notes the oral report given by the Chair of the advisory group.
-    - spelling: fra
-      value: Prend note du rapport oral présenté par le Président du groupe consultatif.
+    value: Other matters
   considerations:
   - type: recalling
     date_effective:
@@ -408,6 +396,16 @@ decisions:
         des suggestions et de développer des liens avec d'autres organismes intéressés
         par la promotion du développement économique de pays et d'économies possédant
         des systèmes naissants de métrologie,
+  actions:
+  - type: notes
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Notes the oral report given by the Chair of the advisory group.
+    - spelling: fra
+      value: Prend note du rapport oral présenté par le Président du groupe consultatif.
 - identifier:
   - prefix: CIML
     number: 2014/11
@@ -419,9 +417,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6.3: Special project aimed at developing countries'
+    value: Special project aimed at developing countries
   - spelling: fra
-    value: 'Agenda Item 6.3: Special project aimed at developing countries'
+    value: Special project aimed at developing countries
   actions:
   - type: notes
     date_effective:
@@ -445,9 +443,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1: Report on the cooperation with the BIPM'
+    value: Report on the cooperation with the BIPM
   - spelling: fra
-    value: 'Agenda Item 7.1: Report on the cooperation with the BIPM'
+    value: Report on the cooperation with the BIPM
   actions:
   - type: thanks
     date_effective:
@@ -487,9 +485,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.4: Information regarding the RLMO Round Table'
+    value: Information regarding the RLMO Round Table
   - spelling: fra
-    value: 'Agenda Item 7.4: Information regarding the RLMO Round Table'
+    value: Information regarding the RLMO Round Table
   actions:
   - type: notes
     date_effective:
@@ -514,11 +512,26 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1: Implementation of the revised B 6: Directives for OIML
-      technical work'
+    value: 'Implementation of the revised B 6: Directives for OIML technical work'
   - spelling: fra
-    value: 'Agenda Item 8.1: Implementation of the revised B 6: Directives for OIML
-      technical work'
+    value: 'Implementation of the revised B 6: Directives for OIML technical work'
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering that a number of current Project Groups have too few P-members
+        and that for some Project Groups no Member State is willing or able to volunteer
+        to take up the convenership, and that, in accordance with 5.16 of OIML B 6-1:2013,
+        these Project Groups should be disbanded,
+    - spelling: fra
+      value: Considérant que, pour un certain nombre de Groupes de Projet actuels,
+        il n'y a pas suffisamment de Membres-P, que, pour certains Groupes de Projet,
+        aucun État Membre n'est désireux ou en mesure de se porter volontaire pour
+        en assurer la responsabilité et que, conformément au 5.16 de l'OIML B 6-1:2013,
+        ces Groupes de Projet doivent être dissous,
   actions:
   - type: notes
     date_effective:
@@ -571,23 +584,6 @@ decisions:
         - TC 18/SC 4/p 6 : Révision de la R 89:1990 Électroencéphalographes,
         - TC 18/SC 5/p 1 : Nouvelle publication : Electronic blood cell counting chambers [Chambres de comptage électronique de cellules sanguines],
         - TC 18/SC 5/p 4 : Révision de la R 26 : Seringues médicales.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering that a number of current Project Groups have too few P-members
-        and that for some Project Groups no Member State is willing or able to volunteer
-        to take up the convenership, and that, in accordance with 5.16 of OIML B 6-1:2013,
-        these Project Groups should be disbanded,
-    - spelling: fra
-      value: Considérant que, pour un certain nombre de Groupes de Projet actuels,
-        il n'y a pas suffisamment de Membres-P, que, pour certains Groupes de Projet,
-        aucun État Membre n'est désireux ou en mesure de se porter volontaire pour
-        en assurer la responsabilité et que, conformément au 5.16 de l'OIML B 6-1:2013,
-        ces Groupes de Projet doivent être dissous,
 - identifier:
   - prefix: CIML
     number: 2014/15
@@ -599,9 +595,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.3.1: Items for approval'
+    value: Items for approval
   - spelling: fra
-    value: 'Agenda Item 8.3.1: Items for approval'
+    value: Items for approval
   actions:
   - type: approves
     date_effective:
@@ -641,22 +637,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.3.2: Items for approval'
+    value: Items for approval
   - spelling: fra
-    value: 'Agenda Item 8.3.2: Items for approval'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves as a new project in TC 8/SC 3 the revision of all parts of R
-        117 Dynamic measuring systems for liquids other than water.
-    - spelling: fra
-      value: Approuve en tant que nouveau projet dans le cadre du TC 8/SC 3 la révision
-        de toutes les parties de la R 117 Ensembles de mesurage dynamique de liquides
-        autres que l'eau.
+    value: Items for approval
   considerations:
   - type: considering
     date_effective:
@@ -670,6 +653,19 @@ decisions:
       value: Considérant la proposition de projet figurant dans l'additif 8.3.2 au
         document de travail élaboré pour la réunion, et les précisions y afférentes
         fournies au cours de la réunion,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves as a new project in TC 8/SC 3 the revision of all parts of R
+        117 Dynamic measuring systems for liquids other than water.
+    - spelling: fra
+      value: Approuve en tant que nouveau projet dans le cadre du TC 8/SC 3 la révision
+        de toutes les parties de la R 117 Ensembles de mesurage dynamique de liquides
+        autres que l'eau.
 - identifier:
   - prefix: CIML
     number: 2014/17
@@ -681,21 +677,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.3.3: Items for approval'
+    value: Items for approval
   - spelling: fra
-    value: 'Agenda Item 8.3.3: Items for approval'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2014-11-04'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves as a new project in TC 8/SC 7 the revision of all parts of R
-        140 Measuring systems for gaseous fuels.
-    - spelling: fra
-      value: Approuve en tant que nouveau projet dans le cadre du TC 8/SC 7 la révision
-        de toutes les parties de la R 140 Systèmes de mesurage de gaz.
+    value: Items for approval
   considerations:
   - type: considering
     date_effective:
@@ -708,6 +692,18 @@ decisions:
     - spelling: fra
       value: Considérant la proposition de projet figurant dans l'additif 8.3.3 au
         document de travail élaboré pour la réunion,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2014-11-04'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves as a new project in TC 8/SC 7 the revision of all parts of R
+        140 Measuring systems for gaseous fuels.
+    - spelling: fra
+      value: Approuve en tant que nouveau projet dans le cadre du TC 8/SC 7 la révision
+        de toutes les parties de la R 140 Systèmes de mesurage de gaz.
 - identifier:
   - prefix: CIML
     number: 2014/18
@@ -719,9 +715,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.5: OIML Systems: the MAA'
+    value: 'OIML Systems: the MAA'
   - spelling: fra
-    value: 'Agenda Item 8.5: OIML Systems: the MAA'
+    value: 'OIML Systems: the MAA'
   actions:
   - type: notes
     date_effective:
@@ -785,9 +781,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Awards'
+    value: Awards
   - spelling: fra
-    value: 'Agenda Item 11: Awards'
+    value: Awards
   actions:
   - type: thanks
     date_effective:
@@ -813,9 +809,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 12: Future meetings'
+    value: Future meetings
   actions:
   - type: notes
     date_effective:

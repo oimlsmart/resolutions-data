@@ -1,0 +1,122 @@
+# OIML official EN→FR agenda title mapping.
+#
+# These translations cover the recurring agenda section titles used across
+# CIML Meeting and OIML Conference agendas. Sourced from the parallel
+# French resolutions PDFs (reference-docs/ocr/md/*-fr.md) and from the
+# French-side OIML Bulletin sections. Titles not in this map are left
+# untouched — the script is conservative and only fills `spelling: fra`
+# slots when a confident match exists.
+#
+# Format:
+#   "English title": "Titre français"
+#
+# Match is exact (case-sensitive) after both sides are .strip'd. The
+# script writes a `spelling: fra` entry only when one is missing OR
+# when the existing value is identical to the English (a known OCR
+# pipeline artefact).
+
+# --- Opening / closing ---
+"Opening of the meeting": "Ouverture de la réunion"
+"Opening remarks": "Allocutions d'ouverture"
+"Opening remarks and roll call": "Allocutions d'ouverture et appel nominal"
+"Opening remarks and meeting protocol": "Allocutions d'ouverture et protocole de la réunion"
+"Opening speeches – Roll call – Approval of the agenda": "Allocutions d'ouverture – Appel nominal – Adoption de l'ordre du jour"
+"Opening speeches": "Allocutions d'ouverture"
+"Roll call": "Appel nominal"
+"Welcome and opening remarks": "Mots de bienvenue et allocutions d'ouverture"
+"Welcome": "Mots de bienvenue"
+"Closure of the meeting": "Clôture de la réunion"
+"Closure": "Clôture"
+"Closing remarks": "Mots de clôture"
+"Closing speeches": "Discours de clôture"
+
+# --- Agenda ---
+"Adoption of the agenda": "Adoption de l'ordre du jour"
+"Approval of the agenda": "Approbation de l'ordre du jour"
+"Approval of meeting resolutions": "Approbation des résolutions de la réunion"
+"Adoption des décisions": "Adoption des décisions"
+
+# --- Minutes ---
+"Approval of the minutes of the previous CIML Meeting": "Approbation du procès-verbal de la précédente réunion du CIML"
+"Approval of the minutes": "Approbation du procès-verbal"
+"Minutes of the previous CIML Meeting": "Procès-verbal de la précédente réunion du CIML"
+"Minutes of the previous meeting": "Procès-verbal de la précédente réunion"
+
+# --- CIML President ---
+"General report by the CIML President": "Rapport général du Président du CIML"
+"Report by the CIML President": "Rapport du Président du CIML"
+"Election of the CIML President": "Élection du Président du CIML"
+"Election of the CIML First Vice-President": "Élection du Premier Vice-Président du CIML"
+"Election of the CIML Second Vice-President": "Élection du Deuxième Vice-Président du CIML"
+"Election of CIML Vice-President": "Élection du Vice-Président du CIML"
+
+# --- BIML ---
+"Report by the BIML Director on BIML matters and activities": "Rapport du Directeur du BIML sur les questions et activités du BIML"
+"Report by the BIML Director": "Rapport du Directeur du BIML"
+"Report on BIML activities": "Rapport sur les activités du BIML"
+"BIML activities": "Activités du BIML"
+"BIML matters": "Questions relatives au BIML"
+"BIML staff": "Personnel du BIML"
+"Human resource matters": "Questions de ressources humaines"
+"Management of the Translation Center": "Gestion du Centre de traduction"
+"Report on the BIML Director's activities": "Rapport sur les activités du Directeur du BIML"
+
+# --- Financial ---
+"Financial matters": "Questions financières"
+"Financial report": "Rapport financier"
+"Finance": "Finances"
+"Budget forecast": "Prévisions budgétaires"
+"Budget matters": "Questions budgétaires"
+"Internal financial audit": "Audit financier interne"
+"Outstanding arrears of Member States and Corresponding Members": "Arriérés des États membres et Membres correspondants"
+"Arrears of Member States and Corresponding Members": "Arriérés des États membres et Membres correspondants"
+"Member States and Corresponding Members": "États membres et Membres correspondants"
+"Membership matters": "Questions relatives aux membres"
+"New Members - Prospects for accession": "Nouveaux Membres - Perspectives d'adhésion"
+
+# --- Publications / Technical ---
+"OIML publications and technical activities": "Publications OIML et activités techniques"
+"Technical activities": "Activités techniques"
+"Publications for approval by the CIML": "Publications à approuver par le CIML"
+"Items for approval": "Points à approuver"
+"Items for information": "Points pour information"
+"OIML publications": "Publications OIML"
+"Future technical work": "Travaux techniques futurs"
+"Future meetings": "Réunions futures"
+"Implementation of the revised B 6: Directives for OIML technical work": "Mise en œuvre du B 6 révisé : Directives pour les travaux techniques de l'OIML"
+
+# --- Certification ---
+"OIML Certification System (OIML-CS)": "Système de Certification OIML (OIML-CS)"
+"CERTIFICATION": "CERTIFICATION"
+"OIML-CS": "OIML-CS"
+
+# --- Awards ---
+"Awards": "Prix"
+"OIML Awards": "Prix OIML"
+
+# --- Cooperation / liaisons ---
+"Liaisons": "Liaisons"
+"International cooperation": "Coopération internationale"
+"Report on the cooperation with the BIPM": "Rapport sur la coopération avec le BIPM"
+"Report by the BIML on liaison activities": "Rapport du BIML sur les activités de liaison"
+"Report on developing countries matters": "Rapport sur les questions des pays en développement"
+
+# --- Presidential Council ---
+"Presidential Council activities": "Activités du Conseil présidentiel"
+
+# --- RLMO / CEEMS ---
+"Report by the RLMO Round Table Chairperson": "Rapport du Président de la Table ronde des RLMO"
+"Information regarding the RLMO Round Table": "Informations concernant la Table ronde des RLMO"
+"Countries and Economies with Emerging Metrology Systems (CEEMS)": "Pays et économies à systèmes de métrologie émergents (CEEMS)"
+"CEEMS Advisory Group (CEEMS AG)": "Groupe consultatif CEEMS (CEEMS AG)"
+
+# --- Any other business ---
+"Any other business": "Divers"
+"Other matters": "Autres questions"
+"Miscellaneous": "Divers"
+
+# --- Web / IT ---
+"Progress with the new OIML website": "Avancement du nouveau site web OIML"
+
+# --- Conference-specific ---
+"Election of the Conference President and Vice-Presidents": "Élection du Président et des Vice-Présidents de la Conférence"

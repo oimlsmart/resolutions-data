@@ -1,0 +1,37 @@
+# Country name (lowercase) → ISO 3166-1 alpha-2 code.
+# Used for venue→flag emoji resolution on legacy string-shaped venues.
+# New meeting sources should use `country_code` directly in manifest.yaml.
+countryCodeMap:
+  australia: AU
+  canada: CA
+  china: CN
+  colombia: CO
+  czech: CZ
+  czech republic: CZ
+  czechia: CZ
+  france: FR
+  germany: DE
+  italy: IT
+  japan: JP
+  kenya: KE
+  korea: KR
+  netherlands: NL
+  new zealand: NZ
+  norway: 'NO'
+  portugal: PT
+  romania: RO
+  slovak republic: SK
+  slovakia: SK
+  south africa: ZA
+  south korea: KR
+  spain: ES
+  sweden: SE
+  switzerland: CH
+  thailand: TH
+  the netherlands: NL
+  uk: GB
+  united kingdom: GB
+  united states: US
+  usa: US
+  viet nam: VN
+  vietnam: VN

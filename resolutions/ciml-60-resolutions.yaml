@@ -1,11 +1,11 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: FR
-  meeting_urn: urn:oiml:ciml:meeting:ciml-60
   title:
   - spelling: eng
     value: 60th CIML Meeting — Resolutions (EN)
+  source: OIML CIML Secretariat (BIML)
+  country_code: FR
+  meeting_urn: urn:oiml:ciml:meeting:ciml-60
 decisions:
 - identifier:
   - prefix: CIML
@@ -18,7 +18,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Opening remarks and roll call'
+    value: Opening remarks and roll call
   actions:
   - type: thanks
     date_effective:
@@ -42,7 +42,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Adoption of the agenda'
+    value: Adoption of the agenda
   actions:
   - type: approves
     date_effective:
@@ -62,15 +62,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Minutes of the 59th CIML Meeting'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves the minutes of the 59th CIML Meeting.
+    value: Minutes of the 59th CIML Meeting
   considerations:
   - type: noting
     date_effective:
@@ -79,6 +71,14 @@ decisions:
     message:
     - spelling: eng
       value: Noting the comments made by its Members,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the minutes of the 59th CIML Meeting.
 - identifier:
   - prefix: CIML
     number: 2025/04
@@ -90,7 +90,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Report by the CIML President'
+    value: Report by the CIML President
   actions:
   - type: notes
     date_effective:
@@ -110,7 +110,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   actions:
   - type: notes
     date_effective:
@@ -130,7 +130,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   actions:
   - type: welcomes
     date_effective:
@@ -150,22 +150,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6.1: 2024 accounts'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves the 2024 accounts, and
-  - type: instructs
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Instructs its President to present them to the 17th OIML Conference.
+    value: 2024 accounts
   considerations:
   - type: noting
     date_effective:
@@ -182,6 +167,21 @@ decisions:
     message:
     - spelling: eng
       value: Considering the external auditor's report on the 2024 accounts,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the 2024 accounts, and
+  - type: instructs
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Instructs its President to present them to the 17th OIML Conference.
 - identifier:
   - prefix: CIML
     number: 2025/08
@@ -193,16 +193,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6.2: Arrears of Member States and Corresponding Members'
-  actions:
-  - type: requests
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Requests those Members with arrears to bring their situation up to date
-        as soon as possible.
+    value: Arrears of Member States and Corresponding Members
   considerations:
   - type: noting
     date_effective:
@@ -213,6 +204,15 @@ decisions:
       value: |-
         Noting the report given by the BIML Director,
         Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
+  actions:
+  - type: requests
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests those Members with arrears to bring their situation up to date
+        as soon as possible.
 - identifier:
   - prefix: CIML
     number: 2025/09
@@ -224,7 +224,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6.3: Budget forecast for 2025'
+    value: Budget forecast for 2025
   actions:
   - type: notes
     date_effective:
@@ -244,16 +244,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6.4: Member State and Corresponding Member classes and fees'
-  actions:
-  - type: requests
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Requests the 17th Conference to take this Resolution into account when
-        deciding about the Member State and Corresponding Member classes and fees.
+    value: Member State and Corresponding Member classes and fees
   considerations:
   - type: noting
     date_effective:
@@ -272,6 +263,15 @@ decisions:
       value: |-
         Recalling Resolutions CIML/2021/13 of the 56th CIML Meeting, and Conference/2021/07 of the 16th Conference,
         Reconfirms the principles concerning Member State and Corresponding Member classes and fees referenced in the above-mentioned Resolutions and the member classification review conducted in 2025, and
+  actions:
+  - type: requests
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests the 17th Conference to take this Resolution into account when
+        deciding about the Member State and Corresponding Member classes and fees.
 - identifier:
   - prefix: CIML
     number: 2025/11
@@ -283,7 +283,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6.5: Proposed budget for the 2026–2029 financial period'
+    value: Proposed budget for the 2026–2029 financial period
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Noting the report on the budget for the 2026-2029 financial period given by the BIML Director,
+        Having examined the proposed budget for the 2026-2029 financial period,
+    - spelling: eng
+      value: Noting the comments from its Members,
   actions:
   - type: approves
     date_effective:
@@ -301,18 +313,6 @@ decisions:
       value: Requests the 17th Conference to take this Resolution into account when
         deciding the overall amount of credits necessary to cover the OIML's operating
         expenses in the 2026-2029 financial period.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Noting the report on the budget for the 2026-2029 financial period given by the BIML Director,
-        Having examined the proposed budget for the 2026-2029 financial period,
-    - spelling: eng
-      value: Noting the comments from its Members,
 - identifier:
   - prefix: CIML
     number: 2025/12
@@ -324,7 +324,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1.1: Publications for approval by the CIML'
+    value: Publications for approval by the CIML
   actions:
   - type: approves
     date_effective:
@@ -352,15 +352,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1.2: Publications for approval by the CIML'
-  actions:
-  - type: decides
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Decides to accept the proposal to vote on this Amendment at this meeting.
+    value: Publications for approval by the CIML
   considerations:
   - type: considering
     date_effective:
@@ -371,6 +363,14 @@ decisions:
       value: Considering the explanation provided about the Amendment to OIML R 111:2004
         Weights of classes $ E_{1}, E_{2}, F_{1}, F_{2}, M_{1}, M_{1-2}, M_{2}, M_{2-3}
         $ and $ M_{3}, $
+  actions:
+  - type: decides
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides to accept the proposal to vote on this Amendment at this meeting.
 - identifier:
   - prefix: CIML
     number: 2025/14
@@ -382,7 +382,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1.2: Publications for approval by the CIML'
+    value: Publications for approval by the CIML
   actions:
   - type: approves
     date_effective:
@@ -412,17 +412,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1.3: Publications for approval by the CIML'
-  actions:
-  - type: decides
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Decides to accept the proposal to vote on the Final Draft Revision of
-        OIML R 91:1990 Radar equipment for the measurement of the speed of vehicles
-        at this meeting.
+    value: Publications for approval by the CIML
   considerations:
   - type: considering
     date_effective:
@@ -433,6 +423,16 @@ decisions:
       value: Considering the explanation provided about the result of the Preliminary
         Online Ballot on the Draft Revision of OIML R 91:1990 Radar equipment for
         the measurement of the speed of vehicles, which closed on 9 October 2025,
+  actions:
+  - type: decides
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides to accept the proposal to vote on the Final Draft Revision of
+        OIML R 91:1990 Radar equipment for the measurement of the speed of vehicles
+        at this meeting.
 - identifier:
   - prefix: CIML
     number: 2025/16
@@ -444,7 +444,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1.3: Publications for approval by the CIML'
+    value: Publications for approval by the CIML
   actions:
   - type: approves
     date_effective:
@@ -474,7 +474,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.2.1: Project proposals for approval by the CIML'
+    value: Project proposals for approval by the CIML
   actions:
   - type: approves
     date_effective:
@@ -498,18 +498,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 18: Review and approval of draft CIML resolutions (session
-      3)'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves the list of high priority publications given in 60th CIML Meeting
-        Document 7.3, and Approves the list of high priority projects given in 60th
-        CIML Meeting Document 7.3.
+    value: Review and approval of draft CIML resolutions (session 3)
   considerations:
   - type: noting
     date_effective:
@@ -521,6 +510,16 @@ decisions:
         7.3,
     - spelling: eng
       value: Noting comments from its Members,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the list of high priority publications given in 60th CIML Meeting
+        Document 7.3, and Approves the list of high priority projects given in 60th
+        CIML Meeting Document 7.3.
 - identifier:
   - prefix: CIML
     number: 2025/19
@@ -532,7 +531,16 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.3: Other technical items for information and approval'
+    value: Other technical items for information and approval
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the information in CIML Meeting Document 7.3 concerning the lack
+        of progress on some technical work projects,
   actions:
   - type: approves
     date_effective:
@@ -546,15 +554,6 @@ decisions:
         TC8/SC1/p11 Revision of R 125 Measuring systems for the mass of liquids in tanks,
         TC10/SC2/p2 Combined revision of R 101 and R 109 Indicating and recording pressure gauges, vacuum gauges and pressure-vacuum gauges with elastic sensing elements,
         TC17/SC3/p2 New publication: Method of carrying out pH-measurements and certification methods of solution for verification of pH-meters.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the information in CIML Meeting Document 7.3 concerning the lack
-        of progress on some technical work projects,
 - identifier:
   - prefix: CIML
     number: 2025/20
@@ -566,16 +565,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.3: Other technical items for information and approval'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the information in CIML Meeting Document 7.3 on the reduced number
-        of proposals for new technical work projects,
+    value: Other technical items for information and approval
   considerations:
   - type: noting
     date_effective:
@@ -586,6 +576,15 @@ decisions:
       value: |-
         Noting the information in CIML Meeting Document 7.3 on the reduced number of proposals for new technical work projects,
         Encourages its Members to consider making proposals for new projects in response to the request which will be made by the BIML each year.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the information in CIML Meeting Document 7.3 on the reduced number
+        of proposals for new technical work projects,
 - identifier:
   - prefix: CIML
     number: 2025/21
@@ -597,17 +596,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.3: Other technical items for information and approval'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Approves the withdrawal of OIML B 17:2012 Policies and rules for the reimbursement of travel expenses incurred by CIML Members of Honour and invited guests in attending OIML events (including Amendment 1 dated 2023-11), and
-        Recommends that any future support for CIML Members of Honour or guests be considered on a caseby-case basis under the general financial and travel policies of the BIML.
+    value: Other technical items for information and approval
   considerations:
   - type: noting
     date_effective:
@@ -618,6 +607,16 @@ decisions:
       value: |-
         Noting the information in CIML Meeting Document 7.3,
         Appreciating the contributions made by CIML Members of Honour to the work of the Committee,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Approves the withdrawal of OIML B 17:2012 Policies and rules for the reimbursement of travel expenses incurred by CIML Members of Honour and invited guests in attending OIML events (including Amendment 1 dated 2023-11), and
+        Recommends that any future support for CIML Members of Honour or guests be considered on a caseby-case basis under the general financial and travel policies of the BIML.
 - identifier:
   - prefix: CIML
     number: 2025/22
@@ -629,7 +628,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.4: OIML publications and communications'
+    value: OIML publications and communications
   actions:
   - type: notes
     date_effective:
@@ -681,7 +680,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.4: OIML publications and communications'
+    value: OIML publications and communications
   subject:
   - spelling: eng
     value: OIML Conference
@@ -727,7 +726,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1: Report by the OIML-CS MC Chairperson'
+    value: Report by the OIML-CS MC Chairperson
   actions:
   - type: notes
     date_effective:
@@ -756,7 +755,17 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
+    value: Recommendations from the OIML-CS MC to the CIML
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Noting the recommendation from the OIML-CS Management Committee,
+        Agrees to the removal from the OIML-CS of the ISO/IEC 17020 (with additional requirements) pathway for OIML Issuing Authorities to demonstrate their competence,
   actions:
   - type: approves
     date_effective:
@@ -774,16 +783,6 @@ decisions:
     - spelling: eng
       value: Thanks the OIML-CS Management Committee and Maintenance Group for completing
         this work.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Noting the recommendation from the OIML-CS Management Committee,
-        Agrees to the removal from the OIML-CS of the ISO/IEC 17020 (with additional requirements) pathway for OIML Issuing Authorities to demonstrate their competence,
 - identifier:
   - prefix: CIML
     number: 2025/26
@@ -795,7 +794,15 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
+    value: Recommendations from the OIML-CS MC to the CIML
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendation from the OIML-CS Management Committee,
   actions:
   - type: approves
     date_effective:
@@ -805,14 +812,6 @@ decisions:
     - spelling: eng
       value: Approves the withdrawal of OIML D 37:2022 Guide to the application of
         ISO/IEC 17020 to the assessment of OIML Issuing Authorities under the OIML-CS.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendation from the OIML-CS Management Committee,
 - identifier:
   - prefix: CIML
     number: 2025/27
@@ -824,7 +823,15 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
+    value: Recommendations from the OIML-CS MC to the CIML
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendation from the OIML-CS Management Committee,
   actions:
   - type: approves
     date_effective:
@@ -836,14 +843,6 @@ decisions:
         B to Scheme A, for OIML R 111:2004 Weights of classes $ E_{1}, $ $ E_{2},
         $ $ F_{1}, $ $ F_{2}, $ $ M_{1}, $ $ M_{1-2}, $ $ M_{2}, $ $ M_{2-3} $ and
         $ M_{3}. $
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendation from the OIML-CS Management Committee,
 - identifier:
   - prefix: CIML
     number: 2025/28
@@ -855,7 +854,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.2: Recommendations from the OIML-CS MC to the CIML'
+    value: Recommendations from the OIML-CS MC to the CIML
   actions:
   - type: notes
     date_effective:
@@ -877,7 +876,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.1: CEEMS Advisory Group (CEEMS AG)'
+    value: CEEMS Advisory Group (CEEMS AG)
   actions:
   - type: notes
     date_effective:
@@ -904,18 +903,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.2: CEEMS Advisory Group (CEEMS AG)'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling clause A.1.2 of OIML B 19:2023 Terms of Reference for the Advisory
-        Group on matters concerning Countries and Economies with Emerging Metrology
-        Systems (CEEMS AG), which states that the Chairperson is eligible for re-appointment
-        for one further term of three years,
+    value: CEEMS Advisory Group (CEEMS AG)
   considerations:
   - type: recalling
     date_effective:
@@ -936,6 +924,17 @@ decisions:
       value: |-
         Noting that it had not been possible to hold an annual CEEMS AG meeting prior to the 60th CIML Meeting,
         Re-appoints Mr Jaco Marneweck as CEEMS AG Chairperson for a second three-year term with effect from 1 January 2026, subject to his re-nomination being accepted at the 2025 CEEMS AG meeting.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling clause A.1.2 of OIML B 19:2023 Terms of Reference for the Advisory
+        Group on matters concerning Countries and Economies with Emerging Metrology
+        Systems (CEEMS AG), which states that the Chairperson is eligible for re-appointment
+        for one further term of three years,
 - identifier:
   - prefix: CIML
     number: 2025/31
@@ -947,7 +946,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.1: OIML Digitalization Task Group (OIML DTG)'
+    value: OIML Digitalization Task Group (OIML DTG)
   actions:
   - type: notes
     date_effective:
@@ -976,16 +975,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: OIML Digitalization Task Group (OIML DTG)'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting that the result of the secret ballot conducted amongst DTG members
-        supported the nomination of their Chairperson for a second three-year term,
+    value: OIML Digitalization Task Group (OIML DTG)
   considerations:
   - type: noting
     date_effective:
@@ -996,6 +986,15 @@ decisions:
       value: |-
         Noting that the result of the secret ballot conducted amongst DTG members supported the nomination of their Chairperson for a second three-year term,
         Re-appoints Dr Sascha Eichstadt as DTG Chairperson for a second three-year term with immediate effect.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting that the result of the secret ballot conducted amongst DTG members
+        supported the nomination of their Chairperson for a second three-year term,
 - identifier:
   - prefix: CIML
     number: 2025/33
@@ -1007,17 +1006,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: OIML Digitalization Task Group (OIML DTG)'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting that the result of the secret ballot conducted amongst DTG members
-        supported the nomination of their Deputy Chairperson for a second three-year
-        term,
+    value: OIML Digitalization Task Group (OIML DTG)
   considerations:
   - type: noting
     date_effective:
@@ -1028,6 +1017,16 @@ decisions:
       value: |-
         Noting that the result of the secret ballot conducted amongst DTG members supported the nomination of their Deputy Chairperson for a second three-year term,
         Re-appoints Dr Yang Ping as DTG Deputy Chairperson for a second three-year term with immediate effect.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting that the result of the secret ballot conducted amongst DTG members
+        supported the nomination of their Deputy Chairperson for a second three-year
+        term,
 - identifier:
   - prefix: CIML
     number: 2025/34
@@ -1039,16 +1038,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: OIML Digitalization Task Group (OIML DTG)'
-  actions:
-  - type: approves
-    date_effective:
-      date: '2025-10-13'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves the DTG's recommendation to establish a subcommittee AI in legal
-        metrology.
+    value: OIML Digitalization Task Group (OIML DTG)
   considerations:
   - type: noting
     date_effective:
@@ -1058,6 +1048,15 @@ decisions:
     - spelling: eng
       value: Noting the DTG's recommendation in Annex A to 60th CIML Document 10.2
         for the development of guidance on Artificial Intelligence (AI),
+  actions:
+  - type: approves
+    date_effective:
+      date: '2025-10-13'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the DTG's recommendation to establish a subcommittee AI in legal
+        metrology.
 - identifier:
   - prefix: CIML
     number: 2025/35
@@ -1069,7 +1068,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.1: Report by the RLMO Round Table Chairperson'
+    value: Report by the RLMO Round Table Chairperson
   actions:
   - type: notes
     date_effective:
@@ -1119,7 +1118,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.3: Updates by other organizations in liaison'
+    value: Updates by other organizations in liaison
   actions:
   - type: notes
     date_effective:
@@ -1149,8 +1148,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14.4: Cooperation with the United Nations Framework Convention
-      on Climate Change'
+    value: Cooperation with the United Nations Framework Convention on Climate Change
   actions:
   - type: notes
     date_effective:
@@ -1172,7 +1170,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.1: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1193,7 +1191,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.2: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1213,7 +1211,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.3: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1233,7 +1231,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15.3: OIML Awards'
+    value: OIML Awards
   actions:
   - type: appoints
     date_effective:
@@ -1257,7 +1255,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 16.1: 61st CIML Meeting (2026)'
+    value: 61st CIML Meeting (2026)
   actions:
   - type: thanks
     date_effective:
@@ -1294,7 +1292,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 16.2: 62nd CIML Meeting (2027)'
+    value: 62nd CIML Meeting (2027)
   actions:
   - type: notes
     date_effective:

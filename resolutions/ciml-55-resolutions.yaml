@@ -1,12 +1,12 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  meeting_urn: urn:oiml:ciml:meeting:ciml-55
   title:
   - spelling: eng
     value: 55th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 55e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  meeting_urn: urn:oiml:ciml:meeting:ciml-55
 decisions:
 - identifier:
   - prefix: CIML
@@ -19,9 +19,33 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2.2: Application of conditions for CIML voting'
+    value: Application of conditions for CIML voting
   - spelling: fra
-    value: 'Agenda Item 2.2: Application of conditions for CIML voting'
+    value: Application of conditions for CIML voting
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the provisions for its decisions set out in Article XVII of OIML
+        B 1 Convention establishing an International Organisation of Legal Metrology,
+    - spelling: fra
+      value: Prenant note des dispositions relatives à ses décisions énoncées à l'article
+        XVII de l'OIML B 1 Convention instituant une organisation internationale de
+        métrologie légale,
+  - type: considering
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the need to facilitate the work of the Committee when online
+        CIML meetings are held,
+    - spelling: fra
+      value: Considérant la nécessité de faciliter le travail du Comité lors des réunions
+        du CIML en ligne,
   actions:
   - type: decides
     date_effective:
@@ -38,6 +62,20 @@ decisions:
         énoncées aux paragraphes deux et trois de l'article XVII de l'OIML B 1, seront
         utilisées dans le cas d'un vote en ligne sur des sujets qui ont été discutés
         lors d'une réunion en ligne du CIML.
+- identifier:
+  - prefix: CIML
+    number: 2020/2
+  doi: 10.63493/resolutions/ciml202002
+  urn: urn:oiml:doc:ciml:resolution:2020-02
+  agenda_item: '2.2'
+  dates:
+  - date: '2020-10-20'
+    type: decided
+  title:
+  - spelling: eng
+    value: Application of conditions for CIML voting
+  - spelling: fra
+    value: Application of conditions for CIML voting
   considerations:
   - type: noting
     date_effective:
@@ -62,20 +100,6 @@ decisions:
     - spelling: fra
       value: Considérant la nécessité de faciliter le travail du Comité lors des réunions
         du CIML en ligne,
-- identifier:
-  - prefix: CIML
-    number: 2020/2
-  doi: 10.63493/resolutions/ciml202002
-  urn: urn:oiml:doc:ciml:resolution:2020-02
-  agenda_item: '2.2'
-  dates:
-  - date: '2020-10-20'
-    type: decided
-  title:
-  - spelling: eng
-    value: 'Agenda Item 2.2: Application of conditions for CIML voting'
-  - spelling: fra
-    value: 'Agenda Item 2.2: Application of conditions for CIML voting'
   actions:
   - type: approves
     date_effective:
@@ -89,30 +113,6 @@ decisions:
       value: Approuve l'utilisation des outils de vote sécurisés du site web de l'OIML
         pour les projets de résolution du CIML et pour les votes à bulletin secret
         sur les nominations.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the provisions for its decisions set out in Article XVII of OIML
-        B 1 Convention establishing an International Organisation of Legal Metrology,
-    - spelling: fra
-      value: Prenant note des dispositions relatives à ses décisions énoncées à l'article
-        XVII de l'OIML B 1 Convention instituant une organisation internationale de
-        métrologie légale,
-  - type: considering
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the need to facilitate the work of the Committee when online
-        CIML meetings are held,
-    - spelling: fra
-      value: Considérant la nécessité de faciliter le travail du Comité lors des réunions
-        du CIML en ligne,
 - identifier:
   - prefix: CIML
     number: 2020/3
@@ -124,9 +124,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Minutes of the 54th CIML Meeting'
+    value: Minutes of the 54th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 4: Minutes of the 54th CIML Meeting'
+    value: Minutes of the 54th CIML Meeting
   actions:
   - type: approves
     date_effective:
@@ -148,9 +148,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Report by the CIML President'
+    value: Report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 5: Report by the CIML President'
+    value: Report by the CIML President
   actions:
   - type: notes
     date_effective:
@@ -172,9 +172,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Report by the CIML President'
+    value: Report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 5: Report by the CIML President'
+    value: Report by the CIML President
   actions:
   - type: notes
     date_effective:
@@ -248,9 +248,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Report by the CIML President'
+    value: Report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 5: Report by the CIML President'
+    value: Report by the CIML President
   subject:
   - spelling: fra
     value: Conférence OIML
@@ -310,9 +310,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   - spelling: fra
-    value: 'Agenda Item 6: Report by the BIML Director on BIML matters and activities'
+    value: Report by the BIML Director on BIML matters and activities
   actions:
   - type: notes
     date_effective:
@@ -334,9 +334,29 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.1: 2019 accounts'
+    value: 2019 accounts
   - spelling: fra
-    value: 'Agenda Item 7.1: 2019 accounts'
+    value: 2019 accounts
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2019 and the BIML Director's comments,
+    - spelling: fra
+      value: Prenant note des comptes de 2019 et des commentaires du Directeur du
+        BIML,
+  - type: considering
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's audit of the 2019 accounts,
+    - spelling: fra
+      value: Considérant l'audit des comptes 2019 par l'auditeur externe,
   actions:
   - type: approves
     date_effective:
@@ -361,26 +381,6 @@ decisions:
     message:
     - spelling: fra
       value: Charge son Président de les présenter à la 16ème Conférence de l'OIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2019 and the BIML Director's comments,
-    - spelling: fra
-      value: Prenant note des comptes de 2019 et des commentaires du Directeur du
-        BIML,
-  - type: considering
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the external auditor's audit of the 2019 accounts,
-    - spelling: fra
-      value: Considérant l'audit des comptes 2019 par l'auditeur externe,
 - identifier:
   - prefix: CIML
     number: 2020/9
@@ -392,9 +392,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.2: Budget forecast for 2020'
+    value: Budget forecast for 2020
   - spelling: fra
-    value: 'Agenda Item 7.2: Budget forecast for 2020'
+    value: Budget forecast for 2020
   actions:
   - type: notes
     date_effective:
@@ -417,9 +417,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.3: Budget for 2021'
+    value: Budget for 2021
   - spelling: fra
-    value: 'Agenda Item 7.3: Budget for 2021'
+    value: Budget for 2021
   actions:
   - type: notes
     date_effective:
@@ -442,9 +442,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7.4: Arrears of Member States and Corresponding Members'
+    value: Arrears of Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 7.4: Arrears of Member States and Corresponding Members'
+    value: Arrears of Member States and Corresponding Members
   actions:
   - type: notes
     date_effective:
@@ -481,9 +481,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.1: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.1: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -513,9 +513,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.2: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.2: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -545,9 +545,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.3: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.3: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -571,9 +571,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.4: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.4: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -597,9 +597,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.5: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.5: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -623,9 +623,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.6: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.6: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -653,9 +653,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.1.7: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.1.7: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -683,9 +683,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.1.2.1: Publications and project proposals'
+    value: Publications and project proposals
   - spelling: fra
-    value: 'Agenda Item 8.1.2.1: Publications and project proposals'
+    value: Publications and project proposals
   actions:
   - type: approves
     date_effective:
@@ -714,9 +714,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8.2: Other items for information and approval'
+    value: Other items for information and approval
   - spelling: fra
-    value: 'Agenda Item 8.2: Other items for information and approval'
+    value: Other items for information and approval
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the report on OIML technical work,
+    - spelling: fra
+      value: Prenant note du rapport sur les travaux techniques de l'OIML,
   actions:
   - type: approves
     date_effective:
@@ -735,16 +745,6 @@ decisions:
     - spelling: fra
       value: Approuve la liste des publications hautement prioritaires telle que présentée
         dans l'addendum 8.2 au document de travail pour cette réunion.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the report on OIML technical work,
-    - spelling: fra
-      value: Prenant note du rapport sur les travaux techniques de l'OIML,
 - identifier:
   - prefix: CIML
     number: 2020/21
@@ -793,11 +793,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.1: Report by the OIML-CS Management Committee (MC) Acting
-      Chairperson'
+    value: Report by the OIML-CS Management Committee (MC) Acting Chairperson
   - spelling: fra
-    value: 'Agenda Item 9.1: Report by the OIML-CS Management Committee (MC) Acting
-      Chairperson'
+    value: Report by the OIML-CS Management Committee (MC) Acting Chairperson
   actions:
   - type: notes
     date_effective:
@@ -838,30 +836,12 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.2: Appointment of the OIML-CS MC Chairperson'
+    value: Appointment of the OIML-CS MC Chairperson
   - spelling: fra
-    value: 'Agenda Item 9.2: Appointment of the OIML-CS MC Chairperson'
+    value: Appointment of the OIML-CS MC Chairperson
   subject:
   - spelling: eng
     value: OIML Conference
-  actions:
-  - type: appoints
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Appoints Mr Mannie Panesar as OIML-CS MC Chairperson for a period of
-        three years from 1 January 2021.
-  - type: notes
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: Prenant note de la sélection par le Comité de Management (MC) de l'OIML-CS
-        de M. Mannie Panesar comme candidat à la nomination au poste de Président
-        du MC,
   considerations:
   - type: noting
     date_effective:
@@ -887,6 +867,24 @@ decisions:
       value: |-
         Vu la section 4.2.5 du Document Opérationnel OIML-CS OD-01 Edition 2,
         Désigne M. Mannie Panesar comme Président du Comité de Management de l'OIML-CS pour une période de trois ans à compter du 1er janvier 2021.
+  actions:
+  - type: appoints
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Appoints Mr Mannie Panesar as OIML-CS MC Chairperson for a period of
+        three years from 1 January 2021.
+  - type: notes
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: Prenant note de la sélection par le Comité de Management (MC) de l'OIML-CS
+        de M. Mannie Panesar comme candidat à la nomination au poste de Président
+        du MC,
 - identifier:
   - prefix: CIML
     number: 2020/24
@@ -898,23 +896,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.3: Re-appointment of the OIML-CS MC Deputy Chairperson'
+    value: Re-appointment of the OIML-CS MC Deputy Chairperson
   - spelling: fra
-    value: 'Agenda Item 9.3: Re-appointment of the OIML-CS MC Deputy Chairperson'
-  actions:
-  - type: notes
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the selection by the OIML-CS Management Committee (MC) of Mr Bill
-        Loizides as the nominee for re-appointment to the position of OIML-CS MC Deputy
-        Chairperson,
-    - spelling: fra
-      value: Prenant note de la sélection par le Comité de Management (MC) de l'OIML-CS
-        de M. Bill Loizides comme candidat à la reconduction du mandat de Vice-président
-        du MC de l'OIML-CS,
+    value: Re-appointment of the OIML-CS MC Deputy Chairperson
   considerations:
   - type: noting
     date_effective:
@@ -942,6 +926,20 @@ decisions:
       value: |-
         Vu la section 4.2.5 du Document Opérationnel OIML-CS OD-01 Edition 2,
         Renouvelle le mandat de M. Bill Loizides en tant que Vice-président du MC de l'OIML-CS pour une période de trois ans à compter du 1er janvier 2021.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the selection by the OIML-CS Management Committee (MC) of Mr Bill
+        Loizides as the nominee for re-appointment to the position of OIML-CS MC Deputy
+        Chairperson,
+    - spelling: fra
+      value: Prenant note de la sélection par le Comité de Management (MC) de l'OIML-CS
+        de M. Bill Loizides comme candidat à la reconduction du mandat de Vice-président
+        du MC de l'OIML-CS,
 - identifier:
   - prefix: CIML
     number: 2020/25
@@ -953,9 +951,23 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.4: Recommendations from the OIML-CS MC to the CIML'
+    value: Recommendations from the OIML-CS MC to the CIML
   - spelling: fra
-    value: 'Agenda Item 9.4: Recommendations from the OIML-CS MC to the CIML'
+    value: Recommendations from the OIML-CS MC to the CIML
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the recommendation from the OIML Certification System (OIML-CS)
+        Management Committee (MC) provided in Addendum 9.1 to the Working Document
+        for this meeting,
+    - spelling: fra
+      value: Prenant note de la recommandation du Comité de Management (MC) du Système
+        de Certification OIML (OIML-CS) fournie dans l'Addendum 9.1 au document de
+        travail pour cette réunion,
   actions:
   - type: decides
     date_effective:
@@ -1008,20 +1020,6 @@ decisions:
       value: Charge le BIML d'identifier la méthode la plus appropriée pour modifier/réviser
         les publications pertinentes et de communiquer ces informations aux secrétariats
         des comités et/ou sous-comités techniques appropriés.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the recommendation from the OIML Certification System (OIML-CS)
-        Management Committee (MC) provided in Addendum 9.1 to the Working Document
-        for this meeting,
-    - spelling: fra
-      value: Prenant note de la recommandation du Comité de Management (MC) du Système
-        de Certification OIML (OIML-CS) fournie dans l'Addendum 9.1 au document de
-        travail pour cette réunion,
 - identifier:
   - prefix: CIML
     number: 2020/26
@@ -1033,9 +1031,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Report by the CEEMS Advisory Group Chairperson'
+    value: Report by the CEEMS Advisory Group Chairperson
   - spelling: fra
-    value: 'Agenda Item 10: Report by the CEEMS Advisory Group Chairperson'
+    value: Report by the CEEMS Advisory Group Chairperson
   subject:
   - spelling: eng
     value: OIML Conference
@@ -1085,9 +1083,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.1: Report by the RLMO Round Table Chairperson'
+    value: Report by the RLMO Round Table Chairperson
   - spelling: fra
-    value: 'Agenda Item 11.1: Report by the RLMO Round Table Chairperson'
+    value: Report by the RLMO Round Table Chairperson
   actions:
   - type: notes
     date_effective:
@@ -1113,11 +1111,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.2: Report by the BIML on activities with organisations
-      in liaison'
+    value: Report by the BIML on activities with organisations in liaison
   - spelling: fra
-    value: 'Agenda Item 11.2: Report by the BIML on activities with organisations
-      in liaison'
+    value: Report by the BIML on activities with organisations in liaison
   actions:
   - type: notes
     date_effective:
@@ -1153,9 +1149,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11.3: Updates by other organisations in liaison'
+    value: Updates by other organisations in liaison
   - spelling: fra
-    value: 'Agenda Item 11.3: Updates by other organisations in liaison'
+    value: Updates by other organisations in liaison
   actions:
   - type: notes
     date_effective:
@@ -1187,9 +1183,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.1: OIML Awards'
+    value: OIML Awards
   - spelling: fra
-    value: 'Agenda Item 12.1: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1213,9 +1209,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.2: OIML Awards'
+    value: OIML Awards
   - spelling: fra
-    value: 'Agenda Item 12.2: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1237,9 +1233,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12.3: OIML Awards'
+    value: OIML Awards
   - spelling: fra
-    value: 'Agenda Item 12.3: OIML Awards'
+    value: OIML Awards
   actions:
   - type: notes
     date_effective:
@@ -1265,9 +1261,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13.1: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 13.1: Future meetings'
+    value: Future meetings
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2020-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution no. 2019/36,
+    - spelling: fra
+      value: Rappelant sa résolution n° 2019/36,
   actions:
   - type: thanks
     date_effective:
@@ -1298,13 +1304,3 @@ decisions:
       value: Charge le Bureau de prendre, dans la mesure du possible, les dispositions
         nécessaires pour organiser la 56ème Réunion du CIML et la 16ème Conférence
         Internationale en 2021.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2020-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution no. 2019/36,
-    - spelling: fra
-      value: Rappelant sa résolution n° 2019/36,

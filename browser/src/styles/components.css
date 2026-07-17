@@ -1,0 +1,437 @@
+/* ── Custom components built on Tailwind 4 ───────────
+   These extend @layer components in app.css with patterns that
+   don't translate cleanly to inline utility classes (gradients,
+   hover-accent animations, glass-morphism).
+   ──────────────────────────────────────────────────── */
+
+@layer components {
+  /* === Result cards — accent top-border on hover === */
+  .std-results__card {
+    @apply relative overflow-hidden rounded-lg p-4 bg-paper-soft dark:bg-paper-raised border border-rule flex flex-col gap-2 no-underline transition-all duration-200;
+  }
+  .std-results__card::before {
+    content: '';
+    @apply absolute inset-x-0 top-0 h-[3px] origin-left scale-x-0 transition-transform duration-300;
+    background: linear-gradient(90deg, var(--color-accent) 0%, var(--color-brand-400) 100%);
+  }
+  .std-results__card:hover,
+  .std-results__card:focus-visible {
+    @apply outline-none -translate-y-0.5;
+    border-color: var(--color-brand-300);
+    box-shadow: 0 12px 28px -10px rgb(0 36 87 / 0.20);
+  }
+  .dark .std-results__card:hover,
+  .dark .std-results__card:focus-visible {
+    border-color: var(--color-brand-300);
+    box-shadow: 0 12px 28px -10px rgb(0 0 0 / 0.5);
+  }
+  .std-results__card:hover::before,
+  .std-results__card:focus-visible::before {
+    @apply scale-x-100;
+  }
+
+  /* === Detail hero — bold brand panel === */
+  .detail-hero {
+    @apply relative overflow-hidden rounded-2xl p-8 lg:p-12 mb-10 text-white isolate;
+    background:
+      radial-gradient(ellipse 80% 60% at 100% 0%, rgb(77 143 224 / 0.35), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 0% 100%, rgb(26 111 194 / 0.20), transparent 60%),
+      linear-gradient(135deg, #002b5a 0%, #004996 50%, #003a78 100%);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.10) inset, 0 20px 60px -20px rgb(0 36 87 / 0.45);
+  }
+  .dark .detail-hero {
+    background:
+      radial-gradient(ellipse 80% 60% at 100% 0%, rgb(77 143 224 / 0.30), transparent 60%),
+      radial-gradient(ellipse 60% 50% at 0% 100%, rgb(26 111 194 / 0.20), transparent 60%),
+      linear-gradient(135deg, #001e41 0%, #002b5a 50%, #001230 100%);
+  }
+  .detail-hero::before {
+    content: '';
+    @apply absolute inset-x-0 top-0 h-1 z-[2];
+    background: linear-gradient(90deg, transparent 0%, #4d8fe0 20%, #89b4ef 50%, #4d8fe0 80%, transparent 100%);
+  }
+  .detail-hero::after {
+    content: '';
+    @apply absolute inset-0 z-[1] pointer-events-none;
+    background-image: radial-gradient(circle, rgb(255 255 255 / 0.10) 1px, transparent 1px);
+    background-size: 24px 24px;
+    mask-image: radial-gradient(ellipse 80% 60% at 100% 0%, black 0%, transparent 70%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 100% 0%, black 0%, transparent 70%);
+  }
+  .detail-hero > * { @apply relative z-[2]; }
+
+  /* === Hero badges — glass pills for use inside .detail-hero / .page-hero === */
+  .hero-badge {
+    @apply inline-flex items-center gap-1.5 px-3 py-1.5 text-xs font-bold uppercase tracking-wider rounded-full text-white no-underline transition-colors;
+    background: rgb(255 255 255 / 0.12);
+    border: 1px solid rgb(255 255 255 / 0.20);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .hero-badge:hover {
+    background: rgb(255 255 255 / 0.20);
+    color: white;
+  }
+  a.hero-badge:hover {
+    background: white;
+    color: var(--color-accent);
+  }
+  .hero-badge--id {
+    @apply font-mono font-bold text-base bg-white text-accent border-white;
+    text-transform: none;
+    letter-spacing: 0;
+    padding: 0.3125rem 0.875rem;
+  }
+  .hero-badge--date {
+    background: rgb(255 255 255 / 0.12);
+    color: white;
+  }
+
+  /* === List-page hero === */
+  .page-hero {
+    @apply relative overflow-hidden rounded-2xl p-8 lg:p-10 mb-10 text-white isolate;
+    background:
+      radial-gradient(ellipse 90% 70% at 100% 0%, rgb(77 143 224 / 0.45), transparent 60%),
+      radial-gradient(ellipse 70% 60% at 0% 100%, rgb(26 111 194 / 0.30), transparent 60%),
+      linear-gradient(135deg, #002b5a 0%, #004996 50%, #003a78 100%);
+    box-shadow: 0 1px 0 rgb(255 255 255 / 0.10) inset, 0 20px 60px -20px rgb(0 36 87 / 0.45);
+  }
+  .dark .page-hero {
+    background:
+      radial-gradient(ellipse 90% 70% at 100% 0%, rgb(77 143 224 / 0.40), transparent 60%),
+      radial-gradient(ellipse 70% 60% at 0% 100%, rgb(26 111 194 / 0.25), transparent 60%),
+      linear-gradient(135deg, #001e41 0%, #002b5a 50%, #001230 100%);
+  }
+  .page-hero::before {
+    content: '';
+    @apply absolute inset-x-0 top-0 h-1 z-[2];
+    background: linear-gradient(90deg, transparent 0%, #4d8fe0 20%, #89b4ef 50%, #4d8fe0 80%, transparent 100%);
+  }
+  .page-hero::after {
+    content: '';
+    @apply absolute inset-0 z-[1] pointer-events-none;
+    background-image: radial-gradient(circle, rgb(255 255 255 / 0.10) 1px, transparent 1px);
+    background-size: 24px 24px;
+    mask-image: radial-gradient(ellipse 80% 60% at 100% 0%, black 0%, transparent 70%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 100% 0%, black 0%, transparent 70%);
+  }
+  .page-hero > * { @apply relative z-[2]; }
+
+  /* === Home hero — full-bleed brand panel === */
+  .home-hero {
+    @apply relative overflow-hidden min-h-[60vh] flex items-center justify-center py-20 px-8 text-white isolate;
+    background:
+      radial-gradient(ellipse 90% 70% at 100% 0%, rgb(77 143 224 / 0.45), transparent 60%),
+      radial-gradient(ellipse 70% 60% at 0% 100%, rgb(26 111 194 / 0.30), transparent 60%),
+      linear-gradient(135deg, #002b5a 0%, #004996 50%, #003a78 100%);
+  }
+  .dark .home-hero {
+    background:
+      radial-gradient(ellipse 90% 70% at 100% 0%, rgb(77 143 224 / 0.40), transparent 60%),
+      radial-gradient(ellipse 70% 60% at 0% 100%, rgb(26 111 194 / 0.25), transparent 60%),
+      linear-gradient(135deg, #001e41 0%, #002b5a 50%, #001230 100%);
+  }
+  .home-hero::before {
+    content: '';
+    @apply absolute inset-0 z-0 pointer-events-none;
+    background-image: radial-gradient(circle, rgb(255 255 255 / 0.10) 1px, transparent 1px);
+    background-size: 28px 28px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black 0%, transparent 80%);
+    -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 50%, black 0%, transparent 80%);
+  }
+
+  /* === Hero title — responsive clamp + shadow === */
+  .hero-title {
+    @apply font-serif font-bold text-white tracking-tight mb-3;
+    font-size: clamp(2.5rem, 6vw, 4.75rem);
+    line-height: 1.05;
+    text-shadow: 0 4px 32px rgb(0 0 0 / 0.30);
+  }
+  .hero-title-sm {
+    @apply font-serif font-bold text-white tracking-tight mb-3;
+    font-size: clamp(1.875rem, 4.5vw, 2.875rem);
+    line-height: 1.15;
+    text-shadow: 0 2px 24px rgb(0 0 0 / 0.25);
+  }
+  .page-title {
+    @apply font-serif font-bold text-white tracking-tight mb-3;
+    font-size: clamp(2rem, 5vw, 3.25rem);
+    line-height: 1.1;
+    text-shadow: 0 2px 24px rgb(0 0 0 / 0.25);
+  }
+  .hero-subtitle {
+    @apply text-white/90 max-w-2xl leading-relaxed;
+    font-size: clamp(1rem, 1.5vw, 1.1875rem);
+  }
+  .hero-subtitle-lg {
+    @apply text-white/90 max-w-2xl leading-relaxed;
+    font-size: clamp(1.0625rem, 1.5vw, 1.1875rem);
+  }
+  .hero-subtitle-white {
+    @apply text-white/90 text-lg leading-relaxed;
+  }
+
+  /* === Stat tile — glass card on hero === */
+  .stat-tile {
+    @apply flex flex-col items-center gap-1.5 px-6 py-5 min-w-[9rem] rounded-xl border border-white/20 backdrop-blur-md transition-transform hover:-translate-y-0.5;
+    background: rgb(255 255 255 / 0.08);
+  }
+  .stat-tile-value {
+    @apply font-serif font-bold text-white leading-none tracking-tight;
+    font-size: clamp(1.875rem, 3vw, 2.5rem);
+  }
+  .stat-tile-label {
+    @apply text-[0.6875rem] uppercase tracking-widest font-semibold text-white/85;
+  }
+
+  /* === Hero buttons === */
+  .hero-btn-primary {
+    @apply inline-flex items-center justify-center px-7 py-3 rounded-full text-sm font-semibold no-underline transition-all hover:-translate-y-0.5;
+    background-color: white;
+    color: var(--color-accent-hover);
+    box-shadow: 0 10px 25px -8px rgb(0 0 0 / 0.30);
+  }
+  .hero-btn-primary:hover {
+    background-color: var(--color-paper-raised);
+  }
+  .hero-btn-secondary {
+    @apply inline-flex items-center justify-center px-7 py-3 rounded-full text-sm font-semibold text-white no-underline transition-all hover:-translate-y-0.5;
+    background: rgb(255 255 255 / 0.10);
+    border: 1px solid rgb(255 255 255 / 0.30);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+  .hero-btn-secondary:hover {
+    background: rgb(255 255 255 / 0.20);
+    border-color: rgb(255 255 255 / 0.50);
+  }
+
+  /* === Body section badge (CIML/CONF/DC color block) === */
+  .body-section-badge {
+    @apply inline-flex items-center justify-center w-11 h-11 rounded-lg font-mono text-xs font-extrabold tracking-wider text-white;
+  }
+
+  /* === Back link === */
+  .back-link {
+    @apply inline-flex items-center gap-2 text-sm text-ink-soft hover:text-accent mb-5 px-2.5 py-1.5 rounded no-underline transition-colors hover:bg-accent-soft;
+  }
+
+  /* === Gradient text (hero accent line) === */
+  .gradient-text {
+    background: linear-gradient(135deg, #89b4ef 0%, #c8dcf9 50%, #89b4ef 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+  }
+}
+
+/* === URN/DOI bars — glass cards (only inside detail-hero) === */
+@layer components {
+  .urn-bar {
+    @apply flex items-center gap-3 mt-4 px-3 py-2.5 rounded-md text-sm;
+    background: rgb(255 255 255 / 0.10);
+    border: 1px solid rgb(255 255 255 / 0.18);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+  }
+  .urn-bar .urn-label {
+    @apply text-[0.625rem] font-extrabold uppercase tracking-wider text-white rounded px-1.5 py-1 shrink-0;
+    background: rgb(255 255 255 / 0.18);
+    letter-spacing: 0.10em;
+  }
+  .urn-bar .urn-value {
+    @apply flex-1 overflow-x-auto whitespace-nowrap font-mono text-sm;
+    color: rgb(255 255 255 / 0.95);
+    scrollbar-width: thin;
+  }
+  .urn-bar.doi-bar .urn-value--link {
+    @apply text-white font-semibold no-underline border-b border-white/40 pb-px transition-[border-color] hover:border-white;
+  }
+  .urn-copy-btn {
+    @apply shrink-0 inline-flex items-center justify-center w-7 h-7 rounded text-white transition-colors;
+    background: rgb(255 255 255 / 0.10);
+    border: 1px solid rgb(255 255 255 / 0.20);
+  }
+  .urn-copy-btn:hover,
+  .urn-copy-btn:focus-visible {
+    @apply bg-white text-accent outline-none;
+    border-color: white;
+  }
+  .urn-copy-btn--done {
+    background: #16a34a !important;
+    border-color: #16a34a !important;
+    color: white !important;
+  }
+
+  /* === Filter chips === */
+  .std-chip {
+    @apply inline-flex items-center px-2.5 py-1 text-xs font-medium rounded-full border border-rule bg-paper text-ink-muted cursor-pointer transition-colors no-underline whitespace-nowrap;
+  }
+  .std-chip:hover {
+    @apply border-accent text-accent;
+  }
+  .std-chip.is-active {
+    @apply bg-accent border-accent text-white;
+  }
+  .dark .std-chip.is-active {
+    background-color: var(--color-brand-300);
+    border-color: var(--color-brand-300);
+    color: var(--color-paper);
+  }
+
+  /* === Card hover arrow — fills accent on parent hover === */
+  .card-hover-arrow {
+    @apply inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent-soft text-accent transition-all duration-200 shrink-0;
+  }
+  .std-results__card:hover .card-hover-arrow,
+  .std-results__card:focus-visible .card-hover-arrow {
+    background-color: var(--color-accent);
+    color: white;
+    transform: translateX(3px);
+  }
+
+  /* === Timeline entries (meetings index) === */
+  .timeline-entry {
+    @apply relative grid grid-cols-[auto_1fr_auto] grid-rows-2 gap-x-3 gap-y-1 items-center p-4 bg-paper-soft dark:bg-paper-raised border border-rule rounded-lg no-underline text-ink transition-all duration-200;
+  }
+  .timeline-entry:hover,
+  .timeline-entry:focus-visible {
+    @apply -translate-y-0.5 outline-none;
+    border-color: var(--color-brand-300);
+    box-shadow: 0 10px 24px -10px rgb(0 36 87 / 0.25);
+  }
+  .dark .timeline-entry:hover,
+  .dark .timeline-entry:focus-visible {
+    box-shadow: 0 10px 24px -10px rgb(0 0 0 / 0.5);
+  }
+  .timeline-node {
+    @apply rounded-full shrink-0 row-span-2 transition-shadow;
+  }
+  .timeline-entry:hover .timeline-node,
+  .timeline-entry:focus-visible .timeline-node {
+    box-shadow: 0 0 0 6px var(--color-accent-soft);
+  }
+  .timeline-arrow {
+    @apply col-start-3 row-span-2 inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent-soft text-accent transition-all duration-200;
+  }
+  .timeline-entry:hover .timeline-arrow,
+  .timeline-entry:focus-visible .timeline-arrow {
+    background-color: var(--color-accent);
+    color: white;
+    transform: translateX(3px);
+  }
+
+  /* === Agenda outcome pills === */
+  .agenda-outcome {
+    @apply inline-flex items-center px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider rounded-full border;
+    background-color: var(--color-paper-raised);
+    color: var(--color-ink-soft);
+    border-color: var(--color-rule);
+  }
+  .dark .agenda-outcome {
+    background-color: rgb(30 41 59 / 0.80);
+  }
+  .agenda-outcome--resolved,
+  .agenda-outcome--adopted {
+    background-color: #dcfce7;
+    color: #166534;
+    border-color: #86efac;
+  }
+  .dark .agenda-outcome--resolved,
+  .dark .agenda-outcome--adopted {
+    background-color: rgb(22 163 74 / 0.18);
+    color: #86efac;
+    border-color: rgb(22 163 74 / 0.35);
+  }
+  .agenda-outcome--deferred {
+    background-color: #fef3c7;
+    color: #92400e;
+    border-color: #fcd34d;
+  }
+  .dark .agenda-outcome--deferred {
+    background-color: rgb(245 158 11 / 0.18);
+    color: #fcd34d;
+    border-color: rgb(245 158 11 / 0.35);
+  }
+  .agenda-outcome--withdrawn,
+  .agenda-outcome--negatived {
+    background-color: #fee2e2;
+    color: #991b1b;
+    border-color: #fca5a5;
+  }
+  .dark .agenda-outcome--withdrawn,
+  .dark .agenda-outcome--negatived {
+    background-color: rgb(239 68 68 / 0.18);
+    color: #fca5a5;
+    border-color: rgb(239 68 68 / 0.35);
+  }
+  .agenda-outcome--discussed {
+    background-color: #e0e7ff;
+    color: #3730a3;
+    border-color: #a5b4fc;
+  }
+  .dark .agenda-outcome--discussed {
+    background-color: rgb(99 102 241 / 0.18);
+    color: #a5b4fc;
+    border-color: rgb(99 102 241 / 0.35);
+  }
+
+  /* === Section title — serif with accent bar === */
+  .section-title {
+    @apply font-serif text-xl font-bold text-ink dark:text-paper mb-4 pb-3 border-b-2 border-rule-soft flex items-center gap-2.5 m-0;
+  }
+  .section-title::before {
+    content: '';
+    @apply inline-block w-1.5 h-5 rounded-sm shrink-0;
+    background: linear-gradient(180deg, var(--color-accent) 0%, var(--color-brand-400) 100%);
+  }
+
+  /* === Consideration + action cards === */
+  .consideration-item,
+  .action-item {
+    @apply flex gap-3.5 bg-paper-soft dark:bg-paper-raised border border-rule rounded-md p-5 transition-all duration-200;
+  }
+  .consideration-item:hover,
+  .action-item:hover {
+    @apply -translate-y-px;
+    border-color: var(--color-brand-300);
+    box-shadow: 0 4px 12px -4px rgb(0 73 150 / 0.15);
+  }
+  .action-item {
+    @apply border-l-4;
+  }
+  .action-type,
+  .consideration-kind {
+    @apply inline-flex items-center px-2.5 py-1 text-[0.625rem] font-bold uppercase tracking-wider rounded text-white shrink-0 h-fit;
+    min-width: 5.5rem;
+    justify-content: center;
+  }
+
+  /* === Primary content sections (considerations, actions) — larger, more emphatic === */
+  .decision-primary-section {
+    @apply relative;
+  }
+  .decision-primary-section .section-title {
+    @apply text-2xl font-bold;
+  }
+  .decision-primary-section .section-title::before {
+    @apply h-6;
+  }
+  .decision-primary-section .consideration-item,
+  .decision-primary-section .action-item {
+    @apply p-5 md:p-6;
+  }
+  .decision-primary-section .consideration-kind,
+  .decision-primary-section .action-type {
+    @apply px-3 py-1.5 text-xs;
+    min-width: 6.5rem;
+  }
+
+  /* === Approval / date / reference list items === */
+  .approval-item,
+  .date-item,
+  .reference-item {
+    @apply bg-paper-soft dark:bg-paper-raised border-l-4 border-accent rounded px-4 py-3 text-sm text-ink-soft;
+  }
+}

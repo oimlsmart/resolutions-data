@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: RO
-  meeting_urn: urn:oiml:ciml:meeting:ciml-47
   title:
   - spelling: eng
     value: 47th CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 47e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: RO
+  meeting_urn: urn:oiml:ciml:meeting:ciml-47
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 46th CIML Meeting'
+    value: Approval of the minutes of the 46th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 46th CIML Meeting'
+    value: Approval of the minutes of the 46th CIML Meeting
   subject:
   - spelling: fra
     value: Conférence OIML
@@ -52,9 +52,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   subject:
   - spelling: eng
     value: OIML Conference
@@ -79,9 +79,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Presentations by the candidates for CIML first Vice-President'
+    value: Presentations by the candidates for CIML first Vice-President
   - spelling: fra
-    value: 'Agenda Item 3: Presentations by the candidates for CIML first Vice-President'
+    value: Presentations by the candidates for CIML first Vice-President
   actions:
   - type: notes
     date_effective:
@@ -103,9 +103,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: BIML activities'
+    value: BIML activities
   - spelling: fra
-    value: 'Agenda Item 4: BIML activities'
+    value: BIML activities
   actions:
   - type: welcomes
     date_effective:
@@ -129,9 +129,28 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2011 and the BIML Director's comments,
+    - spelling: fra
+      value: |-
+        Prenant note des comptes de l'année 2011 et des commentaires du Directeur du BIML,
+        Compte tenu de l'approbation des comptes de l'année 2011 par l'auditeur externe,
+  - type: considering
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's approval of the 2011 accounts,
   actions:
   - type: approves
     date_effective:
@@ -157,25 +176,6 @@ decisions:
     - spelling: fra
       value: Charge son Président de les présenter lors de la $ 1 4^{\mathrm{e m e}}
         $ Conférence de l'OIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2011 and the BIML Director's comments,
-    - spelling: fra
-      value: |-
-        Prenant note des comptes de l'année 2011 et des commentaires du Directeur du BIML,
-        Compte tenu de l'approbation des comptes de l'année 2011 par l'auditeur externe,
-  - type: considering
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the external auditor's approval of the 2011 accounts,
 - identifier:
   - prefix: CIML
     number: 2012/6
@@ -187,9 +187,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 6: Financial matters'
+    value: Financial matters
   actions:
   - type: instructs
     date_effective:
@@ -218,9 +218,22 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Report on Developing Countries'
+    value: Report on Developing Countries
   - spelling: fra
-    value: 'Agenda Item 7: Report on Developing Countries'
+    value: Report on Developing Countries
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Considérant :
+        (a) Que les résultats des efforts déployés par le passé pour soutenir les pays en développement ont eu un effet moindre que prévu,
+        (b) Que les pays en développement ont accès à toutes les Recommandations et autres publications de l'OIML,
+        (c) Que les pays en développement devraient recevoir davantage de soutien de la part de I'OIML par le biais d'activités de prise de conscience, d'activités destinées à l'obtention de financements par d'autres organisations internationales, à l'accès à des outils de formation actuellement en développement, à promouvoir la collaboration entre les Organisations Régionales de Métrologie Légale, et autres activités similaires,
+        (d) L'OIML ne fournit pas d'aide directe aux pays en développement et ne finance aucun projet d'assistance technique dans quelque pays que ce soit ;
   actions:
   - type: approves
     date_effective:
@@ -248,19 +261,6 @@ decisions:
         en considération lors de sa décision du montant global des crédits nécessaires
         pour couvrir les frais de fonctionnement de I'OIML au cours de l'exercice
         financier 2013-2016.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Considérant :
-        (a) Que les résultats des efforts déployés par le passé pour soutenir les pays en développement ont eu un effet moindre que prévu,
-        (b) Que les pays en développement ont accès à toutes les Recommandations et autres publications de l'OIML,
-        (c) Que les pays en développement devraient recevoir davantage de soutien de la part de I'OIML par le biais d'activités de prise de conscience, d'activités destinées à l'obtention de financements par d'autres organisations internationales, à l'accès à des outils de formation actuellement en développement, à promouvoir la collaboration entre les Organisations Régionales de Métrologie Légale, et autres activités similaires,
-        (d) L'OIML ne fournit pas d'aide directe aux pays en développement et ne finance aucun projet d'assistance technique dans quelque pays que ce soit ;
 - identifier:
   - prefix: CIML
     number: 2012/8
@@ -272,9 +272,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Liaisons'
+    value: Liaisons
   - spelling: fra
-    value: 'Agenda Item 8: Liaisons'
+    value: Liaisons
   actions:
   - type: approves
     date_effective:
@@ -318,9 +318,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Technical activities'
+    value: Technical activities
   - spelling: fra
-    value: 'Agenda Item 9: Technical activities'
+    value: Technical activities
   actions:
   - type: notes
     date_effective:
@@ -357,9 +357,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Preparation of the 14th Conference'
+    value: Preparation of the 14th Conference
   - spelling: fra
-    value: 'Agenda Item 10: Preparation of the 14th Conference'
+    value: Preparation of the 14th Conference
   actions:
   - type: approves
     date_effective:
@@ -394,9 +394,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Review of the Resolutions of the 14th Conference'
+    value: Review of the Resolutions of the 14th Conference
   - spelling: fra
-    value: 'Agenda Item 11: Review of the Resolutions of the 14th Conference'
+    value: Review of the Resolutions of the 14th Conference
   actions:
   - type: notes
     date_effective:
@@ -424,31 +424,6 @@ decisions:
   - spelling: fra
     value: Remercie son Président et le Directeur du BIML pour l'établissement de
       contacts de travail
-  actions:
-  - type: thanks
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Thanks its President and the BIML Director for the establishment of regular working contacts between the BIPM and the BIML Directors and staff,
-        Discharges its President of presenting a report to the 14th Conference,
-    - spelling: fra
-      value: |-
-        Remercie son Président et le Directeur du BIML pour l'établissement de contacts de travail réguliers entre les Directeurs et le personnel du BIPM et du BIML,
-        Décharge son Président de présenter un rapport d'avancement à la 14ème Conférence,
-  - type: requests
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Requests its President to prepare a status report, with the assistance
-        of certain CIML Members, for the 48th CIML Meeting.
-    - spelling: fra
-      value: Demande à son Président de préparer un rapport d'avancement, avec l'aide
-        de certains Membres du CIML, pour la 48ème Réunion du CIML.
   considerations:
   - type: recalling
     date_effective:
@@ -474,6 +449,31 @@ decisions:
     - spelling: fra
       value: Considérant l'exploration continue visant à savoir si la co-implantation
         des deux organisations serait un avantage,
+  actions:
+  - type: thanks
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Thanks its President and the BIML Director for the establishment of regular working contacts between the BIPM and the BIML Directors and staff,
+        Discharges its President of presenting a report to the 14th Conference,
+    - spelling: fra
+      value: |-
+        Remercie son Président et le Directeur du BIML pour l'établissement de contacts de travail réguliers entre les Directeurs et le personnel du BIPM et du BIML,
+        Décharge son Président de présenter un rapport d'avancement à la 14ème Conférence,
+  - type: requests
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests its President to prepare a status report, with the assistance
+        of certain CIML Members, for the 48th CIML Meeting.
+    - spelling: fra
+      value: Demande à son Président de préparer un rapport d'avancement, avec l'aide
+        de certains Membres du CIML, pour la 48ème Réunion du CIML.
 - identifier:
   - prefix: CIML
     number: 2012/12
@@ -485,9 +485,22 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Election of the CIML first Vice-President'
+    value: Election of the CIML first Vice-President
   - spelling: fra
-    value: 'Agenda Item 12: Election of the CIML first Vice-President'
+    value: Election of the CIML first Vice-President
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the proposal from the ad hoc working group on the revision of
+        OIML B 6:2011 Directives for OIML technical work,
+    - spelling: fra
+      value: |-
+        Prenant note de la proposition du groupe de travail ad hoc traitant la révision de I'OIML B 6:2011 Directives pour le travail technique de I'OIML,
+        Confirmme que les règles prévues dans l'OIML B 6 doivent s'appliquer au développement, à la révision ou aux amendements des Publications OIML de Base uniquement si le CIML en décide ainsi pour une Publication de Base donnée.
   actions:
   - type: confirms
     date_effective:
@@ -505,19 +518,6 @@ decisions:
     message:
     - spelling: fra
       value: "[Point 9.1a de l'ordre du jour]"
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the proposal from the ad hoc working group on the revision of
-        OIML B 6:2011 Directives for OIML technical work,
-    - spelling: fra
-      value: |-
-        Prenant note de la proposition du groupe de travail ad hoc traitant la révision de I'OIML B 6:2011 Directives pour le travail technique de I'OIML,
-        Confirmme que les règles prévues dans l'OIML B 6 doivent s'appliquer au développement, à la révision ou aux amendements des Publications OIML de Base uniquement si le CIML en décide ainsi pour une Publication de Base donnée.
 - identifier:
   - prefix: CIML
     number: 2012/13
@@ -529,9 +529,22 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Awards'
+    value: Awards
   - spelling: fra
-    value: 'Agenda Item 13: Awards'
+    value: Awards
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its discussions at the 33rd and 34th CIML Meetings on the subject
+        of Corresponding Member participation in the technical work of the OIML,
+    - spelling: fra
+      value: |-
+        Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives à la participation des Membres Correspondants au travail technique de l'OIML,
+        Confirmme que les Membres Correspondants peuvent participer au travail des Comités Techniques, Sous-comités et Groupes de Projet de l'OIML en tant que Membres Observateurs (Membres-O) sans avoir à payer de droit supplémentaire.
   actions:
   - type: confirms
     date_effective:
@@ -550,19 +563,6 @@ decisions:
     - spelling: fra
       value: Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives
         à la participation des Membres Correspondants au travail technique de l'OIML,
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its discussions at the 33rd and 34th CIML Meetings on the subject
-        of Corresponding Member participation in the technical work of the OIML,
-    - spelling: fra
-      value: |-
-        Rappelant ses discussions lors des 33eme et 44eme Réunions du CIML relatives à la participation des Membres Correspondants au travail technique de l'OIML,
-        Confirmme que les Membres Correspondants peuvent participer au travail des Comités Techniques, Sous-comités et Groupes de Projet de l'OIML en tant que Membres Observateurs (Membres-O) sans avoir à payer de droit supplémentaire.
 - identifier:
   - prefix: CIML
     number: 2012/14
@@ -574,9 +574,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 14: Future meetings'
+    value: Future meetings
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling Resolution no. 23 of its 46th meeting,
+    - spelling: fra
+      value: Rappelant la Résolution n° 23 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
   actions:
   - type: thanks
     date_effective:
@@ -598,16 +608,6 @@ decisions:
     - spelling: fra
       value: Approuve la révision des Directives pour le travail technique de l'OIML
         (OIML B 6-1 et B 6-2), sous réserve de toute modification éditoriale nécessaire.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling Resolution no. 23 of its 46th meeting,
-    - spelling: fra
-      value: Rappelant la Résolution n° 23 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
 - identifier:
   - prefix: CIML
     number: 2012/15
@@ -619,9 +619,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15: Vote on Meeting Resolutions'
+    value: Vote on Meeting Resolutions
   - spelling: fra
-    value: 'Agenda Item 15: Vote on Meeting Resolutions'
+    value: Vote on Meeting Resolutions
   actions:
   - type: approves
     date_effective:
@@ -679,9 +679,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.3.3: Items for approval'
+    value: Items for approval
   - spelling: fra
-    value: 'Agenda Item 9.3.3: Items for approval'
+    value: Items for approval
   actions:
   - type: approves
     date_effective:
@@ -707,9 +707,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9.3.4: Items for approval'
+    value: Items for approval
   - spelling: fra
-    value: 'Agenda Item 9.3.4: Items for approval'
+    value: Items for approval
   actions:
   - type: approves
     date_effective:
@@ -737,25 +737,6 @@ decisions:
       is approved.'
   - spelling: fra
     value: Point 9.3.1 de l'ordre du jour
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves:
-        The draft revision of OIML R 126 Evidential breath analyzers is approved.
-  - type: decides
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: fra
-      value: |-
-        Décide que :
-        Le projet de révision de I'OIML R 126 Ethylomètres est approuvé.
   considerations:
   - type: recalling
     date_effective:
@@ -783,6 +764,25 @@ decisions:
         (a) La projet de révision de I'OIML R 126 Éthylomètres a reçu le soutien d'une majorité des Membres du CIML lors du vote préliminaire mais a également reçu cinq votes négatifs dont certains portaient des objections demandant d'importantes modifications au projet,
         (b) Après consultation auprès de ses membres, le secrétariat du TC 17/SC 7 n'a pas pu envisager de possibilité pour préparer un projet supplémentaire qui éliminerait les objections exprimées lors du vote préliminaire,
         (c) Le texte révisé représente une nette amélioration par rapport à la version actuelle de I'OIML R 126, bien qu'il n'ait pas reçu une approbation unanime,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves:
+        The draft revision of OIML R 126 Evidential breath analyzers is approved.
+  - type: decides
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: fra
+      value: |-
+        Décide que :
+        Le projet de révision de I'OIML R 126 Ethylomètres est approuvé.
 - identifier:
   - prefix: CIML
     number: 2012/20
@@ -884,19 +884,6 @@ decisions:
     value: Decides that the CIML shall proceed to vote on the Amendment to OIML B
   - spelling: fra
     value: Décide que le CIML doit procéder au vote sur l'Amendement à l'OIML B 10:2012
-  actions:
-  - type: decides
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Decides that the CIML shall proceed to vote on the Amendment to OIML
-        B 10:2012 in the current meeting under Agenda item 9.4.3.
-    - spelling: fra
-      value: Décide que le CIML doit procéder au vote sur l'Amendement à l'OIML B
-        10:2012 lors de la présente réunion dans le cadre du Point 9.4.3 de l'ordre
-        du jour.
   considerations:
   - type: recalling
     date_effective:
@@ -911,6 +898,19 @@ decisions:
       value: Rappelant la Résolution n° 21 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
     - spelling: fra
       value: Rappelant que I'OIML B 6:2011 ne s'applique pas aux Publications de Base,
+  actions:
+  - type: decides
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Decides that the CIML shall proceed to vote on the Amendment to OIML
+        B 10:2012 in the current meeting under Agenda item 9.4.3.
+    - spelling: fra
+      value: Décide que le CIML doit procéder au vote sur l'Amendement à l'OIML B
+        10:2012 lors de la présente réunion dans le cadre du Point 9.4.3 de l'ordre
+        du jour.
 - identifier:
   - prefix: CIML
     number: 2012/22
@@ -925,16 +925,6 @@ decisions:
     value: Approves the Draft Amendment to OIML B 10.
   - spelling: fra
     value: Approuve le Projet d'Amendement à I'OIML B 10.
-  actions:
-  - type: approves
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Approves the Draft Amendment to OIML B 10.
-    - spelling: fra
-      value: Approuve le Projet d'Amendement à I'OIML B 10.
   considerations:
   - type: noting
     date_effective:
@@ -951,6 +941,16 @@ decisions:
         à l'OIML B 10 Cadre pour un Arrangement d'Acceptation Mutuelle sur les Évaluations
         de Type de l'OIML (MAA) visant à inclure les conditions appropriées pour l'inscription
         des laboratoires d'essais des fabricants (MTL) dans le cadre d'une DoMC,
+  actions:
+  - type: approves
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Approves the Draft Amendment to OIML B 10.
+    - spelling: fra
+      value: Approuve le Projet d'Amendement à I'OIML B 10.
 - identifier:
   - prefix: CIML
     number: 2012/23
@@ -965,6 +965,40 @@ decisions:
     value: Approves the following text as the OIML statement on the new SI to be
   - spelling: fra
     value: Point 9.5 de l'ordre du jour
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling Resolution no. 25 of its 46th meeting,
+    - spelling: fra
+      value: Rappelant la Résolution n° 25 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
+  - type: noting
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the oral report by the chair of the OIML ad hoc Working Group
+        New SI,
+    - spelling: fra
+      value: Prenant note du rapport oral par le président du groupe de travail ad
+        hoc Nouveau SI de I'OIML,
+  - type: considering
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the comments received from its Members and Technical Committees
+        TC 2, TC 9, TC 9/SC 3 and TC 11 on the proposed changes to the International
+        System of Units (SI), currently being discussed,
+    - spelling: fra
+      value: Considérant les remarques formulées par ses Membres et par les Comités
+        Techniques TC 2, TC 9, TC 9/SC 3 et TC 11 au sujet des propositions de modifications
+        du Système International des Unités (SI), actuellement en discussion,
   actions:
   - type: approves
     date_effective:
@@ -1009,40 +1043,6 @@ decisions:
     - spelling: fra
       value: Charge le Directeur du BIML de communiquer la déclaration de l'OIML au
         BIPM.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling Resolution no. 25 of its 46th meeting,
-    - spelling: fra
-      value: Rappelant la Résolution n° 25 de sa 46 $ ^{\mathrm{eme}} $ Réunion,
-  - type: noting
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the oral report by the chair of the OIML ad hoc Working Group
-        New SI,
-    - spelling: fra
-      value: Prenant note du rapport oral par le président du groupe de travail ad
-        hoc Nouveau SI de I'OIML,
-  - type: considering
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the comments received from its Members and Technical Committees
-        TC 2, TC 9, TC 9/SC 3 and TC 11 on the proposed changes to the International
-        System of Units (SI), currently being discussed,
-    - spelling: fra
-      value: Considérant les remarques formulées par ses Membres et par les Comités
-        Techniques TC 2, TC 9, TC 9/SC 3 et TC 11 au sujet des propositions de modifications
-        du Système International des Unités (SI), actuellement en discussion,
 - identifier:
   - prefix: CIML
     number: 2012/24
@@ -1059,18 +1059,6 @@ decisions:
   - spelling: fra
     value: Prenant note de la procédure de sélection de candidats à un poste vacant
       de
-  actions:
-  - type: notes
-    date_effective:
-      date: '2012-10-01'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the procedure for the selection of candidates to a vacant Vice-President
-        post in B 14,
-    - spelling: fra
-      value: Prenant note de la procédure de sélection de candidats à un poste vacant
-        de Vice-Président dans le B 14,
   considerations:
   - type: noting
     date_effective:
@@ -1085,6 +1073,18 @@ decisions:
       value: |-
         Prenant note de la procédure de sélection de candidats à un poste vacant de Vice-Président dans le B 14,
         Sélectionne le Dr. Roman Schwartz comme son premier Vice-Président pour la période restante de son mandat.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2012-10-01'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the procedure for the selection of candidates to a vacant Vice-President
+        post in B 14,
+    - spelling: fra
+      value: Prenant note de la procédure de sélection de candidats à un poste vacant
+        de Vice-Président dans le B 14,
 - identifier:
   - prefix: CIML
     number: 2012/25

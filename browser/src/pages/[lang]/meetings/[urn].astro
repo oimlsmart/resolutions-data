@@ -3,6 +3,7 @@ import cfg from 'virtual:edoxen-config'
 import payloads from 'virtual:edoxen-payloads'
 import OimlLayout from '../../../layouts/OimlLayout.astro'
 import { urlPrefix, localePrefixOf, safePickLocalizedValue } from '../../../utils/url.js'
+import { t } from '../../../utils/i18n.js'
 import { loadMeetings } from '../../../utils/meetings.js'
 import { decisionsByMeetingUrn } from '../../../utils/decisions-by-meeting.js'
 
@@ -23,80 +24,172 @@ const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
 const title = safePickLocalizedValue(meeting.title, lang, meeting.urn ?? '')
 const agenda = meeting.agenda
 
-// Build meeting → decisions mapping
 const meetingMap = await decisionsByMeetingUrn()
 const decisionUrns = meetingMap.get(meeting.urn ?? '') ?? []
 const linkedDecisions = decisionUrns
   .map((urn) => payloads.decisionByUrn[urn])
   .filter(Boolean)
+
+function meetingBodyLabel(bodyType: string, lang: string): string {
+  if (bodyType === 'conference') return t(lang, 'meetings.bodyConf')
+  if (bodyType === 'dc') return t(lang, 'meetings.bodyDc')
+  return t(lang, 'meetings.bodyCiml')
+}
 ---
 
 <OimlLayout lang={lang} title={title}>
-  <div class="res-page std-page">
-    <a href={`${prefix}meetings`} class="std-page__back back-link">← Meetings</a>
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <a href={`${prefix}meetings`} class="back-link">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="m15 18-6-6 6-6"/></svg>
+      {t(lang, 'meetings.title')}
+    </a>
 
-    <header class="std-page__header">
-      <div class="std-page__meta">
-        {meeting.body_type && <span class="std-page__badge">{meeting.body_type}</span>}
-        {meeting.scheduled_date_range?.start && <span class="std-page__badge badge-date">{meeting.scheduled_date_range.start}</span>}
+    <header class="detail-hero">
+      <div class="flex flex-wrap items-center gap-2 mb-5">
+        {meeting.body_type && (
+          <span class="hero-badge">{meetingBodyLabel(meeting.body_type, lang)}</span>
+        )}
+        {meeting.scheduled_date_range?.start && (
+          <span class="hero-badge">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>
+            {meeting.scheduled_date_range.start}
+          </span>
+        )}
+        {meeting.is_virtual && (
+          <span class="hero-badge">{t(lang, 'meetings.virtual')}</span>
+        )}
+        {meeting.city && (
+          <span class="hero-badge">
+            <svg width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            {meeting.city}{meeting.country_code ? `, ${meeting.country_code}` : ''}
+          </span>
+        )}
       </div>
-      <h1 class="std-page__title">{title}</h1>
+      <h1 class="hero-title-sm">
+        {title}
+      </h1>
+      {(meeting.scheduled_date_range || meeting.city) && (
+        <p class="text-white/90 text-lg leading-relaxed">
+          {meeting.scheduled_date_range?.start}{meeting.scheduled_date_range?.end && ` → ${meeting.scheduled_date_range.end}`}
+          {meeting.city && ` · ${meeting.city}${meeting.country_code ? `, ${meeting.country_code}` : ''}`}
+        </p>
+      )}
+
+      {meeting.urn && (
+        <div class="urn-bar" data-urn-bar>
+          <span class="urn-label">{t(lang, 'meeting.meetingUrn')}</span>
+          <code class="urn-value">{meeting.urn}</code>
+          <button type="button" class="urn-copy-btn" data-urn-copy={meeting.urn} aria-label="Copy URN">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          </button>
+        </div>
+      )}
+
+      {meeting.doi && (
+        <div class="urn-bar doi-bar" data-doi-bar>
+          <span class="urn-label">{t(lang, 'meeting.meetingDoi')}</span>
+          <a href={`https://doi.org/${meeting.doi}`} class="urn-value urn-value--link" target="_blank" rel="noopener">{meeting.doi}</a>
+          <button type="button" class="urn-copy-btn" data-urn-copy={meeting.doi} aria-label="Copy DOI">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          </button>
+        </div>
+      )}
     </header>
 
-    {meeting.urn && (
-      <div class="urn-bar">
-        <span class="urn-label">URN</span>
-        <code class="urn-value">{meeting.urn}</code>
-      </div>
-    )}
-
-    {meeting.scheduled_date_range && (
-      <section class="std-page__section">
-        <h2 class="section-title">When</h2>
-        <p>{meeting.scheduled_date_range.start}{meeting.scheduled_date_range.end && ` – ${meeting.scheduled_date_range.end}`}</p>
-      </section>
-    )}
-
-    {meeting.city && (
-      <section class="std-page__section">
-        <h2 class="section-title">Venue</h2>
-        <p>{meeting.city}{meeting.country_code ? `, ${meeting.country_code}` : ''}</p>
-      </section>
-    )}
-
     {agenda && agenda.items && agenda.items.length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Agenda</h2>
-        <table class="agenda-table">
-          <thead><tr><th>Item</th><th>Title</th><th>Outcome</th></tr></thead>
-          <tbody>
-            {agenda.items.map((item) => (
-              <tr id={`agenda-${item.label}`}>
-                <td class="agenda-table__td--seq">{item.label}</td>
-                <td>{safePickLocalizedValue(item.title, lang)}</td>
-                <td>{item.outcome && <span class={`agenda-outcome agenda-outcome--${item.outcome}`}>{item.outcome}</span>}</td>
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'meeting.agenda')}</h2>
+        <div class="overflow-x-auto rounded-lg border border-rule bg-paper-soft dark:bg-paper-raised">
+          <table class="w-full border-collapse text-sm">
+            <thead>
+              <tr>
+                <th class="text-[0.6875rem] font-extrabold uppercase tracking-widest text-accent bg-accent-soft dark:bg-paper-deep px-4 py-3 text-left border-b-2 border-rule-soft">{t(lang, 'meeting.agendaItemSeq')}</th>
+                <th class="text-[0.6875rem] font-extrabold uppercase tracking-widest text-accent bg-accent-soft dark:bg-paper-deep px-4 py-3 text-left border-b-2 border-rule-soft">{t(lang, 'meeting.agendaItemTitle')}</th>
+                <th class="text-[0.6875rem] font-extrabold uppercase tracking-widest text-accent bg-accent-soft dark:bg-paper-deep px-4 py-3 text-left border-b-2 border-rule-soft">{t(lang, 'meeting.agendaItemOutcome')}</th>
               </tr>
-            ))}
-          </tbody>
-        </table>
+            </thead>
+            <tbody>
+              {agenda.items.map((item) => (
+                <tr id={item.urn ?? `agenda-${item.label}`} class="border-b border-rule-soft last:border-b-0 hover:bg-accent-soft transition-colors scroll-mt-20">
+                  <td class="px-4 py-3 font-mono font-bold text-accent w-16 align-top">{item.label}</td>
+                  <td class="px-4 py-3 text-ink-soft align-top">{safePickLocalizedValue(item.title, lang)}</td>
+                  <td class="px-4 py-3 align-top">
+                    {item.outcome && (
+                      <span class={`agenda-outcome agenda-outcome--${item.outcome}`}>
+                        {t(lang, `meeting.agendaOutcome.${item.outcome}`)}
+                      </span>
+                    )}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
       </section>
     )}
 
-    {linkedDecisions.length > 0 && (
-      <section class="std-page__section">
-        <h2 class="section-title">Decisions ({linkedDecisions.length})</h2>
-        <div class="std-results">
-          {linkedDecisions.map((d) => (
-            <a href={`${prefix}decisions/${d.urn}`} class="std-results__card">
-              <div class="std-results__name">
-                <span>{d.identifier?.[0]?.prefix}-{d.identifier?.[0]?.number}</span>
-              </div>
-              <div class="std-results__title">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
-              {d.dates?.[0]?.date && <span class="std-results__badge badge-date">{d.dates[0].date}</span>}
-            </a>
-          ))}
+    {linkedDecisions.length > 0 ? (
+      <section class="mb-10">
+        <h2 class="section-title">{t(lang, 'meeting.decisionsCount', { count: linkedDecisions.length })}</h2>
+        <div class="grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(300px,1fr))]">
+          {linkedDecisions.map((d) => {
+            const actions = (d as any).actions ?? []
+            const firstAction = actions[0]
+            const snippet = firstAction ? safePickLocalizedValue(firstAction.message, lang) : ''
+            return (
+              <a href={`${prefix}decisions/${d.urn}`} class="std-results__card no-underline">
+                <div class="flex items-center justify-between gap-2">
+                  <div class="flex items-center gap-2">
+                    <span class="font-mono text-xs font-bold text-accent">{d.identifier?.[0]?.prefix}-{d.identifier?.[0]?.number}</span>
+                    {firstAction?.type && (
+                      <span class="inline-flex items-center px-2 py-0.5 text-[0.5625rem] font-bold uppercase tracking-wider rounded-full bg-accent-soft text-accent border border-accent-soft">{firstAction.type}</span>
+                    )}
+                  </div>
+                  {d.dates?.[0]?.date && (
+                    <span class="font-mono text-xs font-bold text-ink-muted bg-paper-raised dark:bg-paper-deep px-2 py-0.5 rounded">{d.dates[0].date.slice(0, 4)}</span>
+                  )}
+                </div>
+                <div class="font-serif font-semibold text-base leading-snug text-ink line-clamp-2">{safePickLocalizedValue(d.title, lang, d.urn)}</div>
+                {snippet && <div class="text-xs leading-relaxed text-ink-soft line-clamp-3">{snippet}</div>}
+                <div class="flex items-center justify-between gap-2 mt-auto pt-2.5 border-t border-dashed border-rule">
+                  <div class="flex flex-wrap gap-1">
+                    {d.body_type && <span class="inline-flex items-center px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider rounded-full bg-accent-soft text-accent border border-accent-soft">{d.body_type}</span>}
+                    {d.dates?.[0]?.date && <span class="inline-flex items-center px-2 py-0.5 text-[0.625rem] font-bold uppercase tracking-wider rounded-full bg-paper-raised dark:bg-paper-deep text-ink-soft border border-rule font-mono">{d.dates[0].date}</span>}
+                  </div>
+                  <div class="card-hover-arrow">
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                  </div>
+                </div>
+              </a>
+            )
+          })}
         </div>
+      </section>
+    ) : (
+      <section class="mb-10">
+        <p class="text-center py-8 text-ink-muted text-sm">{t(lang, 'meeting.noDecisions')}</p>
       </section>
     )}
   </div>
 </OimlLayout>
+
+<script>
+  (function () {
+    const buttons = document.querySelectorAll<HTMLButtonElement>('[data-urn-copy]')
+    if (!buttons.length) return
+    async function copy(text: string, btn: HTMLButtonElement) {
+      try { await navigator.clipboard.writeText(text) }
+      catch {
+        const ta = document.createElement('textarea')
+        ta.value = text
+        document.body.appendChild(ta)
+        ta.select()
+        document.execCommand('copy')
+        ta.remove()
+      }
+      btn.classList.add('urn-copy-btn--done')
+      setTimeout(() => btn.classList.remove('urn-copy-btn--done'), 1400)
+    }
+    buttons.forEach((btn) => btn.addEventListener('click', () => copy(btn.dataset.urnCopy ?? '', btn)))
+  })()
+</script>

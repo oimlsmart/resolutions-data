@@ -1,13 +1,13 @@
 ---
 metadata:
-  source: OIML CIML Secretariat (BIML)
-  country_code: FR
-  meeting_urn: urn:oiml:ciml:meeting:ciml-51
   title:
   - spelling: eng
     value: 51st CIML Meeting — Resolutions (EN)
   - spelling: fra
     value: 51e réunion du CIML — Résolutions (FR)
+  source: OIML CIML Secretariat (BIML)
+  country_code: FR
+  meeting_urn: urn:oiml:ciml:meeting:ciml-51
 decisions:
 - identifier:
   - prefix: CIML
@@ -20,9 +20,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 1: Approval of the minutes of the 50th CIML Meeting'
+    value: Approval of the minutes of the 50th CIML Meeting
   - spelling: fra
-    value: 'Agenda Item 1: Approval of the minutes of the 50th CIML Meeting'
+    value: Approval of the minutes of the 50th CIML Meeting
   actions:
   - type: approves
     date_effective:
@@ -44,9 +44,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   - spelling: fra
-    value: 'Agenda Item 2: General report by the CIML President'
+    value: General report by the CIML President
   actions:
   - type: notes
     date_effective:
@@ -68,11 +68,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Presentation(s) by candidates for the CIML Presidency and
-      Vice-Presidency'
+    value: Presentation(s) by candidates for the CIML Presidency and Vice-Presidency
   - spelling: fra
-    value: 'Agenda Item 3: Presentation(s) by candidates for the CIML Presidency and
-      Vice-Presidency'
+    value: Presentation(s) by candidates for the CIML Presidency and Vice-Presidency
   actions:
   - type: notes
     date_effective:
@@ -96,9 +94,22 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: BIML matters'
+    value: BIML matters
   - spelling: fra
-    value: 'Agenda Item 4: BIML matters'
+    value: BIML matters
+  considerations:
+  - type: considering
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering and bemoaning the unexpected passing away of former BIML
+        Assistant Director Mr. Willem Kool,
+    - spelling: fra
+      value: |-
+        Considérant et déplorant le décès inattendu de l'Adjoint au Directeur du BIML
+        Mr. Willem Kool,
   actions:
   - type: decides
     date_effective:
@@ -114,19 +125,6 @@ decisions:
         Décide qu'un poste vacant d'Adjoint au Directeur du BIML sera publié après la 51ème Réunion du CIML, conformément à la réglementation en vigueur énoncée dans le document OIML B 7:2013
         Statuts du Personnel du BIML, et dans le document OIML B 13:2004 Procédure pour la désignation du Directeur et des Adjoints au Directeur du BIML,
         En vue de la nomination d'un nouvel Adjoint au Directeur du BIML lors de la 52ème Réunion du CIML.
-  considerations:
-  - type: considering
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering and bemoaning the unexpected passing away of former BIML
-        Assistant Director Mr. Willem Kool,
-    - spelling: fra
-      value: |-
-        Considérant et déplorant le décès inattendu de l'Adjoint au Directeur du BIML
-        Mr. Willem Kool,
 - identifier:
   - prefix: CIML
     number: 2016/5
@@ -138,9 +136,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   - spelling: fra
-    value: 'Agenda Item 5: Member States and Corresponding Members'
+    value: Member States and Corresponding Members
   actions:
   - type: welcomes
     date_effective:
@@ -166,9 +164,28 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 6: Financial matters'
+    value: Financial matters
   - spelling: fra
-    value: 'Agenda Item 6: Financial matters'
+    value: Financial matters
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the accounts for 2015 and the BIML Director's comments,
+    - spelling: fra
+      value: |-
+        Prenant note des comptes de l'année 2015 et des observations du Directeur du BIML,
+        Compte tenu de l'approbation des comptes de l'année 2015 par l'auditeur externe,
+  - type: considering
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the external auditor's approval of the 2015 accounts,
   actions:
   - type: approves
     date_effective:
@@ -194,25 +211,6 @@ decisions:
     - spelling: fra
       value: Charge son Président de présenter lesdits comptes à la 15ème Conférence
         de l'OIML.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the accounts for 2015 and the BIML Director's comments,
-    - spelling: fra
-      value: |-
-        Prenant note des comptes de l'année 2015 et des observations du Directeur du BIML,
-        Compte tenu de l'approbation des comptes de l'année 2015 par l'auditeur externe,
-  - type: considering
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the external auditor's approval of the 2015 accounts,
 - identifier:
   - prefix: CIML
     number: 2016/7
@@ -224,36 +222,11 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 7: Report on matters concerning Countries and Economies with
-      Emerging Metrology Systems'
+    value: Report on matters concerning Countries and Economies with Emerging Metrology
+      Systems
   - spelling: fra
-    value: 'Agenda Item 7: Report on matters concerning Countries and Economies with
-      Emerging Metrology Systems'
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Resolves that the Translation Center should be closed, and
-  - type: requests
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Requests the BIML to take any necessary steps for this closure.
-    - spelling: fra
-      value: Demande au BIML de prendre toutes les mesures nécessaires en vue de cette
-        clôture.
-  - type: decides
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: fra
-      value: Décide que le Centre de Traduction devrait être fermé, et
+    value: Report on matters concerning Countries and Economies with Emerging Metrology
+      Systems
   considerations:
   - type: recalling
     date_effective:
@@ -286,6 +259,31 @@ decisions:
     - spelling: fra
       value: Prenant note de l'information financière à propos du Centre de Traduction
         donnée par le BIML,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Resolves that the Translation Center should be closed, and
+  - type: requests
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Requests the BIML to take any necessary steps for this closure.
+    - spelling: fra
+      value: Demande au BIML de prendre toutes les mesures nécessaires en vue de cette
+        clôture.
+  - type: decides
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: fra
+      value: Décide que le Centre de Traduction devrait être fermé, et
 - identifier:
   - prefix: CIML
     number: 2016/8
@@ -297,9 +295,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 8: Special projects'
+    value: Special projects
   - spelling: fra
-    value: 'Agenda Item 8: Special projects'
+    value: Special projects
   actions:
   - type: notes
     date_effective:
@@ -336,9 +334,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Technical activities'
+    value: Technical activities
   - spelling: fra
-    value: 'Agenda Item 9: Technical activities'
+    value: Technical activities
   actions:
   - type: notes
     date_effective:
@@ -377,9 +375,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10: Preparation of the 15th Conference'
+    value: Preparation of the 15th Conference
   - spelling: fra
-    value: 'Agenda Item 10: Preparation of the 15th Conference'
+    value: Preparation of the 15th Conference
   actions:
   - type: approves
     date_effective:
@@ -414,9 +412,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 11: Other matters (1)'
+    value: Other matters (1)
   - spelling: fra
-    value: 'Agenda Item 11: Other matters (1)'
+    value: Other matters (1)
   actions:
   - type: notes
     date_effective:
@@ -440,9 +438,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Report on OIML Certificate Systems'
+    value: Report on OIML Certificate Systems
   - spelling: fra
-    value: 'Agenda Item 12: Report on OIML Certificate Systems'
+    value: Report on OIML Certificate Systems
   actions:
   - type: notes
     date_effective:
@@ -466,9 +464,26 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 13: Review of the Resolutions of the 15th Conference'
+    value: Review of the Resolutions of the 15th Conference
   - spelling: fra
-    value: 'Agenda Item 13: Review of the Resolutions of the 15th Conference'
+    value: Review of the Resolutions of the 15th Conference
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution no. 2013/9, setting up an Advisory Group to
+        carry out wide consultation, to seek suggestions and to build up links with
+        other bodies with an interest in promoting the economic development of countries
+        and economies with emerging metrology systems,
+    - spelling: fra
+      value: Rappelant sa Résolution no. 2013/9, relative à la mise en place d'un
+        Groupe Consultatif pour mener de larges consultations, recueillir des suggestions
+        et développer des liens avec d'autres organismes intéressés par la promotion
+        du développement économique de pays et d'économies dont le système de métrologie
+        est émergent,
   actions:
   - type: notes
     date_effective:
@@ -500,23 +515,6 @@ decisions:
     - spelling: eng
       value: Renews the appointment of Mr. Pu Changcheng to act as Chair of the Advisory
         Group.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution no. 2013/9, setting up an Advisory Group to
-        carry out wide consultation, to seek suggestions and to build up links with
-        other bodies with an interest in promoting the economic development of countries
-        and economies with emerging metrology systems,
-    - spelling: fra
-      value: Rappelant sa Résolution no. 2013/9, relative à la mise en place d'un
-        Groupe Consultatif pour mener de larges consultations, recueillir des suggestions
-        et développer des liens avec d'autres organismes intéressés par la promotion
-        du développement économique de pays et d'économies dont le système de métrologie
-        est émergent,
 - identifier:
   - prefix: CIML
     number: 2016/14
@@ -528,9 +526,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Liaisons'
+    value: Liaisons
   - spelling: fra
-    value: 'Agenda Item 14: Liaisons'
+    value: Liaisons
   actions:
   - type: requests
     date_effective:
@@ -558,9 +556,21 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 15: Human resource matters'
+    value: Human resource matters
   - spelling: fra
-    value: 'Agenda Item 15: Human resource matters'
+    value: Human resource matters
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution no. 2015/13 approving a project for the revision
+        of OIML B 6 Directives for OIML technical work,
+    - spelling: fra
+      value: Rappelant sa Résolution no. 2015/13, approuvant un projet pour la révision
+        de l'OIML B 6 Directives pour les travaux techniques de l'OIML,
   actions:
   - type: notes
     date_effective:
@@ -576,18 +586,6 @@ decisions:
         Prend note du rapport oral présenté par le Président du CIML portant sur la révision de l'OIML B 6
         Directives pour les travaux techniques de l'OIML,
         Incite le Groupe de Projet à terminer dès que possible son travail portant sur la révision.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution no. 2015/13 approving a project for the revision
-        of OIML B 6 Directives for OIML technical work,
-    - spelling: fra
-      value: Rappelant sa Résolution no. 2015/13, approuvant un projet pour la révision
-        de l'OIML B 6 Directives pour les travaux techniques de l'OIML,
 - identifier:
   - prefix: CIML
     number: 2016/16
@@ -599,9 +597,28 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 16: Awards'
+    value: Awards
   - spelling: fra
-    value: 'Agenda Item 16: Awards'
+    value: Awards
+  considerations:
+  - type: noting
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Noting the report of the chair of the CSPG,
+    - spelling: fra
+      value: Prenant note du rapport du Président du CSPG,
+  - type: recalling
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolutions nos. 2015/17 and 2015/18,
+    - spelling: fra
+      value: Rappelant ses Résolutions nos. 2015/17 et 2015/18,
   actions:
   - type: approves
     date_effective:
@@ -632,25 +649,6 @@ decisions:
       value: |-
         Charge le BIML de continuer à faire fonctionner les systèmes de Base et MAA existants jusqu'à ce que l'OIML-CS devienne opérationnelle,
         Encourage tous les participants aux systèmes de Base et MMA existants à remplir leurs obligations.
-  considerations:
-  - type: noting
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Noting the report of the chair of the CSPG,
-    - spelling: fra
-      value: Prenant note du rapport du Président du CSPG,
-  - type: recalling
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolutions nos. 2015/17 and 2015/18,
-    - spelling: fra
-      value: Rappelant ses Résolutions nos. 2015/17 et 2015/18,
 - identifier:
   - prefix: CIML
     number: 2016/17
@@ -662,9 +660,19 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 17: Future meetings'
+    value: Future meetings
   - spelling: fra
-    value: 'Agenda Item 17: Future meetings'
+    value: Future meetings
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling its Resolution no. 2016/16,
+    - spelling: fra
+      value: Rappelant sa Résolution no. 2016/16,
   actions:
   - type: thanks
     date_effective:
@@ -753,16 +761,6 @@ decisions:
     - spelling: fra
       value: Charge le prMC de prendre les mesures appropriées pour que l'OIML-CS
         puisse entrer en vigueur le 1er Janvier 2018,
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling its Resolution no. 2016/16,
-    - spelling: fra
-      value: Rappelant sa Résolution no. 2016/16,
 - identifier:
   - prefix: CIML
     number: 2016/18
@@ -774,9 +772,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 18: Other matters (2)'
+    value: Other matters (2)
   - spelling: fra
-    value: 'Agenda Item 18: Other matters (2)'
+    value: Other matters (2)
   actions:
   - type: approves
     date_effective:
@@ -816,9 +814,9 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 19: Approval of meeting resolutions'
+    value: Approval of meeting resolutions
   - spelling: fra
-    value: 'Agenda Item 19: Approval of meeting resolutions'
+    value: Approval of meeting resolutions
   actions:
   - type: approves
     date_effective:
@@ -1265,16 +1263,6 @@ decisions:
     value: "(Agenda Item 15.1)"
   - spelling: fra
     value: "(Point 15.1 de l'ordre du jour)"
-  actions:
-  - type: notes
-    date_effective:
-      date: '2016-10-17'
-      type: effective
-    message:
-    - spelling: eng
-      value: "(Agenda Item 15.1)"
-    - spelling: fra
-      value: "(Point 15.1 de l'ordre du jour)"
   considerations:
   - type: noting
     date_effective:
@@ -1289,6 +1277,16 @@ decisions:
       value: |-
         Prenant note de la Procédure pour l'élection des Vice-Présidents du CIML dans l'OIML B 14:2013,
         Choisit et élit le Dr. Roman Schwartz comme son Premier Vice-Président pour un mandat de six ans.
+  actions:
+  - type: notes
+    date_effective:
+      date: '2016-10-17'
+      type: effective
+    message:
+    - spelling: eng
+      value: "(Agenda Item 15.1)"
+    - spelling: fra
+      value: "(Point 15.1 de l'ordre du jour)"
 - identifier:
   - prefix: CIML
     number: 2016/33

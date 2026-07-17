@@ -1,12 +1,12 @@
 ---
 metadata:
-  source: OIML Conference Secretariat (BIML)
-  meeting_urn: urn:oiml:conference:meeting:conference-16
   title:
   - spelling: eng
     value: 16th OIML Conference — Resolutions (EN)
   - spelling: fra
     value: 16e Conférence OIML — Résolutions (FR)
+  source: OIML Conference Secretariat (BIML)
+  meeting_urn: urn:oiml:conference:meeting:conference-16
 decisions:
 - identifier:
   - prefix: Conference
@@ -19,7 +19,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 2: Approval of the agenda'
+    value: Approval of the agenda
   subject:
   - spelling: eng
     value: OIML Conference
@@ -43,10 +43,18 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 3: Election of the Conference President and Vice-Presidents'
+    value: Election of the Conference President and Vice-Presidents
   subject:
   - spelling: eng
     value: OIML Conference
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article IX of OIML B 1:1968 OIML Convention,
   actions:
   - type: elects
     date_effective:
@@ -59,14 +67,6 @@ decisions:
     - spelling: eng
       value: Elects Dr Roman Schwartz and Dr Bobjoseph Mathew as Vice-Presidents for
         the 16th OIML Conference.
-  considerations:
-  - type: having_regard_to
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to Article IX of OIML B 1:1968 OIML Convention,
 - identifier:
   - prefix: Conference
     number: 2021/03
@@ -78,8 +78,8 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 4: Confirmation that in-person and online participation in
-      OIML meetings is equivalent'
+    value: Confirmation that in-person and online participation in OIML meetings is
+      equivalent
   subject:
   - spelling: eng
     value: OIML Conference
@@ -111,7 +111,7 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 5: Approval of the minutes of the 15th Conference'
+    value: Approval of the minutes of the 15th Conference
   subject:
   - spelling: eng
     value: OIML Conference
@@ -134,33 +134,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 9: Approval of the accounts for 2016, 2017, 2018, 2019 and
-      2020'
+    value: Approval of the accounts for 2016, 2017, 2018, 2019 and 2020
   - spelling: fra
-    value: 'Agenda Item 9: Approval of the accounts for 2016, 2017, 2018, 2019 and
-      2020'
+    value: Approval of the accounts for 2016, 2017, 2018, 2019 and 2020
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: gives_discharge
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Gives its definitive discharge to the President of the Committee and
-        to the Director of the Bureau for their management of the budget during the
-        years mentioned above.
-  - type: notes
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: Ordre du jour point 9
   considerations:
   - type: having_regard_to
     date_effective:
@@ -196,6 +177,23 @@ decisions:
         Notant que le budget a été géré en conformité avec les dépenses nécessaires à la réalisation des travaux du Bureau et que l'exactitude du rapport a été certifiée par des audits annuels,
         Constatant que les fonctions respective attribuées par la Convention au Président du Comité International de Métrologie Légale et au Directeur du Bureau International de Métrologie Légale ont été remplies,
         Donne sa décharge définitive au Président du Comité et au Directeur du Bureau pour leur gestion du budget pendant les années susmentionnées.
+  actions:
+  - type: gives_discharge
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Gives its definitive discharge to the President of the Committee and
+        to the Director of the Bureau for their management of the budget during the
+        years mentioned above.
+  - type: notes
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: Ordre du jour point 9
 - identifier:
   - prefix: Conference
     number: 2021/06
@@ -207,29 +205,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.1: Member State and Corresponding Member classes and fees'
+    value: Member State and Corresponding Member classes and fees
   - spelling: fra
-    value: 'Agenda Item 10.1: Member State and Corresponding Member classes and fees'
+    value: Member State and Corresponding Member classes and fees
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: endorses
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Endorses Resolution CIML/2021/13 of the 56th CIML Meeting.
-  - type: approves
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: Approuve la Résolution CIML/2021/13 de la 56ème Réunion du CIML.
   considerations:
   - type: having_regard_to
     date_effective:
@@ -264,6 +247,21 @@ decisions:
     - spelling: fra
       value: Considérant la procédure de classification des États Membres telle que
         décidée par la 40ème Réunion du CIML en 2005,
+  actions:
+  - type: endorses
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Endorses Resolution CIML/2021/13 of the 56th CIML Meeting.
+  - type: approves
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: Approuve la Résolution CIML/2021/13 de la 56ème Réunion du CIML.
 - identifier:
   - prefix: Conference
     number: 2021/07
@@ -275,14 +273,30 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.1: Member State and Corresponding Member classes and fees'
+    value: Member State and Corresponding Member classes and fees
   - spelling: fra
-    value: 'Agenda Item 10.1: Member State and Corresponding Member classes and fees'
+    value: Member State and Corresponding Member classes and fees
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling Resolution Conference/2021/06, which endorses Resolution CIML/2021/13
+        allocating Corresponding Members to classes in 2023 using the same criteria
+        as for Member States, specified in Article XXVI (1) of OIML B 1:1968 OIML
+        Convention,
+    - spelling: fra
+      value: Rappelant la Résolution Conférence/2021/06, qui approuve la résolution
+        CIML/2021/13 attribuant les Membres Correspondants aux classes en 2023 en
+        utilisant les mêmes critères que pour les États Membres, spécifiés dans l'article
+        XXVI (1) de la Convention OIML B 1:1968,
   actions:
   - type: endorses
     date_effective:
@@ -311,22 +325,6 @@ decisions:
       value: |-
         Approuve le principe décrit dans la Résolution CIML/2021/13 selon lequel les augmentations des cotisations annuelles des Membres Correspondants commenceront en 2024 et se poursuivront progressivement, dans le but d'atteindre 50 % de la cotisation annuelle d'un État Membre pour leur classe applicable en 2028, et
         Annule la Résolution 2008/15 de la 13ème Conférence de l'OIML qui fixait la cotisation annuelle des Membres Correspondants.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling Resolution Conference/2021/06, which endorses Resolution CIML/2021/13
-        allocating Corresponding Members to classes in 2023 using the same criteria
-        as for Member States, specified in Article XXVI (1) of OIML B 1:1968 OIML
-        Convention,
-    - spelling: fra
-      value: Rappelant la Résolution Conférence/2021/06, qui approuve la résolution
-        CIML/2021/13 attribuant les Membres Correspondants aux classes en 2023 en
-        utilisant les mêmes critères que pour les États Membres, spécifiés dans l'article
-        XXVI (1) de la Convention OIML B 1:1968,
 - identifier:
   - prefix: Conference
     number: 2021/08
@@ -338,56 +336,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.2: Proposed budget for the 2022–2025 financial period'
+    value: Proposed budget for the 2022–2025 financial period
   - spelling: fra
-    value: 'Agenda Item 10.2: Proposed budget for the 2022–2025 financial period'
+    value: Proposed budget for the 2022–2025 financial period
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: |-
-        Resolves:
-        a) The overall amount of credits necessary for the 2022-2025 financial period shall be €10358944;
-        b) The progression of the base contributory share (annual contribution for a Member State in Class 1 as defined in Article XXVI (1) of OIML B 1:1968 OIML Convention) over the 2022-2025 financial period shall be as follows:
-        2022: €14200
-        2023: 14400
-        2024: €14600
-        2025: €14800
-        c) This results in the following total contributions, over the 2022-2025 financial period, for Member States classified according to Article XXVI (1) of OIML B 1:1968 OIML Convention:
-        |===
-        | Year | Class1 | Class2 | Class3 | Class4
-        | 2022 | €14200 | €28400 | €56800 | €113600
-        | 2023 | €14400 | €28800 | €57600 | €115200
-        | 2024 | €14600 | €29200 | €58400 | €116800
-        | 2025 | €14800 | €29600 | €59200 | €118400
-        | Total | €58000 | €116000 | €232000 | €464000
-        |===
-        d) This results in the following total contributions, over the 2022-2025 financial period, for Corresponding Members, classified using the same criteria as for Member States:
-        |===
-        | Year | Class1 | Class2 | Class3 | Class4
-        | 2022 | €1420 | €1420 | €1420 | €1420
-        | 2023 | €1440 | €2880* | €5760 | €11520
-        | 2024 | €2010 | €4020 | €8040 | €16080
-        | 2025 | €2820 | €5640 | €11280 | €22560
-        | Total | €7690 | €13960 | €26500 | €51580
-        |===
-        $ ^{*} $ BIML note 2022-05-25: Typographical error corrected from €2 800 to €2 880 to align with Conference Addendum 10.1.
-        e) For the 2022-2025 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
-  - type: notes
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: Ordre du jour point 10.2
   considerations:
   - type: having_regard_to
     date_effective:
@@ -463,6 +419,48 @@ decisions:
         $ ^{*} $ Note du BIML au 2022-05-25 :
         Erreur typographique corrigée de €2 800 à €2 880 pour s'aligner sur l'Addendum 10.1 de la Conférence.
         e) Pour la période financière 2022-2025, les États Membres nouvellement admis ou réadmis ne paient pas de droit d'entrée.
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: |-
+        Resolves:
+        a) The overall amount of credits necessary for the 2022-2025 financial period shall be €10358944;
+        b) The progression of the base contributory share (annual contribution for a Member State in Class 1 as defined in Article XXVI (1) of OIML B 1:1968 OIML Convention) over the 2022-2025 financial period shall be as follows:
+        2022: €14200
+        2023: 14400
+        2024: €14600
+        2025: €14800
+        c) This results in the following total contributions, over the 2022-2025 financial period, for Member States classified according to Article XXVI (1) of OIML B 1:1968 OIML Convention:
+        |===
+        | Year | Class1 | Class2 | Class3 | Class4
+        | 2022 | €14200 | €28400 | €56800 | €113600
+        | 2023 | €14400 | €28800 | €57600 | €115200
+        | 2024 | €14600 | €29200 | €58400 | €116800
+        | 2025 | €14800 | €29600 | €59200 | €118400
+        | Total | €58000 | €116000 | €232000 | €464000
+        |===
+        d) This results in the following total contributions, over the 2022-2025 financial period, for Corresponding Members, classified using the same criteria as for Member States:
+        |===
+        | Year | Class1 | Class2 | Class3 | Class4
+        | 2022 | €1420 | €1420 | €1420 | €1420
+        | 2023 | €1440 | €2880* | €5760 | €11520
+        | 2024 | €2010 | €4020 | €8040 | €16080
+        | 2025 | €2820 | €5640 | €11280 | €22560
+        | Total | €7690 | €13960 | €26500 | €51580
+        |===
+        $ ^{*} $ BIML note 2022-05-25: Typographical error corrected from €2 800 to €2 880 to align with Conference Addendum 10.1.
+        e) For the 2022-2025 financial period, newly admitted or readmitted Member States shall not pay an entry fee.
+  - type: notes
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: Ordre du jour point 10.2
 - identifier:
   - prefix: Conference
     number: 2021/09
@@ -474,14 +472,24 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 10.3: Policy on the OIML Operating Reserve Fund'
+    value: Policy on the OIML Operating Reserve Fund
   - spelling: fra
-    value: 'Agenda Item 10.3: Policy on the OIML Operating Reserve Fund'
+    value: Policy on the OIML Operating Reserve Fund
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: recalling
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Recalling Resolution 2016/3 of the 15th OIML Conference,
+    - spelling: fra
+      value: Rappelant la Résolution 2016/3 de la 15ème Conférence de l'OIML,
   actions:
   - type: endorses
     date_effective:
@@ -497,16 +505,6 @@ decisions:
     message:
     - spelling: fra
       value: Approuve la Résolution CIML/2021/15 de la 56ème Réunion du CIML.
-  considerations:
-  - type: recalling
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Recalling Resolution 2016/3 of the 15th OIML Conference,
-    - spelling: fra
-      value: Rappelant la Résolution 2016/3 de la 15ème Conférence de l'OIML,
 - identifier:
   - prefix: Conference
     number: 2021/10
@@ -518,34 +516,14 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 12: Sanctioning of OIML publications'
+    value: Sanctioning of OIML publications
   - spelling: fra
-    value: 'Agenda Item 12: Sanctioning of OIML publications'
+    value: Sanctioning of OIML publications
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
-  actions:
-  - type: resolves
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Resolves that the OIML publications listed in Addendum 12 to the Working
-        Document for the Conference are hereby sanctioned. Member States are reminded
-        of their obligation to implement OIML Recommendations as far as possible.
-  - type: decides
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: fra
-      value: Décide que les publications de l'OIML énumérées dans l'Addendum 12 du
-        Document de Travail de la Conférence sont sanctionnées. Il est rappelé aux
-        Etats Membres leur obligation de mettre en œuvre les Recommandations de l'OIML
-        autant que possible.
   considerations:
   - type: having_regard_to
     date_effective:
@@ -570,6 +548,26 @@ decisions:
       value: Prenant note du rapport sur les publications approuvées par le Comité
         depuis la 15ème Conférence en 2016 dans l'Addendum 12 au Document de Travail
         de la Conférence,
+  actions:
+  - type: resolves
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Resolves that the OIML publications listed in Addendum 12 to the Working
+        Document for the Conference are hereby sanctioned. Member States are reminded
+        of their obligation to implement OIML Recommendations as far as possible.
+  - type: decides
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: fra
+      value: Décide que les publications de l'OIML énumérées dans l'Addendum 12 du
+        Document de Travail de la Conférence sont sanctionnées. Il est rappelé aux
+        Etats Membres leur obligation de mettre en œuvre les Recommandations de l'OIML
+        autant que possible.
 - identifier:
   - prefix: Conference
     number: 2021/11
@@ -581,14 +579,35 @@ decisions:
     type: decided
   title:
   - spelling: eng
-    value: 'Agenda Item 14: Date and venue of the next Conference'
+    value: Date and venue of the next Conference
   - spelling: fra
-    value: 'Agenda Item 14: Date and venue of the next Conference'
+    value: Date and venue of the next Conference
   subject:
   - spelling: eng
     value: OIML Conference
   - spelling: fra
     value: Conférence OIML
+  considerations:
+  - type: having_regard_to
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Having regard to Article X of OIML B 1:1968 OIML Convention,
+    - spelling: fra
+      value: Vu l'article X de la convention OIML B 1:1968,
+  - type: considering
+    date_effective:
+      date: '2021-10-20'
+      type: effective
+    message:
+    - spelling: eng
+      value: Considering the standing practice to organise a Conference once every
+        four years,
+    - spelling: fra
+      value: Considérant la pratique courante d'organiser une Conférence tous les
+        quatre ans,
   actions:
   - type: resolves
     date_effective:
@@ -624,24 +643,3 @@ decisions:
       value: Soutient l'organisation d'un événement commun OIML-BIPM à l'occasion
         du 150ème Anniversaire de la Convention du Mètre et du 70ème Anniversaire
         de l'OIML en 2025.
-  considerations:
-  - type: having_regard_to
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Having regard to Article X of OIML B 1:1968 OIML Convention,
-    - spelling: fra
-      value: Vu l'article X de la convention OIML B 1:1968,
-  - type: considering
-    date_effective:
-      date: '2021-10-20'
-      type: effective
-    message:
-    - spelling: eng
-      value: Considering the standing practice to organise a Conference once every
-        four years,
-    - spelling: fra
-      value: Considérant la pratique courante d'organiser une Conférence tous les
-        quatre ans,

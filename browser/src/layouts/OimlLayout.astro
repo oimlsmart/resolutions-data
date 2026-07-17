@@ -1,13 +1,11 @@
 ---
 import cfg from 'virtual:edoxen-config'
 import { urlPrefix, localePrefixOf } from '../utils/url.js'
-import '../assets/main.css'
+import { t } from '../utils/i18n.js'
+import '../styles/app.css'
 
 const OIML = {
   name: 'OIML',
-  title: 'International Organization of Legal Metrology',
-  tagline: 'Resolutions of the CIML and the OIML Conference',
-  scope: 'Legal metrology — the practice and science of measurement that affects trade, health, safety, and the environment.',
   links: {
     oiml: 'https://www.oiml.org',
     ciml: 'https://www.oiml.org/en/structure/ciml/sites',
@@ -23,11 +21,26 @@ interface Props {
   title?: string
 }
 const { lang = cfg.site.locale, title } = Astro.props
-const prefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, lang))
+const enPrefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, 'en'))
+const frPrefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, 'fr'))
+const prefix = lang === 'fr' ? frPrefix : enPrefix
 const pageTitle = title ? `${title} | ${cfg.site.title}` : cfg.site.title
-const otherLang = lang === 'en' ? 'fr' : 'en'
-const otherPrefix = urlPrefix(cfg.site.basePath, localePrefixOf(cfg.locales, otherLang))
-const currentPath = Astro.url.pathname.replace(/^\/[^/]+\/[^/]+/, '').replace(/\/$/, '')
+
+const basePath = cfg.site.basePath
+const currentPath = Astro.url.pathname.replace(new RegExp(`^${basePath.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}`), '/')
+const swapLang = (target: string) => {
+  const currentLang = lang
+  if (currentLang === target) {
+    return `${basePath}${currentPath.replace(/^\//, '')}`.replace(/\/{2,}/g, '/')
+  }
+  const other = currentLang === 'en' ? 'fr' : 'en'
+  const currentSeg = localePrefixOf(cfg.locales, currentLang)
+  const otherSeg = localePrefixOf(cfg.locales, other)
+  if (currentSeg && currentPath.startsWith(`${currentSeg}/`)) {
+    return `${basePath}${otherSeg}${currentPath.slice(currentSeg.length)}`.replace(/\/{2,}/g, '/')
+  }
+  return `${basePath}${otherSeg}/`.replace(/\/{2,}/g, '/')
+}
 ---
 
 <!doctype html>
@@ -37,9 +50,9 @@ const currentPath = Astro.url.pathname.replace(/^\/[^/]+\/[^/]+/, '').replace(/\
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <link rel="icon" type="image/svg+xml" href={`${cfg.site.basePath}favicon.svg`} />
-    <link rel="icon" type="image/png" href={`${cfg.site.basePath}favicon-96x96.png`} sizes="96x96" />
-    <link rel="shortcut icon" href={`${cfg.site.basePath}favicon.ico`} />
-    <link rel="apple-touch-icon" sizes="180x180" href={`${cfg.site.basePath}apple-touch-icon.png`} />
+    <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: light)" href={`${cfg.site.basePath}assets/oiml-logo-icon-light.svg`} />
+    <link rel="icon" type="image/svg+xml" media="(prefers-color-scheme: dark)" href={`${cfg.site.basePath}assets/oiml-logo-icon-dark.svg`} />
+    <link rel="apple-touch-icon" href={`${cfg.site.basePath}assets/oiml-logo-icon-light.svg`} />
     <link rel="manifest" href={`${cfg.site.basePath}site.webmanifest`} />
     <script is:inline>
       (function () {
@@ -50,39 +63,53 @@ const currentPath = Astro.url.pathname.replace(/^\/[^/]+\/[^/]+/, '').replace(/\
       })();
     </script>
   </head>
-  <body>
-    <div class="site-brand-bar" aria-hidden="true"></div>
+  <body class="min-h-screen bg-paper text-ink">
     <header id="nav-header" class="site-header">
       <div class="site-header__inner">
-        <a href={prefix} class="site-header__logo">
-          <img src={`${cfg.site.basePath}assets/oiml-logo.svg`} alt="OIML" class="site-header__logo-img site-header__logo-img--theme" />
-          <span class="site-header__logo-text">
+        <a href={prefix} class="flex items-center gap-2 no-underline text-ink min-w-0">
+          <img src={`${cfg.site.basePath}assets/oiml-logo-smart-light.svg`} alt="OIML" class="logo-light h-7 w-auto shrink-0" />
+          <img src={`${cfg.site.basePath}assets/oiml-logo-smart-dark.svg`} alt="OIML" class="logo-dark h-7 w-auto shrink-0" />
+          <span class="font-serif text-base font-semibold tracking-tight truncate">
             {OIML.name}
-            <span class="site-header__logo-subtitle">{OIML.title}</span>
+            <span class="block text-[0.625rem] font-normal uppercase tracking-wider text-ink-muted leading-none mt-0.5">
+              {t(lang, 'committee.title')}
+            </span>
           </span>
         </a>
 
-        <nav class="site-header__nav">
-          <a href={prefix} class="site-header__nav-link">{lang === 'fr' ? 'Résolutions' : 'Resolutions'}</a>
-          <a href={`${prefix}meetings`} class="site-header__nav-link">{lang === 'fr' ? 'Réunions' : 'Meetings'}</a>
-          <a href={`${prefix}about`} class="site-header__nav-link">{lang === 'fr' ? 'À propos' : 'About'}</a>
+        <nav class="hidden md:flex items-center gap-1">
+          <a href={prefix} class="px-3 py-1.5 text-sm font-medium text-ink-soft hover:text-accent hover:bg-accent-soft rounded transition-colors whitespace-nowrap">
+            {t(lang, 'nav.resolutions')}
+          </a>
+          <a href={`${prefix}meetings`} class="px-3 py-1.5 text-sm font-medium text-ink-soft hover:text-accent hover:bg-accent-soft rounded transition-colors whitespace-nowrap">
+            {t(lang, 'nav.meetings')}
+          </a>
+          <a href={`${prefix}about`} class="px-3 py-1.5 text-sm font-medium text-ink-soft hover:text-accent hover:bg-accent-soft rounded transition-colors whitespace-nowrap">
+            {t(lang, 'nav.about')}
+          </a>
         </nav>
 
-        <div class="site-header__actions">
-          <div class="lang-toggle" role="group" aria-label="Switch language">
-            <a href={prefix} class={`lang-toggle__btn ${lang === 'en' ? 'lang-toggle__btn--active' : ''}`}>EN</a>
-            <a href={otherPrefix} class={`lang-toggle__btn ${lang === 'fr' ? 'lang-toggle__btn--active' : ''}`}>FR</a>
+        <div class="flex items-center gap-2">
+          <div class="lang-toggle inline-flex items-center border border-rule rounded-full p-0.5 mr-1" role="group" aria-label={t(lang, 'lang.toggle')}>
+            <a href={swapLang('en')} class={`lang-toggle__btn px-2.5 py-1 text-xs font-semibold rounded-full no-underline transition-colors ${lang === 'en' ? 'bg-accent text-white' : 'text-ink-soft hover:bg-paper-raised'}`}>EN</a>
+            <a href={swapLang('fr')} class={`lang-toggle__btn px-2.5 py-1 text-xs font-semibold rounded-full no-underline transition-colors ${lang === 'fr' ? 'bg-accent text-white' : 'text-ink-soft hover:bg-paper-raised'}`}>FR</a>
           </div>
-          <div class="site-header__external-links">
-            <a href={OIML.links.oiml} target="_blank" rel="noopener noreferrer" class="site-header__icon-btn" aria-label="Official website" title="Official website">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
-            </a>
-          </div>
-          <button type="button" class="site-header__icon-btn" aria-label="Toggle dark mode" id="theme-toggle-btn">
-            <svg class="header-icon icon-sun" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
-            <svg class="header-icon icon-moon" fill="none" viewBox="0 0 24 24" stroke="currentColor" style="display:none"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+          <a href={OIML.links.oiml} target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center justify-center w-8 h-8 rounded text-ink-soft hover:text-accent hover:bg-accent-soft transition-colors" aria-label={t(lang, 'footer.officialWebsite')} title={t(lang, 'footer.officialWebsite')}>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-4 h-4"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </a>
+          <button type="button" class="inline-flex items-center justify-center w-8 h-8 rounded text-ink-soft hover:text-accent hover:bg-accent-soft transition-colors" aria-label="Toggle dark mode" id="theme-toggle-btn">
+            <svg class="w-4 h-4 icon-sun" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z" /></svg>
+            <svg class="w-4 h-4 icon-moon hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" /></svg>
+          </button>
+          <button type="button" class="md:hidden inline-flex items-center justify-center w-8 h-8 rounded text-ink-soft hover:text-accent hover:bg-accent-soft transition-colors" aria-label="Menu" id="mobile-menu-btn">
+            <svg class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
           </button>
         </div>
+      </div>
+      <div id="mobile-menu" class="md:hidden hidden border-t border-rule bg-paper-soft dark:bg-paper-deep">
+        <a href={prefix} class="block px-4 py-2.5 text-sm text-ink-soft hover:bg-paper-raised border-b border-rule-soft">{t(lang, 'nav.resolutions')}</a>
+        <a href={`${prefix}meetings`} class="block px-4 py-2.5 text-sm text-ink-soft hover:bg-paper-raised border-b border-rule-soft">{t(lang, 'nav.meetings')}</a>
+        <a href={`${prefix}about`} class="block px-4 py-2.5 text-sm text-ink-soft hover:bg-paper-raised">{t(lang, 'nav.about')}</a>
       </div>
     </header>
 
@@ -90,41 +117,42 @@ const currentPath = Astro.url.pathname.replace(/^\/[^/]+\/[^/]+/, '').replace(/\
       <slot />
     </main>
 
-    <footer class="site-footer">
-      <div class="site-footer__inner">
-        <div class="site-footer__grid">
-          <div class="site-footer__brand">
-            <a href={prefix} class="site-footer__logo">
-              <img src={`${cfg.site.basePath}assets/oiml-logo.svg`} alt="OIML" class="site-footer__logo-img site-footer__logo-img--theme" />
-              <span class="site-footer__logo-text">{OIML.name}</span>
+    <footer class="border-t border-rule bg-paper-soft dark:bg-paper-deep">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div>
+            <a href={prefix} class="flex items-center gap-2 no-underline text-ink mb-3">
+              <img src={`${cfg.site.basePath}assets/oiml-logo-smart-light.svg`} alt="OIML" class="logo-light h-7 w-auto" />
+              <img src={`${cfg.site.basePath}assets/oiml-logo-smart-dark.svg`} alt="OIML" class="logo-dark h-7 w-auto" />
+              <span class="font-serif text-base font-semibold">{OIML.name}</span>
             </a>
-            <p class="site-footer__tagline">{OIML.title}</p>
-            <p class="site-footer__scope">{OIML.scope}</p>
+            <p class="text-sm font-serif text-ink mb-2">{t(lang, 'committee.title')}</p>
+            <p class="text-xs text-ink-muted max-w-xs leading-relaxed">{t(lang, 'committee.scope')}</p>
           </div>
 
           <div>
-            <h4 class="site-footer__heading">{lang === 'fr' ? 'Explorer' : 'Explore'}</h4>
-            <ul class="site-footer__links">
-              <li><a href={prefix} class="site-footer__link">{lang === 'fr' ? 'Résolutions' : 'Resolutions'}</a></li>
-              <li><a href={`${prefix}meetings`} class="site-footer__link">{lang === 'fr' ? 'Réunions' : 'Meetings'}</a></li>
-              <li><a href={`${prefix}about`} class="site-footer__link">{lang === 'fr' ? 'À propos' : 'About'}</a></li>
+            <h4 class="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-3">{t(lang, 'footer.explore')}</h4>
+            <ul class="space-y-2">
+              <li><a href={prefix} class="text-sm text-ink-soft hover:text-accent transition-colors">{t(lang, 'nav.resolutions')}</a></li>
+              <li><a href={`${prefix}meetings`} class="text-sm text-ink-soft hover:text-accent transition-colors">{t(lang, 'nav.meetings')}</a></li>
+              <li><a href={`${prefix}about`} class="text-sm text-ink-soft hover:text-accent transition-colors">{t(lang, 'nav.about')}</a></li>
             </ul>
           </div>
 
           <div>
-            <h4 class="site-footer__heading">{lang === 'fr' ? 'Liens' : 'Links'}</h4>
-            <ul class="site-footer__links">
-              <li><a href={OIML.links.oiml} class="site-footer__link" target="_blank" rel="noopener noreferrer">{lang === 'fr' ? 'Site officiel' : 'Official Website'}</a></li>
-              <li><a href={OIML.links.ciml} class="site-footer__link" target="_blank" rel="noopener noreferrer">{lang === 'fr' ? 'Réunions CIML' : 'CIML Meetings'}</a></li>
-              <li><a href={OIML.links.conference} class="site-footer__link" target="_blank" rel="noopener noreferrer">{lang === 'fr' ? 'Conférences' : 'Conferences'}</a></li>
-              <li><a href={OIML.links.bulletin} class="site-footer__link" target="_blank" rel="noopener noreferrer">{lang === 'fr' ? 'Bulletin OIML' : 'OIML Bulletin'}</a></li>
-              <li><a href={OIML.links.github} class="site-footer__link" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-              <li><a href={OIML.links.linkedin} class="site-footer__link" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+            <h4 class="text-xs font-semibold uppercase tracking-wider text-ink-muted mb-3">{t(lang, 'footer.links')}</h4>
+            <ul class="space-y-2">
+              <li><a href={OIML.links.oiml} class="text-sm text-ink-soft hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">{t(lang, 'footer.officialWebsite')}</a></li>
+              <li><a href={OIML.links.ciml} class="text-sm text-ink-soft hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">{t(lang, 'footer.linksCiml')}</a></li>
+              <li><a href={OIML.links.conference} class="text-sm text-ink-soft hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">{t(lang, 'footer.linksConference')}</a></li>
+              <li><a href={OIML.links.bulletin} class="text-sm text-ink-soft hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">{t(lang, 'footer.linksBulletin')}</a></li>
+              <li><a href={OIML.links.github} class="text-sm text-ink-soft hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">{t(lang, 'footer.github')}</a></li>
+              <li><a href={OIML.links.linkedin} class="text-sm text-ink-soft hover:text-accent transition-colors" target="_blank" rel="noopener noreferrer">{t(lang, 'footer.linkedin')}</a></li>
             </ul>
           </div>
         </div>
-        <div class="site-footer__bottom">
-          <p class="site-footer__copy">
+        <div class="mt-8 pt-6 border-t border-rule">
+          <p class="text-xs text-ink-muted">
             &copy; {new Date().getFullYear()} {OIML.name}
           </p>
         </div>
@@ -139,8 +167,8 @@ const currentPath = Astro.url.pathname.replace(/^\/[^/]+\/[^/]+/, '').replace(/\
         var moon = btn.querySelector('.icon-moon');
         function updateIcons() {
           var isDark = document.documentElement.classList.contains('dark');
-          if (sun) sun.style.display = isDark ? 'none' : '';
-          if (moon) moon.style.display = isDark ? '' : 'none';
+          if (sun) sun.classList.toggle('hidden', isDark);
+          if (moon) moon.classList.toggle('hidden', !isDark);
         }
         updateIcons();
         btn.addEventListener('click', function() {
@@ -150,6 +178,21 @@ const currentPath = Astro.url.pathname.replace(/^\/[^/]+\/[^/]+/, '').replace(/\
           updateIcons();
         });
       })();
+
+      (function() {
+        var btn = document.getElementById('mobile-menu-btn');
+        var menu = document.getElementById('mobile-menu');
+        if (!btn || !menu) return;
+        btn.addEventListener('click', function() {
+          menu.classList.toggle('hidden');
+        });
+      })();
     </script>
+
+    <style is:global>
+      .logo-dark { display: none; }
+      .dark .logo-light { display: none; }
+      .dark .logo-dark { display: inline-block; }
+    </style>
   </body>
 </html>
