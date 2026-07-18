@@ -6,7 +6,13 @@ urn: urn:oiml:ciml:meeting:ciml-23
 ordinal: 23
 type: plenary
 status: completed
-committee: International Committee of Legal Metrology (CIML)
+committee:
+  code: CIML
+  name:
+  - spelling: eng
+    value: International Committee of Legal Metrology (CIML)
+  - spelling: fra
+    value: Comité international de métrologie légale (CIML)
 general_area:
 - spelling: eng
   value: Sydney, Australia
@@ -22,468 +28,95 @@ agenda:
   items:
   - label: '1'
     kind: numbered
-    title: MINUTES OF THE 22nd MEETING OF THE COMMITTEE AND RECONSIDERATION OF THE
-      MINUTES OF THE 21ST MEETING
+    title:
+    - spelling: eng
+      value: MINUTES OF THE 22nd MEETING OF THE COMMITTEE AND RECONSIDERATION OF THE MINUTES OF THE 21ST MEETING
     outcome: discussed
   - label: '2'
     kind: numbered
-    title: AUDITOR'S REPORT FOR 1987 AND OTHER FINANCIAL MATTERS
+    title:
+    - spelling: eng
+      value: AUDITOR'S REPORT FOR 1987 AND OTHER FINANCIAL MATTERS
     outcome: discussed
   - label: '3'
     kind: numbered
-    title: 'EIGHTH CONFERENCE: ORGANIZATION OF THE SESSIONS, PRESIDENCY, AGENDA'
+    title:
+    - spelling: eng
+      value: 'EIGHTH CONFERENCE: ORGANIZATION OF THE SESSIONS, PRESIDENCY, AGENDA'
     outcome: discussed
   - label: '4'
     kind: numbered
-    title: WORK PROGRAMMES FOR 1989-1992 AND PRIORITY CRITERIA
+    title:
+    - spelling: eng
+      value: WORK PROGRAMMES FOR 1989-1992 AND PRIORITY CRITERIA
     outcome: discussed
   - label: '5'
     kind: numbered
-    title: CERTIFICATION
+    title:
+    - spelling: eng
+      value: CERTIFICATION
     outcome: discussed
   - label: '6'
     kind: numbered
-    title: THE SITUATION OF CERTAIN SECRETARIATS
+    title:
+    - spelling: eng
+      value: THE SITUATION OF CERTAIN SECRETARIATS
     outcome: discussed
   - label: '7'
     kind: numbered
-    title: REPORT ON THE ACTIVITIES OF BIML
+    title:
+    - spelling: eng
+      value: REPORT ON THE ACTIVITIES OF BIML
     outcome: discussed
   - label: '8'
     kind: numbered
-    title: VICE-PRESIDENCY OF THE COMMITTEE
+    title:
+    - spelling: eng
+      value: VICE-PRESIDENCY OF THE COMMITTEE
     outcome: discussed
   - label: '9'
     kind: numbered
-    title: IMPLEMENTATION OF THE DECISIONS OF THE EIGHTH CONFERENCE
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE EIGHTH CONFERENCE
     outcome: discussed
   - label: '10'
     kind: aob
-    title: ANY OTHER BUSINESS
+    title:
+    - spelling: eng
+      value: ANY OTHER BUSINESS
     outcome: discussed
   - label: '11'
     kind: closing
-    title: DATE AND PLACE FOR THE NEXT MEETING
+    title:
+    - spelling: eng
+      value: DATE AND PLACE FOR THE NEXT MEETING
     outcome: discussed
 decisions:
-- identifier:
-  - prefix: CIML
-    number: 1988/1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198801
-  urn: urn:oiml:doc:ciml:resolution:1988-01
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: MINUTES OF THE 22nd MEETING OF THE COMMITTEE AND RECONSIDERATION OF THE
-      MINUTES OF THE 21ST MEETING
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The minutes of the 22nd meeting of the Committee were approved without
-        modification.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198802
-  urn: urn:oiml:doc:ciml:resolution:1988-02
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: AUDITOR'S REPORT FOR 1987 AND OTHER FINANCIAL MATTERS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'a. The Committee approved the Auditor''s report for 1987 and instructed
-        its President and the Director of the Bureau to submit it to the Eighth Conference.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198803
-  urn: urn:oiml:doc:ciml:resolution:1988-03
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: 'EIGHTH CONFERENCE: ORGANIZATION OF THE SESSIONS, PRESIDENCY, AGENDA'
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee accepted proposals from its President relating to the
-        organization of the Eighth Conference. It also agreed to nominate respectively
-        Mr RICHARDS, Chairman of the National Standards Commission (Australia), and
-        Mr LEWISH (Austria) and Mr PUTERA (Indonesia), for the Presidency and the
-        vice-Presidencies of the Conference. These nominations were proposed by Mr
-        BIRCH and Mr BIRKELAND respectively.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/4
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198804
-  urn: urn:oiml:doc:ciml:resolution:1988-04
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: WORK PROGRAMMES FOR 1989-1992 AND PRIORITY CRITERIA
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr BIRKELAND first made the remark that the draft work programmes were
-        prepared by the Pilot Secretariats and Reporting Secretariats, and sent to
-        the
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/5
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198805
-  urn: urn:oiml:doc:ciml:resolution:1988-05
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: CERTIFICATION
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'a. Discussions prior to the meeting of the Conference
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/6
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198806
-  urn: urn:oiml:doc:ciml:resolution:1988-06
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: THE SITUATION OF CERTAIN SECRETARIATS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr ATHANE presented a number of proposals from Member States to disband
-        existing Reporting Secretariats (because they had completed their work, or
-        because their field of work had been subsumed into the work programme of another
-        Secretariat, or because the subjects concerned were of low interest or were
-        already completely dealt with by other international institutions), and to
-        create new Secretariats.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/7
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198807
-  urn: urn:oiml:doc:ciml:resolution:1988-07
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: REPORT ON THE ACTIVITIES OF BIML
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report on the activities of BIML for
-        the period September 1987 to October 1988.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/8
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198808
-  urn: urn:oiml:doc:ciml:resolution:1988-08
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: VICE-PRESIDENCY OF THE COMMITTEE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee unanimously elected for a six year period:
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/9
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198809
-  urn: urn:oiml:doc:ciml:resolution:1988-09
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: IMPLEMENTATION OF THE DECISIONS OF THE EIGHTH CONFERENCE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'In application of a decision by the Conference under item 5 of its agenda,
-        the Committee charged the Bureau with transcribing the discussions under that
-        item and sending the text as soon as possible to the Members of CIML, to be
-        considered by the Presidential Council and then by the Committee.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/10
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198810
-  urn: urn:oiml:doc:ciml:resolution:1988-10
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: ANY OTHER BUSINESS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'There was no other business.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1988/11
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198811
-  urn: urn:oiml:doc:ciml:resolution:1988-11
-  agenda_item:
-  dates:
-  - date: '1988-10-24'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: DATE AND PLACE FOR THE NEXT MEETING
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee accepted the proposals concerning the organization of
-        the Eighth Conference: presidency, agenda, time table, etc.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee adopted the work programmes for 1989-1992 submitted by
-        the Pilot and Reporting Secretariats and by the Bureau. It instructed the
-        Secretariats to follow these programmes as closely as possible and charged
-        the Presidential Council with examining periodically the progress of the work
-        and reporting to the Committee at each of its sessions.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee considered that the priority criteria submitted by the
-        Bureau were appropriate as a basis for the setting up of the work programmes
-        for 1989-1992.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report on the activities of the BIML
-        during the period September 1987 - October 1988.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee elected :
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee examined the decisions of the Eighth Conference in view
-        of their implementation.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  - type: decides
-    message:
-    - spelling: eng
-      value: 'The Committee decided to hold its 24th meeting in Paris during the last
-        week of September 1989 in connection with a commemoration of the Bicentenary
-        of the creation of the Metric System organized by the French government and
-        a meeting of the International Committee of Weights and Measures.
-
-        '
-    dates:
-    - start: '1988-10-24'
-      kind: effective
-  approvals: []
-  considerations: []
+- prefix: CIML
+  number: 1988/1
+- prefix: CIML
+  number: 1988/2
+- prefix: CIML
+  number: 1988/3
+- prefix: CIML
+  number: 1988/4
+- prefix: CIML
+  number: 1988/5
+- prefix: CIML
+  number: 1988/6
+- prefix: CIML
+  number: 1988/7
+- prefix: CIML
+  number: 1988/8
+- prefix: CIML
+  number: 1988/9
+- prefix: CIML
+  number: 1988/10
+- prefix: CIML
+  number: 1988/11
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-23-eng
-  script: Latn
   spelling: eng
 title:
 - spelling: eng

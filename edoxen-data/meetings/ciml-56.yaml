@@ -6,2532 +6,432 @@ urn: urn:oiml:ciml:meeting:ciml-56
 ordinal: 56
 type: plenary
 status: completed
-committee: International Committee of Legal Metrology (CIML)
+committee:
+  code: CIML
+  name:
+  - spelling: eng
+    value: International Committee of Legal Metrology (CIML)
+  - spelling: fra
+    value: Comité international de métrologie légale (CIML)
 general_area:
 - spelling: eng
   value: Online meeting
 - spelling: fra
   value: Online meeting
-city:
-country_code:
 venues:
 - kind: virtual
-  name: Online meeting
+  name:
+  - spelling: eng
+    value: Online meeting
 source_urls:
 - ref: https://www.oiml.org/en/structure/ciml/pdf/56-ciml-resolutions-english.pdf
   format: pdf
-  kind: resolutions_pdf
+  kind: decisions_pdf
   spelling: eng
 - ref: https://www.oiml.org/fr/structure/ciml/pdf/56-ciml-resolutions-french.pdf
   format: pdf
-  kind: resolutions_pdf
+  kind: decisions_pdf
   spelling: fra
 agenda:
   status: final
   items:
   - label: '2'
     kind: numbered
-    title: Agenda item 2
+    title:
+    - spelling: eng
+      value: Agenda item 2
     outcome: resolved
   - label: '3'
     kind: numbered
-    title: Agenda item 3
+    title:
+    - spelling: eng
+      value: Agenda item 3
     outcome: resolved
   - label: '4'
     kind: numbered
-    title: 1 Report by the CIML President
+    title:
+    - spelling: eng
+      value: 1 Report by the CIML President
     outcome: discussed
   - label: '4.1'
     kind: numbered
-    title: Agenda item 4.1
+    title:
+    - spelling: eng
+      value: Agenda item 4.1
     outcome: resolved
   - label: '4.2'
     kind: numbered
-    title: Agenda item 4.2
+    title:
+    - spelling: eng
+      value: Agenda item 4.2
     outcome: resolved
   - label: '4.3'
     kind: numbered
-    title: Agenda item 4.3
+    title:
+    - spelling: eng
+      value: Agenda item 4.3
     outcome: resolved
   - label: '4.4'
     kind: numbered
-    title: Agenda item 4.4
+    title:
+    - spelling: eng
+      value: Agenda item 4.4
     outcome: resolved
   - label: '5'
     kind: numbered
-    title: Agenda item 5
+    title:
+    - spelling: eng
+      value: Agenda item 5
     outcome: resolved
   - label: '6'
     kind: numbered
-    title: Agenda item 6
+    title:
+    - spelling: eng
+      value: Agenda item 6
     outcome: resolved
   - label: '7'
     kind: numbered
-    title: 1 2020 accounts
+    title:
+    - spelling: eng
+      value: 1 2020 accounts
     outcome: discussed
   - label: '7.1'
     kind: numbered
-    title: Agenda item 7.1
+    title:
+    - spelling: eng
+      value: Agenda item 7.1
     outcome: resolved
   - label: '7.2'
     kind: numbered
-    title: Agenda item 7.2
+    title:
+    - spelling: eng
+      value: Agenda item 7.2
     outcome: resolved
   - label: '7.3'
     kind: numbered
-    title: Agenda item 7.3
+    title:
+    - spelling: eng
+      value: Agenda item 7.3
     outcome: resolved
   - label: '7.4'
     kind: numbered
-    title: Agenda item 7.4
+    title:
+    - spelling: eng
+      value: Agenda item 7.4
     outcome: resolved
   - label: '7.5'
     kind: numbered
-    title: Agenda item 7.5
+    title:
+    - spelling: eng
+      value: Agenda item 7.5
     outcome: resolved
   - label: '7.6'
     kind: numbered
-    title: Agenda item 7.6
+    title:
+    - spelling: eng
+      value: Agenda item 7.6
     outcome: resolved
   - label: '8'
     kind: numbered
-    title: 1 Explanation and voting procedure
+    title:
+    - spelling: eng
+      value: 1 Explanation and voting procedure
     outcome: discussed
   - label: '9'
     kind: numbered
-    title: 1 Publications and project proposals
+    title:
+    - spelling: eng
+      value: 1 Publications and project proposals
     outcome: discussed
   - label: '9.1'
     kind: numbered
-    title: 1 Final Draft publications submitted for approval by the CIML
+    title:
+    - spelling: eng
+      value: 1 Final Draft publications submitted for approval by the CIML
     outcome: adopted
   - label: 9.1.1
     kind: numbered
-    title: 1 Update of R 60 Metrological regulation for load cells
+    title:
+    - spelling: eng
+      value: 1 Update of R 60 Metrological regulation for load cells
     outcome: discussed
   - label: 9.1.1.1
     kind: numbered
-    title: Agenda item 9.1.1.1
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.1.1
     outcome: resolved
   - label: 9.1.1.2
     kind: numbered
-    title: Agenda item 9.1.1.2
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.1.2
     outcome: resolved
   - label: 9.1.2
     kind: numbered
-    title: 1 Revision of OIML B 12:2004 Policy paper on liaisons between the OIML
-      and other bodies
+    title:
+    - spelling: eng
+      value: 1 Revision of OIML B 12:2004 Policy paper on liaisons between the OIML and other bodies
     outcome: discussed
   - label: 9.1.2.1
     kind: numbered
-    title: Agenda item 9.1.2.1
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.1
     outcome: resolved
   - label: 9.1.2.2
     kind: numbered
-    title: Agenda item 9.1.2.2
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.2
     outcome: resolved
   - label: 9.1.2.3
     kind: numbered
-    title: Agenda item 9.1.2.3
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.3
     outcome: resolved
   - label: 9.1.2.4
     kind: numbered
-    title: Agenda item 9.1.2.4
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.4
     outcome: resolved
   - label: 9.1.2.5
     kind: numbered
-    title: Agenda item 9.1.2.5
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.5
     outcome: resolved
   - label: 9.1.2.6
     kind: numbered
-    title: Agenda item 9.1.2.6
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.6
     outcome: resolved
   - label: 9.1.2.7
     kind: numbered
-    title: Agenda item 9.1.2.7
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.7
     outcome: resolved
   - label: 9.1.2.8
     kind: numbered
-    title: Agenda item 9.1.2.8
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.8
     outcome: resolved
   - label: 9.1.2.9
     kind: numbered
-    title: Agenda item 9.1.2.9
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.9
     outcome: resolved
   - label: 9.1.2.10
     kind: numbered
-    title: Agenda item 9.1.2.10
+    title:
+    - spelling: eng
+      value: Agenda item 9.1.2.10
     outcome: resolved
   - label: '9.2'
     kind: numbered
-    title: Agenda item 9.2
+    title:
+    - spelling: eng
+      value: Agenda item 9.2
     outcome: resolved
   - label: '10'
     kind: numbered
-    title: 1 Report by the OIML-CS Management Committee Chairperson
+    title:
+    - spelling: eng
+      value: 1 Report by the OIML-CS Management Committee Chairperson
     outcome: discussed
   - label: '10.1'
     kind: numbered
-    title: Agenda item 10.1
+    title:
+    - spelling: eng
+      value: Agenda item 10.1
     outcome: resolved
   - label: '10.2'
     kind: numbered
-    title: Agenda item 10.2
+    title:
+    - spelling: eng
+      value: Agenda item 10.2
     outcome: resolved
   - label: '11'
     kind: numbered
-    title: Agenda item 11
+    title:
+    - spelling: eng
+      value: Agenda item 11
     outcome: resolved
   - label: '12'
     kind: numbered
-    title: 1 Nominations for the President and Vice-Presidents of the 16th Conference
+    title:
+    - spelling: eng
+      value: 1 Nominations for the President and Vice-Presidents of the 16th Conference
     outcome: discussed
   - label: '13'
     kind: numbered
-    title: 1 Review of Draft CIML Resolutions from this session
+    title:
+    - spelling: eng
+      value: 1 Review of Draft CIML Resolutions from this session
     outcome: discussed
   - label: '15'
     kind: numbered
-    title: 1 Report by the RLMO Round Table Chairperson
+    title:
+    - spelling: eng
+      value: 1 Report by the RLMO Round Table Chairperson
     outcome: discussed
   - label: '15.1'
     kind: numbered
-    title: Agenda item 15.1
+    title:
+    - spelling: eng
+      value: Agenda item 15.1
     outcome: resolved
   - label: '15.2'
     kind: numbered
-    title: Agenda item 15.2
+    title:
+    - spelling: eng
+      value: Agenda item 15.2
     outcome: resolved
   - label: '15.3'
     kind: numbered
-    title: Agenda item 15.3
+    title:
+    - spelling: eng
+      value: Agenda item 15.3
     outcome: resolved
   - label: '16'
     kind: numbered
-    title: 1 OIML Medals
+    title:
+    - spelling: eng
+      value: 1 OIML Medals
     outcome: discussed
   - label: '16.1'
     kind: numbered
-    title: Agenda item 16.1
+    title:
+    - spelling: eng
+      value: Agenda item 16.1
     outcome: resolved
   - label: '16.2'
     kind: numbered
-    title: Agenda item 16.2
+    title:
+    - spelling: eng
+      value: Agenda item 16.2
     outcome: resolved
   - label: '16.3'
     kind: numbered
-    title: Agenda item 16.3
+    title:
+    - spelling: eng
+      value: Agenda item 16.3
     outcome: resolved
   - label: '16.4'
     kind: numbered
-    title: Agenda item 16.4
+    title:
+    - spelling: eng
+      value: Agenda item 16.4
     outcome: resolved
   - label: '17'
     kind: numbered
-    title: 1 57th CIML Meeting (2022)
+    title:
+    - spelling: eng
+      value: 1 57th CIML Meeting (2022)
     outcome: discussed
   - label: '17.1'
     kind: numbered
-    title: Agenda item 17.1
+    title:
+    - spelling: eng
+      value: Agenda item 17.1
     outcome: resolved
   - label: '19'
     kind: numbered
-    title: 1 Review of Draft CIML Resolutions from this session
+    title:
+    - spelling: eng
+      value: 1 Review of Draft CIML Resolutions from this session
     outcome: discussed
 decisions:
-- identifier:
-  - prefix: CIML
-    number: 2021/01
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202101
-  urn: urn:oiml:doc:ciml:resolution:2021-01
-  agenda_item: '2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 2
-  - spelling: fra
-    value: Approuve l'ordre du jour de la 56ème Réunion du CIML.
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the agenda for the 56th CIML Meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve l''ordre du jour de la 56ème Réunion du CIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/02
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202102
-  urn: urn:oiml:doc:ciml:resolution:2021-02
-  agenda_item: '3'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 3
-  - spelling: fra
-    value: Approuve le compte rendu de la 55ème Réunion du CIML.
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the minutes of the 55th CIML Meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve le compte rendu de la 55ème Réunion du CIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/03
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202103
-  urn: urn:oiml:doc:ciml:resolution:2021-03
-  agenda_item: '4.1'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 4.1
-  - spelling: fra
-    value: Prend note des informations fournies sur l'élection d'un Président qui
-      aura lieu en 2022
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report given by its President,
-
-        '
-    - spelling: fra
-      value: |
-        Prend note des informations fournies sur l'élection d'un Président qui aura lieu en 2022, et
-        Rappelle aux Membres du CIML que les candidatures doivent être envoyées au Bureau au plus tard à la fin du mois de mai 2022.
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: |
-        Notes the information given on the election of a President to be held in 2022, and
-        Reminds CIML Members that candidacies must be sent to the Bureau by the end of May 2022 at the latest.
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/04
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202104
-  urn: urn:oiml:doc:ciml:resolution:2021-04
-  agenda_item: '4.2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 4.2
-  - spelling: fra
-    value: Décide que la participation en personne et en ligne à toutes les réunions
-      de
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: decides
-    message:
-    - spelling: eng
-      value: 'Decides that in-person and online participation in all OIML meetings
-        is considered to be equivalent, and
-
-        '
-    - spelling: fra
-      value: 'Décide que la participation en personne et en ligne à toutes les réunions
-        de l''OIML est considérée comme équivalente, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests the 16th Conference to endorse this policy.
-
-        '
-    - spelling: fra
-      value: 'Demande à la 16ème Conférence d''approuver cette politique.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: recalling
-    message:
-    - spelling: eng
-      value: 'Recalling its resolution 2020/1,
-
-        '
-    - spelling: fra
-      value: 'Rappelant sa Résolution 2020/1,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting that all OIML meetings can be held with in-person participation,
-        or with solely online participation, or with a combination of in-person and
-        online participation,
-
-        '
-    - spelling: fra
-      value: 'Notant que toutes les réunions de l''OIML peuvent se tenir avec une
-        participation en personne, ou avec une participation uniquement en ligne,
-        ou avec une combinaison de participation en personne et en ligne,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/05
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202105
-  urn: urn:oiml:doc:ciml:resolution:2021-05
-  agenda_item: '4.3'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 4.3
-  - spelling: fra
-    value: Ordre du jour point 4.3
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: confirms
-    message:
-    - spelling: eng
-      value: 'Confirmss its support for the CIML President to sign the final version
-        of a Joint Statement of Intent on digital transformation in international
-        scientific and quality infrastructure (QI), which is intended to be also signed
-        by other QI stakeholders, such as CODATA, IAF, IEC, ILAC, IMEKO, ISC, and
-        ISO.
-
-        '
-    - spelling: fra
-      value: 'Ordre du jour point 4.3
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: recalling
-    message:
-    - spelling: eng
-      value: |
-        Recalling its Resolution 2020/6,
-        Welcoming the activities of the OIML-BIPM Joint Task Group in the field of digital transformation of metrological processes and activities,
-    - spelling: fra
-      value: |
-        Rappelant sa résolution 2020/6,
-        Se félicitant des activités du Groupe de Travail Conjoint OIML-BIPM dans le domaine de la transformation numérique des processus et activités métrologiques,
-        Confirmme son soutien au Président du CIML pour qu'il signe la version finale d'une déclaration d'intention commune sur la transformation numérique de l'infrastructure scientifique et de qualité (IQ) internationale, qui devrait également être signée par d'autres parties prenantes de l'IQ, telles que CODATA, IAF, CEI, ILAC, IMEKO, ISC et ISO.
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/06
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202106
-  urn: urn:oiml:doc:ciml:resolution:2021-06
-  agenda_item: '4.3'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 4.3
-  - spelling: fra
-    value: Demande au Président du CIML de faire rapport sur toute proposition en
-      temps voulu.
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: confirms
-    message:
-    - spelling: eng
-      value: 'Confirms its support for the JTG to consider a possible bilateral OIML-BIPM
-        MoU, and
-
-        '
-    - spelling: fra
-      value: 'Demande au Président du CIML de faire rapport sur toute proposition
-        en temps voulu.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests the CIML President to report back on any proposals in due time.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: recalling
-    message:
-    - spelling: eng
-      value: 'Recalling its Resolution 2020/6,
-
-        '
-    - spelling: fra
-      value: 'Rappelant sa résolution 2020/6,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting the activities of the OIML-BIPM Joint Task Group (JTG) to explore
-        opportunities for an enhanced cooperation of the two international metrology
-        organisations,
-
-        '
-    - spelling: fra
-      value: |
-        Notant les activités du Groupe de Travail Conjoint OIML-BIPM (JTG) pour explorer les possibilités d'une coopération renforcée entre les deux Organisations Internationales de Métrologie,
-        Confirmme son soutien à l'examen par le JTG d'un éventuel protocole d'accord bilatéral OIML-BIPM, et
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/07
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202107
-  urn: urn:oiml:doc:ciml:resolution:2021-07
-  agenda_item: '4.4'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 4.4
-  - spelling: fra
-    value: Prend note du rapport sur la proposition de création d'un Groupe de Travail
-      sur
-  subject:
-  - spelling: eng
-    value: OIML Conference
-  - spelling: fra
-    value: Conférence OIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report on the proposal for a Digitalisation Task Group given
-        by its President,
-
-        '
-    - spelling: fra
-      value: |
-        Prend note du rapport sur la proposition de création d'un Groupe de Travail sur la Numérisation, présenté par son Président,
-        Se félicite de la mise en place d'un Groupe de Travail sur la Numérisation de l'OIML dans le but d'examiner et de proposer des options et des solutions concernant les opportunités pour l'OIML en matière de transformation numérique des processus et des services à ses Membres et aux parties prenantes, en coopération avec d'autres partenaires QI, et
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: welcomes
-    message:
-    - spelling: eng
-      value: 'Welcomes the establishment of an OIML Digitalisation Task Group with
-        the aim of examining and proposing options and solutions regarding opportunities
-        for the OIML concerning the digital transformation of processes and services
-        to its Members and stakeholders, in cooperation with other QI partners, and
-
-        '
-    - spelling: fra
-      value: 'Demande aux Membres du CIML, aux Représentants des Membres Correspondants
-        et aux Organisations en Liaison de faire des nominations pour les membres
-        de ce Groupe de Travail avant le 30 novembre 2021.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests CIML Members, Corresponding Member Representatives and Organisations
-        in Liaison to make nominations for members of this Task Group by 30 November
-        2021.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/08
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202108
-  urn: urn:oiml:doc:ciml:resolution:2021-08
-  agenda_item: '5'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 5
-  - spelling: fra
-    value: Prend note du rapport présenté par le Directeur du BIML.
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report given by the BIML Director.
-
-        '
-    - spelling: fra
-      value: 'Prend note du rapport présenté par le Directeur du BIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/09
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202109
-  urn: urn:oiml:doc:ciml:resolution:2021-09
-  agenda_item: '6'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 6
-  - spelling: fra
-    value: Décide de ne pas nommer de comité de sélection spécifié dans la section
-      3
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: resolves
-    message:
-    - spelling: eng
-      value: 'Resolves not to appoint the Selection Committee specified in section
-        3 of OIML B 13:2004.
-
-        '
-    - spelling: fra
-      value: 'Décide de ne pas nommer de comité de sélection spécifié dans la section
-        3 de l''OIML B 13:2004.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: having_regard_to
-    message:
-    - spelling: eng
-      value: 'Having regard to section 7.2.2 of OIML B 7:2013 BIML Staff regulations,
-        and section 2, first paragraph and section 4, first bullet point, of OIML
-        B 13:2004 Procedure for the appointment of the BIML Director and Assistant
-        Directors,
-
-        '
-    - spelling: fra
-      value: 'Vu la section 7.2.2 de l''OIML B 7:2013 Statuts du Personnel du BIML,
-        et la section 2, premier paragraphe et la section 4, premier point, de l''OIML
-        B 13:2004 Procédure pour la désignation du Directeur et des Adjoints au Directeur
-        du BIML,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: considering
-    message:
-    - spelling: eng
-      value: 'Considering that the term of appointment of Mr Paul Dixon, BIML Assistant
-        Director, expires on 31 December 2022,
-
-        '
-    - spelling: fra
-      value: 'Considérant que le mandat de M. Paul Dixon, Adjoint au Directeur du
-        BIML, expire le 31 décembre 2022,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: considering
-    message:
-    - spelling: eng
-      value: 'Considering the proposal made by its President,
-
-        '
-    - spelling: fra
-      value: 'Considérant la proposition faite par son Président,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: noting
-    message:
-    - spelling: eng
-      value: |
-        Noting the comments made by its Members,
-        Expresses its expectation that it will resolve to renew the appointment of Mr Paul Dixon as BIML Assistant Director for a fixed term of up to five years at its meeting in 2022, and
-    - spelling: fra
-      value: |
-        Prenant note des commentaires de ses Membres,
-        Exprime l'espoir qu'elle décidera de renouveler la nomination de M. Paul Dixon en tant qu'Adjoint au Directeur du BIML pour une durée déterminée de cinq ans maximum lors de sa réunion de 2022, et
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/10
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202110
-  urn: urn:oiml:doc:ciml:resolution:2021-10
-  agenda_item: '7.1'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 7.1
-  - spelling: fra
-    value: Prend note des comptes pour 2020 et des commentaires du Directeur du BIML
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the 2020 accounts, and
-
-        '
-    - spelling: fra
-      value: 'Prend note des comptes pour 2020 et des commentaires du Directeur du
-        BIML,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: instructs
-    message:
-    - spelling: eng
-      value: 'Instructs its President to present them to the 16th OIML Conference.
-
-        '
-    - spelling: fra
-      value: 'Approuve les comptes 2020, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting the accounts for 2020 and the BIML Director''s comments,
-
-        '
-    - spelling: fra
-      value: 'Considérant le rapport de l''auditeur externe sur les comptes 2020,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: considering
-    message:
-    - spelling: eng
-      value: 'Considering the external auditor''s report on the 2020 accounts,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/11
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202111
-  urn: urn:oiml:doc:ciml:resolution:2021-11
-  agenda_item: '7.2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 7.2
-  - spelling: fra
-    value: Prend note du rapport présenté par le Directeur du BIML, Encourage le BIML
-      à
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: |
-        Notes the report given by the BIML Director,
-        Encourages the BIML to continue its efforts to recover outstanding arrears of its Member States and Corresponding Members, and
-    - spelling: fra
-      value: |
-        Prend note du rapport présenté par le Directeur du BIML,
-        Encourage le BIML à poursuivre ses efforts pour recouvrer les arriérés de ses États Membres et de ses Membres Correspondants, et
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests those Members with arrears to bring their situation up to date
-        as soon as possible.
-
-        '
-    - spelling: fra
-      value: 'Demande aux Membres ayant des arriérés de paiement de mettre à jour
-        leur situation dans les meilleurs délais.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/12
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202112
-  urn: urn:oiml:doc:ciml:resolution:2021-12
-  agenda_item: '7.3'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 7.3
-  - spelling: fra
-    value: Prend note du rapport sur les prévisions budgétaires pour 2021 présenté
-      par le Directeur
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report on the budget forecast for 2021 given by the BIML Director.
-
-        '
-    - spelling: fra
-      value: 'Prend note du rapport sur les prévisions budgétaires pour 2021 présenté
-        par le Directeur du BIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/13
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202113
-  urn: urn:oiml:doc:ciml:resolution:2021-13
-  agenda_item: '7.4'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 7.4
-  - spelling: fra
-    value: Prend note des informations fournies par le Directeur du BIML sur les classes
-      et
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the information provided by the BIML Director on Member State
-        and Corresponding Member classes and fees,
-
-        '
-    - spelling: fra
-      value: 'Prend note des informations fournies par le Directeur du BIML sur les
-        classes et les cotisations des États Membres et des Membres Correspondants,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the principles and proposals concerning Member State and Corresponding
-        Member classes and fees put forward in Addendum 7.4 to the Working Document
-        for this meeting, with effect from 1 January 2022, and
-
-        '
-    - spelling: fra
-      value: 'Approuve les principes et les propositions concernant les classes et
-        les cotisations des États Membres et des Membres Correspondants présentés
-        dans l''Addendum 7.4 du Document de Travail de la présente réunion, avec effet
-        au 1er janvier 2022, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests the 16th Conference to take this Resolution into account when
-        deciding about the Member State and Corresponding Member classes and fees.
-
-        '
-    - spelling: fra
-      value: 'Demande à la 16ème Conférence de prendre en compte cette Résolution
-        lorsqu''elle décidera des classes et des cotisations des États Membres et
-        des Membres Correspondants.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting the comments from its Members,
-
-        '
-    - spelling: fra
-      value: 'Prenant note des commentaires de ses Membres,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/14
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202114
-  urn: urn:oiml:doc:ciml:resolution:2021-14
-  agenda_item: '7.5'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 7.5
-  - spelling: fra
-    value: Approuve ce budget, et
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: |
-        Notes the report on the budget for the 2022-2025 financial period given by the BIML Director,
-        Having examined the proposed budget for the 2022-2025 financial period,
-    - spelling: fra
-      value: 'Approuve ce budget, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves this budget, and
-
-        '
-    - spelling: fra
-      value: 'Demande à la 16ème Conférence de tenir compte de la présente Résolution
-        lorsqu''elle décidera du montant global des crédits nécessaires pour couvrir
-        les dépenses de fonctionnement de l''OIML au cours de la période financière
-        2022-2025.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests the 16th Conference to take this Resolution into account when
-        deciding the overall amount of credits necessary to cover the OIML''s operating
-        expenses in the 2022-2025 financial period.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/15
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202115
-  urn: urn:oiml:doc:ciml:resolution:2021-15
-  agenda_item: '7.6'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 7.6
-  - spelling: fra
-    value: Prend note du rapport sur la politique du Fonds de Réserve Opérationnelle
-      de l'OIML
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report on the OIML Operating Reserve Fund policy given by
-        the BIML Director,
-
-        '
-    - spelling: fra
-      value: 'Prend note du rapport sur la politique du Fonds de Réserve Opérationnelle
-        de l''OIML présenté par le Directeur du BIML,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves this policy, and
-
-        '
-    - spelling: fra
-      value: 'Approuve cette politique, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests the 16th Conference to endorse this policy.
-
-        '
-    - spelling: fra
-      value: 'Demande à la 16ème Conférence d''approuver cette politique.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: recalling
-    message:
-    - spelling: eng
-      value: 'Recalling Resolution no. 2016/3 of the 15th International Conference
-        on Legal Metrology,
-
-        '
-    - spelling: fra
-      value: 'Rappelant la Résolution n° 2016/3 de la 15ème Conférence Internationale
-        de Métrologie Légale,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting the comments from its Members,
-
-        '
-    - spelling: fra
-      value: 'Prenant note des commentaires de ses Membres,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/16
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202116
-  urn: urn:oiml:doc:ciml:resolution:2021-16
-  agenda_item: 9.1.1.1
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.1.1
-  - spelling: fra
-    value: Décide d'accepter la proposition de voter sur le Projet final de mise à
-      jour
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: decides
-    message:
-    - spelling: eng
-      value: 'Decides to accept the proposal to vote on the Final Draft Update of
-        R 60 Metrological regulation for load cells at this meeting.
-
-        '
-    - spelling: fra
-      value: 'Décide d''accepter la proposition de voter sur le Projet final de mise
-        à jour de la R 60 Réglementation métrologique des cellules de pesée lors de
-        cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: considering
-    message:
-    - spelling: eng
-      value: 'Considering the remarks made by its President,
-
-        '
-    - spelling: fra
-      value: 'Considérant les remarques faites par son Président,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/17
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202117
-  urn: urn:oiml:doc:ciml:resolution:2021-17
-  agenda_item: 9.1.1.1
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.1.1
-  - spelling: fra
-    value: Approuve le Projet final de mise à jour de la R 60 Réglementation métrologique
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the Final Draft Update of R 60 Metrological regulation for
-        load cells, and
-
-        '
-    - spelling: fra
-      value: 'Approuve le Projet final de mise à jour de la R 60 Réglementation métrologique
-        des cellules de pesée, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: thanks
-    message:
-    - spelling: eng
-      value: 'Thanks the Project Group for its work in completing this project.
-
-        '
-    - spelling: fra
-      value: 'Remercie le Groupe de Projet pour son travail dans la réalisation de
-        ce projet.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/18
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202118
-  urn: urn:oiml:doc:ciml:resolution:2021-18
-  agenda_item: 9.1.1.2
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.1.2
-  - spelling: fra
-    value: Approuve le Projet final de révision de la R 126 Éthylomètres, et
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the Final Draft Revision of R 126 Evidential breath analysers,
-        and
-
-        '
-    - spelling: fra
-      value: 'Approuve le Projet final de révision de la R 126 Éthylomètres, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: thanks
-    message:
-    - spelling: eng
-      value: 'Thanks the Project Group conveners and members for their work in completing
-        this project.
-
-        '
-    - spelling: fra
-      value: 'Remercie les organisateurs et les membres du Groupe de Projet pour leur
-        travail dans la réalisation de ce projet.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/19
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202119
-  urn: urn:oiml:doc:ciml:resolution:2021-19
-  agenda_item: 9.1.2.1
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.1
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité de la Table
-      Ronde RLMO
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of the RLMO Round
-        Table, the Revision of OIML B 12:2004 Policy paper on liaisons between the
-        OIML and other bodies, to be conducted as specified in the project proposal
-        provided in Addendum 9.1.2.1 to the Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité de la Table
-        Ronde RLMO, la Révision de l''OIML B 12:2004 Document de politique générale
-        sur les liaisons entre l''OIML et les autres organismes, à mener comme spécifié
-        dans la proposition de projet fournie dans l''Addendum 9.1.2.1 au Document
-        de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/20
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202120
-  urn: urn:oiml:doc:ciml:resolution:2021-20
-  agenda_item: 9.1.2.2
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.2
-  - spelling: fra
-    value: Approuve comme nouveau projet, sous la responsabilité du TC 8/SC 5, la
-      révision de
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 8/SC 5, the
-        Revision of OIML R 49:2013 Water meters for cold potable water and hot water,
-        to be conducted as specified in the project proposal provided in Addendum
-        9.1.2.2 to the Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve comme nouveau projet, sous la responsabilité du TC 8/SC 5,
-        la révision de l''OIML R 49:2013 Compteurs d''eau potable froide et d''eau
-        chaude, à mener comme spécifié dans la proposition de projet fournie dans
-        l''Addendum 9.1.2.2 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/21
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202121
-  urn: urn:oiml:doc:ciml:resolution:2021-21
-  agenda_item: 9.1.2.3
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.3
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 1, la
-      mise
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC1, the Update
-        of OIML V 1:2013 International vocabulary of terms in legal metrology (VIML),
-        to be conducted as specified in the project proposal provided in Addendum
-        9.1.2.3 to the Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 1,
-        la mise à jour de l''OIML V 1:2013 Vocabulaire international des termes de
-        métrologie légale (VIML), à mener comme spécifié dans la proposition de projet
-        fournie dans l''Addendum 9.1.2.3 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/22
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202122
-  urn: urn:oiml:doc:ciml:resolution:2021-22
-  agenda_item: 9.1.2.4
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.4
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-      1, une
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 18/SC 1, a
-        New Recommendation Requirements for the evaluation of NIBP simulators used
-        for the testing of automated non-invasive sphygmomanometers, to be conducted
-        as specified in the project proposal provided in Addendum 9.1.2.4 to the Working
-        Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-        1, une nouvelle Recommandation sur les Exigences relatives à l''évaluation
-        des simulateurs de PNI utilisés pour l''essai des sphygmomanomètres automatisés
-        non invasifs, à réaliser comme indiqué dans la proposition de projet fournie
-        dans l''Addendum 9.1.2.4 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/23
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202123
-  urn: urn:oiml:doc:ciml:resolution:2021-23
-  agenda_item: 9.1.2.5
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.5
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-      1, un
-  subject:
-  - spelling: eng
-    value: OIML Conference
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 18/SC 1, a
-        New Guide Guidelines for the evaluation of automated sphygmomanometers using
-        oscillometric signal generators able to generate real-life oscillometric signals,
-        to be conducted as specified in the project proposal provided in Addendum
-        9.1.2.5 to the Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-        1, un nouveau Guide Directives pour l''évaluation des sphygmomanomètres automatisés
-        utilisant des générateurs de signaux oscillométriques capables de générer
-        des signaux oscillométriques réels, à mener comme spécifié dans la proposition
-        de projet fournie dans l''Addendum 9.1.2.5 au Document de Travail de cette
-        Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/24
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202124
-  urn: urn:oiml:doc:ciml:resolution:2021-24
-  agenda_item: 9.1.2.6
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.6
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 12, un
-      nouveau
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 12, a New
-        Guide and a New Recommendation Electric vehicle charging stations, to be conducted
-        as specified in the project proposal provided in Addendum 9.1.2.6 to the Working
-        Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 12,
-        un nouveau Guide et une nouvelle Recommandation sur les Stations de recharge
-        de véhicules électriques, à mener comme spécifié dans la proposition de projet
-        fournie dans l''Addendum 9.1.2.6 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/25
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202125
-  urn: urn:oiml:doc:ciml:resolution:2021-25
-  agenda_item: 9.1.2.7
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.7
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-      2, une
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 18/SC 2, a
-        New Recommendation Noncontact clinical thermometers, to be conducted as specified
-        in the project proposal provided in Addendum 9.1.2.7 to the Working Document
-        for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-        2, une nouvelle Recommandation sur les Thermomètres cliniques sans contact,
-        à mener comme spécifié dans la proposition de projet fournie dans l''Addendum
-        9.1.2.7 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/26
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202126
-  urn: urn:oiml:doc:ciml:resolution:2021-26
-  agenda_item: 9.1.2.8
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.8
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-      2, une
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 18/SC 2, a
-        New Recommendation Contact clinical thermometers, to be conducted as specified
-        in the project proposal provided in Addendum 9.1.2.8 to the Working Document
-        for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-        2, une nouvelle Recommandation Thermomètres de contact cliniques, à mener
-        comme spécifié dans la proposition de projet fournie dans l''Addendum 9.1.2.8
-        au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/27
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202127
-  urn: urn:oiml:doc:ciml:resolution:2021-27
-  agenda_item: 9.1.2.9
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.9
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-      1, la
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 18/SC 1, the
-        Revision of R 148:2020 Noninvasive non-automated sphygmomanometers, to be
-        conducted as specified in the project proposal provided in Addendum 9.1.2.9
-        to the Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-        1, la révision de la Recommandation R 148:2020 Sphygmomanomètres non invasifs
-        non automatiques, à mener comme spécifié dans la proposition de projet fournie
-        dans l''Addendum 9.1.2.9 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/28
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202128
-  urn: urn:oiml:doc:ciml:resolution:2021-28
-  agenda_item: 9.1.2.10
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.1.2.10
-  - spelling: fra
-    value: Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-      1, la
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves as a new project, under the responsibility of TC 18/SC 1, the
-        Revision of R 149:2020 Noninvasive automated sphygmomanometers, to be conducted
-        as specified in the project proposal provided in Addendum 9.1.2.10 to the
-        Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve en tant que nouveau projet, sous la responsabilité du TC 18/SC
-        1, la révision de la Recommandation R 149:2020 Sphygmomanomètres non invasifs
-        automatiques, à mener comme spécifié dans la proposition de projet fournie
-        dans l''Addendum 9.1.2.10 au Document de Travail de cette Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/29
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202129
-  urn: urn:oiml:doc:ciml:resolution:2021-29
-  agenda_item: '9.2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 9.2
-  - spelling: fra
-    value: Approuve la liste des projets hautement prioritaires telle que présentée
-      par le BIML, et
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the list of high priority projects as presented by the BIML,
-        and
-
-        '
-    - spelling: fra
-      value: 'Approuve la liste des projets hautement prioritaires telle que présentée
-        par le BIML, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the list of high priority publications as presented by the
-        BIML.
-
-        '
-    - spelling: fra
-      value: 'Approuve la liste des publications de haute priorité telle que présentée
-        par le BIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting the report on the OIML technical work,
-
-        '
-    - spelling: fra
-      value: 'Prenant note du rapport sur les travaux techniques de l''OIML,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/30
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202130
-  urn: urn:oiml:doc:ciml:resolution:2021-30
-  agenda_item: '10.1'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 10.1
-  - spelling: fra
-    value: Prend note du rapport du Président du Comité de Management (MC) du Système
-      de
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report of the OIML Certification System (OIML-CS) Management
-        Committee (MC) Chairperson, and
-
-        '
-    - spelling: fra
-      value: 'Prend note du rapport du Président du Comité de Management (MC) du Système
-        de Certification de l''OIML (OIML-CS), et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: thanks
-    message:
-    - spelling: eng
-      value: 'Thanks the members of the OIML-CS MC, Review Committee, Maintenance
-        Group and Working Groups for their work.
-
-        '
-    - spelling: fra
-      value: 'Remercie les membres du MC de l''OIML-CS, du Comité de Révision, du
-        Groupe de Maintenance et des Groupes de Travail pour leur travail.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/31
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202131
-  urn: urn:oiml:doc:ciml:resolution:2021-31
-  agenda_item: '10.2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 10.2
-  - spelling: fra
-    value: Approuve l'utilisation de la norme ISO/CEI 17020 (avec des exigences supplémentaires)
-      par les Autori…
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves the use of ISO/IEC 17020 (with additional requirements) by
-        OIML Issuing Authorities as an alternative to ISO/IEC 17065 to demonstrate
-        competence,
-
-        '
-    - spelling: fra
-      value: 'Approuve l''utilisation de la norme ISO/CEI 17020 (avec des exigences
-        supplémentaires) par les Autorités de Délivrance OIML comme alternative à
-        la norme ISO/CEI 17065 pour démontrer la compétence,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: requests
-    message:
-    - spelling: eng
-      value: 'Requests the OIML-CS MC to revise the relevant OIML-CS publications,
-        including OIML B 18 Framework for the OIML Certification System (OIML-CS),
-        to implement the necessary changes to allow the use of ISO/IEC 17020 (with
-        additional requirements) by OIML Issuing Authorities, and
-
-        '
-    - spelling: fra
-      value: 'Demande au MC de l''OIML-CS de réviser les publications pertinentes
-        de l''OIML-CS, y compris l''OIML B 18 Cadre pour le Système de Certification
-        OIML (OIML-CS), afin de mettre en œuvre les changements nécessaires pour permettre
-        l''utilisation de la norme ISO/CEI 17020 (avec des exigences supplémentaires)
-        par les Autorités de Délivrance de l''OIML, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'Approves a new project under the responsibility of the OIML-CS MC to
-        develop a new OIML Document to provide guidance and interpretations regarding
-        the application of ISO/IEC 17020 to the assessment of OIML Issuing Authorities
-        in the OIML-CS, as detailed in the project proposal in Annex A of Addendum
-        10.2 to the Working Document for this meeting.
-
-        '
-    - spelling: fra
-      value: 'Approuve un nouveau projet sous la responsabilité du MC de l''OIML-CS
-        pour développer un nouveau Document OIML afin de fournir des conseils et des
-        interprétations concernant l''application de la norme ISO/CEI 17020 à l''évaluation
-        des Autorités de Délivrance OIML dans l''OIML-CS, comme détaillé dans la proposition
-        de projet à l''annexe A de l''Addendum 10.2 au Document de Travail de cette
-        Réunion.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: noting
-    message:
-    - spelling: eng
-      value: 'Noting the recommendations from the OIML Certification System (OIML-CS)
-        Management Committee (MC) detailed in Addendum 10.2 to the Working Document
-        for this meeting,
-
-        '
-    - spelling: fra
-      value: 'Notant les recommandations du Comité de Management (MC) du Système de
-        Certification OIML (OIML-CS) détaillées dans l''Addendum 10.2 du Document
-        de Travail de cette Réunion,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/32
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202132
-  urn: urn:oiml:doc:ciml:resolution:2021-32
-  agenda_item: '11'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 11
-  - spelling: fra
-    value: Prend note du rapport sur les activités du Groupe Consultatif du CEEMS,
-      Se félicite
-  subject:
-  - spelling: eng
-    value: OIML Conference
-  - spelling: fra
-    value: Conférence OIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report on the activities of the CEEMS Advisory Group,
-
-        '
-    - spelling: fra
-      value: |
-        Prend note du rapport sur les activités du Groupe Consultatif du CEEMS,
-        Se félicite de l'expansion des possibilités de formation en ligne offertes par l'OIML,
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: welcomes
-    message:
-    - spelling: eng
-      value: 'Welcomes the expansion of online training opportunities offered by the
-        OIML,
-
-        '
-    - spelling: fra
-      value: |
-        Prend note des informations données sur le poste vacant de Vice-Président de l'AG du CEEMS, et de la nécessité de pourvoir ce poste dès que possible, et
-        Encourage les Membres du CIML à envoyer des candidatures pour ce poste au Bureau avant la fin du mois de novembre 2021.
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: |
-        Notes the information given on the vacant position of CEEMS AG Vice-Chairperson, and the need for this position to be filled as soon as possible, and
-        Encourages CIML Members to send nominations for this position to the Bureau by the end of November 2021.
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/33
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202133
-  urn: urn:oiml:doc:ciml:resolution:2021-33
-  agenda_item: '15.1'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 15.1
-  - spelling: fra
-    value: Prend note du rapport sur les réunions de la Table Ronde des Organisations
-      Régionales
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report on the RLMO Round Table meetings given by its Chairperson.
-
-        '
-    - spelling: fra
-      value: 'Prend note du rapport sur les réunions de la Table Ronde des Organisations
-        Régionales de Métrologie, présenté par son Président.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/34
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202134
-  urn: urn:oiml:doc:ciml:resolution:2021-34
-  agenda_item: '15.2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 15.2
-  - spelling: fra
-    value: Prend note du rapport sur les activités avec les organisations en liaison
-      donné par
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the report on activities with organisations in liaison given by
-        the BIML.
-
-        '
-    - spelling: fra
-      value: 'Prend note du rapport sur les activités avec les organisations en liaison
-        donné par le BIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/35
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202135
-  urn: urn:oiml:doc:ciml:resolution:2021-35
-  agenda_item: '15.3'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 15.3
-  - spelling: fra
-    value: Prend note des rapports écrits présentés par les organisations en liaison,
-      et Remercie leurs
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Notes the written reports submitted by organisations in liaison, and
-
-        '
-    - spelling: fra
-      value: 'Prend note des rapports écrits présentés par les organisations en liaison,
-        et Remercie leurs représentants d''avoir fourni ces informations au Comité.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: thanks
-    message:
-    - spelling: eng
-      value: 'Thanks their representatives for providing this information to the Committee.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/36
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202136
-  urn: urn:oiml:doc:ciml:resolution:2021-36
-  agenda_item: '16.1'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 16.1
-  - spelling: fra
-    value: Ordre du jour point 16.1
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Congratulates this year''s recipient of an OIML Medal,
-
-        '
-    - spelling: fra
-      value: 'Ordre du jour point 16.1
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/37
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202137
-  urn: urn:oiml:doc:ciml:resolution:2021-37
-  agenda_item: '16.2'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 16.2
-  - spelling: fra
-    value: pour sa contribution aux travaux de l'OIML.
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Congratulates this year''s recipients of an OIML Letter of Appreciation:
-
-        '
-    - spelling: fra
-      value: 'pour sa contribution aux travaux de l''OIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/38
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202138
-  urn: urn:oiml:doc:ciml:resolution:2021-38
-  agenda_item: '16.3'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 16.3
-  - spelling: fra
-    value: Ordre du jour point 16.3
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Congratulates this year''s recipient of the OIML CEEMS Award, Mr Sophors
-        Em (Cambodia).
-
-        '
-    - spelling: fra
-      value: 'Ordre du jour point 16.3
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/39
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202139
-  urn: urn:oiml:doc:ciml:resolution:2021-39
-  agenda_item: '16.4'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 16.4
-  - spelling: fra
-    value: Remercie le Dr Rifan Ardianto, représentant l'Indonésie, Lauréat du prix
-      OIML CEEMS 2020, pour
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: thanks
-    message:
-    - spelling: eng
-      value: 'Thanks Dr Rifan Ardianto, representing Indonesia, winner of the 2020
-        OIML CEEMS Award, for his presentation.
-
-        '
-    - spelling: fra
-      value: 'Remercie le Dr Rifan Ardianto, représentant l''Indonésie, Lauréat du
-        prix OIML CEEMS 2020, pour sa presentation.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 2021/40
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202140
-  urn: urn:oiml:doc:ciml:resolution:2021-40
-  agenda_item: '17.1'
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Agenda item 17.1
-  - spelling: fra
-    value: Remercie la République Populaire de Chine d'avoir confirmé son invitation
-      à accueillir la 57ème
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: thanks
-    message:
-    - spelling: eng
-      value: 'Thanks the People''s Republic of China for confirming its invitation
-        to host the 57th CIML Meeting in 2022, and
-
-        '
-    - spelling: fra
-      value: 'Remercie la République Populaire de Chine d''avoir confirmé son invitation
-        à accueillir la 57ème Réunion du CIML en 2022, et
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  - type: instructs
-    message:
-    - spelling: eng
-      value: 'Instructs the Bureau to make the necessary arrangements to organise
-        the 57th CIML Meeting.
-
-        '
-    - spelling: fra
-      value: 'Charge le Bureau de prendre les dispositions nécessaires à l''organisation
-        de la 57ème Réunion du CIML.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: recalling
-    message:
-    - spelling: eng
-      value: 'Recalling its Resolution 2020/33,
-
-        '
-    - spelling: fra
-      value: 'Rappelant sa résolution 2020/33,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-- identifier:
-  - prefix: CIML
-    number: 2021/41
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml202141
-  urn: urn:oiml:doc:ciml:resolution:2021-41
-  agenda_item:
-  dates:
-  - date: '2021-10-19'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Recalling Resolution Conference/2021/11 of the 16th International Conference
-      on Legal Metrology, Not…
-  - spelling: fra
-    value: Demande à son Président de rendre compte de tout progrès en temps voulu.
-  subject:
-  - spelling: eng
-    value: CIML
-  - spelling: fra
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Recalling Resolution Conference/2021/11 of the 16th International Conference
-        on Legal Metrology, Noting the information provided on the proposal to hold
-        a joint BIPM-OIML event in 2025, Confirms its support for the OIML-BIPM Joint
-        Task Group to start preparing such a joint event, and Requests its President
-        to report back on any progress in due time.
-
-        '
-    - spelling: fra
-      value: 'Demande à son Président de rendre compte de tout progrès en temps voulu.
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
-  approvals: []
-  considerations:
-  - type: recalling
-    message:
-    - spelling: eng
-      value: 'Recalling Resolution Conference/2021/11 of the 16th International Conference
-        on Legal Metrology, Noting the information provided on the proposal to hold
-        a joint BIPM-OIML event in 2025, Confirms its support for the OIML-BIPM Joint
-        Task Group to start preparing such a joint event, and Requests its President
-        to report back on any progress in due time.
-
-        '
-    - spelling: fra
-      value: 'Rappelant la résolution Conférence/2021/11 de la 16ème Conférence Internationale
-        de Métrologie Légale,
-
-        '
-    dates:
-    - start: '2021-10-19'
-      kind: effective
+- prefix: CIML
+  number: 2021/01
+- prefix: CIML
+  number: 2021/02
+- prefix: CIML
+  number: 2021/03
+- prefix: CIML
+  number: 2021/04
+- prefix: CIML
+  number: 2021/05
+- prefix: CIML
+  number: 2021/06
+- prefix: CIML
+  number: 2021/07
+- prefix: CIML
+  number: 2021/08
+- prefix: CIML
+  number: 2021/09
+- prefix: CIML
+  number: 2021/10
+- prefix: CIML
+  number: 2021/11
+- prefix: CIML
+  number: 2021/12
+- prefix: CIML
+  number: 2021/13
+- prefix: CIML
+  number: 2021/14
+- prefix: CIML
+  number: 2021/15
+- prefix: CIML
+  number: 2021/16
+- prefix: CIML
+  number: 2021/17
+- prefix: CIML
+  number: 2021/18
+- prefix: CIML
+  number: 2021/19
+- prefix: CIML
+  number: 2021/20
+- prefix: CIML
+  number: 2021/21
+- prefix: CIML
+  number: 2021/22
+- prefix: CIML
+  number: 2021/23
+- prefix: CIML
+  number: 2021/24
+- prefix: CIML
+  number: 2021/25
+- prefix: CIML
+  number: 2021/26
+- prefix: CIML
+  number: 2021/27
+- prefix: CIML
+  number: 2021/28
+- prefix: CIML
+  number: 2021/29
+- prefix: CIML
+  number: 2021/30
+- prefix: CIML
+  number: 2021/31
+- prefix: CIML
+  number: 2021/32
+- prefix: CIML
+  number: 2021/33
+- prefix: CIML
+  number: 2021/34
+- prefix: CIML
+  number: 2021/35
+- prefix: CIML
+  number: 2021/36
+- prefix: CIML
+  number: 2021/37
+- prefix: CIML
+  number: 2021/38
+- prefix: CIML
+  number: 2021/39
+- prefix: CIML
+  number: 2021/40
+- prefix: CIML
+  number: 2021/41
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-56-eng
-  script: Latn
   spelling: eng
 title:
 - spelling: eng
