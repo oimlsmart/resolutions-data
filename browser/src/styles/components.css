@@ -379,7 +379,7 @@
 
   /* === Section title — serif with accent bar === */
   .section-title {
-    @apply font-serif text-xl font-bold text-ink dark:text-paper mb-4 pb-3 border-b-2 border-rule-soft flex items-center gap-2.5 m-0;
+    @apply font-serif text-xl font-bold text-ink mb-4 pb-3 border-b-2 border-rule-soft flex items-center gap-2.5 m-0;
   }
   .section-title::before {
     content: '';
