@@ -9,6 +9,9 @@ export default defineConfig({
   },
   data: {
     decisions: '../resolutions',
+    meetings: '../edoxen-data/meetings',
+    venues: '../edoxen-data/registers/venues.yaml',
+    bodies: '../edoxen-data/registers/bodies.yaml',
   },
   locales: [
     { code: 'en', label: 'English', routePrefix: 'en' },

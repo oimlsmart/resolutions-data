@@ -12,8 +12,8 @@ importers:
         specifier: ^3.7.3
         version: 3.7.3
       '@edoxen/browser':
-        specifier: ^0.1.6
-        version: 0.1.6(@astrojs/vue@5.1.4(@types/node@24.13.3)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(vue@3.5.39(typescript@5.9.3))(yaml@2.9.0))(@edoxen/edoxen@0.2.0(ajv@8.20.0)(js-yaml@4.3.0))(@tailwindcss/vite@4.3.2(vite@8.1.4(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)))(ajv@8.20.0)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(tailwindcss@4.3.2)(vue@3.5.39(typescript@5.9.3))
+        specifier: ^0.1.7
+        version: 0.1.7(@astrojs/vue@5.1.4(@types/node@24.13.3)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(vue@3.5.39(typescript@5.9.3))(yaml@2.9.0))(@edoxen/edoxen@0.2.3(ajv@8.20.0)(js-yaml@4.3.0))(@tailwindcss/vite@4.3.2(vite@8.1.4(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)))(ajv@8.20.0)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(tailwindcss@4.3.2)(vue@3.5.39(typescript@5.9.3))
       astro:
         specifier: ^7.0.9
         version: 7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0)
@@ -331,21 +331,21 @@ packages:
     resolution: {integrity: sha512-y7/yvZ2TPAnR9+jnc00klvNNLkJiXFFrQA/hlLCcxA9a2A4zQIOimyFQ9XfwYKiGD1fb5GY8vbKIIgO8d5Tb2A==}
     engines: {node: '>= 20.12.0'}
 
-  '@edoxen/browser@0.1.6':
-    resolution: {integrity: sha512-dAIsbM7aZTcbPTmFiZtMNJ3ew2wofdA49ZzVxJSgk5QqDg+/UnpTUNw8EYx9/++awUYOOArCu52xiKTfu2Zbzg==}
+  '@edoxen/browser@0.1.7':
+    resolution: {integrity: sha512-W0fngY9HQKQBwAxZJYGXwaDg/q59mqyGDap7511w8waIscsjRZCwMoHe/TOrsgJNZMcAg4prPlGhvxpW4fFa5g==}
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
       '@astrojs/vue': ^5.0.0
-      '@edoxen/edoxen': ^0.2.0
+      '@edoxen/edoxen': ^0.2.3
       '@tailwindcss/vite': ^4.0.0
       ajv: ^8.17.0
       astro: ^7.0.0
       tailwindcss: ^4.0.0
       vue: ^3.5.0
 
-  '@edoxen/edoxen@0.2.0':
-    resolution: {integrity: sha512-XNYoIYJ77Sh+P1+Ijr69dxXmrOOVqhXtMqjzdaNwl/oLhyZNgYUGscFsTB7kbMQyEJcug+Slgic3+CXafHzfHg==}
+  '@edoxen/edoxen@0.2.3':
+    resolution: {integrity: sha512-1ODxRutb6+tsX/BTq1xNe7XZyIGVYWH8DFPYNSaj0L4MV85eGggacNCY7ESDTaae383YQCmSTlpNvexyZ6kWmA==}
     engines: {node: '>=20'}
     hasBin: true
     peerDependencies:
@@ -2496,6 +2496,9 @@ packages:
     resolution: {integrity: sha512-CzhO+pFNo8ajLM2d2IW/R93ipy99LWjtwblvC1RsoSUMZgyLbYFr221TnSNT7GjGdYui6P459mw9JH/g/zW2ug==}
     engines: {node: '>=18'}
 
+  zod@3.25.76:
+    resolution: {integrity: sha512-gzUt/qt81nXsFGKIFcC3YnfEAx5NkunCfnDlvuBSSFS02bcXu4Lmea0AFIUwbLWxWPx3d9p8S5QoaujKcNQxcQ==}
+
   zod@4.4.3:
     resolution: {integrity: sha512-ytENFjIJFl2UwYglde2jchW2Hwm4GJFLDiSXWdTrJQBIN9Fcyp7n4DhxJEiWNAJMV1/BqWfW/kkg71UDcHJyTQ==}
 
@@ -2869,19 +2872,21 @@ snapshots:
       fast-wrap-ansi: 0.2.2
       sisteransi: 1.0.5
 
-  '@edoxen/browser@0.1.6(@astrojs/vue@5.1.4(@types/node@24.13.3)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(vue@3.5.39(typescript@5.9.3))(yaml@2.9.0))(@edoxen/edoxen@0.2.0(ajv@8.20.0)(js-yaml@4.3.0))(@tailwindcss/vite@4.3.2(vite@8.1.4(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)))(ajv@8.20.0)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(tailwindcss@4.3.2)(vue@3.5.39(typescript@5.9.3))':
+  '@edoxen/browser@0.1.7(@astrojs/vue@5.1.4(@types/node@24.13.3)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(vue@3.5.39(typescript@5.9.3))(yaml@2.9.0))(@edoxen/edoxen@0.2.3(ajv@8.20.0)(js-yaml@4.3.0))(@tailwindcss/vite@4.3.2(vite@8.1.4(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0)))(ajv@8.20.0)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(tailwindcss@4.3.2)(vue@3.5.39(typescript@5.9.3))':
     dependencies:
       '@astrojs/sitemap': 3.7.3
       '@astrojs/vue': 5.1.4(@types/node@24.13.3)(astro@7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0))(jiti@2.7.0)(lightningcss@1.32.0)(rollup@4.62.2)(vue@3.5.39(typescript@5.9.3))(yaml@2.9.0)
-      '@edoxen/edoxen': 0.2.0(ajv@8.20.0)(js-yaml@4.3.0)
+      '@edoxen/edoxen': 0.2.3(ajv@8.20.0)(js-yaml@4.3.0)
       '@tailwindcss/vite': 4.3.2(vite@8.1.4(@types/node@24.13.3)(esbuild@0.28.1)(jiti@2.7.0)(yaml@2.9.0))
       ajv: 8.20.0
       astro: 7.0.9(@emnapi/core@1.11.1)(@emnapi/runtime@1.11.2)(@types/node@24.13.3)(jiti@2.7.0)(rollup@4.62.2)(yaml@2.9.0)
       jiti: 2.7.0
       tailwindcss: 4.3.2
       vue: 3.5.39(typescript@5.9.3)
+      yaml: 2.9.0
+      zod: 3.25.76
 
-  '@edoxen/edoxen@0.2.0(ajv@8.20.0)(js-yaml@4.3.0)':
+  '@edoxen/edoxen@0.2.3(ajv@8.20.0)(js-yaml@4.3.0)':
     dependencies:
       '@asciidoctor/core': 3.0.4
       esbuild: 0.28.1
@@ -4802,6 +4807,8 @@ snapshots:
   yocto-queue@1.2.2: {}
 
   yoctocolors@2.1.2: {}
+
+  zod@3.25.76: {}
 
   zod@4.4.3: {}
 
