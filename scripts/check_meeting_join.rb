@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Verify that every `resolutions/*.yaml`'s `metadata.meeting_urn` resolves
-# to a meeting YAML under `meetings/`, and that no two resolution files
+# to a meeting YAML under `edoxen-data/meetings/`, and that no two resolution files
 # accidentally point at the same URN with mismatched slugs.
 #
 # Exits non-zero on any dangling reference. Used by CI.
@@ -11,7 +11,7 @@ require "yaml"
 
 ROOT = File.expand_path("..", __dir__)
 RES_DIR = File.join(ROOT, "resolutions")
-MTG_DIR = File.join(ROOT, "meetings")
+MTG_DIR = File.join(ROOT, "edoxen-data", "meetings")
 
 meeting_urns = Dir.glob(File.join(MTG_DIR, "*.yaml")).each_with_object({}) do |p, h|
   data = YAML.safe_load(File.read(p), permitted_classes: [Date, Time, DateTime])
