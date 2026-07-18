@@ -7,45 +7,61 @@ ordinal: 9
 type: plenary
 status: completed
 committee:
-general_area:
-city:
-country_code:
+  code: CIML
+  name:
+  - spelling: eng
+    value: International Committee of Legal Metrology (CIML)
+  - spelling: fra
+    value: Comité international de métrologie légale (CIML)
 source_urls: []
 agenda:
   status: final
   items:
   - label: '2'
     kind: numbered
-    title: 1 Nouveaux Membres - Perspectives d'adhésions
+    title:
+    - spelling: eng
+      value: 1 Nouveaux Membres - Perspectives d'adhésions
     outcome: discussed
   - label: '3'
     kind: numbered
-    title: 1 Adoption du rapport comptable pour 1993
+    title:
+    - spelling: eng
+      value: 1 Adoption du rapport comptable pour 1993
     outcome: adopted
   - label: '4'
     kind: numbered
-    title: 1 Rapport sur l'établissement définitif des TC et SC
+    title:
+    - spelling: eng
+      value: 1 Rapport sur l'établissement définitif des TC et SC
     outcome: discussed
   - label: '6'
     kind: numbered
-    title: 1 Situation actuelle du Système de Certificats OIML
+    title:
+    - spelling: eng
+      value: 1 Situation actuelle du Système de Certificats OIML
     outcome: discussed
   - label: '9'
     kind: numbered
-    title: 2 Activités futures
+    title:
+    - spelling: eng
+      value: 2 Activités futures
     outcome: discussed
   - label: '10'
     kind: numbered
-    title: 1 Bulletin
+    title:
+    - spelling: eng
+      value: 1 Bulletin
     outcome: discussed
   - label: '15'
     kind: numbered
-    title: 1 Élection du Président du Comité International de Métrologie Légale
+    title:
+    - spelling: eng
+      value: 1 Élection du Président du Comité International de Métrologie Légale
     outcome: discussed
 decisions: []
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-9-fra
-  script: Latn
   spelling: fra
 title:
 - spelling: fra

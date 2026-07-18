@@ -6,7 +6,13 @@ urn: urn:oiml:ciml:meeting:ciml-17
 ordinal: 17
 type: plenary
 status: completed
-committee: International Committee of Legal Metrology (CIML)
+committee:
+  code: CIML
+  name:
+  - spelling: eng
+    value: International Committee of Legal Metrology (CIML)
+  - spelling: fra
+    value: Comité international de métrologie légale (CIML)
 general_area:
 - spelling: eng
   value: Washington, United States of America
@@ -22,1151 +28,247 @@ agenda:
   items:
   - label: '1'
     kind: numbered
-    title: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE
+    title:
+    - spelling: eng
+      value: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE
     outcome: adopted
   - label: '2'
     kind: numbered
-    title: FINANCIAL SITUATION
+    title:
+    - spelling: eng
+      value: FINANCIAL SITUATION
     outcome: discussed
   - label: '2.1'
     kind: numbered
-    title: Approval of the Accountants' Reports for 1978 and 1979
+    title:
+    - spelling: eng
+      value: Approval of the Accountants' Reports for 1978 and 1979
     outcome: adopted
   - label: '2.2'
     kind: numbered
-    title: Examination of the draft "Financial Code"
+    title:
+    - spelling: eng
+      value: Examination of the draft "Financial Code"
     outcome: discussed
   - label: '3'
     kind: numbered
-    title: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF THE CONFERENCE
+    title:
+    - spelling: eng
+      value: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF THE CONFERENCE
     outcome: discussed
   - label: '3.1'
     kind: numbered
-    title: Scale of salaries for BIML staff
+    title:
+    - spelling: eng
+      value: Scale of salaries for BIML staff
     outcome: discussed
   - label: '4'
     kind: numbered
-    title: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY OF THE CONFERENCE
-      ORGANIZATION OF THE SESSION
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY OF THE CONFERENCE ORGANIZATION OF THE SESSION
     outcome: discussed
   - label: '5'
     kind: numbered
-    title: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE
+    title:
+    - spelling: eng
+      value: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE
     outcome: discussed
   - label: '5.1'
     kind: numbered
-    title: Amendment of the Convention
+    title:
+    - spelling: eng
+      value: Amendment of the Convention
     outcome: discussed
   - label: '6'
     kind: numbered
-    title: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS
     outcome: discussed
   - label: '6.1'
     kind: numbered
-    title: SP 25 - Developing Countries
+    title:
+    - spelling: eng
+      value: SP 25 - Developing Countries
     outcome: discussed
   - label: '6.2'
     kind: numbered
-    title: SP 17 - Measurement of pollutants
+    title:
+    - spelling: eng
+      value: SP 17 - Measurement of pollutants
     outcome: discussed
   - label: '6.3'
     kind: numbered
-    title: SP 20 - Prepackaged products
+    title:
+    - spelling: eng
+      value: SP 20 - Prepackaged products
     outcome: discussed
   - label: '6.4'
     kind: numbered
-    title: Creation of a new Secretariat for explosimeters.
+    title:
+    - spelling: eng
+      value: Creation of a new Secretariat for explosimeters.
     outcome: discussed
   - label: '6.5'
     kind: numbered
-    title: Reorganization of SP 18 (Food products).
+    title:
+    - spelling: eng
+      value: Reorganization of SP 18 (Food products).
     outcome: discussed
   - label: '6.6'
     kind: numbered
-    title: BIML proposal concerning the state of progress with certain activities
+    title:
+    - spelling: eng
+      value: BIML proposal concerning the state of progress with certain activities
     outcome: discussed
   - label: '7'
     kind: numbered
-    title: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS
+    title:
+    - spelling: eng
+      value: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS
     outcome: discussed
   - label: '7.1'
     kind: numbered
-    title: New adoption procedures and new appellation
+    title:
+    - spelling: eng
+      value: New adoption procedures and new appellation
     outcome: adopted
   - label: '8'
     kind: numbered
-    title: BUREAU PERSONNEL
+    title:
+    - spelling: eng
+      value: BUREAU PERSONNEL
     outcome: discussed
   - label: '9'
     kind: numbered
-    title: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
     outcome: discussed
   - label: '9.1'
     kind: numbered
-    title: Composition of Reporting Secretariats
+    title:
+    - spelling: eng
+      value: Composition of Reporting Secretariats
     outcome: discussed
   - label: '9.2'
     kind: numbered
-    title: Development Council (Financial Code)
+    title:
+    - spelling: eng
+      value: Development Council (Financial Code)
     outcome: discussed
   - label: '9.3'
     kind: numbered
-    title: Report on the work of the "OIML Mark" ad hoc group
+    title:
+    - spelling: eng
+      value: Report on the work of the "OIML Mark" ad hoc group
     outcome: discussed
   - label: '10'
     kind: numbered
-    title: ORGANIZATION OF TECHNICAL SEMINARS
+    title:
+    - spelling: eng
+      value: ORGANIZATION OF TECHNICAL SEMINARS
     outcome: discussed
   - label: '11'
     kind: numbered
-    title: OIML LOGO
+    title:
+    - spelling: eng
+      value: OIML LOGO
     outcome: discussed
   - label: '12'
     kind: numbered
-    title: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL
+    title:
+    - spelling: eng
+      value: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL
     outcome: discussed
   - label: '13'
     kind: numbered
-    title: REPORT ON BIML ACTIVITIES
+    title:
+    - spelling: eng
+      value: REPORT ON BIML ACTIVITIES
     outcome: discussed
   - label: '14'
     kind: aob
-    title: ANY OTHER BUSINESS
+    title:
+    - spelling: eng
+      value: ANY OTHER BUSINESS
     outcome: discussed
   - label: '15'
     kind: closing
-    title: DATE AND PLACE OF THE NEXT MEETING
+    title:
+    - spelling: eng
+      value: DATE AND PLACE OF THE NEXT MEETING
     outcome: discussed
   - label: '16'
     kind: numbered
-    title: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY
+    title:
+    - spelling: eng
+      value: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY
     outcome: discussed
 decisions:
-- identifier:
-  - prefix: CIML
-    number: 1980/1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198001
-  urn: urn:oiml:doc:ciml:resolution:1980-01
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: APPROVAL OF MINUTES OF THE 16th MEETING OF THE COMMITTEE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The minutes were approved without modification.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198002
-  urn: urn:oiml:doc:ciml:resolution:1980-02
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: FINANCIAL SITUATION
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/2.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19802.1
-  urn: urn:oiml:doc:ciml:resolution:1980-2.1
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Approval of the Accountants' Reports for 1978 and 1979
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'These reports were adopted, prior to their presentation to the Conference.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/2.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19802.2
-  urn: urn:oiml:doc:ciml:resolution:1980-2.2
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Examination of the draft "Financial Code"
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'It was recalled that the Committee had adopted, in 1962 and in accordance
-        with Article XXVII of the Convention, a "Financial Code" which was subsequently
-        found to be difficult to apply in all its details.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198003
-  urn: urn:oiml:doc:ciml:resolution:1980-03
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: EXAMINATION OF CERTAIN QUESTIONS PRIOR TO THE MEETING OF THE CONFERENCE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/3.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19803.1
-  urn: urn:oiml:doc:ciml:resolution:1980-3.1
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Scale of salaries for BIML staff
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The last modification to the scale of salaries for BIML staff was made
-        in July 1975, in order to realign the progression of salaries for BIML staff,
-        both with those of personnel employed by the International Bureau of Weights
-        and Measures (BIPM) and by the French Administration.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/4
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198004
-  urn: urn:oiml:doc:ciml:resolution:1980-04
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: EXAMINATION OF THE AGENDA FOR THE CONFERENCE - PRESIDENCY OF THE CONFERENCE
-      ORGANIZATION OF THE SESS…
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee expressed its agreement on the proposed agenda and time
-        table for the Conference.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/5
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198005
-  urn: urn:oiml:doc:ciml:resolution:1980-05
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: EXAMINATION OF CERTAIN ITEMS OF THE WORK OF THE CONFERENCE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/5.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19805.1
-  urn: urn:oiml:doc:ciml:resolution:1980-5.1
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Amendment of the Convention
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee expressed its agreement for a draft resolution to be presented
-        for examination by the Conference, whereby the Convention should not be modified
-        for the present.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198006
-  urn: urn:oiml:doc:ciml:resolution:1980-06
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: EXAMINATION OF THE SITUATION OF CERTAIN SECRETARIATS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19806.1
-  urn: urn:oiml:doc:ciml:resolution:1980-6.1
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: SP 25 - Developing Countries
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee expressed its agreement in principle with the proposals
-        of the BIML, which could be studied in greater detail at the next meeting
-        of the Development Council.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19806.2
-  urn: urn:oiml:doc:ciml:resolution:1980-6.2
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: SP 17 - Measurement of pollutants
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee expressed its agreement in principle concerning the creation
-        of the five proposed Reporting Secretariats. It agreed that responsibility
-        for Sr 1 and Sr 3 should be taken over by the Federal Republic of Germany
-        and United Kingdom (subject to confirmation), respectively. It charged the
-        U.S.A. with organizing the first meeting of this Pilot Secretariat in 1981,
-        to settle all problems of detail and ensure rapid commencement of the work.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19806.3
-  urn: urn:oiml:doc:ciml:resolution:1980-6.3
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: SP 20 - Prepackaged products
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee expressed its agreement in principle with this proposal,
-        and thanked Mr PERLSTAIN for taking over responsibility for Reporting Secretariat
-        N which in fact would be identical to Secretariat SP 2-Sr 5 "Sample testing",
-        for which Switzerland is already responsible.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6.4
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19806.4
-  urn: urn:oiml:doc:ciml:resolution:1980-6.4
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Creation of a new Secretariat for explosimeters.
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'This Reporting Secretariat, created on the proposal of France, and for
-        which France is responsible, comes under Pilot Secretariat 30. France was
-        requested to carry out work in this field, which could be undertaken by the
-        ISO, IEC or other institutions. A certain number of CIML members expressed
-        their interest in princi in collaboration with this Reporting Secretariat,
-        subject to confirmation by their respective national administrations.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6.5
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19806.5
-  urn: urn:oiml:doc:ciml:resolution:1980-6.5
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Reorganization of SP 18 (Food products).
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The BIML indicated that this reorganization was still being discussed
-        by Franc the Federal Republic of Germany and the United Kingdom, and that
-        proposals would be presented to the Committee at a later date.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/6.6
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19806.6
-  urn: urn:oiml:doc:ciml:resolution:1980-6.6
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: BIML proposal concerning the state of progress with certain activities
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr THULIN presented an analysis covering the activities of certain Secretariat
-        the work of which should be accelerated as far as possible, due to the particular
-        importance of same. Generally, this concerns relatively new metrological subjects
-        for which national regulations have not yet been established in many cases,
-        altho many metrology services are beginning to work on these questions.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/7
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198007
-  urn: urn:oiml:doc:ciml:resolution:1980-07
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: EXAMINATION OF DRAFT INTERNATIONAL DOCUMENTS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/7.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19807.1
-  urn: urn:oiml:doc:ciml:resolution:1980-7.1
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: New adoption procedures and new appellation
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee expressed its agreement with proposals put forward by
-        the BIML, aimed at simplifying and accelerating the procedure for adoption
-        of international documents. The new procedure is as follows:
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/8
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198008
-  urn: urn:oiml:doc:ciml:resolution:1980-08
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: BUREAU PERSONNEL
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee set up a Commission for the purpose of examining the following
-        candidatures, for the posts of Assistant Director and Engineer :
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee then adopted the following two draft resolutions presented
-        by the Commission, by secret vote. The first draft was adopted by 29 votes
-        in favour and 2 blank votes, and the second by 27 votes in favour, 1 vote
-        against and 2 abstentions.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/9
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198009
-  urn: urn:oiml:doc:ciml:resolution:1980-09
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: IMPLEMENTATION OF THE DECISIONS OF THE CONFERENCE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/9.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19809.1
-  urn: urn:oiml:doc:ciml:resolution:1980-9.1
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Composition of Reporting Secretariats
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Following the decision of the Conference concerning the creation of
-        "collaborator-observers", the Bureau was charged with pursuing investigations
-        in connection with the enrolment of Member States in this new category, and
-        with publishing a new version of the document : "Composition of OIML Reporting
-        Secretariats", early in 1981.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/9.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19809.2
-  urn: urn:oiml:doc:ciml:resolution:1980-9.2
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Development Council (Financial Code)
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Following the adoption by the Conference, of a resolution concerning
-        the creation, and terms of reference of the Development Council, the Committee
-        adopts in principle the draft regulation, concerning the attribution of OIML
-        financial aid for "participation in the meetings of the Development Council",
-        as follows:
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/9.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19809.3
-  urn: urn:oiml:doc:ciml:resolution:1980-9.3
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Report on the work of the "OIML Mark" ad hoc group
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'This report was presented to the Conference
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/10
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198010
-  urn: urn:oiml:doc:ciml:resolution:1980-10
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: ORGANIZATION OF TECHNICAL SEMINARS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr THULIN summarized the general content of the report, issued following
-        an investigation carried out early in 1980, which showed that many Member
-        States are interested in the proposal made by the BIML, concerning attempts
-        to organize technical seminars on a certain number of subjects, the more important
-        of which are as follows:
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/11
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198011
-  urn: urn:oiml:doc:ciml:resolution:1980-11
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: OIML LOGO
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr THULIN summarized the results of an investigation conducted by the
-        BIM concerning a representative logo for the Organization, which could be
-        used on letter headings, the cover of published documents, etc..
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/12
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198012
-  urn: urn:oiml:doc:ciml:resolution:1980-12
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: SIGNIFICANCE OF NATIONAL MARKS OF METROLOGICAL CONTROL
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The investigation conducted by the BIML is being pursued, and it is
-        anticipated that the results of same will be published early in 1981, possibly
-        in temporary form prior to publication in more detail.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/13
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198013
-  urn: urn:oiml:doc:ciml:resolution:1980-13
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: REPORT ON BIML ACTIVITIES
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'A report summarizing the main points of BIML activity since the last
-        meeting of the Committee in June 1978, was distributed to the participants.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/14
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198014
-  urn: urn:oiml:doc:ciml:resolution:1980-14
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: ANY OTHER BUSINESS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Bureau presented a short report on the utilization of the English
-        language, and the Committee expressed no objections to the plan, to be operated
-        on an experimental basis for a period of two years, whereby the relatively
-        modest overheads, resulting from the preparation of documents by the BIML
-        systematically in French and English, are to be covered by the ordinary budget
-        of the OIML, provided that special translation work, executed at the request
-        of certain Member States concerned, will continue to be covered by the special
-        budget of the Translation Centre.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/15
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198015
-  urn: urn:oiml:doc:ciml:resolution:1980-15
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: DATE AND PLACE OF THE NEXT MEETING
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Certain Members of the Committee had advised the BIML of their intention
-        to invite the Committee to meet in their countries at a later date, and it
-        was decided to await firm proposals, before establishing the calendar for
-        the next meetings $ ^{*} $
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1980/16
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198016
-  urn: urn:oiml:doc:ciml:resolution:1980-16
-  agenda_item:
-  dates:
-  - date: '1980-06-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: PRESIDENCY OF THE INTERNATIONAL COMMITTEE OF LEGAL METROLOGY
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has adopted the report of its sixteenth meeting.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has adopted the accountants reports for 1978 and 1979
-        as well as the draft "Financial Code".
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has adopted a new scale of salaries of the BIML staff.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has accepted the draft general working plan presented
-        by the U.S.A. and reproduced hereafter, asking the Pilot Secretariat for meeting
-        as quickly as possible in order to fix the detailed working programme.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has accepted the draft general working plan presented
-        by the U.S.A. and reproduced hereafter.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has accepted the creation of Secretariat SP 30-Sr 12 "Explosimeters"
-        on the responsibility of France.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has accepted a proposal from the Bureau relating to a
-        simplification of the mode of acceptance of International Documents and has
-        requested the Bureau to study the possibility of modifying the denomination
-        of these Documents.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has adopted the draft International Document "Installation
-        and storage conditions for cold water meters".
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has adopted for your guidance the Code hereafter relating
-        to allocation of OIML financial aid for the participation in the meetings
-        of the Development Council.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee agreed that the Bureau continues its efforts in view of
-        organizing, if possible in 1981, a first technical seminary, on one of the
-        subjects to which all Member States have given priority.
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee has elected, for a six years period, as President and
-        first and second Vice-presidents :
-
-        '
-    dates:
-    - start: '1980-06-16'
-      kind: effective
-  approvals: []
-  considerations: []
+- prefix: CIML
+  number: 1980/1
+- prefix: CIML
+  number: 1980/2
+- prefix: CIML
+  number: 1980/2.1
+- prefix: CIML
+  number: 1980/2.2
+- prefix: CIML
+  number: 1980/3
+- prefix: CIML
+  number: 1980/3.1
+- prefix: CIML
+  number: 1980/4
+- prefix: CIML
+  number: 1980/5
+- prefix: CIML
+  number: 1980/5.1
+- prefix: CIML
+  number: 1980/6
+- prefix: CIML
+  number: 1980/6.1
+- prefix: CIML
+  number: 1980/6.2
+- prefix: CIML
+  number: 1980/6.3
+- prefix: CIML
+  number: 1980/6.4
+- prefix: CIML
+  number: 1980/6.5
+- prefix: CIML
+  number: 1980/6.6
+- prefix: CIML
+  number: 1980/7
+- prefix: CIML
+  number: 1980/7.1
+- prefix: CIML
+  number: 1980/8
+- prefix: CIML
+  number: 1980/9
+- prefix: CIML
+  number: 1980/9.1
+- prefix: CIML
+  number: 1980/9.2
+- prefix: CIML
+  number: 1980/9.3
+- prefix: CIML
+  number: 1980/10
+- prefix: CIML
+  number: 1980/11
+- prefix: CIML
+  number: 1980/12
+- prefix: CIML
+  number: 1980/13
+- prefix: CIML
+  number: 1980/14
+- prefix: CIML
+  number: 1980/15
+- prefix: CIML
+  number: 1980/16
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-17-eng
-  script: Latn
   spelling: eng
 title:
 - spelling: eng

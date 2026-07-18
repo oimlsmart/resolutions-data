@@ -1,0 +1,19 @@
+# BodyRegister — authoritative register of bodies that own
+# OIML meetings and decisions.
+#
+# Inert until ref-resolution lands in the published toolchain;
+# meetings keep their inline `committee:` Body meanwhile. The gem's
+# BodyRegister keys members by `code` (or `ref`).
+---
+scope: oiml
+title:
+- spelling: eng
+  value: OIML body register
+bodies:
+- code: CIML
+  kind: committee
+  name:
+  - spelling: eng
+    value: International Committee of Legal Metrology
+  - spelling: fra
+    value: Comité international de métrologie légale

@@ -6,7 +6,13 @@ urn: urn:oiml:ciml:meeting:ciml-21
 ordinal: 21
 type: plenary
 status: completed
-committee: International Committee of Legal Metrology (CIML)
+committee:
+  code: CIML
+  name:
+  - spelling: eng
+    value: International Committee of Legal Metrology (CIML)
+  - spelling: fra
+    value: Comité international de métrologie légale (CIML)
 general_area:
 - spelling: eng
   value: Paris, France
@@ -22,1371 +28,263 @@ agenda:
   items:
   - label: '1'
     kind: numbered
-    title: APPROVAL OF THE REPORT ON THE 20TH COMMITTEE MEETING
+    title:
+    - spelling: eng
+      value: APPROVAL OF THE REPORT ON THE 20TH COMMITTEE MEETING
     outcome: adopted
   - label: '2'
     kind: numbered
-    title: MEMBER STATES AND CORRESPONDING MEMBERS
+    title:
+    - spelling: eng
+      value: MEMBER STATES AND CORRESPONDING MEMBERS
     outcome: discussed
   - label: '2.1'
     kind: numbered
-    title: New accessions-Anticipated accessions
+    title:
+    - spelling: eng
+      value: New accessions-Anticipated accessions
     outcome: discussed
   - label: '2.2'
     kind: numbered
-    title: Examination of the situation of some Member States or Corresponding Members
+    title:
+    - spelling: eng
+      value: Examination of the situation of some Member States or Corresponding Members
     outcome: discussed
   - label: '3'
     kind: numbered
-    title: FINANCIAL SITUATION
+    title:
+    - spelling: eng
+      value: FINANCIAL SITUATION
     outcome: discussed
   - label: '3.1'
     kind: numbered
-    title: Approval of the accountant report for 1984
+    title:
+    - spelling: eng
+      value: Approval of the accountant report for 1984
     outcome: adopted
   - label: '3.2'
     kind: numbered
-    title: Examination of the accountant report for 1985
+    title:
+    - spelling: eng
+      value: Examination of the accountant report for 1985
     outcome: discussed
   - label: '3.3'
     kind: numbered
-    title: Examination of the financial estimates for 1986
+    title:
+    - spelling: eng
+      value: Examination of the financial estimates for 1986
     outcome: discussed
   - label: '4'
     kind: numbered
-    title: BUREAU STAFF
+    title:
+    - spelling: eng
+      value: BUREAU STAFF
     outcome: discussed
   - label: '4.1'
     kind: numbered
-    title: Examination of posts for which contracts expire in the near future
+    title:
+    - spelling: eng
+      value: Examination of posts for which contracts expire in the near future
     outcome: discussed
   - label: '4.2'
     kind: numbered
-    title: BIML staff regulations - General information and examination of individual
-      cases
+    title:
+    - spelling: eng
+      value: BIML staff regulations - General information and examination of individual cases
     outcome: discussed
   - label: '4.3'
     kind: numbered
-    title: OIML retirement plan
+    title:
+    - spelling: eng
+      value: OIML retirement plan
     outcome: discussed
   - label: '5'
     kind: numbered
-    title: IMPLEMENTATION OF THE DECISIONS OF THE 7th CONFERENCE
+    title:
+    - spelling: eng
+      value: IMPLEMENTATION OF THE DECISIONS OF THE 7th CONFERENCE
     outcome: discussed
   - label: '6'
     kind: numbered
-    title: PLANNING OF WORK
+    title:
+    - spelling: eng
+      value: PLANNING OF WORK
     outcome: discussed
   - label: '6.1'
     kind: numbered
-    title: EXAMINATION OF THE 1985-1988 DRAFT WORK PROGRAMMES
+    title:
+    - spelling: eng
+      value: EXAMINATION OF THE 1985-1988 DRAFT WORK PROGRAMMES
     outcome: discussed
   - label: '6.2'
     kind: numbered
-    title: Adoption of the final work programmes
+    title:
+    - spelling: eng
+      value: Adoption of the final work programmes
     outcome: adopted
   - label: '6.3'
     kind: numbered
-    title: Directives for future planning
+    title:
+    - spelling: eng
+      value: Directives for future planning
     outcome: discussed
   - label: '7'
     kind: numbered
-    title: WORK OF SECRETARIATS
+    title:
+    - spelling: eng
+      value: WORK OF SECRETARIATS
     outcome: discussed
   - label: '7.1'
     kind: numbered
-    title: 'Examination of the state of progress of the work :'
+    title:
+    - spelling: eng
+      value: 'Examination of the state of progress of the work :'
     outcome: discussed
   - label: '7.2'
     kind: numbered
-    title: Provisional adoption of draft International Recommendations
+    title:
+    - spelling: eng
+      value: Provisional adoption of draft International Recommendations
     outcome: adopted
   - label: '7.3'
     kind: numbered
-    title: Different types of OIML publications
+    title:
+    - spelling: eng
+      value: Different types of OIML publications
     outcome: discussed
   - label: '8'
     kind: numbered
-    title: ROLE AND RESPONSIBILITY OF CIML MEMBERS
+    title:
+    - spelling: eng
+      value: ROLE AND RESPONSIBILITY OF CIML MEMBERS
     outcome: discussed
   - label: '9'
     kind: numbered
-    title: DEVELOPING COUNTRIES
+    title:
+    - spelling: eng
+      value: DEVELOPING COUNTRIES
     outcome: discussed
   - label: '10'
     kind: numbered
-    title: RELATIONS WITH OTHER INTERNATIONAL INSTITUTIONS
+    title:
+    - spelling: eng
+      value: RELATIONS WITH OTHER INTERNATIONAL INSTITUTIONS
     outcome: discussed
   - label: '11'
     kind: numbered
-    title: OIML BULLETIN
+    title:
+    - spelling: eng
+      value: OIML BULLETIN
     outcome: discussed
   - label: '12'
     kind: numbered
-    title: OIML SEMINARS
+    title:
+    - spelling: eng
+      value: OIML SEMINARS
     outcome: discussed
   - label: '13'
     kind: numbered
-    title: OIML CERTIFICATION
+    title:
+    - spelling: eng
+      value: OIML CERTIFICATION
     outcome: discussed
   - label: '13.1'
     kind: numbered
-    title: Various activities
+    title:
+    - spelling: eng
+      value: Various activities
     outcome: discussed
   - label: '13.3'
     kind: numbered
-    title: Directives for future activities
+    title:
+    - spelling: eng
+      value: Directives for future activities
     outcome: discussed
   - label: '14'
     kind: numbered
-    title: REPORT ON ACTIVITY OF BIML
+    title:
+    - spelling: eng
+      value: REPORT ON ACTIVITY OF BIML
     outcome: discussed
   - label: '15'
     kind: numbered
-    title: PREPARATION OF THE 8TH CONFERENCE
+    title:
+    - spelling: eng
+      value: PREPARATION OF THE 8TH CONFERENCE
     outcome: discussed
   - label: '16'
     kind: numbered
-    title: PREPARATION OF THE 22nd COMMITTEE MEETING
+    title:
+    - spelling: eng
+      value: PREPARATION OF THE 22nd COMMITTEE MEETING
     outcome: discussed
 decisions:
-- identifier:
-  - prefix: CIML
-    number: 1986/1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198601
-  urn: urn:oiml:doc:ciml:resolution:1986-01
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: APPROVAL OF THE REPORT ON THE 20TH COMMITTEE MEETING
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The report is approved without modification.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198602
-  urn: urn:oiml:doc:ciml:resolution:1986-02
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: MEMBER STATES AND CORRESPONDING MEMBERS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/2.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19862.1
-  urn: urn:oiml:doc:ciml:resolution:1986-2.1
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: New accessions-Anticipated accessions
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'After Mr. BIRKELAND has recalled the accession of the People''s Republic
-        of CHINA, in April 1985, Mr. ATHANE indicates that several countries have
-        contacted BIML with the intention of joining OIML, in particular PORTUGAL
-        and SAUDI ARABIA. Other countries intend to join as Corresponding Members.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/2.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19862.2
-  urn: urn:oiml:doc:ciml:resolution:1986-2.2
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Examination of the situation of some Member States or Corresponding Members
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE indicates that he made final contact with FIDJI and JAMAICA,
-        Corresponding Members who have not paid their subscriptions. No reaction followed
-        and, in conformity with the 7th Conference, these two Corresponding Members
-        are considered to be in suspension ]. All correspondence and dispatch of documentation
-        has stopped between the Bureau and the two countries who could be reinstated
-        if they pay the amounts due.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198603
-  urn: urn:oiml:doc:ciml:resolution:1986-03
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: FINANCIAL SITUATION
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/3.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19863.1
-  urn: urn:oiml:doc:ciml:resolution:1986-3.1
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Approval of the accountant report for 1984
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'No comment was received on this report and the report is adopted by
-        the Committee, who instructs its President and the Director of the Bureau
-        to submit it to the 8th Conference.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/3.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19863.2
-  urn: urn:oiml:doc:ciml:resolution:1986-3.2
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Examination of the accountant report for 1985
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE presents this report which was sent to the Committee Members
-        too late to be examined by the financial Authorities of the Member States
-        and to be adopted by the Committee in session.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/3.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19863.3
-  urn: urn:oiml:doc:ciml:resolution:1986-3.3
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Examination of the financial estimates for 1986
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE presents these estimates which were already submitted to
-        the Committee Members by correspondence. It appears that the actual expenses
-        for most of the budgetary lines, will be equal to or even less than the amounts
-        authorized by the 7th Conference if recalculated to take into account the
-        reduced inflation in France. For certain budgetary lines corresponding to
-        the expenses which are not evenly distributed over the four years of the financial
-        period, the comparison is not so easy and certain of those which exceed the
-        authorization are explained. It is evident however than the receipts are noticeably
-        greater than estimated by the Conference.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/4
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198604
-  urn: urn:oiml:doc:ciml:resolution:1986-04
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: BUREAU STAFF
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/4.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19864.1
-  urn: urn:oiml:doc:ciml:resolution:1986-4.1
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Examination of posts for which contracts expire in the near future
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'On the proposal of Mr. BIRKELAND, the Committee accepts the request
-        of the Hungarian Authorities and of Mr. Petik to extend his contract for a
-        period of two years starting from the end of his current contract.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/4.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19864.2
-  urn: urn:oiml:doc:ciml:resolution:1986-4.2
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: BIML staff regulations - General information and examination of individual
-      cases
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE recalls that the BIML staff regulations were adopted by the
-        Committee in 1972 (replacing the former regulations) and were then modified
-        several times. The Bureau has the intention to update and to publish these
-        regulations.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/4.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19864.3
-  urn: urn:oiml:doc:ciml:resolution:1986-4.3
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: OIML retirement plan
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE gives reasons for which the Committee is requested to modify
-        two articles of the rules of OIML retirement plan, so that the interests produced
-        by the moneys of the retirement fund be transferred into the general OIML
-        budget, and not into the retirement fund :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/5
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198605
-  urn: urn:oiml:doc:ciml:resolution:1986-05
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: IMPLEMENTATION OF THE DECISIONS OF THE 7th CONFERENCE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE recalls the decisions of the 7th Conference and summarizes
-        the actions taken in consequence, which allows Mr. BIRKELAND to conclude that
-        their implementation is correctly carried out.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/6
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198606
-  urn: urn:oiml:doc:ciml:resolution:1986-06
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: PLANNING OF WORK
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/6.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19866.1
-  urn: urn:oiml:doc:ciml:resolution:1986-6.1
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: EXAMINATION OF THE 1985-1988 DRAFT WORK PROGRAMMES
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: instructs
-    message:
-    - spelling: eng
-      value: 'The Committee instructs the Presidential Council to examine the situation
-        of the following Secretariats :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/6.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19866.2
-  urn: urn:oiml:doc:ciml:resolution:1986-6.2
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Adoption of the final work programmes
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'At the conclusion of this examination the Committee adopts the following
-        resolution:
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/6.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19866.3
-  urn: urn:oiml:doc:ciml:resolution:1986-6.3
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Directives for future planning
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'In order to guide the Secretariats and the Bureau in their future planning
-        activities the Committee adopts the following resolution:
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/7
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198607
-  urn: urn:oiml:doc:ciml:resolution:1986-07
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: WORK OF SECRETARIATS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/7.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19867.1
-  urn: urn:oiml:doc:ciml:resolution:1986-7.1
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: 'Examination of the state of progress of the work :'
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. TURSKI presents in turn :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/7.2
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19867.2
-  urn: urn:oiml:doc:ciml:resolution:1986-7.2
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Provisional adoption of draft International Recommendations
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Two draft Recommendations are submitted for adoption (provisional) by
-        the Committee in order to permit their publication before submission to the
-        8th Conference for definitive sanction, possibly after they have been completed
-        or improved.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/7.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml19867.3
-  urn: urn:oiml:doc:ciml:resolution:1986-7.3
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Different types of OIML publications
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. EDGERLY indicates that this question was broached by the Presidential
-        Council and that the Council instructed him to present a study on this subject
-        to the Committee. He presents a summary of this study with the following conclusions:
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/8
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198608
-  urn: urn:oiml:doc:ciml:resolution:1986-08
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: ROLE AND RESPONSIBILITY OF CIML MEMBERS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE indicates that this brochure is in the process of being published
-        and will be distributed shortly after the Committee meeting.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/9
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198609
-  urn: urn:oiml:doc:ciml:resolution:1986-09
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: DEVELOPING COUNTRIES
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'the Committee meeting. Mr. GOMEZ ROSELL requests Mr. THULIN, who assisted
-        in the preparation and the secretariat of the Development Council meeting,
-        to give a summary of this report.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/10
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198610
-  urn: urn:oiml:doc:ciml:resolution:1986-10
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: RELATIONS WITH OTHER INTERNATIONAL INSTITUTIONS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: "## a) ISO TAG 4\n"
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/11
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198611
-  urn: urn:oiml:doc:ciml:resolution:1986-11
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: OIML BULLETIN
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. THULIN presents to the Committee an oral report on the situation
-        of the Bulletin :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/12
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198612
-  urn: urn:oiml:doc:ciml:resolution:1986-12
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: OIML SEMINARS
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. THULIN recalls that after the success of the first two OIML seminars
-        (electronics in Boras, and control of prepackages in Bern), a third seminar
-        was organized in Paris on bulk weighing. For the first time, two languages
-        were used, French and English, with simultaneous translation. This seminar
-        organized with the assistance of the French Administration and the Federation
-        of Weighing Instruments Manufactures, has brought together more than 100 participants
-        and was a great success.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/13
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198613
-  urn: urn:oiml:doc:ciml:resolution:1986-13
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: OIML CERTIFICATION
-  subject:
-  - spelling: eng
-    value: CIML
-  actions: []
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/13.1
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198613.1
-  urn: urn:oiml:doc:ciml:resolution:1986-13.1
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Various activities
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. PETIK recalls that the question of mutual recognition of metrological
-        controls started to be studied about 10 years ago. An ad hoc group was instructed
-        to study the methods of operation of an OIML certification system. At the
-        end of the work of this ad hoc group the Committee noted that for economic
-        and political reasons beyond its control such a system could not be set up
-        at present. Waiting for this to become possible, SP2-Sr4 under the responsibility
-        of the Bureau was instructed to study the possibility of punctual actions
-        which could favor the eventual setting up of an OIML certification system.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/13.3
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198613.3
-  urn: urn:oiml:doc:ciml:resolution:1986-13.3
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: Directives for future activities
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. ATHANE recalls that one of the actions proposed by SP 2-Sr4 (reference
-        to OIML in the national pattern approval decisions) was not accepted by the
-        Committee and it may therefore be appropriate to reflect on this subject.
-        Furthermore, it may be appropriate to examine the possibility of a common
-        action with IEC and ISO whenever there exist simultaneous OIML RI''s/DI''s
-        and ISO/IEC Standards for the same category of instruments. BIPM could also
-        be associated whenever certification is based on measurement standards traceable
-        to those of BIPM.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/14
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198614
-  urn: urn:oiml:doc:ciml:resolution:1986-14
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: REPORT ON ACTIVITY OF BIML
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'A report covering the activity of BIML between October 1984 and March
-        1986 was distributed to the participants.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/15
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198615
-  urn: urn:oiml:doc:ciml:resolution:1986-15
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: PREPARATION OF THE 8TH CONFERENCE
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'Mr. HARVEY confirms the invitation of the Australian Government for
-        October 1988. The year 1988 is a very significant year since it commemorates
-        the bicentary of European settlement in Australia. As indicated in 1984 by
-        Mr. PETRY, the former Committee Member for Australia, arrangements have already
-        been made for the period from 24 to 28 October 1988 (hotel reservations and
-        conference room, receptions, lunches for the delegates, etc.). At the same
-        time, the problems of translation, of secretariats and of technical visits
-        is being studied and information on touristic programmes will also be given
-        to the delegates and accompanying persons.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
-- identifier:
-  - prefix: CIML
-    number: 1986/16
-  kind: resolution
-  status: decided
-  doi: 10.63493/resolutions/ciml198616
-  urn: urn:oiml:doc:ciml:resolution:1986-16
-  agenda_item:
-  dates:
-  - date: '1986-04-16'
-    type: decision
-  categories: []
-  title:
-  - spelling: eng
-    value: PREPARATION OF THE 22nd COMMITTEE MEETING
-  subject:
-  - spelling: eng
-    value: CIML
-  actions:
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee is in agreement with the proposal of Mr. BIRKELAND to
-        hold the next Committee meeting in Paris, September 1987.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee indicates its agreement by acclamation and Messrs BIRKELAND
-        and ISSAEV return to their places at the Presidential table.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'The Committee approved the report of the 20th CIML meeting without modification.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report on the anticipated accessions
-        of new Member States and Corresponding Members, as well as on the situation
-        of two Corresponding Members (Fiji and Jamaica) considered as no longer being
-        part of the Organization because of non-payment of their subscriptions.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: approves
-    message:
-    - spelling: eng
-      value: 'The Committee approved the accountant report for 1984 and instructed
-        its President and the Director of the Bureau to submit it to the Eighth Conference.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the accountant report for 1985 and instructed
-        its President and the Director of the Bureau to submit it for approval during
-        the 22nd CIML meeting.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the financial estimates for 1986.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee extended the contract of Mr PETIK, Assistant Director,
-        for 2 years. In addition, it took note of the information concerning the replacement
-        for Mr TURSKI, Consultant Engineer, who will take his retirement in March
-        1987.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: decides
-    message:
-    - spelling: eng
-      value: 'The Committee decided :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: decides
-    message:
-    - spelling: eng
-      value: 'The Committee decided to modify the detailed rules of the retirement
-        plan as follows:
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report on the implementation of the decisions
-        of the Seventh Conference.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee provisionally adopted two draft International Recommendations
-        :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: instructs
-    message:
-    - spelling: eng
-      value: 'The Committee instructed the Presidential Council to study the problems
-        of different categories of OIML publications, on the basis of the proposals
-        presented by Mr EDGERLY, and also the problems concerning the OIML vocabularies
-        on the basis of the proposals presented by Mr PODGORSKI.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report on the publication of the brochure:
-        《 Guide for CIML Members 》。
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report presented by the Chairman of the
-        Development Council and approved the draft work program for 1986-1988.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the reports on the relations between OIML
-        and various International and Regional Institutions and requested the Bureau
-        to continue its activities in this field.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of and expressed its satisfaction with the report
-        on the OIML Bulletin and encouraged the Bureau to continue its efforts.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of and expressed its satisfaction with the information
-        on the technical seminar held in April 1985 and the intentions of the Bureau
-        to organize another seminar in 1987.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee adopted the International Document "Guidelines for bi-
-        and multilateral arrangements on the recognition of : test results - pattern
-        approvals - verifications ".
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: instructs
-    message:
-    - spelling: eng
-      value: 'The Committee instructed the Pesidential Council to follow the developments
-        in the field of certification, on the basis of studies carried out by SP 2-Sr
-        4, and to report on this matter during the next CIML meeting.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report on the activities of the Bureau
-        during the period October 1984 - March 1986.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee took note of the report presented by the Delegation of
-        Australia and the Bureau on the preparations for the Eighth Conference, which
-        will take place in Sydney from 24 to 28 October 1988.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: decides
-    message:
-    - spelling: eng
-      value: 'The Committee decided that the 22nd meeting will take place in Paris,
-        September 1987.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee re-elected for a 6-year period :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee elected for a 6-year period :
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  - type: notes
-    message:
-    - spelling: eng
-      value: 'The Committee nominated as Honorary Members : Mr. W. MUHE, Fed. Rep.
-        of Germany Mr. H.W. LIERS, German Dem. Rep.
-
-        '
-    dates:
-    - start: '1986-04-16'
-      kind: effective
-  approvals: []
-  considerations: []
+- prefix: CIML
+  number: 1986/1
+- prefix: CIML
+  number: 1986/2
+- prefix: CIML
+  number: 1986/2.1
+- prefix: CIML
+  number: 1986/2.2
+- prefix: CIML
+  number: 1986/3
+- prefix: CIML
+  number: 1986/3.1
+- prefix: CIML
+  number: 1986/3.2
+- prefix: CIML
+  number: 1986/3.3
+- prefix: CIML
+  number: 1986/4
+- prefix: CIML
+  number: 1986/4.1
+- prefix: CIML
+  number: 1986/4.2
+- prefix: CIML
+  number: 1986/4.3
+- prefix: CIML
+  number: 1986/5
+- prefix: CIML
+  number: 1986/6
+- prefix: CIML
+  number: 1986/6.1
+- prefix: CIML
+  number: 1986/6.2
+- prefix: CIML
+  number: 1986/6.3
+- prefix: CIML
+  number: 1986/7
+- prefix: CIML
+  number: 1986/7.1
+- prefix: CIML
+  number: 1986/7.2
+- prefix: CIML
+  number: 1986/7.3
+- prefix: CIML
+  number: 1986/8
+- prefix: CIML
+  number: 1986/9
+- prefix: CIML
+  number: 1986/10
+- prefix: CIML
+  number: 1986/11
+- prefix: CIML
+  number: 1986/12
+- prefix: CIML
+  number: 1986/13
+- prefix: CIML
+  number: 1986/13.1
+- prefix: CIML
+  number: 1986/13.3
+- prefix: CIML
+  number: 1986/14
+- prefix: CIML
+  number: 1986/15
+- prefix: CIML
+  number: 1986/16
 minutes:
 - urn: urn:oiml:ciml:minutes:ciml-21-eng
-  script: Latn
   spelling: eng
 title:
 - spelling: eng
