@@ -65,7 +65,7 @@ const OIML_LINKS = {
     <section class="mb-10">
       <h2 class="section-title">{t(lang, 'about.aboutCommittee')}</h2>
       <div class="bg-paper-soft dark:bg-paper-raised border border-rule rounded-lg p-6">
-        <h3 class="font-serif text-xl font-bold text-ink dark:text-paper mb-2">{t(lang, 'committee.title')}</h3>
+        <h3 class="font-serif text-xl font-bold text-ink mb-2">{t(lang, 'committee.title')}</h3>
         <p class="text-ink-soft leading-relaxed mb-6">{t(lang, 'committee.scope')}</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
@@ -145,7 +145,7 @@ resolutions:
                 <li class="flex gap-3">
                   <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent text-white font-mono text-sm font-bold shrink-0">1</span>
                   <div>
-                    <h4 class="font-serif text-base font-semibold text-ink dark:text-paper">{t(lang, 'resolution.considerations')}</h4>
+                    <h4 class="font-serif text-base font-semibold text-ink">{t(lang, 'resolution.considerations')}</h4>
                     <p class="text-sm text-ink-soft leading-relaxed">
                       {lang === 'fr'
                         ? "Le contexte et les antécédents qui ont conduit à la résolution."
@@ -156,7 +156,7 @@ resolutions:
                 <li class="flex gap-3">
                   <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent text-white font-mono text-sm font-bold shrink-0">2</span>
                   <div>
-                    <h4 class="font-serif text-base font-semibold text-ink dark:text-paper">{t(lang, 'resolution.actions')}</h4>
+                    <h4 class="font-serif text-base font-semibold text-ink">{t(lang, 'resolution.actions')}</h4>
                     <p class="text-sm text-ink-soft leading-relaxed">
                       {lang === 'fr'
                         ? "Les décisions elles-mêmes — ce que le comité a résolu de faire."
@@ -167,7 +167,7 @@ resolutions:
                 <li class="flex gap-3">
                   <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-accent text-white font-mono text-sm font-bold shrink-0">3</span>
                   <div>
-                    <h4 class="font-serif text-base font-semibold text-ink dark:text-paper">{t(lang, 'resolution.approvals')}</h4>
+                    <h4 class="font-serif text-base font-semibold text-ink">{t(lang, 'resolution.approvals')}</h4>
                     <p class="text-sm text-ink-soft leading-relaxed">
                       {lang === 'fr'
                         ? "Comment la résolution a été formellement adoptée."
@@ -187,12 +187,12 @@ resolutions:
               </p>
               <ul class="flex flex-col gap-2 list-none p-0">
                 <li class="text-sm text-ink-soft">
-                  <strong class="text-ink dark:text-paper">{lang === 'fr' ? 'CIML :' : 'CIML:'}</strong>{' '}
+                  <strong class="text-ink">{lang === 'fr' ? 'CIML :' : 'CIML:'}</strong>{' '}
                   <code class="font-mono text-xs px-1.5 py-0.5 bg-accent-soft rounded">urn:oiml:doc:ciml:resolution:&lt;year&gt;-&lt;seq&gt;</code>
                   <span class="block mt-1 text-xs text-ink-muted ml-4">{lang === 'fr' ? 'Exemple :' : 'Example:'} <code class="font-mono">urn:oiml:doc:ciml:resolution:2025-44</code></span>
                 </li>
                 <li class="text-sm text-ink-soft">
-                  <strong class="text-ink dark:text-paper">{lang === 'fr' ? 'Conférence :' : 'Conference:'}</strong>{' '}
+                  <strong class="text-ink">{lang === 'fr' ? 'Conférence :' : 'Conference:'}</strong>{' '}
                   <code class="font-mono text-xs px-1.5 py-0.5 bg-accent-soft rounded">urn:oiml:doc:conf:resolution:&lt;session&gt;.&lt;seq&gt;</code>
                   <span class="block mt-1 text-xs text-ink-muted ml-4">{lang === 'fr' ? 'Exemple :' : 'Example:'} <code class="font-mono">urn:oiml:doc:conf:resolution:17.01</code></span>
                 </li>
