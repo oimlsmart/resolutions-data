@@ -27,7 +27,8 @@ function decadeOf(year: string | undefined): number {
   return isNaN(y) ? 0 : Math.floor(y / 10) * 10
 }
 function meetingBody(m: any): string {
-  const c = (m.committee || m.body_type || '').toLowerCase()
+  // committee is an inline Body (1.0) — use its code; tolerate legacy scalars
+  const c = String(m.committee?.code ?? m.committee ?? m.body_type ?? '').toLowerCase()
   if (c.includes('conference') || c.includes('conf')) return 'conference'
   if (c.includes('development council') || c === 'dc') return 'dc'
   return 'ciml'

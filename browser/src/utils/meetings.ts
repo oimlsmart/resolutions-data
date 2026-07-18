@@ -23,7 +23,7 @@ interface MeetingFile {
   }
 }
 
-const MEETINGS_DIR = join(process.cwd(), '..', 'meetings')
+const MEETINGS_DIR = join(process.cwd(), '..', 'edoxen-data', 'meetings')
 
 let cache: MeetingFile[] | null = null
 
