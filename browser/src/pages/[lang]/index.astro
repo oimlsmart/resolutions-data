@@ -122,7 +122,7 @@ const bodies = [...bodySet].sort()
 
       <div class="grid gap-4 [grid-template-columns:repeat(auto-fill,minmax(300px,1fr))]" data-decisions-results>
         {items.map((d, index) => {
-          const title = d.title || safePickLocalizedValue(d.title, lang, d.urn)
+          const title = safePickLocalizedValue(d.title, lang, d.urn)
           const actionType = firstActionTypeOf(d)
           const snippet = snippetOf(d)
           const year = d.dates?.[0]?.date?.slice(0, 4) ?? ''
