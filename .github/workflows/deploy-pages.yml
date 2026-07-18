@@ -41,7 +41,7 @@ jobs:
       - name: Validate meeting YAMLs (edoxen v2 schema)
         run: |
           bundle install
-          bundle exec edoxen validate-meetings 'meetings/*.yaml'
+          bundle exec edoxen validate-meetings 'edoxen-data/meetings/*.yaml'
 
       - name: Validate resolution YAMLs (edoxen v2 schema)
         run: bundle exec edoxen validate 'resolutions/*.yaml'
